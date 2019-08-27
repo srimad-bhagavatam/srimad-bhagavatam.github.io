@@ -1,0 +1,246 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>2.4.22 - The Process of Creation</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+        <link rel="stylesheet" href="custom.css">
+        
+
+        
+    </head>
+    <body class="rust">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme + ' js';
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html">The Process of Creation</a></li><li class="affix"><a href="2.4.2.html">2.4.2</a></li><li class="affix"><a href="2.4.3-4.html">2.4.3-4</a></li><li class="affix"><a href="2.4.5.html">2.4.5</a></li><li class="affix"><a href="2.4.6.html">2.4.6</a></li><li class="affix"><a href="2.4.7.html">2.4.7</a></li><li class="affix"><a href="2.4.8.html">2.4.8</a></li><li class="affix"><a href="2.4.9.html">2.4.9</a></li><li class="affix"><a href="2.4.10.html">2.4.10</a></li><li class="affix"><a href="2.4.11.html">2.4.11</a></li><li class="affix"><a href="2.4.12.html">2.4.12</a></li><li class="affix"><a href="2.4.13.html">2.4.13</a></li><li class="affix"><a href="2.4.14.html">2.4.14</a></li><li class="affix"><a href="2.4.15.html">2.4.15</a></li><li class="affix"><a href="2.4.16.html">2.4.16</a></li><li class="affix"><a href="2.4.17.html">2.4.17</a></li><li class="affix"><a href="2.4.18.html">2.4.18</a></li><li class="affix"><a href="2.4.19.html">2.4.19</a></li><li class="affix"><a href="2.4.20.html">2.4.20</a></li><li class="affix"><a href="2.4.21.html">2.4.21</a></li><li class="affix"><a href="2.4.22.html" class="active">2.4.22</a></li><li class="affix"><a href="2.4.23.html">2.4.23</a></li><li class="affix"><a href="2.4.24.html">2.4.24</a></li><li class="affix"><a href="2.4.25.html">2.4.25</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
+                        </div>
+
+                        <h1 class="menu-title">The Process of Creation</h1>
+
+                        <div class="right-buttons">
+                            <a href="print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h3><a class="header" href="#2422" id="2422">2.4.22</a></h3>
+<p>pracodita yena pura sarasvati</p>
+<p>vitanvatajasya satim smrtim hrdi</p>
+<p>sva-laksana pradurabhut kilasyatah</p>
+<p>sa me rsinam rsabhah prasidatam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>pracodita—inspired; yena—by whom; pura—in the beginning of creation; sarasvati—the goddess of learning; vitanvata—amplified; ajasya—of Brahma, the first created living being; satim smrtim—potent memory; hrdi—in the heart; sva—in his own; laksana—aiming at; pradurabhut—was generated; kila—as if; asyatah—from the mouth; sah—he; me—unto me; rsinam—of the teachers; rsabhah—the chief; prasidatam—be pleased.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>May the Lord, who in the beginning of the creation amplified the potent knowledge of Brahma from within his heart and inspired him with full knowledge of creation and of His own Self, and who appeared to be generated from the mouth of Brahma, be pleased with me.</p>
+<p><strong>PURPORT</strong></p>
+<p>As we have already discussed hereinbefore, the Lord, as the Supersoul of all living beings from Brahma to the insignificant ant, endows all with the required knowledge potent in every living being.</p>
+<p>A living being is sufficiently potent to possess knowledge from the Lord in the proportion of fifty sixty-fourths, or seventy-eight percent of the full knowledge acquirable.</p>
+<p>Since the living being is constitutionally part and parcel of the Lord, he is unable to assimilate all the knowledge that the Lord possesses Himself.</p>
+<p>In the conditioned state, the living being is subject to forget everything after a change of body known as death.</p>
+<p>This potent knowledge is again inspired by the Lord from within the heart of every living being, and it is known as the awakening of knowledge, for it is comparable to awakening from sleep or unconsciousness.</p>
+<p>This awakening of knowledge is under the full control of the Lord, and therefore we find in the practical world different grades of knowledge in different persons.</p>
+<p>This awakening of knowledge is neither an automatic nor a material interaction.</p>
+<p>The supply source is the Lord Himself (dhiyam patih), for even Brahma is also subject to this regulation of the supreme creator.</p>
+<p>In the beginning of the creation, Brahma is born first without any father and mother because before Brahma there were no other living beings.</p>
+<p>Brahma is born from the lotus which grows from the abdomen of the Garbhodakasayi Visnu, and therefore he is known as Aja.</p>
+<p>This Brahma, or Aja, is also a living being, part and parcel of the Lord, but being the most pious devotee of the Lord, Brahma is inspired by the Lord to create, subsequent to the main creation by the Lord, through the agency of material nature.</p>
+<p>Therefore neither the material nature nor Brahma is independent of the Lord.</p>
+<p>The material scientists can merely observe the reactions of the material nature without understanding the direction behind such activities, as a child can see the action of electricity without any knowledge of the powerhouse engineer.</p>
+<p>This imperfect knowledge of the material scientist is due to a poor fund of knowledge.</p>
+<p>The Vedic knowledge was therefore first impregnated within Brahma, and it appears that Brahma distributed the Vedic knowledge.</p>
+<p>Brahma is undoubtedly the speaker of the Vedic knowledge, but actually he was inspired by the Lord to receive such transcendental knowledge, as it directly descends from the Lord.</p>
+<p>The Vedas are therefore called apauruseya, or not imparted by any created being.</p>
+<p>Before the creation the Lord was there (narayanah paro ’vyaktat), and therefore the words spoken by the Lord are vibrations of transcendental sound.</p>
+<p>There is a gulf of difference between the two qualities of sound, namely prakrta and aprakrta.</p>
+<p>The physicist can deal only with the prakrta sound, or sound vibrated in the material sky, and therefore we must know that the Vedic sounds recorded in symbolic expressions cannot be understood by anyone within the universe unless and until one is inspired by the vibration of supernatural (aprakrta) sound, which descends in the chain of disciplic succession from the Lord to Brahma, from Brahma to Narada, from Narada to Vyasa and so on.</p>
+<p>No mundane scholar can translate or reveal the true import of the Vedic mantras (hymns).</p>
+<p>They cannot be understood unless one is inspired or initiated by the authorized spiritual master.</p>
+<p>The original spiritual master is the Lord Himself, and the succession comes down through the sources of parampara, as clearly stated in the Fourth Chapter of the Bhagavad-gita.</p>
+<p>So unless one receives the transcendental knowledge from the authorized parampara, one should be considered useless (viphala matah), even though one may be greatly qualified in the mundane advancements of arts or science.</p>
+<p>Sukadeva Gosvami is praying from the Lord by dint of being inspired from within by the Lord so that he could rightly explain the facts and figures of creation as inquired by Maharaja Pariksit.</p>
+<p>A spiritual master is not a theoretical speculator, like the mundane scholar, but is srotriyam brahma-nistham (MU1.2.12).</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="2.4.21.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="2.4.23.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a href="2.4.21.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a href="2.4.23.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

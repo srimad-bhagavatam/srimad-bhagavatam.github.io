@@ -1,0 +1,261 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>2.7.18 - Scheduled Incarnations with Specific Functions</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+        <link rel="stylesheet" href="custom.css">
+        
+
+        
+    </head>
+    <body class="rust">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme + ' js';
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html">Scheduled Incarnations with Specific Functions</a></li><li class="affix"><a href="2.7.2.html">2.7.2</a></li><li class="affix"><a href="2.7.3.html">2.7.3</a></li><li class="affix"><a href="2.7.4.html">2.7.4</a></li><li class="affix"><a href="2.7.5.html">2.7.5</a></li><li class="affix"><a href="2.7.6.html">2.7.6</a></li><li class="affix"><a href="2.7.7.html">2.7.7</a></li><li class="affix"><a href="2.7.8.html">2.7.8</a></li><li class="affix"><a href="2.7.9.html">2.7.9</a></li><li class="affix"><a href="2.7.10.html">2.7.10</a></li><li class="affix"><a href="2.7.11.html">2.7.11</a></li><li class="affix"><a href="2.7.12.html">2.7.12</a></li><li class="affix"><a href="2.7.13.html">2.7.13</a></li><li class="affix"><a href="2.7.14.html">2.7.14</a></li><li class="affix"><a href="2.7.15.html">2.7.15</a></li><li class="affix"><a href="2.7.16.html">2.7.16</a></li><li class="affix"><a href="2.7.17.html">2.7.17</a></li><li class="affix"><a href="2.7.18.html" class="active">2.7.18</a></li><li class="affix"><a href="2.7.19.html">2.7.19</a></li><li class="affix"><a href="2.7.20.html">2.7.20</a></li><li class="affix"><a href="2.7.21.html">2.7.21</a></li><li class="affix"><a href="2.7.22.html">2.7.22</a></li><li class="affix"><a href="2.7.23.html">2.7.23</a></li><li class="affix"><a href="2.7.24.html">2.7.24</a></li><li class="affix"><a href="2.7.25.html">2.7.25</a></li><li class="affix"><a href="2.7.26.html">2.7.26</a></li><li class="affix"><a href="2.7.27.html">2.7.27</a></li><li class="affix"><a href="2.7.28.html">2.7.28</a></li><li class="affix"><a href="2.7.29.html">2.7.29</a></li><li class="affix"><a href="2.7.30.html">2.7.30</a></li><li class="affix"><a href="2.7.31.html">2.7.31</a></li><li class="affix"><a href="2.7.32.html">2.7.32</a></li><li class="affix"><a href="2.7.33.html">2.7.33</a></li><li class="affix"><a href="2.7.34-35.html">2.7.34-35</a></li><li class="affix"><a href="2.7.36.html">2.7.36</a></li><li class="affix"><a href="2.7.37.html">2.7.37</a></li><li class="affix"><a href="2.7.38.html">2.7.38</a></li><li class="affix"><a href="2.7.39.html">2.7.39</a></li><li class="affix"><a href="2.7.40.html">2.7.40</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
+                        </div>
+
+                        <h1 class="menu-title">Scheduled Incarnations with Specific Functions</h1>
+
+                        <div class="right-buttons">
+                            <a href="print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h3><a class="header" href="#2718" id="2718">2.7.18</a></h3>
+<p>nartho baler ayam urukrama-pada-saucam</p>
+<p>apah sikha-dhrtavato vibudhadhipatyam</p>
+<p>yo vai pratisrutam rte na cikirsad anyad</p>
+<p>atmanam anga manasa haraye ’bhimene</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—never; arthah—of any value in comparison with; baleh—of strength; ayam—this; urukrama-pada-saucam—the water washed from the feet of the personality of Godhead; apah—water; sikha-dhrtavatah—of one who has kept it on his head; vibudha-adhipatyam—supremacy over the kingdom of the demigods; yah—one who; vai—certainly; pratisrutam—what was duly promised; rte na—besides that; cikirsat—tried for; anyat—anything else; atmanam—even his personal body; anga—O Narada; manasa—within his mind; haraye—unto the Supreme Lord; abhimene—dedicated.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Bali Maharaja, who put on his head the water washed from the lotus feet of the Lord, did not think of anything besides his promise, in spite of being forbidden by his spiritual master.</p>
+<p>The king dedicated his own personal body to fulfill the measurement of the Lord’s third step.</p>
+<p>For such a personality, even the kingdom of heaven, which he conquered by his strength, was of no value.</p>
+<p><strong>PURPORT</strong></p>
+<p>Bali Maharaja, by gaining the transcendental favor of the Lord in exchange for his great material sacrifice, was able to have a place in Vaikunthaloka with equal or greater facilities of eternal enjoyment; therefore he was not at all the loser by sacrificing the kingdom of heaven, which he had possessed by his material strength.</p>
+<p>In other words, when the Lord snatches away one’s hard-earned material possessions and favors one with His personal transcendental service for eternal life, bliss and knowledge, such taking away by the Lord should be considered a special favor upon such a pure devotee.</p>
+<p>Material possessions, however alluring they may be, cannot be permanent possessions.</p>
+<p>Therefore one has to voluntarily give up such possessions, or one has to leave such possessions at the time of quitting this material body.</p>
+<p>The sane man knows that all material possessions are temporary and that the best use of such possessions is to engage them in the service of the Lord so that the Lord may be pleased with him and award him a permanent place in His param dhama.</p>
+<p>In the Bhagavad-gita (15.5–6), the param dhama of the Lord is described as follows:</p>
+<p>nirmana-moha jita-sanga-dosa</p>
+<p>adhyatma-nitya vinivrtta-kamah</p>
+<p>dvandvair vimuktah sukha-duhkha-samjnair</p>
+<p>gacchanty amudhah padam avyayam tat</p>
+<p>na tad bhasayate suryo</p>
+<p>na sasanko na pavakah</p>
+<p>yad gatva na nivartante</p>
+<p>tad dhama paramam mama</p>
+<p>One who possesses more in this material world, in the shape of houses, land, children, society, friendship and wealth, possesses these things only for the time being.</p>
+<p>One cannot possess all this illusory paraphernalia, created by maya, permanently.</p>
+<p>Such a possessor is more illusioned in the matter of his self-realization; therefore one should possess less or nothing, so that one may be free from artificial prestige.</p>
+<p>We are contaminated in the material world by association with the three modes of material nature.</p>
+<p>Therefore, the more one spiritually advances by devotional service to the Lord, in exchange for his temporary possessions, the more one is freed from the attachment of material illusion.</p>
+<p>To achieve this stage of life one must be firmly convinced about spiritual existence and its permanent effects.</p>
+<p>To know exactly the permanency of spiritual existence, one must voluntarily practice possessing less or only the minimum to maintain one’s material existence without difficulty.</p>
+<p>One should not create artificial needs.</p>
+<p>That will help one be satisfied with the minimum.</p>
+<p>Artificial needs of life are activities of the senses.</p>
+<p>The modern advancement of civilization is based on these activities of the senses, or, in other words, it is a civilization of sense gratification.</p>
+<p>Perfect civilization is the civilization of atma, or the soul proper.</p>
+<p>The civilized man of sense gratification is on an equal level with animals because animals cannot go beyond the activities of the senses.</p>
+<p>Above the senses is the mind.</p>
+<p>The civilization of mental speculation is also not the perfect stage of life because above the mind is the intelligence, and the Bhagavad-gita gives us information of the intellectual civilization.</p>
+<p>The Vedic literatures give different directions for the human civilization, including the civilization of the senses, of the mind, of the intelligence, and of the soul proper.</p>
+<p>The Bhagavad-gita primarily deals with the intelligence of man, leading one to the progressive path of civilization of the spirit soul.</p>
+<p>And Srimad-Bhagavatam is the complete human civilization dealing with the subject matter of the soul proper.</p>
+<p>As soon as a man is raised to the status of the civilization of the soul, he is fit to be promoted to the kingdom of God, which is described in the Bhagavad-gita as per the above verses.</p>
+<p>The primary information of the kingdom of God informs us that there is no need of sun, moon or electricity, which are all necessary in this material world of darkness.</p>
+<p>And the secondary information of the kingdom of God explains that anyone able to reach that kingdom by adoption of the civilization of the soul proper, or, in other words, by the method of bhakti-yoga, attains the highest perfection of life.</p>
+<p>One is then situated in the permanent existence of the soul, with full knowledge of transcendental loving service for the Lord.</p>
+<p>Bali Maharaja accepted this civilization of the soul in exchange for his great material possessions and thus became fit for promotion to the kingdom of God.</p>
+<p>The kingdom of heaven, which he achieved by dint of his material power, was considered most insignificant in comparison with the kingdom of God.</p>
+<p>Those who have attained the comforts of a material civilization made for sense gratification should try to attain the kingdom of God by following in the footsteps of Bali Maharaja, who exchanged his acquired material strength, adopting the process of bhakti-yoga as recommended in the Bhagavad-gita and further explained in the Srimad-Bhagavatam.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="2.7.17.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="2.7.19.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a href="2.7.17.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a href="2.7.19.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

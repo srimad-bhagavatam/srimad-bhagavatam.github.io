@@ -1,0 +1,314 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>1.13.3-4 - Dhrtarastra Quits Home</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+        <link rel="stylesheet" href="custom.css">
+        
+
+        
+    </head>
+    <body class="rust">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme + ' js';
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html">Dhrtarastra Quits Home</a></li><li class="affix"><a href="1.13.2.html">1.13.2</a></li><li class="affix"><a href="1.13.3-4.html" class="active">1.13.3-4</a></li><li class="affix"><a href="1.13.5.html">1.13.5</a></li><li class="affix"><a href="1.13.6.html">1.13.6</a></li><li class="affix"><a href="1.13.7.html">1.13.7</a></li><li class="affix"><a href="1.13.8.html">1.13.8</a></li><li class="affix"><a href="1.13.9.html">1.13.9</a></li><li class="affix"><a href="1.13.10.html">1.13.10</a></li><li class="affix"><a href="1.13.11.html">1.13.11</a></li><li class="affix"><a href="1.13.12.html">1.13.12</a></li><li class="affix"><a href="1.13.13.html">1.13.13</a></li><li class="affix"><a href="1.13.14.html">1.13.14</a></li><li class="affix"><a href="1.13.15.html">1.13.15</a></li><li class="affix"><a href="1.13.16.html">1.13.16</a></li><li class="affix"><a href="1.13.17.html">1.13.17</a></li><li class="affix"><a href="1.13.18.html">1.13.18</a></li><li class="affix"><a href="1.13.19.html">1.13.19</a></li><li class="affix"><a href="1.13.20.html">1.13.20</a></li><li class="affix"><a href="1.13.21.html">1.13.21</a></li><li class="affix"><a href="1.13.22.html">1.13.22</a></li><li class="affix"><a href="1.13.23.html">1.13.23</a></li><li class="affix"><a href="1.13.24.html">1.13.24</a></li><li class="affix"><a href="1.13.25.html">1.13.25</a></li><li class="affix"><a href="1.13.26.html">1.13.26</a></li><li class="affix"><a href="1.13.27.html">1.13.27</a></li><li class="affix"><a href="1.13.28.html">1.13.28</a></li><li class="affix"><a href="1.13.29.html">1.13.29</a></li><li class="affix"><a href="1.13.30.html">1.13.30</a></li><li class="affix"><a href="1.13.31.html">1.13.31</a></li><li class="affix"><a href="1.13.32.html">1.13.32</a></li><li class="affix"><a href="1.13.33.html">1.13.33</a></li><li class="affix"><a href="1.13.34.html">1.13.34</a></li><li class="affix"><a href="1.13.35.html">1.13.35</a></li><li class="affix"><a href="1.13.36.html">1.13.36</a></li><li class="affix"><a href="1.13.37.html">1.13.37</a></li><li class="affix"><a href="1.13.38.html">1.13.38</a></li><li class="affix"><a href="1.13.39.html">1.13.39</a></li><li class="affix"><a href="1.13.40.html">1.13.40</a></li><li class="affix"><a href="1.13.41.html">1.13.41</a></li><li class="affix"><a href="1.13.42.html">1.13.42</a></li><li class="affix"><a href="1.13.43.html">1.13.43</a></li><li class="affix"><a href="1.13.44.html">1.13.44</a></li><li class="affix"><a href="1.13.45.html">1.13.45</a></li><li class="affix"><a href="1.13.46.html">1.13.46</a></li><li class="affix"><a href="1.13.47.html">1.13.47</a></li><li class="affix"><a href="1.13.48.html">1.13.48</a></li><li class="affix"><a href="1.13.49.html">1.13.49</a></li><li class="affix"><a href="1.13.50.html">1.13.50</a></li><li class="affix"><a href="1.13.51.html">1.13.51</a></li><li class="affix"><a href="1.13.52.html">1.13.52</a></li><li class="affix"><a href="1.13.53.html">1.13.53</a></li><li class="affix"><a href="1.13.54.html">1.13.54</a></li><li class="affix"><a href="1.13.55.html">1.13.55</a></li><li class="affix"><a href="1.13.56.html">1.13.56</a></li><li class="affix"><a href="1.13.57.html">1.13.57</a></li><li class="affix"><a href="1.13.58.html">1.13.58</a></li><li class="affix"><a href="1.13.59.html">1.13.59</a></li><li class="affix"><a href="1.13.60.html">1.13.60</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
+                        </div>
+
+                        <h1 class="menu-title">Dhrtarastra Quits Home</h1>
+
+                        <div class="right-buttons">
+                            <a href="print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h3><a class="header" href="#1133-4" id="1133-4">1.13.3-4</a></h3>
+<p>tam bandhum agatam drstva</p>
+<p>dharma-putrah sahanujah</p>
+<p>dhrtarastro yuyutsus ca</p>
+<p>sutah saradvatah prtha</p>
+<p>gandhari draupadi brahman</p>
+<p>subhadra cottara krpi</p>
+<p>anyas ca jamayah pandor</p>
+<p>jnatayah sasutah striyah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tam—him; bandhum—relative; agatam—having arrived there; drstva—by seeing it; dharma-putrah—Yudhisthira; saha-anujah—along with his younger brothers; dhrtarastrah—Dhrtarastra; yuyutsuh—Satyaki; ca—and; sutah—Sanjaya; saradvatah—Krpacarya; prtha—Kunti; gandhari—Gandhari; draupadi—Draupadi; brahman—O brahmanas; subhadra—Subhadra; ca—and; uttara—Uttara; krpi—Krpi; anyah—others; ca—and; jamayah—wives of other family members; pandoh—of the Pandavas; jnatayah—family members; sa-sutah—along with their sons; striyah—the ladies.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When they saw Vidura return to the palace, all the inhabitants—Maharaja Yudhisthira, his younger brothers, Dhrtarastra, Satyaki, Sanjaya, Krpacarya, Kunti, Gandhari, Draupadi, Subhadra, Uttara, Krpi, many other wives of the Kauravas, and other ladies with children—all hurried to him in great delight.</p>
+<p>It so appeared that they had regained their consciousness after a long period.</p>
+<p><strong>PURPORT</strong></p>
+<p>Gandhari:</p>
+<p>The ideal chaste lady in the history of the world.</p>
+<p>She was the daughter of Maharaja Subala, the King of Gandhara (now Kandahar in Kabul), and in her maiden state she worshiped Lord Siva.</p>
+<p>Lord Siva is generally worshiped by Hindu maidens to get a good husband.</p>
+<p>Gandhari satisfied Lord Siva, and by his benediction to obtain one hundred sons, she was betrothed to Dhrtarastra, despite his being blind forever.</p>
+<p>When Gandhari came to know that her would-be husband was a blind man, to follow her life companion she decided to become voluntarily blind.</p>
+<p>So she wrapped up her eyes with many silk linens, and she was married to Dhrtarastra under the guidance of her elder brother Sakuni.</p>
+<p>She was the most beautiful girl of her time, and she was equally qualified by her womanly qualities, which endeared every member of the Kaurava court.</p>
+<p>But despite all her good qualities, she had the natural frailties of a woman, and she was envious of Kunti when the latter gave birth to a male child.</p>
+<p>Both the queens were pregnant, but Kunti first gave birth to a male child.</p>
+<p>Thus Gandhari became angry and gave a blow to her own abdomen.</p>
+<p>As a result, she gave birth to a lump of flesh only, but since she was a devotee of Vyasadeva, by the instruction of Vyasadeva the lump was divided into one hundred parts, and each part gradually developed to become a male child.</p>
+<p>Thus her ambition to become the mother of one hundred sons was fulfilled, and she began to nourish all the children according to her exalted position.</p>
+<p>When the intrigue of the Battle of Kuruksetra was going on, she was not in favor of fighting with the Pandavas; rather, she blamed Dhrtarastra, her husband, for such a fratricidal war.</p>
+<p>She desired that the state be divided into two parts, for the sons of Pandu and her own.</p>
+<p>She was very affected when all her sons died in the Battle of Kuruksetra, and she wanted to curse Bhimasena and Yudhisthira, but she was checked by Vyasadeva.</p>
+<p>Her mourning over the death of Duryodhana and Duhsasana before Lord Krsna was very pitiful, and Lord Krsna pacified her by transcendental messages.</p>
+<p>She was equally aggrieved on the death of Karna, and she described to Lord Krsna the lamentation of Karna’s wife.</p>
+<p>She was pacified by Srila Vyasadeva when he showed her dead sons, then promoted to the heavenly kingdoms.</p>
+<p>She died along with her husband in the jungles of the Himalayas near the mouth of the Ganges; she burned in a forest fire.</p>
+<p>Maharaja Yudhisthira performed the death ceremony of his uncle and aunt.</p>
+<p>Prtha:</p>
+<p>Daughter of Maharaja Surasena and sister of Vasudeva, Lord Krsna’s father.</p>
+<p>Later she was adopted by Maharaja Kuntibhoja, and hence she is known as Kunti.</p>
+<p>She is the incarnation of the success potency of the Personality of Godhead.</p>
+<p>The heavenly denizens from the upper planets used to visit the palace of King Kuntibhoja, and Kunti was engaged for their reception.</p>
+<p>She also served the great mystic sage Durvasa, and being satisfied by her faithful service, Durvasa Muni gave her a mantra by which it was possible for her to call for any demigod she pleased.</p>
+<p>As a matter of inquisitiveness, she at once called for the sun-god, who desired couplement with her, but she declined.</p>
+<p>But the sun-god assured her immunity from virgin adulteration, and so she agreed to his proposal.</p>
+<p>As a result of this couplement, she became pregnant, and Karna was born by her.</p>
+<p>By the grace of the sun, she again turned into a virgin girl, but being afraid of her parents, she quitted the newly born child, Karna.</p>
+<p>After that, when she actually selected her own husband, she preferred Pandu to be her husband.</p>
+<p>Maharaja Pandu later wanted to retire from family life and adopt the renounced order of life.</p>
+<p>Kunti refused to allow her husband to adopt such life, but at last Maharaja Pandu gave her permission to become a mother of sons by calling some other suitable personalities.</p>
+<p>Kunti did not accept this proposal at first, but when vivid examples were set by Pandu she agreed.</p>
+<p>Thus by dint of the mantra awarded by Durvasa Muni she called for Dharmaraja, and thus Yudhisthira was born.</p>
+<p>She called for the demigod Vayu (air), and thus Bhima was born.</p>
+<p>She called for Indra, the King of heaven, and thus Arjuna was born.</p>
+<p>The other two sons, namely Nakula and Sahadeva, were begotten by Pandu himself in the womb of Madri.</p>
+<p>Later on, Maharaja Pandu died at an early age, for which Kunti was so aggrieved that she fainted.</p>
+<p>Two co-wives, namely Kunti and Madri, decided that Kunti should live for the maintenance of the five minor children, the Pandavas, and Madri should accept the sati rituals by meeting voluntary death along with her husband.</p>
+<p>This agreement was endorsed by great sages like Satasrnga and others present on the occasion.</p>
+<p>Later on, when the Pandavas were banished from the kingdom by the intrigues of Duryodhana, Kunti followed her sons, and she equally faced all sorts of difficulties during those days.</p>
+<p>During the forest life one demon girl, Hidimba, wanted Bhima as her husband.</p>
+<p>Bhima refused, but when the girl approached Kunti and Yudhisthira, they ordered Bhima to accept her proposal and give her a son.</p>
+<p>As a result of this combination, Ghatotkaca was born, and he fought very valiantly with his father against the Kauravas.</p>
+<p>In their forest life they lived with a brahmana family that was in trouble because of one Bakasura demon, and Kunti ordered Bhima to kill the Bakasura to protect the brahmana family against troubles created by the demon.</p>
+<p>She advised Yudhisthira to start for the Pancaladesa.</p>
+<p>Draupadi was gained in this Pancaladesa by Arjuna, but by order of Kunti all five of the Pandava brothers became equally the husbands of Pancali, or Draupadi.</p>
+<p>She was married with five Pandavas in the presence of Vyasadeva.</p>
+<p>Kuntidevi never forgot her first child, Karna, and after Karna’s death in the Battle of Kuruksetra she lamented and admitted before her other sons that Karna was her eldest son prior to her marriage with Maharaja Pandu.</p>
+<p>Her prayers for the Lord after the Battle of Kuruksetra, when Lord Krsna was going back home, are excellently explained.</p>
+<p>Later she went to the forest with Gandhari for severe penance.</p>
+<p>She used to take meals after each thirty days.</p>
+<p>She finally sat down in profound meditation and later burned to ashes in a forest fire.</p>
+<p>Draupadi:</p>
+<p>The most chaste daughter of Maharaja Drupada and partly an incarnation of goddess Saci, the wife of Indra.</p>
+<p>Maharaja Drupada performed a great sacrifice under the superintendence of the sage Yaja.</p>
+<p>By his first offering, Dhrstadyumna was born, and by the second offering, Draupadi was born.</p>
+<p>She is therefore the sister of Dhrstadyumna, and she is also named Pancali.</p>
+<p>The five Pandavas married her as a common wife, and each of them begot a son in her.</p>
+<p>Maharaja Yudhisthira begot a son named Pratibhit, Bhimasena begot a son named Sutasoma, Arjuna begot Srutakirti, Nakula begot Satanika, and Sahadeva begot Srutakarma.</p>
+<p>She is described as a most beautiful lady, equal to her mother-in-law, Kunti.</p>
+<p>During her birth there was an aeromessage that she should be called Krsna.</p>
+<p>The same message also declared that she was born to kill many a ksatriya.</p>
+<p>By dint of her blessings from Sankara, she was awarded five husbands, equally qualified.</p>
+<p>When she preferred to select her own husband, princes and kings were invited from all the countries of the world.</p>
+<p>She was married with the Pandavas during their exile in the forest, but when they went back home Maharaja Drupada gave them immense wealth as a dowry.</p>
+<p>She was well received by all the daughters-in-law of Dhrtarastra.</p>
+<p>When she was lost in a gambling game, she was forcibly dragged into the assembly hall, and an attempt was made by Duhsasana to see her naked beauty, even though there were elderly persons like Bhisma and Drona present.</p>
+<p>She was a great devotee of Lord Krsna, and by her praying, the Lord Himself became an unlimited garment to save her from the insult.</p>
+<p>A demon of the name Jatasura kidnapped her, but her second husband, Bhimasena, killed the demon and saved her.</p>
+<p>She saved the Pandavas from the curse of Maharsi Durvasa by the grace of Lord Krsna.</p>
+<p>When the Pandavas lived incognito in the palace of Virata, Kicaka was attracted by her exquisite beauty, and by arrangement with Bhima the devil was killed and she was saved.</p>
+<p>She was very much aggrieved when her five sons were killed by Asvatthama.</p>
+<p>At the last stage, she accompanied her husband Yudhisthira and others and fell on the way.</p>
+<p>The cause of her falling was explained by Yudhisthira, but when Yudhisthira entered the heavenly planet he saw Draupadi gloriously present there as the goddess of fortune in the heavenly planet.</p>
+<p>Subhadra:</p>
+<p>Daughter of Vasudeva and sister of Lord Sri Krsna.</p>
+<p>She was not only a very dear daughter of Vasudeva, but also a very dear sister to both Krsna and Baladeva.</p>
+<p>The two brothers and sister are represented in the famous Jagannatha temple of Puri, and the temple is still visited by thousands of pilgrims daily.</p>
+<p>This temple is in remembrance of the Lord’s visit at Kuruksetra during an occasion of solar eclipse and His subsequent meeting with the residents of Vrndavana.</p>
+<p>The meeting of Radha and Krsna during this occasion is a very pathetic story, and Lord Sri Caitanya, in the ecstasy of Radharani, always pined for Lord Sri Krsna at Jagannatha Puri.</p>
+<p>While Arjuna was at Dvaraka, he wanted to have Subhadra as his queen, and he expressed his desire to Lord Krsna.</p>
+<p>Sri Krsna knew that His elder brother, Lord Baladeva, was arranging her marriage elsewhere, and since He did not dare to go against the arrangement of Baladeva, He advised Arjuna to kidnap Subhadra.</p>
+<p>So when all of them were on a pleasure trip on the Raivata Hill, Arjuna managed to kidnap Subhadra according to the plan of Sri Krsna.</p>
+<p>Sri Baladeva was very angry at Arjuna, and He wanted to kill him, but Lord Krsna implored His brother to excuse Arjuna.</p>
+<p>Then Subhadra was duly married with Arjuna, and Abhimanyu was born of Subhadra.</p>
+<p>At the premature death of Abhimanyu, Subhadra was very mortified, but on the birth of Pariksit she was happy and solaced.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="1.13.2.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="1.13.5.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a href="1.13.2.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a href="1.13.5.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

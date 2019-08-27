@@ -1,0 +1,241 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>5.17.12 - The Descent of the River Ganges</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+        <link rel="stylesheet" href="custom.css">
+        
+
+        
+    </head>
+    <body class="rust">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme + ' js';
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html">The Descent of the River Ganges</a></li><li class="affix"><a href="5.17.2.html">5.17.2</a></li><li class="affix"><a href="5.17.3.html">5.17.3</a></li><li class="affix"><a href="5.17.4.html">5.17.4</a></li><li class="affix"><a href="5.17.5.html">5.17.5</a></li><li class="affix"><a href="5.17.6.html">5.17.6</a></li><li class="affix"><a href="5.17.7.html">5.17.7</a></li><li class="affix"><a href="5.17.8.html">5.17.8</a></li><li class="affix"><a href="5.17.9.html">5.17.9</a></li><li class="affix"><a href="5.17.10.html">5.17.10</a></li><li class="affix"><a href="5.17.11.html">5.17.11</a></li><li class="affix"><a href="5.17.12.html" class="active">5.17.12</a></li><li class="affix"><a href="5.17.13.html">5.17.13</a></li><li class="affix"><a href="5.17.14.html">5.17.14</a></li><li class="affix"><a href="5.17.15.html">5.17.15</a></li><li class="affix"><a href="5.17.16.html">5.17.16</a></li><li class="affix"><a href="5.17.17.html">5.17.17</a></li><li class="affix"><a href="5.17.18.html">5.17.18</a></li><li class="affix"><a href="5.17.19.html">5.17.19</a></li><li class="affix"><a href="5.17.20.html">5.17.20</a></li><li class="affix"><a href="5.17.21.html">5.17.21</a></li><li class="affix"><a href="5.17.22-23.html">5.17.22-23</a></li><li class="affix"><a href="5.17.24.html">5.17.24</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
+                        </div>
+
+                        <h1 class="menu-title">The Descent of the River Ganges</h1>
+
+                        <div class="right-buttons">
+                            <a href="print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h3><a class="header" href="#51712" id="51712">5.17.12</a></h3>
+<p>esu purusanam ayuta-purusayur-varsanam deva-kalpanam nagayuta-prananam vajra-samhanana-bala-vayo-moda-pramudita-maha-saurata-mithuna-vyavayapavarga-varsa-dhrtaika-garbha-kalatranam tatra tu treta-yuga-samah kalo vartate.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>esu—in these (eight) varsas, or tracts of land; purusanam—of all the men; ayuta—ten thousand; purusa—by the measure of men; ayuh-varsanam—of those whose years of life; deva-kalpanam—who are like the demigods; naga-ayuta-prananam—having the strength of ten thousand elephants; vajra-samhanana—by bodies as solid as thunderbolts; bala—by bodily strength; vayah—by youth; moda—by abundant sense enjoyment; pramudita—being excited; maha-saurata—a great deal of sexual; mithuna—combinations of man and woman; vyavaya-apavarga—at the end of their period of sexual enjoyment; varsa—in the last year; dhrta-eka-garbha—who conceive one child; kalatranam—of those who have wives; tatra—there; tu—but; treta-yuga-samah—exactly like the Treta-yuga (when there is no tribulation); kalah—time; vartate—exists.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In these eight varsas, or tracts of land, human beings live ten thousand years according to earthly calculations.</p>
+<p>All the inhabitants are almost like demigods.</p>
+<p>They have the bodily strength of ten thousand elephants.</p>
+<p>Indeed, their bodies are as sturdy as thunderbolts.</p>
+<p>The youthful duration of their lives is very pleasing, and both men and women enjoy sexual union with great pleasure for a long time.</p>
+<p>After years of sensual pleasure—when a balance of one year of life remains—the wife conceives a child.</p>
+<p>Thus the standard of pleasure for the residents of these heavenly regions is exactly like that of the human beings who lived during Treta-yuga.</p>
+<p><strong>PURPORT</strong></p>
+<p>There are four yugas: Satya-yuga, Treta-yuga, Dvapara-yuga and Kali-yuga.</p>
+<p>During the first yuga, Satya-yuga, people were very pious.</p>
+<p>Everyone practiced the mystic yoga system for spiritual understanding and realization of God.</p>
+<p>Because everyone was always absorbed in samadhi, no one was interested in material sense enjoyment.</p>
+<p>During Treta-yuga, people enjoyed sense pleasure without tribulations.</p>
+<p>Material miseries began in Dvapara-yuga, but they were not very stringent.</p>
+<p>Stringent material miseries really began from the advent of Kali-yuga.</p>
+<p>Another point in this verse is that in all eight of these heavenly varsas, although men and women enjoy sex pleasure, there is no pregnancy.</p>
+<p>Pregnancy takes place only in lower-grade life.</p>
+<p>For example, animals like dogs and hogs become pregnant twice a year, and each time they beget at least half a dozen offspring.</p>
+<p>Even lower species of life such as snakes give birth to hundreds of young at one time.</p>
+<p>This verse informs us that in grades of life higher than ours, pregnancy occurs once in a lifetime.</p>
+<p>People still have sex life, but there is no pregnancy.</p>
+<p>In the spiritual world, people are not very attracted to sex life, due to their exalted devotional attitude.</p>
+<p>Practically speaking, there is no sex life in the spiritual world, but even if sometimes it does occur, there is no pregnancy at all.</p>
+<p>On the planet earth, however, human beings do become pregnant, although the tendency is to avoid having children.</p>
+<p>In this sinful age of Kali, people have even taken to the process of killing the child in the womb.</p>
+<p>This is the most degraded practice; it can only perpetuate the miserable material conditions of those who perform it.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="5.17.11.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="5.17.13.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a href="5.17.11.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a href="5.17.13.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

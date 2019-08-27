@@ -1,0 +1,280 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>2.4.18 - The Process of Creation</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+        <link rel="stylesheet" href="custom.css">
+        
+
+        
+    </head>
+    <body class="rust">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme + ' js';
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html">The Process of Creation</a></li><li class="affix"><a href="2.4.2.html">2.4.2</a></li><li class="affix"><a href="2.4.3-4.html">2.4.3-4</a></li><li class="affix"><a href="2.4.5.html">2.4.5</a></li><li class="affix"><a href="2.4.6.html">2.4.6</a></li><li class="affix"><a href="2.4.7.html">2.4.7</a></li><li class="affix"><a href="2.4.8.html">2.4.8</a></li><li class="affix"><a href="2.4.9.html">2.4.9</a></li><li class="affix"><a href="2.4.10.html">2.4.10</a></li><li class="affix"><a href="2.4.11.html">2.4.11</a></li><li class="affix"><a href="2.4.12.html">2.4.12</a></li><li class="affix"><a href="2.4.13.html">2.4.13</a></li><li class="affix"><a href="2.4.14.html">2.4.14</a></li><li class="affix"><a href="2.4.15.html">2.4.15</a></li><li class="affix"><a href="2.4.16.html">2.4.16</a></li><li class="affix"><a href="2.4.17.html">2.4.17</a></li><li class="affix"><a href="2.4.18.html" class="active">2.4.18</a></li><li class="affix"><a href="2.4.19.html">2.4.19</a></li><li class="affix"><a href="2.4.20.html">2.4.20</a></li><li class="affix"><a href="2.4.21.html">2.4.21</a></li><li class="affix"><a href="2.4.22.html">2.4.22</a></li><li class="affix"><a href="2.4.23.html">2.4.23</a></li><li class="affix"><a href="2.4.24.html">2.4.24</a></li><li class="affix"><a href="2.4.25.html">2.4.25</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
+                        </div>
+
+                        <h1 class="menu-title">The Process of Creation</h1>
+
+                        <div class="right-buttons">
+                            <a href="print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h3><a class="header" href="#2418" id="2418">2.4.18</a></h3>
+<p>kirata-hunandhra-pulinda-pulkasa</p>
+<p>abhira-sumbha yavanah khasadayah</p>
+<p>ye ’nye ca papa yad-apasrayasrayah</p>
+<p>sudhyanti tasmai prabhavisnave namah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kirata—a province of old Bharata; huna—part of Germany and Russia; andhra—a province of southern India; pulinda—the Greeks; pulkasah—another province; abhira—part of old Sind; sumbhah—another province; yavanah—the Turks; khasa-adayah—the Mongolian province; ye—even those; anye—others; ca—also; papah—addicted to sinful acts; yat—whose; apasraya-asrayah—having taken shelter of the devotees of the Lord; sudhyanti—at once purified; tasmai—unto Him; prabhavisnave—unto the powerful Visnu; namah—my respectful obeisances.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Kirata, Huna, Andhra, Pulinda, Pulkasa, Abhira, Sumbha, Yavana, members of the Khasa races and even others addicted to sinful acts can be purified by taking shelter of the devotees of the Lord, due to His being the supreme power.</p>
+<p>I beg to offer my respectful obeisances unto Him.</p>
+<p><strong>PURPORT</strong></p>
+<p>Kirata: A province of old Bharata-varsa mentioned in the Bhisma-parva of Mahabharata.</p>
+<p>Generally the Kiratas are known as the aboriginal tribes of India, and in modern days the Santal Parganas in Bihar and Chota Nagpur might comprise the old province named Kirata.</p>
+<p>Huna: The area of East Germany and part of Russia is known as the province of the Hunas.</p>
+<p>Accordingly, sometimes a kind of hill tribe is known as the Hunas.</p>
+<p>Andhra: A province in southern India mentioned in the Bhisma-parva of Mahabharata.</p>
+<p>It is still extant under the same name.</p>
+<p>Pulinda: It is mentioned in the Mahabharata (Adi-parva174.38), viz., the inhabitants of the province of the name Pulinda.</p>
+<p>This country was conquered by Bhimasena and Sahadeva.</p>
+<p>The Greeks are known as Pulindas, and it is mentioned in the Vana-parva of Mahabharata that the non-Vedic race of this part of the world would rule over the world.</p>
+<p>This Pulinda province was also one of the provinces of Bharata, and the inhabitants were classified amongst the ksatriya kings.</p>
+<p>But later on, due to their giving up the brahminical culture, they were mentioned as mlecchas (just as those who are not followers of the Islamic culture are called kafirs and those who are not followers of the Christian culture are called heathens).</p>
+<p>Abhira: This name also appears in the Mahabharata, both in the Sabha-parva and Bhisma-parva.</p>
+<p>It is mentioned that this province was situated on the River Sarasvati in Sind.</p>
+<p>The modern Sind province formerly extended on the other side of the Arabian Sea, and all the inhabitants of that province were known as the Abhiras.</p>
+<p>They were under the domination of Maharaja Yudhisthira, and according to the statements of Markandeya the mlecchas of this part of the world would also rule over Bharata.</p>
+<p>Later on this proved to be true, as in the case of the Pulindas.</p>
+<p>On behalf of the Pulindas, Alexander the Great conquered India, and on behalf of the Abhiras, Muhammad Ghori conquered India.</p>
+<p>These Abhiras were also formerly ksatriyas within the brahminical culture, but they gave up the connection.</p>
+<p>The ksatriyas who were afraid of Parasurama and had hidden themselves in the Caucasian hilly regions later on became known as the Abhiras, and the place they inhabited was known as Abhiradesa.</p>
+<p>Sumbhas or Kankas: The inhabitants of the Kanka province of old Bharata, mentioned in the Mahabharata.</p>
+<p>Yavanas: Yavana was the name of one of the sons of Maharaja Yayati who was given the part of the world known as Turkey to rule.</p>
+<p>Therefore the Turks are Yavanas due to being descendants of Maharaja Yavana.</p>
+<p>The Yavanas were therefore ksatriyas, and later on, by giving up the brahminical culture, they became mleccha-yavanas.</p>
+<p>Descriptions of the Yavanas are in the Mahabharata (Adi-parva85.34).</p>
+<p>Another prince called Turvasu was also known as Yavana, and his country was conquered by Sahadeva, one of the Pandavas.</p>
+<p>The western Yavana joined with Duryodhana in the Battle of Kuruksetra under the pressure of Karna.</p>
+<p>It is also foretold that these Yavanas also would conquer India, and it proved to be true.</p>
+<p>Khasa: The inhabitants of the Khasadesa are mentioned in the Mahabharata (Drona-parva).</p>
+<p>Those who have a stunted growth of hair on the upper lip are generally called Khasas.</p>
+<p>As such, the Khasa are the Mongolians, the Chinese and others who are so designated.</p>
+<p>The above-mentioned historical names are different nations of the world.</p>
+<p>Even those who are constantly engaged in sinful acts are all corrigible to the standard of perfect human beings if they take shelter of the devotees of the Lord.</p>
+<p>Jesus Christ and Muhammad, two powerful devotees of the Lord, have done tremendous service on behalf of the Lord on the surface of the globe.</p>
+<p>And from the version of Srila Sukadeva Gosvami it appears that instead of running a godless civilization in the present context of the world situation, if the leadership of world affairs is entrusted to the devotees of the Lord, for which a worldwide organization under the name and style of the International Society for Krishna Consciousness has already been started, then by the grace of the Almighty Lord there can be a thorough change of heart in human beings all over the world because the devotees of the Lord are able authorities to effect such a change by purifying the dust-worn minds of the people in general.</p>
+<p>The politicians of the world may remain in their respective positions because the pure devotees of the Lord are not interested in political leadership or diplomatic implications.</p>
+<p>The devotees are interested only in seeing that the people in general are not misguided by political propaganda and in seeing that the valuable life of a human being is not spoiled in following a type of civilization which is ultimately doomed.</p>
+<p>If the politicians, therefore, would be guided by the good counsel of the devotees, then certainly there would be a great change in the world situation by the purifying propaganda of the devotees, as shown by Lord Caitanya.</p>
+<p>As Sukadeva Gosvami began his prayer by discussing the word yat-kirtanam, so also Lord Caitanya recommended that simply by glorifying the Lord’s holy name, a tremendous change of heart can take place by which the complete misunderstanding between the human nations created by politicians can at once be extinguished.</p>
+<p>And after the extinction of the fire of misunderstanding, other profits will follow.</p>
+<p>The destination is to go back home, back to Godhead, as we have several times discussed in these pages.</p>
+<p>According to the cult of devotion, generally known as the Vaisnava cult, there is no bar against anyone’s advancing in the matter of God realization.</p>
+<p>A Vaisnava is powerful enough to turn into a Vaisnava even the Kirata, etc., as above mentioned.</p>
+<p>In the Bhagavad-gita (9.32) it is said by the Lord that there is no bar to becoming a devotee of the Lord (even for those who are lowborn, or women, sudras or vaisyas), and by becoming a devotee everyone is eligible to return home, back to Godhead.</p>
+<p>The only qualification is that one take shelter of a pure devotee of the Lord who has thorough knowledge in the transcendental science of Krsna (Bhagavad-gita and Srimad-Bhagavatam).</p>
+<p>Anyone from any part of the world who becomes well conversant in the science of Krsna becomes a pure devotee and a spiritual master for the general mass of people and may reclaim them by purification of heart.</p>
+<p>Though a person be even the most sinful man, he can at once be purified by systematic contact with a pure Vaisnava.</p>
+<p>A Vaisnava, therefore, can accept a bona fide disciple from any part of the world without any consideration of caste and creed and promote him by regulative principles to the status of a pure Vaisnava who is transcendental to brahminical culture.</p>
+<p>The system of caste, or varnasrama-dharma, is no longer regular even amongst the so-called followers of the system.</p>
+<p>Nor is it now possible to reestablish the institutional function in the present context of social, political and economic revolution.</p>
+<p>Without any reference to the particular custom of a country, one can be accepted to the Vaisnava cult spiritually, and there is no hindrance in the transcendental process.</p>
+<p>So by the order of Lord Sri Caitanya Mahaprabhu, the cult of Srimad-Bhagavatam or the Bhagavad-gita can be preached all over the world, reclaiming all persons willing to accept the transcendental cult.</p>
+<p>Such cultural propaganda by the devotees will certainly be accepted by all persons who are reasonable and inquisitive, without any particular bias for the custom of the country.</p>
+<p>The Vaisnava never accepts another Vaisnava on the basis of birthright, just as he never thinks of the Deity of the Lord in a temple as an idol.</p>
+<p>And to remove all doubts in this connection, Srila Sukadeva Gosvami has invoked the blessings of the Lord, who is all-powerful (prabhavisnave namah).</p>
+<p>As the all-powerful Lord accepts the humble service of His devotee in devotional activities of the arcana His form as the worshipable Deity in the temple, similarly the body of a pure Vaisnava changes transcendentally at once when he gives himself up to the service of the Lord and is trained by a qualified Vaisnava.</p>
+<p>The injunction of Vaisnava regulation in this connection runs as follows: arcye visnau sila-dhir gurusu nara-matir vaisnave jati-buddhih sri-visnor namni sabda-samanya-buddhih, etc One should not consider the Deity of the Lord as worshiped in the temple to be an idol, nor should one consider the authorized spiritual master an ordinary man.</p>
+<p>Nor should one consider a pure Vaisnava to belong to a particular caste, etc (Padma Purana) The conclusion is that the Lord, being all-powerful, can, under any and every circumstance, accept anyone from any part of the world, either personally or through His bona fide manifestation as the spiritual master.</p>
+<p>Lord Caitanya accepted many devotees from communities other than the varnasramites, and He Himself declared, to teach us, that He does not belong to any caste or social order of life, but that He is the eternal servant of the servant of the Lord who maintains the damsels of Vrndavana (Lord Krsna).</p>
+<p>That is the way of self-realization.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="2.4.17.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="2.4.19.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a href="2.4.17.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a href="2.4.19.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

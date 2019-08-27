@@ -1,0 +1,264 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>5.20.3-4 - Studying the Structure of the Universe</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+        <link rel="stylesheet" href="custom.css">
+        
+
+        
+    </head>
+    <body class="rust">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme + ' js';
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html">Studying the Structure of the Universe</a></li><li class="affix"><a href="5.20.2.html">5.20.2</a></li><li class="affix"><a href="5.20.3-4.html" class="active">5.20.3-4</a></li><li class="affix"><a href="5.20.5.html">5.20.5</a></li><li class="affix"><a href="5.20.6.html">5.20.6</a></li><li class="affix"><a href="5.20.7.html">5.20.7</a></li><li class="affix"><a href="5.20.8.html">5.20.8</a></li><li class="affix"><a href="5.20.9.html">5.20.9</a></li><li class="affix"><a href="5.20.10.html">5.20.10</a></li><li class="affix"><a href="5.20.11.html">5.20.11</a></li><li class="affix"><a href="5.20.12.html">5.20.12</a></li><li class="affix"><a href="5.20.13.html">5.20.13</a></li><li class="affix"><a href="5.20.14.html">5.20.14</a></li><li class="affix"><a href="5.20.15.html">5.20.15</a></li><li class="affix"><a href="5.20.16.html">5.20.16</a></li><li class="affix"><a href="5.20.17.html">5.20.17</a></li><li class="affix"><a href="5.20.18.html">5.20.18</a></li><li class="affix"><a href="5.20.19.html">5.20.19</a></li><li class="affix"><a href="5.20.20.html">5.20.20</a></li><li class="affix"><a href="5.20.21.html">5.20.21</a></li><li class="affix"><a href="5.20.22.html">5.20.22</a></li><li class="affix"><a href="5.20.23.html">5.20.23</a></li><li class="affix"><a href="5.20.24.html">5.20.24</a></li><li class="affix"><a href="5.20.25.html">5.20.25</a></li><li class="affix"><a href="5.20.26.html">5.20.26</a></li><li class="affix"><a href="5.20.27.html">5.20.27</a></li><li class="affix"><a href="5.20.28.html">5.20.28</a></li><li class="affix"><a href="5.20.29.html">5.20.29</a></li><li class="affix"><a href="5.20.30.html">5.20.30</a></li><li class="affix"><a href="5.20.31.html">5.20.31</a></li><li class="affix"><a href="5.20.32.html">5.20.32</a></li><li class="affix"><a href="5.20.33.html">5.20.33</a></li><li class="affix"><a href="5.20.34.html">5.20.34</a></li><li class="affix"><a href="5.20.35.html">5.20.35</a></li><li class="affix"><a href="5.20.36.html">5.20.36</a></li><li class="affix"><a href="5.20.37.html">5.20.37</a></li><li class="affix"><a href="5.20.38.html">5.20.38</a></li><li class="affix"><a href="5.20.39.html">5.20.39</a></li><li class="affix"><a href="5.20.40.html">5.20.40</a></li><li class="affix"><a href="5.20.41.html">5.20.41</a></li><li class="affix"><a href="5.20.42.html">5.20.42</a></li><li class="affix"><a href="5.20.43.html">5.20.43</a></li><li class="affix"><a href="5.20.44.html">5.20.44</a></li><li class="affix"><a href="5.20.45.html">5.20.45</a></li><li class="affix"><a href="5.20.46.html">5.20.46</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
+                        </div>
+
+                        <h1 class="menu-title">Studying the Structure of the Universe</h1>
+
+                        <div class="right-buttons">
+                            <a href="print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h3><a class="header" href="#5203-4" id="5203-4">5.20.3-4</a></h3>
+<p>sivam yavasam subhadram santam ksemam amrtam abhayam iti varsani tesu girayo nadyas ca saptaivabhijnatah; manikuto vajrakuta indraseno jyotisman suparno hiranyasthivo meghamala iti setu-sailah aruna nrmnangirasi savitri suptabhata rtambhara satyambhara iti maha-nadyah; yasam jalopasparsana-vidhuta-rajas-tamaso hamsa-patangordhvayana-satyanga-samjnas catvaro varnah sahasrayuso vibudhopama-sandarsana-prajananah svarga-dvaram trayya vidyaya bhagavantam trayimayam suryam atmanam yajante.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sivam—Siva; yavasam—Yavasa; subhadram—Subhadra; santam—Santa; ksemam—Ksema; amrtam—Amrta; abhayam—Abhaya; iti—thus; varsani—the tracts of land according to the names of the seven sons; tesu—in them; girayah—mountains; nadyah ca—and rivers; sapta—seven; eva—indeed; abhijnatah—are known; mani-kutah—Manikuta; vajra-kutah—Vajrakuta; indra-senah—Indrasena; jyotisman—Jyotisman; suparnah—Suparna; hiranya-sthivah—Hiranyasthiva; megha-malah—Meghamala; iti—thus; setu-sailah—the ranges of mountains marking the borders of the varsas; aruna—Aruna; nrmna—Nrmna; angirasi—Angirasi; savitri—Savitri; supta-bhata—Suptabhata; rtambhara—Rtambhara; satyambhara—Satyambhara; iti—thus; maha-nadyah—very large rivers; yasam—of which; jala-upasparsana—simply by touching the water; vidhuta—washed off; rajah-tamasah—whose modes of passion and ignorance; hamsa—Hamsa; patanga—Patanga; urdhvayana—Urdhvayana; satyanga—Satyanga; samjnah—named; catvarah—four; varnah—castes or divisions of men; sahasra-ayusah—living for one thousand years; vibudha-upama—similar to the demigods; sandarsana—in having very beautiful forms; prajananah—and in producing children; svarga-dvaram—the gateway to the heavenly planets; trayya vidyaya—by performing ritualistic ceremonies according to Vedic principles; bhagavantam—the Supreme Personality of Godhead; trayi-mayam—established in the Vedas; suryam atmanam—the Supersoul, represented by the sun-god; yajante—they worship.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The seven islands (varsas) are named according to the names of those seven sons—Siva, Yavasa, Subhadra, Santa, Ksema, Amrta and Abhaya.</p>
+<p>In those seven tracts of land, there are seven mountains and seven rivers.</p>
+<p>The mountains are named Manikuta, Vajrakuta, Indrasena, Jyotisman, Suparna, Hiranyasthiva and Meghamala, and the rivers are named Aruna, Nrmna, Angirasi, Savitri, Suptabhata, Rtambhara and Satyambhara.</p>
+<p>One can immediately be free from material contamination by touching or bathing in those rivers, and the four castes of people who live in Plaksadvipa—the Hamsas, Patangas, Urdhvayanas and Satyangas—purify themselves in that way.</p>
+<p>The inhabitants of Plaksadvipa live for one thousand years.</p>
+<p>They are beautiful like the demigods, and they also beget children like the demigods.</p>
+<p>By completely performing the ritualistic ceremonies mentioned in the Vedas and by worshiping the Supreme Personality of Godhead as represented by the sun-god, they attain the sun, which is a heavenly planet.</p>
+<p><strong>PURPORT</strong></p>
+<p>According to general understanding, there are originally three deities—Lord Brahma, Lord Visnu and Lord Siva—and people with a poor fund of knowledge consider Lord Visnu no better than Lord Brahma or Lord Siva.</p>
+<p>This conclusion, however, is invalid.</p>
+<p>As stated in the Vedas, istapurtam bahudha jayamanam visvam bibharti bhuvanasya nabhih tad evagnis tad vayus tat suryas tad u candramah agnih sarvadaivatah.</p>
+<p>This means that the Supreme Lord, who accepts and enjoys the results of Vedic ritualistic ceremonies (technically called istapurta), who maintains the entire creation, who supplies the necessities of all living entities (eko bahunam yo vidadhati kaman) and who is the central point of all creation, is Lord Visnu.</p>
+<p>Lord Visnu expands as the demigods known as Agni, Vayu, Surya and Candra, who are simply parts and parcels of His body.</p>
+<p>Srimad Bhagavad-gita (9.23):</p>
+<p>ye ’py anya-devata-bhakta</p>
+<p>yajante sraddhayanvitah</p>
+<p>te ’pi mam eva kaunteya</p>
+<p>yajanty avidhi-purvakam</p>
+<p>Devotees who worship the demigods with firm faith worship Me also, but not according to regulative principles In other words, if one worships the demigods but does not understand the relationship between the demigods and the Supreme Personality of Godhead, his worship is irregular.</p>
+<p>Krsna also says in Bhagavad-gita (9.24), aham hi sarva-yajnanam bhokta ca prabhur eva ca: I am the only enjoyer of ritualistic ceremonies It may be argued that the demigods are as important as Lord Visnu because the names of the demigods are different names of Visnu.</p>
+<p>This, however, is not a sound conclusion, for it is contradicted in the Vedic literatures.</p>
+<p>The Vedas declare:</p>
+<p>candrama manaso jatas caksoh suryo ajayata; srotradayas ca pranas ca mukhad agnir ajayata; narayanad brahma, narayanad rudro jayate, narayanat prajapatih jayate, narayanad indro jayate, narayanad astau vasavo jayante, narayanad ekadasa rudra jayante</p>
+<p>The demigod of the moon, Candra, came from the mind of Narayana, and the sun-god came from His eyes.</p>
+<p>The controlling deities of hearing and the life air came from Narayana, and the controlling deity of fire was generated from His mouth.</p>
+<p>Prajapati, Lord Brahma, came from Narayana, Indra came from Narayana, and the eight Vasus, the eleven expansions of Lord Siva and the twelve Adityas also came from Narayana In the smrti Vedic literature it is also said:</p>
+<p>brahma sambhus tathaivarkas</p>
+<p>candramas ca satakratuh</p>
+<p>evam adyas tathaivanye</p>
+<p>yukta vaisnava-tejasa</p>
+<p>jagat-karyavasane tu</p>
+<p>viyujyante ca tejasa</p>
+<p>vitejas ca te sarve</p>
+<p>pancatvam upayanti te</p>
+<p>Brahma, Sambhu, Surya and Indra are all merely products of the power of the Supreme Personality of Godhead.</p>
+<p>This is also true of the many other demigods whose names are not mentioned here.</p>
+<p>When the cosmic manifestation is annihilated, these different expansions of Narayana’s potencies will merge into Narayana.</p>
+<p>In other words, all these demigods will die.</p>
+<p>Their living force will be withdrawn, and they will merge into Narayana Therefore it should be concluded that Lord Visnu, not Lord Brahma or Lord Siva, is the Supreme Personality of Godhead.</p>
+<p>As a government officer is sometimes accepted as the entire government although he is actually but a departmental manager, so the demigods, having achieved power of attorney from Visnu, act on His behalf, although they are not as powerful as He.</p>
+<p>All the demigods must work under the orders of Visnu.</p>
+<p>Therefore it is said, ekale isvara krsna, ara saba bhrtya.</p>
+<p>The only master is Lord Krsna, or Lord Visnu, and all others are His obedient servants, who act exactly according to His orders.</p>
+<p>The distinction between Lord Visnu and the demigods is also expressed in Bhagavad-gita (9.25).</p>
+<p>Yanti deva-vrata devan yanti mad-yajino ’pi mam: those who worship the demigods go to the planets of the demigods, whereas the worshipers of Lord Krsna and Lord Visnu go to the planets in Vaikuntha.</p>
+<p>These are the statements of the smrti.</p>
+<p>Therefore the idea that Lord Visnu is on the same level as the demigods is in contradiction to the sastras.</p>
+<p>The demigods are not supreme.</p>
+<p>The supremacy of the demigods is dependent on the mercy of Lord Narayana (Visnu, or Krsna).</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="5.20.2.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="5.20.5.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a href="5.20.2.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a href="5.20.5.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

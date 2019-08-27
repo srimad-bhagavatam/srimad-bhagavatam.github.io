@@ -1,0 +1,248 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>3.23.7 - Devahuti’s Lamentation</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+        <link rel="stylesheet" href="custom.css">
+        
+
+        
+    </head>
+    <body class="rust">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme + ' js';
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html">Devahuti’s Lamentation</a></li><li class="affix"><a href="3.23.2.html">3.23.2</a></li><li class="affix"><a href="3.23.3.html">3.23.3</a></li><li class="affix"><a href="3.23.4-5.html">3.23.4-5</a></li><li class="affix"><a href="3.23.6.html">3.23.6</a></li><li class="affix"><a href="3.23.7.html" class="active">3.23.7</a></li><li class="affix"><a href="3.23.8.html">3.23.8</a></li><li class="affix"><a href="3.23.9.html">3.23.9</a></li><li class="affix"><a href="3.23.10.html">3.23.10</a></li><li class="affix"><a href="3.23.11.html">3.23.11</a></li><li class="affix"><a href="3.23.12.html">3.23.12</a></li><li class="affix"><a href="3.23.13.html">3.23.13</a></li><li class="affix"><a href="3.23.14-15.html">3.23.14-15</a></li><li class="affix"><a href="3.23.16.html">3.23.16</a></li><li class="affix"><a href="3.23.17.html">3.23.17</a></li><li class="affix"><a href="3.23.18.html">3.23.18</a></li><li class="affix"><a href="3.23.19.html">3.23.19</a></li><li class="affix"><a href="3.23.20.html">3.23.20</a></li><li class="affix"><a href="3.23.21.html">3.23.21</a></li><li class="affix"><a href="3.23.22.html">3.23.22</a></li><li class="affix"><a href="3.23.23.html">3.23.23</a></li><li class="affix"><a href="3.23.24.html">3.23.24</a></li><li class="affix"><a href="3.23.25.html">3.23.25</a></li><li class="affix"><a href="3.23.26.html">3.23.26</a></li><li class="affix"><a href="3.23.27.html">3.23.27</a></li><li class="affix"><a href="3.23.28.html">3.23.28</a></li><li class="affix"><a href="3.23.29.html">3.23.29</a></li><li class="affix"><a href="3.23.30.html">3.23.30</a></li><li class="affix"><a href="3.23.31.html">3.23.31</a></li><li class="affix"><a href="3.23.32.html">3.23.32</a></li><li class="affix"><a href="3.23.33.html">3.23.33</a></li><li class="affix"><a href="3.23.34.html">3.23.34</a></li><li class="affix"><a href="3.23.35.html">3.23.35</a></li><li class="affix"><a href="3.23.36-37.html">3.23.36-37</a></li><li class="affix"><a href="3.23.38.html">3.23.38</a></li><li class="affix"><a href="3.23.39.html">3.23.39</a></li><li class="affix"><a href="3.23.40.html">3.23.40</a></li><li class="affix"><a href="3.23.41.html">3.23.41</a></li><li class="affix"><a href="3.23.42.html">3.23.42</a></li><li class="affix"><a href="3.23.43.html">3.23.43</a></li><li class="affix"><a href="3.23.44.html">3.23.44</a></li><li class="affix"><a href="3.23.45.html">3.23.45</a></li><li class="affix"><a href="3.23.46.html">3.23.46</a></li><li class="affix"><a href="3.23.47.html">3.23.47</a></li><li class="affix"><a href="3.23.48.html">3.23.48</a></li><li class="affix"><a href="3.23.49.html">3.23.49</a></li><li class="affix"><a href="3.23.50.html">3.23.50</a></li><li class="affix"><a href="3.23.51.html">3.23.51</a></li><li class="affix"><a href="3.23.52.html">3.23.52</a></li><li class="affix"><a href="3.23.53.html">3.23.53</a></li><li class="affix"><a href="3.23.54.html">3.23.54</a></li><li class="affix"><a href="3.23.55.html">3.23.55</a></li><li class="affix"><a href="3.23.56.html">3.23.56</a></li><li class="affix"><a href="3.23.57.html">3.23.57</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
+                        </div>
+
+                        <h1 class="menu-title">Devahuti’s Lamentation</h1>
+
+                        <div class="right-buttons">
+                            <a href="print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h3><a class="header" href="#3237" id="3237">3.23.7</a></h3>
+<p>ye me sva-dharma-niratasya tapah-samadhi-</p>
+<p>vidyatma-yoga-vijita bhagavat-prasadah</p>
+<p>tan eva te mad-anusevanayavaruddhan</p>
+<p>drstim prapasya vitaramy abhayan asokan</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ye—those which; me—by me; sva-dharma—own religious life; niratasya—fully occupied with; tapah—in austerity; samadhi—in meditation; vidya—in Krsna consciousness; atma-yoga—by fixing the mind; vijitah—achieved; bhagavat-prasadah—the blessings of the Lord; tan—them; eva—even; te—by you; mat—to me; anusevanaya—by devoted service; avaruddhan—obtained; drstim—transcendental vision; prapasya—just see; vitarami—I am giving; abhayan—which are free from fear; asokan—which are free from lamentation.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Kardama Muni continued: I have achieved the blessings of the Lord in discharging my own religious life of austerity, meditation and Krsna consciousness.</p>
+<p>Although you have not yet experienced these achievements, which are free from fear and lamentation, I shall offer them all to you because you are engaged in my service.</p>
+<p>Now just look at them.</p>
+<p>I am giving you the transcendental vision to see how nice they are.</p>
+<p><strong>PURPORT</strong></p>
+<p>Devahuti engaged only in the service of Kardama Muni.</p>
+<p>She was not supposed to be so advanced in austerity, ecstasy, meditation or Krsna consciousness, but, imperceptibly, she was sharing her husband’s achievements, which she could neither see nor experience.</p>
+<p>Automatically she achieved these graces of the Lord.</p>
+<p>What are the graces of the Lord? It is stated here that the graces of the Lord are abhaya, free from fearfulness.</p>
+<p>In the material world, if someone accumulates a million dollars, he is always full of fear because he is always thinking, What if the money is lost But the benediction of the Lord, bhagavat-prasada, is never to be lost.</p>
+<p>It is simply to be enjoyed.</p>
+<p>There is no question of loss.</p>
+<p>One simply gains and enjoys gaining.Bhagavad-gita also confirms this: when one achieves the grace of the Lord, the result is that sarva-duhkhani, all distresses, are destroyed.</p>
+<p>When situated in the transcendental position, one is freed from the two kinds of material diseases—hankering and lamentation.</p>
+<p>This is also stated in Bhagavad-gita.</p>
+<p>After devotional life begins, we can achieve the full result of love of Godhead.</p>
+<p>Love of Krsna is the highest perfection of bhagavat-prasada, or divine mercy.</p>
+<p>This transcendental achievement is so greatly valuable that no material happiness can compare to it.</p>
+<p>Prabodhananda Sarasvati said that if one achieves the grace of Lord Caitanya he becomes so great that he does not care a fig even for the demigods, he thinks of monism as hellish, and for him the perfection of controlling the senses is as easy as anything.</p>
+<p>Heavenly pleasures become to him no more than stories.</p>
+<p>Actually, there is no comparison between material happiness and transcendental happiness.</p>
+<p>By the grace of Kardama Muni, Devahuti experienced actual realization simply by serving.</p>
+<p>We get a similar example in the life of Narada Muni.</p>
+<p>In his previous life, Narada was a maidservant’s son, but his mother was engaged in the service of great devotees.</p>
+<p>He got the opportunity to serve the devotees, and simply by eating the remnants of their foodstuff and carrying out their orders he became so elevated that in his next life he became the great personality Narada.</p>
+<p>For spiritual achievement the easiest path is to take shelter of a bona fide spiritual master and to serve him with heart and soul.</p>
+<p>That is the secret of success.</p>
+<p>As stated by Visvanatha Cakravarti Thakura in his eight stanzas of prayer to the spiritual master, yasya prasadad bhagavat-prasadah:  by serving or receiving the grace of the spiritual master, one receives the grace of the Supreme Lord.</p>
+<p>By serving her devotee husband, Kardama Muni, Devahuti shared in his achievements.</p>
+<p>Similarly, a sincere disciple, simply by serving a bona fide spiritual master, can achieve all the mercy of the Lord and the spiritual master simultaneously.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="3.23.6.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="3.23.8.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a href="3.23.6.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a href="3.23.8.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

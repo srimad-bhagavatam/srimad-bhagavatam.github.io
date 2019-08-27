@@ -1,0 +1,237 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>9.13.11 - The Dynasty of Maharaja Nimi</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+        <link rel="stylesheet" href="custom.css">
+        
+
+        
+    </head>
+    <body class="rust">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme + ' js';
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html">The Dynasty of Maharaja Nimi</a></li><li class="affix"><a href="9.13.2.html">9.13.2</a></li><li class="affix"><a href="9.13.3.html">9.13.3</a></li><li class="affix"><a href="9.13.4.html">9.13.4</a></li><li class="affix"><a href="9.13.5.html">9.13.5</a></li><li class="affix"><a href="9.13.6.html">9.13.6</a></li><li class="affix"><a href="9.13.7.html">9.13.7</a></li><li class="affix"><a href="9.13.8.html">9.13.8</a></li><li class="affix"><a href="9.13.9.html">9.13.9</a></li><li class="affix"><a href="9.13.10.html">9.13.10</a></li><li class="affix"><a href="9.13.11.html" class="active">9.13.11</a></li><li class="affix"><a href="9.13.12.html">9.13.12</a></li><li class="affix"><a href="9.13.13.html">9.13.13</a></li><li class="affix"><a href="9.13.14.html">9.13.14</a></li><li class="affix"><a href="9.13.15.html">9.13.15</a></li><li class="affix"><a href="9.13.16.html">9.13.16</a></li><li class="affix"><a href="9.13.17.html">9.13.17</a></li><li class="affix"><a href="9.13.18.html">9.13.18</a></li><li class="affix"><a href="9.13.19.html">9.13.19</a></li><li class="affix"><a href="9.13.20-21.html">9.13.20-21</a></li><li class="affix"><a href="9.13.22.html">9.13.22</a></li><li class="affix"><a href="9.13.23.html">9.13.23</a></li><li class="affix"><a href="9.13.24.html">9.13.24</a></li><li class="affix"><a href="9.13.25.html">9.13.25</a></li><li class="affix"><a href="9.13.26.html">9.13.26</a></li><li class="affix"><a href="9.13.27.html">9.13.27</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
+                        </div>
+
+                        <h1 class="menu-title">The Dynasty of Maharaja Nimi</h1>
+
+                        <div class="right-buttons">
+                            <a href="print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h3><a class="header" href="#91311" id="91311">9.13.11</a></h3>
+<p>deva ucuh</p>
+<p>videha usyatam kamam</p>
+<p>locanesu saririnam</p>
+<p>unmesana-nimesabhyam</p>
+<p>laksito ’dhyatma-samsthitah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>devah ucuh—the demigods said; videhah—without any material body; usyatam—you live; kamam—as you like; locanesu—in the vision; saririnam—of those who have material bodies; unmesana-nimesabhyam—become manifest and unmanifest as you desire; laksitah—being seen; adhyatma-samsthitah—situated in a spiritual body.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The demigods said: Let Maharaja Nimi live without a material body.</p>
+<p>Let him live in a spiritual body as a personal associate of the Supreme Personality of Godhead, and, according to his desire, let him be manifest or unmanifest to common materially embodied people.</p>
+<p><strong>PURPORT</strong></p>
+<p>The demigods wanted Maharaja Nimi to come to life, but Maharaja Nimi did not want to accept another material body.</p>
+<p>Under the circumstances, the demigods, having been requested by the saintly persons, gave him the benediction that he would be able to stay in his spiritual body.</p>
+<p>There are two kinds of spiritual bodies, as generally understood by common men.</p>
+<p>The term spiritual bod is sometimes taken to refer to a ghostly body.</p>
+<p>An impious man who dies after sinful activities is sometimes condemned so that he cannot possess a gross material body of five material elements, but must live in a subtle body of mind, intelligence and ego.</p>
+<p>However, as explained in Bhagavad-gita, devotees can give up the material body and attain a spiritual body free from all material tinges, gross and subtle (tyaktva deham punar janma naiti mam eti so ’rjuna (Bg.4.9)).</p>
+<p>Thus the demigods gave King Nimi the benediction that he would be able to stay in a purely spiritual body, free from all gross and subtle material contamination.</p>
+<p>The Supreme Personality of Godhead can be seen or unseen according to His own transcendental desire; similarly, a devotee, being jivan-mukta, can be seen or not, as he chooses.</p>
+<p>As stated in Bhagavad-gita, naham prakasah sarvasya yogamaya-samavrtah: (Bg.7.25) the Supreme Personality of Godhead, Krsna, is not manifest to everyone and anyone.</p>
+<p>To the common man He is unseen.</p>
+<p>Atah sri-krsna-namadi na bhaved grahyam indriyaih: (BRS.1.2.234) Krsna and His name, fame, qualities and paraphernalia cannot be materially understood.</p>
+<p>Unless one is advanced in spiritual life (sevonmukhe hi jihvadau), one cannot see Krsna.</p>
+<p>Therefore the ability to see Krsna depends on Krsna’s mercy.</p>
+<p>The same privilege of being seen or unseen according to one’s own desire was given to Maharaja Nimi.</p>
+<p>Thus he lived in his original, spiritual body as an associate of the Supreme Personality of Godhead.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="9.13.10.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="9.13.12.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a href="9.13.10.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a href="9.13.12.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

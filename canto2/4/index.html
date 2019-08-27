@@ -1,0 +1,237 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>The Process of Creation - The Process of Creation</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+        <link rel="stylesheet" href="custom.css">
+        
+
+        
+    </head>
+    <body class="rust">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme + ' js';
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">The Process of Creation</a></li><li class="affix"><a href="2.4.2.html">2.4.2</a></li><li class="affix"><a href="2.4.3-4.html">2.4.3-4</a></li><li class="affix"><a href="2.4.5.html">2.4.5</a></li><li class="affix"><a href="2.4.6.html">2.4.6</a></li><li class="affix"><a href="2.4.7.html">2.4.7</a></li><li class="affix"><a href="2.4.8.html">2.4.8</a></li><li class="affix"><a href="2.4.9.html">2.4.9</a></li><li class="affix"><a href="2.4.10.html">2.4.10</a></li><li class="affix"><a href="2.4.11.html">2.4.11</a></li><li class="affix"><a href="2.4.12.html">2.4.12</a></li><li class="affix"><a href="2.4.13.html">2.4.13</a></li><li class="affix"><a href="2.4.14.html">2.4.14</a></li><li class="affix"><a href="2.4.15.html">2.4.15</a></li><li class="affix"><a href="2.4.16.html">2.4.16</a></li><li class="affix"><a href="2.4.17.html">2.4.17</a></li><li class="affix"><a href="2.4.18.html">2.4.18</a></li><li class="affix"><a href="2.4.19.html">2.4.19</a></li><li class="affix"><a href="2.4.20.html">2.4.20</a></li><li class="affix"><a href="2.4.21.html">2.4.21</a></li><li class="affix"><a href="2.4.22.html">2.4.22</a></li><li class="affix"><a href="2.4.23.html">2.4.23</a></li><li class="affix"><a href="2.4.24.html">2.4.24</a></li><li class="affix"><a href="2.4.25.html">2.4.25</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
+                        </div>
+
+                        <h1 class="menu-title">The Process of Creation</h1>
+
+                        <div class="right-buttons">
+                            <a href="print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1><a class="header" href="#the-process-of-creation" id="the-process-of-creation">The Process of Creation</a></h1>
+<h3><a class="header" href="#241" id="241">2.4.1</a></h3>
+<p>suta uvaca</p>
+<p>vaiyasaker iti vacas</p>
+<p>tattva-niscayam atmanah</p>
+<p>upadharya matim krsne</p>
+<p>auttareyah satim vyadhat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sutah uvaca—Suta Gosvami said; vaiyasakeh—of Sukadeva Gosvami; iti—thus; vacah—speeches; tattva-niscayam—that which verifies the truth; atmanah—in the self; upadharya—just having realized; matim—concentration of the mind; krsne—unto Lord Krsna; auttareyah—the son of Uttara; satim—chaste; vyadhat—applied.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Suta Gosvami said: Maharaja Pariksit, the son of Uttara, after hearing the speeches of Sukadeva Gosvami, which were all about the truth of the self, applied his concentration faithfully upon Lord Krsna.</p>
+<p><strong>PURPORT</strong></p>
+<p>The word satim is very significant.</p>
+<p>This means existin and chaste And both imports are perfectly applicable in the case of Maharaja Pariksit.</p>
+<p>The whole Vedic adventure is to draw one’s attention entirely unto the lotus feet of Lord Krsna without any diversion, as instructed in the Bhagavad-gita (15.15).</p>
+<p>Fortunately Maharaja Pariksit had already been attracted to the Lord from the very beginning of his body, in the womb of his mother.</p>
+<p>In the womb of his mother he was struck by the brahmastra atomic bomb released by Asvatthama, but by the grace of the Lord he was saved from being burnt by the fiery weapon, and since then the King continuously concentrated his mind upon Lord Krsna, which made him perfectly chaste in devotional service.</p>
+<p>So by natural sequence he was a chaste devotee of the Lord, and when he further heard from Srila Sukadeva Gosvami that one should worship the Lord only and no one else, even though full of all desires or desireless, his natural affection for Krsna was strengthened.</p>
+<p>We have already discussed these topics.</p>
+<p>To become a pure devotee of Lord Krsna, two things are very much essential, namely having a chance to be born in the family of a devotee and having the blessings of a bona fide spiritual master.</p>
+<p>By the grace of Lord Krsna, Pariksit Maharaja had both opportunities.</p>
+<p>He was born in a family of such devotees as the Pandavas, and just to continue the dynasty of the Pandavas and show them special favor, the Lord specifically saved Maharaja Pariksit, who later on, by the arrangement of the Lord, was cursed by the boy of a brahmana and was able to get the association of such a spiritual master as Sukadeva Gosvami.</p>
+<p>In the Caitanya-caritamrta it is said that a fortunate person, by the mercy of the spiritual master and Lord Krsna, achieves the path of devotional service.</p>
+<p>This was perfectly applicable in the case of Maharaja Pariksit.</p>
+<p>By way of being born in a family of devotees, he automatically came in touch with Krsna, and after being so contacted he constantly remembered Him.</p>
+<p>Consequently Lord Krsna gave the King a further chance for development in devotional service by introducing him to Sukadeva Gosvami, a stalwart devotee of the Lord with perfect knowledge in self-realization.</p>
+<p>And by hearing from a bona fide spiritual master, he was perfectly able to concentrate his chaste mind further upon Lord Krsna, as a matter of course.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="2.4.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a href="2.4.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

@@ -1,0 +1,249 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Preface - Front Matter</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+        <link rel="stylesheet" href="custom.css">
+        
+
+        
+    </head>
+    <body class="rust">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme + ' js';
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="affix"><a href="../index.html">Home</a></li><li class="affix"><a href="index.html" class="active">Preface</a></li><li class="affix"><a href="intro.html">Introduction</a></li><li class="affix"><a href="siksastaka.html">Siksastaka</a></li><li><a href="../canto1/index.html"><strong aria-hidden="true">1.</strong> Creation</a></li><li><a href="../canto2/index.html"><strong aria-hidden="true">2.</strong> The Cosmic Manifestation</a></li><li><a href="../canto3/index.html"><strong aria-hidden="true">3.</strong> The Status Quo</a></li><li><a href="../canto4/index.html"><strong aria-hidden="true">4.</strong> The Creation of the Fourth Order</a></li><li><a href="../canto5/index.html"><strong aria-hidden="true">5.</strong> The Creative Impetus</a></li><li><a href="../canto6/index.html"><strong aria-hidden="true">6.</strong> Prescribed Duties for Mankind</a></li><li><a href="../canto7/index.html"><strong aria-hidden="true">7.</strong> The Science of God</a></li><li><a href="../canto8/index.html"><strong aria-hidden="true">8.</strong> Withdrawal of the Cosmic Creations</a></li><li><a href="../canto9/index.html"><strong aria-hidden="true">9.</strong> Liberation</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
+                        </div>
+
+                        <h1 class="menu-title">Front Matter</h1>
+
+                        <div class="right-buttons">
+                            <a href="print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1><a class="header" href="#preface" id="preface">Preface</a></h1>
+<p>We must know the present need of human society.</p>
+<p>And what is that need? Human society is no longer bounded by geographical limits to particular countries or communities.</p>
+<p>Human society is broader than in the Middle Ages, and the world tendency is toward one state or one human society.</p>
+<p>The ideals of spiritual communism, according to Srimad-Bhagavatam, are based more or less on the oneness of the entire human society, nay, of the entire energy of living beings.</p>
+<p>The need is felt by great thinkers to make this a successful ideology.</p>
+<p>Srimad-Bhagavatam will fill this need in human society.</p>
+<p>It begins, therefore, with the aphorism of Vedanta philosophy janmady asya yatah (Bhag.1.1.1) to establish the ideal of a common cause.</p>
+<p>Human society, at the present moment, is not in the darkness of oblivion.</p>
+<p>It has made rapid progress in the field of material comforts, education and economic development throughout the entire world.</p>
+<p>But there is a pinprick somewhere in the social body at large, and therefore there are large-scale quarrels, even over less important issues.</p>
+<p>There is need of a clue as to how humanity can become one in peace, friendship and prosperity with a common cause.</p>
+<p>Srimad-Bhagavatam will fill this need, for it is a cultural presentation for the respiritualization of the entire human society.</p>
+<p>Srimad-Bhagavatam should be introduced also in the schools and colleges, for it is recommended by the great student-devotee Prahlada Maharaja in order to change the demoniac face of society.</p>
+<p>kaumara acaret prajnodharman bhagavatan ihadurlabham manusam janmatad apy adhruvam arthadam (Bhag.7.6.1) Disparity in human society is due to lack of principles in a godless civilization.</p>
+<p>There is God, or the Almighty One, from whom everything emanates, by whom everything is maintained and in whom everything is merged to rest.</p>
+<p>Material science has tried to find the ultimate source of creation very insufficiently, but it is a fact that there is one ultimate source of everything that be.</p>
+<p>This ultimate source is explained rationally and authoritatively in the beautiful Bhagavatam, or Srimad-Bhagavatam.</p>
+<p>Srimad-Bhagavatam is the transcendental science not only for knowing the ultimate source of everything but also for knowing our relation with Him and our duty toward perfection of the human society on the basis of this perfect knowledge.</p>
+<p>It is powerful reading matter in the Sanskrit language, and it is now rendered into English elaborately so that simply by a careful reading one will know God perfectly well, so much so that the reader will be sufficiently educated to defend himself from the onslaught of atheists.</p>
+<p>Over and above this, the reader will be able to convert others to accepting God as a concrete principle.</p>
+<p>Srimad-Bhagavatam begins with the definition of the ultimate source.</p>
+<p>It is a bona fide commentary on the Vedanta-sutra by the same author, Srila Vyasadeva, and gradually it develops into nine cantos up to the highest state of God realization.</p>
+<p>The only qualification one needs to study this great book of transcendental knowledge is to proceed step by step cautiously and not jump forward haphazardly like with an ordinary book.</p>
+<p>It should be gone through chapter by chapter, one after another.</p>
+<p>The reading matter is so arranged with its original Sanskrit text, its English transliteration, synonyms, translation and purports so that one is sure to become a God-realized soul at the end of finishing the first nine cantos.</p>
+<p>The Tenth Canto is distinct from the first nine cantos because it deals directly with the transcendental activities of the Personality of Godhead Sri Krsna.</p>
+<p>One will be unable to capture the effects of the Tenth Canto without going through the first nine cantos.</p>
+<p>The book is complete in twelve cantos, each independent, but it is good for all to read them in small installments one after another.</p>
+<p>I must admit my frailties in presenting Srimad-Bhagavatam, but still I am hopeful of its good reception by the thinkers and leaders of society on the strength of the following statement of Srimad-Bhagavatam(1.5.11):</p>
+<p>tad-vag-visargo janatagha-viplavo</p>
+<p>yasmin prati-slokam abaddhavaty api</p>
+<p>namany anantasya yaso ’nkitani yac</p>
+<p>chrnvanti gayanti grnanti sadhavah</p>
+<p>“On the other hand, that literature which is full with descriptions of the transcendental glories of the name, fame, form and pastimes of the unlimited Supreme Lord is a transcendental creation meant to bring about a revolution in the impious life of a misdirected civilization.</p>
+<p>Such transcendental literatures, even though irregularly composed, are heard, sung and accepted by purified men who are thoroughly honest.”</p>
+<p><strong>om tat sat</strong></p>
+<p><strong>A.C. Bhaktivedanta Swami</strong></p>
+<p><strong>Dated at Delhi December 15, 1962</strong></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="intro.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a href="intro.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

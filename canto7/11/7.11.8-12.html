@@ -1,0 +1,264 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>7.11.8-12 - The Perfect Society: Four Social Classes</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+        <link rel="stylesheet" href="custom.css">
+        
+
+        
+    </head>
+    <body class="rust">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme + ' js';
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html">The Perfect Society: Four Social Classes</a></li><li class="affix"><a href="7.11.2.html">7.11.2</a></li><li class="affix"><a href="7.11.3.html">7.11.3</a></li><li class="affix"><a href="7.11.4.html">7.11.4</a></li><li class="affix"><a href="7.11.5.html">7.11.5</a></li><li class="affix"><a href="7.11.6.html">7.11.6</a></li><li class="affix"><a href="7.11.7.html">7.11.7</a></li><li class="affix"><a href="7.11.8-12.html" class="active">7.11.8-12</a></li><li class="affix"><a href="7.11.13.html">7.11.13</a></li><li class="affix"><a href="7.11.14.html">7.11.14</a></li><li class="affix"><a href="7.11.15.html">7.11.15</a></li><li class="affix"><a href="7.11.16.html">7.11.16</a></li><li class="affix"><a href="7.11.17.html">7.11.17</a></li><li class="affix"><a href="7.11.18-20.html">7.11.18-20</a></li><li class="affix"><a href="7.11.21.html">7.11.21</a></li><li class="affix"><a href="7.11.22.html">7.11.22</a></li><li class="affix"><a href="7.11.23.html">7.11.23</a></li><li class="affix"><a href="7.11.24.html">7.11.24</a></li><li class="affix"><a href="7.11.25.html">7.11.25</a></li><li class="affix"><a href="7.11.26-27.html">7.11.26-27</a></li><li class="affix"><a href="7.11.28.html">7.11.28</a></li><li class="affix"><a href="7.11.29.html">7.11.29</a></li><li class="affix"><a href="7.11.30.html">7.11.30</a></li><li class="affix"><a href="7.11.31.html">7.11.31</a></li><li class="affix"><a href="7.11.32.html">7.11.32</a></li><li class="affix"><a href="7.11.33-34.html">7.11.33-34</a></li><li class="affix"><a href="7.11.35.html">7.11.35</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
+                        </div>
+
+                        <h1 class="menu-title">The Perfect Society: Four Social Classes</h1>
+
+                        <div class="right-buttons">
+                            <a href="print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h3><a class="header" href="#7118-12" id="7118-12">7.11.8-12</a></h3>
+<p>satyam daya tapah saucam</p>
+<p>titikseksa samo damah</p>
+<p>ahimsa brahmacaryam ca</p>
+<p>tyagah svadhyaya arjavam</p>
+<p>santosah samadrk-seva</p>
+<p>gramyehoparamah sanaih</p>
+<p>nrnam viparyayeheksa</p>
+<p>maunam atma-vimarsanam</p>
+<p>annadyadeh samvibhago</p>
+<p>bhutebhyas ca yatharhatah</p>
+<p>tesv atma-devata-buddhih</p>
+<p>sutaram nrsu pandava</p>
+<p>sravanam kirtanam casya</p>
+<p>smaranam mahatam gateh</p>
+<p>sevejyavanatir dasyam</p>
+<p>sakhyam atma-samarpanam</p>
+<p>nrnam ayam paro dharmah</p>
+<p>sarvesam samudahrtah</p>
+<p>trimsal-laksanavan rajan</p>
+<p>sarvatma yena tusyati</p>
+<p><strong>SYNONYMS</strong></p>
+<p>satyam—speaking the truth without distortion or deviation; daya—sympathy to everyone suffering; tapah—austerities (such as observing fasts at least twice in a month on the day of Ekadasi); saucam—cleanliness (bathing regularly at least twice a day, morning and evening, and remembering to chant the holy name of God); titiksa—toleration (being unagitated by seasonal changes or inconvenient circumstances); iksa—distinguishing between good and bad; samah—control of the mind (not allowing the mind to act whimsically); damah—control of the senses (not allowing the senses to act without control); ahimsa—nonviolence (not subjecting any living entity to the threefold miseries); brahmacaryam—continence or abstaining from misuse of one’s semen (not indulging in sex with women other than one’s own wife and not having sex with one’s own wife when sex is forbidden, like during the period of menstruation); ca—and; tyagah—giving in charity at least fifty percent of one’s income; svadhyayah—reading of transcendental literatures like Bhagavad-gita, Srimad-Bhagavatam, Ramayana and Mahabharata (or, for those not in Vedic culture, reading of the Bible or Koran); arjavam—simplicity (freedom from mental duplicity); santosah—being satisfied with that which is available without severe endeavor; samadrk-seva—rendering service to saintly persons who make no distinctions between one living being and another and who see every living being as a spirit soul (panditah sama-darsinah (Bg.5.18)); gramya-iha-uparamah—not taking part in so-called philanthropic activities; sanaih—gradually; nrnam—in human society; viparyaya-iha—the unnecessary activities; iksa—discussing; maunam—being grave and silent; atma—into the self; vimarsanam—research (as to whether one is the body or the soul); anna-adya-adeh—of food and drink, etc.; samvibhagah—equal distribution; bhutebhyah—to different living entities; ca—also; yatha-arhatah—as befitting; tesu—all living entities; atma-devata-buddhih—accepting as the self or the demigods; sutaram—preliminarily; nrsu—among all human beings; pandava—O Maharaja Yudhisthira; sravanam—hearing; kirtanam—chanting; ca—also; asya—of Him (the Lord); smaranam—remembering (His words and activities); mahatam—of great saintly persons; gateh—who is the shelter; seva—service; ijya—worship; avanatih—offering obeisances; dasyam—accepting the service; sakhyam—to consider as a friend; atma-samarpanam—surrendering one’s whole self; nrnam—of all human beings; ayam—this; parah—the supermost; dharmah—religious principle; sarvesam—of all; samudahrtah—described fully; trimsat-laksana-van—possessing thirty characteristics; rajan—O King; sarva-atma—the Supreme Lord, the Supersoul of all; yena—by which; tusyati—is satisfied.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>These are the general principles to be followed by all human beings: truthfulness, mercy, austerity (observing fasts on certain days of the month), bathing twice a day, tolerance, discrimination between right and wrong, control of the mind, control of the senses, nonviolence, celibacy, charity, reading of scripture, simplicity, satisfaction, rendering service to saintly persons, gradually taking leave of unnecessary engagements, observing the futility of the unnecessary activities of human society, remaining silent and grave and avoiding unnecessary talk, considering whether one is the body or the soul, distributing food equally to all living entities (both men and animals), seeing every soul (especially in the human form) as a part of the Supreme Lord, hearing about the activities and instructions given by the Supreme Personality of Godhead (who is the shelter of the saintly persons), chanting about these activities and instructions, always remembering these activities and instructions, trying to render service, performing worship, offering obeisances, becoming a servant, becoming a friend, and surrendering one’s whole self.</p>
+<p>O King Yudhisthira, these thirty qualifications must be acquired in the human form of life.</p>
+<p>Simply by acquiring these qualifications, one can satisfy the Supreme Personality of Godhead.</p>
+<p><strong>PURPORT</strong></p>
+<p>In order that human beings be distinct from the animals, the great saint Narada recommends that every human being be educated in terms of the above-mentioned thirty qualifications.</p>
+<p>Nowadays there is propaganda everywhere, all over the world, for a secular state, a state interested only in mundane activities.</p>
+<p>But if the citizens of the state are not educated in the above-mentioned good qualities, how can there be happiness? For example, if the total populace is untruthful, how can the state be happy? Therefore, without consideration of one’s belonging to a sectarian religion, whether Hindu, Muslim, Christian, Buddhist or any other sect, everyone should be taught to become truthful.</p>
+<p>Similarly, everyone should be taught to be merciful, and everyone should observe fasting on certain days of the month.</p>
+<p>Everyone should bathe twice a day, cleanse his teeth and body externally, and cleanse his mind internally by remembering the holy name of the Lord.</p>
+<p>The Lord is one, whether one is Hindu, Muslim or Christian.</p>
+<p>Therefore, one should chant the holy name of the Lord, regardless of differences in linguistic pronunciation.</p>
+<p>Also, everyone should be taught to be very careful not to discharge semen unnecessarily.</p>
+<p>This is very important for all human beings.</p>
+<p>If semen is not discharged unnecessarily, one becomes extremely strong in memory, determination, activity and the vitality of one’s bodily energy.</p>
+<p>Everyone should also be taught to be simple in thought and feeling and satisfied in body and mind.</p>
+<p>These are the general qualifications of a human being.</p>
+<p>There is no question of a secular state or an ecclesiastical state.</p>
+<p>Unless one is educated in the above-mentioned thirty qualities, there cannot be any peace.</p>
+<p>Ultimately it is recommended:</p>
+<p>sravanam kirtanam casya</p>
+<p>smaranam mahatam gateh</p>
+<p>sevejyavanatir dasyam</p>
+<p>sakhyam atma-samarpanam</p>
+<p>Everyone should become a devotee of the Lord, because by becoming a devotee of the Lord one automatically acquires the other qualities yasyasti bhaktir bhagavaty akincana</p>
+<p>sarvair gunais tatra samasate surah</p>
+<p>harav abhaktasya kuto mahad-guna</p>
+<p>manorathenasati dhavato bahih</p>
+<p>In one who has unflinching devotional service to Krsna, all the good qualities of Krsna and the demigods are consistently manifest.</p>
+<p>However, he who has no devotion to the Supreme Personality of Godhead has no good qualifications because he is engaged by mental concoction in material existence, which is the external feature of the Lord (Bhag.5.18.12) Our Krsna consciousness movement, therefore, is all-embracing.</p>
+<p>Human civilization should take it very seriously and practice its principles for the peace of the world.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="7.11.7.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="7.11.13.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a href="7.11.7.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a href="7.11.13.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

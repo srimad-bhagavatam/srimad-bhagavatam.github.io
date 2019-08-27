@@ -1,0 +1,276 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>5.25.9 - The Glories of Lord Ananta</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+        <link rel="stylesheet" href="custom.css">
+        
+
+        
+    </head>
+    <body class="rust">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme + ' js';
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html">The Glories of Lord Ananta</a></li><li class="affix"><a href="5.25.2.html">5.25.2</a></li><li class="affix"><a href="5.25.3.html">5.25.3</a></li><li class="affix"><a href="5.25.4.html">5.25.4</a></li><li class="affix"><a href="5.25.5.html">5.25.5</a></li><li class="affix"><a href="5.25.6.html">5.25.6</a></li><li class="affix"><a href="5.25.7.html">5.25.7</a></li><li class="affix"><a href="5.25.8.html">5.25.8</a></li><li class="affix"><a href="5.25.9.html" class="active">5.25.9</a></li><li class="affix"><a href="5.25.10.html">5.25.10</a></li><li class="affix"><a href="5.25.11.html">5.25.11</a></li><li class="affix"><a href="5.25.12.html">5.25.12</a></li><li class="affix"><a href="5.25.13.html">5.25.13</a></li><li class="affix"><a href="5.25.14.html">5.25.14</a></li><li class="affix"><a href="5.25.15.html">5.25.15</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
+                        </div>
+
+                        <h1 class="menu-title">The Glories of Lord Ananta</h1>
+
+                        <div class="right-buttons">
+                            <a href="print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h3><a class="header" href="#5259" id="5259">5.25.9</a></h3>
+<p>utpatti-sthiti-laya-hetavo ’sya kalpah</p>
+<p>sattvadyah prakrti-guna yad-iksayasan</p>
+<p>yad-rupam dhruvam akrtam yad ekam atman</p>
+<p>nanadhat katham u ha veda tasya vartma</p>
+<p><strong>SYNONYMS</strong></p>
+<p>utpatti—of creation; sthiti—maintenance; laya—and dissolution; hetavah—the original causes; asya—of this material world; kalpah—capable of acting; sattva-adyah—headed by the sattva-guna; prakrti-gunah—the modes of material nature; yat—of whom; iksaya—by the glance; asan—became; yat-rupam—the form of whom; dhruvam—unlimited; akrtam—uncreated; yat—who; ekam—one; atman—in Himself; nana—variously; adhat—has manifested; katham—how; u ha—certainly; veda—can understand; tasya—His; vartma—path.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>By His glance, the Supreme Personality of Godhead enables the modes of material nature to act as the causes of universal creation, maintenance and destruction.</p>
+<p>The Supreme Soul is unlimited and beginningless, and although He is one, He has manifested Himself in many forms.</p>
+<p>How can human society understand the ways of the Supreme?</p>
+<p><strong>PURPORT</strong></p>
+<p>From Vedic literature we learn that when the Supreme Lord glances (sa aiksata) over the material energy, the three modes of material nature become manifest and create material variety.</p>
+<p>Before He glances over the material energy, there is no possibility of the creation, maintenance and annihilation of the material world.</p>
+<p>The Lord existed before the creation, and consequently He is eternal and unchanging.</p>
+<p>Therefore how can any human being, however great a scientist or philosopher he may be, understand the ways of the Supreme Personality of Godhead? The following quotations from Caitanya-bhagavata (Adi-khanda, 1.48–52 and 1.58–69) tell of the glories of Lord Ananta:</p>
+<p>ki brahma, ki siva, ki sanakadi ‘kumara’</p>
+<p>vyasa, suka, naradadi, ‘bhakta’ nama yanra</p>
+<p>Lord Brahma, Lord Siva, the four Kumaras (Sanaka, Sanatana, Sanandana and Sanat-kumara), Vyasadeva, Sukadeva Gosvami and Narada are all pure devotees, eternal servants of the Lord</p>
+<p>sabara pujita sri-ananta-mahasaya</p>
+<p>sahasra-vadana prabhu——bhakti-rasamay</p>
+<p>Lord Sri Ananta is worshiped by all the uncontaminated devotees mentioned above.</p>
+<p>He has thousands of hoods and is the reservoir of all devotional service adideva, maha-yogi, ‘isvara’, ‘vaisnava’</p>
+<p>mahimara anta inha na janaye saba</p>
+<p>Lord Ananta is the original person and the great mystic controller.</p>
+<p>At the same time, He is a servant of God, a Vaisnava.</p>
+<p>Since there is no end to His glories, no one can understand Him fully sevana sunila, ebe suna thakurala</p>
+<p>atma-tantre yena-mate vaisena patala</p>
+<p>I have already spoken to you of His service to the Lord.</p>
+<p>Now hear how the self-sufficient Anantadeva exists in the lower planetary system of Patala sri-narada-gosani ‘tumburu’ kari’ sange</p>
+<p>se yasa gayena brahma-sthane sloka-vandhe</p>
+<p>Bearing his stringed instrument, the tumburu, on his shoulders, the great sage Narada Muni always glorifies Lord Ananta.</p>
+<p>Narada Muni has composed many transcendental verses in praise of the Lord</p>
+<p>srsti, sthiti, pralaya, sattvadi yata guna</p>
+<p>yanra drsti-pate haya, yaya punah punah</p>
+<p>Simply due to the glance of Lord Ananta, the three material modes of nature interact and produce creation, maintenance and annihilation.</p>
+<p>These modes of nature appear again and again advitiya-rupa, satya anadi mahattva</p>
+<p>tathapi ‘ananta’ haya, ke bujhe se tattva?</p>
+<p>The Lord is glorified as one without a second and as the supreme truth who has no beginning.</p>
+<p>Therefore He is called Anantadeva (unlimited).</p>
+<p>Who can understand Him?</p>
+<p>suddha-sattva-murti prabhu dharena karunaya</p>
+<p>ye-vigrahe sabara prakasa sulilaya</p>
+<p>His form is completely spiritual, and He manifests it only by His mercy.</p>
+<p>All the activities in this material world are conducted only in His form yanhara taranga sikhi’ simha mahavali</p>
+<p>nija-jana-mano ranje hana kutuhali</p>
+<p>He is very powerful and always prepared to please His personal associates and devotees ye ananta-namera sravana-sankirtane</p>
+<p>ye-te mate kene nahi bole ye-te jane</p>
+<p>asesa-janmera bandha chinde sei-ksane</p>
+<p>ataeva vaisnava na chade kabhu tane</p>
+<p>If we simply try to engage in the congregational chanting of the glories of Lord Anantadeva, the dirty things in our hearts, accumulated during many births, will immediately be washed away.</p>
+<p>Therefore a Vaisnava never loses an opportunity to glorify Anantadeva ‘sesa’ ba-i samsarera gati nahi ara</p>
+<p>anantera name sarva-jivera uddhara</p>
+<p>Lord Anantadeva is known as Sesa (the unlimited end) because He ends our passage through this material world.</p>
+<p>Simply by chanting His glories, everyone can be liberated ananta prthivi-giri samudra-sahite</p>
+<p>ye-prabhu dharena gire palana karite</p>
+<p>On His head, Anantadeva sustains the entire universe, with its millions of planets containing enormous oceans and mountains sahasra phanara eka-phane ‘bindu’ yena</p>
+<p>ananta vikrama, na janena, ‘ache’ hena</p>
+<p>He is so large and powerful that this universe rests on one of His hoods just like a drop of water.</p>
+<p>He does not know where it is sahasra-vadane krsna-yasa nirantara</p>
+<p>gaite achena adi-deva mahi-dhara</p>
+<p>While bearing the universe on one of His hoods, Anantadeva chants the glories of Krsna with each of His thousands of mouths gayena ananta, sri-yasera nahi anta</p>
+<p>jaya-bhanga nahi karu, donhe——balavanta</p>
+<p>Although He has been chanting the glories of Lord Krsna since time immemorial, He has still not come to their end adyapiha ‘sesa’-deva sahasra-sri-mukhe</p>
+<p>gayena caitanya-yasa anta nahi dekhe</p>
+<p>To this very day, Lord Ananta continues to chant the glories of Sri Caitanya Mahaprabhu, and still He finds no end to them</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="5.25.8.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="5.25.10.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a href="5.25.8.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a href="5.25.10.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

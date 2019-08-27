@@ -1,0 +1,1858 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>The Story of King Vena</title>
+        
+        <meta name="robots" content="noindex" />
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+        <link rel="stylesheet" href="custom.css">
+        
+
+        
+    </head>
+    <body class="rust">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme + ' js';
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html">The Story of King Vena</a></li><li class="affix"><a href="4.14.2.html">4.14.2</a></li><li class="affix"><a href="4.14.3.html">4.14.3</a></li><li class="affix"><a href="4.14.4.html">4.14.4</a></li><li class="affix"><a href="4.14.5.html">4.14.5</a></li><li class="affix"><a href="4.14.6.html">4.14.6</a></li><li class="affix"><a href="4.14.7.html">4.14.7</a></li><li class="affix"><a href="4.14.8.html">4.14.8</a></li><li class="affix"><a href="4.14.9.html">4.14.9</a></li><li class="affix"><a href="4.14.10.html">4.14.10</a></li><li class="affix"><a href="4.14.11.html">4.14.11</a></li><li class="affix"><a href="4.14.12.html">4.14.12</a></li><li class="affix"><a href="4.14.13.html">4.14.13</a></li><li class="affix"><a href="4.14.14.html">4.14.14</a></li><li class="affix"><a href="4.14.15.html">4.14.15</a></li><li class="affix"><a href="4.14.16.html">4.14.16</a></li><li class="affix"><a href="4.14.17.html">4.14.17</a></li><li class="affix"><a href="4.14.18.html">4.14.18</a></li><li class="affix"><a href="4.14.19.html">4.14.19</a></li><li class="affix"><a href="4.14.20.html">4.14.20</a></li><li class="affix"><a href="4.14.21.html">4.14.21</a></li><li class="affix"><a href="4.14.22.html">4.14.22</a></li><li class="affix"><a href="4.14.23.html">4.14.23</a></li><li class="affix"><a href="4.14.24.html">4.14.24</a></li><li class="affix"><a href="4.14.25.html">4.14.25</a></li><li class="affix"><a href="4.14.26-27.html">4.14.26-27</a></li><li class="affix"><a href="4.14.28.html">4.14.28</a></li><li class="affix"><a href="4.14.29.html">4.14.29</a></li><li class="affix"><a href="4.14.30.html">4.14.30</a></li><li class="affix"><a href="4.14.31.html">4.14.31</a></li><li class="affix"><a href="4.14.32.html">4.14.32</a></li><li class="affix"><a href="4.14.33.html">4.14.33</a></li><li class="affix"><a href="4.14.34.html">4.14.34</a></li><li class="affix"><a href="4.14.35.html">4.14.35</a></li><li class="affix"><a href="4.14.36.html">4.14.36</a></li><li class="affix"><a href="4.14.37.html">4.14.37</a></li><li class="affix"><a href="4.14.38.html">4.14.38</a></li><li class="affix"><a href="4.14.39-40.html">4.14.39-40</a></li><li class="affix"><a href="4.14.41.html">4.14.41</a></li><li class="affix"><a href="4.14.42.html">4.14.42</a></li><li class="affix"><a href="4.14.43.html">4.14.43</a></li><li class="affix"><a href="4.14.44.html">4.14.44</a></li><li class="affix"><a href="4.14.45.html">4.14.45</a></li><li class="affix"><a href="4.14.46.html">4.14.46</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
+                        </div>
+
+                        <h1 class="menu-title">The Story of King Vena</h1>
+
+                        <div class="right-buttons">
+                            <a href="print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Home - Description of the Descendants of Dhruva Maharaja</title>
+<pre><code>    &lt;meta content=&quot;text/html; charset=utf-8&quot; http-equiv=&quot;Content-Type&quot;&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+    &lt;meta name=&quot;theme-color&quot; content=&quot;#ffffff&quot; /&gt;
+
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;favicon.png&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;css/variables.css&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;css/general.css&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;css/chrome.css&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;css/print.css&quot; media=&quot;print&quot;&gt;
+
+    &lt;!-- Fonts --&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;FontAwesome/css/font-awesome.css&quot;&gt;
+    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Source+Code+Pro:500&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+
+    &lt;!-- Highlight.js Stylesheets --&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;highlight.css&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;tomorrow-night.css&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;ayu-highlight.css&quot;&gt;
+
+    &lt;!-- Custom theme stylesheets --&gt;
+    
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;custom.css&quot;&gt;
+    
+
+    
+&lt;/head&gt;
+&lt;body class=&quot;rust&quot;&gt;
+    &lt;!-- Provide site root to javascript --&gt;
+    &lt;script type=&quot;text/javascript&quot;&gt;
+        var path_to_root = &quot;&quot;;
+        var default_theme = &quot;rust&quot;;
+    &lt;/script&gt;
+
+    &lt;!-- Work around some values being stored in localStorage wrapped in quotes --&gt;
+    &lt;script type=&quot;text/javascript&quot;&gt;
+        try {
+            var theme = localStorage.getItem('mdbook-theme');
+            var sidebar = localStorage.getItem('mdbook-sidebar');
+
+            if (theme.startsWith('&quot;') &amp;&amp; theme.endsWith('&quot;')) {
+                localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+            }
+
+            if (sidebar.startsWith('&quot;') &amp;&amp; sidebar.endsWith('&quot;')) {
+                localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+            }
+        } catch (e) { }
+    &lt;/script&gt;
+
+    &lt;!-- Set the theme before any content is loaded, prevents flash --&gt;
+    &lt;script type=&quot;text/javascript&quot;&gt;
+        var theme;
+        try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+        if (theme === null || theme === undefined) { theme = default_theme; }
+        document.body.className = theme;
+        document.querySelector('html').className = theme + ' js';
+    &lt;/script&gt;
+
+    &lt;!-- Hide / unhide sidebar before it is displayed --&gt;
+    &lt;script type=&quot;text/javascript&quot;&gt;
+        var html = document.querySelector('html');
+        var sidebar = 'hidden';
+        if (document.body.clientWidth &gt;= 1080) {
+            try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+            sidebar = sidebar || 'visible';
+        }
+        html.classList.remove('sidebar-visible');
+        html.classList.add(&quot;sidebar-&quot; + sidebar);
+    &lt;/script&gt;
+
+    &lt;nav id=&quot;sidebar&quot; class=&quot;sidebar&quot; aria-label=&quot;Table of contents&quot;&gt;
+        &lt;div class=&quot;sidebar-scrollbox&quot;&gt;
+            &lt;ol class=&quot;chapter&quot;&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;../../index.html&quot; class=&quot;active&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;../index.html&quot;&gt;Table of Contents&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;index.html&quot;&gt;Description of the Descendants of Dhruva Maharaja&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.2.html&quot;&gt;4.13.2&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.3.html&quot;&gt;4.13.3&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.4.html&quot;&gt;4.13.4&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.5.html&quot;&gt;4.13.5&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.6.html&quot;&gt;4.13.6&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.7.html&quot;&gt;4.13.7&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.8-9.html&quot;&gt;4.13.8-9&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.10.html&quot;&gt;4.13.10&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.11.html&quot;&gt;4.13.11&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.12.html&quot;&gt;4.13.12&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.13.html&quot;&gt;4.13.13&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.14.html&quot;&gt;4.13.14&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.15-16.html&quot;&gt;4.13.15-16&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.17.html&quot;&gt;4.13.17&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.18.html&quot;&gt;4.13.18&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.19-20.html&quot;&gt;4.13.19-20&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.21.html&quot;&gt;4.13.21&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.22.html&quot;&gt;4.13.22&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.23.html&quot;&gt;4.13.23&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.24.html&quot;&gt;4.13.24&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.25.html&quot;&gt;4.13.25&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.26.html&quot;&gt;4.13.26&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.27.html&quot;&gt;4.13.27&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.28.html&quot;&gt;4.13.28&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.29.html&quot;&gt;4.13.29&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.30.html&quot;&gt;4.13.30&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.31.html&quot;&gt;4.13.31&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.32.html&quot;&gt;4.13.32&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.33.html&quot;&gt;4.13.33&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.34.html&quot;&gt;4.13.34&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.35.html&quot;&gt;4.13.35&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.36.html&quot;&gt;4.13.36&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.37.html&quot;&gt;4.13.37&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.38.html&quot;&gt;4.13.38&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.39.html&quot;&gt;4.13.39&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.40.html&quot;&gt;4.13.40&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.41.html&quot;&gt;4.13.41&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.42.html&quot;&gt;4.13.42&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.43.html&quot;&gt;4.13.43&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.44.html&quot;&gt;4.13.44&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.45.html&quot;&gt;4.13.45&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.46.html&quot;&gt;4.13.46&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.47.html&quot;&gt;4.13.47&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.48.html&quot;&gt;4.13.48&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;4.13.49.html&quot;&gt;4.13.49&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;../index.html&quot;&gt;Table of Contents&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div id=&quot;sidebar-resize-handle&quot; class=&quot;sidebar-resize-handle&quot;&gt;&lt;/div&gt;
+    &lt;/nav&gt;
+
+    &lt;div id=&quot;page-wrapper&quot; class=&quot;page-wrapper&quot;&gt;
+
+        &lt;div class=&quot;page&quot;&gt;
+            
+            &lt;div id=&quot;menu-bar&quot; class=&quot;menu-bar&quot;&gt;
+                &lt;div id=&quot;menu-bar-sticky-container&quot;&gt;
+                    &lt;div class=&quot;left-buttons&quot;&gt;
+                        &lt;button id=&quot;sidebar-toggle&quot; class=&quot;icon-button&quot; type=&quot;button&quot; title=&quot;Toggle Table of Contents&quot; aria-label=&quot;Toggle Table of Contents&quot; aria-controls=&quot;sidebar&quot;&gt;
+                            &lt;i class=&quot;fa fa-bars&quot;&gt;&lt;/i&gt;
+                        &lt;/button&gt;
+                        &lt;button id=&quot;theme-toggle&quot; class=&quot;icon-button&quot; type=&quot;button&quot; title=&quot;Change theme&quot; aria-label=&quot;Change theme&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;theme-list&quot;&gt;
+                            &lt;i class=&quot;fa fa-paint-brush&quot;&gt;&lt;/i&gt;
+                        &lt;/button&gt;
+                        &lt;ul id=&quot;theme-list&quot; class=&quot;theme-popup&quot; aria-label=&quot;Themes&quot; role=&quot;menu&quot;&gt;
+                            &lt;li role=&quot;none&quot;&gt;&lt;button role=&quot;menuitem&quot; class=&quot;theme&quot; id=&quot;light&quot;&gt;Light&lt;/button&gt;&lt;/li&gt;
+                            &lt;li role=&quot;none&quot;&gt;&lt;button role=&quot;menuitem&quot; class=&quot;theme&quot; id=&quot;rust&quot;&gt;Rust (default)&lt;/button&gt;&lt;/li&gt;
+                            &lt;li role=&quot;none&quot;&gt;&lt;button role=&quot;menuitem&quot; class=&quot;theme&quot; id=&quot;coal&quot;&gt;Coal&lt;/button&gt;&lt;/li&gt;
+                            &lt;li role=&quot;none&quot;&gt;&lt;button role=&quot;menuitem&quot; class=&quot;theme&quot; id=&quot;navy&quot;&gt;Navy&lt;/button&gt;&lt;/li&gt;
+                            &lt;li role=&quot;none&quot;&gt;&lt;button role=&quot;menuitem&quot; class=&quot;theme&quot; id=&quot;ayu&quot;&gt;Ayu&lt;/button&gt;&lt;/li&gt;
+                        &lt;/ul&gt;
+                        
+                        &lt;button id=&quot;search-toggle&quot; class=&quot;icon-button&quot; type=&quot;button&quot; title=&quot;Search. (Shortkey: s)&quot; aria-label=&quot;Toggle Searchbar&quot; aria-expanded=&quot;false&quot; aria-keyshortcuts=&quot;S&quot; aria-controls=&quot;searchbar&quot;&gt;
+                            &lt;i class=&quot;fa fa-search&quot;&gt;&lt;/i&gt;
+                        &lt;/button&gt;
+                        
+                    &lt;/div&gt;
+
+                    &lt;h1 class=&quot;menu-title&quot;&gt;Description of the Descendants of Dhruva Maharaja&lt;/h1&gt;
+
+                    &lt;div class=&quot;right-buttons&quot;&gt;
+                        &lt;a href=&quot;print.html&quot; title=&quot;Print this book&quot; aria-label=&quot;Print this book&quot;&gt;
+                            &lt;i id=&quot;print-button&quot; class=&quot;fa fa-print&quot;&gt;&lt;/i&gt;
+                        &lt;/a&gt;
+                        
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+            
+            &lt;div id=&quot;search-wrapper&quot; class=&quot;hidden&quot;&gt;
+                &lt;form id=&quot;searchbar-outer&quot; class=&quot;searchbar-outer&quot;&gt;
+                    &lt;input type=&quot;search&quot; name=&quot;search&quot; id=&quot;searchbar&quot; name=&quot;searchbar&quot; placeholder=&quot;Search this book ...&quot; aria-controls=&quot;searchresults-outer&quot; aria-describedby=&quot;searchresults-header&quot;&gt;
+                &lt;/form&gt;
+                &lt;div id=&quot;searchresults-outer&quot; class=&quot;searchresults-outer hidden&quot;&gt;
+                    &lt;div id=&quot;searchresults-header&quot; class=&quot;searchresults-header&quot;&gt;&lt;/div&gt;
+                    &lt;ul id=&quot;searchresults&quot;&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+            &lt;!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM --&gt;
+            &lt;script type=&quot;text/javascript&quot;&gt;
+                document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                    link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                });
+            &lt;/script&gt;
+
+            &lt;div id=&quot;content&quot; class=&quot;content&quot;&gt;
+                &lt;main&gt;
+                    &lt;!DOCTYPE HTML&gt;
+</code></pre>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Home - Dhruva Maharaja Goes Back to Godhead</title>
+<pre><code>    &lt;meta content=&quot;text/html; charset=utf-8&quot; http-equiv=&quot;Content-Type&quot;&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+    &lt;meta name=&quot;theme-color&quot; content=&quot;#ffffff&quot; /&gt;
+<pre><code>&amp;lt;link rel=&amp;quot;shortcut icon&amp;quot; href=&amp;quot;favicon.png&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;css/variables.css&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;css/general.css&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;css/chrome.css&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;css/print.css&amp;quot; media=&amp;quot;print&amp;quot;&amp;gt;
+
+&amp;lt;!-- Fonts --&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;FontAwesome/css/font-awesome.css&amp;quot;&amp;gt;
+&amp;lt;link href=&amp;quot;https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;quot; rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot;&amp;gt;
+&amp;lt;link href=&amp;quot;https://fonts.googleapis.com/css?family=Source+Code+Pro:500&amp;quot; rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot;&amp;gt;
+
+&amp;lt;!-- Highlight.js Stylesheets --&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;highlight.css&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;tomorrow-night.css&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;ayu-highlight.css&amp;quot;&amp;gt;
+
+&amp;lt;!-- Custom theme stylesheets --&amp;gt;
+
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;custom.css&amp;quot;&amp;gt;
+</code></pre>
+<p>&lt;/head&gt;
+&lt;body class=&quot;rust&quot;&gt;
+&lt;!-- Provide site root to javascript --&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+var path_to_root = &quot;&quot;;
+var default_theme = &quot;rust&quot;;
+&lt;/script&gt;</p>
+<pre><code>&amp;lt;!-- Work around some values being stored in localStorage wrapped in quotes --&amp;gt;
+&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+    try {
+        var theme = localStorage.getItem('mdbook-theme');
+        var sidebar = localStorage.getItem('mdbook-sidebar');
+
+        if (theme.startsWith('&amp;quot;') &amp;amp;&amp;amp; theme.endsWith('&amp;quot;')) {
+            localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+        }
+
+        if (sidebar.startsWith('&amp;quot;') &amp;amp;&amp;amp; sidebar.endsWith('&amp;quot;')) {
+            localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+        }
+    } catch (e) { }
+&amp;lt;/script&amp;gt;
+
+&amp;lt;!-- Set the theme before any content is loaded, prevents flash --&amp;gt;
+&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+    var theme;
+    try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+    if (theme === null || theme === undefined) { theme = default_theme; }
+    document.body.className = theme;
+    document.querySelector('html').className = theme + ' js';
+&amp;lt;/script&amp;gt;
+
+&amp;lt;!-- Hide / unhide sidebar before it is displayed --&amp;gt;
+&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+    var html = document.querySelector('html');
+    var sidebar = 'hidden';
+    if (document.body.clientWidth &amp;gt;= 1080) {
+        try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+        sidebar = sidebar || 'visible';
+    }
+    html.classList.remove('sidebar-visible');
+    html.classList.add(&amp;quot;sidebar-&amp;quot; + sidebar);
+&amp;lt;/script&amp;gt;
+
+&amp;lt;nav id=&amp;quot;sidebar&amp;quot; class=&amp;quot;sidebar&amp;quot; aria-label=&amp;quot;Table of contents&amp;quot;&amp;gt;
+    &amp;lt;div class=&amp;quot;sidebar-scrollbox&amp;quot;&amp;gt;
+        &amp;lt;ol class=&amp;quot;chapter&amp;quot;&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;../../index.html&amp;quot; class=&amp;quot;active&amp;quot;&amp;gt;Home&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;../index.html&amp;quot;&amp;gt;Table of Contents&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;index.html&amp;quot;&amp;gt;Dhruva Maharaja Goes Back to Godhead&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.2.html&amp;quot;&amp;gt;4.12.2&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.3.html&amp;quot;&amp;gt;4.12.3&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.4.html&amp;quot;&amp;gt;4.12.4&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.5.html&amp;quot;&amp;gt;4.12.5&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.6.html&amp;quot;&amp;gt;4.12.6&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.7.html&amp;quot;&amp;gt;4.12.7&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.8.html&amp;quot;&amp;gt;4.12.8&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.9.html&amp;quot;&amp;gt;4.12.9&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.10.html&amp;quot;&amp;gt;4.12.10&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.11.html&amp;quot;&amp;gt;4.12.11&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.12.html&amp;quot;&amp;gt;4.12.12&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.13.html&amp;quot;&amp;gt;4.12.13&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.14.html&amp;quot;&amp;gt;4.12.14&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.15.html&amp;quot;&amp;gt;4.12.15&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.16.html&amp;quot;&amp;gt;4.12.16&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.17.html&amp;quot;&amp;gt;4.12.17&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.18.html&amp;quot;&amp;gt;4.12.18&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.19.html&amp;quot;&amp;gt;4.12.19&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.20.html&amp;quot;&amp;gt;4.12.20&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.21.html&amp;quot;&amp;gt;4.12.21&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.22.html&amp;quot;&amp;gt;4.12.22&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.23.html&amp;quot;&amp;gt;4.12.23&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.24.html&amp;quot;&amp;gt;4.12.24&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.25.html&amp;quot;&amp;gt;4.12.25&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.26.html&amp;quot;&amp;gt;4.12.26&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.27.html&amp;quot;&amp;gt;4.12.27&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.28.html&amp;quot;&amp;gt;4.12.28&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.29.html&amp;quot;&amp;gt;4.12.29&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.30.html&amp;quot;&amp;gt;4.12.30&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.31.html&amp;quot;&amp;gt;4.12.31&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.32.html&amp;quot;&amp;gt;4.12.32&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.33.html&amp;quot;&amp;gt;4.12.33&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.34.html&amp;quot;&amp;gt;4.12.34&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.35.html&amp;quot;&amp;gt;4.12.35&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.36.html&amp;quot;&amp;gt;4.12.36&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.37.html&amp;quot;&amp;gt;4.12.37&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.38.html&amp;quot;&amp;gt;4.12.38&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.39.html&amp;quot;&amp;gt;4.12.39&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.40.html&amp;quot;&amp;gt;4.12.40&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.41.html&amp;quot;&amp;gt;4.12.41&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.42.html&amp;quot;&amp;gt;4.12.42&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.43.html&amp;quot;&amp;gt;4.12.43&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.44.html&amp;quot;&amp;gt;4.12.44&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.45.html&amp;quot;&amp;gt;4.12.45&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.46.html&amp;quot;&amp;gt;4.12.46&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.47.html&amp;quot;&amp;gt;4.12.47&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.48.html&amp;quot;&amp;gt;4.12.48&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.49-50.html&amp;quot;&amp;gt;4.12.49-50&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.51.html&amp;quot;&amp;gt;4.12.51&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.12.52.html&amp;quot;&amp;gt;4.12.52&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;../index.html&amp;quot;&amp;gt;Table of Contents&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;/ol&amp;gt;
+    &amp;lt;/div&amp;gt;
+    &amp;lt;div id=&amp;quot;sidebar-resize-handle&amp;quot; class=&amp;quot;sidebar-resize-handle&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;/nav&amp;gt;
+
+&amp;lt;div id=&amp;quot;page-wrapper&amp;quot; class=&amp;quot;page-wrapper&amp;quot;&amp;gt;
+
+    &amp;lt;div class=&amp;quot;page&amp;quot;&amp;gt;
+        
+        &amp;lt;div id=&amp;quot;menu-bar&amp;quot; class=&amp;quot;menu-bar&amp;quot;&amp;gt;
+            &amp;lt;div id=&amp;quot;menu-bar-sticky-container&amp;quot;&amp;gt;
+                &amp;lt;div class=&amp;quot;left-buttons&amp;quot;&amp;gt;
+                    &amp;lt;button id=&amp;quot;sidebar-toggle&amp;quot; class=&amp;quot;icon-button&amp;quot; type=&amp;quot;button&amp;quot; title=&amp;quot;Toggle Table of Contents&amp;quot; aria-label=&amp;quot;Toggle Table of Contents&amp;quot; aria-controls=&amp;quot;sidebar&amp;quot;&amp;gt;
+                        &amp;lt;i class=&amp;quot;fa fa-bars&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
+                    &amp;lt;/button&amp;gt;
+                    &amp;lt;button id=&amp;quot;theme-toggle&amp;quot; class=&amp;quot;icon-button&amp;quot; type=&amp;quot;button&amp;quot; title=&amp;quot;Change theme&amp;quot; aria-label=&amp;quot;Change theme&amp;quot; aria-haspopup=&amp;quot;true&amp;quot; aria-expanded=&amp;quot;false&amp;quot; aria-controls=&amp;quot;theme-list&amp;quot;&amp;gt;
+                        &amp;lt;i class=&amp;quot;fa fa-paint-brush&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
+                    &amp;lt;/button&amp;gt;
+                    &amp;lt;ul id=&amp;quot;theme-list&amp;quot; class=&amp;quot;theme-popup&amp;quot; aria-label=&amp;quot;Themes&amp;quot; role=&amp;quot;menu&amp;quot;&amp;gt;
+                        &amp;lt;li role=&amp;quot;none&amp;quot;&amp;gt;&amp;lt;button role=&amp;quot;menuitem&amp;quot; class=&amp;quot;theme&amp;quot; id=&amp;quot;light&amp;quot;&amp;gt;Light&amp;lt;/button&amp;gt;&amp;lt;/li&amp;gt;
+                        &amp;lt;li role=&amp;quot;none&amp;quot;&amp;gt;&amp;lt;button role=&amp;quot;menuitem&amp;quot; class=&amp;quot;theme&amp;quot; id=&amp;quot;rust&amp;quot;&amp;gt;Rust (default)&amp;lt;/button&amp;gt;&amp;lt;/li&amp;gt;
+                        &amp;lt;li role=&amp;quot;none&amp;quot;&amp;gt;&amp;lt;button role=&amp;quot;menuitem&amp;quot; class=&amp;quot;theme&amp;quot; id=&amp;quot;coal&amp;quot;&amp;gt;Coal&amp;lt;/button&amp;gt;&amp;lt;/li&amp;gt;
+                        &amp;lt;li role=&amp;quot;none&amp;quot;&amp;gt;&amp;lt;button role=&amp;quot;menuitem&amp;quot; class=&amp;quot;theme&amp;quot; id=&amp;quot;navy&amp;quot;&amp;gt;Navy&amp;lt;/button&amp;gt;&amp;lt;/li&amp;gt;
+                        &amp;lt;li role=&amp;quot;none&amp;quot;&amp;gt;&amp;lt;button role=&amp;quot;menuitem&amp;quot; class=&amp;quot;theme&amp;quot; id=&amp;quot;ayu&amp;quot;&amp;gt;Ayu&amp;lt;/button&amp;gt;&amp;lt;/li&amp;gt;
+                    &amp;lt;/ul&amp;gt;
+                    
+                    &amp;lt;button id=&amp;quot;search-toggle&amp;quot; class=&amp;quot;icon-button&amp;quot; type=&amp;quot;button&amp;quot; title=&amp;quot;Search. (Shortkey: s)&amp;quot; aria-label=&amp;quot;Toggle Searchbar&amp;quot; aria-expanded=&amp;quot;false&amp;quot; aria-keyshortcuts=&amp;quot;S&amp;quot; aria-controls=&amp;quot;searchbar&amp;quot;&amp;gt;
+                        &amp;lt;i class=&amp;quot;fa fa-search&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
+                    &amp;lt;/button&amp;gt;
+                    
+                &amp;lt;/div&amp;gt;
+
+                &amp;lt;h1 class=&amp;quot;menu-title&amp;quot;&amp;gt;Dhruva Maharaja Goes Back to Godhead&amp;lt;/h1&amp;gt;
+
+                &amp;lt;div class=&amp;quot;right-buttons&amp;quot;&amp;gt;
+                    &amp;lt;a href=&amp;quot;print.html&amp;quot; title=&amp;quot;Print this book&amp;quot; aria-label=&amp;quot;Print this book&amp;quot;&amp;gt;
+                        &amp;lt;i id=&amp;quot;print-button&amp;quot; class=&amp;quot;fa fa-print&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
+                    &amp;lt;/a&amp;gt;
+                    
+                &amp;lt;/div&amp;gt;
+            &amp;lt;/div&amp;gt;
+        &amp;lt;/div&amp;gt;
+
+        
+        &amp;lt;div id=&amp;quot;search-wrapper&amp;quot; class=&amp;quot;hidden&amp;quot;&amp;gt;
+            &amp;lt;form id=&amp;quot;searchbar-outer&amp;quot; class=&amp;quot;searchbar-outer&amp;quot;&amp;gt;
+                &amp;lt;input type=&amp;quot;search&amp;quot; name=&amp;quot;search&amp;quot; id=&amp;quot;searchbar&amp;quot; name=&amp;quot;searchbar&amp;quot; placeholder=&amp;quot;Search this book ...&amp;quot; aria-controls=&amp;quot;searchresults-outer&amp;quot; aria-describedby=&amp;quot;searchresults-header&amp;quot;&amp;gt;
+            &amp;lt;/form&amp;gt;
+            &amp;lt;div id=&amp;quot;searchresults-outer&amp;quot; class=&amp;quot;searchresults-outer hidden&amp;quot;&amp;gt;
+                &amp;lt;div id=&amp;quot;searchresults-header&amp;quot; class=&amp;quot;searchresults-header&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+                &amp;lt;ul id=&amp;quot;searchresults&amp;quot;&amp;gt;
+                &amp;lt;/ul&amp;gt;
+            &amp;lt;/div&amp;gt;
+        &amp;lt;/div&amp;gt;
+        
+
+        &amp;lt;!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM --&amp;gt;
+        &amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+            document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+            document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+            Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+            });
+        &amp;lt;/script&amp;gt;
+
+        &amp;lt;div id=&amp;quot;content&amp;quot; class=&amp;quot;content&amp;quot;&amp;gt;
+            &amp;lt;main&amp;gt;
+                &amp;lt;!DOCTYPE HTML&amp;gt;
+</code></pre>
+<p></code></pre></p>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Home - Svayambhuva Manu Advises Dhruva Maharaja to Stop Fighting</title>
+<pre><code>    &lt;meta content=&quot;text/html; charset=utf-8&quot; http-equiv=&quot;Content-Type&quot;&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+    &lt;meta name=&quot;theme-color&quot; content=&quot;#ffffff&quot; /&gt;
+<pre><code>&amp;lt;link rel=&amp;quot;shortcut icon&amp;quot; href=&amp;quot;favicon.png&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;css/variables.css&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;css/general.css&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;css/chrome.css&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;css/print.css&amp;quot; media=&amp;quot;print&amp;quot;&amp;gt;
+<p>&amp;lt;!-- Fonts --&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;FontAwesome/css/font-awesome.css&amp;quot;&amp;gt;
+&amp;lt;link href=&amp;quot;https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;quot; rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot;&amp;gt;
+&amp;lt;link href=&amp;quot;https://fonts.googleapis.com/css?family=Source+Code+Pro:500&amp;quot; rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot;&amp;gt;</p>
+<p>&amp;lt;!-- Highlight.js Stylesheets --&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;highlight.css&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;tomorrow-night.css&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;ayu-highlight.css&amp;quot;&amp;gt;</p>
+<p>&amp;lt;!-- Custom theme stylesheets --&amp;gt;</p>
+<p>&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;custom.css&amp;quot;&amp;gt;
+</code></pre></p>
+<p>&lt;/head&gt;
+&lt;body class=&quot;rust&quot;&gt;
+&lt;!-- Provide site root to javascript --&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+var path_to_root = &quot;&quot;;
+var default_theme = &quot;rust&quot;;
+&lt;/script&gt;</p>
+<pre><code>&amp;lt;!-- Work around some values being stored in localStorage wrapped in quotes --&amp;gt;
+&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+    try {
+        var theme = localStorage.getItem('mdbook-theme');
+        var sidebar = localStorage.getItem('mdbook-sidebar');
+<pre><code>    if (theme.startsWith('&amp;amp;quot;') &amp;amp;amp;&amp;amp;amp; theme.endsWith('&amp;amp;quot;')) {
+        localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+    }
+
+    if (sidebar.startsWith('&amp;amp;quot;') &amp;amp;amp;&amp;amp;amp; sidebar.endsWith('&amp;amp;quot;')) {
+        localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+    }
+} catch (e) { }
+</code></pre>
+<p>&amp;lt;/script&amp;gt;</p>
+<p>&amp;lt;!-- Set the theme before any content is loaded, prevents flash --&amp;gt;
+&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+var theme;
+try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+if (theme === null || theme === undefined) { theme = default_theme; }
+document.body.className = theme;
+document.querySelector('html').className = theme + ' js';
+&amp;lt;/script&amp;gt;</p>
+<p>&amp;lt;!-- Hide / unhide sidebar before it is displayed --&amp;gt;
+&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+var html = document.querySelector('html');
+var sidebar = 'hidden';
+if (document.body.clientWidth &amp;gt;= 1080) {
+try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+sidebar = sidebar || 'visible';
+}
+html.classList.remove('sidebar-visible');
+html.classList.add(&amp;quot;sidebar-&amp;quot; + sidebar);
+&amp;lt;/script&amp;gt;</p>
+<p>&amp;lt;nav id=&amp;quot;sidebar&amp;quot; class=&amp;quot;sidebar&amp;quot; aria-label=&amp;quot;Table of contents&amp;quot;&amp;gt;
+&amp;lt;div class=&amp;quot;sidebar-scrollbox&amp;quot;&amp;gt;
+&amp;lt;ol class=&amp;quot;chapter&amp;quot;&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;../../index.html&amp;quot; class=&amp;quot;active&amp;quot;&amp;gt;Home&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;../index.html&amp;quot;&amp;gt;Table of Contents&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;index.html&amp;quot;&amp;gt;Svayambhuva Manu Advises Dhruva Maharaja to Stop Fighting&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.11.2.html&amp;quot;&amp;gt;4.11.2&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.11.3.html&amp;quot;&amp;gt;4.11.3&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.11.4.html&amp;quot;&amp;gt;4.11.4&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.11.5.html&amp;quot;&amp;gt;4.11.5&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.11.6.html&amp;quot;&amp;gt;4.11.6&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.11.7.html&amp;quot;&amp;gt;4.11.7&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.11.8.html&amp;quot;&amp;gt;4.11.8&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.11.9.html&amp;quot;&amp;gt;4.11.9&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.11.10.html&amp;quot;&amp;gt;4.11.10&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.11.11.html&amp;quot;&amp;gt;4.11.11&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.11.12.html&amp;quot;&amp;gt;4.11.12&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.11.13.html&amp;quot;&amp;gt;4.11.13&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.11.14.html&amp;quot;&amp;gt;4.11.14&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.11.15.html&amp;quot;&amp;gt;4.11.15&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.11.16.html&amp;quot;&amp;gt;4.11.16&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.11.17.html&amp;quot;&amp;gt;4.11.17&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.11.18.html&amp;quot;&amp;gt;4.11.18&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.11.19.html&amp;quot;&amp;gt;4.11.19&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.11.20.html&amp;quot;&amp;gt;4.11.20&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.11.21.html&amp;quot;&amp;gt;4.11.21&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.11.22.html&amp;quot;&amp;gt;4.11.22&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.11.23.html&amp;quot;&amp;gt;4.11.23&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.11.24.html&amp;quot;&amp;gt;4.11.24&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.11.25.html&amp;quot;&amp;gt;4.11.25&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.11.26.html&amp;quot;&amp;gt;4.11.26&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.11.27.html&amp;quot;&amp;gt;4.11.27&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.11.28.html&amp;quot;&amp;gt;4.11.28&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.11.29.html&amp;quot;&amp;gt;4.11.29&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.11.30.html&amp;quot;&amp;gt;4.11.30&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.11.31.html&amp;quot;&amp;gt;4.11.31&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.11.32.html&amp;quot;&amp;gt;4.11.32&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.11.33.html&amp;quot;&amp;gt;4.11.33&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.11.34.html&amp;quot;&amp;gt;4.11.34&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.11.35.html&amp;quot;&amp;gt;4.11.35&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;../index.html&amp;quot;&amp;gt;Table of Contents&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;/ol&amp;gt;
+&amp;lt;/div&amp;gt;
+&amp;lt;div id=&amp;quot;sidebar-resize-handle&amp;quot; class=&amp;quot;sidebar-resize-handle&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;/nav&amp;gt;</p>
+<p>&amp;lt;div id=&amp;quot;page-wrapper&amp;quot; class=&amp;quot;page-wrapper&amp;quot;&amp;gt;</p>
+<pre><code>&amp;amp;lt;div class=&amp;amp;quot;page&amp;amp;quot;&amp;amp;gt;
+    
+    &amp;amp;lt;div id=&amp;amp;quot;menu-bar&amp;amp;quot; class=&amp;amp;quot;menu-bar&amp;amp;quot;&amp;amp;gt;
+        &amp;amp;lt;div id=&amp;amp;quot;menu-bar-sticky-container&amp;amp;quot;&amp;amp;gt;
+            &amp;amp;lt;div class=&amp;amp;quot;left-buttons&amp;amp;quot;&amp;amp;gt;
+                &amp;amp;lt;button id=&amp;amp;quot;sidebar-toggle&amp;amp;quot; class=&amp;amp;quot;icon-button&amp;amp;quot; type=&amp;amp;quot;button&amp;amp;quot; title=&amp;amp;quot;Toggle Table of Contents&amp;amp;quot; aria-label=&amp;amp;quot;Toggle Table of Contents&amp;amp;quot; aria-controls=&amp;amp;quot;sidebar&amp;amp;quot;&amp;amp;gt;
+                    &amp;amp;lt;i class=&amp;amp;quot;fa fa-bars&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;/i&amp;amp;gt;
+                &amp;amp;lt;/button&amp;amp;gt;
+                &amp;amp;lt;button id=&amp;amp;quot;theme-toggle&amp;amp;quot; class=&amp;amp;quot;icon-button&amp;amp;quot; type=&amp;amp;quot;button&amp;amp;quot; title=&amp;amp;quot;Change theme&amp;amp;quot; aria-label=&amp;amp;quot;Change theme&amp;amp;quot; aria-haspopup=&amp;amp;quot;true&amp;amp;quot; aria-expanded=&amp;amp;quot;false&amp;amp;quot; aria-controls=&amp;amp;quot;theme-list&amp;amp;quot;&amp;amp;gt;
+                    &amp;amp;lt;i class=&amp;amp;quot;fa fa-paint-brush&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;/i&amp;amp;gt;
+                &amp;amp;lt;/button&amp;amp;gt;
+                &amp;amp;lt;ul id=&amp;amp;quot;theme-list&amp;amp;quot; class=&amp;amp;quot;theme-popup&amp;amp;quot; aria-label=&amp;amp;quot;Themes&amp;amp;quot; role=&amp;amp;quot;menu&amp;amp;quot;&amp;amp;gt;
+                    &amp;amp;lt;li role=&amp;amp;quot;none&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;button role=&amp;amp;quot;menuitem&amp;amp;quot; class=&amp;amp;quot;theme&amp;amp;quot; id=&amp;amp;quot;light&amp;amp;quot;&amp;amp;gt;Light&amp;amp;lt;/button&amp;amp;gt;&amp;amp;lt;/li&amp;amp;gt;
+                    &amp;amp;lt;li role=&amp;amp;quot;none&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;button role=&amp;amp;quot;menuitem&amp;amp;quot; class=&amp;amp;quot;theme&amp;amp;quot; id=&amp;amp;quot;rust&amp;amp;quot;&amp;amp;gt;Rust (default)&amp;amp;lt;/button&amp;amp;gt;&amp;amp;lt;/li&amp;amp;gt;
+                    &amp;amp;lt;li role=&amp;amp;quot;none&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;button role=&amp;amp;quot;menuitem&amp;amp;quot; class=&amp;amp;quot;theme&amp;amp;quot; id=&amp;amp;quot;coal&amp;amp;quot;&amp;amp;gt;Coal&amp;amp;lt;/button&amp;amp;gt;&amp;amp;lt;/li&amp;amp;gt;
+                    &amp;amp;lt;li role=&amp;amp;quot;none&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;button role=&amp;amp;quot;menuitem&amp;amp;quot; class=&amp;amp;quot;theme&amp;amp;quot; id=&amp;amp;quot;navy&amp;amp;quot;&amp;amp;gt;Navy&amp;amp;lt;/button&amp;amp;gt;&amp;amp;lt;/li&amp;amp;gt;
+                    &amp;amp;lt;li role=&amp;amp;quot;none&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;button role=&amp;amp;quot;menuitem&amp;amp;quot; class=&amp;amp;quot;theme&amp;amp;quot; id=&amp;amp;quot;ayu&amp;amp;quot;&amp;amp;gt;Ayu&amp;amp;lt;/button&amp;amp;gt;&amp;amp;lt;/li&amp;amp;gt;
+                &amp;amp;lt;/ul&amp;amp;gt;
+                
+                &amp;amp;lt;button id=&amp;amp;quot;search-toggle&amp;amp;quot; class=&amp;amp;quot;icon-button&amp;amp;quot; type=&amp;amp;quot;button&amp;amp;quot; title=&amp;amp;quot;Search. (Shortkey: s)&amp;amp;quot; aria-label=&amp;amp;quot;Toggle Searchbar&amp;amp;quot; aria-expanded=&amp;amp;quot;false&amp;amp;quot; aria-keyshortcuts=&amp;amp;quot;S&amp;amp;quot; aria-controls=&amp;amp;quot;searchbar&amp;amp;quot;&amp;amp;gt;
+                    &amp;amp;lt;i class=&amp;amp;quot;fa fa-search&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;/i&amp;amp;gt;
+                &amp;amp;lt;/button&amp;amp;gt;
+                
+            &amp;amp;lt;/div&amp;amp;gt;
+
+            &amp;amp;lt;h1 class=&amp;amp;quot;menu-title&amp;amp;quot;&amp;amp;gt;Svayambhuva Manu Advises Dhruva Maharaja to Stop Fighting&amp;amp;lt;/h1&amp;amp;gt;
+
+            &amp;amp;lt;div class=&amp;amp;quot;right-buttons&amp;amp;quot;&amp;amp;gt;
+                &amp;amp;lt;a href=&amp;amp;quot;print.html&amp;amp;quot; title=&amp;amp;quot;Print this book&amp;amp;quot; aria-label=&amp;amp;quot;Print this book&amp;amp;quot;&amp;amp;gt;
+                    &amp;amp;lt;i id=&amp;amp;quot;print-button&amp;amp;quot; class=&amp;amp;quot;fa fa-print&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;/i&amp;amp;gt;
+                &amp;amp;lt;/a&amp;amp;gt;
+                
+            &amp;amp;lt;/div&amp;amp;gt;
+        &amp;amp;lt;/div&amp;amp;gt;
+    &amp;amp;lt;/div&amp;amp;gt;
+
+    
+    &amp;amp;lt;div id=&amp;amp;quot;search-wrapper&amp;amp;quot; class=&amp;amp;quot;hidden&amp;amp;quot;&amp;amp;gt;
+        &amp;amp;lt;form id=&amp;amp;quot;searchbar-outer&amp;amp;quot; class=&amp;amp;quot;searchbar-outer&amp;amp;quot;&amp;amp;gt;
+            &amp;amp;lt;input type=&amp;amp;quot;search&amp;amp;quot; name=&amp;amp;quot;search&amp;amp;quot; id=&amp;amp;quot;searchbar&amp;amp;quot; name=&amp;amp;quot;searchbar&amp;amp;quot; placeholder=&amp;amp;quot;Search this book ...&amp;amp;quot; aria-controls=&amp;amp;quot;searchresults-outer&amp;amp;quot; aria-describedby=&amp;amp;quot;searchresults-header&amp;amp;quot;&amp;amp;gt;
+        &amp;amp;lt;/form&amp;amp;gt;
+        &amp;amp;lt;div id=&amp;amp;quot;searchresults-outer&amp;amp;quot; class=&amp;amp;quot;searchresults-outer hidden&amp;amp;quot;&amp;amp;gt;
+            &amp;amp;lt;div id=&amp;amp;quot;searchresults-header&amp;amp;quot; class=&amp;amp;quot;searchresults-header&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;/div&amp;amp;gt;
+            &amp;amp;lt;ul id=&amp;amp;quot;searchresults&amp;amp;quot;&amp;amp;gt;
+            &amp;amp;lt;/ul&amp;amp;gt;
+        &amp;amp;lt;/div&amp;amp;gt;
+    &amp;amp;lt;/div&amp;amp;gt;
+    
+
+    &amp;amp;lt;!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM --&amp;amp;gt;
+    &amp;amp;lt;script type=&amp;amp;quot;text/javascript&amp;amp;quot;&amp;amp;gt;
+        document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+        document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+        Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+            link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+        });
+    &amp;amp;lt;/script&amp;amp;gt;
+
+    &amp;amp;lt;div id=&amp;amp;quot;content&amp;amp;quot; class=&amp;amp;quot;content&amp;amp;quot;&amp;amp;gt;
+        &amp;amp;lt;main&amp;amp;gt;
+            &amp;amp;lt;!DOCTYPE HTML&amp;amp;gt;
+</code></pre>
+<p></code></pre></p>
+<p></code></pre></p>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Home - Dhruva Maharaja’s Fight With the Yaksas</title>
+<pre><code>    &lt;meta content=&quot;text/html; charset=utf-8&quot; http-equiv=&quot;Content-Type&quot;&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+    &lt;meta name=&quot;theme-color&quot; content=&quot;#ffffff&quot; /&gt;
+<pre><code>&amp;lt;link rel=&amp;quot;shortcut icon&amp;quot; href=&amp;quot;favicon.png&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;css/variables.css&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;css/general.css&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;css/chrome.css&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;css/print.css&amp;quot; media=&amp;quot;print&amp;quot;&amp;gt;
+<p>&amp;lt;!-- Fonts --&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;FontAwesome/css/font-awesome.css&amp;quot;&amp;gt;
+&amp;lt;link href=&amp;quot;https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;quot; rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot;&amp;gt;
+&amp;lt;link href=&amp;quot;https://fonts.googleapis.com/css?family=Source+Code+Pro:500&amp;quot; rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot;&amp;gt;</p>
+<p>&amp;lt;!-- Highlight.js Stylesheets --&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;highlight.css&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;tomorrow-night.css&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;ayu-highlight.css&amp;quot;&amp;gt;</p>
+<p>&amp;lt;!-- Custom theme stylesheets --&amp;gt;</p>
+<p>&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;custom.css&amp;quot;&amp;gt;
+</code></pre></p>
+<p>&lt;/head&gt;
+&lt;body class=&quot;rust&quot;&gt;
+&lt;!-- Provide site root to javascript --&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+var path_to_root = &quot;&quot;;
+var default_theme = &quot;rust&quot;;
+&lt;/script&gt;</p>
+<pre><code>&amp;lt;!-- Work around some values being stored in localStorage wrapped in quotes --&amp;gt;
+&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+    try {
+        var theme = localStorage.getItem('mdbook-theme');
+        var sidebar = localStorage.getItem('mdbook-sidebar');
+<pre><code>    if (theme.startsWith('&amp;amp;quot;') &amp;amp;amp;&amp;amp;amp; theme.endsWith('&amp;amp;quot;')) {
+        localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+    }
+<pre><code>if (sidebar.startsWith('&amp;amp;amp;quot;') &amp;amp;amp;amp;&amp;amp;amp;amp; sidebar.endsWith('&amp;amp;amp;quot;')) {
+    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+}
+</code></pre>
+<p>} catch (e) { }
+</code></pre></p>
+<p>&amp;lt;/script&amp;gt;</p>
+<p>&amp;lt;!-- Set the theme before any content is loaded, prevents flash --&amp;gt;
+&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+var theme;
+try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+if (theme === null || theme === undefined) { theme = default_theme; }
+document.body.className = theme;
+document.querySelector('html').className = theme + ' js';
+&amp;lt;/script&amp;gt;</p>
+<p>&amp;lt;!-- Hide / unhide sidebar before it is displayed --&amp;gt;
+&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+var html = document.querySelector('html');
+var sidebar = 'hidden';
+if (document.body.clientWidth &amp;gt;= 1080) {
+try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+sidebar = sidebar || 'visible';
+}
+html.classList.remove('sidebar-visible');
+html.classList.add(&amp;quot;sidebar-&amp;quot; + sidebar);
+&amp;lt;/script&amp;gt;</p>
+<p>&amp;lt;nav id=&amp;quot;sidebar&amp;quot; class=&amp;quot;sidebar&amp;quot; aria-label=&amp;quot;Table of contents&amp;quot;&amp;gt;
+&amp;lt;div class=&amp;quot;sidebar-scrollbox&amp;quot;&amp;gt;
+&amp;lt;ol class=&amp;quot;chapter&amp;quot;&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;../../index.html&amp;quot; class=&amp;quot;active&amp;quot;&amp;gt;Home&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;../index.html&amp;quot;&amp;gt;Table of Contents&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;index.html&amp;quot;&amp;gt;Dhruva Maharaja’s Fight With the Yaksas&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.10.2.html&amp;quot;&amp;gt;4.10.2&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.10.3.html&amp;quot;&amp;gt;4.10.3&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.10.4.html&amp;quot;&amp;gt;4.10.4&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.10.5.html&amp;quot;&amp;gt;4.10.5&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.10.6.html&amp;quot;&amp;gt;4.10.6&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.10.7.html&amp;quot;&amp;gt;4.10.7&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.10.8.html&amp;quot;&amp;gt;4.10.8&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.10.9.html&amp;quot;&amp;gt;4.10.9&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.10.10.html&amp;quot;&amp;gt;4.10.10&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.10.11-12.html&amp;quot;&amp;gt;4.10.11-12&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.10.13.html&amp;quot;&amp;gt;4.10.13&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.10.14.html&amp;quot;&amp;gt;4.10.14&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.10.15.html&amp;quot;&amp;gt;4.10.15&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.10.16.html&amp;quot;&amp;gt;4.10.16&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.10.17.html&amp;quot;&amp;gt;4.10.17&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.10.18-19.html&amp;quot;&amp;gt;4.10.18-19&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.10.20.html&amp;quot;&amp;gt;4.10.20&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.10.21.html&amp;quot;&amp;gt;4.10.21&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.10.22.html&amp;quot;&amp;gt;4.10.22&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.10.23.html&amp;quot;&amp;gt;4.10.23&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.10.24.html&amp;quot;&amp;gt;4.10.24&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.10.25.html&amp;quot;&amp;gt;4.10.25&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.10.26.html&amp;quot;&amp;gt;4.10.26&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.10.27.html&amp;quot;&amp;gt;4.10.27&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.10.28.html&amp;quot;&amp;gt;4.10.28&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.10.29.html&amp;quot;&amp;gt;4.10.29&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.10.30.html&amp;quot;&amp;gt;4.10.30&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;../index.html&amp;quot;&amp;gt;Table of Contents&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;/ol&amp;gt;
+&amp;lt;/div&amp;gt;
+&amp;lt;div id=&amp;quot;sidebar-resize-handle&amp;quot; class=&amp;quot;sidebar-resize-handle&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;/nav&amp;gt;</p>
+<p>&amp;lt;div id=&amp;quot;page-wrapper&amp;quot; class=&amp;quot;page-wrapper&amp;quot;&amp;gt;</p>
+<pre><code>&amp;amp;lt;div class=&amp;amp;quot;page&amp;amp;quot;&amp;amp;gt;
+<pre><code>&amp;amp;amp;lt;div id=&amp;amp;amp;quot;menu-bar&amp;amp;amp;quot; class=&amp;amp;amp;quot;menu-bar&amp;amp;amp;quot;&amp;amp;amp;gt;
+    &amp;amp;amp;lt;div id=&amp;amp;amp;quot;menu-bar-sticky-container&amp;amp;amp;quot;&amp;amp;amp;gt;
+        &amp;amp;amp;lt;div class=&amp;amp;amp;quot;left-buttons&amp;amp;amp;quot;&amp;amp;amp;gt;
+            &amp;amp;amp;lt;button id=&amp;amp;amp;quot;sidebar-toggle&amp;amp;amp;quot; class=&amp;amp;amp;quot;icon-button&amp;amp;amp;quot; type=&amp;amp;amp;quot;button&amp;amp;amp;quot; title=&amp;amp;amp;quot;Toggle Table of Contents&amp;amp;amp;quot; aria-label=&amp;amp;amp;quot;Toggle Table of Contents&amp;amp;amp;quot; aria-controls=&amp;amp;amp;quot;sidebar&amp;amp;amp;quot;&amp;amp;amp;gt;
+                &amp;amp;amp;lt;i class=&amp;amp;amp;quot;fa fa-bars&amp;amp;amp;quot;&amp;amp;amp;gt;&amp;amp;amp;lt;/i&amp;amp;amp;gt;
+            &amp;amp;amp;lt;/button&amp;amp;amp;gt;
+            &amp;amp;amp;lt;button id=&amp;amp;amp;quot;theme-toggle&amp;amp;amp;quot; class=&amp;amp;amp;quot;icon-button&amp;amp;amp;quot; type=&amp;amp;amp;quot;button&amp;amp;amp;quot; title=&amp;amp;amp;quot;Change theme&amp;amp;amp;quot; aria-label=&amp;amp;amp;quot;Change theme&amp;amp;amp;quot; aria-haspopup=&amp;amp;amp;quot;true&amp;amp;amp;quot; aria-expanded=&amp;amp;amp;quot;false&amp;amp;amp;quot; aria-controls=&amp;amp;amp;quot;theme-list&amp;amp;amp;quot;&amp;amp;amp;gt;
+                &amp;amp;amp;lt;i class=&amp;amp;amp;quot;fa fa-paint-brush&amp;amp;amp;quot;&amp;amp;amp;gt;&amp;amp;amp;lt;/i&amp;amp;amp;gt;
+            &amp;amp;amp;lt;/button&amp;amp;amp;gt;
+            &amp;amp;amp;lt;ul id=&amp;amp;amp;quot;theme-list&amp;amp;amp;quot; class=&amp;amp;amp;quot;theme-popup&amp;amp;amp;quot; aria-label=&amp;amp;amp;quot;Themes&amp;amp;amp;quot; role=&amp;amp;amp;quot;menu&amp;amp;amp;quot;&amp;amp;amp;gt;
+                &amp;amp;amp;lt;li role=&amp;amp;amp;quot;none&amp;amp;amp;quot;&amp;amp;amp;gt;&amp;amp;amp;lt;button role=&amp;amp;amp;quot;menuitem&amp;amp;amp;quot; class=&amp;amp;amp;quot;theme&amp;amp;amp;quot; id=&amp;amp;amp;quot;light&amp;amp;amp;quot;&amp;amp;amp;gt;Light&amp;amp;amp;lt;/button&amp;amp;amp;gt;&amp;amp;amp;lt;/li&amp;amp;amp;gt;
+                &amp;amp;amp;lt;li role=&amp;amp;amp;quot;none&amp;amp;amp;quot;&amp;amp;amp;gt;&amp;amp;amp;lt;button role=&amp;amp;amp;quot;menuitem&amp;amp;amp;quot; class=&amp;amp;amp;quot;theme&amp;amp;amp;quot; id=&amp;amp;amp;quot;rust&amp;amp;amp;quot;&amp;amp;amp;gt;Rust (default)&amp;amp;amp;lt;/button&amp;amp;amp;gt;&amp;amp;amp;lt;/li&amp;amp;amp;gt;
+                &amp;amp;amp;lt;li role=&amp;amp;amp;quot;none&amp;amp;amp;quot;&amp;amp;amp;gt;&amp;amp;amp;lt;button role=&amp;amp;amp;quot;menuitem&amp;amp;amp;quot; class=&amp;amp;amp;quot;theme&amp;amp;amp;quot; id=&amp;amp;amp;quot;coal&amp;amp;amp;quot;&amp;amp;amp;gt;Coal&amp;amp;amp;lt;/button&amp;amp;amp;gt;&amp;amp;amp;lt;/li&amp;amp;amp;gt;
+                &amp;amp;amp;lt;li role=&amp;amp;amp;quot;none&amp;amp;amp;quot;&amp;amp;amp;gt;&amp;amp;amp;lt;button role=&amp;amp;amp;quot;menuitem&amp;amp;amp;quot; class=&amp;amp;amp;quot;theme&amp;amp;amp;quot; id=&amp;amp;amp;quot;navy&amp;amp;amp;quot;&amp;amp;amp;gt;Navy&amp;amp;amp;lt;/button&amp;amp;amp;gt;&amp;amp;amp;lt;/li&amp;amp;amp;gt;
+                &amp;amp;amp;lt;li role=&amp;amp;amp;quot;none&amp;amp;amp;quot;&amp;amp;amp;gt;&amp;amp;amp;lt;button role=&amp;amp;amp;quot;menuitem&amp;amp;amp;quot; class=&amp;amp;amp;quot;theme&amp;amp;amp;quot; id=&amp;amp;amp;quot;ayu&amp;amp;amp;quot;&amp;amp;amp;gt;Ayu&amp;amp;amp;lt;/button&amp;amp;amp;gt;&amp;amp;amp;lt;/li&amp;amp;amp;gt;
+            &amp;amp;amp;lt;/ul&amp;amp;amp;gt;
+            
+            &amp;amp;amp;lt;button id=&amp;amp;amp;quot;search-toggle&amp;amp;amp;quot; class=&amp;amp;amp;quot;icon-button&amp;amp;amp;quot; type=&amp;amp;amp;quot;button&amp;amp;amp;quot; title=&amp;amp;amp;quot;Search. (Shortkey: s)&amp;amp;amp;quot; aria-label=&amp;amp;amp;quot;Toggle Searchbar&amp;amp;amp;quot; aria-expanded=&amp;amp;amp;quot;false&amp;amp;amp;quot; aria-keyshortcuts=&amp;amp;amp;quot;S&amp;amp;amp;quot; aria-controls=&amp;amp;amp;quot;searchbar&amp;amp;amp;quot;&amp;amp;amp;gt;
+                &amp;amp;amp;lt;i class=&amp;amp;amp;quot;fa fa-search&amp;amp;amp;quot;&amp;amp;amp;gt;&amp;amp;amp;lt;/i&amp;amp;amp;gt;
+            &amp;amp;amp;lt;/button&amp;amp;amp;gt;
+            
+        &amp;amp;amp;lt;/div&amp;amp;amp;gt;
+
+        &amp;amp;amp;lt;h1 class=&amp;amp;amp;quot;menu-title&amp;amp;amp;quot;&amp;amp;amp;gt;Dhruva Maharaja’s Fight With the Yaksas&amp;amp;amp;lt;/h1&amp;amp;amp;gt;
+
+        &amp;amp;amp;lt;div class=&amp;amp;amp;quot;right-buttons&amp;amp;amp;quot;&amp;amp;amp;gt;
+            &amp;amp;amp;lt;a href=&amp;amp;amp;quot;print.html&amp;amp;amp;quot; title=&amp;amp;amp;quot;Print this book&amp;amp;amp;quot; aria-label=&amp;amp;amp;quot;Print this book&amp;amp;amp;quot;&amp;amp;amp;gt;
+                &amp;amp;amp;lt;i id=&amp;amp;amp;quot;print-button&amp;amp;amp;quot; class=&amp;amp;amp;quot;fa fa-print&amp;amp;amp;quot;&amp;amp;amp;gt;&amp;amp;amp;lt;/i&amp;amp;amp;gt;
+            &amp;amp;amp;lt;/a&amp;amp;amp;gt;
+            
+        &amp;amp;amp;lt;/div&amp;amp;amp;gt;
+    &amp;amp;amp;lt;/div&amp;amp;amp;gt;
+&amp;amp;amp;lt;/div&amp;amp;amp;gt;
+
+
+&amp;amp;amp;lt;div id=&amp;amp;amp;quot;search-wrapper&amp;amp;amp;quot; class=&amp;amp;amp;quot;hidden&amp;amp;amp;quot;&amp;amp;amp;gt;
+    &amp;amp;amp;lt;form id=&amp;amp;amp;quot;searchbar-outer&amp;amp;amp;quot; class=&amp;amp;amp;quot;searchbar-outer&amp;amp;amp;quot;&amp;amp;amp;gt;
+        &amp;amp;amp;lt;input type=&amp;amp;amp;quot;search&amp;amp;amp;quot; name=&amp;amp;amp;quot;search&amp;amp;amp;quot; id=&amp;amp;amp;quot;searchbar&amp;amp;amp;quot; name=&amp;amp;amp;quot;searchbar&amp;amp;amp;quot; placeholder=&amp;amp;amp;quot;Search this book ...&amp;amp;amp;quot; aria-controls=&amp;amp;amp;quot;searchresults-outer&amp;amp;amp;quot; aria-describedby=&amp;amp;amp;quot;searchresults-header&amp;amp;amp;quot;&amp;amp;amp;gt;
+    &amp;amp;amp;lt;/form&amp;amp;amp;gt;
+    &amp;amp;amp;lt;div id=&amp;amp;amp;quot;searchresults-outer&amp;amp;amp;quot; class=&amp;amp;amp;quot;searchresults-outer hidden&amp;amp;amp;quot;&amp;amp;amp;gt;
+        &amp;amp;amp;lt;div id=&amp;amp;amp;quot;searchresults-header&amp;amp;amp;quot; class=&amp;amp;amp;quot;searchresults-header&amp;amp;amp;quot;&amp;amp;amp;gt;&amp;amp;amp;lt;/div&amp;amp;amp;gt;
+        &amp;amp;amp;lt;ul id=&amp;amp;amp;quot;searchresults&amp;amp;amp;quot;&amp;amp;amp;gt;
+        &amp;amp;amp;lt;/ul&amp;amp;amp;gt;
+    &amp;amp;amp;lt;/div&amp;amp;amp;gt;
+&amp;amp;amp;lt;/div&amp;amp;amp;gt;
+
+
+&amp;amp;amp;lt;!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM --&amp;amp;amp;gt;
+&amp;amp;amp;lt;script type=&amp;amp;amp;quot;text/javascript&amp;amp;amp;quot;&amp;amp;amp;gt;
+    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+    });
+&amp;amp;amp;lt;/script&amp;amp;amp;gt;
+
+&amp;amp;amp;lt;div id=&amp;amp;amp;quot;content&amp;amp;amp;quot; class=&amp;amp;amp;quot;content&amp;amp;amp;quot;&amp;amp;amp;gt;
+    &amp;amp;amp;lt;main&amp;amp;amp;gt;
+        &amp;amp;amp;lt;!DOCTYPE HTML&amp;amp;amp;gt;
+</code></pre>
+<p></code></pre></p>
+<p></code></pre></p>
+<p></code></pre></p>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Home - Genealogical Table of the Daughters of Manu</title>
+<pre><code>    &lt;meta content=&quot;text/html; charset=utf-8&quot; http-equiv=&quot;Content-Type&quot;&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+    &lt;meta name=&quot;theme-color&quot; content=&quot;#ffffff&quot; /&gt;
+<pre><code>&amp;lt;link rel=&amp;quot;shortcut icon&amp;quot; href=&amp;quot;favicon.png&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;css/variables.css&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;css/general.css&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;css/chrome.css&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;css/print.css&amp;quot; media=&amp;quot;print&amp;quot;&amp;gt;
+<p>&amp;lt;!-- Fonts --&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;FontAwesome/css/font-awesome.css&amp;quot;&amp;gt;
+&amp;lt;link href=&amp;quot;https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;quot; rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot;&amp;gt;
+&amp;lt;link href=&amp;quot;https://fonts.googleapis.com/css?family=Source+Code+Pro:500&amp;quot; rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot;&amp;gt;</p>
+<p>&amp;lt;!-- Highlight.js Stylesheets --&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;highlight.css&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;tomorrow-night.css&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;ayu-highlight.css&amp;quot;&amp;gt;</p>
+<p>&amp;lt;!-- Custom theme stylesheets --&amp;gt;</p>
+<p>&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;custom.css&amp;quot;&amp;gt;
+</code></pre></p>
+<p>&lt;/head&gt;
+&lt;body class=&quot;rust&quot;&gt;
+&lt;!-- Provide site root to javascript --&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+var path_to_root = &quot;&quot;;
+var default_theme = &quot;rust&quot;;
+&lt;/script&gt;</p>
+<pre><code>&amp;lt;!-- Work around some values being stored in localStorage wrapped in quotes --&amp;gt;
+&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+    try {
+        var theme = localStorage.getItem('mdbook-theme');
+        var sidebar = localStorage.getItem('mdbook-sidebar');
+<pre><code>    if (theme.startsWith('&amp;amp;quot;') &amp;amp;amp;&amp;amp;amp; theme.endsWith('&amp;amp;quot;')) {
+        localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+    }
+<pre><code>if (sidebar.startsWith('&amp;amp;amp;quot;') &amp;amp;amp;amp;&amp;amp;amp;amp; sidebar.endsWith('&amp;amp;amp;quot;')) {
+    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+}
+</code></pre>
+<p>} catch (e) { }
+</code></pre></p>
+<p>&amp;lt;/script&amp;gt;</p>
+<p>&amp;lt;!-- Set the theme before any content is loaded, prevents flash --&amp;gt;
+&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+var theme;
+try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+if (theme === null || theme === undefined) { theme = default_theme; }
+document.body.className = theme;
+document.querySelector('html').className = theme + ' js';
+&amp;lt;/script&amp;gt;</p>
+<p>&amp;lt;!-- Hide / unhide sidebar before it is displayed --&amp;gt;
+&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+var html = document.querySelector('html');
+var sidebar = 'hidden';
+if (document.body.clientWidth &amp;gt;= 1080) {
+try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+sidebar = sidebar || 'visible';
+}
+html.classList.remove('sidebar-visible');
+html.classList.add(&amp;quot;sidebar-&amp;quot; + sidebar);
+&amp;lt;/script&amp;gt;</p>
+<p>&amp;lt;nav id=&amp;quot;sidebar&amp;quot; class=&amp;quot;sidebar&amp;quot; aria-label=&amp;quot;Table of contents&amp;quot;&amp;gt;
+&amp;lt;div class=&amp;quot;sidebar-scrollbox&amp;quot;&amp;gt;
+&amp;lt;ol class=&amp;quot;chapter&amp;quot;&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;../../index.html&amp;quot; class=&amp;quot;active&amp;quot;&amp;gt;Home&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;../index.html&amp;quot;&amp;gt;Table of Contents&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;index.html&amp;quot;&amp;gt;Genealogical Table of the Daughters of Manu&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.2.html&amp;quot;&amp;gt;4.1.2&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.3.html&amp;quot;&amp;gt;4.1.3&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.4.html&amp;quot;&amp;gt;4.1.4&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.5.html&amp;quot;&amp;gt;4.1.5&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.6.html&amp;quot;&amp;gt;4.1.6&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.7.html&amp;quot;&amp;gt;4.1.7&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.8.html&amp;quot;&amp;gt;4.1.8&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.9.html&amp;quot;&amp;gt;4.1.9&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.10.html&amp;quot;&amp;gt;4.1.10&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.11.html&amp;quot;&amp;gt;4.1.11&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.12.html&amp;quot;&amp;gt;4.1.12&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.13.html&amp;quot;&amp;gt;4.1.13&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.14.html&amp;quot;&amp;gt;4.1.14&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.15.html&amp;quot;&amp;gt;4.1.15&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.16.html&amp;quot;&amp;gt;4.1.16&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.17.html&amp;quot;&amp;gt;4.1.17&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.18.html&amp;quot;&amp;gt;4.1.18&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.19.html&amp;quot;&amp;gt;4.1.19&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.20.html&amp;quot;&amp;gt;4.1.20&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.21.html&amp;quot;&amp;gt;4.1.21&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.22.html&amp;quot;&amp;gt;4.1.22&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.23.html&amp;quot;&amp;gt;4.1.23&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.24.html&amp;quot;&amp;gt;4.1.24&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.25.html&amp;quot;&amp;gt;4.1.25&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.26-27.html&amp;quot;&amp;gt;4.1.26-27&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.28.html&amp;quot;&amp;gt;4.1.28&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.29.html&amp;quot;&amp;gt;4.1.29&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.30.html&amp;quot;&amp;gt;4.1.30&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.31.html&amp;quot;&amp;gt;4.1.31&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.32.html&amp;quot;&amp;gt;4.1.32&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.33.html&amp;quot;&amp;gt;4.1.33&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.34.html&amp;quot;&amp;gt;4.1.34&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.35.html&amp;quot;&amp;gt;4.1.35&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.36.html&amp;quot;&amp;gt;4.1.36&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.37.html&amp;quot;&amp;gt;4.1.37&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.38.html&amp;quot;&amp;gt;4.1.38&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.39.html&amp;quot;&amp;gt;4.1.39&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.40.html&amp;quot;&amp;gt;4.1.40&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.41.html&amp;quot;&amp;gt;4.1.41&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.42.html&amp;quot;&amp;gt;4.1.42&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.43.html&amp;quot;&amp;gt;4.1.43&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.44.html&amp;quot;&amp;gt;4.1.44&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.45.html&amp;quot;&amp;gt;4.1.45&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.46-47.html&amp;quot;&amp;gt;4.1.46-47&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.48.html&amp;quot;&amp;gt;4.1.48&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.49-52.html&amp;quot;&amp;gt;4.1.49-52&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.53.html&amp;quot;&amp;gt;4.1.53&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.54-55.html&amp;quot;&amp;gt;4.1.54-55&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.56.html&amp;quot;&amp;gt;4.1.56&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.57.html&amp;quot;&amp;gt;4.1.57&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.58.html&amp;quot;&amp;gt;4.1.58&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.59.html&amp;quot;&amp;gt;4.1.59&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.60.html&amp;quot;&amp;gt;4.1.60&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.61.html&amp;quot;&amp;gt;4.1.61&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.62.html&amp;quot;&amp;gt;4.1.62&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.63.html&amp;quot;&amp;gt;4.1.63&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.64.html&amp;quot;&amp;gt;4.1.64&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.65.html&amp;quot;&amp;gt;4.1.65&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;4.1.66.html&amp;quot;&amp;gt;4.1.66&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;../index.html&amp;quot;&amp;gt;Table of Contents&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;/ol&amp;gt;
+&amp;lt;/div&amp;gt;
+&amp;lt;div id=&amp;quot;sidebar-resize-handle&amp;quot; class=&amp;quot;sidebar-resize-handle&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;/nav&amp;gt;</p>
+<p>&amp;lt;div id=&amp;quot;page-wrapper&amp;quot; class=&amp;quot;page-wrapper&amp;quot;&amp;gt;</p>
+<pre><code>&amp;amp;lt;div class=&amp;amp;quot;page&amp;amp;quot;&amp;amp;gt;
+<pre><code>&amp;amp;amp;lt;div id=&amp;amp;amp;quot;menu-bar&amp;amp;amp;quot; class=&amp;amp;amp;quot;menu-bar&amp;amp;amp;quot;&amp;amp;amp;gt;
+    &amp;amp;amp;lt;div id=&amp;amp;amp;quot;menu-bar-sticky-container&amp;amp;amp;quot;&amp;amp;amp;gt;
+        &amp;amp;amp;lt;div class=&amp;amp;amp;quot;left-buttons&amp;amp;amp;quot;&amp;amp;amp;gt;
+            &amp;amp;amp;lt;button id=&amp;amp;amp;quot;sidebar-toggle&amp;amp;amp;quot; class=&amp;amp;amp;quot;icon-button&amp;amp;amp;quot; type=&amp;amp;amp;quot;button&amp;amp;amp;quot; title=&amp;amp;amp;quot;Toggle Table of Contents&amp;amp;amp;quot; aria-label=&amp;amp;amp;quot;Toggle Table of Contents&amp;amp;amp;quot; aria-controls=&amp;amp;amp;quot;sidebar&amp;amp;amp;quot;&amp;amp;amp;gt;
+                &amp;amp;amp;lt;i class=&amp;amp;amp;quot;fa fa-bars&amp;amp;amp;quot;&amp;amp;amp;gt;&amp;amp;amp;lt;/i&amp;amp;amp;gt;
+            &amp;amp;amp;lt;/button&amp;amp;amp;gt;
+            &amp;amp;amp;lt;button id=&amp;amp;amp;quot;theme-toggle&amp;amp;amp;quot; class=&amp;amp;amp;quot;icon-button&amp;amp;amp;quot; type=&amp;amp;amp;quot;button&amp;amp;amp;quot; title=&amp;amp;amp;quot;Change theme&amp;amp;amp;quot; aria-label=&amp;amp;amp;quot;Change theme&amp;amp;amp;quot; aria-haspopup=&amp;amp;amp;quot;true&amp;amp;amp;quot; aria-expanded=&amp;amp;amp;quot;false&amp;amp;amp;quot; aria-controls=&amp;amp;amp;quot;theme-list&amp;amp;amp;quot;&amp;amp;amp;gt;
+                &amp;amp;amp;lt;i class=&amp;amp;amp;quot;fa fa-paint-brush&amp;amp;amp;quot;&amp;amp;amp;gt;&amp;amp;amp;lt;/i&amp;amp;amp;gt;
+            &amp;amp;amp;lt;/button&amp;amp;amp;gt;
+            &amp;amp;amp;lt;ul id=&amp;amp;amp;quot;theme-list&amp;amp;amp;quot; class=&amp;amp;amp;quot;theme-popup&amp;amp;amp;quot; aria-label=&amp;amp;amp;quot;Themes&amp;amp;amp;quot; role=&amp;amp;amp;quot;menu&amp;amp;amp;quot;&amp;amp;amp;gt;
+                &amp;amp;amp;lt;li role=&amp;amp;amp;quot;none&amp;amp;amp;quot;&amp;amp;amp;gt;&amp;amp;amp;lt;button role=&amp;amp;amp;quot;menuitem&amp;amp;amp;quot; class=&amp;amp;amp;quot;theme&amp;amp;amp;quot; id=&amp;amp;amp;quot;light&amp;amp;amp;quot;&amp;amp;amp;gt;Light&amp;amp;amp;lt;/button&amp;amp;amp;gt;&amp;amp;amp;lt;/li&amp;amp;amp;gt;
+                &amp;amp;amp;lt;li role=&amp;amp;amp;quot;none&amp;amp;amp;quot;&amp;amp;amp;gt;&amp;amp;amp;lt;button role=&amp;amp;amp;quot;menuitem&amp;amp;amp;quot; class=&amp;amp;amp;quot;theme&amp;amp;amp;quot; id=&amp;amp;amp;quot;rust&amp;amp;amp;quot;&amp;amp;amp;gt;Rust (default)&amp;amp;amp;lt;/button&amp;amp;amp;gt;&amp;amp;amp;lt;/li&amp;amp;amp;gt;
+                &amp;amp;amp;lt;li role=&amp;amp;amp;quot;none&amp;amp;amp;quot;&amp;amp;amp;gt;&amp;amp;amp;lt;button role=&amp;amp;amp;quot;menuitem&amp;amp;amp;quot; class=&amp;amp;amp;quot;theme&amp;amp;amp;quot; id=&amp;amp;amp;quot;coal&amp;amp;amp;quot;&amp;amp;amp;gt;Coal&amp;amp;amp;lt;/button&amp;amp;amp;gt;&amp;amp;amp;lt;/li&amp;amp;amp;gt;
+                &amp;amp;amp;lt;li role=&amp;amp;amp;quot;none&amp;amp;amp;quot;&amp;amp;amp;gt;&amp;amp;amp;lt;button role=&amp;amp;amp;quot;menuitem&amp;amp;amp;quot; class=&amp;amp;amp;quot;theme&amp;amp;amp;quot; id=&amp;amp;amp;quot;navy&amp;amp;amp;quot;&amp;amp;amp;gt;Navy&amp;amp;amp;lt;/button&amp;amp;amp;gt;&amp;amp;amp;lt;/li&amp;amp;amp;gt;
+                &amp;amp;amp;lt;li role=&amp;amp;amp;quot;none&amp;amp;amp;quot;&amp;amp;amp;gt;&amp;amp;amp;lt;button role=&amp;amp;amp;quot;menuitem&amp;amp;amp;quot; class=&amp;amp;amp;quot;theme&amp;amp;amp;quot; id=&amp;amp;amp;quot;ayu&amp;amp;amp;quot;&amp;amp;amp;gt;Ayu&amp;amp;amp;lt;/button&amp;amp;amp;gt;&amp;amp;amp;lt;/li&amp;amp;amp;gt;
+            &amp;amp;amp;lt;/ul&amp;amp;amp;gt;
+<pre><code>        &amp;amp;amp;amp;lt;button id=&amp;amp;amp;amp;quot;search-toggle&amp;amp;amp;amp;quot; class=&amp;amp;amp;amp;quot;icon-button&amp;amp;amp;amp;quot; type=&amp;amp;amp;amp;quot;button&amp;amp;amp;amp;quot; title=&amp;amp;amp;amp;quot;Search. (Shortkey: s)&amp;amp;amp;amp;quot; aria-label=&amp;amp;amp;amp;quot;Toggle Searchbar&amp;amp;amp;amp;quot; aria-expanded=&amp;amp;amp;amp;quot;false&amp;amp;amp;amp;quot; aria-keyshortcuts=&amp;amp;amp;amp;quot;S&amp;amp;amp;amp;quot; aria-controls=&amp;amp;amp;amp;quot;searchbar&amp;amp;amp;amp;quot;&amp;amp;amp;amp;gt;
+            &amp;amp;amp;amp;lt;i class=&amp;amp;amp;amp;quot;fa fa-search&amp;amp;amp;amp;quot;&amp;amp;amp;amp;gt;&amp;amp;amp;amp;lt;/i&amp;amp;amp;amp;gt;
+        &amp;amp;amp;amp;lt;/button&amp;amp;amp;amp;gt;
+        
+    &amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;gt;
+
+    &amp;amp;amp;amp;lt;h1 class=&amp;amp;amp;amp;quot;menu-title&amp;amp;amp;amp;quot;&amp;amp;amp;amp;gt;Genealogical Table of the Daughters of Manu&amp;amp;amp;amp;lt;/h1&amp;amp;amp;amp;gt;
+
+    &amp;amp;amp;amp;lt;div class=&amp;amp;amp;amp;quot;right-buttons&amp;amp;amp;amp;quot;&amp;amp;amp;amp;gt;
+        &amp;amp;amp;amp;lt;a href=&amp;amp;amp;amp;quot;print.html&amp;amp;amp;amp;quot; title=&amp;amp;amp;amp;quot;Print this book&amp;amp;amp;amp;quot; aria-label=&amp;amp;amp;amp;quot;Print this book&amp;amp;amp;amp;quot;&amp;amp;amp;amp;gt;
+            &amp;amp;amp;amp;lt;i id=&amp;amp;amp;amp;quot;print-button&amp;amp;amp;amp;quot; class=&amp;amp;amp;amp;quot;fa fa-print&amp;amp;amp;amp;quot;&amp;amp;amp;amp;gt;&amp;amp;amp;amp;lt;/i&amp;amp;amp;amp;gt;
+        &amp;amp;amp;amp;lt;/a&amp;amp;amp;amp;gt;
+        
+    &amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;gt;
+&amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;gt;
+</code></pre>
+<p>&amp;amp;amp;lt;/div&amp;amp;amp;gt;</p>
+<p>&amp;amp;amp;lt;div id=&amp;amp;amp;quot;search-wrapper&amp;amp;amp;quot; class=&amp;amp;amp;quot;hidden&amp;amp;amp;quot;&amp;amp;amp;gt;
+&amp;amp;amp;lt;form id=&amp;amp;amp;quot;searchbar-outer&amp;amp;amp;quot; class=&amp;amp;amp;quot;searchbar-outer&amp;amp;amp;quot;&amp;amp;amp;gt;
+&amp;amp;amp;lt;input type=&amp;amp;amp;quot;search&amp;amp;amp;quot; name=&amp;amp;amp;quot;search&amp;amp;amp;quot; id=&amp;amp;amp;quot;searchbar&amp;amp;amp;quot; name=&amp;amp;amp;quot;searchbar&amp;amp;amp;quot; placeholder=&amp;amp;amp;quot;Search this book ...&amp;amp;amp;quot; aria-controls=&amp;amp;amp;quot;searchresults-outer&amp;amp;amp;quot; aria-describedby=&amp;amp;amp;quot;searchresults-header&amp;amp;amp;quot;&amp;amp;amp;gt;
+&amp;amp;amp;lt;/form&amp;amp;amp;gt;
+&amp;amp;amp;lt;div id=&amp;amp;amp;quot;searchresults-outer&amp;amp;amp;quot; class=&amp;amp;amp;quot;searchresults-outer hidden&amp;amp;amp;quot;&amp;amp;amp;gt;
+&amp;amp;amp;lt;div id=&amp;amp;amp;quot;searchresults-header&amp;amp;amp;quot; class=&amp;amp;amp;quot;searchresults-header&amp;amp;amp;quot;&amp;amp;amp;gt;&amp;amp;amp;lt;/div&amp;amp;amp;gt;
+&amp;amp;amp;lt;ul id=&amp;amp;amp;quot;searchresults&amp;amp;amp;quot;&amp;amp;amp;gt;
+&amp;amp;amp;lt;/ul&amp;amp;amp;gt;
+&amp;amp;amp;lt;/div&amp;amp;amp;gt;
+&amp;amp;amp;lt;/div&amp;amp;amp;gt;</p>
+<p>&amp;amp;amp;lt;!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM --&amp;amp;amp;gt;
+&amp;amp;amp;lt;script type=&amp;amp;amp;quot;text/javascript&amp;amp;amp;quot;&amp;amp;amp;gt;
+document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+});
+&amp;amp;amp;lt;/script&amp;amp;amp;gt;</p>
+<p>&amp;amp;amp;lt;div id=&amp;amp;amp;quot;content&amp;amp;amp;quot; class=&amp;amp;amp;quot;content&amp;amp;amp;quot;&amp;amp;amp;gt;
+&amp;amp;amp;lt;main&amp;amp;amp;gt;
+&amp;amp;amp;lt;h1&amp;amp;amp;gt;&amp;amp;amp;lt;a class=&amp;amp;amp;quot;header&amp;amp;amp;quot; href=&amp;amp;amp;quot;#home&amp;amp;amp;quot; id=&amp;amp;amp;quot;home&amp;amp;amp;quot;&amp;amp;amp;gt;Home&amp;amp;amp;lt;/a&amp;amp;amp;gt;&amp;amp;amp;lt;/h1&amp;amp;amp;gt;</p>
+<pre><code>&amp;amp;amp;amp;lt;/main&amp;amp;amp;amp;gt;
+
+&amp;amp;amp;amp;lt;nav class=&amp;amp;amp;amp;quot;nav-wrapper&amp;amp;amp;amp;quot; aria-label=&amp;amp;amp;amp;quot;Page navigation&amp;amp;amp;amp;quot;&amp;amp;amp;amp;gt;
+    &amp;amp;amp;amp;lt;!-- Mobile navigation buttons --&amp;amp;amp;amp;gt;
+    
+
+    
+        &amp;amp;amp;amp;lt;a rel=&amp;amp;amp;amp;quot;next&amp;amp;amp;amp;quot; href=&amp;amp;amp;amp;quot;../index.html&amp;amp;amp;amp;quot; class=&amp;amp;amp;amp;quot;mobile-nav-chapters next&amp;amp;amp;amp;quot; title=&amp;amp;amp;amp;quot;Next chapter&amp;amp;amp;amp;quot; aria-label=&amp;amp;amp;amp;quot;Next chapter&amp;amp;amp;amp;quot; aria-keyshortcuts=&amp;amp;amp;amp;quot;Right&amp;amp;amp;amp;quot;&amp;amp;amp;amp;gt;
+            &amp;amp;amp;amp;lt;i class=&amp;amp;amp;amp;quot;fa fa-angle-right&amp;amp;amp;amp;quot;&amp;amp;amp;amp;gt;&amp;amp;amp;amp;lt;/i&amp;amp;amp;amp;gt;
+        &amp;amp;amp;amp;lt;/a&amp;amp;amp;amp;gt;
+    
+
+    &amp;amp;amp;amp;lt;div style=&amp;amp;amp;amp;quot;clear: both&amp;amp;amp;amp;quot;&amp;amp;amp;amp;gt;&amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;gt;
+&amp;amp;amp;amp;lt;/nav&amp;amp;amp;amp;gt;
+</code></pre>
+<p>&amp;amp;amp;lt;/div&amp;amp;amp;gt;
+</code></pre></p>
+<p>&amp;amp;lt;/div&amp;amp;gt;</p>
+<p>&amp;amp;lt;nav class=&amp;amp;quot;nav-wide-wrapper&amp;amp;quot; aria-label=&amp;amp;quot;Page navigation&amp;amp;quot;&amp;amp;gt;
+</p>
+<pre><code>    &amp;amp;amp;lt;a href=&amp;amp;amp;quot;../index.html&amp;amp;amp;quot; class=&amp;amp;amp;quot;nav-chapters next&amp;amp;amp;quot; title=&amp;amp;amp;quot;Next chapter&amp;amp;amp;quot; aria-label=&amp;amp;amp;quot;Next chapter&amp;amp;amp;quot; aria-keyshortcuts=&amp;amp;amp;quot;Right&amp;amp;amp;quot;&amp;amp;amp;gt;
+        &amp;amp;amp;lt;i class=&amp;amp;amp;quot;fa fa-angle-right&amp;amp;amp;quot;&amp;amp;amp;gt;&amp;amp;amp;lt;/i&amp;amp;amp;gt;
+    &amp;amp;amp;lt;/a&amp;amp;amp;gt;
+</code></pre>
+<p>&amp;amp;lt;/nav&amp;amp;gt;
+</code></pre></p>
+<p>&amp;lt;/div&amp;gt;</p>
+<p>&amp;lt;script src=&amp;quot;elasticlunr.min.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&amp;quot;mark.min.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&amp;quot;searcher.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;</p>
+<p>&amp;lt;script src=&amp;quot;clipboard.min.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&amp;quot;highlight.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&amp;quot;book.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;</p>
+<p>&amp;lt;!-- Custom JS scripts --&amp;gt;
+</code></pre></p>
+<p>&lt;/body&gt;
+</code></pre></p>
+</html>
+<pre><code>                &lt;/main&gt;
+<pre><code>            &amp;lt;nav class=&amp;quot;nav-wrapper&amp;quot; aria-label=&amp;quot;Page navigation&amp;quot;&amp;gt;
+                &amp;lt;!-- Mobile navigation buttons --&amp;gt;
+<pre><code>                &amp;amp;lt;a rel=&amp;amp;quot;next&amp;amp;quot; href=&amp;amp;quot;../index.html&amp;amp;quot; class=&amp;amp;quot;mobile-nav-chapters next&amp;amp;quot; title=&amp;amp;quot;Next chapter&amp;amp;quot; aria-label=&amp;amp;quot;Next chapter&amp;amp;quot; aria-keyshortcuts=&amp;amp;quot;Right&amp;amp;quot;&amp;amp;gt;
+                    &amp;amp;lt;i class=&amp;amp;quot;fa fa-angle-right&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;/i&amp;amp;gt;
+                &amp;amp;lt;/a&amp;amp;gt;
+<pre><code>        &amp;amp;amp;lt;div style=&amp;amp;amp;quot;clear: both&amp;amp;amp;quot;&amp;amp;amp;gt;&amp;amp;amp;lt;/div&amp;amp;amp;gt;
+    &amp;amp;amp;lt;/nav&amp;amp;amp;gt;
+&amp;amp;amp;lt;/div&amp;amp;amp;gt;
+</code></pre>
+<p>&amp;amp;lt;/div&amp;amp;gt;</p>
+<p>&amp;amp;lt;nav class=&amp;amp;quot;nav-wide-wrapper&amp;amp;quot; aria-label=&amp;amp;quot;Page navigation&amp;amp;quot;&amp;amp;gt;
+</p>
+<pre><code>    &amp;amp;amp;lt;a href=&amp;amp;amp;quot;../index.html&amp;amp;amp;quot; class=&amp;amp;amp;quot;nav-chapters next&amp;amp;amp;quot; title=&amp;amp;amp;quot;Next chapter&amp;amp;amp;quot; aria-label=&amp;amp;amp;quot;Next chapter&amp;amp;amp;quot; aria-keyshortcuts=&amp;amp;amp;quot;Right&amp;amp;amp;quot;&amp;amp;amp;gt;
+        &amp;amp;amp;lt;i class=&amp;amp;amp;quot;fa fa-angle-right&amp;amp;amp;quot;&amp;amp;amp;gt;&amp;amp;amp;lt;/i&amp;amp;amp;gt;
+    &amp;amp;amp;lt;/a&amp;amp;amp;gt;
+</code></pre>
+<p>&amp;amp;lt;/nav&amp;amp;gt;
+</code></pre></p>
+<p>&amp;lt;/div&amp;gt;</p>
+<p>&amp;lt;script src=&amp;quot;elasticlunr.min.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&amp;quot;mark.min.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&amp;quot;searcher.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;</p>
+<p>&amp;lt;script src=&amp;quot;clipboard.min.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&amp;quot;highlight.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&amp;quot;book.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;</p>
+<p>&amp;lt;!-- Custom JS scripts --&amp;gt;
+</code></pre></p>
+<p>&lt;/body&gt;
+</code></pre></p>
+</html>
+<pre><code>                &lt;/main&gt;
+<pre><code>            &amp;lt;nav class=&amp;quot;nav-wrapper&amp;quot; aria-label=&amp;quot;Page navigation&amp;quot;&amp;gt;
+                &amp;lt;!-- Mobile navigation buttons --&amp;gt;
+<pre><code>                &amp;amp;lt;a rel=&amp;amp;quot;next&amp;amp;quot; href=&amp;amp;quot;../index.html&amp;amp;quot; class=&amp;amp;quot;mobile-nav-chapters next&amp;amp;quot; title=&amp;amp;quot;Next chapter&amp;amp;quot; aria-label=&amp;amp;quot;Next chapter&amp;amp;quot; aria-keyshortcuts=&amp;amp;quot;Right&amp;amp;quot;&amp;amp;gt;
+                    &amp;amp;lt;i class=&amp;amp;quot;fa fa-angle-right&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;/i&amp;amp;gt;
+                &amp;amp;lt;/a&amp;amp;gt;
+            
+
+            &amp;amp;lt;div style=&amp;amp;quot;clear: both&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;/div&amp;amp;gt;
+        &amp;amp;lt;/nav&amp;amp;gt;
+    &amp;amp;lt;/div&amp;amp;gt;
+&amp;amp;lt;/div&amp;amp;gt;
+
+&amp;amp;lt;nav class=&amp;amp;quot;nav-wide-wrapper&amp;amp;quot; aria-label=&amp;amp;quot;Page navigation&amp;amp;quot;&amp;amp;gt;
+    
+
+    
+        &amp;amp;lt;a href=&amp;amp;quot;../index.html&amp;amp;quot; class=&amp;amp;quot;nav-chapters next&amp;amp;quot; title=&amp;amp;quot;Next chapter&amp;amp;quot; aria-label=&amp;amp;quot;Next chapter&amp;amp;quot; aria-keyshortcuts=&amp;amp;quot;Right&amp;amp;quot;&amp;amp;gt;
+            &amp;amp;lt;i class=&amp;amp;quot;fa fa-angle-right&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;/i&amp;amp;gt;
+        &amp;amp;lt;/a&amp;amp;gt;
+    
+&amp;amp;lt;/nav&amp;amp;gt;
+</code></pre>
+<p>&amp;lt;/div&amp;gt;</p>
+<p>&amp;lt;script src=&amp;quot;elasticlunr.min.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&amp;quot;mark.min.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&amp;quot;searcher.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;</p>
+<p>&amp;lt;script src=&amp;quot;clipboard.min.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&amp;quot;highlight.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&amp;quot;book.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;</p>
+<p>&amp;lt;!-- Custom JS scripts --&amp;gt;
+</code></pre></p>
+<p>&lt;/body&gt;
+</code></pre></p>
+</html>
+<pre><code>                &lt;/main&gt;
+<pre><code>            &amp;lt;nav class=&amp;quot;nav-wrapper&amp;quot; aria-label=&amp;quot;Page navigation&amp;quot;&amp;gt;
+                &amp;lt;!-- Mobile navigation buttons --&amp;gt;
+                
+
+                
+                    &amp;lt;a rel=&amp;quot;next&amp;quot; href=&amp;quot;../index.html&amp;quot; class=&amp;quot;mobile-nav-chapters next&amp;quot; title=&amp;quot;Next chapter&amp;quot; aria-label=&amp;quot;Next chapter&amp;quot; aria-keyshortcuts=&amp;quot;Right&amp;quot;&amp;gt;
+                        &amp;lt;i class=&amp;quot;fa fa-angle-right&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
+                    &amp;lt;/a&amp;gt;
+                
+
+                &amp;lt;div style=&amp;quot;clear: both&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+            &amp;lt;/nav&amp;gt;
+        &amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;
+
+    &amp;lt;nav class=&amp;quot;nav-wide-wrapper&amp;quot; aria-label=&amp;quot;Page navigation&amp;quot;&amp;gt;
+        
+
+        
+            &amp;lt;a href=&amp;quot;../index.html&amp;quot; class=&amp;quot;nav-chapters next&amp;quot; title=&amp;quot;Next chapter&amp;quot; aria-label=&amp;quot;Next chapter&amp;quot; aria-keyshortcuts=&amp;quot;Right&amp;quot;&amp;gt;
+                &amp;lt;i class=&amp;quot;fa fa-angle-right&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
+            &amp;lt;/a&amp;gt;
+        
+    &amp;lt;/nav&amp;gt;
+
+&amp;lt;/div&amp;gt;
+
+
+
+
+
+
+
+
+&amp;lt;script src=&amp;quot;elasticlunr.min.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&amp;quot;mark.min.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&amp;quot;searcher.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+
+
+&amp;lt;script src=&amp;quot;clipboard.min.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&amp;quot;highlight.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&amp;quot;book.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+
+&amp;lt;!-- Custom JS scripts --&amp;gt;
+</code></pre>
+<p>&lt;/body&gt;
+</code></pre></p>
+</html>
+<pre><code>                &lt;/main&gt;
+
+                &lt;nav class=&quot;nav-wrapper&quot; aria-label=&quot;Page navigation&quot;&gt;
+                    &lt;!-- Mobile navigation buttons --&gt;
+                    
+
+                    
+                        &lt;a rel=&quot;next&quot; href=&quot;../index.html&quot; class=&quot;mobile-nav-chapters next&quot; title=&quot;Next chapter&quot; aria-label=&quot;Next chapter&quot; aria-keyshortcuts=&quot;Right&quot;&gt;
+                            &lt;i class=&quot;fa fa-angle-right&quot;&gt;&lt;/i&gt;
+                        &lt;/a&gt;
+                    
+
+                    &lt;div style=&quot;clear: both&quot;&gt;&lt;/div&gt;
+                &lt;/nav&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;nav class=&quot;nav-wide-wrapper&quot; aria-label=&quot;Page navigation&quot;&gt;
+            
+
+            
+                &lt;a href=&quot;../index.html&quot; class=&quot;nav-chapters next&quot; title=&quot;Next chapter&quot; aria-label=&quot;Next chapter&quot; aria-keyshortcuts=&quot;Right&quot;&gt;
+                    &lt;i class=&quot;fa fa-angle-right&quot;&gt;&lt;/i&gt;
+                &lt;/a&gt;
+            
+        &lt;/nav&gt;
+
+    &lt;/div&gt;
+
+    
+
+    
+
+    
+
+    
+    &lt;script src=&quot;elasticlunr.min.js&quot; type=&quot;text/javascript&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;mark.min.js&quot; type=&quot;text/javascript&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;searcher.js&quot; type=&quot;text/javascript&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+    
+
+    &lt;script src=&quot;clipboard.min.js&quot; type=&quot;text/javascript&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;highlight.js&quot; type=&quot;text/javascript&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;book.js&quot; type=&quot;text/javascript&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+    &lt;!-- Custom JS scripts --&gt;
+    
+
+    
+
+&lt;/body&gt;
+</code></pre>
+</html>
+<h1><a class="header" href="#table-of-contents" id="table-of-contents">Table of Contents</a></h1>
+<h1><a class="header" href="#the-story-of-king-vena" id="the-story-of-king-vena">The Story of King Vena</a></h1>
+<h3><a class="header" href="#4141" id="4141">4.14.1</a></h3>
+<p>maitreya uvaca</p>
+<p>bhrgv-adayas te munayo</p>
+<p>lokanam ksema-darsinah</p>
+<p>goptary asati vai nrnam</p>
+<p>pasyantah pasu-samyatam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>maitreyah uvaca—the great sage Maitreya continued; bhrgu-adayah—headed by Bhrgu; te—all of them; munayah—the great sages; lokanam—of the people; ksema-darsinah—who always aspire for the welfare; goptari—the King; asati—being absent; vai—certainly; nrnam—of all the citizens; pasyantah—having understood; pasu-samyatam—existence on the level of the animals.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The great sage Maitreya continued: O great hero Vidura, the great sages, headed by Bhrgu, were always thinking of the welfare of the people in general.</p>
+<p>When they saw that in the absence of King Anga there was no one to protect the interests of the people, they understood that without a ruler the people would become independent and nonregulated.</p>
+<p><strong>PURPORT</strong></p>
+<p>In this verse the significant word is ksema-darsinah, which refers to those who are always looking after the welfare of the people in general.</p>
+<p>All the great sages headed by Bhrgu were always thinking of how to elevate all the people of the universe to the spiritual platform.</p>
+<p>Indeed, they advised the kings of every planet to rule the people with that ultimate goal of life in mind.</p>
+<p>The great sages used to advise the head of the state, or the king, and he used to rule the populace in accordance with their instruction.</p>
+<p>After the disappearance of King Anga, there was no one to follow the instructions of the great sages.</p>
+<p>Consequently all the citizens became unruly, so much so that they could be compared to animals.</p>
+<p>As described in Bhagavad-gita (4.13), human society must be divided into four orders according to quality and work.</p>
+<p>In every society there must be an intelligent class, administrative class, productive class and worker class.</p>
+<p>In modern democracy these scientific divisions are turned topsy-turvy, and by vote sudras, or workers, are chosen for administrative posts.</p>
+<p>Having no knowledge of the ultimate goal of life, such persons whimsically enact laws without knowledge of life’s purpose.</p>
+<p>The result is that no one is happy.</p>
+<h3><a class="header" href="#4142" id="4142">4.14.2</a></h3>
+<p>vira-mataram ahuya</p>
+<p>sunitham brahma-vadinah</p>
+<p>prakrty-asammatam venam</p>
+<p>abhyasincan patim bhuvah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vira—of Vena; mataram—mother; ahuya—calling; sunitham—of the name Sunitha; brahma-vadinah—the great sages learned in the Vedas; prakrti—by the ministers; asammatam—not approved of; venam—Vena; abhyasincan—enthroned; patim—the master; bhuvah—of the world.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The great sages then called for the Queen Mother, Sunitha, and with her permission they installed Vena on the throne as master of the world.</p>
+<p>All the ministers, however, disagreed with this.</p>
+<h3><a class="header" href="#4143" id="4143">4.14.3</a></h3>
+<p>srutva nrpasana-gatam</p>
+<p>venam atyugra-sasanam</p>
+<p>nililyur dasyavah sadyah</p>
+<p>sarpa-trasta ivakhavah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>srutva—after hearing; nrpa—of the King; asana-gatam—ascended to the throne; venam—Vena; ati—very; ugra—severe; sasanam—punisher; nililyuh—hid themselves; dasyavah—all the thieves; sadyah—immediately; sarpa—from snakes; trastah—being afraid; iva—like; akhavah—rats.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>It was already known that Vena was very severe and cruel; therefore, as soon as all the thieves and rogues in the state heard of his ascendance to the royal throne, they became very much afraid of him.</p>
+<p>Indeed, they hid themselves here and there as rats hide themselves from snakes.</p>
+<p><strong>PURPORT</strong></p>
+<p>When the government is very weak, rogues and thieves flourish.</p>
+<p>Similarly, when the government is very strong, all the thieves and rogues disappear or hide themselves.</p>
+<p>Of course Vena was not a very good king, but he was known to be cruel and severe.</p>
+<p>Thus the state at least became freed from thieves and rogues.</p>
+<h3><a class="header" href="#4144" id="4144">4.14.4</a></h3>
+<p>sa arudha-nrpa-sthana</p>
+<p>unnaddho ’sta-vibhutibhih</p>
+<p>avamene maha-bhagan</p>
+<p>stabdhah sambhavitah svatah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—King Vena; arudha—ascended to; nrpa-sthanah—the seat of the king; unnaddhah—very proud; asta—eight; vibhutibhih—by opulences; avamene—began to insult; maha-bhagan—great personalities; stabdhah—inconsiderate; sambhavitah—considered great; svatah—by himself.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When the King ascended to the throne, he became all-powerful with eight kinds of opulences.</p>
+<p>Consequently he became too proud.</p>
+<p>By virtue of his false prestige, he considered himself to be greater than anyone.</p>
+<p>Thus he began to insult great personalities.</p>
+<p><strong>PURPORT</strong></p>
+<p>In this verse the word asta-vibhutibhih, meaning by eight opulences is very important.</p>
+<p>The king is supposed to possess eight kinds of opulences.</p>
+<p>By dint of mystic yoga practice, kings generally acquired these eight opulences.</p>
+<p>These kings were called rajarsis, kings who were also great sages.</p>
+<p>By practicing mystic yoga, a rajarsi could become smaller than the smallest, greater than the greatest, and could get whatever he desired.</p>
+<p>A rajarsi could also create a kingdom, bring everyone under his control and rule everyone.</p>
+<p>These were some of the opulences of a king.</p>
+<p>King Vena, however, was not practiced in yoga, but he became very proud of his royal position nonetheless.</p>
+<p>Because he was not very considerate, he began to misuse his power and insult great personalities.</p>
+<h3><a class="header" href="#4145" id="4145">4.14.5</a></h3>
+<p>evam madandha utsikto</p>
+<p>nirankusa iva dvipah</p>
+<p>paryatan ratham asthaya</p>
+<p>kampayann iva rodasi</p>
+<p><strong>SYNONYMS</strong></p>
+<p>evam—thus; mada-andhah—being blind with power; utsiktah—proud; nirankusah—uncontrolled; iva—like; dvipah—an elephant; paryatan—traveling; ratham—a chariot; asthaya—having mounted; kampayan—causing to tremble; iva—indeed; rodasi—the sky and earth.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When he became overly blind due to his opulences, King Vena mounted a chariot and, like an uncontrolled elephant, began to travel through the kingdom, causing the sky and earth to tremble wherever he went.</p>
+<h3><a class="header" href="#4146" id="4146">4.14.6</a></h3>
+<p>na yastavyam na datavyam</p>
+<p>na hotavyam dvijah kvacit</p>
+<p>iti nyavarayad dharmam</p>
+<p>bheri-ghosena sarvasah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—not; yastavyam—any sacrifices can be performed; na—not; datavyam—any charity can be given; na—not; hotavyam—any clarified butter can be offered; dvijah—O twice-born; kvacit—at any time; iti—thus; nyavarayat—he stopped; dharmam—the procedures of religious principles; bheri—of kettledrums; ghosena—with the sound; sarvasah—everywhere.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>All the twice-born (brahmanas) were forbidden henceforward to perform any sacrifice, and they were also forbidden to give charity or offer clarified butter.</p>
+<p>Thus King Vena sounded kettledrums throughout the countryside.</p>
+<p>In other words, he stopped all kinds of religious rituals.</p>
+<p><strong>PURPORT</strong></p>
+<p>What was committed by King Vena many years ago is at present being carried out by atheistic governments all over the world.</p>
+<p>The world situation is so tense that at any moment governments may issue declarations to stop religious rituals.</p>
+<p>Eventually the world situation will become so degraded that it will be impossible for pious men to live on the planet.</p>
+<p>Therefore sane people should execute Krsna consciousness very seriously, so that they can go back home, back to Godhead, without having to further suffer the miserable conditions predominant in this universe.</p>
+<h3><a class="header" href="#4147" id="4147">4.14.7</a></h3>
+<p>venasyaveksya munayo</p>
+<p>durvrttasya vicestitam</p>
+<p>vimrsya loka-vyasanam</p>
+<p>krpayocuh sma satrinah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>venasya—of King Vena; aveksya—after observing; munayah—all the great sages; durvrttasya—of the great rogue; vicestitam—activities; vimrsya—considering; loka-vyasanam—danger to the people in general; krpaya—out of compassion; ucuh—talked; sma—in the past; satrinah—the performers of sacrifices.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Therefore all the great sages assembled together and, after observing cruel Vena’s atrocities, concluded that a great danger and catastrophe was approaching the people of the world.</p>
+<p>Thus out of compassion they began to talk amongst themselves, for they themselves were the performers of the sacrifices.</p>
+<p><strong>PURPORT</strong></p>
+<p>Before King Vena was enthroned, all the great sages were very much anxious to see to the welfare of society.</p>
+<p>When they saw that King Vena was most irresponsible, cruel and atrocious, they again began to think of the welfare of the people.</p>
+<p>It should be understood that sages, saintly persons and devotees are not unconcerned with the people’s welfare.</p>
+<p>Ordinary karmis are busy acquiring money for sense gratification, and ordinary jnanis are socially aloof when they speculate on liberation, but actual devotees and saintly persons are always anxious to see how the people can be made happy both materially and spiritually.</p>
+<p>Therefore the great sages began to consult one another on how to get out of the dangerous atmosphere created by King Vena.</p>
+<h3><a class="header" href="#4148" id="4148">4.14.8</a></h3>
+<p>aho ubhayatah praptam</p>
+<p>lokasya vyasanam mahat</p>
+<p>daruny ubhayato dipte</p>
+<p>iva taskara-palayoh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>aho—alas; ubhayatah—from both directions; praptam—received; lokasya—of the people in general; vyasanam—danger; mahat—great; daruni—a log; ubhayatah—from both sides; dipte—burning; iva—like; taskara—from thieves and rogues; palayoh—and from the king.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When the great sages consulted one another, they saw that the people were in a dangerous position from both directions.</p>
+<p>When a fire blazes on both ends of a log, the ants in the middle are in a very dangerous situation.</p>
+<p>Similarly, at that time the people in general were in a dangerous position due to an irresponsible king on one side and thieves and rogues on the other.</p>
+<h3><a class="header" href="#4149" id="4149">4.14.9</a></h3>
+<p>arajaka-bhayad esa</p>
+<p>krto rajatad-arhanah</p>
+<p>tato ’py asid bhayam tv adya</p>
+<p>katham syat svasti dehinam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>arajaka—being without a king; bhayat—out of fear; esah—this Vena; krtah—was made; raja—the king; a-tat-arhanah—though not qualified for it; tatah—from him; api—also; asit—there was; bhayam—danger; tu—then; adya—now; katham—how; syat—can there be; svasti—happiness; dehinam—of the people in general.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thinking to save the state from irregularity, the sages began to consider that it was due to a political crisis that they made Vena king although he was not qualified.</p>
+<p>But alas, now the people were being disturbed by the king himself.</p>
+<p>Under such circumstances, how could the people be happy?</p>
+<p><strong>PURPORT</strong></p>
+<p>In Bhagavad-gita (18.5) it is stated that even in the renounced order one should not give up sacrifice, charity and penance.</p>
+<p>The brahmacaris must perform sacrifices, the grhasthas must give in charity, and those in the renounced order of life (the vanaprasthas and sannyasis) must practice penance and austerities.</p>
+<p>These are the procedures by which everyone can be elevated to the spiritual platform.</p>
+<p>When the sages and saintly persons saw that King Vena had stopped all these functions, they became concerned about the people’s progress.</p>
+<p>Saintly people preach God consciousness, or Krsna consciousness, because they are anxious to save the general populace from the dangers of animalistic life.</p>
+<p>There must be a good government to see that the citizens are actually executing their religious rituals, and thieves and rogues must be curbed.</p>
+<p>When this is done, the people can advance peacefully in spiritual consciousness and make their lives successful.</p>
+<h3><a class="header" href="#41410" id="41410">4.14.10</a></h3>
+<p>aher iva payah-posah</p>
+<p>posakasyapy anartha-bhrt</p>
+<p>venah prakrtyaiva khalah</p>
+<p>sunitha-garbha-sambhavah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>aheh—of a snake; iva—like; payah—with milk; posah—the maintaining; posakasya—of the maintainer; api—even; anartha—against the interest; bhrt—becomes; venah—King Vena; prakrtya—by nature; eva—certainly; khalah—mischievous; sunitha—of Sunitha, Vena’s mother; garbha—the womb; sambhavah—born of.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The sages began to think within themselves: Because he was born from the womb of Sunitha, King Vena is by nature very mischievous.</p>
+<p>Supporting this mischievous king is exactly like maintaining a snake with milk.</p>
+<p>Now he has become a source of all difficulties.</p>
+<p><strong>PURPORT</strong></p>
+<p>Saintly persons are generally aloof from social activities and the materialistic way of life.</p>
+<p>King Vena was supported by the saintly persons just to protect the citizens from the hands of rogues and thieves, but after his ascendance to the throne, he became a source of trouble to the sages.</p>
+<p>Saintly people are especially interested in performing sacrifices and austerities for the advancement of spiritual life, but Vena, instead of being obliged because of the saints’ mercy, turned out to be their enemy because he prohibited them from executing their ordinary duties.</p>
+<p>A serpent who is maintained with milk and bananas simply stores poison in his teeth and awaits the day to bite his master.</p>
+<h3><a class="header" href="#41411" id="41411">4.14.11</a></h3>
+<p>nirupitah praja-palah</p>
+<p>sa jighamsati vai prajah</p>
+<p>tathapi santvayemamum</p>
+<p>nasmams tat-patakam sprset</p>
+<p><strong>SYNONYMS</strong></p>
+<p>nirupitah—appointed; praja-palah—the king; sah—he; jighamsati—desires to harm; vai—certainly; prajah—the citizens; tatha api—nevertheless; santvayema—we should pacify; amum—him; na—not; asman—us; tat—his; patakam—sinful result; sprset—may touch.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>We appointed this Vena king of the state in order to give protection to the citizens, but now he has become the enemy of the citizens.</p>
+<p>Despite all these discrepancies, we should at once try to pacify him.</p>
+<p>By doing so, we may not be touched by the sinful results caused by him.</p>
+<p><strong>PURPORT</strong></p>
+<p>The saintly sages elected King Vena to become king, but he proved to be mischievous; therefore the sages were very much afraid of incurring sinful reaction.</p>
+<p>The law of karma prohibits a person even to associate with a mischievous individual.</p>
+<p>By electing Vena to the throne, the saintly sages certainly associated with him.</p>
+<p>Ultimately King Vena became so mischievous that the saintly sages actually became afraid of becoming contaminated by his activities.</p>
+<p>Thus before taking any action against him, the sages tried to pacify and correct him so that he might turn from his mischief.</p>
+<h3><a class="header" href="#41412" id="41412">4.14.12</a></h3>
+<p>tad-vidvadbhir asad-vrtto</p>
+<p>veno ’smabhih krto nrpah</p>
+<p>santvito yadi no vacam</p>
+<p>na grahisyaty adharma-krt</p>
+<p>loka-dhikkara-sandagdham</p>
+<p>dahisyamah sva-tejasa</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tat—his mischievous nature; vidvadbhih—aware of; asat-vrttah—impious; venah—Vena; asmabhih—by us; krtah—was made; nrpah—king; santvitah—(in spite of) being pacified; yadi—if; nah—our; vacam—words; na—not; grahisyati—he will accept; adharma-krt—the most mischievous; loka-dhik-kara—by public condemnation; sandagdham—burned; dahisyamah—we shall burn; sva-tejasa—by our prowess.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The saintly sages continued thinking: Of course we are completely aware of his mischievous nature.</p>
+<p>Yet nevertheless we enthroned Vena.</p>
+<p>If we cannot persuade King Vena to accept our advice, he will be condemned by the public, and we will join them.</p>
+<p>Thus by our prowess we shall burn him to ashes.</p>
+<p><strong>PURPORT</strong></p>
+<p>Saintly persons are not interested in political matters, yet they are always thinking of the welfare of the people in general.</p>
+<p>Consequently they sometimes have to come down to the political field and take steps to correct the misguided government or royalty.</p>
+<p>However, in Kali-yuga, saintly persons are not as powerful as they previously were.</p>
+<p>They used to be able to burn any sinful man to ashes by virtue of their spiritual prowess.</p>
+<p>Now saintly persons have no such power due to the influence of the age of Kali.</p>
+<p>Indeed, the brahmanas do not even have the power to perform sacrifices in which animals are put into a fire to attain a new life.</p>
+<p>Under these circumstances, instead of actively taking part in politics, saintly persons should engage in chanting the maha-mantra, Hare Krsna.</p>
+<p>By the grace of Lord Caitanya, by simply chanting this Hare Krsna maha-mantra, the general populace can derive all benefits without political implications.</p>
+<h3><a class="header" href="#41413" id="41413">4.14.13</a></h3>
+<p>evam adhyavasayainam</p>
+<p>munayo gudha-manyavah</p>
+<p>upavrajyabruvan venam</p>
+<p>santvayitva ca samabhih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>evam—thus; adhyavasaya—having decided; enam—him; munayah—the great sages; gudha-manyavah—concealing their anger; upavrajya—having approached; abruvan—spoke; venam—to King Vena; santvayitva—after pacifying; ca—also; samabhih—with sweet words.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The great sages, having thus decided, approached King Vena.</p>
+<p>Concealing their real anger, they pacified him with sweet words and then spoke as follows.</p>
+<h3><a class="header" href="#41414" id="41414">4.14.14</a></h3>
+<p>munaya ucuh</p>
+<p>nrpa-varya nibodhaitad</p>
+<p>yat te vijnapayama bhoh</p>
+<p>ayuh-sri-bala-kirtinam</p>
+<p>tava tata vivardhanam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>munayah ucuh—the great sages said; nrpa-varya—O best of the kings; nibodha—kindly try to understand; etat—this; yat—which; te—to you; vijnapayama—we shall instruct; bhoh—O King; ayuh—duration of life; sri—opulences; bala—strength; kirtinam—good reputation; tava—your; tata—dear son; vivardhanam—which will increase.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The great sages said: Dear King, we have come to give you good advice.</p>
+<p>Kindly hear us with great attention.</p>
+<p>By doing so, your duration of life and your opulence, strength and reputation will increase.</p>
+<p><strong>PURPORT</strong></p>
+<p>According to Vedic civilization, in a monarchy the king is advised by saintly persons and sages.</p>
+<p>By taking their advice, he can become the greatest executive power, and everyone in his kingdom will be happy, peaceful and prosperous.</p>
+<p>The great kings were very responsible in taking the instructions given by great saintly personalities.</p>
+<p>The kings used to accept the instructions given by great sages like Parasara, Vyasadeva, Narada, Devala and Asita.</p>
+<p>In other words, they would first accept the authority of saintly persons and then execute their monarchical power.</p>
+<p>Unfortunately, in the present age of Kali, the head of government does not follow the instructions given by the saintly persons; therefore neither the citizens nor the men of government are very happy.</p>
+<p>Their duration of life is shortened, and almost everyone is wretched and bereft of bodily strength and spiritual power.</p>
+<p>If citizens want to be happy and prosperous in this democratic age, they should not elect rascals and fools who have no respect for saintly persons.</p>
+<h3><a class="header" href="#41415" id="41415">4.14.15</a></h3>
+<p>dharma acaritah pumsam</p>
+<p>van-manah-kaya-buddhibhih</p>
+<p>lokan visokan vitaraty</p>
+<p>athanantyam asanginam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dharmah—religious principles; acaritah—executed; pumsam—to persons; vak—by words; manah—mind; kaya—body; buddhibhih—and by intelligence; lokan—the planets; visokan—without misery; vitarati—bestow; atha—certainly; anantyam—unlimited happiness, liberation; asanginam—to those free from material influence.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Those who live according to religious principles and who follow them by words, mind, body and intelligence are elevated to the heavenly kingdom, which is devoid of all miseries.</p>
+<p>Being thus rid of the material influence, they achieve unlimited happiness in life.</p>
+<p><strong>PURPORT</strong></p>
+<p>The saintly sages herein instruct that the king or head of government should set an example by living a religious life.</p>
+<p>As stated in Bhagavad-gita, religion means worshiping the Supreme Personality of Godhead.</p>
+<p>One should not simply make a show of religious life, but should perform devotional service perfectly with words, mind, body and good intelligence.</p>
+<p>By doing so, not only will the king or government head rid himself of the contamination of the material modes of nature, but the general public will also, and they will all become gradually elevated to the kingdom of God and go back home, back to Godhead.</p>
+<p>The instructions given herein serve as a summary of how the head of government should execute his ruling power and thus attain happiness not only in this life but also in the life after death.</p>
+<h3><a class="header" href="#41416" id="41416">4.14.16</a></h3>
+<p>sa te ma vinased vira</p>
+<p>prajanam ksema-laksanah</p>
+<p>yasmin vinaste nrpatir</p>
+<p>aisvaryad avarohati</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—that spiritual life; te—by you; ma—do not; vinaset—let it be spoiled; vira—O hero; prajanam—of the people; ksema-laksanah—the cause of prosperity; yasmin—which; vinaste—being spoiled; nrpatih—the king; aisvaryat—from opulence; avarohati—falls down.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The sages continued: O great hero, for this reason you should not be the cause of spoiling the spiritual life of the general populace.</p>
+<p>If their spiritual life is spoiled because of your activities, you will certainly fall down from your opulent and royal position.</p>
+<p><strong>PURPORT</strong></p>
+<p>Formerly, in practically all parts of the world, there were monarchies, but gradually as monarchy declined from the ideal life of religion to the godless life of sense gratification, monarchies all over the world were abolished.</p>
+<p>However, simply abolishing monarchy and replacing it with democracy is not sufficient unless the government men are religious and follow in the footsteps of great religious personalities.</p>
+<h3><a class="header" href="#41417" id="41417">4.14.17</a></h3>
+<p>rajann asadhv-amatyebhyas</p>
+<p>coradibhyah praja nrpah</p>
+<p>raksan yatha balim grhnann</p>
+<p>iha pretya ca modate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>rajan—O King; asadhu—mischievous; amatyebhyah—from ministers; cora-adibhyah—from thieves and rogues; prajah—the citizens; nrpah—the king; raksan—protecting; yatha—accordingly as; balim—taxes; grhnan—accepting; iha—in this world; pretya—after death; ca—also; modate—enjoys.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The saintly persons continued: When the king protects the citizens from the disturbances of mischievous ministers as well as from thieves and rogues, he can, by virtue of such pious activities, accept taxes given by his subjects.</p>
+<p>Thus a pious king can certainly enjoy himself in this world as well as in the life after death.</p>
+<p><strong>PURPORT</strong></p>
+<p>The duty of a pious king is described very nicely in this verse.</p>
+<p>His first and foremost duty is to give protection to the citizens from thieves and rogues as well as from ministers who are no better than thieves and rogues.</p>
+<p>Formerly, ministers were appointed by the king and were not elected.</p>
+<p>Consequently, if the king was not very pious or strict, the ministers would become thieves and rogues and exploit the innocent citizens.</p>
+<p>It is the king’s duty to see that there is no increase of thieves and rogues either in the government secretariat or in the departments of public affairs.</p>
+<p>If a king cannot give protection to citizens from thieves and rogues both in the government service and in public affairs, he has no right to exact taxes from them.</p>
+<p>In other words, the king or the government that taxes can levy taxes from the citizens only if the king or government is able to give protection to the citizens from thieves and rogues.</p>
+<p>Srimad-Bhagavatam (12.1.40) there is a description of these thieves and rogues in government service.</p>
+<p>As stated, prajas te bhaksayisyanti mleccha rajanya-rupinah: These proud mlecchas (persons who are less than sudras) representing themselves as kings, will tyrannize their subjects, and their subjects, on the other hand, will cultivate the most vicious practices.</p>
+<p>Thus practicing evil habits and behaving foolishly, the subjects will be like their rulers The idea is that in the democratic days of Kali-yuga, the general population will fall down to the standard of sudras.</p>
+<p>As stated (kalau sudra-sambhavah), practically the whole population of the world will be sudra.</p>
+<p>A sudra is a fourth-class man who is only fit to work for the three higher social castes.</p>
+<p>Being fourth-class men, sudras are not very intelligent.</p>
+<p>Since the population is fallen in these democratic days, they can only elect a person in their category, but a government cannot run very well when it is run by sudras.</p>
+<p>The second class of men, known as ksatriyas, are especially meant for governing a country under the direction of saintly persons (brahmanas) who are supposed to be very intelligent.</p>
+<p>In other ages—in Satya-yuga, Treta-yuga and Dvapara-yuga—the general populace was not so degraded, and the head of government was never elected.</p>
+<p>The king was the supreme executive personality, and if he caught any ministers stealing like thieves and rogues, he would at once have them killed or dismissed from service.</p>
+<p>As it was the duty of the king to kill thieves and rogues, it was similarly his duty to immediately kill dishonest ministers in government service.</p>
+<p>By such strict vigilance, the king could run the government very well, and the citizens would be happy to have such a king.</p>
+<p>The conclusion is that unless the king is perfectly able to give protection to the citizens from rogues and thieves, he has no right to levy taxes from the citizens for his own sense gratification.</p>
+<p>However, if he gives all protection to the citizens and levies taxes on them, he can live very happily and peacefully in this life, and at the end of this life be elevated to the heavenly kingdom or even to the Vaikunthas, where he will be happy in all respects.</p>
+<h3><a class="header" href="#41418" id="41418">4.14.18</a></h3>
+<p>yasya rastre pure caiva</p>
+<p>bhagavan yajna-purusah</p>
+<p>ijyate svena dharmena</p>
+<p>janair varnasramanvitaih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yasya—whose; rastre—in the state or kingdom; pure—in the cities; ca—also; eva—certainly; bhagavan—the Supreme Personality of Godhead; yajna-purusah—who is the enjoyer of all sacrifices; ijyate—is worshiped; svena—their own; dharmena—by occupation; janaih—by the people; varna-asrama—the system of eight social orders; anvitaih—who follow.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The king is supposed to be pious in whose state and cities the general populace strictly observes the system of eight social orders of varna and asrama, and where all citizens engage in worshiping the Supreme Personality of Godhead by their particular occupations.</p>
+<p><strong>PURPORT</strong></p>
+<p>The state’s duty and the citizen’s duty are very nicely explained in this verse.</p>
+<p>The activities of the government head, or king, as well as the activities of the citizens, should be so directed that ultimately everyone engages in devotional service to the Supreme Personality of Godhead.</p>
+<p>The king, or government head, is supposed to be the representative of the Supreme Personality of Godhead and is therefore supposed to see that things go on nicely and that the citizens are situated in the scientific social order comprised of four varnas and four asramas.</p>
+<p>In the Visnu Purana it is stated that unless people are educated or situated in the scientific social order comprised of four varnas (brahmana, ksatriya, vaisya and sudra) and four asramas (brahmacarya, grhastha, vanaprastha and sannyasa), society can never be considered real human society, nor can it make any advancement towards the ultimate goal of human life.</p>
+<p>It is the duty of the government to see that things go on in terms of varna and asrama.</p>
+<p>As stated herein, bhagavan yajna-purusah—the Supreme Personality of Godhead, Krsna, is the yajna-purusa.</p>
+<p>As stated in Bhagavad-gita (5.29): bhoktaram yajna-tapasam.</p>
+<p>Krsna is the ultimate purpose of all sacrifice.</p>
+<p>He is also the enjoyer of all sacrifices; therefore He is known as yajna-purusa.</p>
+<p>The word yajna-purusa indicates Lord Visnu or Lord Krsna, or any Personality of Godhead in the category of visnu-tattva.</p>
+<p>In perfect human society, people are situated in the orders of varna and asrama and are engaged in worshiping Lord Visnu by their respective activities.</p>
+<p>Every citizen engaged in an occupation renders service by the resultant actions of his activities.</p>
+<p>That is the perfection of life.</p>
+<p>As stated in Bhagavad-gita (18.46):</p>
+<p>yatah pravrttir bhutanam</p>
+<p>yena sarvam idam tatam</p>
+<p>sva-karmana tam abhyarcya</p>
+<p>siddhim vindati manavah</p>
+<p>By worship of the Lord, who is the source of all beings and who is all-pervading, man can, in the performance of his own duty, attain perfection Thus the brahmanas, ksatriyas, sudras and vaisyas must execute their prescribed duties as these duties are stated in the sastras.</p>
+<p>In this way everyone can satisfy the Supreme Personality of Godhead, Visnu.</p>
+<p>The king, or government head, has to see that the citizens are thus engaged.</p>
+<p>In other words, the state or the government must not deviate from its duty by declaring that the state is a secular one, which has no interest in whether or not the people advance in varnasrama-dharma.</p>
+<p>Today people engaged in government service and people who rule over the citizens have no respect for the varnasrama-dharma.</p>
+<p>They complacently feel that the state is secular.</p>
+<p>In such a government, no one can be happy.</p>
+<p>The people must follow the varnasrama-dharma, and the king must see that they are following it nicely.</p>
+<h3><a class="header" href="#41419" id="41419">4.14.19</a></h3>
+<p>tasya rajno maha-bhaga</p>
+<p>bhagavan bhuta-bhavanah</p>
+<p>paritusyati visvatma</p>
+<p>tisthato nija-sasane</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasya—with him; rajnah—the king; maha-bhaga—O noble one; bhagavan—the Supreme Personality of Godhead; bhuta-bhavanah—who is the original cause of the cosmic manifestation; paritusyati—becomes satisfied; visva-atma—the Supersoul of the entire universe; tisthatah—being situated; nija-sasane—in his own governing situation.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O noble one, if the king sees that the Supreme Personality of Godhead, the original cause of the cosmic manifestation and the Supersoul within everyone, is worshiped, the Lord will be satisfied.</p>
+<p><strong>PURPORT</strong></p>
+<p>It is a fact that the government’s duty is to see that the Supreme Personality of Godhead is satisfied by the activities of the people as well as by the activities of the government.</p>
+<p>There is no possibility of happiness if the government or citizenry have no idea of Bhagavan, the Supreme Personality of Godhead, who is the original cause of the cosmic manifestation, or if they have no knowledge of bhuta-bhavana, who is visvatma, or the Supersoul, the soul of everyone’s soul.</p>
+<p>The conclusion is that without engaging in devotional service, neither the citizens nor the government can be happy in any way.</p>
+<p>At the present moment neither the king nor the governing body is interested in seeing that the people are engaged in the devotional service of the Supreme Personality of Godhead.</p>
+<p>Rather, they are more interested in advancing the machinery of sense gratification.</p>
+<p>Consequently they are becoming more and more implicated in the complex machinery of the stringent laws of nature.</p>
+<p>People should be freed from the entanglement of the three modes of material nature, and the only process by which this is possible is surrender unto the Supreme Personality of Godhead.</p>
+<p>This is advised in Bhagavad-gita.</p>
+<p>Unfortunately neither the government nor the people in general have any idea of this; they are simply interested in sense gratification and in being happy in this life.</p>
+<p>The word nija-sasane (in his own governmental dut) indicates that both the government and the citizens are responsible for the execution of varnasrama-dharma.</p>
+<p>Once the populace is situated in the varnasrama-dharma, there is every possibility of real life and prosperity both in this world and in the next.</p>
+<h3><a class="header" href="#41420" id="41420">4.14.20</a></h3>
+<p>tasmims tuste kim aprapyam</p>
+<p>jagatam isvaresvare</p>
+<p>lokah sapala hy etasmai</p>
+<p>haranti balim adrtah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasmin—when He; tuste—is satisfied; kim—what; aprapyam—impossible to achieve; jagatam—of the universe; isvara-isvare—the controller of the controllers; lokah—the inhabitants of the planets; sapalah—with their presiding deities; hi—for this reason; etasmai—unto Him; haranti—offer; balim—paraphernalia for worship; adrtah—with great pleasure.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Supreme Personality of Godhead is worshiped by the great demigods, controllers of universal affairs.</p>
+<p>When He is satisfied, nothing is impossible to achieve.</p>
+<p>For this reason all the demigods, presiding deities of different planets, as well as the inhabitants of their planets, take great pleasure in offering all kinds of paraphernalia for His worship.</p>
+<p><strong>PURPORT</strong></p>
+<p>All Vedic civilization is summarized in this verse: all living entities, either on this planet or on other planets, have to satisfy the Supreme Personality of Godhead by their respective duties.</p>
+<p>When He is satisfied, all necessities of life are automatically supplied.</p>
+<p>In the Vedas it is also stated:</p>
+<p>eko bahunam yo vidadhati kaman</p>
+<p>(Katha Upanisad2.2.13)</p>
+<p>From the Vedas we understand that He is supplying everyone’s necessities, and we can actually see that the lower animals, the birds and the bees, have no business or profession, yet they are not dying for want of food.</p>
+<p>They are all living in nature’s way, and they all have the necessities of life provided—namely eating, sleeping, mating and defending.</p>
+<p>Human society, however, has artificially created a type of civilization which makes one forgetful of his relationship with the Supreme Personality of Godhead.</p>
+<p>Modern society even enables one to forget the Supreme Personality of Godhead’s grace and mercy.</p>
+<p>Consequently modern civilized man is always unhappy and in need of things.</p>
+<p>People do not know that the ultimate goal of life is to approach Lord Visnu and satisfy Him.</p>
+<p>They have taken this materialistic way of life as everything and have become captivated by materialistic activities.</p>
+<p>Indeed, their leaders are always encouraging them to follow this path, and the general populace, being ignorant of the laws of God, are following their blind leaders down the path of unhappiness.</p>
+<p>In order to rectify this world situation, all people should be trained in Krsna consciousness and act in accordance with the varnasrama system.</p>
+<p>The state should also see that the people are engaged in satisfying the Supreme Personality of Godhead.</p>
+<p>This is the primary duty of the state.</p>
+<p>The Krsna consciousness movement was started to convince the general populace to adopt the best process by which to satisfy the Supreme Personality of Godhead and thus solve all problems.</p>
+<h3><a class="header" href="#41421" id="41421">4.14.21</a></h3>
+<p>tam sarva-lokamara-yajna-sangraham</p>
+<p>trayimayam dravyamayam tapomayam</p>
+<p>yajnair vicitrair yajato bhavaya te</p>
+<p>rajan sva-desan anuroddhum arhasi</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tam—Him; sarva-loka—in all planets; amara—with the predominating deities; yajna—sacrifices; sangraham—who accepts; trayi-mayam—the sum total of the three Vedas; dravya-mayam—the owner of all paraphernalia; tapah-mayam—the goal of all austerity; yajnaih—by sacrifices; vicitraih—various; yajatah—worshiping; bhavaya—for elevation; te—your; rajan—O King; sva-desan—your countrymen; anuroddhum—to direct; arhasi—you ought.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Dear King, the Supreme Personality of Godhead, along with the predominating deities, is the enjoyer of the results of all sacrifices in all planets.</p>
+<p>The Supreme Lord is the sum total of the three Vedas, the owner of everything, and the ultimate goal of all austerity.</p>
+<p>Therefore your countrymen should engage in performing various sacrifices for your elevation.</p>
+<p>Indeed, you should always direct them towards the offering of sacrifices.</p>
+<h3><a class="header" href="#41422" id="41422">4.14.22</a></h3>
+<p>yajnena yusmad-visaye dvijatibhir</p>
+<p>vitayamanena surah kala hareh</p>
+<p>svistah sutustah pradisanti vanchitam</p>
+<p>tad-dhelanam narhasi vira cestitum</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yajnena—by sacrifice; yusmat—your; visaye—in the kingdom; dvijatibhih—by the brahmanas; vitayamanena—being performed; surah—all the demigods; kalah—expansions; hareh—of the Personality of Godhead; su-istah—being properly worshiped; su-tustah—very much satisfied; pradisanti—will give; vanchitam—desired result; tat-helanam—disrespect to them; na—not; arhasi—you ought; vira—O hero; cestitum—to do.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When all the brahmanas engage in performing sacrifices in your kingdom, all the demigods, who are plenary expansions of the Lord, will be very much satisfied by their activities and will give you your desired result.</p>
+<p>Therefore, O hero, do not stop the sacrificial performances.</p>
+<p>If you stop them, you will disrespect the demigods.</p>
+<h3><a class="header" href="#41423" id="41423">4.14.23</a></h3>
+<p>vena uvaca</p>
+<p>balisa bata yuyam va</p>
+<p>adharme dharma-maninah</p>
+<p>ye vrttidam patim hitva</p>
+<p>jaram patim upasate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>venah—King Vena; uvaca—replied; balisah—childish; bata—oh; yuyam—all of you; va—indeed; adharme—in irreligious principles; dharma-maninah—accepting as religious; ye—all of you who; vrttidam—providing maintenance; patim—husband; hitva—giving up; jaram—paramour; patim—husband; upasate—worship.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>King Vena replied: You are not at all experienced.</p>
+<p>It is very much regrettable that you are maintaining something which is not religious and are accepting it as religious.</p>
+<p>Indeed, I think you are giving up your real husband, who maintains you, and are searching after some paramour to worship.</p>
+<p><strong>PURPORT</strong></p>
+<p>King Vena was so foolish that he accused the saintly sages of being inexperienced like small children.</p>
+<p>In other words, he was accusing them of not having perfect knowledge.</p>
+<p>In this way he could reject their advice and make accusations against them, comparing them to a woman who does not care for her husband who maintains her but goes to satisfy a paramour who does not maintain her.</p>
+<p>The purpose of this simile is apparent.</p>
+<p>It is the duty of the ksatriyas to engage the brahmanas in different types of religious activities, and the king is supposed to be the maintainer of the brahmanas.</p>
+<p>If the brahmanas do not worship the king but instead go to the demigods, they are as polluted as unchaste women.</p>
+<h3><a class="header" href="#41424" id="41424">4.14.24</a></h3>
+<p>avajananty ami mudha</p>
+<p>nrpa-rupinam isvaram</p>
+<p>nanuvindanti te bhadram</p>
+<p>iha loke paratra ca</p>
+<p><strong>SYNONYMS</strong></p>
+<p>avajananti—disrespect; ami—those (who); mudhah—being ignorant; nrpa-rupinam—in the form of the king; isvaram—the Personality of Godhead; na—not; anuvindanti—experience; te—they; bhadram—happiness; iha—in this; loke—world; paratra—after death; ca—also.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Those who, out of gross ignorance, do not worship the king, who is actually the Supreme Personality of Godhead, experience happiness neither in this world nor in the world after death.</p>
+<h3><a class="header" href="#41425" id="41425">4.14.25</a></h3>
+<p>ko yajna-puruso nama</p>
+<p>yatra vo bhaktir idrsi</p>
+<p>bhartr-sneha-viduranam</p>
+<p>yatha jare kuyositam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kah—who (is); yajna-purusah—the enjoyer of all sacrifices; nama—by name; yatra—unto whom; vah—your; bhaktih—devotional service; idrsi—so great; bhartr—for the husband; sneha—affection; viduranam—bereft of; yatha—like; jare—unto the paramour; ku-yositam—of unchaste women.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>You are so much devoted to the demigods, but who are they? Indeed, your affection for these demigods is exactly like the affection of an unchaste woman who neglects her married life and gives all attention to her paramour.</p>
+<h3><a class="header" href="#41426-27" id="41426-27">4.14.26-27</a></h3>
+<p>visnur virinco girisa</p>
+<p>indro vayur yamo ravih</p>
+<p>parjanyo dhanadah somah</p>
+<p>ksitir agnir apampatih</p>
+<p>ete canye ca vibudhah</p>
+<p>prabhavo vara-sapayoh</p>
+<p>dehe bhavanti nrpateh</p>
+<p>sarva-devamayo nrpah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>visnuh—Lord Visnu; virincah—Lord Brahma; girisah—Lord Siva; indrah—Lord Indra; vayuh—Vayu, the director of the air; yamah—Yama, the superintendent of death; ravih—the sun-god; parjanyah—the director of rainfall; dhana-dah—Kuvera, the treasurer; somah—the moon-god; ksitih—the predominating deity of the earth; agnih—the fire-god; apam-patih—Varuna, the lord of waters; ete—all these; ca—and; anye—others; ca—also; vibudhah—demigods; prabhavah—competent; vara-sapayoh—in both benediction and curse; dehe—in the body; bhavanti—abide; nrpateh—of the king; sarva-devamayah—comprising all demigods; nrpah—the king.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Lord Visnu; Lord Brahma; Lord Siva; Lord Indra; Vayu, the master of air; Yama, the superintendent of death; the sun-god; the director of rainfall; Kuvera, the treasurer; the moon-god; the predominating deity of the earth; Agni, the fire-god; Varuna, the lord of waters, and all others who are great and competent to bestow benedictions or to curse, all abide in the body of the king.</p>
+<p>For this reason the king is known as the reservoir of all demigods, who are simply parts and parcels of the king’s body.</p>
+<p><strong>PURPORT</strong></p>
+<p>There are many demons who think of themselves as the Supreme and present themselves as the directors of the sun, moon and other planets.</p>
+<p>This is all due to false pride.</p>
+<p>Similarly, King Vena developed the demonic mentality and presented himself as the Supreme Personality of Godhead.</p>
+<p>Such demons are numerous in this age of Kali, and all of them are condemned by great sages and saintly persons.</p>
+<h3><a class="header" href="#41428" id="41428">4.14.28</a></h3>
+<p>tasman mam karmabhir vipra</p>
+<p>yajadhvam gata-matsarah</p>
+<p>balim ca mahyam harata</p>
+<p>matto ’nyah ko ’gra-bhuk puman</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasmat—for this reason; mam—me; karmabhih—by ritualistic activities; viprah—O brahmanas; yajadhvam—worship; gata—without; matsarah—being envious; balim—paraphernalia for worship; ca—also; mahyam—unto me; harata—bring; mattah—than me; anyah—other; kah—who (is); agra-bhuk—the enjoyer of the first oblations; puman—personality.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>King Vena continued: For this reason, O brahmanas, you should abandon your envy of me, and, by your ritualistic activities, you should worship me and offer me all paraphernalia.</p>
+<p>If you are intelligent, you should know that there is no personality superior to me, who can accept the first oblations of all sacrifices.</p>
+<p><strong>PURPORT</strong></p>
+<p>As stated by Krsna Himself throughout Bhagavad-gita, there is no truth superior to Him.</p>
+<p>King Vena was imitating the Supreme Personality of Godhead and was also speaking out of false pride, presenting himself as the Supreme Lord.</p>
+<p>These are all characteristics of a demonic person.</p>
+<h3><a class="header" href="#41429" id="41429">4.14.29</a></h3>
+<p>maitreya uvaca</p>
+<p>ittham viparyaya-matih</p>
+<p>papiyan utpatham gatah</p>
+<p>anuniyamanas tad-yacnam</p>
+<p>na cakre bhrasta-mangalah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>maitreyah uvaca—Maitreya said; ittham—thus; viparyaya-matih—one who has developed perverse intelligence; papiyan—most sinful; utpatham—from the right path; gatah—having gone; anuniyamanah—being offered all respect; tat-yacnam—the request of the sages; na—not; cakre—accepted; bhrasta—bereft of; mangalah—all good fortune.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The great sage Maitreya continued: Thus the King, who became unintelligent due to his sinful life and deviation from the right path, became actually bereft of all good fortune.</p>
+<p>He could not accept the requests of the great sages, which the sages put before him with great respect, and therefore he was condemned.</p>
+<p><strong>PURPORT</strong></p>
+<p>The demons certainly cannot have any faith in the words of authorities.</p>
+<p>In fact, they are always disrespectful to authorities.</p>
+<p>They manufacture their own religious principles and disobey great personalities like Vyasa, Narada, and even the Supreme Personality of Godhead, Krsna.</p>
+<p>As soon as one disobeys authority, he immediately becomes very sinful and loses his good fortune.</p>
+<p>The King was so puffed up and impudent that he dared disrespect the great saintly personalities, and this brought him ruination.</p>
+<h3><a class="header" href="#41430" id="41430">4.14.30</a></h3>
+<p>iti te ’sat-krtas tena</p>
+<p>dvijah pandita-manina</p>
+<p>bhagnayam bhavya-yacnayam</p>
+<p>tasmai vidura cukrudhuh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>iti—thus; te—all the great sages; asat-krtah—being insulted; tena—by the King; dvijah—the brahmanas; pandita-manina—thinking himself to be very learned; bhagnayam—being broken; bhavya—auspicious; yacnayam—their request; tasmai—at him; vidura—O Vidura; cukrudhuh—became very angry.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear Vidura, all good fortune unto you.</p>
+<p>The foolish King, who thought himself very learned, thus insulted the great sages, and the sages, being brokenhearted by the King’s words, became very angry at him.</p>
+<h3><a class="header" href="#41431" id="41431">4.14.31</a></h3>
+<p>hanyatam hanyatam esa</p>
+<p>papah prakrti-darunah</p>
+<p>jivan jagad asav asu</p>
+<p>kurute bhasmasad dhruvam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>hanyatam—kill him; hanyatam—kill him; esah—this king; papah—representative of sin; prakrti—by nature; darunah—most dreadful; jivan—while living; jagat—the whole world; asau—he; asu—very soon; kurute—will make; bhasmasat—into ashes; dhruvam—certainly.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>All the great saintly sages immediately cried: Kill him! Kill him! He is the most dreadful, sinful person.</p>
+<p>If he lives, he will certainly turn the whole world into ashes in no time.</p>
+<p><strong>PURPORT</strong></p>
+<p>Saintly persons are generally very kind to all kinds of living entities, but they are not unhappy when a serpent or a scorpion is killed.</p>
+<p>It is not good for saintly persons to kill, but they are encouraged to kill demons, who are exactly like serpents and scorpions.</p>
+<p>Therefore all the saintly sages decided to kill King Vena, who was so dreadful and dangerous to all human society.</p>
+<p>We can appreciate the extent to which the saintly sages actually controlled the king.</p>
+<p>If the king or government becomes demonic, it is the duty of a saintly person to upset the government and replace it with deserving persons who follow the orders and instructions of saintly persons.</p>
+<h3><a class="header" href="#41432" id="41432">4.14.32</a></h3>
+<p>nayam arhaty asad-vrtto</p>
+<p>naradeva-varasanam</p>
+<p>yo ’dhiyajna-patim visnum</p>
+<p>vinindaty anapatrapah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—never; ayam—this man; arhati—deserves; asat-vrttah—full of impious activities; nara-deva—of the worldly king or worldly god; vara-asanam—the exalted throne; yah—he who; adhiyajna-patim—the master of all sacrifices; visnum—Lord Visnu; vinindati—insults; anapatrapah—shameless.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The saintly sages continued: This impious, impudent man does not deserve to sit on the throne at all.</p>
+<p>He is so shameless that he even dared insult the Supreme Personality of Godhead, Lord Visnu.</p>
+<p><strong>PURPORT</strong></p>
+<p>One should not at any time tolerate blasphemy and insults against Lord Visnu or His devotees.</p>
+<p>A devotee is generally very humble and meek, and he is reluctant to pick a quarrel with anyone.</p>
+<p>Nor does he envy anyone.</p>
+<p>However, a pure devotee immediately becomes fiery with anger when he sees that Lord Visnu or His devotee is insulted.</p>
+<p>This is the duty of a devotee.</p>
+<p>Although a devotee maintains an attitude of meekness and gentleness, it is a great fault on his part if he remains silent when the Lord or His devotee is blasphemed.</p>
+<h3><a class="header" href="#41433" id="41433">4.14.33</a></h3>
+<p>ko vainam paricaksita</p>
+<p>venam ekam rte ’subham</p>
+<p>prapta idrsam aisvaryam</p>
+<p>yad-anugraha-bhajanah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kah—who; va—indeed; enam—the Lord; paricaksita—would blaspheme; venam—King Vena; ekam—alone; rte—but for; asubham—inauspicious; praptah—having obtained; idrsam—like this; aisvaryam—opulence; yat—whose; anugraha—mercy; bhajanah—receiving.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>But for King Vena, who is simply inauspicious, who would blaspheme the Supreme Personality of Godhead, by whose mercy one is awarded all kinds of fortune and opulence?</p>
+<p><strong>PURPORT</strong></p>
+<p>When human society individually or collectively becomes godless and blasphemes the authority of the Supreme Personality of Godhead, it is certainly destined for ruination.</p>
+<p>Such a civilization invites all kinds of bad fortune due to not appreciating the mercy of the Lord.</p>
+<h3><a class="header" href="#41434" id="41434">4.14.34</a></h3>
+<p>ittham vyavasita hantum</p>
+<p>rsayo rudha-manyavah</p>
+<p>nijaghnur hunkrtair venam</p>
+<p>hatam acyuta-nindaya</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ittham—thus; vyavasitah—decided; hantum—to kill; rsayah—the sages; rudha—manifested; manyavah—their anger; nijaghnuh—they killed; hum-krtaih—by angry words or by sounds of hum; venam—King Vena; hatam—dead; acyuta—against the Supreme Personality of Godhead; nindaya—by blasphemy.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The great sages, thus manifesting their covert anger, immediately decided to kill the King.</p>
+<p>King Vena was already as good as dead due to his blasphemy against the Supreme Personality of Godhead.</p>
+<p>Thus without using any weapons, the sages killed King Vena simply by high-sounding words.</p>
+<h3><a class="header" href="#41435" id="41435">4.14.35</a></h3>
+<p>rsibhih svasrama-padam</p>
+<p>gate putra-kalevaram</p>
+<p>sunitha palayam asa</p>
+<p>vidya-yogena socati</p>
+<p><strong>SYNONYMS</strong></p>
+<p>rsibhih—by the sages; sva-asrama-padam—to their own respective hermitages; gate—having returned; putra—of her son; kalevaram—the body; sunitha—Sunitha, the mother of King Vena; palayam asa—preserved; vidya-yogena—by mantra and ingredients; socati—while lamenting.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>After all the sages returned to their respective hermitages, the mother of King Vena, Sunitha, became very much aggrieved because of her son’s death.</p>
+<p>She decided to preserve the dead body of her son by the application of certain ingredients and by chanting mantras (mantra-yogena).</p>
+<h3><a class="header" href="#41436" id="41436">4.14.36</a></h3>
+<p>ekada munayas te tu</p>
+<p>sarasvat-salilaplutah</p>
+<p>hutvagnin sat-kathas cakrur</p>
+<p>upavistah sarit-tate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ekada—once upon a time; munayah—all those great saintly persons; te—they; tu—then; sarasvat—of the River Sarasvati; salila—in the water; aplutah—bathed; hutva—offering oblations; agnin—into the fires; sat-kathah—discussions about transcendental subject matters; cakruh—began to do; upavistah—sitting; sarit-tate—by the side of the river.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Once upon a time, the same saintly persons, after taking their bath in the River Sarasvati, began to perform their daily duties by offering oblations into the sacrificial fires.</p>
+<p>After this, sitting on the bank of the river, they began to talk about the transcendental person and His pastimes.</p>
+<h3><a class="header" href="#41437" id="41437">4.14.37</a></h3>
+<p>viksyotthitams tadotpatan</p>
+<p>ahur loka-bhayankaran</p>
+<p>apy abhadram anathaya</p>
+<p>dasyubhyo na bhaved bhuvah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>viksya—having seen; utthitan—developed; tada—then; utpatan—disturbances; ahuh—they began to say; loka—in society; bhayam-karan—causing panic; api—whether; abhadram—misfortune; anathayah—having no ruler; dasyubhyah—from thieves and rogues; na—not; bhavet—may happen; bhuvah—of the world.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In those days there were various disturbances in the country that were creating a panic in society.</p>
+<p>Therefore all the sages began to talk amongst themselves: Since the King is dead and there is no protector in the world, misfortune may befall the people in general on account of rogues and thieves.</p>
+<p><strong>PURPORT</strong></p>
+<p>Whenever there is a disturbance in the state, or a panic situation, the property and lives of the citizens become unsafe.</p>
+<p>This is caused by the uprising of various thieves and rogues.</p>
+<p>At such a time it is to be understood that the ruler, or the government, is dead.</p>
+<p>All of these misfortunes happened due to the death of King Vena.</p>
+<p>Thus the saintly persons became very anxious for the safety of the people in general.</p>
+<p>The conclusion is that even though saintly persons have no business in political affairs, they are always compassionate upon the people in general.</p>
+<p>Thus even though they are always aloof from society, out of mercy and compassion they consider how the citizens can peacefully execute their rituals and follow the rules and regulations of varnasrama-dharma.</p>
+<p>That was the concern of these sages.</p>
+<p>In this age of Kali, everything is disturbed.</p>
+<p>Therefore saintly persons should take to the chanting of the Hare Krsna mantra, as recommended in the sastras:</p>
+<p>harer nama harer nama</p>
+<p>harer namaiva kevalam</p>
+<p>kalau nasty eva nasty eva</p>
+<p>nasty eva gatir anyatha</p>
+<p>(Adi 17.21)</p>
+<p>Both for spiritual and material prosperity, everyone should devotedly chant the Hare Krsna mantra.</p>
+<h3><a class="header" href="#41438" id="41438">4.14.38</a></h3>
+<p>evam mrsanta rsayo</p>
+<p>dhavatam sarvato-disam</p>
+<p>pamsuh samutthito bhuris</p>
+<p>coranam abhilumpatam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>evam—thus; mrsantah—while considering; rsayah—the great saintly persons; dhavatam—running; sarvatah-disam—from all directions; pamsuh—dust; samutthitah—arose; bhurih—much; coranam—from thieves and rogues; abhilumpatam—engaged in plundering.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When the great sages were carrying on their discussion in this way, they saw a dust storm arising from all directions.</p>
+<p>This storm was caused by the running of thieves and rogues, who were engaged in plundering the citizens.</p>
+<p><strong>PURPORT</strong></p>
+<p>Thieves and rogues simply await some political upset in order to take the opportunity to plunder the people in general.</p>
+<p>To keep thieves and rogues inactive in their profession, a strong government is always required.</p>
+<h3><a class="header" href="#41439-40" id="41439-40">4.14.39-40</a></h3>
+<p>tad upadravam ajnaya</p>
+<p>lokasya vasu lumpatam</p>
+<p>bhartary uparate tasminn</p>
+<p>anyonyam ca jighamsatam</p>
+<p>cora-prayam jana-padam</p>
+<p>hina-sattvam arajakam</p>
+<p>lokan navarayan chakta</p>
+<p>api tad-dosa-darsinah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tat—at that time; upadravam—the disturbance; ajnaya—understanding; lokasya—of the people in general; vasu—riches; lumpatam—by those who were plundering; bhartari—the protector; uparate—being dead; tasmin—King Vena; anyonyam—one another; ca—also; jigham-satam—desiring to kill; cora-prayam—full of thieves; jana-padam—the state; hina—bereft of; sattvam—regulation; arajakam—without a king; lokan—the thieves and rogues; na—not; avarayan—they subdued; saktah—able to do so; api—although; tat-dosa—the fault of that; darsinah—considering.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Upon seeing the dust storm, the saintly persons could understand that there were a great deal of irregularities due to the death of King Vena.</p>
+<p>Without government, the state was devoid of law and order, and consequently there was a great uprising of murderous thieves and rogues, who were plundering the riches of the people in general.</p>
+<p>Although the great sages could subdue the disturbance by their powers—just as they could kill the King—they considered it improper on their part to do so.</p>
+<p>Thus they did not attempt to stop the disturbance.</p>
+<p><strong>PURPORT</strong></p>
+<p>The saintly persons and great sages killed King Vena out of emergency, but they did not choose to take part in the government in order to subdue the uprising of thieves and rogues, which took place after the death of King Vena.</p>
+<p>It is not the duty of brahmanas and saintly persons to kill, although they may sometimes do so in the case of an emergency.</p>
+<p>They could kill all the thieves and rogues by the prowess of their mantras, but they thought it the duty of ksatriya kings to do so.</p>
+<p>Thus they reluctantly did not take part in the killing business.</p>
+<h3><a class="header" href="#41441" id="41441">4.14.41</a></h3>
+<p>brahmanah sama-drk santo</p>
+<p>dinanam samupeksakah</p>
+<p>sravate brahma tasyapi</p>
+<p>bhinna-bhandat payo yatha</p>
+<p><strong>SYNONYMS</strong></p>
+<p>brahmanah—a brahmana; sama-drk—equipoised; santah—peaceful; dinanam—the poor; samupeksakah—grossly neglecting; sravate—diminishes; brahma—spiritual power; tasya—his; api—certainly; bhinna-bhandat—from a cracked pot; payah—water; yatha—just as.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The great sages began to think that although a brahmana is peaceful and impartial because he is equal to everyone, it is still not his duty to neglect poor humans.</p>
+<p>By such neglect, a brahmana’s spiritual power diminishes, just as water kept in a cracked pot leaks out.</p>
+<p><strong>PURPORT</strong></p>
+<p>Brahmanas, the topmost section of human society, are mostly devotees.</p>
+<p>They are generally unaware of the happenings within the material world because they are always busy in their activities for spiritual advancement.</p>
+<p>Nonetheless, when there is a calamity in human society, they cannot remain impartial.</p>
+<p>If they do not do something to relieve the distressed condition of human society, it is said that due to such neglect their spiritual knowledge diminishes.</p>
+<p>Almost all the sages go to the Himalayas for their personal benefit, but Prahlada Maharaja said that he did not want liberation alone.</p>
+<p>He decided to wait until he was able to deliver all the fallen souls of the world.</p>
+<p>In their elevated condition, the brahmanas are called Vaisnavas.</p>
+<p>There are two types of brahmanas—namely, brahmana-pandita and brahmana-vaisnava.</p>
+<p>A qualified brahmana is naturally very learned, but when his learning is advanced in understanding the Supreme Personality of Godhead, he becomes a brahmana-vaisnava.</p>
+<p>Unless one becomes a Vaisnava, one’s perfection of brahminical culture is incomplete.</p>
+<p>The saintly persons considered very wisely that although King Vena was very sinful, he was born in a family descending from Dhruva Maharaja.</p>
+<p>Therefore the semen in the family must be protected by the Supreme Personality of Godhead, Kesava.</p>
+<p>As such, the sages wanted to take some steps to relieve the situation.</p>
+<p>For want of a king, everything was being disturbed and turned topsy-turvy.</p>
+<h3><a class="header" href="#41442" id="41442">4.14.42</a></h3>
+<p>nangasya vamso rajarser</p>
+<p>esa samsthatum arhati</p>
+<p>amogha-virya hi nrpa</p>
+<p>vamse ’smin kesavasrayah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—not; angasya—of King Anga; vamsah—family line; raja-rseh—of the saintly King; esah—this; samsthatum—to be stopped; arhati—ought; amogha—without sin, powerful; viryah—their semen; hi—because; nrpah—kings; vamse—in the family; asmin—this; kesava—of the Supreme Personality of Godhead; asrayah—under the shelter.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The sages decided that the descendants of the family of the saintly King Anga should not be stopped, for in this family the semen was very powerful and the children were prone to become devotees of the Lord.</p>
+<p><strong>PURPORT</strong></p>
+<p>The purity of hereditary succession is called amogha-virya.</p>
+<p>The pious seminal succession in the twice-born families of the brahmanas and ksatriyas especially, as well as in the families of vaisyas also, must be kept very pure by the observation of the purificatory processes beginning with garbhadhana-samskara, which is observed before conceiving a child.</p>
+<p>Unless this purificatory process is strictly observed, especially by the brahmanas, the family descendants become impure, and gradually sinful activities become visible in the family.</p>
+<p>Maharaja Anga was very pure because of the purification of semen in the family of Maharaja Dhruva.</p>
+<p>However, his semen became contaminated in association with his wife, Sunitha, who happened to be the daughter of death personified.</p>
+<p>Because of this polluted semen, King Vena was produced.</p>
+<p>This was a catastrophe in the family of Dhruva Maharaja.</p>
+<p>All the saintly persons and sages considered this point, and they decided to take action in this matter, as described in the following verses.</p>
+<h3><a class="header" href="#41443" id="41443">4.14.43</a></h3>
+<p>viniscityaivam rsayo</p>
+<p>vipannasya mahipateh</p>
+<p>mamanthur urum tarasa</p>
+<p>tatrasid bahuko narah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>viniscitya—deciding; evam—thus; rsayah—the great sages; vipannasya—dead; mahi-pateh—of the King; mamanthuh—churned; urum—the thighs; tarasa—with specific power; tatra—thereupon; asit—was born; bahukah—of the name Bahuka (dwarf); narah—a person.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>After making a decision, the saintly persons and sages churned the thighs of the dead body of King Vena with great force and according to a specific method.</p>
+<p>As a result of this churning, a dwarf-like person was born from King Vena’s body.</p>
+<p><strong>PURPORT</strong></p>
+<p>That a person was born by the churning of the thighs of King Vena proves that the spirit soul is individual and separate from the body.</p>
+<p>The great sages and saintly persons could beget another person from the body of the dead King Vena, but it was not possible for them to bring King Vena back to life.</p>
+<p>King Vena was gone, and certainly he had taken another body.</p>
+<p>The saintly persons and sages were only concerned with the body of Vena because it was a result of the seminal succession in the family of Maharaja Dhruva.</p>
+<p>Consequently, the ingredients by which another body could be produced were there in the body of King Vena.</p>
+<p>By a certain process, when the thighs of the dead body were churned, another body came out.</p>
+<p>Although dead, the body of King Vena was preserved by drugs, and mantras chanted by King Vena’s mother.</p>
+<p>In this way the ingredients for the production of another body were there.</p>
+<p>When the body of the person named Bahuka came out of the dead body of King Vena, it was really not very astonishing.</p>
+<p>It was simply a question of knowing how to do it.</p>
+<p>From the semen of one body, another body is produced, and the life symptoms are visible due to the soul’s taking shelter of this body.</p>
+<p>One should not think that it was impossible for another body to come out of the dead body of Maharaja Vena.</p>
+<p>This was performed by the skillful action of the sages.</p>
+<h3><a class="header" href="#41444" id="41444">4.14.44</a></h3>
+<p>kaka-krsno ’tihrasvango</p>
+<p>hrasva-bahur maha-hanuh</p>
+<p>hrasva-pan nimna-nasagro</p>
+<p>raktaksas tamra-murdhajah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kaka-krsnah—as black as a crow; ati-hrasva—very short; angah—his limbs; hrasva—short; bahuh—his arms; maha—big; hanuh—his jaws; hrasva—short; pat—his legs; nimna—flat; nasa-agrah—the tip of his nose; rakta—reddish; aksah—his eyes; tamra—copperlike; murdha-jah—his hair.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>This person born from King Vena’s thighs was named Bahuka, and his complexion was as black as a crow’s.</p>
+<p>All the limbs of his body were very short, his arms and legs were short, and his jaws were large.</p>
+<p>His nose was flat, his eyes were reddish, and his hair copper-colored.</p>
+<h3><a class="header" href="#41445" id="41445">4.14.45</a></h3>
+<p>tam tu te ’vanatam dinam</p>
+<p>kim karomiti vadinam</p>
+<p>nisidety abruvams tata</p>
+<p>sa nisadas tato ’bhavat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tam—unto him; tu—then; te—the sages; avanatam—bowed down; dinam—meek; kim—what; karomi—shall I do; iti—thus; vadinam—inquiring; nisida—just sit down; iti—thus; abruvan—they replied; tata—my dear Vidura; sah—he; nisadah—of the name Nisada; tatah—thereafter; abhavat—became.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>He was very submissive and meek, and immediately after his birth he bowed down and inquired, Sirs, what shall I do The great sages replied, Please sit down (nisida) Thus Nisada, the father of the Naisada race, was born.</p>
+<p><strong>PURPORT</strong></p>
+<p>It is said in the sastras that the head of the body represents the brahmanas, the arms represent the ksatriyas, the abdomen represents the vaisyas, and the legs, beginning with the thighs, represent the sudras.</p>
+<p>The sudras are sometimes called black, or krsna.</p>
+<p>The brahmanas are called sukla, or white, and the ksatriyas and the vaisyas are a mixture of black and white.</p>
+<p>However, those who are extraordinarily white are said to have skin produced out of white leprosy.</p>
+<p>It may be concluded that white or a golden hue is the color of the higher caste, and black is the complexion of the sudras.</p>
+<h3><a class="header" href="#41446" id="41446">4.14.46</a></h3>
+<p>tasya vamsyas tu naisada</p>
+<p>giri-kanana-gocarah</p>
+<p>yenaharaj jayamano</p>
+<p>vena-kalmasam ulbanam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasya—his (Nisada’s); vamsyah—descendants; tu—then; naisadah—called Naisadas; giri-kanana—the hills and forests; gocarah—inhabiting; yena—because; aharat—he took upon himself; jayamanah—being born; vena—of King Vena; kalmasam—all kinds of sin; ulbanam—very fearful.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>After his (Nisada’s) birth, he immediately took charge of all the resultant actions of King Vena’s sinful activities.</p>
+<p>As such, this Naisada class are always engaged in sinful activities like stealing, plundering and hunting.</p>
+<p>Consequently they are only allowed to live in the hills and forests.</p>
+<p><strong>PURPORT</strong></p>
+<p>The Naisadas are not allowed to live in cities and towns because they are sinful by nature.</p>
+<p>As such, their bodies are very ugly, and their occupations are also sinful.</p>
+<p>We should, however, know that even these sinful men (who are sometimes called Kiratas) can be delivered from their sinful condition to the topmost Vaisnava platform by the mercy of a pure devotee.</p>
+<p>Engagement in the transcendental loving devotional service of the Lord can make anyone, however sinful he may be, fit to return home, back to Godhead.</p>
+<p>One has only to become free from all contamination by the process of devotional service.</p>
+<p>In this way everyone can become fit to return home, back to Godhead.</p>
+<p>This is confirmed by the Lord Himself in Bhagavad-gita (9.32):</p>
+<p>mam hi partha vyapasritya</p>
+<p>ye ’pi syuh papa-yonayah</p>
+<p>striyo vaisyas tatha sudras</p>
+<p>te ’pi yanti param gatim</p>
+<p>O son of Prtha, those who take shelter of Me, though they be of lower birth—women, vaisyas (merchants), as well as sudras (workers)—can approach the supreme destination</p>
+<h1><a class="header" href="#table-of-contents-1" id="table-of-contents-1">Table of Contents</a></h1>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+        
+        <script type="text/javascript">
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+        
+        
+
+    </body>
+</html>

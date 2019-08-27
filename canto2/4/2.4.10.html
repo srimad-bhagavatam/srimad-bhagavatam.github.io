@@ -1,0 +1,247 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>2.4.10 - The Process of Creation</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+        <link rel="stylesheet" href="custom.css">
+        
+
+        
+    </head>
+    <body class="rust">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme + ' js';
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html">The Process of Creation</a></li><li class="affix"><a href="2.4.2.html">2.4.2</a></li><li class="affix"><a href="2.4.3-4.html">2.4.3-4</a></li><li class="affix"><a href="2.4.5.html">2.4.5</a></li><li class="affix"><a href="2.4.6.html">2.4.6</a></li><li class="affix"><a href="2.4.7.html">2.4.7</a></li><li class="affix"><a href="2.4.8.html">2.4.8</a></li><li class="affix"><a href="2.4.9.html">2.4.9</a></li><li class="affix"><a href="2.4.10.html" class="active">2.4.10</a></li><li class="affix"><a href="2.4.11.html">2.4.11</a></li><li class="affix"><a href="2.4.12.html">2.4.12</a></li><li class="affix"><a href="2.4.13.html">2.4.13</a></li><li class="affix"><a href="2.4.14.html">2.4.14</a></li><li class="affix"><a href="2.4.15.html">2.4.15</a></li><li class="affix"><a href="2.4.16.html">2.4.16</a></li><li class="affix"><a href="2.4.17.html">2.4.17</a></li><li class="affix"><a href="2.4.18.html">2.4.18</a></li><li class="affix"><a href="2.4.19.html">2.4.19</a></li><li class="affix"><a href="2.4.20.html">2.4.20</a></li><li class="affix"><a href="2.4.21.html">2.4.21</a></li><li class="affix"><a href="2.4.22.html">2.4.22</a></li><li class="affix"><a href="2.4.23.html">2.4.23</a></li><li class="affix"><a href="2.4.24.html">2.4.24</a></li><li class="affix"><a href="2.4.25.html">2.4.25</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
+                        </div>
+
+                        <h1 class="menu-title">The Process of Creation</h1>
+
+                        <div class="right-buttons">
+                            <a href="print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h3><a class="header" href="#2410" id="2410">2.4.10</a></h3>
+<p>vicikitsitam etan me</p>
+<p>bravitu bhagavan yatha</p>
+<p>sabde brahmani nisnatah</p>
+<p>parasmims ca bhavan khalu</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vicikitsitam—doubtful inquiry; etat—this; me—of me; bravitu—just clear up; bhagavan—powerful like the Lord; yatha—as much as; sabde—sound transcendental; brahmani—Vedic literature; nisnatah—fully realized; parasmin—in transcendence; ca—also; bhavan—your good self; khalu—as a matter of fact.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Kindly clear up all these doubtful inquiries, because you are not only vastly learned in the Vedic literatures and self-realized in transcendence, but are also a great devotee of the Lord and are therefore as good as the Personality of Godhead.</p>
+<p><strong>PURPORT</strong></p>
+<p>In the Brahma-samhita it is said that the Supreme Absolute Truth, Govinda, the Personality of Godhead, although one without a second, is infallibly expanded by innumerable forms nondifferent from one another, and although He is the original person, He is still ever young with permanent youthful energy.</p>
+<p>He is very difficult to know simply by learning the transcendental science of the Vedas, but He is very easily realized by His pure devotees.</p>
+<p>The expansions of different forms of the Lord, as from Krsna to Baladeva to Sankarsana, from Sankarsana to Vasudeva, from Vasudeva to Aniruddha, from Aniruddha to Pradyumna and then again to second Sankarsana and from Him to the Narayana purusavataras, and innumerable other forms, which are compared to the constant flowing of the uncountable waves of a river, are all one and the same.</p>
+<p>They are like lamps of equal power which kindle from one lamp to another.</p>
+<p>That is the transcendental potency of the Lord.</p>
+<p>The Vedas say that He is so complete that even though the whole complete identity emanates from Him, He still remains the same complete whole (purnasya purnam adaya purnam evavasisyate).</p>
+<p>As such, there is no validity in a material conception of the Lord produced by the mental speculator.</p>
+<p>Thus He remains always a mystery for the mundane scholar, even if he is vastly learned in the Vedic literatures (vedesu durlabham adurlabham atma-bhaktau (Bs.5.33)).</p>
+<p>Therefore, the Lord is beyond the limit of conception for mundane learned scholars, philosophers or scientists.</p>
+<p>He is easily understandable for the pure devotee because the Lord declares in the Bhagavad-gita (18.54) that after surpassing the stage of knowledge, when one is able to be engaged in the devotional service of the Lord, then only can one know the true nature of the Lord.</p>
+<p>One cannot have any clear conception of the Lord or His holy name, form, attributes, pastimes, etc., unless one is engaged in His transcendental loving service.</p>
+<p>The statement of the Bhagavad-gita that one must first of all surrender unto the Lord, being freed from all other engagements, means that one must become a pure, unconditional devotee of the Lord.</p>
+<p>Only then can one know Him by the strength of devotional service.</p>
+<p>Maharaja Pariksit admitted in the previous verse that the Lord is inconceivable even for the greatest learned scholars.</p>
+<p>Why then should he again request Sukadeva Gosvami to clarify his insufficient knowledge about the Lord? The reason is clear.</p>
+<p>Not only was Sukadeva Gosvami vastly learned in the Vedic literatures, but he was also a great self-realized soul and a powerful devotee of the Lord.</p>
+<p>A powerful devotee of the Lord is, by the grace of the Lord, more than the Lord Himself.</p>
+<p>The Personality of Godhead Sri Ramacandra attempted to bridge the Indian Ocean to reach the island of Lanka, but Sri Hanumanji, the unalloyed devotee of the Personality of Godhead, could cross the ocean simply by jumping over it.</p>
+<p>The Lord is so merciful upon His pure devotee that He presents His beloved devotee as more powerful than Himself.</p>
+<p>The Lord expressed Himself to be unable to save Durvasa Muni, although the Muni was so powerful that he could reach the Lord directly under material conditions.</p>
+<p>But Durvasa Muni was saved by Maharaja Ambarisa, a devotee of the Lord.</p>
+<p>Therefore, not only is a devotee of the Lord more powerful than the Lord, but also worship of the devotee is considered more effective than direct worship of the Lord (mad-bhakta-pujabhyadhika (SB 11.19.21)).</p>
+<p>The conclusion is, therefore, that a serious devotee must first approach a spiritual master who not only is well versed in the Vedic literatures but is also a great devotee with factual realization of the Lord and His different energies.</p>
+<p>Without the help of such a devotee spiritual master, one cannot make progress in the transcendental science of the Lord.</p>
+<p>And a bona fide spiritual master like Sukadeva Gosvami does not speak about the Lord only in the matter of His internal potencies, but also explains how He associates with His external potencies.</p>
+<p>The Lord’s pastimes in the internal potency are displayed in His activities in Vrndavana, but His external potential works are directed in His features of Karanarnavasayi Visnu, Garbhodakasayi Visnu and Ksirodakasayi Visnu.</p>
+<p>Srila Visvanatha Cakravarti offers his good counsel to the interested Vaisnavas when he says that they should not be interested in hearing only about the Lord’s activities (like rasa-lila), but must be keenly interested in His pastimes in His features of the purusavataras in connection with srsti-tattva, creational functions, following the examples of Maharaja Pariksit, the ideal disciple, and Sukadeva Gosvami, the ideal spiritual master.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="2.4.9.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="2.4.11.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a href="2.4.9.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a href="2.4.11.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

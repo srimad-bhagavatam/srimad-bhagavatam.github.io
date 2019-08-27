@@ -1,0 +1,247 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>5.16.20-21 - A Description of Jambudvipa</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+        <link rel="stylesheet" href="custom.css">
+        
+
+        
+    </head>
+    <body class="rust">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme + ' js';
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html">A Description of Jambudvipa</a></li><li class="affix"><a href="5.16.2.html">5.16.2</a></li><li class="affix"><a href="5.16.3.html">5.16.3</a></li><li class="affix"><a href="5.16.4.html">5.16.4</a></li><li class="affix"><a href="5.16.5.html">5.16.5</a></li><li class="affix"><a href="5.16.6.html">5.16.6</a></li><li class="affix"><a href="5.16.7.html">5.16.7</a></li><li class="affix"><a href="5.16.8.html">5.16.8</a></li><li class="affix"><a href="5.16.9.html">5.16.9</a></li><li class="affix"><a href="5.16.10.html">5.16.10</a></li><li class="affix"><a href="5.16.11.html">5.16.11</a></li><li class="affix"><a href="5.16.12.html">5.16.12</a></li><li class="affix"><a href="5.16.13-14.html">5.16.13-14</a></li><li class="affix"><a href="5.16.15.html">5.16.15</a></li><li class="affix"><a href="5.16.16.html">5.16.16</a></li><li class="affix"><a href="5.16.17.html">5.16.17</a></li><li class="affix"><a href="5.16.18.html">5.16.18</a></li><li class="affix"><a href="5.16.19.html">5.16.19</a></li><li class="affix"><a href="5.16.20-21.html" class="active">5.16.20-21</a></li><li class="affix"><a href="5.16.22.html">5.16.22</a></li><li class="affix"><a href="5.16.23.html">5.16.23</a></li><li class="affix"><a href="5.16.24.html">5.16.24</a></li><li class="affix"><a href="5.16.25.html">5.16.25</a></li><li class="affix"><a href="5.16.26.html">5.16.26</a></li><li class="affix"><a href="5.16.27.html">5.16.27</a></li><li class="affix"><a href="5.16.28.html">5.16.28</a></li><li class="affix"><a href="5.16.29.html">5.16.29</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
+                        </div>
+
+                        <h1 class="menu-title">A Description of Jambudvipa</h1>
+
+                        <div class="right-buttons">
+                            <a href="print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h3><a class="header" href="#51620-21" id="51620-21">5.16.20-21</a></h3>
+<p>tavad ubhayor api rodhasor ya mrttika tad-rasenanuvidhyamana vayv-arka-samyoga-vipakena sadamara-lokabharanam jambu-nadam nama suvarnam bhavati; yad u ha vava vibudhadayah saha yuvatibhir mukuta-kataka-kati-sutrady-abharana-rupena khalu dharayanti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tavat—entirely; ubhayoh api—of both; rodhasoh—of the banks; ya—which; mrttika—the mud; tat-rasena—with the juice of the jambu fruits that flows in the river; anuvidhyamana—being saturated; vayu-arka-samyoga-vipakena—because of a chemical reaction with the air and sunshine; sada—always; amara-loka-abharanam—which is used for the ornaments of the demigods, the denizens of the heavenly planets; jambu-nadam nama—named Jambu-nada; suvarnam—gold; bhavati—becomes; yat—which; u ha vava—indeed; vibudha-adayah—the great demigods; saha—with; yuvatibhih—their everlastingly youthful wives; mukuta—crowns; kataka—bangles; kati-sutra—belts; adi—and so on; abharana—of all kinds of ornaments; rupena—in the form; khalu—indeed; dharayanti—they possess.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The mud on both banks of the River Jambu-nadi, being moistened by the flowing juice and then dried by the air and the sunshine, produces huge quantities of gold called Jambu-nada.</p>
+<p>The denizens of heaven use this gold for various kinds of ornaments.</p>
+<p>Therefore all the inhabitants of the heavenly planets and their youthful wives are fully decorated with golden helmets, bangles and belts, and thus they enjoy life.</p>
+<p><strong>PURPORT</strong></p>
+<p>By the arrangement of the Supreme Personality of Godhead, the rivers on some planets produce gold on their banks.</p>
+<p>The poor inhabitants of this earth, because of their incomplete knowledge, are captivated by a so-called bhagavan who can produce a small quantity of gold.</p>
+<p>However, it is understood that in a higher planetary system in this material world, the mud on the banks of the Jambu-nadi mixes with jambu juice, reacts with the sunshine in the air, and automatically produces huge quantities of gold.</p>
+<p>Thus the men and women are decorated there by various golden ornaments, and they look very nice.</p>
+<p>Unfortunately, on earth there is such a scarcity of gold that the governments of the world try to keep it in reserve and issue paper currency.</p>
+<p>Because that currency is not backed up by gold, the paper they distribute as money is worthless, but nevertheless the people on earth are very proud of material advancement.</p>
+<p>In modern times, girls and ladies have ornaments made of plastic instead of gold, and plastic utensils are used instead of golden ones, yet people are very proud of their material wealth.</p>
+<p>Therefore the people of this age are described as mandah sumanda-matayo manda-bhagya hy upadrutah (Bhag.1.1.10).</p>
+<p>In other words, they are extremely bad and slow to understand the opulence of the Supreme Personality of Godhead.</p>
+<p>They have been described as sumanda-matayah because their conceptions are so crippled that they accept a bluffer who produces a little gold to be God.</p>
+<p>Because they have no gold in their possession, they are actually poverty-stricken, and therefore they are considered unfortunate.</p>
+<p>Sometimes these unfortunate people want to be promoted to the heavenly planets to achieve fortunate positions, as described in this verse, but pure devotees of the Lord are not at all interested in such opulence.</p>
+<p>Indeed, devotees sometimes compare the color of gold to that of bright golden stool.</p>
+<p>Sri Caitanya Mahaprabhu has instructed devotees not to be allured by golden ornaments and beautifully decorated women.</p>
+<p>Na dhanam na janam na sundarim: a devotee should not be allured by gold beautiful women or the prestige of having many followers.</p>
+<p>Sri Caitanya Mahaprabhu, therefore, confidentially prayed, mama janmani janmanisvare bhavatad bhaktir ahaituki tvayi: My Lord, please bless Me with Your devotional service.</p>
+<p>I do not want anything else A devotee may pray to be delivered from this material world.</p>
+<p>That is his only aspiration ayi nanda-tanuja kinkaram</p>
+<p>patitam mam visame bhavambudhau</p>
+<p>krpaya tava pada-pankaja-</p>
+<p>sthita-dhuli-sadrsam vicintaya</p>
+<p>The humble devotee simply prays to the Lord, Kindly pick me up from the material world, which is full of varieties of material opulence, and keep me under the shelter of Your lotus feet Srila Narottama dasa Thakura prays:</p>
+<p>karuna karaha ei-bara</p>
+<p>toma vine ke ache amara</p>
+<p>O my Lord, O son of Nanda Maharaja, now You are standing before me with Your consort, the daughter of Vrsabhanu, Srimati Radharani.</p>
+<p>Kindly accept me as the dust of Your lotus feet please do not kick me away, for I have no other shelter Similarly, Prabodhananda Sarasvati indicates that the position of the demigods, who are decorated with golden helmets and other ornaments, is no better than a phantasmagoria (tri-dasa-pur akasa-puspayate).</p>
+<p>A devotee is never allured by such opulences.</p>
+<p>He simply aspires to become the dust of the lotus feet of the Lord.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="5.16.19.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="5.16.22.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a href="5.16.19.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a href="5.16.22.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

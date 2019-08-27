@@ -1,0 +1,247 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>1.1.4 - Questions by the Sages</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+        <link rel="stylesheet" href="custom.css">
+        
+
+        
+    </head>
+    <body class="rust">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme + ' js';
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html">Questions by the Sages</a></li><li class="affix"><a href="1.1.2.html">1.1.2</a></li><li class="affix"><a href="1.1.3.html">1.1.3</a></li><li class="affix"><a href="1.1.4.html" class="active">1.1.4</a></li><li class="affix"><a href="1.1.5.html">1.1.5</a></li><li class="affix"><a href="1.1.6.html">1.1.6</a></li><li class="affix"><a href="1.1.7.html">1.1.7</a></li><li class="affix"><a href="1.1.8.html">1.1.8</a></li><li class="affix"><a href="1.1.9.html">1.1.9</a></li><li class="affix"><a href="1.1.10.html">1.1.10</a></li><li class="affix"><a href="1.1.11.html">1.1.11</a></li><li class="affix"><a href="1.1.12.html">1.1.12</a></li><li class="affix"><a href="1.1.13.html">1.1.13</a></li><li class="affix"><a href="1.1.14.html">1.1.14</a></li><li class="affix"><a href="1.1.15.html">1.1.15</a></li><li class="affix"><a href="1.1.16.html">1.1.16</a></li><li class="affix"><a href="1.1.17.html">1.1.17</a></li><li class="affix"><a href="1.1.18.html">1.1.18</a></li><li class="affix"><a href="1.1.19.html">1.1.19</a></li><li class="affix"><a href="1.1.20.html">1.1.20</a></li><li class="affix"><a href="1.1.21.html">1.1.21</a></li><li class="affix"><a href="1.1.22.html">1.1.22</a></li><li class="affix"><a href="1.1.23.html">1.1.23</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
+                        </div>
+
+                        <h1 class="menu-title">Questions by the Sages</h1>
+
+                        <div class="right-buttons">
+                            <a href="print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h3><a class="header" href="#114" id="114">1.1.4</a></h3>
+<p>naimise ’nimisa-ksetre</p>
+<p>rsayah saunakadayah</p>
+<p>satram svargaya lokaya</p>
+<p>sahasra-samam asata</p>
+<p><strong>SYNONYMS</strong></p>
+<p>naimise—in the forest known as Naimisaranya; animisa-ksetre—the spot which is especially a favorite of Visnu (who does not close His eyelids); rsayah—sages; saunaka-adayah—headed by the sage Saunaka; satram—sacrifice; svargaya—the Lord who is glorified in heaven; lokaya—and for the devotees who are always in touch with the Lord; sahasra—one thousand; samam—years; asata—performed.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Once, in a holy place in the forest of Naimisaranya, great sages headed by the sage Saunaka assembled to perform a great thousand-year sacrifice for the satisfaction of the Lord and His devotees.</p>
+<p><strong>PURPORT</strong></p>
+<p>The prelude of the Srimad-Bhagavatam was spoken in the previous three slokas.</p>
+<p>Now the main topic of this great literature is being presented.</p>
+<p>Srimad-Bhagavatam, after its first recitation by Srila Sukadeva Gosvami, was repeated for the second time at Naimisaranya.</p>
+<p>In the Vayaviya Tantra, it is said that Brahma, the engineer of this particular universe, contemplated a great wheel which could enclose the universe.</p>
+<p>The hub of this great circle was fixed at a particular place known as Naimisaranya.</p>
+<p>Similarly, there is another reference to the forest of Naimisaranya in the Varaha Purana, where it is stated that by performance of sacrifice at this place, the strength of demoniac people is curtailed.</p>
+<p>Thus brahmanas prefer Naimisaranya for such sacrificial performances.</p>
+<p>The devotees of Lord Visnu offer all kinds of sacrifices for His pleasure.</p>
+<p>The devotees are always attached to the service of the Lord, whereas fallen souls are attached to the pleasures of material existence.</p>
+<p>In Bhagavad-gita, it is said that anything performed in the material world for any reason other than for the pleasure of Lord Visnu causes further bondage for the performer.</p>
+<p>It is enjoined therefore that all acts must be performed sacrificially for the satisfaction of Visnu and His devotees.</p>
+<p>This will bring everyone peace and prosperity.</p>
+<p>The great sages are always anxious to do good to the people in general, and as such the sages headed by Saunaka and others assembled at this holy place of Naimisaranya with a program of performing a great and continuous chain of sacrificial ceremonies.</p>
+<p>Forgetful men do not know the right path for peace and prosperity.</p>
+<p>However, the sages know it well, and therefore for the good of all men they are always anxious to perform acts which may bring about peace in the world.</p>
+<p>They are sincere friends to all living entities, and at the risk of great personal inconvenience they are always engaged in the service of the Lord for the good of all people.</p>
+<p>Lord Visnu is just like a great tree, and all others, including the demigods, men, Siddhas, Caranas, Vidyadharas and other living entities, are like branches, twigs and leaves of that tree.</p>
+<p>By pouring water on the root of the tree, all the parts of the tree are automatically nourished.</p>
+<p>Only those branches and leaves which are detached cannot be so satisfied.</p>
+<p>Detached branches and leaves dry up gradually despite all watering attempts.</p>
+<p>Similarly, human society, when it is detached from the Personality of Godhead like detached branches and leaves, is not capable of being watered, and one attempting to do so is simply wasting his energy and resources.</p>
+<p>The modern materialistic society is detached from its relation to the Supreme Lord.</p>
+<p>And all its plans which are being made by atheistic leaders are sure to be baffled at every step.</p>
+<p>Yet they do not wake up to this.</p>
+<p>In this age, the congregational chanting of the holy names of the Lord is the prescribed method for waking up.</p>
+<p>The ways and means are most scientifically presented by Lord Sri Caitanya Mahaprabhu, and intelligent persons may take advantage of His teachings in order to bring about real peace and prosperity.</p>
+<p>Srimad-Bhagavatam is also presented for the same purpose, and this will be explained more specifically later in the text.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="1.1.3.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="1.1.5.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a href="1.1.3.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a href="1.1.5.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

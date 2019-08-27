@@ -1,0 +1,250 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Gajendra Returns to the Spiritual World - Gajendra Returns to the Spiritual World</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+        <link rel="stylesheet" href="custom.css">
+        
+
+        
+    </head>
+    <body class="rust">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme + ' js';
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">Gajendra Returns to the Spiritual World</a></li><li class="affix"><a href="8.4.2.html">8.4.2</a></li><li class="affix"><a href="8.4.3-4.html">8.4.3-4</a></li><li class="affix"><a href="8.4.5.html">8.4.5</a></li><li class="affix"><a href="8.4.6.html">8.4.6</a></li><li class="affix"><a href="8.4.7.html">8.4.7</a></li><li class="affix"><a href="8.4.8.html">8.4.8</a></li><li class="affix"><a href="8.4.9.html">8.4.9</a></li><li class="affix"><a href="8.4.10.html">8.4.10</a></li><li class="affix"><a href="8.4.11-12.html">8.4.11-12</a></li><li class="affix"><a href="8.4.13.html">8.4.13</a></li><li class="affix"><a href="8.4.14.html">8.4.14</a></li><li class="affix"><a href="8.4.15.html">8.4.15</a></li><li class="affix"><a href="8.4.16.html">8.4.16</a></li><li class="affix"><a href="8.4.17-24.html">8.4.17-24</a></li><li class="affix"><a href="8.4.25.html">8.4.25</a></li><li class="affix"><a href="8.4.26.html">8.4.26</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
+                        </div>
+
+                        <h1 class="menu-title">Gajendra Returns to the Spiritual World</h1>
+
+                        <div class="right-buttons">
+                            <a href="print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1><a class="header" href="#gajendra-returns-to-the-spiritual-world" id="gajendra-returns-to-the-spiritual-world">Gajendra Returns to the Spiritual World</a></h1>
+<h2><a class="header" href="#summary" id="summary">Summary</a></h2>
+<h3><a class="header" href="#84" id="84">8.4</a></h3>
+<p>This Fourth Chapter describes the previous birth of Gajendra and the crocodile.</p>
+<p>It tells how the crocodile became a Gandharva and how Gajendra became an associate of the Supreme Personality of Godhead.</p>
+<p>There was a king on the Gandharva planet whose name was Huhu.</p>
+<p>Once this King Huhu was enjoying with women in the water, and while enjoying he pulled the leg of Devala Rsi, who was also taking a bath in the water.</p>
+<p>Upon this, the sage became very angry and immediately cursed him to become a crocodile.</p>
+<p>King Huhu was very sorry when cursed in that way, and he begged pardon from the sage, who in compassion gave him the benediction that he would be freed when Gajendra was delivered by the Personality of Godhead.</p>
+<p>Thus the crocodile was delivered when killed by Narayana.</p>
+<p>When Gajendra, by the mercy of the Lord, became one of the Lord’s associates in Vaikuntha, he got four hands.</p>
+<p>This achievement is called sarupya-mukti, or the liberation of receiving a spiritual body exactly like that of Narayana.</p>
+<p>Gajendra, in his previous birth, had been a great devotee of Lord Visnu.</p>
+<p>His name was Indradyumna, and he was the King of the Tamila country.</p>
+<p>Following the Vedic principles, this King retired from family life and constructed a small cottage in the Malayacala Hills, where he always worshiped the Supreme Personality of Godhead in silence.</p>
+<p>Agastya Rsi, along with many disciples, once approached King Indradyumna’s asrama, but because the King was meditating on the Supreme Personality of Godhead, he could not receive Agastya Rsi properly.</p>
+<p>Thus the rsi became very angry and cursed the King to become a dull elephant.</p>
+<p>In accordance with this curse, the King was born as an elephant, and he forgot all about his previous activities in devotional service.</p>
+<p>Nonetheless, in his birth as an elephant, when he was dangerously attacked by the crocodile, he remembered his past life in devotional service and remembered a prayer he had learned in that life.</p>
+<p>Because of this prayer, he again received the mercy of the Lord.</p>
+<p>Thus he was immediately delivered, and he became one of the Lord’s four-handed associates.</p>
+<p>Sukadeva Gosvami ends this chapter by describing the good fortune of the elephant.</p>
+<p>Sukadeva Gosvami says that by hearing the narration of Gajendra’s deliverance, one can also get the opportunity to be delivered.</p>
+<p>Sukadeva Gosvami vividly describes this, and thus the chapter ends.</p>
+<h3><a class="header" href="#841" id="841">8.4.1</a></h3>
+<p>sri-suka uvaca</p>
+<p>tada devarsi-gandharva</p>
+<p>brahmesana-purogamah</p>
+<p>mumucuh kusumasaram</p>
+<p>samsantah karma tad dhareh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-sukah uvaca—Sri Sukadeva Gosvami said; tada—at that time (when Gajendra was delivered); deva-rsi-gandharvah—the demigods, sages and Gandharvas; brahma-isana-purogamah—headed by Lord Brahma and Lord Siva; mumucuh—showered; kusuma-asaram—a covering of flowers; samsantah—while praising; karma—transcendental activity; tat—that (gajendra-moksana); hareh—of the Supreme Personality of Godhead.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sri Sukadeva Gosvami said: When the Lord delivered Gajendra, King of the elephants, all the demigods, sages and Gandharvas, headed by Brahma and Siva, praised this activity of the Supreme Personality of Godhead and showered flowers upon both the Lord and Gajendra.</p>
+<p><strong>PURPORT</strong></p>
+<p>It is evident from this chapter that great sages like Devala Rsi, Narada Muni and Agastya Muni will sometimes curse someone.</p>
+<p>The curse of such a personality, however, is in fact a benediction.</p>
+<p>Both the crocodile, who had been a Gandharva in his previous life, and Gajendra, who had been a king named Indradyumna, were cursed, but both of them benefited.</p>
+<p>Indradyumna, in his birth as an elephant, attained salvation and became a personal associate of the Lord in Vaikuntha, and the crocodile regained his status as a Gandharva.</p>
+<p>We find evidence in many places that the curse of a great saint or devotee is not a curse but a benediction.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="8.4.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a href="8.4.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

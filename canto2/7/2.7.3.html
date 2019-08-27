@@ -1,0 +1,251 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>2.7.3 - Scheduled Incarnations with Specific Functions</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+        <link rel="stylesheet" href="custom.css">
+        
+
+        
+    </head>
+    <body class="rust">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme + ' js';
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html">Scheduled Incarnations with Specific Functions</a></li><li class="affix"><a href="2.7.2.html">2.7.2</a></li><li class="affix"><a href="2.7.3.html" class="active">2.7.3</a></li><li class="affix"><a href="2.7.4.html">2.7.4</a></li><li class="affix"><a href="2.7.5.html">2.7.5</a></li><li class="affix"><a href="2.7.6.html">2.7.6</a></li><li class="affix"><a href="2.7.7.html">2.7.7</a></li><li class="affix"><a href="2.7.8.html">2.7.8</a></li><li class="affix"><a href="2.7.9.html">2.7.9</a></li><li class="affix"><a href="2.7.10.html">2.7.10</a></li><li class="affix"><a href="2.7.11.html">2.7.11</a></li><li class="affix"><a href="2.7.12.html">2.7.12</a></li><li class="affix"><a href="2.7.13.html">2.7.13</a></li><li class="affix"><a href="2.7.14.html">2.7.14</a></li><li class="affix"><a href="2.7.15.html">2.7.15</a></li><li class="affix"><a href="2.7.16.html">2.7.16</a></li><li class="affix"><a href="2.7.17.html">2.7.17</a></li><li class="affix"><a href="2.7.18.html">2.7.18</a></li><li class="affix"><a href="2.7.19.html">2.7.19</a></li><li class="affix"><a href="2.7.20.html">2.7.20</a></li><li class="affix"><a href="2.7.21.html">2.7.21</a></li><li class="affix"><a href="2.7.22.html">2.7.22</a></li><li class="affix"><a href="2.7.23.html">2.7.23</a></li><li class="affix"><a href="2.7.24.html">2.7.24</a></li><li class="affix"><a href="2.7.25.html">2.7.25</a></li><li class="affix"><a href="2.7.26.html">2.7.26</a></li><li class="affix"><a href="2.7.27.html">2.7.27</a></li><li class="affix"><a href="2.7.28.html">2.7.28</a></li><li class="affix"><a href="2.7.29.html">2.7.29</a></li><li class="affix"><a href="2.7.30.html">2.7.30</a></li><li class="affix"><a href="2.7.31.html">2.7.31</a></li><li class="affix"><a href="2.7.32.html">2.7.32</a></li><li class="affix"><a href="2.7.33.html">2.7.33</a></li><li class="affix"><a href="2.7.34-35.html">2.7.34-35</a></li><li class="affix"><a href="2.7.36.html">2.7.36</a></li><li class="affix"><a href="2.7.37.html">2.7.37</a></li><li class="affix"><a href="2.7.38.html">2.7.38</a></li><li class="affix"><a href="2.7.39.html">2.7.39</a></li><li class="affix"><a href="2.7.40.html">2.7.40</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
+                        </div>
+
+                        <h1 class="menu-title">Scheduled Incarnations with Specific Functions</h1>
+
+                        <div class="right-buttons">
+                            <a href="print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h3><a class="header" href="#273" id="273">2.7.3</a></h3>
+<p>jajne ca kardama-grhe dvija devahutyam</p>
+<p>stribhih samam navabhir atma-gatim sva-matre</p>
+<p>uce yayatma-samalam guna-sanga-pankam</p>
+<p>asmin vidhuya kapilasya gatim prapede</p>
+<p><strong>SYNONYMS</strong></p>
+<p>jajne—took birth; ca—also; kardama—the Prajapati named Kardama; grhe—in the house of; dvija—O brahmana; devahutyam—in the womb of Devahuti; stribhih—by women; samam—accompanied by; navabhih—by nine; atma-gatim—spiritual realization; sva-matre—unto His own mother; uce—uttered; yaya—by which; atma-samalam—coverings of the spirit soul; guna-sanga—associated with the modes of nature; pankam—mud; asmin—this very life; vidhuya—being washed off; kapilasya—of Lord Kapila; gatim—liberation; prapede—achieved.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Lord then appeared as the Kapila incarnation, being the son of the prajapati brahmana Kardama and his wife, Devahuti, along with nine other women (sisters).</p>
+<p>He spoke to His mother about self-realization, by which, in that very lifetime, she became fully cleansed of the mud of the material modes and thereby achieved liberation, the path of Kapila.</p>
+<p><strong>PURPORT</strong></p>
+<p>The instructions of Lord Kapila to His mother Devahuti are fully described in the Third Canto (Chapters 25–32) of the Srimad-Bhagavatam, and anyone who follows the instructions can achieve the same liberation obtained by Devahuti.</p>
+<p>The Lord spoke Bhagavad-gita, and thereby Arjuna achieved self-realization, and even today anyone who follows the path of Arjuna can also attain the same benefit as Sri Arjuna.</p>
+<p>The scriptures are meant for this purpose.</p>
+<p>Foolish, unintelligent persons make their own interpretations by imagination and thus mislead their followers, causing them to remain in the dungeon of material existence.</p>
+<p>However, simply by following the instructions imparted by Lord Krsna or Lord Kapila, one can obtain the highest benefit, even today.</p>
+<p>The word atma-gatim is significant in the sense of perfect knowledge of the Supreme.</p>
+<p>One should not be satisfied simply by knowing the qualitative equality of the Lord and the living being.</p>
+<p>One should know the Lord as much as can be known by our limited knowledge.</p>
+<p>It is impossible for the Lord to be known perfectly as He is, even by such liberated persons as Siva or Brahma, so what to speak of other demigods or men in this world.</p>
+<p>Still, by following the principles of the great devotees and the instructions available in the scriptures, one can know to a considerable extent the features of the Lord.</p>
+<p>His Lordship Kapila, the incarnation of the Lord, instructed His mother fully about the personal form of the Lord, and thereby she realized the personal form of the Lord and was able to achieve a place in the Vaikunthaloka where, Lord Kapila predominates.</p>
+<p>Every incarnation of the Lord has His own abode in the spiritual sky.</p>
+<p>Therefore Lord Kapila also has His separate Vaikuntha planet.</p>
+<p>The spiritual sky is not void.</p>
+<p>There are innumerable Vaikuntha planets, and in each of them the Lord, by His innumerable expansions, predominates, and the pure devotees who are there also live in the same style as the Lord and His eternal associates.</p>
+<p>When the Lord descends personally or by His personal plenary expansions, such incarnations are called amsa, kala, guna, yuga and manvantara incarnations, and when the Lord’s associates descend by the order of the Lord, such incarnations are called saktyavesa incarnations.</p>
+<p>But in all cases all the incarnations are supported by the invulnerable statements of the authorized scriptures, and not by any imagination of some self-interested propagandist.</p>
+<p>Such incarnations of the Lord, in either of the above categories, always declare the Supreme Personality of Godhead to be the ultimate truth.</p>
+<p>The impersonal conception of the supreme truth is just a process of negation of the form of the Lord from the mundane conception of the supreme truth.</p>
+<p>The living entities, by their very constitution, are spiritually as good as the Lord, and the only difference between them is that the Lord is always supreme and pure, without contamination by the modes of material nature, whereas the living entities are apt to be contaminated by association with the material modes of goodness, passion and ignorance.</p>
+<p>This contamination by the material modes can be washed off completely by knowledge, renunciation and devotional service.</p>
+<p>Devotional service to the Lord is the ultimate issue, and therefore those who are directly engaged in the devotional service of the Lord not only acquire the necessary knowledge in spiritual science, but also attain detachment from material connection and are thus promoted to the kingdom of God by complete liberation, as stated in the Bhagavad-gita (14.26):</p>
+<p>mam ca yo ’vyabhicarena</p>
+<p>bhakti-yogena sevate</p>
+<p>sa gunan samatityaitan</p>
+<p>brahma-bhuyaya kalpate</p>
+<p>Even in the nonliberated stage, a living entity can be directly engaged in the transcendental loving service of the Personality of Godhead Lord Krsna or His plenary expansions like Rama and Narasimha.</p>
+<p>Thus, with the proportionate improvement of such transcendental devotional service, the devotee makes definite progress toward brahma-gatim or atma-gatim, and ultimately attains kapilasya gatim, or the abode of the Lord, without difficulty.</p>
+<p>The antiseptic potency of devotional service to the Lord is so great that it can neutralize the material infection even in the present life of a devotee.</p>
+<p>A devotee does not need to wait for his next birth for complete liberation.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="2.7.2.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="2.7.4.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a href="2.7.2.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a href="2.7.4.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

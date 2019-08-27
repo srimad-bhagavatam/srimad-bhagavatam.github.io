@@ -1,0 +1,1871 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>The Behavior of a Perfect Person</title>
+        
+        <meta name="robots" content="noindex" />
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+        <link rel="stylesheet" href="custom.css">
+        
+
+        
+    </head>
+    <body class="rust">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme + ' js';
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html">The Behavior of a Perfect Person</a></li><li class="affix"><a href="7.13.2.html">7.13.2</a></li><li class="affix"><a href="7.13.3.html">7.13.3</a></li><li class="affix"><a href="7.13.4.html">7.13.4</a></li><li class="affix"><a href="7.13.5.html">7.13.5</a></li><li class="affix"><a href="7.13.6.html">7.13.6</a></li><li class="affix"><a href="7.13.7.html">7.13.7</a></li><li class="affix"><a href="7.13.8.html">7.13.8</a></li><li class="affix"><a href="7.13.9.html">7.13.9</a></li><li class="affix"><a href="7.13.10.html">7.13.10</a></li><li class="affix"><a href="7.13.11.html">7.13.11</a></li><li class="affix"><a href="7.13.12-13.html">7.13.12-13</a></li><li class="affix"><a href="7.13.14.html">7.13.14</a></li><li class="affix"><a href="7.13.15.html">7.13.15</a></li><li class="affix"><a href="7.13.16-17.html">7.13.16-17</a></li><li class="affix"><a href="7.13.18.html">7.13.18</a></li><li class="affix"><a href="7.13.19.html">7.13.19</a></li><li class="affix"><a href="7.13.20.html">7.13.20</a></li><li class="affix"><a href="7.13.21.html">7.13.21</a></li><li class="affix"><a href="7.13.22.html">7.13.22</a></li><li class="affix"><a href="7.13.23.html">7.13.23</a></li><li class="affix"><a href="7.13.24.html">7.13.24</a></li><li class="affix"><a href="7.13.25.html">7.13.25</a></li><li class="affix"><a href="7.13.26.html">7.13.26</a></li><li class="affix"><a href="7.13.27.html">7.13.27</a></li><li class="affix"><a href="7.13.28.html">7.13.28</a></li><li class="affix"><a href="7.13.29.html">7.13.29</a></li><li class="affix"><a href="7.13.30.html">7.13.30</a></li><li class="affix"><a href="7.13.31.html">7.13.31</a></li><li class="affix"><a href="7.13.32.html">7.13.32</a></li><li class="affix"><a href="7.13.33.html">7.13.33</a></li><li class="affix"><a href="7.13.34.html">7.13.34</a></li><li class="affix"><a href="7.13.35.html">7.13.35</a></li><li class="affix"><a href="7.13.36.html">7.13.36</a></li><li class="affix"><a href="7.13.37.html">7.13.37</a></li><li class="affix"><a href="7.13.38.html">7.13.38</a></li><li class="affix"><a href="7.13.39.html">7.13.39</a></li><li class="affix"><a href="7.13.40.html">7.13.40</a></li><li class="affix"><a href="7.13.41.html">7.13.41</a></li><li class="affix"><a href="7.13.42.html">7.13.42</a></li><li class="affix"><a href="7.13.43.html">7.13.43</a></li><li class="affix"><a href="7.13.44.html">7.13.44</a></li><li class="affix"><a href="7.13.45.html">7.13.45</a></li><li class="affix"><a href="7.13.46.html">7.13.46</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
+                        </div>
+
+                        <h1 class="menu-title">The Behavior of a Perfect Person</h1>
+
+                        <div class="right-buttons">
+                            <a href="print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Home - The Perfect Society: Four Spiritual Classes</title>
+<pre><code>    &lt;meta content=&quot;text/html; charset=utf-8&quot; http-equiv=&quot;Content-Type&quot;&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+    &lt;meta name=&quot;theme-color&quot; content=&quot;#ffffff&quot; /&gt;
+
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;favicon.png&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;css/variables.css&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;css/general.css&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;css/chrome.css&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;css/print.css&quot; media=&quot;print&quot;&gt;
+
+    &lt;!-- Fonts --&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;FontAwesome/css/font-awesome.css&quot;&gt;
+    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Source+Code+Pro:500&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+
+    &lt;!-- Highlight.js Stylesheets --&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;highlight.css&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;tomorrow-night.css&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;ayu-highlight.css&quot;&gt;
+
+    &lt;!-- Custom theme stylesheets --&gt;
+    
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;custom.css&quot;&gt;
+    
+
+    
+&lt;/head&gt;
+&lt;body class=&quot;rust&quot;&gt;
+    &lt;!-- Provide site root to javascript --&gt;
+    &lt;script type=&quot;text/javascript&quot;&gt;
+        var path_to_root = &quot;&quot;;
+        var default_theme = &quot;rust&quot;;
+    &lt;/script&gt;
+
+    &lt;!-- Work around some values being stored in localStorage wrapped in quotes --&gt;
+    &lt;script type=&quot;text/javascript&quot;&gt;
+        try {
+            var theme = localStorage.getItem('mdbook-theme');
+            var sidebar = localStorage.getItem('mdbook-sidebar');
+
+            if (theme.startsWith('&quot;') &amp;&amp; theme.endsWith('&quot;')) {
+                localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+            }
+
+            if (sidebar.startsWith('&quot;') &amp;&amp; sidebar.endsWith('&quot;')) {
+                localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+            }
+        } catch (e) { }
+    &lt;/script&gt;
+
+    &lt;!-- Set the theme before any content is loaded, prevents flash --&gt;
+    &lt;script type=&quot;text/javascript&quot;&gt;
+        var theme;
+        try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+        if (theme === null || theme === undefined) { theme = default_theme; }
+        document.body.className = theme;
+        document.querySelector('html').className = theme + ' js';
+    &lt;/script&gt;
+
+    &lt;!-- Hide / unhide sidebar before it is displayed --&gt;
+    &lt;script type=&quot;text/javascript&quot;&gt;
+        var html = document.querySelector('html');
+        var sidebar = 'hidden';
+        if (document.body.clientWidth &gt;= 1080) {
+            try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+            sidebar = sidebar || 'visible';
+        }
+        html.classList.remove('sidebar-visible');
+        html.classList.add(&quot;sidebar-&quot; + sidebar);
+    &lt;/script&gt;
+
+    &lt;nav id=&quot;sidebar&quot; class=&quot;sidebar&quot; aria-label=&quot;Table of contents&quot;&gt;
+        &lt;div class=&quot;sidebar-scrollbox&quot;&gt;
+            &lt;ol class=&quot;chapter&quot;&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;../../index.html&quot; class=&quot;active&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;../index.html&quot;&gt;Table of Contents&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;index.html&quot;&gt;The Perfect Society: Four Spiritual Classes&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;7.12.2.html&quot;&gt;7.12.2&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;7.12.3.html&quot;&gt;7.12.3&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;7.12.4.html&quot;&gt;7.12.4&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;7.12.5.html&quot;&gt;7.12.5&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;7.12.6.html&quot;&gt;7.12.6&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;7.12.7.html&quot;&gt;7.12.7&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;7.12.8.html&quot;&gt;7.12.8&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;7.12.9.html&quot;&gt;7.12.9&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;7.12.10.html&quot;&gt;7.12.10&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;7.12.11.html&quot;&gt;7.12.11&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;7.12.12.html&quot;&gt;7.12.12&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;7.12.13-14.html&quot;&gt;7.12.13-14&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;7.12.15.html&quot;&gt;7.12.15&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;7.12.16.html&quot;&gt;7.12.16&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;7.12.17.html&quot;&gt;7.12.17&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;7.12.18.html&quot;&gt;7.12.18&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;7.12.19.html&quot;&gt;7.12.19&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;7.12.20.html&quot;&gt;7.12.20&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;7.12.21.html&quot;&gt;7.12.21&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;7.12.22.html&quot;&gt;7.12.22&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;7.12.23.html&quot;&gt;7.12.23&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;7.12.24.html&quot;&gt;7.12.24&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;7.12.25.html&quot;&gt;7.12.25&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;7.12.26-28.html&quot;&gt;7.12.26-28&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;7.12.29-30.html&quot;&gt;7.12.29-30&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;7.12.31.html&quot;&gt;7.12.31&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;affix&quot;&gt;&lt;a href=&quot;../index.html&quot;&gt;Table of Contents&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;
+        &lt;/div&gt;
+        &lt;div id=&quot;sidebar-resize-handle&quot; class=&quot;sidebar-resize-handle&quot;&gt;&lt;/div&gt;
+    &lt;/nav&gt;
+
+    &lt;div id=&quot;page-wrapper&quot; class=&quot;page-wrapper&quot;&gt;
+
+        &lt;div class=&quot;page&quot;&gt;
+            
+            &lt;div id=&quot;menu-bar&quot; class=&quot;menu-bar&quot;&gt;
+                &lt;div id=&quot;menu-bar-sticky-container&quot;&gt;
+                    &lt;div class=&quot;left-buttons&quot;&gt;
+                        &lt;button id=&quot;sidebar-toggle&quot; class=&quot;icon-button&quot; type=&quot;button&quot; title=&quot;Toggle Table of Contents&quot; aria-label=&quot;Toggle Table of Contents&quot; aria-controls=&quot;sidebar&quot;&gt;
+                            &lt;i class=&quot;fa fa-bars&quot;&gt;&lt;/i&gt;
+                        &lt;/button&gt;
+                        &lt;button id=&quot;theme-toggle&quot; class=&quot;icon-button&quot; type=&quot;button&quot; title=&quot;Change theme&quot; aria-label=&quot;Change theme&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;theme-list&quot;&gt;
+                            &lt;i class=&quot;fa fa-paint-brush&quot;&gt;&lt;/i&gt;
+                        &lt;/button&gt;
+                        &lt;ul id=&quot;theme-list&quot; class=&quot;theme-popup&quot; aria-label=&quot;Themes&quot; role=&quot;menu&quot;&gt;
+                            &lt;li role=&quot;none&quot;&gt;&lt;button role=&quot;menuitem&quot; class=&quot;theme&quot; id=&quot;light&quot;&gt;Light&lt;/button&gt;&lt;/li&gt;
+                            &lt;li role=&quot;none&quot;&gt;&lt;button role=&quot;menuitem&quot; class=&quot;theme&quot; id=&quot;rust&quot;&gt;Rust (default)&lt;/button&gt;&lt;/li&gt;
+                            &lt;li role=&quot;none&quot;&gt;&lt;button role=&quot;menuitem&quot; class=&quot;theme&quot; id=&quot;coal&quot;&gt;Coal&lt;/button&gt;&lt;/li&gt;
+                            &lt;li role=&quot;none&quot;&gt;&lt;button role=&quot;menuitem&quot; class=&quot;theme&quot; id=&quot;navy&quot;&gt;Navy&lt;/button&gt;&lt;/li&gt;
+                            &lt;li role=&quot;none&quot;&gt;&lt;button role=&quot;menuitem&quot; class=&quot;theme&quot; id=&quot;ayu&quot;&gt;Ayu&lt;/button&gt;&lt;/li&gt;
+                        &lt;/ul&gt;
+                        
+                        &lt;button id=&quot;search-toggle&quot; class=&quot;icon-button&quot; type=&quot;button&quot; title=&quot;Search. (Shortkey: s)&quot; aria-label=&quot;Toggle Searchbar&quot; aria-expanded=&quot;false&quot; aria-keyshortcuts=&quot;S&quot; aria-controls=&quot;searchbar&quot;&gt;
+                            &lt;i class=&quot;fa fa-search&quot;&gt;&lt;/i&gt;
+                        &lt;/button&gt;
+                        
+                    &lt;/div&gt;
+
+                    &lt;h1 class=&quot;menu-title&quot;&gt;The Perfect Society: Four Spiritual Classes&lt;/h1&gt;
+
+                    &lt;div class=&quot;right-buttons&quot;&gt;
+                        &lt;a href=&quot;print.html&quot; title=&quot;Print this book&quot; aria-label=&quot;Print this book&quot;&gt;
+                            &lt;i id=&quot;print-button&quot; class=&quot;fa fa-print&quot;&gt;&lt;/i&gt;
+                        &lt;/a&gt;
+                        
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+            
+            &lt;div id=&quot;search-wrapper&quot; class=&quot;hidden&quot;&gt;
+                &lt;form id=&quot;searchbar-outer&quot; class=&quot;searchbar-outer&quot;&gt;
+                    &lt;input type=&quot;search&quot; name=&quot;search&quot; id=&quot;searchbar&quot; name=&quot;searchbar&quot; placeholder=&quot;Search this book ...&quot; aria-controls=&quot;searchresults-outer&quot; aria-describedby=&quot;searchresults-header&quot;&gt;
+                &lt;/form&gt;
+                &lt;div id=&quot;searchresults-outer&quot; class=&quot;searchresults-outer hidden&quot;&gt;
+                    &lt;div id=&quot;searchresults-header&quot; class=&quot;searchresults-header&quot;&gt;&lt;/div&gt;
+                    &lt;ul id=&quot;searchresults&quot;&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            
+
+            &lt;!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM --&gt;
+            &lt;script type=&quot;text/javascript&quot;&gt;
+                document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                    link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                });
+            &lt;/script&gt;
+
+            &lt;div id=&quot;content&quot; class=&quot;content&quot;&gt;
+                &lt;main&gt;
+                    &lt;!DOCTYPE HTML&gt;
+</code></pre>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Home - The Perfect Society: Four Social Classes</title>
+<pre><code>    &lt;meta content=&quot;text/html; charset=utf-8&quot; http-equiv=&quot;Content-Type&quot;&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+    &lt;meta name=&quot;theme-color&quot; content=&quot;#ffffff&quot; /&gt;
+<pre><code>&amp;lt;link rel=&amp;quot;shortcut icon&amp;quot; href=&amp;quot;favicon.png&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;css/variables.css&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;css/general.css&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;css/chrome.css&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;css/print.css&amp;quot; media=&amp;quot;print&amp;quot;&amp;gt;
+
+&amp;lt;!-- Fonts --&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;FontAwesome/css/font-awesome.css&amp;quot;&amp;gt;
+&amp;lt;link href=&amp;quot;https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;quot; rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot;&amp;gt;
+&amp;lt;link href=&amp;quot;https://fonts.googleapis.com/css?family=Source+Code+Pro:500&amp;quot; rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot;&amp;gt;
+
+&amp;lt;!-- Highlight.js Stylesheets --&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;highlight.css&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;tomorrow-night.css&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;ayu-highlight.css&amp;quot;&amp;gt;
+
+&amp;lt;!-- Custom theme stylesheets --&amp;gt;
+
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;custom.css&amp;quot;&amp;gt;
+</code></pre>
+<p>&lt;/head&gt;
+&lt;body class=&quot;rust&quot;&gt;
+&lt;!-- Provide site root to javascript --&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+var path_to_root = &quot;&quot;;
+var default_theme = &quot;rust&quot;;
+&lt;/script&gt;</p>
+<pre><code>&amp;lt;!-- Work around some values being stored in localStorage wrapped in quotes --&amp;gt;
+&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+    try {
+        var theme = localStorage.getItem('mdbook-theme');
+        var sidebar = localStorage.getItem('mdbook-sidebar');
+
+        if (theme.startsWith('&amp;quot;') &amp;amp;&amp;amp; theme.endsWith('&amp;quot;')) {
+            localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+        }
+
+        if (sidebar.startsWith('&amp;quot;') &amp;amp;&amp;amp; sidebar.endsWith('&amp;quot;')) {
+            localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+        }
+    } catch (e) { }
+&amp;lt;/script&amp;gt;
+
+&amp;lt;!-- Set the theme before any content is loaded, prevents flash --&amp;gt;
+&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+    var theme;
+    try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+    if (theme === null || theme === undefined) { theme = default_theme; }
+    document.body.className = theme;
+    document.querySelector('html').className = theme + ' js';
+&amp;lt;/script&amp;gt;
+
+&amp;lt;!-- Hide / unhide sidebar before it is displayed --&amp;gt;
+&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+    var html = document.querySelector('html');
+    var sidebar = 'hidden';
+    if (document.body.clientWidth &amp;gt;= 1080) {
+        try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+        sidebar = sidebar || 'visible';
+    }
+    html.classList.remove('sidebar-visible');
+    html.classList.add(&amp;quot;sidebar-&amp;quot; + sidebar);
+&amp;lt;/script&amp;gt;
+
+&amp;lt;nav id=&amp;quot;sidebar&amp;quot; class=&amp;quot;sidebar&amp;quot; aria-label=&amp;quot;Table of contents&amp;quot;&amp;gt;
+    &amp;lt;div class=&amp;quot;sidebar-scrollbox&amp;quot;&amp;gt;
+        &amp;lt;ol class=&amp;quot;chapter&amp;quot;&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;../../index.html&amp;quot; class=&amp;quot;active&amp;quot;&amp;gt;Home&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;../index.html&amp;quot;&amp;gt;Table of Contents&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;index.html&amp;quot;&amp;gt;The Perfect Society: Four Social Classes&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.11.2.html&amp;quot;&amp;gt;7.11.2&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.11.3.html&amp;quot;&amp;gt;7.11.3&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.11.4.html&amp;quot;&amp;gt;7.11.4&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.11.5.html&amp;quot;&amp;gt;7.11.5&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.11.6.html&amp;quot;&amp;gt;7.11.6&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.11.7.html&amp;quot;&amp;gt;7.11.7&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.11.8-12.html&amp;quot;&amp;gt;7.11.8-12&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.11.13.html&amp;quot;&amp;gt;7.11.13&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.11.14.html&amp;quot;&amp;gt;7.11.14&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.11.15.html&amp;quot;&amp;gt;7.11.15&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.11.16.html&amp;quot;&amp;gt;7.11.16&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.11.17.html&amp;quot;&amp;gt;7.11.17&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.11.18-20.html&amp;quot;&amp;gt;7.11.18-20&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.11.21.html&amp;quot;&amp;gt;7.11.21&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.11.22.html&amp;quot;&amp;gt;7.11.22&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.11.23.html&amp;quot;&amp;gt;7.11.23&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.11.24.html&amp;quot;&amp;gt;7.11.24&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.11.25.html&amp;quot;&amp;gt;7.11.25&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.11.26-27.html&amp;quot;&amp;gt;7.11.26-27&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.11.28.html&amp;quot;&amp;gt;7.11.28&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.11.29.html&amp;quot;&amp;gt;7.11.29&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.11.30.html&amp;quot;&amp;gt;7.11.30&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.11.31.html&amp;quot;&amp;gt;7.11.31&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.11.32.html&amp;quot;&amp;gt;7.11.32&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.11.33-34.html&amp;quot;&amp;gt;7.11.33-34&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.11.35.html&amp;quot;&amp;gt;7.11.35&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;../index.html&amp;quot;&amp;gt;Table of Contents&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;/ol&amp;gt;
+    &amp;lt;/div&amp;gt;
+    &amp;lt;div id=&amp;quot;sidebar-resize-handle&amp;quot; class=&amp;quot;sidebar-resize-handle&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;/nav&amp;gt;
+
+&amp;lt;div id=&amp;quot;page-wrapper&amp;quot; class=&amp;quot;page-wrapper&amp;quot;&amp;gt;
+
+    &amp;lt;div class=&amp;quot;page&amp;quot;&amp;gt;
+        
+        &amp;lt;div id=&amp;quot;menu-bar&amp;quot; class=&amp;quot;menu-bar&amp;quot;&amp;gt;
+            &amp;lt;div id=&amp;quot;menu-bar-sticky-container&amp;quot;&amp;gt;
+                &amp;lt;div class=&amp;quot;left-buttons&amp;quot;&amp;gt;
+                    &amp;lt;button id=&amp;quot;sidebar-toggle&amp;quot; class=&amp;quot;icon-button&amp;quot; type=&amp;quot;button&amp;quot; title=&amp;quot;Toggle Table of Contents&amp;quot; aria-label=&amp;quot;Toggle Table of Contents&amp;quot; aria-controls=&amp;quot;sidebar&amp;quot;&amp;gt;
+                        &amp;lt;i class=&amp;quot;fa fa-bars&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
+                    &amp;lt;/button&amp;gt;
+                    &amp;lt;button id=&amp;quot;theme-toggle&amp;quot; class=&amp;quot;icon-button&amp;quot; type=&amp;quot;button&amp;quot; title=&amp;quot;Change theme&amp;quot; aria-label=&amp;quot;Change theme&amp;quot; aria-haspopup=&amp;quot;true&amp;quot; aria-expanded=&amp;quot;false&amp;quot; aria-controls=&amp;quot;theme-list&amp;quot;&amp;gt;
+                        &amp;lt;i class=&amp;quot;fa fa-paint-brush&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
+                    &amp;lt;/button&amp;gt;
+                    &amp;lt;ul id=&amp;quot;theme-list&amp;quot; class=&amp;quot;theme-popup&amp;quot; aria-label=&amp;quot;Themes&amp;quot; role=&amp;quot;menu&amp;quot;&amp;gt;
+                        &amp;lt;li role=&amp;quot;none&amp;quot;&amp;gt;&amp;lt;button role=&amp;quot;menuitem&amp;quot; class=&amp;quot;theme&amp;quot; id=&amp;quot;light&amp;quot;&amp;gt;Light&amp;lt;/button&amp;gt;&amp;lt;/li&amp;gt;
+                        &amp;lt;li role=&amp;quot;none&amp;quot;&amp;gt;&amp;lt;button role=&amp;quot;menuitem&amp;quot; class=&amp;quot;theme&amp;quot; id=&amp;quot;rust&amp;quot;&amp;gt;Rust (default)&amp;lt;/button&amp;gt;&amp;lt;/li&amp;gt;
+                        &amp;lt;li role=&amp;quot;none&amp;quot;&amp;gt;&amp;lt;button role=&amp;quot;menuitem&amp;quot; class=&amp;quot;theme&amp;quot; id=&amp;quot;coal&amp;quot;&amp;gt;Coal&amp;lt;/button&amp;gt;&amp;lt;/li&amp;gt;
+                        &amp;lt;li role=&amp;quot;none&amp;quot;&amp;gt;&amp;lt;button role=&amp;quot;menuitem&amp;quot; class=&amp;quot;theme&amp;quot; id=&amp;quot;navy&amp;quot;&amp;gt;Navy&amp;lt;/button&amp;gt;&amp;lt;/li&amp;gt;
+                        &amp;lt;li role=&amp;quot;none&amp;quot;&amp;gt;&amp;lt;button role=&amp;quot;menuitem&amp;quot; class=&amp;quot;theme&amp;quot; id=&amp;quot;ayu&amp;quot;&amp;gt;Ayu&amp;lt;/button&amp;gt;&amp;lt;/li&amp;gt;
+                    &amp;lt;/ul&amp;gt;
+                    
+                    &amp;lt;button id=&amp;quot;search-toggle&amp;quot; class=&amp;quot;icon-button&amp;quot; type=&amp;quot;button&amp;quot; title=&amp;quot;Search. (Shortkey: s)&amp;quot; aria-label=&amp;quot;Toggle Searchbar&amp;quot; aria-expanded=&amp;quot;false&amp;quot; aria-keyshortcuts=&amp;quot;S&amp;quot; aria-controls=&amp;quot;searchbar&amp;quot;&amp;gt;
+                        &amp;lt;i class=&amp;quot;fa fa-search&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
+                    &amp;lt;/button&amp;gt;
+                    
+                &amp;lt;/div&amp;gt;
+
+                &amp;lt;h1 class=&amp;quot;menu-title&amp;quot;&amp;gt;The Perfect Society: Four Social Classes&amp;lt;/h1&amp;gt;
+
+                &amp;lt;div class=&amp;quot;right-buttons&amp;quot;&amp;gt;
+                    &amp;lt;a href=&amp;quot;print.html&amp;quot; title=&amp;quot;Print this book&amp;quot; aria-label=&amp;quot;Print this book&amp;quot;&amp;gt;
+                        &amp;lt;i id=&amp;quot;print-button&amp;quot; class=&amp;quot;fa fa-print&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
+                    &amp;lt;/a&amp;gt;
+                    
+                &amp;lt;/div&amp;gt;
+            &amp;lt;/div&amp;gt;
+        &amp;lt;/div&amp;gt;
+
+        
+        &amp;lt;div id=&amp;quot;search-wrapper&amp;quot; class=&amp;quot;hidden&amp;quot;&amp;gt;
+            &amp;lt;form id=&amp;quot;searchbar-outer&amp;quot; class=&amp;quot;searchbar-outer&amp;quot;&amp;gt;
+                &amp;lt;input type=&amp;quot;search&amp;quot; name=&amp;quot;search&amp;quot; id=&amp;quot;searchbar&amp;quot; name=&amp;quot;searchbar&amp;quot; placeholder=&amp;quot;Search this book ...&amp;quot; aria-controls=&amp;quot;searchresults-outer&amp;quot; aria-describedby=&amp;quot;searchresults-header&amp;quot;&amp;gt;
+            &amp;lt;/form&amp;gt;
+            &amp;lt;div id=&amp;quot;searchresults-outer&amp;quot; class=&amp;quot;searchresults-outer hidden&amp;quot;&amp;gt;
+                &amp;lt;div id=&amp;quot;searchresults-header&amp;quot; class=&amp;quot;searchresults-header&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+                &amp;lt;ul id=&amp;quot;searchresults&amp;quot;&amp;gt;
+                &amp;lt;/ul&amp;gt;
+            &amp;lt;/div&amp;gt;
+        &amp;lt;/div&amp;gt;
+        
+
+        &amp;lt;!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM --&amp;gt;
+        &amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+            document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+            document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+            Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+            });
+        &amp;lt;/script&amp;gt;
+
+        &amp;lt;div id=&amp;quot;content&amp;quot; class=&amp;quot;content&amp;quot;&amp;gt;
+            &amp;lt;main&amp;gt;
+                &amp;lt;!DOCTYPE HTML&amp;gt;
+</code></pre>
+<p></code></pre></p>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Home - Prahlada, the Best Among Exalted Devotees</title>
+<pre><code>    &lt;meta content=&quot;text/html; charset=utf-8&quot; http-equiv=&quot;Content-Type&quot;&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+    &lt;meta name=&quot;theme-color&quot; content=&quot;#ffffff&quot; /&gt;
+<pre><code>&amp;lt;link rel=&amp;quot;shortcut icon&amp;quot; href=&amp;quot;favicon.png&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;css/variables.css&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;css/general.css&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;css/chrome.css&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;css/print.css&amp;quot; media=&amp;quot;print&amp;quot;&amp;gt;
+<p>&amp;lt;!-- Fonts --&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;FontAwesome/css/font-awesome.css&amp;quot;&amp;gt;
+&amp;lt;link href=&amp;quot;https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;quot; rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot;&amp;gt;
+&amp;lt;link href=&amp;quot;https://fonts.googleapis.com/css?family=Source+Code+Pro:500&amp;quot; rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot;&amp;gt;</p>
+<p>&amp;lt;!-- Highlight.js Stylesheets --&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;highlight.css&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;tomorrow-night.css&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;ayu-highlight.css&amp;quot;&amp;gt;</p>
+<p>&amp;lt;!-- Custom theme stylesheets --&amp;gt;</p>
+<p>&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;custom.css&amp;quot;&amp;gt;
+</code></pre></p>
+<p>&lt;/head&gt;
+&lt;body class=&quot;rust&quot;&gt;
+&lt;!-- Provide site root to javascript --&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+var path_to_root = &quot;&quot;;
+var default_theme = &quot;rust&quot;;
+&lt;/script&gt;</p>
+<pre><code>&amp;lt;!-- Work around some values being stored in localStorage wrapped in quotes --&amp;gt;
+&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+    try {
+        var theme = localStorage.getItem('mdbook-theme');
+        var sidebar = localStorage.getItem('mdbook-sidebar');
+<pre><code>    if (theme.startsWith('&amp;amp;quot;') &amp;amp;amp;&amp;amp;amp; theme.endsWith('&amp;amp;quot;')) {
+        localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+    }
+
+    if (sidebar.startsWith('&amp;amp;quot;') &amp;amp;amp;&amp;amp;amp; sidebar.endsWith('&amp;amp;quot;')) {
+        localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+    }
+} catch (e) { }
+</code></pre>
+<p>&amp;lt;/script&amp;gt;</p>
+<p>&amp;lt;!-- Set the theme before any content is loaded, prevents flash --&amp;gt;
+&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+var theme;
+try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+if (theme === null || theme === undefined) { theme = default_theme; }
+document.body.className = theme;
+document.querySelector('html').className = theme + ' js';
+&amp;lt;/script&amp;gt;</p>
+<p>&amp;lt;!-- Hide / unhide sidebar before it is displayed --&amp;gt;
+&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+var html = document.querySelector('html');
+var sidebar = 'hidden';
+if (document.body.clientWidth &amp;gt;= 1080) {
+try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+sidebar = sidebar || 'visible';
+}
+html.classList.remove('sidebar-visible');
+html.classList.add(&amp;quot;sidebar-&amp;quot; + sidebar);
+&amp;lt;/script&amp;gt;</p>
+<p>&amp;lt;nav id=&amp;quot;sidebar&amp;quot; class=&amp;quot;sidebar&amp;quot; aria-label=&amp;quot;Table of contents&amp;quot;&amp;gt;
+&amp;lt;div class=&amp;quot;sidebar-scrollbox&amp;quot;&amp;gt;
+&amp;lt;ol class=&amp;quot;chapter&amp;quot;&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;../../index.html&amp;quot; class=&amp;quot;active&amp;quot;&amp;gt;Home&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;../index.html&amp;quot;&amp;gt;Table of Contents&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;index.html&amp;quot;&amp;gt;Prahlada, the Best Among Exalted Devotees&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.2.html&amp;quot;&amp;gt;7.10.2&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.3.html&amp;quot;&amp;gt;7.10.3&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.4.html&amp;quot;&amp;gt;7.10.4&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.5.html&amp;quot;&amp;gt;7.10.5&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.6.html&amp;quot;&amp;gt;7.10.6&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.7.html&amp;quot;&amp;gt;7.10.7&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.8.html&amp;quot;&amp;gt;7.10.8&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.9.html&amp;quot;&amp;gt;7.10.9&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.10.html&amp;quot;&amp;gt;7.10.10&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.11.html&amp;quot;&amp;gt;7.10.11&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.12.html&amp;quot;&amp;gt;7.10.12&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.13.html&amp;quot;&amp;gt;7.10.13&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.14.html&amp;quot;&amp;gt;7.10.14&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.15-17.html&amp;quot;&amp;gt;7.10.15-17&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.18.html&amp;quot;&amp;gt;7.10.18&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.19.html&amp;quot;&amp;gt;7.10.19&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.20.html&amp;quot;&amp;gt;7.10.20&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.21.html&amp;quot;&amp;gt;7.10.21&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.22.html&amp;quot;&amp;gt;7.10.22&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.23.html&amp;quot;&amp;gt;7.10.23&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.24.html&amp;quot;&amp;gt;7.10.24&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.25.html&amp;quot;&amp;gt;7.10.25&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.26.html&amp;quot;&amp;gt;7.10.26&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.27.html&amp;quot;&amp;gt;7.10.27&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.28.html&amp;quot;&amp;gt;7.10.28&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.29.html&amp;quot;&amp;gt;7.10.29&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.30.html&amp;quot;&amp;gt;7.10.30&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.31.html&amp;quot;&amp;gt;7.10.31&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.32.html&amp;quot;&amp;gt;7.10.32&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.33.html&amp;quot;&amp;gt;7.10.33&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.34.html&amp;quot;&amp;gt;7.10.34&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.35.html&amp;quot;&amp;gt;7.10.35&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.36.html&amp;quot;&amp;gt;7.10.36&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.37.html&amp;quot;&amp;gt;7.10.37&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.38.html&amp;quot;&amp;gt;7.10.38&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.39.html&amp;quot;&amp;gt;7.10.39&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.40.html&amp;quot;&amp;gt;7.10.40&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.41.html&amp;quot;&amp;gt;7.10.41&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.42.html&amp;quot;&amp;gt;7.10.42&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.43-44.html&amp;quot;&amp;gt;7.10.43-44&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.45.html&amp;quot;&amp;gt;7.10.45&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.46.html&amp;quot;&amp;gt;7.10.46&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.47.html&amp;quot;&amp;gt;7.10.47&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.48.html&amp;quot;&amp;gt;7.10.48&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.49.html&amp;quot;&amp;gt;7.10.49&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.50.html&amp;quot;&amp;gt;7.10.50&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.51.html&amp;quot;&amp;gt;7.10.51&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.52.html&amp;quot;&amp;gt;7.10.52&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.53.html&amp;quot;&amp;gt;7.10.53&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.54-55.html&amp;quot;&amp;gt;7.10.54-55&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.56.html&amp;quot;&amp;gt;7.10.56&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.57.html&amp;quot;&amp;gt;7.10.57&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.58.html&amp;quot;&amp;gt;7.10.58&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.59.html&amp;quot;&amp;gt;7.10.59&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.60.html&amp;quot;&amp;gt;7.10.60&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.61.html&amp;quot;&amp;gt;7.10.61&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.62.html&amp;quot;&amp;gt;7.10.62&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.63.html&amp;quot;&amp;gt;7.10.63&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.64.html&amp;quot;&amp;gt;7.10.64&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.65-66.html&amp;quot;&amp;gt;7.10.65-66&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.67.html&amp;quot;&amp;gt;7.10.67&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.68.html&amp;quot;&amp;gt;7.10.68&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.69.html&amp;quot;&amp;gt;7.10.69&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.10.70.html&amp;quot;&amp;gt;7.10.70&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;../index.html&amp;quot;&amp;gt;Table of Contents&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;/ol&amp;gt;
+&amp;lt;/div&amp;gt;
+&amp;lt;div id=&amp;quot;sidebar-resize-handle&amp;quot; class=&amp;quot;sidebar-resize-handle&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;/nav&amp;gt;</p>
+<p>&amp;lt;div id=&amp;quot;page-wrapper&amp;quot; class=&amp;quot;page-wrapper&amp;quot;&amp;gt;</p>
+<pre><code>&amp;amp;lt;div class=&amp;amp;quot;page&amp;amp;quot;&amp;amp;gt;
+    
+    &amp;amp;lt;div id=&amp;amp;quot;menu-bar&amp;amp;quot; class=&amp;amp;quot;menu-bar&amp;amp;quot;&amp;amp;gt;
+        &amp;amp;lt;div id=&amp;amp;quot;menu-bar-sticky-container&amp;amp;quot;&amp;amp;gt;
+            &amp;amp;lt;div class=&amp;amp;quot;left-buttons&amp;amp;quot;&amp;amp;gt;
+                &amp;amp;lt;button id=&amp;amp;quot;sidebar-toggle&amp;amp;quot; class=&amp;amp;quot;icon-button&amp;amp;quot; type=&amp;amp;quot;button&amp;amp;quot; title=&amp;amp;quot;Toggle Table of Contents&amp;amp;quot; aria-label=&amp;amp;quot;Toggle Table of Contents&amp;amp;quot; aria-controls=&amp;amp;quot;sidebar&amp;amp;quot;&amp;amp;gt;
+                    &amp;amp;lt;i class=&amp;amp;quot;fa fa-bars&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;/i&amp;amp;gt;
+                &amp;amp;lt;/button&amp;amp;gt;
+                &amp;amp;lt;button id=&amp;amp;quot;theme-toggle&amp;amp;quot; class=&amp;amp;quot;icon-button&amp;amp;quot; type=&amp;amp;quot;button&amp;amp;quot; title=&amp;amp;quot;Change theme&amp;amp;quot; aria-label=&amp;amp;quot;Change theme&amp;amp;quot; aria-haspopup=&amp;amp;quot;true&amp;amp;quot; aria-expanded=&amp;amp;quot;false&amp;amp;quot; aria-controls=&amp;amp;quot;theme-list&amp;amp;quot;&amp;amp;gt;
+                    &amp;amp;lt;i class=&amp;amp;quot;fa fa-paint-brush&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;/i&amp;amp;gt;
+                &amp;amp;lt;/button&amp;amp;gt;
+                &amp;amp;lt;ul id=&amp;amp;quot;theme-list&amp;amp;quot; class=&amp;amp;quot;theme-popup&amp;amp;quot; aria-label=&amp;amp;quot;Themes&amp;amp;quot; role=&amp;amp;quot;menu&amp;amp;quot;&amp;amp;gt;
+                    &amp;amp;lt;li role=&amp;amp;quot;none&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;button role=&amp;amp;quot;menuitem&amp;amp;quot; class=&amp;amp;quot;theme&amp;amp;quot; id=&amp;amp;quot;light&amp;amp;quot;&amp;amp;gt;Light&amp;amp;lt;/button&amp;amp;gt;&amp;amp;lt;/li&amp;amp;gt;
+                    &amp;amp;lt;li role=&amp;amp;quot;none&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;button role=&amp;amp;quot;menuitem&amp;amp;quot; class=&amp;amp;quot;theme&amp;amp;quot; id=&amp;amp;quot;rust&amp;amp;quot;&amp;amp;gt;Rust (default)&amp;amp;lt;/button&amp;amp;gt;&amp;amp;lt;/li&amp;amp;gt;
+                    &amp;amp;lt;li role=&amp;amp;quot;none&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;button role=&amp;amp;quot;menuitem&amp;amp;quot; class=&amp;amp;quot;theme&amp;amp;quot; id=&amp;amp;quot;coal&amp;amp;quot;&amp;amp;gt;Coal&amp;amp;lt;/button&amp;amp;gt;&amp;amp;lt;/li&amp;amp;gt;
+                    &amp;amp;lt;li role=&amp;amp;quot;none&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;button role=&amp;amp;quot;menuitem&amp;amp;quot; class=&amp;amp;quot;theme&amp;amp;quot; id=&amp;amp;quot;navy&amp;amp;quot;&amp;amp;gt;Navy&amp;amp;lt;/button&amp;amp;gt;&amp;amp;lt;/li&amp;amp;gt;
+                    &amp;amp;lt;li role=&amp;amp;quot;none&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;button role=&amp;amp;quot;menuitem&amp;amp;quot; class=&amp;amp;quot;theme&amp;amp;quot; id=&amp;amp;quot;ayu&amp;amp;quot;&amp;amp;gt;Ayu&amp;amp;lt;/button&amp;amp;gt;&amp;amp;lt;/li&amp;amp;gt;
+                &amp;amp;lt;/ul&amp;amp;gt;
+                
+                &amp;amp;lt;button id=&amp;amp;quot;search-toggle&amp;amp;quot; class=&amp;amp;quot;icon-button&amp;amp;quot; type=&amp;amp;quot;button&amp;amp;quot; title=&amp;amp;quot;Search. (Shortkey: s)&amp;amp;quot; aria-label=&amp;amp;quot;Toggle Searchbar&amp;amp;quot; aria-expanded=&amp;amp;quot;false&amp;amp;quot; aria-keyshortcuts=&amp;amp;quot;S&amp;amp;quot; aria-controls=&amp;amp;quot;searchbar&amp;amp;quot;&amp;amp;gt;
+                    &amp;amp;lt;i class=&amp;amp;quot;fa fa-search&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;/i&amp;amp;gt;
+                &amp;amp;lt;/button&amp;amp;gt;
+                
+            &amp;amp;lt;/div&amp;amp;gt;
+
+            &amp;amp;lt;h1 class=&amp;amp;quot;menu-title&amp;amp;quot;&amp;amp;gt;Prahlada, the Best Among Exalted Devotees&amp;amp;lt;/h1&amp;amp;gt;
+
+            &amp;amp;lt;div class=&amp;amp;quot;right-buttons&amp;amp;quot;&amp;amp;gt;
+                &amp;amp;lt;a href=&amp;amp;quot;print.html&amp;amp;quot; title=&amp;amp;quot;Print this book&amp;amp;quot; aria-label=&amp;amp;quot;Print this book&amp;amp;quot;&amp;amp;gt;
+                    &amp;amp;lt;i id=&amp;amp;quot;print-button&amp;amp;quot; class=&amp;amp;quot;fa fa-print&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;/i&amp;amp;gt;
+                &amp;amp;lt;/a&amp;amp;gt;
+                
+            &amp;amp;lt;/div&amp;amp;gt;
+        &amp;amp;lt;/div&amp;amp;gt;
+    &amp;amp;lt;/div&amp;amp;gt;
+
+    
+    &amp;amp;lt;div id=&amp;amp;quot;search-wrapper&amp;amp;quot; class=&amp;amp;quot;hidden&amp;amp;quot;&amp;amp;gt;
+        &amp;amp;lt;form id=&amp;amp;quot;searchbar-outer&amp;amp;quot; class=&amp;amp;quot;searchbar-outer&amp;amp;quot;&amp;amp;gt;
+            &amp;amp;lt;input type=&amp;amp;quot;search&amp;amp;quot; name=&amp;amp;quot;search&amp;amp;quot; id=&amp;amp;quot;searchbar&amp;amp;quot; name=&amp;amp;quot;searchbar&amp;amp;quot; placeholder=&amp;amp;quot;Search this book ...&amp;amp;quot; aria-controls=&amp;amp;quot;searchresults-outer&amp;amp;quot; aria-describedby=&amp;amp;quot;searchresults-header&amp;amp;quot;&amp;amp;gt;
+        &amp;amp;lt;/form&amp;amp;gt;
+        &amp;amp;lt;div id=&amp;amp;quot;searchresults-outer&amp;amp;quot; class=&amp;amp;quot;searchresults-outer hidden&amp;amp;quot;&amp;amp;gt;
+            &amp;amp;lt;div id=&amp;amp;quot;searchresults-header&amp;amp;quot; class=&amp;amp;quot;searchresults-header&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;/div&amp;amp;gt;
+            &amp;amp;lt;ul id=&amp;amp;quot;searchresults&amp;amp;quot;&amp;amp;gt;
+            &amp;amp;lt;/ul&amp;amp;gt;
+        &amp;amp;lt;/div&amp;amp;gt;
+    &amp;amp;lt;/div&amp;amp;gt;
+    
+
+    &amp;amp;lt;!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM --&amp;amp;gt;
+    &amp;amp;lt;script type=&amp;amp;quot;text/javascript&amp;amp;quot;&amp;amp;gt;
+        document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+        document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+        Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+            link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+        });
+    &amp;amp;lt;/script&amp;amp;gt;
+
+    &amp;amp;lt;div id=&amp;amp;quot;content&amp;amp;quot; class=&amp;amp;quot;content&amp;amp;quot;&amp;amp;gt;
+        &amp;amp;lt;main&amp;amp;gt;
+            &amp;amp;lt;!DOCTYPE HTML&amp;amp;gt;
+</code></pre>
+<p></code></pre></p>
+<p></code></pre></p>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Home - The Supreme Lord Is Equal to Everyone</title>
+<pre><code>    &lt;meta content=&quot;text/html; charset=utf-8&quot; http-equiv=&quot;Content-Type&quot;&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+    &lt;meta name=&quot;theme-color&quot; content=&quot;#ffffff&quot; /&gt;
+<pre><code>&amp;lt;link rel=&amp;quot;shortcut icon&amp;quot; href=&amp;quot;favicon.png&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;css/variables.css&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;css/general.css&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;css/chrome.css&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;css/print.css&amp;quot; media=&amp;quot;print&amp;quot;&amp;gt;
+<p>&amp;lt;!-- Fonts --&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;FontAwesome/css/font-awesome.css&amp;quot;&amp;gt;
+&amp;lt;link href=&amp;quot;https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;quot; rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot;&amp;gt;
+&amp;lt;link href=&amp;quot;https://fonts.googleapis.com/css?family=Source+Code+Pro:500&amp;quot; rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot;&amp;gt;</p>
+<p>&amp;lt;!-- Highlight.js Stylesheets --&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;highlight.css&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;tomorrow-night.css&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;ayu-highlight.css&amp;quot;&amp;gt;</p>
+<p>&amp;lt;!-- Custom theme stylesheets --&amp;gt;</p>
+<p>&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;custom.css&amp;quot;&amp;gt;
+</code></pre></p>
+<p>&lt;/head&gt;
+&lt;body class=&quot;rust&quot;&gt;
+&lt;!-- Provide site root to javascript --&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+var path_to_root = &quot;&quot;;
+var default_theme = &quot;rust&quot;;
+&lt;/script&gt;</p>
+<pre><code>&amp;lt;!-- Work around some values being stored in localStorage wrapped in quotes --&amp;gt;
+&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+    try {
+        var theme = localStorage.getItem('mdbook-theme');
+        var sidebar = localStorage.getItem('mdbook-sidebar');
+<pre><code>    if (theme.startsWith('&amp;amp;quot;') &amp;amp;amp;&amp;amp;amp; theme.endsWith('&amp;amp;quot;')) {
+        localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+    }
+<pre><code>if (sidebar.startsWith('&amp;amp;amp;quot;') &amp;amp;amp;amp;&amp;amp;amp;amp; sidebar.endsWith('&amp;amp;amp;quot;')) {
+    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+}
+</code></pre>
+<p>} catch (e) { }
+</code></pre></p>
+<p>&amp;lt;/script&amp;gt;</p>
+<p>&amp;lt;!-- Set the theme before any content is loaded, prevents flash --&amp;gt;
+&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+var theme;
+try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+if (theme === null || theme === undefined) { theme = default_theme; }
+document.body.className = theme;
+document.querySelector('html').className = theme + ' js';
+&amp;lt;/script&amp;gt;</p>
+<p>&amp;lt;!-- Hide / unhide sidebar before it is displayed --&amp;gt;
+&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+var html = document.querySelector('html');
+var sidebar = 'hidden';
+if (document.body.clientWidth &amp;gt;= 1080) {
+try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+sidebar = sidebar || 'visible';
+}
+html.classList.remove('sidebar-visible');
+html.classList.add(&amp;quot;sidebar-&amp;quot; + sidebar);
+&amp;lt;/script&amp;gt;</p>
+<p>&amp;lt;nav id=&amp;quot;sidebar&amp;quot; class=&amp;quot;sidebar&amp;quot; aria-label=&amp;quot;Table of contents&amp;quot;&amp;gt;
+&amp;lt;div class=&amp;quot;sidebar-scrollbox&amp;quot;&amp;gt;
+&amp;lt;ol class=&amp;quot;chapter&amp;quot;&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;../../index.html&amp;quot; class=&amp;quot;active&amp;quot;&amp;gt;Home&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;../index.html&amp;quot;&amp;gt;Table of Contents&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;index.html&amp;quot;&amp;gt;The Supreme Lord Is Equal to Everyone&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.2.html&amp;quot;&amp;gt;7.1.2&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.3.html&amp;quot;&amp;gt;7.1.3&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.4-5.html&amp;quot;&amp;gt;7.1.4-5&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.6.html&amp;quot;&amp;gt;7.1.6&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.7.html&amp;quot;&amp;gt;7.1.7&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.8.html&amp;quot;&amp;gt;7.1.8&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.9.html&amp;quot;&amp;gt;7.1.9&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.10.html&amp;quot;&amp;gt;7.1.10&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.11.html&amp;quot;&amp;gt;7.1.11&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.12.html&amp;quot;&amp;gt;7.1.12&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.13.html&amp;quot;&amp;gt;7.1.13&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.14-15.html&amp;quot;&amp;gt;7.1.14-15&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.16.html&amp;quot;&amp;gt;7.1.16&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.17.html&amp;quot;&amp;gt;7.1.17&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.18.html&amp;quot;&amp;gt;7.1.18&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.19.html&amp;quot;&amp;gt;7.1.19&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.20.html&amp;quot;&amp;gt;7.1.20&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.21.html&amp;quot;&amp;gt;7.1.21&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.22.html&amp;quot;&amp;gt;7.1.22&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.23.html&amp;quot;&amp;gt;7.1.23&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.24.html&amp;quot;&amp;gt;7.1.24&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.25.html&amp;quot;&amp;gt;7.1.25&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.26.html&amp;quot;&amp;gt;7.1.26&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.27.html&amp;quot;&amp;gt;7.1.27&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.28-29.html&amp;quot;&amp;gt;7.1.28-29&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.30.html&amp;quot;&amp;gt;7.1.30&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.31.html&amp;quot;&amp;gt;7.1.31&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.32.html&amp;quot;&amp;gt;7.1.32&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.33.html&amp;quot;&amp;gt;7.1.33&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.34.html&amp;quot;&amp;gt;7.1.34&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.35.html&amp;quot;&amp;gt;7.1.35&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.36.html&amp;quot;&amp;gt;7.1.36&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.37.html&amp;quot;&amp;gt;7.1.37&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.38.html&amp;quot;&amp;gt;7.1.38&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.39.html&amp;quot;&amp;gt;7.1.39&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.40.html&amp;quot;&amp;gt;7.1.40&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.41.html&amp;quot;&amp;gt;7.1.41&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.42.html&amp;quot;&amp;gt;7.1.42&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.43.html&amp;quot;&amp;gt;7.1.43&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.44.html&amp;quot;&amp;gt;7.1.44&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.45.html&amp;quot;&amp;gt;7.1.45&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.46.html&amp;quot;&amp;gt;7.1.46&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.47.html&amp;quot;&amp;gt;7.1.47&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;7.1.48.html&amp;quot;&amp;gt;7.1.48&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;affix&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;../index.html&amp;quot;&amp;gt;Table of Contents&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;/ol&amp;gt;
+&amp;lt;/div&amp;gt;
+&amp;lt;div id=&amp;quot;sidebar-resize-handle&amp;quot; class=&amp;quot;sidebar-resize-handle&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;/nav&amp;gt;</p>
+<p>&amp;lt;div id=&amp;quot;page-wrapper&amp;quot; class=&amp;quot;page-wrapper&amp;quot;&amp;gt;</p>
+<pre><code>&amp;amp;lt;div class=&amp;amp;quot;page&amp;amp;quot;&amp;amp;gt;
+<pre><code>&amp;amp;amp;lt;div id=&amp;amp;amp;quot;menu-bar&amp;amp;amp;quot; class=&amp;amp;amp;quot;menu-bar&amp;amp;amp;quot;&amp;amp;amp;gt;
+    &amp;amp;amp;lt;div id=&amp;amp;amp;quot;menu-bar-sticky-container&amp;amp;amp;quot;&amp;amp;amp;gt;
+        &amp;amp;amp;lt;div class=&amp;amp;amp;quot;left-buttons&amp;amp;amp;quot;&amp;amp;amp;gt;
+            &amp;amp;amp;lt;button id=&amp;amp;amp;quot;sidebar-toggle&amp;amp;amp;quot; class=&amp;amp;amp;quot;icon-button&amp;amp;amp;quot; type=&amp;amp;amp;quot;button&amp;amp;amp;quot; title=&amp;amp;amp;quot;Toggle Table of Contents&amp;amp;amp;quot; aria-label=&amp;amp;amp;quot;Toggle Table of Contents&amp;amp;amp;quot; aria-controls=&amp;amp;amp;quot;sidebar&amp;amp;amp;quot;&amp;amp;amp;gt;
+                &amp;amp;amp;lt;i class=&amp;amp;amp;quot;fa fa-bars&amp;amp;amp;quot;&amp;amp;amp;gt;&amp;amp;amp;lt;/i&amp;amp;amp;gt;
+            &amp;amp;amp;lt;/button&amp;amp;amp;gt;
+            &amp;amp;amp;lt;button id=&amp;amp;amp;quot;theme-toggle&amp;amp;amp;quot; class=&amp;amp;amp;quot;icon-button&amp;amp;amp;quot; type=&amp;amp;amp;quot;button&amp;amp;amp;quot; title=&amp;amp;amp;quot;Change theme&amp;amp;amp;quot; aria-label=&amp;amp;amp;quot;Change theme&amp;amp;amp;quot; aria-haspopup=&amp;amp;amp;quot;true&amp;amp;amp;quot; aria-expanded=&amp;amp;amp;quot;false&amp;amp;amp;quot; aria-controls=&amp;amp;amp;quot;theme-list&amp;amp;amp;quot;&amp;amp;amp;gt;
+                &amp;amp;amp;lt;i class=&amp;amp;amp;quot;fa fa-paint-brush&amp;amp;amp;quot;&amp;amp;amp;gt;&amp;amp;amp;lt;/i&amp;amp;amp;gt;
+            &amp;amp;amp;lt;/button&amp;amp;amp;gt;
+            &amp;amp;amp;lt;ul id=&amp;amp;amp;quot;theme-list&amp;amp;amp;quot; class=&amp;amp;amp;quot;theme-popup&amp;amp;amp;quot; aria-label=&amp;amp;amp;quot;Themes&amp;amp;amp;quot; role=&amp;amp;amp;quot;menu&amp;amp;amp;quot;&amp;amp;amp;gt;
+                &amp;amp;amp;lt;li role=&amp;amp;amp;quot;none&amp;amp;amp;quot;&amp;amp;amp;gt;&amp;amp;amp;lt;button role=&amp;amp;amp;quot;menuitem&amp;amp;amp;quot; class=&amp;amp;amp;quot;theme&amp;amp;amp;quot; id=&amp;amp;amp;quot;light&amp;amp;amp;quot;&amp;amp;amp;gt;Light&amp;amp;amp;lt;/button&amp;amp;amp;gt;&amp;amp;amp;lt;/li&amp;amp;amp;gt;
+                &amp;amp;amp;lt;li role=&amp;amp;amp;quot;none&amp;amp;amp;quot;&amp;amp;amp;gt;&amp;amp;amp;lt;button role=&amp;amp;amp;quot;menuitem&amp;amp;amp;quot; class=&amp;amp;amp;quot;theme&amp;amp;amp;quot; id=&amp;amp;amp;quot;rust&amp;amp;amp;quot;&amp;amp;amp;gt;Rust (default)&amp;amp;amp;lt;/button&amp;amp;amp;gt;&amp;amp;amp;lt;/li&amp;amp;amp;gt;
+                &amp;amp;amp;lt;li role=&amp;amp;amp;quot;none&amp;amp;amp;quot;&amp;amp;amp;gt;&amp;amp;amp;lt;button role=&amp;amp;amp;quot;menuitem&amp;amp;amp;quot; class=&amp;amp;amp;quot;theme&amp;amp;amp;quot; id=&amp;amp;amp;quot;coal&amp;amp;amp;quot;&amp;amp;amp;gt;Coal&amp;amp;amp;lt;/button&amp;amp;amp;gt;&amp;amp;amp;lt;/li&amp;amp;amp;gt;
+                &amp;amp;amp;lt;li role=&amp;amp;amp;quot;none&amp;amp;amp;quot;&amp;amp;amp;gt;&amp;amp;amp;lt;button role=&amp;amp;amp;quot;menuitem&amp;amp;amp;quot; class=&amp;amp;amp;quot;theme&amp;amp;amp;quot; id=&amp;amp;amp;quot;navy&amp;amp;amp;quot;&amp;amp;amp;gt;Navy&amp;amp;amp;lt;/button&amp;amp;amp;gt;&amp;amp;amp;lt;/li&amp;amp;amp;gt;
+                &amp;amp;amp;lt;li role=&amp;amp;amp;quot;none&amp;amp;amp;quot;&amp;amp;amp;gt;&amp;amp;amp;lt;button role=&amp;amp;amp;quot;menuitem&amp;amp;amp;quot; class=&amp;amp;amp;quot;theme&amp;amp;amp;quot; id=&amp;amp;amp;quot;ayu&amp;amp;amp;quot;&amp;amp;amp;gt;Ayu&amp;amp;amp;lt;/button&amp;amp;amp;gt;&amp;amp;amp;lt;/li&amp;amp;amp;gt;
+            &amp;amp;amp;lt;/ul&amp;amp;amp;gt;
+            
+            &amp;amp;amp;lt;button id=&amp;amp;amp;quot;search-toggle&amp;amp;amp;quot; class=&amp;amp;amp;quot;icon-button&amp;amp;amp;quot; type=&amp;amp;amp;quot;button&amp;amp;amp;quot; title=&amp;amp;amp;quot;Search. (Shortkey: s)&amp;amp;amp;quot; aria-label=&amp;amp;amp;quot;Toggle Searchbar&amp;amp;amp;quot; aria-expanded=&amp;amp;amp;quot;false&amp;amp;amp;quot; aria-keyshortcuts=&amp;amp;amp;quot;S&amp;amp;amp;quot; aria-controls=&amp;amp;amp;quot;searchbar&amp;amp;amp;quot;&amp;amp;amp;gt;
+                &amp;amp;amp;lt;i class=&amp;amp;amp;quot;fa fa-search&amp;amp;amp;quot;&amp;amp;amp;gt;&amp;amp;amp;lt;/i&amp;amp;amp;gt;
+            &amp;amp;amp;lt;/button&amp;amp;amp;gt;
+            
+        &amp;amp;amp;lt;/div&amp;amp;amp;gt;
+
+        &amp;amp;amp;lt;h1 class=&amp;amp;amp;quot;menu-title&amp;amp;amp;quot;&amp;amp;amp;gt;The Supreme Lord Is Equal to Everyone&amp;amp;amp;lt;/h1&amp;amp;amp;gt;
+
+        &amp;amp;amp;lt;div class=&amp;amp;amp;quot;right-buttons&amp;amp;amp;quot;&amp;amp;amp;gt;
+            &amp;amp;amp;lt;a href=&amp;amp;amp;quot;print.html&amp;amp;amp;quot; title=&amp;amp;amp;quot;Print this book&amp;amp;amp;quot; aria-label=&amp;amp;amp;quot;Print this book&amp;amp;amp;quot;&amp;amp;amp;gt;
+                &amp;amp;amp;lt;i id=&amp;amp;amp;quot;print-button&amp;amp;amp;quot; class=&amp;amp;amp;quot;fa fa-print&amp;amp;amp;quot;&amp;amp;amp;gt;&amp;amp;amp;lt;/i&amp;amp;amp;gt;
+            &amp;amp;amp;lt;/a&amp;amp;amp;gt;
+            
+        &amp;amp;amp;lt;/div&amp;amp;amp;gt;
+    &amp;amp;amp;lt;/div&amp;amp;amp;gt;
+&amp;amp;amp;lt;/div&amp;amp;amp;gt;
+
+
+&amp;amp;amp;lt;div id=&amp;amp;amp;quot;search-wrapper&amp;amp;amp;quot; class=&amp;amp;amp;quot;hidden&amp;amp;amp;quot;&amp;amp;amp;gt;
+    &amp;amp;amp;lt;form id=&amp;amp;amp;quot;searchbar-outer&amp;amp;amp;quot; class=&amp;amp;amp;quot;searchbar-outer&amp;amp;amp;quot;&amp;amp;amp;gt;
+        &amp;amp;amp;lt;input type=&amp;amp;amp;quot;search&amp;amp;amp;quot; name=&amp;amp;amp;quot;search&amp;amp;amp;quot; id=&amp;amp;amp;quot;searchbar&amp;amp;amp;quot; name=&amp;amp;amp;quot;searchbar&amp;amp;amp;quot; placeholder=&amp;amp;amp;quot;Search this book ...&amp;amp;amp;quot; aria-controls=&amp;amp;amp;quot;searchresults-outer&amp;amp;amp;quot; aria-describedby=&amp;amp;amp;quot;searchresults-header&amp;amp;amp;quot;&amp;amp;amp;gt;
+    &amp;amp;amp;lt;/form&amp;amp;amp;gt;
+    &amp;amp;amp;lt;div id=&amp;amp;amp;quot;searchresults-outer&amp;amp;amp;quot; class=&amp;amp;amp;quot;searchresults-outer hidden&amp;amp;amp;quot;&amp;amp;amp;gt;
+        &amp;amp;amp;lt;div id=&amp;amp;amp;quot;searchresults-header&amp;amp;amp;quot; class=&amp;amp;amp;quot;searchresults-header&amp;amp;amp;quot;&amp;amp;amp;gt;&amp;amp;amp;lt;/div&amp;amp;amp;gt;
+        &amp;amp;amp;lt;ul id=&amp;amp;amp;quot;searchresults&amp;amp;amp;quot;&amp;amp;amp;gt;
+        &amp;amp;amp;lt;/ul&amp;amp;amp;gt;
+    &amp;amp;amp;lt;/div&amp;amp;amp;gt;
+&amp;amp;amp;lt;/div&amp;amp;amp;gt;
+
+
+&amp;amp;amp;lt;!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM --&amp;amp;amp;gt;
+&amp;amp;amp;lt;script type=&amp;amp;amp;quot;text/javascript&amp;amp;amp;quot;&amp;amp;amp;gt;
+    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+    });
+&amp;amp;amp;lt;/script&amp;amp;amp;gt;
+
+&amp;amp;amp;lt;div id=&amp;amp;amp;quot;content&amp;amp;amp;quot; class=&amp;amp;amp;quot;content&amp;amp;amp;quot;&amp;amp;amp;gt;
+    &amp;amp;amp;lt;main&amp;amp;amp;gt;
+        &amp;amp;amp;lt;h1&amp;amp;amp;gt;&amp;amp;amp;lt;a class=&amp;amp;amp;quot;header&amp;amp;amp;quot; href=&amp;amp;amp;quot;#home&amp;amp;amp;quot; id=&amp;amp;amp;quot;home&amp;amp;amp;quot;&amp;amp;amp;gt;Home&amp;amp;amp;lt;/a&amp;amp;amp;gt;&amp;amp;amp;lt;/h1&amp;amp;amp;gt;
+
+    &amp;amp;amp;lt;/main&amp;amp;amp;gt;
+
+    &amp;amp;amp;lt;nav class=&amp;amp;amp;quot;nav-wrapper&amp;amp;amp;quot; aria-label=&amp;amp;amp;quot;Page navigation&amp;amp;amp;quot;&amp;amp;amp;gt;
+        &amp;amp;amp;lt;!-- Mobile navigation buttons --&amp;amp;amp;gt;
+        
+
+        
+            &amp;amp;amp;lt;a rel=&amp;amp;amp;quot;next&amp;amp;amp;quot; href=&amp;amp;amp;quot;../index.html&amp;amp;amp;quot; class=&amp;amp;amp;quot;mobile-nav-chapters next&amp;amp;amp;quot; title=&amp;amp;amp;quot;Next chapter&amp;amp;amp;quot; aria-label=&amp;amp;amp;quot;Next chapter&amp;amp;amp;quot; aria-keyshortcuts=&amp;amp;amp;quot;Right&amp;amp;amp;quot;&amp;amp;amp;gt;
+                &amp;amp;amp;lt;i class=&amp;amp;amp;quot;fa fa-angle-right&amp;amp;amp;quot;&amp;amp;amp;gt;&amp;amp;amp;lt;/i&amp;amp;amp;gt;
+            &amp;amp;amp;lt;/a&amp;amp;amp;gt;
+        
+
+        &amp;amp;amp;lt;div style=&amp;amp;amp;quot;clear: both&amp;amp;amp;quot;&amp;amp;amp;gt;&amp;amp;amp;lt;/div&amp;amp;amp;gt;
+    &amp;amp;amp;lt;/nav&amp;amp;amp;gt;
+&amp;amp;amp;lt;/div&amp;amp;amp;gt;
+</code></pre>
+<p>&amp;amp;lt;/div&amp;amp;gt;</p>
+<p>&amp;amp;lt;nav class=&amp;amp;quot;nav-wide-wrapper&amp;amp;quot; aria-label=&amp;amp;quot;Page navigation&amp;amp;quot;&amp;amp;gt;
+</p>
+<pre><code>    &amp;amp;amp;lt;a href=&amp;amp;amp;quot;../index.html&amp;amp;amp;quot; class=&amp;amp;amp;quot;nav-chapters next&amp;amp;amp;quot; title=&amp;amp;amp;quot;Next chapter&amp;amp;amp;quot; aria-label=&amp;amp;amp;quot;Next chapter&amp;amp;amp;quot; aria-keyshortcuts=&amp;amp;amp;quot;Right&amp;amp;amp;quot;&amp;amp;amp;gt;
+        &amp;amp;amp;lt;i class=&amp;amp;amp;quot;fa fa-angle-right&amp;amp;amp;quot;&amp;amp;amp;gt;&amp;amp;amp;lt;/i&amp;amp;amp;gt;
+    &amp;amp;amp;lt;/a&amp;amp;amp;gt;
+</code></pre>
+<p>&amp;amp;lt;/nav&amp;amp;gt;
+</code></pre></p>
+<p>&amp;lt;/div&amp;gt;</p>
+<p>&amp;lt;script src=&amp;quot;elasticlunr.min.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&amp;quot;mark.min.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&amp;quot;searcher.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;</p>
+<p>&amp;lt;script src=&amp;quot;clipboard.min.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&amp;quot;highlight.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&amp;quot;book.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;</p>
+<p>&amp;lt;!-- Custom JS scripts --&amp;gt;
+</code></pre></p>
+<p>&lt;/body&gt;
+</code></pre></p>
+</html>
+<pre><code>                &lt;/main&gt;
+<pre><code>            &amp;lt;nav class=&amp;quot;nav-wrapper&amp;quot; aria-label=&amp;quot;Page navigation&amp;quot;&amp;gt;
+                &amp;lt;!-- Mobile navigation buttons --&amp;gt;
+<pre><code>                &amp;amp;lt;a rel=&amp;amp;quot;next&amp;amp;quot; href=&amp;amp;quot;../index.html&amp;amp;quot; class=&amp;amp;quot;mobile-nav-chapters next&amp;amp;quot; title=&amp;amp;quot;Next chapter&amp;amp;quot; aria-label=&amp;amp;quot;Next chapter&amp;amp;quot; aria-keyshortcuts=&amp;amp;quot;Right&amp;amp;quot;&amp;amp;gt;
+                    &amp;amp;lt;i class=&amp;amp;quot;fa fa-angle-right&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;/i&amp;amp;gt;
+                &amp;amp;lt;/a&amp;amp;gt;
+            
+
+            &amp;amp;lt;div style=&amp;amp;quot;clear: both&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;/div&amp;amp;gt;
+        &amp;amp;lt;/nav&amp;amp;gt;
+    &amp;amp;lt;/div&amp;amp;gt;
+&amp;amp;lt;/div&amp;amp;gt;
+
+&amp;amp;lt;nav class=&amp;amp;quot;nav-wide-wrapper&amp;amp;quot; aria-label=&amp;amp;quot;Page navigation&amp;amp;quot;&amp;amp;gt;
+    
+
+    
+        &amp;amp;lt;a href=&amp;amp;quot;../index.html&amp;amp;quot; class=&amp;amp;quot;nav-chapters next&amp;amp;quot; title=&amp;amp;quot;Next chapter&amp;amp;quot; aria-label=&amp;amp;quot;Next chapter&amp;amp;quot; aria-keyshortcuts=&amp;amp;quot;Right&amp;amp;quot;&amp;amp;gt;
+            &amp;amp;lt;i class=&amp;amp;quot;fa fa-angle-right&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;/i&amp;amp;gt;
+        &amp;amp;lt;/a&amp;amp;gt;
+    
+&amp;amp;lt;/nav&amp;amp;gt;
+</code></pre>
+<p>&amp;lt;/div&amp;gt;</p>
+<p>&amp;lt;script src=&amp;quot;elasticlunr.min.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&amp;quot;mark.min.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&amp;quot;searcher.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;</p>
+<p>&amp;lt;script src=&amp;quot;clipboard.min.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&amp;quot;highlight.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&amp;quot;book.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;</p>
+<p>&amp;lt;!-- Custom JS scripts --&amp;gt;
+</code></pre></p>
+<p>&lt;/body&gt;
+</code></pre></p>
+</html>
+<pre><code>                &lt;/main&gt;
+<pre><code>            &amp;lt;nav class=&amp;quot;nav-wrapper&amp;quot; aria-label=&amp;quot;Page navigation&amp;quot;&amp;gt;
+                &amp;lt;!-- Mobile navigation buttons --&amp;gt;
+                
+
+                
+                    &amp;lt;a rel=&amp;quot;next&amp;quot; href=&amp;quot;../index.html&amp;quot; class=&amp;quot;mobile-nav-chapters next&amp;quot; title=&amp;quot;Next chapter&amp;quot; aria-label=&amp;quot;Next chapter&amp;quot; aria-keyshortcuts=&amp;quot;Right&amp;quot;&amp;gt;
+                        &amp;lt;i class=&amp;quot;fa fa-angle-right&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
+                    &amp;lt;/a&amp;gt;
+                
+
+                &amp;lt;div style=&amp;quot;clear: both&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+            &amp;lt;/nav&amp;gt;
+        &amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;
+
+    &amp;lt;nav class=&amp;quot;nav-wide-wrapper&amp;quot; aria-label=&amp;quot;Page navigation&amp;quot;&amp;gt;
+        
+
+        
+            &amp;lt;a href=&amp;quot;../index.html&amp;quot; class=&amp;quot;nav-chapters next&amp;quot; title=&amp;quot;Next chapter&amp;quot; aria-label=&amp;quot;Next chapter&amp;quot; aria-keyshortcuts=&amp;quot;Right&amp;quot;&amp;gt;
+                &amp;lt;i class=&amp;quot;fa fa-angle-right&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
+            &amp;lt;/a&amp;gt;
+        
+    &amp;lt;/nav&amp;gt;
+
+&amp;lt;/div&amp;gt;
+
+
+
+
+
+
+
+
+&amp;lt;script src=&amp;quot;elasticlunr.min.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&amp;quot;mark.min.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&amp;quot;searcher.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+
+
+&amp;lt;script src=&amp;quot;clipboard.min.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&amp;quot;highlight.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&amp;quot;book.js&amp;quot; type=&amp;quot;text/javascript&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+
+&amp;lt;!-- Custom JS scripts --&amp;gt;
+</code></pre>
+<p>&lt;/body&gt;
+</code></pre></p>
+</html>
+<pre><code>                &lt;/main&gt;
+
+                &lt;nav class=&quot;nav-wrapper&quot; aria-label=&quot;Page navigation&quot;&gt;
+                    &lt;!-- Mobile navigation buttons --&gt;
+                    
+
+                    
+                        &lt;a rel=&quot;next&quot; href=&quot;../index.html&quot; class=&quot;mobile-nav-chapters next&quot; title=&quot;Next chapter&quot; aria-label=&quot;Next chapter&quot; aria-keyshortcuts=&quot;Right&quot;&gt;
+                            &lt;i class=&quot;fa fa-angle-right&quot;&gt;&lt;/i&gt;
+                        &lt;/a&gt;
+                    
+
+                    &lt;div style=&quot;clear: both&quot;&gt;&lt;/div&gt;
+                &lt;/nav&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;nav class=&quot;nav-wide-wrapper&quot; aria-label=&quot;Page navigation&quot;&gt;
+            
+
+            
+                &lt;a href=&quot;../index.html&quot; class=&quot;nav-chapters next&quot; title=&quot;Next chapter&quot; aria-label=&quot;Next chapter&quot; aria-keyshortcuts=&quot;Right&quot;&gt;
+                    &lt;i class=&quot;fa fa-angle-right&quot;&gt;&lt;/i&gt;
+                &lt;/a&gt;
+            
+        &lt;/nav&gt;
+
+    &lt;/div&gt;
+
+    
+
+    
+
+    
+
+    
+    &lt;script src=&quot;elasticlunr.min.js&quot; type=&quot;text/javascript&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;mark.min.js&quot; type=&quot;text/javascript&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;searcher.js&quot; type=&quot;text/javascript&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+    
+
+    &lt;script src=&quot;clipboard.min.js&quot; type=&quot;text/javascript&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;highlight.js&quot; type=&quot;text/javascript&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;book.js&quot; type=&quot;text/javascript&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+    &lt;!-- Custom JS scripts --&gt;
+    
+
+    
+
+&lt;/body&gt;
+</code></pre>
+</html>
+<h1><a class="header" href="#table-of-contents" id="table-of-contents">Table of Contents</a></h1>
+<h1><a class="header" href="#the-behavior-of-a-perfect-person" id="the-behavior-of-a-perfect-person">The Behavior of a Perfect Person</a></h1>
+<h2><a class="header" href="#summary" id="summary">Summary</a></h2>
+<h3><a class="header" href="#713" id="713">7.13</a></h3>
+<p>This Thirteenth Chapter describes the regulative principles for sannyasis and also describes the history of an avadhuta.</p>
+<p>It concludes with a description of perfection for the student in spiritual advancement.</p>
+<p>Sri Narada Muni has been describing the symptoms of various asramas and varnas.</p>
+<p>Now, in this chapter, he specifically describes the regulative principles to be followed by sannyasis.</p>
+<p>After retiring from family life, one should accept the status of vanaprastha, in which he must formally accept the body as his means of existence but gradually forget the bodily necessities of life.</p>
+<p>After vanaprastha life, having left home, one should travel to different places as a sannyasi.</p>
+<p>Without bodily comforts and free from dependence on anyone with respect to bodily necessities, one should travel everywhere, wearing almost nothing or actually walking naked.</p>
+<p>Without association with ordinary human society, one should beg alms and always be satisfied in himself.</p>
+<p>One should be a friend to every living entity and be very peaceful in Krsna consciousness.</p>
+<p>A sannyasi should travel alone in this way, not caring for life or death, waiting for the time when he will leave his material body.</p>
+<p>He should not indulge in unnecessary books or adopt professions like astrology, nor should he try to become a great orator.</p>
+<p>He should also give up the path of unnecessary argument and should not depend on anyone under any circumstances.</p>
+<p>He should not try to allure people into becoming his disciples just so that the number of his disciples may increase.</p>
+<p>He should give up the habit of reading many books as a means of livelihood, and he should not attempt to increase the number of temples and mathas, or monasteries.</p>
+<p>When a sannyasi thus becomes completely independent, peaceful and equipoised, he can select the destination he desires after death and follow the principles by which to reach that destination.</p>
+<p>Although fully learned, he should always remain silent, like a dumb person, and travel like a restless child.</p>
+<p>In this regard, Narada Muni described a meeting between Prahlada and a saintly person who had adopted the mode of life of a python.</p>
+<p>In this way he described the symptoms of a paramahamsa.</p>
+<p>A person who has attained the paramahamsa stage knows very well the distinction between matter and spirit.</p>
+<p>He is not at all interested in gratifying the material senses, for he is always deriving pleasure from devotional service to the Lord.</p>
+<p>He is not very anxious to protect his material body.</p>
+<p>Being satisfied with whatever he attains by the grace of the Lord, he is completely independent of material happiness and distress, and thus he is transcendental to all regulative principles.</p>
+<p>Sometimes he accepts severe austerities, and sometimes he accepts material opulence.</p>
+<p>His only concern is to satisfy Krsna, and for that purpose he can do anything and everything, without reference to the regulative principles.</p>
+<p>He is never to be equated with materialistic men, nor is he subject to the judgments of such men.</p>
+<h3><a class="header" href="#7131" id="7131">7.13.1</a></h3>
+<p>sri-narada uvaca</p>
+<p>kalpas tv evam parivrajya</p>
+<p>deha-matravasesitah</p>
+<p>gramaika-ratra-vidhina</p>
+<p>nirapeksas caren mahim</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-naradah uvaca—Sri Narada Muni said; kalpah—a person who is competent to undergo the austerities of sannyasa, the renounced order of life, or to prosecute studies in transcendental knowledge; tu—but; evam—in this way (as described previously); parivrajya—fully understanding his spiritual identity and thus traveling from one place to another; deha-matra—keeping only the body; avasesitah—at last; grama—in a village; eka—one only; ratra—of passing a night; vidhina—in the process; nirapeksah—without dependence on any material thing; caret—should move from one place to another; mahim—on the earth.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sri Narada Muni said: A person able to cultivate spiritual knowledge should renounce all material connections, and merely keeping the body inhabitable, he should travel from one place to another, passing only one night in each village.</p>
+<p>In this way, without dependence in regard to the needs of the body, the sannyasi should travel all over the world.</p>
+<h3><a class="header" href="#7132" id="7132">7.13.2</a></h3>
+<p>bibhryad yady asau vasah</p>
+<p>kaupinacchadanam param</p>
+<p>tyaktam na lingad dandader</p>
+<p>anyat kincid anapadi</p>
+<p><strong>SYNONYMS</strong></p>
+<p>bibhryat—one should use; yadi—if; asau—a person in the renounced order; vasah—a garment or covering; kaupina—a loincloth (just to cover the private parts); acchadanam—for covering; param—that much only; tyaktam—given up; na—not; lingat—than the distinguishing marks of a sannyasi; danda-adeh—like the rod (tridanda); anyat—other; kincit—anything; anapadi—in ordinary undisturbed times.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>A person in the renounced order of life may try to avoid even a dress to cover himself.</p>
+<p>If he wears anything at all, it should be only a loincloth, and when there is no necessity, a sannyasi should not even accept a danda.</p>
+<p>A sannyasi should avoid carrying anything but a danda and kamandalu.</p>
+<h3><a class="header" href="#7133" id="7133">7.13.3</a></h3>
+<p>eka eva cared bhiksur</p>
+<p>atmaramo ’napasrayah</p>
+<p>sarva-bhuta-suhrc-chanto</p>
+<p>narayana-parayanah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ekah—alone; eva—only; caret—can move; bhiksuh—a sannyasi taking alms; atma-aramah—fully satisfied in the self; anapasrayah—without depending on anything; sarva-bhuta-suhrt—becoming a well-wisher of all living entities; santah—completely peaceful; narayana-parayanah—becoming absolutely dependent on Narayana and becoming His devotee.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The sannyasi, completely satisfied in the self, should live on alms begged from door to door.</p>
+<p>Not being dependent on any person or any place, he should always be a friendly well-wisher to all living beings and be a peaceful, unalloyed devotee of Narayana.</p>
+<p>In this way he should move from one place to another.</p>
+<h3><a class="header" href="#7134" id="7134">7.13.4</a></h3>
+<p>pasyed atmany ado visvam</p>
+<p>pare sad-asato ’vyaye</p>
+<p>atmanam ca param brahma</p>
+<p>sarvatra sad-asan-maye</p>
+<p><strong>SYNONYMS</strong></p>
+<p>pasyet—one should see; atmani—in the Supreme Soul; adah—this; visvam—universe; pare—beyond; sat-asatah—the creation or cause of creation; avyaye—in the Absolute, which is free from deterioration; atmanam—himself; ca—also; param—the supreme; brahma—absolute; sarvatra—everywhere; sat-asat—in the cause and in the effect; maye—all-pervading.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The sannyasi should always try to see the Supreme pervading everything and see everything, including this universe, resting on the Supreme.</p>
+<h3><a class="header" href="#7135" id="7135">7.13.5</a></h3>
+<p>supti-prabodhayoh sandhav</p>
+<p>atmano gatim atma-drk</p>
+<p>pasyan bandham ca moksam ca</p>
+<p>maya-matram na vastutah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>supti—in the state of unconsciousness; prabodhayoh—and in the state of consciousness; sandhau—in the state of marginal existence; atmanah—of oneself; gatim—the movement; atma-drk—one who can actually see the self; pasyan—always trying to see or understand; bandham—the conditional state of life; ca—and; moksam—the liberated state of life; ca—also; maya-matram—only illusion; na—not; vastutah—in fact.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>During unconsciousness and consciousness, and between the two, he should try to understand the self and be fully situated in the self.</p>
+<p>In this way, he should realize that the conditional and liberated stages of life are only illusory and not actually factual.</p>
+<p>With such a higher understanding, he should see only the Absolute Truth pervading everything.</p>
+<p><strong>PURPORT</strong></p>
+<p>The unconscious state is nothing but ignorance, darkness or material existence, and in the conscious state one is awake.</p>
+<p>The marginal state, between consciousness and unconsciousness, has no permanent existence.</p>
+<p>Therefore one who is advanced in understanding the self should understand that unconsciousness and consciousness are but illusions, for they fundamentally do not exist.</p>
+<p>Only the Supreme Absolute Truth exists.</p>
+<p>As confirmed by the Lord in Bhagavad-gita (9.4):</p>
+<p>maya tatam idam sarvam</p>
+<p>jagad avyakta-murtina</p>
+<p>mat-sthani sarva-bhutani</p>
+<p>na caham tesv avasthitah</p>
+<p>By Me, in My unmanifested form, this entire universe is pervaded.</p>
+<p>All beings are in Me, but I am not in them Everything exists on the basis of Krsna’s impersonal feature; nothing can exist without Krsna.</p>
+<p>Therefore the advanced devotee of Krsna can see the Lord everywhere, without illusion.</p>
+<h3><a class="header" href="#7136" id="7136">7.13.6</a></h3>
+<p>nabhinanded dhruvam mrtyum</p>
+<p>adhruvam vasya jivitam</p>
+<p>kalam param pratikseta</p>
+<p>bhutanam prabhavapyayam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—not; abhinandet—one should praise; dhruvam—sure; mrtyum—death; adhruvam—not sure; va—either; asya—of this body; jivitam—the duration of life; kalam—eternal time; param—supreme; pratikseta—one must observe; bhutanam—of the living entities; prabhava—manifestation; apyayam—disappearance.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Since the material body is sure to be vanquished and the duration of one’s life is not fixed, neither death nor life is to be praised.</p>
+<p>Rather, one should observe the eternal time factor, in which the living entity manifests himself and disappears.</p>
+<p><strong>PURPORT</strong></p>
+<p>The living entities in the material world, not only at the present but also in the past, have been involved in trying to solve the problem of birth and death.</p>
+<p>Some stress death and point to the illusory existence of everything material, whereas others stress life, trying to preserve it perpetually and enjoy it to the best of their ability.</p>
+<p>Both of them are fools and rascals.</p>
+<p>It is advised that one observe the eternal time factor, which is the cause of the material body’s appearance and disappearance, and that one observe the living entity’s entanglement in this time factor.</p>
+<p>Srila Bhaktivinoda Thakura therefore sings in his Gitavali:</p>
+<p>taribare na dekhi upaya</p>
+<p>One should observe the activities of eternal time, which is the cause of birth and death.</p>
+<p>Before the creation of the present millennium, the living entities were under the influence of the time factor, and within the time factor the material world comes into existence and is again annihilated.</p>
+<p>Bhutva bhutva praliyate.</p>
+<p>Being under the control of the time factor, the living entities appear and die, life after life.</p>
+<p>This time factor is the impersonal representation of the Supreme Personality of Godhead, who gives the living entities conditioned by material nature a chance to emerge from this nature by surrendering to Him.</p>
+<h3><a class="header" href="#7137" id="7137">7.13.7</a></h3>
+<p>nasac-chastresu sajjeta</p>
+<p>nopajiveta jivikam</p>
+<p>vada-vadams tyajet tarkan</p>
+<p>paksam kamca na samsrayet</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—not; asat-sastresu—literature like newspapers, novels, dramas and fiction; sajjeta—one should be attached or should indulge in reading; na—nor; upajiveta—one should try to live; jivikam—upon some professional literary career; vada-vadan—unnecessary arguments on different aspects of philosophy; tyajet—one should give up; tarkan—arguments and counterarguments; paksam—faction; kamca—any; na—not; samsrayet—should take shelter of.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Literature that is a useless waste of time—in other words, literature without spiritual benefit—should be rejected.</p>
+<p>One should not become a professional teacher as a means of earning one’s livelihood, nor should one indulge in arguments and counter-arguments.</p>
+<p>Nor should one take shelter of any cause or faction.</p>
+<p><strong>PURPORT</strong></p>
+<p>A person desiring to advance in spiritual understanding should be extremely careful to avoid reading ordinary literature.</p>
+<p>The world is full of ordinary literature that creates unnecessary agitation in the mind.</p>
+<p>Such literature, including newspapers, dramas, novels and magazines, is factually not meant for advancement in spiritual knowledge.</p>
+<p>Indeed, it has been described as a place of enjoyment for crows (tad vayasam tirtham).</p>
+<p>Anyone advancing in spiritual knowledge must reject such literature.</p>
+<p>Furthermore, one should not concern oneself with the conclusions of various logicians or philosophers.</p>
+<p>Of course, those who preach sometimes need to argue with the contentions of opponents, but as much as possible one should avoid an argumentative attitude.</p>
+<p>In this connection, Srila Madhvacarya says:</p>
+<p>naprayojana-paksi syan</p>
+<p>na vrtha sisya-bandha-krt</p>
+<p>na codasinah sastrani</p>
+<p>na viruddhani cabhyaset</p>
+<p>na vyakhyayopajiveta</p>
+<p>na nisiddhan samacaret</p>
+<p>evam-bhuto yatir yati</p>
+<p>tad-eka-sarano harim</p>
+<p>There is no need to take shelter of unnecessary literature or concern oneself with many so-called philosophers and thinkers who are useless for spiritual advancement.</p>
+<p>Nor should one accept a disciple for the sake of fashion or popularity.</p>
+<p>One should be callous to these so-called sastras, neither opposing nor favoring them, and one should not earn one’s livelihood by taking money for explaining sastra.</p>
+<p>A sannyasi must always be neutral and seek the means to advance in spiritual life, taking full shelter under the lotus feet of the Lord</p>
+<h3><a class="header" href="#7138" id="7138">7.13.8</a></h3>
+<p>na sisyan anubadhnita</p>
+<p>granthan naivabhyased bahun</p>
+<p>na vyakhyam upayunjita</p>
+<p>narambhan arabhet kvacit</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—not; sisyan—disciples; anubadhnita—one should induce for material benefit; granthan—unnecessary literatures; na—not; eva—certainly; abhyaset—should try to understand or cultivate; bahun—many; na—nor; vyakhyam—discourses; upayunjita—should make as a means of livelihood; na—nor; arambhan—unnecessary opulences; arabhet—should attempt to increase; kvacit—at any time.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>A sannyasi must not present allurements of material benefits to gather many disciples, nor should he unnecessarily read many books or give discourses as a means of livelihood.</p>
+<p>He must never attempt to increase material opulences unnecessarily.</p>
+<p><strong>PURPORT</strong></p>
+<p>So-called svamis and yogis generally make disciples by alluring them with material benefits.</p>
+<p>There are many so-called gurus who attract disciples by promising to cure their diseases or increase their material opulence by manufacturing gold.</p>
+<p>These are lucrative allurements for unintelligent men.</p>
+<p>A sannyasi is prohibited from making disciples through such material allurements.</p>
+<p>Sannyasis sometimes indulge in material opulence by unnecessarily constructing many temples and monasteries, but actually such endeavors should be avoided.</p>
+<p>Temples and monasteries should be constructed for the preaching of spiritual consciousness or Krsna consciousness, not to provide free hotels for persons who are useful for neither material nor spiritual purposes.</p>
+<p>Temples and monasteries should be strictly off limits to worthless clubs of crazy men.</p>
+<p>In the Krsna consciousness movement we welcome everyone who agrees at least to follow the movement’s regulative principles—no illicit sex, no intoxication, no meat-eating and no gambling.</p>
+<p>In the temples and monasteries, gatherings of unnecessary, rejected, lazy fellows should be strictly disallowed.</p>
+<p>The temples and monasteries should be used exclusively by devotees who are serious about spiritual advancement in Krsna consciousness.</p>
+<p>Srila Visvanatha Cakravarti Thakura explains the word arambhan as meaning mathadi-vyaparan, which means attempts to construct temples and monasteries The first business of the sannyasi is to preach Krsna consciousness, but if, by the grace of Krsna, facilities are available, then he may construct temples and monasteries to give shelter to the serious students of Krsna consciousness.</p>
+<p>Otherwise such temples and monasteries are not needed.</p>
+<h3><a class="header" href="#7139" id="7139">7.13.9</a></h3>
+<p>na yater asramah prayo</p>
+<p>dharma-hetur mahatmanah</p>
+<p>santasya sama-cittasya</p>
+<p>bibhryad uta va tyajet</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—not; yateh—of the sannyasi; asramah—the symbolic dress (with danda and kamandalu); prayah—almost always; dharma-hetuh—the cause of advancement in spiritual life; maha-atmanah—who is factually exalted and advanced; santasya—who is peaceful; sama-cittasya—who has attained the stage of being equipoised; bibhryat—one may accept (such symbolic signs); uta—indeed; va—or; tyajet—one may give up.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>A peaceful, equipoised person who is factually advanced in spiritual consciousness does not need to accept the symbols of a sannyasi, such as the tridanda and kamandalu.</p>
+<p>According to necessity, he may sometimes accept those symbols and sometimes reject them.</p>
+<p><strong>PURPORT</strong></p>
+<p>There are four stages of the renounced order of life—kuticaka, bahudaka, parivrajakacarya and paramahamsa.</p>
+<p>Herein, Srimad-Bhagavatam considers the paramahamsas among the sannyasis.</p>
+<p>The Mayavadi impersonalist sannyasis cannot attain the paramahamsa stage.</p>
+<p>This is because of their impersonal conception of the Absolute Truth.</p>
+<p>Brahmeti paramatmeti bhagavan iti sabdyate.</p>
+<p>The Absolute Truth is perceived in three stages, of which bhagavan, or realization of the Supreme Personality of Godhead, is meant for the paramahamsas.</p>
+<p>Indeed, Srimad-Bhagavatam itself is meant for the paramahamsas (paramo nirmatsaranam satam).</p>
+<p>Unless one is in the paramahamsa stage, he is not eligible to understand the Srimad-Bhagavatam.</p>
+<p>For paramahamsas, or sannyasis in the Vaisnava order, preaching is the first duty.</p>
+<p>To preach, such sannyasis may accept the symbols of sannyasa, such as the danda and kamandalu, or sometimes they may not.</p>
+<p>Generally the Vaisnava sannyasis, being paramahamsas, are automatically called babajis, and they do not carry a kamandalu or danda.</p>
+<p>Such a sannyasi is free to accept or reject the marks of sannyasa.</p>
+<p>His only thought is Where is there an opportunity to spread Krsna consciousness Sometimes the Krsna consciousness movement sends its representative sannyasis to foreign countries where the danda and kamandalu are not very much appreciated.</p>
+<p>We send our preachers in ordinary dress to introduce our books and philosophy.</p>
+<p>Our only concern is to attract people to Krsna consciousness.</p>
+<p>We may do this in the dress of sannyasis or in the regular dress of gentlemen.</p>
+<p>Our only concern is to spread interest in Krsna consciousness.</p>
+<h3><a class="header" href="#71310" id="71310">7.13.10</a></h3>
+<p>avyakta-lingo vyaktartho</p>
+<p>manisy unmatta-balavat</p>
+<p>kavir mukavad atmanam</p>
+<p>sa drstya darsayen nrnam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>avyakta-lingah—whose symptoms of sannyasa are unmanifested; vyakta-arthah—whose purpose is manifested; manisi—such a great saintly person; unmatta—restless; bala-vat—like a boy; kavih—a great poet or orator; muka-vat—like a dumb man; atmanam—himself; sah—he; drstya—by example; darsayet—should present; nrnam—to human society.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Although a saintly person may not expose himself to the vision of human society, by his behavior his purpose is disclosed.</p>
+<p>To human society he should present himself like a restless child, and although he is the greatest thoughtful orator, he should present himself like a dumb man.</p>
+<p><strong>PURPORT</strong></p>
+<p>A great personality very much advanced in Krsna consciousness may not expose himself by the signs of a sannyasi.</p>
+<p>To cover himself, he may live like a restless child or a dumb person, although he is the greatest orator or poet.</p>
+<h3><a class="header" href="#71311" id="71311">7.13.11</a></h3>
+<p>atrapy udaharantimam</p>
+<p>itihasam puratanam</p>
+<p>prahradasya ca samvadam</p>
+<p>muner ajagarasya ca</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atra—herein; api—although not exposed to common eyes; udaharanti—the learned sages recite as an example; imam—this; itihasam—historical incident; puratanam—very, very old; prahradasya—of Prahlada Maharaja; ca—also; samvadam—conversation; muneh—of the great saintly person; ajagarasya—who took the profession of a python; ca—also.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>As a historical example of this, learned sages recite the story of an ancient discussion between Prahlada Maharaja and a great saintly person who was feeding himself like a python.</p>
+<p><strong>PURPORT</strong></p>
+<p>The saintly person met by Prahlada Maharaja was undergoing ajagara-vrtti, the living conditions of a python, which does not go anywhere but sits in one place for years and eats whatever is automatically available.</p>
+<p>Prahlada Maharaja, along with his associates, met this great saint and spoke to him as follows.</p>
+<h3><a class="header" href="#71312-13" id="71312-13">7.13.12-13</a></h3>
+<p>tam sayanam dharopasthe</p>
+<p>kaveryam sahya-sanuni</p>
+<p>rajas-valais tanu-desair</p>
+<p>nigudhamala-tejasam</p>
+<p>dadarsa lokan vicaran</p>
+<p>loka-tattva-vivitsaya</p>
+<p>vrto ’matyaih katipayaih</p>
+<p>prahrado bhagavat-priyah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tam—that (saintly person); sayanam—lying down; dhara-upasthe—on the ground; kaveryam—on the bank of the River Kaveri; sahya-sanuni—on a ridge of the mountain known as Sahya; rajah-valaih—covered with dust and dirt; tanu-desaih—with all the parts of the body; nigudha—very grave and deep; amala—spotless; tejasam—whose spiritual power; dadarsa—he saw; lokan—to all the different planets; vicaran—traveling; loka-tattva—the nature of the living beings (especially those who are trying to advance in Krsna consciousness); vivitsaya—to try to understand; vrtah—surrounded; amatyaih—by royal associates; katipayaih—a few; prahradah—Maharaja Prahlada; bhagavat-priyah—who is always very, very dear to the Supreme Personality of Godhead.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Prahlada Maharaja, the most dear servitor of the Supreme Personality of Godhead, once went out touring the universe with some of his confidential associates just to study the nature of saintly persons.</p>
+<p>Thus he arrived at the bank of the Kaveri, where there was a mountain known as Sahya.</p>
+<p>There he found a great saintly person who was lying on the ground, covered with dirt and dust, but who was deeply spiritually advanced.</p>
+<h3><a class="header" href="#71314" id="71314">7.13.14</a></h3>
+<p>karmanakrtibhir vaca</p>
+<p>lingair varnasramadibhih</p>
+<p>na vidanti jana yam vai</p>
+<p>so ’sav iti na veti ca</p>
+<p><strong>SYNONYMS</strong></p>
+<p>karmana—by activities; akrtibhih—by bodily features; vaca—by words; lingaih—by symptoms; varna-asrama—pertaining to the particular material and spiritual divisions of varna and asrama; adibhih—and by other symptoms; na vidanti—could not understand; janah—people in general; yam—whom; vai—indeed; sah—whether that person; asau—was the same person; iti—thus; na—not; va—or; iti—thus; ca—also.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Neither by that saintly person’s activities, by his bodily features, by his words nor by the symptoms of his varnasrama status could people understand whether he was the same person they had known.</p>
+<p><strong>PURPORT</strong></p>
+<p>The inhabitants of that particular place on the bank of the Kaveri in the valley of the mountain known as Sahya were unable to understand whether that saint was the same man they had known.</p>
+<p>It is therefore said, vaisnavera kriya mudra vijne na bhujhaya.</p>
+<p>A highly advanced Vaisnava lives in such a way that no one can understand what he is or what he was.</p>
+<p>Nor should attempts be made to understand the past of a Vaisnava.</p>
+<p>Without asking the saintly person about his previous life, Prahlada Maharaja immediately offered him respectful obeisances.</p>
+<h3><a class="header" href="#71315" id="71315">7.13.15</a></h3>
+<p>tam natvabhyarcya vidhivat</p>
+<p>padayoh sirasa sprsan</p>
+<p>vivitsur idam apraksin</p>
+<p>maha-bhagavato ’surah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tam—him (the saintly person); natva—after offering obeisances unto; abhyarcya—and worshiping; vidhi-vat—in terms of the rules and regulations of etiquette; padayoh—the lotus feet of the saintly person; sirasa—with the head; sprsan—touching; vivitsuh—desiring to know about him (the saintly person); idam—the following words; apraksit—inquired; maha-bhagavatah—the very advanced devotee of the Lord; asurah—although born in an asura family.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The advanced devotee Prahlada Maharaja duly worshiped and offered obeisances to the saintly person who had adopted a python’s means of livelihood.</p>
+<p>After thus worshiping the saintly person and touching his own head to the saint’s lotus feet, Prahlada Maharaja, in order to understand him, inquired very submissively as follows.</p>
+<h3><a class="header" href="#71316-17" id="71316-17">7.13.16-17</a></h3>
+<p>bibharsi kayam pivanam</p>
+<p>sodyamo bhogavan yatha</p>
+<p>vittam caivodyamavatam</p>
+<p>bhogo vittavatam iha</p>
+<p>bhoginam khalu deho ’yam</p>
+<p>piva bhavati nanyatha</p>
+<p><strong>SYNONYMS</strong></p>
+<p>bibharsi—you are maintaining; kayam—a body; pivanam—fat; sa-udyamah—one who endeavors; bhogavan—one who enjoys; yatha—as; vittam—money; ca—also; eva—certainly; udyama-vatam—of persons always engaged in economic development; bhogah—sense gratification; vitta-vatam—for persons who possess considerable wealth; iha—in this world; bhoginam—of the enjoyers, karmis; khalu—indeed; dehah—body; ayam—this; piva—very fat; bhavati—becomes; na—not; anyatha—otherwise.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Seeing the saintly person to be quite fat, Prahlada Maharaja said: My dear sir, you undergo no endeavor to earn your livelihood, but you have a stout body, exactly like that of a materialistic enjoyer.</p>
+<p>I know that if one is very rich and has nothing to do, he becomes extremely fat by eating and sleeping and performing no work.</p>
+<p><strong>PURPORT</strong></p>
+<p>Srila Bhaktisiddhanta Sarasvati Thakura did not like his disciples to become very fat in the course of time.</p>
+<p>He would become very anxious upon seeing his fat disciples becoming bhogis, or enjoyers of the senses.</p>
+<p>This attitude is herewith confirmed by Prahlada Maharaja, who was surprised to see a saintly person adopting ajagara-vrtti and becoming very fat.</p>
+<p>In the material world also, we generally see that when a man who is poor and skinny gradually endeavors to earn money through business or some other means and he then gets the money, he enjoys the senses to his satisfaction.</p>
+<p>By enjoying the senses one becomes fat.</p>
+<p>Therefore in spiritual advancement becoming fat is not at all satisfactory.</p>
+<h3><a class="header" href="#71318" id="71318">7.13.18</a></h3>
+<p>na te sayanasya nirudyamasya</p>
+<p>brahman nu hartho yata eva bhogah</p>
+<p>abhogino ’yam tava vipra dehah</p>
+<p>piva yatas tad vada nah ksamam cet</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—not; te—of you; sayanasya—lying down; nirudyamasya—without activities; brahman—O saintly person; nu—indeed; ha—it is evident; arthah—money; yatah—from which; eva—indeed; bhogah—sense enjoyment; abhoginah—of one who is not engaged in sense enjoyment; ayam—this; tava—your; vipra—O learned brahmana; dehah—body; piva—fat; yatah—how is it; tat—that fact; vada—kindly tell; nah—us; ksamam—excuse; cet—if I have asked an impudent question.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O brahmana, fully in knowledge of transcendence, you have nothing to do, and therefore you are lying down.</p>
+<p>It is also understood that you have no money for sense enjoyment.</p>
+<p>How then has your body become so fat? Under the circumstances, if you do not consider my question impudent, kindly explain how this has happened.</p>
+<p><strong>PURPORT</strong></p>
+<p>Generally those engaged in spiritual advancement take food only once, either in the afternoon or in the evening.</p>
+<p>If one takes food only once, naturally he does not become fat.</p>
+<p>The learned sage, however, was quite fat, and therefore Prahlada Maharaja was very much surprised.</p>
+<p>Because of being experienced in self-realization, a transcendentalist certainly becomes bright-faced.</p>
+<p>And one who is advanced in self-realization must be considered to possess the body of a brahmana.</p>
+<p>Because the bright-faced saintly person was lying down and not working and yet was quite fat, Prahlada Maharaja was puzzled and wanted to question him about this.</p>
+<h3><a class="header" href="#71319" id="71319">7.13.19</a></h3>
+<p>kavih kalpo nipuna-drk</p>
+<p>citra-priya-kathah samah</p>
+<p>lokasya kurvatah karma</p>
+<p>sese tad-viksitapi va</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kavih—very learned; kalpah—expert; nipuna-drk—intelligent; citra-priya-kathah—able to speak palatable words that are pleasing to the heart; samah—equipoised; lokasya—of the people in general; kurvatah—engaged in; karma—fruitive work; sese—you lie down; tat-viksita—seeing them all; api—although; va—either.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Your Honor appears learned, expert and intelligent in every way.</p>
+<p>You can speak very well, saying things that are pleasing to the heart.</p>
+<p>You see that people in general are engaged in fruitive activities, yet you are lying here inactive.</p>
+<p><strong>PURPORT</strong></p>
+<p>Prahlada Maharaja studied the bodily features of the saintly person, and through the saint’s physiognomy Prahlada Maharaja could understand that he was intelligent and expert, although he was lying down and not doing anything.</p>
+<p>Prahlada was naturally inquisitive about why he was lying there inactive.</p>
+<h3><a class="header" href="#71320" id="71320">7.13.20</a></h3>
+<p>sri-narada uvaca</p>
+<p>sa ittham daitya-patina</p>
+<p>pariprsto maha-munih</p>
+<p>smayamanas tam abhyaha</p>
+<p>tad-vag-amrta-yantritah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-naradah uvaca—the great saint Narada Muni said; sah—that saintly person (lying down); ittham—in this way; daitya-patina—by the King of the Daityas (Prahlada Maharaja); pariprstah—being sufficiently questioned; maha-munih—the great saintly person; smayamanah—smiling; tam—unto him (Prahlada Maharaja); abhyaha—prepared to give answers; tat-vak—of his words; amrta-yantritah—being captivated by the nectar.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Narada Muni continued: When the saintly person was thus questioned by Prahlada Maharaja, the King of the Daityas, he was captivated by this shower of nectarean words, and he replied to the inquisitiveness of Prahlada Maharaja with a smiling face.</p>
+<h3><a class="header" href="#71321" id="71321">7.13.21</a></h3>
+<p>sri-brahmana uvaca</p>
+<p>vededam asura-srestha</p>
+<p>bhavan nanv arya-sammatah</p>
+<p>ihoparamayor nrnam</p>
+<p>padany adhyatma-caksusa</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-brahmanah uvaca—the brahmana replied; veda—know very well; idam—all these things; asura-srestha—O best of the asuras; bhavan—you; nanu—indeed; arya-sammatah—whose activities are approved by civilized men; iha—of inclination; uparamayoh—of decreasing; nrnam—of the people in general; padani—different stages; adhyatma-caksusa—by transcendental eyes.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The saintly brahmana said: O best of the asuras, Prahlada Maharaja, who are recognized by advanced and civilized men, you are aware of the different stages of life because of your inherent transcendental eyes, with which you can see a man’s character and thus know clearly the results of acceptance and rejection of things as they are.</p>
+<p><strong>PURPORT</strong></p>
+<p>A pure devotee like Prahlada Maharaja can understand the minds of others because of his pure vision in devotional service.</p>
+<p>A devotee like Prahlada Maharaja can study another man’s character without difficulty.</p>
+<h3><a class="header" href="#71322" id="71322">7.13.22</a></h3>
+<p>yasya narayano devo</p>
+<p>bhagavan hrd-gatah sada</p>
+<p>bhaktya kevalayajnanam</p>
+<p>dhunoti dhvantam arkavat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yasya—of whom; narayanah devah—the Supreme Personality of Godhead, Narayana; bhagavan—the Lord; hrt-gatah—in the core of the heart; sada—always; bhaktya—by devotional service; kevalaya—alone; ajnanam—ignorance; dhunoti—cleans; dhvantam—darkness; arka-vat—as the sun.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Narayana, the Supreme Personality of Godhead, who is full of all opulences, is predominant within the core of your heart because of your being a pure devotee.</p>
+<p>He always drives away all the darkness of ignorance, as the sun drives away the darkness of the universe.</p>
+<p><strong>PURPORT</strong></p>
+<p>The words bhaktya kevalaya indicate that simply by executing devotional service one can become full of all knowledge.</p>
+<p>Krsna is the master of all knowledge (aisvaryasya samagrasya viryasya yasasah sriyah).</p>
+<p>The Lord is situated in everyone’s heart (isvarah sarva-bhutanam hrd-dese ’rjuna tisthati (Bg.18.61)), and when the Lord is pleased with a devotee, the Lord instructs him.</p>
+<p>Only to the devotees, however, does the Lord give instructions by which to advance further and further in devotional service.</p>
+<p>To others, the nondevotees, the Lord gives instructions according to the manner of their surrender.</p>
+<p>The pure devotee is described by the words bhaktya kevalaya.</p>
+<p>Srila Visvanatha Cakravarti Thakura explains that bhaktya kevalaya means jnana-karmady-amisraya, unmixed with fruitive activities or speculative knowledge Simply surrendering at the lotus feet is the cause of all a devotee’s enlightenment and awareness.</p>
+<h3><a class="header" href="#71323" id="71323">7.13.23</a></h3>
+<p>tathapi brumahe prasnams</p>
+<p>tava rajan yatha-srutam</p>
+<p>sambhasaniyo hi bhavan</p>
+<p>atmanah suddhim icchata</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tathapi—still; brumahe—I shall answer; prasnan—all the questions; tava—your; rajan—O King; yatha-srutam—as I have learned by hearing from the authorities; sambhasaniyah—fit for being addressed; hi—indeed; bhavan—you; atmanah—of the self; suddhim—purification; icchata—by one who desires.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear King, although you know everything, you have posed some questions, which I shall try to answer according to what I have learned by hearing from authorities.</p>
+<p>I cannot remain silent in this regard, for a personality like you is just fit to be spoken to by one who desires self-purification.</p>
+<p><strong>PURPORT</strong></p>
+<p>A saintly person doesn’t wish to speak to anyone and everyone, and he is therefore grave and silent.</p>
+<p>Generally a common man does not need to be advised.</p>
+<p>Unless one is prepared to take instructions, it is said that a saintly person should not address him, although sometimes, because of great kindness, a saintly person speaks to ordinary men.</p>
+<p>As for Prahlada Maharaja, however, since he was not a common, ordinary man, whatever questions he posed would have to be answered, even by a great and exalted personality.</p>
+<p>Therefore the saintly brahmana did not remain silent, but began to answer.</p>
+<p>These answers, however, were not concocted by him.</p>
+<p>This is indicated by the words yatha-srutam, meaning as I have heard from the authorities In the parampara system, when the questions are bona fide the answers are bona fide.</p>
+<p>No one should attempt to create or manufacture answers.</p>
+<p>One must refer to the sastras and give answers according to Vedic understanding.</p>
+<p>The words yatha-srutam refer to Vedic knowledge.</p>
+<p>The Vedas are known as sruti because this knowledge is received from authorities.</p>
+<p>The statements of the Vedas are known as sruti-pramana.</p>
+<p>One should quote evidence from the sruti—the Vedas or Vedic literature—and then one’s statements will be correct.</p>
+<p>Otherwise one’s words will proceed from mental concoction.</p>
+<h3><a class="header" href="#71324" id="71324">7.13.24</a></h3>
+<p>trsnaya bhava-vahinya</p>
+<p>yogyaih kamair apuryaya</p>
+<p>karmani karyamano ’ham</p>
+<p>nana-yonisu yojitah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>trsnaya—because of material desires; bhava-vahinya—under the sway of the material laws of nature; yogyaih—as it is befitting; kamaih—by material desires; apuryaya—without end, one after another; karmani—activities; karyamanah—constantly being compelled to perform; aham—I; nana-yonisu—in various forms of life; yojitah—engaged in the struggle for existence.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Because of insatiable material desires, I was being carried away by the waves of material nature’s laws, and thus I was engaging in different activities, struggling for existence in various forms of life.</p>
+<p><strong>PURPORT</strong></p>
+<p>As long as a living entity wants to fulfill various types of material desire, he must continuously change from one body to accept another.</p>
+<p>Srila Visvanatha Cakravarti Thakura explains that as a small piece of grass falls in a river and is tossed about with different types of wood and tree branches, the living entity floats in the ocean of material existence and is dashed and tossed amidst material conditions.</p>
+<p>This is called the struggle for existence.</p>
+<p>One kind of fruitive activity causes the living being to take one form of body, and because of actions performed in that body, another body is created.</p>
+<p>One must therefore stop these material activities, and the chance to do so is given in the human form of life.</p>
+<p>Specifically, our energy to act should be engaged in the service of the Lord, for then materialistic activities will automatically stop.</p>
+<p>One must fulfill one’s desires by surrendering unto the Supreme Lord, for He knows how to fulfill them.</p>
+<p>Even though one may have material desires, one should therefore engage in the devotional service of the Lord.</p>
+<p>That will purify one’s struggle for existence akamah sarva-kamo va</p>
+<p>moksa-kama udara-dhih</p>
+<p>tivrena bhakti-yogena</p>
+<p>yajeta purusam param</p>
+<p>A person who has broader intelligence, whether he be full of all material desire, without any material desire, or desiring liberation, must by all means worship the supreme whole, the Personality of Godhead (Bhag.2.3.10)</p>
+<p>anyabhilasita-sunyam</p>
+<p>jnana-karmady-anavrtam</p>
+<p>anukulyena krsnanu-</p>
+<p>silanam bhaktir uttama</p>
+<p>(Madhya 19.167)</p>
+<p>One should render transcendental loving service to the Supreme Lord Krsna favorably and without desire for material profit or gain through fruitive activities or philosophical speculation.</p>
+<p>That is called pure devotional service (Bhakti-rasamrta-sindhu1.1.11)</p>
+<h3><a class="header" href="#71325" id="71325">7.13.25</a></h3>
+<p>yadrcchaya lokam imam</p>
+<p>prapitah karmabhir bhraman</p>
+<p>svargapavargayor dvaram</p>
+<p>tirascam punar asya ca</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yadrcchaya—carried by the waves of material nature; lokam—human form; imam—this; prapitah—achieved; karmabhih—by the influence of different fruitive activities; bhraman—wandering from one form of life to another; svarga—to the heavenly planets; apavargayoh—to liberation; dvaram—the gate; tirascam—lower species of life; punah—again; asya—of the human beings; ca—and.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In the course of the evolutionary process, which is caused by fruitive activities due to undesirable material sense gratification, I have received this human form of life, which can lead to the heavenly planets, to liberation, to the lower species, or to rebirth among human beings.</p>
+<p><strong>PURPORT</strong></p>
+<p>All living entities within this material world are undergoing the cycle of birth and death according to the laws of nature.</p>
+<p>This struggle of birth and death in different species may be called the evolutionary process, but in the Western world it has been wrongly explained.</p>
+<p>Darwin’s theory of evolution from animal to man is incomplete because the theory does not present the reverse condition, namely evolution from man to animal.</p>
+<p>In this verse, however, evolution has been very well explained on the strength of Vedic authority.</p>
+<p>Human life, which is obtained in the course of the evolutionary process, is a chance for elevation (svargapavarga) or for degradation (tirascam punar asya ca).</p>
+<p>If one uses this human form of life properly, he can elevate himself to the higher planetary systems, where material happiness is many thousands of times better than on this planet, or one may cultivate knowledge by which to become free from the evolutionary process and be reinstated in one’s original spiritual life.</p>
+<p>This is called apavarga, or liberation.</p>
+<p>Material life is called pavarga because here we are subject to five different states of suffering, represented by the letters pa, pha, ba, bha and ma.</p>
+<p>Pa means parisrama, very hard labor.</p>
+<p>Pha means phena, or foam from the mouth.</p>
+<p>For example, sometimes we see a horse foaming at the mouth with heavy labor.</p>
+<p>Ba means byarthata, disappointment.</p>
+<p>In spite of so much hard labor, at the end we find disappointment.</p>
+<p>Bha means bhaya, or fear.</p>
+<p>In material life, one is always in the blazing fire of fear, since no one knows what will happen next.</p>
+<p>Finally, ma means mrtyu, or death.</p>
+<p>When one attempts to nullify these five different statuses of life—pa, pha, ba, bha and ma—one achieves apavarga, or liberation from the punishment of material existence.</p>
+<p>The word tirascam refers to degraded life.</p>
+<p>Human life, of course, provides an opportunity for the best living conditions.</p>
+<p>As Western people think, from the monkeys come the human beings, who are more comfortably situated.</p>
+<p>However, if one does not utilize his human life for svarga or apavarga, he falls again to the degraded life of animals like dogs and hogs.</p>
+<p>Therefore a sane human being must consider whether he will elevate himself to the higher planets, prepare to free himself from the evolutionary process, or travel again through the evolutionary process in higher and lower grades of life.</p>
+<p>If one works piously one may be elevated to the higher planetary systems or achieve liberation and return home, back to Godhead, but otherwise one may be degraded to a life as a dog, a hog and so on.</p>
+<p>As explained in Bhagavad-gita (9.25), yanti deva-vrata devan.</p>
+<p>Those interested in being elevated to the higher planetary systems (Devaloka or Svargaloka) must prepare to do so.</p>
+<p>Similarly, if one wants liberation and wants to return home, back to Godhead, he should prepare himself for that purpose.</p>
+<p>Our Krsna consciousness movement is therefore the highest movement for the benediction of human society because this movement is teaching people how to go back home, back to Godhead.</p>
+<p>In Bhagavad-gita (13.22) it is clearly stated that different forms of life are obtained by association with the three modes of material nature (karanam guna-sango ’sya sad-asad-yoni janmasu).</p>
+<p>According to one’s association with the material qualities of goodness, passion and ignorance in this life, in one’s next life one receives an appropriate body.</p>
+<p>Modern civilization does not know that because of varied association in material nature, the living entity, although eternal, is placed in different diseased conditions known as the many species of life.</p>
+<p>Modern civilization is unaware of the laws of nature prakrteh kriyamanani</p>
+<p>gunaih karmani sarvasah</p>
+<p>ahankara-vimudhatma</p>
+<p>kartaham iti manyate</p>
+<p>The bewildered spirit soul, under the influence of the three modes of material nature, thinks himself the performer of activities that are in actuality carried out by nature (Bg.3.27) Every living entity is under the full control of the stringent laws of material nature, but rascals think themselves independent.</p>
+<p>Actually, however, they cannot be independent.</p>
+<p>This is foolishness.</p>
+<p>A foolish civilization is extremely risky, and therefore the Krsna consciousness movement is trying to make people aware of their fully dependent condition under the stringent laws of nature and is trying to save them from being victimized by strong maya, which is Krsna’s external energy.</p>
+<p>Behind the material laws is the supreme controller, Krsna (mayadhyaksena prakrtih suyate sacaracaram (Bg.9.10)).</p>
+<p>Therefore if one surrenders unto Krsna (mam eva ye prapadyante mayam etam taranti te (Bg.7.14)), one may immediately be freed from the control of external nature (sa guna-n samatityaitan brahma-bhuyaya kalpate).</p>
+<p>This should be the aim of life.</p>
+<h3><a class="header" href="#71326" id="71326">7.13.26</a></h3>
+<p>tatrapi dam-patinam ca</p>
+<p>sukhayanyapanuttaye</p>
+<p>karmani kurvatam drstva</p>
+<p>nivrtto ’smi viparyayam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatra—there; api—also; dam-patinam—of men and women united by marriage; ca—and; sukhaya—for the sake of pleasure, specifically the pleasure of sex life; anya-apanuttaye—for avoiding misery; karmani—fruitive activities; kurvatam—always engaged in; drstva—by observing; nivrttah asmi—I have now ceased (from such activities); viparyayam—the opposite.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In this human form of life, a man and women unite for the sensual pleasure of sex, but by actual experience we have observed that none of them are happy.</p>
+<p>Therefore, seeing the contrary results, I have stopped taking part in materialistic activities.</p>
+<p><strong>PURPORT</strong></p>
+<p>As stated by Prahlada Maharaja, yan maithunadi-grhamedhi-sukham hi tuccham (SB 7.9.45).</p>
+<p>Man and woman both seek sexual enjoyment, and when they are united by the ritualistic ceremony of marriage, they are happy for some time, but finally there is dissension, and thus there are so many cases of separation and divorce.</p>
+<p>Although every man and woman is actually eager to enjoy life through sexual unity, the result is disunity and distress.</p>
+<p>Marriage is recommended to give men and women a concession for restricted sex life, which is also recommended in Bhagavad-gita by the Supreme Personality of Godhead.</p>
+<p>Dharmaviruddho bhutesu kamo ’smi: sex life not against the principles of religion is Krsna.</p>
+<p>Every living entity is always eager to enjoy sex life because materialistic life consists of eating, sleeping, sex and fear.</p>
+<p>In animal life, eating, sleeping, sexual enjoyment and fear cannot be regulated, but for human society the plan is that although men, like animals, must be allowed to eat, sleep, enjoy sex and take protection from fear, they must be regulated.</p>
+<p>The Vedic plan for eating recommends that one take yajna-sista, or prasada, food offered to Krsna.</p>
+<p>Yajna-sistasinah santo mucyante sama-kilbisaih: The devotees of the Lord are released from all kinds of sins because they eat food that is offered first for sacrifice (Bg.3.13) In material life, one commits sinful activities, especially in eating, and because of sinful activities one is condemned by nature’s laws to accept another body, which is imposed as punishment.</p>
+<p>Sex and eating are essential, and therefore they are offered to human society under Vedic restrictions so that according to the Vedic injunctions people may eat, sleep, enjoy sex, be protected from fearful life and gradually be elevated and liberated from the punishment of material existence.</p>
+<p>Thus the Vedic injunctions for marriage offer a concession to human society, the idea being that a man and woman united in a ritualistic marriage ceremony should help one another advance in spiritual life.</p>
+<p>Unfortunately, especially in this age, men and women unite for unrestricted sexual enjoyment.</p>
+<p>Thus they are victimized, being obliged to take rebirth in the forms of animals to fulfill their animalistic propensities.</p>
+<p>The Vedic injunctions therefore warn, nayam deho deha-bhajam nrloke kastan kaman arhate vid-bhujam ye (Bhag.5.5.1).</p>
+<p>One should not enjoy sex life like hogs, and eat everything, even to the limit of stool.</p>
+<p>A human being should eat prasada offered to the Deity and should enjoy sex life according to the Vedic injunctions.</p>
+<p>He should engage himself in the business of Krsna consciousness, he should save himself from the fearful condition of material existence, and he should sleep only to recover from fatigue due to working hard.</p>
+<p>The learned brahmana said that since everything is misused by fruitive workers, he had retired from all fruitive activities.</p>
+<h3><a class="header" href="#71327" id="71327">7.13.27</a></h3>
+<p>sukham asyatmano rupam</p>
+<p>sarvehoparatis tanuh</p>
+<p>manah-samsparsajan drstva</p>
+<p>bhogan svapsyami samvisan</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sukham—happiness; asya—of him; atmanah—of the living entity; rupam—the natural position; sarva—all; iha—material activities; uparatih—completely stopping; tanuh—the medium of its manifestation; manah-samsparsa-jan—produced from demands for sense gratification; drstva—after seeing; bhogan—sense enjoyment; svapsyami—I am sitting silently, thinking deeply about these material activities; samvisan—entering into such activities.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The actual form of life for the living entities is one of spiritual happiness, which is real happiness.</p>
+<p>This happiness can be achieved only when one stops all materialistic activities.</p>
+<p>Material sense enjoyment is simply imagination.</p>
+<p>Therefore, considering this subject matter, I have ceased from all material activities and am lying down here.</p>
+<p><strong>PURPORT</strong></p>
+<p>The difference between the philosophy of the Mayavadis and that of the Vaisnavas is explained herein.</p>
+<p>Both the Mayavadis and Vaisnavas know that in materialistic activities there is no happiness.</p>
+<p>The Mayavadi philosophers, therefore, adhering to the slogan brahma satyam jagan mithya, want to refrain from false, materialistic activities.</p>
+<p>They want to stop all activities and merge in the Supreme Brahman.</p>
+<p>According to the Vaisnava philosophy, however, if one simply ceases from materialistic activity one cannot remain inactive for very long, and therefore everyone should engage himself in spiritual activities, which will solve the problem of suffering in this material world.</p>
+<p>It is said, therefore, that although the Mayavadi philosophers strive to refrain from materialistic activities and merge in Brahman, and although they may actually merge in the Brahman existence, for want of activity they fall down again into materialistic activity (aruhya krcchrena param padam tatah patanty adhah (SB 10.2.32)).</p>
+<p>Thus the so-called renouncer, unable to remain in meditation upon Brahman, returns to materialistic activities by opening hospitals and schools and so on.</p>
+<p>Therefore, simply cultivating knowledge that materialistic activities cannot give one happiness, and that one should consequently cease from such activities, is insufficient.</p>
+<p>One should cease from materialistic activities and take up spiritual activities.</p>
+<p>Then the solution to the problem will be achieved.</p>
+<p>Spiritual activities are activities performed according to the order of Krsna (anukulyena krsnanusilanam).</p>
+<p>If one does whatever Krsna says, his activities are not material.</p>
+<p>For example, when Arjuna fought in response to the order of Krsna, his activities were not material.</p>
+<p>Fighting for sense gratification is a materialistic activity, but fighting by the order of Krsna is spiritual.</p>
+<p>By spiritual activities one becomes eligible to go back home, back to Godhead, and then enjoy blissful life eternally.</p>
+<p>Here, in the material world, everything is but a mental concoction that will never give us real happiness.</p>
+<p>The practical solution, therefore, is to cease from materialistic activities and engage in spiritual activities.</p>
+<p>Yajnarthat karmano ’nyatra loko ’yam karma-bandhanah (Bg.3.9)).</p>
+<p>If one works for the sake of pleasing the Supreme Lord—Yajna, or Visnu—one is in liberated life.</p>
+<p>If one fails to do so, however, he remains in a life of bondage.</p>
+<h3><a class="header" href="#71328" id="71328">7.13.28</a></h3>
+<p>ity etad atmanah svartham</p>
+<p>santam vismrtya vai puman</p>
+<p>vicitram asati dvaite</p>
+<p>ghoram apnoti samsrtim</p>
+<p><strong>SYNONYMS</strong></p>
+<p>iti—in this way; etat—a person materially conditioned; atmanah—of his self; sva-artham—own interest; santam—existing within oneself; vismrtya—forgetting; vai—indeed; puman—the living entity; vicitram—attractive false varieties; asati—in the material world; dvaite—other than the self; ghoram—very fearful (due to continuous acceptance of birth and death); apnoti—one becomes entangled; samsrtim—in material existence.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In this way the conditioned soul living within the body forgets his self-interest because he identifies himself with the body.</p>
+<p>Because the body is material, his natural tendency is to be attracted by the varieties of the material world.</p>
+<p>Thus the living entity suffers the miseries of material existence.</p>
+<p><strong>PURPORT</strong></p>
+<p>Everyone is trying to be happy because, as explained in the previous verse, sukham asyatmano rupam sarvehoparatis tanuh: when the living entity is in his original spiritual form, he is happy by nature.</p>
+<p>There is no question of miseries for the spiritual being.</p>
+<p>As Krsna is always happy, the living entities, who are His parts and parcels, are also happy by nature, but because of being put within this material world and forgetting their eternal relationship with Krsna, they have forgotten their real nature.</p>
+<p>Because every one of us is a part of Krsna, we have a very affectionate relationship with Him, but because we have forgotten our identities and are considering the body to be the self, we are afflicted by all the troubles of birth, death, old age and disease.</p>
+<p>This misconception in materialistic life continues unless and until one comes to understand his relationship with Krsna.</p>
+<p>The happiness sought by the conditioned soul is certainly only illusion, as explained in the next verse.</p>
+<h3><a class="header" href="#71329" id="71329">7.13.29</a></h3>
+<p>jalam tad-udbhavais channam</p>
+<p>hitvajno jala-kamyaya</p>
+<p>mrgatrsnam upadhavet</p>
+<p>tathanyatrartha-drk svatah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>jalam—water; tat-udbhavaih—by grass grown from that water; channam—covered; hitva—giving up; ajnah—a foolish animal; jala-kamyaya—desiring to drink water; mrgatrsnam—a mirage; upadhavet—runs after; tatha—similarly; anyatra—somewhere else; artha-drk—self-interested; svatah—in himself.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Just as a deer, because of ignorance, cannot see the water within a well covered by grass, but runs after water elsewhere, the living entity covered by the material body does not see the happiness within himself, but runs after happiness in the material world.</p>
+<p><strong>PURPORT</strong></p>
+<p>This is an accurate example depicting how the living entity, because of lack of knowledge, runs after happiness outside his own self.</p>
+<p>When one understands his real identity as a spiritual being, he can understand the supreme spiritual being, Krsna, and the real happiness exchanged between Krsna and one’s self.</p>
+<p>It is very interesting to note how this verse points to the body’s growth from the spirit soul.</p>
+<p>The modern materialistic scientist thinks that life grows from matter, but actually the fact is that matter grows from life.</p>
+<p>The life, or the spiritual soul, is compared herein to water, from which clumps of matter grow in the form of grass.</p>
+<p>One who is ignorant of scientific knowledge of the spirit soul does not look inside the body to find happiness in the soul; instead, he goes outside to search for happiness, just as a deer without knowledge of the water beneath the grass goes out to the desert to find water.</p>
+<p>The Krsna consciousness movement is trying to remove the ignorance of misled human beings who are trying to find water outside the jurisdiction of life.</p>
+<p>Raso vai sah.</p>
+<p>Raso ’ham apsu kaunteya.</p>
+<p>The taste of water is Krsna.</p>
+<p>To quench one’s thirst, one must taste water by association with Krsna.</p>
+<p>This is the Vedic injunction.</p>
+<h3><a class="header" href="#71330" id="71330">7.13.30</a></h3>
+<p>dehadibhir daiva-tantrair</p>
+<p>atmanah sukham ihatah</p>
+<p>duhkhatyayam canisasya</p>
+<p>kriya moghah krtah krtah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>deha-adibhih—with the body, mind, ego and intelligence; daiva-tantraih—under the control of superior power; atmanah—of the self; sukham—happiness; ihatah—searching after; duhkha-atyayam—diminution of miserable conditions; ca—also; anisasya—of the living entity fully under the control of material nature; kriyah—plans and activities; moghah krtah krtah—become baffled again and again.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The living entity tries to achieve happiness and rid himself of the causes of distress, but because the various bodies of the living entities are under the full control of material nature, all his plans in different bodies, one after another, are ultimately baffled.</p>
+<p><strong>PURPORT</strong></p>
+<p>Because the materialist is in gross ignorance of how the laws of material nature act upon him as a result of his fruitive activity, he mistakenly plans to enjoy bodily comfort in the human form of life through so-called economic development, through pious activities for elevation to the higher planetary systems, and in many other ways, but factually he becomes a victim of the reactions of his fruitive activities.</p>
+<p>The Supreme Personality of Godhead is situated as the Supersoul within the cores of the hearts of all living entities.</p>
+<p>As the Lord says in Bhagavad-gita (15.15):</p>
+<p>sarvasya caham hrdi sannivisto</p>
+<p>mattah smrtir jnanam apohanam ca</p>
+<p>I am seated in everyone’s heart, and from Me come remembrance, knowledge and forgetfulness The desires and activities of the living being are observed by the Supersoul, who is the upadrasta, the overseer, and who orders material nature to fulfill the various desires of the living being.</p>
+<p>As clearly stated in Bhagavad-gita (18.61):</p>
+<p>isvarah sarva-bhutanam</p>
+<p>hrd-dese ’rjuna tisthati</p>
+<p>bhramayan sarva-bhutani</p>
+<p>yantrarudhani mayaya</p>
+<p>The Lord is situated in everyone’s heart, and as one desires, the Lord gives one various types of bodies, which are like machines.</p>
+<p>Riding on such a machine, the living entity wanders throughout the universe, under the control of material nature and its modes.</p>
+<p>Thus the living being is not at all free to act, but is fully under the control of material nature, which is fully under the control of the Supreme Personality of Godhead.</p>
+<p>As soon as a living entity is victimized by material desires to lord it over material nature, he is subjected to the control of material nature, which is supervised by the Supreme Soul.</p>
+<p>The result is that one again and again makes plans and is baffled, but as foolish as he is he cannot see the cause of his bafflement.</p>
+<p>This cause is distinctly stated in Bhagavad-gita: because one has not surrendered to the Supreme Personality of Godhead, he must work under the control of material nature and its stringent laws (daivi hy esa guna-mayi mama maya duratyaya).</p>
+<p>The only means of becoming free from this entanglement is to surrender to the Supreme Lord.</p>
+<p>In the human form of life, the living entity must accept this instruction from the Supreme Person, Krsna: sarva-dharman parityajya mam ekam saranam vraja (Bg.18.66) Do not plan to achieve happiness and drive away distress.</p>
+<p>You will never be successful.</p>
+<p>Simply surrender unto Me Unfortunately, however, the living entity does not accept the Supreme Lord’s clearly stated instructions from Bhagavad-gita, and thus he becomes a perpetual captive of the laws of material nature.</p>
+<p>Yajnarthat karmano ’nyatra loko ’yam karma-bandhanah: (Bg.3.9)) if one does not act for the satisfaction of Krsna, who is known as Visnu or Yajna, he must be entangled in the reactions of fruitive activities.</p>
+<p>These reactions are called papa and punya—sinful and pious.</p>
+<p>By pious activities one is elevated to the higher planetary systems, and by impious activities one is degraded to lower species of life, in which he is punished by the laws of nature.</p>
+<p>In the lower species of life there is an evolutionary process, and when the term of the living entity’s imprisonment or punishment in the lower species is finished, he is again offered a human form and given a chance to decide for himself which way he should plan.</p>
+<p>If he again misses the opportunity, he is again put into the cycle of birth and death, going sometimes higher and sometimes lower, turning on the samsara-cakra, the wheel of material existence.</p>
+<p>As a wheel sometimes goes up and sometimes comes down, the stringent laws of material nature make the living entity in material existence sometimes happy and sometimes distressed.</p>
+<p>How he suffers in the cycle of happiness and distress is described in the next verse.</p>
+<h3><a class="header" href="#71331" id="71331">7.13.31</a></h3>
+<p>adhyatmikadibhir duhkhair</p>
+<p>avimuktasya karhicit</p>
+<p>martyasya krcchropanatair</p>
+<p>arthaih kamaih kriyeta kim</p>
+<p><strong>SYNONYMS</strong></p>
+<p>adhyatmika-adibhih—adhyatmika, adhidaivika and adhibhautika; duhkhaih—by the threefold miseries of material life; avimuktasya—of one who is not freed from such miserable conditions (or one who is subjected to birth, death, old age and disease); karhicit—sometimes; martyasya—of the living entity subjected to death; krcchra-upanataih—things obtained because of severe miseries; arthaih—even if some benefit is derived; kamaih—which can fulfill one’s material desires; kriyeta—what do they do; kim—and what is the value of such happiness.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Materialistic activities are always mixed with three kinds of miserable conditions—adhyatmika, adhidaivika and adhibautika.</p>
+<p>Therefore, even if one achieves some success by performing such activities, what is the benefit of this success? One is still subjected to birth, death, old age, disease and the reactions of his fruitive activities.</p>
+<p><strong>PURPORT</strong></p>
+<p>According to the materialistic way of life, if a poor man, after laboring very, very hard, gets some material profit at the end of his life, he is considered a success, even though he again dies while suffering the threefold miseries—adhyatmika, adhidaivika and adhibhautika.</p>
+<p>No one can escape the threefold miseries of materialistic life, namely miseries pertaining to the body and mind, miseries pertaining to the difficulties imposed by society, community, nation and other living entities, and miseries inflicted upon us by natural disturbances from earthquakes, famines, droughts, floods, epidemics, and so on.</p>
+<p>If one works very hard, suffering the threefold miseries, and then is successful in getting some small benefit, what is the value of this benefit? Besides that, even if a karmi is successful in accumulating some material wealth, he still cannot enjoy it, for he must die in bereavement.</p>
+<p>I have even seen a dying man begging a medical attendant to increase his life by four years so that he could complete his material plans.</p>
+<p>Of course, the medical man was unsuccessful in expanding the life of the man, who therefore died in great bereavement.</p>
+<p>Everyone must die in this way, and after one’s mental condition is taken into account by the laws of material nature, he is given another chance to fulfill his desires in a different body.</p>
+<p>Material plans for material happiness have no value, but under the spell of the illusory energy we consider them extremely valuable.</p>
+<p>There were many politicians, social reformers and philosophers who died very miserably, without deriving any practical value from their material plans.</p>
+<p>Therefore, a sane and sensible man never desires to work hard under the conditions of threefold miseries, only to die in disappointment.</p>
+<h3><a class="header" href="#71332" id="71332">7.13.32</a></h3>
+<p>pasyami dhaninam klesam</p>
+<p>lubdhanam ajitatmanam</p>
+<p>bhayad alabdha-nidranam</p>
+<p>sarvato ’bhivisankinam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>pasyami—I can practically see; dhaninam—of persons who are very rich; klesam—the miseries; lubdhanam—who are extremely greedy; ajita-atmanam—who are victims of their senses; bhayat—because of fear; alabdha-nidranam—who are suffering from insomnia; sarvatah—from all sides; abhivisankinam—being particularly afraid.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The brahmana continued: I am actually seeing how a rich man, who is a victim of his senses, is very greedy to accumulate wealth, and therefore suffers from insomnia due to fear from all sides, despite his wealth and opulence.</p>
+<p><strong>PURPORT</strong></p>
+<p>Greedy capitalists accumulate wealth under so many miserable conditions, the result being that because they collect money by questionable means, their minds are always agitated.</p>
+<p>Thus they are unable to sleep at night, and they have to take pills for mental tranquillity to invite sleep.</p>
+<p>And sometimes even the pills are a failure.</p>
+<p>Consequently the result of having accumulated money by so much labor is certainly not happiness, but only distress.</p>
+<p>What is the value of acquiring a comfortable position if one’s mind is always disturbed? Narottama dasa Thakura has therefore sung:</p>
+<p>judaite na kainu upaya</p>
+<p>I am suffering from the poisonous effect of material enjoyment.</p>
+<p>Thus my heart is always burning and is almost on the verge of failure The result of the greedy capitalist’s unnecessary accumulation of wealth is that he must suffer from a blazing fire of anxiety and always be concerned with how to save his money and invest it properly to get more and more.</p>
+<p>Such a life is certainly not very happy, but because of the spell of the illusory energy, materialistic persons engage in such activities.</p>
+<p>As far as our Krsna consciousness movement is concerned, we are getting money naturally, by the grace of God, by selling our literature.</p>
+<p>This literature is not sold for our sense gratification; to spread the Krsna consciousness movement we need so many things, and Krsna is therefore supplying us the requisite money to advance this mission.</p>
+<p>The mission of Krsna is to spread Krsna consciousness all over the world, and for this purpose we naturally must have sufficient money.</p>
+<p>Therefore, according to the advice of Srila Rupa Gosvami Prabhupada, we should not give up attachment to money that can spread the Krsna consciousness movement.</p>
+<p>Bhakti-rasamrta-sindhu (1.2.256):</p>
+<p>prapancikataya buddhya</p>
+<p>hari-sambandhi-vastunah</p>
+<p>mumuksubhih parityago</p>
+<p>vairagyam phalgu kathyate</p>
+<p>When persons eager to achieve liberation renounce things which are related to the Supreme Personality of Godhead, though they are material, this is called incomplete renunciation Money that can help in spreading the Krsna consciousness movement is not a part of the material world, and we should not give it up, thinking that it is material.</p>
+<p>Srila Rupa Gosvami advises:</p>
+<p>anasaktasya visayan</p>
+<p>yatharham upayunjatah</p>
+<p>nirbandhah krsna-sambandhe</p>
+<p>yuktam vairagyam ucyate</p>
+<p>When one is not attached to anything, but at the same time accepts everything in relation to Krsna, one is rightly situated above possessiveness (Bhakti-rasamrta-sindhu1.2.255) Money is undoubtedly coming in great quantities, but we should not be attached to this money for sense gratification; every cent should be spent for spreading the Krsna consciousness movement, not for sense gratification.</p>
+<p>There is danger for a preacher when he receives great quantities of money, for as soon as he spends even a single cent of the collection for his personal sense gratification, he becomes a fallen victim.</p>
+<p>The preachers of the Krsna consciousness movement should be extremely careful not to misuse the immense quantities of money needed to spread this movement.</p>
+<p>Let us not make this money the cause of our distress; it should be used for Krsna, and that will cause our eternal happiness.</p>
+<p>Money is Laksmi, or the goddess of fortune, the companion of Narayana.</p>
+<p>Laksmiji must always remain with Narayana, and then there need be no fear of degradation.</p>
+<h3><a class="header" href="#71333" id="71333">7.13.33</a></h3>
+<p>rajatas cauratah satroh</p>
+<p>sva-janat pasu-paksitah</p>
+<p>arthibhyah kalatah svasman</p>
+<p>nityam pranarthavad bhayam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>rajatah—from the government; cauratah—from thieves and rogues; satroh—from enemies; sva-janat—from relatives; pasu-paksitah—from animals and birds; arthibhyah—from beggars and persons seeking charity; kalatah—from the time factor; svasmat—as well as from one’s self; nityam—always; prana-artha-vat—for one who has life or money; bhayam—fear.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Those who are considered materially powerful and rich are always full of anxieties because of governmental laws, thieves and rogues, enemies, family members, animals, birds, persons seeking charity, the inevitable time factor and even their own selves.</p>
+<p>Thus they are invariably afraid.</p>
+<p><strong>PURPORT</strong></p>
+<p>The word svasmat means from one’s self Because of attachment for money, the richest person is even afraid of himself.</p>
+<p>He fears that he may have locked his money in an unsafe manner or might have committed some mistake.</p>
+<p>Aside from the government and its income tax and aside from thieves, even a rich man’s own relatives are always thinking of how to take advantage of him and take away his money.</p>
+<p>Sometimes these relatives are described as sva janaka-dasyu, which means rogues and thieves in the guise of relatives Therefore, there is no need to accumulate wealth or unnecessarily endeavor for more and more money.</p>
+<p>The real business of life is to ask Who am I and to understand one’s self world and understand how to return home, back to Godhead.</p>
+<h3><a class="header" href="#71334" id="71334">7.13.34</a></h3>
+<p>soka-moha-bhaya-krodha-</p>
+<p>raga-klaibya-sramadayah</p>
+<p>yan-mulah syur nrnam jahyat</p>
+<p>sprham pranarthayor budhah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>soka—lamentation; moha—illusion; bhaya—fear; krodha—anger; raga—attachment; klaibya—poverty; srama—unnecessary labor; adayah—and so on; yat-mulah—the original cause of all these; syuh—become; nrnam—of human beings; jahyat—should give up; sprham—the desire; prana—for bodily strength or prestige; arthayoh—and accumulating money; budhah—an intelligent person.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Those in human society who are intelligent should give up the original cause of lamentation, illusion, fear, anger, attachment, poverty and unnecessary labor.</p>
+<p>The original cause of all of these is the desire for unnecessary prestige and money.</p>
+<p><strong>PURPORT</strong></p>
+<p>Here is the difference between Vedic civilization and the modern demoniac civilization.</p>
+<p>Vedic civilization concerned itself with how to achieve self-realization, and for this purpose one was recommended to have a small income to maintain body and soul together.</p>
+<p>The society was divided into brahmanas, ksatriyas, vaisyas and sudras, and the members of this society would limit their endeavors to meeting their minimum demands.</p>
+<p>The brahmanas, in particular, would have no material desires.</p>
+<p>Because the ksatriyas had to rule the people, it was necessary for them to have money and prestige.</p>
+<p>But the vaisyas were satisfied with agricultural produce and milk from the cow, and if by chance there were excess, trade was allowed.</p>
+<p>The sudras were also happy, for they would get food and shelter from the three higher classes.</p>
+<p>In the demoniac civilization of the present day, however, there is no question of brahmanas or ksatriyas; there are only so-called workers and a flourishing mercantile class who have no goal in life.</p>
+<p>According to Vedic civilization, the ultimate perfection of life is to take sannyasa, but at the present moment people do not know why sannyasa is accepted.</p>
+<p>Because of misunderstanding, they think that one accepts sannyasa to escape social responsibilities.</p>
+<p>But one does not accept sannyasa to escape from responsibility to society.</p>
+<p>Generally one accepts sannyasa at the fourth stage of spiritual life.</p>
+<p>One begins as a brahmacari then becomes a grhastha, a vanaprastha and finally a sannyasi to take advantage of the duration of one’s life by engaging oneself fully in self-realization.</p>
+<p>Sannyasa does not mean begging from door to door to accumulate money for sense gratification.</p>
+<p>However, because in Kali-yuga people are more or less prone to sense gratification, immature sannyasa is not recommended.</p>
+<p>Nectar of Instruction (2):</p>
+<p>atyaharah prayasas ca</p>
+<p>prajalpo niyamagrahah</p>
+<p>jana-sangas ca laulyam ca</p>
+<p>sadbhir bhaktir vinasyati</p>
+<p>One’s devotional service is spoiled when he becomes too entangled in the following six activities: (1) eating more than necessary or collecting more funds than required; (2) overendeavoring for mundane things that are very difficult to obtain; (3) talking unnecessarily about mundane subject matters; (4) practicing the scriptural rules and regulations only for the sake of following them and not for the sake of spiritual advancement, or rejecting the rules and regulations of the scriptures and working independently or whimsically; (5) associating with worldly-minded persons who are not interested in Krsna consciousness; and (6) being greedy for mundane achievements A sannyasi should have an institution meant to preach Krsna consciousness; he need not accumulate money for himself.</p>
+<p>We recommend that as soon as money accumulates in our Krsna consciousness movement, fifty per cent of it should be invested in printing books, and fifty per cent for expenditures, especially in establishing centers all over the world.</p>
+<p>The managers of the Krsna consciousness movement should be extremely cautious in regard to this point.</p>
+<p>Otherwise money will be the cause of lamentation, illusion, fear, anger, material attachment, material poverty, and unnecessary hard work.</p>
+<p>When I was alone in Vrndavana, I never attempted to construct mathas or temples; rather, I was fully satisfied with the small amount of money I could gather by selling Back to Godhead, and thus I would provide for myself and also print the literature.</p>
+<p>When I went to foreign countries, I lived according to the same principle, but when Europeans and Americans began to give money profusely, I started temples and Deity worship.</p>
+<p>The same principle should still be followed.</p>
+<p>Whatever money is collected should be spent for Krsna, and not a farthing for sense gratification.</p>
+<p>This is the Bhagavata principle.</p>
+<h3><a class="header" href="#71335" id="71335">7.13.35</a></h3>
+<p>madhukara-maha-sarpau</p>
+<p>loke ’smin no guruttamau</p>
+<p>vairagyam paritosam ca</p>
+<p>prapta yac-chiksaya vayam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>madhukara—bees that go from flower to flower to collect honey; maha-sarpau—the big snake (the python, which does not move from one place to another); loke—in the world; asmin—this; nah—our; guru—spiritual masters; uttamau—first-class; vairagyam—renunciation; paritosam ca—and satisfaction; praptah—obtained; yat-siksaya—by whose instruction; vayam—we.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The bee and the python are two excellent spiritual masters who give us exemplary instructions regarding how to be satisfied by collecting only a little and how to stay in one place and not move.</p>
+<h3><a class="header" href="#71336" id="71336">7.13.36</a></h3>
+<p>viragah sarva-kamebhyah</p>
+<p>siksito me madhu-vratat</p>
+<p>krcchraptam madhuvad vittam</p>
+<p>hatvapy anyo haret patim</p>
+<p><strong>SYNONYMS</strong></p>
+<p>viragah—detachment; sarva-kamebhyah—from all material desires; siksitah—has been taught; me—unto me; madhu-vratat—from the bumblebee; krcchra—with great difficulties; aptam—acquired; madhu-vat—as good as honey (money is hone); vittam—money; hatva—killing; api—even; anyah—another; haret—takes away; patim—the owner.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>From the bumblebee I have learned to be unattached to accumulating money, for although money is as good as honey, anyone can kill its owner and take it away.</p>
+<p><strong>PURPORT</strong></p>
+<p>The honey gathered in the comb is taken away by force.</p>
+<p>Therefore one who accumulates money should realize that he may be harassed by the government or by thieves or even killed by enemies.</p>
+<p>Especially in this age of Kali-yuga, it is said that instead of protecting the money of the citizens, the government itself will take away the money with the force of law.</p>
+<p>The learned brahmana had therefore decided that he should not accumulate any money.</p>
+<p>One should own as much as he immediately needs.</p>
+<p>There is no need to keep a big balance at hand, along with the fear that it may be plundered by the government or by thieves.</p>
+<h3><a class="header" href="#71337" id="71337">7.13.37</a></h3>
+<p>anihah paritustatma</p>
+<p>yadrcchopanatad aham</p>
+<p>no cec chaye bahv-ahani</p>
+<p>mahahir iva sattvavan</p>
+<p><strong>SYNONYMS</strong></p>
+<p>anihah—with no desire to possess more; paritusta—very satisfied; atma—self; yadrccha—in its own way, without endeavor; upanatat—by things brought in by possession; aham—I; no—not; cet—if so; saye—I lie down; bahu—many; ahani—days; maha-ahih—a python; iva—like; sattva-van—enduring.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>I do not endeavor to get anything, but am satisfied with whatever is achieved in its own way.</p>
+<p>If I do not get anything, I am patient and unagitated like a python and lie down in this way for many days.</p>
+<p><strong>PURPORT</strong></p>
+<p>One should learn detachment from the bumblebees, for they collect drops of honey here and there and keep it in their honeycomb, but then someone comes and by force takes all the honey away, leaving the bumblebees with nothing.</p>
+<p>Therefore one should learn from the bumblebee not to keep more money than one needs.</p>
+<p>Similarly, one should learn from the python to stay in one place for many, many days without focal and then eat only if something comes in its own way.</p>
+<p>Thus the learned brahmana gave instructions gained from two creatures, namely the bumblebee and the python.</p>
+<h3><a class="header" href="#71338" id="71338">7.13.38</a></h3>
+<p>kvacid alpam kvacid bhuri</p>
+<p>bhunje ’nnam svadv asvadu va</p>
+<p>kvacid bhuri gunopetam</p>
+<p>guna-hinam uta kvacit</p>
+<p>sraddhayopahrtam kvapi</p>
+<p>kadacin mana-varjitam</p>
+<p>bhunje bhuktvatha kasmims cid</p>
+<p>diva naktam yadrcchaya</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kvacit—sometimes; alpam—very little; kvacit—sometimes; bhuri—a great quantity; bhunje—I eat; annam—food; svadu—palatable; asvadu—stale; va—either; kvacit—sometimes; bhuri—great; guna-upetam—a nice flavor; guna-hinam—without flavor; uta—whether; kvacit—sometimes; sraddhaya—respectfully; upahrtam—brought by someone; kvapi—sometimes; kadacit—sometimes; mana-varjitam—offered without respect; bhunje—I eat; bhuktva—after eating; atha—as such; kasmin cit—sometimes, in some place; diva—during the daytime; naktam—or at night; yadrcchaya—as it is available.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sometimes I eat a very small quantity and sometimes a great quantity.</p>
+<p>Sometimes the food is very palatable, and sometimes it is stale.</p>
+<p>Sometimes prasada is offered with great respect, and sometimes food is given neglectfully.</p>
+<p>Sometimes I eat during the day and sometimes at night.</p>
+<p>Thus I eat what is easily available.</p>
+<h3><a class="header" href="#71339" id="71339">7.13.39</a></h3>
+<p>ksaumam dukulam ajinam</p>
+<p>ciram valkalam eva va</p>
+<p>vase ’nyad api sampraptam</p>
+<p>dista-bhuk tusta-dhir aham</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ksaumam—clothing made of linen; dukulam—silk or cotton; ajinam—deerskin; ciram—loincloth; valkalam—bark; eva—as it is; va—either; vase—I put on; anyat—something else; api—although; sampraptam—as available; dista-bhuk—because of destiny; tusta—satisfied; dhih—mind; aham—I am.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>To cover my body I use whatever is available, whether it be linen, silk, cotton, bark or deerskin, according to my destiny, and I am fully satisfied and unagitated.</p>
+<h3><a class="header" href="#71340" id="71340">7.13.40</a></h3>
+<p>kvacic chaye dharopasthe</p>
+<p>trna-parnasma-bhasmasu</p>
+<p>kvacit prasada-paryanke</p>
+<p>kasipau va parecchaya</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kvacit—sometimes; saye—I lie down; dhara-upasthe—on the surface of the earth; trna—on grass; parna—leaves; asma—stone; bhasmasu—or a pile of ashes; kvacit—sometimes; prasada—in palaces; paryanke—on a first-class bedstead; kasipau—on a pillow; va—either; para—of another; icchaya—by the wish.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sometimes I lie on the surface of the earth, sometimes on leaves, grass or stone, sometimes on a pile of ashes, or sometimes, by the will of others, in a palace on a first-class bed with pillows.</p>
+<p><strong>PURPORT</strong></p>
+<p>The learned brahmana’s description indicates different types of births, for one lies down according to one’s body.</p>
+<p>Sometimes one takes birth as an animal and sometimes as a king.</p>
+<p>When he takes birth as an animal he must lie down on the ground, and when he takes birth as a king or a very rich man he is allowed to lie in first-class rooms in huge palaces decorated with beds and other furniture.</p>
+<p>Such facilities are not available, however, at the sweet will of the living entity; rather, they are available by the supreme will (parecchaya), or by the arrangement of maya.</p>
+<p>As stated in Bhagavad-gita (18.61):</p>
+<p>isvarah sarva-bhutanam</p>
+<p>hrd-dese ’rjuna tisthati</p>
+<p>bhramayan sarva-bhutani</p>
+<p>yantrarudhani mayaya</p>
+<p>The Supreme Lord is situated in everyone’s heart, O Arjuna, and is directing the wanderings of all living entities, who are seated as on a machine, made of the material energy The living entity, according to his material desires, receives different types of bodies, which are nothing but machines offered by material nature according to the order of the Supreme Personality of Godhead.</p>
+<p>By the will of the Supreme, one must take different bodies with different means for lying down.</p>
+<h3><a class="header" href="#71341" id="71341">7.13.41</a></h3>
+<p>kvacit snato ’nuliptangah</p>
+<p>suvasah sragvy alankrtah</p>
+<p>rathebhasvais care kvapi</p>
+<p>dig-vasa grahavad vibho</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kvacit—sometimes; snatah—bathing very nicely; anulipta-angah—with sandalwood pulp smeared all over the body; su-vasah—dressing with very nice garments; sragvi—decorated with garlands of flowers; alankrtah—bedecked with various types of ornaments; ratha—on a chariot; ibha—on an elephant; asvaih—or on the back of a horse; care—I wander; kvapi—sometimes; dik-vasah—completely naked; graha-vat—as if haunted by a ghost; vibho—O lord.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O my lord, sometimes I bathe myself very nicely, smear sandalwood pulp all over my body, put on a flower garland, and dress in fine garments and ornaments.</p>
+<p>Then I travel like a king on the back of an elephant or on a chariot or horse.</p>
+<p>Sometimes, however, I travel naked, like a person haunted by a ghost.</p>
+<h3><a class="header" href="#71342" id="71342">7.13.42</a></h3>
+<p>naham ninde na ca staumi</p>
+<p>sva-bhava-visamam janam</p>
+<p>etesam sreya asase</p>
+<p>utaikatmyam mahatmani</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—not; aham—I; ninde—blaspheme; na—nor; ca—also; staumi—praise; sva-bhava—whose nature; visamam—contradictory; janam—a living entity or human being; etesam—of all of them; sreyah—the ultimate benefit; asase—I pray for; uta—indeed; aikatmyam—oneness; maha-atmani—in the Supersoul, the Parabrahman (Krsna).</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Different people are of different mentalities.</p>
+<p>Therefore it is not my business either to praise them or to blaspheme them.</p>
+<p>I only desire their welfare, hoping that they will agree to become one with the Supersoul, the Supreme Personality of Godhead, Krsna.</p>
+<p><strong>PURPORT</strong></p>
+<p>As soon as one comes to the platform of bhakti-yoga, one understands fully the Supreme Personality of Godhead, Vasudeva, is the goal of life (vasudevah samam iti sa mahatma sudurlabhah).</p>
+<p>This is the instruction of all the Vedic literature (vedais ca sarvair aham eva vedyah (Bg.15.15), sarva dharman parityajya mam ekam saranam vraja (Bg.18.66)).</p>
+<p>There is no use in praising someone for material qualifications or blaspheming him for material disqualifications.</p>
+<p>In the material world, good and bad have no meaning because if one is good he may be elevated to a higher planetary system and if one is bad he may be degraded to the lower planetary systems.</p>
+<p>People of different mentalities are sometimes elevated and sometimes degraded, but this is not the goal of life.</p>
+<p>Rather, the goal of life is to become free from elevation and degradation and take to Krsna consciousness.</p>
+<p>Therefore a saintly person does not discriminate between that which is supposedly good and supposedly bad; rather, he desires for everyone to be happy in Krsna consciousness, which is the ultimate goal of life.</p>
+<h3><a class="header" href="#71343" id="71343">7.13.43</a></h3>
+<p>vikalpam juhuyac cittau</p>
+<p>tam manasy artha-vibhrame</p>
+<p>mano vaikarike hutva</p>
+<p>tam mayayam juhoty anu</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vikalpam—discrimination (between good and bad, one person and another, one nation and another, and all similar discrimination); juhuyat—one should offer as oblations; cittau—in the fire of consciousness; tam—that consciousness; manasi—in the mind; artha-vibhrame—the root of all acceptance and rejection; manah—that mind; vaikarike—in false ego, identification of oneself with matter; hutva—offering as oblations; tam—this false ego; mayayam—in the total material energy; juhoti—offers as oblations; anu—following this principle.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The mental concoction of discrimination between good and bad should be accepted as one unit and then invested in the mind, which should then be invested in the false ego.</p>
+<p>The false ego should be invested in the total material energy.</p>
+<p>This is the process of fighting false discrimination.</p>
+<p><strong>PURPORT</strong></p>
+<p>This verse describes how a yogi can become free from material affection.</p>
+<p>Because of material attraction, a karmi cannot see himself.</p>
+<p>Jnanis can discriminate between matter and spirit, but the yogis, the best of whom are the bhakti-yogis, want to return home, back to Godhead.</p>
+<p>The karmis are completely in illusion, the jnanis are neither in illusion nor in positive knowledge, but the yogis, especially the bhakti-yogis, are completely on the spiritual platform.</p>
+<p>As confirmed in Bhagavad-gita (14.26):</p>
+<p>mam ca yo ’vyabhicarena</p>
+<p>bhakti-yogena sevate</p>
+<p>sa gunan samatityaitan</p>
+<p>brahma-bhuyaya kalpate</p>
+<p>One who engages in full devotional service, who does not fall down under any circumstance, at once transcends the modes of material nature and thus comes to the level of Brahman Thus a devotee’s position is secure.</p>
+<p>A devotee is at once elevated to the spiritual platform.</p>
+<p>Others, such as jnanis and hatha-yogis, can only gradually ascend to the spiritual platform by nullifying their material discrimination on the platform of psychology and nullifying the false ego, by which one thinks, I am this body, a product of matter One must merge the false ego into the total material energy and merge the total material energy into the supreme energetic.</p>
+<p>This is the process of becoming free from material attraction.</p>
+<h3><a class="header" href="#71344" id="71344">7.13.44</a></h3>
+<p>atmanubhutau tam mayam</p>
+<p>juhuyat satya-drn munih</p>
+<p>tato niriho viramet</p>
+<p>svanubhuty-atmani sthitah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atma-anubhutau—unto self-realization; tam—that; mayam—the false ego of material existence; juhuyat—should offer as an oblation; satya-drk—one who has actually realized the ultimate truth; munih—such a thoughtful person; tatah—because of this self-realization; nirihah—without material desires; viramet—one must completely retire from material activities; sva-anubhuti-atmani—in self-realization; sthitah—thus being situated.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>A learned, thoughtful person must realize that material existence is illusion.</p>
+<p>This is possible only by self-realization.</p>
+<p>A self-realized person, who has actually seen the truth, should retire from all material activities, being situated in self-realization.</p>
+<p><strong>PURPORT</strong></p>
+<p>By an analytical study of the entire constitution of the body, one can surely come to the conclusion that the soul is different from all the body’s material constituents, such as earth, water, fire and air.</p>
+<p>Thus the difference between the body and soul can be realized by a person who is thoughtful (manisi or muni), and after this realization of the individual spirit soul one can very easily understand the supreme spirit soul.</p>
+<p>If one thus realizes that the individual soul is subordinate to the supreme spirit soul, he achieves self-realization.</p>
+<p>As explained in the Thirteenth Chapter of Bhagavad-gita, there are two souls within the body.</p>
+<p>The body is called ksetra, and there are two ksetra jnas, or occupants of the body, namely the Supersoul (Paramatma) and the individual soul.</p>
+<p>The Supersoul and the individual soul are like two birds sitting on the same tree (the material body).</p>
+<p>One bird, the individual, forgetful bird, is eating the fruit of the tree, not caring for the instructions of the other bird, which is only a witness to the activities of the first bird, who is his friend.</p>
+<p>When the forgetful bird comes to understand the supreme friend who is always with him and trying to give him guidance in different bodies, he takes shelter at the lotus feet of that supreme bird.</p>
+<p>As explained in the yoga process, dhyanavasthita-tad-gatena manasa pasyanti yam yoginah (SB 12.13.1).</p>
+<p>When one actually becomes a perfect yogi, by meditation he can see the supreme friend and surrender unto Him.</p>
+<p>This is the beginning of bhakti-yoga, or actual life in Krsna consciousness.</p>
+<h3><a class="header" href="#71345" id="71345">7.13.45</a></h3>
+<p>svatma-vrttam mayettham te</p>
+<p>suguptam api varnitam</p>
+<p>vyapetam loka-sastrabhyam</p>
+<p>bhavan hi bhagavat-parah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sva-atma-vrttam—the information of the history of self-realization; maya—by me; ittham—in this way; te—unto you; su-guptam—extremely confidential; api—although; varnitam—explained; vyapetam—without; loka-sastrabhyam—the opinion of the common man or common literatures; bhavan—your good self; hi—indeed; bhagavat-parah—having fully realized the Personality of Godhead.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Prahlada Maharaja, you are certainly a self-realized soul and a devotee of the Supreme Lord.</p>
+<p>You do not care for public opinion or so-called scriptures.</p>
+<p>For this reason I have described to you without hesitation the history of my self-realization.</p>
+<p><strong>PURPORT</strong></p>
+<p>A person who is actually a devotee of Krsna does not care about so-called public opinion and Vedic or philosophical literatures.</p>
+<p>Prahlada Maharaja, who is such a devotee, always defied the false instructions of his father and the so-called teachers who were appointed to teach him.</p>
+<p>Instead, he simply followed the instructions of Narada Muni, his guru, and thus he always remained a stalwart devotee.</p>
+<p>This is the nature of an intelligent devotee.</p>
+<p>The Srimad-Bhagavatam instructs, yajnaih sankirtana-prayair yajanti hi sumedhasah (SB 11.5.32).</p>
+<p>One who is actually very intelligent must join the Krsna consciousness movement, realizing his own self as an eternal servant of Krsna, and thus practice constant chanting of the holy name of the Lord—Hare Krsna, Hare Krsna, Krsna Krsna, Hare Hare/ Hare Rama, Hare Rama, Rama Rama, Hare Hare.</p>
+<h3><a class="header" href="#71346" id="71346">7.13.46</a></h3>
+<p>sri-narada uvaca</p>
+<p>dharmam paramahamsyam vai</p>
+<p>muneh srutvasuresvarah</p>
+<p>pujayitva tatah prita</p>
+<p>amantrya prayayau grham</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-naradah uvaca—Sri Narada Muni said; dharmam—the occupational duty; paramahamsyam—of the paramahamsas, the most perfect human beings; vai—indeed; muneh—from the saintly person; srutva—thus hearing; asura-isvarah—the King of the asuras, Prahlada Maharaja; pujayitva—by worshiping the saintly person; tatah—thereafter; pritah—being very pleased; amantrya—taking permission; prayayau—left that place; grham—for his home.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Narada Muni continued: After Prahlada Maharaja, the King of the demons, heard these instructions from the saint, he understood the occupational duties of a perfect person (paramahamsa).</p>
+<p>Thus he duly worshiped the saint, took his permission and then left for his own home.</p>
+<p><strong>PURPORT</strong></p>
+<p>As quoted in Caitanya-caritamrta (Madhya 8.128), Sri Caitanya Mahaprabhu said:</p>
+<p>kiba vipra, kiba nyasi, sudra kene naya</p>
+<p>yei krsna-tattva-vetta sei ’guru’ haya</p>
+<p>A guru, or spiritual master, can be anyone who is well conversant with the science of Krsna.</p>
+<p>Therefore although Prahlada Maharaja was a grhastha ruling over the demons, he was a paramahamsa, the best of human beings, and thus he is our guru.</p>
+<p>In the list of gurus, or authorities, Prahlada Maharaja’s name is therefore mentioned:</p>
+<p>svayambhur naradah sambhuh</p>
+<p>kumarah kapilo manuh</p>
+<p>prahlado janako bhismo</p>
+<p>balir vaiyasakir vayam</p>
+<p>(Bhag.6.3.20)</p>
+<p>The conclusion is that a paramahamsa is an exalted devotee (bhagavat-priya)</p>
+<p>Such a paramahamsa may be in any stage of life—brahmacari, grhastha, vanaprastha or sannyasa—and be equally liberated and exalted.</p>
+<h1><a class="header" href="#table-of-contents-1" id="table-of-contents-1">Table of Contents</a></h1>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+        
+        <script type="text/javascript">
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+        
+        
+
+    </body>
+</html>

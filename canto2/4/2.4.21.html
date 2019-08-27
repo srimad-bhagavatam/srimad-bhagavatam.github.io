@@ -1,0 +1,250 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>2.4.21 - The Process of Creation</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+        <link rel="stylesheet" href="custom.css">
+        
+
+        
+    </head>
+    <body class="rust">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme + ' js';
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html">The Process of Creation</a></li><li class="affix"><a href="2.4.2.html">2.4.2</a></li><li class="affix"><a href="2.4.3-4.html">2.4.3-4</a></li><li class="affix"><a href="2.4.5.html">2.4.5</a></li><li class="affix"><a href="2.4.6.html">2.4.6</a></li><li class="affix"><a href="2.4.7.html">2.4.7</a></li><li class="affix"><a href="2.4.8.html">2.4.8</a></li><li class="affix"><a href="2.4.9.html">2.4.9</a></li><li class="affix"><a href="2.4.10.html">2.4.10</a></li><li class="affix"><a href="2.4.11.html">2.4.11</a></li><li class="affix"><a href="2.4.12.html">2.4.12</a></li><li class="affix"><a href="2.4.13.html">2.4.13</a></li><li class="affix"><a href="2.4.14.html">2.4.14</a></li><li class="affix"><a href="2.4.15.html">2.4.15</a></li><li class="affix"><a href="2.4.16.html">2.4.16</a></li><li class="affix"><a href="2.4.17.html">2.4.17</a></li><li class="affix"><a href="2.4.18.html">2.4.18</a></li><li class="affix"><a href="2.4.19.html">2.4.19</a></li><li class="affix"><a href="2.4.20.html">2.4.20</a></li><li class="affix"><a href="2.4.21.html" class="active">2.4.21</a></li><li class="affix"><a href="2.4.22.html">2.4.22</a></li><li class="affix"><a href="2.4.23.html">2.4.23</a></li><li class="affix"><a href="2.4.24.html">2.4.24</a></li><li class="affix"><a href="2.4.25.html">2.4.25</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
+                        </div>
+
+                        <h1 class="menu-title">The Process of Creation</h1>
+
+                        <div class="right-buttons">
+                            <a href="print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h3><a class="header" href="#2421" id="2421">2.4.21</a></h3>
+<p>yad-anghry-abhidhyana-samadhi-dhautaya</p>
+<p>dhiyanupasyanti hi tattvam atmanah</p>
+<p>vadanti caitat kavayo yatha-rucam</p>
+<p>sa me mukundo bhagavan prasidatam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yat-anghri—whose lotus feet; abhidhyana—thinking of, at every second; samadhi—trance; dhautaya—being washed off; dhiya—by such clean intelligence; anupasyanti—does see by following authorities; hi—certainly; tattvam—the Absolute Truth; atmanah—of the Supreme Lord and of oneself; vadanti—they say; ca—also; etat—this; kavayah—philosophers or learned scholars; yatha-rucam—as he thinks; sah—He; me—mine; mukundah—Lord Krsna (who gives liberation); bhagavan—the Personality of Godhead; prasidatam—be pleased with me.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>It is the Personality of Godhead Sri Krsna who gives liberation.</p>
+<p>By thinking of His lotus feet at every second, following in the footsteps of authorities, the devotee in trance can see the Absolute Truth.</p>
+<p>The learned mental speculators, however, think of Him according to their whims.</p>
+<p>May the Lord be pleased with me.</p>
+<p><strong>PURPORT</strong></p>
+<p>The mystic yogis, after a strenuous effort to control the senses, may be situated in a trance of yoga just to have a vision of the Supersoul within everyone, but the pure devotee, simply by remembering the Lord’s lotus feet at every second, at once becomes established in real trance because by such realization his mind and intelligence are completely cleansed of the diseases of material enjoyment.</p>
+<p>The pure devotee thinks himself fallen into the ocean of birth and death and incessantly prays to the Lord to lift him up.</p>
+<p>He only aspires to become a speck of transcendental dust at the lotus feet of the Lord.</p>
+<p>The pure devotee, by the grace of the Lord, absolutely loses all attraction for material enjoyment, and to keep free from contamination he always thinks of the lotus feet of the Lord.</p>
+<p>King Kulasekhara, a great devotee of the Lord, prayed:</p>
+<p>krsna tvadiya-pada-pankaja-panjarantam</p>
+<p>adyaiva me visatu manasa-raja-hamsah</p>
+<p>prana-prayana-samaye kapha-vata-pittaih</p>
+<p>kanthavarodhana-vidhau smaranam kutas te</p>
+<p>My Lord Krsna, I pray that the swan of my mind may immediately sink down to the stems of the lotus feet of Your Lordship and be locked in their network; otherwise at the time of my final breath, when my throat is choked up with cough, how will it be possible to think of You.</p>
+<p>There is an intimate relationship between the swan and the lotus stem.</p>
+<p>So the comparison is very appropriate: without becoming a swan, or paramahamsa, one cannot enter into the network of the lotus feet of the Lord.</p>
+<p>As stated in the Brahma-samhita, the mental speculators, even by dint of learned scholarship, cannot even dream of the Absolute Truth by speculating over it for eternity.</p>
+<p>The Lord reserves the right of not being exposed to such mental speculators.</p>
+<p>And because they cannot enter into network stem of the lotus stem of the Lord, all material speculators differ in conclusions, and at the end they make a useless compromise by saying, as many conclusions, as many ways according to one’s own inclination (yatha-rucam).</p>
+<p>But the Lord is not like a shopkeeper trying to please all sorts of customers in the mental speculator exchange.</p>
+<p>The Lord is what He is, the Absolute Personality of Godhead, and He demands absolute surrender unto Him only.</p>
+<p>The pure devotee, however, by following the ways of previous acaryas, or authorities, can see the Supreme Lord through the transparent medium of a bona fide spiritual master (anupasyanti).</p>
+<p>The pure devotee never tries to see the Lord by mental speculation, but by following in the footsteps of the acaryas (mahajano yena gatah sa panthah).</p>
+<p>Therefore there is no difference of conclusions amongst the Vaisnava acaryas regarding the Lord and the devotees.</p>
+<p>Lord Caitanya asserts that the living entity (jiva) is eternally the servitor of the Lord and that he is simultaneously one with and different from the Lord.</p>
+<p>This tattva of Lord Caitanya’s is shared by all four sampradayas of the Vaisnava school (all accepting eternal servitude to the Lord even after salvation), and there is no authorized Vaisnava acarya who may think of the Lord and himself as one.</p>
+<p>This humbleness of the pure devotee, who is one hundred percent engaged in His service, puts the devotee of the Lord in a trance by which to realize everything, because to the sincere devotee of the Lord, the Lord reveals Himself, as stated in the Bhagavad-gita (10.10).</p>
+<p>The Lord, being the Lord of intelligence in everyone (even in the nondevotee), favors His devotee with proper intelligence so that automatically the pure devotee is enlightened with the factual truth about the Lord and His different energies the Lord is revealed not by one’s speculative power or by one’s verbal jugglery over the Absolute Truth.</p>
+<p>Rather, He reveals Himself to a devotee when He is fully satisfied by the devotee’s service attitude.</p>
+<p>Sukadeva Gosvami is not a mental speculator or compromiser of the theory of as many ways, as many conclusions Rather, he prays to the Lord only, invoking His transcendental pleasure.</p>
+<p>That is the way of knowing the Lord.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="2.4.20.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="2.4.22.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a href="2.4.20.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a href="2.4.22.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

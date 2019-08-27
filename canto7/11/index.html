@@ -1,0 +1,251 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>The Perfect Society: Four Social Classes - The Perfect Society: Four Social Classes</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+        <link rel="stylesheet" href="custom.css">
+        
+
+        
+    </head>
+    <body class="rust">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme + ' js';
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">The Perfect Society: Four Social Classes</a></li><li class="affix"><a href="7.11.2.html">7.11.2</a></li><li class="affix"><a href="7.11.3.html">7.11.3</a></li><li class="affix"><a href="7.11.4.html">7.11.4</a></li><li class="affix"><a href="7.11.5.html">7.11.5</a></li><li class="affix"><a href="7.11.6.html">7.11.6</a></li><li class="affix"><a href="7.11.7.html">7.11.7</a></li><li class="affix"><a href="7.11.8-12.html">7.11.8-12</a></li><li class="affix"><a href="7.11.13.html">7.11.13</a></li><li class="affix"><a href="7.11.14.html">7.11.14</a></li><li class="affix"><a href="7.11.15.html">7.11.15</a></li><li class="affix"><a href="7.11.16.html">7.11.16</a></li><li class="affix"><a href="7.11.17.html">7.11.17</a></li><li class="affix"><a href="7.11.18-20.html">7.11.18-20</a></li><li class="affix"><a href="7.11.21.html">7.11.21</a></li><li class="affix"><a href="7.11.22.html">7.11.22</a></li><li class="affix"><a href="7.11.23.html">7.11.23</a></li><li class="affix"><a href="7.11.24.html">7.11.24</a></li><li class="affix"><a href="7.11.25.html">7.11.25</a></li><li class="affix"><a href="7.11.26-27.html">7.11.26-27</a></li><li class="affix"><a href="7.11.28.html">7.11.28</a></li><li class="affix"><a href="7.11.29.html">7.11.29</a></li><li class="affix"><a href="7.11.30.html">7.11.30</a></li><li class="affix"><a href="7.11.31.html">7.11.31</a></li><li class="affix"><a href="7.11.32.html">7.11.32</a></li><li class="affix"><a href="7.11.33-34.html">7.11.33-34</a></li><li class="affix"><a href="7.11.35.html">7.11.35</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
+                        </div>
+
+                        <h1 class="menu-title">The Perfect Society: Four Social Classes</h1>
+
+                        <div class="right-buttons">
+                            <a href="print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1><a class="header" href="#the-perfect-society-four-social-classes" id="the-perfect-society-four-social-classes">The Perfect Society: Four Social Classes</a></h1>
+<h2><a class="header" href="#summary" id="summary">Summary</a></h2>
+<h3><a class="header" href="#711" id="711">7.11</a></h3>
+<p>This chapter describes the general principles by following which a human being, and specifically one who is interested in advancing in spiritual life, can become perfect.</p>
+<p>By hearing about the characteristics of Prahlada Maharaja, Maharaja Yudhisthira became extremely pleased.</p>
+<p>Now he inquired from Narada Muni about the actual religion of a human being and about special characteristics of varnasrama-dharma, which marks the highest status of human civilization.</p>
+<p>When Maharaja Yudhisthira asked Narada Muni about these matters, Narada Muni stopped giving his own statements and quoted statements by Lord Narayana, for He is the supreme authority for giving religious codes (dharmam tu saksad bhagavat-pranitam (SB 6.3.19)).</p>
+<p>Every human being is expected to acquire thirty qualities, such as truthfulness, mercy and austerity.</p>
+<p>The process of following the priniples of religion is known as sanatana-dharma, the eternal religious system.</p>
+<p>The varnasrama system delineates the divisions of brahmana, ksatriya, vaisya and sudra.</p>
+<p>It also sets forth the system of samskaras.</p>
+<p>The garbhadhana samskara, the ceremony for begetting a child, must be observed by the higher section of people, namely the dvijas.</p>
+<p>One who follows the garbhadhana samskara system is actually twice-born, but those who do not, who deviate from the principles of varnasrama-dharma, are called dvija-bandhus.</p>
+<p>The principal occupations for a brahmana are worshiping the Deity, teaching others how to worship the Deity, studying the Vedic literatures, teaching the Vedic literatures, accepting charity from others and again giving charity to others.</p>
+<p>A brahmana should make his livelihood from these six occupational duties.</p>
+<p>The duty of a ksatriya is to give protection to the citizens and levy taxes upon them, but he is forbidden to tax the brahmanas.</p>
+<p>The members of the Krsna consciousness movement should therefore be exempt from government taxation.</p>
+<p>Ksatriyas may tax everyone but the brahmanas.</p>
+<p>Vaisyas should cultivate the land, produce food grains and protect the cows, whereas the sudras, who by quality never become brahmanas, ksatriyas or vaisyas, should serve the three higher classes and be satisfied.</p>
+<p>Other means of livelihood are also prescribed for the brahmanas, and these are four—salina, yayavara, sila, and unchana.</p>
+<p>Each of these occupational duties is successively better.</p>
+<p>One who is in a lower grade of social life cannot accept the profession of a higher class unless necessary.</p>
+<p>In times of emergency, all the classes but the ksatriyas may accept professional duties of others.</p>
+<p>The means of livelihood known as rta (silonchana), amrta (ayacita), mrta (yacna), pramrta (karsana), and satyanrta (vanijya) may be accepted by everyone but the ksatriyas.</p>
+<p>For a brahmana or a ksatriya, engaging in the service of the vaisyas or sudras is considered the profession of dogs.</p>
+<p>Narada Muni also described that the symptom of a brahmana is controlled senses, the symptoms of a ksatriya are power and fame, the symptom of a vaisya is service to the brahmanas and ksatriyas, and the symptom of a sudra is service to the three higher classes.</p>
+<p>The qualification for a woman is to be a very faithful and chaste wife.</p>
+<p>In this way, Narada Muni described the characteristics of higher and lower grades of people and recommended that one follow the principles of his caste or his hereditary occupation.</p>
+<p>One cannot suddenly give up a profession to which he is accustomed, and therefore it is recommended that one gradually be awakened.</p>
+<p>The symptoms of brahmanas, ksatriyas, vaisyas, and sudras are very important, and therefore one should be designated only by these symptoms, and not by birth.</p>
+<p>Designation by birth is strictly forbidden by Narada Muni and all great personalities.</p>
+<h3><a class="header" href="#7111" id="7111">7.11.1</a></h3>
+<p>sri-suka uvaca</p>
+<p>srutvehitam sadhu sabha-sabhajitam</p>
+<p>mahattamagranya urukramatmanah</p>
+<p>yudhisthiro daitya-pater mudanvitah</p>
+<p>papraccha bhuyas tanayam svayambhuvah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-sukah uvaca—Sri Sukadeva Gosvami said; srutva—hearing; ihitam—the narration; sadhu sabha-sabhajitam—which is discussed in assemblies of great devotees like Lord Brahma and Lord Siva; mahat-tama-agranyah—the best of the saintly persons (Yudhisthira); urukrama-atmanah—of he (Prahlada Maharaja) whose mind is always engaged upon the Supreme Personality of Godhead, who always acts uncommonly; yudhisthirah—King Yudhisthira; daitya-pateh—of the master of the demons; muda-anvitah—in a pleasing mood; papraccha—inquired; bhuyah—again; tanayam—unto the son; svayambhuvah—of Lord Brahma.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sukadeva Gosvami continued: After hearing about the activities and character of Prahlada Maharaja, which are adored and discussed among great personalities like Lord Brahma and Lord Siva, Yudhisthira Maharaja, the most respectful king among exalted personalities, again inquired from the great saint Narada Muni in a mood of great pleasure.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="7.11.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a href="7.11.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

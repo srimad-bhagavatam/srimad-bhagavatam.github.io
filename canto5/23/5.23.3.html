@@ -1,0 +1,291 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>5.23.3 - The Sisumara Planetary Systems</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+        <link rel="stylesheet" href="custom.css">
+        
+
+        
+    </head>
+    <body class="rust">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme + ' js';
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html">The Sisumara Planetary Systems</a></li><li class="affix"><a href="5.23.2.html">5.23.2</a></li><li class="affix"><a href="5.23.3.html" class="active">5.23.3</a></li><li class="affix"><a href="5.23.4.html">5.23.4</a></li><li class="affix"><a href="5.23.5.html">5.23.5</a></li><li class="affix"><a href="5.23.6.html">5.23.6</a></li><li class="affix"><a href="5.23.7.html">5.23.7</a></li><li class="affix"><a href="5.23.8.html">5.23.8</a></li><li class="affix"><a href="5.23.9.html">5.23.9</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
+                        </div>
+
+                        <h1 class="menu-title">The Sisumara Planetary Systems</h1>
+
+                        <div class="right-buttons">
+                            <a href="print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h3><a class="header" href="#5233" id="5233">5.23.3</a></h3>
+<p>yatha medhistambha akramana-pasavah samyojitas tribhis tribhih savanair yatha-sthanam mandalani caranty evam bhagana grahadaya etasminn antar-bahir-yogena kala-cakra ayojita dhruvam evavalambya vayunodiryamana akalpantam parican kramanti nabhasi yatha meghah syenadayo vayu-vasah karma-sarathayah parivartante evam jyotirganah prakrti-purusa-samyoganugrhitah karma-nirmita-gatayo bhuvi na patanti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yatha—exactly like; medhistambhe—to the pivot post; akramana-pasavah—bulls for threshing rice; samyojitah—being yoked; tribhih tribhih—by three; savanaih—movements; yatha-sthanam—in their proper places; mandalani—orbits; caranti—traverse; evam—in the same way; bha-ganah—the luminaries, like the sun, the moon, Venus, Mercury, Mars and Jupiter; graha-adayah—the different planets; etasmin—in this; antah-bahih-yogena—by connection with the inner or outer circles; kala-cakre—in the wheel of eternal time; ayojitah—fixed; dhruvam—Dhruvaloka; eva—certainly; avalambya—taking support of; vayuna—by the wind; udiryamanah—being propelled; a-kalpa-antam—until the end of the creation; parican kramanti—revolve all around; nabhasi—in the sky; yatha—exactly like; meghah—heavy clouds; syena-adayah—birds such as the big eagle; vayu-vasah—controlled by the air; karma-sarathayah—whose chariot drivers are the results of their own past activities; parivartante—move around; evam—in this way; jyotih-ganah—the luminaries, the planets and stars in the sky; prakrti—of material nature; purusa—and of the Supreme Personality, Krsna; samyoga-anugrhitah—supported by the combined efforts; karma-nirmita—caused by their own past fruitive activities; gatayah—whose movements; bhuvi—on the ground; na—not; patanti—fall down.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When bulls are yoked together and tied to a central post to thresh rice, they tread around that pivot without deviating from their proper positions—one bull being closest to the post, another in the middle, and a third on the outside.</p>
+<p>Similarly, all the planets and all the hundreds and thousands of stars revolve around the polestar, the planet of Maharaja Dhruva, in their respective orbits, some higher and some lower.</p>
+<p>Fastened by the Supreme Personality of Godhead to the machine of material nature according to the results of their fruitive acts, they are driven around the polestar by the wind and will continue to be so until the end of creation.</p>
+<p>These planets float in the air within the vast sky, just as clouds with hundreds of tons of water float in the air or as the great syena eagles, due to the results of past activities, fly high in the sky and have no chance of falling to the ground.</p>
+<p><strong>PURPORT</strong></p>
+<p>According to the description of this verse, the hundreds and thousands of stars and the great planets such as the sun, the moon, Venus, Mercury, Mars and Jupiter are not clustered together because of the law of gravity or any similar idea of the modern scientists.</p>
+<p>These planets and stars are all servants of the Supreme Personality of Godhead, Govinda or Krsna, and according to His order they sit in their chariots and travel in their respective orbits.</p>
+<p>The orbits in which they move are compared to machines given by material nature to the operating deities of the stars and planets, who carry out the orders of the Supreme Personality of Godhead by revolving around Dhruvaloka, which is occupied by the great devotee Maharaja Dhruva.</p>
+<p>Brahma-samhita (5.52) as follows:</p>
+<p>yac-caksur esa savita sakala-grahanam</p>
+<p>raja samasta-sura-murtir asesa-tejah</p>
+<p>yasyajnaya bhramati sambhrta-kala-cakro</p>
+<p>govindam adi-purusam tam aham bhajami</p>
+<p>I worship Govinda, the primeval Lord, the Supreme Personality of Godhead, under whose control even the sun, which is considered to be the eye of the Lord, rotates within the fixed orbit of eternal time.</p>
+<p>The sun is the king of all planetary systems and has unlimited potency in heat and light This verse from Brahma-samhita confirms that even the largest and most powerful planet, the sun, rotates within a fixed orbit, or kala-cakra, in obedience to the order of the Supreme Personality of Godhead.</p>
+<p>This has nothing to do with gravity or any other imaginary laws created by the material scientists.</p>
+<p>Material scientists want to avoid the ruling government of the Supreme Personality of Godhead, and therefore they imagine different conditions under which they suppose the planets move.</p>
+<p>The only condition, however, is the order of the Supreme Personality of Godhead.</p>
+<p>All the various predominating deities of the planets are persons, and the Supreme Personality of Godhead is also a person.</p>
+<p>The Supreme Personality orders the subordinate persons, the demigods of various names, to carry out His supreme will.</p>
+<p>This fact is also confirmed in Bhagavad-gita (9.10), wherein Krsna says:</p>
+<p>mayadhyaksena prakrtih</p>
+<p>suyate sa-caracaram</p>
+<p>hetunanena kaunteya</p>
+<p>jagad viparivartate</p>
+<p>This material nature is working under My direction, O son of Kunti, and it is producing all moving and unmoving beings.</p>
+<p>By its rule this manifestation is created and annihilated again and again The orbits of the planets resemble the bodies in which all living entities are seated because they are both machines controlled by the Supreme Personality of Godhead.</p>
+<p>As Krsna says in Bhagavad-gita (18.61):</p>
+<p>isvarah sarva-bhutanam</p>
+<p>hrd-dese ’rjuna tisthati</p>
+<p>bhramayan sarva-bhutani</p>
+<p>yantrarudhani mayaya</p>
+<p>The Supreme Lord is situated in everyone’s heart, O Arjuna, and is directing the wanderings of all living entities, who are seated as on a machine, made of the material energy.</p>
+<p>The machine given by material nature—whether the machine of the body or the machine of the orbit, or kala-cakra—works according to the orders given by the Supreme Personality of Godhead.</p>
+<p>The Supreme Personality of Godhead and material nature work together to maintain this great universe, and not only this universe but also the millions of other universes beyond this one.</p>
+<p>The question of how the planets and stars are floating is also answered in this verse.</p>
+<p>It is not because of the laws of gravity.</p>
+<p>Rather, the planets and stars are enabled to float by manipulations of the air.</p>
+<p>It is due to such manipulations that big, heavy clouds float and big eagles fly in the sky.</p>
+<p>Modern airplanes like the 747 jet aircraft work in a similar way: by controlling the air, they float high in the sky, resisting the tendency to fall to earth.</p>
+<p>Such adjustments of the air are all made possible by the cooperation of the principles of purusa (male) and prakrti (female).</p>
+<p>By the cooperation of material nature, which is considered to be prakrti, and the Supreme Personality of Godhead, who is considered the purusa, all the affairs of the universe are going on nicely in their proper order.</p>
+<p>Brahma-samhita (5.44) as follows:</p>
+<p>srsti-sthiti-pralaya-sadhana-saktir eka</p>
+<p>chayeva yasya bhuvanani bibharti durga</p>
+<p>icchanurupam api yasya ca cestate sa</p>
+<p>govindam adi-purusam tam aham bhajami</p>
+<p>The external potency, maya, who is of the nature of the shadow of the cit (spiritual) potency, is worshiped by all people as Durga, the creating, preserving and destroying agency of this mundane world.</p>
+<p>I adore the primeval Lord Govinda, in accordance with whose will Durga conducts herself Material nature, the external energy of the Supreme Lord, is also known as Durga, or the female energy that protects the great fort of this universe.</p>
+<p>The word Durga also means fort.</p>
+<p>This universe is just like a great fort in which all the conditioned souls are kept, and they cannot leave it unless they are liberated by the mercy of the Supreme Personality of Godhead.</p>
+<p>The Lord Himself declares in Bhagavad-gita (4.9):</p>
+<p>janma karma ca me divyam</p>
+<p>evam yo vetti tattvatah</p>
+<p>tyaktva deham punar janma</p>
+<p>naiti mam eti so ’rjuna</p>
+<p>One who knows the transcendental nature of My appearance and activities does not, upon leaving the body, take his birth again in this material world, but attains My eternal abode, O Arjuna Thus simply by Krsna consciousness, by the mercy of the Supreme Personality of Godhead, one can be liberated, or, in other words, one can be released from the great fort of this universe and go outside it to the spiritual world.</p>
+<p>It is also significant that the predominating deities of even the greatest planets have been offered their exalted posts because of the very valuable pious activities they performed in previous births.</p>
+<p>This is indicated herein by the words karma-nirmita-gatayah.</p>
+<p>For example, as we have previously discussed, the moon is called jiva, which means that he is a living entity like us, but because of his pious activities he has been appointed to his post as the moon-god.</p>
+<p>Similarly, all the demigods are living entities who have been appointed to their various posts as the masters of the moon, the earth, Venus and so on because of their great service and pious acts.</p>
+<p>Only the predominating deity of the sun, Surya Narayana, is an incarnation of the Supreme Personality of Godhead.</p>
+<p>Maharaja Dhruva, the predominating deity of Dhruvaloka, is also a living entity.</p>
+<p>Thus there are two kinds of entities—the supreme entity, the Supreme Personality of Godhead, and the ordinary living entity, the jiva (nityo nityanam cetanas cetananam).</p>
+<p>All the demigods are engaged in the service of the Lord, and only by such an arrangement are the affairs of the universe going on.</p>
+<p>Regarding the great eagles mentioned in this verse, it is understood that there are eagles so big that they can prey on big elephants.</p>
+<p>They fly so high that they can travel from one planet to another.</p>
+<p>They start flying in one planet and land in another, and while in flight they lay eggs that hatch into other birds while falling through the air.</p>
+<p>In Sanskrit such eagles are called syena.</p>
+<p>Under the present circumstances, of course, we cannot see such huge birds, but at least we know of eagles that can capture monkeys and then throw them down to kill and eat them.</p>
+<p>Similarly, it is understood that there are gigantic birds that can carry off elephants, kill them and eat them.</p>
+<p>The two examples of the eagle and the cloud are sufficient to prove that flying and floating can be made possible through adjustments of the air.</p>
+<p>The planets, in a similar way, are floating because material nature adjusts the air according to the orders of the Supreme Lord.</p>
+<p>It could be said that these adjustments constitute the law of gravity, but in any case, one must accept that these laws are made by the Supreme Personality of Godhead.</p>
+<p>The so-called scientists have no control over them.</p>
+<p>The scientists can falsely, improperly declare that there is no God, but this is not a fact.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="5.23.2.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="5.23.4.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a href="5.23.2.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a href="5.23.4.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

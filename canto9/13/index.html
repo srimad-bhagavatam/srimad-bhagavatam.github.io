@@ -1,0 +1,244 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>The Dynasty of Maharaja Nimi - The Dynasty of Maharaja Nimi</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+        <link rel="stylesheet" href="custom.css">
+        
+
+        
+    </head>
+    <body class="rust">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme + ' js';
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">The Dynasty of Maharaja Nimi</a></li><li class="affix"><a href="9.13.2.html">9.13.2</a></li><li class="affix"><a href="9.13.3.html">9.13.3</a></li><li class="affix"><a href="9.13.4.html">9.13.4</a></li><li class="affix"><a href="9.13.5.html">9.13.5</a></li><li class="affix"><a href="9.13.6.html">9.13.6</a></li><li class="affix"><a href="9.13.7.html">9.13.7</a></li><li class="affix"><a href="9.13.8.html">9.13.8</a></li><li class="affix"><a href="9.13.9.html">9.13.9</a></li><li class="affix"><a href="9.13.10.html">9.13.10</a></li><li class="affix"><a href="9.13.11.html">9.13.11</a></li><li class="affix"><a href="9.13.12.html">9.13.12</a></li><li class="affix"><a href="9.13.13.html">9.13.13</a></li><li class="affix"><a href="9.13.14.html">9.13.14</a></li><li class="affix"><a href="9.13.15.html">9.13.15</a></li><li class="affix"><a href="9.13.16.html">9.13.16</a></li><li class="affix"><a href="9.13.17.html">9.13.17</a></li><li class="affix"><a href="9.13.18.html">9.13.18</a></li><li class="affix"><a href="9.13.19.html">9.13.19</a></li><li class="affix"><a href="9.13.20-21.html">9.13.20-21</a></li><li class="affix"><a href="9.13.22.html">9.13.22</a></li><li class="affix"><a href="9.13.23.html">9.13.23</a></li><li class="affix"><a href="9.13.24.html">9.13.24</a></li><li class="affix"><a href="9.13.25.html">9.13.25</a></li><li class="affix"><a href="9.13.26.html">9.13.26</a></li><li class="affix"><a href="9.13.27.html">9.13.27</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
+                        </div>
+
+                        <h1 class="menu-title">The Dynasty of Maharaja Nimi</h1>
+
+                        <div class="right-buttons">
+                            <a href="print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1><a class="header" href="#the-dynasty-of-maharaja-nimi" id="the-dynasty-of-maharaja-nimi">The Dynasty of Maharaja Nimi</a></h1>
+<h2><a class="header" href="#summary" id="summary">Summary</a></h2>
+<h3><a class="header" href="#913" id="913">9.13</a></h3>
+<p>This chapter describes the dynasty in which the great and learned scholar Janaka was born.</p>
+<p>This is the dynasty of Maharaja Nimi, who is said to have been the son of Iksvaku.</p>
+<p>When Maharaja Nimi began performing great sacrifices, he appointed Vasistha to be chief priest, but Vasistha refused, for he had already agreed to be priest in performing a yajna for Lord Indra.</p>
+<p>Vasistha therefore requested Maharaja Nimi to wait until Lord Indra’s sacrifice was finished, but Maharaja Nimi did not wait.</p>
+<p>He thought, Life is very short, so there is no need to wait He therefore appointed another priest to perform the yajna.</p>
+<p>Vasistha was very angry at King Nimi and cursed him, saying, May your body fall down Cursed in that way, Maharaja Nimi also became very angry, and he retaliated by saying, May your body also fall down As a result of this cursing and countercursing, both of them died.</p>
+<p>After this incident, Vasistha took birth again, begotten by Mitra and Varuna, who were agitated by Urvasi.</p>
+<p>The priests who were engaged in the sacrifice for King Nimi preserved Nimi’s body in fragrant chemicals.</p>
+<p>When the sacrifice was over, the priests prayed for Nimi’s life to all the demigods who had come to the arena of yajna, but Maharaja Nimi refused to take birth again in a material body because he considered the material body obnoxious.</p>
+<p>The great sages then churned Nimi’s body, and as a result of this churning, Janaka was born.</p>
+<p>The son of Janaka was Udavasu, and the son of Udavasu was Nandivardhana.</p>
+<p>The son of Nandivardhana was Suketu, and his descendants continued as follows: Devarata, Brhadratha, Mahavirya, Sudhrti, Dhrstaketu, Haryasva, Maru, Pratipaka, Krtaratha, Devamidha, Visruta, Mahadhrti, Krtirata, Maharoma, Svarnaroma, Hrasvaroma and Siradhvaja.</p>
+<p>All these sons appeared in the dynasty one after another.</p>
+<p>From Siradhvaja, mother Sitadevi was born.</p>
+<p>Siradhvaja’s son was Kusadhvaja, and the son of Kusadhvaja was Dharmadhvaja.</p>
+<p>The sons of Dharmadhvaja were Krtadhvaja and Mitadhvaja.</p>
+<p>The son of Krtadhvaja was Kesidhvaja, and the son of Mitadhvaja was Khandikya.</p>
+<p>Kesidhvaja was a self-realized soul, and his son was Bhanuman, whose descendants were as follows: Satadyumna, Suci, Sanadvaja, Urjaketu, Aja, Purujit, Aristanemi, Srutayu, Suparsvaka, Citraratha, Ksemadhi, Samaratha, Satyaratha, Upaguru, Upagupta, Vasvananta, Yuyudha, Subhasana, Sruta, Jaya, Vijaya, Rta, Sunaka, Vitahavya, Dhrti, Bahulasva, Krti and Mahavasi.</p>
+<p>All of these sons were great self-controlled personalities.</p>
+<p>This completes the list of the entire dynasty.</p>
+<h3><a class="header" href="#9131" id="9131">9.13.1</a></h3>
+<p>sri-suka uvaca</p>
+<p>nimir iksvaku-tanayo</p>
+<p>vasistham avrtartvijam</p>
+<p>arabhya satram so ’py aha</p>
+<p>sakrena prag vrto ’smi bhoh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-sukah uvaca—Sri Sukadeva Gosvami said; nimih—King Nimi; iksvaku-tanayah—the son of Maharaja Iksvaku; vasistham—the great sage Vasistha; avrta—appointed; rtvijam—the chief priest of the sacrifice; arabhya—beginning; satram—the sacrifice; sah—he, Vasistha; api—also; aha—said; sakrena—by Lord Indra; prak—before; vrtah asmi—I was appointed; bhoh—O Maharaja Nimi.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Srila Sukadeva Gosvami said: After beginning sacrifices, Maharaja Nimi, the son of Iksvaku, requested the great sage Vasistha to take the post of chief priest.</p>
+<p>At that time, Vasistha replied, My dear Maharaja Nimi, I have already accepted the same post in a sacrifice begun by Lord Indra.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="9.13.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a href="9.13.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

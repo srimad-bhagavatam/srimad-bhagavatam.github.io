@@ -1,0 +1,234 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>2.7.14 - Scheduled Incarnations with Specific Functions</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+        <link rel="stylesheet" href="custom.css">
+        
+
+        
+    </head>
+    <body class="rust">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme + ' js';
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html">Scheduled Incarnations with Specific Functions</a></li><li class="affix"><a href="2.7.2.html">2.7.2</a></li><li class="affix"><a href="2.7.3.html">2.7.3</a></li><li class="affix"><a href="2.7.4.html">2.7.4</a></li><li class="affix"><a href="2.7.5.html">2.7.5</a></li><li class="affix"><a href="2.7.6.html">2.7.6</a></li><li class="affix"><a href="2.7.7.html">2.7.7</a></li><li class="affix"><a href="2.7.8.html">2.7.8</a></li><li class="affix"><a href="2.7.9.html">2.7.9</a></li><li class="affix"><a href="2.7.10.html">2.7.10</a></li><li class="affix"><a href="2.7.11.html">2.7.11</a></li><li class="affix"><a href="2.7.12.html">2.7.12</a></li><li class="affix"><a href="2.7.13.html">2.7.13</a></li><li class="affix"><a href="2.7.14.html" class="active">2.7.14</a></li><li class="affix"><a href="2.7.15.html">2.7.15</a></li><li class="affix"><a href="2.7.16.html">2.7.16</a></li><li class="affix"><a href="2.7.17.html">2.7.17</a></li><li class="affix"><a href="2.7.18.html">2.7.18</a></li><li class="affix"><a href="2.7.19.html">2.7.19</a></li><li class="affix"><a href="2.7.20.html">2.7.20</a></li><li class="affix"><a href="2.7.21.html">2.7.21</a></li><li class="affix"><a href="2.7.22.html">2.7.22</a></li><li class="affix"><a href="2.7.23.html">2.7.23</a></li><li class="affix"><a href="2.7.24.html">2.7.24</a></li><li class="affix"><a href="2.7.25.html">2.7.25</a></li><li class="affix"><a href="2.7.26.html">2.7.26</a></li><li class="affix"><a href="2.7.27.html">2.7.27</a></li><li class="affix"><a href="2.7.28.html">2.7.28</a></li><li class="affix"><a href="2.7.29.html">2.7.29</a></li><li class="affix"><a href="2.7.30.html">2.7.30</a></li><li class="affix"><a href="2.7.31.html">2.7.31</a></li><li class="affix"><a href="2.7.32.html">2.7.32</a></li><li class="affix"><a href="2.7.33.html">2.7.33</a></li><li class="affix"><a href="2.7.34-35.html">2.7.34-35</a></li><li class="affix"><a href="2.7.36.html">2.7.36</a></li><li class="affix"><a href="2.7.37.html">2.7.37</a></li><li class="affix"><a href="2.7.38.html">2.7.38</a></li><li class="affix"><a href="2.7.39.html">2.7.39</a></li><li class="affix"><a href="2.7.40.html">2.7.40</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
+                        </div>
+
+                        <h1 class="menu-title">Scheduled Incarnations with Specific Functions</h1>
+
+                        <div class="right-buttons">
+                            <a href="print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h3><a class="header" href="#2714" id="2714">2.7.14</a></h3>
+<p>trai-pistaporu-bhaya-ha sa nrsimha-rupam</p>
+<p>krtva bhramad-bhrukuti-damstra-karala-vaktram</p>
+<p>daityendram asu gadayabhipatantam arad</p>
+<p>urau nipatya vidadara nakhaih sphurantam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>trai-pistapa—the demigods; uru-bhaya-ha—one who vanquishes great fears; sah—He (the Personality of Godhead); nrsimha-rupam—assuming the incarnation Nrsimha; krtva—doing so; bhramat—by rolling; bhru-kuti—eyebrows; damstra—teeth; karala—greatly fearful; vaktram—mouth; daitya-indram—the king of the demons; asu—immediately; gadaya—with club in hand; abhipatantam—while falling down; arat—nearby; urau—on the thighs; nipatya—placing on; vidadara—pierced; nakhaih—by the nails; sphurantam—while challenging.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Personality of Godhead assumed the incarnation of Nrsimhadeva in order to vanquish the great fears of the demigods.</p>
+<p>He killed the king of the demons (Hiranyakasipu), who challenged the Lord with a club in his hand, by placing the demon on His thighs and piercing him with His nails, rolling His eyebrows in anger and showing His fearful teeth and mouth.</p>
+<p><strong>PURPORT</strong></p>
+<p>The history of Hiranyakasipu and his great devotee-son Prahlada Maharaja is narrated in the Seventh Canto of Srimad-Bhagavatam.</p>
+<p>Hiranyakasipu became very powerful by material achievements and thought himself to be immortal by the grace of Brahmaji.</p>
+<p>Brahmaji declined to award him the benediction of immortality because he himself is not an immortal being.</p>
+<p>But Hiranyakasipu derived Brahmaji’s benediction in a roundabout way, almost equal to becoming an immortal being.</p>
+<p>Hiranyakasipu was sure that he would not be killed by any man or demigod or by any kind of known weapon, nor would he die in day or night.</p>
+<p>The Lord, however, assumed the incarnation of half-man and half-lion, which was beyond the imagination of a materialistic demon like Hiranyakasipu, and thus, keeping pace with the benediction of Brahmaji, the Lord killed him.</p>
+<p>He killed him on His lap, so that he was killed neither on the land nor on the water nor in the sky.</p>
+<p>The demon was pierced by Nrsimha’s nails, which were beyond the human weapons imaginable by Hiranyakasipu.</p>
+<p>The literal meaning of Hiranyakasipu is one who is after gold and soft bedding, the ultimate aim of all materialistic men.</p>
+<p>Such demonic men, who have no relationship with God, gradually become puffed up by material acquisitions and begin to challenge the authority of the Supreme Lord and torture those who are devotees of the Lord.</p>
+<p>Prahlada Maharaja happened to be the son of Hiranyakasipu, and because the boy was a great devotee, his father tortured him to the best of his ability.</p>
+<p>In this extreme situation, the Lord assumed the incarnation of Nrsimhadeva, and just to finish the enemy of the demigods, the Lord killed Hiranyakasipu in a manner beyond the demon’s imagination.</p>
+<p>Materialistic plans of godless demons are always frustrated by the all-powerful Lord.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="2.7.13.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="2.7.15.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a href="2.7.13.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a href="2.7.15.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

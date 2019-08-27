@@ -1,0 +1,254 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>8.2.33 - The Elephant Gajendra’s Crisis</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+        <link rel="stylesheet" href="custom.css">
+        
+
+        
+    </head>
+    <body class="rust">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme + ' js';
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html">The Elephant Gajendra’s Crisis</a></li><li class="affix"><a href="8.2.2-3.html">8.2.2-3</a></li><li class="affix"><a href="8.2.4.html">8.2.4</a></li><li class="affix"><a href="8.2.5.html">8.2.5</a></li><li class="affix"><a href="8.2.6.html">8.2.6</a></li><li class="affix"><a href="8.2.7.html">8.2.7</a></li><li class="affix"><a href="8.2.8.html">8.2.8</a></li><li class="affix"><a href="8.2.9-13.html">8.2.9-13</a></li><li class="affix"><a href="8.2.14-19.html">8.2.14-19</a></li><li class="affix"><a href="8.2.20.html">8.2.20</a></li><li class="affix"><a href="8.2.21.html">8.2.21</a></li><li class="affix"><a href="8.2.22.html">8.2.22</a></li><li class="affix"><a href="8.2.23-24.html">8.2.23-24</a></li><li class="affix"><a href="8.2.25.html">8.2.25</a></li><li class="affix"><a href="8.2.26.html">8.2.26</a></li><li class="affix"><a href="8.2.27.html">8.2.27</a></li><li class="affix"><a href="8.2.28.html">8.2.28</a></li><li class="affix"><a href="8.2.29.html">8.2.29</a></li><li class="affix"><a href="8.2.30.html">8.2.30</a></li><li class="affix"><a href="8.2.31.html">8.2.31</a></li><li class="affix"><a href="8.2.32.html">8.2.32</a></li><li class="affix"><a href="8.2.33.html" class="active">8.2.33</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
+                        </div>
+
+                        <h1 class="menu-title">The Elephant Gajendra’s Crisis</h1>
+
+                        <div class="right-buttons">
+                            <a href="print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h3><a class="header" href="#8233" id="8233">8.2.33</a></h3>
+<p>yah kascaneso balino ’ntakoragat</p>
+<p>pracanda-vegad abhidhavato bhrsam</p>
+<p>bhitam prapannam paripati yad-bhayan</p>
+<p>mrtyuh pradhavaty aranam tam imahi</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—He who (the Supreme Personality of Godhead); kascana—someone; isah—the supreme controller; balinah—very powerful; antaka-uragat—from the great serpent of time, which brings death; pracanda-vegat—whose force is fearful; abhidhavatah—who is chasing; bhrsam—endlessly (every hour and every minute); bhitam—one who is afraid of death; prapannam—who is surrendered (to the Supreme Personality of Godhead); paripati—He protects; yat-bhayat—from fear of the Lord; mrtyuh—death itself; pradhavati—runs away; aranam—the actual shelter of everyone; tam—unto Him; imahi—I surrender or take shelter.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Supreme Personality of Godhead is certainly not known to everyone, but He is very powerful and influential.</p>
+<p>Therefore, although the serpent of eternal time, which is fearful in force, endlessly chases everyone, ready to swallow him, if one who fears this serpent seeks shelter of the Lord, the Lord gives him protection, for even death runs away in fear of the Lord.</p>
+<p>I therefore surrender unto Him, the great and powerful supreme authority who is the actual shelter of everyone.</p>
+<p><strong>PURPORT</strong></p>
+<p>One who is intelligent understands that there is a great and supreme authority above everything.</p>
+<p>That great authority appears in different incarnations to save the innocent from disturbances.</p>
+<p>As confirmed in Bhagavad-gita, paritranaya sadhunam vinasaya ca duskrtam: (Bg.4.8) the Lord appears in His various incarnations for two purposes—to annihilate the duskrti, the sinful, and to protect His devotees.</p>
+<p>The King of the elephants decided to surrender unto Him.</p>
+<p>This is intelligent.</p>
+<p>One must know that great Supreme Personality of Godhead and surrender unto Him.</p>
+<p>The Lord comes personally to instruct us how to be happy, and only fools and rascals do not see by intelligence this supreme authority, the Supreme Person.</p>
+<p>In the sruti-mantra it is said:</p>
+<p>bhisasmad vatah pavate</p>
+<p>bhisodeti suryah</p>
+<p>bhisasmad agnis candras ca</p>
+<p>mrtyur dhavati pancamah</p>
+<p>(Taittiriya Upanisad2.8)</p>
+<p>It is out of fear of the Supreme Personality of Godhead that the wind is blowing, that the sun is distributing heat and light, and that death is chasing everyone.</p>
+<p>Thus there is a supreme controller, as confirmed in Bhagavad-gita (9.10): mayadhyaksena prakrtih suyate sacaracaram.</p>
+<p>This material manifestation is working so well because of the supreme controller.</p>
+<p>Any intelligent person, therefore, can understand that there is a supreme controller.</p>
+<p>Furthermore, the supreme controller Himself appears as Lord Krsna, as Lord Caitanya Mahaprabhu and as Lord Ramacandra to give us instructions and to show us by example how to surrender unto the Supreme Personality of Godhead.</p>
+<p>Yet those who are duskrti, the lowest of men, do not surrender (na mam duskrtino mudhah prapadyante naradhamah (Bg.7.15)).</p>
+<p>In Bhagavad-gita the Lord clearly says, mrtyuh sarva-haras caham: I am all-devouring death Thus mrtyu, or death, is the representative who takes everything away from the living entity who has accepted a material body.</p>
+<p>No one can say, I do not fear death This is a false proposition.</p>
+<p>Everyone fears death.</p>
+<p>However, one who seeks shelter of the Supreme Personality of Godhead can be saved from death.</p>
+<p>One may argue, Does the devotee not die The answer is that a devotee certainly must give up his body, for the body is material.</p>
+<p>The difference is, however, that for one who surrenders to Krsna fully and who is protected by Krsna, the present body is his last; he will not again receive a material body to be subjected to death.</p>
+<p>This is assured in Bhagavad-gita (4.9).</p>
+<p>Tyaktva deham punar janma naiti mam eti so’rjuna: a devotee, after giving up his body, does not accept a material body, but returns home, back to Godhead.</p>
+<p>We are always in danger because at any moment death can take place.</p>
+<p>It is not that only Gajendra, the King of the elephants, was afraid of death.</p>
+<p>Everyone should fear death because everyone is caught by the crocodile of eternal time and may die at any moment.</p>
+<p>The best course, therefore, is to seek shelter of Krsna, the Supreme Personality of Godhead, and be saved from the struggle for existence in this material world, in which one repeatedly takes birth and dies.</p>
+<p>To reach this understanding is the ultimate goal of life.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="8.2.32.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="../index.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a href="8.2.32.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a href="../index.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

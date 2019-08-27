@@ -1,0 +1,234 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>7.11.25 - The Perfect Society: Four Social Classes</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+        <link rel="stylesheet" href="custom.css">
+        
+
+        
+    </head>
+    <body class="rust">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme + ' js';
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html">The Perfect Society: Four Social Classes</a></li><li class="affix"><a href="7.11.2.html">7.11.2</a></li><li class="affix"><a href="7.11.3.html">7.11.3</a></li><li class="affix"><a href="7.11.4.html">7.11.4</a></li><li class="affix"><a href="7.11.5.html">7.11.5</a></li><li class="affix"><a href="7.11.6.html">7.11.6</a></li><li class="affix"><a href="7.11.7.html">7.11.7</a></li><li class="affix"><a href="7.11.8-12.html">7.11.8-12</a></li><li class="affix"><a href="7.11.13.html">7.11.13</a></li><li class="affix"><a href="7.11.14.html">7.11.14</a></li><li class="affix"><a href="7.11.15.html">7.11.15</a></li><li class="affix"><a href="7.11.16.html">7.11.16</a></li><li class="affix"><a href="7.11.17.html">7.11.17</a></li><li class="affix"><a href="7.11.18-20.html">7.11.18-20</a></li><li class="affix"><a href="7.11.21.html">7.11.21</a></li><li class="affix"><a href="7.11.22.html">7.11.22</a></li><li class="affix"><a href="7.11.23.html">7.11.23</a></li><li class="affix"><a href="7.11.24.html">7.11.24</a></li><li class="affix"><a href="7.11.25.html" class="active">7.11.25</a></li><li class="affix"><a href="7.11.26-27.html">7.11.26-27</a></li><li class="affix"><a href="7.11.28.html">7.11.28</a></li><li class="affix"><a href="7.11.29.html">7.11.29</a></li><li class="affix"><a href="7.11.30.html">7.11.30</a></li><li class="affix"><a href="7.11.31.html">7.11.31</a></li><li class="affix"><a href="7.11.32.html">7.11.32</a></li><li class="affix"><a href="7.11.33-34.html">7.11.33-34</a></li><li class="affix"><a href="7.11.35.html">7.11.35</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
+                        </div>
+
+                        <h1 class="menu-title">The Perfect Society: Four Social Classes</h1>
+
+                        <div class="right-buttons">
+                            <a href="print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h3><a class="header" href="#71125" id="71125">7.11.25</a></h3>
+<p>strinam ca pati-devanam</p>
+<p>tac-chusrusanukulata</p>
+<p>tad-bandhusv anuvrttis ca</p>
+<p>nityam tad-vrata-dharanam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>strinam—of women; ca—also; pati-devanam—who have accepted their husbands as worshipable; tat-susrusa—readiness to render service to her husband; anukulata—being favorably disposed towards her husband; tat-bandhusu—unto the friends and relatives of the husband; anuvrttih—being similarly disposed (to treat them well for the satisfaction of the husband); ca—and; nityam—regularly; tat-vrata-dharanam—accepting the vows of the husband or acting exactly as the husband acts.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>To render service to the husband, to be always favorably disposed toward the husband, to be equally well disposed toward the husband’s relatives and friends, and to follow the vows of the husband—these are the four principles to be followed by women described as chaste.</p>
+<p><strong>PURPORT</strong></p>
+<p>It is very important for peaceful householder life that a woman follow the vow of her husband.</p>
+<p>Any disagreement with the husband’s vow will disrupt family life.</p>
+<p>In this regard, Canakya Pandita gives a very valuable instruction: dampatyoh kalaho nasti tatra srih svayam agatah.</p>
+<p>When there are no fights between husband and wife, the goddess of fortune automatically comes to the home.</p>
+<p>A woman’s education should be conducted along the lines indicated in this verse.</p>
+<p>The basic principle for a chaste woman is to be always favorably disposed toward her husband.</p>
+<p>In Bhagavad-gita (1.40) it is said, strisu dustasu varsneya jayate varna-sankarah: if the women are polluted, there will be varna-sankara population.</p>
+<p>In modern terms, the varna-sankara are the hippies, who do not follow any regulative injunctions.</p>
+<p>Another explanation is that when the population is varna-sankara, no one can know who is on what platform.</p>
+<p>The varnasrama system scientifically divides society into four varnas and four asramas, but in varna-sankara society there are no such distinctions, and no one can know who is who.</p>
+<p>In such a society, no one can distinguish between a brahmana, a ksatriya, a vaisya and a sudra.</p>
+<p>For peace and happiness in the material world, the varnasrama institution must be introduced.</p>
+<p>The symptoms of one’s activities must be defined, and one must be educated accordingly.</p>
+<p>Then spiritual advancement will automatically be possible.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="7.11.24.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="7.11.26-27.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a href="7.11.24.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a href="7.11.26-27.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

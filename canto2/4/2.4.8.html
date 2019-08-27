@@ -1,0 +1,250 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>2.4.8 - The Process of Creation</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+        <link rel="stylesheet" href="custom.css">
+        
+
+        
+    </head>
+    <body class="rust">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme + ' js';
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html">The Process of Creation</a></li><li class="affix"><a href="2.4.2.html">2.4.2</a></li><li class="affix"><a href="2.4.3-4.html">2.4.3-4</a></li><li class="affix"><a href="2.4.5.html">2.4.5</a></li><li class="affix"><a href="2.4.6.html">2.4.6</a></li><li class="affix"><a href="2.4.7.html">2.4.7</a></li><li class="affix"><a href="2.4.8.html" class="active">2.4.8</a></li><li class="affix"><a href="2.4.9.html">2.4.9</a></li><li class="affix"><a href="2.4.10.html">2.4.10</a></li><li class="affix"><a href="2.4.11.html">2.4.11</a></li><li class="affix"><a href="2.4.12.html">2.4.12</a></li><li class="affix"><a href="2.4.13.html">2.4.13</a></li><li class="affix"><a href="2.4.14.html">2.4.14</a></li><li class="affix"><a href="2.4.15.html">2.4.15</a></li><li class="affix"><a href="2.4.16.html">2.4.16</a></li><li class="affix"><a href="2.4.17.html">2.4.17</a></li><li class="affix"><a href="2.4.18.html">2.4.18</a></li><li class="affix"><a href="2.4.19.html">2.4.19</a></li><li class="affix"><a href="2.4.20.html">2.4.20</a></li><li class="affix"><a href="2.4.21.html">2.4.21</a></li><li class="affix"><a href="2.4.22.html">2.4.22</a></li><li class="affix"><a href="2.4.23.html">2.4.23</a></li><li class="affix"><a href="2.4.24.html">2.4.24</a></li><li class="affix"><a href="2.4.25.html">2.4.25</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
+                        </div>
+
+                        <h1 class="menu-title">The Process of Creation</h1>
+
+                        <div class="right-buttons">
+                            <a href="print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h3><a class="header" href="#248" id="248">2.4.8</a></h3>
+<p>nunam bhagavato brahman</p>
+<p>harer adbhuta-karmanah</p>
+<p>durvibhavyam ivabhati</p>
+<p>kavibhis capi cestitam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>nunam—still insufficient; bhagavatah—of the Personality of Godhead; brahman—O learned brahmana; hareh—of the Lord; adbhuta—wonderful; karmanah—one who acts; durvibhavyam—inconceivable; iva—like that; abhati—appears; kavibhih—even by the highly learned; ca—also; api—in spite of; cestitam—being endeavored for.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O learned brahmana, the transcendental activities of the Lord are all wonderful, and they appear inconceivable because even great endeavors by many learned scholars have still proved insufficient for understanding them.</p>
+<p><strong>PURPORT</strong></p>
+<p>The acts of the Supreme Lord, in the creation of just this one universe, appear inconceivably wonderful.</p>
+<p>And there are innumerable universes, and all of them aggregated together are known as the created material world.</p>
+<p>And this part of His creation is only a fractional portion of the complete creation.</p>
+<p>The material world stands as a part only (ekamsena sthito jagat).</p>
+<p>Supposing that the material world is a display of one part of His energy, the remaining three parts consist of the vaikuntha jagat or spiritual world described in the Bhagavad-gita as mad-dhama or sanatana-dhama, or the eternal world.</p>
+<p>We have marked in the previous verse that He creates and again winds up the creation.</p>
+<p>This action is applicable only in the material world because the other, greater part of His creation, namely the Vaikuntha world, is neither created nor annihilated; otherwise the Vaikuntha-dhama would not have been called eternal.</p>
+<p>The Lord exists with dhama; His eternal name, quality, pastimes, entourage and personality are all a display of His different energies and expansions.</p>
+<p>The Lord is called anadi, or having no creator, and adi, or the origin of all.</p>
+<p>We think in our own imperfect way that the Lord is also created, but the Vedanta informs us that He is not created.</p>
+<p>Rather, everything else is created by Him (narayanah paro ’vyaktat).</p>
+<p>Therefore, for the common man these are all very wonderful matters for consideration.</p>
+<p>Even for great scholars they are inconceivable, and thus such scholars present theories contradictory to one another.</p>
+<p>Even for the insignificant part of His creation, this particular universe, they have no complete information as to how far this limited space extends, or how many stars and planets are there, or the different conditions of those innumerable planets.</p>
+<p>Modern scientists have insufficient knowledge of all this.</p>
+<p>Some of them assert that there are one hundred million planets scattered all over space.</p>
+<p>In a news release from Moscow dated 2/21/60, the following piece of knowledge was relayed: Russia’s well-known professor of astronomy Boris Vorontsov-Veliaminov said that there must be an infinite number of planets in the universe inhabited by beings endowed with reason It could be that life similar to that on earth flourishes on such planets Doctor of Chemistry Nikolai Zhirov, covering the problem of atmosphere on other planets, pointed out that the organism of a Martian, for instance, could very well adapt itself to normal existence with a low body temperature He said that he felt that the gaseous composition of Martian atmosphere was quite suitable to sustain life of beings which have become adapted to it This adaptability of an organism to different varieties of planets is described in the Brahma-samhita as vibhuti-bhinnam; i.e., each and every one of the innumerable planets within the universe is endowed with a particular type of atmosphere, and the living beings there are more perfectly advanced in science and psychology because of a better atmosphere.</p>
+<p>Vibhuti means specific powers and bhinnam means variegated Scientists who are attempting to explore outer space and are trying to reach other planets by mechanical arrangements must know for certain that organisms adapted to the atmosphere of earth cannot exist in the atmospheres of other planets (Easy Journey to Other planets).</p>
+<p>One has to prepare himself, therefore, to be transferred to a different planet after being relieved of the present body, as it is said in the Bhagavad-gita (9.25):</p>
+<p>yanti deva-vrata devan</p>
+<p>pitrn yanti pitr-vratah</p>
+<p>bhutani yanti bhutejya</p>
+<p>yanti mad-yajino ’pi mam</p>
+<p>Those who worship the demigods will take birth among the demigods, those who worship ghosts and spirits will take birth among such beings, and those who worship Me will live with Me.</p>
+<p>Maharaja Pariksit’s statement regarding the workings of the creative energy of the Lord discloses that he knew everything of the process of creation.</p>
+<p>Why then did he ask Sukadeva Gosvami for such information? Maharaja Pariksit, being a great emperor, a descendant of the Pandavas and a great devotee of Lord Krsna, was quite able to know considerably about the creation of the world, but that much knowledge was not sufficient.</p>
+<p>He said therefore that even greatly learned scholars fail to know about that, even after great effort.</p>
+<p>The Lord is unlimited, and His activities are also unfathomed.</p>
+<p>With a limited source of knowledge and with imperfect senses, any living being, up to the standard of Brahmaji, the highest perfect living being within the universe, can never imagine knowing about the unlimited.</p>
+<p>We can know something of the unlimited when it is explained by the unlimited, as has been done by the Lord Himself in the unique statements of the Bhagavad-gita, and it can also be known to some extent from realized souls like Sukadeva Gosvami, who learned it from Vyasadeva, a disciple of Narada, and thus the perfect knowledge can descend by the chain of disciplic succession only, and not by any form of experimental knowledge, old or modern.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="2.4.7.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="2.4.9.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a href="2.4.7.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a href="2.4.9.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

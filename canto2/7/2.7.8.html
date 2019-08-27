@@ -1,0 +1,241 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>2.7.8 - Scheduled Incarnations with Specific Functions</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+        <link rel="stylesheet" href="custom.css">
+        
+
+        
+    </head>
+    <body class="rust">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme + ' js';
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html">Scheduled Incarnations with Specific Functions</a></li><li class="affix"><a href="2.7.2.html">2.7.2</a></li><li class="affix"><a href="2.7.3.html">2.7.3</a></li><li class="affix"><a href="2.7.4.html">2.7.4</a></li><li class="affix"><a href="2.7.5.html">2.7.5</a></li><li class="affix"><a href="2.7.6.html">2.7.6</a></li><li class="affix"><a href="2.7.7.html">2.7.7</a></li><li class="affix"><a href="2.7.8.html" class="active">2.7.8</a></li><li class="affix"><a href="2.7.9.html">2.7.9</a></li><li class="affix"><a href="2.7.10.html">2.7.10</a></li><li class="affix"><a href="2.7.11.html">2.7.11</a></li><li class="affix"><a href="2.7.12.html">2.7.12</a></li><li class="affix"><a href="2.7.13.html">2.7.13</a></li><li class="affix"><a href="2.7.14.html">2.7.14</a></li><li class="affix"><a href="2.7.15.html">2.7.15</a></li><li class="affix"><a href="2.7.16.html">2.7.16</a></li><li class="affix"><a href="2.7.17.html">2.7.17</a></li><li class="affix"><a href="2.7.18.html">2.7.18</a></li><li class="affix"><a href="2.7.19.html">2.7.19</a></li><li class="affix"><a href="2.7.20.html">2.7.20</a></li><li class="affix"><a href="2.7.21.html">2.7.21</a></li><li class="affix"><a href="2.7.22.html">2.7.22</a></li><li class="affix"><a href="2.7.23.html">2.7.23</a></li><li class="affix"><a href="2.7.24.html">2.7.24</a></li><li class="affix"><a href="2.7.25.html">2.7.25</a></li><li class="affix"><a href="2.7.26.html">2.7.26</a></li><li class="affix"><a href="2.7.27.html">2.7.27</a></li><li class="affix"><a href="2.7.28.html">2.7.28</a></li><li class="affix"><a href="2.7.29.html">2.7.29</a></li><li class="affix"><a href="2.7.30.html">2.7.30</a></li><li class="affix"><a href="2.7.31.html">2.7.31</a></li><li class="affix"><a href="2.7.32.html">2.7.32</a></li><li class="affix"><a href="2.7.33.html">2.7.33</a></li><li class="affix"><a href="2.7.34-35.html">2.7.34-35</a></li><li class="affix"><a href="2.7.36.html">2.7.36</a></li><li class="affix"><a href="2.7.37.html">2.7.37</a></li><li class="affix"><a href="2.7.38.html">2.7.38</a></li><li class="affix"><a href="2.7.39.html">2.7.39</a></li><li class="affix"><a href="2.7.40.html">2.7.40</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
+                        </div>
+
+                        <h1 class="menu-title">Scheduled Incarnations with Specific Functions</h1>
+
+                        <div class="right-buttons">
+                            <a href="print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h3><a class="header" href="#278" id="278">2.7.8</a></h3>
+<p>viddhah sapatny-udita-patribhir anti rajno</p>
+<p>balo ’pi sann upagatas tapase vanani</p>
+<p>tasma adad dhruva-gatim grnate prasanno</p>
+<p>divyah stuvanti munayo yad upary-adhastat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>viddhah—pinched by; sapatni—a co-wife; udita—uttered by; patribhih—by sharp words; anti—just before; rajnah—of the king; balah—a boy; api—although; san—being so; upagatah—took to; tapase—severe penances; vanani—in a great forest; tasmai—therefore; adat—gave as a reward; dhruva-gatim—a path to the Dhruva planet; grnate—on being prayed for; prasannah—being satisfied; divyah—denizens of higher planets; stuvanti—do pray; munayah—great sages; yat—thereupon; upari—up; adhastat—down.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Being insulted by sharp words spoken by the co-wife of the king, even in his presence, Prince Dhruva, though only a boy, took to severe penances in the forest.</p>
+<p>And the Lord, being satisfied by his prayer, awarded him the Dhruva planet, which is worshiped by great sages, both upward and downward.</p>
+<p><strong>PURPORT</strong></p>
+<p>When he was only five years old, Prince Dhruva, a great devotee and the son of Maharaja Uttanapada, was sitting on the lap of his father.</p>
+<p>His stepmother did not like the King’s patting her stepson, so she dragged him out, saying that he could not claim to sit on the lap of the King because he was not born out of her womb.</p>
+<p>The little boy felt insulted by this act of his stepmother.</p>
+<p>Nor did his father make any protest, for he was too attached to his second wife.</p>
+<p>After this incident, Prince Dhruva went to his own mother and complained.</p>
+<p>His real mother also could not take any step against this insulting behavior, and so she wept.</p>
+<p>The boy inquired from his mother how he could sit on the royal throne of his father, and the poor queen replied that only the Lord could help him.</p>
+<p>The boy inquired where the Lord could be seen, and the queen replied that it is said that the Lord is sometimes seen by great sages in the dense forest.</p>
+<p>The child prince decided to go into the forest to perform severe penances in order to achieve his objective.</p>
+<p>Prince Dhruva performed a stringent type of penance under the instruction of his spiritual master, Sri Narada Muni, who was specifically deputed for this purpose by the Personality of Godhead.</p>
+<p>Prince Dhruva was initiated by Narada into chanting the hymn composed of eighteen letters, namely om namo bhagavate vasudevaya, and Lord Vasudeva incarnated Himself as Prsnigarbha, the Personality of Godhead with four hands, and awarded the prince a specific planet above the seven stars.</p>
+<p>Prince Dhruva, after achieving success in his undertakings, saw the Lord face to face, and he was satisfied that all his needs were fulfilled.</p>
+<p>The planet awarded to Prince Dhruva Maharaja is a fixed Vaikuntha planet, installed in the material atmosphere by the will of the Supreme Lord, Vasudeva.</p>
+<p>This planet, although within the material world, will not be annihilated at the time of devastation, but will remain fixed in its place.</p>
+<p>And because it is a Vaikuntha planet never to be annihilated, it is worshiped even by the denizens of the seven stars situated below the Dhruva planet, as well as by the planets which are even above the Dhruva planet.</p>
+<p>Maharsi Bhrgu’s planet is situated above the Dhruva planet.</p>
+<p>So the Lord incarnated Himself as Prsnigarbha just to satisfy a pure devotee of the Lord.</p>
+<p>And Prince Dhruva achieved this perfection simply by chanting the hymn mentioned above, after being initiated by another pure devotee, Narada.</p>
+<p>A serious personality can thus achieve the highest perfection of meeting the Lord and attain his objective simply by being guided by a pure devotee, who automatically approaches by dint of one’s serious determination to meet the Lord by all means.</p>
+<p>The description of Prince Dhruva’s activities can be read in detail in the Fourth Canto of Srimad-Bhagavatam.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="2.7.7.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="2.7.9.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a href="2.7.7.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a href="2.7.9.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

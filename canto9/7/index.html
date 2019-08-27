@@ -1,0 +1,253 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>The Descendants of King Mandhata - The Descendants of King Mandhata</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+        <link rel="stylesheet" href="custom.css">
+        
+
+        
+    </head>
+    <body class="rust">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme + ' js';
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">The Descendants of King Mandhata</a></li><li class="affix"><a href="9.7.2.html">9.7.2</a></li><li class="affix"><a href="9.7.3.html">9.7.3</a></li><li class="affix"><a href="9.7.4.html">9.7.4</a></li><li class="affix"><a href="9.7.5-6.html">9.7.5-6</a></li><li class="affix"><a href="9.7.7.html">9.7.7</a></li><li class="affix"><a href="9.7.8.html">9.7.8</a></li><li class="affix"><a href="9.7.9.html">9.7.9</a></li><li class="affix"><a href="9.7.10.html">9.7.10</a></li><li class="affix"><a href="9.7.11.html">9.7.11</a></li><li class="affix"><a href="9.7.12.html">9.7.12</a></li><li class="affix"><a href="9.7.13.html">9.7.13</a></li><li class="affix"><a href="9.7.14.html">9.7.14</a></li><li class="affix"><a href="9.7.15.html">9.7.15</a></li><li class="affix"><a href="9.7.16.html">9.7.16</a></li><li class="affix"><a href="9.7.17.html">9.7.17</a></li><li class="affix"><a href="9.7.18.html">9.7.18</a></li><li class="affix"><a href="9.7.19.html">9.7.19</a></li><li class="affix"><a href="9.7.20.html">9.7.20</a></li><li class="affix"><a href="9.7.21.html">9.7.21</a></li><li class="affix"><a href="9.7.22.html">9.7.22</a></li><li class="affix"><a href="9.7.23.html">9.7.23</a></li><li class="affix"><a href="9.7.24.html">9.7.24</a></li><li class="affix"><a href="9.7.25-26.html">9.7.25-26</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
+                        </div>
+
+                        <h1 class="menu-title">The Descendants of King Mandhata</h1>
+
+                        <div class="right-buttons">
+                            <a href="print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1><a class="header" href="#the-descendants-of-king-mandhata" id="the-descendants-of-king-mandhata">The Descendants of King Mandhata</a></h1>
+<h2><a class="header" href="#summary" id="summary">Summary</a></h2>
+<h3><a class="header" href="#97" id="97">9.7</a></h3>
+<p>In this chapter the descendants of King Mandhata are described, and in this connection the histories of Purukutsa and Hariscandra are also given.</p>
+<p>The most prominent son of Mandhata was Ambarisa, his son was Yauvanasva, and Yauvanasva’s son was Harita.</p>
+<p>These three personalities were the best in the dynasty of Mandhata.</p>
+<p>Purukutsa, another son of Mandhata, married the sister of the snakes (sarpa-gana) named Narmada.</p>
+<p>The son of Purukutsa was Trasaddasyu, whose son was Anaranya.</p>
+<p>Anaranya’s son was Haryasva, Haryasva’s son was Praruna, Praruna’s son was Tribandhana, and Tribandhana’s son was Satyavrata, also known as Trisanku.</p>
+<p>When Trisanku kidnapped the daughter of a brahmana, his father cursed him for this sinful act, and Trisanku became a candala, worse than a sudra.</p>
+<p>Later, by the influence of Visvamitra, he was brought to the heavenly planets, but by the influence of the demigods he fell back downward.</p>
+<p>He was stopped in his fall, however, by the influence of Visvamitra.</p>
+<p>The son of Trisanku was Hariscandra.</p>
+<p>Hariscandra once performed a Rajasuya-yajna, but Visvamitra cunningly took all of Hariscandra’s possessions as a daksina contribution and chastised Hariscandra in various ways.</p>
+<p>Because of this, a quarrel arose between Visvamitra and Vasistha.</p>
+<p>Hariscandra had no sons, but on the advice of Narada he worshiped Varuna and in this way got a son named Rohita.</p>
+<p>Hariscandra promised that Rohita would be used to perform a Varuna-yajna.</p>
+<p>Varuna reminded Hariscandra repeatedly about this yajna, but the King, because of affection for his son, gave various arguments to avoid sacrificing him.</p>
+<p>Thus time passed, and gradually the son grew up.</p>
+<p>To safeguard his life, the boy then took bow and arrows in hand and went to the forest.</p>
+<p>Meanwhile, at home, Hariscandra suffered from dropsy because of an attack from Varuna.</p>
+<p>When Rohita received the news that his father was suffering, he wanted to return to the capital, but King Indra prevented him from doing so.</p>
+<p>Following the instructions of Indra, Rohita lived in the forest for six years and then returned home.</p>
+<p>Rohita purchased Sunahsepha, the second son of Ajigarta, and gave him to his father, Hariscandra, as the sacrificial animal.</p>
+<p>In this way, the sacrifice was performed, Varuna and the other demigods were pacified, and Hariscandra was freed from disease.</p>
+<p>In this sacrifice, Visvamitra was the hota priest, Jamadagni was the adhvaryu, Vasistha was the brahma, and Ayasya was the udgata.</p>
+<p>King Indra, being very satisfied by the sacrifice, gave Hariscandra a golden chariot, and Visvamitra gave him transcendental knowledge.</p>
+<p>Thus Sukadeva Gosvami describes how Hariscandra achieved perfection.</p>
+<h3><a class="header" href="#971" id="971">9.7.1</a></h3>
+<p>sri-suka uvaca</p>
+<p>mandhatuh putra-pravaro</p>
+<p>yo ’mbarisah prakirtitah</p>
+<p>pitamahena pravrto</p>
+<p>yauvanasvas tu tat-sutah</p>
+<p>haritas tasya putro ’bhun</p>
+<p>mandhatr-pravara ime</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-sukah uvaca—Sri Sukadeva Gosvami said; mandhatuh—of Mandhata; putra-pravarah—the prominent son; yah—the one who; ambarisah—by the name Ambarisa; prakirtitah—celebrated; pitamahena—by his grandfather Yuvanasva; pravrtah—accepted; yauvanasvah—named Yauvanasva; tu—and; tat-sutah—the son of Ambarisa; haritah—by the name Harita; tasya—of Yauvanasva; putrah—the son; abhut—became; mandhatr—in the dynasty of Mandhata; pravarah—most prominent; ime—all of them.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sukadeva Gosvami said: The most prominent among the sons of Mandhata was he who is celebrated as Ambarisa.</p>
+<p>Ambarisa was accepted as son by his grandfather Yuvanasva.</p>
+<p>Ambarisa’s son was Yauvanasva, and Yauvanasva’s son was Harita.</p>
+<p>In Mandhata’s dynasty, Ambarisa, Harita and Yauvanasva were very prominent.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="9.7.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a href="9.7.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>
