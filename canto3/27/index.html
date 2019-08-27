@@ -1,1 +1,239 @@
-# Understanding Material Nature
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Understanding Material Nature - Understanding Material Nature</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+        <link rel="stylesheet" href="custom.css">
+        
+
+        
+    </head>
+    <body class="rust">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme + ' js';
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">Understanding Material Nature</a></li><li class="affix"><a href="3.27.2.html">3.27.2</a></li><li class="affix"><a href="3.27.3.html">3.27.3</a></li><li class="affix"><a href="3.27.4.html">3.27.4</a></li><li class="affix"><a href="3.27.5.html">3.27.5</a></li><li class="affix"><a href="3.27.6.html">3.27.6</a></li><li class="affix"><a href="3.27.7.html">3.27.7</a></li><li class="affix"><a href="3.27.8.html">3.27.8</a></li><li class="affix"><a href="3.27.9.html">3.27.9</a></li><li class="affix"><a href="3.27.10.html">3.27.10</a></li><li class="affix"><a href="3.27.11.html">3.27.11</a></li><li class="affix"><a href="3.27.12.html">3.27.12</a></li><li class="affix"><a href="3.27.13.html">3.27.13</a></li><li class="affix"><a href="3.27.14.html">3.27.14</a></li><li class="affix"><a href="3.27.15.html">3.27.15</a></li><li class="affix"><a href="3.27.16.html">3.27.16</a></li><li class="affix"><a href="3.27.17.html">3.27.17</a></li><li class="affix"><a href="3.27.18.html">3.27.18</a></li><li class="affix"><a href="3.27.19.html">3.27.19</a></li><li class="affix"><a href="3.27.20.html">3.27.20</a></li><li class="affix"><a href="3.27.21.html">3.27.21</a></li><li class="affix"><a href="3.27.22.html">3.27.22</a></li><li class="affix"><a href="3.27.23.html">3.27.23</a></li><li class="affix"><a href="3.27.24.html">3.27.24</a></li><li class="affix"><a href="3.27.25.html">3.27.25</a></li><li class="affix"><a href="3.27.26.html">3.27.26</a></li><li class="affix"><a href="3.27.27.html">3.27.27</a></li><li class="affix"><a href="3.27.28-29.html">3.27.28-29</a></li><li class="affix"><a href="3.27.30.html">3.27.30</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
+                        </div>
+
+                        <h1 class="menu-title">Understanding Material Nature</h1>
+
+                        <div class="right-buttons">
+                            <a href="print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1><a class="header" href="#understanding-material-nature" id="understanding-material-nature">Understanding Material Nature</a></h1>
+<h3><a class="header" href="#3271" id="3271">3.27.1</a></h3>
+<p>sri-bhagavan uvaca</p>
+<p>prakrti-stho ’pi puruso</p>
+<p>najyate prakrtair gunaih</p>
+<p>avikarad akartrtvan</p>
+<p>nirgunatvaj jalarkavat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-bhagavan uvaca—the Personality of Godhead said; prakrti-sthah—residing in the material body; api—although; purusah—the living entity; na—not; ajyate—is affected; prakrtaih—of material nature; gunaih—by the modes; avikarat—from being without change; akartrtvat—by freedom from proprietorship; nirgunatvat—from being unaffected by the qualities of material nature; jala—on water; arkavat—like the sun.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Personality of Godhead Kapila continued: When the living entity is thus unaffected by the modes of material nature, because he is unchanging and does not claim proprietorship, he remains apart from the reactions of the modes, although abiding in a material body, just as the sun remains aloof from its reflection on water.</p>
+<p><strong>PURPORT</strong></p>
+<p>In the previous chapter Lord Kapiladeva has concluded that simply by beginning the discharge of devotional service one can attain detachment and transcendental knowledge for understanding the science of God.</p>
+<p>Here the same principle is confirmed.</p>
+<p>A person who is detached from the modes of material nature remains just like the sun reflected on water.</p>
+<p>When the sun is reflected on water, the movement of the water or the coolness or unsteadiness of the water cannot affect the sun.</p>
+<p>Similarly, vasudeve bhagavati bhakti-yogah prayojitah (Bhag.1.2.7): when one engages fully in the activities of devotional service, bhakti-yoga, he becomes just like the sun reflected on water.</p>
+<p>Although a devotee appears to be in the material world, actually he is in the transcendental world.</p>
+<p>As the reflection of the sun appears to be on the water but is many millions of miles away from the water, so one engaged in the bhakti-yoga process is nirguna, or unaffected by the qualities of material nature.</p>
+<p>Avikara means without change It is confirmed in Bhagavad-gita that each and every living entity is part and parcel of the Supreme Lord, and thus his eternal position is to cooperate or to dovetail his energy with the Supreme Lord.</p>
+<p>That is his unchanging position.</p>
+<p>As soon as he employs his energy and activities for sense gratification, this change of position is called vikara.</p>
+<p>Similarly, even in this material body, when he practices devotional service under the direction of the spiritual master, he comes to the position which is without change because that is his natural duty.</p>
+<p>As stated in the Srimad-Bhagavatam, liberation means reinstatement in one’s original position.</p>
+<p>The original position is one of rendering service to the Lord (bhakti-yogena, bhaktya).</p>
+<p>When one becomes detached from material attraction and engages fully in devotional service, that is changlessness.</p>
+<p>Akartrtvat means not doing anything for sense gratification.</p>
+<p>When one does something at his own risk, there is a sense of proprietorship and therefore a reaction, but when one does everything for Krsna, there is no proprietorship over the activities.</p>
+<p>By changlessness and by not claiming the proprietorship of activities, one can immediately situate himself in the transcendental position in which one is not touched by the modes of material nature, just as the reflection of the sun is unaffected by the water.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="3.27.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a href="3.27.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

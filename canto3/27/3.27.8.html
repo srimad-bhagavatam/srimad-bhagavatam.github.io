@@ -1,0 +1,272 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>3.27.8 - Understanding Material Nature</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+        <link rel="stylesheet" href="custom.css">
+        
+
+        
+    </head>
+    <body class="rust">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme + ' js';
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html">Understanding Material Nature</a></li><li class="affix"><a href="3.27.2.html">3.27.2</a></li><li class="affix"><a href="3.27.3.html">3.27.3</a></li><li class="affix"><a href="3.27.4.html">3.27.4</a></li><li class="affix"><a href="3.27.5.html">3.27.5</a></li><li class="affix"><a href="3.27.6.html">3.27.6</a></li><li class="affix"><a href="3.27.7.html">3.27.7</a></li><li class="affix"><a href="3.27.8.html" class="active">3.27.8</a></li><li class="affix"><a href="3.27.9.html">3.27.9</a></li><li class="affix"><a href="3.27.10.html">3.27.10</a></li><li class="affix"><a href="3.27.11.html">3.27.11</a></li><li class="affix"><a href="3.27.12.html">3.27.12</a></li><li class="affix"><a href="3.27.13.html">3.27.13</a></li><li class="affix"><a href="3.27.14.html">3.27.14</a></li><li class="affix"><a href="3.27.15.html">3.27.15</a></li><li class="affix"><a href="3.27.16.html">3.27.16</a></li><li class="affix"><a href="3.27.17.html">3.27.17</a></li><li class="affix"><a href="3.27.18.html">3.27.18</a></li><li class="affix"><a href="3.27.19.html">3.27.19</a></li><li class="affix"><a href="3.27.20.html">3.27.20</a></li><li class="affix"><a href="3.27.21.html">3.27.21</a></li><li class="affix"><a href="3.27.22.html">3.27.22</a></li><li class="affix"><a href="3.27.23.html">3.27.23</a></li><li class="affix"><a href="3.27.24.html">3.27.24</a></li><li class="affix"><a href="3.27.25.html">3.27.25</a></li><li class="affix"><a href="3.27.26.html">3.27.26</a></li><li class="affix"><a href="3.27.27.html">3.27.27</a></li><li class="affix"><a href="3.27.28-29.html">3.27.28-29</a></li><li class="affix"><a href="3.27.30.html">3.27.30</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
+                        </div>
+
+                        <h1 class="menu-title">Understanding Material Nature</h1>
+
+                        <div class="right-buttons">
+                            <a href="print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h3><a class="header" href="#3278" id="3278">3.27.8</a></h3>
+<p>yadrcchayopalabdhena</p>
+<p>santusto mita-bhun munih</p>
+<p>vivikta-saranah santo</p>
+<p>maitrah karuna atmavan</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yadrcchaya—without difficulty; upalabdhena—with what is obtained; santustah—satisfied; mita—little; bhuk—eating; munih—thoughtful; vivikta-saranah—living in a secluded place; santah—peaceful; maitrah—friendly; karunah—compassionate; atma-van—self-possessed, self-realized.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>For his income a devotee should be satisfied with what he earns without great difficulty.</p>
+<p>He should not eat more than what is necessary.</p>
+<p>He should live in a secluded place and always be thoughtful, peaceful, friendly, compassionate and self-realized.</p>
+<p><strong>PURPORT</strong></p>
+<p>Everyone who has accepted a material body must maintain the necessities of the body by acting or earning some livelihood.</p>
+<p>A devotee should only work for such income as is absolutely necessary.</p>
+<p>He should be satisfied always with such income and should not endeavor to earn more and more simply to accumulate the unnecessary.</p>
+<p>A person in the conditioned state who has no money is always found working very hard to earn some with the object of lording it over material nature.</p>
+<p>Kapiladeva instructs that we should not endeavor hard for things which may come automatically, without extraneous labor.</p>
+<p>The exact word used in this connection, yadrcchaya, means that every living entity has a predestined happiness and distress in his present body; this is called the law of karma.</p>
+<p>It is not possible that simply by endeavors to accumulate more money a person will be able to do so, otherwise almost everyone would be on the same level of wealth.</p>
+<p>In reality everyone is earning and acquiring according to his predestined karma.</p>
+<p>According to the Bhagavatam conclusion, we are sometimes faced with dangerous or miserable conditions without endeavoring for them, and similarly we may have prosperous conditions without endeavoring for them.</p>
+<p>We are advised to let these things come as predestined.</p>
+<p>We should engage our valuable time in prosecuting Krsna consciousness.</p>
+<p>In other words, one should be satisfied by his natural condition.</p>
+<p>If by predestination one is put into a certain condition of life which is not very prosperous in comparison to another’s position, one should not be disturbed.</p>
+<p>He should simply try to utilize his valuable time to advance in Krsna consciousness.</p>
+<p>Advancement in Krsna consciousness does not depend on any materially prosperous or distressed condition; it is free from the conditions imposed by material life.</p>
+<p>A very poor man can execute Krsna consciousness as effectively as a very rich man.</p>
+<p>One should therefore be very satisfied with his position as offered by the Lord.</p>
+<p>Another word here is mita-bhuk.</p>
+<p>This means that one should eat only as much as necessary to maintain the body and soul together.</p>
+<p>One should not be gluttonous to satisfy the tongue.</p>
+<p>Grains, fruits, milk and similar foods are allotted for human consumption.</p>
+<p>One should not be excessively eager to satisfy the tongue and eat that which is not meant for humanity.</p>
+<p>Particularly, a devotee should eat only prasada, or food which is offered to the Personality of Godhead.</p>
+<p>His position is to accept the remnants of those foodstuffs.</p>
+<p>Innocent foods like grains, vegetables, fruits, flowers and milk preparations are offered to the Lord, and therefore there is no scope for offering foods which are in the modes of passion and ignorance.</p>
+<p>A devotee should not be greedy.</p>
+<p>It is also recommended that the devotee should be muni, or thoughtful; he should always think of Krsna and how to render better service to the Supreme Personality of Godhead.</p>
+<p>That should be his only anxiety.</p>
+<p>As a materialist is always thoughtful about improving his material condition, a devotee’s thoughts should always be engaged in improving his condition in Krsna consciousness; therefore he should be a muni.</p>
+<p>The next item recommended is that a devotee should live in a secluded place.</p>
+<p>Generally a common man is interested in pounds, shillings and pence, or materialistic advancement in life, which is unnecessary for a devotee.</p>
+<p>A devotee should select a place of residence where everyone is interested in devotional service.</p>
+<p>Generally, therefore, a devotee goes to a sacred place of pilgrimage where devotees live.</p>
+<p>It is recommended that he live in a place where there is no large number of ordinary men.</p>
+<p>It is very important to live in a secluded place (vivikta-sarana).</p>
+<p>The next item is santa, or peacefulness.</p>
+<p>The devotee should not be agitated.</p>
+<p>He should be satisfied with his natural income, eat only as much as he needs to keep his health, live in a secluded place and always remain peaceful.</p>
+<p>Peace of mind is necessary for prosecuting Krsna consciousness.</p>
+<p>The next item is maitra, friendliness.</p>
+<p>A devotee should be friendly to everyone, but his intimate friendship should be with devotees only.</p>
+<p>With others he should be official.</p>
+<p>He may say, Yes, sir, what you say is all right but he is not intimate with them.</p>
+<p>A devotee should, however, have compassion for persons who are innocent, who are neither atheistic nor very much advanced in spiritual realization.</p>
+<p>A devotee should be compassionate towards them and instruct them as far as possible in making advancement in Krsna consciousness.</p>
+<p>A devotee should always remain atmavan, or situated in his spiritual position.</p>
+<p>He should not forget that his main concern is to make advancement in spiritual consciousness, or Krsna consciousness, and he should not ignorantly identify himself with the body or the mind.</p>
+<p>Atma means the body or the mind, but here the word atmavan especially means that one should be self-possessed.</p>
+<p>He should always remain in the pure consciousness that he is spirit soul and not the material body or the mind.</p>
+<p>That will make him progress confidently in Krsna consciousness.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="3.27.7.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="3.27.9.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a href="3.27.7.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a href="3.27.9.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>
