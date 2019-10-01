@@ -2,7 +2,14 @@
 
 *Śrīmad-Bhāgavatam (Bhāgavata Purāṇa)* begins with the definition of the ultimate source. It is a bona fide commentary on the *Vedanta-sutra* by the same author, Srila Vyasadeva, and gradually it develops into nine cantos up to the highest state of God realization.
 
-![Srimad Bhagavatam](sb2.jpg)
+## Srila Prabhupada
+<img align="left" width="160" height="230" src="sriprabhupada.png">
+
+At various times people have called him a scholar, a philosopher, a cultural ambassador, a prolific author, a religious leader, a spiritual teacher, a social critic, and a holy man. In truth, he was all these things and more.
+
+Srila Prabhupada set out to America in 1965 and established the International Society for Krishna Consciousness at the age of sixty-nine. He travelled around the world fourteen times, established more than 100 temples of Krishna and initiated more than 10000 disciples into Krishna consciousness.
+
+A brief biography of his divine presence in this material world can be found out [here](https://krishna.org/srila-prabhupada-a-brief-biography/).
 
 ### Created with [mdBook](https://github.com/rust-lang-nursery/mdBook)
 Relish the transcedental nectar of Srimad Bhagavata Mahapurana through the words of a pure devotee, __His Divine Grace A.C. Bhaktivedanta Swami Prabhupada__ [here](https://srimad-bhagavatam.github.io/).
