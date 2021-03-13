@@ -1,154 +1,41 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>The Activities of the Pracetas - The Activities of the Pracetas</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">The Activities of the Pracetas</a></li><li class="affix"><a href="4.30.2.html">4.30.2</a></li><li class="affix"><a href="4.30.3.html">4.30.3</a></li><li class="affix"><a href="4.30.4.html">4.30.4</a></li><li class="affix"><a href="4.30.5.html">4.30.5</a></li><li class="affix"><a href="4.30.6.html">4.30.6</a></li><li class="affix"><a href="4.30.7.html">4.30.7</a></li><li class="affix"><a href="4.30.8.html">4.30.8</a></li><li class="affix"><a href="4.30.9.html">4.30.9</a></li><li class="affix"><a href="4.30.10.html">4.30.10</a></li><li class="affix"><a href="4.30.11.html">4.30.11</a></li><li class="affix"><a href="4.30.12.html">4.30.12</a></li><li class="affix"><a href="4.30.13.html">4.30.13</a></li><li class="affix"><a href="4.30.14.html">4.30.14</a></li><li class="affix"><a href="4.30.15.html">4.30.15</a></li><li class="affix"><a href="4.30.16.html">4.30.16</a></li><li class="affix"><a href="4.30.17.html">4.30.17</a></li><li class="affix"><a href="4.30.18.html">4.30.18</a></li><li class="affix"><a href="4.30.19.html">4.30.19</a></li><li class="affix"><a href="4.30.20.html">4.30.20</a></li><li class="affix"><a href="4.30.21.html">4.30.21</a></li><li class="affix"><a href="4.30.22.html">4.30.22</a></li><li class="affix"><a href="4.30.23.html">4.30.23</a></li><li class="affix"><a href="4.30.24.html">4.30.24</a></li><li class="affix"><a href="4.30.25.html">4.30.25</a></li><li class="affix"><a href="4.30.26.html">4.30.26</a></li><li class="affix"><a href="4.30.27.html">4.30.27</a></li><li class="affix"><a href="4.30.28.html">4.30.28</a></li><li class="affix"><a href="4.30.29.html">4.30.29</a></li><li class="affix"><a href="4.30.30.html">4.30.30</a></li><li class="affix"><a href="4.30.31.html">4.30.31</a></li><li class="affix"><a href="4.30.32.html">4.30.32</a></li><li class="affix"><a href="4.30.33.html">4.30.33</a></li><li class="affix"><a href="4.30.34.html">4.30.34</a></li><li class="affix"><a href="4.30.35.html">4.30.35</a></li><li class="affix"><a href="4.30.36.html">4.30.36</a></li><li class="affix"><a href="4.30.37.html">4.30.37</a></li><li class="affix"><a href="4.30.38.html">4.30.38</a></li><li class="affix"><a href="4.30.39-40.html">4.30.39-40</a></li><li class="affix"><a href="4.30.41.html">4.30.41</a></li><li class="affix"><a href="4.30.42.html">4.30.42</a></li><li class="affix"><a href="4.30.43.html">4.30.43</a></li><li class="affix"><a href="4.30.44.html">4.30.44</a></li><li class="affix"><a href="4.30.45.html">4.30.45</a></li><li class="affix"><a href="4.30.46.html">4.30.46</a></li><li class="affix"><a href="4.30.47.html">4.30.47</a></li><li class="affix"><a href="4.30.48.html">4.30.48</a></li><li class="affix"><a href="4.30.49.html">4.30.49</a></li><li class="affix"><a href="4.30.39-40.html">4.30.39-40</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">The Activities of the Pracetas</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#the-activities-of-the-pracetas" id="the-activities-of-the-pracetas">The Activities of the Pracetas</a></h1>
-<h3><a class="header" href="#4301" id="4301">4.30.1</a></h3>
+<h1>The Activities of the Pracetas</h1>
+<p><strong>4.30.1</strong></p>
 <p>vidura uvaca</p>
 <p>ye tvayabhihita brahman</p>
 <p>sutah pracinabarhisah</p>
@@ -176,63 +63,1521 @@
 <p>By the grace of Lord Siva, the Pracetas actually attained perfection and returned home, back to Godhead, after enjoying material facilities to the highest extent.</p>
 <p>Maitreya will now narrate that to Vidura.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="4.30.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>4.30.2</strong></p>
+<p>kim barhaspatyeha paratra vatha</p>
+<p>kaivalya-natha-priya-parsva-vartinah</p>
+<p>asadya devam girisam yadrcchaya</p>
+<p>prapuh param nunam atha pracetasah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kim—what; barhaspatya—O disciple of Brhaspati; iha—here; paratra—in different planets; va—or; atha—as such; kaivalya-natha—to the bestower of liberation; priya—dear; parsva-vartinah—being associated with; asadya—after meeting; devam—the great demigod; giri-sam—the lord of the Kailasa Hill; yadrcchaya—by providence; prapuh—achieved; param—the Supreme; nunam—certainly; atha—therefore; pracetasah—the sons of Barhisat.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear Barhaspatya, what did the sons of King Barhisat, known as the Pracetas, obtain after meeting Lord Siva, who is very dear to the Supreme Personality of Godhead, the bestower of liberation? Certainly they were transferred to the spiritual world, but apart from that, what did they obtain within this material world, either in this life or in other lives?</p>
+<p><strong>PURPORT</strong></p>
+<p>All types of material happiness are obtained in this life or in the next life, on this planet or on another.</p>
+<p>The living entity wanders within this material universe in so many species of life and so many planetary systems.</p>
+<p>The distress and happiness obtained during the span of life are called iha, and the distress and happiness obtained in the next life are called paratra.</p>
+<p>Actually, Lord Mahadeva (Siva) is one of the great demigods within this material world.</p>
+<p>Generally his blessings bestowed on ordinary people mean material happiness.</p>
+<p>The predominating deity of this material world, Durga, is under the control of Lord Mahadeva, Girisa.</p>
+<p>Thus Lord Mahadeva can offer anyone any kind of material happiness.</p>
+<p>Generally people prefer to become devotees of Lord Girisa to obtain material happiness, but the Pracetas met Lord Mahadeva by providential arrangement.</p>
+<p>Lord Mahadeva instructed them to worship the Supreme Personality of Godhead, and he personally offered a prayer.</p>
+<p>As stated in the previous verse (rudra-gitena), simply by chanting the prayers offered by Lord Siva to Visnu, the Pracetas were transferred to the spiritual world.</p>
+<p>Sometimes devotees desire to enjoy material happiness also; therefore, by the arrangement of the Supreme Personality of Godhead, the devotee is given a chance to enjoy the material world before his final entrance into the spiritual world.</p>
+<p>Sometimes a devotee is transferred to a heavenly planet—to Janaloka, Maharloka, Tapoloka, Siddhaloka and so on.</p>
+<p>However, a pure devotee never aspires for any kind of material happiness.</p>
+<p>The pure devotee is consequently transferred directly to Vaikunthaloka, which is described here as param.</p>
+<p>In this verse Vidura asks Maitreya, the disciple of Brhaspati, about the different achievements of the Pracetas.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="4.30.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>4.30.3</strong></p>
+<p>maitreya uvaca</p>
+<p>pracetaso ’ntar udadhau</p>
+<p>pitur adesa-karinah</p>
+<p>japa-yajnena tapasa</p>
+<p>puranjanam atosayan</p>
+<p><strong>SYNONYMS</strong></p>
+<p>maitreyah uvaca—Maitreya said; pracetasah—the Pracetas; antah—within; udadhau—the sea; pituh—of their father; adesa-karinah—the order carriers; japa-yajnena—by chanting mantras; tapasa—under severe austerities; puram-janam—the Supreme Personality of Godhead; atosayan—satisfied.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The great sage Maitreya said: The sons of King Pracinabarhi, known as the Pracetas, underwent severe austerities within the seawater to carry out the order of their father.</p>
+<p>By chanting and repeating the mantras given by Lord Siva, they were able to satisfy Lord Visnu, the Supreme Personality of Godhead.</p>
+<p><strong>PURPORT</strong></p>
+<p>One can offer prayers to the Supreme Personality of Godhead directly, but if one repeats the prayers offered by great devotees like Lord Siva and Lord Brahma, or if one follows in the footsteps of great personalities, one can please the Supreme Personality of Godhead very easily.</p>
+<p>Brahma-samhita (5.29):</p>
+<p>cintamani-prakara-sadmasu kalpa-vrksa-</p>
+<p>laksavrtesu surabhir abhipalayantam</p>
+<p>laksmi-sahasra-sata-sambhrama-sevyamanam</p>
+<p>govindam adi-purusam tam aham bhajami</p>
+<p>I worship Govinda, the primeval Lord, the first progenitor, who is tending the cows, yielding all desires, in abodes built with spiritual gems and surrounded by millions of purpose trees.</p>
+<p>He is always served with great reverence and affection by hundreds of thousands of laksmis, or gopis Because this prayer was offered by Lord Brahma, we follow him by reciting this prayer.</p>
+<p>That is the easiest way to satisfy the Supreme Personality of Godhead.</p>
+<p>The pure devotee never attempts to reach the Supreme Lord directly.</p>
+<p>The most important way to worship the Lord is to go through the disciplic succession of devotees.</p>
+<p>The prayers offered by Lord Siva to the Supreme Personality of Godhead were thus repeated by the Pracetas, who were thus very successful in pleasing the Supreme Lord.</p>
+<p>Here the Supreme Personality of Godhead is described as puranjana.</p>
+<p>According to Madhvacarya, the living entity is called puranjana because he has become an inhabitant of this material world, and under the influence of the three modes of material nature, he is forced to live within it.</p>
+<p>The Supreme Personality of Godhead creates this material world (pura), and He also enters within it.</p>
+<p>Andantara-stha-paramanu-cayantara-stham.</p>
+<p>The Lord enters within the heart of the living entity and within the atom; therefore both the living entity and the Lord are called puranjana.</p>
+<p>One puranjana, the living entity, is subordinate to the supreme puranjana; therefore the duty of the subordinate puranjana is to satisfy the supreme puranjana.</p>
+<p>That is devotional service.</p>
+<p>Lord Rudra, or Lord Siva, is the original acarya of the Vaisnava sampradaya called the Rudra-sampradaya.</p>
+<p>Rudra-gitena indicates that under the disciplic succession of Lord Rudra, the Pracetas achieved spiritual success.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>4.30.4</strong></p>
+<p>dasa-varsa-sahasrante</p>
+<p>purusas tu sanatanah</p>
+<p>tesam avirabhut krcchram</p>
+<p>santena samayan ruca</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dasa-varsa—ten years; sahasra-ante—at the end of a thousand; purusah—the Supreme Person; tu—then; sanatanah—eternal; tesam—of the Pracetas; avirabhut—appeared; krcchram—the severe austerity; santena—satisfying; samayan—mitigating; ruca—by His beauty.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>At the end of ten thousand years of severe austerities performed by the Pracetas, the Supreme Personality of Godhead, to reward their austerities, appeared before them in His very pleasing form.</p>
+<p>This appealed to the Pracetas and satisfied the labor of their austerities.</p>
+<p><strong>PURPORT</strong></p>
+<p>Performing ten thousand years of severe austerities does not seem a happy endeavor.</p>
+<p>Yet the devotees, the serious students of spiritual life, undergo such austerities to attain the favor of the Supreme Personality of Godhead.</p>
+<p>At that time, when the duration of life was very long, people could undergo severe austerities for thousands of years.</p>
+<p>It is said that Valmiki, the author of Ramayana, underwent meditational austerities for sixty thousand years.</p>
+<p>The Supreme Personality of Godhead appreciated the austerities undergone by the Pracetas, and He finally appeared before them in a pleasing form.</p>
+<p>Thus they all became satisfied and forgot the austerities they underwent.</p>
+<p>In the material world, if one is successful after hard labor, he is very pleased.</p>
+<p>Similarly, the devotee forgets all his labors and austerities as soon as he contacts the Supreme Personality of Godhead.</p>
+<p>Although Dhruva Maharaja was only a five-year-old boy, he underwent severe austerities by eating simply dry foliage, drinking only water and taking no food.</p>
+<p>In this way, after six months, he was able to see the Supreme Personality of Godhead face to face.</p>
+<p>When he saw the Lord, he forgot all his austerities and said, svamin krtartho’smi: My dear Lord, I am very pleased Of course, these austerities were performed in the Satya-yuga, Dvapara-yuga and Treta-yuga, but not in this age of Kali.</p>
+<p>In this Kali-yuga, one can attain the same results simply by chanting the Hare Krsna maha-mantra.</p>
+<p>Because the people of this age are fallen, the Lord is kind enough to give them the easiest method.</p>
+<p>Simply by chanting the Hare Krsna mantra, one can attain the same results.</p>
+<p>However, as Lord Caitanya Mahaprabhu points out, we are so unfortunate that we are not even attracted to chanting the maha-mantra—Hare Krsna, Hare Krsna, Krsna Krsna, Hare Hare/ Hare Rama, Hare Rama, Rama Rama, Hare Hare.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>4.30.5</strong></p>
+<p>suparna-skandham arudho</p>
+<p>meru-srngam ivambudah</p>
+<p>pita-vasa mani-grivah</p>
+<p>kurvan vitimira disah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>suparna—of Garuda, the carrier of Lord Visnu; skandham—the shoulder; arudhah—sitting on; meru—of the mountain named Meru; srngam—on the summit; iva—like; ambudah—a cloud; pita-vasah—wearing yellow garments; mani-grivah—His neck decorated with the Kaustubha jewel; kurvan—making; vitimirah—free from darkness; disah—all directions.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Personality of Godhead, appearing on the shoulder of Garuda, seemed like a cloud resting on the summit of the mountain known as Meru.</p>
+<p>The transcendental body of the Personality of Godhead was covered by attractive yellow garments, and His neck was decorated with the jewel known as Kaustubha-mani.</p>
+<p>The bodily effulgence of the Lord dissipated all the darkness of the universe.</p>
+<p><strong>PURPORT</strong></p>
+<p>As stated in Caitanya-caritamrta (Madhya22.31):</p>
+<p>krsna——surya-sama; maya haya andhakara</p>
+<p>yahan krsna, tahan nahi mayara adhikara</p>
+<p>The Lord is just like the effulgent sun.</p>
+<p>Consequently, whenever the Supreme Personality of Godhead is present, there cannot be darkness or ignorance.</p>
+<p>Actually this dark universe is illuminated by the sun, but the sun and moon simply reflect the bodily effulgence of the Supreme Lord.</p>
+<p>In Bhagavad-gita (7.8) the Lord says, prabhasmi sasi-suryayoh: I am the illuminating energy of both the sun and the moon The conclusion is that the origin of all life is the bodily effulgence of the Supreme Personality of Godhead.</p>
+<p>This is also confirmed in Brahma-samhita: yasya prabha prabhavato jagad-anda-koti (Bs.5.40).</p>
+<p>Being illuminated by the bodily effulgence of the Supreme Personality of Godhead, everything is freed from all darkness.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>4.30.6</strong></p>
+<p>kasisnuna kanaka-varna-vibhusanena</p>
+<p>bhrajat-kapola-vadano vilasat-kiritah</p>
+<p>astayudhair anucarair munibhih surendrair</p>
+<p>asevito garuda-kinnara-gita-kirtih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kasisnuna—shining; kanaka—gold; varna—colored; vibhusanena—with ornaments; bhrajat—shining; kapola—forehead; vadanah—His face; vilasat—dazzling; kiritah—His helmet; asta—eight; ayudhaih—with weapons; anucaraih—by followers; munibhih—by great sages; sura-indraih—by demigods; asevitah—served; garuda—by Garuda; kinnara—inhabitant of the Kinnara planet; gita—sung; kirtih—His glories.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Lord’s face was very beautiful, and His head was decorated with a shining helmet and golden ornaments.</p>
+<p>The helmet was dazzling and was very beautifully situated on His head.</p>
+<p>The Lord had eight arms, which each held a particular weapon.</p>
+<p>The Lord was surrounded by demigods, great sages and other associates.</p>
+<p>These were all engaged in His service.</p>
+<p>Garuda, the carrier of the Lord, glorified the Lord with Vedic hymns by flapping his wings.</p>
+<p>Garuda appeared to be an inhabitant of the planet known as Kinnaraloka.</p>
+<p><strong>PURPORT</strong></p>
+<p>Generally the Visnu form is manifested with four hands holding four objects (a conchshell, disc, club and lotus flower).</p>
+<p>However, here Lord Visnu is described as possessing eight arms with eight kinds of weapons.</p>
+<p>According to Viraraghava Acarya, the conchshell and lotus flower are also accepted as weapons.</p>
+<p>Since the Lord is the supreme controller, whatever is in His hand can be considered a weapon.</p>
+<p>Four hands hold four kinds of weapons, and the extra four hands hold an arrow, bow, trident and snake.</p>
+<p>Sri Viraraghava Acarya describes the eight weapons as sankha, cakra, gada, padma, sarnga, sara, etc.</p>
+<p>A king is always accompanied by his ministers, secretaries and commanders, and Lord Visnu is also accompanied by His followers—the demigods, great sages, saintly persons and so on.</p>
+<p>He is never alone.</p>
+<p>Consequently there is no question of the Lord’s being impersonal.</p>
+<p>He is always Himself, the Supreme Personality of Godhead, and His associates are also persons.</p>
+<p>From the description given in this verse, Garuda appears to belong to the Kinnara planet.</p>
+<p>The inhabitants of the Kinnara planet have the same features as Garuda.</p>
+<p>Their bodily features are like those of a human being, but they have wings.</p>
+<p>The word gita-kirtih indicates that the inhabitants of Kinnaraloka are very expert in singing the glories of the Lord.</p>
+<p>In Brahma-samhita it is said: jagad-anda-koti-kotisv asesa-vasudhadi-vibhuti-bhinnam.</p>
+<p>In each and every universe there are different types of planets, and each planet has distinctive features.</p>
+<p>On the strength of this verse, we can understand that in Kinnaraloka the inhabitants can fly with their wings.</p>
+<p>There is also a planet, known as Siddhaloka, where the inhabitants can fly even without wings.</p>
+<p>Thus each and every planet has some distinctive facility.</p>
+<p>That is the beauty of the varied creation of the Supreme Personality of Godhead.</p>
+
+
+
+<p><strong>4.30.7</strong></p>
+<p>pinayatasta-bhuja-mandala-madhya-laksmya</p>
+<p>spardhac-chriya parivrto vana-malayadyah</p>
+<p>barhismatah purusa aha sutan prapannan</p>
+<p>parjanya-nada-rutaya saghrnavalokah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>pina—stout; ayata—long; asta—eight; bhuja—arms; mandala—encirclement; madhya—in the midst of; laksmya—with the goddess of fortune; spardhat—contending; sriya—whose beauty; parivrtah—encircled; vana-malaya—by a flower garland; adyah—the original Personality of Godhead; barhismatah—of King Pracinabarhi; purusah—the Supreme Personality of Godhead; aha—addressed; sutan—the sons; prapannan—surrendered; parjanya—like a cloud; nada—whose sound; rutaya—by a voice; sa-ghrna—with mercy; avalokah—His glancing.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Around the neck of the Personality of Godhead hung a flower garland that reached to His knees.</p>
+<p>His eight stout and elongated arms were decorated with that garland, which challenged the beauty of the goddess of fortune.</p>
+<p>With a merciful glance and a voice like thunder, the Lord addressed the sons of King Pracinabarhisat, who were very much surrendered unto Him.</p>
+<p><strong>PURPORT</strong></p>
+<p>The word adyah in this verse is very significant.</p>
+<p>The Supreme Personality of Godhead is the origin even of Paramatma and Brahman.</p>
+<p>As confirmed in Bhagavad-gita (14.27), brahmano hi pratisthaham: the Absolute Truth begins not with the impersonal Brahman but with the original Personality of Godhead, Krsna.</p>
+<p>When Arjuna realized Krsna’s greatness, he addressed Him in this way:</p>
+<p>param brahma param dhama</p>
+<p>pavitram paramam bhavan</p>
+<p>purusam sasvatam divyam</p>
+<p>adi-devam ajam vibhum</p>
+<p>You are the Supreme Brahman, the ultimate, the supreme abode and purifier, the Absolute Truth and the eternal divine person.</p>
+<p>You are the primal God, transcendental and original, and You are the unborn and all-pervading beauty (Bg.10.12) The Brahma-samhita also says, anadir adir govindah sarva-karana-karanam: (Bs.5.1) The Supreme Lord is not caused by anything (anadi), but He is the cause of all causes The Vedanta-sutra says, janmady asya yatah: (Bhag.1.1.1) The Absolute Truth is that from which everything emanates The Absolute Truth is described as adi-purusa.</p>
+<p>The Absolute Truth is therefore a person and is not impersonal.</p>
+
+
+
+<p><strong>4.30.8</strong></p>
+<p>sri-bhagavan uvaca</p>
+<p>varam vrnidhvam bhadram vo</p>
+<p>yuyam me nrpa-nandanah</p>
+<p>sauhardenaprthag-dharmas</p>
+<p>tusto ’ham sauhrdena vah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-bhagavan uvaca—the Supreme Personality of Godhead said; varam—benediction; vrnidhvam—ask; bhadram—good fortune; vah—of you; yuyam—you; me—from Me; nrpa-nandanah—O sons of the King; sauhardena—by friendship; aprthak—nondifferent; dharmah—occupation; tustah—pleased; aham—I; sauhrdena—by friendship; vah—of you.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Supreme Personality of Godhead said: My dear sons of the King, I am very much pleased by the friendly relationships among you.</p>
+<p>All of you are engaged in one occupation—devotional service.</p>
+<p>I am so pleased with your mutual friendship that I wish you all good fortune.</p>
+<p>Now you may ask a benediction of Me.</p>
+<p><strong>PURPORT</strong></p>
+<p>Since the sons of King Pracinabarhisat were all united in Krsna consciousness, the Lord was very pleased with them.</p>
+<p>Each and every one of the sons of King Pracinabarhisat was an individual soul, but they were united in offering transcendental service to the Lord.</p>
+<p>The unity of the individual souls attempting to satisfy the Supreme Lord or rendering service to the Lord is real unity.</p>
+<p>In the material world such unity is not possible.</p>
+<p>Even though people may officially unite, they all have different interests.</p>
+<p>In the United Nations, for instance, all the nations have their particular national ambitions, and consequently they cannot be united.</p>
+<p>Disunity between individual souls is so strong within this material world that even in a society of Krsna consciousness, members sometimes appear disunited due to their having different opinions and leaning toward material things.</p>
+<p>Actually, in Krsna consciousness there cannot be two opinions.</p>
+<p>There is only one goal: to serve Krsna to one’s best ability.</p>
+<p>If there is some disagreement over service, such disagreement is to be taken as spiritual.</p>
+<p>Those who are actually engaged in the service of the Supreme Personality of Godhead cannot be disunited in any circumstance.</p>
+<p>This makes the Supreme Personality of Godhead very happy and willing to award all kinds of benediction to His devotees, as indicated in this verse.</p>
+<p>We can see that the Lord is immediately prepared to award all benedictions to the sons of King Pracinabarhisat.</p>
+
+
+
+<p><strong>4.30.9</strong></p>
+<p>yo ’nusmarati sandhyayam</p>
+<p>yusman anudinam narah</p>
+<p>tasya bhratrsv atma-samyam</p>
+<p>tatha bhutesu sauhrdam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—one who; anusmarati—always remembers; sandhyayam—in the evening; yusman—you; anudinam—every day; narah—human being; tasya bhratrsu—with his brothers; atma-samyam—personal equality; tatha—as also; bhutesu—with all living beings; sauhrdam—friendship.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Lord continued: Those who remember you every evening of every day will become friendly with their brothers and with all other living entities.</p>
+
+
+
+<p><strong>4.30.10</strong></p>
+<p>ye tu mam rudra-gitena</p>
+<p>sayam pratah samahitah</p>
+<p>stuvanty aham kama-varan</p>
+<p>dasye prajnam ca sobhanam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ye—those persons who; tu—but; mam—unto Me; rudra-gitena—by the song sung by Lord Siva; sayam—in the evening; pratah—in the morning; samahitah—being attentive; stuvanti—offer prayers; aham—I; kama-varan—all benedictions to fulfill desires; dasye—shall award; prajnam—intelligence; ca—also; sobhanam—transcendental.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Those who will offer Me the prayers composed by Lord Siva, both in the morning and in the evening, will be given benedictions by Me.</p>
+<p>In this way they can both fulfill their desires and attain good intelligence.</p>
+<p><strong>PURPORT</strong></p>
+<p>Good intelligence means going back home, back to Godhead.</p>
+<p>This is confirmed in Bhagavad-gita (10.10):</p>
+<p>tesam satata-yuktanam</p>
+<p>bhajatam priti-purvakam</p>
+<p>dadami buddhi-yogam tam</p>
+<p>yena mam upayanti te</p>
+<p>To those who are constantly devoted and worship Me with love, I give the understanding by which they can come to Me One who offers prayers to the Lord to fulfill his different desires must know that the highest perfectional fulfillment of desire is to go back home, back to Godhead.</p>
+<p>In this verse it is indicated that those who remember the activities of the Pracetas, the sons of King Pracinabarhisat, will be delivered and blessed.</p>
+<p>So what to speak of the sons of King Pracinabarhisat, who are directly connected with the Supreme Personality of Godhead? This is the way of the parampara system.</p>
+<p>If we follow the acaryas, we attain the same benefit as our predecessors.</p>
+<p>If one follows the decisions of Arjuna, he should be considered to be directly hearing Bhagavad-gita from the Supreme Personality of Godhead.</p>
+<p>There is no difference between hearing Bhagavad-gita directly from the Supreme Lord and following a personality like Arjuna, who formerly heard Bhagavad-gita directly from the Lord.</p>
+<p>Sometimes foolish people argue that since Krsna is not present at the moment, one cannot take direct instructions from Him.</p>
+<p>Such foolish people do not know that there is no difference between directly hearing Bhagavad-gita and reading it, as long as one accepts Bhagavad-gita as it is, spoken by the Lord.</p>
+<p>However, if one wants to understand Bhagavad-gita by his imperfect interpretations, one cannot possibly understand the mysteries of Bhagavad-gita, even though one may be a great scholar according to mundane estimation.</p>
+
+
+
+<p><strong>4.30.11</strong></p>
+<p>yad yuyam pitur adesam</p>
+<p>agrahista mudanvitah</p>
+<p>atho va usati kirtir</p>
+<p>lokan anu bhavisyati</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yat—because; yuyam—you; pituh—of your father; adesam—the order; agrahista—accepted; muda-anvitah—in great happiness; atho—therefore; vah—your; usati—attractive; kirtih—glories; lokan anu—throughout the universe; bhavisyati—will become possible.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Because you have with pleasure accepted within your hearts the orders of your father and have executed those orders very faithfully, your attractive qualities will be celebrated all over the world.</p>
+<p><strong>PURPORT</strong></p>
+<p>Since every living entity is part and parcel of the Supreme Personality of Godhead, he has small independence.</p>
+<p>Sometimes unintelligent men ask why one is put into a miserable condition, even though everyone is under the control of the Supreme Personality of Godhead.</p>
+<p>Because of his minute independence, the living entity can obey or disobey the orders of the Supreme Lord.</p>
+<p>If he obeys the Supreme Lord’s orders, he becomes happy.</p>
+<p>If he does not, he becomes unhappy.</p>
+<p>Therefore the living entity creates his own happiness or unhappiness.</p>
+<p>The Supreme Lord does not enforce these on anyone.</p>
+<p>The Supreme Lord praised the Pracetas because they all faithfully obeyed the orders of their father.</p>
+<p>The Lord therefore blessed the sons of King Pracinabarhisat because they obeyed their father’s orders.</p>
+
+
+
+<p><strong>4.30.12</strong></p>
+<p>bhavita visrutah putro</p>
+<p>’navamo brahmano gunaih</p>
+<p>ya etam atma-viryena</p>
+<p>tri-lokim purayisyati</p>
+<p><strong>SYNONYMS</strong></p>
+<p>bhavita—there will be; visrutah—very famous; putrah—son; anavamah—not inferior; brahmanah—to Lord Brahma; gunaih—by qualifications; yah—who; etam—all this; atma-viryena—by his progeny; tri-lokim—the three worlds; purayisyati—will fill.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>You will have a nice son, who will be in no way inferior to Lord Brahma.</p>
+<p>Consequently, he will be very famous all over the universe, and the sons and grandsons generated by him will fill the three worlds.</p>
+<p><strong>PURPORT</strong></p>
+<p>As explained in the next verse, the Pracetas will marry the daughter of the great sage Kandu.</p>
+<p>It is suggested that the son’s name will be Visruta and that he will glorify both his father and mother because of his good character.</p>
+<p>In fact, he would be greater than Lord Brahma.</p>
+<p>The great politician Canakya said that if there is a good tree within a garden or forest, its flowers will fill the forest with their fragrance.</p>
+<p>Similarly, a good son within a family makes the whole family famous all over the world.</p>
+<p>Krsna took birth in the family of the Yadus, and consequently the Yadu dynasty is famous all over the world.</p>
+
+
+
+<p><strong>4.30.13</strong></p>
+<p>kandoh pramlocaya labdha</p>
+<p>kanya kamala-locana</p>
+<p>tam capaviddham jagrhur</p>
+<p>bhuruha nrpa-nandanah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kandoh—of the sage Kandu; pramlocaya—by a heavenly society girl named Pramloca; labdha—obtained; kanya—daughter; kamala-locana—lotus-eyed; tam—her; ca—also; apaviddham—given up; jagrhuh—accepted; bhuruhah—the trees; nrpa-nandanah—O sons of King Pracinabarhisat.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O sons of King Pracinabarhisat, the heavenly society girl named Pramloca kept the lotus-eyed daughter of Kandu in the care of the forest trees.</p>
+<p>Then she went back to the heavenly planet.</p>
+<p>This daughter was born by the coupling of the Apsara named Pramloca with the sage Kandu.</p>
+<p><strong>PURPORT</strong></p>
+<p>Whenever a great sage undergoes severe austerities for material power, the King of heaven, Indra, becomes very envious.</p>
+<p>All the demigods have responsible posts for the management of universal affairs and are very highly qualified with pious activities.</p>
+<p>Although they are ordinary living entities, they are able to attain responsible posts, like Lord Brahma, Indra, Candra and Varuna.</p>
+<p>As is the nature of this material world, the King of heaven, Indra, is very anxious if a great sage undergoes severe austerities.</p>
+<p>The whole material world is filled with such envy that everyone becomes afraid of his neighbors.</p>
+<p>Every businessman is afraid of his associates because this material world is the field of activities for all kinds of envious people who have come here to compete with the opulence of the Supreme Personality of Godhead.</p>
+<p>Thus Indra was very much afraid of the severe austerities performed by the great sage Kandu, and he sent Pramloca to break his vows and austerities.</p>
+<p>A similar incident took place in the case of Visvamitra.</p>
+<p>From other incidents in the sastras, it appears that Indra has always been envious.</p>
+<p>When King Prthu was celebrating various sacrifices, outdoing Indra, Indra became very envious, and he disturbed King Prthu’s sacrifice.</p>
+<p>This has already been discussed in previous chapters.</p>
+<p>King Indra became successful in breaking the vow of the great sage Kandu, who became attracted by the beauty of the heavenly society girl Pramloca and begot a female child.</p>
+<p>This child is described herein as lotus-eyed and very beautiful.</p>
+<p>Being thus successful in her mission, Pramloca returned to the heavenly planets, leaving the newborn child to the care of the trees.</p>
+<p>Fortunately, the trees accepted the child and agreed to raise her.</p>
+
+
+
+<p><strong>4.30.14</strong></p>
+<p>ksut-ksamaya mukhe raja</p>
+<p>somah piyusa-varsinim</p>
+<p>desinim rodamanaya</p>
+<p>nidadhe sa dayanvitah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ksut—by hunger; ksamayah—when she was distressed; mukhe—within the mouth; raja—the king; somah—the moon; piyusa—nectar; varsinim—pouring; desinim—forefinger; rodamanayah—while she was crying; nidadhe—placed; sah—he; daya-anvitah—being compassionate.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter the child, who was left to the care of the trees, began to cry in hunger.</p>
+<p>At that time the king of the forest, namely the king of the moon planet, out of compassion placed his finger, which poured forth nectar, within the child’s mouth.</p>
+<p>Thus the child was raised by the mercy of the king of the moon.</p>
+<p><strong>PURPORT</strong></p>
+<p>Although the Apsara left her child to the care of the trees, the trees could not take care of the child properly; therefore the trees handed the child over to the king of the moon.</p>
+<p>Thus Candra, king of the moon, put his finger within the mouth of the child to satisfy her hunger.</p>
+
+
+
+<p><strong>4.30.15</strong></p>
+<p>praja-visarga adistah</p>
+<p>pitra mam anuvartata</p>
+<p>tatra kanyam vararoham</p>
+<p>tam udvahata ma ciram</p>
+<p><strong>SYNONYMS</strong></p>
+<p>praja-visarge—to create progeny; adistah—being ordered; pitra—by your father; mam—My direction; anuvartata—following; tatra—there; kanyam—the daughter; vara-aroham—highly qualified and exquisitely beautiful; tam—her; udvahata—marry; ma—without; ciram—wasting time.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Since all of you are very much obedient to My orders, I ask you to immediately marry that girl, who is so well qualified with beauty and good qualities.</p>
+<p>According to the order of your father, create progeny through her.</p>
+<p><strong>PURPORT</strong></p>
+<p>The Pracetas not only were great devotees of the Supreme Personality of Godhead but were very obedient to the orders of their father.</p>
+<p>Therefore the Lord asked them to marry the daughter of Pramloca.</p>
+
+
+
+<p><strong>4.30.16</strong></p>
+<p>aprthag-dharma-silanam</p>
+<p>sarvesam vah sumadhyama</p>
+<p>aprthag-dharma-sileyam</p>
+<p>bhuyat patny arpitasaya</p>
+<p><strong>SYNONYMS</strong></p>
+<p>aprthak—without differences; dharma—occupation; silanam—whose character; sarvesam—all; vah—of you; su-madhyama—a girl whose waist is slender; aprthak—without differences; dharma—occupation; sila—well-behaved; iyam—this; bhuyat—may she become; patni—wife; arpita-asaya—fully surrendered.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>You brothers are all of the same nature, being devotees and obedient sons of your father.</p>
+<p>Similarly, that girl is also of the same type and is dedicated to all of you.</p>
+<p>Thus both the girl and you, the sons of Pracinabarhisat, are on the same platform, being united on a common principle.</p>
+<p><strong>PURPORT</strong></p>
+<p>According to Vedic principles, a woman cannot have many husbands, although a husband can have many wives.</p>
+<p>In special instances, however, it is found that a woman has more than one husband.</p>
+<p>Draupadi, for instance, was married to all of the five Pandava brothers.</p>
+<p>Similarly, the Supreme Personality of Godhead ordered all the sons of Pracinabarhisat to marry the one girl born of the great sage Kandu and Pramloca.</p>
+<p>In special cases, a girl is allowed to marry more than one man, provided she is able to treat her husbands equally.</p>
+<p>This is not possible for an ordinary woman.</p>
+<p>Only one who is especially qualified can be allowed to marry more than one husband.</p>
+<p>In this age of Kali, to find such an equipoised woman is very difficult.</p>
+<p>Thus according to scripture, kalau panca vivarjayet.</p>
+<p>In this age a woman is forbidden to marry her husband’s brother.</p>
+<p>This system is still practiced in some of the hilly tracts of India.</p>
+<p>The Lord says: aprthag-dharma-sileyam bhuyat patny arpitasaya.</p>
+<p>With the blessings of the Lord, all things are possible.</p>
+<p>The Lord especially blessed the girl to surrender equally to all brothers.</p>
+<p>Aprthag-dharma, meaning occupational duty without difference of purpose is taught in Bhagavad-gita.Bhagavad-gita is divided into three primary divisions—karma-yoga, jnana-yoga and bhakti-yoga.</p>
+<p>The word yoga means acting on behalf of the Supreme Personality of Godhead As confirmed by Bhagavad-gita (3.9):</p>
+<p>yajnarthat karmano ’nyatra</p>
+<p>loko ’yam karma-bandhanah</p>
+<p>tad-artham karma kaunteya</p>
+<p>mukta-sangah samacara</p>
+<p>Work done as a sacrifice for Visnu has to be performed, otherwise work binds one to this material world.</p>
+<p>Therefore, O son of Kunti, perform your prescribed duties for His satisfaction, and in that way you will always remain unattached and free from bondage One may act according to his own occupational duty just to satisfy the yajna-purusa, the Supreme Personality of Godhead.</p>
+<p>That is called aprthag-dharma.</p>
+<p>Different limbs of the body may act in different ways, but the ultimate objective is to maintain the entire body.</p>
+<p>Similarly, if we work for the satisfaction of the Supreme Personality of Godhead, we will find that we satisfy everything.</p>
+<p>We should follow in the footsteps of the Pracetas, whose only aim was to satisfy the Supreme Lord.</p>
+<p>This is called aprthag-dharma.</p>
+<p>According to Bhagavad-gita (18.66), sarva-dharman parityajya mam ekam saranam vraja: Abandon all varieties of religion and just surrender unto Me This is the advice of Lord Krsna.</p>
+<p>Our only aim should be to act in Krsna consciousness for the satisfaction of the Lord.</p>
+<p>This is oneness, or aprthag-dharma.</p>
+
+
+
+<p><strong>4.30.17</strong></p>
+<p>divya-varsa-sahasranam</p>
+<p>sahasram ahataujasah</p>
+<p>bhauman bhoksyatha bhogan vai</p>
+<p>divyams canugrahan mama</p>
+<p><strong>SYNONYMS</strong></p>
+<p>divya—of the heavenly planets; varsa—years; sahasranam—of thousands; sahasram—a thousand; ahata—without being defeated; ojasah—your power; bhauman—of this world; bhoksyatha—you will enjoy; bhogan—enjoyments; vai—certainly; divyan—of the heavenly world; ca—also; anugrahat—by mercy; mama—My.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Lord then blessed all the Pracetas, saying: My dear princes, by My mercy, you can enjoy all the facilities of this world as well as the heavenly world.</p>
+<p>Indeed, you can enjoy all of them without hindrance and with full strength for one million celestial years.</p>
+<p><strong>PURPORT</strong></p>
+<p>The duration of life prescribed for the Pracetas by the Supreme Personality of Godhead is calculated by the time measurements of higher planetary systems.</p>
+<p>Our six earth months are said to equal twelve hours in the higher planetary systems.</p>
+<p>Thirty days equal one month, and twelve months equal one year.</p>
+<p>In this way, for one million years according to the calculations of the higher planetary system the Pracetas were allowed to enjoy all kinds of material facilities.</p>
+<p>Although this life-span was so long, the Pracetas were given full bodily strength by the grace of the Lord.</p>
+<p>In the material world, if one wants to live for many years, he must endure the difficulties of old age, invalidity and many other miserable conditions.</p>
+<p>The Pracetas, however, were given full bodily strength to enjoy material facilities.</p>
+<p>This special facility was given to the Pracetas so that they could continue rendering full devotional service.</p>
+<p>This will be explained in the following verse.</p>
+
+
+
+<p><strong>4.30.18</strong></p>
+<p>atha mayy anapayinya</p>
+<p>bhaktya pakva-gunasayah</p>
+<p>upayasyatha mad-dhama</p>
+<p>nirvidya nirayad atah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atha—therefore; mayi—unto Me; anapayinya—without any deviation; bhaktya—by devotional service; pakva-guna—free from material contamination; asayah—your mind; upayasyatha—you will attain; mat-dhama—My abode; nirvidya—being completely detached; nirayat—from material existence; atah—thus.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter you will develop unadulterated devotional service unto Me and be freed from all material contamination.</p>
+<p>At that time, being completely unattached to material enjoyment in the so-called heavenly planets as well as in hellish planets, you will return home, back to Godhead.</p>
+<p><strong>PURPORT</strong></p>
+<p>By the grace of the Lord, the Pracetas were given special facilities.</p>
+<p>Although they could live millions of years to enjoy material facilities, they still would not be deviated from the transcendental loving service of the Lord.</p>
+<p>Being thus fully engaged, the Pracetas would be completely freed from all material attachment.</p>
+<p>Material attachment is very strong.</p>
+<p>During one lifetime, a materialist engages in acquiring land, money, friends, society, friendship, love and so on.</p>
+<p>He also wants to enjoy the heavenly planets after the annihilation of the body.</p>
+<p>If one is engaged in devotional service, however, he becomes unattached to all kinds of material enjoyment and suffering.</p>
+<p>In the material world, those who are elevated to the higher planetary systems are supposed to enjoy all material facilities, whereas those degraded to lower planetary systems are supposed to live in a hellish condition.</p>
+<p>A devotee, however, is transcendental to both heavenly and hellish conditions.</p>
+<p>According to Bhagavad-gita (14.26), a devotee’s position is described in this way:</p>
+<p>mam ca yo ’vyabhicarena</p>
+<p>bhakti-yogena sevate</p>
+<p>sa gunan samatityaitan</p>
+<p>brahma-bhuyaya kalpate</p>
+<p>One who engages in full devotional service, who does not fall down in any circumstance, at once transcends the modes of material nature and thus comes to the level of Brahman A devotee is always situated on the Brahman platform.</p>
+<p>He has nothing to do with material happiness or distress.</p>
+<p>When one is strongly fixed in devotional service and free from all material attachment, uncontaminated by the material modes of nature, he becomes fit to return home, back to Godhead.</p>
+<p>Although by special blessing the Pracetas would enjoy material facilities for millions of years, they would not be attached to them.</p>
+<p>Thus at the end of their material enjoyment they would be promoted to the spiritual world and return to Godhead.</p>
+<p>The word pakva-gunasayah has special significance, for it means that by devotional service one is able to give up the influence of the three modes of material nature.</p>
+<p>As long as one is influenced by the modes of material nature, he cannot return to Godhead.</p>
+<p>It is clearly explained that all planets in the material world—beginning from Brahmaloka down to the hellish planets—are unfit places for a devotee padam padam yad vipadam na tesam.</p>
+<p>A place where there is danger at every step is certainly not a comfortable place.</p>
+<p>The Lord therefore says in Bhagavad-gita (8.16):</p>
+<p>abrahma-bhuvanal lokah</p>
+<p>punar avartino ’rjuna</p>
+<p>mam upetya tu kaunteya</p>
+<p>punar janma na vidyate</p>
+<p>From the highest planet in the material world down to the lowest, all are places of misery wherein repeated birth and death take place.</p>
+<p>But one who attains to My abode, O son of Kunti, never takes birth again Thus there is no profit, even if one is promoted to the highest planet in the material universe, Brahmaloka.</p>
+<p>However, if one is somehow or other promoted to the abode of the Lord, he never returns to the material world.</p>
+
+
+
+<p><strong>4.30.19</strong></p>
+<p>grhesv avisatam capi</p>
+<p>pumsam kusala-karmanam</p>
+<p>mad-varta-yata-yamanam</p>
+<p>na bandhaya grha matah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>grhesu—in family life; avisatam—who have entered; ca—also; api—even; pumsam—of persons; kusala-karmanam—engaged in auspicious activities; mat-varta—in topics about Me; yata—is expended; yamanam—whose every moment; na—not; bandhaya—for bondage; grhah—household life; matah—considered.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Those who are engaged in auspicious activities in devotional service certainly understand that the ultimate enjoyer or beneficiary of all activities is the Supreme Personality of Godhead.</p>
+<p>Thus when one acts, he offers the results to the Supreme Personality of Godhead and passes life always engaged in the topics of the Lord.</p>
+<p>Even though such a person may be participating in family life, he is not affected by the results of his actions.</p>
+<p><strong>PURPORT</strong></p>
+<p>Generally a person living in a family becomes overly attached to fruitive activity.</p>
+<p>In other words, he tries to enjoy the results of his activities.</p>
+<p>A devotee, however, knows that Krsna is the supreme enjoyer and the supreme proprietor (bhoktaram yajna-tapasam sarva-loka-mahesvaram (Bg.5.29)).</p>
+<p>Consequently, the devotee does not consider himself the proprietor of any occupation.</p>
+<p>The devotee always thinks of the Supreme Personality of Godhead as the proprietor; therefore the results of his business are offered to the Supreme Lord.</p>
+<p>One who thus lives in the material world with his family and children never becomes affected by the contaminations of the material world.</p>
+<p>This is confirmed in Bhagavad-gita (3.9):</p>
+<p>yajnarthat karmano ’nyatra</p>
+<p>loko ’yam karma-bandhanah</p>
+<p>tad-artham karma kaunteya</p>
+<p>mukta-sangah samacara</p>
+<p>One who tries to enjoy the results of his activities becomes bound by the results.</p>
+<p>One who offers the results or profits to the Supreme Personality of Godhead, however, does not become entangled in the results.</p>
+<p>This is the secret of success.</p>
+<p>Generally people take sannyasa to become free from the reactions of fruitive activity.</p>
+<p>One who does not receive the results of his actions but offers them instead to the Supreme Personality of Godhead certainly remains in a liberated condition.</p>
+<p>In Bhakti-rasamrta-sindhu, Sri Rupa Gosvami confirms this:</p>
+<p>iha yasya harer dasye</p>
+<p>karmana manasa gira</p>
+<p>nikhilasv apy avasthasu</p>
+<p>jivan-muktah sa ucyate</p>
+<p>If one engages himself in the service of the Lord through his life, wealth, words, intelligence and everything he possesses, he will always be liberated in any condition.</p>
+<p>Such a person is called a jivan-mukta, one who is liberated during this lifetime.</p>
+<p>Devoid of Krsna consciousness, those who engage in material activities simply become more entangled in material bondage.</p>
+<p>They have to suffer and enjoy the actions and reactions of all activity.</p>
+<p>This Krsna consciousness movement is therefore the greatest boon to humanity because it keeps one always engaged in Krsna’s service.</p>
+<p>The devotees think of Krsna, act for Krsna, eat for Krsna, sleep for Krsna and work for Krsna.</p>
+<p>Thus everything is engaged in the service of Krsna.</p>
+<p>A total life in Krsna consciousness saves one from material contamination.</p>
+<p>As stated by Bhaktisiddhanta Sarasvati Gosvami Maharaja:</p>
+<p>krsna-bhajane yaha haya anukula</p>
+<p>visaya baliya tyage taha haya bhula</p>
+<p>If one is so expert that he can engage everything or dovetail everything in the service of the Lord, to give up the material world would be a great blunder.</p>
+<p>One should learn how to dovetail everything in the service of the Lord, for everything is connected to Krsna.</p>
+<p>That is the real purpose of life and secret of success.</p>
+<p>As reiterated later in the Third Chapter of Bhagavad-gita (3.19):</p>
+<p>tasmad asaktah satatam</p>
+<p>karyam karma samacara</p>
+<p>asakto hy acaran karma</p>
+<p>param apnoti purusah</p>
+<p>Therefore, without being attached to the fruits of activities, one should act as a matter of duty; for by working without attachment, one attains the Supreme The Third Chapter of Bhagavad-gita specifically considers material activities for the purpose of sense gratification and material activities for the purpose of satisfying the Supreme Lord.</p>
+<p>The conclusion is that these are not one and the same.</p>
+<p>Material activities for sense gratification are the cause of material bondage, whereas the very same activities for the satisfaction of Krsna are the cause of liberation.</p>
+<p>How the same activity can be the cause of bondage and liberation can be explained as follows.</p>
+<p>One may get indigestion due to eating too many milk preparations—condensed milk, sweet rice, and so on.</p>
+<p>But even though there is indigestion or diarrhea, another milk preparation—yogurt mixed with black pepper and salt—will immediately cure these maladies.</p>
+<p>In other words, one milk preparation can cause indigestion and diarrhea, and another milk preparation can cure them.</p>
+<p>If one is placed in material opulence due to the special mercy of the Supreme Personality of Godhead, he should not consider that opulence a cause for bondage.</p>
+<p>When a mature devotee is blessed with material opulence, he does not become affected adversely, for he knows how to employ material opulence in the service of the Lord.</p>
+<p>There are many such examples in the history of the world.</p>
+<p>There were kings like Prthu Maharaja, Prahlada Maharaja, Janaka, Dhruva, Vaivasvata Manu and Maharaja Iksvaku.</p>
+<p>All of these were great kings and were especially favored by the Supreme Personality of Godhead.</p>
+<p>If a devotee is not mature, the Supreme Lord will take away all his opulence.</p>
+<p>This principle is stated by the Supreme Personality of Godhead—yasyaham anugrhnami harisye tad-dhanam sanaih: My first mercy shown to My devotee is to take away all his material opulence Material opulence detrimental to devotional service is taken away by the Supreme Lord, whereas a person who is mature in devotional service is given all material facilities.</p>
+
+
+
+<p><strong>4.30.20</strong></p>
+<p>navyavad dhrdaye yaj jno</p>
+<p>brahmaitad brahma-vadibhih</p>
+<p>na muhyanti na socanti</p>
+<p>na hrsyanti yato gatah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>navya-vat—ever-increasingly fresh; hrdaye—in the heart; yat—as; jnah—the supreme knower, Paramatma; brahma—Brahman; etat—this; brahma-vadibhih—by the advocates of the Absolute Truth; na—never; muhyanti—are bewildered; na—never; socanti—lament; na—never; hrsyanti—are jubilant; yatah—when; gatah—have attained.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Always engaging in the activities of devotional service, devotees feel ever-increasingly fresh and new in all their activities.</p>
+<p>The all-knower, the Supersoul within the heart of the devotee, makes everything increasingly fresh.</p>
+<p>This is known as the Brahman position by the advocates of the Absolute Truth.</p>
+<p>In such a liberated stage (brahma-bhuta), one is never bewildered.</p>
+<p>Nor does one lament or become unnecessarily jubilant.</p>
+<p>This is due to the brahma-bhuta situation.</p>
+<p><strong>PURPORT</strong></p>
+<p>A devotee is inspired by the Supersoul within the heart to advance in devotional service in a variety of ways.</p>
+<p>The devotee does not feel hackneyed or stereotyped, nor does he feel that he is in a stagnant position.</p>
+<p>In the material world, if one engages in chanting a material name, he will feel tired after chanting a few times.</p>
+<p>However, one can chant the Hare Krsna maha-mantra all day and night and never feel tired.</p>
+<p>As chanting is increased, it will come out new and fresh.</p>
+<p>Srila Rupa Gosvami said that if he could somehow get millions of ears and tongues, then he could relish spiritual bliss by chanting the Hare Krsna maha-mantra.</p>
+<p>There is really nothing uninspiring for a highly advanced devotee.</p>
+<p>In Bhagavad-gita the Lord says that He is situated in everyone’s heart and that He helps the living entity forget and remember.</p>
+<p>By the grace of the Lord, the devotee gets inspiration tesam satata-yuktanam</p>
+<p>bhajatam priti-purvakam</p>
+<p>dadami buddhi-yogam tam</p>
+<p>yena mam upayanti te</p>
+<p>To those who are constantly devoted and worship Me with love, I give the understanding by which they can come to Me (Bg.10.10) As stated (kusala-karmanam), those engaged in auspicious activities in devotional service are guided by the Supersoul, described in this verse as jna, one who knows everything, past, present and future.</p>
+<p>The Supersoul gives instructions to the sincere, unalloyed devotee on how he can progress more and more in approaching the Supreme Personality of Godhead.</p>
+<p>Srila Jiva Gosvami in this connection says that the Supersoul, the plenary expansion of the Personality of Godhead, exists in everyone’s heart, but in the heart of the devotee He reveals Himself as ever-increasingly new.</p>
+<p>Being inspired by Him, the devotee experiences increased transcendental bliss in the execution of his devotional service.</p>
+
+
+
+<p><strong>4.30.21</strong></p>
+<p>maitreya uvaca</p>
+<p>evam bruvanam purusartha-bhajanam</p>
+<p>janardanam pranjalayah pracetasah</p>
+<p>tad-darsana-dhvasta-tamo-rajo-mala</p>
+<p>giragrnan gadgadaya suhrttamam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>maitreyah uvaca—Maitreya said; evam—thus; bruvanam—speaking; purusa-artha—of the ultimate goal of life; bhajanam—the bestower; jana-ardanam—who takes away all the disadvantages of the devotee; pranjalayah—with folded hands; pracetasah—the Praceta brothers; tat—Him; darsana—by seeing; dhvasta—dissipated; tamah—of darkness; rajah—of passion; malah—whose contamination; gira—with a voice; agrnan—offered prayers; gadgadaya—faltering; suhrt-tamam—unto the greatest of all friends.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The great sage Maitreya said: After the Personality of Godhead spoke thus, the Pracetas began to offer Him prayers.</p>
+<p>The Lord is the bestower of all success in life and is the supreme benefactor.</p>
+<p>He is also the supreme friend who takes away all miserable conditions experienced by a devotee.</p>
+<p>In a faltering voice, due to ecstasy, the Pracetas began to offer prayers.</p>
+<p>They were purified by the presence of the Lord, who was before them face to face.</p>
+<p><strong>PURPORT</strong></p>
+<p>The Lord is herein described as purusartha-bhajanam (the bestower of the ultimate goal of life).</p>
+<p>Whatever success we want in life can be attained by the mercy of the Lord.</p>
+<p>Since the Pracetas had already attained the Lord’s mercy, they were no longer subject to the contamination of the material modes.</p>
+<p>The material modes dissipated from them just as the darkness of night immediately dissipates when the sun rises.</p>
+<p>Because the Lord appeared before them, naturally all the contaminations of the material qualities of rajas and tamas completely disappeared.</p>
+<p>Similarly, when an unalloyed devotee chants the Hare Krsna maha-mantra, he is also purified of all material contamination because the name of the Lord and the Lord are identical.</p>
+<p>Srimad-Bhagavatam (1.2.17):</p>
+<p>srnvatam sva-kathah krsnah</p>
+<p>punya-sravana-kirtanah</p>
+<p>hrdy antah-stho hy abhadrani</p>
+<p>vidhunoti suhrt satam</p>
+<p>Sri Krsna, the Personality of Godhead, who is the Paramatma (Supersoul) in everyone’s heart and the benefactor of the truthful devotee, cleanses desire for material enjoyment from the heart of the devotee who has developed the urge to hear His messages, which are in themselves virtuous when properly heard and chanted The holy name of the Lord is the Lord Himself.</p>
+<p>If one chants and hears, he becomes purified.</p>
+<p>Gradually all material contamination disappears.</p>
+<p>The Pracetas were already purified due to the Lord’s presence before them, and they could therefore offer the proper prayers with folded hands.</p>
+<p>In other words, as soon as devotees are engaged in devotional service, they become transcendental to all material contamination immediately, as confirmed in Bhagavad-gita (sa gunan samatityaitan brahma-bhuyaya kalpate (Bg.14.26)).</p>
+<p>Sometimes the devotees are dissatisfied due to their not seeing the Supreme Personality of Godhead personally.</p>
+<p>When the Pracetas saw the Supreme Lord personally present, their unhappiness vanished.</p>
+
+
+
+<p><strong>4.30.22</strong></p>
+<p>pracetasa ucuh</p>
+<p>namo namah klesa-vinasanaya</p>
+<p>nirupitodara-gunahvayaya</p>
+<p>mano-vaco-vega-puro-javaya</p>
+<p>sarvaksa-margair agatadhvane namah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>pracetasah ucuh—the Pracetas said; namah—obeisances; namah—obeisances; klesa—material distress; vinasanaya—unto one who destroys; nirupita—settled; udara—magnanimous; guna—qualities; ahvayaya—whose name; manah—of the mind; vacah—of speech; vega—the speed; purah—before; javaya—whose speed; sarva-aksa—of all material senses; margaih—by the paths; agata—not perceivable; adhvane—whose course; namah—we offer our respects.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Pracetas spoke as follows: Dear Lord, You relieve all kinds of material distress.</p>
+<p>Your magnanimous transcendental qualities and holy name are all-auspicious.</p>
+<p>This conclusion is already settled.</p>
+<p>You can go faster than the speed of mind and words.</p>
+<p>You cannot be perceived by material senses.</p>
+<p>We therefore offer You respectful obeisances again and again.</p>
+<p><strong>PURPORT</strong></p>
+<p>The word nirupita, meaning concluded is very significant in this verse.</p>
+<p>No one has to conduct research work to find God or make progress in spiritual knowledge.</p>
+<p>Everything is conclusively there in the Vedas.</p>
+<p>Therefore the Lord says in Bhagavad-gita (15.15), vedais ca sarvair aham eva vedyah: understanding the Supreme Personality of Godhead through the process of the Vedas is perfect and conclusive.</p>
+<p>The Vedas state, atah sri-krsna-namadi na bhaved grahyam indriyaih: (BRS.1.2.234) the transcendental names, forms, qualities, paraphernalia and pastimes of the Lord cannot be understood by our blunt material senses.</p>
+<p>Sevonmukhe hi jihvadau svayam eva sphuraty adah: when a devotee engages his senses favorably in devotional service, the Lord, through His causeless mercy, reveals Himself to the devotee.</p>
+<p>This is the conclusive Vedic process.</p>
+<p>The Vedas also indicate that simply by chanting the holy names of the Lord one can without a doubt become spiritually advanced.</p>
+<p>We cannot approach the Supreme Personality of Godhead by the speed of mind or words, but if we stick to devotional service we can easily and quickly approach Him.</p>
+<p>In other words, the Supreme Lord is attracted by devotional service, and He can approach us more swiftly than we can approach Him with our mental speculation.</p>
+<p>The Lord has stated that He is beyond the range of mental speculation and the speed of thought, yet He can be approached easily by His causeless mercy.</p>
+<p>Thus only by His causeless mercy can He be attained.</p>
+<p>Other methods will not be effective.</p>
+
+
+
+<p><strong>4.30.23</strong></p>
+<p>suddhaya santaya namah sva-nisthaya</p>
+<p>manasy apartham vilasad-dvayaya</p>
+<p>namo jagat-sthana-layodayesu</p>
+<p>grhita-maya-guna-vigrahaya</p>
+<p><strong>SYNONYMS</strong></p>
+<p>suddhaya—unto the unadulterated; santaya—unto the most peaceful; namah—we offer our obeisances; sva-nisthaya—by being situated in one’s position; manasi—in the mind; apartham—without any meaning; vilasat—appearing; dvayaya—in whom the dual world; namah—obeisances; jagat—of the cosmic manifestation; sthana—maintenance; laya—annihilation; udayesu—and for creation; grhita—accepted; maya—material; guna—of the modes of nature; vigrahaya—the forms.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Dear Lord, we beg to offer our obeisances unto You.</p>
+<p>When the mind is fixed upon You, the world of duality, although a place for material enjoyment, appears meaningless.</p>
+<p>Your transcendental form is full of transcendental bliss.</p>
+<p>We therefore offer our respects unto You.</p>
+<p>Your appearances as Lord Brahma, Lord Visnu and Lord Siva are meant for the purpose of creating, maintaining and annihilating this cosmic manifestation.</p>
+<p><strong>PURPORT</strong></p>
+<p>A pure devotee, whose mind is always engaged in the service of the Lord, can certainly appreciate the impermanence of this material world.</p>
+<p>Although such a devotee may be engaged in executing material activities, this stage is called anasakti.</p>
+<p>As explained by Srila Rupa Gosvami, anasaktasya visayan yatharham upayunjatah.</p>
+<p>A devotee is always unattached to material activities because in the liberated stage his mind is always fixed on the lotus feet of the Lord.</p>
+<p>This material world is called dvaita, the world of duality.</p>
+<p>A devotee knows very well that everything within this material world is but a manifestation of the Supreme Lord’s energy.</p>
+<p>To maintain the three modes of material nature, the Supreme Lord takes on different forms as Lord Brahma, Lord Visnu and Lord Siva.</p>
+<p>Unaffected by the modes of material nature, the Lord takes on different forms to create, maintain and annihilate this cosmic manifestation.</p>
+<p>The conclusion is that although the pure devotee appears to engage in material activities in the service of the Lord, he knows very well that material enjoyment for sense gratification has no use whatsoever.</p>
+
+
+
+<p><strong>4.30.24</strong></p>
+<p>namo visuddha-sattvaya</p>
+<p>haraye hari-medhase</p>
+<p>vasudevaya krsnaya</p>
+<p>prabhave sarva-satvatam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>namah—obeisances; visuddha-sattvaya—unto You, whose existence is free from all material influence; haraye—who takes away all miserable conditions of devotees; hari-medhase—whose brain works only for the deliverance of the conditioned soul; vasudevaya—the all-pervading Supreme Personality of Godhead; krsnaya—unto Krsna; prabhave—who increases the influence; sarva-satvatam—of all kinds of devotees.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Dear Lord, we offer our respectful obeisances unto You because Your existence is completely independent of all material influences.</p>
+<p>Your Lordship always takes away the devotee’s miserable conditions, for Your brain plans how to do so.</p>
+<p>You live everywhere as Paramatma; therefore You are known as Vasudeva.</p>
+<p>You also accept Vasudeva as Your father, and You are celebrated by the name Krsna.</p>
+<p>You are so kind that You always increase the influence of all kinds of devotees.</p>
+<p><strong>PURPORT</strong></p>
+<p>In the previous verse it has been said (grhita-maya-guna-vigrahaya) that the Lord accepts three kinds of bodies (Visnu, Brahma and Siva) for the purposes of creating, maintaining and annihilating the cosmic manifestation.</p>
+<p>The three predominating deities of the material universe (Brahma, Visnu and Siva) are called guna-avataras.</p>
+<p>There are many kinds of incarnations of the Supreme Personality of Godhead, and the first incarnations within this material world are Brahma, Visnu and Mahesvara (Siva).</p>
+<p>Out of these three, Lord Brahma and Lord Siva accept material bodies, but Lord Visnu does not accept a material body.</p>
+<p>Lord Visnu is therefore known as visuddha-sattva.</p>
+<p>His existence is completely free from the contamination of the material modes of nature.</p>
+<p>One should therefore not think that Lord Visnu is in the same category with Lord Brahma and Siva.</p>
+<p>The sastras forbid us to think in this way yas tu narayanam devam</p>
+<p>brahma-rudradi-daivataih</p>
+<p>samatvenaiva vikseta</p>
+<p>sa pasandi bhaved dhruvam</p>
+<p>One who considers Lord Visnu to be in the same category with devas like Lord Brahma or Lord Siva or who thinks Lord Brahma and Siva to be equal to Lord Visnu is to be considered as pasandi (a faithless nonbeliever).</p>
+<p>Therefore in this verse Lord Visnu is distinguished in the words namo visuddha-sattvaya.</p>
+<p>Although a living entity like us, Lord Brahma is exalted due to his pious activities; therefore he is given the high post of Brahma.</p>
+<p>Lord Siva is not actually like a living entity, but he is not the Supreme Personality of Godhead.</p>
+<p>His position is somewhere between Visnu, the Supreme Personality of Godhead, and Brahma, the living entity.</p>
+<p>Brahma-samhita (5.45) in this way:</p>
+<p>ksiram yatha dadhi vikara-visesa-yogat</p>
+<p>sanjayate na hi tatah prthag asti hetoh</p>
+<p>yah sambhutam api tatha samupaiti karyad</p>
+<p>govindam adi-purusam tam aham bhajami</p>
+<p>Lord Siva is considered to be like yogurt (dadhi).</p>
+<p>Yogurt is nothing but transformed milk; nonetheless, yogurt cannot be accepted as milk.</p>
+<p>Similarly, Lord Siva holds almost all the powers of Lord Visnu, and he is also above the qualities of the living entity, but he is not exactly like Visnu, just as yogurt, although transformed milk, is not exactly like milk.</p>
+<p>The Supreme Personality of Godhead is also described herein as vasudevaya krsnaya.</p>
+<p>Krsna is the original Supreme Personality of Godhead, and all Visnu expansions are His plenary portions or portions of His plenary portions (known as svamsa and kala).</p>
+<p>The svamsa, or direct expansion, is also called amsa.</p>
+<p>All visnu-tattvas are svamsa, direct parts and parcels of the Supreme Personality of Godhead, Krsna.</p>
+<p>Krsna is known as Vasudeva because He appeared in this material world as the son of Vasudeva.</p>
+<p>Similarly, He is known as Devaki-nandana, Yasoda-nandana, Nanda-nandana and so on.</p>
+<p>Again and again the Lord is very much interested in increasing the influence of His devotees.</p>
+<p>Therefore He is described herein as prabhave sarva-satvatam.</p>
+<p>The satvata community is a community of Vaisnavas, pure devotees of the Lord.</p>
+<p>The Supreme Personality of Godhead has unlimited powers, and He wants to see that His devotees are also entrusted with unlimited powers.</p>
+<p>A devotee of the Lord is always, therefore, distinguished from all other living entities.</p>
+<p>The word hari means one who takes away all miserable conditions and hari-medhase means that the Lord is always planning ways to deliver the conditioned soul from the clutches of maya.</p>
+<p>The Lord is so kind that He personally incarnates to deliver the conditioned souls, and whenever He comes, He makes His plans paritranaya sadhunam</p>
+<p>vinasaya ca duskrtam</p>
+<p>dharma-samsthapanarthaya</p>
+<p>sambhavami yuge yuge</p>
+<p>To deliver the pious and to annihilate the miscreants, as well as to reestablish the principles of religion, I advent Myself millennium after millennium (Bg.4.8) Since the Lord delivers all conditioned souls from the clutches of maya, He is known as hari-medhas.</p>
+<p>In the list of incarnations, Krsna is described as the supreme and original Personality of Godhead ete camsa-kalah pumsah</p>
+<p>krsnas tu bhagavan svayam</p>
+<p>indrari-vyakulam lokam</p>
+<p>mrdayanti yuge yuge</p>
+<p>(Bhag.1.3.28)</p>
+<p>Krsna, the original Personality of Godhead, appears in this material world when the demigods, who are devotees of the Lord, are disturbed by the demons.</p>
+
+
+
+<p><strong>4.30.25</strong></p>
+<p>namah kamala-nabhaya</p>
+<p>namah kamala-maline</p>
+<p>namah kamala-padaya</p>
+<p>namas te kamaleksana</p>
+<p><strong>SYNONYMS</strong></p>
+<p>namah—we offer our respectful obeisances; kamala-nabhaya—unto the Supreme Personality of Godhead, from whose abdomen the original lotus flower originated; namah—obeisances; kamala-maline—who is always decorated with a garland of lotus flowers; namah—obeisances; kamala-padaya—whose feet are as beautiful and fragrant as the lotus flower; namah te—obeisances unto You; kamala-iksana—whose eyes are exactly like the petals of the lotus flower.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Dear Lord, we offer our respectful obeisances unto You because from Your abdomen sprouts the lotus flower, the origin of all living entities.</p>
+<p>You are always decorated with a lotus garland, and Your feet resemble the lotus flower with all its fragrance.</p>
+<p>Your eyes are also like the petals of a lotus flower.</p>
+<p>Therefore we always offer our respectful obeisances unto You.</p>
+<p><strong>PURPORT</strong></p>
+<p>The word kamala-nabhaya indicates that Lord Visnu is the origin of the material creation.</p>
+<p>From the abdomen of Garbhodakasayi Visnu, a lotus flower sprouts.</p>
+<p>Lord Brahma, the first creature of the universe, is born from this lotus flower, and subsequently, Lord Brahma creates the whole universe.</p>
+<p>The origin of all creation is therefore Lord Visnu, and the origin of all the visnu-tattvas is Lord Krsna.</p>
+<p>Consequently, Krsna is the origin of everything.</p>
+<p>This is also confirmed in Bhagavad-gita (10.8):</p>
+<p>aham sarvasya prabhavo</p>
+<p>mattah sarvam pravartate</p>
+<p>iti matva bhajante mam</p>
+<p>budha bhava-samanvitah</p>
+<p>I am the source of all spiritual and material worlds.</p>
+<p>Everything emanates from Me.</p>
+<p>The wise who perfectly know this engage in My devotional service and worship Me with all their hearts Lord Krsna says: I am the origin of everything Therefore whatever we see emanates from Him.</p>
+<p>This is also confirmed in the Vedanta-sutra.</p>
+<p>Janmady asya yatah: (Bhag.1.1.1) The Absolute Truth is He from whom everything emanates</p>
+
+
+
+<p><strong>4.30.26</strong></p>
+<p>namah kamala-kinjalka-</p>
+<p>pisangamala-vasase</p>
+<p>sarva-bhuta-nivasaya</p>
+<p>namo ’yunksmahi saksine</p>
+<p><strong>SYNONYMS</strong></p>
+<p>namah—obeisances; kamala-kinjalka—like the saffron in a lotus flower; pisanga—yellowish; amala—spotless; vasase—unto Him whose garment; sarva-bhuta—of all living entities; nivasaya—the shelter; namah—obeisances; ayunksmahi—let us offer; saksine—unto the supreme witness.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Dear Lord, the garment You have put on is yellowish in color, like the saffron of a lotus flower, but it is not made of anything material.</p>
+<p>Since You live in everyone’s heart, You are the direct witness of all the activities of all living entities.</p>
+<p>We offer our respectful obeisances unto You again and again.</p>
+<p><strong>PURPORT</strong></p>
+<p>In this verse the dress of the Supreme Personality of Godhead and His all-pervasive nature are described.</p>
+<p>The Lord puts on a dress that is yellow, but such a garment is never to be considered material.</p>
+<p>The garments of the Lord are also the Lord.</p>
+<p>They are nondifferent from the Lord because they are spiritual in nature.</p>
+<p>The word sarva-bhuta-nivasaya further clarifies how Lord Visnu lives in everyone’s heart and acts as the direct witness of all the activities of the conditioned soul.</p>
+<p>Within this material world the conditioned soul has desires and acts in accordance with these desires.</p>
+<p>All these acts are observed by the Supreme Personality of Godhead.</p>
+<p>This is also confirmed in Bhagavad-gita (15.15):</p>
+<p>sarvasya caham hrdi sannivisto</p>
+<p>mattah smrtir jnanam apohanam ca</p>
+<p>I am seated in everyone’s heart, and from Me come remembrance, knowledge and forgetfulness The Lord is present in everyone’s heart, and He gives the living entity intelligence.</p>
+<p>According to the desires of the living entity, the Lord makes him remember or forget.</p>
+<p>If the living entity is demoniac and wants to forget the Supreme Personality of Godhead, the Lord gives him the intelligence to be able to forget the Supreme Lord forever.</p>
+<p>Similarly, when a devotee wants to serve the Supreme Lord, the Lord, as Paramatma, gives the devotee the intelligence to make progress in devotional service.</p>
+<p>The Lord directly witnesses our activities and experiences our desires.</p>
+<p>The Supreme Lord gives us the facilities to act in the way we wish.</p>
+
+
+
+<p><strong>4.30.27</strong></p>
+<p>rupam bhagavata tv etad</p>
+<p>asesa-klesa-sanksayam</p>
+<p>aviskrtam nah klistanam</p>
+<p>kim anyad anukampitam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>rupam—form; bhagavata—by Your Lordship; tu—but; etat—this; asesa—unlimited; klesa—miseries; sanksayam—which dissipates; aviskrtam—revealed; nah—of us; klistanam—who are suffering from material conditions; kim anyat—what to speak of; anukampitam—those to whom You are always favorably disposed.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Dear Lord, we conditioned souls are always covered by ignorance in the bodily conception of life.</p>
+<p>We therefore always prefer the miserable conditions of material existence.</p>
+<p>To deliver us from these miserable conditions, You have advented Yourself in this transcendental form.</p>
+<p>This is evidence of Your unlimited causeless mercy upon those of us who are suffering in this way.</p>
+<p>What, then, to speak of the devotees to whom You are always so favorably disposed?</p>
+<p><strong>PURPORT</strong></p>
+<p>When the Lord appears in His original form, He acts to deliver the pious and annihilate the miscreants (Bg.4.8).</p>
+<p>Although He annihilates the demons, He nonetheless benefits them.</p>
+<p>It is said that all the living entities who died on the Battlefield of Kuruksetra attained their original constitutional position (svarupa) because they had the chance to see Krsna face to face riding in the chariot of Arjuna.</p>
+<p>On the Battlefield of Kuruksetra, superficially two things were going on—the demons were being killed, and the devotee, Arjuna, was being protected.</p>
+<p>However, the results were the same for everyone.</p>
+<p>Thus it is said that the appearance of the Lord diminishes all kinds of miserable conditions caused by material existence.</p>
+<p>It is clearly stated in this verse that this form (asesa-klesa-sanksayam) is meant to diminish all the miserable conditions experienced in life not only by the devotees but by all others.</p>
+<p>Aviskrtam nah klistanam.</p>
+<p>The Pracetas identified themselves as common men.</p>
+<p>Kim anyad anukampitam.</p>
+<p>The devotees are always favorably accepted by the Lord.</p>
+<p>The Lord shows all mercy not only to conditioned souls but also to the devotees, who are already liberated due to their devotional service.</p>
+<p>The form of the Lord as worshiped in the temples is called arca-vigraha or arcavatara, the worshipable form, the Deity incarnation.</p>
+<p>This facility is offered to neophyte devotees so that they can see the real form of the Lord face to face and offer their respectful obeisances and sacrifices in the form of arca.</p>
+<p>Through such facilities the neophytes gradually invoke their original Krsna consciousness.</p>
+<p>Deity worship in the form of temple worship is the most valuable benediction given by the Lord to beginners.</p>
+<p>All neophytes must therefore engage in the worship of the Lord by keeping the arca-vigraha (arcavatara) at home or in the temple.</p>
+
+
+
+<p><strong>4.30.28</strong></p>
+<p>etavat tvam hi vibhubhir</p>
+<p>bhavyam dinesu vatsalaih</p>
+<p>yad anusmaryate kale</p>
+<p>sva-buddhyabhadra-randhana</p>
+<p><strong>SYNONYMS</strong></p>
+<p>etavat—thus; tvam—Your Lordship; hi—certainly; vibhubhih—by expansions; bhavyam—to be conceived; dinesu—unto the humble devotees; vatsalaih—compassionate; yat—which; anusmaryate—is always remembered; kale—in due course of time; sva-buddhya—by one’s devotional service; abhadra-randhana—O killer of all inauspiciousness.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Dear Lord, You are the killer of all inauspicious things.</p>
+<p>You are compassionate upon Your poor devotees through the expansion of Your arca-vigraha.</p>
+<p>You should certainly think of us as Your eternal servants.</p>
+<p><strong>PURPORT</strong></p>
+<p>The form of the Lord known as arca-vigraha is an expansion of His unlimited potencies.</p>
+<p>When the Lord is gradually satisfied with the service of a devotee, in due course of time He accepts the devotee as one of His many unalloyed servants.</p>
+<p>By nature, the Lord is very compassionate; therefore the service of neophyte devotees is accepted by the Lord.</p>
+<p>As confirmed in Bhagavad-gita (9.26):</p>
+<p>patram puspam phalam toyam</p>
+<p>yo me bhaktya prayacchati</p>
+<p>tad aham bhakty-upahrtam</p>
+<p>asnami prayatatmanah</p>
+<p>If one offers Me with love and devotion a leaf, a flower, fruit or water, I will accept it The devotee offers eatables in the form of vegetables, fruits, leaves and water to the arca-vigraha.</p>
+<p>The Lord, being bhakta-vatsala, compassionate upon His devotees, accepts these offerings.</p>
+<p>Atheists may think that the devotees are engaged in idol worship, but the fact is different.</p>
+<p>Janardana, the Supreme Lord, accepts bhava, the attitude of service.</p>
+<p>The neophyte devotee engaged in the worship of the Lord may not understand the value of such worship, but the Supreme Lord, being bhakta-vatsala, accepts His devotee and in due course of time takes him home.</p>
+<p>In this connection there is a story about a brahmana who was offering sweet rice to the Lord within his mind.</p>
+<p>The brahmana had no money nor any means of worshiping the Deity, but within his mind he arranged everything nicely.</p>
+<p>He had gold pots to bring water from the sacred rivers to wash the Deity, and he offered the Deity very sumptuous food, including sweet rice.</p>
+<p>Once, before he offered the sweet rice, he thought that it was too hot, and he thought, Oh, let me test it.</p>
+<p>My, it is very hot When he put his finger in the sweet rice to test it, his finger was burned and his meditation broken.</p>
+<p>Although he was offering food to the Lord within his mind, the Lord accepted it nonetheless.</p>
+<p>Consequently, the Lord in Vaikuntha immediately sent a chariot to bring the brahmana back home, back to Godhead.</p>
+<p>Thus it is the duty of every sincere devotee to accept the arca-vigraha at home or in the temple and worship the form of the Lord as advised in authorized scriptures and directed by the spiritual master.</p>
+
+
+
+<p><strong>4.30.29</strong></p>
+<p>yenopasantir bhutanam</p>
+<p>ksullakanam apihatam</p>
+<p>antarhito ’ntar-hrdaye</p>
+<p>kasman no veda nasisah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yena—by which process; upasantih—satisfaction of all desires; bhutanam—of the living entities; ksullakanam—very much fallen; api—although; ihatam—desiring many things; antarhitah—hidden; antah-hrdaye—in the core of the heart; kasmat—why; nah—our; veda—He knows; na—not; asisah—desires.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When the Lord, out of His natural compassion, thinks of His devotee, by that process only are all desires of the neophyte devotee fulfilled.</p>
+<p>The Lord is situated in every living entity’s heart, although the living entity may be very insignificant.</p>
+<p>The Lord knows everything about the living entity, including all his desires.</p>
+<p>Although we are very insignificant, why should the Lord not know our desires?</p>
+<p><strong>PURPORT</strong></p>
+<p>A very advanced devotee does not think himself advanced.</p>
+<p>He is always very humble.</p>
+<p>The Supreme Personality of Godhead in His plenary expansion as the Paramatma, or Supersoul, sits in everyone’s heart and can understand the attitudes and desires of His devotees.</p>
+<p>The Lord also gives opportunity to the nondevotees to fulfill their desires, as confirmed in Bhagavad-gita (mattah smrtir jnanam apohanam ca (Bg.15.15)).</p>
+<p>Whatever a living entity desires, however insignificant he may be, is noted by the Lord, who gives him a chance to fulfill his desires.</p>
+<p>If the desires of the nondevotees are fulfilled, why not those of the devotee? A pure devotee simply wants to engage in the service of the Lord without material desire, and if he wants this within the core of his heart, where the Lord is situated, and if he is without ulterior motive, why should the Lord not understand? If a sincere devotee renders service to the Lord or to the arca-vigraha, the form of the Lord, all his activities prove successful because the Lord is present within his heart and understands his sincerity.</p>
+<p>Thus if a devotee, with all confidence, goes on discharging the prescribed duties of devotional service, he will ultimately attain success.</p>
+
+
+
+<p><strong>4.30.30</strong></p>
+<p>asav eva varo ’smakam</p>
+<p>ipsito jagatah pate</p>
+<p>prasanno bhagavan yesam</p>
+<p>apavarga-gurur gatih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>asau—that; eva—certainly; varah—benediction; asmakam—our; ipsitah—desired; jagatah—of the universe; pate—O Lord; prasannah—satisfied; bhagavan—the Supreme Personality of Godhead; yesam—with whom; apavarga—of transcendental loving service; guruh—the teacher; gatih—the ultimate goal of life.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O Lord of the universe, You are the actual teacher of the science of devotional service.</p>
+<p>We are satisfied that Your Lordship is the ultimate goal of our lives, and we pray that You will be satisfied with us.</p>
+<p>That is our benediction.</p>
+<p>We do not desire anything other than Your full satisfaction.</p>
+<p><strong>PURPORT</strong></p>
+<p>In this verse the words apavarga-gurur gatih are very significant.</p>
+<p>Srimad-Bhagavatam (1.2.11), the Supreme Lord is the ultimate fact of the Absolute Truth.</p>
+<p>Brahmeti paramatmeti bhagavan iti sabdyate.</p>
+<p>The Absolute Truth is realized in three features—impersonal Brahman, localized Paramatma and ultimately the Supreme Personality of Godhead, Bhagavan.</p>
+<p>The word apavarga means liberation pavarga means material existence In material existence, one always works very hard but is ultimately baffled.</p>
+<p>One then dies and has to accept another body to work very hard again.</p>
+<p>This is the cycle of material existence.</p>
+<p>Apavarga means just the opposite.</p>
+<p>Instead of working hard like cats and dogs, one returns home, back to Godhead.</p>
+<p>Liberation begins with merging into the Brahman effulgence of the Supreme Lord.</p>
+<p>This conception is held by the jnani-sampradaya, philosophical speculators, but realization of the Supreme Personality of Godhead is higher.</p>
+<p>When a devotee understands that the Lord is satisfied, liberation, or merging into the effulgence of the Lord, is not very difficult.</p>
+<p>One has to approach the Supreme Personality of Godhead through the impersonal Brahman effulgence just as one has to approach the sun through the sunshine.</p>
+<p>It is not very difficult to merge into the impersonal effulgence of the Lord, Brahman, if one has satisfied the Supreme Personality of Godhead.</p>
+
+
+
+<p><strong>4.30.31</strong></p>
+<p>varam vrnimahe ’thapi</p>
+<p>natha tvat paratah parat</p>
+<p>na hy antas tvad-vibhutinam</p>
+<p>so ’nanta iti giyase</p>
+<p><strong>SYNONYMS</strong></p>
+<p>varam—benediction; vrnimahe—we shall pray for; atha api—therefore; natha—O Lord; tvat—from You; paratah parat—beyond the transcendence; na—not; hi—certainly; antah—end; tvat—Your; vibhutinam—of opulences; sah—You; anantah—unlimited; iti—thus; giyase—are celebrated.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Dear Lord, we shall therefore pray for Your benediction because You are the Supreme, beyond all transcendence, and because there is no end to Your opulences.</p>
+<p>Consequently, You are celebrated by the name Ananta.</p>
+<p><strong>PURPORT</strong></p>
+<p>There was no need for the Pracetas to ask any benediction from the Supreme Lord because the devotees are simply satisfied by the presence of the Supreme Personality of Godhead.</p>
+<p>Dhruva Maharaja practiced severe austerities and penances to see the Supreme Lord, and his intention was to receive benediction from the Lord.</p>
+<p>He wanted to acquire the throne of his father—or attain an even better position—but when he was actually in the presence of the Supreme Lord, he forgot everything.</p>
+<p>He said, My dear Lord, I do not wish to ask any benediction This is the actual position of the devotee.</p>
+<p>The devotee simply wants to be in the presence of the Supreme Lord—either in this world or in the next—and engage in His service.</p>
+<p>That is the ultimate goal and benediction for the devotees.</p>
+<p>The Lord asked the Pracetas to pray for some benediction, and they said, What kind of benediction should we pray for? The Lord is unlimited, and there are unlimited benedictions The purport is that if one must ask for benediction, he must ask for unlimited benediction.</p>
+<p>The words tvat paratah are very significant in this verse.</p>
+<p>The Supreme Personality of Godhead is paratah parat.</p>
+<p>The word para means transcendental, beyond this material world The impersonal Brahman effulgence is beyond this material world, and this is called param padam.</p>
+<p>Aruhya krcchrena param padam (Bhag.10.2.32).</p>
+<p>Merging into the impersonal effulgence of the Lord is called param padam, but there is a higher transcendental position, which is the association of the Supreme Personality of Godhead.</p>
+<p>Brahmeti paramatmeti bhagavan iti sabdyate (Bhag.1.2.11).</p>
+<p>The Absolute Truth is realized first as impersonal Brahman, then as Paramatma, and finally as Bhagavan.</p>
+<p>Thus the Personality of Godhead, Bhagavan, is paratah parat, beyond Brahman and Paramatma realization.</p>
+<p>In this connection, Srila Jiva Gosvami points out that paratah parat means better than the best The best is the spiritual world, and it is known as Brahman.</p>
+<p>The Supreme Personality of Godhead, however, is known as Parabrahman.</p>
+<p>Therefore paratah parat means better than Brahman realization As will be explained in the next verses, the Pracetas planned to ask the Lord for something that has no limit.</p>
+<p>The Lord’s pastimes, qualities, forms and names are all unlimited.</p>
+<p>There is no limit to His name, forms, pastimes, creation and paraphernalia.</p>
+<p>The living entity cannot conceive of the unlimitedness of the unlimited.</p>
+<p>However, if living entities are engaged in hearing about the unlimited potencies of the Supreme Lord, they are factually connected directly to the unlimited.</p>
+<p>Such understanding of the unlimited becomes unlimited by hearing and chanting.</p>
+
+
+
+<p><strong>4.30.32</strong></p>
+<p>parijate ’njasa labdhe</p>
+<p>sarango ’nyan na sevate</p>
+<p>tvad-anghri-mulam asadya</p>
+<p>saksat kim kim vrnimahi</p>
+<p><strong>SYNONYMS</strong></p>
+<p>parijate—the celestial tree known as parijata; anjasa—completely; labdhe—having achieved; sarangah—a bee; anyat—other; na sevate—does not resort to; tvat-anghri—Your lotus feet; mulam—the root of everything; asadya—having approached; saksat—directly; kim—what; kim—what; vrnimahi—may we ask.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Dear Lord, when the bee approaches the celestial tree called the parijata, it certainly does not leave the tree, because there is no need for such action.</p>
+<p>Similarly, when we have approached Your lotus feet and taken shelter of them, what further benediction may we ask of You?</p>
+<p><strong>PURPORT</strong></p>
+<p>When a devotee is actually engaged in the service of the lotus feet of the Lord, his engagement in itself is so perfect that there is no need to ask for further benediction.</p>
+<p>When a bee approaches the parijata tree, it gets unlimited supplies of honey.</p>
+<p>There is no need to go to another tree.</p>
+<p>If one is fixed in the service of the lotus feet of the Lord, there is unlimited transcendental bliss, and as such there is no need to ask for further benediction.</p>
+<p>The parijata tree is not commonly found within this material world.</p>
+<p>The parijata tree is also known as kalpa-vrksa, or the wish-fulfilling tree.</p>
+<p>One can get anything he desires from such a tree.</p>
+<p>In the material world, one can get oranges from an orange tree or mangoes from a mango tree, but there is no possibility of getting oranges from a mango tree or vice versa.</p>
+<p>However, one can get whatever he wants from the parijata tree—oranges, mangoes, bananas and so on.</p>
+<p>This tree is found in the spiritual world.</p>
+<p>Cintamani-prakara-sadmasu kalpa-vrksa-laksavrtesu (Bs.5.29).</p>
+<p>The spiritual world, cintamani-dhama, is surrounded by these kalpa-vrksa trees, but the parijata tree is also found in the kingdom of Indra, that is, on Indra’s heavenly planet.</p>
+<p>This parijata tree was brought by Krsna to please Satyabhama, one of His queens, and this tree was implanted in the Dvaraka mansions constructed for the queens.</p>
+<p>The lotus feet of the Lord are exactly like the parijata trees, or wish-fulfilling trees, and the devotees are like bumblebees.</p>
+<p>They are always attracted by the lotus feet of the Lord.</p>
+
+
+
+<p><strong>4.30.33</strong></p>
+<p>yavat te mayaya sprsta</p>
+<p>bhramama iha karmabhih</p>
+<p>tavad bhavat-prasanganam</p>
+<p>sangah syan no bhave bhave</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yavat—as long as; te—Your; mayaya—by the illusory energy; sprstah—contaminated; bhramamah—we wander; iha—in this material world; karmabhih—by the reaction of fruitive activities; tavat—so long; bhavat-prasanganam—of Your loving devotees; sangah—association; syat—let there be; nah—our; bhave bhave—in every species of life.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Dear Lord, as long as we have to remain within this material world due to our material contamination and wander from one type of body to another and from one planet to another, we pray that we may associate with those who are engaged in discussing Your pastimes.</p>
+<p>We pray for this benediction life after life, in different bodily forms and on different planets.</p>
+<p><strong>PURPORT</strong></p>
+<p>This is the best benediction that a devotee can ask of the Supreme Lord.</p>
+<p>This is also confirmed by Sri Caitanya Mahaprabhu: sthane sthitah sruti-gatam tanu-van-manobhih (Bhag.10.14.3).</p>
+<p>One may be in one position or another according to destiny, but in any case one must continue to hear about the activities and pastimes of the Supreme Lord, regardless of circumstances.</p>
+<p>A pure devotee does not pray for liberation or for cessation of the cycle of birth and death because he does not consider that important.</p>
+<p>The most important thing for a devotee is getting a chance to hear about the pastimes and glories of the Lord.</p>
+<p>The devotees who engage in the service of the Lord in this world will have the same opportunity in the spiritual world also.</p>
+<p>Thus for a devotee, everything is in the spiritual world, for as long as he can hear about the pastimes of the Lord, or wherever he can chant, the Lord is personally present.</p>
+<p>Tatra tisthami narada yatra gayanti mad-bhaktah.</p>
+<p>When the pure devotees assemble to chant, hear and talk about the Supreme Personality of Godhead, the place where they assemble becomes Vaikuntha.</p>
+<p>For the devotee there is no need to pray to the Lord for transferal to the Vaikuntha world.</p>
+<p>A pure devotee can create Vaikuntha or Vrndavana anywhere simply by chanting the glories of the Lord without offense.</p>
+<p>The Pracetas pray for an opportunity to hear of the glories of the Lord in every form of life (bhave bhave).</p>
+<p>A living entity transmigrates from one body to another.</p>
+<p>The devotee is not particularly eager to stop this process.</p>
+<p>Caitanya Mahaprabhu prays, mama janmani janmanisvare bhavatad bhaktir ahaituki tvayi: My dear Lord, life after life may I be fixed in Your pure devotional service Out of humility, a devotee considers himself unfit to be transferred to the spiritual world.</p>
+<p>He always thinks himself contaminated by the modes of material nature.</p>
+<p>Nor is there any need for a devotee to ask to be freed from the modes of material nature.</p>
+<p>Devotional service itself is in the transcendental position; therefore there is no question of asking for this special facility.</p>
+<p>The conclusion is that a pure devotee is not anxious to stop the repetition of birth and death, but is always eager to associate with other devotees who are engaged in chanting and hearing about the glories of the Lord.</p>
+
+
+
+<p><strong>4.30.34</strong></p>
+<p>tulayama lavenapi</p>
+<p>na svargam napunar-bhavam</p>
+<p>bhagavat-sangi-sangasya</p>
+<p>martyanam kim utasisah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tulayama—we compare; lavena—with a moment; api—even; na—not; svargam—attainment of the heavenly planets; na—not; apunah-bhavam—merging into the Brahman effulgence; bhagavat—of the Supreme Personality of Godhead; sangi—with associates; sangasya—of association; martyanam—of persons who are destined to die; kim uta—how much less; asisah—benedictions.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Even a moment’s association with a pure devotee cannot be compared to being transferred to heavenly planets or even merging into the Brahman effulgence in complete liberation.</p>
+<p>For living entities who are destined to give up the body and die, association with pure devotees is the highest benediction.</p>
+<p><strong>PURPORT</strong></p>
+<p>The great saint Prabodhananda Sarasvati, a devotee of Lord Caitanya, has stated:</p>
+<p>kaivalyam narakayate tridasa-pur akasa-puspayate.</p>
+<p>For a pure devotee, kaivalya, merging into the existence of Brahman, the Brahman effulgence, is no better than living in hell.</p>
+<p>Similarly, he considers promotion to heavenly planets (tridasa-pur) just another kind of phantasmagoria.</p>
+<p>In other words, a pure devotee does not place much value in the destination of the karmis (the heavenly planets) or in the destination of the jnanis (merging into the Brahman effulgence).</p>
+<p>A pure devotee considers a moment’s association with another pure devotee to be far superior to residing in a heavenly planet or merging in the Brahman effulgence.</p>
+<p>The topmost benediction for those who are living in this material world and are subjected to the repetition of birth and death (transmigration) is association with pure devotees.</p>
+<p>One should search out such pure devotees and remain with them.</p>
+<p>That will make one completely happy, even though living within the material world.</p>
+<p>This Krsna consciousness movement is started for that purpose.</p>
+<p>A person who is overly affected materially may take advantage of this movement and become intimately associated with it.</p>
+<p>In this way the confused and frustrated inhabitants of this material world may find the highest happiness in association with devotees.</p>
+
+
+
+<p><strong>4.30.35</strong></p>
+<p>yatredyante katha mrstas</p>
+<p>trsnayah prasamo yatah</p>
+<p>nirvairam yatra bhutesu</p>
+<p>nodvego yatra kascana</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yatra—where; idyante—are worshiped or discussed; kathah—words; mrstah—pure; trsnayah—of material hankerings; prasamah—satisfaction; yatah—by which; nirvairam—nonenviousness; yatra—where; bhutesu—among living entities; na—not; udvegah—fear; yatra—where; kascana—any.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Whenever pure topics of the transcendental world are discussed, the members of the audience forget all kinds of material hankerings, at least for the time being.</p>
+<p>Not only that, but they are no longer envious of one another, nor do they suffer from anxiety or fear.</p>
+<p><strong>PURPORT</strong></p>
+<p>Vaikuntha means without anxiety and the material world means full of anxiety.</p>
+<p>As stated by Prahlada Maharaja: sada samudvigna-dhiyam asad-grahat.</p>
+<p>The living entities who have accepted this material world as a residence are full of anxiety.</p>
+<p>A place immediately becomes Vaikuntha whenever the holy topics of the Personality of Godhead are discussed by pure devotees.</p>
+<p>This is the process of sravanam kirtanam visnoh (SB 7.5.23), chanting and hearing about the Supreme Lord Visnu.</p>
+<p>As the Supreme Lord Himself confirms:</p>
+<p>naham tisthami vaikunthe</p>
+<p>yoginam hrdayesu va</p>
+<p>tatra tisthami narada</p>
+<p>yatra gayanti mad-bhaktah</p>
+<p>My dear Narada, actually I do not reside in My abode, Vaikuntha, nor do I reside within the hearts of the yogis, but I reside in that place where My pure devotees chant My holy name and discuss My form, pastimes and qualities Because of the presence of the Lord in the form of the transcendental vibration, the Vaikuntha atmosphere is evoked.</p>
+<p>This atmosphere is without fear and anxiety.</p>
+<p>One living entity does not fear another.</p>
+<p>By hearing the holy names and glories of the Lord, a person executes pious activities.</p>
+<p>Srnvatam sva-kathah krsnah punya-sravana-kirtanah (Bhag.1.2.17).</p>
+<p>Thus his material hankerings immediately stop.</p>
+<p>This sankirtana movement started by the Society for Krishna Consciousness is meant for creating Vaikuntha, the transcendental world that is without anxiety, even in this material world.</p>
+<p>The method is the propagation of the sravanam kirtanam process throughout the world.</p>
+<p>In the material world everyone is envious of his fellow man.</p>
+<p>Animalistic envy exists in human society as long as there is no performance of sankirtana-yajna, the chanting of the holy names—Hare Krsna, Hare Krsna, Krsna Krsna, Hare Hare/ Hare Rama, Hare Rama, Rama Rama, Hare Hare.</p>
+<p>The Pracetas therefore decided to remain always in the society of devotees, and they considered that to be the highest benediction possible in human life.</p>
+
+
+
+<p><strong>4.30.36</strong></p>
+<p>yatra narayanah saksad</p>
+<p>bhagavan nyasinam gatih</p>
+<p>samstuyate sat-kathasu</p>
+<p>mukta-sangaih punah punah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yatra—where; narayanah—Lord Narayana; saksat—directly; bhagavan—the Supreme Personality of Godhead; nyasinam—of persons in the renounced order of life; gatih—the ultimate goal; samstuyate—is worshiped; sat-kathasu—by discussing the transcendental vibration; mukta-sangaih—by those who are liberated from material contamination; punah punah—again and again.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Supreme Lord, Narayana, is present among devotees who are engaged in hearing and chanting the holy name of the Supreme Personality of Godhead.</p>
+<p>Lord Narayana is the ultimate goal of sannyasis, those in the renounced order of life, and Narayana is worshiped through this sankirtana movement by those who are liberated from material contamination.</p>
+<p>Indeed, they recite the holy name again and again.</p>
+<p><strong>PURPORT</strong></p>
+<p>The Mayavadi sannyasis are missing the real presence of Narayana.</p>
+<p>This is because they falsely claim to be Narayana Himself.</p>
+<p>According to the customary etiquette of Mayavadi sannyasis, they address one another as Narayana.</p>
+<p>To say that everyone is a temple of Narayana is correct, but to accept another human being as Narayana is a great offense.</p>
+<p>The conception of daridra-narayana (poor Narayana), an attempt to identify the poor with Narayana, is also a great offense.</p>
+<p>Even to identify Narayana with demigods like Lord Brahma and Lord Siva is an offense yas tu narayanam devam</p>
+<p>brahma-rudradi-daivataih</p>
+<p>samatvenaiva vikseta</p>
+<p>sa pasandi bhaved dhruvam</p>
+<p>One who considers Lord Narayana on a level with great demigods like Lord Brahma and Lord Siva is immediately listed among nonbelievers The fact is that by performing sankirtana-yajna one can immediately please the Supreme Personality of Godhead.</p>
+<p>Then Narayana Himself descends and immediately is present.</p>
+<p>In this age of Kali, Narayana is immediately present in the form of Lord Caitanya.</p>
+<p>Srimad-Bhagavatam (11.5.32) states:</p>
+<p>krsna-varnam tvisakrsnam</p>
+<p>sangopangastra-parsadam</p>
+<p>yajnaih sankirtana-prayair</p>
+<p>yajanti hi sumedhasah</p>
+<p>In the age of Kali, intelligent persons perform congregational chanting to worship the incarnation of Godhead who constantly sings the name of Krsna.</p>
+<p>Although His complexion is not blackish, He is Krsna Himself.</p>
+<p>He is accompanied by His associates, servants, weapons and confidential companions After all, human life is meant for pleasing Narayana, and this can easily be done by performing sankirtana-yajna.</p>
+<p>Whenever there is congregational chanting of the holy names of the Lord, Gaura Narayana, the Supreme Personality of Godhead in His incarnation as Lord Caitanya, immediately appears and is worshiped by sankirtana-yajna.</p>
+<p>In this verse it is said that Narayana is nyasinam gatih, the ultimate goal of the sannyasis.</p>
+<p>The goal of those who have renounced the material world is the attainment of Narayana.</p>
+<p>A Vaisnava sannyasi therefore dedicates his life to serving Narayana; he does not falsely claim to be Narayana.</p>
+<p>Instead of becoming nirvaira (nonenvious of other living entities), one who tries to become Narayana becomes envious of the Supreme Lord.</p>
+<p>Therefore the attempt to become Narayana constitutes the greatest offense.</p>
+<p>Actually, when one chants or discusses the transcendental activities of the Lord, he immediately becomes nonenvious.</p>
+<p>In this material world everyone is envious of everyone else, but by vibrating or discussing the holy name of the Lord, one becomes nonenvious and devoid of material hankering.</p>
+<p>Because of our envy of the Supreme Personality of Godhead, we have become envious of all other living entities.</p>
+<p>When we are no longer envious of the Supreme Personality of Godhead, there will be real peace, unity and fraternity in human society.</p>
+<p>Without Narayana or sankirtana-yajna there cannot be peace in this material world.</p>
+
+
+
+<p><strong>4.30.37</strong></p>
+<p>tesam vicaratam padbhyam</p>
+<p>tirthanam pavanecchaya</p>
+<p>bhitasya kim na roceta</p>
+<p>tavakanam samagamah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tesam—of them; vicaratam—who travel; padbhyam—by their feet; tirthanam—the holy places; pavana-icchaya—with a desire to purify; bhitasya—to the materialistic person who is always fearful; kim—why; na—not; roceta—becomes pleasing; tavakanam—of Your devotees; samagamah—meeting.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Dear Lord, Your personal associates, devotees, wander all over the world to purify even the holy places of pilgrimage.</p>
+<p>Is not such activity pleasing to those who are actually afraid of material existence?</p>
+<p><strong>PURPORT</strong></p>
+<p>There are two kinds of devotees.</p>
+<p>One is called gosthanandi and the other bhajananandi.</p>
+<p>The word bhajananandi refers to the devotee who does not move, but remains in one place.</p>
+<p>Such a devotee is always engaged in the devotional service of the Lord.</p>
+<p>He chants the maha-mantra as taught by many acaryas and sometimes goes out for preaching work.</p>
+<p>The gosthanandi is one who desires to increase the number of devotees all over the world.</p>
+<p>He travels all over the world just to purify the world and the people residing in it.</p>
+<p>Caitanya Mahaprabhu advised:</p>
+<p>prthivite ache yata nagaradi grama</p>
+<p>sarvatra pracara haibe mora nama</p>
+<p>Lord Caitanya Mahaprabhu wanted His followers to move all over the world to preach in every town and village.</p>
+<p>In the Caitanya-sampradaya those who strictly follow the principles of Lord Caitanya must travel all over the world to preach the message of Lord Caitanya, which is the same as preaching the words of Krsna—Bhagavad-gita—and Srimad-Bhagavatam.</p>
+<p>The more the devotees preach the principles of krsna-katha, the more people throughout the world will benefit.</p>
+<p>Devotees like the great sage Narada, who travel all over to preach, are called gosthanandi.</p>
+<p>Narada Muni is always wandering throughout the universe just to create different types of devotees.</p>
+<p>Narada even made a hunter a devotee.</p>
+<p>He also made Dhruva Maharaja and Prahlada devotees.</p>
+<p>Actually, all devotees are indebted to the great sage Narada, for he has wandered both in heaven and in hell.</p>
+<p>A devotee of the Lord is not even afraid of hell.</p>
+<p>He goes to preach the glories of the Lord everywhere—even in hell—because there is no distinction between heaven and hell for a devotee narayana-parah sarve</p>
+<p>na kutascana bibhyati</p>
+<p>svargapavarga-narakesv</p>
+<p>api tulyartha-darsinah</p>
+<p>A pure devotee of Narayana is never afraid of going anywhere and everywhere.</p>
+<p>For him heaven and hell are one and the same (Bhag.6.17.28) Such devotees, wandering all over the world, deliver those who are actually afraid of this material existence.</p>
+<p>Some people are already disgusted with material existence, being confused and frustrated by material enjoyment, and some people, who are intelligent, are interested in understanding the Supreme Lord.</p>
+<p>Both may take advantage of the pure devotee who wanders throughout the world.</p>
+<p>When a pure devotee goes to a place of pilgrimage, he desires to purify that holy place of pilgrimage.</p>
+<p>Many sinful men bathe in the holy waters of the places of pilgrimage.</p>
+<p>They take their baths in the waters of the Ganges and Yamuna at places such as Prayaga, Vrndavana and Mathura.</p>
+<p>In this way the sinful men are purified, but their sinful actions and reactions remain at the holy places of pilgrimage.</p>
+<p>When a devotee comes to take his bath at those places of pilgrimage, the sinful reactions left by the sinful men are neutralized by the devotee.</p>
+<p>Tirthi-kurvanti tirthani svantah-sthena gada-bhrta (Bhag.1.13.10).</p>
+<p>Because the devotee always carries the Supreme Personality of Godhead within his heart, wherever he goes becomes a place of pilgrimage, a holy place for understanding the Supreme Personality of Godhead.</p>
+<p>It is therefore the duty of everyone to associate with a pure devotee and thus attain freedom from material contamination.</p>
+<p>Everyone should take advantage of the wandering devotees, whose only business is to deliver conditioned souls from the clutches of maya.</p>
+
+
+
+<p><strong>4.30.38</strong></p>
+<p>vayam tu saksad bhagavan bhavasya</p>
+<p>priyasya sakhyuh ksana-sangamena</p>
+<p>suduscikitsyasya bhavasya mrtyor</p>
+<p>bhisaktamam tvadya gatim gatah sma</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vayam—we; tu—then; saksat—directly; bhagavan—O Lord; bhavasya—of Lord Siva; priyasya—very dear; sakhyuh—Your friend; ksana—for a moment; sangamena—by association; suduscikitsyasya—very difficult to cure; bhavasya—of material existence; mrtyoh—of death; bhisak-tamam—the most expert physician; tva—You; adya—today; gatim—destination; gatah—have achieved; sma—certainly.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Dear Lord, by virtue of a moment’s association with Lord Siva, who is very dear to You and who is Your most intimate friend, we were fortunate to attain You.</p>
+<p>You are the most expert physician, capable of treating the incurable disease of material existence.</p>
+<p>On account of our great fortune, we have been able to take shelter at Your lotus feet.</p>
+<p><strong>PURPORT</strong></p>
+<p>It has been said: harim vina na srtim taranti.</p>
+<p>Without taking shelter of the lotus feet of the Personality of Godhead, one cannot attain relief from the clutches of maya, the repetition of birth, old age, disease and death.</p>
+<p>The Pracetas received the shelter of the Supreme Personality of Godhead by the grace of Lord Siva.</p>
+<p>Lord Siva is the supreme devotee of Lord Visnu, the Supreme Personality of Godhead.</p>
+<p>Vaisnavanam yatha sambhuh: the most exalted Vaisnava is Lord Siva, and those who are actually devotees of Lord Siva follow Lord Siva’s advice and take shelter at the lotus feet of Lord Visnu.</p>
+<p>The so-called devotees of Lord Siva, who are simply after material prosperity, are in a way deceived by Lord Siva.</p>
+<p>He does not actually deceive them, because Lord Siva has no business deceiving people, but because the so-called devotees of Lord Siva want to be deceived, Lord Siva, who is very easily pleased, allows them all kinds of material benedictions.</p>
+<p>These benedictions might ironically result in the destruction of the so-called devotees.</p>
+<p>For instance, Ravana took all material benediction from Lord Siva, but the result was that he was ultimately destroyed with his family, kingdom and everything else because he misused Lord Siva’s benediction.</p>
+<p>Because of his material power, he became very proud and puffed up so that he dared kidnap the wife of Lord Ramacandra.</p>
+<p>In this way he was ruined.</p>
+<p>To get material benedictions from Lord Siva is not difficult, but actually these are not benedictions.</p>
+<p>The Pracetas received benediction from Lord Siva, and as a result they attained the shelter of the lotus feet of Lord Visnu.</p>
+<p>This is real benediction.</p>
+<p>The gopis also worshiped Lord Siva in Vrndavana, and the lord is still staying there as Gopisvara.</p>
+<p>The gopis, however, prayed that Lord Siva bless them by giving them Lord Krsna as their husband.</p>
+<p>There is no harm in worshiping the demigods, provided that one’s aim is to return home, back to Godhead.</p>
+<p>Generally people go to the demigods for material benefit, as indicated in Bhagavad-gita (7.20):</p>
+<p>kamais tais tair hrta-jnanah</p>
+<p>prapadyante ’nya-devatah</p>
+<p>tam tam niyamam asthaya</p>
+<p>prakrtya niyatah svaya</p>
+<p>Those whose minds are distorted by material desires surrender unto demigods and follow the particular rules and regulations of worship according to their own natures One enamored by material benefits is called hrta jnana (one who has lost his intelligenc).</p>
+<p>In this connection it is to be noted that sometimes in revealed scriptures Lord Siva is described as being nondifferent from the Supreme Personality of Godhead.</p>
+<p>The point is that Lord Siva and Lord Visnu are so intimately connected that there is no difference in opinion.</p>
+<p>The actual fact is, ekale isvara krsna, ara saba bhrtya: The only supreme master is Krsna, and all others are His devotees or servants (Cc.Adi5.142) This is the real fact, and there is no difference of opinion between Lord Siva and Lord Visnu in this connection.</p>
+<p>Nowhere in revealed scripture does Lord Siva claim to be equal to Lord Visnu.</p>
+<p>This is simply the creation of the so-called devotees of Lord Siva, who claim that Lord Siva and Lord Visnu are one.</p>
+<p>This is strictly forbidden in the Vaisnava-tantra: yas tu narayanam devam.</p>
+<p>Lord Visnu, Lord Siva and Lord Brahma are intimately connected as master and servants.</p>
+<p>Siva-virinci-nutam.</p>
+<p>Visnu is honored and offered obeisances by Lord Siva and Lord Brahma.</p>
+<p>To consider that they are all equal is a great offense.</p>
+<p>They are all equal in the sense that Lord Visnu is the Supreme Personality of Godhead and all others are His eternal servants.</p>
+
+
+
+<p><strong>4.30.39-40</strong></p>
+<p>yo jayamanah sarvesam</p>
+<p>tejas tejasvinam ruca</p>
+<p>svayopadatta daksyac ca</p>
+<p>karmanam daksam abruvan</p>
+<p>tam praja-sarga-raksayam</p>
+<p>anadir abhisicya ca</p>
+<p>yuyoja yuyuje ’nyams ca</p>
+<p>sa vai sarva-prajapatin</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—one who; jayamanah—just after his birth; sarvesam—of all; tejah—the brilliance; tejasvinam—brilliant; ruca—by effulgence; svaya—his; upadatta—covered; daksyat—from being expert; ca—and; karmanam—in fruitive activities; daksam—Daksa; abruvan—was called; tam—him; praja—living beings; sarga—generating; raksayam—in the matter of maintaining; anadih—the firstborn, Lord Brahma; abhisicya—having appointed; ca—also; yuyoja—engaged; yuyuje—engaged; anyan—others; ca—and; sah—he; vai—certainly; sarva—all; praja-patin—progenitors of living entities.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>After being born, Daksa, by the superexcellence of his bodily luster, covered all others’ bodily opulence.</p>
+<p>Because he was very expert in performing fruitive activity, he was called by the name Daksa, meaning the very expert Lord Brahma therefore engaged Daksa in the work of generating living entities and maintaining them.</p>
+<p>In due course of time, Daksa also engaged other Prajapatis (progenitors) in the process of generation and maintenance.</p>
+<p><strong>PURPORT</strong></p>
+<p>Daksa became almost as powerful as Lord Brahma.</p>
+<p>Consequently, Lord Brahma engaged him in generating population.</p>
+<p>Daksa was very influential and opulent.</p>
+<p>In his own turn, Daksa engaged other Prajapatis, headed by Marici.</p>
+<p>In this way the population of the universe increased.</p>
+
+
+
+<p><strong>4.30.41</strong></p>
+<p>manuh svayambhur bhagavan bhavas ca</p>
+<p>ye ’nye tapo-jnana-visuddha-sattvah</p>
+<p>adrsta-para api yan-mahimnah</p>
+<p>stuvanty atho tvatma-samam grnimah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>manuh—Svayambhuva Manu; svayambhuh—Lord Brahma; bhagavan—the most powerful; bhavah—Lord Siva; ca—also; ye—who; anye—others; tapah—by austerity; jnana—by knowledge; visuddha—pure; sattvah—whose existence; adrsta-parah—who cannot see the end; api—although; yat—Your; mahimnah—of glories; stuvanti—they offer prayers; atho—therefore; tva—unto You; atma-samam—according to capacity; grnimah—we offered prayers.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Dear Lord, even great yogis and mystics who are very much advanced by virtue of austerities and knowledge and who have completely situated themselves in pure existence, as well as great personalities like Manu, Lord Brahma and Lord Siva, cannot fully understand Your glories and potencies.</p>
+<p>Nonetheless they have offered their prayers according to their own capacities.</p>
+<p>In the same way, we, although much lower than these personalities, also offer our prayers according to our own capability.</p>
+<p><strong>PURPORT</strong></p>
+<p>Lord Brahma, Lord Siva, Manu (the father of mankind), great saintly persons and also great sages who have elevated themselves to the transcendental platform through austerities and penance, as well as devotional service, are imperfect in knowledge compared to the Supreme Personality of Godhead.</p>
+<p>This is the case with anyone within this material world.</p>
+<p>No one can be equal to the Supreme Lord in anything, certainly not in knowledge.</p>
+<p>Consequently, anyone’s prayer to the Supreme Personality of Godhead is never complete.</p>
+<p>It is not possible to measure the complete glories of the Supreme Lord, who is unlimited.</p>
+<p>Even the Lord Himself in His incarnation as Ananta, or Sesa, cannot describe His own glories.</p>
+<p>Although Ananta has many thousands of faces and has been glorifying the Lord for many, many years, He could not find the limit of the glories of the Lord.</p>
+<p>Thus it is not possible to estimate the complete potencies and glories of the Supreme Lord.</p>
+<p>Nonetheless, everyone in devotional service can offer essential prayers to the Lord.</p>
+<p>Everyone is situated in a relative position, and no one is perfect in glorifying the Lord.</p>
+<p>Beginning with Lord Brahma and Lord Siva down to ourselves, everyone is the servant of the Supreme Lord.</p>
+<p>We are all situated in relative positions according to our own karma.</p>
+<p>Yet every one of us can offer prayers with heart and soul as far as we can appreciate the Lord’s glories.</p>
+<p>That is our perfection.</p>
+<p>Even when one is in the darkest region of existence, he is allowed to offer prayers to the Lord according to his own capacity.</p>
+<p>The Lord therefore says in Bhagavad-gita (9.32):</p>
+<p>mam hi partha vyapasritya</p>
+<p>ye ’pi syuh papa-yonayah</p>
+<p>striyo vaisyas tatha sudras</p>
+<p>te ’pi yanti param gatim</p>
+<p>O son of Prtha, those who take shelter in Me, though they be of lower birth—women, vaisyas (merchants), as well as sudras (workers)—can approach the supreme destination If one seriously accepts the lotus feet of the Lord, he is purified by the grace of the Lord and by the grace of the Lord’s servant.</p>
+<p>This is confirmed by Sukadeva Gosvami: ye ’nye ca papa yad-apasrayasrayah sudhyanti tasmai prabhavisnave namah (Bhag.2.4.18).</p>
+<p>One who is brought under the lotus feet of the Lord by the endeavor of the Lord’s servant, the spiritual master, is certainly immediately purified, however lowborn he may be.</p>
+<p>He becomes eligible to return home, back to Godhead.</p>
+
+
+
+<p><strong>4.30.42</strong></p>
+<p>namah samaya suddhaya</p>
+<p>purusaya paraya ca</p>
+<p>vasudevaya sattvaya</p>
+<p>tubhyam bhagavate namah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>namah—we offer our respectful obeisances; samaya—who is equal to everyone; suddhaya—who is never contaminated by sinful activities; purusaya—unto the Supreme Person; paraya—transcendental; ca—also; vasudevaya—living everywhere; sattvaya—who is in the transcendental position; tubhyam—unto You; bhagavate—the Supreme Personality of Godhead; namah—obeisances.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Dear Lord, You have no enemies or friends.</p>
+<p>Therefore You are equal to everyone.</p>
+<p>You cannot be contaminated by sinful activities, and Your transcendental form is always beyond the material creation.</p>
+<p>You are the Supreme Personality of Godhead because You remain everywhere within all existence.</p>
+<p>You are consequently known as Vasudeva.</p>
+<p>We offer You our respectful obeisances.</p>
+<p><strong>PURPORT</strong></p>
+<p>The Supreme Personality of Godhead is known as Vasudeva because He lives everywhere.</p>
+<p>The word vas means to live As stated in Brahma-samhita, eko ’py asau racayitum jagad-anda-kotim: (Bs.5.35) the Lord, through His plenary portion, enters into each and every universe to create the material manifestation.</p>
+<p>He also enters into each and every heart in all living entities and into each and every atom also (paramanu-cayantara-stham).</p>
+<p>Because the Supreme Lord lives everywhere, He is known as Vasudeva.</p>
+<p>Although He lives everywhere within the material world, He is not contaminated by the modes of nature.</p>
+<p>The Lord is therefore described in Isopanisad as apapa-viddham.</p>
+<p>He is never contaminated by the modes of material nature.</p>
+<p>When the Lord descends on this planet, He acts in many ways.</p>
+<p>He kills demons and performs acts not sanctioned by the Vedic principles, that is, acts considered sinful.</p>
+<p>Even though He acts in such a way, He is never contaminated by His action.</p>
+<p>He is therefore described herein as suddha, meaning always free from contamination The Lord is also sama, equal to everyone.</p>
+<p>In this regard, He states in Bhagavad-gita (9.29), samo’ham sarva-bhutesu na me dvesyo ’sti na priyah: the Lord has no one as His friend or enemy, and He is equal to everyone.</p>
+<p>The word sattvaya indicates that the form of the Lord is not material.</p>
+<p>It is sac-cid-ananda-vigrahah.</p>
+<p>Isvarah paramah krsnah sac-cid-ananda-vigrahah (Bs.5.1).</p>
+<p>His body is different from our material bodies.</p>
+<p>One should not think that the Supreme Personality of Godhead has a material body, like ours.</p>
+
+
+
+<p><strong>4.30.43</strong></p>
+<p>maitreya uvaca</p>
+<p>iti pracetobhir abhistuto harih</p>
+<p>pritas tathety aha saranya-vatsalah</p>
+<p>anicchatam yanam atrpta-caksusam</p>
+<p>yayau sva-dhamanapavarga-viryah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>maitreyah uvaca—Maitreya said; iti—thus; pracetobhih—by the Pracetas; abhistutah—being praised; harih—the Supreme Personality of Godhead; pritah—being pleased; tatha—so; iti—thus; aha—said; saranya—to the surrendered souls; vatsalah—affectionate; anicchatam—not desiring; yanam—His departure; atrpta—not satisfied; caksusam—their eyes; yayau—He left; sva-dhama—to His own abode; anapavarga-viryah—whose prowess is never defeated.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The great sage Maitreya continued: My dear Vidura, the Supreme Personality of Godhead, who is the protector of surrendered souls, being thus addressed by the Pracetas and worshiped by them, replied, May whatever you have prayed for be fulfilled After saying this, the Supreme Personality of Godhead, whose prowess is never defeated, left.</p>
+<p>The Pracetas were unwilling to be separated from Him because they had not seen Him to their full satisfaction.</p>
+<p><strong>PURPORT</strong></p>
+<p>The word anapavarga-virya is significant in this verse.</p>
+<p>The word ana means without pavarga means the materialistic way of life and virya means prowess The prowess of the Supreme Personality of Godhead always contains six basic opulences, one of which is renunciation.</p>
+<p>Although the Pracetas desired to see the Lord to their full satisfaction, the Lord left.</p>
+<p>According to Srila Jiva Gosvami, this is an exhibition of His kindness to innumerable other devotees.</p>
+<p>Although He was being attracted by the Pracetas, He left.</p>
+<p>This is an example of His renunciation.</p>
+<p>This renunciation was also exhibited by Lord Caitanya Mahaprabhu when He stayed with Advaita Prabhu after taking sannyasa.</p>
+<p>All the devotees there wanted Him to stay a few days longer, but Lord Caitanya left without hesitation.</p>
+<p>The conclusion is that although the Supreme Lord has unlimited kindness for His devotees, He is not attached to anyone.</p>
+<p>He is equally kind to His innumerable devotees all over the creation.</p>
+
+
+
+<p><strong>4.30.44</strong></p>
+<p>atha niryaya salilat</p>
+<p>pracetasa udanvatah</p>
+<p>viksyakupyan drumais channam</p>
+<p>gam gam roddhum ivocchritaih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atha—thereafter; niryaya—after coming out; salilat—from the water; pracetasah—all the Pracetas; udanvatah—of the sea; viksya—having observed; akupyan—became very angry; drumaih—by trees; channam—covered; gam—the world; gam—the heavenly planets; roddhum—to obstruct; iva—as if; ucchritaih—very tall.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter all the Pracetas emerged from the waters of the sea.</p>
+<p>They then saw that all the trees on land had grown very tall, as if to obstruct the path to the heavenly planets.</p>
+<p>These trees had covered the entire surface of the world.</p>
+<p>At this time the Pracetas became very angry.</p>
+<p><strong>PURPORT</strong></p>
+<p>King Pracinabarhisat left his kingdom before his sons arrived after their execution of penance and austerity.</p>
+<p>The sons, the Pracetas, were ordered by the Supreme Personality of Godhead to come out of the water and go to the kingdom of their father in order to take care of that kingdom.</p>
+<p>However, when they came out, they saw that everything had been neglected due to the King’s absence.</p>
+<p>They first observed that food grains were not being produced and that there were no agricultural activities.</p>
+<p>Indeed, the surface of the world was practically covered by very tall trees.</p>
+<p>It seemed as though the trees were determined to stop people from going into outer space to reach the heavenly kingdoms.</p>
+<p>The Pracetas became very angry when they saw the surface of the globe covered in this way.</p>
+<p>They desired that the land be cleared for crops.</p>
+<p>It is not a fact that jungles and trees attract clouds and rain, because we find rainfall over the sea.</p>
+<p>Human beings can inhabit any place on the surface of the earth by clearing jungles and converting land for agricultural purposes.</p>
+<p>People can keep cows, and all economic problems can be solved in that way.</p>
+<p>One need only work to produce grains and take care of the cows.</p>
+<p>The wood found in the jungles may be used for constructing cottages.</p>
+<p>In this way the economic problem of humanity can be solved.</p>
+<p>At the present moment there are many vacant lands throughout the world, and if they are properly utilized, there will be no scarcity of food.</p>
+<p>As far as rain is concerned, it is the performance of yajna that attracts rain.</p>
+<p>As stated in Bhagavad-gita (3.14):</p>
+<p>annad bhavanti bhutani</p>
+<p>parjanyad anna-sambhavah</p>
+<p>yajnad bhavati parjanyo</p>
+<p>yajnah karma-samudbhavah</p>
+<p>All living bodies subsist on food grains, which are produced from rains.</p>
+<p>Rains are produced by performance of yajna (sacrifice), and yajna is born of prescribed duties By performing sacrifice, man will have sufficient rainfall and crops.</p>
+
+
+
+<p><strong>4.30.45</strong></p>
+<p>tato ’gni-marutau rajann</p>
+<p>amuncan mukhato rusa</p>
+<p>mahim nirvirudham kartum</p>
+<p>samvartaka ivatyaye</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—thereafter; agni—fire; marutau—and air; rajan—O King; amuncan—they emitted; mukhatah—from their mouths; rusa—out of anger; mahim—the earth; nirvirudham—treeless; kartum—to make; samvartakah—the fire of devastation; iva—like; atyaye—at the time of devastation.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear King, at the time of devastation, Lord Siva emits fire and air from his mouth out of anger.</p>
+<p>To make the surface of the earth completely treeless, the Pracetas also emitted fire and air from their mouths.</p>
+<p><strong>PURPORT</strong></p>
+<p>In this verse Vidura is addressed as rajan, which means O King In this regard, Srila Visvanatha Cakravarti Thakura comments that a dhira never becomes angry because he is always situated in devotional service.</p>
+<p>Advanced devotees can control their senses; therefore a devotee can be addressed as rajan.</p>
+<p>A king controls and rules in various ways among citizens; similarly, one who can control his senses is the king of his senses.</p>
+<p>He is a svami or gosvami.</p>
+<p>The svamis and gosvamis are therefore sometimes addressed as maharaja, or king.</p>
+
+
+
+<p><strong>4.30.46</strong></p>
+<p>bhasmasat kriyamanams tan</p>
+<p>druman viksya pitamahah</p>
+<p>agatah samayam asa</p>
+<p>putran barhismato nayaih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>bhasmasat—into ashes; kriyamanan—being made; tan—all of them; druman—the trees; viksya—seeing; pitamahah—Lord Brahma; agatah—came there; samayam asa—pacified; putran—the sons; barhismatah—of King Barhisman; nayaih—by logic.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>After seeing that all the trees on the surface of the earth were being turned to ashes, Lord Brahma immediately came to the sons of King Barhisman and pacified them with words of logic.</p>
+<p><strong>PURPORT</strong></p>
+<p>Whenever there is some uncommon occurrence on any planet, Lord Brahma, being in charge of the whole universe, immediately comes to control the situation.</p>
+<p>Lord Brahma also came when Hiranyakasipu underwent severe penances and austerities and made the whole universe tremble.</p>
+<p>A responsible man in any establishment is always alert to keep peace and harmony within the establishment.</p>
+<p>Similarly, Lord Brahma is also allowed to keep peace and harmony within this universe.</p>
+<p>He consequently pacified the sons of King Barhisman with good logic.</p>
+
+
+
+<p><strong>4.30.47</strong></p>
+<p>tatravasista ye vrksa</p>
+<p>bhita duhitaram tada</p>
+<p>ujjahrus te pracetobhya</p>
+<p>upadistah svayambhuva</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatra—there; avasistah—remaining; ye—which; vrksah—trees; bhitah—being afraid; duhitaram—their daughter; tada—at that time; ujjahruh—delivered; te—they; pracetobhyah—unto the Pracetas; upadistah—being advised; svayambhuva—by Lord Brahma.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The remaining trees, being very much afraid of the Pracetas, immediately delivered their daughter at the advice of Lord Brahma.</p>
+<p><strong>PURPORT</strong></p>
+<p>The daughter of the trees is referred to in text 13 of this chapter.</p>
+<p>This daughter was born of Kandu and Pramloca.</p>
+<p>The society girl Pramloca, after giving birth to the child, immediately left for the heavenly kingdom.</p>
+<p>While the child was crying, the king of the moon took compassion upon her and saved her by putting his finger into her mouth.</p>
+<p>This child was cared for by the trees, and when she grew up, by the order of Lord Brahma, she was delivered to the Pracetas as their wife.</p>
+<p>The name of the girl was Marisa, as the next verse will explain.</p>
+<p>It was the predominating deity of the trees that delivered the daughter.</p>
+<p>In this connection, Srila Jiva Gosvami Prabhupada states, vrksah tad-adhisthatr-devatah: The ‘trees’ means the controlling deity of those trees In Vedic literatures we find that there is a controlling deity of the water; similarly, there is a controlling deity of the trees.</p>
+<p>The Pracetas were engaged in burning all the trees to ashes, and they considered the trees their enemies.</p>
+<p>To pacify the Pracetas, the predominating deity of the trees, under the advice of Lord Brahma, delivered the daughter Marisa.</p>
+
+
+
+<p><strong>4.30.48</strong></p>
+<p>te ca brahmana adesan</p>
+<p>marisam upayemire</p>
+<p>yasyam mahad-avajnanad</p>
+<p>ajany ajana-yonijah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>te—all the Pracetas; ca—also; brahmanah—of Lord Brahma; adesat—by the order; marisam—Marisa; upayemire—married; yasyam—in whom; mahat—to a great personality; avajnanat—on account of disrespect; ajani—took birth; ajana-yoni-jah—the son of Lord Brahma, Daksa.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Following the order of Lord Brahma, all the Pracetas accepted the girl as their wife.</p>
+<p>From the womb of this girl, the son of Lord Brahma named Daksa took birth.</p>
+<p>Daksa had to take birth from the womb of Marisa due to his disobeying and disrespecting Lord Mahadeva (Siva).</p>
+<p>Consequently he had to give up his body twice.</p>
+<p><strong>PURPORT</strong></p>
+<p>In this connection the word mahad-avajnanat is significant.</p>
+<p>King Daksa was the son of Lord Brahma; therefore in a previous birth he was a brahmana, but because of his behaving like a non-brahmana (abrahmana) by insulting or disrespecting Lord Mahadeva, he had to take birth within the semen of a ksatriya.</p>
+<p>That is to say, he became the son of the Pracetas.</p>
+<p>Not only that, but because of his disrespecting Lord Siva, he had to undergo the tribulation of taking birth from within the womb of a woman.</p>
+<p>In the Daksa-yajna arena, he was once killed by Lord Siva’s servant, Virabhadra.</p>
+<p>Because that was not sufficient, he again took birth, from the womb of Marisa.</p>
+<p>At the end of the Daksa-yajna and the disastrous incidents there, Daksa offered his prayer to Lord Siva.</p>
+<p>Although he had to give up his body and take birth from the womb of a woman impregnated by the semen of a ksatriya, he received all opulence by the grace of Lord Siva.</p>
+<p>These are the subtle laws of material nature.</p>
+<p>Unfortunately, people in this modern age do not know how these laws are working.</p>
+<p>Having no knowledge of the eternity of the spirit soul and its transmigration, the population of the present age is in the greatest ignorance.</p>
+<p>Because of this, it is said in Bhagavatam (1.1.10): mandah sumanda-matayo manda-bhagya hy upadrutah.</p>
+<p>The total population in this age of Kali-yuga is very bad, lazy, unfortunate and disturbed by material conditions.</p>
+
+
+
+<p><strong>4.30.49</strong></p>
+<p>caksuse tv antare prapte</p>
+<p>prak-sarge kala-vidrute</p>
+<p>yah sasarja praja istah</p>
+<p>sa dakso daiva-coditah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>caksuse—named Caksusa; tu—but; antare—the manvantara; prapte—when it happened; prak—previous; sarge—creation; kala-vidrute—destroyed in due course of time; yah—one who; sasarja—created; prajah—living entities; istah—desirable; sah—he; daksah—Daksa; daiva—by the Supreme Personality of Godhead; coditah—inspired.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>His previous body had been destroyed, but he, the same Daksa, inspired by the supreme will, created all the desired living entities in the Caksusa manvantara.</p>
+<p><strong>PURPORT</strong></p>
+<p>As stated in Bhagavad-gita (8.17):</p>
+<p>sahasra-yuga-paryantam</p>
+<p>ahar yad brahmano viduh</p>
+<p>ratrim yuga-sahasrantam</p>
+<p>te ’ho-ratra-vido janah</p>
+<p>By human calculation, a thousand ages taken together is the duration of Brahma’s one day.</p>
+<p>And such also is the duration of his night Brahma’s one day consists of one thousand cycles of the four yugas—Satya, Treta, Dvapara and Kali.</p>
+<p>In that one day there are fourteen manvantaras, and out of these manvantaras this Caksusa manvantara is the sixth.</p>
+<p>The various Manus existing in one day of Lord Brahma are as follows: (1) Svayambhuva, (2) Svarocisa, (3) Uttama, (4) Tamasa, (5) Raivata, (6) Caksusa, (7) Vaivasvata, (8) Savarni, (9) Daksasavarni, (10) Brahma-savarni, (11) Dharma-savarni, (12) Rudra-savarni, (13) Deva-savarni and (14) Indra-savarni.</p>
+<p>Thus there are fourteen Manus in one day of Brahma.</p>
+<p>In a year there are 5,040 Manus.</p>
+<p>Brahma has to live for one hundred years; consequently, the total of Manus appearing and disappearing during the life of one Brahma is 504,000.</p>
+<p>This is the calculation for one universe, and there are innumerable universes.</p>
+<p>All these Manus come and go simply by the breathing process of Maha-Visnu.</p>
+<p>As stated in the Brahma-samhita:</p>
+<p>yasyaika-nisvasita-kalam athavalambya</p>
+<p>jivanti loma-vilaja jagad-anda-nathah</p>
+<p>visnur mahan sa iha yasya kala-viseso</p>
+<p>govindam adi-purusam tam aham bhajami</p>
+<p>(Bs.5.48)</p>
+<p>The word jagad-anda-natha means Lord Brahma.</p>
+<p>There are innumerable jagad-anda-natha Brahmas, and thus we can calculate the many Manus.</p>
+<p>The present age is under the control of Vaivasvata Manu.</p>
+<p>Each Manu lives 4,320,000 years multiplied by 71.</p>
+<p>The present Manu has already lived for 4,320,000 years multiplied by 28.</p>
+<p>All these long life-spans are ultimately ended by the laws of material nature.</p>
+<p>The controversy of the Daksa-yajna took place in the Svayambhuva manvantara period.</p>
+<p>As a result, Daksa was punished by Lord Siva, but by virtue of his prayers to Lord Siva he became eligible to regain his former opulence.</p>
+<p>According to Visvanatha Cakravarti Thakura, Daksa underwent severe penances up to the fifth manvantara.</p>
+<p>Thus at the beginning of the sixth manvantara, known as the Caksusa manvantara, Daksa regained his former opulence by the blessings of Lord Siva.</p>
+
+
+</article></body></html>

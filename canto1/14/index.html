@@ -1,154 +1,41 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>The Disappearance of Lord Krsna - The Disappearance of Lord Krsna</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">The Disappearance of Lord Krsna</a></li><li class="affix"><a href="1.14.2.html">1.14.2</a></li><li class="affix"><a href="1.14.3.html">1.14.3</a></li><li class="affix"><a href="1.14.4.html">1.14.4</a></li><li class="affix"><a href="1.14.5.html">1.14.5</a></li><li class="affix"><a href="1.14.6.html">1.14.6</a></li><li class="affix"><a href="1.14.7.html">1.14.7</a></li><li class="affix"><a href="1.14.8.html">1.14.8</a></li><li class="affix"><a href="1.14.9.html">1.14.9</a></li><li class="affix"><a href="1.14.10.html">1.14.10</a></li><li class="affix"><a href="1.14.11.html">1.14.11</a></li><li class="affix"><a href="1.14.12.html">1.14.12</a></li><li class="affix"><a href="1.14.13.html">1.14.13</a></li><li class="affix"><a href="1.14.14.html">1.14.14</a></li><li class="affix"><a href="1.14.15.html">1.14.15</a></li><li class="affix"><a href="1.14.16.html">1.14.16</a></li><li class="affix"><a href="1.14.17.html">1.14.17</a></li><li class="affix"><a href="1.14.18.html">1.14.18</a></li><li class="affix"><a href="1.14.19.html">1.14.19</a></li><li class="affix"><a href="1.14.20.html">1.14.20</a></li><li class="affix"><a href="1.14.21.html">1.14.21</a></li><li class="affix"><a href="1.14.22.html">1.14.22</a></li><li class="affix"><a href="1.14.23.html">1.14.23</a></li><li class="affix"><a href="1.14.24.html">1.14.24</a></li><li class="affix"><a href="1.14.25.html">1.14.25</a></li><li class="affix"><a href="1.14.26.html">1.14.26</a></li><li class="affix"><a href="1.14.27.html">1.14.27</a></li><li class="affix"><a href="1.14.28-29.html">1.14.28-29</a></li><li class="affix"><a href="1.14.30.html">1.14.30</a></li><li class="affix"><a href="1.14.31.html">1.14.31</a></li><li class="affix"><a href="1.14.32-33.html">1.14.32-33</a></li><li class="affix"><a href="1.14.34.html">1.14.34</a></li><li class="affix"><a href="1.14.35-36.html">1.14.35-36</a></li><li class="affix"><a href="1.14.37.html">1.14.37</a></li><li class="affix"><a href="1.14.38.html">1.14.38</a></li><li class="affix"><a href="1.14.39.html">1.14.39</a></li><li class="affix"><a href="1.14.40.html">1.14.40</a></li><li class="affix"><a href="1.14.41.html">1.14.41</a></li><li class="affix"><a href="1.14.42.html">1.14.42</a></li><li class="affix"><a href="1.14.43.html">1.14.43</a></li><li class="affix"><a href="1.14.44.html">1.14.44</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">The Disappearance of Lord Krsna</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#the-disappearance-of-lord-krsna" id="the-disappearance-of-lord-krsna">The Disappearance of Lord Krsna</a></h1>
-<h3><a class="header" href="#1141" id="1141">1.14.1</a></h3>
+<h1>The Disappearance of Lord Krsna</h1>
+<p><strong>1.14.1</strong></p>
 <p>suta uvaca</p>
 <p>samprasthite dvarakayam</p>
 <p>jisnau bandhu-didrksaya</p>
@@ -163,63 +50,774 @@
 <p>As stated in Bhagavad-gita, the Lord descended on earth for the protection of the faithful and annihilation of the impious, so after the Battle of Kuruksetra and establishment of Maharaja Yudhisthira, the mission of the Lord was complete.</p>
 <p>The Pandavas, especially Sri Arjuna, were eternal companions of the Lord, and therefore Arjuna went to Dvaraka to hear from the Lord of His next program of work.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="1.14.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>1.14.2</strong></p>
+<p>vyatitah katicin masas</p>
+<p>tada nayat tato ’rjunah</p>
+<p>dadarsa ghora-rupani</p>
+<p>nimittani kurudvahah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vyatitah—after passing; katicit—a few; masah—months; tada—at that time; na ayat—did not return; tatah—from there; arjunah—Arjuna; dadarsa—observed; ghora—fearful; rupani—appearances; nimittani—various causes; kuru-udvahah—Maharaja Yudhisthira.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>A few months passed, and Arjuna did not return.</p>
+<p>Maharaja Yudhisthira then began to observe some inauspicious omens, which were fearful in themselves.</p>
+<p><strong>PURPORT</strong></p>
+<p>Lord Sri Krsna the Supreme Personality of Godhead is ad infinitum, more powerful than the most powerful sun of our experience.</p>
+<p>Millions and billions of suns are created by Him and annihilated by Him within His one breathing period.</p>
+<p>In the material world the sun is considered to be the source of all productivity and material energy, and only due to the sun can we have the necessities of life.</p>
+<p>Therefore, during the personal presence of the Lord on the earth, all paraphernalia for our peace and prosperity, especially religion and knowledge, were in full display because of the Lord’s presence, just as there is a full flood of light in the presence of the glowing sun.</p>
+<p>Maharaja Yudhisthira observed some discrepancies in his kingdom, and therefore he became very anxious about Arjuna, who was long absent, and there was also no news about Dvaraka’s well-being.</p>
+<p>He suspected the disappearance of Lord Krsna, otherwise there would have been no possibility of fearful omens.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="1.14.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>1.14.3</strong></p>
+<p>kalasya ca gatim raudram</p>
+<p>viparyastartu-dharminah</p>
+<p>papiyasim nrnam vartam</p>
+<p>krodha-lobhanrtatmanam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kalasya—of eternal time; ca—also; gatim—direction; raudram—fearful; viparyasta—reversed; rtu—seasonal; dharminah—regularities; papiyasim—sinful; nrnam—of the human being; vartam—means of livelihood; krodha—anger; lobha—greed; anrta—falsehood; atmanam—of the people.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>He saw that the direction of eternal time had changed, and this was very fearful.</p>
+<p>There were disruptions in the seasonal regularities.</p>
+<p>The people in general had become very greedy, angry and deceitful.</p>
+<p>And he saw that they were adopting foul means of livelihood.</p>
+<p><strong>PURPORT</strong></p>
+<p>When civilization is disconnected from the loving relation of the Supreme Personality of Godhead, symptoms like changes of seasonal regulations, foul means of livelihood, greed, anger and fraudulence become rampant.</p>
+<p>The change of seasonal regulations refers to one season’s atmosphere becoming manifest in another season—for example the rainy season’s being transferred to autumn, or the fructification of fruits and flowers from one season in another season.</p>
+<p>A godless man is invariably greedy, angry and fraudulent.</p>
+<p>Such a man can earn his livelihood by any means, black or white.</p>
+<p>During the reign of Maharaja Yudhisthira, all the above symptoms were conspicuous by their absence.</p>
+<p>But Maharaja Yudhisthira was astonished to experience even a slight change in the godly atmosphere of his kingdom, and at once he suspected the disappearance of the Lord.</p>
+<p>Foul means of livelihood implies deviation from one’s occupational duty.</p>
+<p>There are prescribed duties for everyone, such as the brahmana, ksatriya, vaisya and sudra, but anyone who deviates from his prescribed duty and declares another’s duty to be his own is following a foul and improper duty.</p>
+<p>A man becomes too greedy for wealth and power when he has no higher objective in life and when he thinks that this earthly life of a few years is all in all.</p>
+<p>Ignorance is the cause for all these anomalies in human society, and to remove this ignorance, especially in this age of degradation, the powerful sun is there to distribute light in the shape of Srimad-Bhagavatam.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>1.14.4</strong></p>
+<p>jihma-prayam vyavahrtam</p>
+<p>sathya-misram ca sauhrdam</p>
+<p>pitr-matr-suhrd-bhratr-</p>
+<p>dam-patinam ca kalkanam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>jihma-prayam—cheating; vyavahrtam—in all ordinary transactions; sathya—duplicity; misram—adulterated in; ca—and; sauhrdam—regarding friendly well-wishers; pitr—father; matr—regarding the mother; suhrt—well-wishers; bhratr—one’s own brother; dam-patinam—regarding husband and wife; ca—also; kalkanam—mutual quarrel.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>All ordinary transactions and dealings became polluted with cheating, even between friends.</p>
+<p>And in familial affairs, there was always misunderstanding between fathers, mothers and sons, between well-wishers, and between brothers.</p>
+<p>Even between husband and wife there was always strain and quarrel.</p>
+<p><strong>PURPORT</strong></p>
+<p>A conditioned living being is endowed with four principles of malpractice, namely errors, insanity, inability and cheating.</p>
+<p>These are signs of imperfection, and out of the four the propensity to cheat others is most prominent.</p>
+<p>And this cheating practice is there in the conditioned souls because the conditioned souls are primarily in the material world imbued with an unnatural desire to lord it over the material world.</p>
+<p>A living being in his pure state is not conditioned by the laws because in his pure state he is conscious that a living being is eternally subservient to the Supreme Being, and thus it is always good for him to remain subservient, instead of falsely trying to lord it over the property of the Supreme Lord.</p>
+<p>In the conditioned state the living being is not satisfied even if he actually becomes the lord of all that he surveys, which he never becomes, and therefore he becomes the victim of all kinds of cheating, even with his nearest and most intimate relations.</p>
+<p>In such an unsatisfactory state of affairs, there is no harmony, even between father and sons or between husband and wife.</p>
+<p>But all these contending difficulties can be mitigated by one process, and that is the devotional service of the Lord.</p>
+<p>The world of hypocrisy can be checked only by counteraction through devotional service to the Lord and nothing else.</p>
+<p>Maharaja Yudhisthira, having observed the disparities, conjectured the disappearance of the Lord from the earth.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>1.14.5</strong></p>
+<p>nimittany atyaristani</p>
+<p>kale tv anugate nrnam</p>
+<p>lobhady-adharma-prakrtim</p>
+<p>drstvovacanujam nrpah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>nimittani—causes; ati—very serious; aristani—bad omens; kale—in course of time; tu—but; anugate—passing away; nrnam—of humanity at large; lobha-adi—such as greed; adharma—irreligious; prakrtim—habits; drstva—having observed; uvaca—said; anujam—younger brother; nrpah—the King.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In course of time it came to pass that people in general became accustomed to greed, anger, pride, etc.</p>
+<p>Maharaja Yudhisthira, observing all these omens, spoke to his younger brother.</p>
+<p><strong>PURPORT</strong></p>
+<p>Such a pious king as Maharaja Yudhisthira at once became perturbed when there were such inhuman symptoms as greed, anger, irreligiosity and hypocrisy rampant in society.</p>
+<p>It appears from this statement that all these symptoms of degraded society were unknown to the people of the time, and it was astonishing for them to have experienced them with the advent of the Kali-yuga, or the age of quarrel.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>1.14.6</strong></p>
+<p>yudhisthira uvaca</p>
+<p>sampresito dvarakayam</p>
+<p>jisnur bandhu-didrksaya</p>
+<p>jnatum ca punya-slokasya</p>
+<p>krsnasya ca vicestitam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yudhisthirah uvaca—Maharaja Yudhisthira said; sampresitah—has gone to; dvarakayam—Dvaraka; jisnuh—Arjuna; bandhu—friends; didrksaya—for the sake of meeting; jnatum—to know; ca—also; punya-slokasya—of the Personality of Godhead; krsnasya—of Lord Sri Krsna; ca—and; vicestitam—program of work.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Maharaja Yudhisthira said to his younger brother Bhimasena, I sent Arjuna to Dvaraka to meet his friends and to learn from the Personality of Godhead Krsna of His program of work.</p>
+
+
+
+<p><strong>1.14.7</strong></p>
+<p>gatah saptadhuna masa</p>
+<p>bhimasena tavanujah</p>
+<p>nayati kasya va hetor</p>
+<p>naham vededam anjasa</p>
+<p><strong>SYNONYMS</strong></p>
+<p>gatah—has gone; sapta—seven; adhuna—to date; masah—months; bhimasena—O Bhimasena; tava—your; anujah—younger brother; na—does not; ayati—come back; kasya—for what; va—or; hetoh—reason; na—not; aham—I; veda—know; idam—this; anjasa—factually.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Since he departed, seven months have passed, yet he has not returned.</p>
+<p>I do not know factually how things are going there.</p>
+
+
+
+<p><strong>1.14.8</strong></p>
+<p>api devarsinadistah</p>
+<p>sa kalo ’yam upasthitah</p>
+<p>yadatmano ’ngam akridam</p>
+<p>bhagavan utsisrksati</p>
+<p><strong>SYNONYMS</strong></p>
+<p>api—whether; deva-rsina—by the demigod-saint (Narada); adistah—instructed; sah—that; kalah—eternal time; ayam—this; upasthitah—arrived; yada—when; atmanah—of His own self; angam—plenary portion; akridam—manifestation; bhagavan—the Personality of Godhead; utsisrksati—is going to quit.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Is He going to quit His earthly pastimes, as Devarsi Narada indicated? Has that time already arrived?</p>
+<p><strong>PURPORT</strong></p>
+<p>As we have discussed many times, the Supreme Personality of Godhead Lord Sri Krsna has many plenary expansions, and each and every one of them, although equally powerful, executes different functions.</p>
+<p>In Bhagavad-gita there are different statements by the Lord, and each of these statements is meant for different plenary portions or portions of the plenary portions.</p>
+<p>For example, Sri Krsna, the Lord, says in Bhagavad-gita:</p>
+<p>Whenever and wherever there is a decline in religious practice, O descendant of Bharata, and a predominant rise of irreligion—at that time I descend Myself (Bg.4.7) To deliver the faithful, to annihilate the miscreants and also to reestablish the principles of occupational duty, I appear in every age (Bg.4.8) If I should cease to work, then all humanity would be misdirected.</p>
+<p>I would also be the cause of creating unwanted population, and I would thereby destroy the peace of all sentient beings (Bg.3.24) Whatever action a great man performs, common men will follow.</p>
+<p>And whatever standards he sets by exemplary acts, all the world pursues (Bg.3.21) All the above statements by the Lord apply to different plenary portions of the Lord, namely His expansions such as Sankarsana, Vasudeva, Pradyumna, Aniruddha and Narayana.</p>
+<p>These are all He Himself in different transcendental expansions, and still the Lord as Sri Krsna functions in a different sphere of transcendental exchange with different grades of devotees.</p>
+<p>And yet Lord Krsna as He is appears once every twenty-four hours of Brahma’s time (or after a lapse of 8,640,000,000 solar years) in each and every universe, and all His transcendental pastimes are displayed in each and every universe in a routine spool.</p>
+<p>But in that routine spool the functions of Lord Krsna, Lord Vasudeva, etc., are complex problems for the layman.</p>
+<p>There is no difference between the Lord’s Self and the Lord’s transcendental body.</p>
+<p>The expansions execute differential activities.</p>
+<p>When the Lord, however, appears in His person as Lord Sri Krsna, His other plenary portions also join in Him by His inconceivable potency called yogamaya, and thus the Lord Krsna of Vrndavana is different from the Lord Krsna of Mathura or the Lord Krsna of Dvaraka.</p>
+<p>The virat-rupa of Lord Krsna is also different from Him, by His inconceivable potency.</p>
+<p>The virat-rupa exhibited on the Battlefield of Kuruksetra is the material conception of His form.</p>
+<p>Therefore it should be understood that when Lord Krsna was apparently killed by the bow and arrow of the hunter, the Lord left His so-called material body in the material world.</p>
+<p>The Lord is kaivalya, and for Him there is no difference between matter and spirit because everything is created from Him.</p>
+<p>Therefore His quitting one sort of body or accepting another body does not mean that He is like the ordinary living being.</p>
+<p>All such activities are simultaneously one and different by His inconceivable potency.</p>
+<p>When Maharaja Yudhisthira was lamenting the possibility of His disappearance, it was just in pursuance of a custom of lamenting the disappearance of a great friend, but factually the Lord never quits His transcendental body, as is misconceived by less intelligent persons.</p>
+<p>Such less intelligent persons have been condemned by the Lord Himself in Bhagavad-gita, and they are known as the mudhas.</p>
+<p>That the Lord left His body means that He left again His plenary portions in the respective dhamas (transcendental abodes), as He left His virat-rupa in the material world.</p>
+
+
+
+<p><strong>1.14.9</strong></p>
+<p>yasman nah sampado rajyam</p>
+<p>darah pranah kulam prajah</p>
+<p>asan sapatna-vijayo</p>
+<p>lokas ca yad-anugrahat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yasmat—from whom; nah—our; sampadah—opulence; rajyam—kingdom; darah—good wives; pranah—existence of life; kulam—dynasty; prajah—subjects; asan—have become possible; sapatna—competitors; vijayah—conquering; lokah—future accommodation in higher planets; ca—and; yat—by whose; anugrahat—by the mercy of.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>From Him only, all our kingly opulence, good wives, lives, progeny, control over our subjects, victory over our enemies, and future accommodations in higher planets have become possible.</p>
+<p>All this is due to His causeless mercy upon us.</p>
+<p><strong>PURPORT</strong></p>
+<p>Material prosperity consists of a good wife, good home, sufficient land, good children, aristocratic family relations, victory over competitors and, by pious work, attainment of accommodations in the higher celestial planets for better facilities of material amenities.</p>
+<p>These facilities are earned not only by one’s hard manual labor or by unfair means, but by the mercy of the Supreme Lord.</p>
+<p>Prosperity earned by one’s personal endeavor also depends on the mercy of the Lord.</p>
+<p>Personal labor must be there in addition to the Lord’s benediction, but without the Lord’s benediction no one is successful simply by personal labor.</p>
+<p>The modernized man of Kali-yuga believes in personal endeavor and denies the benediction of the Supreme Lord.</p>
+<p>Even a great sannyasi of India delivered speeches in Chicago protesting the benedictions of the Supreme Lord.</p>
+<p>But as far as Vedic sastras are concerned, as we find in the pages of Srimad-Bhagavatam, the ultimate sanction for all success rests in the hands of the Supreme Lord.</p>
+<p>Maharaja Yudhisthira admits this truth in his personal success, and it behooves one to follow in the footsteps of a great king and devotee of the Lord to make life a full success.</p>
+<p>If one could achieve success without the sanction of the Lord then no medical practitioner would fail to cure a patient.</p>
+<p>Despite the most advanced treatment of a suffering patient by the most up-to-date medical practitioner, there is death, and even in the most hopeless case, without medical treatment, a patient is cured astonishingly.</p>
+<p>Therefore the conclusion is that God’s sanction is the immediate cause for all happenings, good or bad.</p>
+<p>Any successful man should feel grateful to the Lord for all he has achieved.</p>
+
+
+
+<p><strong>1.14.10</strong></p>
+<p>pasyotpatan nara-vyaghra</p>
+<p>divyan bhauman sadaihikan</p>
+<p>darunan samsato ’durad</p>
+<p>bhayam no buddhi-mohanam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>pasya—just see; utpatan—disturbances; nara-vyaghra—O man of tigerlike strength; divyan—happenings in the sky or by planetary influence; bhauman—happenings on the earth; sa-daihikan—happenings of the body and the mind; darunan—awfully dangerous; samsatah—indicating; adurat—in the near future; bhayam—danger; nah—our; buddhi—intelligence; mohanam—deluding.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Just see, O man with a tiger’s strength, how many miseries due to celestial influences, earthly reactions and bodily pains—all very dangerous in themselves—are foreboding danger in the near future by deluding our intelligence.</p>
+<p><strong>PURPORT</strong></p>
+<p>Material advancement of civilization means advancement of the reactions of the threefold miseries due to celestial influence, earthly reactions and bodily or mental pains.</p>
+<p>By the celestial influence of the stars there are many calamities like excessive heat, cold, rains or no rains, and the aftereffects are famine, disease and epidemic.</p>
+<p>The aggregate result is agony of the body and the mind.</p>
+<p>Man-made material science cannot do anything to counteract these threefold miseries.</p>
+<p>They are all punishments from the superior energy of maya under the direction of the Supreme Lord.</p>
+<p>Therefore our constant touch with the Lord by devotional service can give us relief without our being disturbed in the discharge of our human duties.</p>
+<p>The asuras, however, who do not believe in the existence of God, make their own plans to counteract all these threefold miseries, and so they meet with failures every time.</p>
+<p>The Bhagavad-gita (7.14) clearly states that the reaction of material energy is never to be conquered, because of the binding effects of the three modes.</p>
+<p>They can simply be overcome by one who surrenders fully in devotion under the lotus feet of the Lord.</p>
+
+
+
+<p><strong>1.14.11</strong></p>
+<p>urv-aksi-bahavo mahyam</p>
+<p>sphuranty anga punah punah</p>
+<p>vepathus capi hrdaye</p>
+<p>arad dasyanti vipriyam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>uru—thighs; aksi—eyes; bahavah—the arms; mahyam—in my; sphuranti—quivering; anga—left side of the body; punah punah—again and again; vepathuh—palpitations; ca—also; api—certainly; hrdaye—in the heart; arat—due to fear; dasyanti—indicating; vipriyam—undesirables.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The left side of my body, my thighs, arms and eyes are all quivering again and again.</p>
+<p>I am having heart palpitations due to fear.</p>
+<p>All this indicates undesirable happenings.</p>
+<p><strong>PURPORT</strong></p>
+<p>Material existence is full of undesirables.</p>
+<p>Things we do not want are forced upon us by some superior energy, and we do not see that these undesirables are under the grip of the three modes of material nature.</p>
+<p>When a man’s eyes, arms and thighs all quiver constantly, one must know that something is going to happen which is undesirable.</p>
+<p>These undesirables are compared to fire in a forest.</p>
+<p>No one goes into the forest to set fires, but fires automatically take place in the forest, creating inconceivable calamities for the living beings of the forest.</p>
+<p>Such a fire cannot be extinguished by any human efforts.</p>
+<p>The fire can be extinguished only by the mercy of the Lord, who sends clouds to pour water on the forest.</p>
+<p>Similarly, undesirable happenings in life cannot be checked by any number of plans.</p>
+<p>Such miseries can be removed only by the mercy of the Lord, who sends His bona fide representatives to enlighten human beings and thus save them from all calamities.</p>
+
+
+
+<p><strong>1.14.12</strong></p>
+<p>sivaisodyantam adityam</p>
+<p>abhirauty analanana</p>
+<p>mam anga sarameyo ’yam</p>
+<p>abhirebhaty abhiruvat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>siva—jackal; esa—this; udyantam—rising; adityam—unto the sun; abhi—towards; rauti—crying; anala—fire; anana—face; mam—unto me; anga—O Bhima; sarameyah—dog; ayam—this; abhirebhati—barks towards; abhiru-vat—without fear.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Just see, O Bhima, how the she jackal cries at the rising sun and vomits fire, and how the dog barks at me fearlessly.</p>
+<p><strong>PURPORT</strong></p>
+<p>These are some bad omens indicating something undesirable in the near future.</p>
+
+
+
+<p><strong>1.14.13</strong></p>
+<p>sastah kurvanti mam savyam</p>
+<p>daksinam pasavo ’pare</p>
+<p>vahams ca purusa-vyaghra</p>
+<p>laksaye rudato mama</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sastah—useful animals like the cow; kurvanti—are keeping; mam—me; savyam—on the left; daksinam—circumambulating; pasavah apare—other lower animals like asses; vahan—the horses (carriers); ca—also; purusa-vyaghra—O tiger among men; laksaye—I see; rudatah—weeping; mama—of mine.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O Bhimasena, tiger amongst men, now useful animals like cows are passing me on my left side, and lower animals like the asses are circumambulating me.</p>
+<p>My horses appear to weep upon seeing me.</p>
+
+
+
+<p><strong>1.14.14</strong></p>
+<p>mrtyu-dutah kapoto ’yam</p>
+<p>ulukah kampayan manah</p>
+<p>pratyulukas ca kuhvanair</p>
+<p>visvam vai sunyam icchatah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>mrtyu—death; dutah—messenger of; kapotah—pigeon; ayam—this; ulukah—owl; kampayan—trembling; manah—mind; pratyulukah—the rivals of owls (crows); ca—and; kuhvanaih—shrieking scream; visvam—the cosmos; vai—either; sunyam—void; icchatah—wishing.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Just see! This pigeon is like a messenger of death.</p>
+<p>The shrieks of the owls and their rival crows make my heart tremble.</p>
+<p>It appears that they want to make a void of the whole universe.</p>
+
+
+
+<p><strong>1.14.15</strong></p>
+<p>dhumra disah paridhayah</p>
+<p>kampate bhuh sahadribhih</p>
+<p>nirghatas ca mahams tata</p>
+<p>sakam ca stanayitnubhih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dhumrah—smoky; disah—all directions; paridhayah—encirclement; kampate—throbbing; bhuh—the earth; saha adribhih—along with the hills and mountains; nirghatah—bolt from the blue; ca—also; mahan—very great; tata—O Bhima; sakam—with; ca—also; stanayitnubhih—thundering sound without any cloud.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Just see how the smoke encircles the sky.</p>
+<p>It appears that the earth and mountains are throbbing.</p>
+<p>Just hear the cloudless thunder and see the bolts from the blue.</p>
+
+
+
+<p><strong>1.14.16</strong></p>
+<p>vayur vati khara-sparso</p>
+<p>rajasa visrjams tamah</p>
+<p>asrg varsanti jalada</p>
+<p>bibhatsam iva sarvatah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vayuh—wind; vati—blowing; khara-sparsah—sharply; rajasa—by the dust; visrjan—creating; tamah—darkness; asrk—blood; varsanti—are raining; jaladah—the clouds; bibhatsam—disastrous; iva—like; sarvatah—everywhere.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The wind blows violently, blasting dust everywhere and creating darkness.</p>
+<p>Clouds are raining everywhere with bloody disasters.</p>
+
+
+
+<p><strong>1.14.17</strong></p>
+<p>suryam hata-prabham pasya</p>
+<p>graha-mardam mitho divi</p>
+<p>sasankulair bhuta-ganair</p>
+<p>jvalite iva rodasi</p>
+<p><strong>SYNONYMS</strong></p>
+<p>suryam—the sun; hata-prabham—its rays declining; pasya—just see; graha-mardam—clashes of the stars; mithah—among one another; divi—in the sky; sa-sankulaih—being mixed with; bhuta-ganaih—by the living entities; jvalite—being ignited; iva—as if; rodasi—crying.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The rays of the sun are declining, and the stars appear to be fighting amongst themselves.</p>
+<p>Confused living entities appear to be ablaze and weeping.</p>
+
+
+
+<p><strong>1.14.18</strong></p>
+<p>nadyo nadas ca ksubhitah</p>
+<p>saramsi ca manamsi ca</p>
+<p>na jvalaty agnir ajyena</p>
+<p>kalo ’yam kim vidhasyati</p>
+<p><strong>SYNONYMS</strong></p>
+<p>nadyah—rivers; nadah ca—and the tributaries; ksubhitah—all perturbed; saramsi—reservoirs of water; ca—and; manamsi—the mind; ca—also; na—does not; jvalati—ignite; agnih—fire; ajyena—with the help of butter; kalah—the time; ayam—extraordinary it is; kim—what; vidhasyati—going to happen.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Rivers, tributaries, ponds, reservoirs and the mind are all perturbed.</p>
+<p>Butter no longer ignites fire.</p>
+
+
+
+<p><strong>1.14.19</strong></p>
+<p>na pibanti stanam vatsa</p>
+<p>na duhyanti ca matarah</p>
+<p>rudanty asru-mukha gavo</p>
+<p>na hrsyanty rsabha vraje</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—does not; pibanti—suck; stanam—breast; vatsah—the calves; na—do not; duhyanti—allow milking; ca—also; matarah—the cows; rudanti—crying; asru-mukhah—with a tearful face; gavah—the cows; na—do not; hrsyanti—take pleasure; rsabhah—the bulls; vraje—in the pasturing ground.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The calves do not suck the teats of the cows, nor do the cows give milk.</p>
+<p>They are standing, crying, tears in their eyes, and the bulls take no pleasure in the pasturing grounds.</p>
+
+
+
+<p><strong>1.14.20</strong></p>
+<p>daivatani rudantiva</p>
+<p>svidyanti hy uccalanti ca</p>
+<p>ime jana-pada gramah</p>
+<p>purodyanakarasramah</p>
+<p>bhrasta-sriyo niranandah</p>
+<p>kim agham darsayanti nah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>daivatani—the Deities in the temples; rudanti—seem to be crying; iva—like that; svidyanti—perspiring; hi—certainly; uccalanti—as if going out; ca—also; ime—these; jana-padah—cities; gramah—villages; pura—towns; udyana—gardens; akara—mines; asramah—hermitages, etc.; bhrasta—devoid of; sriyah—beauty; niranandah—bereft of all happiness; kim—what sort of; agham—calamities; darsayanti—shall manifest; nah—to us.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Deities seem to be crying in the temple, lamenting and perspiring.</p>
+<p>They seem about to leave.</p>
+<p>All the cities, villages, towns, gardens, mines and hermitages are now devoid of beauty and bereft of all happiness.</p>
+<p>I do not know what sort of calamities are now awaiting us.</p>
+
+
+
+<p><strong>1.14.21</strong></p>
+<p>manya etair mahotpatair</p>
+<p>nunam bhagavatah padaih</p>
+<p>ananya-purusa-sribhir</p>
+<p>hina bhur hata-saubhaga</p>
+<p><strong>SYNONYMS</strong></p>
+<p>manye—I take it for granted; etaih—by all these; maha—great; utpataih—upsurges; nunam—for want of; bhagavatah—of the Personality of Godhead; padaih—the marks on the sole of the foot; ananya—extraordinary; purusa—of the Supreme Personality; sribhih—by the auspicious signs; hina—dispossessed; bhuh—the earth; hata-saubhaga—without the fortune.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>I think that all these earthly disturbances indicate some greater loss to the good fortune of the world.</p>
+<p>The world was fortunate to have been marked with the footprints of the lotus feet of the Lord.</p>
+<p>These signs indicate that this will no longer be.</p>
+
+
+
+<p><strong>1.14.22</strong></p>
+<p>iti cintayatas tasya</p>
+<p>drstaristena cetasa</p>
+<p>rajnah pratyagamad brahman</p>
+<p>yadu-puryah kapi-dhvajah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>iti—thus; cintayatah—while thinking to himself; tasya—he; drsta—by observing; aristena—bad omens; cetasa—by the mind; rajnah—the King; prati—back; agamat—came; brahman—O brahmana; yadu-puryah—from the kingdom of the Yadus; kapi-dhvajah—Arjuna.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O Brahmana Saunaka, while Maharaja Yudhisthira, observing the inauspicious signs on the earth at that time, was thus thinking to himself, Arjuna came back from the city of the Yadus (Dvaraka).</p>
+
+
+
+<p><strong>1.14.23</strong></p>
+<p>tam padayor nipatitam</p>
+<p>ayatha-purvam aturam</p>
+<p>adho-vadanam ab-bindun</p>
+<p>srjantam nayanabjayoh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tam—him (Arjuna); padayoh—at the feet; nipatitam—bowing down; ayatha-purvam—unprecedented; aturam—dejected; adhah-vadanam—downward face; ap-bindun—drops of water; srjantam—creating; nayana-abjayoh—from the lotuslike eyes.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When he bowed at his feet, the King saw that his dejection was unprecedented.</p>
+<p>His head was down, and tears glided from his lotus eyes.</p>
+
+
+
+<p><strong>1.14.24</strong></p>
+<p>vilokyodvigna-hrdayo</p>
+<p>vicchayam anujam nrpah</p>
+<p>prcchati sma suhrn madhye</p>
+<p>samsmaran naraderitam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vilokya—by seeing; udvigna—anxious; hrdayah—heart; vicchayam—pale appearance; anujam—Arjuna; nrpah—the King; prcchati sma—asked; suhrt—friends; madhye—amongst; samsmaran—remembering; narada—Sage Narada; iritam—indicated by.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Seeing Arjuna pale due to heartfelt anxieties, the King, remembering the indications of the sage Narada, questioned him in the midst of friends.</p>
+
+
+
+<p><strong>1.14.25</strong></p>
+<p>yudhisthira uvaca</p>
+<p>kaccid anarta-puryam nah</p>
+<p>sva-janah sukham asate</p>
+<p>madhu-bhoja-dasarharha-</p>
+<p>satvatandhaka-vrsnayah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yudhisthirah uvaca—Yudhisthira said; kaccit—whether; anarta-puryam—of Dvaraka; nah—our; sva-janah—relatives; sukham—happily; asate—are passing their days; madhu—Madhu; bhoja—Bhoja; dasarha—Dasarha; arha—Arha; satvata—Satvata; andhaka—Andhaka; vrsnayah—of the family of Vrsni.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Maharaja Yudhisthira said:</p>
+<p>My dear brother, please tell me whether our friends and relatives, such as Madhu, Bhoja, Dasarha, Arha, Satvata, Andhaka and the members of the Yadu family are all passing their days in happiness.</p>
+
+
+
+<p><strong>1.14.26</strong></p>
+<p>suro matamahah kaccit</p>
+<p>svasty aste vatha marisah</p>
+<p>matulah sanujah kaccit</p>
+<p>kusaly anakadundubhih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>surah—Surasena; matamahah—maternal grandfather; kaccit—whether; svasti—all good; aste—passing his days; va—or; atha—therefore; marisah—respectful; matulah—maternal uncle; sa-anujah—with his younger brothers; kaccit—whether; kusali—all well; anaka-dundubhih—Vasudeva.</p>
+<p><strong>TRANSLATION</strong></p>
+
+
+
+<p><strong>1.14.27</strong></p>
+<p>sapta sva-saras tat-patnyo</p>
+<p>matulanyah sahatmajah</p>
+<p>asate sasnusah ksemam</p>
+<p>devaki-pramukhah svayam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sapta—seven; sva-sarah—own sisters; tat-patnyah—his wives; matulanyah—maternal aunts; saha—along with; atma-jah—sons and grandsons; asate—are all; sasnusah—with their daughters-in-law; ksemam—happiness; devaki—Devaki; pramukhah—headed by; svayam—personally.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>His seven wives, headed by Devaki, are all sisters.</p>
+
+
+
+<p><strong>1.14.28-29</strong></p>
+<p>kaccid rajahuko jivaty</p>
+<p>asat-putro ’sya canujah</p>
+<p>hrdikah sasuto ’kruro</p>
+<p>jayanta-gada-saranah</p>
+<p>asate kusalam kaccid</p>
+<p>ye ca satrujid-adayah</p>
+<p>kaccid aste sukham ramo</p>
+<p>bhagavan satvatam prabhuh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kaccit—whether; raja—the King; ahukah—another name of Ugrasena; jivati—still living; asat—mischievous; putrah—son; asya—his; ca—also; anujah—younger brother; hrdikah—Hrdika; sa-sutah—along with son, Krtavarma; akrurah—Akrura; jayanta—Jayanta; gada—Gada; saranah—Sarana; asate—are they all; kusalam—in happiness; kaccit—whether; ye—they; ca—also; satrujit—Satrujit; adayah—headed by; kaccit—whether; aste—are they; sukham—all right; ramah—Balarama; bhagavan—the Personality of Godhead; satvatam—of the devotees; prabhuh—protector.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Are Ugrasena, whose son was the mischievous Kamsa, and his younger brother still living? Are Hrdika and his son Krtavarma happy? Are Akrura, Jayanta, Gada, Sarana and Satrujit all happy? How is Balarama, the Personality of Godhead and the protector of devotees?</p>
+<p><strong>PURPORT</strong></p>
+<p>Hastinapura, the capital of the Pandavas, was situated somewhere near present New Delhi, and the kingdom of Ugrasena was situated in Mathura.</p>
+<p>While returning to Delhi from Dvaraka, Arjuna must have visited the city of Mathura, and therefore the inquiry about the King of Mathura is valid.</p>
+<p>Amongst various names of the relatives, the name of Rama or Balarama, eldest brother of Lord Krsna, is added with the words the Personality of Godhea because Lord Balarama is the immediate expansion of visnu-tattva as prakasa-vigraha of Lord Krsna.</p>
+<p>The Supreme Lord, although one without a second, expands Himself as many other living beings.</p>
+<p>The visnu-tattva living beings are expansions of the Supreme Lord, and all of them are qualitatively and quantitatively equal with the Lord.</p>
+<p>But expansions of the jiva-sakti, the category of the ordinary living beings, are not at all equal with the Lord.</p>
+<p>One who considers the jiva-sakti and the visnu-tattva to be on an equal level is considered a condemned soul of the world.</p>
+<p>Sri Rama, or Balarama, is the protector of the devotees of the Lord.</p>
+<p>Baladeva acts as the spiritual master of all devotees, and by His causeless mercy the fallen souls are delivered.</p>
+<p>Sri Baladeva appeared as Sri Nityananda Prabhu during the advent of Lord Caitanya, and the great Lord Nityananda Prabhu exhibited His causeless mercy by delivering a pair of extremely fallen souls, namely Jagai and Madhai.</p>
+<p>Therefore it is particularly mentioned herein that Balarama is the protector of the devotees of the Lord.</p>
+<p>By His divine grace only one can approach the Supreme Lord Sri Krsna, and thus Sri Balarama is the mercy incarnation of the Lord, manifested as the spiritual master, the savior of the pure devotees.</p>
+
+
+
+<p><strong>1.14.30</strong></p>
+<p>pradyumnah sarva-vrsninam</p>
+<p>sukham aste maha-rathah</p>
+<p>gambhira-rayo ’niruddho</p>
+<p>vardhate bhagavan uta</p>
+<p><strong>SYNONYMS</strong></p>
+<p>pradyumnah—Pradyumna (a son of Lord Krsna); sarva—all; vrsninam—of the members of the Vrsni family; sukham—happiness; aste—are in; maha-rathah—the great general; gambhira—deeply; rayah—dexterity; aniruddhah—Aniruddha (a grandson of Lord Krsna); vardhate—flourishing; bhagavan—the Personality of Godhead; uta—must.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>How is Pradyumna, the great general of the Vrsni family? Is He happy? And is Aniruddha, the plenary expansion of the Personality of Godhead, faring well?</p>
+<p><strong>PURPORT</strong></p>
+<p>Pradyumna and Aniruddha are also expansions of the Personality of Godhead, and thus They are also visnu-tattva.</p>
+<p>At Dvaraka Lord Vasudeva is engaged in His transcendental pastimes along with His plenary expansions, namely Sankarsana, Pradyumna and Aniruddha, and therefore each and every one of Them can be addressed as the Personality of Godhead, as it is mentioned in connection with the name Aniruddha.</p>
+
+
+
+<p><strong>1.14.31</strong></p>
+<p>susenas carudesnas ca</p>
+<p>sambo jambavati-sutah</p>
+<p>anye ca karsni-pravarah</p>
+<p>saputra rsabhadayah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>susenah—Susena; carudesnah—Carudesna; ca—and; sambah—Samba; jambavati-sutah—the son of Jambavati; anye—others; ca—also; karsni—the sons of Lord Krsna; pravarah—all chieftains; sa-putrah—along with their sons; rsabha—Rsabha; adayah—etc.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Are all the chieftain sons of Lord Krsna, such as Susena, Carudesna, Samba the son of Jambavati, and Rsabha, along with their sons, all doing well?</p>
+<p><strong>PURPORT</strong></p>
+<p>As already mentioned, Lord Krsna married 16,108 wives, and each of them had ten sons.</p>
+<p>Therefore 16,108 x 10 161,080 sons.</p>
+<p>They all grew up, and each of them had as many sons as their father, and the whole aggregate was something near 1,610,800 family members of the Lord.</p>
+<p>The Lord is the father of all living beings, who are countless in number; therefore only a few of them are called to associate with the Lord in His transcendental pastimes as the Lord of Dvaraka on this earth.</p>
+<p>It is not astonishing that the Lord maintained a visible family consisting of so many members.</p>
+<p>It is better to refrain from comparing the Lord’s position to ours, and it becomes a simple truth as soon as we understand at least a partial calculation of the Lord’s transcendental position.</p>
+<p>King Yudhisthira, while inquiring about the Lord’s sons and grandsons at Dvaraka, mentioned only the chieftains amongst them, for it was impossible for him to remember all the names of the Lord’s family members.</p>
+
+
+
+<p><strong>1.14.32-33</strong></p>
+<p>tathaivanucarah saureh</p>
+<p>srutadevoddhavadayah</p>
+<p>sunanda-nanda-sirsanya</p>
+<p>ye canye satvatarsabhah</p>
+<p>api svasty asate sarve</p>
+<p>rama-krsna-bhujasrayah</p>
+<p>api smaranti kusalam</p>
+<p>asmakam baddha-sauhrdah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatha eva—similarly; anucarah—constant companions; saureh—of Lord Sri Krsna such as; srutadeva—Srutadeva; uddhava-adayah—Uddhava and others; sunanda—Sunanda; nanda—Nanda; sirsanyah—other leaders; ye—all of them; ca—and; anye—others; satvata—liberated souls; rsabhah—the best men; api—if; svasti—doing well; asate—are; sarve—all of them; rama—Balarama; krsna—Lord Krsna; bhuja-asrayah—under the protection of; api—if also; smaranti—do remember; kusalam—welfare; asmakam—about ourselves; baddha-sauhrdah—bound by eternal friendship.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Also, Srutadeva, Uddhava and others, Nanda, Sunanda and other leaders of liberated souls who are constant companions of the Lord are protected by Lord Balarama and Krsna.</p>
+<p>Are they all doing well in their respective functions? Do they, who are all eternally bound in friendship with us, remember our welfare?</p>
+<p><strong>PURPORT</strong></p>
+<p>The constant companions of Lord Krsna, such as Uddhava, are all liberated souls, and they descended along with Lord Krsna to this material world to fulfill the mission of the Lord.</p>
+<p>The Pandavas are also liberated souls who descended along with Lord Krsna to serve Him in His transcendental pastimes on this earth.</p>
+<p>As stated in the Bhagavad-gita (4.8), the Lord and His eternal associates, who are also liberated souls like the Lord, come down on this earth at certain intervals.</p>
+<p>The Lord remembers them all, but His associates, although liberated souls, forget due to their being tatastha sakti, or marginal potency of the Lord.</p>
+<p>That is the difference between the visnu-tattva and jiva-tattva.</p>
+<p>The jiva-tattvas are infinitesimal potential particles of the Lord, and therefore they require the protection of the Lord at all times.</p>
+<p>And to the eternal servitors of the Lord, the Lord is pleased to give all protection at all times.</p>
+<p>The liberated souls never, therefore, think themselves as free as the Lord or as powerful as the Lord, but they always seek the protection of the Lord in all circumstances, both in the material world and in the spiritual world.</p>
+<p>This dependence of the liberated soul is constitutional, for the liberated souls are like sparks of a fire that are able to exhibit the glow of fire along with the fire and not independently.</p>
+<p>Independently the glow of the sparks is extinguished, although the quality of fire or the glowing is there.</p>
+<p>Thus those who give up the protection of the Lord and become so-called lords themselves, out of spiritual ignorance, come back again to this material world, even after prolonged tapasya of the severest type.</p>
+<p>That is the verdict of all Vedic literature.</p>
+
+
+
+<p><strong>1.14.34</strong></p>
+<p>bhagavan api govindo</p>
+<p>brahmanyo bhakta-vatsalah</p>
+<p>kaccit pure sudharmayam</p>
+<p>sukham aste suhrd-vrtah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>bhagavan—the Personality of Godhead, Krsna; api—also; govindah—one who enlivens the cows and the senses; brahmanyah—devoted to the devotees of the brahmanas; bhakta-vatsalah—affectionate to the devotees; kaccit—whether; pure—in Dvaraka Puri; sudharmayam—pious assembly; sukham—happiness; aste—does enjoy; suhrt-vrtah—surrounded by friends.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Is Lord Krsna, the Supreme Personality of Godhead, who gives pleasure to the cows, the senses and the brahmanas, who is very affectionate towards His devotees, enjoying the pious assembly at Dvaraka Puri surrounded by friends?</p>
+<p><strong>PURPORT</strong></p>
+<p>Here in this particular verse the Lord is described as bhagavan, govinda, brahmanya and bhakta-vatsala.</p>
+<p>He is bhagavan svayam, or the original Supreme Personality of Godhead, full with all opulences, all power, all knowledge, all beauty, all fame and all renunciation.</p>
+<p>No one is equal to or greater than Him.</p>
+<p>He is Govinda because He is the pleasure of the cows and the senses.</p>
+<p>Those who have purified their senses by the devotional service of the Lord can render unto Him real service and thereby derive transcendental pleasure out of such purified senses.</p>
+<p>Only the impure conditioned living being cannot derive any pleasure from the senses, but being illusioned by false pleasures of the senses, he becomes servant of the senses.</p>
+<p>Therefore, we need His protection for our own interest.</p>
+<p>The Lord is the protector of cows and the brahminical culture.</p>
+<p>A society devoid of cow protection and brahminical culture is not under the direct protection of the Lord, just as the prisoners in the jails are not under the protection of the king but under the protection of a severe agent of the king.</p>
+<p>Without cow protection and cultivation of the brahminical qualities in human society, at least for a section of the members of society, no human civilization can prosper at any length.</p>
+<p>By brahminical culture, the development of the dormant qualities of goodness, namely truthfulness, equanimity, sense control, forbearance, simplicity, general knowledge, transcendental knowledge, and firm faith in the Vedic wisdom, one can become a brahmana and thus see the Lord as He is.</p>
+<p>And after surpassing the brahminical perfection, one has to become a devotee of the Lord so that His loving affection in the form of proprietor, master, friend, son and lover can be transcendentally achieved.</p>
+<p>The stage of a devotee, which attracts the transcendental affection of the Lord, does not develop unless one has developed the qualities of a brahmana as above mentioned.</p>
+<p>The Lord is inclined to a brahmana of quality and not of false prestige.</p>
+<p>Those who are less than a brahmana by qualification cannot establish any relation with the Lord, just as fire cannot be kindled from the raw earth unless there is wood, although there is a relation between wood and the earth.</p>
+<p>Since the Lord is all-perfect in Himself, there could not be any question of His welfare, and Maharaja Yudhisthira refrained from asking this question.</p>
+<p>He simply inquired about His residential place, Dvaraka Puri, where pious men assemble.</p>
+<p>The Lord stays only where pious men assemble and takes pleasure in their glorifying the Supreme Truth.</p>
+<p>Maharaja Yudhisthira was anxious to know about the pious men and their pious acts in the city of Dvaraka.</p>
+
+
+
+<p><strong>1.14.35-36</strong></p>
+<p>mangalaya ca lokanam</p>
+<p>ksemaya ca bhavaya ca</p>
+<p>aste yadu-kulambhodhav</p>
+<p>adyo ’nanta-sakhah puman</p>
+<p>yad bahu-danda-guptayam</p>
+<p>sva-puryam yadavo ’rcitah</p>
+<p>kridanti paramanandam</p>
+<p>maha-paurusika iva</p>
+<p><strong>SYNONYMS</strong></p>
+<p>mangalaya—for all good; ca—also; lokanam—of all the planets; ksemaya—for protection; ca—and; bhavaya—for elevation; ca—also; aste—is there; yadu-kula-ambhodhau—in the ocean of the Yadu dynasty; adyah—the original; ananta-sakhah—in the company of Ananta (Balarama); puman—the supreme enjoyer; yat—whose; bahu-danda-guptayam—being protected by His arms; sva-puryam—in His own city; yadavah—the members of the Yadu family; arcitah—as they deserve; kridanti—are relishing; parama-anandam—transcendental pleasure; maha-paurusikah—the residents of the spiritual sky; iva—like.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The original Personality of Godhead, the enjoyer, and Balarama, the primeval Lord Ananta, are staying in the ocean of the Yadu dynasty for the welfare, protection and general progress of the entire universe.</p>
+<p>And the members of the Yadu dynasty, being protected by the arms of the Lord, are enjoying life like the residents of the spiritual sky.</p>
+<p><strong>PURPORT</strong></p>
+<p>As we have discussed many times, the Personality of Godhead Visnu resides within each and every universe in two capacities, namely as the Garbhodakasayi Visnu and the Ksirodakasayi Visnu.</p>
+<p>The Ksirodakasayi Visnu has His own planet on the northern top of the universe, and there is a great ocean of milk where the Lord resides on the bed of the Ananta incarnation of Baladeva.</p>
+<p>Thus Maharaja Yudhisthira has compared the Yadu dynasty to the ocean of milk and Sri Balarama to the Ananta where Lord Krsna resides.</p>
+<p>He has compared the citizens of Dvaraka to the liberated inhabitants of the Vaikunthalokas.</p>
+<p>Beyond the material sky, further than we can see with our eyes and beyond the sevenfold coverings of the universe, there is the Causal Ocean in which all the universes are floating like footballs, and beyond the Causal Ocean there is an unlimited span of spiritual sky generally known as the effulgence of Brahman.</p>
+<p>Within this effulgence there are innumerable spiritual planets, and they are known as the Vaikuntha planets.</p>
+<p>Each and every Vaikuntha planet is many, many times bigger than the biggest universe within the material world, and in each of them there are innumerable inhabitants who look exactly like Lord Visnu.</p>
+<p>These inhabitants are known as the Maha-paurusikas, or persons directly engaged in the service of the Lord.</p>
+<p>They are happy in those planets and are without any kind of misery, and they live perpetually in full youthfulness, enjoying life in full bliss and knowledge without fear of birth, death, old age or disease, and without the influence of kala, eternal time.</p>
+<p>Maharaja Yudhisthira has compared the inhabitants of Dvaraka to the Maha-paurusikas of Vaikunthaloka because they are so happy with the Lord.</p>
+<p>In the Bhagavad-gita there are many references to the Vaikunthalokas, and they are mentioned there as mad-dhama, or the kingdom of the Lord.</p>
+
+
+
+<p><strong>1.14.37</strong></p>
+<p>yat-pada-susrusana-mukhya-karmana</p>
+<p>satyadayo dvy-asta-sahasra-yositah</p>
+<p>nirjitya sankhye tri-dasams tad-asiso</p>
+<p>haranti vajrayudha-vallabhocitah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yat—whose; pada—feet; susrusana—administration of comforts; mukhya—the most important; karmana—by the acts of; satya-adayah—queens headed by Satyabhama; dvi-asta—twice eight; sahasra—thousand; yositah—the fair sex; nirjitya—by subduing; sankhye—in the battle; tri-dasan—of the denizens of heaven; tat-asisah—what is enjoyed by the demigods; haranti—do take away; vajra-ayudha-vallabha—the wives of the personality who controls the thunderbolt; ucitah—deserving.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Simply by administering comforts at the lotus feet of the Lord, which is the most important of all services, the queens at Dvaraka, headed by Satyabhama, induced the Lord to conquer the demigods.</p>
+<p>Thus the queens enjoy things which are prerogatives of the wives of the controller of thunderbolts.</p>
+<p><strong>PURPORT</strong></p>
+<p>Satyabhama:</p>
+<p>One of the principal queens of Lord Sri Krsna at Dvaraka.</p>
+<p>After killing Narakasura, Lord Krsna visited the palace of Narakasura accompanied by Satyabhama.</p>
+<p>He went to Indraloka also with Satyabhama, and she was received by Sacidevi, who introduced her to the mother of the demigods, Aditi.</p>
+<p>Aditi was very much pleased with Satyabhama, and she blessed her with the benediction of permanent youth as long as Lord Krsna remained on the earth.</p>
+<p>Aditi also took her with her to show her the special prerogatives of the demigods in the heavenly planets.</p>
+<p>When Satyabhama saw the parijata flower, she desired to have it in her palace at Dvaraka.</p>
+<p>After that, she came back to Dvaraka along with her husband and expressed her willingness to have the parijata flower at her palace.</p>
+<p>Satyabhama’s palace was especially bedecked with valuable jewels, and even in the hottest season of summer the inside of the palace remained cool, as if air-conditioned.</p>
+<p>She decorated her palace with various flags, heralding the news of her great husband’s presence there.</p>
+<p>Once, along with her husband, she met Draupadi, and she was anxious to be instructed by Draupadi in the ways and means of pleasing her husband.</p>
+<p>Draupadi was expert in this affair because she kept five husbands, the Pandavas, and all were very much pleased with her.</p>
+<p>On receipt of Draupadi’s instructions, she was very much pleased and offered her good wishes and returned to Dvaraka.</p>
+<p>She was the daughter of Satrajit.</p>
+<p>After the departure of Lord Krsna, when Arjuna visited Dvaraka, all the queens, including Satyabhama and Rukmini, lamented for the Lord with great feeling.</p>
+<p>At the last stage of her life, she left for the forest to undergo severe penance.</p>
+<p>Satyabhama instigated her husband to get the parijata flower from the heavenly planets, and the Lord got it even by force from the demigods, as a common husband secures things to please his wife.</p>
+<p>As already explained, the Lord had very little to do with so many wives to carry out their orders like an ordinary man.</p>
+<p>But because the queens accepted the high quality of devotional service, namely administering the Lord all comforts, the Lord played the part of a faithful and complete husband.</p>
+<p>No earthly creature can expect to have things from the heavenly kingdom, especially the parijata flowers, which are simply to be used by the demigods.</p>
+<p>But due to their becoming the Lord’s faithful wives, all of them enjoyed the special prerogatives of the great wives of the denizens of heaven.</p>
+<p>In other words, since the Lord is the proprietor of everything within His creation, it is not very astonishing for the queens of Dvaraka to have any rare thing from any part of the universe.</p>
+
+
+
+<p><strong>1.14.38</strong></p>
+<p>yad bahu-dandabhyudayanujivino</p>
+<p>yadu-pravira hy akutobhaya muhuh</p>
+<p>adhikramanty anghribhir ahrtam balat</p>
+<p>sabham sudharmam sura-sattamocitam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yat—whose; bahu-danda—arms; abhyudaya—influenced by; anujivinah—always living; yadu—the members of the Yadu dynasty; pravirah—great heroes; hi akutobhayah—fearless in every respect; muhuh—constantly; adhikramanti—traversing; anghribhih—by foot; ahrtam—brought about; balat—by force; sabham—assembly house; sudharmam—Sudharma; sura-sat-tama—the best among the demigods; ucitam—deserving.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The great heroes of the Yadu dynasty, being protected by the arms of Lord Sri Krsna, always remain fearless in every respect.</p>
+<p>And therefore their feet trample over the Sudharma assembly house, which the best demigods deserved but which was taken away from them.</p>
+<p><strong>PURPORT</strong></p>
+<p>Those who are directly servitors of the Lord are protected by the Lord from all fearfulness, and they also enjoy the best of things, even if they are forcibly accumulated.</p>
+<p>The Lord is equal in behavior to all living beings, but He is partial to His pure devotees, being very affectionate toward them.</p>
+<p>The city of Dvaraka was flourishing, being enriched with the best of things in the material world.</p>
+<p>The state assembly house is constructed according to the dignity of the particular state.</p>
+<p>In the heavenly planets, the state assembly house called Sudharma was deserving of the dignity of the best of the demigods.</p>
+<p>Such an assembly house is never meant for any state on the globe because the human being on the earth is unable to construct it, however far a particular state may be materially advanced.</p>
+<p>But during the time of Lord Krsna’s presence on the earth, the members of the Yadu family forcibly brought the celestial assembly house to earth and placed it at Dvaraka.</p>
+<p>They were able to use such force because they were certain of the indulgence and protection of the Supreme Lord Krsna.</p>
+<p>In other words, the Lord is provided with the best things in the universe by His pure devotees.</p>
+<p>Lord Krsna was provided with all kinds of comforts and facilities available within the universe by the members of the Yadu dynasty, and in return such servitors of the Lord were protected and fearless.</p>
+<p>A forgetful, conditioned soul is fearful.</p>
+<p>But a liberated soul is never fearful, just as a small child completely dependent on the mercy of his father is never fearful of anyone.</p>
+<p>Fearfulness is a sort of illusion for the living being when he is in slumber and forgetting his eternal relation with the Lord.</p>
+<p>Since the living being is never to die by his constitution, as stated in Bhagavad-gita (2.20), then what is the cause of fearfulness? A person may be fearful of a tiger in a dream, but another man who is awake by his side sees no tiger there.</p>
+<p>The tiger is a myth for both of them, namely the person dreaming and the person awake, because actually there is no tiger; but the man forgetful of his awakened life is fearful, whereas the man who has not forgotten his position is not at all fearful.</p>
+<p>Thus the members of the Yadu dynasty were fully awake in their service to the Lord, and therefore there was no tiger for them to be afraid of at any time.</p>
+<p>Even if there were a real tiger, the Lord was there to protect them.</p>
+
+
+
+<p><strong>1.14.39</strong></p>
+<p>kaccit te ’namayam tata</p>
+<p>bhrasta-teja vibhasi me</p>
+<p>alabdha-mano ’vajnatah</p>
+<p>kim va tata cirositah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kaccit—whether; te—your; anamayam—health is all right; tata—my dear brother; bhrasta—bereft; tejah—luster; vibhasi—appear; me—to me; alabdha-manah—without respect; avajnatah—neglected; kim—whether; va—or; tata—my dear brother; cirositah—because of long residence.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My brother Arjuna, please tell me whether your health is all right.</p>
+<p>You appear to have lost your bodily luster.</p>
+<p>Is this due to others disrespecting and neglecting you because of your long stay at Dvaraka?</p>
+<p><strong>PURPORT</strong></p>
+<p>From all angles of vision, the Maharaja inquired from Arjuna about the welfare of Dvaraka, but he concluded at last that as long as Lord Sri Krsna Himself was there, nothing inauspicious could happen.</p>
+<p>But at the same time, Arjuna appeared to be bereft of his bodily luster, and thus the King inquired of his personal welfare and asked so many vital questions.</p>
+
+
+
+<p><strong>1.14.40</strong></p>
+<p>kaccin nabhihato ’bhavaih</p>
+<p>sabdadibhir amangalaih</p>
+<p>na dattam uktam arthibhya</p>
+<p>asaya yat pratisrutam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kaccit—whether; na—could not; abhihatah—addressed by; abhavaih—unfriendly; sabda-adibhih—by sounds; amangalaih—inauspicious; na—did not; dattam—give in charity; uktam—is said; arthibhyah—unto one who asked; asaya—with hope; yat—what; pratisrutam—promised to be paid.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Has someone addressed you with unfriendly words or threatened you? Could you not give charity to one who asked, or could you not keep your promise to someone?</p>
+<p><strong>PURPORT</strong></p>
+<p>A ksatriya or a rich man is sometimes visited by persons who are in need of money.</p>
+<p>When they are asked for a donation, it is the duty of the possessor of wealth to give in charity in consideration of the person, place and time.</p>
+<p>If a ksatriya or a rich man fails to comply with this obligation, he must be very sorry for this discrepancy.</p>
+<p>Similarly, one should not fail to keep his promise to give in charity.</p>
+<p>These discrepancies are sometimes causes of despondency, and thus failing, a person becomes subjected to criticism, which might also be the cause of Arjuna’s plight.</p>
+
+
+
+<p><strong>1.14.41</strong></p>
+<p>kaccit tvam brahmanam balam</p>
+<p>gam vrddham roginam striyam</p>
+<p>saranopasrtam sattvam</p>
+<p>natyaksih sarana-pradah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kaccit—whether; tvam—yourself; brahmanam—the brahmanas; balam—the child; gam—the cow; vrddham—old; roginam—the diseased; striyam—the woman; sarana-upasrtam—having approached for protection; sattvam—any living being; na—whether; atyaksih—not given shelter; sarana-pradah—deserving protection.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>You are always the protector of the deserving living beings, such as brahmanas, children, cows, women and the diseased.</p>
+<p>Could you not give them protection when they approached you for shelter?</p>
+<p><strong>PURPORT</strong></p>
+<p>The brahmanas, who are always engaged in researching knowledge for the society’s welfare work, both materially and spiritually, deserve the protection of the king in all respects.</p>
+<p>Similarly, the children of the state, the cow, the diseased person, the woman and the old man specifically require the protection of the state or a ksatriya king.</p>
+<p>If such living beings do not get protection by the ksatriya, or the royal order, or by the state, it is certainly shameful for the ksatriya or the state.</p>
+<p>If such things had actually happened to Arjuna, Maharaja Yudhisthira was anxious to know about these discrepancies.</p>
+
+
+
+<p><strong>1.14.42</strong></p>
+<p>kaccit tvam nagamo ’gamyam</p>
+<p>gamyam vasat-krtam striyam</p>
+<p>parajito vatha bhavan</p>
+<p>nottamair nasamaih pathi</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kaccit—whether; tvam—yourself; na—not; agamah—did contact; agamyam—impeachable; gamyam—acceptable; va—either; asat-krtam—improperly treated; striyam—a woman; parajitah—defeated by; va—either; atha—after all; bhavan—your good self; na—nor; uttamaih—by superior power; na—not; asamaih—by equals; pathi—on the road.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Have you contacted a woman of impeachable character, or have you not properly treated a deserving woman? Or have you been defeated on the way by someone who is inferior or equal to you?</p>
+<p><strong>PURPORT</strong></p>
+<p>It appears from this verse that during the time of the Pandavas free contact between man and woman was allowed in certain conditions only.</p>
+<p>The higher-caste men, namely the brahmanas and ksatriyas, could accept a woman of the vaisya or the sudra community, but a man from the lower castes could not contact a woman of the higher caste.</p>
+<p>Even a ksatriya could not contact a woman of the brahmana caste.</p>
+<p>The wife of a brahmana is considered one of the seven mothers (namely one’s own mother, the wife of the spiritual master or teacher, the wife of a brahmana, the wife of a king, the cow, the nurse, and the earth).</p>
+<p>Such contact between man and woman was known as uttama and adhama.</p>
+<p>Contact of a brahmana with a ksatriya woman is uttama, but the contact of a ksatriya with a brahmana woman is adhama and therefore condemned.</p>
+<p>A woman approaching a man for contact should never be refused, but at the same time the discretion as above mentioned may also be considered.</p>
+<p>Bhima was approached by Hidimbi from a community lower than the sudras, and Yayati refused to marry the daughter of Sukracarya because of Sukracarya’s being a brahmana.</p>
+<p>Vyasadeva, a brahmana, was called to beget Pandu and Dhrtarastra.</p>
+<p>Satyavati belonged to a family of fishermen, but Parasara, a great brahmana, begot in her Vyasadeva.</p>
+<p>So there are so many examples of contacts with woman, but in all cases the contacts were not abominable nor were the results of such contacts bad.</p>
+<p>Contact between man and woman is natural, but that also must be carried out under regulative principles so that social consecration may not be disturbed or unwanted worthless population be increased for the unrest of the world.</p>
+<p>It is abominable for a ksatriya to be defeated by one who is inferior in strength or equal in strength.</p>
+<p>If one is defeated at all, he should be defeated by some superior power.</p>
+<p>Arjuna was defeated by Bhismadeva, and Lord Krsna saved him from the danger.</p>
+<p>This was not an insult for Arjuna because Bhismadeva was far superior to Arjuna in all ways, namely age, respect and strength.</p>
+<p>But Karna was equal to Arjuna, and therefore Arjuna was in crisis when fighting with Karna.</p>
+<p>It was felt by Arjuna, and therefore Karna was killed even by crooked means.</p>
+<p>Such are the engagements of the ksatriyas, and Maharaja Yudhisthira inquired from his brother whether anything undesirable happened on the way home from Dvaraka.</p>
+
+
+
+<p><strong>1.14.43</strong></p>
+<p>api svit parya-bhunkthas tvam</p>
+<p>sambhojyan vrddha-balakan</p>
+<p>jugupsitam karma kincit</p>
+<p>krtavan na yad aksamam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>api svit—if it were so that; parya—by leaving aside; bhunkthah—have dined; tvam—yourself; sambhojyan—deserving to dine together; vrddha—the old men; balakan—boys; jugupsitam—abominable; karma—action; kincit—something; krtavan—you must have done; na—not; yat—that which; aksamam—unpardonable.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Have you not taken care of old men and boys who deserve to dine with you? Have you left them and taken your meals alone? Have you committed some unpardonable mistake which is considered to be abominable?</p>
+<p><strong>PURPORT</strong></p>
+<p>It is the duty of a householder to feed first of all the children, the old members of the family, the brahmanas and the invalids.</p>
+<p>Besides that, an ideal householder is required to call for any unknown hungry man to come and dine before he himself goes to take his meals.</p>
+<p>He is required to call for such a hungry man thrice on the road.</p>
+<p>The neglect of this prescribed duty of a householder, especially in the matter of the old men and children, is unpardonable.</p>
+
+
+
+<p><strong>1.14.44</strong></p>
+<p>kaccit presthatamenatha</p>
+<p>hrdayenatma-bandhuna</p>
+<p>sunyo ’smi rahito nityam</p>
+<p>manyase te ’nyatha na ruk</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kaccit—whether; prestha-tamena—unto the most dear one; atha—my brother Arjuna; hrdayena—most intimate; atma-bandhuna—own friend Lord Krsna; sunyah—void; asmi—I am; rahitah—having lost; nityam—for all time; manyase—you think; te—your; anyatha—otherwise; na—never; ruk—mental distress.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Or is it that you are feeling empty for all time because you might have lost your most intimate friend, Lord Krsna? O my brother Arjuna, I can think of no other reason for your becoming so dejected.</p>
+<p><strong>PURPORT</strong></p>
+<p>All the inquisitiveness of Maharaja Yudhisthira about the world situation was already conjectured by Maharaja Yudhisthira on the basis of Lord Krsna’s disappearance from the vision of the world, and this was now disclosed by him because of the acute dejection of Arjuna, which could not have been possible otherwise.</p>
+<p>So even though he was doubtful about it, he was obliged to inquire frankly from Arjuna on the basis of Sri Narada’s indication.</p>
+
+
+</article></body></html>

@@ -1,154 +1,41 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>The Appearance of Sri Narada - The Appearance of Sri Narada</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">The Appearance of Sri Narada</a></li><li class="affix"><a href="1.4.2.html">1.4.2</a></li><li class="affix"><a href="1.4.3.html">1.4.3</a></li><li class="affix"><a href="1.4.4.html">1.4.4</a></li><li class="affix"><a href="1.4.5.html">1.4.5</a></li><li class="affix"><a href="1.4.6.html">1.4.6</a></li><li class="affix"><a href="1.4.7.html">1.4.7</a></li><li class="affix"><a href="1.4.8.html">1.4.8</a></li><li class="affix"><a href="1.4.9.html">1.4.9</a></li><li class="affix"><a href="1.4.10.html">1.4.10</a></li><li class="affix"><a href="1.4.11.html">1.4.11</a></li><li class="affix"><a href="1.4.12.html">1.4.12</a></li><li class="affix"><a href="1.4.13.html">1.4.13</a></li><li class="affix"><a href="1.4.14.html">1.4.14</a></li><li class="affix"><a href="1.4.15.html">1.4.15</a></li><li class="affix"><a href="1.4.16.html">1.4.16</a></li><li class="affix"><a href="1.4.17-18.html">1.4.17-18</a></li><li class="affix"><a href="1.4.19.html">1.4.19</a></li><li class="affix"><a href="1.4.20.html">1.4.20</a></li><li class="affix"><a href="1.4.21.html">1.4.21</a></li><li class="affix"><a href="1.4.22.html">1.4.22</a></li><li class="affix"><a href="1.4.23.html">1.4.23</a></li><li class="affix"><a href="1.4.24.html">1.4.24</a></li><li class="affix"><a href="1.4.25.html">1.4.25</a></li><li class="affix"><a href="1.4.26.html">1.4.26</a></li><li class="affix"><a href="1.4.27.html">1.4.27</a></li><li class="affix"><a href="1.4.28-29.html">1.4.28-29</a></li><li class="affix"><a href="1.4.30.html">1.4.30</a></li><li class="affix"><a href="1.4.31.html">1.4.31</a></li><li class="affix"><a href="1.4.32.html">1.4.32</a></li><li class="affix"><a href="1.4.33.html">1.4.33</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">The Appearance of Sri Narada</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#the-appearance-of-sri-narada" id="the-appearance-of-sri-narada">The Appearance of Sri Narada</a></h1>
-<h3><a class="header" href="#141" id="141">1.4.1</a></h3>
+<h1>The Appearance of Sri Narada</h1>
+<p><strong>1.4.1</strong></p>
 <p>vyasa uvaca</p>
 <p>iti bruvanam samstuya</p>
 <p>muninam dirgha-satrinam</p>
@@ -174,63 +61,665 @@
 <p>That should be the standard of recitation of Bhagavatam, so that the real purpose can be served without difficulty.</p>
 <p>Unless this situation is created, Bhagavatam recitation for extraneous purposes is useless labor both for the speaker and for the audience.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="1.4.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>1.4.2</strong></p>
+<p>saunaka uvaca</p>
+<p>suta suta maha-bhaga</p>
+<p>vada no vadatam vara</p>
+<p>katham bhagavatim punyam</p>
+<p>yad aha bhagavan chukah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>saunakah—Saunaka; uvaca—said; suta suta—O Suta Gosvami; maha-bhaga—the most fortunate; vada—please speak; nah—unto us; vadatam—of those who can speak; vara—respected; katham—message; bhagavatim—of the Bhagavatam; punyam—pious; yat—which; aha—said; bhagavan—greatly powerful; sukah—Sri Sukadeva Gosvami.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Saunaka said:</p>
+<p>O Suta Gosvami, you are the most fortunate and respected of all those who can speak and recite.</p>
+<p>Please relate the pious message of Srimad-Bhagavatam, which was spoken by the great and powerful sage Sukadeva Gosvami.</p>
+<p><strong>PURPORT</strong></p>
+<p>Suta Gosvami is twice addressed herein by Saunaka Gosvami out of great joy because he and the members of the assembly were eager to hear the text of Bhagavatam uttered by Sukadeva Gosvami.</p>
+<p>They were not interested in hearing it from a bogus person who would interpret in his own way to suit his own purpose.</p>
+<p>Generally the so-called Bhagavatam reciters are either professional readers or so-called learned impersonalists who cannot enter into the transcendental personal activities of the Supreme Person.</p>
+<p>Such impersonalists twist some meanings out of Bhagavatam to suit and support impersonalist views, and the professional readers at once go to the Tenth Canto to misexplain the most confidential part of the Lord’s pastimes.</p>
+<p>Neither of these reciters are bona fide persons to recite Bhagavatam.</p>
+<p>Only one who is prepared to present Bhagavatam in the light of Sukadeva Gosvami and only those who are prepared to hear Sukadeva Gosvami and his representative are bona fide participants in the transcendental discussion of Srimad-Bhagavatam.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="1.4.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>1.4.3</strong></p>
+<p>kasmin yuge pravrtteyam</p>
+<p>sthane va kena hetuna</p>
+<p>kutah sancoditah krsnah</p>
+<p>krtavan samhitam munih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kasmin—in which; yuge—period; pravrtta—was begun; iyam—this; sthane—in the place; va—or; kena—on what; hetuna—ground; kutah—wherefrom; sancoditah—inspired by; krsnah—Krsna-dvaipayana Vyasa; krtavan—compiled; samhitam—Vedic literature; munih—the learned.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In what period and at what place was this first begun, and why was this taken up? From where did Krsna-dvaipayana Vyasa, the great sage, get the inspiration to compile this literature?</p>
+<p><strong>PURPORT</strong></p>
+<p>Because Srimad-Bhagavatam is the special contribution of Srila Vyasadeva, there are so many inquiries by the learned Saunaka Muni.</p>
+<p>It was known to them that Srila Vyasadeva had already explained the text of the Vedas in various ways up to the Mahabharata for the understanding of less intelligent women, sudras and fallen members of the family of twice-born men.</p>
+<p>Srimad-Bhagavatam is transcendental to all of them because it has nothing to do with anything mundane.</p>
+<p>So the inquiries are very intelligent and relevant.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>1.4.4</strong></p>
+<p>tasya putro maha-yogi</p>
+<p>sama-drn nirvikalpakah</p>
+<p>ekanta-matir unnidro</p>
+<p>gudho mudha iveyate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasya—his; putrah—son; maha-yogi—a great devotee; sama-drk—equibalanced; nirvikalpakah—absolute monist; ekanta-matih—fixed in monism or oneness of mind; unnidrah—surpassed nescience; gudhah—not exposed; mudhah—stunted; iva—like; iyate—appears like.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>His (Vyasadeva’s) son was a great devotee, an equibalanced monist, whose mind was always concentrated in monism.</p>
+<p>He was transcendental to mundane activities, but being unexposed, he appeared like an ignorant person.</p>
+<p><strong>PURPORT</strong></p>
+<p>Srila Sukadeva Gosvami was a liberated soul, and thus he remained always alert not to be trapped by the illusory energy.</p>
+<p>In the Bhagavad-gita this alertness is very lucidly explained.</p>
+<p>The liberated soul and the conditioned soul have different engagements.</p>
+<p>The liberated soul is always engaged in the progressive path of spiritual attainment, which is something like a dream for the conditioned soul.</p>
+<p>The conditioned soul cannot imagine the actual engagements of the liberated soul.</p>
+<p>While the conditioned soul thus dreams about spiritual engagements, the liberated soul is awake.</p>
+<p>Similarly, the engagement of a conditioned soul appears to be a dream for the liberated soul.</p>
+<p>A conditioned soul and a liberated soul may apparently be on the same platform, but factually they are differently engaged, and their attention is always alert, either in sense enjoyment or in self-realization.</p>
+<p>The conditioned soul is absorbed in matter, whereas the liberated soul is completely indifferent to matter.</p>
+<p>This indifference is explained as follows.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>1.4.5</strong></p>
+<p>drstvanuyantam rsim atmajam apy anagnam</p>
+<p>devyo hriya paridadhur na sutasya citram</p>
+<p>tad viksya prcchati munau jagadus tavasti</p>
+<p>stri-pum-bhida na tu sutasya vivikta-drsteh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>drstva—by seeing; anuyantam—following; rsim—the sage; atmajam—his son; api—in spite of; anagnam—not naked; devyah—beautiful damsels; hriya—out of shyness; paridadhuh—covered the body; na—not; sutasya—of the son; citram—astonishing; tat viksya—by seeing that; prcchati—asking; munau—unto the muni (Vyasa); jagaduh—replied; tava—your; asti—there are; stri-pum—male and female; bhida—differences; na—not; tu—but; sutasya—of the son; vivikta—purified; drsteh—of one who looks.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>While Sri Vyasadeva was following his son, beautiful young damsels who were bathing naked covered their bodies with cloth, although Sri Vyasadeva himself was not naked.</p>
+<p>But they had not done so when his son had passed.</p>
+<p>The sage inquired about this, and the young ladies replied that his son was purified and when looking at them made no distinction between male and female.</p>
+<p>But the sage made such distinctions.</p>
+<p><strong>PURPORT</strong></p>
+<p>In the Bhagavad-gita (5.18) it is said that a learned sage looks equally on a learned and gentle brahmana, a candala (dog-eater), a dog or a cow due to his spiritual vision.</p>
+<p>Srila Sukadeva Gosvami attained that stage.</p>
+<p>Thus he did not see a male or female; he saw all living entities in different dress.</p>
+<p>The ladies who were bathing could understand the mind of a man simply by studying his demeanor, just as by looking at a child one can understand how innocent he is.</p>
+<p>Sukadeva Gosvami was a young boy sixteen years old, and therefore all the parts of his body were developed.</p>
+<p>He was naked also, and so were the ladies.</p>
+<p>But because Sukadeva Gosvami was transcendental to sex relations, he appeared very innocent.</p>
+<p>The ladies, by their special qualifications, could sense this at once, and therefore they were not very concerned about him.</p>
+<p>But when his father passed, the ladies quickly dressed.</p>
+<p>The ladies were exactly like his children or grandchildren, yet they reacted to the presence of Vyasadeva according to the social custom because Srila Vyasadeva played the part of a householder.</p>
+<p>A householder has to distinguish between a male and female, otherwise he cannot be a householder.</p>
+<p>One should, therefore, attempt to know the distinction between spirit soul without any attachment for male and female.</p>
+<p>As long as such distinction is there, one should not try to become a sannyasi like Sukadeva Gosvami.</p>
+<p>At least theoretically one must be convinced that a living entity is neither male nor female.</p>
+<p>The outward dress is made of matter by material nature to attract the opposite sex and thus keep one entangled in material existence.</p>
+<p>A liberated soul is above this perverted distinction.</p>
+<p>He does not distinguish between one living being and another.</p>
+<p>For him they are all one and the same spirit.</p>
+<p>The perfection of this spiritual vision is the liberated stage, and Srila Sukadeva Gosvami attained that stage.</p>
+<p>Srila Vyasadeva was also in the transcendental stage, but because he was in the householder’s life, he did not pretend to be a liberated soul, as a matter of custom.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>1.4.6</strong></p>
+<p>katham alaksitah pauraih</p>
+<p>sampraptah kuru-jangalan</p>
+<p>unmatta-muka-jadavad</p>
+<p>vicaran gaja-sahvaye</p>
+<p><strong>SYNONYMS</strong></p>
+<p>katham—how; alaksitah—recognized; pauraih—by the citizens; sampraptah—reaching; kuru-jangalan—the Kuru-jangala provinces; unmatta—mad; muka—dumb; jadavat—stunted; vicaran—wandering; gaja-sahvaye—Hastinapura.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>How was he (Srila Sukadeva, the son of Vyasa) recognized by the citizens when he entered the city of Hastinapura (now Delhi), after wandering in the provinces of Kuru and Jangala, appearing like a madman, dumb and retarded?</p>
+<p><strong>PURPORT</strong></p>
+<p>The present city of Delhi was formerly known as Hastinapura because it was first established by King Hasti.</p>
+<p>Gosvami Sukadeva, after leaving his paternal home, was roaming like a madman, and therefore it was very difficult for the citizens to recognize him in his exalted position.</p>
+<p>A sage is not, therefore, recognized by sight, but by hearing.</p>
+<p>One should approach a sadhu or great sage not to see but to hear him.</p>
+<p>If one is not prepared to hear the words of a sadhu, there is no profit.</p>
+<p>Sukadeva Gosvami was a sadhu who could speak on the transcendental activities of the Lord.</p>
+<p>He did not satisfy the whims of ordinary citizens.</p>
+<p>He was recognized when he spoke on the subject of Bhagavatam, and he never attempted jugglery like a magician.</p>
+<p>Outwardly he appeared to be a retarded, dumb madman, but in fact he was the most elevated transcendental personality.</p>
+
+
+
+<p><strong>1.4.7</strong></p>
+<p>katham va pandaveyasya</p>
+<p>rajarser munina saha</p>
+<p>samvadah samabhut tata</p>
+<p>yatraisa satvati srutih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>katham—how is it; va—also; pandaveyasya—of the descendant of Pandu (Pariksit); rajarseh—of the king who was a sage; munina—with the muni; saha—with; samvadah—discussion; samabhut—took place; tata—O darling; yatra—whereupon; esa—like this; satvati—transcendental; srutih—essence of the Vedas.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>How did it so happen that King Pariksit met this great sage, making it possible for this great transcendental essence of the Vedas (Bhagavatam) to be sung to him?</p>
+<p><strong>PURPORT</strong></p>
+<p>Srimad-Bhagavatam is stated here as the essence of the Vedas.</p>
+<p>It is not an imaginary story as it is sometimes considered by unauthorized men.</p>
+<p>It is also called Suka-samhita, or the Vedic hymn spoken by Sri Sukadeva Gosvami, the great liberated sage.</p>
+
+
+
+<p><strong>1.4.8</strong></p>
+<p>sa go-dohana-matram hi</p>
+<p>grhesu grha-medhinam</p>
+<p>aveksate maha-bhagas</p>
+<p>tirthi-kurvams tad asramam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—he (Sukadeva Gosvami); go-dohana-matram—only for the time of milking the cow; hi—certainly; grhesu—in the house; grha-medhinam—of the householders; aveksate—waits; maha-bhagah—the most fortunate; tirthi—pilgrimage; kurvan—transforming; tat asramam—the residence.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>He (Sukadeva Gosvami) was accustomed to stay at the door of a householder only long enough for a cow to be milked.</p>
+<p>And he did this just to sanctify the residence.</p>
+<p><strong>PURPORT</strong></p>
+<p>Sukadeva Gosvami met Emperor Pariksit and explained the text of Srimad-Bhagavatam.</p>
+<p>He was not accustomed to stay at any householder’s residence for more than half an hour (at the time of milking the cow), and he would just take alms from the fortunate householder.</p>
+<p>That was to sanctify the residence by his auspicious presence.</p>
+<p>Therefore Sukadeva Gosvami is an ideal preacher established in the transcendental position.</p>
+<p>From his activities, those who are in the renounced order of life and dedicated to the mission of preaching the message of Godhead should learn that they have no business with householders save and except to enlighten them in transcendental knowledge.</p>
+<p>Such asking for alms from the householder should be for the purpose of sanctifying his home.</p>
+<p>One who is in the renounced order of life should not be allured by the glamor of the householder’s worldly possessions and thus become subservient to worldly men.</p>
+<p>For one who is in the renounced order of life, this is much more dangerous than drinking poison and committing suicide.</p>
+
+
+
+<p><strong>1.4.9</strong></p>
+<p>abhimanyu-sutam suta</p>
+<p>prahur bhagavatottamam</p>
+<p>tasya janma mahascaryam</p>
+<p>karmani ca grnihi nah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>abhimanyu-sutam—the son of Abhimanyu; suta—O Suta; prahuh—is said to be; bhagavata-uttamam—the first-class devotee of the Lord; tasya—his; janma—birth; maha-ascaryam—very wonderful; karmani—activities; ca—and; grnihi—please speak to; nah—us.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>It is said that Maharaja Pariksit is a great first-class devotee of the Lord and that his birth and activities are all wonderful.</p>
+<p>Please tell us about him.</p>
+<p><strong>PURPORT</strong></p>
+<p>The birth of Maharaja Pariksit is wonderful because in the womb of his mother he was protected by the Personality of Godhead Sri Krsna.</p>
+<p>His activities are also wonderful because he chastised Kali, who was attempting to kill a cow.</p>
+<p>To kill cows means to end human civilization.</p>
+<p>He wanted to protect the cow from being killed by the great representative of sin.</p>
+<p>His death is also wonderful because he got previous notice of his death, which is wonderful for any mortal being, and thus he prepared himself for passing away by sitting down on the bank of the Ganges and hearing the transcendental activities of the Lord.</p>
+<p>During all the days he heard Bhagavatam, he did not take food or drink, nor did he sleep a moment.</p>
+<p>So everything about him is wonderful, and his activities are worth hearing attentively.</p>
+<p>Desire is expressed herein to hear about him in detail.</p>
+
+
+
+<p><strong>1.4.10</strong></p>
+<p>sa samrat kasya va hetoh</p>
+<p>pandunam mana-vardhanah</p>
+<p>prayopavisto gangayam</p>
+<p>anadrtyadhirat-sriyam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—he; samrat—the Emperor; kasya—for what; va—or; hetoh—reason; pandunam—of the sons of Pandu; mana-vardhanah—one who enriches the family; praya-upavistah—sitting and fasting; gangayam—on the bank of the Ganges; anadrtya—neglecting; adhirat—acquired kingdom; sriyam—opulences.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>He was a great emperor and possessed all the opulences of his acquired kingdom.</p>
+<p>He was so exalted that he was increasing the prestige of the Pandu dynasty.</p>
+<p>Why did he give up everything to sit down on the bank of the Ganges and fast until death?</p>
+<p><strong>PURPORT</strong></p>
+<p>Maharaja Pariksit was the Emperor of the world and all the seas and oceans, and he did not have to take the trouble to acquire such a kingdom by his own effort.</p>
+<p>He inherited it from his grandfathers Maharaja Yudhisthira and brothers.</p>
+<p>Besides that, he was doing well in the administration and was worthy of the good names of his forefathers.</p>
+<p>Consequently there was nothing undesirable in his opulence and administration.</p>
+<p>Then why should he give up all these favorable circumstances and sit down on the bank of the Ganges, fasting till death? This is astonishing, and therefore all were eager to know the cause.</p>
+
+
+
+<p><strong>1.4.11</strong></p>
+<p>namanti yat-pada-niketam atmanah</p>
+<p>sivaya haniya dhanani satravah</p>
+<p>katham sa virah sriyam anga dustyajam</p>
+<p>yuvaisatotsrastum aho sahasubhih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>namanti—bow down; yat-pada—whose feet; niketam—under; atmanah—own; sivaya—welfare; haniya—used to bring about; dhanani—wealth; satravah—enemies; katham—for what reason; sah—he; virah—the chivalrous; sriyam—opulences; anga—O; dustyajam—insuperable; yuva—in full youth; aisata—desired; utsrastum—to give up; aho—exclamation; saha—with; asubhih—life.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>He was such a great emperor that all his enemies would come and bow down at his feet and surrender all their wealth for their own benefit.</p>
+<p>He was full of youth and strength, and he possessed insuperable kingly opulences.</p>
+<p>Why did he want to give up everything, including his life?</p>
+<p><strong>PURPORT</strong></p>
+<p>There was nothing undesirable in his life.</p>
+<p>He was quite a young man and could enjoy life with power and opulence.</p>
+<p>So there was no question of retiring from active life.</p>
+<p>There was no difficulty in collecting the state taxes because he was so powerful and chivalrous that even his enemies would come to him and bow down at his feet and surrender all wealth for their own benefit.</p>
+<p>Maharaja Pariksit was a pious king.</p>
+<p>He conquered his enemies, and therefore the kingdom was full of prosperity.</p>
+<p>There was enough milk, grains and metals, and all the rivers and mountains were full of potency.</p>
+<p>So materially everything was satisfactory.</p>
+<p>Therefore, there was no question of untimely giving up his kingdom and life.</p>
+<p>The sages were eager to hear about all this.</p>
+
+
+
+<p><strong>1.4.12</strong></p>
+<p>sivaya lokasya bhavaya bhutaye</p>
+<p>ya uttama-sloka-parayana janah</p>
+<p>jivanti natmartham asau parasrayam</p>
+<p>mumoca nirvidya kutah kalevaram</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sivaya—welfare; lokasya—of all living beings; bhavaya—for flourishing; bhutaye—for economic development; ye—one who is; uttama-sloka-parayanah—devoted to the cause of the Personality of Godhead; janah—men; jivanti—do live; na—but not; atma-artham—selfish interest; asau—that; para-asrayam—shelter for others; mumoca—gave up; nirvidya—being freed from all attachment; kutah—for what reason; kalevaram—mortal body.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Those who are devoted to the cause of the Personality of Godhead live only for the welfare, development and happiness of others.</p>
+<p>They do not live for any selfish interest.</p>
+<p>So even though the Emperor (Pariksit) was free from all attachment to worldly possessions, how could he give up his mortal body, which was shelter for others?</p>
+<p><strong>PURPORT</strong></p>
+<p>Pariksit Maharaja was an ideal king and householder because he was a devotee of the Personality of Godhead.</p>
+<p>A devotee of the Lord automatically has all good qualifications.</p>
+<p>And the Emperor was a typical example of this.</p>
+<p>Personally he had no attachment for all the worldly opulences in his possession.</p>
+<p>But since he was king for the all-around welfare of his citizens, he was always busy in the welfare work of the public, not only for this life, but also for the next.</p>
+<p>He would not allow slaughterhouses or killing of cows.</p>
+<p>He was not a foolish and partial administrator who would arrange for the protection of one living being and allow another to be killed.</p>
+<p>Because he was a devotee of the Lord, he knew perfectly well how to conduct his administration for everyone’s happiness—men, animals, plants and all living creatures.</p>
+<p>He was not selfishly interested.</p>
+<p>Selfishness is either self-centered or self-extended.</p>
+<p>He was neither.</p>
+<p>His interest was to please the Supreme Truth, Personality of Godhead.</p>
+<p>The king is the representative of the Supreme Lord, and therefore the king’s interest must be identical with that of the Supreme Lord.</p>
+<p>The Supreme Lord wants all living beings to be obedient to Him and thereby become happy.</p>
+<p>Therefore the king’s interest is to guide all subjects back to the kingdom of God.</p>
+<p>Hence the activities of the citizens should be so coordinated that they can at the end go back home, back to Godhead.</p>
+<p>Under the administration of a representative king, the kingdom is full of opulence.</p>
+<p>At that time, human beings need not eat animals.</p>
+<p>There are ample food grains, milk, fruit and vegetables so that the human beings as well as the animals can eat sumptuously and to their heart’s content.</p>
+<p>If all living beings are satisfied with food and shelter and obey the prescribed rules, there cannot be any disturbance between one living being and another.</p>
+<p>Emperor Pariksit was a worthy king, and therefore all were happy during his reign.</p>
+
+
+
+<p><strong>1.4.13</strong></p>
+<p>tat sarvam nah samacaksva</p>
+<p>prsto yad iha kincana</p>
+<p>manye tvam visaye vacam</p>
+<p>snatam anyatra chandasat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tat—that; sarvam—all; nah—unto us; samacaksva—clearly explain; prstah—questioned; yat iha—herein; kincana—all that; manye—we think; tvam—you; visaye—in all subjects; vacam—meanings of words; snatam—fully acquainted; anyatra—except; chandasat—portion of the Vedas.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>We know that you are expert in the meaning of all subjects, except some portions of the Vedas, and thus you can clearly explain the answers to all the questions we have just put to you.</p>
+<p><strong>PURPORT</strong></p>
+<p>The difference between the Vedas and the Puranas is like that between the brahmanas and the parivrajakas.</p>
+<p>The brahmanas are meant to administer some fruitive sacrifices mentioned in the Vedas, but the parivrajakacaryas, or learned preachers, are meant to disseminate transcendental knowledge to one and all.</p>
+<p>As such, the parivrajakacaryas are not always expert in pronouncing the Vedic mantras, which are practiced systematically by accent and meter by the brahmanas who are meant for administering Vedic rites.</p>
+<p>Yet it should not be considered that the brahmanas are more important than the itinerant preachers.</p>
+<p>They are one and different simultaneously because they are meant for the same end, in different ways.</p>
+<p>There is no difference also between the Vedic mantras and what is explained in the Puranas and Itihasa.</p>
+<p>According to Srila Jiva Gosvami, it is mentioned in the Madhyandina-sruti that all the Vedas, namely the Sama, Atharva, Rg, Yajur, Puranas, Itihasas, Upanisads, etc., are emanations from the breathing of the Supreme Being.</p>
+<p>The only difference is that the Vedic mantras are mostly begun with pranava omkara, and it requires some training to practice the metric pronunciation of the Vedic mantras.</p>
+<p>But that does not mean that Srimad-Bhagavatam is of less importance than the Vedic mantras.</p>
+<p>On the contrary, it is the ripened fruit of all the Vedas, as stated before.</p>
+<p>Besides that, the most perfectly liberated soul, Srila Sukadeva Gosvami, is absorbed in the studies of the Bhagavatam, although he is already self-realized.</p>
+<p>Srila Suta Gosvami is following his footsteps, and therefore his position is not the least less important because he was not expert in chanting Vedic mantras with metric pronunciation, which depends more on practice than actual realization.</p>
+<p>Realization is more important than parrotlike chanting.</p>
+
+
+
+<p><strong>1.4.14</strong></p>
+<p>suta uvaca</p>
+<p>dvapare samanuprapte</p>
+<p>trtiye yuga-paryaye</p>
+<p>jatah parasarad yogi</p>
+<p>vasavyam kalaya hareh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sutah—Suta Gosvami; uvaca—said; dvapare—in the second millennium; samanuprapte—on the advent of; trtiye—third; yuga—millennium; paryaye—in the place of; jatah—was begotten; parasarat—by Parasara; yogi—the great sage; vasavyam—in the womb of the daughter of Vasu; kalaya—in the plenary portion; hareh—of the Personality of Godhead.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Suta Gosvami said:</p>
+<p>When the second millennium overlapped the third, the great sage (Vyasadeva) was born to Parasara in the womb of Satyavati, the daughter of Vasu.</p>
+<p><strong>PURPORT</strong></p>
+<p>There is a chronological order of the four millenniums, namely Satya, Dvapara, Treta and Kali.</p>
+<p>But sometimes there is overlapping.</p>
+<p>During the regime of Vaivasvata Manu, there was an overlapping of the twenty-eighth round of the four millenniums, and the third millennium appeared prior to the second.</p>
+<p>In that particular millennium, Lord Sri Krsna also descends, and because of this there was some particular alteration.</p>
+<p>The mother of the great sage was Satyavati the daughter of the Vasu (fisherman), and the father was the great Parasara Muni.</p>
+<p>That is the history of Vyasadeva’s birth.</p>
+<p>Every millennium is divided into three periods, and each period is called a sandhya.</p>
+<p>Vyasadeva appeared in the third sandhya of that particular age.</p>
+
+
+
+<p><strong>1.4.15</strong></p>
+<p>sa kadacit sarasvatya</p>
+<p>upasprsya jalam sucih</p>
+<p>vivikta eka asina</p>
+<p>udite ravi-mandale</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—he; kadacit—once; sarasvatyah—on the bank of the Sarasvati; upasprsya—after finishing morning ablutions; jalam—water; sucih—being purified; vivikte—concentration; ekah—alone; asinah—being thus seated; udite—on the rise; ravi-mandale—of the sun disc.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Once upon a time he (Vyasadeva), as the sun rose, took his morning ablution in the waters of the Sarasvati and sat alone to concentrate.</p>
+<p><strong>PURPORT</strong></p>
+<p>The River Sarasvati is flowing in the Badarikasrama area of the Himalayas.</p>
+<p>So the place indicated here is Samyaprasa in Badarikasrama, where Sri Vyasadeva is residing.</p>
+
+
+
+<p><strong>1.4.16</strong></p>
+<p>paravara-jnah sa rsih</p>
+<p>kalenavyakta-ramhasa</p>
+<p>yuga-dharma-vyatikaram</p>
+<p>praptam bhuvi yuge yuge</p>
+<p><strong>SYNONYMS</strong></p>
+<p>para-avara—past and future; jnah—one who knows; sah—he; rsih—Vyasadeva; kalena—in the course of time; avyakta—unmanifested; ramhasa—by great force; yuga-dharma—acts in terms of the millennium; vyatikaram—anomalies; praptam—having accrued; bhuvi—on the earth; yuge yuge—different ages.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The great sage Vyasadeva saw anomalies in the duties of the millennium.</p>
+<p>This happens on the earth in different ages, due to unseen forces in the course of time.</p>
+<p><strong>PURPORT</strong></p>
+<p>The great sages like Vyasadeva are liberated souls, and therefore they can see clearly past and future.</p>
+<p>Thus he could see the future anomalies in the Kali age, and accordingly he made arrangement for the people in general so that they can execute a progressive life in this age, which is full of darkness.</p>
+<p>The people in general in this age of Kali are too much interested in matter, which is temporary.</p>
+<p>Because of ignorance they are unable to evaluate the assets of life and be enlightened in spiritual knowledge.</p>
+
+
+
+<p><strong>1.4.17-18</strong></p>
+<p>bhautikanam ca bhavanam</p>
+<p>sakti-hrasam ca tat-krtam</p>
+<p>asraddadhanan nihsattvan</p>
+<p>durmedhan hrasitayusah</p>
+<p>durbhagams ca janan viksya</p>
+<p>munir divyena caksusa</p>
+<p>sarva-varnasramanam yad</p>
+<p>dadhyau hitam amogha-drk</p>
+<p><strong>SYNONYMS</strong></p>
+<p>bhautikanam ca—also of everything that is made of matter; bhavanam—actions; sakti-hrasam ca—and deterioration of natural power; tat-krtam—rendered by that; asraddadhanan—of the faithless; nihsattvan—impatient due to want of the mode of goodness; durmedhan—dull-witted; hrasita—reduced; ayusah—of duration of life; durbhagan ca—also the unlucky; janan—people in general; viksya—by seeing; munih—the muni; divyena—by transcendental; caksusa—vision; sarva—all; varna-asramanam—of all the statuses and orders of life; yat—what; dadhyau—contemplated; hitam—welfare; amogha-drk—one who is fully equipped in knowledge.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The great sage, who was fully equipped in knowledge, could see, through his transcendental vision, the deterioration of everything material, due to the influence of the age.</p>
+<p>He could also see that the faithless people in general would be reduced in duration of life and would be impatient due to lack of goodness.</p>
+<p>Thus he contemplated for the welfare of men in all statuses and orders of life.</p>
+<p><strong>PURPORT</strong></p>
+<p>The unmanifested forces of time are so powerful that they reduce all matter to oblivion in due course.</p>
+<p>In Kali-yuga, the last millennium of a round of four millenniums, the power of all material objects deteriorates by the influence of time.</p>
+<p>In this age the duration of the material body of the people in general is much reduced, and so is the memory.</p>
+<p>The action of matter has also not so much incentive.</p>
+<p>The land does not produce food grains in the same proportions as it did in other ages.</p>
+<p>The cow does not give as much milk as it used to give formerly.</p>
+<p>The production of vegetables and fruits is less than before.</p>
+<p>As such, all living beings, both men and animals, do not have sumptuous, nourishing food.</p>
+<p>Due to want of so many necessities of life, naturally the duration of life is reduced, the memory is short, intelligence is meager, mutual dealings are full of hypocrisy and so on.</p>
+<p>The great sage Vyasadeva could see this by his transcendental vision.</p>
+<p>As an astrologer can see the future fate of a man, or an astronomer can foretell the solar and lunar eclipses, those liberated souls who can see through the scriptures can foretell the future of all mankind.</p>
+<p>They can see this due to their sharp vision of spiritual attainment.</p>
+<p>And all such transcendentalists, who are naturally devotees of the Lord, are always eager to render welfare service to the people in general.</p>
+<p>They are the real friends of the people in general, not the so-called public leaders who are unable to see what is going to happen five minutes ahead.</p>
+<p>In this age the people in general as well as their so-called leaders are all unlucky fellows, faithless in spiritual knowledge and influenced by the age of Kali.</p>
+<p>They are always disturbed by various diseases.</p>
+<p>For example, in the present age there are so many TB patients and TB hospitals, but formerly this was not so because the time was not so unfavorable.</p>
+<p>The unfortunate men of this age are always reluctant to give a reception to the transcendentalists who are representatives of Srila Vyasadeva and selfless workers always busy in planning something which may help everyone in all statuses and orders of life.</p>
+<p>The greatest philanthropists are those transcendentalists who represent the mission of Vyasa, Narada, Madhva, Caitanya, Rupa, Sarasvati, etc.</p>
+<p>They are all one and the same.</p>
+<p>The personalities may be different, but the aim of the mission is one and the same, namely, to deliver the fallen souls back home, back to Godhead.</p>
+
+
+
+<p><strong>1.4.19</strong></p>
+<p>catur-hotram karma suddham</p>
+<p>prajanam viksya vaidikam</p>
+<p>vyadadhad yajna-santatyai</p>
+<p>vedam ekam catur-vidham</p>
+<p><strong>SYNONYMS</strong></p>
+<p>catuh—four; hotram—sacrificial fires; karma suddham—purification of work; prajanam—of the people in general; viksya—after seeing; vaidikam—according to Vedic rites; vyadadhat—made into; yajna—sacrifice; santatyai—to expand; vedam ekam—only one Veda; catuh-vidham—in four divisions.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>He saw that the sacrifices mentioned in the Vedas were means by which the people’s occupations could be purified.</p>
+<p>And to simplify the process he divided the one Veda into four, in order to expand them among men.</p>
+<p><strong>PURPORT</strong></p>
+<p>Formerly there was only the Veda of the name Yajur, and the four divisions of sacrifices were there specifically mentioned.</p>
+<p>But to make them more easily performable, the Veda was divided into four divisions of sacrifice, just to purify the occupational service of the four orders.</p>
+<p>Above the four Vedas, namely Rg, Yajur, Sama, and Atharva, there are the Puranas, the Mahabharata, Samhitas, etc., which are known as the fifth Veda.</p>
+<p>Sri Vyasadeva and his many disciples were all historical personalities, and they were very kind and sympathetic toward the fallen souls of this age of Kali.</p>
+<p>As such, the Puranas and Mahabharata were made from related historical facts which explained the teaching of the four Vedas.</p>
+<p>There is no point in doubting the authority of the Puranas and Mahabharata as parts and parcels of the Vedas.</p>
+<p>Chandogya Upanisad (7.1.4), the Puranas and Mahabharata, generally known as histories, are mentioned as the fifth Veda.</p>
+<p>According to Srila Jiva Gosvami, that is the way of ascertaining the respective values of the revealed scriptures.</p>
+
+
+
+<p><strong>1.4.20</strong></p>
+<p>rg-yajuh-samatharvakhya</p>
+<p>vedas catvara uddhrtah</p>
+<p>itihasa-puranam ca</p>
+<p>pancamo veda ucyate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>rg-yajuh-sama-atharva-akhyah—the names of the four Vedas; vedah—the Vedas; catvarah—four; uddhrtah—made into separate parts; itihasa—historical records (Mahabharata); puranam ca—and the Puranas; pancamah—the fifth; vedah—the original source of knowledge; ucyate—is said to be.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The four divisions of the original sources of knowledge (the Vedas) were made separately.</p>
+<p>But the historical facts and authentic stories mentioned in the Puranas are called the fifth Veda.</p>
+
+
+
+<p><strong>1.4.21</strong></p>
+<p>tatrarg-veda-dharah pailah</p>
+<p>samago jaiminih kavih</p>
+<p>vaisampayana evaiko</p>
+<p>nisnato yajusam uta</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatra—thereupon; rg-veda-dharah—the professor of the Rg Veda; pailah—the rsi named Paila; sama-gah—that of the Sama Veda; jaiminih—the rsi named Jaimini; kavih—highly qualified; vaisampayanah—the rsi named Vaisampayana; eva—only; ekah—alone; nisnatah—well versed; yajusam—of the Yajur Veda; uta—glorified.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>After the Vedas were divided into four divisions, Paila Rsi became the professor of the Rg Veda, Jaimini the professor of the Sama Veda, and Vaisampayana alone became glorified by the Yajur Veda.</p>
+<p><strong>PURPORT</strong></p>
+<p>The different Vedas were entrusted to different learned scholars for development in various ways.</p>
+
+
+
+<p><strong>1.4.22</strong></p>
+<p>atharvangirasam asit</p>
+<p>sumantur daruno munih</p>
+<p>itihasa-purananam</p>
+<p>pita me romaharsanah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atharva—the Atharva Veda; angirasam—unto the rsi Angira; asit—was entrusted; sumantuh—also known as Sumantu Muni; darunah—seriously devoted to the Atharva Veda; munih—the sage; itihasa-purananam—of the historical records and the Puranas; pita—father; me—mine; romaharsanah—the rsi Romaharsana.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Sumantu Muni Angira, who was very devotedly engaged, was entrusted with the Atharva Veda.</p>
+<p>And my father, Romaharsana, was entrusted with the Puranas and historical record</p>
+<p><strong>PURPORT</strong></p>
+<p>In the sruti-mantras also it is stated that Angira Muni, who strictly followed the rigid principles of the Atharva Vedas, was the leader of the followers of the Atharva Vedas.</p>
+
+
+
+<p><strong>1.4.23</strong></p>
+<p>ta eta rsayo vedam</p>
+<p>svam svam vyasyann anekadha</p>
+<p>sisyaih prasisyais tac-chisyair</p>
+<p>vedas te sakhino ’bhavan</p>
+<p><strong>SYNONYMS</strong></p>
+<p>te—they; ete—all these; rsayah—learned scholars; vedam—the respective Vedas; svam svam—in their own entrusted matters; vyasyan—rendered; anekadha—many; sisyaih—disciples; prasisyaih—grand-disciples; tat-sisyaih—great grand-disciples; vedah te—followers of the respective Vedas; sakhinah—different branches; abhavan—thus became.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>All these learned scholars, in their turn, rendered their entrusted Vedas unto their many disciples, grand-disciples and great grand-disciples, and thus the respective branches of the followers of the Vedas came into being.</p>
+<p><strong>PURPORT</strong></p>
+<p>The original source of knowledge is the Vedas.</p>
+<p>There are no branches of knowledge, either mundane or transcendental, which do not belong to the original text of the Vedas.</p>
+<p>They have simply been developed into different branches, They were originally rendered by great, respectable and learned professors.</p>
+<p>In other words, the Vedic knowledge, broken into different branches by different disciplic successions, has been distributed all over the world.</p>
+<p>No one, therefore, can claim independent knowledge beyond the Vedas.</p>
+
+
+
+<p><strong>1.4.24</strong></p>
+<p>ta eva veda durmedhair</p>
+<p>dharyante purusair yatha</p>
+<p>evam cakara bhagavan</p>
+<p>vyasah krpana-vatsalah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>te—that; eva—certainly; vedah—the book of knowledge; durmedhaih—by the less intellectual; dharyante—can assimilate; purusaih—by the man; yatha—as much as; evam—thus; cakara—edited; bhagavan—the powerful; vyasah—the great sage of Vyasa; krpana-vatsalah—very kind to the ignorant mass.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thus the great sage Vyasadeva, who is very kind to the ignorant masses, edited the Vedas so they might be assimilated by less intellectual men.</p>
+<p><strong>PURPORT</strong></p>
+<p>The Veda is one, and the reasons for its divisions in many parts are explained herewith.</p>
+<p>The seed of all knowledge, or the Veda, is not a subject matter which can easily be understood by any ordinary man.</p>
+<p>There is a stricture that no one should try to learn the Vedas who is not a qualified brahmana.</p>
+<p>This stricture has been wrongly interpreted in so many ways.</p>
+<p>A class of men, who claim brahminical qualification simply by their birthright in the family of a brahmana, claim that the study of the Vedas is a monopoly of the brahmana caste only.</p>
+<p>Another section of the people take this as an injustice to members of other castes, who do not happen to take birth in a brahmana family.</p>
+<p>But both of them are misguided.</p>
+<p>The Vedas are subjects which had to be explained even to Brahmaji by the Supreme Lord.</p>
+<p>Therefore the subject matter is understood by persons with exceptional qualities of goodness.</p>
+<p>Persons who are in the modes of passion and ignorance are unable to understand the subject matter of the Vedas.</p>
+<p>The ultimate goal of Vedic knowledge is Sri Krsna, the Personality of Godhead.</p>
+<p>This Personality is very rarely understood by those who are in the modes of passion and ignorance.</p>
+<p>In the Satya-yuga everyone was situated in the mode of goodness.</p>
+<p>Gradually the mode of goodness declined during the Treta and Dvapara-yugas, and the general mass of people became corrupt.</p>
+<p>In the present age the mode of goodness is almost nil, and so for the general mass of people, the kindhearted, powerful sage Srila Vyasadeva divided the Vedas in various ways so that they may be practically followed by less intelligent persons in the modes of passion and ignorance.</p>
+<p>It is explained in the next sloka as follows.</p>
+
+
+
+<p><strong>1.4.25</strong></p>
+<p>stri-sudra-dvijabandhunam</p>
+<p>trayi na sruti-gocara</p>
+<p>karma-sreyasi mudhanam</p>
+<p>sreya evam bhaved iha</p>
+<p>iti bharatam akhyanam</p>
+<p>krpaya munina krtam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>stri—the woman class; sudra—the laboring class; dvija-bandhunam—of the friends of the twice-born; trayi—three; na—not; sruti-gocara—for understanding; karma—in activities; sreyasi—in welfare; mudhanam—of the fools; sreyah—supreme benefit; evam—thus; bhavet—achieved; iha—by this; iti—thus thinking; bharatam—the great Mahabharata; akhyanam—historical facts; krpaya—out of great mercy; munina—by the muni; krtam—is completed.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Out of compassion, the great sage thought it wise that this would enable men to achieve the ultimate goal of life.</p>
+<p>Thus he compiled the great historical narration called the Mahabharata for women, laborers and friends of the twice-born.</p>
+<p><strong>PURPORT</strong></p>
+<p>The friends of the twice-born families are those who are born in the families of brahmanas, ksatriyas and vaisyas, or the spiritually cultured families, but who themselves are not equal to their forefathers.</p>
+<p>Such descendants are not recognized as such, for want of purificatory achievements.</p>
+<p>The purificatory activities begin even before the birth of a child, and the seed-giving reformatory process is called Garbhadhana-samskara.</p>
+<p>One who has not undergone such Garbhadhana-samskara, or spiritual family planning, is not accepted as being of an actual twice-born family.</p>
+<p>The Garbhadhana-samskara is followed by other purificatory processes, out of which the sacred thread ceremony is one.</p>
+<p>This is performed at the time of spiritual initiation.</p>
+<p>After this particular samskara, one is rightly called twice-born.</p>
+<p>One birth is calculated during the seed-giving samskara, and the second birth is calculated at the time of spiritual initiation.</p>
+<p>One who has been able to undergo such important samskaras can be called a bona fide twice-born.</p>
+<p>If the father and the mother do not undertake the process of spiritual family planning and simply beget children out of passion only, their children are called dvija-bandhus.</p>
+<p>These dvija-bandhus are certainly not as intelligent as the children of the regular twice-born families.</p>
+<p>The dvija-bandhus are classified with the sudras and the woman class, who are by nature less intelligent.</p>
+<p>The sudras and the woman class do not have to undergo any samskara save and except the ceremony of marriage.</p>
+<p>The less intelligent classes of men, namely women, sudras and unqualified sons of the higher castes, are devoid of necessary qualifications to understand the purpose of the transcendental Vedas.</p>
+<p>For them the Mahabharata was prepared.</p>
+<p>The purpose of the Mahabharata is to administer the purpose of the Vedas, and therefore within this Mahabharata the summary Veda of Bhagavad-gita is placed.</p>
+<p>The less intelligent are more interested in stories than in philosophy, and therefore the philosophy of the Vedas in the form of the Bhagavad-gita is spoken by the Lord Sri Krsna.</p>
+<p>Vyasadeva and Lord Krsna are both on the transcendental plane, and therefore they collaborated in doing good to the fallen souls of this age.</p>
+<p>The Bhagavad-gita is the essence of all Vedic knowledge.</p>
+<p>It is the first book of spiritual values, as the Upanisads are.</p>
+<p>The Vedanta philosophy is the subject matter for study by the spiritual graduates.</p>
+<p>Only the post-graduate spiritual student can enter into the spiritual or devotional service of the Lord.</p>
+<p>It is a great science, and the great professor is the Lord Himself in the form of Lord Sri Caitanya Mahaprabhu.</p>
+<p>And persons who are empowered by Him can initiate others in the transcendental loving service of the Lord.</p>
+
+
+
+<p><strong>1.4.26</strong></p>
+<p>evam pravrttasya sada</p>
+<p>bhutanam sreyasi dvijah</p>
+<p>sarvatmakenapi yada</p>
+<p>natusyad dhrdayam tatah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>evam—thus; pravrttasya—one who is engaged in; sada—always; bhutanam—of the living beings; sreyasi—in the ultimate good; dvijah—O twice-born; sarvatmakena api—by all means; yada—when; na—not; atusyat—become satisfied; hrdayam—mind; tatah—at that.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O twice-born brahmanas, still his mind was not satisfied, although he engaged himself in working for the total welfare of all people.</p>
+<p><strong>PURPORT</strong></p>
+<p>Sri Vyasadeva was not satisfied with himself, although he had prepared literatures of Vedic value for the all-around welfare of the general mass of people.</p>
+<p>It was expected that he would be satisfied by all such activities, but ultimately he was not satisfied.</p>
+
+
+
+<p><strong>1.4.27</strong></p>
+<p>natiprasidad dhrdayah</p>
+<p>sarasvatyas tate sucau</p>
+<p>vitarkayan vivikta-stha</p>
+<p>idam covaca dharma-vit</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—not; atiprasidat—very much satisfied; hrdayah—at heart; sarasvatyah—of the River Sarasvati; tate—on the bank of; sucau—being purified; vitarkayan—having considered; vivikta-sthah—situated in a lonely place; idam ca—also this; uvaca—said; dharma-vit—one who knows what religion is.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thus the sage, being dissatisfied at heart, at once began to reflect, because he knew the essence of religion, and he said within himself:</p>
+<p><strong>PURPORT</strong></p>
+<p>The sage began to search out the cause of not being satisfied at heart.</p>
+<p>Perfection is never attained until one is satisfied at heart.</p>
+<p>This satisfaction of heart has to be searched out beyond matter.</p>
+
+
+
+<p><strong>1.4.28-29</strong></p>
+<p>dhrta-vratena hi maya</p>
+<p>chandamsi guravo ’gnayah</p>
+<p>manita nirvyalikena</p>
+<p>grhitam canusasanam</p>
+<p>bharata-vyapadesena</p>
+<p>hy amnayarthas ca pradarsitah</p>
+<p>drsyate yatra dharmadi</p>
+<p>stri-sudradibhir apy uta</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dhrta-vratena—under a strict disciplinary vow; hi—certainly; maya—by me; chandamsi—the Vedic hymns; guravah—the spiritual masters; agnayah—the sacrificial fire; manitah—properly worshiped; nirvyalikena—without pretense; grhitam ca—also accepted; anusasanam—traditional discipline; bharata—the Mahabharata; vyapadesena—by compilation of; hi—certainly; amnaya-arthah—import of disciplic succession; ca—and; pradarsitah—properly explained; drsyate—by what is necessary; yatra—where; dharma-adih—the path of religion; stri-sudra-adibhih api—even by women, sudras, etc.; uta—spoken.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>I have, under strict disciplinary vows, unpretentiously worshiped the Vedas, the spiritual master and the altar of sacrifice.</p>
+<p>I have also abided by the rulings and have shown the import of disciplic succession through the explanation of the Mahabharata, by which even women, sudras and others (friends of the twice-born) can see the path of religion.</p>
+<p><strong>PURPORT</strong></p>
+<p>No one can understand the import of the Vedas without having undergone a strict disciplinary vow and disciplic succession.</p>
+<p>The Vedas, spiritual masters and sacrificial fire must be worshiped by the desiring candidate.</p>
+<p>All these intricacies of Vedic knowledge are systematically presented in the Mahabharata for the understanding of the woman class, the laborer class and the unqualified members of brahmana, ksatriya or vaisya families.</p>
+<p>In this age, the Mahabharata is more essential than the original Vedas.</p>
+
+
+
+<p><strong>1.4.30</strong></p>
+<p>tathapi bata me daihyo</p>
+<p>hy atma caivatmana vibhuh</p>
+<p>asampanna ivabhati</p>
+<p>brahma-varcasya sattamah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tathapi—although; bata—defect; me—mine; daihyah—situated in the body; hi—certainly; atma—living being; ca—and; eva—even; atmana—myself; vibhuh—sufficient; asampannah—wanting in; iva abhati—it appears to be; brahma-varcasya—of the Vedantists; sattamah—the supreme.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>I am feeling incomplete, though I myself am fully equipped with everything required by the Vedas.</p>
+<p><strong>PURPORT</strong></p>
+<p>Undoubtedly Srila Vyasadeva was complete in all the details of Vedic achievements.</p>
+<p>Purification of the living being submerged in matter is made possible by the prescribed activities in the Vedas, but the ultimate achievement is different.</p>
+<p>Unless it is attained, the living being, even though fully equipped, cannot be situated in the transcendentally normal stage.</p>
+<p>Srila Vyasadeva appeared to have lost the clue and therefore felt dissatisfaction.</p>
+
+
+
+<p><strong>1.4.31</strong></p>
+<p>kim va bhagavata dharma</p>
+<p>na prayena nirupitah</p>
+<p>priyah paramahamsanam</p>
+<p>ta eva hy acyuta-priyah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kim va—or; bhagavatah dharmah—devotional activities of the living beings; na—not; prayena—almost; nirupitah—directed; priyah—dear; paramahamsanam—of the perfect beings; te eva—that also; hi—certainly; acyuta—the infallible; priyah—attractive.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>This may be because I did not specifically point out the devotional service of the Lord, which is dear both to perfect beings and to the infallible Lord.</p>
+<p><strong>PURPORT</strong></p>
+<p>The dissatisfaction which was being felt by Srila Vyasadeva is expressed herein in his own words.</p>
+<p>This was felt for the normal condition of the living being in the devotional service of the Lord.</p>
+<p>Unless one is fixed in the normal condition of service, neither the Lord nor the living being can become fully satisfied.</p>
+<p>This defect was felt by him when Narada Muni, his spiritual master, reached him.</p>
+<p>It is described as follows.</p>
+
+
+
+<p><strong>1.4.32</strong></p>
+<p>tasyaivam khilam atmanam</p>
+<p>manyamanasya khidyatah</p>
+<p>krsnasya narado ’bhyagad</p>
+<p>asramam prag udahrtam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasya—his; evam—thus; khilam—inferior; atmanam—soul; manyamanasya—thinking within the mind; khidyatah—regretting; krsnasya—of Krsna-dvaipayana Vyasa; naradah abhyagat—Narada came there; asramam—the cottage; prak—before; udahrtam—said.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>As mentioned before, Narada reached the cottage of Krsna-dvaipayana Vyasa on the banks of the Sarasvati just as Vyasadeva was regretting his defects.</p>
+<p><strong>PURPORT</strong></p>
+<p>The vacuum felt by Vyasadeva was not due to his lack of knowledge.Bhagavata-dharma is purely devotional service of the Lord to which the monist has no access.</p>
+<p>The monist is not counted amongst the paramahamsas (the most perfect of the renounced order of life).</p>
+<p>Srimad-Bhagavatam is full of narrations of the transcendental activities of the Personality of Godhead.</p>
+<p>Although Vyasadeva was an empowered divinity, he still felt dissatisfaction because in none of his works were the transcendental activities of the Lord properly explained.</p>
+<p>The inspiration was infused by Sri Krsna directly in the heart of Vyasadeva, and thus he felt the vacuum as explained above.</p>
+<p>It is definitely expressed herewith that without the transcendental loving service of the Lord, everything is void; but in the transcendental service of the Lord, everything is tangible without any separate attempt at fruitive work or empiric philosophical speculation.</p>
+
+
+
+<p><strong>1.4.33</strong></p>
+<p>tam abhijnaya sahasa</p>
+<p>pratyutthayagatam munih</p>
+<p>pujayam asa vidhivan</p>
+<p>naradam sura-pujitam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tam abhijnaya—seeing the good fortune of his (Narada’s) arrival; sahasa—all of a sudden; pratyutthaya—getting up; agatam—arrived at; munih—Vyasadeva; pujayam asa—worship; vidhi-vat—with the same respect as offered to Vidhi (Brahma); naradam—to Narada; sura-pujitam—worshiped by the demigods.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>At the auspicious arrival of Sri Narada, Sri Vyasadeva got up respectfully and worshiped him, giving him veneration equal to that given to Brahmaji, the creator.</p>
+<p><strong>PURPORT</strong></p>
+<p>Vidhi means Brahma, the first created living being.</p>
+<p>He is the original student as well as professor of the Vedas.</p>
+<p>He learned it from Sri Krsna and taught Narada first.</p>
+<p>So Narada is the second acarya in the line of spiritual disciplic succession.</p>
+<p>He is the representative of Brahma, and therefore he is respected exactly like Brahma, the father of all vidhis (regulations); similarly all other successive disciples in the chain are also equally respected as representatives of the original spiritual master.</p>
+
+
+</article></body></html>

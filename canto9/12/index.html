@@ -1,155 +1,42 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>The Dynasty of Kusa, the Son of Lord Ramacandra - The Dynasty of Kusa, the Son of Lord Ramacandra</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">The Dynasty of Kusa, the Son of Lord Ramacandra</a></li><li class="affix"><a href="9.12.2.html">9.12.2</a></li><li class="affix"><a href="9.12.3-4.html">9.12.3-4</a></li><li class="affix"><a href="9.12.5.html">9.12.5</a></li><li class="affix"><a href="9.12.6.html">9.12.6</a></li><li class="affix"><a href="9.12.7.html">9.12.7</a></li><li class="affix"><a href="9.12.8.html">9.12.8</a></li><li class="affix"><a href="9.12.9.html">9.12.9</a></li><li class="affix"><a href="9.12.10.html">9.12.10</a></li><li class="affix"><a href="9.12.11.html">9.12.11</a></li><li class="affix"><a href="9.12.12.html">9.12.12</a></li><li class="affix"><a href="9.12.13.html">9.12.13</a></li><li class="affix"><a href="9.12.14.html">9.12.14</a></li><li class="affix"><a href="9.12.15.html">9.12.15</a></li><li class="affix"><a href="9.12.16.html">9.12.16</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">The Dynasty of Kusa, the Son of Lord Ramacandra</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#the-dynasty-of-kusa-the-son-of-lord-ramacandra" id="the-dynasty-of-kusa-the-son-of-lord-ramacandra">The Dynasty of Kusa, the Son of Lord Ramacandra</a></h1>
-<h2><a class="header" href="#summary" id="summary">Summary</a></h2>
-<h3><a class="header" href="#912" id="912">9.12</a></h3>
+<h1>The Dynasty of Kusa, the Son of Lord Ramacandra</h1>
+<h2>Summary</h2>
+<p><strong>9.12</strong></p>
 <p>This chapter describes the dynasty of Kusa, the son of Lord Ramacandra.</p>
 <p>The members of this dynasty are descendants of Sasada, the son of Maharaja Iksvaku.</p>
 <p>Following in the genealogical table of Lord Ramacandra’s dynasty, Kusa, the Lord’s son, was followed consecutively by Atithi, Nisadha, Nabha, Pundarika, Ksemadhanva, Devanika, Aniha, Pariyatra, Balasthala, Vajranabha, Sagana and Vidhrti.</p>
@@ -163,7 +50,7 @@
 <p>The future descendants of Brhadbala will be Brhadrana, Urukriya, Vatsavrddha, Prativyoma, Bhanu, Divaka, Sahadeva, Brhadasva, Bhanuman, Pratikasva, Supratika, Marudeva, Sunaksatra, Puskara, Antariksa, Sutapa, Amitrajit, Brhadraja, Barhi, Krtanjaya, Rananjaya, Sanjaya, Sakya, Suddhoda, Langala, Prasenajit, Ksudraka, Ranaka, Suratha and Sumitra.</p>
 <p>All of them will become kings one after another.</p>
 <p>Sumitra, coming in this age of Kali, will be the last king in the Iksvaku dynasty; after him, the dynasty will be extinguished.</p>
-<h3><a class="header" href="#9121" id="9121">9.12.1</a></h3>
+<p><strong>9.12.1</strong></p>
 <p>sri-suka uvaca</p>
 <p>kusasya catithis tasman</p>
 <p>nisadhas tat-suto nabhah</p>
@@ -175,63 +62,204 @@
 <p>Sukadeva Gosvami said: The son of Ramacandra was Kusa, the son of Kusa was Atithi, the son of Atithi was Nisadha, and the son of Nisadha was Nabha.</p>
 <p>The son of Nabha was Pundarika, and from Pundarika came a son named Ksemadhanva.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="9.12.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>9.12.2</strong></p>
+<p>devanikas tato ’nihah</p>
+<p>pariyatro ’tha tat-sutah</p>
+<p>tato balasthalas tasmad</p>
+<p>vajranabho ’rka-sambhavah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>devanikah—Devanika; tatah—from Ksemadhanva; anihah—from Devanika came the son named Aniha; pariyatrah—Pariyatra; atha—thereafter; tat-sutah—the son of Aniha; tatah—from Pariyatra; balasthalah—Balasthala; tasmat—from Balasthala; vajranabhah—Vajranabha; arka-sambhavah—derived from the sun-god.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Ksemadhanva was Devanika, Devanika’s son was Aniha, Aniha’s son was Pariyatra, and Pariyatra’s son was Balasthala.</p>
+<p>The son of Balasthala was Vajranabha, who was said to have been born from the effulgence of the sun-god.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="9.12.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>9.12.3-4</strong></p>
+<p>saganas tat-sutas tasmad</p>
+<p>vidhrtis cabhavat sutah</p>
+<p>tato hiranyanabho ’bhud</p>
+<p>yogacaryas tu jaimineh</p>
+<p>sisyah kausalya adhyatmam</p>
+<p>yajnavalkyo ’dhyagad yatah</p>
+<p>yogam mahodayam rsir</p>
+<p>hrdaya-granthi-bhedakam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>saganah—Sagana; tat—this (Vajranabha’s); sutah—son; tasmat—from him; vidhrtih—Vidhrti; ca—also; abhavat—was born; sutah—his son; tatah—from him; hiranyanabhah—Hiranyanabha; abhut—became; yoga-acaryah—the propounder of the philosophy of yoga; tu—but; jaimineh—because of accepting Jaimini as his spiritual master; sisyah—disciple; kausalyah—Kausalya; adhyatmam—spiritual; yajnavalkyah—Yajnavalkya; adhyagat—studied; yatah—from him (Hiranyanabha); yogam—the mystic performances; maha-udayam—highly elevated; rsih—Yajnavalkya Rsi; hrdaya-granthi-bhedakam—mystic yoga, which can loosen the knots of material attachment in the heart.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Vajranabha was Sagana, and his son was Vidhrti.</p>
+<p>The son of Vidhrti was Hiranyanabha, who became a disciple of Jaimini and became a great acarya of mystic yoga.</p>
+<p>It is from Hiranyanabha that the great saint Yajnavalkya learned the highly elevated system of mystic yoga known as adhyatma-yoga, which can loosen the knots of material attachment in the heart.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>9.12.5</strong></p>
+<p>puspo hiranyanabhasya</p>
+<p>dhruvasandhis tato ’bhavat</p>
+<p>sudarsano ’thagnivarnah</p>
+<p>sighras tasya maruh sutah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>puspah—Puspa; hiranyanabhasya—the son of Hiranyanabha; dhruvasandhih—Dhruvasandhi; tatah—from him; abhavat—was born; sudarsanah—from Dhruvasandhi, Sudarsana was born; atha—thereafter; agnivarnah—Agnivarna, the son of Sudarsana; sighrah—Sighra; tasya—his (Agnivarna’s); maruh—Maru; sutah—son.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Hiranyanabha was Puspa, and the son of Puspa was Dhruvasandhi.</p>
+<p>The son of Dhruvasandhi was Sudarsana, whose son was Agnivarna.</p>
+<p>The son of Agnivarna was named Sighra, and his son was Maru.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>9.12.6</strong></p>
+<p>so ’sav aste yoga-siddhah</p>
+<p>kalapa-gramam asthitah</p>
+<p>kaler ante surya-vamsam</p>
+<p>nastam bhavayita punah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—he; asau—the personality known as Maru; aste—still existing; yoga-siddhah—perfection in the power of mystic yoga; kalapa-gramam—the place named Kalapa-grama; asthitah—he is still living there; kaleh—of this Kali-yuga; ante—at the end; surya-vamsam—the descendants of the sun-god; nastam—after being lost; bhavayita—Maru will begin by begetting a son; punah—again.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Having achieved perfection in the power of mystic yoga, Maru still lives in a place known as Kalapa-grama.</p>
+<p>At the end of Kali-yuga, he will revive the lost Surya dynasty by begetting a son.</p>
+<p><strong>PURPORT</strong></p>
+<p>At least five thousand years ago, Srila Sukadeva Gosvami ascertained the existence of Maru in Kalapa-grama and said that Maru, having achieved a yoga-siddha body, would continue to exist until the end of Kali-yuga, which is calculated to continue for 432,000 years.</p>
+<p>Such is the perfection of mystic power.</p>
+<p>By controlling the breath, the perfect yogi can continue his life for as long as he likes.</p>
+<p>Sometimes we hear from the Vedic literature that some personalities from the Vedic age, such as Vyasadeva and Asvatthama, are still living.</p>
+<p>Here we understand that Maru is also still living.</p>
+<p>We are sometimes surprised that a mortal body can live for such a long time.</p>
+<p>The explanation of this longevity is given here by the word yoga-siddha.</p>
+<p>If one becomes perfect in the practice of yoga, he can live as long as he likes.</p>
+<p>The demonstration of some trifling yoga-siddha does not constitute perfection.</p>
+<p>Here is a factual example of perfection: a yoga-siddha can live as long as he likes.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>9.12.7</strong></p>
+<p>tasmat prasusrutas tasya</p>
+<p>sandhis tasyapy amarsanah</p>
+<p>mahasvams tat-sutas tasmad</p>
+<p>visvabahur ajayata</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasmat—from Maru; prasusrutah—Prasusruta, his son; tasya—of Prasusruta; sandhih—a son named Sandhi; tasya—his (Sandhi’s); api—also; amarsanah—a son named Amarsana; mahasvan—the son of Amarsana; tat—his; sutah—son; tasmat—from him (Mahasvan); visvabahuh—Visvabahu; ajayata—took birth.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>From Maru was born a son named Prasusruta, from Prasusruta came Sandhi, from Sandhi came Amarsana, and from Amarsana a son named Mahasvan.</p>
+<p>From Mahasvan, Visvabahu took his birth.</p>
+
+
+
+<p><strong>9.12.8</strong></p>
+<p>tatah prasenajit tasmat</p>
+<p>taksako bhavita punah</p>
+<p>tato brhadbalo yas tu</p>
+<p>pitra te samare hatah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—from Visvabahu; prasenajit—a son named Prasenajit was born; tasmat—from him; taksakah—Taksaka; bhavita—would take birth; punah—again; tatah—from him; brhadbalah—a son named Brhadbala; yah—he who; tu—but; pitra—by father; te—your; samare—in the fight; hatah—killed.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>From Visvabahu came a son named Prasenajit, from Prasenajit came Taksaka, and from Taksaka came Brhadbala, who was killed in a fight by your father.</p>
+
+
+
+<p><strong>9.12.9</strong></p>
+<p>ete hiksvaku-bhupala</p>
+<p>atitah srnv anagatan</p>
+<p>brhadbalasya bhavita</p>
+<p>putro namna brhadranah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ete—all of them; hi—indeed; iksvaku-bhupalah—kings in the dynasty of Iksvaku; atitah—all of them are dead and gone; srnu—just hear; anagatan—those who will come in the future; brhadbalasya—of Brhadbala; bhavita—there will be; putrah—a son; namna—by the name; brhadranah—Brhadrana.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>All these kings in the dynasty of Iksvaku have passed away.</p>
+<p>Now please listen as I describe the kings who will be born in the future.</p>
+<p>From Brhadbala will come Brhadrana.</p>
+
+
+
+<p><strong>9.12.10</strong></p>
+<p>urukriyah sutas tasya</p>
+<p>vatsavrddho bhavisyati</p>
+<p>prativyomas tato bhanur</p>
+<p>divako vahini-patih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>urukriyah—Urukriya; sutah—son; tasya—of Urukriya; vatsavrddhah—Vatsavrddha; bhavisyati—will take birth; prativyomah—Prativyoma; tatah—from Vatsavrddha; bhanuh—(from Prativyoma) a son named Bhanu; divakah—from Bhanu a son named Divaka; vahini-patih—a great commander of soldiers.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Brhadrana will be Urukriya, who will have a son named Vatsavrddha.</p>
+<p>Vatsavrddha will have a son named Prativyoma, and Prativyoma will have a son named Bhanu, from whom Divaka, a great commander of soldiers, will take birth.</p>
+
+
+
+<p><strong>9.12.11</strong></p>
+<p>sahadevas tato viro</p>
+<p>brhadasvo ’tha bhanuman</p>
+<p>pratikasvo bhanumatah</p>
+<p>supratiko ’tha tat-sutah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sahadevah—Sahadeva; tatah—from Divaka; virah—a great hero; brhadasvah—Brhadasva; atha—from him; bhanuman—Bhanuman; pratikasvah—Pratikasva; bhanumatah—from Bhanuman; supratikah—Supratika; atha—thereafter; tat-sutah—the son of Pratikasva.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, from Divaka will come a son named Sahadeva, and from Sahadeva a great hero named Brhadasva.</p>
+<p>From Brhadasva will come Bhanuman, and from Bhanuman will come Pratikasva.</p>
+<p>The son of Pratikasva will be Supratika.</p>
+
+
+
+<p><strong>9.12.12</strong></p>
+<p>bhavita marudevo ’tha</p>
+<p>sunaksatro ’tha puskarah</p>
+<p>tasyantariksas tat-putrah</p>
+<p>sutapas tad amitrajit</p>
+<p><strong>SYNONYMS</strong></p>
+<p>bhavita—will be born; marudevah—Marudeva; atha—thereafter; sunaksatrah—Sunaksatra; atha—thereafter; puskarah—Puskara, a son of Sunaksatra; tasya—of Puskara; antariksah—Antariksa; tat-putrah—his son; sutapah—Sutapa; tat—from him; amitrajit—a son named Amitrajit.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, from Supratika will come Marudeva; from Marudeva, Sunaksatra; from Sunaksatra, Puskara; and from Puskara, Antariksa.</p>
+<p>The son of Antariksa will be Sutapa, and his son will be Amitrajit.</p>
+
+
+
+<p><strong>9.12.13</strong></p>
+<p>brhadrajas tu tasyapi</p>
+<p>barhis tasmat krtanjayah</p>
+<p>rananjayas tasya sutah</p>
+<p>sanjayo bhavita tatah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>brhadrajah—Brhadraja; tu—but; tasya api—of Amitrajit; barhih—Barhi; tasmat—from Barhi; krtanjayah—Krtanjaya; rananjayah—Rananjaya; tasya—of Krtanjaya; sutah—son; sanjayah—Sanjaya; bhavita—will take birth; tatah—from Rananjaya.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>From Amitrajit will come a son named Brhadraja, from Brhadraja will come Barhi, and from Barhi will come Krtanjaya.</p>
+<p>The son of Krtanjaya will be known as Rananjaya, and from him will come a son named Sanjaya.</p>
+
+
+
+<p><strong>9.12.14</strong></p>
+<p>tasmac chakyo ’tha suddhodo</p>
+<p>langalas tat-sutah smrtah</p>
+<p>tatah prasenajit tasmat</p>
+<p>ksudrako bhavita tatah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasmat—from Sanjaya; sakyah—Sakya; atha—thereafter; suddhodah—Suddhoda; langalah—Langala; tat-sutah—the son of Suddhoda; smrtah—is well known; tatah—from him; prasenajit—Prasenajit; tasmat—from Prasenajit; ksudrakah—Ksudraka; bhavita—will take birth; tatah—thereafter.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>From Sanjaya will come Sakya, from Sakya will come Suddhoda, and from Suddhoda will come Langala.</p>
+<p>From Langala will come Prasenajit, and from Prasenajit, Ksudraka.</p>
+
+
+
+<p><strong>9.12.15</strong></p>
+<p>ranako bhavita tasmat</p>
+<p>surathas tanayas tatah</p>
+<p>sumitro nama nisthanta</p>
+<p>ete barhadbalanvayah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ranakah—Ranaka; bhavita—will take birth; tasmat—from Ksudraka; surathah—Suratha; tanayah—the son; tatah—thereafter; sumitrah—Sumitra, the son of Suratha; nama—by the name; nistha-antah—the end of the dynasty; ete—all the above-mentioned kings; barhadbala-anvayah—in the dynasty of King Brhadbala.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>From Ksudraka will come Ranaka, from Ranaka will come Suratha, and from Suratha will come Sumitra, ending the dynasty.</p>
+<p>This is a description of the dynasty of Brhadbala.</p>
+
+
+
+<p><strong>9.12.16</strong></p>
+<p>iksvakunam ayam vamsah</p>
+<p>sumitranto bhavisyati</p>
+<p>yatas tam prapya rajanam</p>
+<p>samstham prapsyati vai kalau</p>
+<p><strong>SYNONYMS</strong></p>
+<p>iksvakunam—of the dynasty of King Iksvaku; ayam—this (what has been described); vamsah—descendants; sumitra-antah—Sumitra being the last king of this dynasty; bhavisyati—will appear in the future, while the Kali-yuga still continues; yatah—because; tam—him, Maharaja Sumitra; prapya—getting; rajanam—as a king in that dynasty; samstham—culmination; prapsyati—gets; vai—indeed; kalau—at the end of Kali-yuga.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The last king in the dynasty of Iksvaku will be Sumitra; after Sumitra there will be no more sons in the dynasty of the sun-god, and thus the dynasty will end.</p>
+
+
+</article></body></html>

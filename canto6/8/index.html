@@ -1,155 +1,42 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>The Nārāyaṇa-kavaca Shield - The Nārāyaṇa-kavaca Shield</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">The Nārāyaṇa-kavaca Shield</a></li><li class="affix"><a href="6.8.1-2.html">6.8.1-2</a></li><li class="affix"><a href="6.8.3.html">6.8.3</a></li><li class="affix"><a href="6.8.4-6.html">6.8.4-6</a></li><li class="affix"><a href="6.8.7.html">6.8.7</a></li><li class="affix"><a href="6.8.8-10.html">6.8.8-10</a></li><li class="affix"><a href="6.8.11.html">6.8.11</a></li><li class="affix"><a href="6.8.12.html">6.8.12</a></li><li class="affix"><a href="6.8.13.html">6.8.13</a></li><li class="affix"><a href="6.8.14.html">6.8.14</a></li><li class="affix"><a href="6.8.15.html">6.8.15</a></li><li class="affix"><a href="6.8.16.html">6.8.16</a></li><li class="affix"><a href="6.8.17.html">6.8.17</a></li><li class="affix"><a href="6.8.18.html">6.8.18</a></li><li class="affix"><a href="6.8.19.html">6.8.19</a></li><li class="affix"><a href="6.8.20.html">6.8.20</a></li><li class="affix"><a href="6.8.21.html">6.8.21</a></li><li class="affix"><a href="6.8.22.html">6.8.22</a></li><li class="affix"><a href="6.8.23.html">6.8.23</a></li><li class="affix"><a href="6.8.24.html">6.8.24</a></li><li class="affix"><a href="6.8.25.html">6.8.25</a></li><li class="affix"><a href="6.8.26.html">6.8.26</a></li><li class="affix"><a href="6.8.27-28.html">6.8.27-28</a></li><li class="affix"><a href="6.8.29.html">6.8.29</a></li><li class="affix"><a href="6.8.30.html">6.8.30</a></li><li class="affix"><a href="6.8.31.html">6.8.31</a></li><li class="affix"><a href="6.8.32-33.html">6.8.32-33</a></li><li class="affix"><a href="6.8.34.html">6.8.34</a></li><li class="affix"><a href="6.8.35.html">6.8.35</a></li><li class="affix"><a href="6.8.36.html">6.8.36</a></li><li class="affix"><a href="6.8.37.html">6.8.37</a></li><li class="affix"><a href="6.8.38.html">6.8.38</a></li><li class="affix"><a href="6.8.39.html">6.8.39</a></li><li class="affix"><a href="6.8.40.html">6.8.40</a></li><li class="affix"><a href="6.8.41.html">6.8.41</a></li><li class="affix"><a href="6.8.42.html">6.8.42</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">The Nārāyaṇa-kavaca Shield</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#the-nārāyaṇa-kavaca-shield" id="the-nārāyaṇa-kavaca-shield">The Nārāyaṇa-kavaca Shield</a></h1>
-<h2><a class="header" href="#summary" id="summary">Summary</a></h2>
-<h3><a class="header" href="#68" id="68">6.8</a></h3>
+<h1>The Nārāyaṇa-kavaca Shield</h1>
+<h2>Summary</h2>
+<p><strong>6.8</strong></p>
 <p>This chapter describes how Indra, the King of heaven, was victorious over the soldiers of the demons, and it also describes the shield of the Visnu mantra.</p>
 <p>To take protection from this shield, one must first touch kusa grass and wash one’s mouth with acamana-mantras.</p>
 <p>One should observe silence and then place the eight-syllable Visnu mantra on the parts of his body and place the twelve-syllable mantra on his hands.</p>
@@ -171,63 +58,616 @@
 <p>After offering prayers to the Lord’s personal expansions known as the svamsa and saktyavesa-avataras, one should pray to the weapons of Lord Narayana, such as the Sudarsana, gada, sankha, khadga and bow.</p>
 <p>After explaining this process, Sukadeva Gosvami told Maharaja Pariksit how Visvarupa, the brother of Vrtrasura, described the glories of the Narayana-kavaca to Indra.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="6.8.1-2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>6.8.3</strong></p>
+<p>sri-badarayanir uvaca</p>
+<p>vrtah purohitas tvastro</p>
+<p>mahendrayanuprcchate</p>
+<p>narayanakhyam varmaha</p>
+<p>tad ihaika-manah srnu</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-badarayanih uvaca—Sri Sukadeva Gosvami said; vrtah—the chosen; purohitah—priest; tvastrah—the son of Tvasta; mahendraya—unto King Indra; anuprcchate—after he (Indra) inquired; narayana-akhyam—named Narayana-kavaca; varma—defensive armor made of a mantra; aha—he said; tat—that; iha—this; eka-manah—with great attention; srnu—hear from me.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sri Sukadeva Gosvami said: King Indra, the leader of the demigods, inquired about the armor known as Narayana-kavaca from Visvarupa, who was engaged by the demigods as their priest.</p>
+<p>Please hear Visvarupa’s reply with great attention.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="6.8.1-2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>6.8.4-6</strong></p>
+<p>sri-visvarupa uvaca</p>
+<p>dhautanghri-panir acamya</p>
+<p>sapavitra udan-mukhah</p>
+<p>krta-svanga-kara-nyaso</p>
+<p>mantrabhyam vag-yatah sucih</p>
+<p>narayana-param varma</p>
+<p>sannahyed bhaya agate</p>
+<p>padayor janunor urvor</p>
+<p>udare hrdy athorasi</p>
+<p>mukhe sirasy anupurvyad</p>
+<p>omkaradini vinyaset</p>
+<p>om namo narayanayeti</p>
+<p>viparyayam athapi va</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-visvarupah uvaca—Sri Visvarupa said; dhauta—having completely washed; anghri—feet; panih—hands; acamya—performing acamana (sipping a little water three times after chanting the prescribed mantra); sa-pavitrah—wearing rings made of kusa grass (on the ring finger of each hand); udak-mukhah—sitting facing the north; krta—making; sva-anga-kara-nyasah—mental assignment of the eight parts of the body and twelve parts of the hands; mantrabhyam—with the two mantras (om namo bhagavate vasudevaya and om namo narayanaya); vak-yatah—keeping oneself silent; sucih—being purified; narayana-param—fully intent on Lord Narayana; varma—armor; sannahyet— put on oneself; bhaye—when fear; agate—has come; padayoh—on the two legs; janunoh—on the two knees; urvoh—on the two thighs; udare—on the abdomen; hrdi—on the heart; atha—thus; urasi—on the chest; mukhe—on the mouth; sirasi—on the head; anupurvyat—one after another; omkara-adini—beginning with omkara; vinyaset—one should place; om—the pranava; namah—obeisances; narayanaya— unto Narayana, the Supreme Personality of Godhead; iti—thus; viparyayam—the reverse; atha api—moreover; va—or.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Visvarupa said: If some form of fear arrives, one should first wash his hands and legs clean and then perform acamana by chanting this mantra: om apavitrah pavitro va sarvavastham gato ’pi va/ yah smaret pundarikaksam sa bahyabhyantarah sucih/ sri-visnu sri-visnu sri-visnu.</p>
+<p>Then one should touch kusa grass and sit gravely and silently, facing north.</p>
+<p>When completely purified, one should touch the mantra composed of eight syllables to the eight parts of his body and touch the mantra composed of twelve syllables to his hands.</p>
+<p>Thus, in the following manner, he should bind himself with the Narayana coat of armor.</p>
+<p>First, while chanting the mantra composed of eight syllables (om namo narayanaya), beginning with the pranava, the syllable om, one should touch his hands to eight parts of his body, starting with the two feet and progressing systematically to the knees, thighs, abdomen, heart, chest, mouth and head.</p>
+<p>Then one should chant the mantra in reverse, beginning from the last syllable (ya), while touching the parts of his body in the reverse order.</p>
+<p>These two processes are known as utpatti-nyasa and samhara-nyasa respectively.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>6.8.7</strong></p>
+<p>kara-nyasam tatah kuryad</p>
+<p>dvadasaksara-vidyaya</p>
+<p>pranavadi-ya-karantam</p>
+<p>anguly-angustha-parvasu</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kara-nyasam—the ritual known as kara-nyasa, which assigns the syllables of the mantra to the fingers; tatah—thereafter; kuryat—should execute; dvadasa-aksara—composed of twelve syllables; vidyaya—with the mantra; pranava-adi—beginning with the omkara; ya-kara-antam—ending with the syllable ya; anguli—on the fingers, beginning with the index finger; angustha-parvasu—to the joints of the thumbs.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Then one should chant the mantra composed of twelve syllables (om namo bhagavate vasudevaya).</p>
+<p>Preceding each syllable by the omkara, one should place the syllables of the mantra on the tips of his fingers, beginning with the index finger of the right hand and concluding with the index finger of the left.</p>
+<p>The four remaining syllables should be placed on the joints of the thumbs.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>6.8.8-10</strong></p>
+<p>nyased dhrdaya omkaram</p>
+<p>vi-karam anu murdhani</p>
+<p>sa-karam tu bhruvor madhye</p>
+<p>na-karam sikhaya nyaset</p>
+<p>ve-karam netrayor yunjyan</p>
+<p>na-karam sarva-sandhisu</p>
+<p>ma-karam astram uddisya</p>
+<p>mantra-murtir bhaved budhah</p>
+<p>savisargam phad-antam tat</p>
+<p>sarva-diksu vinirdiset</p>
+<p>om visnave nama iti</p>
+<p><strong>SYNONYMS</strong></p>
+<p>nyaset—should place; hrdaye—on the heart; omkaram—the pranava, omkara; vi-karam—the syllable vi of visnave; anu—thereafter; murdhani—on the top of the head; sa-karam—the syllable sa; tu—and; bhruvoh madhye—between the two eyebrows; na-karam—the syllable na; sikhaya—on the sikha on the head; nyaset—should place; vekaram—the syllable ve; netrayoh—between the two eyes; yunjyat—should be placed; na-karam—the syllable na of the word namah; sarva-sandhisu—on all the joints; ma-karam—the syllable ma of the word namah; astram—a weapon; uddisya—thinking; mantra-murtih—the form of the mantra; bhavet—should become; budhah—an intelligent person; sa-visargam—with the visarga (h); phat-antam—ending with the sound phat; tat—that; sarva-diksu—in all directions; vinirdiset—should fix; om—pranava; visnave—unto Lord Visnu; namah—obeisances; iti—thus.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>One must then chant the mantra of six syllables (om visnave namah).</p>
+<p>One should place the syllable o on his heart, the syllable v on the top of his head, the syllable s between his eyebrows, the syllable n on his tuft of hair (sikha), and the syllable v between his eyes.</p>
+<p>The chanter of the mantra should then place the syllable n on all the joints of his body and meditate on the syllable m as being a weapon.</p>
+<p>He should thus become the perfect personification of the mantra.</p>
+<p>Thereafter, adding visarga to the final syllable ma he should chant the mantra mah astraya pha in all directions, beginning from the east.</p>
+<p>In this way, all directions will be bound by the protective armor of the mantra.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>6.8.11</strong></p>
+<p>atmanam paramam dhyayed</p>
+<p>dhyeyam sat-saktibhir yutam</p>
+<p>vidya-tejas-tapo-murtim</p>
+<p>imam mantram udaharet</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atmanam—the self; paramam—the supreme; dhyayet—one should meditate on; dhyeyam—worthy to be meditated on; sat-saktibhih—the six opulences; yutam—possessed of; vidya—learning; tejah—influence; tapah—austerity; murtim—personified; imam—this; mantram—mantra; udaharet—should chant.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>After finishing this chanting, one should think himself qualitatively one with the Supreme Personality of Godhead, who is full in six opulences and is worthy to be meditated upon.</p>
+<p>Then one should chant the following protective prayer to Lord Narayana, the Narayana-kavaca.</p>
+
+
+
+<p><strong>6.8.12</strong></p>
+<p>om harir vidadhyan mama sarva-raksam</p>
+<p>nyastanghri-padmah patagendra-prsthe</p>
+<p>darari-carmasi-gadesu-capa-</p>
+<p>pasan dadhano ’sta-guno ’sta-bahuh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>om—O Lord; harih—the Supreme Personality of Godhead; vidadhyat—may He bestow; mama—my; sarva-raksam—protection from all sides; nyasta—placed; anghri-padmah—whose lotus feet; patagendra-prsthe—on the back of Garuda, the king of all birds; dara—conchshell; ari—disc; carma—shield; asi—sword; gada—club; isu—arrows; capa—bow; pasan—ropes; dadhanah—holding; asta—possessing eight; gunah—perfections; asta—eight; bahuh—arms.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Supreme Lord, who sits on the back of the bird Garuda, touching him with His lotus feet, holds eight weapons—the conchshell, disc, shield, sword, club, arrows, bow and ropes.</p>
+<p>May that Supreme Personality of Godhead protect me at all times with His eight arms.</p>
+<p>He is all-powerful because He fully possesses the eight mystic powers (anima, laghima, etc.).</p>
+<p><strong>PURPORT</strong></p>
+<p>Thinking oneself one with the Supreme is called ahangrahopasana.</p>
+<p>Through ahangrahopasana one does not become God, but he thinks of himself as qualitatively one with the Supreme.</p>
+<p>Understanding that as a spirit soul he is equal in quality to the supreme soul the way the water of a river is of the same nature as the water of the sea, one should meditate upon the Supreme Lord, as described in this verse, and seek His protection.</p>
+<p>The living entities are always subordinate to the Supreme.</p>
+<p>Consequently their duty is to always seek the mercy of the Lord in order to be protected by Him in all circumstances.</p>
+
+
+
+<p><strong>6.8.13</strong></p>
+<p>jalesu mam raksatu matsya-murtir</p>
+<p>yado-ganebhyo varunasya pasat</p>
+<p>sthalesu mayavatu-vamano ’vyat</p>
+<p>trivikramah khe ’vatu visvarupah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>jalesu—in the water; mam—me; raksatu—protect; matsya-murtih—the Supreme Lord in the form of a great fish; yadah-ganebhyah—from fierce aquatic animals; varunasya—of the demigod known as Varuna; pasat—from the arresting rope; sthalesu—on the land; maya-vatu—the merciful form of the Lord as a dwarf; vamanah—named Vamanadeva; avyat—may He protect; trivikramah—Trivikrama, whose three gigantic steps took the three worlds from Bali; khe—in the sky; avatu—may the Lord protect; visvarupah—the gigantic universal form.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>May the Lord, who assumes the body of a great fish, protect me in the water from the fierce animals that are associates of the demigod Varuna.</p>
+<p>By expanding His illusory energy, the Lord assumed the form of the dwarf Vamana.</p>
+<p>May Vamana protect me on the land.</p>
+<p>Since the gigantic form of the Lord, Visvarupa, conquers the three worlds, may He protect me in the sky.</p>
+<p><strong>PURPORT</strong></p>
+<p>This mantra seeks the protection of the Supreme Personality of Godhead in the water, land and sky in His incarnations as the fish, Vamanadeva and the Visvarupa.</p>
+
+
+
+<p><strong>6.8.14</strong></p>
+<p>durgesv atavy-aji-mukhadisu prabhuh</p>
+<p>payan nrsimho ’sura-yuthaparih</p>
+<p>vimuncato yasya mahatta-hasam</p>
+<p>diso vinedur nyapatams ca garbhah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>durgesu—in places where travel is very difficult; atavi—in the dense forest; aji-mukha-adisu—on the war front and so on; prabhuh—the Supreme Lord; payat—may He protect; nrsimhah—Lord Nrsimhadeva; asura-yuthapa—of Hiranyakasipu, the leader of the demons; arih—the enemy; vimuncatah—releasing; yasya—of whom; maha-atta-hasam—great and fearful laughing; disah—all the directions; vineduh—resounded through; nyapatan—fell down; ca—and; garbhah—the embryos of the wives of the demons.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>May Lord Nrsimhadeva, who appeared as the enemy of Hiranyakasipu, protect me in all directions.</p>
+<p>His loud laughing vibrated in all directions and caused the pregnant wives of the asuras to have miscarriages.</p>
+<p>May that Lord be kind enough to protect me in difficult places like the forest and battlefront.</p>
+
+
+
+<p><strong>6.8.15</strong></p>
+<p>raksatv asau madhvani yajna-kalpah</p>
+<p>sva-damstrayonnita-dharo varahah</p>
+<p>ramo ’dri-kutesv atha vipravase</p>
+<p>salaksmano ’vyad bharatagrajo ’sman</p>
+<p><strong>SYNONYMS</strong></p>
+<p>raksatu—may the Lord protect; asau—that; ma—me; adhvani—on the street; yajna-kalpah—who is ascertained by performance of ritualistic ceremonies; sva-damstraya—by His own tusk; unnita—raising; dharah—the planet earth; varahah—Lord Boar; ramah—Lord Rama; adri-kutesu—on the summits of the mountains; atha—then; vipravase—in foreign countries; sa-laksmanah—with His brother Laksmana; avyat—may He protect; bharata-agrajah—the elder brother of Maharaja Bharata; asman—us.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Supreme indestructible Lord is ascertained through the performance of ritualistic sacrifices and is therefore known as Yajnesvara.</p>
+<p>In His incarnation as Lord Boar, He raised the planet earth from the water at the bottom of the universe and kept it on His pointed tusks.</p>
+<p>May that Lord protect me from rogues on the street.</p>
+<p>May Parasurama protect me on the tops of mountains, and may the elder brother of Bharata, Lord Ramacandra, along with His brother Laksmana, protect me in foreign countries.</p>
+<p><strong>PURPORT</strong></p>
+<p>There are three Ramas.</p>
+<p>One Rama is Parasurama (Jamadagnya) another Rama is Lord Ramacandra, and a third Rama is Lord Balarama.</p>
+<p>In this verse the words ramo’dri-kutesv atha indicate Lord Parasurama.</p>
+<p>The brother of Bharata Maharaja and Laksmana is Lord Ramacandra.</p>
+
+
+
+<p><strong>6.8.16</strong></p>
+<p>mam ugra-dharmad akhilat pramadan</p>
+<p>narayanah patu naras ca hasat</p>
+<p>dattas tv ayogad atha yoga-nathah</p>
+<p>payad gunesah kapilah karma-bandhat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>mam—me; ugra-dharmat—from unnecessary religious principles; akhilat—from all kinds of activities; pramadat—which are enacted in madness; narayanah—Lord Narayana; patu—may He protect; narah ca—and Nara; hasat—from unnecessary pride; dattah—Dattatreya; tu—of course; ayogat—from the path of false yoga; atha—indeed; yoga-nathah—the master of all mystic powers; payat—may He protect; guna-isah—the master of all spiritual qualities; kapilah—Lord Kapila; karma-bandhat—from the bondage of fruitive activities.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>May Lord Narayana protect me from unnecessarily following false religious systems and falling from my duties due to madness.</p>
+<p>May the Lord in His appearance as Nara protect me from unnecessary pride.</p>
+<p>May Lord Dattatreya, the master of all mystic power, protect me from falling while performing bhakti-yoga, and may Lord Kapila, the master of all good qualities, protect me from the material bondage of fruitive activities.</p>
+
+
+
+<p><strong>6.8.17</strong></p>
+<p>sanat-kumaro ’vatu kamadevad</p>
+<p>dhayasirsa mam pathi deva-helanat</p>
+<p>devarsi-varyah purusarcanantarat</p>
+<p>kurmo harir mam nirayad asesat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sanat-kumarah—the great brahmacari named Sanat-kumara; avatu—may he protect; kama-devat—from the hands of Cupid or lusty desire; haya-sirsa—Lord Hayagriva, the incarnation of the Lord whose head is like that of a horse; mam—me; pathi—on the path; deva-helanat—from neglecting to offer respectful obeisances to brahmanas, Vaisnavas and the Supreme Lord; devarsi-varyah—the best of the saintly sages, Narada; purusa-arcana-antarat—from the offenses in worshiping the Deity; kurmah—Lord Kurma, the tortoise; harih—the Supreme Personality of Godhead; mam—me; nirayat—from hell; asesat—unlimited.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>May Sanat-kumara protect me from lusty desires.</p>
+<p>As I begin some auspicious activity, may Lord Hayagriva protect me from being an offender by neglecting to offer respectful obeisances to the Supreme Lord.</p>
+<p>May Devarsi Narada protect me from committing offenses in worshiping the Deity, and may Lord Kurma, the tortoise, protect me from falling to the unlimited hellish planets.</p>
+<p><strong>PURPORT</strong></p>
+<p>Lusty desires are very strong in everyone, and they are the greatest impediment to the discharge of devotional service.</p>
+<p>Therefore those who are very much influenced by lusty desires are advised to take shelter of Sanat-kumara, the great brahmacari devotee.</p>
+<p>Narada Muni, who is the guide for arcana, is the author of the Narada-pancaratra, which prescribes the regulative principles for worshiping the Deity.</p>
+<p>Everyone engaged in Deity worship, whether at home or in the temple, should always seek the mercy of Devarsi Narada in order to avoid the thirty-two offenses while worshiping the Deity.</p>
+<p>These offenses in Deity worship are mentioned in The Nectar of Devotion.</p>
+
+
+
+<p><strong>6.8.18</strong></p>
+<p>dhanvantarir bhagavan patv apathyad</p>
+<p>dvandvad bhayad rsabho nirjitatma</p>
+<p>yajnas ca lokad avataj janantad</p>
+<p>balo ganat krodha-vasad ahindrah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dhanvantarih—the incarnation Dhanvantari, the physician; bhagavan—the Supreme Personality of Godhead; patu—may He protect me; apathyat—from things injurious to the health, such as meat and intoxicants; dvandvat—from duality; bhayat—from fear; rsabhah—Lord Rsabhadeva; nirjita-atma—who fully controlled his mind and self; yajnah—Yajna; ca—and; lokat—from the defamation of the populace; avatat—may He protect; jana-antat—from dangerous positions created by other people; balah—Lord Balarama; ganat—from the hordes of; krodha-vasat—the angry serpents; ahindrah—Lord Balarama in the form of the serpent Sesa Naga.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>May the Supreme Personality of Godhead in His incarnation as Dhanvantari relieve me from undesirable eatables and protect me from physical illness.</p>
+<p>May Lord Rsabhadeva, who conquered His inner and outer senses, protect me from fear produced by the duality of heat and cold.</p>
+<p>May Yajna protect me from defamation and harm from the populace, and may Lord Balarama as Sesa protect me from envious serpents.</p>
+<p><strong>PURPORT</strong></p>
+<p>To live within this material world, one must face many dangers, as described herein.</p>
+<p>For example, undesirable food poses a danger to health, and therefore one must give up such food.</p>
+<p>The Dhanvantari incarnation can protect us in this regard.</p>
+<p>Since Lord Visnu is the Supersoul of all living entities, if He likes He can save us from adhibhautika disturbances, disturbances from other living entities.</p>
+<p>Lord Balarama is the Sesa incarnation, and therefore He can save us from angry serpents or envious persons, who are always ready to attack.</p>
+
+
+
+<p><strong>6.8.19</strong></p>
+<p>dvaipayano bhagavan aprabodhad</p>
+<p>buddhas tu pasanda-gana-pramadat</p>
+<p>kalkih kaleh kala-malat prapatu</p>
+<p>dharmavanayoru-krtavatarah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dvaipayanah—Srila Vyasadeva, the giver of all Vedic knowledge; bhagavan—the most powerful incarnation of the Supreme Personality of Godhead; aprabodhat—from ignorance of the sastra; buddhah tu—also Lord Buddha; pasanda-gana—of atheists creating disillusionment for innocent persons; pramadat—from the madness; kalkih—Lord Kalki, the incarnation of Kesava; kaleh—of this Kali-yuga; kala-malat—from the darkness of the age; prapatu—may He protect; dharma-avanaya—for the protection of religious principles; uru—very great; krta-avatarah—who took an incarnation.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>May the Personality of Godhead in His incarnation as Vyasadeva protect me from all kinds of ignorance resulting from the absence of Vedic knowledge.</p>
+<p>May Lord Buddhadeva protect me from activities opposed to Vedic principles and from laziness that causes one to madly forget the Vedic principles of knowledge and ritualistic action.</p>
+<p>May Kalkideva, the Supreme Personality of Godhead, who appeared as an incarnation to protect religious principles, protect me from the dirt of the age of Kali.</p>
+<p><strong>PURPORT</strong></p>
+<p>This verse mentions various incarnations of the Supreme Personality of Godhead who appear for various purposes.</p>
+<p>Srila Vyasadeva, Mahamuni, compiled the Vedic literature for the benefit of all human society.</p>
+<p>If one wants to be protected from the reactions of ignorance even in this age of Kali, one may consult the books left by Srila Vyasadeva, Upanisads, Vedanta-sutra (Brahma-sutra), Mahabharata, Srimad-Bhagavatam Maha-Purana (Vyasadeva’s commentary on the Brahma-sutra) and the other seventeen Puranas.</p>
+<p>Only by the mercy of Srila Vyasadeva do we have so many volumes of transcendental knowledge to save us from the clutches of ignorance.</p>
+<p>As described by Srila Jayadeva Gosvami in his Dasavatara-stotra, Lord Buddha apparently decried the Vedic knowledge:</p>
+<p>nindasi yajna-vidher ahaha sruti-jatam</p>
+<p>sadaya-hrdaya-darsita-pasu-ghatam</p>
+<p>kesava dhrta-buddha-sarira jaya jagad-isa hare</p>
+<p>The mission of Lord Buddha was to save people from the abominable activity of animal killing and to save the poor animals from being unnecessarily killed.</p>
+<p>When pasandis were cheating by killing animals on the plea of sacrificing them in Vedic yajnas, the Lord said, If the Vedic injunctions allow animal killing, I do not accept the Vedic principles Thus he actually saved people who acted according to Vedic principles.</p>
+<p>One should therefore surrender to Lord Buddha so that he can help one avoid misusing the injunctions of the Vedas.</p>
+<p>The Kalki avatara is the fierce incarnation who vanquishes the class of the atheists born in this age of Kali.</p>
+<p>Now, in the beginning of Kali-yuga, many irreligious principles are in effect, and as Kali-yuga advances, many pseudo religious principles will certainly be introduced, and people will forget the real religious principles enunciated by Lord Krsna before the beginning of Kali-yuga, namely principles of surrender unto the lotus feet of the Lord.</p>
+<p>Unfortunately, because of Kali-yuga, foolish people do not surrender to the lotus feet of Krsna.</p>
+<p>Even most people who claim to belong to the Vedic system of religion are actually opposed to the Vedic principles.</p>
+<p>Every day they manufacture a new type of dharma on the plea that whatever one manufactures is also a path of liberation.</p>
+<p>Atheistic men generally say, yata mata tata patha.</p>
+<p>According to this view, there are hundreds and thousands of different opinions in human society, and each opinion is a valid religious principle.</p>
+<p>This philosophy of rascals has killed the religious principles mentioned in the Vedas, and such philosophies will become increasingly influential as Kali-yuga progresses.</p>
+<p>In the last stage of Kali-yuga, Kalkideva, the fierce incarnation of Kesava, will descend to kill all the atheists and will save only the devotees of the Lord.</p>
+
+
+
+<p><strong>6.8.20</strong></p>
+<p>mam kesavo gadaya pratar avyad</p>
+<p>govinda asangavam atta-venuh</p>
+<p>narayanah prahna udatta-saktir</p>
+<p>madhyan-dine visnur arindra-panih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>mam—me; kesavah—Lord Kesava; gadaya—by His club; pratah—in the morning hours; avyat—may He protect; govindah—Lord Govinda; asangavam—during the second part of the day; atta-venuh—holding His flute; narayanah—Lord Narayana with four hands; prahnah—during the third part of the day; udatta-saktih—controlling different types of potencies; madhyam-dine—during the fourth part of the day; visnuh—Lord Visnu; arindra-panih—bearing the disc in His hand to kill the enemies.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>May Lord Kesava protect me with His club in the first portion of the day, and may Govinda, who is always engaged in playing His flute, protect me in the second portion of the day.</p>
+<p>May Lord Narayana, who is equipped with all potencies, protect me in the third part of the day, and may Lord Visnu, who carries a disc to kill His enemies, protect me in the fourth part of the day.</p>
+<p><strong>PURPORT</strong></p>
+<p>According to Vedic astronomical calculations, day and night are each divided into thirty ghatikas (twenty-four minutes), instead of twelve hours.</p>
+<p>Generally, each day and each night is divided into six parts consisting of five ghatikas.</p>
+<p>In each of these six portions of the day and night, the Lord may be addressed for protection according to different names.</p>
+<p>Lord Kesava, the proprietor of the holy place of Mathura, is the Lord of the first portion of the day, and Govinda, the Lord of Vrndavana is the master of the second portion.</p>
+
+
+
+<p><strong>6.8.21</strong></p>
+<p>devo ’parahne madhu-hogradhanva</p>
+<p>sayam tri-dhamavatu madhavo mam</p>
+<p>dose hrsikesa utardha-ratre</p>
+<p>nisitha eko ’vatu padmanabhah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>devah—the Lord; aparahne—in the fifth part of the day; madhu-ha—named Madhusudana; ugra-dhanva—bearing the very fearful bow known as Sarnga; sayam—the sixth part of the day; tri-dhama—manifesting as the three deities Brahma, Visnu and Mahesvara; avatu—may He protect; madhavah—named Madhava; mam—me; dose—during the first portion of the night; hrsikesah—Lord Hrsikesa; uta—also; ardha-ratre—during the second part of the night; nisithe—during the third part of the night; ekah—alone; avatu—may He protect; padmanabhah—Lord Padmanabha.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>May Lord Madhusudana, who carries a bow very fearful for the demons, protect me during the fifth part of the day.</p>
+<p>In the evening, may Lord Madhava, appearing as Brahma, Visnu and Mahesvara, protect me, and in the beginning of night may Lord Hrsikesa protect me.</p>
+<p>At the dead of night (in the second and third parts of night) may Lord Padmanabha alone protect me.</p>
+
+
+
+<p><strong>6.8.22</strong></p>
+<p>srivatsa-dhamapara-ratra isah</p>
+<p>pratyusa iso ’si-dharo janardanah</p>
+<p>damodaro ’vyad anusandhyam prabhate</p>
+<p>visvesvaro bhagavan kala-murtih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>srivatsa-dhama—the Lord, on whose chest the mark of Srivatsa is resting; apara-ratre—in the fourth part of the night; isah—the Supreme Lord; pratyuse—in the end of the night; isah—the Supreme Lord; asi-dharah—carrying a sword in the hand; janardanah—Lord Janardana; damodarah—Lord Damodara; avyat—may He protect; anusandhyam—during each junction or twilight; prabhate—in the early morning (the sixth part of the night); visva-isvarah—the Lord of the whole universe; bhagavan—the Supreme Personality of Godhead; kala-murtih—the personification of time.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>May the Supreme Personality of Godhead, who bears the Srivatsa on His chest, protect me after midnight until the sky becomes pinkish.</p>
+<p>May Lord Janardana, who carries a sword in His hand, protect me at the end of night (during the last four ghatikas of night).</p>
+<p>May Lord Damodara protect me in the early morning, and may Lord Visvesvara protect me during the junctions of day and night.</p>
+
+
+
+<p><strong>6.8.23</strong></p>
+<p>cakram yugantanala-tigma-nemi</p>
+<p>bhramat samantad bhagavat-prayuktam</p>
+<p>dandagdhi dandagdhy ari-sainyam asu</p>
+<p>kaksam yatha vata-sakho hutasah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>cakram—the disc of the Lord; yuga-anta—at the end of the millennium; anala—like the fire of devastation; tigma-nemi—with a sharp rim; bhramat—wandering; samantat—on all sides; bhagavat-prayuktam—being engaged by the Lord; dandagdhi dandagdhi—please burn completely, please burn completely; ari-sainyam—the army of our enemies; asu—immediately; kaksam—dry grass; yatha—like; vata-sakhah—the friend of the wind; hutasah—blazing fire.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Set into motion by the Supreme Personality of Godhead and wandering in all the four directions, the disc of the Supreme Lord has sharp edges as destructive as the fire of devastation at the end of the millennium.</p>
+<p>As a blazing fire burns dry grass to ashes with the assistance of the breeze, may that Sudarsana cakra burn our enemies to ashes.</p>
+
+
+
+<p><strong>6.8.24</strong></p>
+<p>gade ’sani-sparsana-visphulinge</p>
+<p>nispindhi nispindhy ajita-priyasi</p>
+<p>kusmanda-vainayaka-yaksa-rakso-</p>
+<p>bhuta-grahams curnaya curnayarin</p>
+<p><strong>SYNONYMS</strong></p>
+<p>gade—O club in the hands of the Supreme Personality of Godhead; asani—like thunderbolts; sparsana—whose touch; visphulinge—giving off sparks of fire; nispindhi nispindhi—pound to pieces, pound to pieces; ajita-priya—very dear to the Supreme Personality of Godhead; asi—you are; kusmanda—imps named Kusmandas; vainayaka—ghosts named Vainayakas; yaksa—ghosts named Yaksas; raksah—ghosts named Raksasas; bhuta—ghosts named Bhutas; grahan—and evil demons named Grahas; curnaya—pulverize; curnaya—pulverize; arin—my enemies.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O club in the hand of the Supreme Personality of Godhead, you produce sparks of fire as powerful as thunderbolts, and you are extremely dear to the Lord.</p>
+<p>I am also His servant.</p>
+<p>Therefore kindly help me pound to pieces the evil living beings known as Kusmandas, Vainayakas, Yaksas, Raksasas, Bhutas and Grahas.</p>
+<p>Please pulverize them.</p>
+
+
+
+<p><strong>6.8.25</strong></p>
+<p>tvam yatudhana-pramatha-preta-matr-</p>
+<p>pisaca-vipragraha-ghora-drstin</p>
+<p>darendra vidravaya krsna-purito</p>
+<p>bhima-svano ’rer hrdayani kampayan</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tvam—you; yatudhana—Raksasas; pramatha—Pramathas; preta—Pretas; matr—Matas; pisaca—Pisacas; vipra-graha—brahmana ghosts; ghora-drstin—who have very fearful eyes; darendra—O Pancajanya, the conchshell in the hands of the Lord; vidravaya—drive away; krsna-puritah—being filled with air from the mouth of Krsna; bhima-svanah—sounding extremely fearful; areh—of the enemy; hrdayani—the cores of the hearts; kampayan—causing to tremble.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O best of conchshells, O Pancajanya in the hands of the Lord, you are always filled with the breath of Lord Krsna.</p>
+<p>Therefore you create a fearful sound vibration that causes trembling in the hearts of enemies like the Raksasas, pramatha ghosts, Pretas, Matas, Pisacas and brahmana ghosts with fearful eyes.</p>
+
+
+
+<p><strong>6.8.26</strong></p>
+<p>tvam tigma-dharasi-varari-sainyam</p>
+<p>isa-prayukto mama chindhi chindhi</p>
+<p>caksumsi carman chata-candra chadaya</p>
+<p>dvisam aghonam hara papa-caksusam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tvam—you; tigma-dhara-asi-vara—O best of swords possessing very sharp blades; ari-sainyam—the soldiers of the enemy; isa-prayuktah—being engaged by the Supreme Personality of Godhead; mama—my; chindhi chindhi—chop to pieces, chop to pieces; caksumsi—the eyes; carman—O shield; sata-candra—possessing brilliant circles like a hundred moons; chadaya—please cover; dvisam—of those who are envious of me; aghonam—who are completely sinful; hara—please take away; papa-caksusam—of those whose eyes are very sinful.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O king of sharp-edged swords, you are engaged by the Supreme Personality of Godhead.</p>
+<p>Please cut the soldiers of my enemies to pieces.</p>
+<p>Please cut them to pieces! O shield marked with a hundred brilliant moonlike circles, please cover the eyes of the sinful enemies.</p>
+<p>Pluck out their sinful eyes.</p>
+
+
+
+<p><strong>6.8.27-28</strong></p>
+<p>yan no bhayam grahebhyo ’bhut</p>
+<p>ketubhyo nrbhya eva ca</p>
+<p>sarisrpebhyo damstribhyo</p>
+<p>bhutebhyo ’mhobhya eva ca</p>
+<p>sarvany etani bhagavan-</p>
+<p>nama-rupanukirtanat</p>
+<p>prayantu sanksayam sadyo</p>
+<p>ye nah sreyah-pratipakah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yat—which; nah—our; bhayam—fear; grahebhyah—from the Graha demons; abhut—was; ketubhyah—from meteors, or falling stars; nrbhyah—from envious human beings; eva ca—also; sarisrpebhyah—from snakes or scorpions; damstribhyah—from animals with fierce teeth like tigers, wolves and boars; bhutebhyah—from ghosts or the material elements (earth, water, fire, etc.); amhobhyah—from sinful activities; eva ca—as well as; sarvani etani—all these; bhagavat-nama-rupa-anukirtanat—by glorifying the transcendental form, name, attributes and paraphernalia of the Supreme Personality of Godhead; prayantu—let them go; sanksayam—to complete destruction; sadyah—immediately; ye—which; nah—our; sreyah-pratipakah—hindrances to well-being.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>May the glorification of the transcendental name, form, qualities and paraphernalia of the Supreme Personality of Godhead protect us from the influence of bad planets, meteors, envious human beings, serpents, scorpions, and animals like tigers and wolves.</p>
+<p>May it protect us from ghosts and the material elements like earth, water, fire and air, and may it also protect us from lightning and our past sins.</p>
+<p>We are always afraid of these hindrances to our auspicious life.</p>
+<p>Therefore, may they all be completely destroyed by the chanting of the Hare Krsna maha-mantra.</p>
+
+
+
+<p><strong>6.8.29</strong></p>
+<p>garudo bhagavan stotra-</p>
+<p>stobhas chandomayah prabhuh</p>
+<p>raksatv asesa-krcchrebhyo</p>
+<p>visvaksenah sva-namabhih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>garudah—His Holiness Garuda, the carrier of Lord Visnu; bhagavan—as powerful as the Supreme Personality of Godhead; stotra-stobhah—who is glorified by selected verses and songs; chandah-mayah—the personified Vedas; prabhuh—the lord; raksatu—may He protect; asesa-krcchrebhyah—from unlimited miseries; visvaksenah—Lord Visvaksena; sva-namabhih—by His holy names.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Lord Garuda, the carrier of Lord Visnu, is the most worshipable lord, for he is as powerful as the Supreme Lord Himself.</p>
+<p>He is the personified Vedas and is worshiped by selected verses.</p>
+<p>May he protect us from all dangerous conditions, and may Lord Visvaksena, the Personality of Godhead, also protect us from all dangers by His holy names.</p>
+
+
+
+<p><strong>6.8.30</strong></p>
+<p>sarvapadbhyo harer nama-</p>
+<p>rupa-yanayudhani nah</p>
+<p>buddhindriya-manah-pranan</p>
+<p>pantu parsada-bhusanah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sarva-apadbhyah—from all kinds of danger; hareh—of the Supreme Personality of Godhead; nama—the holy name; rupa—the transcendental form; yana—the carriers; ayudhani—and all the weapons; nah—our; buddhi—intelligence; indriya—senses; manah—mind; pranan—life air; pantu—may they protect and maintain; parsada-bhusanah—the decorations who are personal associates.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>May the Supreme Personality of Godhead’s holy names, His transcendental forms, His carriers and all the weapons decorating Him as personal associates protect our intelligence, senses, mind and life air from all dangers.</p>
+<p><strong>PURPORT</strong></p>
+<p>There are various associates of the transcendental Personality of Godhead, and His weapons and carrier are among them.</p>
+<p>In the spiritual world, nothing is material.</p>
+<p>The sword, bow, club, disc and everything decorating the personal body of the Lord are spiritual living force.</p>
+<p>Therefore the Lord is called advaya jnana, indicating that there is no difference between Him and His names, forms, qualities, weapons and so on.</p>
+<p>Anything pertaining to Him is in the same category of spiritual existence.</p>
+<p>They are all engaged in the service of the Lord in varieties of spiritual forms.</p>
+
+
+
+<p><strong>6.8.31</strong></p>
+<p>yatha hi bhagavan eva</p>
+<p>vastutah sad asac ca yat</p>
+<p>satyenanena nah sarve</p>
+<p>yantu nasam upadravah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yatha—just as; hi—indeed; bhagavan—the Supreme Personality of Godhead; eva—undoubtedly; vastutah—at the ultimate issue; sat—manifested; asat—unmanifested; ca—and; yat—whatever; satyena—by the truth; anena—this; nah—our; sarve—all; yantu—let them go; nasam—to annihilation; upadravah—disturbances.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The subtle and gross cosmic manifestation is material, but nevertheless it is nondifferent from the Supreme Personality of Godhead because He is ultimately the cause of all causes.</p>
+<p>Cause and effect are factually one because the cause is present in the effect.</p>
+<p>Therefore the Absolute Truth, the Supreme Personality of Godhead, can destroy all our dangers by any of His potent parts.</p>
+
+
+
+<p><strong>6.8.32-33</strong></p>
+<p>yathaikatmyanubhavanam</p>
+<p>vikalpa-rahitah svayam</p>
+<p>bhusanayudha-lingakhya</p>
+<p>dhatte saktih sva-mayaya</p>
+<p>tenaiva satya-manena</p>
+<p>sarva-jno bhagavan harih</p>
+<p>patu sarvaih svarupair nah</p>
+<p>sada sarvatra sarva-gah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yatha—just as; aikatmya—in terms of oneness manifested in varieties; anubhavanam—of those thinking; vikalpa-rahitah—the absence of difference; svayam—Himself; bhusana—decorations; ayudha—weapons; linga-akhyah—characteristics and different names; dhatte—possesses; saktih—potencies like wealth, influence, power, knowledge, beauty and renunciation; sva-mayaya—by expanding His spiritual energy; tena eva—by that; satya-manena—true understanding; sarva-jnah—omniscient; bhagavan—the Supreme Personality of Godhead; harih—who can take away all the illusion of the living entities; patu—may He protect; sarvaih—with all; sva-rupaih—His forms; nah—us; sada—always; sarvatra—everywhere; sarva-gah—who is all-pervasive.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Supreme Personality of Godhead, the living entities, the material energy, the spiritual energy and the entire creation are all individual substances.</p>
+<p>In the ultimate analysis, however, together they constitute the supreme one, the Personality of Godhead.</p>
+<p>Therefore those who are advanced in spiritual knowledge see unity in diversity.</p>
+<p>For such advanced persons, the Lord’s bodily decorations, His name, His fame, His attributes and forms and the weapons in His hand are manifestations of the strength of His potency.</p>
+<p>According to their elevated spiritual understanding, the omniscient Lord, who manifests various forms, is present everywhere.</p>
+<p>May He always protect us everywhere from all calamities.</p>
+<p><strong>PURPORT</strong></p>
+<p>A person highly elevated in spiritual knowledge knows that nothing exists but the Supreme Personality of Godhead.</p>
+<p>This is also confirmed in Bhagavad-gita (9.4) where Lord Krsna says, maya tatam idam sarvam, indicating that everything we see is an expansion of His energy.</p>
+<p>Visnu Purana (1.22.52):</p>
+<p>ekadesa-sthitasyagner</p>
+<p>jyotsna vistarini yatha</p>
+<p>parasya brahmanah saktis</p>
+<p>tathedam akhilam jagat</p>
+<p>As a fire, although existing in one place, can expand its light and heat everywhere, so the omnipotent Lord, the Supreme Personality of Godhead, although situated in His spiritual abode, expands Himself everywhere, in both the material and spiritual worlds, by His various energies.</p>
+<p>Since both cause and effect are the Supreme Lord, there is no difference between cause and effect.</p>
+<p>Consequently the ornaments and weapons of the Lord, being expansions of His spiritual energy, are not different from Him.</p>
+<p>There is no difference between the Lord and His variously presented energies.</p>
+<p>This is also confirmed in the Padma Purana:</p>
+<p>nama cintamanih krsnas</p>
+<p>caitanya-rasa-vigrahah</p>
+<p>purnah suddho nitya-mukto</p>
+<p>’bhinnatvan nama-naminoh</p>
+<p>The holy name of the Lord is fully identical with the Lord, not partially.</p>
+<p>The word purna means complete The Lord is omnipotent and omniscient, and similarly, His name, form, qualities, paraphernalia and everything pertaining to Him are complete, pure, eternal and free from material contamination.</p>
+<p>The prayer to the ornaments and carriers of the Lord is not false, for they are as good as the Lord.</p>
+<p>Since the Lord is all-pervasive, He exists in everything, and everything exists in Him.</p>
+<p>Therefore even worship of the Lord’s weapons or ornaments has the same potency as worship of the Lord.</p>
+<p>Mayavadis refuse to accept the form of the Lord, or they say that the form of the Lord is maya, or false, but one should note very carefully that this is not acceptable.</p>
+<p>Although the Lord’s original form and His impersonal expansion are one, the Lord maintains His form, qualities and abode eternally.</p>
+<p>Therefore this prayer says, patu sarvaih svarupair nah sada sarvatra sama-gah: May the Lord, who is all-pervasive in His various forms, protect us everywhere The Lord is always present everywhere by His name, form, qualities, attributes and paraphernalia, and they all have equal power to protect the devotees.</p>
+<p>Srila Madhvacarya explains this as follows:</p>
+<p>eka eva paro visnur</p>
+<p>bhusaheti dhvajesv ajah</p>
+<p>tat-tac-chakti-pradatvena</p>
+<p>svayam eva vyavasthitah</p>
+<p>satyenanena mam devah</p>
+<p>patu sarvesvaro harih</p>
+
+
+
+<p><strong>6.8.34</strong></p>
+<p>vidiksu diksurdhvam adhah samantad</p>
+<p>antar bahir bhagavan narasimhah</p>
+<p>prahapayal loka-bhayam svanena</p>
+<p>sva-tejasa grasta-samasta-tejah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vidiksu—in all corners; diksu—in all directions (east, west, north and south); urdhvam—above; adhah—below; samantat—on all sides; antah—internally; bahih—externally; bhagavan—the Supreme Personality of Godhead; narasimhah—in the form of Nrsimhadeva (half-lion and half-man); prahapayan—completely destroying; loka-bhayam—fear created by animals, poison, weapons, water, air, fire and so on; svanena—by His roar or the vibration of His name by His devotee Prahlada Maharaja; sva-tejasa—by His personal effulgence; grasta—covered; samasta—all other; tejah—influences.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Prahlada Maharaja loudly chanted the holy name of Lord Nrsimhadeva.</p>
+<p>May Lord Nrsimhadeva, roaring for His devotee Prahlada Maharaja, protect us from all fear of dangers created by stalwart leaders in all directions through poison, weapons, water, fire, air and so on.</p>
+<p>May the Lord cover their influence by His own transcendental influence.</p>
+<p>May Nrsimhadeva protect us in all directions and in all corners, above, below, within and without.</p>
+
+
+
+<p><strong>6.8.35</strong></p>
+<p>maghavann idam akhyatam</p>
+<p>varma narayanatmakam</p>
+<p>vijesyase ’njasa yena</p>
+<p>damsito ’sura-yuthapan</p>
+<p><strong>SYNONYMS</strong></p>
+<p>maghavan—O King Indra; idam—this; akhyatam—described; varma—mystic armor; narayana-atmakam—related to Narayana; vijesyase—you will conquer; anjasa—very easily; yena—by which; damsitah—being protected; asura-yuthapan—the chief leaders of the demons.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Visvarupa continued: O Indra, this mystic armor related to Lord Narayana has been described by me to you.</p>
+<p>By putting on this protective covering, you will certainly be able to conquer the leaders of the demons.</p>
+
+
+
+<p><strong>6.8.36</strong></p>
+<p>etad dharayamanas tu</p>
+<p>yam yam pasyati caksusa</p>
+<p>pada va samsprset sadyah</p>
+<p>sadhvasat sa vimucyate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>etat—this; dharayamanah—a person employing; tu—but; yam yam—whomever; pasyati—he sees; caksusa—by his eyes; pada—by his feet; va—or; samsprset—may touch; sadyah—immediately; sadhvasat—from all fear; sah—he; vimucyate—is freed.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>If one employs this armor, whomever he sees with his eyes or touches with his feet is immediately freed from all the above-mentioned dangers.</p>
+
+
+
+<p><strong>6.8.37</strong></p>
+<p>na kutascid bhayam tasya</p>
+<p>vidyam dharayato bhavet</p>
+<p>raja-dasyu-grahadibhyo</p>
+<p>vyadhy-adibhyas ca karhicit</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—not; kutascit—from anywhere; bhayam—fear; tasya—of him; vidyam—this mystical prayer; dharayatah—employing; bhavet—may appear; raja—from the government; dasyu—from rogues and thieves; graha-adibhyah—from demons and so on; vyadhi-adibhyah—from diseases and so on; ca—also; karhicit—at any time.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>This prayer, Narayana-kavaca, constitutes subtle knowledge transcendentally connected with Narayana.</p>
+<p>One who employs this prayer is never disturbed or put in danger by the government, by plunderers, by evil demons or by any type of disease.</p>
+
+
+
+<p><strong>6.8.38</strong></p>
+<p>imam vidyam pura kascit</p>
+<p>kausiko dharayan dvijah</p>
+<p>yoga-dharanaya svangam</p>
+<p>jahau sa maru-dhanvani</p>
+<p><strong>SYNONYMS</strong></p>
+<p>imam—this; vidyam—prayer; pura—formerly; kascit—someone; kausikah—Kausika; dharayan—using; dvijah—a brahmana; yoga-dharanaya—by mystic power; sva-angam—his own body; jahau—gave up; sah—he; maru-dhanvani—in the desert.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King of heaven, a brahmana named Kausika formerly used this armor when he purposely gave up his body in the desert by mystic power.</p>
+
+
+
+<p><strong>6.8.39</strong></p>
+<p>tasyopari vimanena</p>
+<p>gandharva-patir ekada</p>
+<p>yayau citrarathah stribhir</p>
+<p>vrto yatra dvija-ksayah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasya—his dead body; upari—above; vimanena—by airplane; gandharva-patih—the King of Gandharvaloka, Citraratha; ekada—once upon a time; yayau—went; citrarathah—Citraratha; stribhih—by many beautiful women; vrtah—surrounded; yatra—where; dvija-ksayah—the brahmana Kausika had died.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Surrounded by many beautiful women, Citraratha, the King of Gandharvaloka, was once passing in his airplane over the brahmana’s body at the spot where the brahmana had died.</p>
+
+
+
+<p><strong>6.8.40</strong></p>
+<p>gaganan nyapatat sadyah</p>
+<p>savimano hy avak-sirah</p>
+<p>sa valikhilya-vacanad</p>
+<p>asthiny adaya vismitah</p>
+<p>prasya praci-sarasvatyam</p>
+<p>snatva dhama svam anvagat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>gaganat—from the sky; nyapatat—fell; sadyah—suddenly; sa-vimanah—with his airplane; hi—certainly; avak-sirah—with his head downward; sah—he; valikhilya—of the great sages named the Valikhilyas; vacanat—by the instructions; asthini—all the bones; adaya—taking; vismitah—struck with wonder; prasya—throwing; praci-sarasvatyam—in the River Sarasvati, which flows to the east; snatva—bathing in that river; dhama—to the abode; svam—his own; anvagat—returned.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Suddenly Citraratha was forced to fall from the sky headfirst with his airplane.</p>
+<p>Struck with wonder, he was ordered by the great sages named the Valikhilyas to throw the brahmana’s bones in the nearby River Sarasvati.</p>
+<p>He had to do this and bathe in the river before returning to his own abode.</p>
+
+
+
+<p><strong>6.8.41</strong></p>
+<p>sri-suka uvaca</p>
+<p>ya idam srnuyat kale</p>
+<p>yo dharayati cadrtah</p>
+<p>tam namasyanti bhutani</p>
+<p>mucyate sarvato bhayat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-sukah uvaca—Sri Sukadeva Gosvami said; yah—anyone who; idam—this; srnuyat—may hear; kale—at a time of fear; yah—anyone who; dharayati—employs this prayer; ca—also; adrtah—with faith and adoration; tam—unto him; namasyanti—offer respectful obeisances; bhutani—all living beings; mucyate—is released; sarvatah—from all; bhayat—fearful conditions.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sri Sukadeva Gosvami said: My dear Maharaja Pariksit, one who employs this armor or hears about it with faith and veneration when afraid because of any conditions in the material world is immediately freed from all dangers and is worshiped by all living entities.</p>
+
+
+
+<p><strong>6.8.42</strong></p>
+<p>etam vidyam adhigato</p>
+<p>visvarupac chatakratuh</p>
+<p>trailokya-laksmim bubhuje</p>
+<p>vinirjitya mrdhe ’suran</p>
+<p><strong>SYNONYMS</strong></p>
+<p>etam—this; vidyam—prayer; adhigatah—received; visvarupat—from the brahmana Visvarupa; sata-kratuh—Indra, the King of heaven; trailokya-laksmim—all the opulence of the three worlds; bubhuje—enjoyed; vinirjitya—conquering; mrdhe—in battle; asuran—all the demons.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>King Indra, who performed one hundred sacrifices, received this prayer of protection from Visvarupa.</p>
+<p>After conquering the demons, he enjoyed all the opulences of the three worlds.</p>
+<p><strong>PURPORT</strong></p>
+<p>This mystical mantric armor given by Visvarupa to Indra, the King of heaven, acted powerfully, with the effect that Indra was able to conquer the asuras and enjoy the opulence of the three worlds without impediments.</p>
+<p>In this regard, Madhvacarya points out:</p>
+<p>vidyah karmani ca sada</p>
+<p>guroh praptah phala-pradah</p>
+<p>anyatha naiva phaladah</p>
+<p>prasannoktah phala-pradah</p>
+<p>One must receive all kinds of mantras from a bona fide spiritual master; otherwise the mantras will not be fruitful.</p>
+<p>This is also indicated in Bhagavad-gita (4.34):</p>
+<p>tad viddhi pranipatena</p>
+<p>pariprasnena sevaya</p>
+<p>upadeksyanti te jnanam</p>
+<p>jnaninas tattva-darsinah</p>
+<p>Just try to learn the truth by approaching a spiritual master.</p>
+<p>Inquire from him submissively and render service unto him.</p>
+<p>The self-realized soul can impart knowledge unto you because he has seen the truth All mantras should be received through the authorized guru, and the disciple must satisfy the guru in all respects, after surrendering at his lotus feet.</p>
+<p>In the Padma Purana it is also said, sampradaya-vihina ye mantras te nisphala matah.</p>
+<p>There are four sampradayas, or disciplic successions, namely the Brahma-sampradaya, the Rudra-sampradaya, the Sri sampradaya and the Kumara-sampradaya.</p>
+<p>If one wants to advance in spiritual power, one must receive his mantras from one of these bona fide sampradayas; otherwise he will never successfully advance in spiritual life.</p>
+
+
+</article></body></html>

@@ -1,154 +1,41 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>Questions by the Sages - Questions by the Sages</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">Questions by the Sages</a></li><li class="affix"><a href="1.1.2.html">1.1.2</a></li><li class="affix"><a href="1.1.3.html">1.1.3</a></li><li class="affix"><a href="1.1.4.html">1.1.4</a></li><li class="affix"><a href="1.1.5.html">1.1.5</a></li><li class="affix"><a href="1.1.6.html">1.1.6</a></li><li class="affix"><a href="1.1.7.html">1.1.7</a></li><li class="affix"><a href="1.1.8.html">1.1.8</a></li><li class="affix"><a href="1.1.9.html">1.1.9</a></li><li class="affix"><a href="1.1.10.html">1.1.10</a></li><li class="affix"><a href="1.1.11.html">1.1.11</a></li><li class="affix"><a href="1.1.12.html">1.1.12</a></li><li class="affix"><a href="1.1.13.html">1.1.13</a></li><li class="affix"><a href="1.1.14.html">1.1.14</a></li><li class="affix"><a href="1.1.15.html">1.1.15</a></li><li class="affix"><a href="1.1.16.html">1.1.16</a></li><li class="affix"><a href="1.1.17.html">1.1.17</a></li><li class="affix"><a href="1.1.18.html">1.1.18</a></li><li class="affix"><a href="1.1.19.html">1.1.19</a></li><li class="affix"><a href="1.1.20.html">1.1.20</a></li><li class="affix"><a href="1.1.21.html">1.1.21</a></li><li class="affix"><a href="1.1.22.html">1.1.22</a></li><li class="affix"><a href="1.1.23.html">1.1.23</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">Questions by the Sages</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#questions-by-the-sages" id="questions-by-the-sages">Questions by the Sages</a></h1>
-<h3><a class="header" href="#111" id="111">1.1.1</a></h3>
+<h1>Questions by the Sages</h1>
+<p><strong>1.1.1</strong></p>
 <p>om namo bhagavate vasudevaya</p>
 <p>janmady asya yato ’nvayad itaratas carthesv abhijnah svarat</p>
 <p>tene brahma hrda ya adi-kavaye muhyanti yat surayah</p>
@@ -341,63 +228,704 @@
 <p>This Srimad-Bhagavatam will gradually elevate the unbiased reader to the highest perfectional stage of transcendence.</p>
 <p>It will enable him to transcend the three modes of material activities: fruitive actions, speculative philosophy, and worship of functional deities as inculcated in Vedic verses.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="1.1.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>1.1.2</strong></p>
+<p>dharmah projjhita-kaitavo ’tra paramo nirmatsaranam satam</p>
+<p>vedyam vastavam atra vastu sivadam tapa-trayonmulanam</p>
+<p>srimad-bhagavate maha-muni-krte kim va parair isvarah</p>
+<p>sadyo hrdy avarudhyate ’tra krtibhih susrusubhis tat-ksanat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dharmah—religiosity; projjhita—completely rejected; kaitavah—covered by fruitive intention; atra—herein; paramah—the highest; nirmatsaranam—of the one-hundred-percent pure in heart; satam—devotees; vedyam—understandable; vastavam—factual; atra—herein; vastu—substance; sivadam—well-being; tapa-traya—threefold miseries; unmulanam—causing uprooting of; srimat—beautiful; bhagavate—the Bhagavata Purana; maha-muni—the great sage (Vyasadeva); krte—having compiled; kim—what is; va—the need; paraih—others; isvarah—the Supreme Lord; sadyah—at once; hrdi—within the heart; avarudhyate—become compact; atra—herein; krtibhih—by the pious men; susrusubhih—by culture; tat-ksanat—without delay.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Completely rejecting all religious activities which are materially motivated, this Bhagavata Purana propounds the highest truth, which is understandable by those devotees who are fully pure in heart.</p>
+<p>The highest truth is reality distinguished from illusion for the welfare of all.</p>
+<p>Such truth uproots the threefold miseries.</p>
+<p>This beautiful Bhagavatam, compiled by the great sage Vyasadeva (in his maturity), is sufficient in itself for God realization.</p>
+<p>What is the need of any other scripture? As soon as one attentively and submissively hears the message of Bhagavatam, by this culture of knowledge the Supreme Lord is established within his heart.</p>
+<p><strong>PURPORT</strong></p>
+<p>Religion includes four primary subjects, namely pious activities, economic development, satisfaction of the senses, and finally liberation from material bondage.</p>
+<p>Irreligious life is a barbarous condition.</p>
+<p>Indeed, human life begins when religion begins.</p>
+<p>Eating, sleeping, fearing, and mating are the four principles of animal life.</p>
+<p>These are common both to animals and to human beings.</p>
+<p>But religion is the extra function of the human being.</p>
+<p>Without religion, human life is no better than animal life.</p>
+<p>Therefore, in human societies there is some form of religion which aims at self-realization and which makes reference to man’s eternal relationship with God.</p>
+<p>In the lower stages of human civilization, there is always competition to lord it over the material nature or, in other words, there is a continuous rivalry to satisfy the senses.</p>
+<p>Driven by such consciousness, man turns to religion.</p>
+<p>He thus performs pious activities or religious functions in order to gain something material.</p>
+<p>But if such material gains are obtainable in other ways, then so-called religion is neglected.</p>
+<p>This is the situation in modern civilization.</p>
+<p>Man is thriving economically, so at present he is not very interested in religion.</p>
+<p>Churches, mosques or temples are now practically vacant.</p>
+<p>Men are more interested in factories, shops, and cinemas than in religious places which were erected by their forefathers.</p>
+<p>This practically proves that religion is performed for some economic gains.</p>
+<p>Economic gains are needed for sense gratification.</p>
+<p>Often when one is baffled in the pursuit of sense gratification, he takes to salvation and tries to become one with the Supreme Lord.</p>
+<p>Consequently, all these states are simply different types of sense gratification.</p>
+<p>In the Vedas, the above-mentioned four activities are prescribed in the regulative way so that there will not be any undue competition for sense gratification.</p>
+<p>But Srimad-Bhagavatam is transcendental to all these sense gratificatory activities.</p>
+<p>It is purely transcendental literature which can be understood only by the pure devotees of the Lord who are transcendental to competitive sense gratification.</p>
+<p>In the material world there is keen competition between animal and animal, man and man, community and community, nation and nation.</p>
+<p>But the devotees of the Lord rise above such competitions.</p>
+<p>They do not compete with the materialist because they are on the path back to Godhead where life is eternal and blissful.</p>
+<p>Such transcendentalists are nonenvious and pure in heart.</p>
+<p>In the material world, everyone is envious of everyone else, and therefore there is competition.</p>
+<p>But the transcendental devotees of the Lord are not only free from material envy, but are well-wishers to everyone, and they strive to establish a competitionless society with God in the center.</p>
+<p>The contemporary socialist’s conception of a competitionless society is artificial because in the socialist state there is competition for the post of dictator.</p>
+<p>From the point of view of the Vedas or from the point of view of common human activities, sense gratification is the basis of material life.</p>
+<p>There are three paths mentioned in the Vedas.</p>
+<p>One involves fruitive activities to gain promotion to better planets.</p>
+<p>Another involves worshiping different demigods for promotion to the planets of the demigods, and another involves realizing the Absolute Truth and His impersonal feature and becoming one with Him.</p>
+<p>The impersonal aspect of the Absolute Truth is not the highest.</p>
+<p>Above the impersonal feature is the Paramatma feature, and above this is the personal feature of the Absolute Truth, or Bhagavan.</p>
+<p>Srimad-Bhagavatam gives information about the Absolute Truth in His personal feature.</p>
+<p>It is higher than impersonalist literatures and higher than the jnana-kanda division of the Vedas.</p>
+<p>It is even higher than the karma-kanda division, and even higher than the upasana-kanda division, because it recommends the worship of the Supreme Personality of Godhead, Lord Sri Krsna.</p>
+<p>In the karma-kanda, there is competition to reach heavenly planets for better sense gratification, and there is similar competition in the jnana-kanda and the upasana-kanda.</p>
+<p>The Srimad-Bhagavatam is superior to all of these because it aims at the Supreme Truth which is the substance or the root of all categories.</p>
+<p>From Srimad-Bhagavatam one can come to know the substance as well as the categories.</p>
+<p>The substance is the Absolute Truth, the Supreme Lord, and all emanations are relative forms of energy.</p>
+<p>Nothing is apart from the substance, but at the same time the energies are different from the substance.</p>
+<p>This conception is not contradictory.</p>
+<p>Srimad-Bhagavatam explicitly promulgates this simultaneously-one-and-different philosophy of the Vedanta-sutra, which begins with the janmady asy (Bhag.1.1.1) sutra.</p>
+<p>This knowledge that the energy of the Lord is simultaneously one with and different from the Lord is an answer to the mental speculators’ attempt to establish the energy as the Absolute.</p>
+<p>When this knowledge is factually understood, one sees the conceptions of monism and dualism to be imperfect.</p>
+<p>Development of this transcendental consciousness grounded in the conception of simultaneously-one-and-different leads one immediately to the stage of freedom from the threefold miseries.</p>
+<p>The threefold miseries are (1) those miseries which arise from the mind and body, (2) those miseries inflicted by other living beings, and (3) those miseries arising from natural catastrophes over which one has no control.</p>
+<p>Srimad-Bhagavatam begins with the surrender of the devotee unto the Absolute Person.</p>
+<p>The devotee is fully aware that he is one with the Absolute and at the same time in the eternal position of servant to the Absolute.</p>
+<p>In the material conception, one falsely thinks himself the lord of all he surveys, and therefore he is always troubled by the threefold miseries of life.</p>
+<p>But as soon as one comes to know his real position as transcendental servant, he at once becomes free from all miseries.</p>
+<p>As long as the living entity is trying to master material nature, there is no possibility of his becoming servant of the Supreme.</p>
+<p>Service to the Lord is rendered in pure consciousness of one’s spiritual identity; by service one is immediately freed from material encumbrances.</p>
+<p>Over and above this, Srimad-Bhagavatam is a personal commentation on the Vedanta-sutra by Sri Vyasadeva.</p>
+<p>It was written in the maturity of his spiritual life through the mercy of Narada.</p>
+<p>Sri Vyasadeva is the authorized incarnation of Narayana, the Personality of Godhead.</p>
+<p>Therefore, there is no question as to his authority.</p>
+<p>He is the author of all other Vedic literatures, yet he recommends the study of Srimad-Bhagavatam above all others.</p>
+<p>In other Puranas there are different methods set forth by which one can worship the demigods.</p>
+<p>But in the Bhagavatam only the Supreme Lord is mentioned.</p>
+<p>The Supreme Lord is the total body, and the demigods are the different parts of that body.</p>
+<p>Consequently, by worshiping the Supreme Lord, one does not need to worship the demigods.</p>
+<p>The Supreme Lord becomes fixed in the heart of the devotee immediately.</p>
+<p>Lord Caitanya Mahaprabhu has recommended the Srimad-Bhagavatam as the spotless Purana and distinguishes it from all other Puranas.</p>
+<p>The proper method for receiving this transcendental message is to hear it submissively.</p>
+<p>A challenging attitude cannot help one realize this transcendental message.</p>
+<p>One particular word is used herein for proper guidance.</p>
+<p>This word is susrusu.</p>
+<p>One must be anxious to hear this transcendental message.</p>
+<p>The desire to sincerely hear is the first qualification.</p>
+<p>Less fortunate persons are not at all interested in hearing this Srimad-Bhagavatam.</p>
+<p>The process is simple, but the application is difficult.</p>
+<p>Unfortunate people find enough time to hear idle social and political conversations, but when invited to attend a meeting of devotees to hear Srimad-Bhagavatam they suddenly become reluctant.</p>
+<p>Sometimes professional readers of the Bhagavatam immediately plunge into the confidential topics of the pastimes of the Supreme Lord, which they seemingly interpret as sex literature.</p>
+<p>Srimad-Bhagavatam is meant to be heard from the beginning.</p>
+<p>Those who are fit to assimilate this work are mentioned in this sloka:</p>
+<p>One becomes qualified to hear Srimad-Bhagavatam after many pious deeds The intelligent person, with thoughtful discretion, can be assured by the great sage Vyasadeva that he can realize the Supreme Personality directly by hearing Srimad-Bhagavatam.</p>
+<p>Without undergoing the different stages of realization set forth in the Vedas, one can be lifted immediately to the position of paramahamsa simply by agreeing to receive this message.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="1.1.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>1.1.3</strong></p>
+<p>nigama-kalpa-taror galitam phalam</p>
+<p>suka-mukhad amrta-drava-samyutam</p>
+<p>pibata bhagavatam rasam alayam</p>
+<p>muhur aho rasika bhuvi bhavukah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>nigama—the Vedic literatures; kalpa-taroh—the desire tree; galitam—fully matured; phalam—fruit; suka—Srila Sukadeva Gosvami, the original speaker of Srimad-Bhagavatam; mukhat—from the lips of; amrta—nectar; drava—semisolid and soft and therefore easily swallowable; samyutam—perfect in all respects; pibata—do relish it; bhagavatam—the book dealing in the science of the eternal relation with the Lord; rasam—juice (that which is relishable); alayam—until liberation, or even in a liberated condition; muhuh—always; aho—O; rasikah—those who are full in the knowledge of mellows; bhuvi—on the earth; bhavukah—expert and thoughtful.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O expert and thoughtful men, relish Srimad-Bhagavatam, the mature fruit of the desire tree of Vedic literatures.</p>
+<p>It emanated from the lips of Sri Sukadeva Gosvami.</p>
+<p>Therefore this fruit has become even more tasteful, although its nectarean juice was already relishable for all, including liberated souls.</p>
+<p><strong>PURPORT</strong></p>
+<p>In the two previous slokas it has been definitely proved that the Srimad-Bhagavatam is the sublime literature which surpasses all other Vedic scriptures due to its transcendental qualities.</p>
+<p>It is transcendental to all mundane activities and mundane knowledge.</p>
+<p>In this sloka it is stated that Srimad-Bhagavatam is not only a superior literature but is the ripened fruit of all Vedic literatures.</p>
+<p>In other words, it is the cream of all Vedic knowledge.</p>
+<p>Considering all this, patient and submissive hearing is definitely essential.</p>
+<p>With great respect and attention, one should receive the message and lessons imparted by the Srimad-Bhagavatam.</p>
+<p>The Vedas are compared to the desire tree because they contain all things knowable by man.</p>
+<p>They deal with mundane necessities as well as spiritual realization.</p>
+<p>The Vedas contain regulated principles of knowledge covering social, political, religious, economic, military, medicinal, chemical, physical and metaphysical subject matter and all that may be necessary to keep the body and soul together.</p>
+<p>Above and beyond all this are specific directions for spiritual realization.</p>
+<p>Regulated knowledge involves a gradual raising of the living entity to the spiritual platform, and the highest spiritual realization is knowledge that the Personality of Godhead is the reservoir of all spiritual tastes, or rasas.</p>
+<p>Every living entity, beginning from Brahma, the first-born living being within the material world, down to the insignificant ant, desires to relish some sort of taste derived from sense perceptions.</p>
+<p>These sensual pleasures are technically called rasas.</p>
+<p>Such rasas are of different varieties.</p>
+<p>In the revealed scriptures the following twelve varieties of rasas are enumerated: (1) raudra (anger), (2) adbhuta (wonder), (3) srngara (conjugal love), (4) hasya (comedy), (5) vira (chivalry), (6) daya (mercy), (7) dasya (servitorship), (8) sakhya (fraternity), (9) bhayanaka (horror), (10) bibhatsa (shock), (11) santa (neutrality), (12) vatsalya (parenthood).</p>
+<p>The sum total of all these rasas is called affection or love.</p>
+<p>Primarily, such signs of love are manifested in adoration, service, friendship, paternal affection, and conjugal love.</p>
+<p>And when these five are absent, love is present indirectly in anger, wonder, comedy, chivalry, fear, shock and so on.</p>
+<p>For example, when a man is in love with a woman, the rasa is called conjugal love.</p>
+<p>But when such love affairs are disturbed there may be wonder, anger, shock, or even horror.</p>
+<p>Sometimes love affairs between two persons culminate in ghastly murder scenes.</p>
+<p>Such rasas are displayed between man and man and between animal and animal.</p>
+<p>There is no possibility of an exchange or rasa between a man and an animal or between a man and any other species of living beings within the material world.</p>
+<p>The rasas are exchanged between members of the same species.</p>
+<p>But as far as the spirit souls are concerned, they are one qualitatively with the Supreme Lord.</p>
+<p>Therefore, the rasas were originally exchanged between the spiritual living being and the spiritual whole, the Supreme Personality of Godhead.</p>
+<p>The spiritual exchange or rasa is fully exhibited in spiritual existence between living beings and the Supreme Lord.</p>
+<p>The Supreme Personality of Godhead is therefore described in the sruti-mantras, Vedic hymns, as the fountainhead of all rasas When one associates with the Supreme Lord and exchanges one’s constitutional rasa with the Lord, then the living being is actually happy.</p>
+<p>These sruti-mantras indicate that every living being has its constitutional position, which is endowed with a particular type of rasa to be exchanged with the Personality of Godhead.</p>
+<p>In the liberated condition only, this primary rasa is experienced in full.</p>
+<p>In the material existence, the rasa is experienced in the perverted form, which is temporary.</p>
+<p>And thus the rasas of the material world are exhibited in the material form of raudra (anger) and so on.</p>
+<p>Therefore, one who attains full knowledge of these different rasas, which are the basic principles of activities, can understand the false representations of the original rasas which are reflected in the material world.</p>
+<p>The learned scholar seeks to relish the real rasa in the spiritual form.</p>
+<p>In the beginning he desires to become one with the Supreme.</p>
+<p>Thus, less intelligent transcendentalists cannot go beyond this conception of becoming one with the spirit whole, without knowing of the different rasas.</p>
+<p>In this sloka, it is definitely stated that spiritual rasa, which is relished even in the liberated stage, can be experienced in the literature of the Srimad-Bhagavatam due to its being the ripened fruit of all Vedic knowledge.</p>
+<p>By submissively hearing this transcendental literature, one can attain the full pleasure of his heart’s desire.</p>
+<p>But one must be very careful to hear the message from the right source.</p>
+<p>Srimad-Bhagavatam is exactly received from the right source.</p>
+<p>It was brought by Narada Muni from the spiritual world and given to his disciple Sri Vyasadeva.</p>
+<p>The latter in turn delivered the message to his son Srila Sukadeva Gosvami, and Srila Sukadeva Gosvami delivered the message to Maharaja Pariksit just seven days before the King’s death.</p>
+<p>Srila Sukadeva Gosvami was a liberated soul from his very birth.</p>
+<p>He was liberated even in the womb of his mother, and he did not undergo any sort of spiritual training after his birth.</p>
+<p>At birth no one is qualified, neither in the mundane nor in the spiritual sense.</p>
+<p>But Sri Sukadeva Gosvami, due to his being a perfectly liberated soul, did not have to undergo an evolutionary process for spiritual realization.</p>
+<p>Yet despite his being a completely liberated person situated in the transcendental position above the three material modes, he was attracted to this transcendental rasa of the Supreme Personality of Godhead, who is adored by liberated souls who sing Vedic hymns.</p>
+<p>The Supreme Lord’s pastimes are more attractive to liberated souls than to mundane people.</p>
+<p>He is of necessity not impersonal because it is only possible to carry on transcendental rasa with a person.</p>
+<p>In the Srimad-Bhagavatam the transcendental pastimes of the Lord are narrated, and the narration is systematically depicted by Srila Sukadeva Gosvami.</p>
+<p>Thus the subject matter is appealing to all classes of persons, including those who seek liberation and those who seek to become one with the supreme whole.</p>
+<p>In Sanskrit the parrot is also known as suka.</p>
+<p>When a ripened fruit is cut by the red beaks of such birds, its sweet flavor is enhanced.</p>
+<p>The Vedic fruit which is mature and ripe in knowledge is spoken through the lips of Srila Sukadeva Gosvami, who is compared to the parrot not for his ability to recite the Bhagavatam exactly as he heard it from his learned father, but for his ability to present the work in a manner that would appeal to all classes of men.</p>
+<p>The subject matter is so presented through the lips of Srila Sukadeva Gosvami that any sincere listener that hears submissively can at once relish transcendental tastes which are distinct from the perverted tastes of the material world.</p>
+<p>The ripened fruit is not dropped all of a sudden from the highest planet of Krsnaloka.</p>
+<p>Rather, it has come down carefully through the chain of disciplic succession without change or disturbance.</p>
+<p>Foolish people who are not in the transcendental disciplic succession commit great blunders by trying to understand the highest transcendental rasa known as the rasa dance without following in the footsteps of Sukadeva Gosvami, who presents this fruit very carefully by stages of transcendental realization.</p>
+<p>One should be intelligent enough to know the position of Srimad-Bhagavatam by considering personalities like Sukadeva Gosvami, who deals with the subject so carefully.</p>
+<p>This process of disciplic succession of the Bhagavata school suggests that in the future also Srimad-Bhagavatam has to be understood from a person who is factually a representative of Srila Sukadeva Gosvami.</p>
+<p>A professional man who makes a business out of reciting the Bhagavatam illegally is certainly not a representative of Sukadeva Gosvami.</p>
+<p>Such a man’s business is only to earn his livelihood.</p>
+<p>Therefore one should refrain from hearing the lectures of such professional men.</p>
+<p>Such men usually go to the most confidential part of the literature without undergoing the gradual process of understanding this grave subject.</p>
+<p>They usually plunge into the subject matter of the rasa dance, which is misunderstood by the foolish class of men.</p>
+<p>Some of them take this to be immoral, while others try to cover it up by their own stupid interpretations.</p>
+<p>They have no desire to follow in the footsteps of Srila Sukadeva Gosvami.</p>
+<p>One should conclude, therefore, that the serious student of the rasa should receive the message of Bhagavatam in the chain of disciplic succession from Srila Sukadeva Gosvami, who describes the Bhagavatam from its very beginning and not whimsically to satisfy the mundaner who has very little knowledge in transcendental science.</p>
+<p>Srimad-Bhagavatam is so carefully presented that a sincere and serious person can at once enjoy the ripened fruit of Vedic knowledge simply by drinking the nectarean juice through the mouth of Sukadeva Gosvami or his bona fide representative.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>1.1.4</strong></p>
+<p>naimise ’nimisa-ksetre</p>
+<p>rsayah saunakadayah</p>
+<p>satram svargaya lokaya</p>
+<p>sahasra-samam asata</p>
+<p><strong>SYNONYMS</strong></p>
+<p>naimise—in the forest known as Naimisaranya; animisa-ksetre—the spot which is especially a favorite of Visnu (who does not close His eyelids); rsayah—sages; saunaka-adayah—headed by the sage Saunaka; satram—sacrifice; svargaya—the Lord who is glorified in heaven; lokaya—and for the devotees who are always in touch with the Lord; sahasra—one thousand; samam—years; asata—performed.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Once, in a holy place in the forest of Naimisaranya, great sages headed by the sage Saunaka assembled to perform a great thousand-year sacrifice for the satisfaction of the Lord and His devotees.</p>
+<p><strong>PURPORT</strong></p>
+<p>The prelude of the Srimad-Bhagavatam was spoken in the previous three slokas.</p>
+<p>Now the main topic of this great literature is being presented.</p>
+<p>Srimad-Bhagavatam, after its first recitation by Srila Sukadeva Gosvami, was repeated for the second time at Naimisaranya.</p>
+<p>In the Vayaviya Tantra, it is said that Brahma, the engineer of this particular universe, contemplated a great wheel which could enclose the universe.</p>
+<p>The hub of this great circle was fixed at a particular place known as Naimisaranya.</p>
+<p>Similarly, there is another reference to the forest of Naimisaranya in the Varaha Purana, where it is stated that by performance of sacrifice at this place, the strength of demoniac people is curtailed.</p>
+<p>Thus brahmanas prefer Naimisaranya for such sacrificial performances.</p>
+<p>The devotees of Lord Visnu offer all kinds of sacrifices for His pleasure.</p>
+<p>The devotees are always attached to the service of the Lord, whereas fallen souls are attached to the pleasures of material existence.</p>
+<p>In Bhagavad-gita, it is said that anything performed in the material world for any reason other than for the pleasure of Lord Visnu causes further bondage for the performer.</p>
+<p>It is enjoined therefore that all acts must be performed sacrificially for the satisfaction of Visnu and His devotees.</p>
+<p>This will bring everyone peace and prosperity.</p>
+<p>The great sages are always anxious to do good to the people in general, and as such the sages headed by Saunaka and others assembled at this holy place of Naimisaranya with a program of performing a great and continuous chain of sacrificial ceremonies.</p>
+<p>Forgetful men do not know the right path for peace and prosperity.</p>
+<p>However, the sages know it well, and therefore for the good of all men they are always anxious to perform acts which may bring about peace in the world.</p>
+<p>They are sincere friends to all living entities, and at the risk of great personal inconvenience they are always engaged in the service of the Lord for the good of all people.</p>
+<p>Lord Visnu is just like a great tree, and all others, including the demigods, men, Siddhas, Caranas, Vidyadharas and other living entities, are like branches, twigs and leaves of that tree.</p>
+<p>By pouring water on the root of the tree, all the parts of the tree are automatically nourished.</p>
+<p>Only those branches and leaves which are detached cannot be so satisfied.</p>
+<p>Detached branches and leaves dry up gradually despite all watering attempts.</p>
+<p>Similarly, human society, when it is detached from the Personality of Godhead like detached branches and leaves, is not capable of being watered, and one attempting to do so is simply wasting his energy and resources.</p>
+<p>The modern materialistic society is detached from its relation to the Supreme Lord.</p>
+<p>And all its plans which are being made by atheistic leaders are sure to be baffled at every step.</p>
+<p>Yet they do not wake up to this.</p>
+<p>In this age, the congregational chanting of the holy names of the Lord is the prescribed method for waking up.</p>
+<p>The ways and means are most scientifically presented by Lord Sri Caitanya Mahaprabhu, and intelligent persons may take advantage of His teachings in order to bring about real peace and prosperity.</p>
+<p>Srimad-Bhagavatam is also presented for the same purpose, and this will be explained more specifically later in the text.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>1.1.5</strong></p>
+<p>ta ekada tu munayah</p>
+<p>pratar huta-hutagnayah</p>
+<p>sat-krtam sutam asinam</p>
+<p>papracchur idam adarat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>te—the sages; ekada—one day; tu—but; munayah—sages; pratah—morning; huta—burning; huta-agnayah—the sacrificial fire; sat-krtam—due respects; sutam—Sri Suta Gosvami; asinam—seated on; papracchuh—made inquiries; idam—on this (as follows); adarat—with due regards.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>One day, after finishing their morning duties by burning a sacrificial fire and offering a seat of esteem to Srila Suta Gosvami, the great sages made inquiries, with great respect, about the following matters.</p>
+<p><strong>PURPORT</strong></p>
+<p>Morning is the best time to hold spiritual services.</p>
+<p>The great sages offered the speaker of the Bhagavatam an elevated seat of respect called the vyasasana, or the seat of Sri Vyasadeva.</p>
+<p>Sri Vyasadeva is the original spiritual preceptor for all men.</p>
+<p>And all other preceptors are considered to be his representatives.</p>
+<p>A representative is one who can exactly present the viewpoint of Sri Vyasadeva.</p>
+<p>Sri Vyasadeva impregnated the message of Bhagavatam unto Srila Sukadeva Gosvami, and Sri Suta Gosvami heard it from him (Sri Sukadeva Gosvami).</p>
+<p>All bona fide representatives of Sri Vyasadeva in the chain of disciplic succession are to be understood to be gosvamis.</p>
+<p>These gosvamis restrain all their senses, and they stick to the path made by the previous acaryas.</p>
+<p>The gosvamis do not deliver lectures on the Bhagavatam capriciously.</p>
+<p>Rather, they execute their services most carefully, following their predecessors who delivered the spiritual message unbroken to them.</p>
+<p>Those who listen to the Bhagavatam may put questions to the speaker in order to elicit the clear meaning, but this should not be done in a challenging spirit.</p>
+<p>One must submit questions with a great regard for the speaker and the subject matter.</p>
+<p>This is also the way recommended in Bhagavad-gita.</p>
+<p>One must learn the transcendental subject by submissive aural reception from the right sources.</p>
+<p>Therefore these sages addressed the speaker Suta Gosvami with great respect.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>1.1.6</strong></p>
+<p>rsaya ucuh</p>
+<p>tvaya khalu puranani</p>
+<p>setihasani canagha</p>
+<p>akhyatany apy adhitani</p>
+<p>dharma-sastrani yany uta</p>
+<p><strong>SYNONYMS</strong></p>
+<p>rsayah—the sages; ucuh—said; tvaya—by you; khalu—undoubtedly; puranani—the supplements to the Vedas with illustrative narrations; sa-itihasani—along with the histories; ca—and; anagha—freed from all vices; akhyatani—explained; api—although; adhitani—well read; dharma-sastrani—scriptures giving right directions to progressive life; yani—all these; uta—said.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The sages said:</p>
+<p>Respected Suta Gosvami, you are completely free from all vice.</p>
+<p>You are well versed in all the scriptures famous for religious life, and in the Puranas and the histories as well, for you have gone through them under proper guidance and have also explained them.</p>
+<p><strong>PURPORT</strong></p>
+<p>A gosvami, or the bona fide representative of Sri Vyasadeva, must be free from all kinds of vices.</p>
+<p>The four major vices of Kali-yuga are (1) illicit connection with women, (2) animal slaughter, (3) intoxication, (4) speculative gambling of all sorts.</p>
+<p>A gosvami must be free from all these vices before he can dare sit on the vyasasana.</p>
+<p>No one should be allowed to sit on the vyasasana who is not spotless in character and who is not freed from the above-mentioned vices.</p>
+<p>He not only should be freed from all such vices, but must also be well versed in all revealed scriptures or in the Vedas.</p>
+<p>The Puranas are also parts of the Vedas.</p>
+<p>And histories like the Mahabharata or Ramayana are also parts of the Vedas.</p>
+<p>The acarya or the gosvami must be well acquainted with all these literatures.</p>
+<p>To hear and explain them is more important than reading them.</p>
+<p>One can assimilate the knowledge of the revealed scriptures only by hearing and explaining.</p>
+<p>Hearing is called sravana, and explaining is called kirtana.</p>
+<p>The two processes of sravana and kirtana are of primary importance to progressive spiritual life.</p>
+<p>Only one who has properly grasped the transcendental knowledge from the right source by submissive hearing can properly explain the subject.</p>
+
+
+
+<p><strong>1.1.7</strong></p>
+<p>yani veda-vidam srestho</p>
+<p>bhagavan badarayanah</p>
+<p>anye ca munayah suta</p>
+<p>paravara-vido viduh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yani—all that; veda-vidam—scholars of the Vedas; sresthah—seniormost; bhagavan—incarnation of Godhead; badarayanah—Vyasadeva; anye—others; ca—and; munayah—the sages; suta—O Suta Gosvami; paravara-vidah—amongst the learned scholars, one who is conversant with physical and metaphysical knowledge; viduh—one who knows.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Being the eldest learned Vedantist, O Suta Gosvami, you are acquainted with the knowledge of Vyasadeva, who is the incarnation of Godhead, and you also know other sages who are fully versed in all kinds of physical and metaphysical knowledge.</p>
+<p><strong>PURPORT</strong></p>
+<p>Srimad-Bhagavatam is a natural commentation on the Brahma-sutra, or the Badarayani Vedanta-sutras.</p>
+<p>It is called natural because Vyasadeva is author of both the Vedanta-sutras and Srimad-Bhagavatam, or the essence of all Vedic literatures.</p>
+<p>Besides Vyasadeva, there are other sages who are the authors of six different philosophical systems, namely Gautama, Kanada, Kapila, Patanjali, Jaimini and Astavakra.</p>
+<p>Theism is explained completely in the Vedanta-sutra, whereas in other systems of philosophical speculations, practically no mention is given to the ultimate cause of all causes.</p>
+<p>One can sit on the vyasasana only after being conversant in all systems of philosophy so that one can present fully the theistic views of the Bhagavatam in defiance of all other systems.</p>
+<p>Srila Suta Gosvami was the proper teacher, and therefore the sages at Naimisaranya elevated him to the vyasasana.</p>
+<p>Srila Vyasadeva is designated herein as the Personality of Godhead because he is the authorized empowered incarnation.</p>
+
+
+
+<p><strong>1.1.8</strong></p>
+<p>vettha tvam saumya tat sarvam</p>
+<p>tattvatas tad-anugrahat</p>
+<p>bruyuh snigdhasya sisyasya</p>
+<p>guravo guhyam apy uta</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vettha—you are well conversant; tvam—Your Honor; saumya—one who is pure and simple; tat—those; sarvam—all; tattvatah—in fact; tat—their; anugrahat—by the favor of; bruyuh—will tell; snigdhasya—of the one who is submissive; sisyasya—of the disciple; guravah—the spiritual masters; guhyam—secret; api uta—endowed with.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>And because you are submissive, your spiritual masters have endowed you with all the favors bestowed upon a gentle disciple.</p>
+<p>Therefore you can tell us all that you have scientifically learned from them.</p>
+<p><strong>PURPORT</strong></p>
+<p>The secret of success in spiritual life is in satisfying the spiritual master and thereby getting his sincere blessings.</p>
+<p>Srila Visvanatha Cakravarti Thakura has sung in his famous eight stanzas on the spiritual master as follows:</p>
+<p>I offer my respectful obeisances unto the lotus feet of my spiritual master.</p>
+<p>Only by his satisfaction can one please the Personality of Godhead, and when he is dissatisfied there is only havoc on the path of spiritual realization It is essential, therefore, that a disciple be very much obedient and submissive to the bona fide spiritual master.</p>
+<p>Srila Suta Gosvami fulfilled all these qualifications as a disciple, and therefore he was endowed with all favors by his learned and self-realized spiritual masters such as Srila Vyasadeva and others.</p>
+<p>The sages of Naimisaranya were confident that Srila Suta Gosvami was bona fide.</p>
+<p>Therefore they were anxious to hear from him.</p>
+
+
+
+<p><strong>1.1.9</strong></p>
+<p>tatra tatranjasayusman</p>
+<p>bhavata yad viniscitam</p>
+<p>pumsam ekantatah sreyas</p>
+<p>tan nah samsitum arhasi</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatra—thereof; tatra—thereof; anjasa—made easy; ayusman—blessed with a long duration of life; bhavata—by your good self; yat—whatever; viniscitam—ascertained; pumsam—for the people in general; ekantatah—absolutely; sreyah—ultimate good; tat—that; nah—to us; samsitum—to explain; arhasi—deserve.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Please, therefore, being blessed with many years, explain to us, in an easily understandable way, what you have ascertained to be the absolute and ultimate good for the people in general.</p>
+<p><strong>PURPORT</strong></p>
+<p>In Bhagavad-gita, worship of the acarya is recommended.</p>
+<p>The acaryas and gosvamis are always absorbed in thought of the well-being of the general public, especially their spiritual well-being.</p>
+<p>Spiritual wellbeing is automatically followed by material well-being.</p>
+<p>The acaryas therefore give directions in spiritual well-being for people in general.</p>
+<p>Foreseeing the incompetencies of the people in this age of Kali, or the iron age of quarrel, the sages requested that Suta Gosvami give a summary of all revealed scriptures because the people of this age are condemned in every respect.</p>
+<p>The sages, therefore, inquired of the absolute good, which is the ultimate good for the people.</p>
+<p>The condemned state of affairs of the people of this age is described as follows.</p>
+
+
+
+<p><strong>1.1.10</strong></p>
+<p>prayenalpayusah sabhya</p>
+<p>kalav asmin yuge janah</p>
+<p>mandah sumanda-matayo</p>
+<p>manda-bhagya hy upadrutah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>prayena—almost always; alpa—meager; ayusah—duration of life; sabhya—member of a learned society; kalau—in this age of Kali (quarrel); asmin—herein; yuge—age; janah—the public; mandah—lazy; sumanda-matayah—misguided; manda-bhagyah—unlucky; hi—and above all; upadrutah—disturbed.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O learned one, in this iron age of Kali men have but short lives.</p>
+<p>They are quarrelsome, lazy, misguided, unlucky and, above all, always disturbed.</p>
+<p><strong>PURPORT</strong></p>
+<p>The devotees of the Lord are always anxious for the spiritual improvement of the general public.</p>
+<p>When the sages of Naimisaranya analyzed the state of affairs of the people in this age of Kali, they foresaw that men would live short lives.</p>
+<p>In Kali-yuga, the duration of life is shortened not so much because of insufficient food but because of irregular habits.</p>
+<p>By keeping regular habits and eating simple food, any man can maintain his health.</p>
+<p>Overeating, over-sense gratification, overdependence on another’s mercy, and artificial standards of living sap the very vitality of human energy.</p>
+<p>Therefore the duration of life is shortened.</p>
+<p>The people of this age are also very lazy, not only materially but in the matter of self-realization.</p>
+<p>The human life is especially meant for self-realization.</p>
+<p>That is to say, man should come to know what he is, what the world is, and what the supreme truth is.</p>
+<p>Human life is a means by which the living entity can end all the miseries of the hard struggle for life in material existence and by which he can return to Godhead, his eternal home.</p>
+<p>But, due to a bad system of education, men have no desire for self-realization.</p>
+<p>Even if they come to know about it, they unfortunately become victims of misguided teachers.</p>
+<p>In this age, men are victims not only of different political creeds and parties, but also of many different types of sense-gratificatory diversions, such as cinemas, sports, gambling, clubs, mundane libraries, bad association, smoking, drinking, cheating, pilfering, bickerings, and so on.</p>
+<p>Their minds are always disturbed and full of anxieties due to so many different engagements.</p>
+<p>In this age, many unscrupulous men manufacture their own religious faiths which are not based on any revealed scriptures, and very often people who are addicted to sense gratification are attracted by such institutions.</p>
+<p>Consequently, in the name of religion so many sinful acts are being carried on that the people in general have neither peace of mind nor health of body.</p>
+<p>The student (brahmacari) communities are no longer being maintained, and householders do not observe the rules and regulations of the grhastha-asrama.</p>
+<p>Consequently, the so-called vanaprasthas and sannyasis who come out of such grhastha-asramas are easily deviated from the rigid path.</p>
+<p>In the Kali-yuga the whole atmosphere is surcharged with faithlessness.</p>
+<p>Men are no longer interested in spiritual values.</p>
+<p>Material sense gratification is now the standard of civilization.</p>
+<p>For the maintenance of such material civilizations, man has formed complex nations and communities, and there is a constant strain of hot and cold wars between these different groups.</p>
+<p>It has become very difficult, therefore, to raise the spiritual standard due to the present distorted values of human society.</p>
+<p>The sages of Naimisaranya are anxious to disentangle all fallen souls, and here they are seeking the remedy from Srila Suta Gosvami.</p>
+
+
+
+<p><strong>1.1.11</strong></p>
+<p>bhurini bhuri-karmani</p>
+<p>srotavyani vibhagasah</p>
+<p>atah sadho ’tra yat saram</p>
+<p>samuddhrtya manisaya</p>
+<p>bruhi bhadraya bhutanam</p>
+<p>yenatma suprasidati</p>
+<p><strong>SYNONYMS</strong></p>
+<p>bhurini—multifarious; bhuri—many; karmani—duties; srotavyani—to be learned; vibhagasah—by divisions of subject matter; atah—therefore; sadho—O sage; atra—herein; yat—whatever; saram—essence; samuddhrtya—by selection; manisaya—best to your knowledge; bruhi—please tell us; bhadraya—for the good of; bhutanam—the living beings; yena—by which; atma—the self; suprasidati—becomes fully satisfied.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>There are many varieties of scriptures, and in all of them there are many prescribed duties, which can be learned only after many years of study in their various divisions.</p>
+<p>Therefore, O sage, please select the essence of all these scriptures and explain it for the good of all living beings, that by such instruction their hearts may be fully satisfied.</p>
+<p><strong>PURPORT</strong></p>
+<p>Atma, or self, is distinguished from matter and material elements.</p>
+<p>It is spiritual in constitution, and thus it is never satisfied by any amount of material planning.</p>
+<p>All scriptures and spiritual instructions are meant for the satisfaction of this self, or atma.</p>
+<p>There are many varieties of approaches which are recommended for different types of living beings in different times and at different places.</p>
+<p>Consequently, the numbers of revealed scriptures are innumerable.</p>
+<p>There are different methods and prescribed duties recommended in these various scriptures.</p>
+<p>Taking into consideration the fallen condition of the people in general in this age of Kali, the sages of Naimisaranya suggested that Sri Suta Gosvami relate the essence of all such scriptures because in this age it is not possible for the fallen souls to understand and undergo all the lessons of all these various scriptures in a varna and asrama system.</p>
+<p>The varna and asrama society was considered to be the best institution for lifting the human being to the spiritual platform, but due to Kali-yuga it is not possible to execute the rules and regulations of these institutions.</p>
+<p>Nor is it possible for the people in general to completely sever relations with their families as the varnasrama institution prescribes.</p>
+<p>The whole atmosphere is surcharged with opposition.</p>
+<p>And considering this, one can see that spiritual emancipation for the common man in this age is very difficult.</p>
+<p>The reason the sages presented this matter to Sri Suta Gosvami is explained in the following verses.</p>
+
+
+
+<p><strong>1.1.12</strong></p>
+<p>suta janasi bhadram te</p>
+<p>bhagavan satvatam patih</p>
+<p>devakyam vasudevasya</p>
+<p>jato yasya cikirsaya</p>
+<p><strong>SYNONYMS</strong></p>
+<p>suta—O Suta Gosvami; janasi—you know; bhadram te—all blessings upon you; bhagavan—the Personality of Godhead; satvatam—of the pure devotees; patih—the protector; devakyam—in the womb of Devaki; vasudevasya—by Vasudeva; jatah—born of; yasya—for the purpose of; cikirsaya—executing.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>All blessings upon you, O Suta Gosvami.</p>
+<p>You know for what purpose the Personality of Godhead appeared in the womb of Devaki as the son of Vasudeva.</p>
+<p><strong>PURPORT</strong></p>
+<p>Bhagavan means the Almighty God who is the controller of all opulences, power, fame, beauty, knowledge and renunciation.</p>
+<p>He is the protector of His pure devotees.</p>
+<p>Although God is equally disposed to everyone, He is especially inclined to His devotees.</p>
+<p>Sat means the Absolute Truth.</p>
+<p>And persons who are servitors of the Absolute Truth are called satvatas.</p>
+<p>And the Personality of Godhead who protects such pure devotees is known as the protector of the satvatas.</p>
+<p>Bhadram te, or blessings upon you indicates the sages’ anxiety to know the Absolute Truth from the speaker.</p>
+<p>Lord Sri Krsna, the Supreme Personality of Godhead, appeared to Devaki, the wife of Vasudeva.</p>
+<p>Vasudeva is the symbol of the transcendental position wherein the appearance of the Supreme Lord takes place.</p>
+
+
+
+<p><strong>1.1.13</strong></p>
+<p>tan nah susrusamananam</p>
+<p>arhasy anganuvarnitum</p>
+<p>yasyavataro bhutanam</p>
+<p>ksemaya ca bhavaya ca</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tat—those; nah—unto us; susrusamananam—those who are endeavoring for; arhasi—ought to do it; anga—O Suta Gosvami; anuvarnitum—to explain by following in the footsteps of previous acaryas; yasya—whose; avatarah—incarnation; bhutanam—of the living beings; ksemaya—for good; ca—and; bhavaya—upliftment; ca—and.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O Suta Gosvami, we are eager to learn about the Personality of Godhead and His incarnations.</p>
+<p>Please explain to us those teachings imparted by previous masters (acaryas), for one is uplifted both by speaking them and by hearing them.</p>
+<p><strong>PURPORT</strong></p>
+<p>The conditions for hearing the transcendental message of the Absolute Truth are set forth herein.</p>
+<p>The first condition is that the audience must be very sincere and eager to hear.</p>
+<p>And the speaker must be in the line of disciplic succession from the recognized acarya.</p>
+<p>The transcendental message of the Absolute is not understandable by those who are materially absorbed.</p>
+<p>Under the direction of a bona fide spiritual master, one becomes gradually purified.</p>
+<p>Therefore, one must be in the chain of disciplic succession and learn the spiritual art of submissive hearing.</p>
+<p>In the case of Suta Gosvami and the sages of Naimisaranya, all these conditions are fulfilled because Srila Suta Gosvami is in the line of Srila Vyasadeva, and the sages of Naimisaranya are all sincere souls who are anxious to learn the truth.</p>
+<p>Thus the transcendental topics of Lord Sri Krsna’s superhuman activities, His incarnation, His birth, appearance or disappearance, His forms, His names and so on are all easily understandable because all requirements are fulfilled.</p>
+<p>Such discourses help all men on the path of spiritual realization.</p>
+
+
+
+<p><strong>1.1.14</strong></p>
+<p>apannah samsrtim ghoram</p>
+<p>yan-nama vivaso grnan</p>
+<p>tatah sadyo vimucyeta</p>
+<p>yad bibheti svayam bhayam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>apannah—being entangled; samsrtim—in the hurdle of birth and death; ghoram—too complicated; yat—what; nama—the absolute name; vivasah—unconsciously; grnan—chanting; tatah—from that; sadyah—at once; vimucyeta—gets freedom; yat—that which; bibheti—fears; svayam—personally; bhayam—fear itself.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Living beings who are entangled in the complicated meshes of birth and death can be freed immediately by even unconsciously chanting the holy name of Krsna, which is feared by fear personified.</p>
+<p><strong>PURPORT</strong></p>
+<p>Vasudeva, or Lord Krsna, the Absolute Personality of Godhead, is the supreme controller of everything.</p>
+<p>There is no one in creation who is not afraid of the rage of the Almighty.</p>
+<p>Great asuras like Ravana, Hiranyakasipu, Kamsa, and others who were very powerful living entities were all killed by the Personality of Godhead.</p>
+<p>And the almighty Vasudeva has empowered His name with the powers of His personal Self.</p>
+<p>Everything is related to Him, and everything has its identity in Him.</p>
+<p>It is stated herein that the name of Krsna is feared even by fear personified.</p>
+<p>This indicates that the name of Krsna is nondifferent from Krsna.</p>
+<p>Therefore, the name of Krsna is as powerful as Lord Krsna Himself.</p>
+<p>There is no difference at all.</p>
+<p>Anyone, therefore, can take advantage of the holy names of Lord Sri Krsna even in the midst of greatest dangers.</p>
+<p>The transcendental name of Krsna, even though uttered unconsciously or by force of circumstances, can help one obtain freedom from the hurdle of birth and death.</p>
+
+
+
+<p><strong>1.1.15</strong></p>
+<p>yat-pada-samsrayah suta</p>
+<p>munayah prasamayanah</p>
+<p>sadyah punanty upasprstah</p>
+<p>svardhuny-apo ’nusevaya</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yat—whose; pada—lotus feet; samsrayah—those who have taken shelter of; suta—O Suta Gosvami; munayah—great sages; prasamayanah—absorbed in devotion to the Supreme; sadyah—at once; punanti—sanctify; upasprstah—simply by association; svardhuni—of the sacred Ganges; apah—water; anusevaya—bringing into use.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O Suta, those great sages who have completely taken shelter of the lotus feet of the Lord can at once sanctify those who come in touch with them, whereas the waters of the Ganges can sanctify only after prolonged use.</p>
+<p><strong>PURPORT</strong></p>
+<p>Pure devotees of the Lord are more powerful than the waters of the sacred river Ganges.</p>
+<p>One can derive spiritual benefit out of prolonged use of the Ganges waters.</p>
+<p>But one can be sanctified at once by the mercy of a pure devotee of the Lord.</p>
+<p>In Bhagavad-gita it is said that any person, regardless of birth as sudra, woman, or merchant, can take shelter of the lotus feet of the Lord and by so doing can return to Godhead.</p>
+<p>To take shelter of the lotus feet of the Lord means to take shelter of the pure devotees.</p>
+<p>The pure devotees whose only business is serving are honored by the names Prabhupada and Visnupada, which indicate such devotees to be representatives of the lotus feet of the Lord.</p>
+<p>Anyone, therefore, who takes shelter of the lotus feet of a pure devotee by accepting the pure devotee as his spiritual master can be at once purified.</p>
+<p>Such devotees of the Lord are honored equally with the Lord because they are engaged in the most confidential service of the Lord, for they deliver out of the material world the fallen souls whom the Lord wants to return home, back to Godhead.</p>
+<p>Such pure devotees are better known as vicelords according to revealed scriptures.</p>
+<p>The sincere disciple of the pure devotee considers the spiritual master equal to the Lord, but always considers himself to be a humble servant of the servant of the Lord.</p>
+<p>This is the pure devotional path.</p>
+
+
+
+<p><strong>1.1.16</strong></p>
+<p>ko va bhagavatas tasya</p>
+<p>punya-slokedya-karmanah</p>
+<p>suddhi-kamo na srnuyad</p>
+<p>yasah kali-malapaham</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kah—who; va—rather; bhagavatah—of the Lord; tasya—His; punya—virtuous; sloka-idya—worshipable by prayers; karmanah—deeds; suddhi-kamah—desiring deliverance from all sins; na—not; srnuyat—does hear; yasah—glories; kali—of the age of quarrel; mala-apaham—the agent for sanctification.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Who is there, desiring deliverance from the vices of the age of quarrel, who is not willing to hear the virtuous glories of the Lord?</p>
+<p><strong>PURPORT</strong></p>
+<p>The age of Kali is the most condemned age due to its quarrelsome features.</p>
+<p>Kali-yuga is so saturated with vicious habits that there is a great fight at the slightest misunderstanding.</p>
+<p>Those who are engaged in the pure devotional service of the Lord, who are without any desire for self-aggrandizement and who are freed from the effects of fruitive actions and dry philosophical speculations are capable of getting out of the estrangements of this complicated age.</p>
+<p>The leaders of the people are very much anxious to live in peace and friendship, but they have no information of the simple method of hearing the glories of the Lord.</p>
+<p>On the contrary, such leaders are opposed to the propagation of the glories of the Lord.</p>
+<p>In other words, the foolish leaders want to completely deny the existence of the Lord.</p>
+<p>In the name of secular state, such leaders are enacting various plans every year.</p>
+<p>But by the insurmountable intricacies of the material nature of the Lord, all these plans for progress are being constantly frustrated.</p>
+<p>They have no eyes to see that their attempts at peace and friendship are failing.</p>
+<p>But here is the hint to get over the hurdle.</p>
+<p>If we want actual peace, we must open the road to understanding of the Supreme Lord Krsna and glorify Him for His virtuous activities as they are depicted in the pages of Srimad-Bhagavatam.</p>
+
+
+
+<p><strong>1.1.17</strong></p>
+<p>tasya karmany udarani</p>
+<p>parigitani suribhih</p>
+<p>bruhi nah sraddadhananam</p>
+<p>lilaya dadhatah kalah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasya—His; karmani—transcendental acts; udarani—magnanimous; parigitani—broadcast; suribhih—by the great souls; bruhi—please speak; nah—unto us; sraddadhananam—ready to receive with respect; lilaya—pastimes; dadhatah—advented; kalah—incarnations.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>His transcendental acts are magnificent and gracious, and great learned sages like Narada sing of them.</p>
+<p>Please, therefore, speak to us, who are eager to hear about the adventures He performs in His various incarnations.</p>
+<p><strong>PURPORT</strong></p>
+<p>The Personality of Godhead is never inactive as some less intelligent persons suggest.</p>
+<p>His works are magnificent and magnanimous.</p>
+<p>His creations both material and spiritual are all wonderful and contain all variegatedness.</p>
+<p>They are described nicely by such liberated souls as Srila Narada, Vyasa, Valmiki, Devala, Asita, Madhva, Sri Caitanya, Ramanuja, Visnusvami, Nimbarka, Sridhara, Visvanatha, Baladeva, Bhaktivinoda, Siddhanta Sarasvati and many other learned and self-realized souls.</p>
+<p>These creations, both material and spiritual, are full of opulence, beauty and knowledge, but the spiritual realm is more magnificent due to its being full of knowledge, bliss and eternity.</p>
+<p>The material creations are manifested for some time as perverted shadows of the spiritual kingdom and can be likened to cinemas.</p>
+<p>They attract people of less intelligent caliber who are attracted by false things.</p>
+<p>Such foolish men have no information of the reality, and they take it for granted that the false material manifestation is the all in all.</p>
+<p>But more intelligent men guided by sages like Vyasa and Narada know that the eternal kingdom of God is more delightful, larger, and eternally full of bliss and knowledge.</p>
+<p>Those who are not conversant with the activities of the Lord and His transcendental realm are sometimes favored by the Lord in His adventures as incarnations wherein He displays the eternal bliss of His association in the transcendental realm.</p>
+<p>By such activities He attracts the conditioned souls of the material world.</p>
+<p>Some of these conditioned souls are engaged in the false enjoyment of material senses and others in simply negating their real life in the spiritual world.</p>
+<p>These less intelligent persons are known as karmis, or fruitive workers, and jnanis, or dry mental speculators.</p>
+<p>But above these two classes of men is the transcendentalist known as satvata, or the devotee, who is busy neither with rampant material activity nor with material speculation.</p>
+<p>He is engaged in the positive service of the Lord, and thereby he derives the highest spiritual benefit unknown to the karmis and jnanis.</p>
+<p>As the supreme controller of both the material and spiritual worlds, the Lord has different incarnations of unlimited categories.</p>
+<p>Incarnations like Brahma, Rudra, Manu, Prthu and Vyasa are His material qualitative incarnations, but His incarnations like Rama, Narasimha, Varaha and Vamana are His transcendental incarnations.</p>
+<p>Lord Sri Krsna is the fountainhead of all incarnations, and He is therefore the cause of all causes.</p>
+
+
+
+<p><strong>1.1.18</strong></p>
+<p>athakhyahi harer dhimann</p>
+<p>avatara-kathah subhah</p>
+<p>lila vidadhatah svairam</p>
+<p>isvarasyatma-mayaya</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atha—therefore; akhyahi—describe; hareh—of the Lord; dhiman—O sagacious one; avatara—incarnations; kathah—narratives; subhah—auspicious; lila—adventures; vidadhatah—performed; svairam—pastimes; isvarasya—of the supreme controller; atma—personal; mayaya—energies.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O wise Suta, please narrate to us the transcendental pastimes of the Supreme Godhead’s multi-incarnations.</p>
+<p>Such auspicious adventures and pastimes of the Lord, the supreme controller, are performed by His internal powers.</p>
+<p><strong>PURPORT</strong></p>
+<p>For the creation, maintenance and destruction of the material worlds, the Supreme Lord Personality of Godhead Himself appears in many thousands of forms of incarnations, and the specific adventures found in those transcendental forms are all auspicious.</p>
+<p>Both those who are present during such activities and those who hear the transcendental narrations of such activities are benefited.</p>
+
+
+
+<p><strong>1.1.19</strong></p>
+<p>vayam tu na vitrpyama</p>
+<p>uttama-sloka-vikrame</p>
+<p>yac-chrnvatam rasa-jnanam</p>
+<p>svadu svadu pade pade</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vayam—we; tu—but; na—not; vitrpyamah—shall be at rest; uttama-sloka—the Personality of Godhead, who is glorified by transcendental prayers; vikrame—adventures; yat—which; srnvatam—by continuous hearing; rasa—humor; jnanam—those who are conversant with; svadu—relishing; svadu—palatable; pade pade—at every step.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>We never tire of hearing the transcendental pastimes of the Personality of Godhead, who is glorified by hymns and prayers.</p>
+<p>Those who have developed a taste for transcendental relationships with Him relish hearing of His pastimes at every moment.</p>
+<p><strong>PURPORT</strong></p>
+<p>There is a great difference between mundane stories, fiction, or history and the transcendental pastimes of the Lord.</p>
+<p>The histories of the whole universe contain references to the pastimes of the incarnations of the Lord.</p>
+<p>The Ramayana, the Mahabharata, and the Puranas are histories of bygone ages recorded in connection with the pastimes of the incarnations of the Lord and therefore remain fresh even after repeated readings.</p>
+<p>For example, anyone may read Bhagavad-gita or the Srimad-Bhagavatam repeatedly throughout his whole life and yet find in them new light of information.</p>
+<p>Mundane news is static whereas transcendental news is dynamic, inasmuch as the spirit is dynamic and matter is static.</p>
+<p>Those who have developed a taste for understanding the transcendental subject matter are never tired of hearing such narrations.</p>
+<p>One is quickly satiated by mundane activities, but no one is satiated by transcendental or devotional activities.</p>
+<p>Uttama-sloka indicates that literature which is not meant for nescience.</p>
+<p>Mundane literature is in the mode of darkness or ignorance, whereas transcendental literature is quite different.</p>
+<p>Transcendental literature is above the mode of darkness, and its light becomes more luminous with progressive reading and realization of the transcendental subject matter.</p>
+<p>The so-called liberated persons are never satisfied by the repetition of the words aham brahmasmi.</p>
+<p>Such artificial realization of Brahman becomes hackneyed, and so to relish real pleasure they turn to the narrations of the Srimad-Bhagavatam.</p>
+<p>Those who are not so fortunate turn to altruism and worldly philanthropy.</p>
+<p>This means the Mayavada philosophy is mundane, whereas the philosophy of Bhagavad-gita and Srimad-Bhagavatam is transcendental.</p>
+
+
+
+<p><strong>1.1.20</strong></p>
+<p>krtavan kila karmani</p>
+<p>saha ramena kesavah</p>
+<p>atimartyani bhagavan</p>
+<p>gudhah kapata-manusah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>krtavan—done by; kila—what; karmani—acts; saha—along with; ramena—Balarama; kesavah—Sri Krsna; atimartyani—superhuman; bhagavan—the Personality of Godhead; gudhah—masked as; kapata—apparently; manusah—human being.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Lord Sri Krsna, the Personality of Godhead, along with Balarama, played like a human being, and so masked He performed many superhuman acts.</p>
+<p><strong>PURPORT</strong></p>
+<p>The doctrines of anthropomorphism and zoomorphism are never applicable to Sri Krsna, or the Personality of Godhead.</p>
+<p>The theory that a man becomes God by dint of penance and austerities is very much rampant nowadays, especially in India.</p>
+<p>Since Lord Rama, Lord Krsna and Lord Caitanya Mahaprabhu were detected by the sages and saints to be the Personality of Godhead as indicated in revealed scriptures, many unscrupulous men have created their own incarnations.</p>
+<p>This process of concocting an incarnation of God has become an ordinary business, especially in Bengal.</p>
+<p>Any popular personality with a few traits of mystic powers will display some feat of jugglery and easily become an incarnation of Godhead by popular vote.</p>
+<p>Lord Sri Krsna was not that type of incarnation.</p>
+<p>He was actually the Personality of Godhead from the very beginning of His appearance.</p>
+<p>He appeared before His so-called mother as four-armed Visnu.</p>
+<p>Then, at the request of the mother, He became like a human child and at once left her for another devotee at Gokula, where He was accepted as the son of Nanda Maharaja and Yasoda Mata.</p>
+<p>Similarly, Sri Baladeva, the counterpart of Lord Sri Krsna, was also considered a human child born of another wife of Sri Vasudeva.</p>
+<p>In Bhagavad-gita, the Lord says that His birth and deeds are transcendental and that anyone who is so fortunate as to know the transcendental nature of His birth and deeds will at once become liberated and eligible to return to the kingdom of God.</p>
+<p>So knowledge of the transcendental nature of the birth and deeds of Lord Sri Krsna is sufficient for liberation.</p>
+<p>In the Bhagavatam, the transcendental nature of the Lord is described in nine cantos, and in the Tenth Canto His specific pastimes are taken up.</p>
+<p>All this becomes known as one’s reading of this literature progresses.</p>
+<p>It is important to note here, however, that the Lord exhibited His divinity even from the lap of His mother, that His deeds are all superhuman (He lifted Govardhana Hill at the age of seven), and that all these acts definitely prove Him to be actually the Supreme Personality of Godhead.</p>
+<p>Yet, due to His mystic covering, He was always accepted as an ordinary human child by His so-called father and mother and other relatives.</p>
+<p>Whenever some herculean task was performed by Him, the father and mother took it otherwise.</p>
+<p>And they remained satisfied with unflinching filial love for their son.</p>
+<p>As such, the sages of Naimisaranya describe Him as apparently resembling a human being, but actually He is the supreme almighty Personality of Godhead.</p>
+
+
+
+<p><strong>1.1.21</strong></p>
+<p>kalim agatam ajnaya</p>
+<p>ksetre ’smin vaisnave vayam</p>
+<p>asina dirgha-satrena</p>
+<p>kathayam saksana hareh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kalim—the age of Kali (iron age of quarrel); agatam—having arrived; ajnaya—knowing this; ksetre—in this tract of land; asmin—in this; vaisnave—specially meant for the devotee of the Lord; vayam—we; asinah—seated; dirgha—prolonged; satrena—for performance of sacrifices; kathayam—in the words of; sa-ksanah—with time at our disposal; hareh—of the Personality of Godhead.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Knowing well that the age of Kali has already begun, we are assembled here in this holy place to hear at great length the transcendental message of Godhead and in this way perform sacrifice.</p>
+<p><strong>PURPORT</strong></p>
+<p>This age of Kali is not at all suitable for self-realization as was Satya-yuga, the golden age, or Treta- or Dvapara-yugas, the silver and copper ages.</p>
+<p>For self-realization, the people in Satya-yuga, living a lifetime of a hundred thousand years, were able to perform prolonged meditation.</p>
+<p>And in Treta-yuga, when the duration of life was ten thousand years, self-realization was attained by performance of great sacrifice.</p>
+<p>And in the Dvapara-yuga, when the duration of life was one thousand years, self-realization was attained by worship of the Lord.</p>
+<p>But in the Kali-yuga, the maximum duration of life being one hundred years only and that combined with various difficulties, the recommended process of self-realization is that of hearing and chanting of the holy name, fame, and pastimes of the Lord.</p>
+<p>The sages of Naimisaranya began this process in a place meant specifically for the devotees of the Lord.</p>
+<p>They prepared themselves to hear the pastimes of the Lord over a period of one thousand years.</p>
+<p>By the example of these sages one should learn that regular hearing and recitation of the Bhagavatam is the only way for self-realization.</p>
+<p>Other attempts are simply a waste of time, for they do not give any tangible results.</p>
+<p>Lord Sri Caitanya Mahaprabhu preached this system of Bhagavata-dharma, and He recommended that all those who were born in India should take the responsibility of broadcasting the messages of Lord Sri Krsna, primarily the message of Bhagavad-gita.</p>
+<p>And when one is well established in the teachings of Bhagavad-gita, he can take up the study of Srimad-Bhagavatam for further enlightenment in self-realization.</p>
+
+
+
+<p><strong>1.1.22</strong></p>
+<p>tvam nah sandarsito dhatra</p>
+<p>dustaram nistitirsatam</p>
+<p>kalim sattva-haram pumsam</p>
+<p>karna-dhara ivarnavam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tvam—Your Goodness; nah—unto us; sandarsitah—meeting; dhatra—by providence; dustaram—insurmountable; nistitirsatam—for those desiring to cross over; kalim—the age of Kali; sattva-haram—that which deteriorates the good qualities; pumsam—of a man; karna-dharah—captain; iva—as; arnavam—the ocean.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>We think that we have met Your Goodness by the will of providence, just so that we may accept you as captain of the ship for those who desire to cross the difficult ocean of Kali, which deteriorates all the good qualities of a human being.</p>
+<p><strong>PURPORT</strong></p>
+<p>The age of Kali is very dangerous for the human being.</p>
+<p>Human life is simply meant for self-realization, but due to this dangerous age, men have completely forgotten the aim of life.</p>
+<p>In this age, the life span will gradually decrease.</p>
+<p>People will gradually lose their memory, finer sentiments, strength, and better qualities.</p>
+<p>A list of the anomalies for this age is given in the Twelfth Canto of this work.</p>
+<p>And so this age is very difficult for those who want to utilize this life for self-realization.</p>
+<p>The people are so busy with sense gratification that they completely forget about self-realization.</p>
+<p>Out of madness they frankly say that there is no need for self-realization because they do not realize that this brief life is but a moment on our great journey towards self-realization.</p>
+<p>The whole system of education is geared to sense gratification, and if a learned man thinks it over, he sees that the children of this age are being intentionally sent to the slaughterhouses of so-called education.</p>
+<p>Learned men, therefore, must be cautious of this age, and if they at all want to cross over the dangerous ocean of Kali, they must follow the footsteps of the sages of Naimisaranya and accept Sri Suta Gosvami or his bona fide representative as the captain of the ship.</p>
+<p>The ship is the message of Lord Sri Krsna in the shape of Bhagavad-gita or the Srimad-Bhagavatam.</p>
+
+
+
+<p><strong>1.1.23</strong></p>
+<p>bruhi yogesvare krsne</p>
+<p>brahmanye dharma-varmani</p>
+<p>svam kastham adhunopete</p>
+<p>dharmah kam saranam gatah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>bruhi—please tell; yoga-isvare—the Lord of all mystic powers; krsne—Lord Krsna; brahmanye—the Absolute Truth; dharma—religion; varmani—protector; svam—own; kastham—abode; adhuna—nowadays; upete—having gone away; dharmah—religion; kam—unto whom; saranam—shelter; gatah—gone.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Since Sri Krsna, the Absolute Truth, the master of all mystic powers, has departed for His own abode, please tell us to whom the religious principles have now gone for shelter.</p>
+<p><strong>PURPORT</strong></p>
+<p>Essentially religion is the prescribed codes enunciated by the Personality of Godhead Himself.</p>
+<p>Whenever there is gross misuse or neglect of the principles of religion, the Supreme Lord appears Himself to restore religious principles.</p>
+<p>This is stated in Bhagavad-gita.</p>
+<p>Here the sages of Naimisaranya are inquiring about these principles.</p>
+<p>The reply to this question is given later.</p>
+<p>The Srimad-Bhagavatam is the transcendental sound representation of the Personality of Godhead, and thus it is the full representation of transcendental knowledge and religious principles.</p>
+
+
+</article></body></html>

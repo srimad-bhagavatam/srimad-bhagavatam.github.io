@@ -1,154 +1,41 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>The Lord in the Heart - The Lord in the Heart</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">The Lord in the Heart</a></li><li class="affix"><a href="2.2.2.html">2.2.2</a></li><li class="affix"><a href="2.2.3.html">2.2.3</a></li><li class="affix"><a href="2.2.4.html">2.2.4</a></li><li class="affix"><a href="2.2.5.html">2.2.5</a></li><li class="affix"><a href="2.2.6.html">2.2.6</a></li><li class="affix"><a href="2.2.7.html">2.2.7</a></li><li class="affix"><a href="2.2.8.html">2.2.8</a></li><li class="affix"><a href="2.2.9.html">2.2.9</a></li><li class="affix"><a href="2.2.10.html">2.2.10</a></li><li class="affix"><a href="2.2.11.html">2.2.11</a></li><li class="affix"><a href="2.2.12.html">2.2.12</a></li><li class="affix"><a href="2.2.13.html">2.2.13</a></li><li class="affix"><a href="2.2.14.html">2.2.14</a></li><li class="affix"><a href="2.2.15.html">2.2.15</a></li><li class="affix"><a href="2.2.16.html">2.2.16</a></li><li class="affix"><a href="2.2.17.html">2.2.17</a></li><li class="affix"><a href="2.2.18.html">2.2.18</a></li><li class="affix"><a href="2.2.19.html">2.2.19</a></li><li class="affix"><a href="2.2.20.html">2.2.20</a></li><li class="affix"><a href="2.2.21.html">2.2.21</a></li><li class="affix"><a href="2.2.22.html">2.2.22</a></li><li class="affix"><a href="2.2.23.html">2.2.23</a></li><li class="affix"><a href="2.2.24.html">2.2.24</a></li><li class="affix"><a href="2.2.25.html">2.2.25</a></li><li class="affix"><a href="2.2.26.html">2.2.26</a></li><li class="affix"><a href="2.2.27.html">2.2.27</a></li><li class="affix"><a href="2.2.28.html">2.2.28</a></li><li class="affix"><a href="2.2.29.html">2.2.29</a></li><li class="affix"><a href="2.2.30.html">2.2.30</a></li><li class="affix"><a href="2.2.31.html">2.2.31</a></li><li class="affix"><a href="2.2.32.html">2.2.32</a></li><li class="affix"><a href="2.2.33.html">2.2.33</a></li><li class="affix"><a href="2.2.34.html">2.2.34</a></li><li class="affix"><a href="2.2.35.html">2.2.35</a></li><li class="affix"><a href="2.2.36.html">2.2.36</a></li><li class="affix"><a href="2.2.37.html">2.2.37</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">The Lord in the Heart</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#the-lord-in-the-heart" id="the-lord-in-the-heart">The Lord in the Heart</a></h1>
-<h3><a class="header" href="#221" id="221">2.2.1</a></h3>
+<h1>The Lord in the Heart</h1>
+<p><strong>2.2.1</strong></p>
 <p>sri-suka uvaca</p>
 <p>evam pura dharanayatma-yonir</p>
 <p>nastam smrtim pratyavarudhya tustat</p>
@@ -176,63 +63,1105 @@
 <p>The service of Brahma is the sample of service in liberation distinguished from the so-called altruistic services full of mistakes and forgetfulness.</p>
 <p>Liberation is never inaction, but service without human mistakes.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="2.2.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>2.2.2</strong></p>
+<p>sabdasya hi brahmana esa pantha</p>
+<p>yan namabhir dhyayati dhir aparthaih</p>
+<p>paribhramams tatra na vindate ’rthan</p>
+<p>mayamaye vasanaya sayanah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sabdasya—of the Vedic sound; hi—certainly; brahmanah—of the Vedas; esah—these; panthah—the way; yat—what is; namabhih—by different names; dhyayati—ponders; dhih—intelligence; aparthaih—by meaningless ideas; paribhraman—wandering; tatra—there; na—never; vindate—enjoys; arthan—realities; maya-maye—in illusory things; vasanaya—by different desires; sayanah—as if dreaming in sleep.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The way of presentation of the Vedic sounds is so bewildering that it directs the intelligence of the people to meaningless things like the heavenly kingdoms.</p>
+<p>The conditioned souls hover in dreams of such heavenly illusory pleasures, but actually they do not relish any tangible happiness in such places.</p>
+<p><strong>PURPORT</strong></p>
+<p>The conditioned soul is always engaged in laying out plans for happiness within the material world, even up to the end of the universal limit.</p>
+<p>He is not even satisfied with available amenities on this planet earth, where he has exploited the resources of nature to the best of his ability.</p>
+<p>He wants to go to the moon or the planet Venus to exploit resources there.</p>
+<p>But the Lord has warned us in the Bhagavad-gita (8.16) about the worthlessness of all the innumerable planets of this universe, as well as those planets within other systems.</p>
+<p>There are innumerable universes and also innumerable planets in each of them.</p>
+<p>But none of them is immune to the chief miseries of material existence, namely the pangs of birth, the pangs of death, the pangs of old age and the pangs of disease.</p>
+<p>The Lord says that even the topmost planet, known as the Brahmaloka or Satyaloka, (and what to speak of other planets, like the heavenly planets) is not a happy land for residential purposes, due to the presence of material pangs, as above mentioned.</p>
+<p>Conditioned souls are strictly under the laws of fruitive activities, and as such they sometimes go up to Brahmaloka and again come down to Patalaloka, as if they were unintelligent children on a merry-go-round.</p>
+<p>The real happiness is in the kingdom of God, where no one has to undergo the pangs of material existence.</p>
+<p>Therefore, the Vedic ways of fruitive activities for the living entities are misleading.</p>
+<p>One thinks of a superior way of life in this country or that, or on this planet or another, but nowhere in the material world can he fulfill his real desire of life, namely eternal life, full intelligence and complete bliss.</p>
+<p>Indirectly, Srila Sukadeva Gosvami affirms that Maharaja Pariksit, in the last stage of life, should not desire to transfer himself to the so-called heavenly planets, but should prepare himself for going back home, back to Godhead.</p>
+<p>None of the material planets, nor the amenities available there for living conditions, is everlasting; therefore one must have a factual reluctance to enjoy such temporary happiness as they afford.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="2.2.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>2.2.3</strong></p>
+<p>atah kavir namasu yavad arthah</p>
+<p>syad apramatto vyavasaya-buddhih</p>
+<p>siddhe ’nyatharthe na yateta tatra</p>
+<p>parisramam tatra samiksamanah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atah—for this reason; kavih—the enlightened person; namasu—in names only; yavat—minimum; arthah—necessity; syat—must be; apramattah—without being mad after them; vyavasaya-buddhih—intelligently fixed; siddhe—for success; anyatha—otherwise; arthe—in the interest of; na—should never; yateta—endeavor for; tatra—there; parisramam—laboring hard; tatra—there; samiksamanah—one who sees practically.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>For this reason the enlightened person should endeavor only for the minimum necessities of life while in the world of names.</p>
+<p>He should be intelligently fixed and never endeavor for unwanted things, being competent to perceive practically that all such endeavors are merely hard labor for nothing.</p>
+<p><strong>PURPORT</strong></p>
+<p>The bhagavata-dharma, or the cult of Srimad-Bhagavatam, is perfectly distinct from the way of fruitive activities, which are considered by the devotees to be merely a waste of time.</p>
+<p>The whole universe, or for that matter all material existence, is moving on as jagat, simply for planning business to make one’s position very comfortable or secure, although everyone sees that this existence is neither comfortable nor secure and can never become comfortable or secure at any stage of development.</p>
+<p>Those who are captivated by the illusory advancement of material civilization (following the way of phantasmagoria) are certainly madmen.</p>
+<p>The whole material creation is a jugglery of names only; in fact, it is nothing but a bewildering creation of matter like earth, water and fire.</p>
+<p>The buildings, furniture, cars, bungalows, mills, factories, industries, peace, war or even the highest perfection of material science, namely atomic energy and electronics, are all simply bewildering names of material elements with their concomitant reactions of the three modes.</p>
+<p>Since the devotee of the Lord knows them perfectly well, he is not interested in creating unwanted things for a situation which is not at all reality, but simply names of no more significance than the babble of sea waves.</p>
+<p>The great kings, leaders and soldiers fight with one another in order to perpetuate their names in history.</p>
+<p>They are forgotten in due course of time, and they make a place for another era in history.</p>
+<p>But the devotee realizes how much history and historical persons are useless products of flickering time.</p>
+<p>The fruitive worker aspires after a big fortune in the matter of wealth, woman and worldly adoration, but those who are fixed in perfect reality are not at all interested in such false things.</p>
+<p>For them it is all a waste of time.</p>
+<p>Since every second of human life is important, an enlightened man should be very careful to utilize time very cautiously.</p>
+<p>One second of human life wasted in the vain research of planning for happiness in the material world can never be replaced, even if one spends millions of coins of gold.</p>
+<p>Therefore, the transcendentalist desiring freedom from the clutches of maya, or the illusory activities of life, is warned herewith not to be captivated by the external features of fruitive actors.</p>
+<p>Human life is never meant for sense gratification, but for self-realization.</p>
+<p>Srimad-Bhagavatam instructs us solely on this subject from the very beginning to the end.</p>
+<p>Human life is simply meant for self-realization.</p>
+<p>The civilization which aims at this utmost perfection never indulges in creating unwanted things, and such a perfect civilization prepares men only to accept the bare necessities of life or to follow the principle of the best use of a bad bargain.</p>
+<p>Our material bodies and our lives in that connection are bad bargains because the living entity is actually spirit, and spiritual advancement of the living entity is absolutely necessary.</p>
+<p>Human life is intended for the realization of this important factor, and one should act accordingly, accepting only the bare necessities of life and depending more on God’s gift without diversion of human energy for any other purpose, such as being mad for material enjoyment.</p>
+<p>The materialistic advancement of civilization is called the civilization of the demons which ultimately ends in wars and scarcity.</p>
+<p>The transcendentalist is specifically warned herewith to be fixed in mind, so that even if there is difficulty in plain living and high thinking he will not budge even an inch from his stark determination.</p>
+<p>For a transcendentalist, it is a suicidal policy to be intimately in touch with the sense gratifiers of the world, because such a policy will frustrate the ultimate gain of life.</p>
+<p>Sukadeva Gosvami met Maharaja Pariksit when the latter felt a necessity for such a meeting.</p>
+<p>It is the duty of a transcendentalist to help persons who desire real salvation and to support the cause of salvation.</p>
+<p>One might note that Sukadeva Gosvami never met Maharaja Pariksit while he was ruling as a great king.</p>
+<p>For a transcendentalist, the mode of activities is explained in the next sloka.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>2.2.4</strong></p>
+<p>satyam ksitau kim kasipoh prayasair</p>
+<p>bahau svasiddhe hy upabarhanaih kim</p>
+<p>saty anjalau kim purudhanna-patrya</p>
+<p>dig-valkaladau sati kim dukulaih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>satyam—being in possession; ksitau—earthly flats; kim—where is the necessity; kasipoh—of beds and cots; prayasaih—endeavoring for; bahau—the arms; sva-siddhe—being self-sufficient; hi—certainly; upabarhanaih—bed and bedstead; kim—what is the use; sati—being present; anjalau—the palms of the hands; kim—what is the use; purudha—varieties of; anna—eatables; patrya—by the utensils; dik—open space; valkala-adau—skins of trees; sati—being existent; kim—what is the use of; dukulaih—clothes.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When there are ample earthly flats to lie on, what is the necessity of cots and beds? When one can use his own arms, what is the necessity of a pillow? When one can use the palms of his hands, what is the necessity of varieties of utensils? When there is ample covering, or the skins of trees, what is the necessity of clothing?</p>
+<p><strong>PURPORT</strong></p>
+<p>The necessities of life for the protection and comfort of the body must not be unnecessarily increased.</p>
+<p>Human energy is spoiled in a vain search after such illusory happiness.</p>
+<p>If one is able to lie down on the floor, then why should one endeavor to get a good bedstead or soft cushion to lie on? If one can rest without any pillow and make use of the soft arms endowed by nature, there is no necessity of searching after a pillow.</p>
+<p>If we make a study of the general life of the animals, we can see that they have no intelligence for building big houses, furniture, and other household paraphernalia, and yet they maintain a healthy life by lying down on the open land.</p>
+<p>They do not know how to cook or prepare foodstuff, yet they still live healthy lives more easily than the human being.</p>
+<p>This does not mean that human civilization should revert to animal life or that the human being should live naked in the jungles without any culture, education and sense of morality.</p>
+<p>An intelligent human cannot live the life of an animal; rather, man should try to utilize his intelligence in arts and science, poetry and philosophy.</p>
+<p>In such a way he can further the progressive march of human civilization.</p>
+<p>But here the idea given by Srila Sukadeva Gosvami is that the reserve energy of human life, which is far superior to that of animals, should simply he utilized for self-realization.</p>
+<p>Advancement of human civilization must be towards the goal of establishing our lost relationship with God, which is not possible in any form of life other than the human.</p>
+<p>One must realize the nullity of the material phenomenon, considering it a passing phantasmagoria, and must endeavor to make a solution to the miseries of life.</p>
+<p>Self-complacence with a polished type of animal civilization geared to sense gratification is delusion, and such a civilizatio is not worthy of the name.</p>
+<p>In pursuit of such false activities, a human being is in the clutches of maya, or illusion.</p>
+<p>Great sages and saints in the days of yore were not living in palatial buildings furnished with good furniture and so-called amenities of life.</p>
+<p>They used to live in huts and groves and sit on the flat ground, and yet they have left immense treasures of high knowledge with all perfection.</p>
+<p>Srila Rupa Gosvami and Srila Sanatana Gosvami were high-ranking ministers of state, but they were able to leave behind them immense writings on transcendental knowledge, while residing only for one night underneath one tree.</p>
+<p>They did not live even two nights under the same tree, and what to speak of well-furnished rooms with modern amenities.</p>
+<p>And still they were able to give us most important literatures of self-realization.</p>
+<p>So-called comforts of life are not actually helpful for progressive civilization; rather, they are detrimental to such progressive life.</p>
+<p>In the system of sanatana-dharma, of four divisions of social life and four orders of progressive realization, there are ample opportunities and sufficient directions for a happy termination of the progressive life, and the sincere followers are advised therein to accept a voluntary life of renunciation in order to achieve the desired goal of life.</p>
+<p>If one is not accustomed to abiding by the life of renunciation and self-abnegation from the beginning, one should try to get into the habit at a later stage of life as recommended by Srila Sukadeva Gosvami, and that will help one to achieve the desired success.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>2.2.5</strong></p>
+<p>cirani kim pathi na santi disanti bhiksam</p>
+<p>naivanghripah para-bhrtah sarito ’py asusyan</p>
+<p>ruddha guhah kim ajito ’vati nopasannan</p>
+<p>kasmad bhajanti kavayo dhana-durmadandhan</p>
+<p><strong>SYNONYMS</strong></p>
+<p>cirani—torn clothes; kim—whether; pathi—on the road; na—not; santi—there is; disanti—give in charity; bhiksam—alms; na—not; eva—also; anghripah—the trees; para-bhrtah—one who maintains others; saritah—the rivers; api—also; asusyan—have dried up; ruddhah—closed; guhah—caves; kim—whether; ajitah—the Almighty Lord; avati—give protection; na—not; upasannan—the surrendered soul; kasmat—what for, then; bhajanti—flatters; kavayah—the learned; dhana—wealth; durmada-andhan—too intoxicated by.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Are there no torn clothes lying on the common road? Do the trees, which exist for maintaining others, no longer give alms in charity? Do the rivers, being dried up, no longer supply water to the thirsty? Are the caves of the mountains now closed, or, above all, does the Almighty Lord not protect the fully surrendered souls? Why then do the learned sages go to flatter those who are intoxicated by hard-earned wealth?</p>
+<p><strong>PURPORT</strong></p>
+<p>The renounced order of life is never meant for begging or living at the cost of others as a parasite.</p>
+<p>According to the dictionary, a parasite is a sycophant who lives at the cost of society without making any contribution to that society.</p>
+<p>The renounced order is meant for contributing something substantial to society and not depending on the earnings of the householders.</p>
+<p>On the contrary, acceptance of alms from the householders by the bona fide mendicant is an opportunity afforded by the saint for the tangible benefit of the donor.</p>
+<p>In the sanatana-dharma institution, alms-giving to the mendicant is part of a householder’s duty, and it is advised in the scriptures that the householders should treat the mendicants as their family children and should provide them with food, clothing, etc., without being asked.</p>
+<p>Pseudomendicants, therefore, should not take advantage of the charitable disposition of the faithful householders.</p>
+<p>The first duty of a person in the renounced order of life is to contribute some literary work for the benefit of the human being in order to give him realized direction toward self-realization.</p>
+<p>Amongst the other duties in the renounced order of life of Srila Sanatana, Srila Rupa and the other Gosvamis of Vrndavana, the foremost duty discharged by them was to hold learned discourses amongst themselves at Sevakunja, Vrndavana (the spot where Sri Radha-Damodara Temple was established by Srila Jiva Gosvami and where the actual samadhi tombs of Srila Rupa Gosvami and Srila Jiva Gosvami are laid).</p>
+<p>For the benefit of all in human society, they left behind them immense literatures of transcendental importance.</p>
+<p>Similarly, all the acaryas who voluntarily accepted the renounced order of life aimed at benefiting human society and not at living a comfortable or irresponsible life at the cost of others.</p>
+<p>However, those who cannot give any contribution should not go to the householders for food, for such mendicants asking bread from the householders are an insult to the highest order.</p>
+<p>Sukadeva Gosvami gave this warning especially for those mendicants who adopt this line of profession to solve their economic problems.</p>
+<p>Such mendicants are in abundance in the age of Kali.</p>
+<p>When a man becomes a mendicant willfully or by circumstances, he must be of firm faith and conviction that the Supreme Lord is the maintainer of all living beings everywhere in the universe.</p>
+<p>Why, then, would He neglect the maintenance of a surrendered soul who is cent percent engaged in the service of the Lord? A common master looks to the necessities of his servant, so how much more would the all-powerful, all-opulent Supreme Lord look after the necessities of life for a fully surrendered soul.</p>
+<p>The general rule is that a mendicant devotee will accept a simple small loincloth without asking anyone to give it in charity.</p>
+<p>He simply salvages it from the rejected torn cloth thrown in the street.</p>
+<p>When he is hungry he may go to a magnanimous tree which drops fruits, and when he is thirsty he may drink water from the flowing river.</p>
+<p>He does not require to live in a comfortable house, but should find a cave in the hills and not be afraid of jungle animals, keeping faith in God, who lives in everyone’s heart.</p>
+<p>The Lord may dictate to tigers and other jungle animals not to disturb His devotee.</p>
+<p>Haridasa Thakura, a great devotee of Lord Sri Caitanya, used to live in such a cave, and by chance a great venomous snake was a co-partner of the cave.</p>
+<p>Some admirer of Thakura Haridasa who had to visit the Thakura every day feared the snake and suggested that the Thakura leave that place.</p>
+<p>Because his devotees were afraid of the snake and they were regularly visiting the cave, Thakura Haridasa agreed to the proposal on their account.</p>
+<p>But as soon as this was settled, the snake actually crawled out of its hole in the cave and left the cave for good before everyone present.</p>
+<p>By the dictation of the Lord, who lived also within the heart of the snake, the snake gave preference to Haridasa and decided to leave the place and not disturb him.</p>
+<p>So this is a tangible example of how the Lord gives protection to a bona fide devotee like Thakura Haridasa.</p>
+<p>According to the regulations of the sanatana-dharma institution, one is trained from the beginning to depend fully on the protection of the Lord in all circumstances.</p>
+<p>The path of renunciation is recommended for acceptance by one who is fully accomplished and fully purified in his existence.</p>
+<p>This stage is described also in the Bhagavad-gita (16.5) as daivi sampat.</p>
+<p>A human being is required to accumulate daivi sampat, or spiritual assets; otherwise, the next alternative, asuri sampat, or material assets, will overcome him disproportionately, and thus one will be forced into the entanglement of different miseries of the material world.</p>
+<p>A sannyasi should always live alone, without company, and he must be fearless.</p>
+<p>He should never be afraid of living alone, although he is never alone.</p>
+<p>The Lord is residing in everyone’s heart, and unless one is purified by the prescribed process, one will feel that he is alone.</p>
+<p>But a man in the renounced order of life must be purified by the process; thus he will feel the presence of the Lord everywhere and will have nothing to fear (such as being without any company).</p>
+<p>Everyone can become a fearless and honest person if his very existence is purified by discharging the prescribed duty for each and every order of life.</p>
+<p>One can become fixed in one’s prescribed duty by faithful aural reception of Vedic instructions and assimilation of the essence of Vedic knowledge by devotional service to the Lord.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>2.2.6</strong></p>
+<p>evam sva-citte svata eva siddha</p>
+<p>atma priyo ’rtho bhagavan anantah</p>
+<p>tam nirvrto niyatartho bhajeta</p>
+<p>samsara-hetuparamas ca yatra</p>
+<p><strong>SYNONYMS</strong></p>
+<p>evam—thus; sva-citte—in one’s own heart; svatah—by His omnipotency; eva—certainly; siddhah—fully represented; atma—the Supersoul; priyah—very dear; arthah—substance; bhagavan—the Supreme Personality of Godhead; anantah—the eternal unlimited; tam—unto Him; nirvrtah—being detached from the world; niyata—permanent; arthah—the supreme gain; bhajeta—one must worship; samsara-hetu—the cause of the conditioned state of existence; uparamah—cessation; ca—certainly; yatra—in which.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thus being fixed, one must render service unto the Supersoul situated in one’s own heart by His omnipotency.</p>
+<p>Because He is the Almighty Personality of Godhead, eternal and unlimited, He is the ultimate goal of life, and by worshiping Him one can end the cause of the conditioned state of existence.</p>
+<p><strong>PURPORT</strong></p>
+<p>As confirmed in Bhagavad-gita (18.61), the Supreme Personality of Godhead Sri Krsna is the all-pervading omnipresent Supersoul.</p>
+<p>Therefore one who is a yogi can worship only Him because He is the substance and not illusion.</p>
+<p>Every living creature is engaging in the service of something else.</p>
+<p>A living being’s constitutional position is to render service, but in the atmosphere of maya, or illusion, or the conditional state of existence, the conditioned soul seeks the service of illusion.</p>
+<p>A conditioned soul works in the service of his temporary body, bodily relatives like the wife and children, and the necessary paraphernalia for maintaining the body and bodily relations, such as the house, land, wealth, society and country, but he does not know that all such renderings of service are totally illusory.</p>
+<p>As we have discussed many times before, this material world is itself an illusion, like a mirage in the desert.</p>
+<p>In the desert there is an illusion of water, and the foolish animals become entrapped by such an illusion and run after water in the desert, although there is no water at all.</p>
+<p>But because there is no water in the desert, one does not conclude that there is no water at all.</p>
+<p>The intelligent person knows well that there is certainly water, water in the seas and oceans, but such vast reservoirs of water are far, far away from the desert.</p>
+<p>One should therefore search for water in the vicinity of seas and oceans and not in the desert.</p>
+<p>Every one of us is searching after real happiness in life, namely eternal life, eternal or unlimited knowledge and unending blissful life.</p>
+<p>But foolish people who have no knowledge of the substance search after the reality of life in the illusion.</p>
+<p>This material body does not endure eternally, and everything in relation with this temporary body, such as the wife, children, society and country, also changes along with the change of body.</p>
+<p>This is called samsara, or repetition of birth, death, old age and disease.</p>
+<p>We would like to find a solution for all these problems of life, but we do not know the way.</p>
+<p>Herein it is suggested that anyone who wants to make an end to these miseries of life, namely repetition of birth, death, disease, and old age, must take to this process of worshiping the Supreme Lord and not others, as it is also ultimately suggested in the Bhagavad-gita (18.65).</p>
+<p>If we at all want to end the cause of our conditioned life, we must take to the worship of Lord Sri Krsna, who is present in everyone’s heart by His natural affection for all living beings, who are actually the parts and parcels of the Lord (Bg.18.61).</p>
+<p>The baby in the lap of his mother is naturally attached to the mother, and the mother is attached to the child.</p>
+<p>But when the child grows up and becomes overwhelmed by circumstances, he gradually becomes detached from the mother, although the mother always expects some sort of service from the grown-up child and is equally affectionate toward her child, even though the child is forgetful.</p>
+<p>Similarly, because we are all part and parcel of the Lord, the Lord is always affectionate to us, and He always tries to get us back home, back to Godhead.</p>
+<p>But we, the conditioned souls, do not care for Him and run instead after the illusory bodily connections.</p>
+<p>We must therefore extricate ourselves from all illusory connections of the world and seek reunion with the Lord, trying to render service unto Him because He is the ultimate truth.</p>
+<p>Actually we are hankering after Him as the child seeks the mother.</p>
+<p>And to search out the Supreme Personality of Godhead, we need not go anywhere else, because the Lord is within our hearts.</p>
+<p>This does not suggest, however, that we should not go to the places of worship, namely the temples, churches and mosques.</p>
+<p>Such holy places of worship are also occupied by the Lord because the Lord is omnipresent.</p>
+<p>For the common man these holy places are centers of learning about the science of God.</p>
+<p>When the temples are devoid of activities, the people in general become uninterested in such places, and consequently the mass of people gradually become godless, and a godless civilization is the result.</p>
+<p>Such a hellish civilization artificially increases the conditions of life, and existence becomes intolerable for everyone.</p>
+<p>The foolish leaders of a godless civilization try to devise various plans to bring about peace and prosperity in the godless world under a patent trademark of materialism, and because such attempts are illusory only, the people elect incompetent, blind leaders, one after another, who are incapable of offering solutions.</p>
+<p>If we want at all to end this anomaly of a godless civilization, we must follow the principles of revealed scriptures like the Srimad-Bhagavatam and follow the instruction of a person like Sri Sukadeva Gosvami who has no attraction for material gain.</p>
+
+
+
+<p><strong>2.2.7</strong></p>
+<p>kas tam tv anadrtya paranucintam</p>
+<p>rte pasun asatim nama kuryat</p>
+<p>pasyan janam patitam vaitaranyam</p>
+<p>sva-karmajan paritapan jusanam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kah—who else; tam—that; tu—but; anadrtya—by neglecting; para-anucintam—transcendental thoughts; rte—without; pasun—the materialists; asatim—in the nonpermanent; nama—name; kuryat—will adopt; pasyan—seeing definitely; janam—the general mass of people; patitam—fallen; vaitaranyam—in Vaitarani, the river of suffering; sva-karma-jan—produced from one’s own work; paritapan—suffering; jusanam—being overtaken by.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Who else but the gross materialists will neglect such transcendental thought and take to the nonpermanent names only, seeing the mass of people fallen in the river of suffering as the consequence of accruing the result of their own work?</p>
+<p><strong>PURPORT</strong></p>
+<p>In the Vedas it is said that persons who are attached to demigods to the exclusion of the Supreme Personality of Godhead are like the animals who follow the herdsman even though they are taken to the slaughterhouse.</p>
+<p>The materialists, like animals, also do not know how they are being misdirected by neglecting the transcendental thought of the Supreme person.</p>
+<p>No one can remain vacant of thought.</p>
+<p>It is said that an idle brain is a devil’s workshop because a person who cannot think in the right way must think of something which may bring about disaster.</p>
+<p>The materialists are always worshiping some minor demigods, although this is condemned in the Bhagavad-gita (7.20).</p>
+<p>As long as a person is illusioned by material gains, he petitions the respective demigods to draw some particular benefit which is, after all, illusory and nonpermanent.</p>
+<p>The enlightened transcendentalist is not captivated by such illusory things; therefore he is always absorbed in the transcendental thought of the Supreme in different stages of realization, namely Brahman, Paramatma and Bhagavan.</p>
+<p>In the previous verse it is suggested that one should think of the Supersoul, which is one step higher than the impersonal thought of Brahman, as it was suggested in the case of contemplating the virat-rupa of the personality of Godhead.</p>
+<p>Intelligent persons who can see properly may look into the general conditions of the living entities who are wandering in the cycle of the It is said that there is an everlasting belt of water called the River Vaitarani at the entrance of the plutonic planet of Yamaraja, who punishes sinners in different manners.</p>
+<p>After being subjected to such sufferings, a sinner is awarded a particular species of life according to his deeds in the past.</p>
+<p>Such living entities as are punished by Yamaraja are seen in different varieties of conditioned life.</p>
+<p>Some of them are in heaven, and some of them are in hell.</p>
+<p>Some of them are brahmanas, and some of them are misers.</p>
+<p>But no one is happy in this material world, and all of them are either class A, B or C prisoners suffering because of their own deeds.</p>
+<p>The Lord is impartial to all circumstances of the sufferings of the living entities, but to one who takes shelter at His lotus feet, the Lord gives proper protection, and He takes such a living entity back home, back to Himself.</p>
+
+
+
+<p><strong>2.2.8</strong></p>
+<p>kecit sva-dehantar-hrdayavakase</p>
+<p>pradesa-matram purusam vasantam</p>
+<p>catur-bhujam kanja-rathanga-sankha-</p>
+<p>gada-dharam dharanaya smaranti</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kecit—others; sva-deha-antah—within the body; hrdaya-avakase—in the region of the heart; pradesa-matram—measuring only eight inches; purusam—the Personality of Godhead; vasantam—residing; catuh-bhujam—with four hands; kanja—lotus; ratha-anga—the wheel of a chariot; sankha—conchshell; gada-dharam—and with a club in the hand; dharanaya—conceiving in that way; smaranti—do meditate upon Him.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Others conceive of the Personality of Godhead residing within the body in the region of the heart and measuring only eight inches, with four hands carrying a lotus, a wheel of a chariot, a conchshell and a club respectively.</p>
+<p><strong>PURPORT</strong></p>
+<p>The all-pervading personality of Godhead resides as Paramatma in the heart of each and every living entity.</p>
+<p>The measurement of the localized Personality of Godhead is estimated to expand from the ring finger to the end of the thumb, more or less eight inches.</p>
+<p>The form of the Lord described in this verse with distribution of different symbols—beginning from the lower right hand up and down to the lower left hand with lotus, wheel of a chariot, conchshell and club respectively—is called Janardana, or the plenary portion of the Lord who controls the general mass.</p>
+<p>There are many other forms of the Lord with varied situations of the symbols of lotus, conchshell, etc., and they are differently known as Purusottama, Acyuta, Narasimha, Trivikrama, Hrsikesa, Kesava, Madhava, Aniruddha, Pradyumna, Sankarsana, Sridhara, Vasudeva, Damodara, Janardana, Narayana, Hari, Padmanabha, Vamana, Madhusudana, Govinda, Krsna, Visnumurti, Adhoksaja and Upendra.</p>
+<p>These twenty-four forms of the localized Personality of Godhead are worshiped in different parts of the planetary system, and in each system there is an incarnation of the Lord having a different Vaikuntha planet in the spiritual sky, which is called the paravyoma.</p>
+<p>There are many other hundreds and scores of different forms of the Lord, and each and every one of them has a particular planet in the spiritual sky, of which this material sky is only a fragmental offshoot.</p>
+<p>The Lord exists as purusa, or the male enjoyer, although there is no comparing Him to any male form in the material world.</p>
+<p>But all such forms are advaita, nondifferent from one another, and each of them is eternally young.</p>
+<p>The young Lord with four hands is nicely decorated, as described below.</p>
+
+
+
+<p><strong>2.2.9</strong></p>
+<p>prasanna-vaktram nalinayateksanam</p>
+<p>kadamba-kinjalka-pisanga-vasasam</p>
+<p>lasan-maha-ratna-hiranmayangadam</p>
+<p>sphuran-maha-ratna-kirita-kundalam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>prasanna—expresses happiness; vaktram—mouth; nalina-ayata—spread like the petals of a lotus; iksanam—eyes; kadamba—kadamba flower; kinjalka—saffron; pisanga—yellow; vasasam—garments; lasat—hanging; maha-ratna—valuable jewels; hiranmaya—made of gold; angadam—ornament; sphurat—glowing; maha-ratna—valuable jewels; kirita—head dress; kundalam—earrings.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>His mouth expresses His happiness.</p>
+<p>His eyes spread like the petals of a lotus, and His garments, yellowish like the saffron of a kadamba flower, are bedecked with valuable jewels.</p>
+<p>His ornaments are all made of gold, set with jewels, and He wears a glowing head dress and earrings.</p>
+
+
+
+<p><strong>2.2.10</strong></p>
+<p>unnidra-hrt-pankaja-karnikalaye</p>
+<p>yogesvarasthapita-pada-pallavam</p>
+<p>sri-laksanam kaustubha-ratna-kandharam</p>
+<p>amlana-laksmya vana-malayacitam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>unnidra—blooming; hrt—heart; pankaja—lotus flower; karnika-alaye—on the surface of the whorl; yoga-isvara—the great mystics; asthapita—placed; pada-pallavam—lotus feet; sri—the goddess of fortune, or a beautiful calf; laksanam—marked in that way; kaustubha—the Kaustubha jewel; ratna—other jewels; kandharam—on the shoulder; amlana—quite fresh; laksmya—beauty; vana-malaya—by a flower garland; acitam—spread over.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>His lotus feet are placed over the whorls of the lotuslike hearts of great mystics.</p>
+<p>On His chest is the Kaustubha jewel, engraved with a beautiful calf, and there are other jewels on His shoulders.</p>
+<p>His complete torso is garlanded with fresh flowers.</p>
+<p><strong>PURPORT</strong></p>
+<p>The ornaments, flowers, clothing and all the other decorations on the transcendental body of the Personality of Godhead are identical with the body of the Lord.</p>
+<p>None of them are made of material ingredients; otherwise there would be no chance of their decorating the body of the Lord.</p>
+<p>As such, in the paravyoma, spiritual varieties are also distinguished from the material variegatedness.</p>
+
+
+
+<p><strong>2.2.11</strong></p>
+<p>vibhusitam mekhalayanguliyakair</p>
+<p>maha-dhanair nupura-kankanadibhih</p>
+<p>snigdhamalakuncita-nila-kuntalair</p>
+<p>virocamananana-hasa-pesalam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vibhusitam—well decorated; mekhalaya—with an ornamental wreath about the waist; anguliyakaih—by finger rings; maha-dhanaih—all highly valuable; nupura—ringing leglets; kankana-adibhih—also by bangles; snigdha—slick; amala—spotless; akuncita—curling; nila—bluish; kuntalaih—hair; virocamana—very pleasing; anana—face; hasa—smile; pesalam—beautiful.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>He is well decorated with an ornamental wreath about His waist and rings studded with valuable jewels on His fingers.</p>
+<p>His leglets, His bangles, His oiled hair, curling with a bluish tint, and His beautiful smiling face are all very pleasing.</p>
+<p><strong>PURPORT</strong></p>
+<p>The Supreme Personality of Godhead is the most beautiful person amongst all others, and Srila Sukadeva Gosvami describes every part of His transcendental beauty, one after another, in order to teach the impersonalist that the Personality of Godhead is not an imagination by the devotee for facility of worship, but is the Supreme Person in fact and figure.</p>
+<p>The impersonal feature of the Absolute Truth is but His radiation, as the sun rays are but radiations from the sun.</p>
+
+
+
+<p><strong>2.2.12</strong></p>
+<p>adina-lila-hasiteksanollasad-</p>
+<p>bhru-bhanga-samsucita-bhury-anugraham</p>
+<p>ikseta cintamayam enam isvaram</p>
+<p>yavan mano dharanayavatisthate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>adina—very magnanimous; lila—pastimes ; hasita—smiling; iksana—by glancing over; ullasat—glowing; bhru-bhanga—signals of the eyebrow; samsucita—indicated; bhuri—extensive; anugraham—benediction; ikseta—one must concentrate on; cintamayam—transcendental; enam—this particular; isvaram—the Supreme Lord; yavat—as long as; manah—the mind; dharanaya—by meditation; avatisthate—can be fixed.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Lord’s magnanimous pastimes and the glowing glancing of His smiling face are all indications of His extensive benedictions.</p>
+<p>One must therefore concentrate on this transcendental form of the Lord, as long as the mind can be fixed on Him by meditation.</p>
+<p><strong>PURPORT</strong></p>
+<p>In Bhagavad-gita (12.5) it is said that the impersonalist undergoes a series of difficult programs on account of his impersonal meditation.</p>
+<p>But the devotee, due to the Lord’s personal service, progresses very easily.</p>
+<p>Impersonal meditation is therefore a source of suffering for the impersonalist.</p>
+<p>Here, the devotee has an advantage over the impersonalist philosopher.</p>
+<p>The impersonalist is doubtful about the personal feature of the Lord, and therefore he always tries to meditate upon something which is not objective.</p>
+<p>For this reason there is an authentic statement in the Bhagavatam regarding the positive concentration of the mind on the factual form of the Lord.</p>
+<p>The process of meditation recommended herein is bhakti-yoga, or the process of devotional service after one is liberated from the material conditions.</p>
+<p>Jnana-yoga is the process of liberation from the material conditions.</p>
+<p>After one is liberated from the conditions of material existence, i.e., when one is nivrtta, as previously stated herein, or when one is freed from all material necessities, one becomes qualified to discharge the process of bhakti-yoga.</p>
+<p>Therefore bhakti-yoga includes jnana-yoga, or, in other words, the process of pure devotional service simultaneously serves the purpose of jnana-yoga; liberation from material conditions is automatically achieved by the gradual development of pure devotional service.</p>
+<p>These effects of bhakti-yoga are called anartha-nivrtti.</p>
+<p>Things which are artificially acquired gradually disappear along with the progress of bhakti-yoga.</p>
+<p>Meditation on the lotus feet of the personality of Godhead, the first processional step, must show its effect by anartha-nivrtti.</p>
+<p>The grossest type of anartha which binds the conditioned soul in material existence is sex desire, and this sex desire gradually develops in the union of the male and female.</p>
+<p>When the male and female are united, the sex desire is further aggravated by the accumulation of buildings, children, friends, relatives and wealth.</p>
+<p>When all these are acquired, the conditioned soul becomes overwhelmed by such entanglements, and the false sense of egoism, or the sense of mysel and mine becomes prominent, and the sex desire expands to various political, social, altruistic, philanthropic and many other unwanted engagements, resembling the foam of the sea waves, which becomes very prominent at one time and at the next moment vanishes as quickly as a cloud in the sky.</p>
+<p>The conditioned soul is encircled by such products, as well as products of sex desire, and therefore bhakti-yoga leads to gradual evaporation of the sex desire, which is summarized in three headings, namely profit, adoration and distinction.</p>
+<p>All conditioned souls are mad after these different forms of sex desire, and one shall see for himself how much he has been freed from such material hankerings based primarily on the sex desire.</p>
+<p>As a person feels his hunger satisfied after eating each morsel of foodstuff, he must similarly be able to see the degree to which he has been freed from sex desire.</p>
+<p>The sex desire is diminished along with its various forms by the process of bhakti-yoga because bhakti-yoga automatically, by the grace of the Lord, effectively results in knowledge and renunciation, even if the devotee is not materially very well educated.</p>
+<p>Knowledge means knowing things as they are, and if by deliberation it is found that there are things which are at all unnecessary, naturally the person who has acquired knowledge leaves aside such unwanted things.</p>
+<p>When the conditioned soul finds by culture of knowledge that material necessities are unwanted things, he becomes detached from such unwanted things.</p>
+<p>This stage of knowledge is called vairagya, or detachment from unwanted things.</p>
+<p>We have previously discussed that the transcendentalist is required to be self-sufficient and should not beg from the rich blind persons to fulfill the bare necessities of life.</p>
+<p>Sukadeva Gosvami has suggested some alternatives for the bare necessities of life, namely the problem of eating, sleeping and shelter, but he has not suggested any alternative for sex satisfaction.</p>
+<p>One who has the sex desire still with him should not at all try to accept the renounced order of life.</p>
+<p>For one who has not attained to this stage, there is no question of a renounced order of life.</p>
+<p>So by the gradual process of devotional service under the guidance of a proper spiritual master, and following the principles of the Bhagavatam, one must be able at least to control the gross sex desire before one accepts the renounced order of life factually.</p>
+<p>So purification means getting free gradually from sex desire, and this is attained by meditation on the person of the Lord as described herein, beginning from the feet.</p>
+<p>One should not try to go upwards artificially without seeing for himself how much he has been released from the sex desire.</p>
+<p>The smiling face of the Lord is the Tenth Canto of Srimad-Bhagavatam, and there are many upstarts who at once try to begin with the Tenth Canto and especially with the five chapters which delineate the rasa-lila of the Lord.</p>
+<p>This is certainly improper.</p>
+<p>By such improper study or hearing of Bhagavatam, the material opportunists have played havoc by indulgence in sex life in the name of Bhagavatam.</p>
+<p>This vilification of Bhagavatam is rendered by the acts of the so-called devotees; one should be free from all kinds of sex desire before he tries to make a show of recital of Bhagavatam.</p>
+<p>Sri Visvanatha Cakravarti Thakura clearly defines the import of purification as cessation from sex indulgence.</p>
+<p>He says, yatha yatha dhis ca sudhyati visaya-lampatyam tyajati, tatha tatha dharayed iti citta-suddhi-taratamyenaiva dhyana-taratamyam uktam.</p>
+<p>And as one gets free from the intoxication of sex indulgence by purification of intelligence, one should step forward for the next meditation, or in other words, the progress of meditation on the different limbs of the transcendental body of the Lord should be enhanced in proportion to the progress of purification of the heart.</p>
+<p>The conclusion is that those who are still entrapped by sex indulgence should never progress to meditation above the feet of the Lord; therefore recital of Srimad-Bhagavatam by them should be restricted to the First and Second Cantos of the great literature.</p>
+<p>One must complete the purificatory process by assimilating the contents of the first nine cantos.</p>
+<p>Then one should be admitted into the realm of the Tenth Canto of Srimad-Bhagavatam.</p>
+
+
+
+<p><strong>2.2.13</strong></p>
+<p>ekaikaso ’ngani dhiyanubhavayet</p>
+<p>padadi yavad dhasitam gadabhrtah</p>
+<p>jitam jitam sthanam apohya dharayet</p>
+<p>param param suddhyati dhir yatha yatha</p>
+<p><strong>SYNONYMS</strong></p>
+<p>eka-ekasah—one to one, or one after another; angani—limbs; dhiya—by attention; anubhavayet—meditate upon; pada-adi—legs, etc.; yavat—until; hasitam—smiling; gada-bhrtah—the personality of Godhead; jitam jitam—gradually controlling the mind; sthanam—place; apohya—leaving; dharayet—meditate upon; param param—higher and higher; suddhyati—purified; dhih—intelligence; yatha yatha—as much as.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The process of meditation should begin from the lotus feet of the Lord and progress to His smiling face.</p>
+<p>The meditation should be concentrated upon the lotus feet, then the calves, then the thighs, and in this way higher and higher.</p>
+<p>The more the mind becomes fixed upon the different parts of the limbs, one after another, the more the intelligence becomes purified.</p>
+<p><strong>PURPORT</strong></p>
+<p>The process of meditation recommended in the Srimad-Bhagavatam is not to fix one’s attention on something impersonal or void.</p>
+<p>The meditation should concentrate on the person of the Supreme Godhead, either in His virat-rupa, the gigantic universal form, or in His sac-cid-ananda-vigraha (Bs.5.1), as described in the scriptures.</p>
+<p>There are authorized descriptions of Visnu forms, and there are authorized representations of Deities in the temples.</p>
+<p>Thus one can practice meditating upon the Deity, concentrating his mind on the lotus feet of the Lord and gradually rising higher and higher, up to His smiling face.</p>
+<p>According to the Bhagavata school, the Lord’s rasa dancing is the smiling face of the Lord.</p>
+<p>Since it is recommended in this verse that one should gradually progress from the lotus feet up to the smiling face, we shall not jump at once to understand the Lord’s pastimes in the rasa dance.</p>
+<p>It is better to practice concentrating our attention by offering flowers and tulasi to the lotus feet of the Lord.</p>
+<p>In this way, we gradually become purified by the arcana process.</p>
+<p>We dress the Lord, bathe Him, etc., and all these transcendental activities help us purify our existence.</p>
+<p>When we reach the higher standard of purification, if we see the smiling face of the Lord or hear the rasa dance pastimes of the Lord, then we can relish His activities.</p>
+<p>In the Srimad-Bhagavatam, therefore, the rasa dance pastimes are delineated in the Tenth Canto (Chapters 29–34).</p>
+<p>The more one concentrates on the transcendental form of the Lord, either on the lotus feet, the calves, the thighs or the chest, the more one becomes purified.</p>
+<p>In this verse it is clearly stated, the more the intelligence becomes purified which means the more one becomes detached from sense gratification.</p>
+<p>Our intelligence in the present conditioned state of life is impure due to being engaged in sense gratification.</p>
+<p>The result of meditation on the transcendental form of the Lord will be manifested by one’s detachment from sense gratification.</p>
+<p>Therefore, the ultimate purpose of meditation is purification of one’s intelligence.</p>
+<p>Those who are too engrossed in sense gratification cannot be allowed to participate in arcana or to touch the transcendental form of the Radha-Krsna or Visnu Deities.</p>
+<p>For them it is better to meditate upon the gigantic virat-rupa of the Lord, as recommended in the next verse.</p>
+<p>The impersonalists and the voidists are therefore recommended to meditate upon the universal form of the Lord, whereas the devotees are recommended to meditate on the Deity worship in the temple.</p>
+<p>Because the impersonalists and the voidists are not sufficiently purified in their spiritual activities, arcana is not meant for them.</p>
+
+
+
+<p><strong>2.2.14</strong></p>
+<p>yavan na jayeta paravare ’smin</p>
+<p>visvesvare drastari bhakti-yogah</p>
+<p>tavat sthaviyah purusasya rupam</p>
+<p>kriyavasane prayatah smareta</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yavat—as long as; na—does not; jayeta—develop; para—transcendental; avare—mundane; asmin—in this form of; visva-isvare—the Lord of all worlds; drastari—unto the seer; bhakti-yogah—devotional service; tavat—so long; sthaviyah—the gross materialist; purusasya—of the virat-purusa; rupam—universal form; kriya-avasane—at the end of one’s prescribed duties; prayatah—with proper attention; smareta—one should remember.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Unless the gross materialist develops a sense of loving service unto the Supreme Lord, the seer of both the transcendental and material worlds, he should remember or meditate upon the universal form of the Lord at the end of his prescribed duties.</p>
+<p><strong>PURPORT</strong></p>
+<p>The Supreme Lord is the seer of all worlds, both material and transcendental.</p>
+<p>In other words, the Supreme Lord is the ultimate beneficiary and enjoyer of all worlds, as confirmed in the Bhagavad-gita (5.29).</p>
+<p>The spiritual world is the manifestation of His internal potency, and the material world is the manifestation of His external potency.</p>
+<p>The living entities are also His marginal potency, and by their own choice they can live in either the transcendental or material worlds.</p>
+<p>The material world is not a fit place for living entities because they are spiritually one with the Lord and in the material world the living entities become conditioned by the laws of the material world.</p>
+<p>The Lord wants all living entities, who are His parts and parcels, to live with Him in the transcendental world, and for enlightening conditioned souls in the material world, all the Vedas and the revealed scriptures are there—expressly to recall the conditioned souls back home, back to Godhead.</p>
+<p>Unfortunately, the conditioned living entities, although suffering continually the threefold miseries of conditioned life, are not very serious about going back to Godhead.</p>
+<p>It is due to their misguided way of living, complicated by sins and virtues.</p>
+<p>Some of them who are virtuous by deeds begin to reestablish the lost relation with the Lord, but they are unable to understand the personal feature of the Lord.</p>
+<p>The real purpose of life is to make contact with the Lord and be engaged in His service.</p>
+<p>That is the natural position of living entities.</p>
+<p>But those who are impersonalists and are unable to render any loving service to the Lord have been advised to meditate upon His impersonal feature, the virat-rupa, or universal form.</p>
+<p>Some way or other, one must try to reestablish one’s forgotten relation with the Lord if one at all desires to gain real happiness in life, and to reclaim his natural unfettered condition.</p>
+<p>For the less intelligent beginners, meditation on the impersonal feature, the virat-rupa, or universal form of the Lord, will gradually qualify one to rise to personal contact.</p>
+<p>One is advised herewith to meditate upon the virat-rupa specified in the previous chapters in order to understand how the different planets, seas, mountains, rivers, birds, beasts, human beings, demigods and all that we can conceive are but different parts and limbs of the Lord’s virat form.</p>
+<p>This sort of thinking is also a type of meditation on the Absolute Truth, and as soon as such meditation begins, one develops one’s godly qualities, and the whole world appears to be a happy and peaceful residence for all the people of the world.</p>
+<p>Without such meditation on God, either personal or impersonal, all good qualities of the human being become covered with misconceptions regarding his constitutional position, and without such advanced knowledge, the whole world becomes a hell for the human being.</p>
+
+
+
+<p><strong>2.2.15</strong></p>
+<p>sthiram sukham casanam asthito yatir</p>
+<p>yada jihasur imam anga lokam</p>
+<p>kale ca dese ca mano na sajjayet</p>
+<p>pranan niyacchen manasa jitasuh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sthiram—without being disturbed; sukham—comfortable; ca—also; asanam—sitting accommodation; asthitah—being situated; yatih—the sage; yada—whenever; jihasuh—desires to give up; imam—this; anga—O King; lokam—this body; kale—in time; ca—and; dese—in a proper place; ca—also; manah—the mind; na—not; sajjayet—may not be perplexed; pranan—the senses; niyacchet—must control; manasa—by the mind; jita-asuh—conquering the life air.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King, whenever the yogi desires to leave this planet of human beings, he should not be perplexed about the proper time or place, but should comfortably sit without being disturbed and, regulating the life air, should control the senses by the mind.</p>
+<p><strong>PURPORT</strong></p>
+<p>In the Bhagavad-gita (8.14) it is clearly stated that a person who is totally engaged in the transcendental loving service of the Lord, and who constantly remembers Him at every step, easily obtains the mercy of the Lord by entering into His personal contact.</p>
+<p>Such devotees do not need to seek an opportune moment to leave the present body.</p>
+<p>But those who are mixed devotees, alloyed with fruitive action or empirical philosophical speculation, require an opportune moment for quitting this body.</p>
+<p>For them the opportune moments are stated in the Bhagavad-gita (8.23–26).</p>
+<p>But these opportune moments are not as important as one’s being a successful yogi who is able to quit his body as he likes.</p>
+<p>Such a yogi must be competent to control his senses by the mind.</p>
+<p>The mind is easily conquered simply by engaging it at the lotus feet of the Lord.</p>
+<p>Gradually, by such service, all the senses become automatically engaged in the service of the Lord.</p>
+<p>That is the way of merging into the Supreme Absolute.</p>
+
+
+
+<p><strong>2.2.16</strong></p>
+<p>manah sva-buddhyamalaya niyamya</p>
+<p>ksetra-jna etam ninayet tam atmani</p>
+<p>atmanam atmany avarudhya dhiro</p>
+<p>labdhopasantir virameta krtyat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>manah—the mind; sva-buddhya—by his own intelligence; amalaya—unalloyed; niyamya—by regulating; ksetra-jne—unto the living entity; etam—all of them; ninayet—merge; tam—that; atmani—the self; atmanam—the self; atmani—in the Superself; avarudhya—being locked up; dhirah—the fully satisfied; labdha-upasantih—one who has attained full bliss; virameta—ceases from; krtyat—all other activities.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, the yogi should merge his mind, by his unalloyed intelligence, into the living entity, and then merge the living entity into the Superself.</p>
+<p>And by doing this, the fully satisfied living entity becomes situated in the supreme stage of satisfaction, so that he ceases from all other activities.</p>
+<p><strong>PURPORT</strong></p>
+<p>The functions of the mind are thinking, feeling and willing.</p>
+<p>When the mind is materialistic, or absorbed in material contact, it acts for material advancement of knowledge, destructively ending in discovery of nuclear weapons.</p>
+<p>But when the mind acts under spiritual urge, it acts wonderfully for going back home, back to Godhead, for life in complete bliss and eternity.</p>
+<p>Therefore the mind has to be manipulated by good and unalloyed intelligence.</p>
+<p>Perfect intelligence is to render service unto the Lord.</p>
+<p>One should be intelligent enough to understand that the living being is, in all circumstances, a servant of the circumstances.</p>
+<p>Every living being is serving the dictates of desire, anger, lust, illusion, insanity and enviousness—all materially affected.</p>
+<p>But even while executing such dictations of different temperaments, he is perpetually unhappy.</p>
+<p>When one actually feels this and turns his intelligence to inquiring about it from the right sources, he gets information of the transcendental loving service of the Lord.</p>
+<p>Instead of serving materially for the abovementioned different humors of the body, the living entity’s intelligence then becomes freed from the unhappy illusion of materialistic temperament, and thus, by unalloyed intelligence, the mind is brought into the service of the Lord.</p>
+<p>The Lord and His service are identical, being on the absolute plane.</p>
+<p>Therefore the unalloyed intelligence and the mind are merged into the Lord, and thus the living entity does not remain a seer himself but becomes seen by the Lord transcendentally.</p>
+<p>When the living entity is directly seen by the Lord, the Lord dictates to him to act according to His desire, and when the living entity follows Him perfectly, the living entity ceases to discharge any other duty for his illusory satisfaction.</p>
+<p>In his pure unalloyed state, the living being attains the stage of full bliss, labdhopasanti, and ceases all material hankerings.</p>
+
+
+
+<p><strong>2.2.17</strong></p>
+<p>na yatra kalo ’nimisam parah prabhuh</p>
+<p>kuto nu deva jagatam ya isire</p>
+<p>na yatra sattvam na rajas tamas ca</p>
+<p>na vai vikaro na mahan pradhanam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—not; yatra—wherein; kalah—destructive time; animisam—of the heavenly demigods; parah—superior; prabhuh—controller; kutah—where is there; nu—certainly; devah—the demigods; jagatam—the mundane creatures; ye—those; isire—rules; na—not; yatra—therein; sattvam—mundane goodness; na—nor; rajah—mundane passion; tamah—mundane ignorance; ca—also; na—nor; vai—certainly; vikarah—transformation; na—nor; mahan—the material Causal Ocean; pradhanam—material nature.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In that transcendental state of labdhopasanti, there is no supremacy of devastating time, which controls even the celestial demigods who are empowered to rule over mundane creatures (And what to speak of the demigods themselves?) Nor is there the mode of material goodness, nor passion, nor ignorance, nor even the false ego, nor the material Causal Ocean, nor the material nature.</p>
+<p><strong>PURPORT</strong></p>
+<p>Devastating time, which controls even the celestial demigods by its manifestations of past, present and future, does not act on the transcendental plane.</p>
+<p>The influence of time is exhibited by the symptoms of birth, death, old age and disease, and these four principles of material conditions are present everywhere in any part of the material cosmos up to the planet Brahmaloka, where the duration of life of the inhabitants appears to us to be fabulous.</p>
+<p>Insurmountable time even brings about the death of Brahma, so what to speak of other demigods like Indra, Candra, Surya, Vayu and Varuna? The astronomical influence directed by the different demigods over mundane creatures is also conspicuous by its absence.</p>
+<p>In material existence, the living entities are afraid of Satanic influence, but for a devotee on the transcendental plane there is no such fear at all.</p>
+<p>The living entities change their material bodies in different shapes and forms under the influence of the different modes of material nature, but in the transcendental state the devotee is guna-tita, or above the material modes of goodness, passion and ignorance.</p>
+<p>Thus the false ego of I am the lord of all I surve does not arise there.</p>
+<p>In the material world the false ego of the living being trying to lord it over the material nature is something like the moth’s falling in a blazing fire.</p>
+<p>The moth is captivated by the glaring beauty of the fire, and when he comes to enjoy it, the blazing fire consumes him.</p>
+<p>In the transcendental state the living being is pure in his consciousness, and as such he has no false ego to lord it over the material nature.</p>
+<p>Rather, his pure consciousness directs him to surrender unto the Supreme Lord, as stated in the Bhagavad-gita (7.19): vasudevah sarvam iti sa mahatma sudurlabhah.</p>
+<p>All this indicates that in the transcendental state there is neither material creation nor the Causal Ocean for material nature.</p>
+<p>The above-mentioned state of affairs is factual on the transcendental plane, but is factually revealed in a transcendentalist’s knowledge of the advanced state of pure consciousness.</p>
+<p>Such transcendentalists are of two types, namely the impersonalists and the devotees.</p>
+<p>For the impersonalist the ultimate goal or destination is the brahmajyoti of the spiritual sky, but for the devotees the ultimate goal is the Vaikuntha planets.</p>
+<p>The devotees experience the above-mentioned state of affairs by attainment of spiritual forms for activity in the transcendental loving service of the Lord.</p>
+<p>But the impersonalist, because of his neglecting the association of the Lord, does not develop a spiritual body for spiritual activity, but remains a spiritual spark only, merged in the effulgent spiritual rays of the Supreme Personality of Godhead.</p>
+<p>The Lord is the full-fledged form of eternity, bliss and knowledge, but the formless brahmajyoti is simply eternity and knowledge.</p>
+<p>The Vaikuntha planets are also forms of eternity, bliss and knowledge, and therefore the devotees of the Lord, who are admitted into the abode of the Lord, also get bodies of eternity, bliss and knowledge.</p>
+<p>As such there is no difference between one and another.</p>
+<p>The Lord’s abode, name, fame, entourage, etc., are of the same transcendental quality, and how this transcendental quality differs from the material world is explained herewith in this verse.</p>
+<p>In the Bhagavad-gita, three principal subjects have been explained by Lord Sri Krsna, namely karma-yoga, jnana-yoga and bhakti-yoga, but one can reach the Vaikuntha planets by the practice of bhakti-yoga only.</p>
+<p>The other two are incompetent in helping one reach the Vaikunthalokas, although they can, however, conveniently take one to the effulgent brahmajyoti, as described above.</p>
+
+
+
+<p><strong>2.2.18</strong></p>
+<p>param padam vaisnavam amananti tad</p>
+<p>yan neti netity atad utsisrksavah</p>
+<p>visrjya dauratmyam ananya-sauhrda</p>
+<p>hrdopaguhyarha-padam pade pade</p>
+<p><strong>SYNONYMS</strong></p>
+<p>param—the supreme; padam—situation; vaisnavam—in relation with the personality of Godhead; amananti—do they know; tat—that; yat—which; na iti—not this; na iti—not this; iti—thus; atat—godless; utsisrksavah—those who desire to avoid; visrjya—giving it up completely; dauratmyam—perplexities; ananya—absolutely; sauhrdah—in good will; hrda upaguhya—taking them into his heart; arha—that which is only worshipable; padam—lotus feet; pade pade—at every moment.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The transcendentalists desire to avoid everything godless, for they know that supreme situation in which everything is related with the Supreme Lord Visnu.</p>
+<p>Therefore a pure devotee who is in absolute harmony with the Lord does not create perplexities, but worships the lotus feet of the Lord at every moment, taking them into his heart.</p>
+<p><strong>PURPORT</strong></p>
+<p>In the Bhagavad-gita, mad-dhama (My abod) is mentioned several times, and according to the version of the Supreme Personality of Godhead Sri Krsna there exists the unlimited spiritual sky, wherein the planets are called Vaikunthas, or the abode of the Personality of Godhead.</p>
+<p>In that sky, which is far, far beyond the material sky and its sevenfold coverings, there is no need of the sun or the moon, nor is there necessity of electricity for illumination, because the planets are self-illuminating and more brilliant than the material suns pure devotees of the Lord are absolutely in harmony with the Personality of Godhead, or in other words, they always think of the Lord as their only dependable friend and well-wisher.</p>
+<p>They do not care for any mundane creature, up to the status of Brahma, the lord of the universe.</p>
+<p>Only they can definitely have a clear vision of the Vaikuntha planets.</p>
+<p>Such pure devotees, being perfectly directed by the Supreme Lord, do not create any artificial perplexity in the matter of transcendental understanding by wasting time in discussing what is Brahman and what is non-Brahman, or maya, nor do they falsely think of themselves as one with the Lord, or argue that there is no existence of the Lord separately, or that there is no God at all, or that living beings are themselves God, or that when God incarnates Himself He assumes a material body.</p>
+<p>Nor do they concern themselves with many obscure speculative theories, which are in actuality so many stumbling blocks on the path of transcendental understanding.</p>
+<p>Apart from the class of impersonalists or nondevotees, there are also classes who pose themselves as devotees of the Lord but at heart maintain the idea of salvation by becoming one with the impersonal Brahman.</p>
+<p>They wrongly manufacture their own way of devotional service by open debauchery and mislead others who are simpletons or debauchees like themselves.</p>
+<p>All these nondevotees and debauchees are, according to Visvanatha Cakravarti, duratmas, or crooked souls in the dress of mahatmas, or great souls.</p>
+<p>Such nondevotees and debauchees are completely excluded from the list of transcendentalists by the presentation of this particular verse by Sukadeva Gosvami.</p>
+<p>So the Vaikuntha planets are factually the supreme residential places called the param padam.</p>
+<p>The impersonal brahmajyoti is also called the param padam due to its being the rays of the Vaikuntha planets, as the sun rays are the rays of the sun.</p>
+<p>In the Bhagavad-gita (14.27) it is clearly said that the impersonal brahmajyoti rests on the person of the Lord, and because everything rests on the brahmajyoti directly and indirectly, everything is generated from the Lord, everything rests on Him, and after annihilation, everything is merged in Him only.</p>
+<p>Therefore, nothing is independent of Him.</p>
+<p>A pure devotee of the Lord no longer wastes valuable time in discriminating the Brahman from non-Brahman because he knows perfectly well that the Lord Parabrahman, by His Brahman energy, is interwoven in everything, and thus everything is looked upon by a devotee as the property of the Lord.</p>
+<p>The devotee tries to engage everything in His service and does not create perplexities by falsely lording it over the creation of the Lord.</p>
+<p>He is so faithful that he engages himself, as well as everything else, in the transcendental loving service of the Lord.</p>
+<p>In everything, the devotee sees the Lord, and he sees everything in the Lord.</p>
+<p>The specific disturbance created by a duratma, or crooked soul, is due to his maintaining that the transcendental form of the Lord is something material.</p>
+
+
+
+<p><strong>2.2.19</strong></p>
+<p>ittham munis tuparamed vyavasthito</p>
+<p>vijnana-drg-virya-surandhitasayah</p>
+<p>sva-parsninapidya gudam tato ’nilam</p>
+<p>sthanesu satsunnamayej jita-klamah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ittham—thus, by Brahman realization; munih—the philosopher; tu—but; uparamet—should retire; vyavasthitah—well situated; vijnana-drk—by scientific knowledge; virya—strength; su-randhita—well regulated; asayah—aim of life; sva-parsnina—with the heel of one’s foot; apidya—by blocking; gudam—the air hole; tatah—thereafter; anilam—life air; sthanesu—in the places; satsu—six primary; unnamayet—must be lifted; jita-klamah—by extinguishing material desires.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>By the strength of scientific knowledge, one should be well situated in absolute realization and thus be able to extinguish all material desires.</p>
+<p>One should then give up the material body by blocking the air hole (through which stool is evacuated) with the heel of one’s foot and by lifting the life air from one place to another in the six primary places.</p>
+<p><strong>PURPORT</strong></p>
+<p>There are many duratmas who claim to have realized themselves as Brahman and yet are unable to conquer material desires.</p>
+<p>In the Bhagavad-gita (18.54) it is clearly explained that an absolutely self-realized soul becomes completely aloof from all material desires.</p>
+<p>Material desires are based on the false ego of the living being and are exhibited by his childish and useless activities to conquer the laws of material nature and by his desire to lord it over the resources of the five elements.</p>
+<p>With such a mentality, one is led to believe in the strength of material science, with its discovery of atomic energy and space travel by mechanical vehicles, and by such tiny advancements in material science the false egoist tries to challenge even the strength of the Supreme Lord, who can finish all man’s tiny endeavors in less than a second.</p>
+<p>The well-situated self, or Brahman-realized soul, perfectly understands that the Supreme Brahman, or the personality of Godhead, is the all-powerful Vasudeva and that he (the self-realized living being) is a part and parcel of the supreme whole.</p>
+<p>As such, his constitutional position is to cooperate with Him in all respects in the transcendental relation of the served and the servitor.</p>
+<p>Such a self-realized soul ceases to exhibit his useless activities of attempting to lord it over material nature.</p>
+<p>Being scientifically well informed, he fully engages himself in faithful devotion to the Lord.</p>
+<p>The expert yogi who has thoroughly practiced the control of the life air by the prescribed method of the yoga system is advised to quit the body as follows.</p>
+<p>He should plug up the evacuating hole with the heel of the foot and then progressively move the life air on and on to six places: the navel, abdomen, heart, chest, palate, eyebrows and cerebral pit.</p>
+<p>Controlling the life air by the prescribed yogic process is mechanical, and the practice is more or less a physical endeavor for spiritual perfection.</p>
+<p>In olden days such practice was very common for the transcendentalist, for the mode of life and character in those days were favorable.</p>
+<p>But in modern days, when the influence of Kali Age is so disturbing, practically everyone is untrained in this art of bodily exercise.</p>
+<p>Concentration of the mind is more easily attained in these days by the chanting of the holy name of the Lord.</p>
+<p>The results are more effective than those derived from the inner exercise of the life air.</p>
+
+
+
+<p><strong>2.2.20</strong></p>
+<p>nabhyam sthitam hrdy adhiropya tasmad</p>
+<p>udana-gatyorasi tam nayen munih</p>
+<p>tato ’nusandhaya dhiya manasvi</p>
+<p>sva-talu-mulam sanakair nayeta</p>
+<p><strong>SYNONYMS</strong></p>
+<p>nabhyam—on the navel; sthitam—situated; hrdi—in the heart; adhiropya—by placing; tasmat—from there; udana—soaring; gatya—force; urasi—on the chest; tam—thereafter; nayet—should draw; munih—the meditative devotee; tatah—them; anusandhaya—just to search out; dhiya—by intelligence; manasvi—the meditative; sva-talu-mulam—at the root of the palate; sanakaih—slowly; nayeta—may be brought in.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The meditative devotee should slowly push up the life air from the navel to the heart, from there to the chest and from there to the root of the palate.</p>
+<p>He should search out the proper places with intelligence.</p>
+<p><strong>PURPORT</strong></p>
+<p>There are six circles of the movement of the life air, and the intelligent bhakti-yogi should search out these places with intelligence and in a meditative mood.</p>
+<p>Among these, mentioned above is the svadhisthana-cakra, or the powerhouse of the life air, and above this, just below the abdomen and navel, is the mani-puraka-cakra.</p>
+<p>When upper space is further searched out in the heart, one reaches the anahata-cakra, and further up, when the life air is placed at the root of the palate, one reaches the visuddhi-cakra.</p>
+
+
+
+<p><strong>2.2.21</strong></p>
+<p>tasmad bhruvor antaram unnayeta</p>
+<p>niruddha-saptayatano ’napeksah</p>
+<p>sthitva muhurtardham akuntha-drstir</p>
+<p>nirbhidya murdhan visrjet param gatah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasmat—from there; bhruvoh—of the eyebrows; antaram—in between; unnayeta—should be brought in; niruddha—by blocking; sapta—seven; ayatanah—outlets of the life air; anapeksah—independent of all material enjoyment; sthitva—by keeping; muhurta—of a moment; ardham—half; akuntha—back home, back to Godhead; drstih—one whose aim is targeted like that; nirbhidya—punching; murdhan—the cerebral hole; visrjet—should give up his body; param—the Supreme; gatah—having gone to.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter the bhakti-yogi should push the life air up between the eyebrows, and then, blocking the seven outlets of the life air, he should maintain his aim for going back home, back to Godhead.</p>
+<p>If he is completely free from all desires for material enjoyment, he should then reach the cerebral hole and give up his material connections, having gone to the Supreme.</p>
+<p><strong>PURPORT</strong></p>
+<p>The process of giving up all material connections and returning home, back to Godhead, the Supreme, is recommended herein.</p>
+<p>The condition is that one should be completely freed from desire for material enjoyment.</p>
+<p>There are different grades of material enjoyments in respect to duration of life and sensual gratification.</p>
+<p>The highest plane of sensual enjoyment for the longest period of life is mentioned in the Bhagavad-gita (9.20).</p>
+<p>All are but material enjoyments, and one should be thoroughly convinced that he has no need of such a long duration of life, even in the Brahmaloka planet.</p>
+<p>He must return home, back to Godhead, and must not be attracted by any amount of material facilities.</p>
+<p>In the Bhagavad-gita (2.59) it is said that this sort of material detachment is possible to attain when one is acquainted with the supreme association of life.</p>
+<p>Param drstva nivartate.</p>
+<p>One cannot be freed from material attraction unless he has complete understanding of the nature of spiritual life.</p>
+<p>The propaganda by a certain class of impersonalists that spiritual life is void of all varieties is dangerous propaganda to mislead the living beings into becoming more and more attracted by material enjoyments.</p>
+<p>As such, persons with a poor fund of knowledge cannot have any conception of the param, the Supreme; they try to stick to the varieties of material enjoyments, although they may flatter themselves as being Brahman-realized souls.</p>
+<p>Such less intelligent persons cannot have any conception of the param, as mentioned in this verse, and therefore they cannot reach the Supreme.</p>
+<p>The devotees have full knowledge of the spiritual world, the Personality of Godhead and His transcendental association in unlimited spiritual planets called Vaikunthalokas.</p>
+<p>Herein akuntha-drstih is mentioned.</p>
+<p>Akuntha and vaikuntha convey the same import, and only one who has his aim fixed upon that spiritual world and personal association with the Godhead can give up his material connections even while living in the material world.</p>
+<p>This param and the param dhama mentioned in several places in the Bhagavad-gita are one and the same thing.</p>
+<p>One who goes to the param dhama does not return to the material world.</p>
+<p>This freedom is not possible even by reaching the topmost loka of the material world.</p>
+<p>The life air passes through seven openings, namely two eyes, two nostrils, two ears and one mouth.</p>
+<p>Generally it passes through the mouth at the time of an ordinary man’s death.</p>
+<p>But the yogi, as above mentioned, who controls the life air in his own way, generally releases the life air by puncturing the cerebral hole in the head.</p>
+<p>The yogi therefore blocks up all the above-mentioned seven openings, so that the life air will naturally burst forth through the cerebral hole.</p>
+<p>This is the sure sign of a great devotee’s leaving the material connection.</p>
+
+
+
+<p><strong>2.2.22</strong></p>
+<p>yadi prayasyan nrpa paramesthyam</p>
+<p>vaihayasanam uta yad viharam</p>
+<p>astadhipatyam guna-sannivaye</p>
+<p>sahaiva gacchen manasendriyais ca</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yadi—however; prayasyan—maintaining a desire; nrpa—O King; paramesthyam—the governing planet of the material world; vaihayasanam—of the beings known as the Vaihayasas; uta—it is said; yat—what is; viharam—place of enjoyment; asta-adhipatyam—lording it over with eightfold achievements; guna-sannivaye—in the world of three modes of nature; saha—along with; eva—certainly; gacchet—should go; manasa—accompanied by the mind; indriyaih—and the senses; ca—also.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>However, O King, if a yogi maintains a desire for improved material enjoyments, like transference to the topmost planet, Brahmaloka, or the achievement of the eightfold perfections, travel in outer space with the Vaihayasas, or a situation in one of the millions of planets, then he has to take away with him the materially molded mind and senses.</p>
+<p><strong>PURPORT</strong></p>
+<p>In the upper status of the planetary systems there are facilities thousands and thousands of times greater for material enjoyments than in the lower planetary systems.</p>
+<p>The topmost planetary systems consist of planets like Brahmaloka and Dhruvaloka (the polestar), and all of them are situated beyond Maharloka.</p>
+<p>The inhabitants of those planets are empowered with eightfold achievements of mystic perfection.</p>
+<p>They do not have to learn and practice the mystic processes of yoga perfection and achieve the power of becoming small like a particle (anima-siddhi), or lighter than a soft feather (laghima-siddhi).</p>
+<p>They do not have to get anything and everything from anywhere and everywhere (prapti-siddhi), to become heavier than the heaviest (mahima-siddhi), to act freely even to create something wonderful or to annihilate anything at will (isitva-siddhi), to control all material elements (vasitva-siddhi), to possess such power as will never be frustrated in any desire (prakamya-siddhi), or to assume any shape or form one may even whimsically desire (kamavasayita-siddhi).</p>
+<p>All these expediencies are as common as natural gifts for the inhabitants of those higher planets.</p>
+<p>They do not require any mechanical help to travel in outer space, and they can move and travel at will from one planet to any other planet within no time.</p>
+<p>The inhabitants of the earth cannot move even to the nearest planet except by mechanical vehicles like spacecraft, but the highly talented inhabitants of such higher planets can do everything very easily.</p>
+<p>Since a materialist is generally inquisitive to experience what is actually in such planetary systems, he wants to see everything personally.</p>
+<p>As inquisitive persons tour all over the world to gain direct local experience, the less intelligent transcendentalist similarly desires to have some experience of those planets about which he has heard so many wonderful things.</p>
+<p>The yogi can, however, easily fulfill his desire by going there with the present materialistic mind and senses.</p>
+<p>The prime inclination of the materialistic mind is to lord it over the material world, and all the siddhis mentioned above are features of domination over the world.</p>
+<p>The devotees of the Lord are not ambitious to dominate a false and temporary phenomenon.</p>
+<p>On the contrary, a devotee wants to be dominated by the supreme predominator, the Lord.</p>
+<p>A desire to serve the Lord, the supreme predominator, is spiritual or transcendental, and one has to attain this purification of the mind and the senses to get admission into the spiritual kingdom.</p>
+<p>With the materialistic mind one can reach the best planet in the universe, but no one can enter into the kingdom of God.</p>
+<p>Senses are called spiritually purified when they are not involved in sense gratification.</p>
+<p>Senses require engagements, and when the senses are engaged totally in the transcendental loving service of the Lord, they have no chance to become contaminated by material infections.</p>
+
+
+
+<p><strong>2.2.23</strong></p>
+<p>yogesvaranam gatim ahur antar-</p>
+<p>bahis-tri-lokyah pavanantar-atmanam</p>
+<p>na karmabhis tam gatim apnuvanti</p>
+<p>vidya-tapo-yoga-samadhi-bhajam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yoga-isvaranam—of the great saints and devotees; gatim—destination; ahuh—it is said; antah—within; bahih—without; tri-lokyah—of the three planetary systems; pavana-antah—within the air; atmanam—of the subtle body; na—never; karmabhih—by fruitive activities; tam—that; gatim—speed; apnuvanti—achieve; vidya—devotional service; tapah—austerities; yoga—mystic power; samadhi—knowledge; bhajam—of those who entertain.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The transcendentalists are concerned with the spiritual body.</p>
+<p>As such, by the strength of their devotional service, austerities, mystic power and transcendental knowledge, their movements are unrestricted, within and beyond the material worlds.</p>
+<p>The fruitive workers, or the gross materialists, can never move in such an unrestricted manner.</p>
+<p><strong>PURPORT</strong></p>
+<p>The materialistic scientist’s endeavor to reach other planets by mechanical vehicles is only a futile attempt.</p>
+<p>One can, however, reach heavenly planets by virtuous activities, but one can never expect to go beyond Svarga or Janaloka by such mechanical or materialistic activities, either gross or subtle.</p>
+<p>The transcendentalists who have nothing to do with the gross material body can move anywhere within or beyond the material worlds.</p>
+<p>Within the material worlds they move in the planetary systems of the Mahar-, Janas-, Tapas- and Satya-loka, and beyond the material worlds they can move in the Vaikunthas as unrestricted spacemen.</p>
+<p>Narada Muni is one of the examples of such spacemen, and Durvasa Muni is one of such mystics.</p>
+<p>By the strength of devotional service, austerities, mystic powers and transcendental knowledge, everyone can move like Narada Muni or Durvasa Muni.</p>
+<p>It is said that Durvasa Muni traveled throughout the entirety of material space and part of spiritual space within one year only.</p>
+<p>The speed of the transcendentalists can never be attained by the gross or subtle materialists.</p>
+
+
+
+<p><strong>2.2.24</strong></p>
+<p>vaisvanaram yati vihayasa gatah</p>
+<p>susumnaya brahma-pathena socisa</p>
+<p>vidhuta-kalko ’tha harer udastat</p>
+<p>prayati cakram nrpa saisumaram</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vaisvanaram—the controlling deity of fire; yati—goes; vihayasa—by the path in the sky (the Milky Way); gatah—by passing over; susumnaya—by the Susumna; brahma—Brahmaloka; pathena—on the way to; socisa—illuminating; vidhuta—being washed off; kalkah—dirt; atha—thereafter; hareh—of Lord Hari; udastat—upwards; prayati—does reach; cakram—circle; nrpa—O King; saisumaram—named Sisumara.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King, when such a mystic passes over the Milky Way by the illuminating Susumna to reach the highest planet, Brahmaloka, he goes first to Vaisvanara, the planet of the deity of fire, wherein he becomes completely cleansed of all contaminations, and thereafter he still goes higher, to the circle of Sisumara, to relate with Lord Hari, the Personality of Godhead.</p>
+<p><strong>PURPORT</strong></p>
+<p>The polar star of the universe and the circle thereof is called the Sisumara circle, and therein the local residential planet of the Personality of Godhead (Ksirodakasayi Visnu) is situated.</p>
+<p>Before reaching there, the mystic passes over the Milky Way to reach Brahmaloka, and while going there he first reaches Vaisvanara-loka, where the demigod controls fire.</p>
+<p>On Vaisvanara-loka the yogi becomes completely cleansed of all dirty sins acquired while in contact with the material world.</p>
+<p>The Milky Way in the sky is indicated herein as the way leading to Brahmaloka, the highest planet of the universe.</p>
+
+
+
+<p><strong>2.2.25</strong></p>
+<p>tad visva-nabhim tv ativartya visnor</p>
+<p>aniyasa virajenatmanaikah</p>
+<p>namaskrtam brahma-vidam upaiti</p>
+<p>kalpayuso yad vibudha ramante</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tat—that; visva-nabhim—navel of the universal Personality of Godhead; tu—but; ativartya—crossing over; visnoh—of Lord Visnu, the Personality of Godhead; aniyasa—due to mystic perfection; virajena—by the purified; atmana—by the living entity; ekah—alone; namaskrtam—worshipable; brahma-vidam—by those who are transcendentally situated; upaiti—reaches; kalpa-ayusah—a period of 4,300,000,000 solar years; yat—the place; vibudhah—self-realized souls; ramante—do enjoy.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>This Sisumara is the pivot for the turning of the complete universe, and it is called the navel of Visnu (Garbhodakasayi Visnu).</p>
+<p>The yogi alone goes beyond this circle of Sisumara and attains the planet (Maharloka) where purified saints like Bhrgu enjoy a duration of life of 4,300,000,000 solar years.</p>
+<p>This planet is worshipable even for the saints who are transcendentally situated.</p>
+
+
+
+<p><strong>2.2.26</strong></p>
+<p>atho anantasya mukhanalena</p>
+<p>dandahyamanam sa niriksya visvam</p>
+<p>niryati siddhesvara-yusta-dhisnyam</p>
+<p>yad dvai-parardhyam tad u paramesthyam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atho—thereupon; anantasya—of Ananta, the resting incarnation of Godhead; mukha-analena—by the fire emanating from His mouth; dandahyamanam—burning to ashes; sah—he; niriksya—by seeing this; visvam—the universe; niryati—goes out; siddhesvara-yusta-dhisnyam—airplanes used by the great purified souls; yat—the place; dvai-parardhyam—15,480,000,000,000 solar years; tat—that; u—the exalted; paramesthyam—Satyaloka, where Brahma resides.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>At the time of the final devastation of the complete universe (the end of the duration of Brahma’s life), a flame of fire emanates from the mouth of Ananta (from the bottom of the universe).</p>
+<p>The yogi sees all the planets of the universe burning to ashes, and thus he leaves for Satyaloka by airplanes used by the great purified souls.</p>
+<p>The duration of life in Satyaloka is calculated to be 15,480,000,000,000 years.</p>
+<p><strong>PURPORT</strong></p>
+<p>It is indicated herein that the residents of Maharloka, where the purified living entities or demigods possess a duration of life calculated to be 4,300,000,000 solar years, have airships by which they reach Satyaloka, the topmost planet of the universe.</p>
+<p>In other words, the Srimad-Bhagavatam gives us many clues about other planets far, far away from us which modern planes and spacecraft cannot reach, even by imaginary speeds.</p>
+<p>The statements of Srimad-Bhagavatam are accepted by great acaryas like Sridhara Svami, Ramanujacarya and Vallabhacarya.</p>
+<p>Lord Sri Caitanya Mahaprabhu specifically accepts Srimad-Bhagavatam as the spotless Vedic authority, and as such no sane man can ignore the statements of Srimad-Bhagavatam when it is spoken by the self-realized soul Srila Sukadeva Gosvami, who follows in the footsteps of his great father, Srila Vyasadeva, the compiler of all Vedic literatures.</p>
+<p>In the creation of the Lord there are many wonderful things we can see with our own eyes every day and night, but we are unable to reach them equipped by modern materialistic science.</p>
+<p>We should not, therefore, depend on the fragmentary authority of materialistic science for knowing things beyond the range of scientific purview.</p>
+<p>For a common man, both modern science and Vedic wisdom are simply to be accepted because none of the statements either of modern science or of Vedic literature can be verified by him.</p>
+<p>The alternative for a common man is to believe either of them or both of them.</p>
+<p>The Vedic way of understanding, however, is more authentic because it has been accepted by the acaryas, who are not only faithful and learned men, but are also liberated souls without any of the flaws of conditioned souls.</p>
+<p>The modern scientists, however, are conditioned souls liable to so many errors and mistakes; therefore the safe side is to accept the authentic version of Vedic literatures, like Srimad-Bhagavatam, which is accepted unanimously by the great acaryas.</p>
+
+
+
+<p><strong>2.2.27</strong></p>
+<p>na yatra soko na jara na mrtyur</p>
+<p>nartir na codvega rte kutascit</p>
+<p>yac cit tato ’dah krpayanidam-vidam</p>
+<p>duranta-duhkha-prabhavanudarsanat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—never; yatra—there are; sokah—bereavement; na—nor; jara—old age; na—nor; mrtyuh—death; na—nor; artih—pains; na—nor; ca—also; udvegah—anxieties; rte—save and except; kutascit—sometimes; yat—because of; cit—consciousness; tatah—therefore; adah—compassion; krpaya—out of heartfelt sympathy; an-idam-vidam—of those who are ignorant of the process of devotional service; duranta—unsurpassable; duhkha—misery; prabhava—repeated birth and death; anudarsanat—by successive experience.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In that planet of Satyaloka, there is neither bereavement, nor old age nor death.</p>
+<p>There is no pain of any kind, and therefore there are no anxieties, save that sometimes, due to consciousness, there is a feeling of compassion for those unaware of the process of devotional service, who are subjected to unsurpassable miseries in the material world.</p>
+<p><strong>PURPORT</strong></p>
+<p>Foolish men of materialistic temperament do not take advantage of successive authorized knowledge.</p>
+<p>The Vedic knowledge is authorized and is acquired not by experiment but by authentic statements of the Vedic literatures explained by bona fide authorities.</p>
+<p>Simply by becoming an academic scholar one cannot understand the Vedic statements; one has to approach the real authority who has received the Vedic knowledge by disciplic succession, as clearly explained in the Bhagavad-gita (4.2).</p>
+<p>Lord Krsna affirmed that the system of knowledge as explained in the Bhagavad-gita was explained to the sun-god, and the knowledge descended by disciplic succession from the sun-god to his son Manu, and from Manu to King Iksvaku (the forefather of Lord Ramacandra), and thus the system of knowledge was explained down the line of great sages, one after another.</p>
+<p>But in due course of time the authorized succession was broken, and therefore, just to reestablish the true spirit of the knowledge, the Lord again explained the same knowledge to Arjuna, who was a bona fide candidate for understanding due to his being a pure devotee of the Lord.Bhagavad-gita, as it was understood by Arjuna, is also explained (Bg.10.12–13), but there are many foolish men who do not follow in the footsteps of Arjuna in understanding the spirit of Bhagavad-gita.</p>
+<p>They create instead their own interpretations, which are as foolish as they themselves, and thereby only help to put a stumbling block on the path of real understanding, misdirecting the innocent followers who are less intelligent, or the sudras.</p>
+<p>It is said that one should become a brahmana before one can understand the Vedic statements, and this stricture is as important as the stricture that no one shall become a lawyer who has not qualified himself as a graduate.</p>
+<p>Such a stricture is not an impediment in the path of progress for anyone and everyone, but it is necessary for an unqualified understanding of a particular science.</p>
+<p>Vedic knowledge is misinterpreted by those who are not qualified brahmanas.</p>
+<p>A qualified brahmana is one who has undergone strict training under the guidance of a bona fide spiritual master.</p>
+<p>The Vedic wisdom guides us to understanding our relation with the Supreme Lord Sri Krsna and to acting accordingly in order to achieve the desired result of returning home, back to Godhead.</p>
+<p>But materialistic men do not understand this.</p>
+<p>They want to make a plan to become happy in a place where there is no happiness.</p>
+<p>For false happiness they try to reach other planets, either by Vedic rituals or by spacecraft, but they should know for certain that any amount of materialistic adjustment for becoming happy in a place which is meant for distress cannot benefit the misguided man because, after all, the whole universe with all its paraphernalia will come to an end after a certain period.</p>
+<p>Then all plans of materialistic happiness will automatically come to an end.</p>
+<p>The intelligent person therefore makes a plan to return home, back to Godhead.</p>
+<p>Such an intelligent person surpasses all the pangs of material existence, like birth, death, disease and old age.</p>
+<p>He is actually happy because he has no anxieties of material existence, but as a compassionate sympathizer he feels unhappiness for the suffering materialistic men, and thus he occasionally comes before the materialistic men to teach them the necessity of going back to Godhead.</p>
+<p>All the bona fide acaryas preach this truth of returning home, back to Godhead, and warn men not to make a false plan for happiness in a place where happiness is only a myth.</p>
+
+
+
+<p><strong>2.2.28</strong></p>
+<p>tato visesam pratipadya nirbhayas</p>
+<p>tenatmanapo ’nala-murtir atvaran</p>
+<p>jyotirmayo vayum upetya kale</p>
+<p>vayv-atmana kham brhad atma-lingam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—thereafter; visesam—particularly; pratipadya—by obtaining; nirbhayah—without any doubt; tena—by that; atmana—pure self; apah—water; anala—fire; murtih—forms; atvaran—by surpassing; jyotih-mayah—effulgent; vayum—atmosphere; upetya—having reached there; kale—in due course of time; vayu—air; atmana—by the self; kham—ethereal; brhat—great; atma-lingam—the real form of the self.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>After reaching Satyaloka, the devotee is specifically able to be incorporated fearlessly by the subtle body in an identity similar to that of the gross body, and one after another he gradually attains stages of existence from earthly to watery, fiery, glowing and airy, until he reaches the ethereal stage.</p>
+<p><strong>PURPORT</strong></p>
+<p>Anyone who can reach Brahmaloka, or Satyaloka, by dint of spiritual perfection and practice is qualified to attain three different types of perfection.</p>
+<p>One who has attained a specific planet by dint of pious activities attains places in terms of his comparative pious activities.</p>
+<p>One who has attained the place by dint of virat or Hiranyagarbha worship is liberated along with the liberation of Brahma.</p>
+<p>But one who attains the place by dint of devotional service is specifically mentioned here, in relation to how he can penetrate into the different coverings of the universe and thus ultimately disclose his spiritual identity in the absolute atmosphere of supreme existence.</p>
+<p>According to Srila Jiva Gosvami, all the universes are clustered together up and down, and each and every one of them is separately sevenfold-covered.</p>
+<p>The watery portion is beyond the sevenfold coverings, and each covering is ten times more expansive than the previous covering.</p>
+<p>The personality of Godhead who creates all such universes by His breathing period lies above the cluster of the universes.</p>
+<p>The water of the Causal Ocean is differently situated than the covering water of the universe.</p>
+<p>The water that serves as covering for the universe is material, whereas the water of the Causal Ocean is spiritual.</p>
+<p>As such, the watery covering mentioned herein is considered to be the false egoistic covering of all living entities, and the gradual process of liberation from the material coverings, one after another, as mentioned herein, is the gradual process of being liberated from false egoistic conceptions of the material gross body, and then being absorbed in the identification of the subtle body till the attainment of the pure spiritual body in the absolute realm of the kingdom of God.</p>
+<p>Srila Sridhara Svami confirms that a part of the material nature, after being initiated by the Lord, is known as the mahat-tattva.</p>
+<p>A fractional portion of the mahat-tattva is called the false ego.</p>
+<p>A portion of the ego is the vibration of sound, and a portion of sound is atmospheric air.</p>
+<p>A portion of the airy atmosphere is turned into forms, and the forms constitute the power of electricity or heat.</p>
+<p>Heat produces the smell of the aroma of the earth, and the gross earth is produced by such aroma.</p>
+<p>And all these combined together constitute the cosmic phenomenon.</p>
+<p>The extent of the cosmic phenomenon is calculated to be diametrically (both ways) four billion miles.</p>
+<p>Then the coverings of the universe begin.</p>
+<p>The first stratum of the covering is calculated to extend eighty million miles, and the subsequent coverings of the universe are respectively of fire, effulgence, air and ether, one after another, each extending ten times further than the previous.</p>
+<p>The fearless devotee of the Lord penetrates each one of them and ultimately reaches the absolute atmosphere where everything is of one and the same spiritual identity.</p>
+<p>Then the devotee enters one of the Vaikuntha planets, where he assumes exactly the same form as the Lord and engages in the loving transcendental service of the Lord.</p>
+<p>That is the highest perfection of devotional life.</p>
+<p>Beyond this there is nothing to be desired or achieved by the perfect yogi.</p>
+
+
+
+<p><strong>2.2.29</strong></p>
+<p>ghranena gandham rasanena vai rasam</p>
+<p>rupam ca drstya svasanam tvacaiva</p>
+<p>srotrena copetya nabho-gunatvam</p>
+<p>pranena cakutim upaiti yogi</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ghranena—by smelling; gandham—aroma; rasanena—by taste; vai—exactly; rasam—palate; rupam—forms; ca—also; drstya—by vision; svasanam—contact; tvaca—touch; eva—as it were; srotrena—by vibration of the ear; ca—also; upetya—by achieving; nabhah-gunatvam—identification of ether; pranena—by sense organs; ca—also; akutim—material activities; upaiti—attains; yogi—the devotee.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The devotee thus surpasses the subtle objects of different senses like aroma by smelling, the palate by tasting, vision by seeing forms, touch by contacting, the vibrations of the ear by ethereal identification, and the sense organs by material activities.</p>
+<p><strong>PURPORT</strong></p>
+<p>Beyond the sky there are subtle coverings, resembling the elementary coverings of the universes.</p>
+<p>The gross coverings are a development of partial ingredients of the subtle causes.</p>
+<p>So the yogi or devotee, along with liquidation of the gross elements, relinquishes the subtle causes like aroma by smelling.</p>
+<p>The pure spiritual spark, the living entity, thus becomes completely cleansed of all material contamination to become eligible for entrance into the kingdom of God.</p>
+
+
+
+<p><strong>2.2.30</strong></p>
+<p>sa bhuta-suksmendriya-sannikarsam</p>
+<p>manomayam devamayam vikaryam</p>
+<p>samsadya gatya saha tena yati</p>
+<p>vijnana-tattvam guna-sannirodham</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—he (the devotee); bhuta—the gross; suksma—and the subtle; indriya—senses; sannikarsam—the point of neutralization; manah-mayam—the mental plane; deva-mayam—in the mode of goodness; vikaryam—egoism; samsadya—surpassing; gatya—by the progress; saha—along with; tena—them; yati—goes; vijnana—perfect knowledge; tattvam—truth; guna—the material modes; sannirodham—completely suspended.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The devotee, thus surpassing the gross and the subtle forms of coverings, enters the plane of egoism.</p>
+<p>And in that status he merges the material modes of nature (ignorance and passion) in this point of neutralization and thus reaches egoism in goodness.</p>
+<p>After this, all egoism is merged in the mahat-tattva, and he comes to the point of pure self-realization.</p>
+<p><strong>PURPORT</strong></p>
+<p>Pure self-realization, as we have several times discussed, is the pure consciousness of admitting oneself to be the eternal servitor of the Lord.</p>
+<p>Thus one is reinstated in his original position of transcendental loving service to the Lord, as will be clearly explained in the following verse.</p>
+<p>This stage of rendering transcendental loving service to the Lord without any hopes of emolument from the Lord, or any other way, can be attained when the material senses are purified and the original pure state of the senses is revived.</p>
+<p>It is suggested herein that the process of purifying the senses is by the yogic way, namely the gross senses are merged in the mode of ignorance, and the subtle senses are merged in the mode of passion.</p>
+<p>The mind belongs to the mode of goodness and therefore is called devamaya, or godly perfect purification of the mind is made possible when one is fixed in the conviction of being the eternal servitor of the Lord.</p>
+<p>Therefore simple attainment of goodness is also a material mode; one has to surpass this stage of material goodness and reach the point of purified goodness, or vasudeva-sattva.</p>
+<p>This vasudeva-sattva helps one to enter into the kingdom of God.</p>
+<p>We may also remember in this connection that the process of gradual emancipation by the devotees in the manner mentioned above, although authoritative, is not viable in the present age because of people’s being primarily unaware of yoga practice.</p>
+<p>The so-called yoga practice by the professional protagonists may be physiologically beneficial, but such small successes cannot help one in the attainment of spiritual emancipation as mentioned herein.</p>
+<p>Five thousand years ago, when the social status of human society was in perfect Vedic order, the yoga process mentioned herein was a common affair for everyone because everyone, and especially the brahmana and ksatriya, was trained in the transcendental art under the care of the spiritual master far away from home, in the status of brahmacarya.</p>
+<p>Modern man, however, is incompetent to understand it perfectly.</p>
+<p>Lord Sri Caitanya, therefore, made it easier for the prospective devotee of the present age in the following specific manner.</p>
+<p>Ultimately there is no difference in the result.</p>
+<p>The first and foremost point is that one must understand the prime importance of bhakti-yoga.</p>
+<p>The living beings in different species of life are undergoing different terms of encagement according to their fruitive actions and reactions.</p>
+<p>But in the execution of different activities, one who secures some resources in bhakti-yoga can understand the importance of service to the Lord through the causeless mercy of the Lord, as well as that of the spiritual master.</p>
+<p>A sincere soul is helped by the Lord through meeting a bona fide spiritual master, the representative of the Lord.</p>
+<p>By the instruction of such a spiritual master, one gets the seed of bhakti-yoga.</p>
+<p>Lord Sri Caitanya Mahaprabhu recommends that the devotee sow the seed of bhakti-yoga in his heart and nurture it by the watering of hearing and chanting the holy name, fame, etc., of the Lord.</p>
+<p>The simple process of offenselessly chanting and hearing the holy name of the Lord will gradually promote one very soon to the stage of emancipation.</p>
+<p>There are three stages in chanting the holy name of the Lord.</p>
+<p>The first stage is the offensive chanting of the holy name, and the second is the reflective stage of chanting the holy name.</p>
+<p>The third stage is the offenseless chanting of the holy name of the Lord.</p>
+<p>In the second stage only, the stage of reflection, between the offensive and offenseless stages, one automatically attains the stage of emancipation.</p>
+<p>And in the offenseless stage, one actually enters into the kingdom of God, although physically he may apparently be within the material world.</p>
+<p>To attain the offenseless stage, one must be on guard in the following manner.</p>
+<p>When we speak of hearing and chanting, it means that not only should one chant and hear of the holy name of the Lord as Rama, Krsna (or systematically the sixteen names Hare Krsna, Hare Krsna, Krsna Krsna, Hare Hare/ Hare Rama, Hare Rama, Rama Rama, Hare Hare), but one should also read and hear the Bhagavad-gita and Srimad-Bhagavatam in the association of devotees.</p>
+<p>The primary practice of bhakti-yoga will cause the seed already sowed in heart to sprout, and by a regular watering process, as mentioned above, the bhakti-yoga creeper will begin to grow.</p>
+<p>By systematic nurturing, the creeper will grow to such an extent that it will penetrate the coverings of the universe, as we have heard in the previous verses, reach the effulgent sky, the brahmajyoti, and go farther and farther and reach the spiritual sky, where there are innumerable spiritual planets called Vaikunthalokas.</p>
+<p>Above all of them is Krsnaloka, or Goloka Vrndavana, wherein the growing creeper enters and takes repose at the lotus feet of Lord Sri Krsna, the original Personality of Godhead.</p>
+<p>When one reaches the lotus feet of Lord Krsna at Goloka Vrndavana, the watering process of hearing and reading, as also chanting of the holy name in the pure devotional stage, fructifies, and the fruits grown there in the form of love of God are tangibly tasted by the devotee, even though he is here in this material world.</p>
+<p>The ripe fruits of love of God are relished only by the devotees constantly engaged in the watering process as described above.</p>
+<p>But the working devotee must always be mindful so that the creeper which has so grown will not be cut off.</p>
+<p>Therefore he should be mindful of the following considerations: (1) Offense by one at the feet of a pure devotee may be likened to the mad elephant who devastates a very good garden if it enters (2) One must be very careful to guard himself against such offenses at the feet of pure devotees, just as one protects a creeper by all-around fencing (3) It so happens that by the watering process some weeds are also grown, and unless such weeds are uprooted, the nurturing of the main creeper, or the creeper of bhakti-yoga, may be hampered (4) Actually these weeds are material enjoyment, merging of the self in the Absolute without separate individuality, and many other desires in the field of religion, economic development, sense enjoyment and emancipation (5) There are many other weeds, like disobedience to the tenets of the revered scriptures, unnecessary engagements, killing animals, and hankering after material gain, prestige and adoration (6) If sufficient care is not taken, then the watering process may only help to breed the weeds, stunting the healthy growth of the main creeper and resulting in no fructification of the ultimate requirement: love of God (7) The devotee must therefore be very careful to uproot the different weeds in the very beginning.</p>
+<p>Only then will the healthy growth of the main creeper not be stunted (8) And by so doing, the devotee is able to relish the fruit of love of God and thus live practically with Lord Krsna, even in this life, and be able to see the Lord in every step.</p>
+<p>The highest perfection of life is to enjoy life constantly in the association of the Lord, and one who can relish this does not aspire after any temporary enjoyment of the material world via other media.</p>
+
+
+
+<p><strong>2.2.31</strong></p>
+<p>tenatmanatmanam upaiti santam</p>
+<p>anandam anandamayo ’vasane</p>
+<p>etam gatim bhagavatim gato yah</p>
+<p>sa vai punar neha visajjate ’nga</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tena—by that purified; atmana—by the self; atmanam—the Supersoul; upaiti—attains; santam—rest; anandam—satisfaction; ananda-mayah—naturally so being; avasane—being freed from all material contamination; etam—such; gatim—destination; bhagavatim—devotional; gatah—attained by; yah—the person; sah—he; vai—certainly; punah—again; na—never; iha—in this material world; visajjate—becomes attracted; anga—O Maharaja Pariksit.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Only the purified soul can attain the perfection of associating with the Personality of Godhead in complete bliss and satisfaction in his constitutional state.</p>
+<p>Whoever is able to renovate such devotional perfection is never again attracted by this material world, and he never returns.</p>
+<p><strong>PURPORT</strong></p>
+<p>We should specially note in this verse the description of gatim bhagavatim.</p>
+<p>To become merged in the rays of the Parabrahman, the Supreme Personality of Godhead, as desired by the brahmavadi impersonalist, is not bhagavatim perfection.</p>
+<p>The bhagavatas never accept merging in the impersonal rays of the Lord, but always aspire after personal association with the Supreme Lord in one of the Vaikuntha spiritual planets in the spiritual sky.</p>
+<p>The whole of the spiritual sky, of which the total number of the material skies is only an insignificant part, is full of unlimited numbers of Vaikuntha planets.</p>
+<p>The destination of the devotee (the bhagavata) is to enter into one of the Vaikuntha planets, in each of which the Personality of Godhead, in His unlimited personal expansions, enjoys Himself in the association of unlimited numbers of pure devotee associates.</p>
+<p>The conditioned souls in the material world, after gaining emancipation by devotional service, are promoted to these planets.</p>
+<p>But the number of ever-liberated souls is far, far greater than the number of conditioned souls in the material world, and the ever-liberated souls in the Vaikuntha planets never care to visit this miserable material world.</p>
+<p>The impersonalists, who aspire to merge in the impersonal brahmajyoti effulgence of the Supreme Lord but have no conception of loving devotional service to Him in His personal form in the spiritual manifestation, may be compared to certain species of fish, who, being born in the rivers and rivulets, migrate to the great ocean.</p>
+<p>They cannot stay in the ocean indefinitely, for their urge for sense gratification brings them back to the rivers and streams to spawn.</p>
+<p>Similarly, when the materialist becomes frustrated in his attempts to enjoy himself in the limited material world, he may seek impersonal liberation by merging either with the Causal Ocean or with the impersonal brahmajyoti effulgence.</p>
+<p>However, as neither the Causal Ocean nor the impersonal brahmajyoti effulgence affords any superior substitute for association and engagement of the senses, the impersonalist will fall again into the limited material world to become entangled once more in the wheel of births and deaths, drawn on by the inextinguishable desire for sensual engagement.</p>
+<p>But any devotee who enters the kingdom of God by transcendental engagement of his senses in devotional service, and who associates with the liberated souls and the Personality of Godhead there, will never be attracted to the limited surroundings of the material world.</p>
+<p>In the Bhagavad-gita (8.15) also the same is confirmed, as the Lord says, The great mahatmas, or the bhakti-yogis, after attaining My association, never come back to this material world, which is full of miseries and is nonpermanent The highest perfection of life, therefore, is to attain His association, and nothing else.</p>
+<p>The bhakti-yogi, being completely engaged in the Lord’s service, has no attraction for any other process of liberation like jnana or yoga.</p>
+<p>A pure devotee is a one hundred percent devotee of the Lord and nothing more.</p>
+<p>We should further note in this verse the two words santam and anandam, which denote that devotional service of the Lord can really bestow upon the devotee two important benedictions, namely peace and satisfaction.</p>
+<p>The impersonalist is desirous of becoming one with the Supreme, or in other words, he wants to become the Supreme.</p>
+<p>This is a myth only.</p>
+<p>The mystic yogis become encumbered by various mystic powers and so have neither peace nor satisfaction.</p>
+<p>So neither the impersonalists nor the yogi can have real peace and satisfaction, but the devotee can become fully peaceful and satisfied because of his association with the complete whole.</p>
+<p>Therefore, merging in the Absolute or attaining some mystic powers has no attraction for the devotee.</p>
+<p>Attainment of love of Godhead means complete freedom from all other attractions.</p>
+<p>The conditioned soul has many aspirations such as becoming a religious man, a rich man, or a first-class enjoyer or becoming God himself, or becoming powerful like the mystics and acting wonderfully by getting anything or doing anything, but all these aspirations should be rejected by the prospective devotee who actually wants to revive his dormant love of God.</p>
+<p>The impure devotee aspires after all of the abovementioned material things by perfection of devotion.</p>
+<p>But a pure devotee has none of the tinges of the above contaminations, which are the influence of material desires, impersonal speculations and attainment of mystic powers.</p>
+<p>One can attain the stage of love of God by pure devotional service, or by a learned labor of love for the sake of the devotee’s lovable object, the Personality of Godhead.</p>
+<p>To be more clear, if one wants to attain the stage of love of Godhead, he must give up all desires for material enjoyment, he should refrain from worshiping any of the demigods, and he should devote himself only to the worship of the Supreme Personality of Godhead.</p>
+<p>He must give up the foolish idea of becoming one with the Lord and the desire to have some wonderful powers just to get the ephemeral adoration of the world.</p>
+<p>The pure devotee is only favorably engaged in the service of the Lord, without any hope of emolument.</p>
+<p>This will bring about love of Godhead, or the stage of santam and anandam, as stated in this verse.</p>
+
+
+
+<p><strong>2.2.32</strong></p>
+<p>ete srti te nrpa veda-gite</p>
+<p>tvayabhiprste ca sanatane ca</p>
+<p>ye vai pura brahmana aha tusta</p>
+<p>aradhito bhagavan vasudevah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ete—all that is described; srti—way; te—unto you; nrpa—O Maharaja Pariksit; veda-gite—according to the version of the Vedas; tvaya—by Your Majesty; abhiprste—being properly inquired; ca—also; sanatane—in the matter of eternal truth; ca—verily; ye—which; vai—certainly; pura—before; brahmane—unto Lord Brahma; aha—said; tustah—being satisfied; aradhitah—being worshiped; bhagavan—the personality of Godhead; vasudevah—Lord Krsna.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Your Majesty Maharaja Pariksit, know that all that I have described in reply to your proper inquiry is just according to the version of the Vedas, and it is eternal truth.</p>
+<p>This was described personally by Lord Krsna unto Brahma, with whom the Lord was satisfied upon being properly worshiped.</p>
+<p><strong>PURPORT</strong></p>
+<p>The two different ways of reaching the spiritual sky and thereby getting emancipation from all material bondage, namely either the direct process of reaching the kingdom of God or the gradual process through the other higher planets of the universe, are set forth exactly according to the version of the Vedas.</p>
+<p>The Vedic versions in this connection are, yada sarve pramucyante kama ye ’sya hrdi sritah/ atha martyo ’mrto bhavaty atra brahma samasnute (Brhad-aranyaka Upanisad 4.4.7) and te ’rcir abhisambhavanti (Brhad-aranyaka Upanisad 6.2.15): Those who are free from all material desires, which are diseases of the heart, are able to conquer death and enter the kingdom of God through the Arci planets These Vedic versions corroborate the version of the Srimad-Bhagavatam, and the latter is further confirmed by Sukadeva Gosvami, who affirms that the truth was disclosed by the Supreme Personality of Godhead Lord Sri Krsna, Vasudeva, to Brahma, the first authority on the Vedas.</p>
+<p>The disciplic succession holds that the Vedas were uttered by Lord Krsna to Brahma, by Brahma to Narada, and by Narada to Vyasadeva, and then by Vyasadeva to Sukadeva Gosvami and so on.</p>
+<p>So there is no difference between the versions of all the authorities.</p>
+<p>The truth is eternal, and as such there cannot be any new opinion about the truth.</p>
+<p>That is the way of knowing the knowledge contained in the Vedas.</p>
+<p>It is not a thing to be understood by one’s erudite scholarship or by the fashionable interpretations of mundane scholars.</p>
+<p>There is nothing to be added and nothing to be subtracted, because the truth is the truth.</p>
+<p>One has to accept, after all, some authority.</p>
+<p>The modern scientists are also authorities for the common man for some scientific truths.</p>
+<p>The common man follows the version of the scientist.</p>
+<p>This means that the common man follows the authority.</p>
+<p>The Vedic knowledge is also received in that way.</p>
+<p>The common man cannot argue about what is beyond the sky or beyond the universe; he must accept the versions of the Vedas as they are understood by the authorized disciplic succession.</p>
+<p>In the Bhagavad-gita also the same process of understanding the Gita is stated in the Fourth Chapter.</p>
+<p>If one does not follow the authoritative version of the acaryas, he will vainly search after the truth mentioned in the Vedas.</p>
+
+
+
+<p><strong>2.2.33</strong></p>
+<p>na hy ato ’nyah sivah pantha</p>
+<p>visatah samsrtav iha</p>
+<p>vasudeve bhagavati</p>
+<p>bhakti-yogo yato bhavet</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—never; hi—certainly; atah—beyond this; anyah—any other; sivah—auspicious; panthah—means; visatah—wandering; samsrtau—in the material world; iha—in this life; vasudeve—unto Lord Vasudeva, Krsna; bhagavati—the Personality of Godhead; bhakti-yogah—direct devotional service; yatah—wherein; bhavet—may result in.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>For those who are wandering in the material universe, there is no more auspicious means of deliverance than what is aimed at in the direct devotional service of Lord Krsna.</p>
+<p><strong>PURPORT</strong></p>
+<p>As will be clarified in the next verse, devotional service, or direct bhakti-yoga, is the only absolute and auspicious means of deliverance from the grip of material existence.</p>
+<p>There are many indirect methods for deliverance from the clutches of material existence, but none of them is as easy and auspicious as bhakti-yoga.</p>
+<p>The means of jnana and yoga and other allied disciplines are not independent in delivering a performer.</p>
+<p>Such activities help one to reach the stage of bhakti-yoga after many, many years.</p>
+<p>In the Bhagavad-gita (12.5) it is said that those who are attached to the impersonal feature of the Absolute are liable to many troubles in the pursuit of their desired goal, and the empiricist philosophers, searching after the Absolute Truth, realize the importance of Vasudeva realization as all in all after many, many births (Bg.7.19).</p>
+<p>As far as yoga systems are concerned, it is also said in the Bhagavad-gita (Bg.6.47) that amongst the mystics who pursue the Absolute Truth, the one who is always engaged in the service of the Lord is the greatest of all.</p>
+<p>And the last instruction in the Bhagavad-gita (Bg.18.66) advises fully surrendering unto the Lord, leaving aside all other engagements or different processes for self-realization and liberation from material bondage.</p>
+<p>And the purport of all Vedic literatures is to induce one to accept the transcendental loving service of the Lord by all means.</p>
+<p>As already explained in the texts of Srimad-Bhagavatam (First Canto), either direct bhakti-yoga or the means which ultimately culminate in bhakti-yoga, without any tinge of fruitive activity, constitutes the highest form of religion.</p>
+<p>Everything else is simply a waste of time for the performer.</p>
+<p>Srila Sridhara Svami and all other acaryas, like Jiva Gosvami, agree that bhakti-yoga is not only easy, simple, natural and free from trouble, but is the only source of happiness for the human being.</p>
+
+
+
+<p><strong>2.2.34</strong></p>
+<p>bhagavan brahma kartsnyena</p>
+<p>trir anviksya manisaya</p>
+<p>tad adhyavasyat kuta-stho</p>
+<p>ratir atman yato bhavet</p>
+<p><strong>SYNONYMS</strong></p>
+<p>bhagavan—the great personality Brahma; brahma—the Vedas; kartsnyena—by summarization; trih—three times; anviksya—scrutinizingly examined; manisaya—with scholarly attention; tat—that; adhyavasyat—ascertained it; kuta-sthah—with concentration of the mind; ratih—attraction; atman (atmani)—unto the Supreme Personality of Godhead Sri Krsna; yatah—by which; bhavet—it so happens.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The great personality Brahma, with great attention and concentration of the mind, studied the Vedas three times, and after scrutinizingly examining them, he ascertained that attraction for the Supreme Personality of Godhead Sri Krsna is the highest perfection of religion.</p>
+<p><strong>PURPORT</strong></p>
+<p>Sri Sukadeva Gosvami is referring to the highest Vedic authority, Lord Brahma, who is the qualitative incarnation of Godhead.</p>
+<p>The Vedas were taught to Brahmaji in the beginning of the material creation.</p>
+<p>Although Brahmaji was to hear Vedic instructions directly from the personality of Godhead, in order to satisfy the inquisitiveness of all prospective students of the Vedas, Brahmaji, just like a scholar, studied the Vedas three times, as generally done by all scholars.</p>
+<p>He studied with great attention, concentrating on the purpose of the Vedas, and after scrutinizingly examining the whole process, he ascertained that becoming a pure, unalloyed devotee of the Supreme Personality of Godhead Sri Krsna is the topmost perfection of all religious principles.</p>
+<p>Aid this is the last instruction of the Bhagavad-gita directly presented by the Personality of Godhead.</p>
+<p>The Vedic conclusion is thus accepted by all acaryas, and those who are against this conclusion are only veda-vada-ratas, as explained in the Bhagavad-gita (2.42).</p>
+
+
+
+<p><strong>2.2.35</strong></p>
+<p>bhagavan sarva-bhutesu</p>
+<p>laksitah svatmana harih</p>
+<p>drsyair buddhy-adibhir drasta</p>
+<p>laksanair anumapakaih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>bhagavan—the Personality of Godhead; sarva—all; bhutesu—in the living entities; laksitah—is visible; sva-atmana—along with the self; harih—the Lord; drsyaih—by what is seen; buddhi-adibhih—by intelligence; drasta—one who sees; laksanaih—by different signs; anumapakaih—by hypothesis.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Personality of Godhead Lord Sri Krsna is in every living being along with the individual soul.</p>
+<p>And this fact is perceived and hypothesized in our acts of seeing and taking help from the intelligence.</p>
+<p><strong>PURPORT</strong></p>
+<p>The general argument of the common man is that since the Lord is not visible to our eyes, how can one either surrender unto Him or render transcendental loving service unto Him? To such a common man, here is a practical suggestion given by Srila Sukadeva Gosvami as to how one can perceive the Supreme Lord by reason and perception.</p>
+<p>Actually the Lord is not perceivable by our present materialized senses, but when one is convinced of the presence of the Lord by a practical service attitude, there is a revelation by the Lord’s mercy, and such a pure devotee of the Lord can perceive the Lord’s presence always and everywhere.</p>
+<p>He can perceive that intelligence is the form-direction of the Paramatma plenary portion of the Personality of Godhead.</p>
+<p>The presence of Paramatma in everyone’s company is not very difficult to realize, even for the common man.</p>
+<p>The procedure is as follows.</p>
+<p>One can perceive one’s self-identification and feel positively that he exists.</p>
+<p>He may not feel it very abruptly, but by using a little intelligence, he can feel that he is not the body.</p>
+<p>He can feel that the hand, the leg, the head, the hair and the limbs are all his bodily parts and parcels, but as such the hand, the leg, the head, etc., cannot be identified with his self.</p>
+<p>Therefore just by using intelligence he can distinguish and separate his self from other things that he sees.</p>
+<p>So the natural conclusion is that the living being, either man or beast, is the seer, and he sees besides himself all other things.</p>
+<p>So there is a difference between the seer and the seen.</p>
+<p>Now, by a little use of intelligence we can also readily agree that the living being who sees the things beyond himself by ordinary vision has no power to see or to move independently.</p>
+<p>All our ordinary actions and perceptions depend on various forms of energy supplied to us by nature in various combinations.</p>
+<p>Our senses of perception and of action, that is to say, our five perceptive senses of (1) hearing, (2) touch, (3) sight, (4) taste and (5) smell, as well as our five senses of action, namely (1) hands, (2) legs, (3) speech, (4) evacuation organs and (5) reproductive organs, and also our three subtle senses, namely (1) mind, (2) intelligence and (3) ego (thirteen senses in all), are supplied to us by various arrangements of gross or subtle forms of natural energy.</p>
+<p>And it is equally evident that our objects of perception are nothing but the products of the inexhaustible permutations and combinations of the forms taken by natural energy.</p>
+<p>As this conclusively proves that the ordinary living being has no independent power of perception or of motion, and as we undoubtedly feel our existence being conditioned by nature’s energy, we conclude that he who sees is spirit, and that the senses as well as the objects of perception are material.</p>
+<p>The spiritual quality of the seer is manifest in our dissatisfaction with the limited state of materially conditioned existence.</p>
+<p>That is the difference between spirit and matter.</p>
+<p>There are some less intelligent arguments that matter develops the power of seeing and moving as a certain organic development, but such an argument cannot be accepted because there is no experimental evidence that matter has anywhere produced a living entity.</p>
+<p>Trust no future, however pleasant.</p>
+<p>Idle talks regarding future development of matter into spirit are actually foolish because no matter has ever developed the power of seeing or moving in any part of the world.</p>
+<p>Therefore it is definite that matter and spirit are two different identities, and this conclusion is arrived at by the use of intelligence.</p>
+<p>Now we come to the point that the things which are seen by a little use of intelligence cannot be animate unless we accept someone as the user of or director of the intelligence.</p>
+<p>Intelligence gives one direction like some higher authority, and the living being cannot see or move or eat or do anything without the use of intelligence.</p>
+<p>When one fails to take advantage of intelligence he becomes a deranged man, and so a living being is dependent on intelligence or the direction of a superior being.</p>
+<p>Such intelligence is all-pervading.</p>
+<p>Every living being has his intelligence, and this intelligence, being the direction of some higher authority, is just like a father giving direction to his son.</p>
+<p>The higher authority, who is present and residing within every individual living being, is the Superself.</p>
+<p>At this point in our investigation, we may consider the following question: on the one hand we realize that all our perceptions and activities are conditioned by arrangements of material nature, yet we also ordinarily feel and say, I am perceivin or I am doing Therefore we can say that our material senses of perception and action are moving because we are identifying the self with the material body, and that the superior principle of Superself is guiding and supplying us according to our desire.</p>
+<p>By taking advantage of the guidance of Superself in the form of intelligence, we can either continue to study and to put into practice our conclusion that I am not this body or we can choose to remain in the false material identification, fancying ourselves to be the possessors and doers.</p>
+<p>Our freedom consists in orienting our desire either toward the ignorant, material misconception or the true, spiritual conception.</p>
+<p>We can easily attain to the true, spiritual conception by recognizing the Superself (Paramatma) to be our friend and guide and by dovetailing our intelligence with the superior intelligence of Paramatma.</p>
+<p>The Superself and the individual self are both spirit, and therefore the Superself and the individual self are both qualitatively one and distinct from matter.</p>
+<p>But the Superself and the individual self cannot be on an equal level because the Superself gives direction or supplies intelligence and the individual self follows the direction, and thus actions are performed properly.</p>
+<p>The individual is completely dependent on the direction of the Superself because in every step the individual self follows the direction of the Superself in the matter of seeing, hearing, thinking, feeling, willing, etc.</p>
+<p>So far as common sense is concerned, we come to the conclusion that there are three identities, namely matter, spirit and Superspirit.</p>
+<p>Now if we go to the Bhagavad-gita, or the Vedic intelligence, we can further understand that all three identities, namely matter, individual spirit, and the Superspirit, are all dependent on the Supreme Personality of Godhead.</p>
+<p>The Superself is a partial representation or plenary portion of the Supreme Personality of Godhead.</p>
+<p>The Bhagavad-gita affirms that the Supreme Personality of Godhead dominates all over the material world by His partial representation only.</p>
+<p>God is great, and He cannot be simply an order supplier of the individual selves; therefore the Superself cannot be a full representation of the Supreme Self, Purusottama, the Absolute Personality of Godhead.</p>
+<p>Realization of the Superself by the individual self is the beginning of self-realization, and by the progress of such self-realization one is able to realize the Supreme Personality of Godhead by intelligence, by the help of authorized scriptures, and, principally, by the grace of the Lord.</p>
+<p>The Bhagavad-gita is the preliminary conception of the Personality of Godhead Sri Krsna, and Srimad-Bhagavatam is the further explanation of the science of Godhead.</p>
+<p>So if we stick to our determination and pray for the mercy of the director of intelligence sitting within the same bodily tree, like a bird sitting with another bird (as explained in the Upanisads), certainly the purport of the revealed information in the Vedas becomes clear to our vision, and there is no difficulty in realizing the Supreme Personality of Godhead, Vasudeva.</p>
+<p>The intelligent man therefore, after many births of such use of intelligence, surrenders himself at the lotus feet of Vasudeva, as confirmed by the Bhagavad-gita (7.19).</p>
+
+
+
+<p><strong>2.2.36</strong></p>
+<p>tasmat sarvatmana rajan</p>
+<p>harih sarvatra sarvada</p>
+<p>srotavyah kirtitavyas ca</p>
+<p>smartavyo bhagavan nrnam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasmat—therefore; sarva—all; atmana—soul; rajan—O King; harih—the Lord; sarvatra—everywhere; sarvada—always; srotavyah—must be heard; kirtitavyah—glorified; ca—also; smartavyah—be remembered; bhagavan—the Personality of Godhead; nrnam—by the human being.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King, it is therefore essential that every human being hear about, glorify and remember the Supreme Lord, the Personality of Godhead, always and everywhere.</p>
+<p><strong>PURPORT</strong></p>
+<p>Srila Sukadeva Gosvami begins this verse with the word tasmat, or therefore because in the previous verse he has already explained that there is no auspicious means for salvation other than the sublime process of bhakti-yoga.</p>
+<p>The bhakti-yoga process is practiced by the devotees in different methods like hearing, chanting, remembering, serving the lotus feet of the Lord, worshiping, praying, rendering service in love, becoming friendly, and offering all that one may possess.</p>
+<p>All nine methods are bona fide methods, and either all of them, some of them or even one of them can bring about the desired result for the sincere devotee.</p>
+<p>But out of all the nine different methods, the first one, namely hearing, is the most important function in the process of bhakti-yoga.</p>
+<p>Without hearing sufficiently and properly, no one can make any progress by any of the methods of practice.</p>
+<p>And for hearing only, all the Vedic literatures are there, compiled by authorized persons like Vyasadeva, who is the powerful incarnation of Godhead.</p>
+<p>And since it has been ascertained that the Lord is the Supersoul of everything, He should therefore be heard and glorified everywhere and always.</p>
+<p>That is the special duty of the human being.</p>
+<p>When the human being gives up the process of hearing about the all-pervading personality of Godhead, he becomes victim to hearing rubbish transmitted by man-made machines.</p>
+<p>Machinery is not bad because through the machine one can take advantage of hearing about the Lord, but because machinery is used for ulterior purposes, it is creating rapid degradation in the standard of human civilization.</p>
+<p>It is said here that it is incumbent upon the human beings to hear because the scriptures like Bhagavad-gita and Srimad-Bhagavatam are made for that purpose.</p>
+<p>Living beings other than human beings have no ability to hear such Vedic literatures.</p>
+<p>If human society gives itself to the process of hearing the Vedic literature, it will not become a victim to the impious sounds vibrated by impious men who degrade the standards of the total society.</p>
+<p>Hearing is solidified by the process of chanting.</p>
+<p>One who has perfectly heard from the perfect source becomes convinced about the all-pervading Personality of Godhead and thus becomes enthusiastic in glorifying the Lord.</p>
+<p>All the great acaryas, like Ramanuja, Madhva, Caitanya, Sarasvati Thakura or even, in other countries, Muhammad, Christ and others, have all extensively glorified the Lord by chanting always and in every place.</p>
+<p>Because the Lord is all-pervading, it is essential to glorify Him always and everywhere.</p>
+<p>In the process of glorifying the Lord there should be no restriction of time and space.</p>
+<p>This is called sanatana-dharma or bhagavata-dharma.</p>
+<p>Sanatana means eternal, always and everywhere.Bhagavata means pertaining to Bhagavan, the Lord.</p>
+<p>The Lord is the master of all time and all space, and therefore the Lord’s holy name must be heard, glorified and remembered everywhere in the world.</p>
+<p>That will bring about the desired peace and prosperity so eagerly awaited by the people of the world.</p>
+<p>The word ca includes all the remaining processes or methods of bhakti-yoga, as mentioned above.</p>
+
+
+
+<p><strong>2.2.37</strong></p>
+<p>pibanti ye bhagavata atmanah satam</p>
+<p>kathamrtam sravana-putesu sambhrtam</p>
+<p>punanti te visaya-vidusitasayam</p>
+<p>vrajanti tac-carana-saroruhantikam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>pibanti—who drink; ye—those; bhagavatah—of the Personality of Godhead; atmanah—of the most dear; satam—of devotees; katha-amrtam—the nectar of the messages; sravana-putesu—within the earholes; sambhrtam—fully filled; punanti—purify; te—their; visaya—material enjoyment; vidusita-asayam—polluted aim of life; vrajanti—do go back; tat—the Lord’s; carana—feet; saroruha-antikam—near the lotus.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Those who drink through aural reception, fully filled with the nectarean message of Lord Krsna, the beloved of the devotees, purify the polluted aim of life known as material enjoyment and thus go back to Godhead, to the lotus feet of Him (the Personality of Godhead).</p>
+<p><strong>PURPORT</strong></p>
+<p>The sufferings of human society are due to a polluted aim of life, namely lording it over the material resources.</p>
+<p>The more human society engages in the exploitation of undeveloped material resources for sense gratification, the more it will be entrapped by the illusory, material energy of the Lord, and thus the distress of the world will be intensified instead of diminished.</p>
+<p>The human necessities of life are fully supplied by the Lord in the shape of food grains, milk, fruit, wood, stone, sugar, silk, jewels, cotton, salt, water, vegetables, etc., in sufficient quantity to feed and care for the human race of the world as well as the living beings on each and every planet within the universe.</p>
+<p>The supply source is complete, and only a little energy by the human being is required to get his necessities into the proper channel.</p>
+<p>There is no need of machines and tools or huge steel plants for artificially creating comforts of life.</p>
+<p>Life is never made comfortable by artificial needs, but by plain living and high thinking.</p>
+<p>The highest perfectional thinking for human society is suggested here by Sukadeva Gosvami, namely, sufficiently hearing Srimad-Bhagavatam.</p>
+<p>For men in this age of Kali, when they have lost the perfect vision of life, this Srimad-Bhagavatam is the torchlight by which to see the real path.</p>
+<p>Srila Jiva Gosvami Prabhupada has commented on the kathamrtam mentioned in this verse and has indicated Srimad-Bhagavatam to be the nectarean message of the Personality of Godhead.</p>
+<p>By sufficient hearing of Srimad-Bhagavatam, the polluted aim of life, namely lording it over matter, will subside, and the people in general in all parts of the world will be able to live a peaceful life of knowledge and bliss.</p>
+<p>For a pure devotee of the Lord, any topics in relation with His name, fame, quality, entourage, etc., are all pleasing, and because such topics have been approved by great devotees like Narada, Hanuman, Nanda Maharaja and other inhabitants of Vrndavana, certainly such messages are transcendental and pleasing to the heart and soul.</p>
+<p>And by the constant hearing of the messages of the Bhagavad-gita, and later of Srimad-Bhagavatam, one is assured herein by Srila Sukadeva Gosvami that he will reach the Personality of Godhead and render Him transcendental loving service in the spiritual planet of the name Goloka Vrndavana, which resembles a huge lotus flower.</p>
+<p>Thus by the process of bhakti-yoga, directly accepted, as suggested in this verse, by sufficient hearing of the transcendental message of the Lord, the material contamination is directly eliminated without one’s attempting to contemplate the impersonal virat conception of the Lord.</p>
+<p>And by practicing bhakti-yoga, if the performer is not purified from the material contamination, he must be a pseudodevotee.</p>
+<p>For such an imposter there is no remedy for being freed from material entanglement.</p>
+
+
+</article></body></html>

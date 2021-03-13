@@ -1,155 +1,42 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>The Downfall of Saubhari Muni - The Downfall of Saubhari Muni</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">The Downfall of Saubhari Muni</a></li><li class="affix"><a href="9.6.2.html">9.6.2</a></li><li class="affix"><a href="9.6.3.html">9.6.3</a></li><li class="affix"><a href="9.6.4.html">9.6.4</a></li><li class="affix"><a href="9.6.5.html">9.6.5</a></li><li class="affix"><a href="9.6.6.html">9.6.6</a></li><li class="affix"><a href="9.6.7.html">9.6.7</a></li><li class="affix"><a href="9.6.8.html">9.6.8</a></li><li class="affix"><a href="9.6.9.html">9.6.9</a></li><li class="affix"><a href="9.6.10.html">9.6.10</a></li><li class="affix"><a href="9.6.11.html">9.6.11</a></li><li class="affix"><a href="9.6.12.html">9.6.12</a></li><li class="affix"><a href="9.6.13.html">9.6.13</a></li><li class="affix"><a href="9.6.14.html">9.6.14</a></li><li class="affix"><a href="9.6.15-16.html">9.6.15-16</a></li><li class="affix"><a href="9.6.17.html">9.6.17</a></li><li class="affix"><a href="9.6.18.html">9.6.18</a></li><li class="affix"><a href="9.6.19.html">9.6.19</a></li><li class="affix"><a href="9.6.20.html">9.6.20</a></li><li class="affix"><a href="9.6.21.html">9.6.21</a></li><li class="affix"><a href="9.6.22.html">9.6.22</a></li><li class="affix"><a href="9.6.23-24.html">9.6.23-24</a></li><li class="affix"><a href="9.6.25.html">9.6.25</a></li><li class="affix"><a href="9.6.26.html">9.6.26</a></li><li class="affix"><a href="9.6.27.html">9.6.27</a></li><li class="affix"><a href="9.6.28.html">9.6.28</a></li><li class="affix"><a href="9.6.29.html">9.6.29</a></li><li class="affix"><a href="9.6.30.html">9.6.30</a></li><li class="affix"><a href="9.6.31.html">9.6.31</a></li><li class="affix"><a href="9.6.32.html">9.6.32</a></li><li class="affix"><a href="9.6.33-34.html">9.6.33-34</a></li><li class="affix"><a href="9.6.35-36.html">9.6.35-36</a></li><li class="affix"><a href="9.6.37.html">9.6.37</a></li><li class="affix"><a href="9.6.38.html">9.6.38</a></li><li class="affix"><a href="9.6.39-40.html">9.6.39-40</a></li><li class="affix"><a href="9.6.41-42.html">9.6.41-42</a></li><li class="affix"><a href="9.6.43.html">9.6.43</a></li><li class="affix"><a href="9.6.44.html">9.6.44</a></li><li class="affix"><a href="9.6.45-46.html">9.6.45-46</a></li><li class="affix"><a href="9.6.47.html">9.6.47</a></li><li class="affix"><a href="9.6.48.html">9.6.48</a></li><li class="affix"><a href="9.6.49.html">9.6.49</a></li><li class="affix"><a href="9.6.50.html">9.6.50</a></li><li class="affix"><a href="9.6.51.html">9.6.51</a></li><li class="affix"><a href="9.6.52.html">9.6.52</a></li><li class="affix"><a href="9.6.53.html">9.6.53</a></li><li class="affix"><a href="9.6.54.html">9.6.54</a></li><li class="affix"><a href="9.6.55.html">9.6.55</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">The Downfall of Saubhari Muni</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#the-downfall-of-saubhari-muni" id="the-downfall-of-saubhari-muni">The Downfall of Saubhari Muni</a></h1>
-<h2><a class="header" href="#summary" id="summary">Summary</a></h2>
-<h3><a class="header" href="#96" id="96">9.6</a></h3>
+<h1>The Downfall of Saubhari Muni</h1>
+<h2>Summary</h2>
+<p><strong>9.6</strong></p>
 <p>After describing the descendants of Maharaja Ambarisa, Sukadeva Gosvami described all the kings from Sasada to Mandhata, and in this connection he also described how the great sage Saubhari married the daughters of Mandhata.</p>
 <p>Maharaja Ambarisa had three sons, named Virupa, Ketuman and Sambhu.</p>
 <p>The son of Virupa was Prsadasva, and his son was Rathitara.</p>
@@ -185,7 +72,7 @@
 <p>Later, Saubhari Muni became very regretful.</p>
 <p>Thus he accepted the order of vanaprastha, performed very severe austerities, and thus attained perfection.</p>
 <p>In this regard, Sukadeva Gosvami described how Saubhari Muni’s wives also became perfect.</p>
-<h3><a class="header" href="#961" id="961">9.6.1</a></h3>
+<p><strong>9.6.1</strong></p>
 <p>sri-suka uvaca</p>
 <p>virupah ketuman chambhur</p>
 <p>ambarisa-sutas trayah</p>
@@ -197,63 +84,772 @@
 <p>Sukadeva Gosvami said: O Maharaja Pariksit, Ambarisa had three sons, named Virupa, Ketuman and Sambhu.</p>
 <p>From Virupa came a son named Prsadasva, and from Prsadasva came a son named Rathitara.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="9.6.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>9.6.2</strong></p>
+<p>rathitarasyaprajasya</p>
+<p>bharyayam tantave ’rthitah</p>
+<p>angira janayam asa</p>
+<p>brahma-varcasvinah sutan</p>
+<p><strong>SYNONYMS</strong></p>
+<p>rathitarasya—of Rathitara; aprajasya—who had no sons; bharyayam—unto his wife; tantave—for increasing offspring; arthitah—being requested; angirah—the great sage Angira; janayam asa—caused to take birth; brahma-varcasvinah—who had brahminical qualities; sutan—sons.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Rathitara had no sons, and therefore he requested the great sage Angira to beget sons for him.</p>
+<p>Because of this request, Angira begot sons in the womb of Rathitara’s wife.</p>
+<p>All these sons were born with brahminical prowess.</p>
+<p><strong>PURPORT</strong></p>
+<p>In the Vedic age a man was sometimes called upon to beget sons in the womb of a lesser man’s wife for the sake of better progeny.</p>
+<p>In such an instance, the woman is compared to an agricultural field.</p>
+<p>A person possessing an agricultural field may employ another person to produce food grains from it, but because the grains are produced from the land, they are considered the property of the owner of the land.</p>
+<p>Similarly, a woman was sometimes allowed to be impregnated by someone other than her husband, but the sons born of her would then become her husband’s sons.</p>
+<p>Such sons were called ksetra jata.</p>
+<p>Because Rathitara had no sons, he took advantage of this method.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="9.6.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>9.6.3</strong></p>
+<p>ete ksetra-prasuta vai</p>
+<p>punas tv angirasah smrtah</p>
+<p>rathitaranam pravarah</p>
+<p>ksetropeta dvi-jatayah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ete—the sons begotten by Angira; ksetra-prasutah—became the children of Rathitara and belonged to his family (because they were born from the womb of his wife); vai—indeed; punah—again; tu—but; angirasah—of the dynasty of Angira; smrtah—they were called; rathitaranam—of all the sons of Rathitara; pravarah—the chief; ksetra-upetah—because of being born of the ksetra (field); dvi-jatayah—called brahmana (being a mixture of brahmana and ksatriya).</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Having been born from the womb of Rathitara’s wife, all these sons were known as the dynasty of Rathitara, but because they were born from the semen of Angira, they were also known as the dynasty of Angira.</p>
+<p>Among all the progeny of Rathitara, these sons were the most prominent because, owing to their birth, they were considered brahmanas.</p>
+<p><strong>PURPORT</strong></p>
+<p>Srila Visvanatha Cakravarti Thakura gives the meaning of dvi jatayah as mixed caste indicating a mixture of brahmana and ksatriya.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>9.6.4</strong></p>
+<p>ksuvatas tu manor jajne</p>
+<p>iksvakur ghranatah sutah</p>
+<p>tasya putra-sata-jyestha</p>
+<p>vikuksi-nimi-dandakah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ksuvatah—while sneezing; tu—but; manoh—of Manu; jajne—was born; iksvakuh—by the name Iksvaku; ghranatah—from the nostrils; sutah—the son; tasya—of Iksvaku; putra-sata—one hundred sons; jyesthah—prominent; vikuksi—of the name Vikuksi; nimi—by the name Nimi; dandakah—by the name Dandaka.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Manu was Iksvaku.</p>
+<p>When Manu was sneezing, Iksvaku was born from Manu’s nostrils.</p>
+<p>King Iksvaku had one hundred sons, of whom Vikuksi, Nimi and Dandaka were the most prominent.</p>
+<p><strong>PURPORT</strong></p>
+<p>According to Sridhara Svami, although the Bhagavatam (9.1.11–12) has previously included Iksvaku among the ten sons begotten by Manu in his wife Sraddha, this was a generalization.</p>
+<p>It is here specifically explained that Iksvaku was born simply from the sneezing of Manu.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>9.6.5</strong></p>
+<p>tesam purastad abhavann</p>
+<p>aryavarte nrpa nrpa</p>
+<p>panca-vimsatih pascac ca</p>
+<p>trayo madhye ’pare ’nyatah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tesam—among all of those sons; purastat—on the eastern side; abhavan—they became; aryavarte—in the place within the Himalaya and Vindhya mountains known as Aryavarta; nrpah—kings; nrpa—O King (Maharaja Pariksit); panca-vimsatih—twenty-five; pascat—on the western side; ca—also; trayah—three of them; madhye—in the middle (between east and west); apare—others; anyatah—in other places.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Of the one hundred sons, twenty-five became kings in the western side of Aryavarta, a place between the Himalaya and Vindhya mountains.</p>
+<p>Another twenty-five sons became kings in the east of Aryavarta, and the three principal sons became kings in the middle.</p>
+<p>The other sons became kings in various other places.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>9.6.6</strong></p>
+<p>sa ekadastaka-sraddhe</p>
+<p>iksvakuh sutam adisat</p>
+<p>mamsam aniyatam medhyam</p>
+<p>vikukse gaccha ma ciram</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—that king (Maharaja Iksvaku); ekada—once upon a time; astaka-sraddhe—during January, February and March, when offerings are made to the forefathers; iksvakuh—King Iksvaku; sutam—to his son; adisat—ordered; mamsam—flesh; aniyatam—bring here; medhyam—pure (obtained by hunting); vikukse—O Vikuksi; gaccha—immediately go; ma ciram—without delay.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>During the months of January, February and March, oblations offered to the forefathers are called astaka-sraddha.</p>
+<p>The sraddha ceremony is held during the dark fortnight of the month.</p>
+<p>When Maharaja Iksvaku was performing his oblations in this ceremony, he ordered his son Vikuksi to go immediately to the forest to bring some pure flesh.</p>
+
+
+
+<p><strong>9.6.7</strong></p>
+<p>tatheti sa vanam gatva</p>
+<p>mrgan hatva kriyarhanan</p>
+<p>sranto bubhuksito virah</p>
+<p>sasam cadad apasmrtih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatha—according to the direction; iti—thus; sah—Vikuksi; vanam—to the forest; gatva—going; mrgan—animals; hatva—killing; kriya-arhanan—suitable for offering to the yajna in the sraddha ceremony; srantah—when he was fatigued; bubhuksitah—and hungry; virah—the hero; sasam—a rabbit; ca—also; adat—he ate; apasmrtih—forgetting (that the flesh was meant for offering in the sraddha).</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, Iksvaku’s son Vikuksi went to the forest and killed many animals suitable for being offered as oblations.</p>
+<p>But when fatigued and hungry he became forgetful and ate a rabbit he had killed.</p>
+<p><strong>PURPORT</strong></p>
+<p>It is evident that ksatriyas killed animals in the forest because the flesh of the animals was suitable to be offered at a particular type of yajna.</p>
+<p>Offering oblations to the forefathers in the ceremony known as sraddha is also a kind of yajna.</p>
+<p>In this yajna, flesh obtained from the forest by hunting could be offered.</p>
+<p>However, in the present age, Kali-yuga, this kind of offering is forbidden.</p>
+<p>Quoting from the Brahma-vaivarta Purana, Sri Caitanya Mahaprabhu said:</p>
+<p>asvamedham gavalambham</p>
+<p>sannyasam pala-paitrkam</p>
+<p>devarena sutotpattim</p>
+<p>kalau panca vivarjayet</p>
+<p>(Cc.Adi 17.164)</p>
+<p>In this age of Kali, five acts are forbidden: the offering of a horse in sacrifice, the offering of a cow in sacrifice, the acceptance of the order of sannyasa, the offering of oblations of flesh to the forefathers, and a man’s begetting children in his brother’s wife The word pala-paitrkam refers to an offering of flesh in oblations to forefathers.</p>
+<p>Formerly, such an offering was allowed, but in this age it is forbidden.</p>
+<p>In this age, Kali-yuga, everyone is expert in hunting animals, but most of the people are sudras, not ksatriyas.</p>
+<p>According to Vedic injunctions, however, only ksatriyas are allowed to hunt, whereas sudras are allowed to eat flesh after offering goats or other insignificant animals before the deity of goddess Kali or similar demigods.</p>
+<p>On the whole, meat-eating is not completely forbidden; a particular class of men is allowed to eat meat according to various circumstances and injunctions.</p>
+<p>As far as eating beef is concerned, however, it is strictly prohibited to everyone.</p>
+<p>Thus in Bhagavad-gita Krsna personally speaks of go-raksyam, cow protection.</p>
+<p>Meat-eaters, according to their different positions and the directions of the sastra, are allowed to eat flesh, but never the flesh of cows.</p>
+<p>Cows must be given all protection.</p>
+
+
+
+<p><strong>9.6.8</strong></p>
+<p>sesam nivedayam asa</p>
+<p>pitre tena ca tad-guruh</p>
+<p>coditah proksanayaha</p>
+<p>dustam etad akarmakam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sesam—the remnants; nivedayam asa—he offered; pitre—to his father; tena—by him; ca—also; tat-guruh—their priest or spiritual master; coditah—being requested; proksanaya—for purifying; aha—said; dustam—polluted; etat—all this flesh; akarmakam—not fit to be used for offering in sraddha.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Vikuksi offered the remnants of the flesh to King Iksvaku, who gave it to Vasistha for purification.</p>
+<p>But Vasistha could immediately understand that part of the flesh had already been taken by Vikuksi, and therefore he said that it was unfit to be used in the sraddha ceremony.</p>
+<p><strong>PURPORT</strong></p>
+<p>That which is meant to be offered in yajna cannot be tasted by anyone before being offered to the Deity.</p>
+<p>In our temples, this regulation is in effect.</p>
+<p>One cannot eat food from the kitchen unless it is offered to the Deity.</p>
+<p>If something is taken before being offered to the Deity, the entire preparation is polluted and can no longer be offered.</p>
+<p>Those engaged in Deity worship must know this very well so that they may be saved from committing offenses in Deity worship.</p>
+
+
+
+<p><strong>9.6.9</strong></p>
+<p>jnatva putrasya tat karma</p>
+<p>gurunabhihitam nrpah</p>
+<p>desan nihsarayam asa</p>
+<p>sutam tyakta-vidhim rusa</p>
+<p><strong>SYNONYMS</strong></p>
+<p>jnatva—knowing; putrasya—of his son; tat—that; karma—action; guruna—by the spiritual master (Vasistha); abhihitam—informed; nrpah—the King (Iksvaku); desat—from the country; nihsarayam asa—drove away; sutam—his son; tyakta-vidhim—because he violated the regulative principles; rusa—out of anger.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When King Iksvaku, thus informed by Vasistha, understood what his son Vikuksi had done, he was extremely angry.</p>
+<p>Thus he ordered Vikuksi to leave the country because Vikuksi had violated the regulative principles.</p>
+
+
+
+<p><strong>9.6.10</strong></p>
+<p>sa tu viprena samvadam</p>
+<p>jnapakena samacaran</p>
+<p>tyaktva kalevaram yogi</p>
+<p>sa tenavapa yat param</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—Maharaja Iksvaku; tu—indeed; viprena—with the brahmana (Vasistha); samvadam—discussion; jnapakena—with the informer; samacaran—doing accordingly; tyaktva—giving up; kalevaram—this body; yogi—being a bhakti-yogi in the order of renunciation; sah—the King; tena—by such instruction; avapa—achieved; yat—that position which; param—supreme.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Having been instructed by the great and learned brahmana Vasistha, who discoursed about the Absolute Truth, Maharaja Iksvaku became renounced.</p>
+<p>By following the principles for a yogi, he certainly achieved the supreme perfection after giving up his material body.</p>
+
+
+
+<p><strong>9.6.11</strong></p>
+<p>pitary uparate ’bhyetya</p>
+<p>vikuksih prthivim imam</p>
+<p>sasad ije harim yajnaih</p>
+<p>sasada iti visrutah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>pitari—when his father; uparate—upon being relieved of the kingdom; abhyetya—having come back; vikuksih—the son named Vikuksi; prthivim—the planet earth; imam—this; sasat—ruling; ije—worshiped; harim—the Supreme Personality of Godhead; yajnaih—by performing various sacrifices; sasa-adah—Sasada (the eater of a rabbi); iti—thus; visrutah—celebrated.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>After his father’s disappearance, Vikuksi returned to the country and thus became the king, ruling the planet earth and performing various sacrifices to satisfy the Supreme Personality of Godhead.</p>
+<p>Vikuksi later became celebrated as Sasada.</p>
+
+
+
+<p><strong>9.6.12</strong></p>
+<p>puranjayas tasya suta</p>
+<p>indravaha itiritah</p>
+<p>kakutstha iti capy uktah</p>
+<p>srnu namani karmabhih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>puram-jayah—Puranjaya (the conqueror of the residenc); tasya—his (Vikuksi’s); sutah—son; indra-vahah—Indravaha (he whose carrier is Indr); iti—thus; iritah—known as such; kakutsthah—Kakutstha (situated on the hump of a bul); iti—thus; ca—also; api—indeed; uktah—known as such; srnu—just hear; namani—all the names; karmabhih—according to one’s work.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Sasada was Puranjaya, who is also known as Indravaha and sometimes as Kakutstha.</p>
+<p>Please hear from me how he received different names for different activities.</p>
+
+
+
+<p><strong>9.6.13</strong></p>
+<p>krtanta asit samaro</p>
+<p>devanam saha danavaih</p>
+<p>parsnigraho vrto viro</p>
+<p>devair daitya-parajitaih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>krta-antah—a devastating war; asit—there was; samarah—a fight; devanam—of the demigods; saha—with; danavaih—the demons; parsnigrahah—a very good assistant; vrtah—accepted; virah—a hero; devaih—by the demigods; daitya—by the demons; parajitaih—who had been conquered.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Formerly, there was a devastating war between the demigods and the demons.</p>
+<p>The demigods, having been defeated, accepted Puranjaya as their assistant and then conquered the demons.</p>
+
+
+
+<p><strong>9.6.14</strong></p>
+<p>vacanad deva-devasya</p>
+<p>visnor visvatmanah prabhoh</p>
+<p>vahanatve vrtas tasya</p>
+<p>babhuvendro maha-vrsah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vacanat—by the order or the words; deva-devasya—of the Supreme Lord of all demigods; visnoh—Lord Visnu; visva-atmanah—the Supersoul of the entire creation; prabhoh—the Lord, the controller; vahanatve—because of becoming the carrier; vrtah—engaged; tasya—in the service of Puranjaya; babhuva—he became; indrah—the King of heaven; maha-vrsah—a great bull.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Puranjaya agreed to kill all the demons, on the condition that Indra would be his carrier.</p>
+<p>Because of pride, Indra could not accept this proposal, but later, by the order of the Supreme Lord, Visnu, Indra did accept it and became a great bull carrier for Puranjaya.</p>
+
+
+
+<p><strong>9.6.15-16</strong></p>
+<p>sa sannaddho dhanur divyam</p>
+<p>adaya visikhan chitan</p>
+<p>stuyamanas tam aruhya</p>
+<p>yuyutsuh kakudi sthitah</p>
+<p>tejasapyayito visnoh</p>
+<p>purusasya mahatmanah</p>
+<p>praticyam disi daityanam</p>
+<p>nyarunat tridasaih puram</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—he, Puranjaya; sannaddhah—being well equipped; dhanuh divyam—a first-class or transcendental bow; adaya—taking; visikhan—arrows; sitan—very sharp; stuyamanah—being praised very much; tam—him (the bull); aruhya—getting on; yuyutsuh—prepared to fight; kakudi—on the hump of the bull; sthitah—being situated; tejasa—by the power; apyayitah—being favored; visnoh—of Lord Visnu; purusasya—the Supreme Person; maha-atmanah—the Supersoul; praticyam—on the western; disi—direction; daityanam—of the demons; nyarunat—captured; tridasaih—surrounded by the demigods; puram—the residence.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Well protected by armor and desiring to fight, Puranjaya took up a transcendental bow and very sharp arrows, and, while being highly praised by the demigods, he got up on the back of the bull (Indra) and sat on its hump.</p>
+<p>Thus he is known as Kakutstha.</p>
+<p>Being empowered by Lord Visnu, who is the Supersoul and the Supreme Person, Puranjaya sat on the great bull and is therefore known as Indravaha.</p>
+<p>Surrounded by the demigods, he attacked the residence of the demons in the west.</p>
+
+
+
+<p><strong>9.6.17</strong></p>
+<p>tais tasya cabhut pradhanam</p>
+<p>tumulam loma-harsanam</p>
+<p>yamaya bhallair anayad</p>
+<p>daityan abhiyayur mrdhe</p>
+<p><strong>SYNONYMS</strong></p>
+<p>taih—with the demons; tasya—of him, Puranjaya; ca—also; abhut—there was; pradhanam—a fight; tumulam—very fierce; loma-harsanam—the hearing of which makes one’s hairs stand on end; yamaya—to the residence of Yamaraja; bhallaih—by arrows; anayat—sent; daityan—the demons; abhiyayuh—who came toward him; mrdhe—in that fight.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>There was a fierce battle between the demons and Puranjaya.</p>
+<p>Indeed, it was so fierce that when one hears about it one’s hairs stand on end.</p>
+<p>All the demons bold enough to come before Puranjaya were immediately sent to the residence of Yamaraja by his arrows.</p>
+
+
+
+<p><strong>9.6.18</strong></p>
+<p>tasyesu-patabhimukham</p>
+<p>yugantagnim ivolbanam</p>
+<p>visrjya dudruvur daitya</p>
+<p>hanyamanah svam alayam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasya—his (Puranjaya’s); isu-pata—the throwing of the arrows; abhimukham—in front of; yuga-anta—at the end of the millennium; agnim—the flames; iva—exactly like; ulbanam—fierce; visrjya—giving up the attack; dudruvuh—ran away; daityah—all the demons; hanyamanah—being killed (by Puranjaya); svam—own; alayam—to the residence.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>To save themselves from the blazing arrows of Indravaha, which resembled the flames of devastation at the end of the millennium, the demons who remained when the rest of their army was killed fled very quickly to their respective homes.</p>
+
+
+
+<p><strong>9.6.19</strong></p>
+<p>jitva param dhanam sarvam</p>
+<p>sastrikam vajra-panaye</p>
+<p>pratyayacchat sa rajarsir</p>
+<p>iti namabhir ahrtah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>jitva—conquering; param—enemies; dhanam—wealth; sarvam—everything; sa-strikam—with their wives; vajra-panaye—unto Indra, who carries the thunderbolt; pratyayacchat—returned and delivered; sah—that; raja-rsih—saintly king (Puranjaya); iti—thus; namabhih—by names; ahrtah—was called.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>After conquering the enemy, the saintly king Puranjaya gave everything, including the enemy’s riches and wives, to Indra, who carries a thunderbolt.</p>
+<p>For this he is celebrated as Puranjaya.</p>
+<p>Thus Puranjaya is known by different names because of his different activities.</p>
+
+
+
+<p><strong>9.6.20</strong></p>
+<p>puranjayasya putro ’bhud</p>
+<p>anenas tat-sutah prthuh</p>
+<p>visvagandhis tatas candro</p>
+<p>yuvanasvas tu tat-sutah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>puranjayasya—of Puranjaya; putrah—son; abhut—was born; anenah—by the name Anena; tat-sutah—his son; prthuh—of the name Prthu; visvagandhih—of the name Visvagandhi; tatah—his son; candrah—by the name Candra; yuvanasvah—of the name Yuvanasva; tu—indeed; tat-sutah—his son.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Puranjaya was known as Anena, Anena’s son was Prthu, and Prthu’s son was Visvagandhi.</p>
+<p>Visvagandhi’s son was Candra, and Candra’s son was Yuvanasva.</p>
+
+
+
+<p><strong>9.6.21</strong></p>
+<p>sravastas tat-suto yena</p>
+<p>sravasti nirmame puri</p>
+<p>brhadasvas tu sravastis</p>
+<p>tatah kuvalayasvakah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sravastah—by the name Sravasta; tat-sutah—the son of Yuvanasva; yena—by whom; sravasti—of the name Sravasti; nirmame—was constructed; puri—the great township; brhadasvah—Brhadasva; tu—however; sravastih—begotten by Sravasta; tatah—from him; kuvalayasvakah—of the name Kuvalayasva.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Yuvanasva was Sravasta, who constructed a township known as Sravasti Puri.</p>
+<p>The son of Sravasta was Brhadasva, and his son was Kuvalayasva.</p>
+<p>In this way the dynasty increased.</p>
+
+
+
+<p><strong>9.6.22</strong></p>
+<p>yah priyartham utankasya</p>
+<p>dhundhu-namasuram bali</p>
+<p>sutanam eka-vimsatya</p>
+<p>sahasrair ahanad vrtah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—he who; priya-artham—for the satisfaction; utankasya—of the great sage Utanka; dhundhu-nama—of the name Dhundhu; asuram—a demon; bali—very powerful (Kuvalayasva); sutanam—of sons; eka-vimsatya—by twenty-one; sahasraih—thousands; ahanat—killed; vrtah—surrounded.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>To satisfy the sage Utanka, the greatly powerful Kuvalayasva killed a demon named Dhundhu.</p>
+<p>He did this with the assistance of his twenty-one thousand sons.</p>
+
+
+
+<p><strong>9.6.23-24</strong></p>
+<p>dhundhumara iti khyatas</p>
+<p>tat-sutas te ca jajvaluh</p>
+<p>dhundhor mukhagnina sarve</p>
+<p>traya evavasesitah</p>
+<p>drdhasvah kapilasvas ca</p>
+<p>bhadrasva iti bharata</p>
+<p>drdhasva-putro haryasvo</p>
+<p>nikumbhas tat-sutah smrtah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dhundhu-marah—the killer of Dhundhu; iti—thus; khyatah—celebrated; tat-sutah—his sons; te—all of them; ca—also; jajvaluh—burned; dhundhoh—of Dhundhu; mukha-agnina—by the fire emanating from the mouth; sarve—all of them; trayah—three; eva—only; avasesitah—remained alive; drdhasvah—Drdhasva; kapilasvah—Kapilasva; ca—and; bhadrasvah—Bhadrasva; iti—thus; bharata—O Maharaja Pariksit; drdhasva-putrah—the son of Drdhasva; haryasvah—named Haryasva; nikumbhah—Nikumbha; tat-sutah—his son; smrtah—well known.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O Maharaja Pariksit, for this reason Kuvalayasva is celebrated as Dhundhumara (the killer of Dhundh).</p>
+<p>All but three of his sons, however, were burned to ashes by the fire emanating from Dhundhu’s mouth.</p>
+<p>The remaining sons were Drdhasva, Kapilasva and Bhadrasva.</p>
+<p>From Drdhasva came a son named Haryasva, whose son is celebrated as Nikumbha.</p>
+
+
+
+<p><strong>9.6.25</strong></p>
+<p>bahulasvo nikumbhasya</p>
+<p>krsasvo ’thasya senajit</p>
+<p>yuvanasvo ’bhavat tasya</p>
+<p>so ’napatyo vanam gatah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>bahulasvah—of the name Bahulasva; nikumbhasya—of Nikumbha; krsasvah—of the name Krsasva; atha—thereafter; asya—of Krsasva; senajit—Senajit; yuvanasvah—of the name Yuvanasva; abhavat—was born; tasya—of Senajit; sah—he; anapatyah—without any sons; vanam gatah—retired to the forest as a vanaprastha.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Nikumbha was Bahulasva, the son of Bahulasva was Krsasva, the son of Krsasva was Senajit, and the son of Senajit was Yuvanasva.</p>
+<p>Yuvanasva had no sons, and thus he retired from family life and went to the forest.</p>
+
+
+
+<p><strong>9.6.26</strong></p>
+<p>bharya-satena nirvinna</p>
+<p>rsayo ’sya krpalavah</p>
+<p>istim sma vartayam cakrur</p>
+<p>aindrim te susamahitah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>bharya-satena—with one hundred wives; nirvinnah—very morose; rsayah—the sages (in the forest); asya—upon him; krpalavah—very merciful; istim—a ritualistic ceremony; sma—in the past; vartayam cakruh—began to execute; aindrim—known as an Indra-yajna; te—all of them; su-samahitah—being very careful and attentive.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Although Yuvanasva went into the forest with his one hundred wives, all of them were very morose.</p>
+<p>The sages in the forest, however, being very kind to the King, began very carefully and attentively performing an Indra-yajna so that the King might have a son.</p>
+<p><strong>PURPORT</strong></p>
+<p>One may enter the vanaprastha order of life with his wife, but the vanaprastha order means complete retirement from household life.</p>
+<p>Although King Yuvanasva retired from family life, he and his wives were always morose because he had no son.</p>
+
+
+
+<p><strong>9.6.27</strong></p>
+<p>raja tad-yajna-sadanam</p>
+<p>pravisto nisi tarsitah</p>
+<p>drstva sayanan viprams tan</p>
+<p>papau mantra-jalam svayam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>raja—the King (Yuvanasva); tat-yajna-sadanam—the arena of sacrifice; pravistah—entered; nisi—at night; tarsitah—being thirsty; drstva—seeing; sayanan—lying down; vipran—all the brahmanas; tan—all of them; papau—drank; mantra-jalam—water sanctified by mantras; svayam—personally.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Being thirsty one night, the King entered the arena of sacrifice, and when he saw all the brahmanas lying down, he personally drank the sanctified water meant to be drunk by his wife.</p>
+<p><strong>PURPORT</strong></p>
+<p>Yajnas performed by brahmanas according to Vedic ritualistic ceremonies are so potent that the sanctifying of water by Vedic mantras can bring about the desired result.</p>
+<p>In this instance, the brahmanas sanctified the water so that the King’s wife might drink it in the yajna, but by providence the King himself went there at night and, being thirsty, drank the water.</p>
+
+
+
+<p><strong>9.6.28</strong></p>
+<p>utthitas te nisamyatha</p>
+<p>vyudakam kalasam prabho</p>
+<p>papracchuh kasya karmedam</p>
+<p>pitam pumsavanam jalam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>utthitah—after awakening; te—all of them; nisamya—seeing; atha—thereafter; vyudakam—empty; kalasam—the waterpot; prabho—O King Pariksit; papracchuh—inquired; kasya—whose; karma—act; idam—this; pitam—drunk; pumsavanam—which was to cause the birth of a child; jalam—water.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When the brahmanas got up from bed and saw the waterpot empty, they inquired who had done this work of drinking the water meant for begetting a child.</p>
+
+
+
+<p><strong>9.6.29</strong></p>
+<p>rajna pitam viditva vai</p>
+<p>isvara-prahitena te</p>
+<p>isvaraya namas cakrur</p>
+<p>aho daiva-balam balam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>rajna—by the King; pitam—drunk; viditva—understanding this; vai—indeed; isvara-prahitena—inspired by providence; te—all of them; isvaraya—unto the Supreme Personality of Godhead, the supreme controller; namah cakruh—offered respectful obeisances; aho—alas; daiva-balam—providential power; balam—is actual power.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When the brahmanas came to understand that the King, inspired by the supreme controller, had drunk the water, they all exclaimed Alas! The power of providence is real power.</p>
+<p>No one can counteract the power of the Supreme In this way they offered their respectful obeisances unto the Lord.</p>
+
+
+
+<p><strong>9.6.30</strong></p>
+<p>tatah kala upavrtte</p>
+<p>kuksim nirbhidya daksinam</p>
+<p>yuvanasvasya tanayas</p>
+<p>cakravarti jajana ha</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—thereafter; kale—time; upavrtte—being mature; kuksim—the lower part of the abdomen; nirbhidya—piercing; daksinam—the right side; yuvanasvasya—of King Yuvanasva; tanayah—a son; cakravarti—with all the good symptoms of a king; jajana—generated; ha—in the past.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, in due course of time, a son with all the good symptoms of a powerful king came forth from the lower right side of King Yuvanasva’s abdomen.</p>
+
+
+
+<p><strong>9.6.31</strong></p>
+<p>kam dhasyati kumaro ’yam</p>
+<p>stanye roruyate bhrsam</p>
+<p>mam dhata vatsa ma rodir</p>
+<p>itindro desinim adat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kam—by whom; dhasyati—will he be cared for by being supplied breast milk; kumarah—child; ayam—this; stanye—for drinking breast milk; roruyate—is crying; bhrsam—so much; mam dhata—just drink me; vatsa—my dear child; ma rodih—do not cry; iti—thus; indrah—King Indra; desinim—the index finger; adat—gave him to suck.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The baby cried so much for breast milk that all the brahmanas were very unhappy Who will take care of this baby they said.</p>
+<p>Then Indra, who was worshiped in that yajna, came and solaced the baby Do not cry Indra said.</p>
+
+
+
+<p><strong>9.6.32</strong></p>
+<p>na mamara pita tasya</p>
+<p>vipra-deva-prasadatah</p>
+<p>yuvanasvo ’tha tatraiva</p>
+<p>tapasa siddhim anvagat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—not; mamara—died; pita—the father; tasya—of the baby; vipra-deva-prasadatah—because of the mercy and blessings of the brahmanas; yuvanasvah—King Yuvanasva; atha—thereafter; tatra eva—in that very place; tapasa—by executing austerity; siddhim—perfection; anvagat—achieved.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Because Yuvanasva, the father of the baby, was blessed by the brahmanas, he did not fall a victim to death.</p>
+<p>After this incident, he performed severe austerities and achieved perfection in that very spot.</p>
+
+
+
+<p><strong>9.6.33-34</strong></p>
+<p>trasaddasyur itindro ’nga</p>
+<p>vidadhe nama yasya vai</p>
+<p>yasmat trasanti hy udvigna</p>
+<p>dasyavo ravanadayah</p>
+<p>yauvanasvo ’tha mandhata</p>
+<p>cakravarty avanim prabhuh</p>
+<p>sapta-dvipavatim ekah</p>
+<p>sasasacyuta-tejasa</p>
+<p><strong>SYNONYMS</strong></p>
+<p>trasat-dasyuh—of the name Trasaddasyu (one who threatens thieves and rogue); iti—thus; indrah—the King of heaven; anga—my dear King; vidadhe—gave; nama—the name; yasya—whom; vai—indeed; yasmat—from whom; trasanti—are afraid; hi—indeed; udvignah—the cause of anxiety; dasyavah—thieves and rogues; ravana-adayah—headed by great Raksasas like Ravana; yauvanasvah—the son of Yuvanasva; atha—thus; mandhata—known as Mandhata; cakravarti—the emperor of the world; avanim—this surface of the world; prabhuh—the master; sapta-dvipa-vatim—consisting of seven islands; ekah—one alone; sasasa—ruled; acyuta-tejasa—being powerful by the favor of the Supreme Personality of Godhead.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Mandhata, the son of Yuvanasva, was the cause of fear for Ravana and other thieves and rogues who caused anxiety.</p>
+<p>O King Pariksit, because they feared him, the son of Yuvanasva was known as Trasaddasyu.</p>
+<p>This name was given by King Indra.</p>
+<p>By the mercy of the Supreme Personality of Godhead, the son of Yuvanasva was so powerful that when he became emperor he ruled the entire world, consisting of seven islands, without any second ruler.</p>
+
+
+
+<p><strong>9.6.35-36</strong></p>
+<p>ije ca yajnam kratubhir</p>
+<p>atma-vid bhuri-daksinaih</p>
+<p>sarva-devamayam devam</p>
+<p>sarvatmakam atindriyam</p>
+<p>dravyam mantro vidhir yajno</p>
+<p>yajamanas tathartvijah</p>
+<p>dharmo desas ca kalas ca</p>
+<p>sarvam etad yad atmakam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ije—he worshiped; ca—also; yajnam—the Lord of sacrifices; kratubhih—by great ritualistic performances; atma-vit—fully conscious by self-realization; bhuri-daksinaih—by giving large contributions to the brahmanas; sarva-deva-mayam—consisting of all the demigods; devam—the Lord; sarva-atmakam—the Supersoul of everyone; ati-indriyam—transcendentally situated; dravyam—ingredients; mantrah—chanting of the Vedic hymns; vidhih—regulative principles; yajnah—worshiping; yajamanah—the performer; tatha—with; rtvijah—the priests; dharmah—religious principles; desah—the country; ca—and; kalah—the time; ca—also; sarvam—everything; etat—all these; yat—that which is; atmakam—favorable for self-realization.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Supreme Personality of Godhead is not different from the auspicious aspects of great sacrifices, such as the ingredients of the sacrifice, the chanting of Vedic hymns, the regulative principles, the performer, the priests, the result of the sacrifice, the arena of sacrifice, and the time of sacrifice.</p>
+<p>Knowing the principles of self-realization, Mandhata worshiped that transcendentally situated Supreme Soul, the Supreme Personality of Godhead, Lord Visnu, who comprises all the demigods.</p>
+<p>He also gave immense charity to the brahmanas, and thus he performed yajna to worship the Lord.</p>
+
+
+
+<p><strong>9.6.37</strong></p>
+<p>yavat surya udeti sma</p>
+<p>yavac ca pratitisthati</p>
+<p>tat sarvam yauvanasvasya</p>
+<p>mandhatuh ksetram ucyate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yavat—as long as; suryah—the sun; udeti—has risen on the horizon; sma—in the past; yavat—as long as; ca—also; pratitisthati—continues to stay; tat—all those things mentioned above; sarvam—everything; yauvanasvasya—of the son of Yuvanasva; mandhatuh—called Mandhata; ksetram—location; ucyate—is said to be.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>All places, from where the sun rises on the horizon, shining brilliantly, to where the sun sets, are known as the possession of the celebrated Mandhata, the son of Yuvanasva.</p>
+
+
+
+<p><strong>9.6.38</strong></p>
+<p>sasabindor duhitari</p>
+<p>bindumatyam adhan nrpah</p>
+<p>purukutsam ambarisam</p>
+<p>mucukundam ca yoginam</p>
+<p>tesam svasarah pancasat</p>
+<p>saubharim vavrire patim</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sasabindoh—of a king known as Sasabindu; duhitari—unto the daughter; bindumatyam—whose name was Bindumati; adhat—begot; nrpah—the King (Mandhata); purukutsam—Purukutsa; ambarisam—Ambarisa; mucukundam—Mucukunda; ca—and; yoginam—a highly elevated mystic; tesam—of them; svasarah—the sisters; pancasat—fifty; saubharim—unto the great sage Saubhari; vavrire—accepted; patim—as husband.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Mandhata begot three sons in the womb of Bindumati, the daughter of Sasabindu.</p>
+<p>These sons were Purukutsa, Ambarisa, and Mucukunda, a great mystic yogi.</p>
+<p>These three brothers had fifty sisters, who all accepted the great sage Saubhari as their husband.</p>
+
+
+
+<p><strong>9.6.39-40</strong></p>
+<p>yamunantar-jale magnas</p>
+<p>tapyamanah param tapah</p>
+<p>nirvrtim mina-rajasya</p>
+<p>drstva maithuna-dharminah</p>
+<p>jata-sprho nrpam viprah</p>
+<p>kanyam ekam ayacata</p>
+<p>so ’py aha grhyatam brahman</p>
+<p>kamam kanya svayamvare</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yamuna-antah-jale—in the deep water of the River Yamuna; magnah—merged completely; tapyamanah—executing austerities; param—uncommon; tapah—austerity; nirvrtim—pleasure; mina-rajasya—of a big fish; drstva—seeing; maithuna-dharminah—engaged in sexual affairs; jata-sprhah—became sexually inclined; nrpam—unto the King (Mandhata); viprah—the brahmana (Saubhari Rsi); kanyam ekam—one daughter; ayacata—begged for; sah—he, the King; api—also; aha—said; grhyatam—you can take; brahman—O brahmana; kamam—as she desires; kanya—daughter; svayamvare—a personal selection.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Saubhari Rsi was engaged in austerity, deep in the water of the River Yamuna, when he saw a pair of fish engaged in sexual affairs.</p>
+<p>Thus he perceived the pleasure of sex life, and induced by this desire he went to King Mandhata and begged for one of the King’s daughters.</p>
+<p>In response to this request, the King said, O brahmana, any of my daughters may accept any husband according to her personal selection</p>
+<p><strong>PURPORT</strong></p>
+<p>This is the beginning of the story of Saubhari Rsi.</p>
+<p>According to Visvanatha Cakravarti Thakura, Mandhata was the king of Mathura, and Saubhari Rsi was engaged in austerity while submerged deep within the River Yamuna.</p>
+<p>When the rsi felt sexual desire, he emerged from the water and went to King Mandhata to ask that one of the King’s daughters become his wife.</p>
+
+
+
+<p><strong>9.6.41-42</strong></p>
+<p>sa vicintyapriyam strinam</p>
+<p>jaratho ’ham asan-matah</p>
+<p>vali-palita ejat-ka</p>
+<p>ity aham pratyudahrtah</p>
+<p>sadhayisye tathatmanam</p>
+<p>sura-strinam abhipsitam</p>
+<p>kim punar manujendranam</p>
+<p>iti vyavasitah prabhuh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—he, Saubhari Muni; vicintya—thinking to himself; apriyam—not liked; strinam—by the women; jarathah—being infirm because of old age; aham—I; asat-matah—not desired by them; vali—wrinkled; palitah—grey-haired; ejat-kah—with the head always trembling; iti—in this way; aham—I; pratyudahrtah—rejected (by them); sadhayisye—I shall act in such a way; tatha—as; atmanam—my body; sura-strinam—to the celestial women of the heavenly planets; abhipsitam—desirable; kim—what to speak of; punah—yet; manuja-indranam—of the daughters of worldly kings; iti—in this way; vyavasitah—determined; prabhuh—Saubhari, the greatly powerful mystic.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Saubhari Muni thought: I am now feeble because of old age.</p>
+<p>My hair has become grey, my skin is slack, and my head always trembles.</p>
+<p>Besides, I am a yogi.</p>
+<p>Therefore women do not like me.</p>
+<p>Since the King has thus rejected me, I shall reform my body in such a way as to be desirable even to celestial women, what to speak of the daughters of worldly kings.</p>
+
+
+
+<p><strong>9.6.43</strong></p>
+<p>munih pravesitah ksatra</p>
+<p>kanyantahpuram rddhimat</p>
+<p>vrtah sa raja-kanyabhir</p>
+<p>ekam pancasata varah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>munih—Saubhari Muni; pravesitah—admitted; ksatra—by the palace messenger; kanya-antahpuram—into the residential quarters of the princesses; rddhi-mat—extremely opulent in all respects; vrtah—accepted; sah—he; raja-kanyabhih—by all the princesses; ekam—he alone; pancasata—by all fifty; varah—the husband.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, when Saubhari Muni became quite a young and beautiful person, the messenger of the palace took him inside the residential quarters of the princesses, which were extremely opulent.</p>
+<p>All fifty princesses then accepted him as their husband, although he was only one man.</p>
+
+
+
+<p><strong>9.6.44</strong></p>
+<p>tasam kalir abhud bhuyams</p>
+<p>tad-arthe ’pohya sauhrdam</p>
+<p>mamanurupo nayam va</p>
+<p>iti tad-gata-cetasam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasam—of all the princesses; kalih—disagreement and quarrel; abhut—there was; bhuyan—very much; tat-arthe—for the sake of Saubhari Muni; apohya—giving up; sauhrdam—a good relationship; mama—mine; anurupah—the fit person; na—not; ayam—this; vah—yours; iti—in this way; tat-gata-cetasam—being attracted by him.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, the princesses, being attracted by Saubhari Muni, gave up their sisterly relationship and quarreled among themselves, each one of them contending, This man is just suitable for me, and not for you In this way there ensued a great disagreement.</p>
+
+
+
+<p><strong>9.6.45-46</strong></p>
+<p>sa bahv-rcas tabhir aparaniya-</p>
+<p>tapah-sriyanarghya-paricchadesu</p>
+<p>grhesu nanopavanamalambhah-</p>
+<p>sarahsu saugandhika-kananesu</p>
+<p>maharha-sayyasana-vastra-bhusana-</p>
+<p>snananulepabhyavahara-malyakaih</p>
+<p>svalankrta-stri-purusesu nityada</p>
+<p>reme ’nugayad-dvija-bhrnga-vandisu</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—he, Saubhari Rsi; bahu-rcah—quite expert in utilizing Vedic mantras; tabhih—with his wives; aparaniya—unlimited; tapah—the result of austerity; sriya—by opulences; anarghya—paraphernalia for enjoyment; paricchadesu—equipped with different garments and dresses; grhesu—in the house and rooms; nana—varieties of; upavana—parks; amala—clean; ambhah—water; sarahsu—in lakes; saugandhika—very fragrant; kananesu—in gardens; maha-arha—very costly; sayya—bedding; asana—sitting places; vastra—clothing; bhusana—ornaments; snana—bathing places; anulepa—sandalwood; abhyavahara—palatable dishes; malyakaih—and with garlands; su-alankrta—properly dressed and decorated; stri—women; purusesu—with men also; nityada—constantly; reme—enjoyed; anugayat—followed by the singing of; dvija—birds; bhrnga—bumblebees; vandisu—and professional singers.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Because Saubhari Muni was expert in chanting mantras perfectly, his severe austerities resulted in an opulent home, with garments, ornaments, properly dressed and decorated maidservants and manservants, and varieties of parks with clear-water lakes and gardens.</p>
+<p>In the gardens, fragrant with varieties of flowers, birds chirped and bees hummed, surrounded by professional singers.</p>
+<p>Saubhari Muni’s home was amply provided with valuable beds, seats, ornaments, and arrangements for bathing, and there were varieties of sandalwood creams, flower garlands, and palatable dishes.</p>
+<p>Thus surrounded by opulent paraphernalia, the muni engaged in family affairs with his numerous wives.</p>
+<p><strong>PURPORT</strong></p>
+<p>Saubhari Rsi was a great yogi.</p>
+<p>Yogic perfection makes available eight material opulences—anima, laghima, mahima, prapti, prakamya, isitva, vasitva and kamavasayita.</p>
+<p>Saubhari Muni exhibited super-excellence in material enjoyment by dint of his yogic perfection.</p>
+<p>The word bahv-rca means expert in chanting mantras As material opulence can be achieved by ordinary material means, it can also be achieved by subtle means through mantras.</p>
+<p>By chanting mantras, Saubhari Muni arranged for material opulence, but this was not perfection in life.</p>
+<p>As will be seen, Saubhari Muni became very dissatisfied with material opulence and thus left everything and reentered the forest in the vanaprastha order and achieved final success.</p>
+<p>Those who are not atma-tattva-vit, who do not know the spiritual value of life, can be satisfied with external material opulences, but those who are atma-tattva-vit are not inspired by material opulence.</p>
+<p>This is the instruction we can derive from the life and activities of Saubhari Muni.</p>
+
+
+
+<p><strong>9.6.47</strong></p>
+<p>yad-garhasthyam tu samviksya</p>
+<p>sapta-dvipavati-patih</p>
+<p>vismitah stambham ajahat</p>
+<p>sarvabhauma-sriyanvitam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yat—he whose; garhasthyam—family life, householder life; tu—but; samviksya—observing; sapta-dvipa-vati-patih—Mandhata, who was the King of the entire world, consisting of seven islands; vismitah—was struck with wonder; stambham—pride due to a prestigious position; ajahat—he gave up; sarva-bhauma—the emperor of the entire world; sriya-anvitam—blessed with all kinds of opulence.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Mandhata, the King of the entire world, consisting of seven islands, was struck with wonder when he saw the household opulence of Saubhari Muni.</p>
+<p>Thus he gave up his false prestige in his position as emperor of the world.</p>
+<p><strong>PURPORT</strong></p>
+<p>Everyone is proud of his own position, but here was an astounding experience, in which the emperor of the entire world felt himself defeated in all details of material happiness by the opulence of Saubhari Muni.</p>
+
+
+
+<p><strong>9.6.48</strong></p>
+<p>evam grhesv abhirato</p>
+<p>visayan vividhaih sukhaih</p>
+<p>sevamano na catusyad</p>
+<p>ajya-stokair ivanalah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>evam—in this way; grhesu—in household affairs; abhiratah—being always engaged; visayan—material paraphernalia; vividhaih—with varieties of; sukhaih—happiness; sevamanah—enjoying; na—not; ca—also; atusyat—satisfied him; ajya-stokaih—by drops of fat; iva—like; analah—a fire.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In this way, Saubhari Muni enjoyed sense gratification in the material world, but he was not at all satisfied, just as a fire never ceases blazing if constantly supplied with drops of fat.</p>
+<p><strong>PURPORT</strong></p>
+<p>Material desire is just like a blazing fire.</p>
+<p>If a fire is continually supplied with drops of fat, the fire will increase more and more and never be extinguished.</p>
+<p>Therefore the policy of trying to satisfy material desires by catering to one’s material demands will never be successful.</p>
+<p>In modern civilization, everyone is engaged in economic development, which is another way of constantly dropping fat into the material fire.</p>
+<p>The Western countries have reached the summit of material civilization, but people are still dissatisfied.</p>
+<p>Real satisfaction is Krsna consciousness.</p>
+<p>This is confirmed in Bhagavad-gita (5.29), where Krsna says:</p>
+<p>bhoktaram yajna-tapasam</p>
+<p>sarva-loka-mahesvaram</p>
+<p>suhrdam sarva-bhutanam</p>
+<p>jnatva mam santim rcchati</p>
+<p>The sages, knowing Me as the ultimate purpose of all sacrifices and austerities, the Supreme Lord of all planets and demigods and the benefactor and well-wisher of all living entities, attain peace from the pangs of material miseries One must therefore take to Krsna consciousness and advance in Krsna consciousness by properly following the regulative principles.</p>
+<p>Then one can attain an eternal, blissful life in peace and knowledge.</p>
+
+
+
+<p><strong>9.6.49</strong></p>
+<p>sa kadacid upasina</p>
+<p>atmapahnavam atmanah</p>
+<p>dadarsa bahv-rcacaryo</p>
+<p>mina-sanga-samutthitam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—he, Saubhari Muni; kadacit—one day; upasinah—sitting down; atma-apahnavam—degrading oneself from the platform of tapasya; atmanah—self-caused; dadarsa—observed; bahu-rca-acaryah—Saubhari Muni, who was expert in chanting mantras; mina-sanga—the sexual affairs of fish; samutthitam—caused by this incident.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, one day while Saubhari Muni, who was expert in chanting mantras, was sitting in a secluded place, he thought to himself about the cause of his falldown, which was simply that he had associated himself with the sexual affairs of the fish.</p>
+<p><strong>PURPORT</strong></p>
+<p>Visvanatha Cakravarti Thakura remarks that Saubhari Muni had fallen from his austerity because of a vaisnava-aparadha.</p>
+<p>The history is that when Garuda wanted to eat fish, Saubhari Muni unnecessarily gave the fish shelter under his care.</p>
+<p>Because Garuda’s plans for eating were disappointed, Saubhari Muni certainly committed a great offense to a Vaisnava.</p>
+<p>Because of this vaisnava-aparadha, an offense at the lotus feet of a Vaisnava, Saubhari Muni fell from his exalted position of mystic tapasya.</p>
+<p>One should not, therefore, impede the activities of a Vaisnava.</p>
+<p>This is the lesson we must learn from this incident concerning Saubhari Muni.</p>
+
+
+
+<p><strong>9.6.50</strong></p>
+<p>aho imam pasyata me vinasam</p>
+<p>tapasvinah sac-carita-vratasya</p>
+<p>antarjale vari-cara-prasangat</p>
+<p>pracyavitam brahma ciram dhrtam yat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>aho—alas; imam—this; pasyata—just see; me—of me; vinasam—falldown; tapasvinah—who was such a great mystic performing austerity; sat-carita—of very good character, observing all necessary rules and regulations; vratasya—of one who has taken a vow strictly; antah-jale—in the depths of the water; vari-cara-prasangat—because of the affairs of the aquatics; pracyavitam—fallen; brahma—from the activities of Brahman realization or austerity; ciram—for a long time; dhrtam—executed; yat—which.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Alas! While practicing austerity, even within the depths of the water, and while observing all the rules and regulations practiced by saintly persons, I lost the results of my long austerities simply by association with the sexual affairs of fish.</p>
+<p>Everyone should observe this falldown and learn from it.</p>
+
+
+
+<p><strong>9.6.51</strong></p>
+<p>sangam tyajeta mithuna-vratinam mumuksuh</p>
+<p>sarvatmana na visrjed bahir-indriyani</p>
+<p>ekas caran rahasi cittam ananta ise</p>
+<p>yunjita tad-vratisu sadhusu cet prasangah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sangam—association; tyajeta—must give up; mithuna-vratinam—of a person engaged in sexual affairs, legal or illegal; mumuksuh—persons who desire liberation; sarva-atmana—in all respects; na—do not; visrjet—employ; bahih-indriyani—external senses; ekah—alone; caran—moving; rahasi—in a secluded place; cittam—the heart; anante ise—fixed at the lotus feet of the unlimited Supreme Personality of Godhead; yunjita—one can engage himself; tat-vratisu—with persons of the same category (desiring liberation from material bondage); sadhusu—such saintly persons; cet—if; prasangah—one wants association.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>A person desiring liberation from material bondage must give up the association of persons interested in sex life and should not employ his senses externally (in seeing, hearing, talking, walking and so on).</p>
+<p>One should always stay in a secluded place, completely fixing his mind at the lotus feet of the unlimited Personality of Godhead, and if one wants any association at all, he should associate with persons similarly engaged.</p>
+<p><strong>PURPORT</strong></p>
+<p>Saubhari Muni, giving conclusions derived from his practical experience, instructs us that persons interested in crossing to the other side of the material ocean must give up the association of persons interested in sex life and accumulating money.</p>
+<p>This is also advised by Sri Caitanya Mahaprabhu:</p>
+<p>niskincanasya bhagavad-bhajanonmukasya</p>
+<p>param param jigamisor bhava-sagarasya</p>
+<p>sandarsanam visayinam atha yositam ca</p>
+<p>ha hanta hanta visa-bhaksanato ’py asadhu</p>
+<p>(Caitanya-candrodaya-nataka8.27)</p>
+<p>Alas, for a person seriously desiring to cross the material ocean and engage in the transcendental loving service of the Lord without material motives, seeing a materialist engaged in sense gratification and seeing a woman who is similarly interested is more abominable than drinking poison willingly One who desires complete freedom from material bondage can engage himself in the transcendental loving service of the Lord.</p>
+<p>He must not associate with visayi—materialistic persons or those interested in sex life.</p>
+<p>Every materialist is interested in sex.</p>
+<p>Thus in plain language it is advised that an exalted saintly person avoid the association of those who are materially inclined.</p>
+<p>Srila Narottama dasa Thakura also recommends that one engage in the service of the acaryas, and if one wants to live in association, he must live in the association of devotees (tandera carana sevi bhakta-sane vasa).</p>
+<p>The Krsna consciousness movement is creating many centers just to create devotees so that by associating with the members of such a center people will automatically become uninterested in material affairs.</p>
+<p>Although this is an ambitious proposal, this association is proving effective by the mercy of Sri Caitanya Mahaprabhu.</p>
+<p>By gradually associating with the members of the Krsna consciousness movement, simply by taking prasada and taking part in chanting of the Hare Krsna mantra, ordinary persons are being considerably elevated.</p>
+<p>Saubhari Muni regrets that he had bad association even in the deepest part of the water.</p>
+<p>Because of the bad association of the sexually engaged fish, he fell down.</p>
+<p>A secluded place is also not secure unless there is good association.</p>
+
+
+
+<p><strong>9.6.52</strong></p>
+<p>ekas tapasvy aham athambhasi matsya-sangat</p>
+<p>pancasad asam uta panca-sahasra-sargah</p>
+<p>nantam vrajamy ubhaya-krtya-manorathanam</p>
+<p>maya-gunair hrta-matir visaye ’rtha-bhavah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ekah—one only; tapasvi—great sage; aham—I; atha—thus; ambhasi—in the deep water; matsya-sangat—by associating with the fish; pancasat—fifty; asam—got wives; uta—and what to speak of begetting one hundred sons in each of them; panca-sahasra-sargah—procreation of five thousand; na antam—no end; vrajami—I can find; ubhaya-krtya—duties of this life and the next; manorathanam—mental concoctions; maya-gunaih—influenced by the modes of material nature; hrta—lost; matih visaye—great attraction for material things; artha-bhavah—matters of self-interest.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In the beginning I was alone and engaged in performing the austerities of mystic yoga, but later, because of the association of fish engaged in sex, I desired to marry.</p>
+<p>Then I became the husband of fifty wives, and in each of them I begot one hundred sons, and thus my family increased to five thousand members.</p>
+<p>By the influence of the modes of material nature, I became fallen and thought that I would be happy in material life.</p>
+<p>Thus there is no end to my material desires for enjoyment, in this life and the next.</p>
+
+
+
+<p><strong>9.6.53</strong></p>
+<p>evam vasan grhe kalam</p>
+<p>virakto nyasam asthitah</p>
+<p>vanam jagamanuyayus</p>
+<p>tat-patnyah pati-devatah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>evam—in this way; vasan—living; grhe—at home; kalam—passing away time; viraktah—became detached; nyasam—in the renounced order of life; asthitah—became situated; vanam—in the forest; jagama—he went; anuyayuh—was followed by; tat-patnyah—all his wives; pati-devatah—because their only worshipable object was their husband.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In this way he passed his life in household affairs for some time, but then he became detached from material enjoyment.</p>
+<p>To renounce material association, he accepted the vanaprastha order and went to the forest.</p>
+<p>His devoted wives followed him, for they had no shelter other than their husband.</p>
+
+
+
+<p><strong>9.6.54</strong></p>
+<p>tatra taptva tapas tiksnam</p>
+<p>atma-darsanam atmavan</p>
+<p>sahaivagnibhir atmanam</p>
+<p>yuyoja paramatmani</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatra—in the forest; taptva—executing austerity; tapah—the regulative principles of austerity; tiksnam—very severely; atma-darsanam—which helps self-realization; atmavan—conversant with the self; saha—with; eva—certainly; agnibhih—fires; atmanam—the personal self; yuyoja—he engaged; parama-atmani—dealing with the Supreme Soul.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When Saubhari Muni, who was quite conversant with the self, went to the forest, he performed severe penances.</p>
+<p>In this way, in the fire at the time of death, he ultimately engaged himself in the service of the Supreme Personality of Godhead.</p>
+<p><strong>PURPORT</strong></p>
+<p>At the time of death, fire burns the gross body, and if there is no more desire for material enjoyment the subtle body is also ended, and in this way a pure soul remains.</p>
+<p>This is confirmed in Bhagavad-gita (tyaktva deham punar janma naiti (Bg.4.9)).</p>
+<p>If one is free from the bondage of both the gross and subtle material bodies and remains a pure soul, he returns home, back to Godhead, to be engaged in the service of the Lord.</p>
+<p>Tyaktva deham punar janma naiti mam eti: (Bg.4.9) he goes back home, back to Godhead.</p>
+<p>Thus it appears that Saubhari Muni attained that perfect stage.</p>
+
+
+
+<p><strong>9.6.55</strong></p>
+<p>tah sva-patyur maharaja</p>
+<p>niriksyadhyatmikim gatim</p>
+<p>anviyus tat-prabhavena</p>
+<p>agnim santam ivarcisah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tah—all the wives of Saubhari; sva-patyuh—with their own husband; maharaja—O King Pariksit; niriksya—observing; adhyatmikim—spiritual; gatim—progress; anviyuh—followed; tat-prabhavena—by the influence of their husband (although they were unfit, by the influence of their husband they also could go to the spiritual world); agnim—the fire; santam—completely merged; iva—like; arcisah—the flames.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O Maharaja Pariksit, by observing their husband progressing in spiritual existence, Saubhari Muni’s wives were also able to enter the spiritual world by his spiritual power, just as the flames of a fire cease when the fire is extinguished.</p>
+<p><strong>PURPORT</strong></p>
+<p>As stated in Bhagavad-gita (9.32), striyo vaisyas tatha sudras te ’pi yanti param gatim.</p>
+<p>Women are not considered very powerful in following spiritual principles, but if a woman is fortunate enough to get a suitable husband who is spiritually advanced and if she always engages in his service, she also gets the same benefit as her husband.</p>
+<p>Here it is clearly said that the wives of Saubhari Muni also entered the spiritual world by the influence of their husband.</p>
+<p>They were unfit, but because they were faithful followers of their husband, they also entered the spiritual world with him.</p>
+<p>Thus a woman should be a faithful servant of her husband, and if the husband is spiritually advanced, the woman will automatically get the opportunity to enter the spiritual world.</p>
+
+
+</article></body></html>

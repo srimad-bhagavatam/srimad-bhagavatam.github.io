@@ -1,155 +1,42 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>The Manus, Administrators of the Universe - The Manus, Administrators of the Universe</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">The Manus, Administrators of the Universe</a></li><li class="affix"><a href="8.1.2.html">8.1.2</a></li><li class="affix"><a href="8.1.3.html">8.1.3</a></li><li class="affix"><a href="8.1.4.html">8.1.4</a></li><li class="affix"><a href="8.1.5.html">8.1.5</a></li><li class="affix"><a href="8.1.6.html">8.1.6</a></li><li class="affix"><a href="8.1.7.html">8.1.7</a></li><li class="affix"><a href="8.1.8.html">8.1.8</a></li><li class="affix"><a href="8.1.9.html">8.1.9</a></li><li class="affix"><a href="8.1.10.html">8.1.10</a></li><li class="affix"><a href="8.1.11.html">8.1.11</a></li><li class="affix"><a href="8.1.12.html">8.1.12</a></li><li class="affix"><a href="8.1.13.html">8.1.13</a></li><li class="affix"><a href="8.1.14.html">8.1.14</a></li><li class="affix"><a href="8.1.15.html">8.1.15</a></li><li class="affix"><a href="8.1.16.html">8.1.16</a></li><li class="affix"><a href="8.1.17.html">8.1.17</a></li><li class="affix"><a href="8.1.18.html">8.1.18</a></li><li class="affix"><a href="8.1.19.html">8.1.19</a></li><li class="affix"><a href="8.1.20.html">8.1.20</a></li><li class="affix"><a href="8.1.21.html">8.1.21</a></li><li class="affix"><a href="8.1.22.html">8.1.22</a></li><li class="affix"><a href="8.1.23.html">8.1.23</a></li><li class="affix"><a href="8.1.24.html">8.1.24</a></li><li class="affix"><a href="8.1.25.html">8.1.25</a></li><li class="affix"><a href="8.1.26.html">8.1.26</a></li><li class="affix"><a href="8.1.27.html">8.1.27</a></li><li class="affix"><a href="8.1.28.html">8.1.28</a></li><li class="affix"><a href="8.1.29.html">8.1.29</a></li><li class="affix"><a href="8.1.30.html">8.1.30</a></li><li class="affix"><a href="8.1.31.html">8.1.31</a></li><li class="affix"><a href="8.1.32.html">8.1.32</a></li><li class="affix"><a href="8.1.33.html">8.1.33</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">The Manus, Administrators of the Universe</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#the-manus-administrators-of-the-universe" id="the-manus-administrators-of-the-universe">The Manus, Administrators of the Universe</a></h1>
-<h2><a class="header" href="#summary" id="summary">Summary</a></h2>
-<h3><a class="header" href="#81" id="81">8.1</a></h3>
+<h1>The Manus, Administrators of the Universe</h1>
+<h2>Summary</h2>
+<p><strong>8.1</strong></p>
 <p>First of all, let me offer my humble, respectful obeisances unto the lotus feet of my spiritual master, His Divine Grace Sri Srimad Bhaktisiddhanta Sarasvati Gosvami Prabhupada.</p>
 <p>Sometime in the year 1935 when His Divine Grace was staying at Radha-kunda, I went to see him from Bombay.</p>
 <p>At that time, he gave me many important instructions in regard to constructing temples and publishing books.</p>
@@ -191,7 +78,7 @@
 <p>This Hari, an incarnation of God, saved the devotee Gajendra.</p>
 <p>This incident is described as gajendra-moksana.</p>
 <p>At the end of this chapter, Pariksit Maharaja particularly asks about this incident.</p>
-<h3><a class="header" href="#811" id="811">8.1.1</a></h3>
+<p><strong>8.1.1</strong></p>
 <p>sri-rajovaca</p>
 <p>svayambhuvasyeha guro</p>
 <p>vamso ’yam vistarac chrutah</p>
@@ -204,63 +91,753 @@
 <p>But there are also other Manus, and I want to hear about their dynasties.</p>
 <p>Kindly describe them to us.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="8.1.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>8.1.2</strong></p>
+<p>manvantare harer janma</p>
+<p>karmani ca mahiyasah</p>
+<p>grnanti kavayo brahmams</p>
+<p>tani no vada srnvatam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>manvantare—during the change of manvantaras (one Manu following another); hareh—of the Supreme Personality of Godhead; janma—appearance; karmani—and activities; ca—also; mahiyasah—of the supremely glorified; grnanti—describe; kavayah—the great learned persons who have perfect intelligence; brahman—O learned brahmana (Sukadeva Gosvami); tani—all of them; nah—to us; vada—please describe; srnvatam—who are very eager to hear.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O learned brahmana, Sukadeva Gosvami, the great learned persons who are completely intelligent describe the activities and appearance of the Supreme Personality of Godhead during the various manvantaras.</p>
+<p>We are very eager to hear about these narrations.</p>
+<p>Kindly describe them.</p>
+<p><strong>PURPORT</strong></p>
+<p>The Supreme Personality of Godhead has different varieties of incarnations, including the guna-avataras, manvantara-avataras, lila-avataras and yuga-avataras, all of which are described in the sastras.</p>
+<p>Without reference to the sastras there can be no question of accepting anyone as an incarnation of the Supreme Personality of Godhead.</p>
+<p>Therefore, as especially mentioned here, grnanti kavayah: the descriptions of various incarnations are accepted by great learned scholars with perfect intelligence.</p>
+<p>At the present time, especially in India, so many rascals are claiming to be incarnations, and people are being misled.</p>
+<p>Therefore, the identity of an incarnation should be confirmed by the descriptions of the sastras and by wonderful activities.</p>
+<p>As described in this verse by the word mahiyasah, the activities of an incarnation are not ordinary magic or jugglery, but are wonderful activities.</p>
+<p>Thus any incarnation of the Supreme Personality of Godhead must be supported by the statements of the sastra and must actually perform wonderful activities.</p>
+<p>Pariksit Maharaja was eager to hear about the Manus of different ages.</p>
+<p>There are fourteen Manus during a day of Brahma, and the age of each Manu lasts for seventy-one yugas.</p>
+<p>Thus there are thousands of Manus during the life of Brahma.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="8.1.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>8.1.3</strong></p>
+<p>yad yasminn antare brahman</p>
+<p>bhagavan visva-bhavanah</p>
+<p>krtavan kurute karta</p>
+<p>hy atite ’nagate ’dya va</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yat—whatever activities; yasmin—in a particular age; antare—manvantara; brahman—O great brahmana; bhagavan—the Supreme Personality of Godhead; visva-bhavanah—who has created this cosmic manifestation; krtavan—has done; kurute—is doing; karta—and will do; hi—indeed; atite—in the past; anagate—in the future; adya—at the present; va—either.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O learned brahmana, kindly describe to us whatever activities the Supreme Personality of Godhead, who created this cosmic manifestation, has performed in the past manvantaras, is performing at present, and will perform in the future manvantaras.</p>
+<p><strong>PURPORT</strong></p>
+<p>In Bhagavad-gita the Supreme Personality of Godhead said that both He and the other living entities present on the battlefield had existed in the past, they existed at present, and they would continue to exist in the future.</p>
+<p>Past, present and future always exist, both for the Supreme Personality of Godhead and for ordinary living entities.</p>
+<p>Nityo nityanam cetanas cetananam.</p>
+<p>Both the Lord and the living entities are eternal and sentient, but the difference is that the Lord is unlimited whereas the living entities are limited.</p>
+<p>The Supreme Personality of Godhead is the creator of everything, and although the living entities are not created but exist with the Lord eternally, their bodies are created, whereas the Supreme Lord’s body is never created.</p>
+<p>There is no difference between the Supreme Lord and His body, but the conditioned soul, although eternal, is different from his body.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>8.1.4</strong></p>
+<p>sri-rsir uvaca</p>
+<p>manavo ’smin vyatitah sat</p>
+<p>kalpe svayambhuvadayah</p>
+<p>adyas te kathito yatra</p>
+<p>devadinam ca sambhavah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-rsih uvaca—the great saint Sukadeva Gosvami said; manavah—Manus; asmin—during this period (one day of Brahma); vyatitah—already past; sat—six; kalpe—in this duration of Brahma’s day; svayambhuva—Svayambhuva Manu; adayah—and others; adyah—the first one (Svayambhuva); te—unto you; kathitah—I have already described; yatra—wherein; deva-adinam—of all the demigods; ca—also; sambhavah—the appearance.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sukadeva Gosvami said: In the present kalpa there have already been six Manus.</p>
+<p>I have described to you Svayambhuva Manu and the appearance of many demigods.</p>
+<p>In this kalpa of Brahma, Svayambhuva is the first Manu.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>8.1.5</strong></p>
+<p>akutyam devahutyam ca</p>
+<p>duhitros tasya vai manoh</p>
+<p>dharma-jnanopadesartham</p>
+<p>bhagavan putratam gatah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>akutyam—from the womb of Akuti; devahutyam ca—and from the womb of Devahuti; duhitroh—of the two daughters; tasya—of him; vai—indeed; manoh—of Svayambhuva Manu; dharma—religion; jnana—and knowledge; upadesa-artham—for instructing; bhagavan—the Supreme Personality of Godhead; putratam—sonhood under Akuti and Devahuti; gatah—accepted.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Svayambhuva Manu had two daughters, named Akuti and Devahuti.</p>
+<p>From their wombs, the Supreme Personality of Godhead appeared as two sons named Yajnamurti and Kapila respectively.</p>
+<p>These sons were entrusted with preaching about religion and knowledge.</p>
+<p><strong>PURPORT</strong></p>
+<p>Devahuti’s son was known as Kapila, and Akuti’s son was known as Yajnamurti.</p>
+<p>Both of Them taught about religion and philosophical knowledge.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>8.1.6</strong></p>
+<p>krtam pura bhagavatah</p>
+<p>kapilasyanuvarnitam</p>
+<p>akhyasye bhagavan yajno</p>
+<p>yac cakara kurudvaha</p>
+<p><strong>SYNONYMS</strong></p>
+<p>krtam—already done; pura—before; bhagavatah—of the Supreme Personality of Godhead; kapilasya—Kapila, the son of Devahuti; anuvarnitam—fully described; akhyasye—I shall describe now; bhagavan—the Supreme Personality of Godhead; yajnah—of the name Yajnapati or Yajnamurti; yat—whatever; cakara—executed; kuru-udvaha—O best of the Kurus.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O best of the Kurus, I have already described (in the Third Canto) the activities of Kapila, the son of Devahuti.</p>
+<p>Now I shall describe the activities of Yajnapati, the son of Akuti.</p>
+
+
+
+<p><strong>8.1.7</strong></p>
+<p>viraktah kama-bhogesu</p>
+<p>satarupa-patih prabhuh</p>
+<p>visrjya rajyam tapase</p>
+<p>sabharyo vanam avisat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>viraktah—without attachment; kama-bhogesu—in sense gratification (in grhastha life); satarupa-patih—the husband of Satarupa, namely Svayambhuva Manu; prabhuh—who was the master or king of the world; visrjya—after renouncing totally; rajyam—his kingdom; tapase—for practicing austerities; sa-bharyah—with his wife; vanam—the forest; avisat—entered.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Svayambhuva Manu, the husband of Satarupa, was by nature not at all attached to enjoyment of the senses.</p>
+<p>Thus he gave up his kingdom of sense enjoyment and entered the forest with his wife to practice austerities.</p>
+<p><strong>PURPORT</strong></p>
+<p>As stated in Bhagavad-gita (4.2), evam parampara-praptam imam rajarsayo viduh: The supreme science was thus received through the chain of disciplic succession, and the saintly kings understood it in that way All the Manus were perfect kings.</p>
+<p>They were rajarsis.</p>
+<p>In other words, although they held posts as kings of the world, they were as good as great saints.</p>
+<p>Svayambhuva Manu, for example, was the emperor of the world, yet he had no desire for sense gratification.</p>
+<p>This is the meaning of monarchy.</p>
+<p>The king of the country or the emperor of the empire must be so trained that by nature he renounces sense gratification.</p>
+<p>It is not that because one becomes king he should unnecessarily spend money for sense gratification.</p>
+<p>As soon as kings became degraded, spending money for sense gratification, they were lost.</p>
+<p>Similarly, at the present moment, monarchy having been lost, the people have created democracy, which is also failing.</p>
+<p>Now, by the laws of nature, the time is coming when dictatorship will put the citizens into more and more difficulty.</p>
+<p>If the king or dictator individually, or the members of the government collectively, cannot maintain the state or kingdom according to the rules of Manu-samhita, certainly their government will not endure.</p>
+
+
+
+<p><strong>8.1.8</strong></p>
+<p>sunandayam varsa-satam</p>
+<p>padaikena bhuvam sprsan</p>
+<p>tapyamanas tapo ghoram</p>
+<p>idam anvaha bharata</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sunandayam—on the bank of the River Sunanda; varsa-satam—for one hundred years; pada-ekena—on one leg; bhuvam—the earth; sprsan—touching; tapyamanah—he performed austerities; tapah—austerities; ghoram—very severe; idam—the following; anvaha—and spoke; bharata—O scion of Bharata.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O scion of Bharata, after Svayambhuva Manu had thus entered the forest with his wife, he stood on one leg on the bank of the River Sunanda, and in this way, with only one leg touching the earth, he performed great austerities for one hundred years.</p>
+<p>While performing these austerities, he spoke as follows.</p>
+<p><strong>PURPORT</strong></p>
+<p>Srila Visvanatha Cakravarti Thakura comments that the word anvaha means that he chanted or murmured to himself, not that he lectured to anyone.</p>
+
+
+
+<p><strong>8.1.9</strong></p>
+<p>sri-manur uvaca</p>
+<p>yena cetayate visvam</p>
+<p>visvam cetayate na yam</p>
+<p>yo jagarti sayane ’smin</p>
+<p>nayam tam veda veda sah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-manuh uvaca—Svayambhuva Manu chanted; yena—by whom (the personality of Godhead); cetayate—is brought into animation; visvam—the whole universe; visvam—the whole universe (the material world); cetayate—animates; na—not; yam—He whom; yah—He who; jagarti—is always awake (watching all activities); sayane—while sleeping; asmin—in this body; na—not; ayam—this living entity; tam—Him; veda—knows; veda—knows; sah—He.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Lord Manu said: The supreme living being has created this material world of animation; it is not that He was created by this material world.</p>
+<p>When everything is silent, the Supreme Being stays awake as a witness.</p>
+<p>The living entity does not know Him, but He knows everything.</p>
+<p><strong>PURPORT</strong></p>
+<p>Here is a distinction between the Supreme Personality of Godhead and the living entities.</p>
+<p>Nityo nityanam cetanas cetananam.</p>
+<p>According to the Vedic version, the Lord is the supreme eternal, the supreme living being.</p>
+<p>The difference between the Supreme Being and the ordinary living being is that when this material world is annihilated, all the living entities remain silent in oblivion, in a dreaming or unconscious condition, whereas the Supreme Being stays awake as the witness of everything.</p>
+<p>This material world is created, it stays for some time, and then it is annihilated.</p>
+<p>Throughout these changes, however, the Supreme Being remains awake.</p>
+<p>In the material condition of all living entities, there are three stages of dreaming.</p>
+<p>When the material world is awake and put in working order, this is a kind of dream, a waking dream.</p>
+<p>When the living entities go to sleep, they dream again.</p>
+<p>And when unconscious at the time of annihilation, when this material world is unmanifested, they enter another stage of dreaming.</p>
+<p>At any stage in the material world, therefore, they are all dreaming.</p>
+<p>In the spiritual world, however, everything is awake.</p>
+
+
+
+<p><strong>8.1.10</strong></p>
+<p>atmavasyam idam visvam</p>
+<p>yat kincij jagatyam jagat</p>
+<p>tena tyaktena bhunjitha</p>
+<p>ma grdhah kasya svid dhanam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atma—the Supersoul; avasyam—living everywhere; idam—this universe; visvam—all universes, all places; yat—whatever; kincit—everything that exists; jagatyam—in this world, everywhere; jagat—everything, animate and inanimate; tena—by Him; tyaktena—allotted; bhunjithah—you may enjoy; ma—do not; grdhah—accept; kasya svit—of anyone else; dhanam—the property.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Within this universe, the Supreme Personality of Godhead in His Supersoul feature is present everywhere, wherever there are animate or inanimate beings.</p>
+<p>Therefore, one should accept only that which is allotted to him; one should not desire to infringe upon the property of others.</p>
+<p><strong>PURPORT</strong></p>
+<p>Having described the situation of the Supreme Personality of Godhead as transcendental, Svayambhuva Manu, for the instruction of the sons and grandsons in his dynasty, is now describing all the property of the universe as belonging to the Supreme Personality of Godhead.</p>
+<p>Manu’s instructions are not only for his own sons and grandsons, but for all of human society.</p>
+<p>The word ma—or, in Sanskrit, manusya—has been derived from the name Manu, for all the members of human society are descendants of the original Manu.</p>
+<p>Manu is also mentioned in Bhagavad-gita (4.1), where the Lord says:</p>
+<p>imam vivasvate yogam</p>
+<p>proktavan aham avyayam</p>
+<p>vivasvan manave praha</p>
+<p>manur iksvakave ’bravit</p>
+<p>I instructed this imperishable science of yoga to the sun-god, Vivasvan, and Vivasvan instructed it to Manu, the father of mankind, and Manu in turn instructed it to Iksvaku Svayambhuva Manu and Vaivasvata Manu have similar duties.</p>
+<p>Vaivasvata Manu was born of the sun-god, Vivasvan, and his son was Iksvaku, the King of the earth.</p>
+<p>Since Manu is understood to be the original father of humanity, human society should follow his instructions.</p>
+<p>Svayambhuva Manu instructs that whatever exists, not only in the spiritual world but even within this material world, is the property of the Supreme Personality of Godhead, who is present everywhere as the Superconsciousness.</p>
+<p>As confirmed in Bhagavad-gita (13.3), ksetra jnam capi mam viddhi sarva-ksetresu bharata: in every field—in other words, in every body—the Supreme Lord is existing as the Supersoul.</p>
+<p>The individual soul is given a body in which to live and act according to the instructions of the Supreme Person, and therefore the Supreme Person also exists within every body.</p>
+<p>We should not think that we are independent; rather, we should understand that we are allotted a certain portion of the total property of the Supreme Personality of Godhead.</p>
+<p>This understanding will lead to perfect communism.</p>
+<p>Communists think in terms of their own nations, but the spiritual communism instructed here is not only nationwide but universal.</p>
+<p>Nothing belongs to any nation or any individual person; everything belongs to the Supreme Personality of Godhead.</p>
+<p>That is the meaning of this verse.</p>
+<p>Atmavasyam idam visvam: whatever exists within this universe is the property of the Supreme Personality of Godhead.</p>
+<p>The modern communistic theory, and also the idea of the United Nations, can be reformed—indeed, rectified—by the understanding that everything belongs to the Supreme Personality of Godhead.</p>
+<p>The Lord is not a creation of our intelligence; rather, He has created us.</p>
+<p>Atmavasyam idam visvam.</p>
+<p>Isavasyam idam sarvam.</p>
+<p>This universal communism can solve all the problems of the world.</p>
+<p>One should learn from the Vedic literature that one’s body is also not the property of the individual soul, but is given to the individual soul according to his karma.</p>
+<p>Karmana daiva-netrena jantur dehopapattaye (SB 3.31.1).</p>
+<p>The 8,400,000 different bodily forms are machines given to the individual soul.</p>
+<p>This is confirmed in Bhagavad-gita (18.61):</p>
+<p>isvarah sarva-bhutanam</p>
+<p>hrd-dese ’rjuna tisthati</p>
+<p>bhramayan sarva-bhutani</p>
+<p>yantrarudhani mayaya</p>
+<p>The Supreme Lord is situated in everyone’s heart, O Arjuna, and is directing the wanderings of all living entities, who are seated as on a machine, made of the material energy The Lord, as the Supersoul, sits in everyone’s heart and observes the various desires of the individual soul.</p>
+<p>The Lord is so merciful that He gives the living entity the opportunity to enjoy varieties of desires in suitable bodies, which are nothing but machines (yantrarudhani mayaya).</p>
+<p>These machines are manufactured by the material ingredients of the external energy, and thus the living entity enjoys or suffers according to his desires.</p>
+<p>This opportunity is given by the Supersoul.</p>
+<p>Everything belongs to the Supreme, and therefore one should not usurp another’s property.</p>
+<p>We have a tendency to manufacture many things.</p>
+<p>Especially nowadays, we are building skyscrapers and developing other material facilities.</p>
+<p>We should know, however, that the ingredients of the skyscrapers and machines cannot be manufactured by anyone but the Supreme Personality of Godhead.</p>
+<p>The whole world is nothing but a combination of the five material elements (tejo-vari-mrdam yatha vinimayah).</p>
+<p>A skyscraper is a transformation of earth, water and fire.</p>
+<p>Earth and water are combined and burnt into bricks by fire, and a skyscraper is essentially a tall construction of bricks.</p>
+<p>Although the bricks may be manufactured by man, the ingredients of the bricks are not.</p>
+<p>Of course, man, as a manufacturer, may accept a salary from the Supreme Personality of Godhead.</p>
+<p>That is stated here: tena tyaktena bhunjithah.</p>
+<p>One may construct a big skyscraper, but neither the constructor, the merchant nor the worker can claim proprietorship.</p>
+<p>Proprietorship belongs to the person who has spent for the building.</p>
+<p>The Supreme Personality of Godhead has manufactured water, earth, air, fire and the sky, and one can use these and take a salary (tena tyaktena bhunjithah).</p>
+<p>However, one cannot claim proprietorship.</p>
+<p>This is perfect communism.</p>
+<p>Our tendency to construct great buildings should be used only for constructing large and valuable temples in which to install the Deity of the Supreme Personality of Godhead.</p>
+<p>Then our desire for construction will be fulfilled.</p>
+<p>Since all property belongs to the Supreme Personality of Godhead, everything should be offered to the Lord, and we should take only prasada (tena tyaktena bhunjithah).</p>
+<p>We should not fight among ourselves to take more than we need.</p>
+<p>As Narada said to Maharaja Yudhisthira:</p>
+<p>yavad bhriyeta jatharam</p>
+<p>tavat svatvam hi dehinam</p>
+<p>adhikam yo ’bhimanyeta</p>
+<p>sa steno dandam arhati</p>
+<p>One may claim proprietorship to as much wealth as required to maintain body and soul together, but one who desires proprietorship over more than that must be considered a thief, and he deserves to be punished by the laws of nature (Bhag.7.14.8) Of course, we need to be maintained in eating, sleeping, mating and defending (ahara-nidra-bhaya-maithuna), but since the Supreme Lord, the Personality of Godhead, has provided these necessities of life for the birds and bees, why not for mankind? There is no need for economic development; everything is provided.</p>
+<p>Therefore one should understand that everything belongs to Krsna, and with this idea, one may take prasada.</p>
+<p>However, if one interferes with the allotments of others, he is a thief.</p>
+<p>We should not accept more than what we actually need.</p>
+<p>Therefore, if by chance we get an abundance of money, we should always consider that it belongs to the Supreme Personality of Godhead.</p>
+<p>In Krsna consciousness we are getting sufficient money, but we should never think that the money belongs to us; it belongs to the Supreme Personality of Godhead and should be equally distributed to the workers, the devotees.</p>
+<p>No devotee should claim that any money or property belongs to him.</p>
+<p>If one thinks that any portion of property of this huge universe belongs to anyone, he is to be considered a thief and is punishable by the laws of nature.</p>
+<p>Daivi hy esa guna-mayi mama maya duratyaya: no one can surpass the vigilance of material nature or hide his intentions from material nature.</p>
+<p>If human society unlawfully claims that the property of the universe, either partially or wholly, belongs to mankind, all of human society will be cursed as a society of thieves and will be punished by the laws of nature.</p>
+
+
+
+<p><strong>8.1.11</strong></p>
+<p>yam pasyati na pasyantam</p>
+<p>caksur yasya na risyati</p>
+<p>tam bhuta-nilayam devam</p>
+<p>suparnam upadhavata</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yam—He who; pasyati—the living entity sees; na—not; pasyantam—although always seeing; caksuh—eye; yasya—whose; na—never; risyati—diminishes; tam—Him; bhuta-nilayam—the original source of all living entities; devam—the Supreme Personality of Godhead; suparnam—who accompanies the living entity as a friend; upadhavata—everyone should worship.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Although the Supreme Personality of Godhead constantly watches the activities of the world, no one sees Him.</p>
+<p>However, one should not think that because no one sees Him, He does not see, for His power to see is never diminished.</p>
+<p>Therefore, everyone should worship the Supersoul, who always stays with the individual soul as a friend.</p>
+<p><strong>PURPORT</strong></p>
+<p>Offering prayers to Krsna, Srimati Kuntidevi, the mother of the Pandavas, said, alaksyam sarva-bhutanam antar bahir avasthitam: Krsna, You reside both inside and outside of everything, yet the unintelligent conditioned souls cannot see You In Bhagavad-gita it is said that one can see the Supreme Personality of Godhead through jnana-caksusah, eyes of knowledge.</p>
+<p>He who opens these eyes of knowledge is called a spiritual master.</p>
+<p>Thus we offer our prayers to the spiritual master with the following sloka:</p>
+<p>om ajnana-timirandhasya</p>
+<p>jnananjana-salakaya</p>
+<p>caksur unmilitam yena</p>
+<p>tasmai sri-gurave namah</p>
+<p>I offer my respectful obeisances unto my spiritual master, who with the torchlight of knowledge has opened my eyes, which were blinded by the darkness of ignorance (Gautamiya Tantra) The guru’s task is to open the disciple’s eyes of knowledge.</p>
+<p>When the disciple is awakened from ignorance to knowledge, he can see the Supreme Personality of Godhead everywhere because the Lord actually is everywhere.</p>
+<p>Andantara-stha-paramanu-cayantara-stham.</p>
+<p>The Lord resides within this universe, He resides within the hearts of all living entities, and He resides even within the atom.</p>
+<p>Because we lack perfect knowledge, we cannot see God, but a little deliberation can help us to see God everywhere.</p>
+<p>This requires training.</p>
+<p>With a little deliberation, even the most degraded person can perceive the presence of God.</p>
+<p>If we take into account whose property is the vast ocean, whose property is the vast land, how the sky exists, how the numberless millions of stars and planets are set in the sky, who has made this universe and whose property it is, we should certainly come to the conclusion that there is a proprietor of everything.</p>
+<p>When we claim proprietorship over a certain piece of land, whether individually or for our families or nations, we should also consider how we became the proprietors.</p>
+<p>The land was there before our birth, before we came to the land.</p>
+<p>How did it become our property? Such deliberation will help us understand that there is a supreme proprietor of everything—the Supreme Personality of Godhead.</p>
+<p>The Supreme Godhead is always awake.</p>
+<p>In the conditioned stage we forget things because we change our bodies, but because the Supreme Personality of Godhead does not change His body, He remembers past, present and future.</p>
+<p>Krsna says in Bhagavad-gita (4.1), imam vivasvate yogam proktavan aham avyayam: I spoke this science of God—Bhagavad-gita—to the sun-god at least forty million years ago When Arjuna inquired from Krsna how He could remember incidents that had taken place so long ago, the Lord answered that Arjuna was also present at that time.</p>
+<p>Because Arjuna is Krsna’s friend, wherever Krsna goes, Arjuna goes.</p>
+<p>But the difference is that Krsna remembers everything, whereas the living entity like Arjuna, being a minute particle of the Supreme Lord, forgets.</p>
+<p>Therefore it is said, the Lord’s vigilance is never diminished.</p>
+<p>This is also confirmed in Bhagavad-gita (15.15).</p>
+<p>Sarvasya caham hrdi sannivisto mattah smrtir jnanam apohanam ca: the Supreme Personality of Godhead in His Paramatma feature is always present within the hearts of all living entities, and from Him come memory, knowledge and forgetfulness.</p>
+<p>Svetasvatara Upanisad (4.6) it is therefore said, dva suparna-sayuja sakhaya samanam vrksam parisasvajate: two birds are sitting on the same tree as friends.</p>
+<p>One bird is eating the fruit of the tree, and the other is simply observing.</p>
+<p>This observing bird is always present as a friend to the eating bird and giving him remembrance of things he wanted to do.</p>
+<p>Thus if we take into account the Supreme Personality of Godhead in our daily affairs, we can see Him or at least perceive His presence everywhere.</p>
+<p>The words caksur yasya na risyati mean that although we cannot see Him, this does not mean that He cannot see us.</p>
+<p>Nor does He die when the cosmic manifestation is annihilated.</p>
+<p>The example is given in this connection that the sunshine is present when the sun is present, but when the sun is not present, or when we cannot see the sun, this does not mean that the sun is lost.</p>
+<p>The sun is there, but we cannot see it.</p>
+<p>Similarly, although we cannot see the Supreme Personality of Godhead in our present darkness, our lack of knowledge, He is always present, seeing our activities.</p>
+<p>As the Paramatma, He is the witness and adviser (upadrasta and anumanta).</p>
+<p>Therefore, by following the instructions of the spiritual master and studying authorized literatures, one can understand that God is present before us, seeing everything, although we have no eyes with which to see Him.</p>
+
+
+
+<p><strong>8.1.12</strong></p>
+<p>na yasyady-antau madhyam ca</p>
+<p>svah paro nantaram bahih</p>
+<p>visvasyamuni yad yasmad</p>
+<p>visvam ca tad rtam mahat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—neither; yasya—of whom (the Supreme Personality of Godhead); adi—a beginning; antau—end; madhyam—middle; ca—also; svah—own; parah—others; na—nor; antaram—inside; bahih—outside; visvasya—of the whole cosmic manifestation; amuni—all such considerations; yat—whose form; yasmat—from He who is the cause of everything; visvam—the whole universe; ca—and; tat—all of them; rtam—truth; mahat—very, very great.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Supreme Personality of Godhead has no beginning, no end and no middle.</p>
+<p>Nor does He belong to a particular person or nation.</p>
+<p>He has no inside or outside.</p>
+<p>The dualities found within this material world, such as beginning and end, mine and theirs, are all absent from the personality of the Supreme Lord.</p>
+<p>The universe, which emanates from Him, is another feature of the Lord.</p>
+<p>Therefore the Supreme Lord is the ultimate truth, and He is complete in greatness.</p>
+<p><strong>PURPORT</strong></p>
+<p>Brahma-samhita (5.1):</p>
+<p>isvarah paramah krsnah</p>
+<p>sac-cid-ananda-vigrahah</p>
+<p>anadir adir govindah</p>
+<p>sarva-karana-karanam</p>
+<p>Krsna, known as Govinda, is the supreme controller.</p>
+<p>He has an eternal, blissful, spiritual body.</p>
+<p>He is the origin of all.</p>
+<p>He has no other origin, for He is the prime cause of all causes For the Lord’s existence there is no cause, for He is the cause of everything.</p>
+<p>He is in everything (maya tatam idam sarvam), He is expanded in everything, but He is not everything.</p>
+<p>He is acintya-bhedabheda, simultaneously one and different.</p>
+<p>That is explained in this verse.</p>
+<p>In the material condition we have a conception of beginning, end and middle, but for the Supreme Personality of Godhead there are no such things.</p>
+<p>The universal cosmic manifestation is also the virat-rupa that was shown to Arjuna in Bhagavad-gita.</p>
+<p>Therefore, since the Lord is present everywhere and all the time, He is the Absolute Truth and the greatest.</p>
+<p>He is complete in greatness.</p>
+<p>God is great, and how He is great is explained here.</p>
+
+
+
+<p><strong>8.1.13</strong></p>
+<p>sa visva-kayah puru-huta-isah</p>
+<p>satyah svayam-jyotir ajah puranah</p>
+<p>dhatte ’sya janmady-ajayatma-saktya</p>
+<p>tam vidyayodasya niriha aste</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—that Supreme Personality of Godhead; visva-kayah—the total form of the universe (the whole universe is the external body of the Supreme Personality of Godhead); puru-hutah—known by so many names; isah—the supreme controller (with full power); satyah—the ultimate truth; svayam—personally; jyotih—self-effulgent; ajah—unborn, beginningless; puranah—the oldest; dhatte—He performs; asya—of this universe; janma-adi—the creation, maintenance and annihilation; ajaya—by His external energy; atma-saktya—by His personal potency; tam—that external material energy; vidyaya—by His spiritual potency; udasya—giving up; nirihah—without any desire or activity; aste—He is existing (untouched by the material energy).</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The entire cosmic manifestation is the body of the Supreme Personality of Godhead, the Absolute Truth, who has millions of names and unlimited potencies.</p>
+<p>He is self-effulgent, unborn and changeless.</p>
+<p>He is the beginning of everything, but He has no beginning.</p>
+<p>Because He has created this cosmic manifestation by His external energy, the universe appears to be created, maintained and annihilated by Him.</p>
+<p>Nonetheless, He remains inactive in His spiritual energy and is untouched by the activities of the material energy.</p>
+<p><strong>PURPORT</strong></p>
+<p>Sri Caitanya Mahaprabhu says in His Siksastaka, namnam akari bahudha nija-sarva-saktih: the Supreme Personality of Godhead has many names, which are all nondifferent from the Supreme Person.</p>
+<p>This is spiritual existence.</p>
+<p>By chanting the Hare Krsna maha-mantra, consisting of names of the Supreme Lord, we find that the name has all the potencies of the person.</p>
+<p>The Lord’s activities are many, and according to His activities He has many names.</p>
+<p>He appeared as the son of mother Yasoda, and also as the son of mother Devaki, and therefore He is named Devaki-nandana and Yasoda-nandana.</p>
+<p>Parasya saktir vividhaiva sruyate: the Lord has a multitude of energies, and therefore He acts in multifarious ways.</p>
+<p>Yet He has a particular name.</p>
+<p>The sastras recommend which names we should chant, such as Hare Krsna, Hare Krsna, Krsna Krsna, Hare Hare.</p>
+<p>It is not that we have to search for some name or manufacture one.</p>
+<p>Rather, we must follow the saintly persons and the sastras in chanting His holy name.</p>
+<p>Although the material and spiritual energies both belong to the Lord, He is impossible to understand as long as we are in the material energy.</p>
+<p>And when we come to the spiritual energy, He is very easy to know.</p>
+<p>Srimad-Bhagavatam (1.7.23): mayam vyudasya cic-chaktya kaivalye sthita atmani.</p>
+<p>Although the external energy belongs to the Lord, when one is in the external energy (mama maya duratyaya) He is very difficult to understand.</p>
+<p>However, when one comes to the spiritual energy, one can understand Him.</p>
+<p>Therefore in Bhagavad-gita (18.55) it is said, bhaktya mam abhijanati yavan yas casmi tattvatah: one who wants to understand the Supreme Personality of Godhead in reality must take to the platform of bhakti, or Krsna consciousness.</p>
+<p>This bhakti consists of various activities (sravanam kirtanam visnoh smaranam pada-sevanam/ arcanam vandanam dasyam sakhyam atma-nivedanam (SB 7.5.23)), and to understand the Lord one must take to this path of devotional service.</p>
+<p>Even though the people of the world have forgotten God and may say that God is dead, this is not a fact.</p>
+<p>One can understand God when one takes to the Krsna consciousness movement, and thus one can be happy.</p>
+
+
+
+<p><strong>8.1.14</strong></p>
+<p>athagre rsayah karman-</p>
+<p>ihante ’karma-hetave</p>
+<p>ihamano hi purusah</p>
+<p>prayo ’niham prapadyate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atha—therefore; agre—in the beginning; rsayah—all learned rsis, saintly persons; karmani—fruitive activities; ihante—execute; akarma—freedom from fruitive results; hetave—for the purpose of; ihamanah—engaging in such activities; hi—indeed; purusah—a person; prayah—almost always; aniham—liberation from karma; prapadyate—attains.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Therefore, to enable people to reach the stage of activities that are not tinged by fruitive results, great saints first engage people in fruitive activities, for unless one begins by performing activities as recommended in the sastras, one cannot reach the stage of liberation, or activities that produce no reactions.</p>
+<p><strong>PURPORT</strong></p>
+<p>In Bhagavad-gita (3.9) Lord Krsna advises, yajnarthat karmano ’nyatra loko ’yam karma-bandhanah: Work done as a sacrifice for Visnu has to be performed, otherwise work binds one to this material world Generally, everyone is attracted to hard labor for becoming happy in this material world, but although various activities are going on all over the world simply for the sake of happiness, unfortunately only problems are being created from such fruitive activities.</p>
+<p>Therefore it is advised that active persons engage in activities of Krsna consciousness, which are called yajna, because then they will gradually come to the platform of devotional service.</p>
+<p>Yajna means Lord Visnu, the yajna-purusa, the enjoyer of all sacrifices (bhoktaram yajna-tapasam sarva-loka-mahesvaram (Bg.5.29)).</p>
+<p>The Supreme Personality of Godhead is actually the enjoyer, and therefore if we begin our activities for His satisfaction, we will gradually lose our taste for material activities.</p>
+<p>Suta Gosvami declared to the great assembly of sages at Naimisaranya:</p>
+<p>atah pumbhir dvija-srestha</p>
+<p>varnasrama-vibhagasah</p>
+<p>svanusthitasya dharmasya</p>
+<p>samsiddhir hari-tosanam</p>
+<p>O best among the twice-born, it is concluded that the highest perfection one can achieve, by discharging his prescribed duties (dharma) according to caste divisions and order of life, is to please the Lord Hari (Bhag.1.2.13) According to Vedic principles, everyone must act according to his classification as brahmana, ksatriya, vaisya, sudra, brahmacari, grhastha, vanaprastha or sannyasi.</p>
+<p>Everyone should progress toward perfection by acting in such a way that Krsna will be pleased (samsiddhir hari-tosanam (SB 1.2.13)).</p>
+<p>One cannot please Krsna by sitting idly; one must act according to the directions of the spiritual master for the sake of pleasing the Supreme Personality of Godhead, and then one will gradually come to the stage of pure devotional service.</p>
+<p>Srimad-Bhagavatam (1.5.12):</p>
+<p>naiskarmyam apy acyuta-bhava-varjitam</p>
+<p>na sobhate jnanam alam niranjanam</p>
+<p>Knowledge of self-realization, even though freed from all material affinity, does not look well if devoid of a conception of the infallible (God) Jnanis recommend that one adopt naiskarmya by not doing anything but simply meditating and thinking of Brahman, but this is impossible unless one realizes Parabrahman, Krsna.</p>
+<p>If there is no Krsna consciousness, any kind of activity, be it philanthropic, political or social, simply causes karma-bandhana, bondage to material work.</p>
+<p>As long as one is entangled in karma-bandhana, one must accept different types of bodies that spoil the human form of facility.</p>
+<p>Therefore, in Bhagavad-gita (6.3) karma-yoga is recommended:</p>
+<p>aruruksor muner yogam</p>
+<p>karma karanam ucyate</p>
+<p>yogarudhasya tasyaiva</p>
+<p>samah karanam ucyate</p>
+<p>For one who is a neophyte in the yoga system, work is said to be the means; and for one who has already attained to yoga, cessation of all material activities is said to be the means Nonetheless:</p>
+<p>karmendriyani samyamya</p>
+<p>ya aste manasa smaran</p>
+<p>indriyarthan vimudhatma</p>
+<p>mithyacarah sa ucyate</p>
+<p>One who restrains the senses and organs of action, but whose mind dwells on sense objects, certainly deludes himself and is called a pretender (Bg.3.6) One should act for Krsna very seriously in order to become fully Krsna conscious and should not sit down to imitate such great personalities as Haridasa Thakura.</p>
+<p>Srila Bhaktisiddhanta Sarasvati Thakura condemned such imitation.</p>
+<p>Me said:</p>
+<p>dusta mana! tumi kisera vaisnava?</p>
+<p>pratisthara tare, nirjanera ghare, tava hari-nama kevala kaitava</p>
+<p>My dear mind, what kind of devotee are you? Simply for cheap adoration, you sit in a solitary place and pretend to chant the Hare Krsna maha-mantra, but this is all cheating Recently at Mayapur an African devotee wanted to imitate Haridasa Thakura, but after fifteen days he became restless and went away.</p>
+<p>Do not suddenly try to imitate Haridasa Thakura.</p>
+<p>Engage yourself in Krsna conscious activities, and gradually you will come to the stage of liberation (muktir hitvanyatha rupam svarupena vyavasthitih).</p>
+
+
+
+<p><strong>8.1.15</strong></p>
+<p>ihate bhagavan iso</p>
+<p>na hi tatra visajjate</p>
+<p>atma-labhena purnartho</p>
+<p>navasidanti ye ’nu tam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ihate—engages in activities of creation, maintenance and annihilation; bhagavan—the Supreme Personality of Godhead, Krsna; isah—the supreme controller; na—not; hi—indeed; tatra—in such activities; visajjate—He becomes entangled; atma-labhena—because of His own gain; purna-arthah—who is self-satisfied; na—not; avasidanti—are disheartened; ye—persons who; anu—follow; tam—the Supreme Personality of Godhead.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Supreme Personality of Godhead is full in opulence by His own gain, yet He acts as the creator, maintainer and annihilator of this material world.</p>
+<p>In spite of acting in that way, He is never entangled.</p>
+<p>Hence devotees who follow in His footsteps are also never entangled.</p>
+<p><strong>PURPORT</strong></p>
+<p>As stated in Bhagavad-gita (3.9), yajnarthat karmano ’nyatra loko ’yam karma-bandhanah: work done as a sacrifice for Visnu has to be performed, otherwise work binds one to this material world If we do not act in Krsna consciousness we shall be entangled, like silkworms in cocoons.</p>
+<p>The Supreme Personality of Godhead, Krsna, appears in order to teach us how to work so that we will not be entangled in this material world.</p>
+<p>Our real problem is that we are entangled in materialistic activities, and because we are conditioned, our struggle continues through punishment in material existence in one body after another in different forms of life.</p>
+<p>As the Lord says in Bhagavad-gita (15.7):</p>
+<p>mamaivamso jiva-loke</p>
+<p>jiva-bhutah sanatanah</p>
+<p>manah sasthanindriyani</p>
+<p>prakrti-sthani karsati</p>
+<p>The living entities in this conditioned world are My eternal, fragmental parts.</p>
+<p>Due to conditioned life, they are struggling very hard with the six senses, which include the mind The living entities are actually minute forms who are part and parcel of the Supreme Lord.</p>
+<p>The Supreme Lord is full in everything, and the small particles of the Lord are also originally qualified like Him, but because of their minute existence, they are infected by material attraction and thus entangled.</p>
+<p>We must therefore follow the instructions of the Supreme Personality of Godhead, and then, like Krsna, who is never entangled by His material activities of creation, maintenance and annihilation, we will have nothing for which to lament (navasidanti ye ’nu tam).</p>
+<p>Krsna personally gives instructions in Bhagavad-gita, and anyone who follows these instructions is liberated.</p>
+<p>Following Krsna’s instructions is possible when one is a devotee, for Krsna instructs that one should become a devotee.</p>
+<p>Man-mana bhava mad-bhakto mad-yaji mam namaskuru: Always think of Me and become My devotee.</p>
+<p>Worship Me and offer your homage unto Me (Bg.18.65) Always thinking of Krsna means chanting the Hare Krsna mantra, but unless one is an initiated devotee he cannot do this.</p>
+<p>As soon as one becomes a devotee, he engages in Deity worship (mad-yaji).</p>
+<p>A devotee’s business is to offer obeisances to the Lord and the spiritual master constantly.</p>
+<p>This principle is the recognized way to come to the platform of bhakti.</p>
+<p>As soon as one comes to this platform, he gradually understands the Supreme Personality of Godhead, and simply by understanding Krsna one is liberated from material bondage.</p>
+
+
+
+<p><strong>8.1.16</strong></p>
+<p>tam ihamanam nirahankrtam budham</p>
+<p>nirasisam purnam ananya-coditam</p>
+<p>nrn siksayantam nija-vartma-samsthitam</p>
+<p>prabhum prapadye ’khila-dharma-bhavanam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tam—unto the same Supreme Personality of Godhead; ihamanam—who is acting for our benefit; nirahankrtam—who is without entanglement or desire for gain; budham—who is completely in knowledge; nirasisam—without desires to enjoy the fruits of His activities; purnam—who is full and therefore has no need to fulfill desires; ananya—by others; coditam—induced or inspired; nrn—all of human society; siksayantam—to teach (the real path of life); nija-vartma—His own personal way of life; samsthitam—to establish (without deviation); prabhum—unto the Supreme Lord; prapadye—I request everyone to surrender; akhila-dharma-bhavanam—who is the master of all religious principles or the occupational duties for a human being.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Supreme Personality of Godhead, Krsna, works just like an ordinary human being, yet He does not desire to enjoy the fruits of work.</p>
+<p>He is full in knowledge, free from material desires and diversions, and completely independent.</p>
+<p>As the supreme teacher of human society, He teaches His own way of activities, and thus He inaugurates the real path of religion.</p>
+<p>I request everyone to follow Him.</p>
+<p><strong>PURPORT</strong></p>
+<p>This is the sum and substance of our Krsna consciousness movement.</p>
+<p>We are simply requesting human society to follow in the footsteps of the teacher of Bhagavad-gita.</p>
+<p>Follow the instructions of Bhagavad-gita As It Is, and your life will be successful.</p>
+<p>That is the summary of the Krsna consciousness movement.</p>
+<p>The organizer of the Krsna consciousness movement is teaching everyone how to follow Lord Ramacandra, how to follow Lord Krsna, and how to follow Sri Caitanya Mahaprabhu.</p>
+<p>In this material world, we need a leader for a monarchy or good government.</p>
+<p>Lord Sri Ramacandra, by His practical example, showed how to live for the benefit of all human society.</p>
+<p>He fought with demons like Ravana, He carried out the orders of His father, and He remained the faithful husband of mother Sita.</p>
+<p>Thus there is no comparison to Lord Ramacandra’s acting as an ideal king.</p>
+<p>Indeed, people still hanker for rama-rajya, a government conducted like that of Lord Ramacandra.</p>
+<p>Similarly, although Lord Krsna is the Supreme Personality of Godhead, He taught His disciple and devotee Arjuna how to lead a life ending in going back home, back to Godhead (tyaktva deham punar janma naiti mam eti so ’rjuna (Bg.4.9)).</p>
+<p>All teachings—political, economic, social, religious, cultural and philosophical—are to be found in Bhagavad-gita.</p>
+<p>One only has to follow them strictly.</p>
+<p>The Supreme Personality of Godhead also comes as Lord Caitanya just to play the part of a pure devotee.</p>
+<p>Thus the Lord teaches us in different ways just to make our lives successful, and Svayambhuva Manu requests us to follow Him.</p>
+<p>Svayambhuva Manu is the leader of mankind, and he has given a book called Manu-samhita to guide human society.</p>
+<p>Herein he directs us to follow the Supreme Personality of Godhead in His different incarnations.</p>
+<p>These incarnations are described in Vedic literature, and Jayadeva Gosvami has described ten important incarnations in summary (kesava dhrta-mina-sarira jaya jagad-isa hare, kesava dhrta-nara-hari-rupa jaya jagad-isa hare, kesava dhrta-buddha-sarira jaya jagad-isa hare, etc.).</p>
+<p>Svayambhuva Manu instructs us to follow the instructions of God’s incarnations, especially Krsna’s instructions of Bhagavad-gita As It Is.</p>
+<p>Appreciating bhakti-marga as instructed by Sri Caitanya Mahaprabhu, Sarvabhauma Bhattacarya thus depicted the activities of Sri Caitanya Mahaprabhu:</p>
+<p>vairagya-vidya-nija-bhakti-yoga-</p>
+<p>siksartham ekah purusah puranah</p>
+<p>sri-krsna-caitanya-sarira-dhari</p>
+<p>krpambudhir yas tam aham prapadye</p>
+<p>(Cc.Madya 6.254)</p>
+<p>Let me take shelter of the Supreme Personality of Godhead, Sri Krsna, who has descended in the form of Lord Caitanya Mahaprabhu to teach us real knowledge, His devotional service, and detachment from whatever does not foster Krsna consciousness.</p>
+<p>He has descended because He is an ocean of transcendental mercy.</p>
+<p>Let me surrender unto His lotus feet (Caitanya-candrodaya-nataka6.74) In this age of Kali, people cannot follow the instructions of the Supreme Personality of Godhead, and therefore the Lord Himself takes the part of Sri Krsna Caitanya to teach personally how to become Krsna conscious.</p>
+<p>He asks everyone to follow Him and to become a guru to deliver the fallen souls of Kali-yuga yare dekha, tare kaha ‘krsna’-upadesa</p>
+<p>amara ajnaya guru hana tara’ ei desa</p>
+<p>Instruct everyone to follow the orders of Lord Sri Krsna as they are given in Bhagavad-gita and Srimad-Bhagavatam.</p>
+<p>In this way become a spiritual master and try to liberate everyone in this land (Cc.Madhya7.128) The coherent purpose of Lord Ramacandra, Lord Krsna and Lord Caitanya Mahaprabhu is to teach human society how to be happy by following the instructions of the Supreme Lord.</p>
+
+
+
+<p><strong>8.1.17</strong></p>
+<p>sri-suka uvaca</p>
+<p>iti mantropanisadam</p>
+<p>vyaharantam samahitam</p>
+<p>drstvasura yatudhana</p>
+<p>jagdhum abhyadravan ksudha</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-sukah uvaca—Sri Sukadeva Gosvami said; iti—thus; mantra-upanisadam—the Vedic mantra (uttered by Svayambhuva Manu); vyaharantam—taught or chanted; samahitam—concentrated the mind (without being agitated by material conditions); drstva—upon seeing (him); asurah—the demons; yatudhanah—the Raksasas; jagdhum—desired to devour; abhyadravan—running very fast; ksudha—to satisfy their appetite.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sukadeva Gosvami continued: Svayambhuva Manu was thus in a trance, chanting the mantras of Vedic instruction known as the Upanisads.</p>
+<p>Upon seeing him, the Raksasas and asuras, being very hungry, wanted to devour him.</p>
+<p>Therefore they ran after him with great speed.</p>
+
+
+
+<p><strong>8.1.18</strong></p>
+<p>tams tathavasitan viksya</p>
+<p>yajnah sarva-gato harih</p>
+<p>yamaih parivrto devair</p>
+<p>hatvasasat tri-vistapam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tan—the demons and Raksasas; tatha—in that way; avasitan—who were determined to devour Svayambhuva Manu; viksya—upon observing; yajnah—Lord Visnu, known as Yajna; sarva-gatah—who is seated in everyone’s heart; harih—the Supreme Personality of Godhead; yamaih—with His sons named the Yamas; parivrtah—surrounded; devaih—by the demigods; hatva—after killing (the demons); asasat—ruled (taking the post of Indra); tri-vistapam—the heavenly planets.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Supreme Lord, Visnu, who sits in everyone’s heart, appearing as Yajnapati, observed that the Raksasas and demons were going to devour Svayambhuva Manu.</p>
+<p>Thus the Lord, accompanied by His sons named the Yamas and by all the other demigods, killed the demons and Raksasas.</p>
+<p>He then took the post of Indra and began to rule the heavenly kingdom.</p>
+<p><strong>PURPORT</strong></p>
+<p>The various names of the demigods—Lord Brahma, Lord Siva, Lord Indra and so on—are not personal names; they are names of different posts.</p>
+<p>In this regard, we understand that Lord Visnu sometimes becomes Brahma or Indra when there is no suitable person to occupy these posts.</p>
+
+
+
+<p><strong>8.1.19</strong></p>
+<p>svarociso dvitiyas tu</p>
+<p>manur agneh suto ’bhavat</p>
+<p>dyumat-susena-rocismat</p>
+<p>pramukhas tasya catmajah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>svarocisah—Svarocisa; dvitiyah—the second; tu—indeed; manuh—Manu; agneh—of Agni; sutah—the son; abhavat—became; dyumat—Dyumat; susena—Susena; rocismat—Rocismat; pramukhah—beginning with them; tasya—of him (Svarocisa); ca—also; atma-jah—sons.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Agni named Svarocisa became the second Manu.</p>
+<p>His several sons were headed by Dyumat, Susena and Rocismat.</p>
+<p><strong>PURPORT</strong></p>
+<p>manvantaram manur deva</p>
+<p>manu-putrah suresvarah</p>
+<p>rsayo ’msavataras ca</p>
+<p>hareh sad vidham ucyate</p>
+<p>There are many incarnations of the Supreme Personality of Godhead.</p>
+<p>Manu, the manu-putrah (the sons of Manu), the king of the heavenly planets, and the seven great sages are all partial incarnations of the Supreme Lord.</p>
+<p>Manu himself, his sons Priyavrata and Uttanapada, the demigods created by Daksa, and the rsis like Marici were all partial incarnations of the Lord during the reign of Svayambhuva Manu.</p>
+<p>During that time, the incarnation of the Lord as Yajna took charge of ruling the heavenly planets.</p>
+<p>The next Manu was Svarocisa.</p>
+<p>The Manus and the sages and demigods are further described in the following eleven verses.</p>
+
+
+
+<p><strong>8.1.20</strong></p>
+<p>tatrendro rocanas tv asid</p>
+<p>devas ca tusitadayah</p>
+<p>urja-stambhadayah sapta</p>
+<p>rsayo brahma-vadinah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatra—in this manvantara; indrah—Indra; rocanah—Rocana, the son of Yajna; tu—but; asit—became; devah—demigods; ca—also; tusita-adayah—Tusita and others; urja—Urja; stambha—Stambha; adayah—and others; sapta—seven; rsayah—great saints; brahma-vadinah—all faithful devotees.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>During the reign of Svarocisa, the post of Indra was assumed by Rocana, the son of Yajna.</p>
+<p>Tusita and others became the principal demigods, and Urja, Stambha and others became the seven saints.</p>
+<p>All of them were faithful devotees of the Lord.</p>
+
+
+
+<p><strong>8.1.21</strong></p>
+<p>rses tu vedasirasas</p>
+<p>tusita nama patny abhut</p>
+<p>tasyam jajne tato devo</p>
+<p>vibhur ity abhivisrutah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>rseh—of the saintly person; tu—indeed; vedasirasah—Vedasira; tusita—Tusita; nama—named; patni—the wife; abhut—begat; tasyam—in her (womb); jajne—took birth; tatah—thereafter; devah—the Lord; vibhuh—Vibhu; iti—thus; abhivisrutah—celebrated as.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Vedasira was a very celebrated rsi.</p>
+<p>From the womb of his wife, whose name was Tusita, came the avatara named Vibhu.</p>
+
+
+
+<p><strong>8.1.22</strong></p>
+<p>astasiti-sahasrani</p>
+<p>munayo ye dhrta-vratah</p>
+<p>anvasiksan vratam tasya</p>
+<p>kaumara-brahmacarinah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>astasiti—eighty-eight; sahasrani—thousand; munayah—great saintly persons; ye—those who; dhrta-vratah—fixed in vows; anvasiksan—took instructions; vratam—vows; tasya—from him (Vibhu); kaumara—who was unmarried; brahmacarinah—and fixed in the brahmacari stage of life.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Vibhu remained a brahmacari and never married throughout his life.</p>
+<p>From him, eighty-eight thousand other saintly persons took lessons on self-control, austerity and similar behavior.</p>
+
+
+
+<p><strong>8.1.23</strong></p>
+<p>trtiya uttamo nama</p>
+<p>priyavrata-suto manuh</p>
+<p>pavanah srnjayo yajna-</p>
+<p>hotradyas tat-suta nrpa</p>
+<p><strong>SYNONYMS</strong></p>
+<p>trtiyah—the third; uttamah—Uttama; nama—named; priyavrata—of King Priyavrata; sutah—the son; manuh—he became the Manu; pavanah—Pavana; srnjayah—Srnjaya; yajnahotra-adyah—Yajnahotra and others; tat-sutah—the sons of Uttama; nrpa—O King.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King, the third Manu, Uttama, was the son of King Priyavrata.</p>
+<p>Among the sons of this Manu were Pavana, Srnjaya and Yajnahotra.</p>
+
+
+
+<p><strong>8.1.24</strong></p>
+<p>vasistha-tanayah sapta</p>
+<p>rsayah pramadadayah</p>
+<p>satya vedasruta bhadra</p>
+<p>deva indras tu satyajit</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vasistha-tanayah—the sons of Vasistha; sapta—seven; rsayah—the sages; pramada-adayah—headed by Pramada; satyah—the Satyas; vedasrutah—Vedasrutas; bhadrah—Bhadras; devah—demigods; indrah—the King of heaven; tu—but; satyajit—Satyajit.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>During the reign of the third Manu, Pramada and other sons of Vasistha became the seven sages.</p>
+<p>The Satyas, Vedasrutas and Bhadras became demigods, and Satyajit was selected to be Indra, the King of heaven.</p>
+
+
+
+<p><strong>8.1.25</strong></p>
+<p>dharmasya sunrtayam tu</p>
+<p>bhagavan purusottamah</p>
+<p>satyasena iti khyato</p>
+<p>jatah satyavrataih saha</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dharmasya—of the demigod in charge of religion; sunrtayam—in the womb of his wife named Sunrta; tu—indeed; bhagavan—the Supreme Personality of Godhead; purusa-uttamah—the Supreme Personality of Godhead; satyasenah—Satyasena; iti—thus; khyatah—celebrated; jatah—took birth; satyavrataih—the Satyavratas; saha—with.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In this manvantara, the Supreme Personality of Godhead appeared from the womb of Sunrta, who was the wife of Dharma, the demigod in charge of religion.</p>
+<p>The Lord was celebrated as Satyasena, and He appeared with other demigods, known as the Satyavratas.</p>
+
+
+
+<p><strong>8.1.26</strong></p>
+<p>so ’nrta-vrata-duhsilan</p>
+<p>asato yaksa-raksasan</p>
+<p>bhuta-druho bhuta-ganams</p>
+<p>cavadhit satyajit-sakhah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—He (Satyasena); anrta-vrata—who are fond of speaking lies; duhsilan—misbehaved; asatah—miscreant; yaksa-raksasan—Yaksas and Raksasas; bhuta-druhah—who are always against the progress of other living beings; bhuta-ganan—the ghostly living entities; ca—also; avadhit—killed; satyajit-sakhah—with His friend Satyajit.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Satyasena, along with His friend Satyajit, who was the King of heaven, Indra, killed all the untruthful, impious and misbehaved Yaksas, Raksasas and ghostly living entities, who gave pains to other living beings.</p>
+
+
+
+<p><strong>8.1.27</strong></p>
+<p>caturtha uttama-bhrata</p>
+<p>manur namna ca tamasah</p>
+<p>prthuh khyatir narah ketur</p>
+<p>ity adya dasa tat-sutah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>caturtha—the fourth Manu; uttama-bhrata—the brother of Uttama; manuh—became the Manu; namna—celebrated by the name; ca—also; tamasah—Tamasa; prthuh—Prthu; khyatih—Khyati; narah—Nara; ketuh—Ketu; iti—thus; adyah—headed by; dasa—ten; tat-sutah—sons of Tamasa Manu.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The brother of the third Manu, Uttama, was celebrated by the name Tamasa, and he became the fourth Manu.</p>
+<p>Tamasa had ten sons, headed by Prthu, Khyati, Nara and Ketu.</p>
+
+
+
+<p><strong>8.1.28</strong></p>
+<p>satyaka harayo vira</p>
+<p>devas trisikha isvarah</p>
+<p>jyotirdhamadayah sapta</p>
+<p>rsayas tamase ’ntare</p>
+<p><strong>SYNONYMS</strong></p>
+<p>satyakah—the Satyakas; harayah—the Haris; virah—the Viras; devah—the demigods; trisikhah—Trisikha; isvarah—the King of heaven; jyotirdhama-adayah—headed by the celebrated Jyotirdhama; sapta—seven; rsayah—sages; tamase—the reign of Tamasa Manu; antare—within.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>During the reign of Tamasa Manu, among the demigods were the Satyakas, Haris and Viras.</p>
+<p>The heavenly King, Indra, was Trisikha.</p>
+<p>The sages in saptarsi-dhama were headed by Jyotirdhama.</p>
+
+
+
+<p><strong>8.1.29</strong></p>
+<p>deva vaidhrtayo nama</p>
+<p>vidhrtes tanaya nrpa</p>
+<p>nastah kalena yair veda</p>
+<p>vidhrtah svena tejasa</p>
+<p><strong>SYNONYMS</strong></p>
+<p>devah—the demigods; vaidhrtayah—the Vaidhrtis; nama—by the name; vidhrteh—of Vidhrti; tanayah—who were the sons; nrpa—O King; nastah—were lost; kalena—by the influence of time; yaih—by whom; vedah—the Vedas; vidhrtah—were protected; svena—by their own; tejasa—power.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King, in the Tamasa manvantara the sons of Vidhrti, who were known as the Vaidhrtis, also became demigods.</p>
+<p>Since in course of time the Vedic authority was lost, these demigods, by their own powers, protected the Vedic authority.</p>
+<p><strong>PURPORT</strong></p>
+<p>In the Tamasa manvantara there were two kinds of demigods, and one of them was known as the Vaidhrtis.</p>
+<p>The duty of the demigods is to protect the authority of the Vedas.</p>
+<p>The word devata refers to one who carries the authority of the Vedas, whereas Raksasas are those who defy the Vedic authority.</p>
+<p>If the authority of the Vedas is lost, the entire universe becomes chaotic.</p>
+<p>Therefore, it is the duty of the demigods, as well as kings and aides of governments, to give full protection to the Vedic authority; otherwise human society will be in a chaotic condition in which there cannot be peace or prosperity.</p>
+
+
+
+<p><strong>8.1.30</strong></p>
+<p>tatrapi jajne bhagavan</p>
+<p>harinyam harimedhasah</p>
+<p>harir ity ahrto yena</p>
+<p>gajendro mocito grahat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatrapi—in that period; jajne—appeared; bhagavan—the Supreme Personality of Godhead; harinyam—in the womb of Harini; harimedhasah—begotten by Harimedha; harih—Hari; iti—thus; ahrtah—called; yena—by whom; gaja-indrah—the King of the elephants; mocitah—was freed; grahat—from the mouth of a crocodile.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Also in this manvantara, the Supreme Lord, Visnu, took birth from the womb of Harini, the wife of Harimedha, and He was known as Hari.</p>
+<p>Hari saved His devotee Gajendra, the King of the elephants, from the mouth of a crocodile.</p>
+
+
+
+<p><strong>8.1.31</strong></p>
+<p>sri-rajovaca</p>
+<p>badarayana etat te</p>
+<p>srotum icchamahe vayam</p>
+<p>harir yatha gaja-patim</p>
+<p>graha-grastam amumucat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-raja uvaca—King Pariksit said; badarayane—O son of Badarayana (Vyasadeva); etat—this; te—from you; srotum icchamahe—desire to hear; vayam—we; harih—the Lord Hari; yatha—the manner in which; gaja-patim—the King of the elephants; graha-grastam—when attacked by the crocodile; amumucat—delivered.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>King Pariksit said: My lord, Badarayani, we wish to hear from you in detail how the King of the elephants, when attacked by a crocodile, was delivered by Hari.</p>
+
+
+
+<p><strong>8.1.32</strong></p>
+<p>tat-kathasu mahat punyam</p>
+<p>dhanyam svastyayanam subham</p>
+<p>yatra yatrottamasloko</p>
+<p>bhagavan giyate harih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tat-kathasu—in those narrations; mahat—great; punyam—pious; dhanyam—glorious; svastyayanam—auspicious; subham—all good; yatra—whenever; yatra—wherever; uttamaslokah—the Lord, who is known as Uttamasloka (He who is described by transcendental literature); bhagavan—the Supreme Personality of Godhead; giyate—is glorified; harih—the Supreme Personality of Godhead.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Any literature or narration in which the Supreme Personality of Godhead, Uttamasloka, is described and glorified is certainly great, pure, glorious, auspicious and all good.</p>
+<p><strong>PURPORT</strong></p>
+<p>The Krsna consciousness movement is spreading all over the world simply by describing Krsna.</p>
+<p>We have published many books, including Sri Caitanya-caritamrta in seventeen volumes, four hundred pages each, as well as Bhagavad-gita and The Nectar of Devotion.</p>
+<p>We are also publishing Srimad-Bhagavatam in sixty volumes.</p>
+<p>Wherever a speaker holds discourses from these books and an audience hears him, this will create a good and auspicious situation.</p>
+<p>Therefore the preaching of Krsna consciousness must be done very carefully by the members of the Krsna consciousness movement, especially the sannyasis.</p>
+<p>This will create an auspicious atmosphere.</p>
+
+
+
+<p><strong>8.1.33</strong></p>
+<p>sri-suta uvaca</p>
+<p>pariksitaivam sa tu badarayanih</p>
+<p>prayopavistena kathasu coditah</p>
+<p>uvaca viprah pratinandya parthivam</p>
+<p>muda muninam sadasi sma srnvatam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-sutah uvaca—Sri Suta Gosvami said; pariksita—by Maharaja Pariksit; evam—thus; sah—he; tu—indeed; badarayanih—Sukadeva Gosvami; praya-upavistena—Pariksit Maharaja, who was awaiting impending death; kathasu—by the words; coditah—being encouraged; uvaca—spoke; viprah—O brahmanas; pratinandya—after congratulating; parthivam—Maharaja Pariksit; muda—with great pleasure; muninam—of great sages; sadasi—in the assembly; sma—indeed; srnvatam—who desired to hear.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sri Suta Gosvami said: O brahmanas, when Pariksit Maharaja, who was awaiting impending death, thus requested Sukadeva Gosvami to speak, Sukadeva Gosvami, encouraged by the King’s words, offered respect to the King and spoke with great pleasure in the assembly of sages, who desired to hear him.</p>
+
+
+</article></body></html>

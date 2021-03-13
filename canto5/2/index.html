@@ -1,155 +1,42 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>The Activities of Maharaja Agnidhra - The Activities of Maharaja Agnidhra</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">The Activities of Maharaja Agnidhra</a></li><li class="affix"><a href="5.2.2.html">5.2.2</a></li><li class="affix"><a href="5.2.3.html">5.2.3</a></li><li class="affix"><a href="5.2.4.html">5.2.4</a></li><li class="affix"><a href="5.2.5.html">5.2.5</a></li><li class="affix"><a href="5.2.6.html">5.2.6</a></li><li class="affix"><a href="5.2.7.html">5.2.7</a></li><li class="affix"><a href="5.2.8.html">5.2.8</a></li><li class="affix"><a href="5.2.9.html">5.2.9</a></li><li class="affix"><a href="5.2.10.html">5.2.10</a></li><li class="affix"><a href="5.2.11.html">5.2.11</a></li><li class="affix"><a href="5.2.12.html">5.2.12</a></li><li class="affix"><a href="5.2.13.html">5.2.13</a></li><li class="affix"><a href="5.2.14.html">5.2.14</a></li><li class="affix"><a href="5.2.15.html">5.2.15</a></li><li class="affix"><a href="5.2.16.html">5.2.16</a></li><li class="affix"><a href="5.2.17.html">5.2.17</a></li><li class="affix"><a href="5.2.18.html">5.2.18</a></li><li class="affix"><a href="5.2.19.html">5.2.19</a></li><li class="affix"><a href="5.2.20.html">5.2.20</a></li><li class="affix"><a href="5.2.21.html">5.2.21</a></li><li class="affix"><a href="5.2.22.html">5.2.22</a></li><li class="affix"><a href="5.2.23.html">5.2.23</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">The Activities of Maharaja Agnidhra</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#the-activities-of-maharaja-agnidhra" id="the-activities-of-maharaja-agnidhra">The Activities of Maharaja Agnidhra</a></h1>
-<h2><a class="header" href="#summary" id="summary">Summary</a></h2>
-<h3><a class="header" href="#52" id="52">5.2</a></h3>
+<h1>The Activities of Maharaja Agnidhra</h1>
+<h2>Summary</h2>
+<p><strong>5.2</strong></p>
 <p>In this chapter, the character of Maharaja Agnidhra is described.</p>
 <p>When Maharaja Priyavrata went off for spiritual realization, his son Agnidhra became the ruler of Jambudvipa, in accordance with Maharaja Priyavrata’s instructions, and maintained its residents with the same affection a father feels for his sons.</p>
 <p>Once Maharaja Agnidhra desired to have a son, and therefore he entered a cave of Mandara Mountain to practice austerity.</p>
@@ -163,7 +50,7 @@
 <p>He gave them nine islands with names corresponding to theirs.</p>
 <p>Agnidhra, however, his senses unsatisfied, was always thinking of his celestial wife, and therefore in his next life he was born in her celestial planet.</p>
 <p>After the death of Agnidhra, his nine sons married nine daughters of Meru named Merudevi, Pratirupa, Ugradamstri, Lata, Ramya, Syama, Nari, Bhadra and Devaviti.</p>
-<h3><a class="header" href="#521" id="521">5.2.1</a></h3>
+<p><strong>5.2.1</strong></p>
 <p>sri-suka uvaca</p>
 <p>evam pitari sampravrtte tad-anusasane vartamana agnidhro jambudvipaukasah praja aurasavad dharmaveksamanah paryagopayat.</p>
 <p><strong>SYNONYMS</strong></p>
@@ -199,63 +86,483 @@
 <p>The Krsna consciousness movement is the only hope to save the world from such devastation.</p>
 <p>It is the most scientific and authorized movement for the actual welfare of the whole human society.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="5.2.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>5.2.2</strong></p>
+<p>sa ca kadacit pitrloka-kamah sura-vara-vanitakridacala-dronyam bhagavantam visva-srjam patim abhrta-paricaryopakarana atmaikagryena tapasvy aradhayam babhuva.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—he (King Agnidhra); ca—also; kadacit—once upon a time; pitrloka—the Pitrloka planet; kamah—desiring; sura-vara—of the great demigods; vanita—the women; akrida—the place of pastimes; acala-dronyam—in one valley of the Mandara Hill; bhagavantam—unto the most powerful (Lord Brahma); visva-srjam—of personalities who have created this universe; patim—the master; abhrta—having collected; paricarya-upakaranah—ingredients for worship; atma—of the mind; eka-agryena—with full attention; tapasvi—one who executes austerity; aradhayam babhuva—became engaged in worshiping.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Desiring to get a perfect son and become an inhabitant of Pitrloka, Maharaja Agnidhra once worshiped Lord Brahma, the master of those in charge of material creation.</p>
+<p>He went to a valley of Mandara Hill, where the damsels of the heavenly planets come down to stroll.</p>
+<p>There he collected garden flowers and other necessary paraphernalia and then engaged in severe austerities and worship.</p>
+<p><strong>PURPORT</strong></p>
+<p>The King became pitrloka-kama, or desirous of being transferred to the planet named Pitrloka.</p>
+<p>Pitrloka is mentioned in Bhagavad-gita (yanti deva-vrata devan pitrn yanti pitr-vratah (Bg.9.25)).</p>
+<p>To go to this planet, one needs very good sons who can make offerings to Lord Visnu and then offer the remnants to their forefathers.</p>
+<p>The purpose of the sraddha ceremony is to please the Supreme Personality of Godhead, Lord Visnu, so that after pleasing Him one may offer prasada to one’s forefathers and in this way make them happy.</p>
+<p>The inhabitants of Pitrloka are generally men of the karma-kandiya, or fruitive activities category, who have been transferred there because of their pious activities.</p>
+<p>They can stay there as long as their descendants offer them visnu-prasada.</p>
+<p>Everyone in heavenly planets such as Pitrloka, however, must return to earth after exhausting the effects of his pious acts.</p>
+<p>As confirmed in Bhagavad-gita (9.21), ksine punye martya-lokam visanti: persons who perform pious acts are transferred to higher planets, but when the effects of their pious acts are over, they are again transferred to earth.</p>
+<p>Since Maharaja Priyavrata was a great devotee, how could he have begotten a son who desired to be transferred to Pitrloka? Lord Krsna says, pitrn yanti pitr-vratah: persons who desire to go to Pitrloka are transferred there.</p>
+<p>Similarly, yanti mad-yajino ’pi mam: persons who desire to be transferred to the spiritual planets, Vaikunthalokas, can also go there.</p>
+<p>Since Maharaja Agnidhra was the son of a Vaisnava, he should have desired to be transferred to the spiritual world, Vaikunthaloka.</p>
+<p>Why, then, did he desire to be transferred to Pitrloka? In answer to this, Gosvami Giridhara, one of the Bhagavatam commentators, remarks that Agnidhra was born when Maharaja Priyavrata was infatuated by lusty desires.</p>
+<p>This may be accepted as a fact because sons are begotten with different mentalities according to the time of their conception.</p>
+<p>According to the Vedic system, therefore, before a child is conceived, the garbhadhana-samskara is performed.</p>
+<p>This ceremony molds the mentality of the father in such a way that when he plants his seed in the womb of his wife, he will beget a child whose mind will be completely saturated with a devotional attitude.</p>
+<p>At the present moment, however, there are no such garbhadhana-samskaras, and therefore people generally have a lusty attitude when they beget children.</p>
+<p>Especially in this age of Kali, there are no garbhadhana ceremonies; everyone enjoys sex with his wife like a cat or dog.</p>
+<p>Therefore according to sastric injunctions, almost all the people of this age belong to the sudra category.</p>
+<p>Of course, although Maharaja Agnidhra had a desire to be transferred to Pitrloka, this does not mean that his mentality was that of a sudra; he was a ksatriya.</p>
+<p>Maharaja Agnidhra desired to be transferred to Pitrloka, and therefore he needed a wife because anyone desiring to be transferred to Pitrloka must leave behind a good son to offer yearly pinda, or prasada from Lord Visnu.</p>
+<p>To have a good son, Maharaja Agnidhra wanted a wife from a family of demigods.</p>
+<p>Therefore he went to Mandara Hill where the women of the demigods generally come, to worship Lord Brahma.</p>
+<p>In Bhagavad-gita (4.12) it is said, kanksantah karmanam siddhim yajanta iha devatah: materialists who want quick results in the material world worship demigods.</p>
+<p>This is also confirmed in Srimad-Bhagavatam.</p>
+<p>Sri-aisvarya-prajepsavah: those who desire beautiful wives, substantial wealth and many sons worship the demigods, but an intelligent devotee, instead of being entangled by the happiness of this material world in the form of a beautiful wife, material opulence and children, desires to be immediately transferred back home, back to Godhead.</p>
+<p>Thus he worships the Supreme Personality of Godhead, Visnu.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="5.2.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>5.2.3</strong></p>
+<p>tad upalabhya bhagavan adi-purusah sadasi gayantim purvacittim namapsarasam abhiyapayam asa.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tat—that; upalabhya—understanding; bhagavan—the most powerful; adi-purusah—the first created being within this universe; sadasi—in his assembly; gayantim—dancing girl; purvacittim—Purvacitti; nama—named; apsarasam—the heavenly dancing girl; abhiyapayam asa—sent down.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Understanding King Agnidhra’s desire, the first and most powerful created being of this universe, Lord Brahma, selected the best of the dancing girls in his assembly, whose name was Purvacitti, and sent her to the King.</p>
+<p><strong>PURPORT</strong></p>
+<p>In this verse, the words bhagavan adi-purusah are significant.Bhagavan adi-purusah is Lord Krsna.</p>
+<p>Govindam adi-purusam tam aham bhajami .</p>
+<p>Lord Krsna is the original person.</p>
+<p>In Bhagavad-gita, He is also addressed by Arjuna as purusam adyam, the original person, and He is called Bhagavan.</p>
+<p>In this verse, however, we see that Lord Brahma is described as bhagavan adi-purusah.</p>
+<p>The reason he is called bhagavan is that he fully represents the Supreme Personality of Godhead and is the first-born creature in this universe.</p>
+<p>Lord Brahma could understand Maharaja Agnidhra’s desire because he is as powerful as Lord Visnu.</p>
+<p>As Lord Visnu, situated as Paramatma, can understand the desire of the living entity, so Lord Brahma can also understand the living entity’s desire, for Visnu, as a via medium, informs him.</p>
+<p>Srimad-Bhagavatam (1.1.1), tene brahma hrda ya adi-kavaye: Lord Visnu informs Lord Brahma of everything from within his heart.</p>
+<p>Because Maharaja Agnidhra specifically worshiped Lord Brahma, Lord Brahma was pleased, and he sent Purvacitti, the Apsara, to satisfy him.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>5.2.4</strong></p>
+<p>sa ca tad-asramopavanam ati-ramaniyam vividha-nibida-vitapi-vitapa-nikara-samslista-purata-latarudha-sthala-vihangama-mithunaih procyamana-srutibhih pratibodhyamana-salila-kukkuta-karandava-kalahamsadibhir vicitram upakujitamala-jalasaya-kamalakaram upababhrama.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sa—she (Purvacitti); ca—also; tat—of Maharaja Agnidhra; asrama—of the place of meditation; upavanam—the park; ati—very; ramaniyam—beautiful; vividha—varieties of; nibida—dense; vitapi—trees; vitapa—of branches and twigs; nikara—masses; samslista—attached; purata—golden; lata—with creepers; arudha—going high; sthala-vihangama—of land birds; mithunaih—with pairs; procyamana—vibrating; srutibhih—pleasing sounds; pratibodhyamana—responding; salila-kukkuta—water fowl; karandava—ducks; kala-hamsa—with various kinds of swans; adibhih—and so on; vicitram—variegated; upakujita—resounding with the vibration; amala—clear; jala-asaya—in the lake; kamala-akaram—the source of lotus flowers; upababhrama—began to walk in.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Apsara sent by Lord Brahma began strolling in a beautiful park near the place where the King was meditating and worshiping.</p>
+<p>The park was beautiful because of its dense green foliage and golden creepers.</p>
+<p>There were pairs of varied birds such as peacocks, and in a lake there were ducks and swans, all vibrating very sweet sounds.</p>
+<p>Thus the park was magnificently beautiful because of the foliage, the clear water, the lotus flowers and the sweet singing of various kinds of birds.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>5.2.5</strong></p>
+<p>tasyah sulalita-gamana-pada-vinyasa-gati-vilasayas canupadam khana-khanayamana-rucira-caranabharana-svanam upakarnya naradeva-kumarah samadhi-yogenamilita-nayana-nalina-mukula-yugalam isad vikacayya vyacasta.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasyah—of her (Purvacitti); sulalita—in a very beautiful; gamana—movements; pada-vinyasa—with styles of walking; gati—in the progression; vilasayah—whose pastime; ca—also; anupadam—with every step; khana-khanayamana—making a tinkling sound; rucira—very pleasing; carana-abharana—of the ornaments on the feet; svanam—the sound; upakarnya—hearing; naradeva-kumarah—the Prince; samadhi—in ecstasy; yogena—by controlling the senses; amilita—half-open; nayana—eyes; nalina—of lotus; mukula—buds; yugalam—like a pair; isat—slightly; vikacayya—opening; vyacasta—saw.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>As Purvacitti passed by on the road in a very beautiful style and mood of her own, the pleasing ornaments on her ankles tinkled with her every step.</p>
+<p>Although Prince Agnidhra was controlling his senses, practicing yoga with half-open eyes, he could see her with his lotuslike eyes, and when he heard the sweet tinkling of her bangles, he opened his eyes slightly more and could see that she was just nearby.</p>
+<p><strong>PURPORT</strong></p>
+<p>It is said that yogis always think of the Supreme Personality of Godhead within their hearts.</p>
+<p>Dhyanavasthita-tad-gatena manasa pasyanti yam yoginah (Bhag.12.13.1).</p>
+<p>The Supreme Personality of Godhead is always observed by yogis who practice controlling the venomous senses.</p>
+<p>As recommended in Bhagavad-gita, yogis should practice sampreksya nasikagram, keeping their eyes half-open.</p>
+<p>If the eyes are closed completely, there will be a tendency to sleep.</p>
+<p>So-called yogis sometimes practice a fashionable form of yoga by closing their eyes and meditating, but we have actually seen such so-called yogis sleeping and snoring while meditating.</p>
+<p>This is not the practice of yoga.</p>
+<p>To actually practice yoga, one should keep his eyes half-open and gaze at the tip of his nose.</p>
+<p>Although Agnidhra, the son of Priyavrata, was practicing mystic yoga and trying to control his senses, the tinkling sound of Purvacitti’s ankle bells disturbed his practice.</p>
+<p>Yoga indriya-samyamah: actual yoga practice means controlling the senses.</p>
+<p>One must practice mystic yoga, to control the senses, but the sense control of a devotee who fully engages in the service of the Lord with his purified senses (hrsikena hrsikesa-sevanam (Cc.Madhya 19.170)) can never be disturbed.</p>
+<p>Srila Prabodhananda Sarasvati therefore stated, durdantendriya-kala-sarpa-patali protkhata-damstra-yate (Caitanya-candramrta5).</p>
+<p>The practice of yoga is undoubtedly good because it controls the senses, which are like venomous serpents.</p>
+<p>When one engages in devotional service, however, completely employing all the activities of the senses in the service of the Lord, the venomous quality of the senses is completely nullified.</p>
+<p>It is explained that a serpent is to be feared because of its poison fangs, but if those fangs are broken the serpent, although it seems fearsome, is not at all dangerous.</p>
+<p>Devotees, therefore, may see hundreds and thousands of beautiful women with fascinating bodily movements and gestures but not be allured, whereas such women would make ordinary yogis fall.</p>
+<p>Even the advanced yogi Visvamitra broke his mystic practice to unite with Menaka and beget a child known as Sakuntala.</p>
+<p>The practice of mystic yoga, therefore, is not sufficiently strong to control the senses.</p>
+<p>Another example is Prince Agnidhra, whose attention was drawn to the movements of Purvacitti, the Apsara, simply because he heard the tinkling of her ankle bells.</p>
+<p>In the same way that Visvamitra Muni was attracted by the tinkling bangles of Menaka, Prince Agnidhra, upon hearing the tinkling bangles of Purvacitti, immediately opened his eyes to see her beautiful movements as she walked.</p>
+<p>The prince was also very handsome.</p>
+<p>As described herein, his eyes were just like the buds of lotus flowers.</p>
+<p>As he opened his lotuslike eyes, he could immediately see that the Apsara was present by his side.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>5.2.6</strong></p>
+<p>tam evavidure madhukarim iva sumanasa upajighrantim divija-manuja-mano-nayanahlada-dughair gati-vihara-vrida-vinayavaloka-susvaraksaravayavair manasi nrnam kusumayudhasya vidadhatim vivaram nija-mukha-vigalitamrtasava-sahasa-bhasanamoda-madandha-madhukara-nikaroparodhena druta-pada-vinyasena valgu-spandana-stana-kalasa-kabara-bhara-rasanam devim tad-avalokanena vivrtavasarasya bhagavato makara-dhvajasya vasam upanito jadavad iti hovaca.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tam—to her; eva—indeed; avidure—nearby; madhukarim iva—like a honeybee; sumanasah—beautiful flowers; upajighrantim—smelling; divi-ja—of those born in the heavenly planets; manu-ja—of those born in human society; manah—mind; nayana—for the eyes; ahlada—pleasure; dughaih—producing; gati—by her movement; vihara—by pastimes; vrida—by shyness; vinaya—by humility; avaloka—by glancing; su-svara-aksara—by her sweet voice; avayavaih—and by the limbs of the body; manasi—in the mind; nrnam—of men; kusuma-ayudhasya—of Cupid, who has a flower arrow in his hand; vidadhatim—making; vivaram—aural reception; nija-mukha—from her own mouth; vigalita—pouring out; amrta-asava—nectar like honey; sa-hasa—in her smiling; bhasana—and talking; amoda—by the pleasure; mada-andha—blinded by intoxication; madhukara—of bees; nikara—by groups; uparodhena—because of being surrounded; druta—hasty; pada—of feet; vinyasena—by stylish stepping; valgu—a little; spandana—moving; stana—breasts; kalasa—like waterpots; kabara—of her braids of hair; bhara—weight; rasanam—the belt upon the hips; devim—the goddess; tat-avalokanena—simply by seeing her; vivrta-avasarasya—taking the opportunity of; bhagavatah—of the greatly powerful; makara-dhvajasya—of Cupid; vasam—under the control; upanitah—being brought in; jada-vat—as if stunned; iti—thus; ha—certainly; uvaca—he said.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Like a honeybee, the Apsara smelled the beautiful and attractive flowers.</p>
+<p>She could attract the minds and vision of both humans and demigods by her playful movements, her shyness and humility, her glances, the very pleasing sounds that poured from her mouth as she spoke, and the motion of her limbs.</p>
+<p>By all these qualities, she opened for Cupid, who bears an arrow of flowers, a path of aural reception into the minds of men.</p>
+<p>When she spoke, nectar seemed to flow from her mouth.</p>
+<p>As she breathed, the bees, mad for the taste of her breath, tried to hover about her beautiful lotuslike eyes.</p>
+<p>Disturbed by the bees, she tried to move hastily, but as she raised her feet to walk quickly, her hair, the belt on her hips, and her breasts, which were like water jugs, also moved in a way that made her extremely beautiful and attractive.</p>
+<p>Indeed, she seemed to be making a path for the entrance of Cupid, who is most powerful.</p>
+<p>Therefore the prince, completely subdued by seeing her, spoke to her as follows.</p>
+<p><strong>PURPORT</strong></p>
+<p>How a beautiful woman’s movements and gestures, her hair and the structure of her breasts, hips and other bodily features attract the minds not only of men but of demigods also is very finely described in this statement.</p>
+<p>The words divija and manuja specifically emphasize that the attraction of feminine gestures is powerful everywhere within this material world, both on this planet and in the higher planetary systems.</p>
+<p>It is said that the standard of living in the higher planetary systems is thousands and thousands of times higher than the standard of living on this planet.</p>
+<p>Therefore the beautiful bodily features of the women there are also thousands and thousands of times more attractive than the features of the women on earth.</p>
+<p>The creator has constructed women in such a way that their beautiful voices and movements and the beautiful features of their hips, their breasts, and the other parts of their bodies attract the members of the opposite sex, both on earth and on other planets, and awaken their lusty desires.</p>
+<p>When one is controlled by Cupid or the beauty of women, he becomes stunned like matter such as stone.</p>
+<p>Captivated by the material movements of women, he wants to remain in this material world.</p>
+<p>Thus one’s promotion to the spiritual world is checked simply by seeing the beautiful bodily structure and movements of women.</p>
+<p>Sri Caitanya Mahaprabhu has therefore warned all devotees to beware of the attraction of beautiful women and materialistic civilization.</p>
+<p>Sri Caitanya Mahaprabhu even refused to see Prataparudra Maharaja because he was a very opulent person in the material world.</p>
+<p>Lord Caitanya said in this connection, niskincanasya bhagavad-bhajanonmukhasya: those who are engaged in the devotional service of the Lord because they are very serious about going back home, back to Godhead, should be very careful to avoid seeing the beautiful gestures of women and should also avoid seeing persons who are very rich niskincanasya bhagavad-bhajanonmukhasya</p>
+<p>param param jigamisor bhava-sagarasya</p>
+<p>sandarsanam visayinam atha yositam ca</p>
+<p>ha hanta hanta visa-bhaksanato ’py asadhu</p>
+<p>Alas, for a person who is seriously desiring to cross the material ocean and engage in the transcendental loving service of the Lord without material motives, seeing a materialist engaged in sense gratification or seeing a woman who is similarly interested is more abominable than drinking poison willingly (Caitanya-caritamrta, Madhya 11.8) One who is serious about going back home, back to Godhead, should not contemplate the attractive features of women and the opulence of rich men.</p>
+<p>Such contemplation will check one’s advancement in spiritual life.</p>
+<p>Once a devotee is fixed in Krsna consciousness, however, these attractions will not agitate his mind.</p>
+
+
+
+<p><strong>5.2.7</strong></p>
+<p>ka tvam cikirsasi ca kim muni-varya saile</p>
+<p>mayasi kapi bhagavat-para-devatayah</p>
+<p>vijye bibharsi dhanusi suhrd-atmano ’rthe</p>
+<p>kim va mrgan mrgayase vipine pramattan</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ka—who; tvam—are you; cikirsasi—are you trying to do; ca—also; kim—what; muni-varya—O best of munis; saile—on this hill; maya—illusory potency; asi—are you; kapi—some; bhagavat—the Supreme Personality of Godhead; para-devatayah—of the transcendental Lord; vijye—without strings; bibharsi—you are carrying; dhanusi—two bows; suhrt—of a friend; atmanah—of yourself; arthe—for the sake; kim va—or; mrgan—forest animals; mrgayase—are you trying to hunt; vipine—in this forest; pramattan—who are materially maddened.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Prince mistakenly addressed the Apsara: O best of saintly persons, who are you? Why are you on this hill, and what do you want to do? Are you one of the illusory potencies of the Supreme Personality of Godhead? You seem to be carrying two bows without strings, What is the reason you carry these bows? Is it for some purpose of your own or for the sake of a friend? Perhaps you carry them to kill the mad animals in this forest.</p>
+<p><strong>PURPORT</strong></p>
+<p>While undergoing severe penances in the forest, Agnidhra was captivated by the movements of Purvacitti, the girl sent by Lord Brahma.</p>
+<p>As stated in Bhagavad-gita, kamais tais tair hrta jnanah: (Bg.7.20) when one becomes lusty, he loses his intelligence.</p>
+<p>Therefore Agnidhra, having lost his intelligence, could not distinguish whether Purvacitti was male or female.</p>
+<p>He mistook her for a muni-putra, the son of a saintly person in the forest, and addressed her as muni-varya.</p>
+<p>Because of her personal beauty, however, he could not believe her to be a boy.</p>
+<p>He therefore began studying her features.</p>
+<p>First he saw her two eyebrows, which were so expressive that he wondered whether he or she might be the maya of the Supreme Personality of Godhead.</p>
+<p>The words used in this connection are bhagavat-para-devatayah.</p>
+<p>Devatah, the demigods, all belong to this material world, whereas Bhagavan, the Supreme Personality of Godhead, Krsna, is always beyond this material world and is therefore known as para-devata.</p>
+<p>The material world is certainly created by maya, but it is created under the direction of para-devata, the Supreme Personality of Godhead.</p>
+<p>As confirmed in Bhagavad-gita (mayadhyaksena prakrtih suyate sa-caracaram (Bg.9.10)), maya is not the ultimate authority for the creation of this material world.</p>
+<p>Maya acts on behalf of Krsna.</p>
+<p>Purvacitti’s eyebrows were so beautiful that Agnidhra compared them to bows without strings.</p>
+<p>He therefore asked her whether they were to be used for her own purposes or for the sake of someone else.</p>
+<p>Her eyebrows were like bows meant to kill animals in the forest.</p>
+<p>This material world is like a great forest, and its inhabitants are like forest animals such as deer and tigers meant to be killed.</p>
+<p>The killers are the eyebrows of beautiful women.</p>
+<p>Captivated by the beauty of the fair sex, all the men of the world are killed by bows without strings, but cannot see how they are killed by maya.</p>
+<p>It is a fact, however, that they are being killed (bhutva bhutva praliyate).</p>
+<p>By dint of his tapasya, Agnidhra could understand how maya acts under the direction of the Supreme Personality of Godhead.</p>
+<p>The word pramattan is also significant pramatta refers to one who cannot control his senses.</p>
+<p>The entire material world is being exploited by people who are pramatta, or vimudha.</p>
+<p>Prahlada Maharaja therefore said:</p>
+<p>soce tato vimukha-cetasa indriyartha-</p>
+<p>maya-sukhaya bharam udvahato vimudhan</p>
+<p>They are rotting in material activities for transient material pleasure and spoiling their lives toiling all day and night simply for sense gratification, with no attachment for love of Godhead.</p>
+<p>I am simply lamenting for them and devising various plans to deliver them from the clutches of maya (Bhag.7.9.43) Karmis who act very seriously for sense gratification are always referred to in the sastras by such terms as pramatta, vimukha and vimudha.</p>
+<p>They are killed by maya.</p>
+<p>However, one who is apramatta, a sane, sober person, a dhira, knows very well that a human being’s primary duty is to render service to the Supreme Person.</p>
+<p>Maya is always ready to kill those who are pramatta with her invisible bows and arrows.</p>
+<p>Agnidhra questioned Purvacitti about this.</p>
+
+
+
+<p><strong>5.2.8</strong></p>
+<p>banav imau bhagavatah sata-patra-patrau</p>
+<p>santav apunkha-rucirav ati-tigma-dantau</p>
+<p>kasmai yuyunksasi vane vicaran na vidmah</p>
+<p>ksemaya no jada-dhiyam tava vikramo ’stu</p>
+<p><strong>SYNONYMS</strong></p>
+<p>banau—two arrows; imau—these; bhagavatah—of you, the most powerful; sata-patra-patrau—having feathers like the petals of a lotus flower; santau—peaceful; apunkha—without a shaft; rucirau—very beautiful; ati-tigma-dantau—having a very sharp point; kasmai—whom; yuyunksasi—you want to pierce; vane—in the forest; vicaran—loitering; na vidmah—we cannot understand; ksemaya—for welfare; nah—of us; jada-dhiyam—who are dull-headed; tava—your; vikramah—prowess; astu—may be.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Then Agnidhra observed the glancing eyes of Purvacitti and said: My dear friend, you have two very powerful arrows, namely your glancing eyes.</p>
+<p>Those arrows have feathers like the petals of a lotus flower.</p>
+<p>Although they have no shafts, they are very beautiful, and they have very sharp, piercing points.</p>
+<p>They appear very peaceful, and thus it seems that they will not be shot at anyone.</p>
+<p>You must be loitering in this forest to shoot those arrows at someone, but I cannot understand whom.</p>
+<p>My intelligence is dull, and I cannot combat you.</p>
+<p>Indeed, no one can equal you in prowess, and therefore I pray that your prowess will be for my good fortune.</p>
+<p><strong>PURPORT</strong></p>
+<p>Agnidhra thus began appreciating Purvacitti’s powerful glance upon him.</p>
+<p>He compared her glancing eyes to very sharp arrows.</p>
+<p>Although her eyes were as beautiful as lotuses, they were simultaneously like shaftless arrows, and Agnidhra was therefore afraid of them.</p>
+<p>He hoped that her glances upon him would be favorable because he was already captivated, and the more captivated he became, the more impossible it would be for him to remain without her.</p>
+<p>Agnidhra therefore prayed to Purvacitti that her glances at him would be auspicious, not futile.</p>
+<p>In other words, he prayed that she would become his wife.</p>
+
+
+
+<p><strong>5.2.9</strong></p>
+<p>sisya ime bhagavatah paritah pathanti</p>
+<p>gayanti sama sarahasyam ajasram isam</p>
+<p>yusmac-chikha-vilulitah sumano ’bhivrstih</p>
+<p>sarve bhajanty rsi-gana iva veda-sakhah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sisyah—disciples, followers; ime—these; bhagavatah—of your worshipable self; paritah—surrounding; pathanti—are reciting; gayanti—are singing; sama—the Sama Veda; sa-rahasyam—with the confidential portion; ajasram—incessantly; isam—unto the Lord; yusmat—your; sikha—from bunches of hair; vilulitah—fallen; sumanah—of flowers; abhivrstih—showers; sarve—all; bhajanti—enjoy, resort to; rsi-ganah—sages; iva—like; veda-sakhah—branches of Vedic literature.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Seeing the bumblebees following Purvacitti, Maharaja Agnidhra said: My dear Lord, the bumblebees surrounding your body are like disciples surrounding your worshipable self.</p>
+<p>They are incessantly chanting the mantras of the Sama Veda and the Upanisads, thus offering prayers to you.</p>
+<p>Just as great sages resort to the branches of Vedic literatures, the bumblebees are enjoying the showers of flowers falling from your hair.</p>
+
+
+
+<p><strong>5.2.10</strong></p>
+<p>vacam param carana-panjara-tittirinam</p>
+<p>brahmann arupa-mukharam srnavama tubhyam</p>
+<p>labdha kadamba-rucir anka-vitanka-bimbe</p>
+<p>yasyam alata-paridhih kva ca valkalam te</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vacam—the resounding vibration; param—only; carana-panjara—of the ankle bells; tittirinam—of the tittiri birds; brahman—O brahmana; arupa—without form; mukharam—able to be very distinctly heard; srnavama—I hear; tubhyam—your; labdha—gotten; kadamba—like the kadamba flower; rucih—lovely color; anka-vitanka-bimbe—on the beautiful circular hips; yasyam—on which; alata-paridhih—encirclement of burning cinders; kva—where; ca—also; valkalam—covering cloth; te—your.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O brahmana, I can simply hear the tinkling of your ankle bells.</p>
+<p>Within those bells, tittiri birds seem to be chirping among themselves.</p>
+<p>Although I do not see their forms, I can hear how they are chirping.</p>
+<p>When I look at your beautiful circular hips, I see they are the lovely color of kadamba flowers, and your waist is encircled by a belt of burning cinders.</p>
+<p>Indeed, you seem to have forgotten to dress yourself.</p>
+<p><strong>PURPORT</strong></p>
+<p>With lusty desires to see Purvacitti, Agnidhra especially gazed upon the girl’s attractive hips and waist.</p>
+<p>When a man looks upon a woman with such lusty desires, he is captivated by her face, her breasts and her waist, for a woman first attracts a man to fulfill his sexual desires by the beautiful features of her face, by the beautiful slope of her breasts and also by her waist.</p>
+<p>Purvacitti was dressed in fine yellow silk, and therefore her hips looked like kadamba flowers.</p>
+<p>Because of her belt, her waist seemed to be encircled by burning cinders.</p>
+<p>She was fully dressed, but Agnidhra had become so lusty that he asked, Why have you come naked</p>
+
+
+
+<p><strong>5.2.11</strong></p>
+<p>kim sambhrtam rucirayor dvija srngayos te</p>
+<p>madhye krso vahasi yatra drsih srita me</p>
+<p>panko ’runah surabhir atma-visana idrg</p>
+<p>yenasramam subhaga me surabhi-karosi</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kim—what; sambhrtam—filled; rucirayoh—very beautiful; dvija—O brahmana; srngayoh—within two horns; te—your; madhye—in the middle; krsah—thin; vahasi—you are carrying; yatra—wherein; drsih—eyes; srita—attached; me—my; pankah—powder; arunah—red; surabhih—fragrant; atma-visane—on the two horns; idrk—such; yena—by which; asramam—place of residence; su-bhaga—O most fortunate one; me—my; surabhi-karosi—you are perfuming.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Agnidhra then praised Purvacitti’s raised breasts.</p>
+<p>He said: My dear brahmana your waist is very thin, yet with great difficulty you are carefully carrying two horns, to which my eyes have become attracted.</p>
+<p>What is filling those two beautiful horns? You seem to have spread fragrant red powder upon them, powder that is like the rising morning sun.</p>
+<p>O most fortunate one, I beg to inquire where you have gotten this fragrant powder that is perfuming my asrama, my place of residence.</p>
+<p><strong>PURPORT</strong></p>
+<p>Agnidhra appreciated Purvacitti’s raised breasts.</p>
+<p>After seeing the girl’s breasts, he became almost mad.</p>
+<p>Nevertheless, he could not recognize whether Purvacitti was a boy or a girl, for as a result of his austerity, he saw no distinction between the two.</p>
+<p>He therefore addressed her with the word dvija, O brahmana Yet why should a dvija, a brahmana boy, have horns on his chest? Because the boy’s waist was thin, Agnidhra thought, he was carrying the horns with great difficulty and therefore they must be filled with something very valuable.</p>
+<p>Otherwise why would he carry them? When a woman’s waist is thin and her breasts are full, she looks very attractive.</p>
+<p>Agnidhra, his eyes attracted, contemplated the heavy breasts on the girl’s thin body and imagined how her back must sustain them.</p>
+<p>Agnidhra imagined that her raised breasts were two horns she had covered with cloth so that others would not see the valuables within them.</p>
+<p>Agnidhra, however, was very anxious to see them.</p>
+<p>Therefore he requested, Please uncover them so that I can see what you are carrying.</p>
+<p>Rest assured that I shall not take it away.</p>
+<p>If you feel an inconvenience in removing the covering, I can help you; I myself can uncover them to see what valuable things those raised horns contain He was also surprised to see the red dust of perfumed kunkuma spread over her breasts.</p>
+<p>Nevertheless, still considering Purvacitti a boy, Agnidhra addressed her as subhaga, most fortunate muni.</p>
+<p>The boy must have been fortunate; otherwise how simply by standing there could he perfume Agnidhra’s entire asrama?</p>
+
+
+
+<p><strong>5.2.12</strong></p>
+<p>lokam pradarsaya suhrttama tavakam me</p>
+<p>yatratya ittham urasavayavav apurvau</p>
+<p>asmad-vidhasya mana-unnayanau bibharti</p>
+<p>bahv adbhutam sarasa-rasa-sudhadi vaktre</p>
+<p><strong>SYNONYMS</strong></p>
+<p>lokam—residential place; pradarsaya—please show; suhrt-tama—O best of friends; tavakam—your; me—unto me; yatratyah—a person born wherein; ittham—like this; urasa—by the chest; avayavau—two limbs (breasts); apurvau—wonderful; asmat-vidhasya—of a person like me; manah-unnayanau—very agitating to the mind; bibharti—sustains; bahu—many; adbhutam—wonderful; sarasa—sweet words; rasa—amorous gestures like smiling; sudha-adi—such as nectar; vaktre—in the mouth.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O best friend, will you kindly show me the place where you reside? I cannot imagine how the residents of that place have gotten such wonderful bodily features as your raised breasts, which agitate the mind and eyes of a person like me who sees them.</p>
+<p>Judging by the sweet speech and kind smiles of those residents, I think that their mouths must contain nectar.</p>
+<p><strong>PURPORT</strong></p>
+<p>Still bewildered, Agnidhra wanted to see the place from which the brahmana boy had come, where the men had such raised breasts.</p>
+<p>Such attractive features, he thought, must be due to the severe austerities performed there.</p>
+<p>Agnidhra addressed the girl as suhrttama, the best friend, so that she would not refuse to take him there.</p>
+<p>Not only was Agnidhra captivated by the girl’s raised breasts; he was also attracted by her sweet speech.</p>
+<p>Nectar seemed to emanate from her mouth, and therefore he was increasingly surprised.</p>
+
+
+
+<p><strong>5.2.13</strong></p>
+<p>ka vatma-vrttir adanad dhavir anga vati</p>
+<p>visnoh kalasy animisonmakarau ca karnau</p>
+<p>udvigna-mina-yugalam dvija-pankti-socir</p>
+<p>asanna-bhrnga-nikaram sara in mukham te</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ka—what; va—and; atma-vrttih—food for maintenance of the body; adanat—by the chewing (of betel); havih—pure sacrificial ingredients; anga—my dear friend; vati—emanate; visnoh—of Lord Visnu; kala—expansion of the body; asi—you are; animisa—without blinking; unmakarau—two brilliant sharks; ca—also; karnau—two ears; udvigna—restless; mina-yugalam—possessing two fish; dvija-pankti—of lines of teeth; socih—beauty; asanna—nearby; bhrnga-nikaram—possessing swarms of bumblebees; sarah it—like a lake; mukham—face; te—your.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear friend, what do you eat to maintain your body? Because you are chewing betel, a pleasing scent is emanating from your mouth.</p>
+<p>This proves that you always eat the remnants of food offered to Visnu.</p>
+<p>Indeed, you must also be an expansion of Lord Visnu’s body.</p>
+<p>Your face is as beautiful as a pleasing lake.</p>
+<p>Your jeweled earrings resemble two brilliant sharks with unblinking eyes like those of Visnu, and your own eyes resemble two restless fish.</p>
+<p>Simultaneously, therefore, two sharks and two restless fish are swimming in the lake of your face.</p>
+<p>Besides them, the white rows of your teeth seem like rows of very beautiful swans in the water, and your scattered hair resembles swarms of bumblebees following the beauty of your face.</p>
+<p><strong>PURPORT</strong></p>
+<p>The devotees of Lord Visnu are also His expansions.</p>
+<p>They are called vibhinnamsa.</p>
+<p>Lord Visnu is offered all kinds of sacrificial ingredients, and because devotees always eat prasada, the remnants of His food, the scent of sacrificial ingredients emanates not only from Visnu but also from the devotees who eat the remnants of His food or the food of His devotees.</p>
+<p>Agnidhra considered Purvacitti an expansion of Lord Visnu because of the pleasing scent of her body.</p>
+<p>Aside from that, because of her jeweled earrings, shaped like sharks, because of her scattered hair, resembling bumblebees mad after the scent of her body, and because of the white rows of her teeth, which resembled swans, Agnidhra compared Purvacitti’s face to a beautiful lake decorated with lotus flowers, fish, swans and bumblebees.</p>
+
+
+
+<p><strong>5.2.14</strong></p>
+<p>yo ’sau tvaya kara-saroja-hatah patango</p>
+<p>diksu bhraman bhramata ejayate ’ksini me</p>
+<p>muktam na te smarasi vakra-jata-varutham</p>
+<p>kasto ’nilo harati lampata esa nivim</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—which; asau—that; tvaya—by you; kara-saroja—with the lotus palm; hatah—struck; patangah—the ball; diksu—in all directions; bhraman—moving; bhramatah—restless; ejayate—disturbs; aksini—eyes; me—of me; muktam—scattered; na—not; te—your; smarasi—are you mindful of; vakra—curling; jata—of hair; varutham—bunches; kastah—giving trouble; anilah—wind; harati—takes away; lampatah—like a man attached to women; esah—this; nivim—lower garment.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My mind is already restless, and by playing with a ball, moving it all about with your lotuslike palm, you are also agitating my eyes.</p>
+<p>Your curling black hair is now scattered, but you are not attentive to arranging it.</p>
+<p>Are you not going to arrange it? Like a man attached to women, the most cunning wind is trying to take off your lower garment.</p>
+<p>Are you not mindful of it?</p>
+<p><strong>PURPORT</strong></p>
+<p>The girl Purvacitti was playing with a ball in her hand, and the ball seemed like nothing but another lotus flower captured by her lotuslike palm.</p>
+<p>Because of her movements, her hair was loose, and the belt holding her cloth was giving way, as if the cunning wind were trying to make her naked.</p>
+<p>Yet she paid no attention to arranging her hair or fixing her dress.</p>
+<p>As Agnidhra tried to see the girl’s naked beauty, his eyes were very agitated by her movements.</p>
+
+
+
+<p><strong>5.2.15</strong></p>
+<p>rupam tapodhana tapas caratam tapoghnam</p>
+<p>hy etat tu kena tapasa bhavatopalabdham</p>
+<p>cartum tapo ’rhasi maya saha mitra mahyam</p>
+<p>kim va prasidati sa vai bhava-bhavano me</p>
+<p><strong>SYNONYMS</strong></p>
+<p>rupam—beauty; tapah-dhana—O best of the sages performing austerity; tapah caratam—of persons engaged in executing austerities and penances; tapah-ghnam—which dismantles the austerities; hi—certainly; etat—this; tu—indeed; kena—by what; tapasa—austerity; bhavata—by you; upalabdham—achieved; cartum—to execute; tapah—austerity; arhasi—you ought; maya saha—with me; mitra—my dear friend; mahyam—unto me; kim va—or maybe; prasidati—is pleased; sah—he; vai—certainly; bhava-bhavanah—the creator of this universe; me—with me.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O best among those performing austerities, where did you get this wonderful beauty that dismantles the austerities performed by others? Where have you learned this art? What austerity have you undergone to achieve this beauty, my dear friend? I desire that you join me to perform austerity and penance, for it may be that the creator of the universe, Lord Brahma, being pleased with me, has sent you to become my wife.</p>
+<p><strong>PURPORT</strong></p>
+<p>Agnidhra appreciated the wonderful beauty of Purvacitti.</p>
+<p>Indeed, he was surprised to see such exceptional beauty, which must have been the result of past austerities and penances.</p>
+<p>He therefore asked the girl whether she had achieved such beauty just to break the penances and austerities of others.</p>
+<p>He thought that Lord Brahma, the creator of the universe, might have been pleased with him and might therefore have sent her to become his wife.</p>
+<p>He requested Purvacitti to become his wife so that together they could perform austerities and penances in family life.</p>
+<p>In other words, a suitable wife helps her husband perform penances and austerities in household life if both of them are on the same elevated platform of spiritual understanding.</p>
+<p>Without spiritual understanding, husband and wife cannot be equally situated.</p>
+<p>Lord Brahma, the creator of the universe, is interested in good progeny.</p>
+<p>Therefore unless he is pleased, one cannot get a suitable wife.</p>
+<p>In fact, Lord Brahma is worshiped in marriage ceremonies.</p>
+<p>In India even today, wedding invitations are still issued with a picture of Lord Brahma on the face of the card.</p>
+
+
+
+<p><strong>5.2.16</strong></p>
+<p>na tvam tyajami dayitam dvija-deva-dattam</p>
+<p>yasmin mano drg api no na viyati lagnam</p>
+<p>mam caru-srngy arhasi netum anuvratam te</p>
+<p>cittam yatah pratisarantu sivah sacivyah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—not; tvam—you; tyajami—I shall give up; dayitam—very dear; dvija-deva—by Lord Brahma, the demigod worshiped by the brahmanas; dattam—given; yasmin—unto whom; manah—mind; drk—eyes; api—also; nah—my; na viyati—do not go away; lagnam—tightly attached; mam—me; caru-srngi—O woman with beautiful raised breasts; arhasi—you ought; netum—to lead; anuvratam—follower; te—your; cittam—desire; yatah—wherever; pratisarantu—may follow; sivah—favorable; sacivyah—friends.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Lord Brahma, who is worshiped by the brahmanas, has very mercifully given you to me, and that is why I have met you.</p>
+<p>I do not want to give up your company, for my mind and eyes are fixed upon you and cannot be drawn away.</p>
+<p>O woman with beautiful raised breasts, I am your follower.</p>
+<p>You may take me wherever you like, and your friends may also follow me.</p>
+<p><strong>PURPORT</strong></p>
+<p>Now Agnidhra frankly admits his weakness.</p>
+<p>He was attracted to Purvacitti, and therefore before she could say, But I have no business with you he expressed his desire to be united with her.</p>
+<p>He was so attracted that he was ready to go anywhere, hell or heaven, in her company.</p>
+<p>When one is absorbed in lust and the influence of sex, one surrenders to the feet of a woman without reservations.</p>
+<p>Srila Madhvacarya remarks in this connection that when one engages in joking and talking like a crazy person, one may say anything and everything, but his words will be meaningless.</p>
+
+
+
+<p><strong>5.2.17</strong></p>
+<p>sri-suka uvaca</p>
+<p>iti lalananunayati-visarado gramya-vaidagdhyaya paribhasaya tam vibudha-vadhum vibudha-matir adhisabhajayam asa.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-sukah uvaca—Sukadeva Gosvami said; iti—thus; lalana—women; anunaya—in winning over; ati-visaradah—very expert; gramya-vaidagdhyaya—expert in fulfilling one’s material desires; paribhasaya—by selected words; tam—her; vibudha-vadhum—the celestial girl; vibudha-matih—Agnidhra, who possessed intelligence like that of the demigods; adhisabhajayam asa—gained the favor of.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sukadeva Gosvami continued: Maharaja Agnidhra, whose intelligence was like that of a demigod, knew the art of flattering women to win them to his side.</p>
+<p>He therefore pleased that celestial girl with his lusty words and gained her favor.</p>
+<p><strong>PURPORT</strong></p>
+<p>Since King Agnidhra was a devotee, he actually had no attraction for material enjoyment, but because he wanted a wife for progeny and Lord Brahma had sent Purvacitti for this purpose, he expertly pleased her with flattering words.</p>
+<p>Women are attracted by a man’s flattering words.</p>
+<p>One who is expert in this art of flattery is called vidagdha.</p>
+
+
+
+<p><strong>5.2.18</strong></p>
+<p>sa ca tatas tasya vira-yutha-pater buddhi-sila-rupa-vayah-sriyaudaryena paraksipta-manas tena sahayutayuta-parivatsaropalaksanam kalam jambudvipa-patina bhauma-svarga-bhogan bubhuje.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sa—she; ca—also; tatah—thereafter; tasya—of him; vira-yutha-pateh—the master of heroes; buddhi—by the intelligence; sila—behavior; rupa—beauty; vayah—youth; sriya—opulence; audaryena—and by the magnanimity; paraksipta—attracted; manah—her mind; tena saha—with him; ayuta—ten thousand; ayuta—ten thousand; parivatsara—years; upalaksanam—extending; kalam—time; jambudvipa-patina—with the King of Jambudvipa; bhauma—earthly; svarga—heavenly; bhogan—pleasures; bubhuje—enjoyed.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Attracted by the intelligence, learning, youth, beauty, behavior, opulence and magnanimity of Agnidhra, the King of Jambudvipa and master of all heroes, Purvacitti lived with him for many thousands of years and luxuriously enjoyed both worldly and heavenly happiness.</p>
+<p><strong>PURPORT</strong></p>
+<p>By the grace of Lord Brahma, King Agnidhra and the heavenly girl.</p>
+<p>Purvacitti, found their union quite suitable.</p>
+<p>Thus they enjoyed worldly and heavenly happiness for many thousands of years.</p>
+
+
+
+<p><strong>5.2.19</strong></p>
+<p>tasyam u ha va atmajan sa raja-vara agnidhro nabhi-kimpurusa-harivarselavrta-ramyaka-hiranmaya-kuru-bhadrasva-ketumala-samjnan nava putran ajanayat.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasyam—in her; u ha va—certainly; atma-jan—sons; sah—he; raja-varah—the best of kings; agnidhrah—Agnidhra; nabhi—Nabhi; kimpurusa—Kimpurusa; hari-varsa—Harivarsa; ilavrta—Ilavrta; ramyaka—Ramyaka; hiranmaya—Hiranmaya; kuru—Kuru; bhadrasva—Bhadrasva; ketu-mala—Ketumala; samjnan—named; nava—nine; putran—sons; ajanayat—begot.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In the womb of Purvacitti, Maharaja Agnidhra, the best of kings, begot nine sons, named Nabhi, Kimpurusa, Harivarsa, Ilavrta, Ramyaka, Hiranmaya, Kuru, Bhadrasva and Ketumala.</p>
+
+
+
+<p><strong>5.2.20</strong></p>
+<p>sa sutvatha sutan navanuvatsaram grha evapahaya purvacittir bhuya evajam devam upatasthe.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sa—she; sutva—after giving birth to; atha—thereafter; sutan—sons; nava—nine; anuvatsaram—year after year; grhe—at home; eva—certainly; apahaya—leaving; purvacittih—Purvacitti; bhuyah—again; eva—certainly; ajam—Lord Brahma; devam—the demigod; upatasthe—approached.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Purvacitti gave birth to these nine sons, one each year, but after they grew up, she left them at home and again approached Lord Brahma to worship him.</p>
+<p><strong>PURPORT</strong></p>
+<p>There are many instances in which Apsaras, heavenly angels, have descended to this earth by the order of a superior demigod like Lord Brahma or Lord Indra, have followed the demigod’s order by marrying someone and giving birth to children, and have then returned to their celestial homes.</p>
+<p>For example, after Menaka, the celestial woman who had come to delude Visvamitra Muni, gave birth to the child Sakuntala, she left both the child and her husband and returned to the heavenly planets.</p>
+<p>Purvacitti did not remain permanently with Maharaja Agnidhra.</p>
+<p>After cooperating in his household affairs, she left Maharaja Agnidhra and all nine sons and returned to Brahma to worship him.</p>
+
+
+
+<p><strong>5.2.21</strong></p>
+<p>agnidhra-sutas te matur anugrahad autpattikenaiva samhanana-balopetah pitra vibhakta atma-tulya-namani yatha-bhagam jambudvipa-varsani bubhujuh.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>agnidhra-sutah—the sons of Maharaja Agnidhra; te—they; matuh—of the mother; anugrahat—by the mercy or by drinking the breast milk; autpattikena—naturally; eva—certainly; samhanana—well-built body; bala—strength; upetah—obtained; pitra—by the father; vibhaktah—divided; atma-tulya—following their own; namani—possessing names; yatha-bhagam—divided properly; jambudvipa-varsani—different parts of Jambudvipa (probably Asia and Europe combined together); bubhujuh—ruled.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Because of drinking the breast milk of their mother, the nine sons of Agnidhra naturally had strong, well-built bodies.</p>
+<p>Their father gave them each a kingdom in a different part of Jambudvipa.</p>
+<p>The kingdoms were named according to the names of the sons.</p>
+<p>Thus the sons of Agnidhra ruled the kingdoms they received from their father.</p>
+<p><strong>PURPORT</strong></p>
+<p>The acaryas specifically mention that in this verse the words matuh anugrahat (by the mercy of their mothe) refer to the breast milk of their mother.</p>
+<p>In India it is a common belief that if a baby is fed his mother’s milk for at least six months, his body will be very strong.</p>
+<p>Besides that, it is mentioned herein that all the sons of Agnidhra were endowed with the nature of their mother.</p>
+<p>Bhagavad-gita (1.40) also declares, strisu dustasu varsneya jayate varna-sankarah: when women are polluted, varna-sankara, unqualified children, are generated, and when the varna-sankara population increases, the entire world becomes hellish.</p>
+<p>Therefore, according to Manu-samhita, a woman needs a great deal of protection in order to remain pure and chaste so that her children can be fully engaged for the benefit of human society.</p>
+
+
+
+<p><strong>5.2.22</strong></p>
+<p>agnidhro rajatrptah kamanam apsarasam evanudinam adhi-manyamanas tasyah salokatam srutibhir avarundha yatra pitaro madayante.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>agnidhrah—Agnidhra; raja—the King; atrptah—not satisfied; kamanam—with sense gratification; apsarasam—the celestial woman (Purvacitti); eva—certainly; anudinam—day after day; adhi—exceedingly; manyamanah—thinking of; tasyah—of her; sa-lokatam—promotion to the same planet; srutibhih—by the Vedas; avarundha—got; yatra—where; pitarah—the forefathers; madayante—take pleasure.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>After Purvacitti’s departure, King Agnidhra, his lusty desires not at all satisfied, always thought of her.</p>
+<p>Therefore, in accordance with the Vedic injunctions, the King, after his death, was promoted to the same planet as his celestial wife.</p>
+<p>That planet, which is called Pitrloka, is where the pitas, the forefathers, live in great delight.</p>
+<p><strong>PURPORT</strong></p>
+<p>If one always thinks of something, he certainly gets a related body after death.</p>
+<p>Maharaja Agnidhra was always thinking of Pitrloka, the place where his wife had returned.</p>
+<p>Therefore after his death he achieved that same planet, probably to live with her again.Bhagavad-gita also says:</p>
+<p>yam yam vapi smaran bhavam</p>
+<p>tyajaty ante kalevaram</p>
+<p>tam tam evaiti kaunteya</p>
+<p>sada tad-bhava-bhavitah</p>
+<p>Whatever state of being one remembers when he quits his body, that state he will attain without fail (Bg.8.6) We can naturally conclude that if we always think of Krsna or become fully Krsna conscious, we can be promoted to the planet of Goloka Vrndavana, where Krsna eternally lives.</p>
+
+
+
+<p><strong>5.2.23</strong></p>
+<p>samparete pitari nava bhrataro meru-duhitrr merudevim pratirupam ugradamstrim latam ramyam syamam narim bhadram devavitim iti samjna navodavahan.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>samparete pitari—after the departure of their father; nava—nine; bhratarah—brothers; meru-duhitrh—the daughters of Meru; merudevim—Merudevi; prati-rupam—Pratirupa; ugra-damstrim—Ugradamstri; latam—Lata; ramyam—Ramya; syamam—Syama; narim—Nari; bhadram—Bhadra; deva-vitim—Devaviti; iti—thus; samjnah—the names; nava—nine; udavahan—married.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>After the departure of their father, the nine brothers married the nine daughters of Meru named Merudevi, Pratirupa, Ugradamstri, Lata, Ramya, Syama, Nari, Bhadra and Devaviti.</p>
+
+
+</article></body></html>

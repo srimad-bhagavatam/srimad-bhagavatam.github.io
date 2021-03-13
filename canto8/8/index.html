@@ -1,155 +1,42 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>The Churning of the Milk Ocean - The Churning of the Milk Ocean</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">The Churning of the Milk Ocean</a></li><li class="affix"><a href="8.8.2.html">8.8.2</a></li><li class="affix"><a href="8.8.3.html">8.8.3</a></li><li class="affix"><a href="8.8.4.html">8.8.4</a></li><li class="affix"><a href="8.8.5.html">8.8.5</a></li><li class="affix"><a href="8.8.6.html">8.8.6</a></li><li class="affix"><a href="8.8.7.html">8.8.7</a></li><li class="affix"><a href="8.8.8.html">8.8.8</a></li><li class="affix"><a href="8.8.9.html">8.8.9</a></li><li class="affix"><a href="8.8.10.html">8.8.10</a></li><li class="affix"><a href="8.8.11.html">8.8.11</a></li><li class="affix"><a href="8.8.12.html">8.8.12</a></li><li class="affix"><a href="8.8.13.html">8.8.13</a></li><li class="affix"><a href="8.8.14.html">8.8.14</a></li><li class="affix"><a href="8.8.15.html">8.8.15</a></li><li class="affix"><a href="8.8.16.html">8.8.16</a></li><li class="affix"><a href="8.8.17.html">8.8.17</a></li><li class="affix"><a href="8.8.18.html">8.8.18</a></li><li class="affix"><a href="8.8.19.html">8.8.19</a></li><li class="affix"><a href="8.8.20.html">8.8.20</a></li><li class="affix"><a href="8.8.21.html">8.8.21</a></li><li class="affix"><a href="8.8.22.html">8.8.22</a></li><li class="affix"><a href="8.8.23.html">8.8.23</a></li><li class="affix"><a href="8.8.24.html">8.8.24</a></li><li class="affix"><a href="8.8.25.html">8.8.25</a></li><li class="affix"><a href="8.8.26.html">8.8.26</a></li><li class="affix"><a href="8.8.27.html">8.8.27</a></li><li class="affix"><a href="8.8.28.html">8.8.28</a></li><li class="affix"><a href="8.8.29.html">8.8.29</a></li><li class="affix"><a href="8.8.30.html">8.8.30</a></li><li class="affix"><a href="8.8.31.html">8.8.31</a></li><li class="affix"><a href="8.8.32.html">8.8.32</a></li><li class="affix"><a href="8.8.33.html">8.8.33</a></li><li class="affix"><a href="8.8.34.html">8.8.34</a></li><li class="affix"><a href="8.8.35.html">8.8.35</a></li><li class="affix"><a href="8.8.36.html">8.8.36</a></li><li class="affix"><a href="8.8.37.html">8.8.37</a></li><li class="affix"><a href="8.8.38.html">8.8.38</a></li><li class="affix"><a href="8.8.39-40.html">8.8.39-40</a></li><li class="affix"><a href="8.8.41-46.html">8.8.41-46</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">The Churning of the Milk Ocean</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#the-churning-of-the-milk-ocean" id="the-churning-of-the-milk-ocean">The Churning of the Milk Ocean</a></h1>
-<h2><a class="header" href="#summary" id="summary">Summary</a></h2>
-<h3><a class="header" href="#88" id="88">8.8</a></h3>
+<h1>The Churning of the Milk Ocean</h1>
+<h2>Summary</h2>
+<p><strong>8.8</strong></p>
 <p>This chapter describes how the goddess of fortune appeared during the churning of the ocean of milk and how she accepted Lord Visnu as her husband.</p>
 <p>As described later in the chapter, when Dhanvantari appeared with a pot of nectar the demons immediately snatched it from him, but Lord Visnu appeared as the incarnation Mohini, the most beautiful woman in the world, just to captivate the demons and save the nectar for the demigods.</p>
 <p>After Lord Siva drank all the poison, both the demigods and demons took courage and resumed their activities of churning.</p>
@@ -175,7 +62,7 @@
 <p>After the demons snatched the jug from Dhanvantari, they began to fight among themselves.</p>
 <p>Lord Visnu solaced the demigods, who therefore did not fight, but remained silent.</p>
 <p>While the fighting was going on among the demons, the Lord Himself appeared as the incarnation Mohini, the most beautiful woman in the universe.</p>
-<h3><a class="header" href="#881" id="881">8.8.1</a></h3>
+<p><strong>8.8.1</strong></p>
 <p>sri-suka uvaca</p>
 <p>pite gare vrsankena</p>
 <p>pritas te ’mara-danavah</p>
@@ -194,63 +81,686 @@
 <p>Milk is produced when there are sufficient cows.</p>
 <p>Therefore in Bhagavad-gita (18.44), cow protection is recommended (krsi-go-raksya-vanijyam vaisya-karma svabhava jam).</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="8.8.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>8.8.2</strong></p>
+<p>tam agni-hotrim rsayo</p>
+<p>jagrhur brahma-vadinah</p>
+<p>yajnasya deva-yanasya</p>
+<p>medhyaya havise nrpa</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tam—that cow; agni-hotrim—absolutely necessary for the production of yogurt, milk and ghee to offer as oblations in the fire; rsayah—sages who perform such sacrifices; jagrhuh—took in charge; brahma-vadinah—because such sages know the Vedic ritualistic ceremonies; yajnasya—of sacrifice; deva-yanasya—which fulfills the desire to be elevated to the higher planetary systems and to Brahmaloka; medhyaya—fit for offering oblations; havise—for the sake of pure clarified butter; nrpa—O King.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King Pariksit, great sages who were completely aware of the Vedic ritualistic ceremonies took charge of that surabhi cow, which produced all the yogurt, milk and ghee absolutely necessary for offering oblations into the fire.</p>
+<p>They did this just for the sake of pure ghee, which they wanted for the performance of sacrifices to elevate themselves to the higher planetary systems, up to Brahmaloka.</p>
+<p><strong>PURPORT</strong></p>
+<p>Surabhi cows are generally found on the Vaikuntha planets.</p>
+<p>As described in Brahma-samhita, Lord Krsna, on His planet, Goloka Vrndavana, engages in tending the surabhi cows (surabhir abhipalayantam (Bs.5.29)).</p>
+<p>These cows are the Lord’s pet animals.</p>
+<p>From the surabhi cows one can take as much milk as one needs, and one may milk these cows as many times as he desires.</p>
+<p>In other words, the surabhi cow can yield milk unlimitedly.</p>
+<p>Milk is necessary for the performance of yajna.</p>
+<p>Sages know how to use milk to elevate human society to the perfection of life.</p>
+<p>Since cow protection is recommended everywhere in the sastras, the brahma vadis took charge of the surabhi cow, in which the demons were not very interested.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="8.8.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>8.8.3</strong></p>
+<p>tata uccaihsrava nama</p>
+<p>hayo ’bhuc candra-pandurah</p>
+<p>tasmin balih sprham cakre</p>
+<p>nendra isvara-siksaya</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—thereafter; uccaihsravah nama—by the name Uccaihsrava; hayah—a horse; abhut—was generated; candra-pandurah—being as white as the moon; tasmin—unto it; balih—Maharaja Bali; sprham cakre—desired to possess; na—not; indrah—the King of the demigods; isvara-siksaya—by the previous advice of the Lord.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, a horse named Uccaihsrava, which was as white as the moon, was generated.</p>
+<p>Bali Maharaja desired to possess this horse, and Indra, the King of heaven, did not protest, for he had previously been so advised by the Supreme Personality of Godhead.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>8.8.4</strong></p>
+<p>tata airavato nama</p>
+<p>varanendro vinirgatah</p>
+<p>dantais caturbhih svetadrer</p>
+<p>haran bhagavato mahim</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—thereafter; airavatah nama—of the name Airavata; varana-indrah—the king of elephants; vinirgatah—was generated; dantaih—with its tusks; caturbhih—four; sveta—white; adreh—of the mountain; haran—defying; bhagavatah—of Lord Siva; mahim—the glories.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>As the next result of the churning, the king of elephants, named Airavata, was generated.</p>
+<p>This elephant was white, and with its four tusks it defied the glories of Kailasa Mountain, the glorious abode of Lord Siva.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>8.8.5</strong></p>
+<p>airavanadayas tv astau</p>
+<p>dig-gaja abhavams tatah</p>
+<p>abhramu-prabhrtayo ’stau ca</p>
+<p>karinyas tv abhavan nrpa</p>
+<p><strong>SYNONYMS</strong></p>
+<p>airavana-adayah—headed by Airavana; tu—but; astau—eight; dik-gajah—elephants that could go in any direction; abhavan—were generated; tatah—thereafter; abhramu-prabhrtayah—headed by the she-elephant named Abhramu; astau—eight; ca—also; karinyah—female elephants; tu—indeed; abhavan—also generated; nrpa—O King.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, O King, eight great elephants, which could go in any direction, were generated.</p>
+<p>They were headed by Airavana.</p>
+<p>Eight she-elephants, headed by Abhramu, were also generated.</p>
+<p><strong>PURPORT</strong></p>
+<p>The names of the eight elephants were Airavana, Pundarika, Vamana, Kumuda, Anjana, Puspadanta, Sarvabhauma and Supratika.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>8.8.6</strong></p>
+<p>kaustubhakhyam abhud ratnam</p>
+<p>padmarago mahodadheh</p>
+<p>tasmin manau sprham cakre</p>
+<p>vakso-’lankarane harih</p>
+<p>tato ’bhavat parijatah</p>
+<p>sura-loka-vibhusanam</p>
+<p>purayaty arthino yo ’rthaih</p>
+<p>sasvad bhuvi yatha bhavan</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kaustubha-akhyam—known as Kaustubha; abhut—was generated; ratnam—a valuable gem; padmaragah—another gem, named Padmaraga; maha-udadheh—from that great ocean of milk; tasmin—that; manau—jewel; sprham cakre—desired to possess; vaksah-alankarane—to decorate His chest; harih—the Lord, the Supreme Personality of Godhead; tatah—thereafter; abhavat—was generated; parijatah—the celestial flower named parijata; sura-loka-vibhusanam—which decorates the heavenly planets; purayati—fulfills; arthinah—giving persons desiring material wealth; yah—that which; arthaih—by what is desired; sasvat—always; bhuvi—on this planet; yatha—as; bhavan—Your Lordship (Maharaja Pariksit).</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Generated thereafter from the great ocean were the celebrated gems Kaustubha-mani and Padmaraga-mani.</p>
+<p>Lord Visnu, to decorate His chest, desired to possess them.</p>
+<p>Generated next was the parijata flower, which decorates the celestial planets.</p>
+<p>O King, as you fulfill the desires of everyone on this planet by fulfilling all ambitions, the parijata fulfills the desires of everyone.</p>
+
+
+
+<p><strong>8.8.7</strong></p>
+<p>tatas capsaraso jata</p>
+<p>niska-kanthyah suvasasah</p>
+<p>ramanyah svarginam valgu-</p>
+<p>gati-lilavalokanaih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—thereafter; ca—also; apsarasah—the residents of Apsaroloka; jatah—were generated; niska-kanthyah—decorated with golden necklaces; su-vasasah—dressed with fine clothing; ramanyah—extremely beautiful and attractive; svarginam—of the inhabitants of the heavenly planets; valgu-gati-lila-avalokanaih—moving very softly, they attract everyone’s heart.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Next there appeared the Apsaras (who are used as prostitutes on the heavenly planets).</p>
+<p>They were fully decorated with golden ornaments and lockets and were dressed in fine and attractive clothing.</p>
+<p>The Apsaras move very slowly in an attractive style that bewilders the inhabitants of the heavenly planets.</p>
+
+
+
+<p><strong>8.8.8</strong></p>
+<p>tatas cavirabhut saksac</p>
+<p>chri rama bhagavat-para</p>
+<p>ranjayanti disah kantya</p>
+<p>vidyut saudamani yatha</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—thereafter; ca—and; avirabhut—manifested; saksat—directly; sri—the goddess of fortune; rama—known as Rama; bhagavat-para—absolutely inclined to be possessed by the Supreme Personality of Godhead; ranjayanti—illuminating; disah—all directions; kantya—by luster; vidyut—lightning; saudamani—Saudamani; yatha—as.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Then there appeared the goddess of fortune, Rama, who is absolutely dedicated to being enjoyed by the Supreme Personality of Godhead.</p>
+<p>She appeared like electricity, surpassing the lightning that might illuminate a marble mountain.</p>
+<p><strong>PURPORT</strong></p>
+<p>Sri means opulence.</p>
+<p>Krsna is the owner of all opulences bhoktaram yajna-tapasam</p>
+<p>sarva-loka-mahesvaram</p>
+<p>suhrdam sarva-bhutanam</p>
+<p>jnatva mam santim rcchati</p>
+<p>This peace formula for the world is given in Bhagavad-gita (5.29).</p>
+<p>When people know that the Supreme Lord, Krsna, is the supreme enjoyer, the supreme proprietor and the most intimate well-wishing friend of all living entities, peace and prosperity will ensue all over the world.</p>
+<p>Unfortunately, the conditioned souls, being placed into illusion by the external energy of the Lord, want to fight with one another, and therefore peace is disturbed.</p>
+<p>The first prerequisite for peace is that all the wealth presented by Sri, the goddess of fortune, be offered to the Supreme Personality of Godhead.</p>
+<p>Everyone should give up his false proprietorship over worldly possessions and offer everything to Krsna.</p>
+<p>This is the teaching of the Krsna consciousness movement.</p>
+
+
+
+<p><strong>8.8.9</strong></p>
+<p>tasyam cakruh sprham sarve</p>
+<p>sasurasura-manavah</p>
+<p>rupaudarya-vayo-varna-</p>
+<p>mahimaksipta-cetasah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasyam—unto her; cakruh—did; sprham—desire; sarve—everyone; sa-sura-asura-manavah—the demigods, the demons and the human beings; rupa-audarya—by the exquisite beauty and bodily features; vayah—youth; varna—complexion; mahima—glories; aksipta—agitated; cetasah—their minds.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Because of her exquisite beauty, her bodily features, her youth, her complexion and her glories, everyone, including the demigods, the demons and the human beings, desired her.</p>
+<p>They were attracted because she is the source of all opulences.</p>
+<p><strong>PURPORT</strong></p>
+<p>Who in this world does not want to possess wealth, beauty and the social respectability that come from these opulences? People generally desire material enjoyment, material opulence and the association of aristocratic family members (bhogaisvarya-prasaktanam).</p>
+<p>Material enjoyment entails money, beauty and the reputation they bring, which can all be achieved by the mercy of the goddess of fortune.</p>
+<p>The goddess of fortune, however, never remains alone.</p>
+<p>As indicated in the previous verse by the word bhagavat-para, she is the property of the Supreme Personality of Godhead and is enjoyable only by Him.</p>
+<p>If one wants the favor of the goddess of fortune, mother Laksmi, because she is by nature bhagavat-para one must keep her with Narayana.</p>
+<p>The devotees who always engage in the service of Narayana (narayana-parayana) can easily achieve the favor of the goddess of fortune without a doubt, but materialists who try to get the favor of the goddess of fortune only to possess her for personal enjoyment are frustrated.</p>
+<p>Theirs is not a good policy.</p>
+<p>The celebrated demon Ravana, for example, wanted to deprive Ramacandra of Laksmi, Sita, and thus be victorious, but the result was just the opposite.</p>
+<p>Sita, of course, was taken by force by Lord Ramacandra, and Ravana and his entire material empire were vanquished.</p>
+<p>The goddess of fortune is desirable for everyone, including human beings, but one should understand that the goddess of fortune is the exclusive property of the Supreme Personality of Godhead.</p>
+<p>One cannot achieve the mercy of the goddess of fortune unless one prays both to her and to the supreme enjoyer, the Personality of Godhead.</p>
+
+
+
+<p><strong>8.8.10</strong></p>
+<p>tasya asanam aninye</p>
+<p>mahendro mahad-adbhutam</p>
+<p>murtimatyah saric-chrestha</p>
+<p>hema-kumbhair jalam suci</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasyah—for her; asanam—a sitting place; aninye—brought; maha-indrah—the King of heaven, Indra; mahat—glorious; adbhutam—wonderful; murti-matyah—accepting forms; sarit-sresthah—the best of various sacred waters; hema—golden; kumbhaih—with waterpots; jalam—water; suci—pure.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The King of heaven, Indra, brought a suitable sitting place for the goddess of fortune.</p>
+<p>All the rivers of sacred water, such as the Ganges and Yamuna, personified themselves, and each of them brought pure water in golden waterpots for mother Laksmi, the goddess of fortune.</p>
+
+
+
+<p><strong>8.8.11</strong></p>
+<p>abhisecanika bhumir</p>
+<p>aharat sakalausadhih</p>
+<p>gavah panca pavitrani</p>
+<p>vasanto madhu-madhavau</p>
+<p><strong>SYNONYMS</strong></p>
+<p>abhisecanikah—paraphernalia required for installing the Deity; bhumih—the land; aharat—collected; sakala—all kinds of; ausadhih—drugs and herbs; gavah—the cows; panca—five different varieties of products from the cow, namely milk, yogurt, clarified butter, cow dung and cow urine; pavitrani—uncontaminated; vasantah—personified springtime; madhu-madhavau—flowers and fruits produced during spring, or in the months of Caitra and Vaisakha.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The land became a person and collected all the drugs and herbs needed for installing the Deity.</p>
+<p>The cows delivered five products, namely milk, yogurt, ghee, urine and cow dung, and spring personified collected everything produced in spring, during the months of Caitra and Vaisakha (April and May).</p>
+<p><strong>PURPORT</strong></p>
+<p>Panca-gavya, the five products received from the cow, namely milk, yogurt, ghee, cow dung and cow urine, are required in all ritualistic ceremonies performed according to the Vedic directions.</p>
+<p>Cow urine and cow dung are uncontaminated, and since even the urine and dung of a cow are important, we can just imagine how important this animal is for human civilization.</p>
+<p>Therefore the Supreme Personality of Godhead, Krsna, directly advocates go-raksya, the protection of cows.</p>
+<p>Civilized men who follow the system of varnasrama, especially those of the vaisya class, who engage in agriculture and trade, must give protection to the cows.</p>
+<p>Unfortunately, because people in Kali-yuga are mandah, all bad, and sumanda-matayah, misled by false conceptions of life, they are killing cows in the thousands.</p>
+<p>Therefore they are unfortunate in spiritual consciousness, and nature disturbs them in so many ways, especially through incurable diseases like cancer and through frequent wars and among nations.</p>
+<p>As long as human society continues to allow cows to be regularly killed in slaughterhouses, there cannot be any question of peace and prosperity.</p>
+
+
+
+<p><strong>8.8.12</strong></p>
+<p>rsayah kalpayam cakrur</p>
+<p>abhisekam yatha-vidhi</p>
+<p>jagur bhadrani gandharva</p>
+<p>natyas ca nanrtur jaguh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>rsayah—the great sages; kalpayam cakruh—executed; abhisekam—the abhiseka ceremony, which is required during the installation of the Deity; yatha-vidhi—as directed in the authorized scriptures; jaguh—chanted Vedic mantras; bhadrani—all good fortune; gandharvah—and the inhabitants of Gandharvaloka; natyah—the women who were professional dancers; ca—also; nanrtuh—very nicely danced on the occasion; jaguh—and sang authorized songs prescribed in the Vedas.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The great sages performed the bathing ceremony of the goddess of fortune as directed in the authorized scriptures, the Gandharvas chanted all-auspicious Vedic mantras, and the professional women dancers very nicely danced and sang authorized songs prescribed in the Vedas.</p>
+
+
+
+<p><strong>8.8.13</strong></p>
+<p>megha mrdanga-panava-</p>
+<p>murajanaka-gomukhan</p>
+<p>vyanadayan sankha-venu-</p>
+<p>vinas tumula-nihsvanan</p>
+<p><strong>SYNONYMS</strong></p>
+<p>meghah—personified clouds; mrdanga—drums; panava—kettledrums; muraja—another kind of drum; anaka—another type of drum; gomukhan—a type of bugle; vyanadayan—vibrated; sankha—conchshells; venu—flutes; vinah—stringed instruments; tumula—tumultuous; nihsvanan—vibration.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The clouds in personified form beat various types of drums, known as mrdangas, panavas, murajas and anakas.</p>
+<p>They also blew conchshells and bugles known as gomukhas and played flutes and stringed instruments.</p>
+<p>The combined sound of these instruments was tumultuous.</p>
+
+
+
+<p><strong>8.8.14</strong></p>
+<p>tato ’bhisisicur devim</p>
+<p>sriyam padma-karam satim</p>
+<p>digibhah purna-kalasaih</p>
+<p>sukta-vakyair dvijeritaih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—thereafter; abhisisicuh—poured all-auspicious water on the body; devim—the goddess of fortune; sriyam—very beautiful; padma-karam—with a lotus in her hand; satim—she who is most chaste, not knowing anyone but the Supreme Personality of Godhead; digibhah—the great elephants; purna-kalasaih—by completely full water jugs; sukta-vakyaih—with Vedic mantras; dvi-ja—by brahmanas; iritaih—chanted.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, the great elephants from all the directions carried big water jugs full of Ganges water and bathed the goddess of fortune, to the accompaniment of Vedic mantras chanted by learned brahmanas.</p>
+<p>While thus being bathed, the goddess of fortune maintained her original style, with a lotus flower in her hand, and she appeared very beautiful.</p>
+<p>The goddess of fortune is the most chaste, for she does not know anyone but the Supreme Personality of Godhead.</p>
+<p><strong>PURPORT</strong></p>
+<p>The goddess of fortune, Laksmi, is described in this verse as sriyam, which means that she has six opulences—wealth, strength, influence, beauty, knowledge and renunciation.</p>
+<p>These opulences are received from the goddess of fortune.</p>
+<p>Laksmi is addressed here as devi, the goddess, because in Vaikuntha she supplies all opulences to the Supreme Personality of Godhead and His devotees, who in this way enjoy natural life in the Vaikuntha planets.</p>
+<p>The Supreme Personality of Godhead is pleased with His consort, the goddess of fortune, who carries a lotus flower in her hand.</p>
+<p>Mother Laksmi is described in this verse as sati, the supremely chaste, because she never diverts her attention from the Supreme Personality of Godhead to anyone else.</p>
+
+
+
+<p><strong>8.8.15</strong></p>
+<p>samudrah pita-kauseya-</p>
+<p>vasasi samupaharat</p>
+<p>varunah srajam vaijayantim</p>
+<p>madhuna matta-satpadam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>samudrah—the ocean; pita-kauseya—yellow silk; vasasi—both the upper and lower portions of a garment; samupaharat—presented; varunah—the predominating deity of the water; srajam—garland; vaijayantim—the most decorated and the biggest; madhuna—with honey; matta—drunken; sat-padam—bumblebees, which have six legs.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The ocean, which is the source of all valuable jewels, supplied the upper and lower portions of a yellow silken garment.</p>
+<p>The predominating deity of the water, Varuna, presented flower garlands surrounded by six-legged bumblebees, drunken with honey.</p>
+<p><strong>PURPORT</strong></p>
+<p>When bathing the Deity in the abhiseka ceremony with various liquids, such as milk, honey, yogurt, ghee, cow dung and cow urine, it is customary to supply yellow garments.</p>
+<p>In this way the abhiseka ceremony for the goddess of fortune was performed according to the regular Vedic principles.</p>
+
+
+
+<p><strong>8.8.16</strong></p>
+<p>bhusanani vicitrani</p>
+<p>visvakarma prajapatih</p>
+<p>haram sarasvati padmam</p>
+<p>ajo nagas ca kundale</p>
+<p><strong>SYNONYMS</strong></p>
+<p>bhusanani—varieties of ornaments; vicitrani—all very nicely decorated; visvakarma prajapatih—Visvakarma, one of the prajapatis, the sons of Lord Brahma who generate progeny; haram—garland or necklace; sarasvati—the goddess of education; padmam—a lotus flower; ajah—Lord Brahma; nagah ca—the inhabitants of Nagaloka; kundale—two earrings.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Visvakarma, one of the prajapatis, supplied varieties of decorated ornaments.</p>
+<p>The goddess of learning, Sarasvati, supplied a necklace, Lord Brahma supplied a lotus flower, and the inhabitants of Nagaloka supplied earrings.</p>
+
+
+
+<p><strong>8.8.17</strong></p>
+<p>tatah krta-svastyayanotpala-srajam</p>
+<p>nadad-dvirepham parigrhya panina</p>
+<p>cacala vaktram sukapola-kundalam</p>
+<p>savrida-hasam dadhati susobhanam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—thereafter; krta-svastyayana—being worshiped regularly by all-auspicious ritualistic ceremonies; utpala-srajam—a garland of lotuses; nadat—humming; dvirepham—surrounded by bumblebees; parigrhya—capturing; panina—by the hand; cacala—went on; vaktram—face; su-kapola-kundalam—her cheeks decorated with earrings; sa-vrida-hasam—smiling with shyness; dadhati—expanding; su-sobhanam—her natural beauty.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, mother Laksmi, the goddess of fortune, having been properly celebrated with an auspicious ritualistic ceremony, began moving about, holding in her hand a garland of lotus flowers, which were surrounded by humming bumblebees.</p>
+<p>Smiling with shyness, her cheeks decorated by her earrings, she looked extremely beautiful.</p>
+<p><strong>PURPORT</strong></p>
+<p>The goddess of fortune, mother Laksmiji, accepted the ocean of milk as her father, but she perpetually rests on the bosom of Narayana.</p>
+<p>She offers benedictions even to Lord Brahma and other living entities in this material world, yet she is transcendental to all material qualities.</p>
+<p>Although she appeared to have been born of the ocean of milk, she immediately resorted to her eternal place on the bosom of Narayana.</p>
+
+
+
+<p><strong>8.8.18</strong></p>
+<p>stana-dvayam catikrsodari samam</p>
+<p>nirantaram candana-kunkumoksitam</p>
+<p>tatas tato nupura-valgu sinjitair</p>
+<p>visarpati hema-lateva sa babhau</p>
+<p><strong>SYNONYMS</strong></p>
+<p>stana-dvayam—her two breasts; ca—also; ati-krsa-udari—the middle portion of her body being very thin; samam—equally; nirantaram—constantly; candana-kunkuma—with sandalwood pulp and kunkuma, a reddish powder; uksitam—smeared; tatah tatah—here and there; nupura—of ankle bells; valgu—very beautiful; sinjitaih—with the light resounding; visarpati—walking; hema-lata—a golden creeper; iva—exactly like; sa—the goddess of fortune; babhau—appeared.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Her two breasts, which were symmetrical and nicely situated, were covered with sandalwood pulp and kunkuma powder, and her waist was very thin.</p>
+<p>As she walked here and there, her ankle bells jingling softly, she appeared like a creeper of gold.</p>
+
+
+
+<p><strong>8.8.19</strong></p>
+<p>vilokayanti niravadyam atmanah</p>
+<p>padam dhruvam cavyabhicari-sad-gunam</p>
+<p>gandharva-siddhasura-yaksa-carana-</p>
+<p>traipistapeyadisu nanvavindata</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vilokayanti—observing, examining; niravadyam—without any fault; atmanah—for herself; padam—position; dhruvam—eternal; ca—also; avyabhicari-sat-gunam—without any change of qualities; gandharva—among the inhabitants of Gandharvaloka; siddha—the inhabitants of Siddhaloka; asura—the demons; yaksa—the Yaksas; carana—the inhabitants of Caranaloka; traipistapeya-adisu—and among the demigods; na—not; anvavindata—could accept any one of them.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>While walking among the Gandharvas, Yaksas, asuras, Siddhas, Caranas and denizens of heaven, Laksmidevi, the goddess of fortune, was scrutinizingly examining them, but she could not find anyone naturally endowed with all good qualities.</p>
+<p>None of them was devoid of faults, and therefore she could not take shelter of any of them.</p>
+<p><strong>PURPORT</strong></p>
+<p>The goddess of fortune, Laksmidevi, having been generated from the ocean of milk, was the daughter of the ocean.</p>
+<p>Thus she was allowed to select her own husband in a svayamvara ceremony.</p>
+<p>She examined every one of the candidates, but she could not find anyone suitably qualified to be her shelter.</p>
+<p>In other words, Narayana, the natural husband of Laksmi, cannot be superseded by anyone in this material world.</p>
+
+
+
+<p><strong>8.8.20</strong></p>
+<p>nunam tapo yasya na manyu-nirjayo</p>
+<p>jnanam kvacit tac ca na sanga-varjitam</p>
+<p>kascin mahams tasya na kama-nirjayah</p>
+<p>sa isvarah kim parato vyapasrayah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>nunam—certainly; tapah—austerity; yasya—of someone; na—not; manyu—anger; nirjayah—conquered; jnanam—knowledge; kvacit—in some saintly person; tat—that; ca—also; na—not; sanga-varjitam—without the contamination of association; kascit—someone; mahan—a very great exalted person; tasya—his; na—not; kama—material desires; nirjayah—conquered; sah—such a person; isvarah—controller; kim—how can he be; paratah—of others; vyapasrayah—under the control.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The goddess of fortune, examining the assembly, thought in this way: Someone who has undergone great austerity has not yet conquered anger.</p>
+<p>Someone possesses knowledge, but he has not conquered material desires.</p>
+<p>Someone is a very great personality, but he cannot conquer lusty desires.</p>
+<p>Even a great personality depends on something else.</p>
+<p>How, then, can he be the supreme controller?</p>
+<p><strong>PURPORT</strong></p>
+<p>Here is an attempt to find the supreme controller, or isvara.</p>
+<p>Everyone may be accepted as an isvara, or controller, but still such controllers are controlled by others.</p>
+<p>For example, one may have undergone severe austerities but still be under the control of anger.</p>
+<p>By a scrutinizing analysis, we find that everyone is controlled by something else.</p>
+<p>No one, therefore, can be the true controller but the Supreme Personality of Godhead, Krsna.</p>
+<p>This is supported by the sastras.</p>
+<p>Isvarah paramah krsnah: (Bs.5.1) the supreme controller is Krsna.</p>
+<p>Krsna is never controlled by anyone, for He is the controller of everyone (sarva-karana-karanam (Bs.5.1)).</p>
+
+
+
+<p><strong>8.8.21</strong></p>
+<p>dharmah kvacit tatra na bhuta-sauhrdam</p>
+<p>tyagah kvacit tatra na mukti-karanam</p>
+<p>viryam na pumso ’sty aja-vega-niskrtam</p>
+<p>na hi dvitiyo guna-sanga-varjitah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dharmah—religion; kvacit—one may have full knowledge of; tatra—therein; na—not; bhuta-sauhrdam—friendship with other living entities; tyagah—renunciation; kvacit—one may possess; tatra—therein; na—not; mukti-karanam—the cause of liberation; viryam—power; na—not; pumsah—of any person; asti—there may be; aja-vega-niskrtam—no release from the power of time; na—nor; hi—indeed; dvitiyah—the second one; guna-sanga-varjitah—completely freed from the contamination of the modes of nature.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Someone may possess full knowledge of religion but still not be kind to all living entities.</p>
+<p>In someone, whether human or demigod, there may be renunciation, but that is not the cause of liberation.</p>
+<p>Someone may possess great power and yet be unable to check the power of eternal time.</p>
+<p>Someone else may have renounced attachment to the material world, yet he cannot compare to the Supreme Personality of Godhead.</p>
+<p>Therefore, no one is completely freed from the influence of the material modes of nature.</p>
+<p><strong>PURPORT</strong></p>
+<p>The statement dharmah kvacit tatra na bhuta-sauhrdam is very important in this verse.</p>
+<p>We actually see that there are many Hindus, Muslims, Christians, Buddhists and religionists of other cults who adhere to their religious principles very nicely but are not equal to all living entities.</p>
+<p>Indeed, although they profess to be very religious, they kill poor animals.</p>
+<p>Such religion has no meaning.</p>
+<p>Srimad-Bhagavatam (1.2.8) says:</p>
+<p>dharmah svanusthitah pumsam</p>
+<p>visvaksena-kathasu yah</p>
+<p>notpadayed yadi ratim</p>
+<p>srama eva hi kevalam</p>
+<p>One may be very expert in following the religious principles of his own sect, but if he has no tendency to love the Supreme Personality of Godhead, his observance of religious principles is simply a waste of time.</p>
+<p>One must develop a sense of loving Vasudeva (vasudevah sarvam iti sa mahatma sudurlabhah (Bg.7.19)).</p>
+<p>The sign of a devotee is that he is a friend to everyone (suhrdam sarva-bhutanam).</p>
+<p>A devotee will never allow a poor animal to be killed in the name of religion.</p>
+<p>This is the difference between a superficially religious person and a devotee of the Supreme Personality of Godhead.</p>
+<p>We find that there have been many great heroes in history, but they could not escape from the cruel hands of death.</p>
+<p>Even the greatest hero cannot escape from the ruling power of the Supreme Personality of Godhead when Krsna comes as death.</p>
+<p>That is described by Krsna Himself: mrtyuh sarva-haras caham.</p>
+<p>The Lord, appearing as death, takes away a hero’s so-called power.</p>
+<p>Even Hiranyakasipu could not be saved when Nrsimhadeva appeared before him as death.</p>
+<p>One’s material strength is nothing before the strength of the Supreme Personality of Godhead.</p>
+
+
+
+<p><strong>8.8.22</strong></p>
+<p>kvacic cirayur na hi sila-mangalam</p>
+<p>kvacit tad apy asti na vedyam ayusah</p>
+<p>yatrobhayam kutra ca so ’py amangalah</p>
+<p>sumangalah kasca na kanksate hi mam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kvacit—someone; cira-ayuh—has a long duration of life; na—not; hi—indeed; sila-mangalam—good behavior or auspiciousness; kvacit—someone; tat api—although possessing good behavior; asti—is; na—not; vedyam ayusah—aware of the duration of life; yatra ubhayam—if there are both (behavior and auspiciousness); kutra—somewhere; ca—also; sah—that person; api—although; amangalah—a little inauspicious in some other detail; su-mangalah—auspicious in every respect; kasca—someone; na—not; kanksate—desires; hi—indeed; mam—me.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Someone may have longevity but not have auspiciousness or good behavior.</p>
+<p>Someone may have both auspiciousness and good behavior, but the duration of his life is not fixed.</p>
+<p>Although such demigods as Lord Siva have eternal life, they have inauspicious habits like living in crematoriums.</p>
+<p>And even if others are well qualified in all respects, they are not devotees of the Supreme Personality of Godhead.</p>
+
+
+
+<p><strong>8.8.23</strong></p>
+<p>evam vimrsyavyabhicari-sad-gunair</p>
+<p>varam nijaikasrayatayagunasrayam</p>
+<p>vavre varam sarva-gunair apeksitam</p>
+<p>rama mukundam nirapeksam ipsitam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>evam—in this way; vimrsya—after full deliberation; avyabhicari-sat-gunaih—with extraordinary transcendental qualities; varam—superior; nija-eka-asrayataya—because of possessing all good qualities without depending on others; aguna-asrayam—the reservoir of all transcendental qualities; vavre—accepted; varam—as a bridegroom; sarva-gunaih—with all transcendental qualities; apeksitam—qualified; rama—the goddess of fortune; mukundam—unto Mukunda; nirapeksam—although He did not wait for her; ipsitam—the most desirable.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sukadeva Gosvami continued: In this way, after full deliberation, the goddess of fortune accepted Mukunda as her husband because although He is independent and not in want of her, He possesses all transcendental qualities and mystic powers and is therefore the most desirable.</p>
+<p><strong>PURPORT</strong></p>
+<p>The Supreme Personality of Godhead, Mukunda, is self-sufficient.</p>
+<p>Since He is fully independent, He was not in want of the support or association of Laksmidevi.</p>
+<p>Nonetheless, Laksmidevi, the goddess of fortune, accepted Him as her husband.</p>
+
+
+
+<p><strong>8.8.24</strong></p>
+<p>tasyamsa-desa usatim nava-kanja-malam</p>
+<p>madyan-madhuvrata-varutha-giropaghustam</p>
+<p>tasthau nidhaya nikate tad-urah sva-dhama</p>
+<p>savrida-hasa-vikasan-nayanena yata</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasya—of Him (the Supreme Personality of Godhead); amsa-dese—on the shoulders; usatim—very beautiful; nava—new; kanja-malam—garland of lotus flowers; madyat—maddened; madhuvrata-varutha—of bumblebees; gira—with the vibrating; upaghustam—surrounded by their humming; tasthau—remained; nidhaya—after placing the garland; nikate—nearby; tat-urah—the bosom of the Lord; sva-dhama—her real resort; sa-vrida-hasa—smiling with shyness; vikasat—glittering; nayanena—with the eyes; yata—so situated.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Approaching the Supreme Personality of Godhead, the goddess of fortune placed upon His shoulders the garland of newly grown lotus flowers, which was surrounded by humming bumblebees searching for honey.</p>
+<p>Then, expecting to get a place on the bosom of the Lord, she remained standing by His side, her face smiling in shyness.</p>
+
+
+
+<p><strong>8.8.25</strong></p>
+<p>tasyah sriyas tri-jagato janako jananya</p>
+<p>vakso nivasam akarot paramam vibhuteh</p>
+<p>srih svah prajah sakarunena niriksanena</p>
+<p>yatra sthitaidhayata sadhipatims tri-lokan</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasyah—of her; sriyah—the goddess of fortune; tri-jagatah—of the three worlds; janakah—the father; jananyah—of the mother; vaksah—bosom; nivasam—residence; akarot—made; paramam—supreme; vibhuteh—of the opulent; srih—the goddess of fortune; svah—own; prajah—descendants; sa-karunena—with favorable mercy; niriksanena—by glancing over; yatra—wherein; sthita—staying; aidhayata—increased; sa-adhipatin—with the great directors and leaders; tri-lokan—the three worlds.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Supreme Personality of Godhead is the father of the three worlds, and His bosom is the residence of mother Laksmi, the goddess of fortune, the proprietor of all opulences.</p>
+<p>The goddess of fortune, by her favorable and merciful glance, can increase the opulence of the three worlds, along with their inhabitants and their directors, the demigods.</p>
+<p><strong>PURPORT</strong></p>
+<p>According to the desire of Laksmidevi, the goddess of fortune, the Supreme Personality of Godhead made His bosom her residence so that by her glance she could favor everyone, including the demigods and ordinary human beings.</p>
+<p>In other words, since the goddess of fortune stays on the bosom of Narayana, she naturally sees any devotee who worships Narayana.</p>
+<p>When the goddess of fortune understands that a devotee is in favor of devotional service to Narayana, she is naturally inclined to bless the devotee with all opulences.</p>
+<p>The karmis try to receive the favor and mercy of Laksmi, but because they are not devotees of Narayana, their opulence is flickering.</p>
+<p>The opulence of devotees who are attached to the service of Narayana is not like the opulence of karmis.</p>
+<p>The opulence of devotees is as permanent as the opulence of Narayana Himself.</p>
+
+
+
+<p><strong>8.8.26</strong></p>
+<p>sankha-turya-mrdanganam</p>
+<p>vaditranam prthuh svanah</p>
+<p>devanuganam sastrinam</p>
+<p>nrtyatam gayatam abhut</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sankha—conchshells; turya—bugles; mrdanganam—and of different types of drums; vaditranam—of the musical instruments; prthuh—very great; svanah—sound; deva-anuganam—the inhabitants of the upper planets like the Gandharvas and Caranas, who follow the demigods; sa-strinam—as along with their own wives; nrtyatam—engaged in dancing; gayatam—singing; abhut—became.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The inhabitants of Gandharvaloka and Caranaloka then took the opportunity to play their musical instruments, such as conchshells, bugles and drums.</p>
+<p>They began dancing and singing along with their wives.</p>
+
+
+
+<p><strong>8.8.27</strong></p>
+<p>brahma-rudrangiro-mukhyah</p>
+<p>sarve visva-srjo vibhum</p>
+<p>idire ’vitathair mantrais</p>
+<p>tal-lingaih puspa-varsinah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>brahma—Lord Brahma; rudra—Lord Siva; angirah—the great sage Angira Muni; mukhyah—headed by; sarve—all of them; visva-srjah—the directors of universal management; vibhum—the very great personality; idire—worshiped; avitathaih—real; mantraih—by chanting; tat-lingaih—worshiping the Supreme Personality of Godhead; puspa-varsinah—throwing flowers like showers.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Lord Brahma, Lord Siva, the great sage Angira, and similar directors of universal management showered flowers and chanted mantras indicating the transcendental glories of the Supreme Personality of Godhead.</p>
+
+
+
+<p><strong>8.8.28</strong></p>
+<p>sriyavalokita devah</p>
+<p>saprajapatayah prajah</p>
+<p>siladi-guna-sampanna</p>
+<p>lebhire nirvrtim param</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sriya—by the goddess of fortune, Laksmi; avalokitah—being seen favorably with mercy; devah—all the demigods; sa-prajapatayah—with all the prajapatis; prajah—and their generations; sila-adi-guna-sampannah—all blessed with good behavior and good characteristics; lebhire—achieved; nirvrtim—satisfaction; param—the ultimate.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>All the demigods, along with the prajapatis and their descendants, being blessed by Laksmiji’s glance upon them, were immediately enriched with good behavior and transcendental qualities.</p>
+<p>Thus they were very much satisfied.</p>
+
+
+
+<p><strong>8.8.29</strong></p>
+<p>nihsattva lolupa rajan</p>
+<p>nirudyoga gata-trapah</p>
+<p>yada copeksita laksmya</p>
+<p>babhuvur daitya-danavah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>nihsattvah—without strength; lolupah—very greedy; rajan—O King; nirudyogah—frustrated; gata-trapah—shameless; yada—when; ca—also; upeksitah—neglected; laksmya—by the goddess of fortune; babhuvuh—they became; daitya-danavah—the demons and Raksasas.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King, because of being neglected by the goddess of fortune, the demons and Raksasas were depressed, bewildered and frustrated, and thus they became shameless.</p>
+
+
+
+<p><strong>8.8.30</strong></p>
+<p>athasid varuni devi</p>
+<p>kanya kamala-locana</p>
+<p>asura jagrhus tam vai</p>
+<p>harer anumatena te</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atha—thereafter (after the appearance of the goddess of fortune); asit—there was; varuni—Varuni; devi—the demigoddess who controls drunkards; kanya—a young girl; kamala-locana—lotus-eyed; asurah—the demons; jagrhuh—accepted; tam—her; vai—indeed; hareh—of the Supreme Personality of Godhead; anumatena—by the order; te—they (the demons).</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Next appeared Varuni, the lotus-eyed goddess who controls drunkards.</p>
+<p>With the permission of the Supreme Personality of Godhead, Krsna, the demons, headed by Bali Maharaja, took possession of this young girl.</p>
+
+
+
+<p><strong>8.8.31</strong></p>
+<p>athodadher mathyamanat</p>
+<p>kasyapair amrtarthibhih</p>
+<p>udatisthan maharaja</p>
+<p>purusah paramadbhutah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atha—thereafter; udadheh—from the ocean of milk; mathyamanat—while being churned; kasyapaih—by the sons of Kasyapa, namely the demigods and the demons; amrta-arthibhih—anxious to get nectar from the churning; udatisthat—there appeared; maharaja—O King; purusah—a male person; parama—highly; adbhutah—wonderful.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King, thereafter, while the sons of Kasyapa, both demons and demigods, were engaged in churning the ocean of milk, a very wonderful male person appeared.</p>
+
+
+
+<p><strong>8.8.32</strong></p>
+<p>dirgha-pivara-dor-dandah</p>
+<p>kambu-grivo ’runeksanah</p>
+<p>syamalas tarunah sragvi</p>
+<p>sarvabharana-bhusitah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dirgha—long; pivara—stout and strong; doh-dandah—the arms; kambu—like a conchshell; grivah—the neck; aruna-iksanah—reddish eyes; syamalah—blackish complexion; tarunah—very young; sragvi—wearing a flower garland; sarva—all; abharana—with ornaments; bhusitah—decorated.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>He was strongly built; his arms were long, stout and strong; his neck, which was marked with three lines, resembled a conchshell; his eyes were reddish; and his complexion was blackish.</p>
+<p>He was very young, he was garlanded with flowers, and his entire body was fully decorated with various ornaments.</p>
+
+
+
+<p><strong>8.8.33</strong></p>
+<p>pita-vasa mahoraskah</p>
+<p>sumrsta-mani-kundalah</p>
+<p>snigdha-kuncita-kesanta-</p>
+<p>subhagah simha-vikramah</p>
+<p>amrtapurna-kalasam</p>
+<p>bibhrad valaya-bhusitah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>pita-vasah—wearing yellow garments; maha-uraskah—his chest very broad; su-mrsta-mani-kundalah—whose earrings were well polished and made of pearls; snigdha—polished; kuncita-kesa—curling hair; anta—at the end; su-bhagah—separated and beautiful; simha-vikramah—strong like a lion; amrta—with nectar; apurna—filled to the top; kalasam—a jar; bibhrat—moving; valaya—with bangles; bhusitah—decorated.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>He was dressed in yellow garments and wore brightly polished earrings made of pearls.</p>
+<p>The tips of his hair were anointed with oil, and his chest was very broad.</p>
+<p>His body had all good features, he was stout and strong like a lion, and he was decorated with bangles.</p>
+<p>In his hand he carried a jug filled to the top with nectar.</p>
+
+
+
+<p><strong>8.8.34</strong></p>
+<p>sa vai bhagavatah saksad</p>
+<p>visnor amsamsa-sambhavah</p>
+<p>dhanvantarir iti khyata</p>
+<p>ayur-veda-drg ijya-bhak</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—he; vai—indeed; bhagavatah—of the Supreme Personality of Godhead; saksat—directly; visnoh—of Lord Visnu; amsa-amsa-sambhavah—incarnation of the plenary portion of a plenary portion; dhanvantarih—Dhanvantari; iti—thus; khyatah—celebrated; ayuh-veda-drk—fully conversant in the medical science; ijya-bhak—one of the demigods eligible to share the benefits of sacrifices.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>This person was Dhanvantari, a plenary portion of a plenary portion of Lord Visnu.</p>
+<p>He was very conversant with the science of medicine, and as one of the demigods he was permitted to take a share in sacrifices.</p>
+<p><strong>PURPORT</strong></p>
+<p>Srila Madhvacarya remarks:</p>
+<p>tesam satyac calanartham</p>
+<p>harir dhanvantarir vibhuh</p>
+<p>samartho ’py asuranam tu</p>
+<p>sva-hastad amucat sudham</p>
+<p>Dhanvantari, who was carrying the jug containing nectar, was a plenary incarnation of the Supreme Personality of Godhead, but although he was very strong, the asuras were able to take the jug of nectar from his hands.</p>
+
+
+
+<p><strong>8.8.35</strong></p>
+<p>tam alokyasurah sarve</p>
+<p>kalasam camrtabhrtam</p>
+<p>lipsantah sarva-vastuni</p>
+<p>kalasam tarasaharan</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tam—him; alokya—seeing; asurah—the demons; sarve—all of them; kalasam—the container of nectar; ca—also; amrta-abhrtam—filled with nectar; lipsantah—desiring strongly; sarva-vastuni—all objects; kalasam—the jug; tarasa—immediately; aharan—snatched away.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Upon seeing Dhanvantari carrying the jug of nectar, the demons, desiring the jug and its contents, immediately snatched it away by force.</p>
+
+
+
+<p><strong>8.8.36</strong></p>
+<p>niyamane ’surais tasmin</p>
+<p>kalase ’mrta-bhajane</p>
+<p>visanna-manaso deva</p>
+<p>harim saranam ayayuh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>niyamane—being carried; asuraih—by the demons; tasmin—that; kalase—jug; amrta-bhajane—containing nectar; visanna-manasah—aggrieved in mind; devah—all the demigods; harim—unto the Supreme Lord; saranam—to take shelter; ayayuh—went.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When the jug of nectar was carried off by the demons, the demigods were morose.</p>
+<p>Thus they sought shelter at the lotus feet of the Supreme Personality of Godhead, Hari.</p>
+
+
+
+<p><strong>8.8.37</strong></p>
+<p>iti tad-dainyam alokya</p>
+<p>bhagavan bhrtya-kama-krt</p>
+<p>ma khidyata mitho ’rtham vah</p>
+<p>sadhayisye sva-mayaya</p>
+<p><strong>SYNONYMS</strong></p>
+<p>iti—in this way; tat—of the demigods; dainyam—moroseness; alokya—seeing; bhagavan—the Supreme Personality of Godhead; bhrtya-kama-krt—who is always ready to fulfill the desires of His servants; ma khidyata—do not be aggrieved; mithah—by a quarrel; artham—to get nectar; vah—for all of you; sadhayisye—I shall execute; sva-mayaya—by My own energy.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When the Supreme Personality of Godhead, who always desires to fulfill the ambitions of His devotees, saw that the demigods were morose, He said to them, Do not be aggrieved.</p>
+<p>By My own energy I shall bewilder the demons by creating a quarrel among them.</p>
+
+
+
+<p><strong>8.8.38</strong></p>
+<p>mithah kalir abhut tesam</p>
+<p>tad-arthe tarsa-cetasam</p>
+<p>aham purvam aham purvam</p>
+<p>na tvam na tvam iti prabho</p>
+<p><strong>SYNONYMS</strong></p>
+<p>mithah—among themselves; kalih—disagreement and quarrel; abhut—there was; tesam—of all of them; tat-arthe—for the sake of nectar; tarsa-cetasam—bewildered in heart and soul by the illusory energy of Visnu; aham—I; purvam—first; aham—I; purvam—first; na—not; tvam—you; na—not; tvam—you; iti—thus; prabho—O King.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King, a quarrel then arose among the demons over who would get the nectar first.</p>
+<p>Each of them said, You cannot drink it first.</p>
+<p>I must drink it first.</p>
+<p>Me first, not you</p>
+<p><strong>PURPORT</strong></p>
+<p>This is the symptom of demons.</p>
+<p>The first concern of a nondevotee is how to enjoy his personal sense gratification at once, whereas the devotee’s first concern is to satisfy the Lord.</p>
+<p>This is the distinction between the nondevotee and the devotee.</p>
+<p>In this material world, since most people are nondevotees, they regularly compete, fight, disagree and war among themselves, for everyone wants to enjoy and satisfy his own senses.</p>
+<p>Therefore, unless such demons become Krsna conscious and are trained to satisfy the senses of the Lord, there can be no question of peace in human society or any society, even that of the demigods.</p>
+<p>The demigods and devotees, however, always surrender to the lotus feet of the Lord, and thus the Lord is always anxious to satisfy their ambitions.</p>
+<p>While the demons fight to satisfy their own senses, devotees engage in devotional service to satisfy the senses of the Lord.</p>
+<p>The members of the Krsna consciousness movement must be alert in regard to this point, and then their preaching of the Krsna consciousness movement will be successful.</p>
+
+
+
+<p><strong>8.8.39-40</strong></p>
+<p>devah svam bhagam arhanti</p>
+<p>ye tulyayasa-hetavah</p>
+<p>satra-yaga ivaitasminn</p>
+<p>esa dharmah sanatanah</p>
+<p>iti svan pratyasedhan vai</p>
+<p>daiteya jata-matsarah</p>
+<p>durbalah prabalan rajan</p>
+<p>grhita-kalasan muhuh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>devah—the demigods; svam bhagam—their own share; arhanti—deserve to take; ye—all of them who; tulya-ayasa-hetavah—who made an equal endeavor; satra-yage—in the performance of sacrifices; iva—similarly; etasmin—in this matter; esah—this; dharmah—religion; sanatanah—eternal; iti—thus; svan—among themselves; pratyasedhan—forbade one another; vai—indeed; daiteyah—the sons of Diti; jata-matsarah—envious; durbalah—weak; prabalan—by force; rajan—O King; grhita—possessing; kalasan—the jug containing nectar; muhuh—constantly.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Some of the demons said, All the demigods have taken part in churning the ocean of milk.</p>
+<p>Now, as everyone has an equal right to partake in any public sacrifice, according to the eternal religious system it is befitting that the demigods now have a share of the nectar O King, in this way the weaker demons forbade the stronger demons to take the nectar.</p>
+<p><strong>PURPORT</strong></p>
+<p>Desiring to take the nectar, those among the demons who were less strong spoke in favor of the demigods.</p>
+<p>The weaker Daityas naturally pleaded on behalf of the demigods to stop the stronger Daityas from drinking the nectar without sharing it.</p>
+<p>In this way, disagreement and trouble arose as they forbade one another to drink the nectar.</p>
+
+
+
+<p><strong>8.8.41-46</strong></p>
+<p>etasminn antare visnuh</p>
+<p>sarvopaya-vid isvarah</p>
+<p>yosid-rupam anirdesyam</p>
+<p>dadhara-paramadbhutam</p>
+<p>preksaniyotpala-syamam</p>
+<p>sarvavayava-sundaram</p>
+<p>samana-karnabharanam</p>
+<p>sukapolonnasananam</p>
+<p>nava-yauvana-nirvrtta-</p>
+<p>stana-bhara-krsodaram</p>
+<p>mukhamodanuraktali-</p>
+<p>jhankarodvigna-locanam</p>
+<p>bibhrat sukesa-bharena</p>
+<p>malam utphulla-mallikam</p>
+<p>sugriva-kanthabharanam</p>
+<p>su-bhujangada-bhusitam</p>
+<p>virajambara-samvita-</p>
+<p>nitamba-dvipa-sobhaya</p>
+<p>kancya pravilasad-valgu-</p>
+<p>calac-carana-nupuram</p>
+<p>savrida-smita-viksipta-</p>
+<p>bhru-vilasavalokanaih</p>
+<p>daitya-yutha-pa-cetahsu</p>
+<p>kamam uddipayan muhuh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>etasmin antare—after this incident; visnuh—Lord Visnu; sarva-upaya-vit—one who knows how to deal with different situations; isvarah—the supreme controller; yosit-rupam—the form of a beautiful woman; anirdesyam—no one could ascertain who She was; dadhara—assumed; parama—supremely; adbhutam—wonderful; preksaniya—pleasing to look at; utpala-syamam—blackish like a newly grown lotus; sarva—all; avayava—parts of the body; sundaram—very beautiful; samana—equally adjusted; karna-abharanam—ornaments on the ears; su-kapola—very beautiful cheeks; unnasa-ananam—a raised nose on Her face; nava-yauvana—newly youthful; nirvrtta-stana—breasts not agitated; bhara—weight; krsa—very lean and thin; udaram—waist; mukha—face; amoda—creating pleasure; anurakta—attracted; ali—bumblebees; jhankara—making a humming sound; udvigna—from anxiety; locanam—Her eyes; bibhrat—moving; su-kesa-bharena—by the weight of beautiful hair; malam—with a flower garland; utphulla-mallikam—made of fully grown mallika flowers; su-griva—a nice neck; kantha-abharanam—ornamented with beautiful jewelry; su-bhuja—very beautiful arms; angada-bhusitam—decorated with bangles; viraja-ambara—very clean cloth; samvita—spread; nitamba—breast; dvipa—appearing like an island; sobhaya—by such beauty; kancya—the belt on the waist; pravilasat—spreading over; valgu—very beautiful; calat-carana-nupuram—moving ankle bells; sa-vrida-smita—smiling with shyness; viksipta—glancing; bhru-vilasa—activities of the eyebrows; avalokanaih—glancing over; daitya-yutha-pa—the leaders of the demons; cetahsu—in the core of the heart; kamam—lusty desire; uddipayat—awakening; muhuh—constantly.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Supreme Personality of Godhead, Visnu, who can counteract any unfavorable situation, then assumed the form of an extremely beautiful woman.</p>
+<p>This incarnation as a woman, Mohini-murti, was most pleasing to the mind.</p>
+<p>Her complexion resembled in color a newly grown blackish lotus, and every part of Her body was beautifully situated.</p>
+<p>Her ears were equally decorated with earrings, Her cheeks were very beautiful, Her nose was raised and Her face full of youthful luster.</p>
+<p>Her large breasts made Her waist seem very thin.</p>
+<p>Attracted by the aroma of Her face and body, bumblebees hummed around Her, and thus Her eyes were restless.</p>
+<p>Her hair, which was extremely beautiful, was garlanded with mallika flowers.</p>
+<p>Her attractively constructed neck was decorated with a necklace and other ornaments, Her arms were decorated with bangles, Her body was covered with a clean sari, and Her breasts seemed like islands in an ocean of beauty.</p>
+<p>Her legs were decorated with ankle bells.</p>
+<p>Because of the movements of Her eyebrows as She smiled with shyness and glanced over the demons, all the demons were saturated with lusty desires, and every one of them desired to possess Her.</p>
+<p><strong>PURPORT</strong></p>
+<p>Because of the Supreme Lord’s assuming the form of a beautiful woman to arouse the lusty desires of the demons, a description of Her complete beauty is given here.</p>
+
+
+</article></body></html>

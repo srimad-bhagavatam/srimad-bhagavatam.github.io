@@ -1,155 +1,42 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>The Perfect Society: Four Social Classes - The Perfect Society: Four Social Classes</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">The Perfect Society: Four Social Classes</a></li><li class="affix"><a href="7.11.2.html">7.11.2</a></li><li class="affix"><a href="7.11.3.html">7.11.3</a></li><li class="affix"><a href="7.11.4.html">7.11.4</a></li><li class="affix"><a href="7.11.5.html">7.11.5</a></li><li class="affix"><a href="7.11.6.html">7.11.6</a></li><li class="affix"><a href="7.11.7.html">7.11.7</a></li><li class="affix"><a href="7.11.8-12.html">7.11.8-12</a></li><li class="affix"><a href="7.11.13.html">7.11.13</a></li><li class="affix"><a href="7.11.14.html">7.11.14</a></li><li class="affix"><a href="7.11.15.html">7.11.15</a></li><li class="affix"><a href="7.11.16.html">7.11.16</a></li><li class="affix"><a href="7.11.17.html">7.11.17</a></li><li class="affix"><a href="7.11.18-20.html">7.11.18-20</a></li><li class="affix"><a href="7.11.21.html">7.11.21</a></li><li class="affix"><a href="7.11.22.html">7.11.22</a></li><li class="affix"><a href="7.11.23.html">7.11.23</a></li><li class="affix"><a href="7.11.24.html">7.11.24</a></li><li class="affix"><a href="7.11.25.html">7.11.25</a></li><li class="affix"><a href="7.11.26-27.html">7.11.26-27</a></li><li class="affix"><a href="7.11.28.html">7.11.28</a></li><li class="affix"><a href="7.11.29.html">7.11.29</a></li><li class="affix"><a href="7.11.30.html">7.11.30</a></li><li class="affix"><a href="7.11.31.html">7.11.31</a></li><li class="affix"><a href="7.11.32.html">7.11.32</a></li><li class="affix"><a href="7.11.33-34.html">7.11.33-34</a></li><li class="affix"><a href="7.11.35.html">7.11.35</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">The Perfect Society: Four Social Classes</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#the-perfect-society-four-social-classes" id="the-perfect-society-four-social-classes">The Perfect Society: Four Social Classes</a></h1>
-<h2><a class="header" href="#summary" id="summary">Summary</a></h2>
-<h3><a class="header" href="#711" id="711">7.11</a></h3>
+<h1>The Perfect Society: Four Social Classes</h1>
+<h2>Summary</h2>
+<p><strong>7.11</strong></p>
 <p>This chapter describes the general principles by following which a human being, and specifically one who is interested in advancing in spiritual life, can become perfect.</p>
 <p>By hearing about the characteristics of Prahlada Maharaja, Maharaja Yudhisthira became extremely pleased.</p>
 <p>Now he inquired from Narada Muni about the actual religion of a human being and about special characteristics of varnasrama-dharma, which marks the highest status of human civilization.</p>
@@ -178,7 +65,7 @@
 <p>One cannot suddenly give up a profession to which he is accustomed, and therefore it is recommended that one gradually be awakened.</p>
 <p>The symptoms of brahmanas, ksatriyas, vaisyas, and sudras are very important, and therefore one should be designated only by these symptoms, and not by birth.</p>
 <p>Designation by birth is strictly forbidden by Narada Muni and all great personalities.</p>
-<h3><a class="header" href="#7111" id="7111">7.11.1</a></h3>
+<p><strong>7.11.1</strong></p>
 <p>sri-suka uvaca</p>
 <p>srutvehitam sadhu sabha-sabhajitam</p>
 <p>mahattamagranya urukramatmanah</p>
@@ -189,63 +76,623 @@
 <p><strong>TRANSLATION</strong></p>
 <p>Sukadeva Gosvami continued: After hearing about the activities and character of Prahlada Maharaja, which are adored and discussed among great personalities like Lord Brahma and Lord Siva, Yudhisthira Maharaja, the most respectful king among exalted personalities, again inquired from the great saint Narada Muni in a mood of great pleasure.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="7.11.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>7.11.2</strong></p>
+<p>sri-yudhisthira uvaca</p>
+<p>bhagavan srotum icchami</p>
+<p>nrnam dharmam sanatanam</p>
+<p>varnasramacara-yutam</p>
+<p>yat puman vindate param</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-yudhisthirah uvaca—Maharaja Yudhisthira inquired; bhagavan—O my lord; srotum—to hear; icchami—I wish; nrnam—of human society; dharmam—the occupational duties; sanatanam—common and eternal (for everyone); varna-asrama-acara-yutam—based on the principles of the four divisions of society and the four divisions of spiritual advancement; yat—from which; puman—the people in general; vindate—can enjoy very peacefully; param—the supreme knowledge (by which one can attain devotional service).</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Maharaja Yudhisthira said: My dear lord, I wish to hear from you about the principles of religion by which one can attain the ultimate goal of life—devotional service.</p>
+<p>I wish to hear about the general occupational duties of human society and the system of social and spiritual advancement known as varnasrama-dharma.</p>
+<p><strong>PURPORT</strong></p>
+<p>Sanatana-dharma means devotional service.</p>
+<p>The word sanatana refers to that which is eternal, which does not change but continues in all circumstances.</p>
+<p>We have several times explained what the eternal occupational duty of the living being is.</p>
+<p>Indeed, it has been explained by Sri Caitanya Mahaprabhu.</p>
+<p>Jivera ‘svarupa’ haya—krsnera ‘nitya-dasa’: (Cc.Madhya 20.108) the real occupational duty of the living entity is to serve the Supreme Personality of Godhead.</p>
+<p>Even if one prefers to deviate from this principle he remains a servant because that is his eternal position; but one serves maya, the illusory, material energy.</p>
+<p>The Krsna consciousness movement, therefore, is an attempt to guide human society to serving the Personality of Godhead instead of serving the material world with no real profit.</p>
+<p>Our actual experience is that every man, animal, bird and beast—indeed, every living entity—is engaged in rendering service.</p>
+<p>Even though one’s body or one’s superficial religion may change, every living entity is always engaged in the service of someone.</p>
+<p>Therefore, the mentality of service is called the eternal occupational duty.</p>
+<p>This eternal occupational duty can be organized through the institution of varnasrama, in which there are four varnas (brahmana, ksatriya, vaisya and sudra) and four asramas (brahmacarya, grhastha, vanaprastha and sannyasa).</p>
+<p>Thus, Yudhisthira Maharaja inquired from Narada Muni about the principles of sanatana-dharma for the benefit of human society.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="7.11.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>7.11.3</strong></p>
+<p>bhavan prajapateh saksad</p>
+<p>atmajah paramesthinah</p>
+<p>sutanam sammato brahmams</p>
+<p>tapo-yoga-samadhibhih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>bhavan—Your Lordship; prajapateh—of Prajapati (Lord Brahma); saksat—directly; atma-jah—the son; paramesthinah—of the supreme person within this universe (Lord Brahma); sutanam—of all the sons; sammatah—agreed upon as the best; brahman—O best of the brahmanas; tapah—by austerity; yoga—by mystic practice; samadhibhih—and by trance or meditation (in all respects, you are the best).</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O best of the brahmanas, you are directly the son of Prajapati (Lord Brahma).</p>
+<p>Because of your austerities, mystic yoga and trance, you are considered the best of all of Lord Brahma’s sons.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>7.11.4</strong></p>
+<p>narayana-para vipra</p>
+<p>dharmam guhyam param viduh</p>
+<p>karunah sadhavah santas</p>
+<p>tvad-vidha na tathapare</p>
+<p><strong>SYNONYMS</strong></p>
+<p>narayana-parah—those who are always devoted to the Supreme Personality of Godhead, Narayana; viprah—the best of the brahmanas; dharmam—religious principle; guhyam—the most confidential; param—supreme; viduh—know; karunah—such persons are very merciful (being devotees); sadhavah—whose behavior is very exalted; santah—peaceful; tvat-vidhah—like Your Honor; na—not; tatha—so; apare—others (followers of methods other than devotional service).</p>
+<p><strong>TRANSLATION</strong></p>
+<p>No one is superior to you in peaceful life and mercy, and no one knows better than you how to execute devotional service or how to become the best of the brahmanas.</p>
+<p>Therefore, you know all the principles of confidential religious life, and no one knows them better than you.</p>
+<p><strong>PURPORT</strong></p>
+<p>Yudhisthira Maharaja knew that Narada Muni is the supreme spiritual master of human society who can teach the path of spiritual liberation leading to the understanding of the Supreme Personality of Godhead.</p>
+<p>Actually, it is for this purpose that Narada Muni compiled his Bhakti-sutra and gave directions in the Narada-pancaratra.</p>
+<p>To learn about religious principles and the perfection of life, one must take instruction from the disciplic succession of Narada Muni.</p>
+<p>Our Krsna consciousness movement is directly in the line of the Brahma-sampradaya.</p>
+<p>Narada Muni received instructions from Lord Brahma and in turn transmitted the instructions to Vyasadeva.</p>
+<p>Vyasadeva instructed his son Sukadeva Gosvami, who spoke Srimad-Bhagavatam.</p>
+<p>The Krsna consciousness movement is based on Srimad-Bhagavatam and Bhagavad-gita.</p>
+<p>Because Srimad-Bhagavatam was spoken by Sukadeva Gosvami and Bhagavad-gita was spoken by Krsna, there is no difference between them.</p>
+<p>If we strictly follow the principle of disciplic succession, we are certainly on the right path of spiritual liberation, or eternal engagement in devotional service.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>7.11.5</strong></p>
+<p>sri-narada uvaca</p>
+<p>natva bhagavate ’jaya</p>
+<p>lokanam dharma-setave</p>
+<p>vaksye sanatanam dharmam</p>
+<p>narayana-mukhac chrutam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-naradah uvaca—Sri Narada Muni said; natva—offering my obeisances; bhagavate—unto the Supreme Personality of Godhead; ajaya—ever existing, never born; lokanam—throughout the entire universe; dharma-setave—who protects religious principles; vaksye—I shall explain; sanatanam—eternal; dharmam—occupational duty; narayana-mukhat—from the mouth of Narayana; srutam—which I have heard.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sri Narada Muni said: After first offering my obeisances unto Lord Krsna, the protector of the religious principles of all living entities, let me explain the principles of the eternal religious system, of which I have heard from the mouth of Narayana.</p>
+<p><strong>PURPORT</strong></p>
+<p>The word aja refers to Krsna, who explains in Bhagavad-gita (4.6), ajo ’pi sann avyayatma: I am ever existing, and thus I never take birth.</p>
+<p>There is no change in My existence</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>7.11.6</strong></p>
+<p>yo ’vatiryatmano ’msena</p>
+<p>daksayanyam tu dharmatah</p>
+<p>lokanam svastaye ’dhyaste</p>
+<p>tapo badarikasrame</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—He who (Lord Narayana); avatirya—adventing; atmanah—of Himself; amsena—with a part (Nara); daksayanyam—in the womb of Daksayani, the daughter of Maharaja Daksa; tu—indeed; dharmatah—from Dharma Maharaja; lokanam—of all people; svastaye—for the benefit of; adhyaste—executes; tapah—austerity; badarikasrame—in the place known as Badarikasrama.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Lord Narayana, along with His partial manifestation Nara, appeared in this world through the daughter of Daksa Maharaja known as Murti.</p>
+<p>He was begotten by Dharma Maharaja for the benefit of all living entities.</p>
+<p>Even now, He is still engaged in executing great austerities near the place known as Badarikasrama.</p>
+
+
+
+<p><strong>7.11.7</strong></p>
+<p>dharma-mulam hi bhagavan</p>
+<p>sarva-vedamayo harih</p>
+<p>smrtam ca tad-vidam rajan</p>
+<p>yena catma prasidati</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dharma-mulam—the root of religious principles; hi—indeed; bhagavan—the Supreme Personality of Godhead; sarva-veda-mayah—the essence of all Vedic knowledge; harih—the Supreme Being; smrtam ca—and the scriptures; tat-vidam—of those who know the Supreme Lord; rajan—O King; yena—by which (religious principle); ca—also; atma—the soul, mind, body and everything; prasidati—become fully satisfied.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Supreme Being, the Personality of Godhead, is the essence of all Vedic knowledge, the root of all religious principles, and the memory of great authorities.</p>
+<p>O King Yudhisthira, this principle of religion is to be understood as evidence.</p>
+<p>On the basis of this religious principle, everything is satisfied, including one’s mind, soul and even one’s body.</p>
+<p><strong>PURPORT</strong></p>
+<p>As stated by Yamaraja, dharmam tu saksad bhagavat-pranitam (SB 6.3.19).</p>
+<p>Yamaraja, the representative of the Lord who takes care of the living beings after their death, gives his verdict as to how and when the living being will change his body.</p>
+<p>He is the authority, and he says that the religious principles consist of the codes and laws given by God.</p>
+<p>No one can manufacture religion, and therefore manufactured religious systems are rejected by the followers of the Vedic principles.</p>
+<p>In Bhagavad-gita (15.15) it is said, vedais ca sarvair aham eva vedyah: Vedic knowledge means to understand the Supreme Personality of Godhead, Krsna.</p>
+<p>Therefore, whether one speaks of the Vedas, scriptures, religion or the principles of everyone’s occupational duty, all of them must aim at understanding Krsna, the Supreme Personality of Godhead.</p>
+<p>Srimad-Bhagavatam (1.2.6) therefore concludes:</p>
+<p>sa vai pumsam paro dharmo</p>
+<p>yato bhaktir adhoksaje</p>
+<p>ahaituky apratihata</p>
+<p>yayatma suprasidati</p>
+<p>In other words, religious principles aim at learning how to render transcendental loving service to the Lord.</p>
+<p>That service must be unmotivated and unchecked by material conditions.</p>
+<p>Then human society will be happy in all respects.</p>
+<p>The smrti, the scriptures following the principles of Vedic knowledge, are considered the evidence of Vedic principles.</p>
+<p>There are twenty different types of scripture for following religious principles, and among them the scriptures of Manu and Yajnavalkya are considered to be all-pervading authorities.</p>
+<p>In the Yajnavalkya-smrti it is said:</p>
+<p>sruti-smrti-sadacarah</p>
+<p>svasya ca priyam atmanah</p>
+<p>samyak sankalpajah kamo</p>
+<p>dharma-mulam idam smrtam</p>
+<p>One should learn human behavior from sruti, the Vedas, and from smrti, the scriptures following the Vedic principles.</p>
+<p>Srila Rupa Gosvami in his Bhakti-rasamrta-sindhu says:</p>
+<p>sruti-smrti-puranadi-</p>
+<p>pancaratra-vidhim vina</p>
+<p>aikantiki harer bhaktir</p>
+<p>utpatayaiva kalpate</p>
+<p>(BRS 1.2.101)</p>
+<p>The purport is that to become a devotee one must follow the principles laid down in sruti and smrti.</p>
+<p>One must follow the codes of the puranas and the pancaratriki-vidhi.</p>
+<p>One cannot be a pure devotee without following the sruti and smrti, and the sruti and smrti without devotional service cannot lead one to the perfection of life.</p>
+<p>Therefore, from all the evidence the conclusion is that without bhakti, devotional service, there is no question of religious principles.</p>
+<p>God is the central figure in the performance of religious principles.</p>
+<p>Almost everything going on in this world as religion is devoid of any idea of devotional service and is therefore condemned by the verdict of Srimad-Bhagavatam.</p>
+<p>Without devotional service, so-called religious principles are only cheating.</p>
+
+
+
+<p><strong>7.11.8-12</strong></p>
+<p>satyam daya tapah saucam</p>
+<p>titikseksa samo damah</p>
+<p>ahimsa brahmacaryam ca</p>
+<p>tyagah svadhyaya arjavam</p>
+<p>santosah samadrk-seva</p>
+<p>gramyehoparamah sanaih</p>
+<p>nrnam viparyayeheksa</p>
+<p>maunam atma-vimarsanam</p>
+<p>annadyadeh samvibhago</p>
+<p>bhutebhyas ca yatharhatah</p>
+<p>tesv atma-devata-buddhih</p>
+<p>sutaram nrsu pandava</p>
+<p>sravanam kirtanam casya</p>
+<p>smaranam mahatam gateh</p>
+<p>sevejyavanatir dasyam</p>
+<p>sakhyam atma-samarpanam</p>
+<p>nrnam ayam paro dharmah</p>
+<p>sarvesam samudahrtah</p>
+<p>trimsal-laksanavan rajan</p>
+<p>sarvatma yena tusyati</p>
+<p><strong>SYNONYMS</strong></p>
+<p>satyam—speaking the truth without distortion or deviation; daya—sympathy to everyone suffering; tapah—austerities (such as observing fasts at least twice in a month on the day of Ekadasi); saucam—cleanliness (bathing regularly at least twice a day, morning and evening, and remembering to chant the holy name of God); titiksa—toleration (being unagitated by seasonal changes or inconvenient circumstances); iksa—distinguishing between good and bad; samah—control of the mind (not allowing the mind to act whimsically); damah—control of the senses (not allowing the senses to act without control); ahimsa—nonviolence (not subjecting any living entity to the threefold miseries); brahmacaryam—continence or abstaining from misuse of one’s semen (not indulging in sex with women other than one’s own wife and not having sex with one’s own wife when sex is forbidden, like during the period of menstruation); ca—and; tyagah—giving in charity at least fifty percent of one’s income; svadhyayah—reading of transcendental literatures like Bhagavad-gita, Srimad-Bhagavatam, Ramayana and Mahabharata (or, for those not in Vedic culture, reading of the Bible or Koran); arjavam—simplicity (freedom from mental duplicity); santosah—being satisfied with that which is available without severe endeavor; samadrk-seva—rendering service to saintly persons who make no distinctions between one living being and another and who see every living being as a spirit soul (panditah sama-darsinah (Bg.5.18)); gramya-iha-uparamah—not taking part in so-called philanthropic activities; sanaih—gradually; nrnam—in human society; viparyaya-iha—the unnecessary activities; iksa—discussing; maunam—being grave and silent; atma—into the self; vimarsanam—research (as to whether one is the body or the soul); anna-adya-adeh—of food and drink, etc.; samvibhagah—equal distribution; bhutebhyah—to different living entities; ca—also; yatha-arhatah—as befitting; tesu—all living entities; atma-devata-buddhih—accepting as the self or the demigods; sutaram—preliminarily; nrsu—among all human beings; pandava—O Maharaja Yudhisthira; sravanam—hearing; kirtanam—chanting; ca—also; asya—of Him (the Lord); smaranam—remembering (His words and activities); mahatam—of great saintly persons; gateh—who is the shelter; seva—service; ijya—worship; avanatih—offering obeisances; dasyam—accepting the service; sakhyam—to consider as a friend; atma-samarpanam—surrendering one’s whole self; nrnam—of all human beings; ayam—this; parah—the supermost; dharmah—religious principle; sarvesam—of all; samudahrtah—described fully; trimsat-laksana-van—possessing thirty characteristics; rajan—O King; sarva-atma—the Supreme Lord, the Supersoul of all; yena—by which; tusyati—is satisfied.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>These are the general principles to be followed by all human beings: truthfulness, mercy, austerity (observing fasts on certain days of the month), bathing twice a day, tolerance, discrimination between right and wrong, control of the mind, control of the senses, nonviolence, celibacy, charity, reading of scripture, simplicity, satisfaction, rendering service to saintly persons, gradually taking leave of unnecessary engagements, observing the futility of the unnecessary activities of human society, remaining silent and grave and avoiding unnecessary talk, considering whether one is the body or the soul, distributing food equally to all living entities (both men and animals), seeing every soul (especially in the human form) as a part of the Supreme Lord, hearing about the activities and instructions given by the Supreme Personality of Godhead (who is the shelter of the saintly persons), chanting about these activities and instructions, always remembering these activities and instructions, trying to render service, performing worship, offering obeisances, becoming a servant, becoming a friend, and surrendering one’s whole self.</p>
+<p>O King Yudhisthira, these thirty qualifications must be acquired in the human form of life.</p>
+<p>Simply by acquiring these qualifications, one can satisfy the Supreme Personality of Godhead.</p>
+<p><strong>PURPORT</strong></p>
+<p>In order that human beings be distinct from the animals, the great saint Narada recommends that every human being be educated in terms of the above-mentioned thirty qualifications.</p>
+<p>Nowadays there is propaganda everywhere, all over the world, for a secular state, a state interested only in mundane activities.</p>
+<p>But if the citizens of the state are not educated in the above-mentioned good qualities, how can there be happiness? For example, if the total populace is untruthful, how can the state be happy? Therefore, without consideration of one’s belonging to a sectarian religion, whether Hindu, Muslim, Christian, Buddhist or any other sect, everyone should be taught to become truthful.</p>
+<p>Similarly, everyone should be taught to be merciful, and everyone should observe fasting on certain days of the month.</p>
+<p>Everyone should bathe twice a day, cleanse his teeth and body externally, and cleanse his mind internally by remembering the holy name of the Lord.</p>
+<p>The Lord is one, whether one is Hindu, Muslim or Christian.</p>
+<p>Therefore, one should chant the holy name of the Lord, regardless of differences in linguistic pronunciation.</p>
+<p>Also, everyone should be taught to be very careful not to discharge semen unnecessarily.</p>
+<p>This is very important for all human beings.</p>
+<p>If semen is not discharged unnecessarily, one becomes extremely strong in memory, determination, activity and the vitality of one’s bodily energy.</p>
+<p>Everyone should also be taught to be simple in thought and feeling and satisfied in body and mind.</p>
+<p>These are the general qualifications of a human being.</p>
+<p>There is no question of a secular state or an ecclesiastical state.</p>
+<p>Unless one is educated in the above-mentioned thirty qualities, there cannot be any peace.</p>
+<p>Ultimately it is recommended:</p>
+<p>sravanam kirtanam casya</p>
+<p>smaranam mahatam gateh</p>
+<p>sevejyavanatir dasyam</p>
+<p>sakhyam atma-samarpanam</p>
+<p>Everyone should become a devotee of the Lord, because by becoming a devotee of the Lord one automatically acquires the other qualities yasyasti bhaktir bhagavaty akincana</p>
+<p>sarvair gunais tatra samasate surah</p>
+<p>harav abhaktasya kuto mahad-guna</p>
+<p>manorathenasati dhavato bahih</p>
+<p>In one who has unflinching devotional service to Krsna, all the good qualities of Krsna and the demigods are consistently manifest.</p>
+<p>However, he who has no devotion to the Supreme Personality of Godhead has no good qualifications because he is engaged by mental concoction in material existence, which is the external feature of the Lord (Bhag.5.18.12) Our Krsna consciousness movement, therefore, is all-embracing.</p>
+<p>Human civilization should take it very seriously and practice its principles for the peace of the world.</p>
+
+
+
+<p><strong>7.11.13</strong></p>
+<p>samskara yatravicchinnah</p>
+<p>sa dvijo ’jo jagada yam</p>
+<p>ijyadhyayana-danani</p>
+<p>vihitani dvijanmanam</p>
+<p>janma-karmavadatanam</p>
+<p>kriyas casrama-coditah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>samskarah—reformatory processes; yatra—wherein; avicchinnah—without interruption; sah—such a person; dvi-jah—twice-born; ajah—Lord Brahma; jagada—sanctioned; yam—who; ijya—worshiping; adhyayana—studies of the Vedas; danani—and charity; vihitani—prescribed; dvi-janmanam—of persons who are called twice-born; janma—by birth; karma—and activities; avadatanam—who are purified; kriyah—activities; ca—also; asrama-coditah—recommended for the four asramas.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Those who have been reformed by the garbhadhana ceremony and other prescribed reformatory methods, performed with Vedic mantras and without interruption, and who have been approved by Lord Brahma, are dvijas, or twice-born.</p>
+<p>Such brahmanas, ksatriyas and vaisyas, purified by their family traditions and by their behavior, should worship the Lord, study the Vedas and give charity.</p>
+<p>In this system, they should follow the principles of the four asramas (brahmacarya, grhastha, vanaprastha and sannyasa).</p>
+<p><strong>PURPORT</strong></p>
+<p>After giving a general list of thirty qualifications for one’s behavior, Narada Muni now describes the principles of the four varnas and four asramas.</p>
+<p>A human being must be trained in the above-mentioned thirty qualities; otherwise, he is not even a human being.</p>
+<p>Then, among such qualified persons, the varnasrama process should be introduced.</p>
+<p>In the varnasrama system, the first ceremony for purification is garbhadhana, which is performed with mantras at the time of sex for propagating a good child.</p>
+<p>One who uses sex life not for sensual pleasures but only to beget children according to the reformatory method is also accepted as a brahmacari.</p>
+<p>One should not waste semen on sensual pleasure, violating the principles of Vedic life.</p>
+<p>Restraint in sex is possible, however, only when the populace is trained in the above-mentioned thirty qualities; otherwise, it is not possible.</p>
+<p>Even if one is born in a family of dvijas, or twice-born, if they have not followed the reformatory process he is called a dvija-bandhu—not one of the twice-born, but a friend of the twice-born.</p>
+<p>The whole purpose of this system is to create good population.</p>
+<p>As stated in Bhagavad-gita, when women are polluted the populace is varna-sankara, and when the varna-sankara population increases, the situation of the entire world becomes hellish.</p>
+<p>Therefore, all the Vedic literatures strongly warn against creating varna-sankara population.</p>
+<p>When there is varna-sankara population, the people cannot be properly controlled for peace and prosperity, regardless of great legislative assemblies, parliaments and similar bodies.</p>
+
+
+
+<p><strong>7.11.14</strong></p>
+<p>viprasyadhyayanadini</p>
+<p>sad-anyasyapratigrahah</p>
+<p>rajno vrttih praja-goptur</p>
+<p>aviprad va karadibhih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>viprasya—of the brahmana; adhyayana-adini—reading the Vedas, etc; sat—six (to study the Vedas, to teach the Vedas, to worship the Deity, to teach others how to worship, to accept charity and to give charity); anyasya—of those other than the brahmanas (the ksatriyas); apratigrahah—without accepting charity from others (the ksatriyas may execute the five other occupational duties prescribed for the brahmanas); rajnah—of the ksatriya; vrttih—the means of livelihood; praja-goptuh—who maintain the subjects; aviprat—from those who are not brahmanas; va—or; kara-adibhih—by levying revenue taxes, customs duties, fines for punishment, etc.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>For a brahmana there are six occupational duties.</p>
+<p>A ksatriya should not accept charity, but he may perform the other five of these duties.</p>
+<p>A king or ksatriya is not allowed to levy taxes on brahmanas, but he may make his livelihood by levying minimal taxes, customs duties, and penalty fines upon his other subjects.</p>
+<p><strong>PURPORT</strong></p>
+<p>Visvanatha Cakravarti Thakura explains the position of brahmanas and ksatriyas as follows.</p>
+<p>Brahmanas have six occupational duties, of which three are compulsory—namely, studying the Vedas, worshiping the Deity and giving charity.</p>
+<p>By teaching, by inducing others to worship the Deity, and by accepting gifts, the brahmanas receive the necessities of life.</p>
+<p>This is also confirmed in the Manu-samhita:</p>
+<p>sannam tu karmanam asya</p>
+<p>trini karmani jivika</p>
+<p>yajanadhyapane caiva</p>
+<p>visuddhac ca pratigrahah</p>
+<p>Of the six occupational duties of the brahmanas, three are compulsory—namely, worship of the Deity, study of the Vedas and the giving of charity.</p>
+<p>In exchange, a brahmana should receive charity, and this should be his means of livelihood.</p>
+<p>A brahmana cannot take up any professional occupational duty for his livelihood.</p>
+<p>The sastras especially stress that if one claims to be a brahmana, he cannot engage in the service of anyone else; otherwise he at once falls from his position and becomes a sudra.</p>
+<p>Srila Rupa Gosvami and Sanatana Gosvami belonged to a very respectful family, but because they engaged in the service of Nawab Hussain Shah—not even as ordinary clerks, but as ministers—they were ostracized from brahminical society.</p>
+<p>Indeed, they became like Mohammedans and even changed their names.</p>
+<p>Unless a brahmana is very pure, he cannot accept charity from others.</p>
+<p>Charity should be given to those who are pure.</p>
+<p>Even if one is born in a family of brahmanas, if one acts as a sudra one cannot accept charity, for this is strictly prohibited.</p>
+<p>Although the ksatriyas are almost as qualified as the brahmanas, even they cannot accept charity.</p>
+<p>This is strictly prohibited in this verse by the word apratigraha.</p>
+<p>What to speak of the lower social orders, even the ksatriyas must not accept charity.</p>
+<p>The king or government may levy taxes upon the citizens in various ways—by revenue duties, customs duties, realization of fines, and so on—provided the king is able to give full protection to his subjects to assure the security of their life and property.</p>
+<p>Unless he is able to give protection, he cannot levy taxes.</p>
+<p>However, a king must not levy any tax upon the brahmanas and the Vaisnavas fully engaged in Krsna consciousness.</p>
+
+
+
+<p><strong>7.11.15</strong></p>
+<p>vaisyas tu varta-vrttih syan</p>
+<p>nityam brahma-kulanugah</p>
+<p>sudrasya dvija-susrusa</p>
+<p>vrttis ca svamino bhavet</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vaisyah—the mercantile community; tu—indeed; varta-vrttih—engaged in agriculture, cow protection, and trade; syat—must be; nityam—always; brahma-kula-anugah—following the directions of the brahmanas; sudrasya—of the fourth-grade persons, the workers; dvija-susrusa—the service of the three higher sections (the brahmanas, ksatriyas and vaisyas); vrttih—means of livelihood; ca—and; svaminah—of the master; bhavet—he must be.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The mercantile community should always follow the directions of the brahmanas and engage in such occupational duties as agriculture, trade, and protection of cows.</p>
+<p>For the sudras the only duty is to accept a master from a higher social order and engage in his service.</p>
+
+
+
+<p><strong>7.11.16</strong></p>
+<p>varta vicitra salina-</p>
+<p>yayavara-silonchanam</p>
+<p>vipra-vrttis caturdheyam</p>
+<p>sreyasi cottarottara</p>
+<p><strong>SYNONYMS</strong></p>
+<p>varta—the occupational means of livelihood for the vaisya (agriculture, cow protection, and trade); vicitra—various types; salina—livelihood achieved without effort; yayavara—going to the field to beg for some paddy; sila—picking up the grains left in the field by the proprietor; unchanam—picking up the grains that have fallen from bags in shops; vipra-vrttih—the means of livelihood for the brahmanas; caturdha—four different kinds; iyam—this; sreyasi—better; ca—also; uttara-uttara—the latter compared to the former.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>As an alternative, a brahmana may also take to the vaisya’s occupational duty of agriculture, cow protection, or trade.</p>
+<p>He may depend on that which he has received without begging, he may beg in the paddy field every day, he may collect paddy left in a field by its proprietor, or he may collect food grains left here and there in the shops of grain dealers.</p>
+<p>These are four means of livelihood that may also be adopted by brahmanas.</p>
+<p>Among these four, each of them in succession is better than the one preceding it.</p>
+<p><strong>PURPORT</strong></p>
+<p>A brahmana is sometimes offered land and cows in charity, and thus for his livelihood he may act in the same way as a vaisya, by cultivating land, giving protection to cows and trading off his surpluses.</p>
+<p>A better process, however, is to pick up grains from a field or from a dealer’s shop without begging.</p>
+
+
+
+<p><strong>7.11.17</strong></p>
+<p>jaghanyo nottamam vrttim</p>
+<p>anapadi bhajen narah</p>
+<p>rte rajanyam apatsu</p>
+<p>sarvesam api sarvasah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>jaghanyah—low (person); na—not; uttamam—high; vrttim—means of livelihood; anapadi—when there is no social upheaval; bhajet—may accept; narah—a man; rte—except; rajanyam—the profession of the ksatriyas; apatsu—at times of emergency; sarvesam—of everyone in every status of life; api—certainly; sarvasah—all professions or occupational duties.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Except in a time of emergency, lower persons should not accept the occupational duties of those who are higher.</p>
+<p>When there is such an emergency, of course, everyone but the ksatriya may accept the means of livelihood of others.</p>
+<p><strong>PURPORT</strong></p>
+<p>The occupational duty of a brahmana should not be accepted by persons in lower social orders, especially vaisyas and sudras.</p>
+<p>For example, an occupational duty of the brahmana is to teach Vedic knowledge, but unless there is an emergency, this professional duty should not be accepted by the ksatriyas, vaisyas or sudras.</p>
+<p>Even a ksatriya cannot accept the duties of a brahmana unless there is an emergency, and then even if he does so he should not accept charity from anyone else.</p>
+<p>Sometimes brahmanas protest against our Krsna consciousness movement for creating brahmanas from Europeans, or, in other words, from mlecchas and yavanas.</p>
+<p>This movement, however, is here supported in Srimad-Bhagavatam.</p>
+<p>At the present moment, society is in a chaotic condition, and everyone has given up the cultivation of spiritual life, which is especially meant for the brahmanas.</p>
+<p>Because spiritual culture has been stopped all over the world, there is now an emergency, and therefore it is now time to train those who are considered lower and condemned, so that they may become brahmanas and take up the work of spiritual progress.</p>
+<p>The spiritual progress of human society has been stopped, and this should be considered an emergency.</p>
+<p>Here is solid support from Narada Muni of the movement known as Krsna consciousness.</p>
+
+
+
+<p><strong>7.11.18-20</strong></p>
+<p>rtamrtabhyam jiveta</p>
+<p>mrtena pramrtena va</p>
+<p>satyanrtabhyam api va</p>
+<p>na sva-vrttya kadacana</p>
+<p>rtam unchasilam proktam</p>
+<p>amrtam yad ayacitam</p>
+<p>mrtam tu nitya-yacna syat</p>
+<p>pramrtam karsanam smrtam</p>
+<p>satyanrtam ca vanijyam</p>
+<p>sva-vrttir nica-sevanam</p>
+<p>varjayet tam sada vipro</p>
+<p>rajanyas ca jugupsitam</p>
+<p>sarva-vedamayo viprah</p>
+<p>sarva-devamayo nrpah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>rta-amrtabhyam—of the means of livelihood known as rta and amrta; jiveta—one may live; mrtena—by the profession of mrta; pramrtena va—or by the profession of pramrta; satyanrtabhyam api—even by the profession of satyanrta; va—or; na—never; sva-vrttya—by the profession of the dogs; kadacana—at any time; rtam—rta; unchasilam—the livelihood of collecting grains left in the field or marketplace; proktam—it is said; amrtam—the profession of amrta; yat—which; ayacitam—obtained without begging from anyone else; mrtam—the profession of mrta; tu—but; nitya-yacna—begging grains every day from the farmers; syat—should be; pramrtam—the pramrta means of livelihood; karsanam—tilling the field; smrtam—it is so remembered; satyanrtam—the occupation of satyanrta; ca—and; vanijyam—trade; sva-vrttih—the occupation of the dogs; nica-sevanam—the service of low persons (the vaisyas and sudras); varjayet—should give up; tam—that (the profession of the dogs); sada—always; viprah—the brahmana; rajanyah ca—and the ksatriya; jugupsitam—very abominable; sarva-veda-mayah—learned in all the Vedic understandings; viprah—the brahmana; sarva-deva-mayah—the embodiment of all the demigods; nrpah—the ksatriya or king.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In time of emergency, one may accept any of the various types of professions known as rta, amrta, mrta, pramrta and satyanrta, but one should not at any time accept the profession of a dog.</p>
+<p>The profession of unchasila, collecting grains from the field, is called rta.</p>
+<p>Collecting without begging is called amrta, begging grains is called mrta, tilling the ground is called pramrta, and trade is called satyanrta.</p>
+<p>Engaging in the service of low-grade persons, however, is called sva-vrtti, the profession of the dogs.</p>
+<p>Specifically, brahmanas and ksatriyas should not engage in the low and abominable service of sudras.</p>
+<p>Brahmanas should be well acquainted with all the Vedic knowledge, and ksatriyas should be well acquainted with the worship of demigods.</p>
+<p><strong>PURPORT</strong></p>
+<p>As stated in Bhagavad-gita (4.13), catur-varnyam maya srstam guna-karma-vibhagasah: the four divisions of human society were created by the Supreme Lord according to the three modes of material nature and the work ascribed to them.</p>
+<p>Formerly, the principle of dividing human society into four sections—brahmana, ksatriya, vaisya and sudra—was strictly followed, but because of gradual neglect of the varnasrama principles, varna-sankara population developed, and the entire institution has now been lost.</p>
+<p>In this age of Kali, practically everyone is a sudra (kalau sudra-sambhavah), and finding anyone who is a brahmana, ksatriya or vaisya is very difficult.</p>
+<p>Although the Krsna consciousness movement is a movement of brahmanas and Vaisnavas, it is trying to reestablish the divine varnasrama institution, for without this division of society there cannot be peace and prosperity anywhere.</p>
+
+
+
+<p><strong>7.11.21</strong></p>
+<p>samo damas tapah saucam</p>
+<p>santosah ksantir arjavam</p>
+<p>jnanam dayacyutatmatvam</p>
+<p>satyam ca brahma-laksanam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>samah—control of the mind; damah—control of the senses; tapah—austerity and penance; saucam—cleanliness; santosah—satisfaction; ksantih—forgiveness (being unagitated by anger); arjavam—simplicity; jnanam—knowledge; daya—mercy; acyuta-atmatvam—accepting oneself as an eternal servant of the Lord; satyam—truthfulness; ca—also; brahma-laksanam—the symptoms of a brahmana.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The symptoms of a brahmana are control of the mind, control of the senses, austerity and penance, cleanliness, satisfaction, forgiveness, simplicity, knowledge, mercy, truthfulness, and complete surrender to the Supreme Personality of Godhead.</p>
+<p><strong>PURPORT</strong></p>
+<p>In the institution of varnasrama-dharma, the symptoms of a brahmana, ksatriya, vaisya, sudra, brahmacari, grhastha, vanaprastha, and sannyasi are all described.</p>
+<p>The ultimate aim is acyutatmatvam—to think always of the Supreme Personality of Godhead, Krsna, or Visnu.</p>
+<p>To make advancement in Krsna consciousness, one has to become a brahmana, with the above-mentioned symptoms.</p>
+
+
+
+<p><strong>7.11.22</strong></p>
+<p>sauryam viryam dhrtis tejas</p>
+<p>tyagas catmajayah ksama</p>
+<p>brahmanyata prasadas ca</p>
+<p>satyam ca ksatra-laksanam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sauryam—power in battle; viryam—being unconquerable; dhrtih—patience (even in reverses, a ksatriya is very grave); tejah—ability to defeat others; tyagah—giving charity; ca—and; atma-jayah—not being overwhelmed by bodily necessities; ksama—forgiveness; brahmanyata—faithfulness to the brahminical principles; prasadah—jolliness in any condition of life; ca—and; satyam ca—and truthfulness; ksatra-laksanam—these are the symptoms of a ksatriya.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>To be influential in battle, unconquerable, patient, challenging and charitable, to control the bodily necessities, to be forgiving, to be attached to the brahminical nature and to be always jolly and truthful—these are the symptoms of the ksatriya.</p>
+
+
+
+<p><strong>7.11.23</strong></p>
+<p>deva-gurv-acyute bhaktis</p>
+<p>tri-varga-pariposanam</p>
+<p>astikyam udyamo nityam</p>
+<p>naipunyam vaisya-laksanam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>deva-guru-acyute—unto the demigods, the spiritual master and Lord Visnu; bhaktih—engagement in devotional service; tri-varga—of the three principles of pious life (religion, economic development and sense gratification); pariposanam—execution; astikyam—faith in the scriptures, the spiritual master and the Supreme Lord; udyamah—active; nityam—without cessation, continuously; naipunyam—expertise; vaisya-laksanam—the symptoms of a vaisya.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Being always devoted to the demigods, the spiritual master and the Supreme Lord, Visnu; endeavoring for advancement in religious principles, economic development and sense gratification (dharma, artha and kama); believing in the words of the spiritual master and scripture; and always endeavoring with expertise in earning money—these are the symptoms of the vaisya.</p>
+
+
+
+<p><strong>7.11.24</strong></p>
+<p>sudrasya sannatih saucam</p>
+<p>seva svaminy amayaya</p>
+<p>amantra-yajno hy asteyam</p>
+<p>satyam go-vipra-raksanam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sudrasya—of the sudra (the fourth grade of man in society, the worker); sannatih—obedience to the higher classes (the brahmanas, ksatriyas and vaisyas); saucam—cleanliness; seva—service; svamini—to the master who maintains him; amayaya—without duplicity; amantra-yajnah—performance of sacrifices simply by offering obeisances (without mantras); hi—certainly; asteyam—practicing not to steal; satyam—truthfulness; go—cows; vipra—brahmanas; raksanam—protecting.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Offering obeisances to the higher sections of society (the brahmanas, ksatriyas and vaisyas), being always very clean, being free from duplicity, serving one’s master, performing sacrifices without uttering mantras, not stealing, always speaking the truth and giving all protection to the cows and brahmanas—these are the symptoms of the sudra.</p>
+<p><strong>PURPORT</strong></p>
+<p>It is everyone’s experience that workers or servants are generally accustomed to stealing.</p>
+<p>A first-class servant is one who does not steal.</p>
+<p>Here it is recommended that a first-class sudra must remain very clean, must not steal or speak lies, and must always render service to his master.</p>
+<p>A sudra may attend sacrifices and Vedic ritualistic ceremonies along with his master, but he should not utter the mantras, for these may be uttered only by the members of the higher sections of society.</p>
+<p>Unless one is completely pure and has been raised to the standard of a brahmana, ksatriya or vaisya—in other words, unless one is dvija, twice-born—the chanting of mantras will not be fruitful.</p>
+
+
+
+<p><strong>7.11.25</strong></p>
+<p>strinam ca pati-devanam</p>
+<p>tac-chusrusanukulata</p>
+<p>tad-bandhusv anuvrttis ca</p>
+<p>nityam tad-vrata-dharanam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>strinam—of women; ca—also; pati-devanam—who have accepted their husbands as worshipable; tat-susrusa—readiness to render service to her husband; anukulata—being favorably disposed towards her husband; tat-bandhusu—unto the friends and relatives of the husband; anuvrttih—being similarly disposed (to treat them well for the satisfaction of the husband); ca—and; nityam—regularly; tat-vrata-dharanam—accepting the vows of the husband or acting exactly as the husband acts.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>To render service to the husband, to be always favorably disposed toward the husband, to be equally well disposed toward the husband’s relatives and friends, and to follow the vows of the husband—these are the four principles to be followed by women described as chaste.</p>
+<p><strong>PURPORT</strong></p>
+<p>It is very important for peaceful householder life that a woman follow the vow of her husband.</p>
+<p>Any disagreement with the husband’s vow will disrupt family life.</p>
+<p>In this regard, Canakya Pandita gives a very valuable instruction: dampatyoh kalaho nasti tatra srih svayam agatah.</p>
+<p>When there are no fights between husband and wife, the goddess of fortune automatically comes to the home.</p>
+<p>A woman’s education should be conducted along the lines indicated in this verse.</p>
+<p>The basic principle for a chaste woman is to be always favorably disposed toward her husband.</p>
+<p>In Bhagavad-gita (1.40) it is said, strisu dustasu varsneya jayate varna-sankarah: if the women are polluted, there will be varna-sankara population.</p>
+<p>In modern terms, the varna-sankara are the hippies, who do not follow any regulative injunctions.</p>
+<p>Another explanation is that when the population is varna-sankara, no one can know who is on what platform.</p>
+<p>The varnasrama system scientifically divides society into four varnas and four asramas, but in varna-sankara society there are no such distinctions, and no one can know who is who.</p>
+<p>In such a society, no one can distinguish between a brahmana, a ksatriya, a vaisya and a sudra.</p>
+<p>For peace and happiness in the material world, the varnasrama institution must be introduced.</p>
+<p>The symptoms of one’s activities must be defined, and one must be educated accordingly.</p>
+<p>Then spiritual advancement will automatically be possible.</p>
+
+
+
+<p><strong>7.11.26-27</strong></p>
+<p>sammarjanopalepabhyam</p>
+<p>grha-mandana-vartanaih</p>
+<p>svayam ca mandita nityam</p>
+<p>parimrsta-paricchada</p>
+<p>kamair uccavacaih sadhvi</p>
+<p>prasrayena damena ca</p>
+<p>vakyaih satyaih priyaih premna</p>
+<p>kale kale bhajet patim</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sammarjana—by cleaning; upalepabhyam—by smearing with water or other cleansing liquids; grha—the household; mandana—decorating; vartanaih—remaining at home and engaged in such duties; svayam—personally; ca—also; mandita—finely dressed; nityam—always; parimrsta—cleansed; paricchada—garments and household utensils; kamaih—according to the desires of the husband; ucca-avacaih—both great and small; sadhvi—a chaste woman; prasrayena—with modesty; damena—by controlling the senses; ca—also; vakyaih—by speech; satyaih—truthful; priyaih—very pleasing; premna—with love; kale kale—at appropriate times; bhajet—should worship; patim—her husband.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>A chaste woman must dress nicely and decorate herself with golden ornaments for the pleasure of her husband.</p>
+<p>Always wearing clean and attractive garments, she should sweep and clean the household with water and other liquids so that the entire house is always pure and clean.</p>
+<p>She should collect the household paraphernalia and keep the house always aromatic with incense and flowers and must be ready to execute the desires of her husband.</p>
+<p>Being modest and truthful, controlling her senses, and speaking in sweet words, a chaste woman should engage in the service of her husband with love, according to time and circumstances.</p>
+
+
+
+<p><strong>7.11.28</strong></p>
+<p>santustalolupa daksa</p>
+<p>dharma-jna priya-satya-vak</p>
+<p>apramatta sucih snigdha</p>
+<p>patim tv apatitam bhajet</p>
+<p><strong>SYNONYMS</strong></p>
+<p>santusta—always satisfied; alolupa—without being greedy; daksa—very expert in serving; dharma-jna—fully conversant with religious principles; priya—pleasing; satya—truthful; vak—in speaking; apramatta—attentive in service to her husband; sucih—always clean and pure; snigdha—affectionate; patim—the husband; tu—but; apatitam—who is not fallen; bhajet—should worship.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>A chaste woman should not be greedy, but satisfied in all circumstances.</p>
+<p>She must be very expert in handling household affairs and should be fully conversant with religious principles.</p>
+<p>She should speak pleasingly and truthfully and should be very careful and always clean and pure.</p>
+<p>Thus a chaste woman should engage with affection in the service of a husband who is not fallen.</p>
+<p><strong>PURPORT</strong></p>
+<p>According to the injunction of Yajnavalkya, an authority on religious principles, asuddheh sampratiksyo hi mahapataka-dusitah.</p>
+<p>One is considered contaminated by the reactions of great sinful activities when one has not been purified according to the methods of the dasa-vidha-samskara.</p>
+<p>In Bhagavad-gita, however, the Lord says, na mam duskrtino mudhah prapadyante naradhamah: (Bg.7.15) Those miscreants who do not surrender unto Me are the lowest of mankind The word naradhama means nondevotee Sri Caitanya Mahaprabhu also said, yei bhaje sei bada, abhakta—hina, chara.</p>
+<p>Anyone who is a devotee is sinless.</p>
+<p>One who is not a devotee, however, is the most fallen and condemned.</p>
+<p>It is recommended, therefore, that a chaste wife not associate with a fallen husband.</p>
+<p>A fallen husband is one who is addicted to the four principles of sinful activity—namely illicit sex, meat-eating, gambling and intoxication.</p>
+<p>Specifically, if one is not a soul surrendered to the Supreme Personality of Godhead, he is understood to be contaminated.</p>
+<p>Thus a chaste woman is advised not to agree to serve such a husband.</p>
+<p>It is not that a chaste woman should be like a slave while her husband is naradhama, the lowest of men.</p>
+<p>Although the duties of a woman are different from those of a man, a chaste woman is not meant to serve a fallen husband.</p>
+<p>If her husband is fallen, it is recommended that she give up his association.</p>
+<p>Giving up the association of her husband does not mean, however, that a woman should marry again and thus indulge in prostitution.</p>
+<p>If a chaste woman unfortunately marries a husband who is fallen, she should live separately from him.</p>
+<p>Similarly, a husband can separate himself from a woman who is not chaste according to the description of the sastra.</p>
+<p>The conclusion is that a husband should be a pure Vaisnava and that a woman should be a chaste wife with all the symptoms described in this regard.</p>
+<p>Then both of them will be happy and make spiritual progress in Krsna consciousness.</p>
+
+
+
+<p><strong>7.11.29</strong></p>
+<p>ya patim hari-bhavena</p>
+<p>bhajet srir iva tat-para</p>
+<p>hary-atmana harer loke</p>
+<p>patya srir iva modate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ya—any woman who; patim—her husband; hari-bhavena—mentally accepting him as equal to Hari, the Supreme Personality of Godhead; bhajet—worships or renders service to; srih iva—exactly like the goddess of fortune; tat-para—being devoted; hari-atmana—completely absorbed in thoughts of Hari; hareh loke—in the spiritual world, the Vaikuntha planets; patya—with her husband; srih iva—exactly like the goddess of fortune; modate—enjoys spiritual, eternal life.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The woman who engages in the service of her husband, following strictly in the footsteps of the goddess of fortune, surely returns home, back to Godhead, with her devotee husband, and lives very happily in the Vaikuntha planets.</p>
+<p><strong>PURPORT</strong></p>
+<p>The faithfulness of the goddess of fortune is the ideal for a chaste woman.</p>
+<p>Brahma-samhita (5.29) says, laksmi-sahasra-sata-sambhrama-sevyamanam.</p>
+<p>In the Vaikuntha planets, Lord Visnu is worshiped by many, many thousands of goddesses of fortune, and in Goloka Vrndavana, Lord Krsna is worshiped by many, many thousands of gopis, all of whom are goddesses of fortune.</p>
+<p>A woman should serve her husband as faithfully as the goddess of fortune.</p>
+<p>A man should be an ideal servant of the Lord, and a woman should be an ideal wife like the goddess of fortune.</p>
+<p>Then both husband and wife will be so faithful and strong that by acting together they will return home, back to Godhead, without a doubt.</p>
+<p>In this regard, Srila Madhvacarya gives this opinion:</p>
+<p>harir asmin sthita iti</p>
+<p>strinam bhartari bhavana</p>
+<p>sisyanam ca gurau nityam</p>
+<p>sudranam brahmanadisu</p>
+<p>bhrtyanam svamini tatha</p>
+<p>hari-bhava udiritah</p>
+<p>A woman should think of her husband as the Supreme Lord.</p>
+<p>Similarly, a disciple should think of the spiritual master as the Supreme Personality of Godhead, a sudra should think of a brahmana as the Supreme Personality of Godhead, and a servant should think of his master as the Supreme Personality of Godhead.</p>
+<p>In this way, all of them will automatically become devotees of the Lord.</p>
+<p>In other words, by thinking this way, all of them will become Krsna conscious.</p>
+
+
+
+<p><strong>7.11.30</strong></p>
+<p>vrttih sankara-jatinam</p>
+<p>tat-tat-kula-krta bhavet</p>
+<p>acauranam apapanam</p>
+<p>antyajantevasayinam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vrttih—occupational duty; sankara-jatinam—of the mixed classes of men (those other than the four divisions); tat-tat—according to their respective; kula-krta—family tradition; bhavet—should be; acauranam—not thieves by profession; apapanam—not sinful; antyaja—lower classes; antevasayinam—known as antevasayi or candala.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Among the mixed classes known as sankara, those who are not thieves are known as antevasayi or candalas (dog-eaters), and they also have their hereditary customs.</p>
+<p><strong>PURPORT</strong></p>
+<p>The four principal divisions of society—brahmana, ksatriya, vaisya and sudra—have been defined, and now there is a description of the antyaja, the mixed classes.</p>
+<p>Among the mixed classes, there are two divisions—pratilomaja and anulomaja.</p>
+<p>If a woman of a high caste marries a man of a lower caste, their union is called pratilo.</p>
+<p>If a woman of a low caste, however, marries a man of a higher caste, their union is called anulo.</p>
+<p>The members of such dynasties have their traditional duties as barbers, washermen and so on.</p>
+<p>Among the antyajas, those who are still somewhat pure in that they do not steal and are not addicted to meat-eating, drinking, illicit sex and gambling are called antevasayi.</p>
+<p>Among people of the lower classes, intermarriage and the drinking of wine are allowed, for these people do not recognize such conduct as sinful among themselves.</p>
+
+
+
+<p><strong>7.11.31</strong></p>
+<p>prayah sva-bhava-vihito</p>
+<p>nrnam dharmo yuge yuge</p>
+<p>veda-drgbhih smrto rajan</p>
+<p>pretya ceha ca sarma-krt</p>
+<p><strong>SYNONYMS</strong></p>
+<p>prayah—generally; sva-bhava-vihitah—prescribed, according to one’s material modes of nature; nrnam—of human society; dharmah—the occupational duty; yuge yuge—in every age; veda-drgbhih—by brahmanas well conversant in the Vedic knowledge; smrtah—recognized; rajan—O King; pretya—after death; ca—and; iha—here (in this body); ca—also; sarma-krt—auspicious.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear King, brahmanas well conversant in Vedic knowledge have given their verdict that in every age (yuga) the conduct of different sections of people according to their material modes of nature is auspicious both in this life and after death.</p>
+<p><strong>PURPORT</strong></p>
+<p>In Bhagavad-gita (3.35) it is said, sreyan sva-dharmo vigunah para-dharmat svanusthitat: It is far better to discharge one’s prescribed duties, even though they may be faulty, than another’s duties The antyajas, the men of the lower classes, are accustomed to stealing, drinking and illicit sex, but that is not considered sinful.</p>
+<p>For example, if a tiger kills a man, this is not sinful but if a man kills another man, this is considered sinful, and the killer is hanged.</p>
+<p>What is a daily affair among the animals is a sinful act in human society.</p>
+<p>Thus according to the symptoms of higher and lower sections of society, there are different varieties of occupational duties.</p>
+<p>According to the experts in Vedic knowledge, these duties are prescribed in terms of the age concerned.</p>
+
+
+
+<p><strong>7.11.32</strong></p>
+<p>vrttya sva-bhava-krtaya</p>
+<p>vartamanah sva-karma-krt</p>
+<p>hitva sva-bhava-jam karma</p>
+<p>sanair nirgunatam iyat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vrttya—with the profession; sva-bhava-krtaya—performed according to one’s modes of material nature; vartamanah—existing; sva-karma-krt—executing his own work; hitva—giving up; sva-bhava-jam—born from one’s own modes of nature; karma—activities; sanaih—gradually; nirgunatam—transcendental position; iyat—may attain.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>If one acts in his profession according to his position in the modes of nature and gradually gives up these activities, he attains the niskama stage.</p>
+<p><strong>PURPORT</strong></p>
+<p>If one gradually gives up his hereditary customs and duties and tries to serve the Supreme Personality of Godhead in his natural position, he is gradually able to become free from these activities, and he attains the stage of niskama, freedom from material desires.</p>
+
+
+
+<p><strong>7.11.33-34</strong></p>
+<p>upyamanam muhuh ksetram</p>
+<p>svayam nirviryatam iyat</p>
+<p>na kalpate punah sutyai</p>
+<p>uptam bijam ca nasyati</p>
+<p>evam kamasayam cittam</p>
+<p>kamanam atisevaya</p>
+<p>virajyeta yatha rajann</p>
+<p>agnivat kama-bindubhih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>upyamanam—being cultivated; muhuh—again and again; ksetram—a field; svayam—itself; nirviryatam—barrenness; iyat—may obtain; na kalpate—is not suitable; punah—again; sutyai—for growing further harvests; uptam—sown; bijam—the seed; ca—and; nasyati—is spoiled; evam—in this way; kama-asayam—full of lusty desires; cittam—the core of the heart; kamanam—of the desirable objects; ati-sevaya—by enjoyment over and over again; virajyeta—may become detached; yatha—just as; rajan—O King; agni-vat—a fire; kama-bindubhih—by small drops of clarified butter.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear King, if an agricultural field is cultivated again and again, the power of its production decreases, and whatever seeds are sown there are lost.</p>
+<p>Just as drops of ghee on a fire never extinguish the fire but a flood of ghee will, similarly, overindulgence in lusty desires mitigates such desires entirely.</p>
+<p><strong>PURPORT</strong></p>
+<p>If one continuously sprinkles drops of ghee on a fire, the fire will not be extinguished, but if one suddenly puts a lump of ghee on a fire, the fire may possibly be extinguished entirely.</p>
+<p>Similarly, those who are too sinful and have thus been born in the lower classes are allowed to enjoy sinful activities fully, for thus there is a chance that these activities will become detestful to them, and they will get the opportunity to be purified.</p>
+
+
+
+<p><strong>7.11.35</strong></p>
+<p>yasya yal laksanam proktam</p>
+<p>pumso varnabhivyanjakam</p>
+<p>yad anyatrapi drsyeta</p>
+<p>tat tenaiva vinirdiset</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yasya—of whom; yat—which; laksanam—symptom; proktam—described (above); pumsah—of a person; varna-abhivyanjakam—indicating the classification (brahmana, ksatriya, vaisya, sudra, etc.); yat—if; anyatra—elsewhere; api—also; drsyeta—is seen; tat—that; tena—by that symptom; eva—certainly; vinirdiset—one should designate.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>If one shows the symptoms of being a brahmana, ksatriya, vaisya or sudra, as described above, even if he has appeared in a different class, he should be accepted according to those symptoms of classification.</p>
+<p><strong>PURPORT</strong></p>
+<p>Herein it is clearly stated by Narada Muni that one should not be accepted as a brahmana, ksatriya, vaisya or sudra according to birth, for although this is going on now, it is not accepted by the sastras.</p>
+<p>As stated in Bhagavad-gita (4.13), catur-varnyam maya srstam guna-karma-vibhagasah.</p>
+<p>Thus the four divisions of society—brahmana, ksatriya, vaisya and sudra—are to be ascertained according to qualities and activities.</p>
+<p>If one was born in a brahmana family and has acquired the brahminical qualifications, he is to be accepted as a brahmana; otherwise, he should be considered a brahma-bandhu.</p>
+<p>Similarly, if a sudra acquires the qualities of a brahmana, although he was born in a sudra family, he is not a sudra; because he has developed the qualities of a brahmana, he should be accepted as a brahmana.</p>
+<p>The Krsna consciousness movement is meant to develop these brahminical qualities.</p>
+<p>Regardless of the community in which one was born, if one develops the qualities of a brahmana he should be accepted as a brahmana, and he then may be offered the order of sannyasa.</p>
+<p>Unless one is qualified in terms of the brahminical symptoms, one cannot take sannyasa.</p>
+<p>In designating a person a brahmana, ksatriya, vaisya or sudra, birth is not the essential symptom.</p>
+<p>This understanding is very important.</p>
+<p>Herein Narada Muni distinctly says that one may be accepted according to the caste of his birth if he has the corresponding qualifications, but otherwise he should not.</p>
+<p>One who has attained the qualifications of a brahmana, regardless of where he was born, should be accepted as a brahmana.</p>
+<p>Similarly, if one has developed the qualities of a sudra or a candala, regardless of where he was born, he should be accepted in terms of those symptoms.</p>
+
+
+</article></body></html>

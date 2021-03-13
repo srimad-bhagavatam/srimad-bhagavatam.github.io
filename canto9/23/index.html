@@ -1,154 +1,41 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>The Dynasties of the Sons of Yayati - The Dynasties of the Sons of Yayati</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">The Dynasties of the Sons of Yayati</a></li><li class="affix"><a href="9.23.2.html">9.23.2</a></li><li class="affix"><a href="9.23.3-4.html">9.23.3-4</a></li><li class="affix"><a href="9.23.5.html">9.23.5</a></li><li class="affix"><a href="9.23.6.html">9.23.6</a></li><li class="affix"><a href="9.23.7-10.html">9.23.7-10</a></li><li class="affix"><a href="9.23.11.html">9.23.11</a></li><li class="affix"><a href="9.23.12.html">9.23.12</a></li><li class="affix"><a href="9.23.13.html">9.23.13</a></li><li class="affix"><a href="9.23.14.html">9.23.14</a></li><li class="affix"><a href="9.23.15.html">9.23.15</a></li><li class="affix"><a href="9.23.16.html">9.23.16</a></li><li class="affix"><a href="9.23.17.html">9.23.17</a></li><li class="affix"><a href="9.23.18-19.html">9.23.18-19</a></li><li class="affix"><a href="9.23.20-21.html">9.23.20-21</a></li><li class="affix"><a href="9.23.22.html">9.23.22</a></li><li class="affix"><a href="9.23.23.html">9.23.23</a></li><li class="affix"><a href="9.23.24.html">9.23.24</a></li><li class="affix"><a href="9.23.25.html">9.23.25</a></li><li class="affix"><a href="9.23.26.html">9.23.26</a></li><li class="affix"><a href="9.23.27.html">9.23.27</a></li><li class="affix"><a href="9.23.28.html">9.23.28</a></li><li class="affix"><a href="9.23.29.html">9.23.29</a></li><li class="affix"><a href="9.23.30-31.html">9.23.30-31</a></li><li class="affix"><a href="9.23.32.html">9.23.32</a></li><li class="affix"><a href="9.23.33.html">9.23.33</a></li><li class="affix"><a href="9.23.34.html">9.23.34</a></li><li class="affix"><a href="9.23.35-36.html">9.23.35-36</a></li><li class="affix"><a href="9.23.37.html">9.23.37</a></li><li class="affix"><a href="9.23.38.html">9.23.38</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">The Dynasties of the Sons of Yayati</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#the-dynasties-of-the-sons-of-yayati" id="the-dynasties-of-the-sons-of-yayati">The Dynasties of the Sons of Yayati</a></h1>
-<h3><a class="header" href="#9231" id="9231">9.23.1</a></h3>
+<h1>The Dynasties of the Sons of Yayati</h1>
+<p><strong>9.23.1</strong></p>
 <p>sri-suka uvaca</p>
 <p>anoh sabhanaras caksuh</p>
 <p>paresnus ca trayah sutah</p>
@@ -160,63 +47,472 @@
 <p>Sukadeva Gosvami said: Anu, the fourth son of Yayati, had three sons, named Sabhanara, Caksu and Paresnu.</p>
 <p>O King, from Sabhanara came a son named Kalanara, and from Kalanara came a son named Srnjaya.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="9.23.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>9.23.2</strong></p>
+<p>janamejayas tasya putro</p>
+<p>mahasalo mahamanah</p>
+<p>usinaras titiksus ca</p>
+<p>mahamanasa atmajau</p>
+<p><strong>SYNONYMS</strong></p>
+<p>janamejayah—Janamejaya; tasya—of him (Janamejaya); putrah—a son; mahasalah—Mahasala; mahamanah—(from Mahasala) a son named Mahamana; usinarah—Usinara; titiksuh—Titiksu; ca—and; mahamanasah—from Mahamana; atmajau—two sons.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>From Srnjaya came a son named Janamejaya.</p>
+<p>From Janamejaya came Mahasala; from Mahasala, Mahamana; and from Mahamana two sons, named Usinara and Titiksu.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="9.23.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>9.23.3-4</strong></p>
+<p>sibir varah krmir daksas</p>
+<p>catvarosinaratmajah</p>
+<p>vrsadarbhah sudhiras ca</p>
+<p>madrah kekaya atmavan</p>
+<p>sibes catvara evasams</p>
+<p>titiksos ca rusadrathah</p>
+<p>tato homo ’tha sutapa</p>
+<p>balih sutapaso ’bhavat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sibih—Sibi; varah—Vara; krmih—Krmi; daksah—Daksa; catvarah—four; usinara-atmajah—the sons of Usinara; vrsadarbhah—Vrsadarbha; sudhirah ca—as well as Sudhira; madrah—Madra; kekayah—Kekaya; atmavan—self-realized; sibeh—of Sibi; catvarah—four; eva—indeed; asan—there were; titiksoh—of Titiksu; ca—also; rusadrathah—a son named Rusadratha; tatah—from him (Rusadratha); homah—Homa; atha—from him (Homa); sutapah—Sutapa; balih—Bali; sutapasah—of Sutapa; abhavat—there was.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The four sons of Usinara were Sibi, Vara, Krmi and Daksa, and from Sibi again came four sons, named Vrsadarbha, Sudhira, Madra and atma-tattva-vit Kekaya.</p>
+<p>The son of Titiksu was Rusadratha.</p>
+<p>From Rusadratha came Homa; from Homa, Sutapa; and from Sutapa, Bali.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>9.23.5</strong></p>
+<p>anga-vanga-kalingadyah</p>
+<p>suhma-pundraudra-samjnitah</p>
+<p>jajnire dirghatamaso</p>
+<p>baleh ksetre mahiksitah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>anga—Anga; vanga—Vanga; kalinga—Kalinga; adyah—headed by; suhma—Suhma; pundra—Pundra; odra—Odra; samjnitah—known as such; jajnire—were born; dirghatamasah—by the semen of Dirghatama; baleh—of Bali; ksetre—in the wife; mahi-ksitah—of the king of the world.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>By the semen of Dirghatama in the wife of Bali, the emperor of the world, six sons took birth, namely Anga, Vanga, Kalinga, Suhma, Pundra and Odra.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>9.23.6</strong></p>
+<p>cakruh sva-namna visayan</p>
+<p>sad iman pracyakams ca te</p>
+<p>khalapano ’ngato jajne</p>
+<p>tasmad divirathas tatah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>cakruh—they created; sva-namna—by their own names; visayan—different states; sat—six; iman—all these; pracyakan ca—on the eastern side (of India); te—those (six kings); khalapanah—Khalapana; angatah—from King Anga; jajne—took birth; tasmat—from him (Khalapana); divirathah—Diviratha; tatah—thereafter.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>These six sons, headed by Anga, later became kings of six states in the eastern side of India.</p>
+<p>These states were known according to the names of their respective kings.</p>
+<p>From Anga came a son named Khalapana, and from Khalapana came Diviratha.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>9.23.7-10</strong></p>
+<p>suto dharmaratho yasya</p>
+<p>jajne citraratho ’prajah</p>
+<p>romapada iti khyatas</p>
+<p>tasmai dasarathah sakha</p>
+<p>santam sva-kanyam prayacchad</p>
+<p>rsyasrnga uvaha yam</p>
+<p>deve ’varsati yam rama</p>
+<p>aninyur harini-sutam</p>
+<p>natya-sangita-vaditrair</p>
+<p>vibhramalinganarhanaih</p>
+<p>sa tu rajno ’napatyasya</p>
+<p>nirupyestim marutvate</p>
+<p>prajam adad dasaratho</p>
+<p>yena lebhe ’prajah prajah</p>
+<p>caturango romapadat</p>
+<p>prthulaksas tu tat-sutah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sutah—a son; dharmarathah—Dharmaratha; yasya—of whom (Diviratha); jajne—was born; citrarathah—Citraratha; aprajah—without any sons; romapadah—Romapada; iti—thus; khyatah—celebrated; tasmai—unto him; dasarathah—Dasaratha; sakha—friend; santam—Santa; sva-kanyam—Dasaratha’s own daughter; prayacchat—delivered; rsyasrngah—Rsyasrnga; uvaha—married; yam—unto her (Santa); deve—the demigod in charge of rainfall; avarsati—did not shower any rain; yam—unto whom (Rsyasrnga); ramah—prostitutes; aninyuh—brought; harini-sutam—that Rsyasrnga, who was the son of a doe; natya-sangita-vaditraih—by dancing, by singing and by a musical display; vibhrama—bewildering; alingana—by embracing; arhanaih—by worshiping; sah—he (Rsyasrnga); tu—indeed; rajnah—from Maharaja Dasaratha; anapatyasya—who was without issue; nirupya—after establishing; istim—a sacrifice; marutvate—of the demigod named Marutvan; prajam—issue; adat—delivered; dasarathah—Dasaratha; yena—by which (as a result of the yajna); lebhe—achieved; aprajah—although he had no sons; prajah—sons; caturangah—Caturanga; romapadat—from Citraratha; prthulaksah—Prthulaksa; tu—indeed; tat-sutah—the son of Caturanga.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>From Diviratha came a son named Dharmaratha, and his son was Citraratha, who was celebrated as Romapada.</p>
+<p>Romapada, however, was without issue, and therefore his friend Maharaja Dasaratha gave him his own daughter, named Santa.</p>
+<p>Romapada accepted her as his daughter, and thereafter she married Rsyasrnga.</p>
+<p>When the demigods from the heavenly planets failed to shower rain, Rsyasrnga was appointed the priest for performing a sacrifice, after being brought from the forest by the allurement of prostitutes, who danced, staged theatrical performances accompanied by music, and embraced and worshiped him.</p>
+<p>After Rsyasrnga came, the rain fell.</p>
+<p>Thereafter, Rsyasrnga performed a son-giving sacrifice on behalf of Maharaja Dasaratha, who had no issue, and then Maharaja Dasaratha had sons.</p>
+<p>From Romapada, by the mercy of Rsyasrnga, Caturanga was born, and from Caturanga came Prthulaksa.</p>
+
+
+
+<p><strong>9.23.11</strong></p>
+<p>brhadratho brhatkarma</p>
+<p>brhadbhanus ca tat-sutah</p>
+<p>adyad brhanmanas tasmaj</p>
+<p>jayadratha udahrtah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>brhadrathah—Brhadratha; brhatkarma—Brhatkarma; brhadbhanuh—Brhadbhanu; ca—also; tat-sutah—the sons of Prthulaksa; adyat—from the eldest (Brhadratha); brhanmanah—Brhanmana was born; tasmat—from him (Brhanmana); jayadrathah—a son named Jayadratha; udahrtah—celebrated as his son.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The sons of Prthulaksa were Brhadratha, Brhatkarma and Brhadbhanu.</p>
+<p>From the eldest, Brhadratha, came a son named Brhanmana, and from Brhanmana came a son named Jayadratha.</p>
+
+
+
+<p><strong>9.23.12</strong></p>
+<p>vijayas tasya sambhutyam</p>
+<p>tato dhrtir ajayata</p>
+<p>tato dhrtavratas tasya</p>
+<p>satkarmadhirathas tatah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vijayah—Vijaya; tasya—of him (Jayadratha); sambhutyam—in the womb of the wife; tatah—thereafter (from Vijaya); dhrtih—Dhrti; ajayata—took birth; tatah—from him (Dhrti); dhrtavratah—a son named Dhrtavrata; tasya—of him (Dhrtavrata); satkarma—Satkarma; adhirathah—Adhiratha; tatah—from him (Satkarma).</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Jayadratha, by the womb of his wife Sambhuti, was Vijaya, and from Vijaya, Dhrti was born.</p>
+<p>From Dhrti came Dhrtavrata; from Dhrtavrata, Satkarma; and from Satkarma, Adhiratha.</p>
+
+
+
+<p><strong>9.23.13</strong></p>
+<p>yo ’sau ganga-tate kridan</p>
+<p>manjusantargatam sisum</p>
+<p>kuntyapaviddham kaninam</p>
+<p>anapatyo ’karot sutam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah asau—one who (Adhiratha); ganga-tate—on the bank of the Ganges; kridan—while playing; manjusa-antahgatam—packed in a basket; sisum—a baby was found; kuntya apaviddham—this baby had been abandoned by Kunti; kaninam—because the baby was born during her maiden state, before her marriage; anapatyah—this Adhiratha, being sonless; akarot—accepted the baby; sutam—as his son.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>While playing on the bank of the Ganges, Adhiratha found a baby wrapped up in a basket.</p>
+<p>The baby had been left by Kunti because he was born before she was married.</p>
+<p>Because Adhiratha had no sons, he raised this baby as his own.</p>
+
+
+
+<p><strong>9.23.14</strong></p>
+<p>vrsasenah sutas tasya</p>
+<p>karnasya jagatipate</p>
+<p>druhyos ca tanayo babhruh</p>
+<p>setus tasyatmajas tatah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vrsasenah—Vrsasena; sutah—a son; tasya karnasya—of that same Karna; jagati pate—O Maharaja Pariksit; druhyoh ca—of Druhyu, the third son of Yayati; tanayah—a son; babhruh—Babhru; setuh—Setu; tasya—of him (Babhru); atmajah tatah—a son thereafter.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King, the only son of Karna was Vrsasena.</p>
+<p>Druhyu, the third son of Yayati, had a son named Babhru, and the son of Babhru was known as Setu.</p>
+
+
+
+<p><strong>9.23.15</strong></p>
+<p>arabdhas tasya gandharas</p>
+<p>tasya dharmas tato dhrtah</p>
+<p>dhrtasya durmadas tasmat</p>
+<p>pracetah pracetasah satam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>arabdhah—Arabdha (was the son of Setu); tasya—of him (Arabdha); gandharah—a son named Gandhara; tasya—of him (Gandhara); dharmah—a son known as Dharma; tatah—from him (Dharma); dhrtah—a son named Dhrta; dhrtasya—of Dhrta; durmadah—a son named Durmada; tasmat—from him (Durmada); pracetah—a son named Praceta; pracetasah—of Praceta; satam—there were one hundred sons.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Setu was Arabdha, Arabdha’s son was Gandhara, and Gandhara’s son was Dharma.</p>
+<p>Dharma’s son was Dhrta, Dhrta’s son was Durmada, and Durmada’s son was Praceta, who had one hundred sons.</p>
+
+
+
+<p><strong>9.23.16</strong></p>
+<p>mlecchadhipatayo ’bhuvann</p>
+<p>udicim disam asritah</p>
+<p>turvasos ca suto vahnir</p>
+<p>vahner bhargo ’tha bhanuman</p>
+<p><strong>SYNONYMS</strong></p>
+<p>mleccha—of the lands known as Mlecchadesa (where Vedic civilization was not present); adhipatayah—the kings; abhuvan—became; udicim—on the northern side of India; disam—the direction; asritah—accepting as the jurisdiction; turvasoh ca—of Turvasu, the second son of Maharaja Yayati; sutah—the son; vahnih—Vahni; vahneh—of Vahni; bhargah—the son named Bharga; atha—thereafter, his son; bhanuman—Bhanuman.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Pracetas (the sons of Praceta) occupied the northern side of India, which was devoid of Vedic civilization, and became kings there.</p>
+<p>Yayati’s second son was Turvasu.</p>
+<p>The son of Turvasu was Vahni; the son of Vahni, Bharga; the son of Bharga, Bhanuman.</p>
+
+
+
+<p><strong>9.23.17</strong></p>
+<p>tribhanus tat-suto ’syapi</p>
+<p>karandhama udara-dhih</p>
+<p>marutas tat-suto ’putrah</p>
+<p>putram pauravam anvabhut</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tribhanuh—Tribhanu; tat-sutah—the son of Bhanuman; asya—of him (Tribhanu); api—also; karandhamah—Karandhama; udara-dhih—who was very magnanimous; marutah—Maruta; tat-sutah—the son of Karandhama; aputrah—being without issue; putram—as his son; pauravam—a son of the Puru dynasty, Maharaja Dusmanta; anvabhut—adopted.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Bhanuman was Tribhanu, and his son was the magnanimous Karandhama.</p>
+<p>Karandhama’s son was Maruta, who had no sons and who therefore adopted a son of the Puru dynasty (Maharaja Dusmanta) as his own.</p>
+
+
+
+<p><strong>9.23.18-19</strong></p>
+<p>dusmantah sa punar bheje</p>
+<p>sva-vamsam rajya-kamukah</p>
+<p>yayater jyestha-putrasya</p>
+<p>yador vamsam nararsabha</p>
+<p>varnayami maha-punyam</p>
+<p>sarva-papa-haram nrnam</p>
+<p>yador vamsam narah srutva</p>
+<p>sarva-papaih pramucyate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dusmantah—Maharaja Dusmanta; sah—he; punah bheje—again accepted; sva-vamsam—his original dynasty (the Puru dynasty); rajya-kamukah—because of desiring the royal throne; yayateh—of Maharaja Yayati; jyestha-putrasya—of the first son, Yadu; yadoh vamsam—the dynasty of Yadu; nara-rsabha—O best of human beings, Maharaja Pariksit; varnayami—I shall describe; maha-punyam—supremely pious; sarva-papa-haram—vanquishes the reactions of sinful activities; nrnam—of human society; yadoh vamsam—the description of the dynasty of Yadu; narah—any person; srutva—simply by hearing; sarva-papaih—from all reactions of sinful activities; pramucyate—is freed.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Maharaja Dusmanta, desiring to occupy the throne, returned to his original dynasty (the Puru dynasty), even though he had accepted Maruta as his father.</p>
+<p>O Maharaja Pariksit, let me now describe the dynasty of Yadu, the eldest son of Maharaja Yayati.</p>
+<p>This description is supremely pious, and it vanquishes the reactions of sinful activities in human society.</p>
+<p>Simply by hearing this description, one is freed from all sinful reactions.</p>
+
+
+
+<p><strong>9.23.20-21</strong></p>
+<p>yatravatirno bhagavan</p>
+<p>paramatma narakrtih</p>
+<p>yadoh sahasrajit krosta</p>
+<p>nalo ripur iti srutah</p>
+<p>catvarah sunavas tatra</p>
+<p>satajit prathamatmajah</p>
+<p>mahahayo renuhayo</p>
+<p>haihayas ceti tat-sutah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yatra—wherein, in which dynasty; avatirnah—descended; bhagavan—the Supreme Personality of Godhead, Krsna; paramatma—who is the Supersoul of all living entities; nara-akrtih—a person, exactly resembling a human being; yadoh—of Yadu; sahasrajit—Sahasrajit; krosta—Krosta; nalah—Nala; ripuh—Ripu; iti srutah—thus they are celebrated; catvarah—four; sunavah—sons; tatra—therein; satajit—Satajit; prathama-atmajah—of the first sons; mahahayah—Mahahaya; renuhayah—Renuhaya; haihayah—Haihaya; ca—and; iti—thus; tat-sutah—his sons (the sons of Satajit).</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Supreme Personality of Godhead, Krsna, the Supersoul in the hearts of all living entities, descended in His original form as a human being in the dynasty or family of Yadu.</p>
+<p>Yadu had four sons, named Sahasrajit, Krosta, Nala and Ripu.</p>
+<p>Of these four, the eldest, Sahasrajit, had a son named Satajit, who had three sons, named Mahahaya, Renuhaya and Haihaya.</p>
+<p><strong>PURPORT</strong></p>
+<p>Srimad-Bhagavatam (1.2.11):</p>
+<p>vadanti tat tattva-vidas</p>
+<p>tattvam yaj jnanam advayam</p>
+<p>brahmeti paramatmeti</p>
+<p>bhagavan iti sabdyate</p>
+<p>Learned transcendentalists who know the Absolute Truth call this nondual substance Brahman, Paramatma or Bhagavan The majority of transcendentalists understand only the impersonal Brahman or localized Paramatma, for the Personality of Godhead is very difficult to understand.</p>
+<p>As the Lord says in Bhagavad-gita (7.3):</p>
+<p>manusyanam sahasresu</p>
+<p>kascid yatati siddhaye</p>
+<p>yatatam api siddhanam</p>
+<p>kascin mam vetti tattvatah</p>
+<p>Out of many thousands among men, one may endeavor for perfection, and of those who have achieved perfection, hardly one knows Me in truth.</p>
+<p>The yogis and jnanis—that is, the mystic yogis and the impersonalists—can understand the Absolute Truth as impersonal or localized, but although such realized souls are above ordinary human beings, they cannot understand how the Supreme Absolute Truth can be a person.</p>
+<p>Therefore it is said that out of many siddhas, the souls who have already realized the Absolute Truth, one may understand Krsna, who exactly resembles a human being (narakrti).</p>
+<p>This human form was explained by Krsna Himself after He manifested the virat-rupa.</p>
+<p>The virat-rupa is not the original form of the Lord; the Lord’s original form is Dvibhuja-syamasundara, Muralidhara, the Lord with two hands, playing a flute (yam syamasundaram acintya-guna-svarupam).</p>
+<p>The Lord’s forms are proof of His inconceivable qualities.</p>
+<p>Although the Lord maintains innumerable universes within the period of His breath, He is dressed with a form exactly like that of a human being.</p>
+<p>That does not mean, however, that He is a human being.</p>
+<p>This is His original form, but because He looks like a human being, those with a poor fund of knowledge consider Him an ordinary man.</p>
+<p>The Lord says:</p>
+<p>avajananti mam mudha</p>
+<p>manusim tanum asritam</p>
+<p>param bhavam ajananto</p>
+<p>mama bhuta-mahesvaram</p>
+<p>Fools deride Me when I descend in the human form.</p>
+<p>They do not know My transcendental nature and My supreme dominion over all that be (Bg.9.11) By the Lord’s param bhavam, or transcendental nature, He is the all-pervading Paramatma living in the core of the hearts of all living entities, yet He looks like a human being.</p>
+<p>Mayavada philosophy says that the Lord is originally impersonal but assumes a human form and many other forms when He descends.</p>
+<p>Actually, however, He is originally like a human being, and the impersonal Brahman consists of the rays of His body (yasya prabha prabhavato jagad-anda-koti (Bs.5.40)).</p>
+
+
+
+<p><strong>9.23.22</strong></p>
+<p>dharmas tu haihaya-suto</p>
+<p>netrah kunteh pita tatah</p>
+<p>sohanjir abhavat kunter</p>
+<p>mahisman bhadrasenakah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dharmah tu—Dharma, however; haihaya-sutah—became the son of Haihaya; netrah—Netra; kunteh—of Kunti; pita—the father; tatah—from him (Dharma); sohanjih—Sohanji; abhavat—became; kunteh—the son of Kunti; mahisman—Mahisman; bhadrasenakah—Bhadrasenaka.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Haihaya was Dharma, and the son of Dharma was Netra, the father of Kunti.</p>
+<p>From Kunti came a son named Sohanji, from Sohanji came Mahisman, and from Mahisman, Bhadrasenaka.</p>
+
+
+
+<p><strong>9.23.23</strong></p>
+<p>durmado bhadrasenasya</p>
+<p>dhanakah krtaviryasuh</p>
+<p>krtagnih krtavarma ca</p>
+<p>krtauja dhanakatmajah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>durmadah—Durmada; bhadrasenasya—of Bhadrasena; dhanakah—Dhanaka; krtavirya-suh—giving birth to Krtavirya; krtagnih—by the name Krtagni; krtavarma—Krtavarma; ca—also; krtaujah—Krtauja; dhanaka-atmajah—sons of Dhanaka.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The sons of Bhadrasena were known as Durmada and Dhanaka.</p>
+<p>Dhanaka was the father of Krtavirya and also of Krtagni, Krtavarma and Krtauja.</p>
+
+
+
+<p><strong>9.23.24</strong></p>
+<p>arjunah krtaviryasya</p>
+<p>sapta-dvipesvaro ’bhavat</p>
+<p>dattatreyad dharer amsat</p>
+<p>prapta-yoga-mahagunah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>arjunah—Arjuna; krtaviryasya—of Krtavirya; sapta-dvipa—of the seven islands (the whole world); isvarah abhavat—became the emperor; dattatreyat—from Dattatreya; hareh amsat—from he who was the incarnation of the Supreme Personality of Godhead; prapta—obtained; yoga-mahagunah—the quality of mystic power.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Krtavirya was Arjuna.</p>
+<p>He (Kartaviryarjuna) became the emperor of the entire world, consisting of seven islands, and received mystic power from Dattatreya, the incarnation of the Supreme Personality of Godhead.</p>
+<p>Thus he obtained the mystic perfections known as asta-siddhi.</p>
+
+
+
+<p><strong>9.23.25</strong></p>
+<p>na nunam kartaviryasya</p>
+<p>gatim yasyanti parthivah</p>
+<p>yajna-dana-tapo-yogaih</p>
+<p>sruta-virya-dayadibhih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—not; nunam—indeed; kartaviryasya—of Emperor Kartavirya; gatim—the activities; yasyanti—could understand or achieve; parthivah—everyone on the earth; yajna—sacrifices; dana—charity; tapah—austerities; yogaih—mystic powers; sruta—education; virya—strength; daya—mercy; adibhih—by all these qualities.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>No other king in this world could equal Kartaviryarjuna in sacrifices, charity, austerity, mystic power, education, strength or mercy.</p>
+
+
+
+<p><strong>9.23.26</strong></p>
+<p>pancasiti sahasrani</p>
+<p>hy avyahata-balah samah</p>
+<p>anasta-vitta-smarano</p>
+<p>bubhuje ’ksayya-sad-vasu</p>
+<p><strong>SYNONYMS</strong></p>
+<p>pancasiti—eighty-five; sahasrani—thousands; hi—indeed; avyahata—inexhaustible; balah—the strength of whom; samah—years; anasta—without deterioration; vitta—material opulences; smaranah—and memory; bubhuje—enjoyed; aksayya—without deterioration; sat-vasu—six kinds of enjoyable material opulence.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>For eighty-five thousand years, Kartaviryarjuna continuously enjoyed material opulences with full bodily strength and unimpaired memory.</p>
+<p>In other words, he enjoyed inexhaustible material opulences with his six senses.</p>
+
+
+
+<p><strong>9.23.27</strong></p>
+<p>tasya putra-sahasresu</p>
+<p>pancaivorvarita mrdhe</p>
+<p>jayadhvajah suraseno</p>
+<p>vrsabho madhur urjitah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasya—of him (Kartaviryarjuna); putra-sahasresu—among the one thousand sons; panca—five; eva—only; urvaritah—remained alive; mrdhe—in a fight (with Parasurama); jayadhvajah—Jayadhvaja; surasenah—Surasena; vrsabhah—Vrsabha; madhuh—Madhu; urjitah—and Urjita.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Of the one thousand sons of Kartaviryarjuna, only five remained alive after the fight with Parasurama.</p>
+<p>Their names were Jayadhvaja, Surasena, Vrsabha, Madhu and Urjita.</p>
+
+
+
+<p><strong>9.23.28</strong></p>
+<p>jayadhvajat talajanghas</p>
+<p>tasya putra-satam tv abhut</p>
+<p>ksatram yat talajanghakhyam</p>
+<p>aurva-tejopasamhrtam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>jayadhvajat—of Jayadhvaja; talajanghah—a son named Talajangha; tasya—of him (Talajangha); putra-satam—one hundred sons; tu—indeed; abhut—were born; ksatram—a dynasty of ksatriyas; yat—which; talajangha-akhyam—were known as the Talajanghas; aurva-tejah—being very powerful; upasamhrtam—were killed by Maharaja Sagara.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Jayadhvaja had a son named Talajangha, who had one hundred sons.</p>
+<p>All the ksatriyas in that dynasty, known as Talajangha, were annihilated by the great power received by Maharaja Sagara from Aurva Rsi.</p>
+
+
+
+<p><strong>9.23.29</strong></p>
+<p>tesam jyestho vitihotro</p>
+<p>vrsnih putro madhoh smrtah</p>
+<p>tasya putra-satam tv asid</p>
+<p>vrsni-jyestham yatah kulam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tesam—of all of them; jyesthah—the eldest son; vitihotrah—a son named Vitihotra; vrsnih—Vrsni; putrah—the son; madhoh—of Madhu; smrtah—was well known; tasya—of him (Vrsni); putra-satam—one hundred sons; tu—indeed; asit—there were; vrsni—Vrsni; jyestham—the eldest; yatah—from him; kulam—the dynasty.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Of the sons of Talajangha, Vitihotra was the eldest.</p>
+<p>The son of Vitihotra named Madhu had a celebrated son named Vrsni.</p>
+<p>Madhu had one hundred sons, of whom Vrsni was the eldest.</p>
+<p>The dynasties known as Yadava, Madhava and Vrsni had their origin from Yadu, Madhu and Vrsni.</p>
+
+
+
+<p><strong>9.23.30-31</strong></p>
+<p>madhava vrsnayo rajan</p>
+<p>yadavas ceti samjnitah</p>
+<p>yadu-putrasya ca krostoh</p>
+<p>putro vrjinavams tatah</p>
+<p>svahito ’to visadgur vai</p>
+<p>tasya citrarathas tatah</p>
+<p>sasabindur maha-yogi</p>
+<p>maha-bhago mahan abhut</p>
+<p>caturdasa-maharatnas</p>
+<p>cakravarty aparajitah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>madhavah—the dynasty beginning from Madhu; vrsnayah—the dynasty beginning from Vrsni; rajan—O King (Maharaja Pariksit); yadavah—the dynasty beginning from Yadu; ca—and; iti—thus; samjnitah—are so-called because of those different persons; yadu-putrasya—of the son of Yadu; ca—also; krostoh—of Krosta; putrah—the son; vrjinavan—his name was Vrjinavan; tatah—from him (Vrjinavan); svahitah—Svahita; atah—thereafter; visadguh—a son named Visadgu; vai—indeed; tasya—of him; citrarathah—Citraratha; tatah—from him; sasabinduh—Sasabindu; maha-yogi—a great mystic; maha-bhagah—most fortunate; mahan—a great personality; abhut—he became; caturdasa-maharatnah—fourteen kinds of great opulences; cakravarti—he possessed as the emperor; aparajitah—not defeated by anyone else.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O Maharaja Pariksit, because Yadu, Madhu and Vrsni each inaugurated a dynasty, their dynasties are known as Yadava, Madhava and Vrsni.</p>
+<p>The son of Yadu named Krosta had a son named Vrjinavan.</p>
+<p>The son of Vrjinavan was Svahita; the son of Svahita, Visadgu; the son of Visadgu, Citraratha; and the son of Citraratha, Sasabindu.</p>
+<p>The greatly fortunate Sasabindu, who was a great mystic, possessed fourteen opulences and was the owner of fourteen great jewels.</p>
+<p>Thus he became the emperor of the world.</p>
+<p><strong>PURPORT</strong></p>
+<p>In the Markandeya Purana the fourteen kinds of great jewels are described as follows: (1) an elephant, (2) a horse, (3) a chariot, (4) a wife, (5) arrows, (6) a reservoir of wealth, (7) a garland, (8) valuable costumes, (9) trees, (10) a spear, (11) a noose, (12) jewels, (13) an umbrella, and (14) regulative principles.</p>
+<p>To be the emperor, one must possess all fourteen of these opulences.</p>
+<p>Sasabindu possessed them all.</p>
+
+
+
+<p><strong>9.23.32</strong></p>
+<p>tasya patni-sahasranam</p>
+<p>dasanam sumaha-yasah</p>
+<p>dasa-laksa-sahasrani</p>
+<p>putranam tasv ajijanat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasya—of Sasabindu; patni—wives; sahasranam—of thousands; dasanam—ten; su-maha-yasah—greatly famous; dasa—ten; laksa—lakhs (one lakh equals one hundred thousand); sahasrani—thousands; putranam—of sons; tasu—in them; ajijanat—he begot.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The famous Sasabindu had ten thousand wives, and by each he begot a lakh of sons.</p>
+<p>Therefore the number of his sons was ten thousand lakhs.</p>
+
+
+
+<p><strong>9.23.33</strong></p>
+<p>tesam tu sat pradhananam</p>
+<p>prthusravasa atmajah</p>
+<p>dharmo namosana tasya</p>
+<p>hayamedha-satasya yat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tesam—out of so many sons; tu—but; sat pradhananam—of whom there were six foremost sons; prthusravasah—of Prthusrava; atmajah—the son; dharmah—Dharma; nama—by the name; usana—Usana; tasya—his; hayamedha-satasya—of one hundred asvamedha sacrifices; yat—he was the performer.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Among these many sons, six were the foremost, such as Prthusrava and Prthukirti.</p>
+<p>The son of Prthusrava was known as Dharma, and his son was known as Usana.</p>
+<p>Usana was the performer of one hundred horse sacrifices.</p>
+
+
+
+<p><strong>9.23.34</strong></p>
+<p>tat-suto rucakas tasya</p>
+<p>pancasann atmajah srnu</p>
+<p>purujid-rukma-rukmesu-</p>
+<p>prthu-jyamagha-samjnitah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tat-sutah—the son of Usana; rucakah—Rucaka; tasya—of him; panca—five; asan—there were; atmajah—sons; srnu—please hear (their names); purujit—Purujit; rukma—Rukma; rukmesu—Rukmesu; prthu—Prthu; jyamagha—Jyamagha; samjnitah—these five sons were named.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Usana was Rucaka, who had five sons—Purujit, Rukma, Rukmesu, Prthu and Jyamagha.</p>
+<p>Please hear of these sons from me.</p>
+
+
+
+<p><strong>9.23.35-36</strong></p>
+<p>jyamaghas tv aprajo ’py anyam</p>
+<p>bharyam saibya-patir bhayat</p>
+<p>navindac chatru-bhavanad</p>
+<p>bhojyam kanyam aharasit</p>
+<p>ratha-stham tam niriksyaha</p>
+<p>saibya patim amarsita</p>
+<p>keyam kuhaka mat-sthanam</p>
+<p>ratham aropiteti vai</p>
+<p>snusa tavety abhihite</p>
+<p>smayanti patim abravit</p>
+<p><strong>SYNONYMS</strong></p>
+<p>jyamaghah—King Jyamagha; tu—indeed; aprajah api—although issueless; anyam—another; bharyam—wife; saibya-patih—because he was the husband of Saibya; bhayat—out of fear; na avindat—did not accept; satru-bhavanat—from the enemy’s camp; bhojyam—a prostitute used for sense gratification; kanyam—girl; aharasit—brought; ratha-stham—who was seated on the chariot; tam—her; niriksya—seeing; aha—said; saibya—Saibya, the wife of Jyamagha; patim—unto her husband; amarsita—being very angry; ka iyam—who is this; kuhaka—you cheater; mat-sthanam—my place; ratham—on the chariot; aropita—has been allowed to sit; iti—thus; vai—indeed; snusa—daughter-in-law; tava—your; iti—thus; abhihite—being informed; smayanti—smilingly; patim—unto her husband; abravit—said.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Jyamagha had no sons, but because he was fearful of his wife, Saibya, he could not accept another wife.</p>
+<p>Jyamagha once took from the house of some royal enemy a girl who was a prostitute, but upon seeing her Saibya was very angry and said to her husband, My husband, you cheater, who is this girl sitting upon my seat on the chariot Jyamagha then replied, This girl will be your daughter-in-law Upon hearing these joking words, Saibya smilingly replied.</p>
+
+
+
+<p><strong>9.23.37</strong></p>
+<p>aham bandhyasapatni ca</p>
+<p>snusa me yujyate katham</p>
+<p>janayisyasi yam rajni</p>
+<p>tasyeyam upayujyate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>aham—I am; bandhya—sterile; asa-patni—I have no co-wife; ca—also; snusa—daughter-in-law; me—my; yujyate—could be; katham—how; janayisyasi—you will give birth to; yam—which son; rajni—O my dear Queen; tasya—for him; iyam—this girl; upayujyate—will be very suitable.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Saibya said, I am sterile and have no co-wife.</p>
+
+
+
+<p><strong>9.23.38</strong></p>
+<p>anvamodanta tad visve-</p>
+<p>devah pitara eva ca</p>
+<p>saibya garbham adhat kale</p>
+<p>kumaram susuve subham</p>
+<p>sa vidarbha iti prokta</p>
+<p>upayeme snusam satim</p>
+<p><strong>SYNONYMS</strong></p>
+<p>anvamodanta—accepted; tat—that statement predicting the birth of a son; visvedevah—the Visvedeva demigods; pitarah—the Pitas or forefathers; eva—indeed; ca—also; saibya—the wife of Jyamagha; garbham—pregnancy; adhat—conceived; kale—in due course of time; kumaram—a son; susuve—gave birth to; subham—very auspicious; sah—that son; vidarbhah—Vidarbha; iti—thus; proktah—was well known; upayeme—later married; snusam—who was accepted as daughter-in-law; satim—very chaste girl.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Long, long ago, Jyamagha had satisfied the demigods and Pitas by worshiping them.</p>
+<p>Now, by their mercy, Jyamagha’s words came true.</p>
+<p>Although Saibya was barren, by the grace of the demigods she became pregnant and in due course of time gave birth to a child named Vidarbha.</p>
+<p>Before the child’s birth, the girl had been accepted as a daughter-in-law, and therefore Vidarbha actually married her when he grew up.</p>
+
+
+</article></body></html>

@@ -1,154 +1,41 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>Understanding Material Nature - Understanding Material Nature</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">Understanding Material Nature</a></li><li class="affix"><a href="3.27.2.html">3.27.2</a></li><li class="affix"><a href="3.27.3.html">3.27.3</a></li><li class="affix"><a href="3.27.4.html">3.27.4</a></li><li class="affix"><a href="3.27.5.html">3.27.5</a></li><li class="affix"><a href="3.27.6.html">3.27.6</a></li><li class="affix"><a href="3.27.7.html">3.27.7</a></li><li class="affix"><a href="3.27.8.html">3.27.8</a></li><li class="affix"><a href="3.27.9.html">3.27.9</a></li><li class="affix"><a href="3.27.10.html">3.27.10</a></li><li class="affix"><a href="3.27.11.html">3.27.11</a></li><li class="affix"><a href="3.27.12.html">3.27.12</a></li><li class="affix"><a href="3.27.13.html">3.27.13</a></li><li class="affix"><a href="3.27.14.html">3.27.14</a></li><li class="affix"><a href="3.27.15.html">3.27.15</a></li><li class="affix"><a href="3.27.16.html">3.27.16</a></li><li class="affix"><a href="3.27.17.html">3.27.17</a></li><li class="affix"><a href="3.27.18.html">3.27.18</a></li><li class="affix"><a href="3.27.19.html">3.27.19</a></li><li class="affix"><a href="3.27.20.html">3.27.20</a></li><li class="affix"><a href="3.27.21.html">3.27.21</a></li><li class="affix"><a href="3.27.22.html">3.27.22</a></li><li class="affix"><a href="3.27.23.html">3.27.23</a></li><li class="affix"><a href="3.27.24.html">3.27.24</a></li><li class="affix"><a href="3.27.25.html">3.27.25</a></li><li class="affix"><a href="3.27.26.html">3.27.26</a></li><li class="affix"><a href="3.27.27.html">3.27.27</a></li><li class="affix"><a href="3.27.28-29.html">3.27.28-29</a></li><li class="affix"><a href="3.27.30.html">3.27.30</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">Understanding Material Nature</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#understanding-material-nature" id="understanding-material-nature">Understanding Material Nature</a></h1>
-<h3><a class="header" href="#3271" id="3271">3.27.1</a></h3>
+<h1>Understanding Material Nature</h1>
+<p><strong>3.27.1</strong></p>
 <p>sri-bhagavan uvaca</p>
 <p>prakrti-stho ’pi puruso</p>
 <p>najyate prakrtair gunaih</p>
@@ -177,63 +64,872 @@
 <p>When one does something at his own risk, there is a sense of proprietorship and therefore a reaction, but when one does everything for Krsna, there is no proprietorship over the activities.</p>
 <p>By changlessness and by not claiming the proprietorship of activities, one can immediately situate himself in the transcendental position in which one is not touched by the modes of material nature, just as the reflection of the sun is unaffected by the water.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="3.27.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>3.27.2</strong></p>
+<p>sa esa yarhi prakrter</p>
+<p>gunesv abhivisajjate</p>
+<p>ahankriya-vimudhatma</p>
+<p>kartasmity abhimanyate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—that very living entity; esah—this; yarhi—when; prakrteh—of material nature; gunesu—in the modes; abhivisajjate—is absorbed; ahankriya—by false ego; vimudha—bewildered; atma—the individual soul; karta—the doer; asmi—I am; iti—thus; abhimanyate—he thinks.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When the soul is under the spell of material nature and false ego, identifying his body as the self, he becomes absorbed in material activities, and by the influence of false ego he thinks that he is the proprietor of everything.</p>
+<p><strong>PURPORT</strong></p>
+<p>Actually the conditioned soul is forced to act under the pressure of the modes of material nature.</p>
+<p>The living entity has no independence.</p>
+<p>When he is under the direction of the Supreme Personality of Godhead he is free, but when, under the impression that he is satisfying his senses, he engages in sense gratificatory activities, he is actually under the spell of material nature.</p>
+<p>In Bhagavad-gita it is said, prakrteh kriyamanani: one acts according to the particular modes of nature he has acquired.</p>
+<p>Guna refers to the qualities of nature.</p>
+<p>He is under the qualities of nature, but he falsely thinks that he is the proprietor.</p>
+<p>This false sense of proprietorship can be avoided simply by engaging oneself in devotional service under the direction of the Supreme Lord or His bona fide representative.</p>
+<p>Arjuna, in Bhagavad-gita, was trying to accept for himself the responsibility for killing his grandfather and teacher in the fight, but he became freed from that proprietorship of action when he acted under the direction of Krsna.</p>
+<p>He fought, but he was actually freed from the reactions of fighting, although in the beginning, when he was nonviolent, unwilling to fight, the entire responsibility was upon him.</p>
+<p>That is the difference between liberation and conditioning.</p>
+<p>A conditioned soul may be very good and act in the mode of goodness, but still he is conditioned under the spell of material nature.</p>
+<p>A devotee, however, acts completely under the direction of the Supreme Lord.</p>
+<p>Thus his actions may not appear to be of a very high quality to the common man, but the devotee has no responsibility.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="3.27.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>3.27.3</strong></p>
+<p>tena samsara-padavim</p>
+<p>avaso ’bhyety anirvrtah</p>
+<p>prasangikaih karma-dosaih</p>
+<p>sad-asan-misra-yonisu</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tena—by this; samsara—of repeated birth and death; padavim—the path; avasah—helplessly; abhyeti—he undergoes; anirvrtah—discontented; prasangikaih—resulting from association with material nature; karma-dosaih—by faulty actions; sat—good; asat—bad; misra—mixed; yonisu—in different species of life.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The conditioned soul therefore transmigrates into different species of life, higher and lower, because of his association with the modes of material nature.</p>
+<p>Unless he is relieved of material activities, he has to accept this position because of his faulty work.</p>
+<p><strong>PURPORT</strong></p>
+<p>Here the word karma-dosaih means by faulty actions This refers to any activity, good or bad, performed in this material world—they are all contaminated, faulty actions because of material association.</p>
+<p>The foolish conditioned soul may think that he is offering charity by opening hospitals for material benefit or by opening an educational institution for material education, but he does not know that all such work is also faulty because it will not give him relief from the process of transmigration from one body to another.</p>
+<p>It is clearly stated here, sad-asan-misra-yonisu.</p>
+<p>This means that one may take birth in a very high family or he may take his birth in higher planets, among the demigods, for his so-called pious activities in the material world.</p>
+<p>But this work is also faulty because it does not give liberation.</p>
+<p>To take birth in a nice place or a high family does not mean that one avoids undergoing the material tribulations, the pangs of birth, death, old age and disease.</p>
+<p>A conditioned soul under the spell of material nature cannot understand that any action he performs for sense gratification is faulty and that only his activities in devotional service to the Lord can give him release from the reaction of faulty activities.</p>
+<p>Because he does not cease such faulty activities, he has to change to different bodies, some high and some low.</p>
+<p>That is called samsara-padavim, which means this material world, from which there is no release.</p>
+<p>One who desires material liberation has to turn his activities to devotional service.</p>
+<p>There is no alternative.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>3.27.4</strong></p>
+<p>arthe hy avidyamane ’pi</p>
+<p>samsrtir na nivartate</p>
+<p>dhyayato visayan asya</p>
+<p>svapne ’narthagamo yatha</p>
+<p><strong>SYNONYMS</strong></p>
+<p>arthe—real cause; hi—certainly; avidyamane—not existing; api—although; samsrtih—the material existential condition; na—not; nivartate—does cease; dhyayatah—contemplating; visayan—objects of the senses; asya—of the living entity; svapne—in a dream; anartha—of disadvantages; agamah—arrival; yatha—like.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Actually a living entity is transcendental to material existence, but because of his mentality of lording it over material nature, his material existential condition does not cease, and just as in a dream, he is affected by all sorts of disadvantages.</p>
+<p><strong>PURPORT</strong></p>
+<p>The example of a dream is very appropriate.</p>
+<p>Due to different mental conditions, in dreams we are put into advantageous and disadvantageous positions.</p>
+<p>Similarly, the spirit soul has nothing to do with this material nature, but because of his mentality of lording it over, he is put into the position of conditional existence.</p>
+<p>Conditional existence is described here as dhyayato visayan asya.</p>
+<p>Visaya means an object of enjoyment As long as one continues to think that he can enjoy material advantages, he is in conditioned life, but as soon as he comes to his senses, he develops the knowledge that he is not the enjoyer, for the only enjoyer is the Supreme Personality of Godhead.</p>
+<p>As confirmed in Bhagavad-gita (5.29), He is the beneficiary for all the results of sacrifices and penances (bhoktaram yajna-tapasam), and He is the proprietor of all the three worlds (sarva-loka-mahesvaram).</p>
+<p>He is the actual friend of all living entities.</p>
+<p>But instead of leaving proprietorship, enjoyment and the actual position as the friend of all living entities to the Supreme Personality of Godhead, we claim that we are the proprietors, the enjoyers and the friends.</p>
+<p>We perform philanthropic work, thinking that we are the friends of human society.</p>
+<p>Someone may proclaim himself to be a very good national worker, the best friend of the people and of the country, but actually he cannot be the greatest friend of everyone.</p>
+<p>The only friend is Krsna.</p>
+<p>One should try to raise the consciousness of the conditioned soul to the platform of understanding that Krsna is his actual friend.</p>
+<p>If one makes friendship with Krsna, one will never be cheated, and he will get all help needed.</p>
+<p>Arousing this consciousness of the conditioned soul is the greatest service, not posing oneself as a great friend of another living entity.</p>
+<p>The power of friendship is limited.</p>
+<p>Although one claims to be a friend, he cannot be a friend unlimitedly.</p>
+<p>There are an unlimited number of living entities, and our resources are limited; therefore we cannot be of any real benefit to the people in general.</p>
+<p>The best service to the people in general is to awaken them to Krsna consciousness so that they may know that the supreme enjoyer, the supreme proprietor and the supreme friend is Krsna.</p>
+<p>Then this illusory dream of lording it over material nature will vanish.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>3.27.5</strong></p>
+<p>ata eva sanais cittam</p>
+<p>prasaktam asatam pathi</p>
+<p>bhakti-yogena tivrena</p>
+<p>viraktya ca nayed vasam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atah eva—therefore; sanaih—gradually; cittam—mind, consciousness; prasaktam—attached; asatam—of material enjoyments; pathi—on the path; bhakti-yogena—by devotional service; tivrena—very serious; viraktya—without attachment; ca—and; nayet—he must bring; vasam—under control.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>It is the duty of every conditioned soul to engage his polluted consciousness, which is now attached to material enjoyment, in very serious devotional service with detachment.</p>
+<p>Thus his mind and consciousness will be under full control.</p>
+<p><strong>PURPORT</strong></p>
+<p>The process of liberation is very nicely explained in this verse.</p>
+<p>The cause of one’s becoming conditioned by material nature is his thinking himself the enjoyer, the proprietor or the friend of all living entities.</p>
+<p>This false thinking is a result of contemplation on sense enjoyment.</p>
+<p>When one thinks that he is the best friend to his countrymen, to society or to humanity and he engages in various nationalistic, philanthropic and altruistic activities, all that is just so much concentration on sense gratification.</p>
+<p>The so-called national leader or humanist does not serve everyone; he serves his senses only.</p>
+<p>That is a fact.</p>
+<p>But the conditioned soul cannot understand this because he is bewildered by the spell of material nature.</p>
+<p>It is therefore recommended in this verse that one engage very seriously in the devotional service of the Lord.</p>
+<p>This means that one should not think that he is the proprietor, benefactor, friend or enjoyer.</p>
+<p>He should always be cognizant that the real enjoyer is Krsna, the Supreme Personality of Godhead; that is the basic principle of bhakti-yoga.</p>
+<p>One must be firmly convinced of these three principles: one should always think that Krsna is the proprietor, Krsna is the enjoyer and Krsna is the friend.</p>
+<p>Not only should he understand these principles himself, but he should try to convince others and propagate Krsna consciousness.</p>
+<p>As soon as one engages in such serious devotional service of the Lord, naturally the propensity to falsely claim lordship over material nature disappears.</p>
+<p>That detachment is called vairagya.</p>
+<p>Instead of being absorbed in so-called material lordship, one engages in Krsna consciousness; that is control of consciousness.</p>
+<p>The yoga process necessitates controlling the senses.</p>
+<p>Yoga indriya-samyamah.</p>
+<p>Since the senses are always active, their activities should be engaged in devotional service—one cannot stop their activities.</p>
+<p>If one wants to artificially stop the activities of the senses, his attempt will be a failure.</p>
+<p>Even the great yogi Visvamitra, who was trying to control his senses by the yoga process, fell victim to the beauty of Menaka.</p>
+<p>There are many such instances.</p>
+<p>Unless one’s mind and consciousness are fully engaged in devotional service, there is always the opportunity for the mind to become occupied with desires for sense gratification.</p>
+<p>One particular point mentioned in this verse is very significant.</p>
+<p>It is said here, prasaktam asatam pathi: the mind is always attracted by asat, the temporary, material existence.</p>
+<p>Because we have been associated with material nature since time immemorial, we have become accustomed to our attachment to this temporary material nature.</p>
+<p>The mind has to be fixed at the eternal lotus feet of the Supreme Lord.</p>
+<p>Sa vai manah krsna-padaravindayoh.</p>
+<p>One has to fix the mind at the lotus feet of Krsna; then everything will be very nice.</p>
+<p>Thus the seriousness of bhakti-yoga is stressed in this verse.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>3.27.6</strong></p>
+<p>yamadibhir yoga-pathair</p>
+<p>abhyasan sraddhayanvitah</p>
+<p>mayi bhavena satyena</p>
+<p>mat-katha-sravanena ca</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yama-adibhih—beginning with yama; yoga-pathaih—by the yoga system; abhyasan—practicing; sraddhaya anvitah—with great faith; mayi—unto Me; bhavena—with devotion; satyena—unalloyed; mat-katha—stories about Me; sravanena—by hearing; ca—and.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>One has to become faithful by practicing the controlling process of the yoga system and must elevate himself to the platform of unalloyed devotional service by chanting and hearing about Me.</p>
+<p><strong>PURPORT</strong></p>
+<p>Yoga is practiced in eight different stages: yama, niyama, asana, pranayama, pratyahara, dharana, dhyana and samadhi.</p>
+<p>Yama and niyama mean practicing the controlling process by following strict regulations, and asana refers to the sitting postures.</p>
+<p>These help raise one to the standard of faithfulness in devotional service.</p>
+<p>The practice of yoga by physical exercise is not the ultimate goal; the real end is to concentrate and to control the mind and train oneself to be situated in faithful devotional service.</p>
+<p>Bhavena, or bhava, is a very important factor in the practice of yoga or in any spiritual process.</p>
+<p>Bhava is explained in Bhagavad-gita (10.8).</p>
+<p>Budha bhava-samanvitah: one should be absorbed in the thought of love of Krsna.</p>
+<p>When one knows that Krsna, the Supreme Personality of Godhead, is the source of everything and that everything emanates from Him (aham sarvasya prabhavah), then one understands the Vedanta aphorism janmady asya yatah (Bhag.1.1.1) (the original source of everythin), and then he can become absorbed in bhava, or the preliminary stage of love of Godhead.</p>
+<p>Rupa Gosvami explains very nicely in Bhakti-rasamrta-sindhu how this bhava, or preliminary stage of love of God, is achieved.</p>
+<p>He states that one first of all has to become faithful (sraddhayanvitah).</p>
+<p>Faith is attained by controlling the senses, either by yoga practice, following the rules and regulations and practicing the sitting postures, or by engaging directly in bhakti-yoga, as recommended in the previous verse.</p>
+<p>Of the nine different items of bhakti-yoga, the first and foremost is to chant and hear about the Lord.</p>
+<p>That is also mentioned here.</p>
+<p>Mat-katha-sravanena ca.</p>
+<p>One may come to the standard of faithfulness by following the rules and regulations of the yoga system, and the same goal can be achieved simply by chanting and hearing about the transcendental activities of the Lord.</p>
+<p>The word ca is significant.</p>
+<p>Bhakti-yoga is direct, and the other process is indirect.</p>
+<p>But even if the indirect process is taken, there is no success unless one comes fully to the direct process of hearing and chanting the glories of the Lord.</p>
+<p>Therefore the word satyena is used here.</p>
+<p>In this connection Svami Sridhara comments that satyena means niskapatena, without duplicity The impersonalists are full of duplicity.</p>
+<p>Sometimes they pretend to execute devotional service, but their ultimate idea is to become one with the Supreme.</p>
+<p>This is duplicity, kapata.</p>
+<p>The Bhagavatam does not allow this duplicity.</p>
+<p>In the beginning of Srimad-Bhagavatam it is clearly stated, paramo nirmatsaranam: This treatise Srimad-Bhagavatam is meant for those who are completely free from envy The same point is again stressed here.</p>
+<p>Unless one is completely faithful to the Supreme Personality of Godhead and engages himself in the process of hearing and chanting the glories of the Lord, there is no possibility for liberation.</p>
+
+
+
+<p><strong>3.27.7</strong></p>
+<p>sarva-bhuta-samatvena</p>
+<p>nirvairenaprasangatah</p>
+<p>brahmacaryena maunena</p>
+<p>sva-dharmena baliyasa</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sarva—all; bhuta—living entities; samatvena—by seeing equally; nirvairena—without enmity; aprasangatah—without intimate connections; brahma-caryena—by celibacy; maunena—by silence; sva-dharmena—by one’s occupation; baliyasa—by offering the result.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In executing devotional service, one has to see every living entity equally, without enmity towards anyone yet without intimate connections with anyone.</p>
+<p>One has to observe celibacy, be grave and execute his eternal activities, offering the results to the Supreme Personality of Godhead.</p>
+<p><strong>PURPORT</strong></p>
+<p>A devotee of the Supreme Personality of Godhead who seriously engages in devotional service is equal to all living entities.</p>
+<p>There are various species of living entities, but a devotee does not see the outward covering; he sees the inner soul inhabiting the body.</p>
+<p>Because each and every soul is part and parcel of the Supreme Personality of Godhead, he does not see any difference.</p>
+<p>That is the vision of a learned devotee.</p>
+<p>As explained in Bhagavad-gita, a devotee or a learned sage does not see any difference between a learned brahmana, a dog, an elephant or a cow because he knows that the body is the outer covering only and that the soul is actually part and parcel of the Supreme Lord.</p>
+<p>A devotee has no enmity towards any living entity, but that does not mean that he mixes with everyone.</p>
+<p>That is prohibited.</p>
+<p>Aprasangatah means not to be in intimate touch with everyone A devotee is concerned with his execution of devotional service, and he should therefore mix with devotees only, in order to advance his objective.</p>
+<p>He has no business mixing with others, for although he does not see anyone as his enemy, his dealings are only with persons who engage in devotional service.</p>
+<p>A devotee should observe the vow of celibacy.</p>
+<p>Celibacy does not necessitate that one be absolutely free from sex life; satisfaction with one’s wife is permitted also under the vow of celibacy.</p>
+<p>The best policy is to avoid sex life altogether.</p>
+<p>That is preferable.</p>
+<p>Otherwise, a devotee can get married under religious principles and live peacefully with a wife.</p>
+<p>A devotee should not speak needlessly.</p>
+<p>A serious devotee has no time to speak of nonsense.</p>
+<p>He is always busy in Krsna consciousness.</p>
+<p>Whenever he speaks, he speaks about Krsna.</p>
+<p>Mauna means silence Silence does not mean that one should not speak at all, but that he should not speak of nonsense.</p>
+<p>He should be very enthusiastic in speaking about Krsna.</p>
+<p>Another important item described here is sva-dharmena, or being exclusively occupied in one’s eternal occupation, which is to act as the eternal servitor of the Lord, or to act in Krsna consciousness.</p>
+<p>The next word, baliyasa, means offering the results of all activities to the Supreme Personality of Godhead A devotee does not act on his personal account for sense gratification.</p>
+<p>Whatever he earns, whatever he eats and whatever he does, he offers for the satisfaction of the Supreme Personality of Godhead.</p>
+
+
+
+<p><strong>3.27.8</strong></p>
+<p>yadrcchayopalabdhena</p>
+<p>santusto mita-bhun munih</p>
+<p>vivikta-saranah santo</p>
+<p>maitrah karuna atmavan</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yadrcchaya—without difficulty; upalabdhena—with what is obtained; santustah—satisfied; mita—little; bhuk—eating; munih—thoughtful; vivikta-saranah—living in a secluded place; santah—peaceful; maitrah—friendly; karunah—compassionate; atma-van—self-possessed, self-realized.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>For his income a devotee should be satisfied with what he earns without great difficulty.</p>
+<p>He should not eat more than what is necessary.</p>
+<p>He should live in a secluded place and always be thoughtful, peaceful, friendly, compassionate and self-realized.</p>
+<p><strong>PURPORT</strong></p>
+<p>Everyone who has accepted a material body must maintain the necessities of the body by acting or earning some livelihood.</p>
+<p>A devotee should only work for such income as is absolutely necessary.</p>
+<p>He should be satisfied always with such income and should not endeavor to earn more and more simply to accumulate the unnecessary.</p>
+<p>A person in the conditioned state who has no money is always found working very hard to earn some with the object of lording it over material nature.</p>
+<p>Kapiladeva instructs that we should not endeavor hard for things which may come automatically, without extraneous labor.</p>
+<p>The exact word used in this connection, yadrcchaya, means that every living entity has a predestined happiness and distress in his present body; this is called the law of karma.</p>
+<p>It is not possible that simply by endeavors to accumulate more money a person will be able to do so, otherwise almost everyone would be on the same level of wealth.</p>
+<p>In reality everyone is earning and acquiring according to his predestined karma.</p>
+<p>According to the Bhagavatam conclusion, we are sometimes faced with dangerous or miserable conditions without endeavoring for them, and similarly we may have prosperous conditions without endeavoring for them.</p>
+<p>We are advised to let these things come as predestined.</p>
+<p>We should engage our valuable time in prosecuting Krsna consciousness.</p>
+<p>In other words, one should be satisfied by his natural condition.</p>
+<p>If by predestination one is put into a certain condition of life which is not very prosperous in comparison to another’s position, one should not be disturbed.</p>
+<p>He should simply try to utilize his valuable time to advance in Krsna consciousness.</p>
+<p>Advancement in Krsna consciousness does not depend on any materially prosperous or distressed condition; it is free from the conditions imposed by material life.</p>
+<p>A very poor man can execute Krsna consciousness as effectively as a very rich man.</p>
+<p>One should therefore be very satisfied with his position as offered by the Lord.</p>
+<p>Another word here is mita-bhuk.</p>
+<p>This means that one should eat only as much as necessary to maintain the body and soul together.</p>
+<p>One should not be gluttonous to satisfy the tongue.</p>
+<p>Grains, fruits, milk and similar foods are allotted for human consumption.</p>
+<p>One should not be excessively eager to satisfy the tongue and eat that which is not meant for humanity.</p>
+<p>Particularly, a devotee should eat only prasada, or food which is offered to the Personality of Godhead.</p>
+<p>His position is to accept the remnants of those foodstuffs.</p>
+<p>Innocent foods like grains, vegetables, fruits, flowers and milk preparations are offered to the Lord, and therefore there is no scope for offering foods which are in the modes of passion and ignorance.</p>
+<p>A devotee should not be greedy.</p>
+<p>It is also recommended that the devotee should be muni, or thoughtful; he should always think of Krsna and how to render better service to the Supreme Personality of Godhead.</p>
+<p>That should be his only anxiety.</p>
+<p>As a materialist is always thoughtful about improving his material condition, a devotee’s thoughts should always be engaged in improving his condition in Krsna consciousness; therefore he should be a muni.</p>
+<p>The next item recommended is that a devotee should live in a secluded place.</p>
+<p>Generally a common man is interested in pounds, shillings and pence, or materialistic advancement in life, which is unnecessary for a devotee.</p>
+<p>A devotee should select a place of residence where everyone is interested in devotional service.</p>
+<p>Generally, therefore, a devotee goes to a sacred place of pilgrimage where devotees live.</p>
+<p>It is recommended that he live in a place where there is no large number of ordinary men.</p>
+<p>It is very important to live in a secluded place (vivikta-sarana).</p>
+<p>The next item is santa, or peacefulness.</p>
+<p>The devotee should not be agitated.</p>
+<p>He should be satisfied with his natural income, eat only as much as he needs to keep his health, live in a secluded place and always remain peaceful.</p>
+<p>Peace of mind is necessary for prosecuting Krsna consciousness.</p>
+<p>The next item is maitra, friendliness.</p>
+<p>A devotee should be friendly to everyone, but his intimate friendship should be with devotees only.</p>
+<p>With others he should be official.</p>
+<p>He may say, Yes, sir, what you say is all right but he is not intimate with them.</p>
+<p>A devotee should, however, have compassion for persons who are innocent, who are neither atheistic nor very much advanced in spiritual realization.</p>
+<p>A devotee should be compassionate towards them and instruct them as far as possible in making advancement in Krsna consciousness.</p>
+<p>A devotee should always remain atmavan, or situated in his spiritual position.</p>
+<p>He should not forget that his main concern is to make advancement in spiritual consciousness, or Krsna consciousness, and he should not ignorantly identify himself with the body or the mind.</p>
+<p>Atma means the body or the mind, but here the word atmavan especially means that one should be self-possessed.</p>
+<p>He should always remain in the pure consciousness that he is spirit soul and not the material body or the mind.</p>
+<p>That will make him progress confidently in Krsna consciousness.</p>
+
+
+
+<p><strong>3.27.9</strong></p>
+<p>sanubandhe ca dehe ’sminn</p>
+<p>akurvann asad-agraham</p>
+<p>jnanena drsta-tattvena</p>
+<p>prakrteh purusasya ca</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sa-anubandhe—with bodily relationships; ca—and; dehe—towards the body; asmin—this; akurvan—not doing; asat-agraham—bodily concept of life; jnanena—through knowledge; drsta—having seen; tattvena—the reality; prakrteh—of matter; purusasya—of spirit; ca—and.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>One’s seeing power should be increased through knowledge of spirit and matter, and one should not unnecessarily identify himself with the body and thus become attracted by bodily relationships.</p>
+<p><strong>PURPORT</strong></p>
+<p>The conditioned souls are eager to identify with the body and consider that the body is mysel and that anything in relationship with the body or possessions of the body is mine In Sanskrit this is called aham-mamata, and it is the root cause of all conditional life.</p>
+<p>A person should see things as the combination of matter and spirit.</p>
+<p>He should distinguish between the nature of matter and the nature of spirit, and his real identification should be with spirit, not with matter.</p>
+<p>By this knowledge, one should avoid the false, bodily concept of life.</p>
+
+
+
+<p><strong>3.27.10</strong></p>
+<p>nivrtta-buddhy-avasthano</p>
+<p>duri-bhutanya-darsanah</p>
+<p>upalabhyatmanatmanam</p>
+<p>caksusevarkam atma-drk</p>
+<p><strong>SYNONYMS</strong></p>
+<p>nivrtta—transcended; buddhi-avasthanah—the stages of material consciousness; duri-bhuta—far off; anya—other; darsanah—conceptions of life; upalabhya—having realized; atmana—by his purified intellect; atmanam—his own self; caksusa—with his eyes; iva—as; arkam—the sun; atma-drk—the self-realized.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>One should be situated in the transcendental position, beyond the stages of material consciousness, and should be aloof from all other conceptions of life.</p>
+<p>Thus realizing freedom from false ego, one should see his own self just as he sees the sun in the sky.</p>
+<p><strong>PURPORT</strong></p>
+<p>Consciousness acts in three stages under the material conception of life.</p>
+<p>When we are awake, consciousness acts in a particular way, when we are asleep it acts in a different way, and when we are in deep sleep, consciousness acts in still another way.</p>
+<p>To become Krsna conscious, one has to become transcendental to these three stages of consciousness.</p>
+<p>Our present consciousness should be freed from all perceptions of life other than consciousness of Krsna, the Supreme Personality of Godhead.</p>
+<p>This is called duri-bhutanya-darsanah, which means that when one attains perfect Krsna consciousness he does not see anything but Krsna.</p>
+<p>In the Caitanya-caritamrta it is said that the perfect devotee may see many movable and immovable objects, but in everything he sees that the energy of Krsna is acting.</p>
+<p>As soon as he remembers the energy of Krsna, he immediately remembers Krsna in His personal form.</p>
+<p>Therefore in all his observations he sees Krsna only.</p>
+<p>Brahma-samhita (5.38) it is stated that when one’s eyes are smeared with love of Krsna (premanjana-cchurita), he always sees Krsna, outside and inside.</p>
+<p>This is confirmed here; one should be freed from all other vision, and in that way he is freed from the false egoistic identification and sees himself as the eternal servitor of the Lord.</p>
+<p>Caksusevarkam: as we can see the sun without a doubt, one who is fully developed in Krsna consciousness sees Krsna and His energy.</p>
+<p>By this vision one becomes atma-drk, or self-realized.</p>
+<p>When the false ego of identifying the body with the self is removed, actual vision of life is perceivable.</p>
+<p>The senses, therefore, also become purified.</p>
+<p>Real service of the Lord begins when the senses are purified.</p>
+<p>One does not have to stop the activities of the senses, but the false ego of identifying with the body has to be removed.</p>
+<p>Then the senses automatically become purified, and with purified senses one can actually discharge devotional service.</p>
+
+
+
+<p><strong>3.27.11</strong></p>
+<p>mukta-lingam sad-abhasam</p>
+<p>asati pratipadyate</p>
+<p>sato bandhum asac-caksuh</p>
+<p>sarvanusyutam advayam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>mukta-lingam—transcendental; sat-abhasam—manifest as a reflection; asati—in the false ego; pratipadyate—he realizes; satah bandhum—the support of the material cause; asat-caksuh—the eye (revealer) of the illusory energy; sarva-anusyutam—entered into everything; advayam—without a second.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>A liberated soul realizes the Absolute Personality of Godhead, who is transcendental and who is manifest as a reflection even in the false ego.</p>
+<p>He is the support of the material cause and He enters into everything.</p>
+<p>He is absolute, one without a second, and He is the eyes of the illusory energy.</p>
+<p><strong>PURPORT</strong></p>
+<p>A pure devotee can see the presence of the Supreme Personality of Godhead in everything materially manifested.</p>
+<p>He is present there only as a reflection, but a pure devotee can realize that in the darkness of material illusion the only light is the Supreme Lord, who is its support.</p>
+<p>It is confirmed in Bhagavad-gita that the background of the material manifestation is Lord Krsna.</p>
+<p>And, as confirmed in the Brahma-samhita, Krsna is the cause of all causes.</p>
+<p>In the Brahma-samhita it is stated that the Supreme Lord, by His partial or plenary expansion, is present not only within this universe and each and every universe, but in every atom, although He is one without a second.</p>
+<p>The word advayam, without a second which is used in this verse, indicates that although the Supreme Personality of Godhead is represented in everything, including the atoms, He is not divided.</p>
+<p>His presence in everything is explained in the next verse.</p>
+
+
+
+<p><strong>3.27.12</strong></p>
+<p>yatha jala-stha abhasah</p>
+<p>sthala-sthenavadrsyate</p>
+<p>svabhasena tatha suryo</p>
+<p>jala-sthena divi sthitah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yatha—as; jala-sthah—situated on water; abhasah—a reflection; sthala-sthena—situated on the wall; avadrsyate—is perceived; sva-abhasena—by its reflection; tatha—in that way; suryah—the sun; jala-sthena—situated on the water; divi—in the sky; sthitah—situated.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The presence of the Supreme Lord can be realized just as the sun is realized first as a reflection on water, and again as a second reflection on the wall of a room, although the sun itself is situated in the sky.</p>
+<p><strong>PURPORT</strong></p>
+<p>The example given herewith is perfect.</p>
+<p>The sun is situated in the sky, far, far away from the surface of the earth, but its reflection can be seen in a pot of water in the corner of a room.</p>
+<p>The room is dark, and the sun is far away in the sky, but the sun’s reflection on the water illuminates the darkness of the room.</p>
+<p>A pure devotee can realize the presence of the Supreme Personality of Godhead in everything by the reflection of His energy.</p>
+<p>In the Visnu Purana it is stated that as the presence of fire is understood by heat and light, so the Supreme Personality of Godhead, although one without a second, is perceived everywhere by the diffusion of His different energies.</p>
+<p>It is confirmed in the Isopanisad that the presence of the Lord is perceived everywhere by the liberated soul, just as the sunshine and the reflection can be perceived everywhere although the sun is situated far away from the surface of the globe.</p>
+
+
+
+<p><strong>3.27.13</strong></p>
+<p>evam trivrd-ahankaro</p>
+<p>bhutendriya-manomayaih</p>
+<p>svabhasair laksito ’nena</p>
+<p>sad-abhasena satya-drk</p>
+<p><strong>SYNONYMS</strong></p>
+<p>evam—thus; tri-vrt—the threefold; ahankarah—false ego; bhuta-indriya-manah-mayaih—consisting of body, senses and mind; sva-abhasaih—by its own reflections; laksitah—is revealed; anena—by this; sat-abhasena—by a reflection of Brahman; satya-drk—the self-realized soul.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The self-realized soul is thus reflected first in the threefold ego and then in the body, senses and mind.</p>
+<p><strong>PURPORT</strong></p>
+<p>The conditioned soul thinks, I am this body but a liberated soul thinks, I am not this body.</p>
+<p>I am spirit soul This I a is called ego, or identification of the self I am this bod or Everything in relationship to the body is min is called false ego, but when one is self-realized and thinks that he is an eternal servitor of the Supreme Lord, that identification is real ego.</p>
+<p>One conception is in the darkness of the threefold qualities of material nature—goodness, passion and ignorance—and the other is in the pure state of goodness, called suddha-sattva or vasudeva.</p>
+<p>When we say that we give up our ego, this means that we give up our false ego, but real ego is always present.</p>
+<p>When one is reflected through the material contamination of the body and mind in false identification, he is in the conditional state, but when he is reflected in the pure stage he is called liberated.</p>
+<p>The identification of oneself with one’s material possessions in the conditional stage must be purified, and one must identify himself in relationship with the Supreme Lord.</p>
+<p>In the conditioned state one accepts everything as an object of sense gratification, and in the liberated state one accepts everything for the service of the Supreme Lord.</p>
+<p>Krsna consciousness, devotional service, is the actual liberated stage of a living entity.</p>
+<p>Otherwise, both accepting and rejecting on the material platform or in voidness or impersonalism are imperfect conditions for the pure soul.</p>
+<p>By the understanding of the pure soul, called satya-drk, one can see everything as a reflection of the Supreme Personality of Godhead.</p>
+<p>A concrete example can be given in this connection.</p>
+<p>A conditioned soul sees a very beautiful rose, and he thinks that the nice aromatic flower should be used for his own sense gratification.</p>
+<p>This is one kind of vision.</p>
+<p>A liberated soul, however, sees the same flower as a reflection of the Supreme Lord.</p>
+<p>He thinks, This beautiful flower is made possible by the superior energy of the Supreme Lord; therefore it belongs to the Supreme Lord and should be utilized in His service These are two kinds of vision.</p>
+<p>The conditioned soul sees the flower for his own enjoyment, and the devotee sees the flower as an object to be used in the service of the Lord.</p>
+<p>In the same way, one can see the reflection of the Supreme Lord in one’s own senses, mind and body—in everything.</p>
+<p>With that correct vision, one can engage everything in the service of the Lord.</p>
+<p>It is stated in the Bhakti-rasamrta-sindhu that one who has engaged everything—his vital energy, his wealth, his intelligence and his words—in the service of the Lord, or who desires to engage all these in the service of the Lord, no matter how he is situated, is to be considered a liberated soul, or satya-drk.</p>
+<p>Such a man has understood things as they are.</p>
+
+
+
+<p><strong>3.27.14</strong></p>
+<p>bhuta-suksmendriya-mano-</p>
+<p>buddhy-adisv iha nidraya</p>
+<p>linesv asati yas tatra</p>
+<p>vinidro nirahankriyah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>bhuta—the material elements; suksma—the objects of enjoyment; indriya—the material senses; manah—mind; buddhi—intelligence; adisu—and so on; iha—here; nidraya—by sleep; linesu—merged; asati—in the unmanifest; yah—who; tatra—there; vinidrah—awake; nirahankriyah—freed from false ego.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Although a devotee appears to be merged in the five material elements, the objects of material enjoyment, the material senses and material mind and intelligence, he is understood to be awake and to be freed from the false ego.</p>
+<p><strong>PURPORT</strong></p>
+<p>The explanation by Rupa Gosvami in the Bhakti-rasamrta-sindhu of how a person can be liberated even in this body is more elaborately explained in this verse.</p>
+<p>The living entity who has become satya-drk, who realizes his position in relationship with the Supreme Personality of Godhead, may remain apparently merged in the five elements of matter, the five material sense objects, the ten senses and the mind and intelligence, but still he is considered to be awake and to be freed from the reaction of false ego.</p>
+<p>Here the word lina is very significant.</p>
+<p>The Mayavadi philosophers recommend merging in the impersonal effulgence of Brahman; that is their ultimate goal, or destination.</p>
+<p>That merging is also mentioned here.</p>
+<p>But in spite of merging, one can keep his individuality.</p>
+<p>The example given by Jiva Gosvami is that a green bird that enters a green tree appears to merge in the color of greenness, but actually the bird does not lose its individuality.</p>
+<p>Similarly, a living entity merged either in the material nature or in the spiritual nature does not give up his individuality.</p>
+<p>Real individuality is to understand oneself to be the eternal servitor of the Supreme Lord.</p>
+<p>This information is received from the mouth of Lord Caitanya.</p>
+<p>He said clearly, upon the inquiry of Sanatana Gosvami, that a living entity is the servitor of Krsna eternally.</p>
+<p>Krsna also confirms in Bhagavad-gita that the living entity is eternally His part and parcel.</p>
+<p>The part and parcel is meant to serve the whole.</p>
+<p>This is individuality.</p>
+<p>It is so even in this material existence, when the living entity apparently merges in matter.</p>
+<p>His gross body is made up of five elements, his subtle body is made of mind, intelligence, false ego and contaminated consciousness, and he has five active senses and five knowledge-acquiring senses.</p>
+<p>In this way he merges in matter.</p>
+<p>But even while merged in the twenty-four elements of matter, he can keep his individuality as the eternal servitor of the Lord.</p>
+<p>Either in the spiritual nature or in the material nature, such a servitor is to be considered a liberated soul.</p>
+<p>That is the explanation of the authorities, and it is confirmed in this verse.</p>
+
+
+
+<p><strong>3.27.15</strong></p>
+<p>manyamanas tadatmanam</p>
+<p>anasto nastavan mrsa</p>
+<p>naste ’hankarane drasta</p>
+<p>nasta-vitta ivaturah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>manyamanah—thinking; tada—then; atmanam—himself; anastah—although not lost; nasta-vat—as lost; mrsa—falsely; naste ahankarane—because of the disappearance of the ego; drasta—the seer; nasta-vittah—one who has lost his fortune; iva—like; aturah—distressed.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The living entity can vividly feel his existence as the seer, but because of the disappearance of the ego during the state of deep sleep, he falsely takes himself to be lost, like a man who has lost his fortune and feels distressed, thinking himself to be lost.</p>
+<p><strong>PURPORT</strong></p>
+<p>Only in ignorance does a living entity think that he is lost.</p>
+<p>If by attainment of knowledge he comes to the real position of his eternal existence, he knows that he is not lost.</p>
+<p>An appropriate example is mentioned herein: nasta-vitta ivaturah.</p>
+<p>A person who has lost a great sum of money may think that he is lost, but actually he is not lost—only his money is lost.</p>
+<p>But due to his absorption in the money or identification with the money, he thinks that he is lost.</p>
+<p>Similarly, when we falsely identify with matter as our field of activities, we think that we are lost, although actually we are not.</p>
+<p>As soon as a person is awakened to the pure knowledge of understanding that he is an eternal servitor of the Lord, his own real position is revived.</p>
+<p>A living entity can never be lost.</p>
+<p>When one forgets his identity in deep sleep, he becomes absorbed in dreams, and he may think himself a different person or may think himself lost.</p>
+<p>But actually his identity is intact.</p>
+<p>This concept of being lost is due to false ego, and it continues as long as one is not awakened to the sense of his existence as an eternal servitor of the Lord.</p>
+<p>The Mayavadi philosophers’ concept of becoming one with the Supreme Lord is another symptom of being lost in false ego.</p>
+<p>One may falsely claim that he is the Supreme Lord, but actually he is not.</p>
+<p>This is the last snare of maya’s influence upon the living entity.</p>
+<p>To think oneself equal with the Supreme Lord or to think oneself to be the Supreme Lord Himself is also due to false ego.</p>
+
+
+
+<p><strong>3.27.16</strong></p>
+<p>evam pratyavamrsyasav</p>
+<p>atmanam pratipadyate</p>
+<p>sahankarasya dravyasya</p>
+<p>yo ’vasthanam anugrahah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>evam—thus; pratyavamrsya—after understanding; asau—that person; atmanam—his self; pratipadyate—realizes; sa-ahankarasya—accepted under false ego; dravyasya—of the situation; yah—who; avasthanam—resting place; anugrahah—the manifester.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When, by mature understanding, one can realize his individuality, then the situation he accepts under false ego becomes manifest to him.</p>
+<p><strong>PURPORT</strong></p>
+<p>The Mayavadi philosophers’ position is that at the ultimate issue the individual is lost, everything becomes one, and there is no distinction between the knower, the knowable and knowledge.</p>
+<p>But by minute analysis we can see that this is not correct.</p>
+<p>Individuality is never lost, even when one thinks that the three different principles, namely the knower, the knowable and knowledge, are amalgamated or merged into one.</p>
+<p>The very concept that the three merge into one is another form of knowledge, and since the perceiver of the knowledge still exists, how can one say that the knower, knowledge and knowable have become one? The individual soul who is perceiving this knowledge still remains an individual.</p>
+<p>Both in material existence and in spiritual existence the individuality continues; the only difference is in the quality of the identity.</p>
+<p>In the material identity, the false ego acts, and because of false identification, one takes things to be different from what they actually are.</p>
+<p>That is the basic principle of conditional life.</p>
+<p>Similarly, when the false ego is purified, one takes everything in the right perspective.</p>
+<p>That is the state of liberation.</p>
+<p>It is stated in the Isopanisad that everything belongs to the Lord.</p>
+<p>Isavasyam idam sarvam.</p>
+<p>Everything exists on the energy of the Supreme Lord.</p>
+<p>This is also confirmed in Bhagavad-gita.</p>
+<p>Because everything is produced of His energy and exists on His energy, the energy is not different from Him—but still the Lord declares, I am not there When one clearly understands one’s constitutional position, everything becomes manifest.</p>
+<p>False egoistic acceptance of things conditions one, whereas acceptance of things as they are makes one liberated.</p>
+<p>The example given in the previous verse is applicable here: due to absorption of one’s identity in his money, when the money is lost he thinks that he is also lost.</p>
+<p>But actually he is not identical with the money, nor does the money belong to him.</p>
+<p>When the actual situation is revealed, we understand that the money does not belong to any individual person or living entity, nor is it produced by man.</p>
+<p>Ultimately the money is the property of the Supreme Lord, and there is no question of its being lost.</p>
+<p>But as long as one falsely thinks, I am the enjoyer or I am the Lord this concept of life continues, and one remains conditioned.</p>
+<p>As soon as this false ego is eliminated, one is liberated.</p>
+<p>As confirmed in the Bhagavatam, situation in one’s real constitutional position is called mukti, or liberation.</p>
+
+
+
+<p><strong>3.27.17</strong></p>
+<p>devahutir uvaca</p>
+<p>purusam prakrtir brahman</p>
+<p>na vimuncati karhicit</p>
+<p>anyonyapasrayatvac ca</p>
+<p>nityatvad anayoh prabho</p>
+<p><strong>SYNONYMS</strong></p>
+<p>devahutih uvaca—Devahuti said; purusam—the spirit soul; prakrtih—material nature; brahman—O brahmana; na—not; vimuncati—does release; karhicit—at any time; anyonya—to one another; apasrayatvat—from attraction; ca—and; nityatvat—from eternality; anayoh—of them both; prabho—O my Lord.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sri Devahuti inquired: My dear brahmana, does material nature ever give release to the spirit soul? Since one is attracted to the other eternally, how is their separation possible?</p>
+<p><strong>PURPORT</strong></p>
+<p>Devahuti, the mother of Kapiladeva, here makes her first inquiry.</p>
+<p>Although one may understand that spirit soul and matter are different, their actual separation is not possible, either by philosophical speculation or by proper understanding.</p>
+<p>The spirit soul is the marginal potency of the Supreme Lord, and matter is the external potency of the Lord.</p>
+<p>The two eternal potencies have somehow or other been combined, and since it is so difficult to separate one from the other, how is it possible for the individual soul to become liberated? By practical experience one can see that when the soul is separated from the body, the body has no real existence, and when the body is separated from the soul one cannot perceive the existence of the soul.</p>
+<p>As long as the soul and the body are combined, we can understand that there is life.</p>
+<p>But when they are separated, there is no manifested existence of the body or the soul.</p>
+<p>This question asked by Devahuti of Kapiladeva is more or less impelled by the philosophy of voidism.</p>
+<p>The voidists say that consciousness is a product of a combination of matter and that as soon as the consciousness is gone, the material combination dissolves, and therefore there is ultimately nothing but voidness.</p>
+<p>This absence of consciousness is called nirvana in Mayavada philosophy.</p>
+
+
+
+<p><strong>3.27.18</strong></p>
+<p>yatha gandhasya bhumes ca</p>
+<p>na bhavo vyatirekatah</p>
+<p>apam rasasya ca yatha</p>
+<p>tatha buddheh parasya ca</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yatha—as; gandhasya—of aroma; bhumeh—of earth; ca—and; na—no; bhavah—existence; vyatirekatah—separate; apam—of water; rasasya—of taste; ca—and; yatha—as; tatha—so; buddheh—of intelligence; parasya—of consciousness, spirit; ca—and.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>As there is no separate existence of the earth and its aroma or of water and its taste, there cannot be any separate existence of intelligence and consciousness.</p>
+<p><strong>PURPORT</strong></p>
+<p>The example is given here that anything material has an aroma.</p>
+<p>The flower, the earth—everything—has an aroma.</p>
+<p>If the aroma is separated from the matter, the matter cannot be identified.</p>
+<p>If there is no taste to water, the water has no meaning; if there is no heat in the fire, the fire has no meaning.</p>
+<p>Similarly, when there is want of intelligence, spirit has no meaning.</p>
+
+
+
+<p><strong>3.27.19</strong></p>
+<p>akartuh karma-bandho ’yam</p>
+<p>purusasya yad-asrayah</p>
+<p>gunesu satsu prakrteh</p>
+<p>kaivalyam tesv atah katham</p>
+<p><strong>SYNONYMS</strong></p>
+<p>akartuh—of the passive performer, the nondoer; karma-bandhah—bondage to fruitive activities; ayam—this; purusasya—of the soul; yat-asrayah—caused by attachment to the modes; gunesu—while the modes; satsu—are existing; prakrteh—of material nature; kaivalyam—freedom; tesu—those; atah—hence; katham—how.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Hence even though he is the passive performer of all activities, how can there be freedom for the soul as long as material nature acts on him and binds him?</p>
+<p><strong>PURPORT</strong></p>
+<p>Although the living entity desires freedom from the contamination of matter, he is not given release.</p>
+<p>Actually, as soon as a living entity puts himself under the control of the modes of material nature, his acts are influenced by the qualities of material nature, and he becomes passive.</p>
+<p>It is confirmed in Bhagavad-gita, prakrteh kriyamanani gunaih: the living entity acts according to the qualities or modes of material nature.</p>
+<p>He falsely thinks that he is acting, but unfortunately he is passive.</p>
+<p>In other words, he has no opportunity to get out of the control of material nature because it has already conditioned him.</p>
+<p>In Bhagavad-gita it is also stated that it is very difficult to get out of the clutches of material nature.</p>
+<p>One may try in different ways to think that everything is void in the ultimate issue, that there is no God and that even if the background of everything is spirit, it is impersonal.</p>
+<p>This speculation may go on, but actually it is very difficult to get out of the clutches of material nature.</p>
+<p>Devahuti poses the question that although one may speculate in many ways, where is liberation as long as one is under the spell of material nature? The answer is also found in Bhagavad-gita (7.14): only one who has surrendered himself unto the lotus feet of the Supreme Lord Krsna (mam eva ye prapadyante) can be freed from the clutches of maya.</p>
+<p>Since Devahuti is gradually coming to the point of surrender, her questions are very intelligent.</p>
+<p>How can one be liberated? How can one be in a pure state of spiritual existence as long as he is strongly held by the modes of material nature? This is also an indication to the false meditator.</p>
+<p>There are many so-called meditators who think, I am the Supreme Spirit Soul.</p>
+<p>I am conducting the activities of material nature.</p>
+<p>Under my direction the sun is moving and the moon is rising They think that by such contemplation or meditation they can become free, but it is seen that just three minutes after finishing such nonsensical meditation, they are immediately captured by the modes of material nature.</p>
+<p>Immediately after his high-sounding meditation, a meditato becomes thirsty and wants to smoke or drink.</p>
+<p>He is under the strong grip of material nature, yet he thinks that he is already free from the clutches of maya.</p>
+<p>This question of Devahuti’s is for such a person who falsely claims that he is everything, that ultimately everything is void, and that there are no sinful or pious activities.</p>
+<p>These are all atheistic inventions.</p>
+<p>Actually, unless a living entity surrenders unto the Supreme Personality of Godhead as instructed in Bhagavad-gita, there is no liberation or freedom from the clutches of maya.</p>
+
+
+
+<p><strong>3.27.20</strong></p>
+<p>kvacit tattvavamarsena</p>
+<p>nivrttam bhayam ulbanam</p>
+<p>anivrtta-nimittatvat</p>
+<p>punah pratyavatisthate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kvacit—in a certain case; tattva—the fundamental principles; avamarsena—by reflecting upon; nivrttam—avoided; bhayam—fear; ulbanam—great; anivrtta—not ceased; nimittatvat—since the cause; punah—again; pratyavatisthate—it appears.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Even if the great fear of bondage is avoided by mental speculation and inquiry into the fundamental principles, it may still appear again, since its cause has not ceased.</p>
+<p><strong>PURPORT</strong></p>
+<p>Material bondage is caused by putting oneself under the control of matter because of the false ego of lording it over material nature.</p>
+<p>Bhagavad-gita (7.27) states, iccha-dvesa-samutthena.</p>
+<p>Two kinds of propensities arise in the living entity.</p>
+<p>One propensity is iccha, which means desire to lord it over material nature or to be as great as the Supreme Lord.</p>
+<p>Everyone desires to be the greatest personality in this material world.</p>
+<p>Dvesa means envy When one becomes envious of Krsna, or the Supreme Personality of Godhead, one thinks, Why should Krsna be the all and all? I’m as good as Krsna These two items, desire to be the Lord and envy of the Lord, are the beginning cause of material bondage.</p>
+<p>As long as a philosopher, salvationist or voidist has some desire to be supreme, to be everything, or to deny the existence of God, the cause remains, and there is no question of his liberation.</p>
+<p>Devahuti very intelligently says, One may theoretically analyze and say that by knowledge he has become freed, but actually, as long as the cause exists, he is not free Bhagavad-gita confirms that after performing such speculative activities for many, many births, when one actually comes to his real consciousness and surrenders unto the Supreme Lord, Krsna, then the fulfillment of his research in knowledge is actually achieved.</p>
+<p>There is a gulf of difference between theoretical freedom and actual freedom from material bondage.</p>
+<p>The Bhagavatam (10.14.4) says that if one gives up the auspicious path of devotional service and simply tries to know things by speculation, one wastes his valuable time (klisyanti ye kevala-bodha-labdhaye).</p>
+<p>The result of such a labor of love is simply labor; there is no other result.</p>
+<p>The labor of speculation is ended only by exhaustion.</p>
+<p>The example is given that there is no benefit in husking the skin of an empty paddy; the rice is already gone.</p>
+<p>Similarly, simply by the speculative process one cannot be freed from material bondage, for the cause still exists.</p>
+<p>One has to nullify the cause, and then the effect will be nullified.</p>
+<p>This is explained by the Supreme Personality of Godhead in the following verses.</p>
+
+
+
+<p><strong>3.27.21</strong></p>
+<p>sri-bhagavan uvaca</p>
+<p>animitta-nimittena</p>
+<p>sva-dharmenamalatmana</p>
+<p>tivraya mayi bhaktya ca</p>
+<p>sruta-sambhrtaya ciram</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-bhagavan uvaca—the Supreme Personality of Godhead said; animitta-nimittena—without desiring the fruits of activities; sva-dharmena—by executing one’s prescribed duties; amala-atmana—with a pure mind; tivraya—serious; mayi—unto Me; bhaktya—by devotional service; ca—and; sruta—hearing; sambhrtaya—endowed with; ciram—for a long time.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Supreme Personality of Godhead said: One can get liberation by seriously discharging devotional service unto Me and thereby hearing for a long time about Me or from Me.</p>
+<p>By thus executing one’s prescribed duties, there will be no reaction, and one will be freed from the contamination of matter.</p>
+<p><strong>PURPORT</strong></p>
+<p>Sridhara Svami comments in this connection that by association with material nature alone one does not become conditioned.</p>
+<p>Conditional life begins only after one is infected by the modes of material nature.</p>
+<p>If someone is in contact with the police department, that does not mean that he is a criminal.</p>
+<p>As long as one does not commit criminal acts, even though there is a police department, he is not punished.</p>
+<p>Similarly, the liberated soul is not affected, although he is in the material nature.</p>
+<p>Even the Supreme Personality of Godhead is supposed to be in association with material nature when He descends, but He is not affected.</p>
+<p>One has to act in such a way that in spite of being in the material nature he is not affected by contamination.</p>
+<p>Although the lotus flower is in association with water, it does not mix with the water.</p>
+<p>That is how one has to live, as described here by the Personality of Godhead Kapiladeva (animitta-nimittena sva-dharmenamalatmana).</p>
+<p>One can be liberated from all adverse circumstances simply by seriously engaging in devotional service.</p>
+<p>How this devotional service develops and becomes mature is explained here.</p>
+<p>In the beginning one has to perform his prescribed duties with a clean mind.</p>
+<p>Clean consciousness means Krsna consciousness.</p>
+<p>One has to perform his prescribed duties in Krsna consciousness.</p>
+<p>There is no necessity of changing one’s prescribed duties; one simply has to act in Krsna consciousness.</p>
+<p>In discharging Krsna conscious duties, one should determine whether, by his professional or occupational duties, Krsna, the Supreme Personality of Godhead, is satisfied.</p>
+<p>In another place in the Bhagavatam it is said, svanusthitasya dharmasya samsiddhir hari-tosanam: (SB 1.2.13) everyone has some prescribed duties to perform, but the perfection of such duties will be reached only if the Supreme Personality of Godhead, Hari, is satisfied by such actions.</p>
+<p>For example, Arjuna’s prescribed duty was to fight, and the perfection of his fighting was tested by the satisfaction of Krsna.</p>
+<p>Krsna wanted him to fight, and when he fought for the satisfaction of the Lord, that was the perfection of his professional devotional duty.</p>
+<p>On the other hand, when, contrary to the wish of Krsna, he was not willing to fight, that was imperfect.</p>
+<p>If one wants to perfect his life, he should discharge his prescribed duties for the satisfaction of Krsna.</p>
+<p>One must act in Krsna consciousness, for such action will never produce any reaction (animitta-nimittena).</p>
+<p>This is also confirmed in Bhagavad-gita.</p>
+<p>Yajnarthat karmano ’nyatra: all activities should be performed simply for Yajna, or the satisfaction of Visnu.</p>
+<p>Anything done otherwise, without the satisfaction of Visnu, or Yajna, produces bondage, so here it is also prescribed by Kapila Muni that one can transcend material entanglement by acting in Krsna consciousness, which means seriously engaging in devotional service.</p>
+<p>This serious devotional service can develop by hearing for long periods of time.</p>
+<p>Chanting and hearing is the beginning of the process of devotional service.</p>
+<p>One should associate with devotees and hear from them about the Lord’s transcendental appearance, activities, disappearance, instructions, etc.</p>
+<p>There are two kinds of sruti, or scripture.</p>
+<p>One is spoken by the Lord, and the other is spoken about the Lord and His devotees.Bhagavad-gita is the former and Srimad-Bhagavatam the latter.</p>
+<p>One must hear these scriptures repeatedly from reliable sources in order to become fixed in serious devotional service.</p>
+<p>Through engagement in such devotional service, one becomes freed from the contamination of maya.</p>
+<p>It is stated in the Srimad-Bhagavatam that hearing about the Supreme Personality of Godhead cleanses the heart of all contamination caused by the influence of the three modes of material nature.</p>
+<p>By continuous, regular hearing, the effects of the contamination of lust and greed to enjoy or lord it over material nature diminish, and when lust and greed diminish, one then becomes situated in the mode of goodness.</p>
+<p>This is the stage of Brahman realization, or spiritual realization.</p>
+<p>In this way one becomes fixed on the transcendental platform.</p>
+<p>Remaining fixed on the transcendental platform is liberation from material entanglement.</p>
+
+
+
+<p><strong>3.27.22</strong></p>
+<p>jnanena drsta-tattvena</p>
+<p>vairagyena baliyasa</p>
+<p>tapo-yuktena yogena</p>
+<p>tivrenatma-samadhina</p>
+<p><strong>SYNONYMS</strong></p>
+<p>jnanena—in knowledge; drsta-tattvena—with vision of the Absolute Truth; vairagyena—with renunciation; baliyasa—very strong; tapah-yuktena—by engagement in austerity; yogena—by mystic yoga; tivrena—firmly fixed; atma-samadhina—by self-absorption.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>This devotional service has to be performed strongly in perfect knowledge and with transcendental vision.</p>
+<p>One must be strongly renounced and must engage in austerity and perform mystic yoga in order to be firmly fixed in self-absorption.</p>
+<p><strong>PURPORT</strong></p>
+<p>Devotional service in Krsna consciousness cannot be performed blindly due to material emotion or mental concoction.</p>
+<p>It is specifically mentioned here that one has to perform devotional service in full knowledge by visualizing the Absolute Truth.</p>
+<p>We can understand about the Absolute Truth by evolving transcendental knowledge, and the result of such transcendental knowledge will be manifested by renunciation.</p>
+<p>That renunciation is not temporary or artificial, but is very strong.</p>
+<p>It is said that development of Krsna consciousness is exhibited by proportionate material detachment, or vairagya.</p>
+<p>If one does not separate himself from material enjoyment, it is to be understood that he is not advancing in Krsna consciousness.</p>
+<p>Renunciation in Krsna consciousness is so strong that it cannot be deviated by any attractive illusion.</p>
+<p>One has to perform devotional service in full tapasya, austerity.</p>
+<p>One should fast on the two Ekadasi days, which fall on the eleventh day of the waxing and waning moon, and on the birthdays of Lord Krsna, Lord Rama and Caitanya Mahaprabhu.</p>
+<p>There are many such fasting days.</p>
+<p>Yogena means by controlling the senses and mind Yoga indriya-samyamah.</p>
+<p>Yogena implies that one is seriously absorbed in the self and is able, by development of knowledge, to understand his constitutional position in relationship with the Superself.</p>
+<p>In this way one becomes fixed in devotional service, and his faith cannot be shaken by any material allurement.</p>
+
+
+
+<p><strong>3.27.23</strong></p>
+<p>prakrtih purusasyeha</p>
+<p>dahyamana tv ahar-nisam</p>
+<p>tiro-bhavitri sanakair</p>
+<p>agner yonir ivaranih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>prakrtih—the influence of material nature; purusasya—of the living entity; iha—here; dahyamana—being consumed; tu—but; ahah-nisam—day and night; tirah-bhavitri—disappearing; sanakaih—gradually; agneh—of fire; yonih—the cause of appearance; iva—as; aranih—wooden sticks.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The influence of material nature has covered the living entity, and thus it is as if the living entity were always in a blazing fire.</p>
+<p>But by the process of seriously discharging devotional service, this influence can be removed, just as wooden sticks which cause a fire are themselves consumed by it.</p>
+<p><strong>PURPORT</strong></p>
+<p>Fire is conserved in wooden sticks, and when circumstances are favorable, the fire is ignited.</p>
+<p>But the wooden sticks which are the cause of the fire are also consumed by the fire if it is properly dealt with.</p>
+<p>Similarly, the living entity’s conditional life of material existence is due to his desire to lord it over material nature and due to his envy of the Supreme Lord.</p>
+<p>Thus his main diseases are that he wants to be one with the Supreme Lord or he wants to become the lord of material nature.</p>
+<p>The karmis try to utilize the resources of material nature and thus become its lord and enjoy sense gratification, and the jnanis, the salvationists, who have become frustrated in enjoying the material resources, want to become one with the Supreme Personality of Godhead or merge into the impersonal effulgence.</p>
+<p>These two diseases are due to material contamination.</p>
+<p>Material contamination can be consumed by devotional service because in devotional service these two diseases, namely the desire to lord it over material nature and the desire to become one with the Supreme Lord, are absent.</p>
+<p>Therefore the cause of material existence is at once consumed by the careful discharge of devotional service in Krsna consciousness.</p>
+<p>A devotee in full Krsna consciousness appears superficially to be a great karmi, always working, but the inner significance of the devotee’s activities is that they are meant for the satisfaction of the Supreme Lord.</p>
+<p>This is called bhakti, or devotional service.</p>
+<p>Arjuna was apparently a fighter but when by his fighting he satisfied the senses of Lord Krsna, he became a devotee.</p>
+<p>Since a devotee also engages in philosophical research to understand the Supreme Person as He is, his activities may thus appear to be like those of a mental speculator, but actually he is trying to understand the spiritual nature and transcendental activities.</p>
+<p>Thus although the tendency for philosophical speculation exists, the material effects of fruitive activities and empiric speculation do not, because this activity is meant for the Supreme Personality of Godhead.</p>
+
+
+
+<p><strong>3.27.24</strong></p>
+<p>bhukta-bhoga parityakta</p>
+<p>drsta-dosa ca nityasah</p>
+<p>nesvarasyasubham dhatte</p>
+<p>sve mahimni sthitasya ca</p>
+<p><strong>SYNONYMS</strong></p>
+<p>bhukta—enjoyed; bhoga—enjoyment; parityakta—given up; drsta—discovered; dosa—faultiness; ca—and; nityasah—always; na—not; isvarasya—of the independent; asubham—harm; dhatte—she inflicts; sve mahimni—in his own glory; sthitasya—situated; ca—and.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>By discovering the faultiness of his desiring to lord it over material nature and by therefore giving it up, the living entity becomes independent and stands in his own glory.</p>
+<p><strong>PURPORT</strong></p>
+<p>Because the living entity is not actually the enjoyer of the material resources, his attempt to lord it over material nature is, at the ultimate issue, frustrated.</p>
+<p>As a result of frustration, he desires more power than the ordinary living entity and thus wants to merge into the existence of the supreme enjoyer.</p>
+<p>In this way he develops a plan for greater enjoyment.</p>
+<p>When one is actually situated in devotional service, that is his independent position.</p>
+<p>Less intelligent men cannot understand the position of the eternal servant of the Lord.</p>
+<p>Because the word servan is used, they become confused; they cannot understand that this servitude is not the servitude of this material world.</p>
+<p>To be the servant of the Lord is the greatest position.</p>
+<p>If one can understand this and can thus revive one’s original nature of eternal servitorship of the Lord, one stands fully independent.</p>
+<p>A living entity’s independence is lost by material contact.</p>
+<p>In the spiritual field he has full independence, and therefore there is no question of becoming dependent upon the three modes of material nature.</p>
+<p>This position is attained by a devotee, and therefore he gives up the tendency for material enjoyment after seeing its faultiness.</p>
+<p>The difference between a devotee and an impersonalist is that an impersonalist tries to become one with the Supreme so that he can enjoy without impediment, whereas a devotee gives up the entire mentality of enjoying and engages in the transcendental loving service of the Lord.</p>
+<p>That is his constitutional glorified position.</p>
+<p>At that time he is isvara, fully independent.</p>
+<p>The real isvara or isvarah paramah, the supreme isvara, or supreme independent, is Krsna.</p>
+<p>The living entity is isvara only when engaged in the service of the Lord.</p>
+<p>In other words, transcendental pleasure derived from loving service to the Lord is actual independence.</p>
+
+
+
+<p><strong>3.27.25</strong></p>
+<p>yatha hy apratibuddhasya</p>
+<p>prasvapo bahv-anartha-bhrt</p>
+<p>sa eva pratibuddhasya</p>
+<p>na vai mohaya kalpate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yatha—as; hi—indeed; apratibuddhasya—of one who is sleeping; prasvapah—the dream; bahu-anartha-bhrt—bearing many inauspicious things; sah eva—that very dream; pratibuddhasya—of one who is awake; na—not; vai—certainly; mohaya—for bewildering; kalpate—is capable.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In the dreaming state one’s consciousness is almost covered, and one sees many inauspicious things, but when he is awakened and fully conscious, such inauspicious things cannot bewilder him.</p>
+<p><strong>PURPORT</strong></p>
+<p>In the condition of dreaming, when one’s consciousness is almost covered, one may see many unfavorable things which cause disturbance or anxiety, but upon awakening, although he remembers what happened in the dream, he is not disturbed.</p>
+<p>Similarly the position of self-realization, or understanding of one’s real relationship with the Supreme Lord, makes one completely satisfied, and the three modes of material nature, which are the cause of all disturbances, cannot affect him.</p>
+<p>In contaminated consciousness one sees everything to be for his own enjoyment, but in pure consciousness, or Krsna consciousness, he sees that everything exists for the enjoyment of the supreme enjoyer.</p>
+<p>That is the difference between the dream state and wakefulness.</p>
+<p>The state of contaminated consciousness is compared to dream consciousness, and Krsna consciousness is compared to the awakened stage of life.</p>
+<p>Actually, as stated in Bhagavad-gita, the only absolute enjoyer is Krsna.</p>
+<p>One who can understand that Krsna is the proprietor of all the three worlds and that He is the friend of everyone is peaceful and independent.</p>
+<p>As long as a conditioned soul does not have this knowledge, he wants to be the enjoyer of everything; he wants to become a humanitarian or philanthropist and open hospitals and schools for his fellow human beings.</p>
+<p>This is all illusion, for one cannot benefit anyone by such material activities.</p>
+<p>If one wishes to benefit his fellow brother, he must awaken his dormant Krsna consciousness.</p>
+<p>The Krsna conscious position is that of pratibuddha, which means pure consciousness</p>
+
+
+
+<p><strong>3.27.26</strong></p>
+<p>evam vidita-tattvasya</p>
+<p>prakrtir mayi manasam</p>
+<p>yunjato napakuruta</p>
+<p>atmaramasya karhicit</p>
+<p><strong>SYNONYMS</strong></p>
+<p>evam—thus; vidita-tattvasya—to one who knows the Absolute Truth; prakrtih—material nature; mayi—on Me; manasam—the mind; yunjatah—fixing; na—not; apakurute—can do harm; atma-aramasya—to one who rejoices in the self; karhicit—at any time.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The influence of material nature cannot harm an enlightened soul, even though he engages in material activities, because he knows the truth of the Absolute, and his mind is fixed on the Supreme Personality of Godhead.</p>
+<p><strong>PURPORT</strong></p>
+<p>Lord Kapila says that mayi manasam, a devotee whose mind is always fixed upon the lotus feet of the Supreme Personality of Godhead, is called atmarama or vidita-tattva.</p>
+<p>Atmarama means one who rejoices in the self or one who enjoys in the spiritual atmosphere Atma, in the material sense, means the body or the mind, but when referring to one whose mind is fixed on the lotus feet of the Supreme Lord, atmarama means one who is fixed in spiritual activities in relationship with the Supreme Soul The Supreme Soul is the Personality of Godhead, and the individual soul is the living entity.</p>
+<p>When they engage in reciprocation of service and benediction, the living entity is said to be in the atmarama position.</p>
+<p>This atmarama position can be attained by one who knows the truth as it is.</p>
+<p>The truth is that the Supreme Personality of Godhead is the enjoyer and that the living entities are meant for His service and enjoyment.</p>
+<p>One who knows this truth, and who tries to engage all resources in the service of the Lord, escapes all material reactions and influences of the modes of material nature.</p>
+<p>An example may be cited in this connection.</p>
+<p>Just as a materialist engages in constructing a big skyscraper, a devotee engages in constructing a big temple for Visnu.</p>
+<p>Superficially, the skyscraper constructor and temple constructor are on the same level, for both are collecting wood, stone, iron and other building materials.</p>
+<p>But the person who constructs a skyscraper is a materialist, and the person who constructs a temple of Visnu is atmarama.</p>
+<p>The materialist tries to satisfy himself in relation to his body by constructing a skyscraper, but the devotee tries to satisfy the Superself, the Supreme Personality of Godhead, by constructing the temple.</p>
+<p>Although both are engaged in the association of material activities, the devotee is liberated, and the materialist is conditioned.</p>
+<p>This is because the devotee, who is constructing the temple, has fixed his mind upon the Supreme Personality of Godhead, but the nondevotee, who is constructing the skyscraper, has his mind fixed in sense gratification.</p>
+<p>If, while performing any activity, even in material existence, one’s mind is fixed upon the lotus feet of the Personality of Godhead, one will not be entangled or conditioned.</p>
+<p>The worker in devotional service, in full Krsna consciousness, is always independent of the influence of material nature.</p>
+
+
+
+<p><strong>3.27.27</strong></p>
+<p>yadaivam adhyatma-ratah</p>
+<p>kalena bahu-janmana</p>
+<p>sarvatra jata-vairagya</p>
+<p>abrahma-bhuvanan munih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yada—when; evam—thus; adhyatma-ratah—engaged in self-realization; kalena—for many years; bahu-janmana—for many births; sarvatra—everywhere; jata-vairagyah—detachment is born; a-brahma-bhuvanat—up to Brahmaloka; munih—a thoughtful person.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When a person thus engages in devotional service and self-realization for many, many years and births, he becomes completely reluctant to enjoy any one of the material planets, even up to the highest planet, which is known as Brahmaloka; he becomes fully developed in consciousness.</p>
+<p><strong>PURPORT</strong></p>
+<p>Anyone engaged in devotional service to the Supreme Personality of Godhead is known as a devotee, but there is a distinction between pure devotees and mixed devotees.</p>
+<p>A mixed devotee engages in devotional service for the spiritual benefit of being eternally engaged in the transcendental abode of the Lord in full bliss and knowledge.</p>
+<p>In material existence, when a devotee is not completely purified, he expects material benefit from the Lord in the form of relief from material miseries, or he wants material gain, advancement in knowledge of the relationship between the Supreme Personality of Godhead and the living entity, or knowledge as to the real nature of the Supreme Lord.</p>
+<p>When a person is transcendental to these conditions, he is called a pure devotee.</p>
+<p>He does not engage himself in the service of the Lord for any material benefit or for understanding of the Supreme Lord.</p>
+<p>His one interest is that he loves the Supreme Personality of Godhead, and he spontaneously engages in satisfying Him.</p>
+<p>The highest example of pure devotional service is that of the gopis in Vrndavana.</p>
+<p>They are not interested in understanding Krsna, but only in loving Him.</p>
+<p>That platform of love is the pure state of devotional service.</p>
+<p>Unless one is advanced to this pure state of devotional service, there is a tendency to desire elevation to a higher material position.</p>
+<p>A mixed devotee may desire to enjoy a comfortable life on another planet with a greater span of life, such as on Brahmaloka.</p>
+<p>These are material desires, but because a mixed devotee engages in the service of the Lord, ultimately, after many, many lives of material enjoyment, he undoubtedly develops Krsna consciousness, and the symptom of this Krsna consciousness is that he is no longer interested in any sort of materially elevated life.</p>
+<p>He does not even aspire to become a personality like Lord Brahma.</p>
+
+
+
+<p><strong>3.27.28-29</strong></p>
+<p>mad-bhaktah pratibuddhartho</p>
+<p>mat-prasadena bhuyasa</p>
+<p>nihsreyasam sva-samsthanam</p>
+<p>kaivalyakhyam mad-asrayam</p>
+<p>prapnotihanjasa dhirah</p>
+<p>sva-drsa cchinna-samsayah</p>
+<p>yad gatva na nivarteta</p>
+<p>yogi lingad vinirgame</p>
+<p><strong>SYNONYMS</strong></p>
+<p>mat-bhaktah—My devotee; pratibuddha-arthah—self-realized; mat-prasadena—by My causeless mercy; bhuyasa—unlimited; nihsreyasam—the ultimate perfectional goal; sva-samsthanam—his abode; kaivalya-akhyam—called kaivalya; mat-asrayam—under My protection; prapnoti—attains; iha—in this life; anjasa—truly; dhirah—steady; sva-drsa—by knowledge of the self; chinna-samsayah—freed from doubts; yat—to that abode; gatva—having gone; na—never; nivarteta—comes back; yogi—the mystic devotee; lingat—from the subtle and gross material bodies; vinirgame—after departing.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My devotee actually becomes self-realized by My unlimited causeless mercy, and thus, when freed from all doubts, he steadily progresses towards his destined abode, which is directly under the protection of My spiritual energy of unadulterated bliss.</p>
+<p>That is the ultimate perfectional goal of the living entity.</p>
+<p>After giving up the present material body, the mystic devotee goes to that transcendental abode and never comes back.</p>
+<p><strong>PURPORT</strong></p>
+<p>Actual self-realization means becoming a pure devotee of the Lord.</p>
+<p>The existence of a devotee implies the function of devotion and the object of devotion.</p>
+<p>Self-realization ultimately means to understand the Personality of Godhead and the living entities; to know the individual self and the reciprocal exchanges of loving service between the Supreme Personality of Godhead and the living entity is real self-realization.</p>
+<p>This cannot be attained by the impersonalists or other transcendentalists; they cannot understand the science of devotional service.</p>
+<p>Devotional service is revealed to the pure devotee by the unlimited causeless mercy of the Lord.</p>
+<p>This is especially spoken of here by the Lord—mat-prasadena, by My special grace This is also confirmed in Bhagavad-gita.</p>
+<p>Only those who engage in devotional service with love and faith receive the necessary intelligence from the Supreme Personality of Godhead so that gradually and progressively they can advance to the abode of the Personality of Godhead.</p>
+<p>Nihsreyasa means the ultimate destination Sva-samsthana indicates that the impersonalists have no particular place to stay.</p>
+<p>The impersonalists sacrifice their individuality so that the living spark can merge into the impersonal effulgence emanating from the transcendental body of the Lord, but the devotee has a specific abode.</p>
+<p>The planets rest in the sunshine, but the sunshine itself has no particular resting place.</p>
+<p>When one reaches a particular planet, then he has a resting place.</p>
+<p>The spiritual sky, which is known as kaivalya, is simply blissful light on all sides, and it is under the protection of the Supreme Personality of Godhead.</p>
+<p>As stated in Bhagavad-gita (14.27), brahmano hi pratisthaham: the impersonal Brahman effulgence rests on the body of the Supreme Personality of Godhead.</p>
+<p>In other words, the bodily effulgence of the Supreme Personality of Godhead is kaivalya, or impersonal Brahman.</p>
+<p>In that impersonal effulgence there are spiritual planets, which are known as Vaikunthas, chief of which is Krsnaloka.</p>
+<p>Some devotees are elevated to the Vaikuntha planets, and some are elevated to the planet Krsnaloka.</p>
+<p>According to the desire of the particular devotee, he is offered a particular abode, which is known as sva-samsthana, his desired destination.</p>
+<p>By the grace of the Lord, the self-realized devotee engaged in devotional service understands his destination even while in the material body.</p>
+<p>He therefore performs his devotional activities steadily, without doubting, and after quitting his material body he at once reaches the destination for which he has prepared himself.</p>
+<p>After reaching that abode, he never comes back to this material world.</p>
+<p>The words lingad vinirgame, which are used here, mean after being freed from the two kinds of material bodies, subtle and gross The subtle body is made of mind, intelligence, false ego and contaminated consciousness, and the gross body is made of five elements—earth, water, fire, air and ether.</p>
+<p>When one is transferred to the spiritual world, he gives up both the subtle and gross bodies of this material world.</p>
+<p>He enters the spiritual sky in his pure, spiritual body and is stationed in one of the spiritual planets.</p>
+<p>Although the impersonalists also reach that spiritual sky after giving up the subtle and gross material bodies, they are not placed in the spiritual planets; as they desire, they are allowed to merge in the spiritual effulgence emanating from the transcendental body of the Lord.</p>
+<p>The word sva-samsthanam is also very significant.</p>
+<p>As a living entity prepares himself, so he attains his abode.</p>
+<p>The impersonal Brahman effulgence is offered to the impersonalists, but those who want to associate with the Supreme Personality of Godhead in His transcendental form as Narayana in the Vaikunthas, or with Krsna in Krsnaloka, go to those abodes, wherefrom they never return.</p>
+
+
+
+<p><strong>3.27.30</strong></p>
+<p>yada na yogopacitasu ceto</p>
+<p>mayasu siddhasya visajjate ’nga</p>
+<p>ananya-hetusv atha me gatih syad</p>
+<p>atyantiki yatra na mrtyu-hasah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yada—when; na—not; yoga-upacitasu—to powers developed by yoga; cetah—the attention; mayasu—manifestations of maya; siddhasya—of a perfect yogi; visajjate—is attracted; anga—My dear mother; ananya-hetusu—having no other cause; atha—then; me—to Me; gatih—his progress; syat—becomes; atyantiki—unlimited; yatra—where; na—not; mrtyu-hasah—power of death.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When a perfect yogi’s attention is no longer attracted to the by-products of mystic powers, which are manifestations of the external energy, his progress towards Me becomes unlimited, and thus the power of death cannot overcome him.</p>
+<p><strong>PURPORT</strong></p>
+<p>Yogis are generally attracted to the by-products of mystic yogic power, for they can become smaller than the smallest or greater than the greatest, achieve anything they desire, have power even to create a planet, or bring anyone they like under their subjection.</p>
+<p>Yogis who have incomplete information of the result of devotional service are attracted by these powers, but these powers are material; they have nothing to do with spiritual progress.</p>
+<p>As other material powers are created by the material energy, mystic yogic powers are also material.</p>
+<p>A perfect yogis mind is not attracted by any material power, but is simply attracted by unalloyed service to the Supreme Lord.</p>
+<p>For a devotee, the process of merging into the Brahman effulgence is considered to be hellish, and yogic power or the preliminary perfection of yogic power, to be able to control the senses, is automatically achieved.</p>
+<p>As for elevation to higher planets, a devotee considers this to be simply hallucinatory.</p>
+<p>A devotee’s attention is concentrated only upon the eternal loving service of the Lord, and therefore the power of death has no influence over him.</p>
+<p>In such a devotional state, a perfect yogi can attain the status of immortal knowledge and bliss.</p>
+
+
+</article></body></html>

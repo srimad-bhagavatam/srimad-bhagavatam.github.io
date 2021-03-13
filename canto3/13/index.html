@@ -1,154 +1,41 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>The Appearance of Lord Varaha - The Appearance of Lord Varaha</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">The Appearance of Lord Varaha</a></li><li class="affix"><a href="3.13.2.html">3.13.2</a></li><li class="affix"><a href="3.13.3.html">3.13.3</a></li><li class="affix"><a href="3.13.4.html">3.13.4</a></li><li class="affix"><a href="3.13.5.html">3.13.5</a></li><li class="affix"><a href="3.13.6.html">3.13.6</a></li><li class="affix"><a href="3.13.7.html">3.13.7</a></li><li class="affix"><a href="3.13.8.html">3.13.8</a></li><li class="affix"><a href="3.13.9.html">3.13.9</a></li><li class="affix"><a href="3.13.10.html">3.13.10</a></li><li class="affix"><a href="3.13.11.html">3.13.11</a></li><li class="affix"><a href="3.13.12.html">3.13.12</a></li><li class="affix"><a href="3.13.13.html">3.13.13</a></li><li class="affix"><a href="3.13.14.html">3.13.14</a></li><li class="affix"><a href="3.13.15.html">3.13.15</a></li><li class="affix"><a href="3.13.16.html">3.13.16</a></li><li class="affix"><a href="3.13.17.html">3.13.17</a></li><li class="affix"><a href="3.13.18.html">3.13.18</a></li><li class="affix"><a href="3.13.19.html">3.13.19</a></li><li class="affix"><a href="3.13.20.html">3.13.20</a></li><li class="affix"><a href="3.13.21.html">3.13.21</a></li><li class="affix"><a href="3.13.22.html">3.13.22</a></li><li class="affix"><a href="3.13.23.html">3.13.23</a></li><li class="affix"><a href="3.13.24.html">3.13.24</a></li><li class="affix"><a href="3.13.25.html">3.13.25</a></li><li class="affix"><a href="3.13.26.html">3.13.26</a></li><li class="affix"><a href="3.13.27.html">3.13.27</a></li><li class="affix"><a href="3.13.28.html">3.13.28</a></li><li class="affix"><a href="3.13.29.html">3.13.29</a></li><li class="affix"><a href="3.13.30.html">3.13.30</a></li><li class="affix"><a href="3.13.31.html">3.13.31</a></li><li class="affix"><a href="3.13.32.html">3.13.32</a></li><li class="affix"><a href="3.13.33.html">3.13.33</a></li><li class="affix"><a href="3.13.34.html">3.13.34</a></li><li class="affix"><a href="3.13.35.html">3.13.35</a></li><li class="affix"><a href="3.13.36.html">3.13.36</a></li><li class="affix"><a href="3.13.37.html">3.13.37</a></li><li class="affix"><a href="3.13.38.html">3.13.38</a></li><li class="affix"><a href="3.13.39.html">3.13.39</a></li><li class="affix"><a href="3.13.40.html">3.13.40</a></li><li class="affix"><a href="3.13.41.html">3.13.41</a></li><li class="affix"><a href="3.13.42.html">3.13.42</a></li><li class="affix"><a href="3.13.43.html">3.13.43</a></li><li class="affix"><a href="3.13.44.html">3.13.44</a></li><li class="affix"><a href="3.13.45.html">3.13.45</a></li><li class="affix"><a href="3.13.46.html">3.13.46</a></li><li class="affix"><a href="3.13.47.html">3.13.47</a></li><li class="affix"><a href="3.13.48.html">3.13.48</a></li><li class="affix"><a href="3.13.49.html">3.13.49</a></li><li class="affix"><a href="3.13.50.html">3.13.50</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">The Appearance of Lord Varaha</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#the-appearance-of-lord-varaha" id="the-appearance-of-lord-varaha">The Appearance of Lord Varaha</a></h1>
-<h3><a class="header" href="#3131" id="3131">3.13.1</a></h3>
+<h1>The Appearance of Lord Varaha</h1>
+<p><strong>3.13.1</strong></p>
 <p>sri-suka uvaca</p>
 <p>nisamya vacam vadato</p>
 <p>muneh punyatamam nrpa</p>
@@ -162,63 +49,927 @@
 <p>The word adrtah is significant because it indicates that Vidura had a natural inclination for hearing the transcendental message of the Supreme Personality of Godhead, and he was never fully satisfied though continuing to hear those topics.</p>
 <p>He wanted to hear more and more so that he could be more and more blessed by the transcendental message.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="3.13.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>3.13.2</strong></p>
+<p>vidura uvaca</p>
+<p>sa vai svayambhuvah samrat</p>
+<p>priyah putrah svayambhuvah</p>
+<p>pratilabhya priyam patnim</p>
+<p>kim cakara tato mune</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vidurah uvaca—Vidura said; sah—he; vai—easily; svayambhuvah—Svayambhuva Manu; samrat—the king of all kings; priyah—dear; putrah—son; svayambhuvah—of Brahma; pratilabhya—after obtaining; priyam—most loving; patnim—wife; kim—what; cakara—did; tatah—thereafter; mune—O great sage.</p>
+<p><strong>TRANSLATION</strong></p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="3.13.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>3.13.3</strong></p>
+<p>caritam tasya rajarser</p>
+<p>adi-rajasya sattama</p>
+<p>bruhi me sraddadhanaya</p>
+<p>visvaksenasrayo hy asau</p>
+<p><strong>SYNONYMS</strong></p>
+<p>caritam—character; tasya—his; rajarseh—of the saintly king; adi-rajasya—of the original king; sattama—O most pious one; bruhi—kindly speak; me—unto me; sraddadhanaya—unto one eager to receive; visvaksena—of the Personality of Godhead; asrayah—one who has taken shelter; hi—certainly; asau—that king.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O best of the virtuous, the original king of kings (Manu) was a great devotee of the Personality of Godhead Hari, and thus it is worth hearing of his sublime character and activities.</p>
+<p>Please describe them.</p>
+<p>I am very eager to hear.</p>
+<p><strong>PURPORT</strong></p>
+<p>Srimad-Bhagavatam is full of the transcendental topics of the Personality of Godhead and His pure devotees.</p>
+<p>In the absolute world there is no difference in quality between the Supreme Lord and His pure devotee.</p>
+<p>Therefore, hearing the topics of the Lord and hearing of the character and activities of the pure devotee have the same result, namely, the development of devotional service.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>3.13.4</strong></p>
+<p>srutasya pumsam sucira-sramasya</p>
+<p>nanv anjasa suribhir idito ’rthah</p>
+<p>tat-tad-gunanusravanam mukunda-</p>
+<p>padaravindam hrdayesu yesam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>srutasya—of persons who are in the process of hearing; pumsam—of such persons; sucira—for a long time; sramasya—laboring very hard; nanu—certainly; anjasa—elaborately; suribhih—by pure devotees; iditah—explained by; arthah—statements; tat—that; tat—that; guna—transcendental qualities; anusravanam—thinking; mukunda—the Personality of Godhead, who awards liberation; pada-aravindam—the lotus feet; hrdayesu—within the heart; yesam—of them.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Persons who hear from a spiritual master with great labor and for a long time must hear from the mouths of pure devotees about the character and activities of pure devotees.</p>
+<p>Pure devotees always think within their hearts of the lotus feet of the Personality of Godhead, who awards His devotees liberation.</p>
+<p><strong>PURPORT</strong></p>
+<p>Transcendental students are those who undergo great penance in being trained by hearing the Vedas from a bona fide spiritual master.</p>
+<p>Not only must they hear about the activities of the Lord, but they must also hear about the transcendental qualities of the devotees who are constantly thinking of the lotus feet of the Lord within their hearts.</p>
+<p>A pure devotee of the Lord cannot be separated from the lotus feet of the Lord for even a moment.</p>
+<p>Undoubtedly the Lord is always within the hearts of all living creatures, but they hardly know about it because they are deluded by the illusory material energy.</p>
+<p>The devotees, however, realize the presence of the Lord, and therefore they can always see the lotus feet of the Lord within their hearts.</p>
+<p>Such pure devotees of the Lord are as glorious as the Lord; they are, in fact, recommended by the Lord as more worshipable then He Himself.</p>
+<p>Worship of the devotee is more potent than worship of the Lord.</p>
+<p>It is therefore the duty of the transcendental students to hear of pure devotees, as explained by similar devotees of the Lord, because one cannot explain about the Lord or His devotee unless one happens to be a pure devotee himself.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>3.13.5</strong></p>
+<p>sri-suka uvaca</p>
+<p>iti bruvanam viduram vinitam</p>
+<p>sahasra-sirsnas caranopadhanam</p>
+<p>prahrsta-roma bhagavat-kathayam</p>
+<p>praniyamano munir abhyacasta</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-sukah uvaca—Sri Sukadeva Gosvami said; iti—thus; bruvanam—speaking; viduram—unto Vidura; vinitam—very gentle; sahasra-sirsnah—the Personality of Godhead Krsna; carana—lotus feet; upadhanam—pillow; prahrsta-roma—hairs standing in ecstasy; bhagavat—in relationship with the Personality of Godhead; kathayam—in the words; praniyamanah—being influenced by such spirit; munih—the sage; abhyacasta—attempted to speak.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sri Sukadeva Gosvami said: The Personality of Godhead Sri Krsna was pleased to place His lotus feet on the lap of Vidura because Vidura was very meek and gentle.</p>
+<p>The sage Maitreya was very pleased with Vidura’s words, and, being influenced by his spirit, he attempted to speak.</p>
+<p><strong>PURPORT</strong></p>
+<p>The word sahasra-sirsnah is very significant.</p>
+<p>One who has diverse energies and activities and a wonderful brain is known as the sahasra-sirsnah.</p>
+<p>This qualification is applicable only to the personality of Godhead, Sri Krsna, and no one else.</p>
+<p>The Personality of Godhead was pleased to dine sometimes with Vidura at his home, and while resting He placed His lotus feet on the lap of Vidura.</p>
+<p>Maitreya was inspired by the thought of Vidura’s wonderful fortune.</p>
+<p>The hairs of his body stood on end, and he was pleased to narrate the topics of the Personality of Godhead with great delight.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>3.13.6</strong></p>
+<p>maitreya uvaca</p>
+<p>yada sva-bharyaya sardham</p>
+<p>jatah svayambhuvo manuh</p>
+<p>pranjalih pranatas cedam</p>
+<p>veda-garbham abhasata</p>
+<p><strong>SYNONYMS</strong></p>
+<p>maitreyah uvaca—Maitreya said; yada—when; sva-bharyaya—along with his wife; sardham—accompanied by; jatah—appeared; svayambhuvah—Svayambhuva Manu; manuh—the father of mankind; pranjalih—with folded hands; pranatah—in obeisances; ca—also; idam—this; veda-garbham—unto the reservoir of Vedic wisdom; abhasata—addressed.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The sage Maitreya said to Vidura: After his appearance, Manu, the father of mankind, along with his wife, thus addressed the reservoir of Vedic wisdom, Brahma, with obeisances and folded hands.</p>
+
+
+
+<p><strong>3.13.7</strong></p>
+<p>tvam ekah sarva-bhutanam</p>
+<p>janma-krd vrttidah pita</p>
+<p>tathapi nah prajanam te</p>
+<p>susrusa kena va bhavet</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tvam—you; ekah—one; sarva—all; bhutanam—living entities; janma-krt—progenitor; vrtti-dah—source of subsistence; pita—the father; tatha api—yet; nah—ourselves; prajanam—of all who are born; te—of you; susrusa—service; kena—how; va—either; bhavet—may be possible.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>You are the father of all living entities and the source of their subsistence because they are all born of you.</p>
+<p>Please order us how we may be able to render service unto you.</p>
+<p><strong>PURPORT</strong></p>
+<p>A son’s duty is not only to make the father the source of supply for all his needs, but also, when he is grown up, to render service unto him.</p>
+<p>That is the law of creation beginning from the time of Brahma.</p>
+<p>A father’s duty is to bring up the son until he is grown, and when the son is grown up, it is his duty to render service unto the father.</p>
+
+
+
+<p><strong>3.13.8</strong></p>
+<p>tad vidhehi namas tubhyam</p>
+<p>karmasv idyatma-saktisu</p>
+<p>yat krtveha yaso visvag</p>
+<p>amutra ca bhaved gatih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tat—that; vidhehi—give direction; namah—my obeisances; tubhyam—unto you; karmasu—in duties; idya—O worshipful one; atma-saktisu—within our working capacity; yat—which; krtva—doing; iha—in this world; yasah—fame; visvak—everywhere; amutra—in the next world; ca—and; bhavet—it should be; gatih—progress.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O worshipful one, please give us your direction for the execution of duty within our working capacity so that we can follow it for fame in this life and progress in the next.</p>
+<p><strong>PURPORT</strong></p>
+<p>Brahma is the direct recipient of Vedic knowledge from the Personality of Godhead, and anyone discharging his entrusted duties in disciplic succession from Brahma is sure to gain fame in this life and salvation in the next.</p>
+<p>The disciplic succession from Brahma is called the Brahma-sampradaya, and it descends as follows: Brahma, Narada, Vyasa, Madhva Muni (Purnaprajna), Padmanabha, Nrhari, Madhava, Aksobhya, Jayatirtha, Jnanasindhu, Dayanidhi, Vidyanidhi, Rajendra, Jayadharma, Purusottama, Brahmanyatirtha, Vyasatirtha, Laksmipati, Madhavendra Puri, Isvara Puri, Sri Caitanya Mahaprabhu, Svarupa Damodara and Sri Rupa Gosvami and others, Sri Raghunatha dasa Gosvami, Krsnadasa Gosvami, Narottama dasa Thakura, Visvanatha Cakravarti, Jagannatha dasa Babaji, Bhaktivinoda Thakura, Gaurakisora dasa Babaji, Srimad Bhaktisiddhanta Sarasvati, A.</p>
+<p>Bhaktivedanta Swami.</p>
+<p>This line of disciplic succession from Brahma is spiritual, whereas the genealogical succession from Manu is material, but both are on the progressive march towards the same goal of Krsna consciousness.</p>
+
+
+
+<p><strong>3.13.9</strong></p>
+<p>brahmovaca</p>
+<p>pritas tubhyam aham tata</p>
+<p>svasti stad vam ksitisvara</p>
+<p>yan nirvyalikena hrda</p>
+<p>sadhi mety atmanarpitam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>brahma uvaca—Brahma said; pritah—pleased; tubhyam—unto you; aham—I; tata—my dear son; svasti—all blessings; stat—let there be; vam—unto you both; ksiti-isvara—O lord of the world; yat—because; nirvyalikena—without reservation; hrda—by the heart; sadhi—give instruction; ma—unto me; iti—thus; atmana—by self; arpitam—surrendered.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Lord Brahma said: My dear son, O lord of the world, I am very pleased with you, and I desire all blessings for both you and your wife.</p>
+<p>You have without reservation surrendered yourself unto me with your heart for my instructions.</p>
+<p><strong>PURPORT</strong></p>
+<p>The relationship between the father and the son is always sublime.</p>
+<p>The father is naturally disposed with good will towards the son, and he is always ready to help the son in his progress in life.</p>
+<p>But in spite of the father’s good will, the son is sometimes misguided because of his misuse of personal independence.</p>
+<p>Every living entity, however small or big he may be, has the choice of independence.</p>
+<p>If the son is unreservedly willing to be guided by the father, the father is ten times more eager to instruct and guide him by all means.</p>
+<p>The father and son relationship as exhibited here in the dealings of Brahma and Manu is excellent.</p>
+<p>Both the father and the son are well qualified, and their example should be followed by all humankind.</p>
+<p>Manu, the son, unreservedly asked the father, Brahma, to instruct him, and the father, who was full of Vedic wisdom, was very glad to instruct.</p>
+<p>The example of the father of mankind may be rigidly followed by mankind, and that will advance the cause of the relationship of fathers and sons.</p>
+
+
+
+<p><strong>3.13.10</strong></p>
+<p>etavaty atmajair vira</p>
+<p>karya hy apacitir gurau</p>
+<p>saktyapramattair grhyeta</p>
+<p>sadaram gata-matsaraih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>etavati—just exactly like this; atmajaih—by the offspring; vira—O hero; karya—should be performed; hi—certainly; apacitih—worship; gurau—unto the superior; saktya—with full capacity; apramattaih—by the sane; grhyeta—should be accepted; sa-adaram—with great delight; gata-matsaraih—by those who are beyond the limit of envy.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O hero, your example is quite befitting a son in relationship with his father.</p>
+<p>This sort of adoration for the superior is required.</p>
+<p>One who is beyond the limit of envy and who is sane accepts the order of his father with great delight and executes it to his full capacity.</p>
+<p><strong>PURPORT</strong></p>
+<p>When the four previous sons of Brahma, the sages Sanaka, Sanatana, Sanandana and Sanat-kumara, refused to obey their father, Brahma was mortified, and his anger was manifested in the shape of Rudra.</p>
+<p>That incident was not forgotten by Brahma, and therefore the obedience of Manu Svayambhuva was very encouraging.</p>
+<p>From the material point of view, the four sages’ disobedience to the order of their father was certainly abominable, but because such disobedience was for a higher purpose, they were free from the reaction of disobedience.</p>
+<p>Those who disobey their fathers on material grounds, however, are surely subjected to disciplinary reaction for such disobedience.</p>
+<p>Manu’s obedience to his father on material grounds was certainly free from envy, and in the material world it is imperative for ordinary men to follow the example of Manu.</p>
+
+
+
+<p><strong>3.13.11</strong></p>
+<p>sa tvam asyam apatyani</p>
+<p>sadrsany atmano gunaih</p>
+<p>utpadya sasa dharmena</p>
+<p>gam yajnaih purusam yaja</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—therefore that obedient son; tvam—as you are; asyam—in her; apatyani—children; sadrsani—equally qualified; atmanah—of yourself; gunaih—with the characteristics; utpadya—having begotten; sasa—rule; dharmena—on the principles of devotional service; gam—the world; yajnaih—by sacrifices; purusam—the Supreme Personality of Godhead; yaja—worship.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Since you are my very obedient son, I ask you to beget children qualified like yourself in the womb of your wife.</p>
+<p>Rule the world in pursuance of the principles of devotional service unto the Supreme Personality of Godhead, and thus worship the Lord by performances of yajna.</p>
+<p><strong>PURPORT</strong></p>
+<p>The purpose of the material creation by Brahma is clearly described herein.</p>
+<p>Every human being should beget nice children in the womb of his wife, as a sacrifice for the purpose of worshiping the Supreme Personality of Godhead in devotional service.</p>
+<p>Visnu Purana (3.8.9) it is stated:</p>
+<p>varnasramacaravata</p>
+<p>purusena parah puman</p>
+<p>visnur aradhyate pantha</p>
+<p>nanyat tat-tosa-karanam</p>
+<p>One can worship the Supreme Personality of Godhead, Visnu, by proper discharge of the principles of varna and asrama.</p>
+<p>There is no alternative to pacifying the Lord by execution of the principles of the varnasrama system Visnu worship is the ultimate aim of human life.</p>
+<p>Those who take the license of married life for sense enjoyment must also take the responsibility to satisfy the Supreme Personality of Godhead, Visnu, and the first stepping-stone is the varnasrama-dharma system.</p>
+<p>Varnasrama-dharma is the systematic institution for advancing in worship of Visnu.</p>
+<p>However, if one directly engages in the process of devotional service to the Supreme Personality of Godhead, it may not be necessary to undergo the disciplinary system of varnasrama-dharma.</p>
+<p>The other sons of Brahma, the Kumaras, directly engaged in devotional service, and thus they had no need to execute the principles of varnasrama-dharma.</p>
+
+
+
+<p><strong>3.13.12</strong></p>
+<p>param susrusanam mahyam</p>
+<p>syat praja-raksaya nrpa</p>
+<p>bhagavams te praja-bhartur</p>
+<p>hrsikeso ’nutusyati</p>
+<p><strong>SYNONYMS</strong></p>
+<p>param—the greatest; susrusanam—devotional service; mahyam—unto me; syat—should be; praja—the living entities born in the material world; raksaya—by saving them from being spoiled; nrpa—O King; bhagavan—the Personality of Godhead; te—with you; praja-bhartuh—with the protector of the living beings; hrsikesah—the Lord of the senses; anutusyati—is satisfied.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King, if you can give proper protection to the living beings in the material world, that will be the best service for me.</p>
+<p>When the Supreme Lord sees you to be a good protector of the conditioned souls, certainly the master of the senses will be very pleased with you.</p>
+<p><strong>PURPORT</strong></p>
+<p>The whole administrative system is arranged for the purpose of going back home, back to Godhead.</p>
+<p>Brahma is the representative of the Supreme Personality of Godhead, and Manu is the representative of Brahma.</p>
+<p>Similarly, all other kings on different planets of the universe are representatives of Manu.</p>
+<p>The lawbook for the entire human society is the Manu-samhita, which directs all activities towards the transcendental service of the Lord.</p>
+<p>Every king, therefore, must know that his responsibility in administration is not merely to exact taxes from the citizens but to see personally that the citizens under him are being trained in Visnu worship.</p>
+<p>Everyone must be educated in Visnu worship and engaged in the devotional service of Hrsikesa, the owner of the senses.</p>
+<p>The conditioned souls are meant not to satisfy their material senses but to satisfy the senses of Hrsikesa, the Supreme Personality of Godhead.</p>
+<p>That is the purpose of the complete administrative system.</p>
+<p>One who knows this secret, as disclosed here in the version of Brahma, is the perfect administrative head.</p>
+<p>One who does not know this is a show-bottle administrator.</p>
+<p>By training the citizens in the devotional service of the Lord, the head of a state can be free in his responsibility, otherwise he will fail in the onerous duty entrusted to him and thus be punishable by the supreme authority.</p>
+<p>There is no other alternative in the discharge of administrative duty.</p>
+
+
+
+<p><strong>3.13.13</strong></p>
+<p>yesam na tusto bhagavan</p>
+<p>yajna-lingo janardanah</p>
+<p>tesam sramo hy aparthaya</p>
+<p>yad atma nadrtah svayam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yesam—of those with whom; na—never; tustah—satisfied; bhagavan—the Personality of Godhead; yajna-lingah—the form of sacrifice; janardanah—Lord Krsna, or the visnu-tattva; tesam—of them; sramah—labor; hi—certainly; aparthaya—without profit; yat—because; atma—the Supreme Soul; na—not; adrtah—respected; svayam—his own self.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Supreme Personality of Godhead, Janardana (Lord Krsna), is the form to accept all the results of sacrifice.</p>
+<p>If He is not satisfied, then one’s labor for advancement is futile.</p>
+<p>He is the ultimate Self, and therefore one who does not satisfy Him certainly neglects his own interests.</p>
+<p><strong>PURPORT</strong></p>
+<p>Brahma is deputed as the supreme head of universal affairs, and he in his turn deputes Manu and others as charges d’affaires of the material manifestation, but the whole show is for the satisfaction of the Supreme Personality of Godhead.</p>
+<p>Brahma knows how to satisfy the Lord, and similarly persons engaged in the line of Brahma’s plan of activities also know how to satisfy the Lord.</p>
+<p>The Lord is satisfied by the process of devotional service, consisting of the ninefold process of hearing, chanting, etc.</p>
+<p>It is in one’s own sell-interest to execute prescribed devotional service, and anyone who neglects this process neglects his own self-interest.</p>
+<p>Everyone wants to satisfy his senses, but above the senses is the mind, above the mind is the intelligence, above the intelligence is the individual self, and above the individual self is the Superself.</p>
+<p>Above even the Superself is the Supreme Personality of Godhead, visnu-tattva.</p>
+<p>The primeval Lord and the cause of all causes is Sri Krsna.</p>
+<p>The complete process of perfectional service is to render service for the satisfaction of the transcendental senses of Lord Krsna, who is known as Janardana.</p>
+
+
+
+<p><strong>3.13.14</strong></p>
+<p>manur uvaca</p>
+<p>adese ’ham bhagavato</p>
+<p>varteyamiva-sudana</p>
+<p>sthanam tv ihanujanihi</p>
+<p>prajanam mama ca prabho</p>
+<p><strong>SYNONYMS</strong></p>
+<p>manuh uvaca—Sri Manu said; adese—under the order; aham—I; bhagavatah—of your powerful self; varteya—shall stay; amiva-sudana—O killer of all sins; sthanam—the place; tu—but; iha—in this world; anujanihi—please let me know; prajanam—of the living entities born from me; mama—my; ca—also; prabho—O lord.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sri Manu said: O all-powerful lord, O killer of all sins, I shall abide by your order.</p>
+<p>Now please let me know my place and that of the living entities born of me.</p>
+
+
+
+<p><strong>3.13.15</strong></p>
+<p>yad okah sarva-bhutanam</p>
+<p>mahi magna mahambhasi</p>
+<p>asya uddharane yatno</p>
+<p>deva devya vidhiyatam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yat—because; okah—the dwelling place; sarva—for all; bhutanam—living entities; mahi—the earth; magna—merged; maha-ambhasi—in the great water; asyah—of this; uddharane—in the lifting; yatnah—attempt; deva—O master of the demigods; devyah—of this earth; vidhiyatam—let it be done.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O master of the demigods, please attempt to lift the earth, which is merged in the great water, because it is the dwelling place for all the living entities.</p>
+<p>It can be done by your endeavor and by the mercy of the Lord.</p>
+<p><strong>PURPORT</strong></p>
+<p>The great water mentioned in this connection is the Garbhodaka Ocean, which fills half of the universe.</p>
+
+
+
+<p><strong>3.13.16</strong></p>
+<p>maitreya uvaca</p>
+<p>paramesthi tv apam madhye</p>
+<p>tatha sannam aveksya gam</p>
+<p>katham enam samunnesya</p>
+<p>iti dadhyau dhiya ciram</p>
+<p><strong>SYNONYMS</strong></p>
+<p>maitreyah uvaca—Sri Maitreya Muni said; paramesthi—Brahma; tu—also; apam—the water; madhye—within; tatha—thus; sannam—situated; aveksya—seeing; gam—the earth; katham—how; enam—this; samunnesye—I shall lift; iti—thus; dadhyau—gave attention; dhiya—by intelligence; ciram—for a long time.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sri Maitreya said: Thus, seeing the earth merged in the water, Brahma gave his attention for a long time to how it could be lifted.</p>
+<p><strong>PURPORT</strong></p>
+<p>According to Jiva Gosvami, the topics delineated here are of different millenniums.</p>
+<p>The present topics are of the Sveta-varaha millennium, and topics regarding the Caksusa millennium will also be discussed in this chapter.</p>
+
+
+
+<p><strong>3.13.17</strong></p>
+<p>srjato me ksitir varbhih</p>
+<p>plavyamana rasam gata</p>
+<p>athatra kim anustheyam</p>
+<p>asmabhih sarga-yojitaih</p>
+<p>yasyaham hrdayad asam</p>
+<p>sa iso vidadhatu me</p>
+<p><strong>SYNONYMS</strong></p>
+<p>srjatah—while engaged in creation; me—of me; ksitih—the earth; varbhih—by the water; plavyamana—being inundated; rasam—depth of water; gata—gone down; atha—therefore; atra—in this matter; kim—what; anustheyam—is right to be attempted; asmabhih—by us; sarga—creation; yojitaih—engaged in; yasya—the one from whose; aham—I; hrdayat—from the heart; asam—born; sah—He; isah—the Lord; vidadhatu—may direct; me—unto me.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Brahma thought: While I have been engaged in the process of creation, the earth has been inundated by a deluge and has gone down into the depths of the ocean.</p>
+<p>What can we do who are engaged in this matter of creation? It is best to let the Almighty Lord direct us.</p>
+<p><strong>PURPORT</strong></p>
+<p>The devotees of the Lord, who are all confidential servitors, are sometimes perplexed in the discharge of their respective duties, but they are never discouraged.</p>
+<p>They have full faith in the Lord, and He paves the way for the smooth progress of the devotee’s duty.</p>
+
+
+
+<p><strong>3.13.18</strong></p>
+<p>ity abhidhyayato nasa-</p>
+<p>vivarat sahasanagha</p>
+<p>varaha-toko niragad</p>
+<p>angustha-parimanakah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>iti—thus; abhidhyayatah—while thinking; nasa-vivarat—from the nostrils; sahasa—all of a sudden; anagha—O sinless one; varaha-tokah—a minute form of Varaha (a boar); niragat—came out; angustha—the upper portion of the thumb; parimanakah—of the measurement.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O sinless Vidura, all of a sudden, while Brahma was engaged in thinking, a small form of a boar came out of his nostril.</p>
+<p>The measurement of the creature was not more than the upper portion of a thumb.</p>
+
+
+
+<p><strong>3.13.19</strong></p>
+<p>tasyabhipasyatah kha-sthah</p>
+<p>ksanena kila bharata</p>
+<p>gaja-matrah pravavrdhe</p>
+<p>tad adbhutam abhun mahat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasya—his; abhipasyatah—while thus observing; kha-sthah—situated in the sky; ksanena—suddenly; kila—verily; bharata—O descendant of Bharata; gaja-matrah—just like an elephant; pravavrdhe—thoroughly expanded; tat—that; adbhutam—extraordinary; abhut—transformed; mahat—into a gigantic body.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O descendant of Bharata, while Brahma was observing Him, that boar became situated in the sky in a wonderful manifestation as gigantic as a great elephant.</p>
+
+
+
+<p><strong>3.13.20</strong></p>
+<p>marici-pramukhair vipraih</p>
+<p>kumarair manuna saha</p>
+<p>drstva tat saukaram rupam</p>
+<p>tarkayam asa citradha</p>
+<p><strong>SYNONYMS</strong></p>
+<p>marici—the great sage Marici; pramukhaih—headed by; vipraih—all brahmanas; kumaraih—with the four Kumaras; manuna—and with Manu; saha—with; drstva—seeing; tat—that; saukaram—appearance like a boar; rupam—form; tarkayam asa—argued among themselves; citradha—in various ways.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Struck with wonder at observing the wonderful boarlike form in the sky, Brahma, with great brahmanas like Marici, as well as the Kumaras and Manu, began to argue in various ways.</p>
+
+
+
+<p><strong>3.13.21</strong></p>
+<p>kim etat sukara-vyajam</p>
+<p>sattvam divyam avasthitam</p>
+<p>aho batascaryam idam</p>
+<p>nasaya me vinihsrtam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kim—what; etat—this; sukara—boar; vyajam—pretension; sattvam—entity; divyam—extraordinary; avasthitam—situated; aho bata—oh, it is; ascaryam—very wonderful; idam—this; nasayah—from the nose; me—my; vinihsrtam—came out.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Is this some extraordinary entity come in the pretense of a boar? It is very wonderful that He has come from my nose.</p>
+
+
+
+<p><strong>3.13.22</strong></p>
+<p>drsto ’ngustha-siro-matrah</p>
+<p>ksanad ganda-sila-samah</p>
+<p>api svid bhagavan esa</p>
+<p>yajno me khedayan manah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>drstah—just seen; angustha—thumb; sirah—tip; matrah—only; ksanat—immediately; ganda-sila—large stone; samah—like; api svit—whether; bhagavan—the Personality of Godhead; esah—this; yajnah—Visnu; me—my; khedayan—perturbing; manah—mind.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>First of all this boar was seen no bigger than the tip of a thumb, and within a moment He was as large as a stone.</p>
+<p>My mind is perturbed.</p>
+<p>Is He the Supreme Personality of Godhead, Visnu?</p>
+<p><strong>PURPORT</strong></p>
+<p>Since Brahma is the supermost person in the universe and he had never before experienced such a form, he could guess that the wonderful appearance of the boar was an incarnation of Visnu.</p>
+<p>The uncommon features symptomatic of the incarnation of Godhead can bewilder even the mind of Brahma.</p>
+
+
+
+<p><strong>3.13.23</strong></p>
+<p>iti mimamsatas tasya</p>
+<p>brahmanah saha sunubhih</p>
+<p>bhagavan yajna-puruso</p>
+<p>jagarjagendra-sannibhah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>iti—thus; mimamsatah—while deliberating; tasya—his; brahmanah—of Brahma; saha—along with; sunubhih—his sons; bhagavan—the Personality of Godhead; yajna—Lord Visnu; purusah—the Supreme Person; jagarja—resounded; aga-indra—great mountain; sannibhah—like.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>While Brahma was deliberating with his sons, the Supreme Personality of Godhead, Visnu, roared tumultuously like a great mountain.</p>
+<p><strong>PURPORT</strong></p>
+<p>It appears that great hills and mountains also have their roaring power because they are also living entities.</p>
+<p>The volume of the sound vibrated is in proportion to the size of the material body.</p>
+<p>While Brahma was guessing about the appearance of the Lord’s incarnation as a boar, the Lord confirmed Brahma’s contemplation by roaring with His gorgeous voice.</p>
+
+
+
+<p><strong>3.13.24</strong></p>
+<p>brahmanam harsayam asa</p>
+<p>haris tams ca dvijottaman</p>
+<p>sva-garjitena kakubhah</p>
+<p>pratisvanayata vibhuh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>brahmanam—unto Brahma; harsayam asa—enlivened; harih—the Personality of Godhead; tan—all of them; ca—also; dvija-uttaman—highly elevated brahmanas; sva-garjitena—by His uncommon voice; kakubhah—all directions; pratisvanayata—which echoed; vibhuh—the omnipotent.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The omnipotent Supreme Personality of Godhead enlivened Brahma and the other highly elevated brahmanas by again roaring with His uncommon voice, which echoed in all directions.</p>
+<p><strong>PURPORT</strong></p>
+<p>Brahma and other enlightened brahmanas who know the Supreme Personality of Godhead are enlivened by the appearance of the Lord in any of His multi-incarnations.</p>
+<p>The appearance of the wonderful and gigantic incarnation of Visnu as the mountainlike boar did not fill them with any kind of fear, although the Lord’s resounding voice was tumultuous and echoed horribly in all directions as an open threat to all demons who might challenge His omnipotency.</p>
+
+
+
+<p><strong>3.13.25</strong></p>
+<p>nisamya te ghargharitam sva-kheda-</p>
+<p>ksayisnu mayamaya-sukarasya</p>
+<p>janas-tapah-satya-nivasinas te</p>
+<p>tribhih pavitrair munayo ’grnan sma</p>
+<p><strong>SYNONYMS</strong></p>
+<p>nisamya—just after hearing; te—those; ghargharitam—the tumultuous sound; sva-kheda—personal lamentation; ksayisnu—destroying; maya-maya—all-merciful; sukarasya—of Lord Boar; janah—the Janaloka planet; tapah—the Tapoloka planet; satya—the Satyaloka planet; nivasinah—residents; te—all of them; tribhih—from the three Vedas; pavitraih—by the all-auspicious mantras; munayah—great thinkers and sages; agrnan sma—chanted.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When the great sages and thinkers who are residents of Janaloka, Tapoloka and Satyaloka heard the tumultuous voice of Lord Boar, which was the all-auspicious sound of the all-merciful Lord, they chanted auspicious chants from the three Vedas.</p>
+<p><strong>PURPORT</strong></p>
+<p>The word mayamaya is very significant in this verse.</p>
+<p>Maya means mercy specific knowledg and also illusion Therefore Lord Boar is everything; He is merciful, He is all knowledge, and He is illusion also.</p>
+<p>The sound which He vibrated as the boar incarnation was answered by the Vedic hymns of the great sages in the planets Janaloka, Tapoloka and Satyaloka.</p>
+<p>The highest intellectual and pious living entities live in those planets, and when they heard the extraordinary voice of the boar, they could understand that the specific sound was vibrated by the Lord and no one else.</p>
+<p>Therefore they replied by praying to the Lord with Vedic hymns.</p>
+<p>The earth planet was submerged in the mire, but on hearing the sound of the Lord, the inhabitants of the higher planets were all jubilant because they knew that the Lord was there to deliver the earth.</p>
+<p>Therefore Brahma and all the sages, such as Bhrgu, Brahma’s other sons, and learned brahmanas, were enlivened, and they concertedly joined in praising the Lord with the transcendental vibrations of the Vedic hymns.</p>
+<p>The most important is the Brhan-naradiya Purana verse Hare Krsna, Hare Krsna, Krsna Krsna, Hare Hare/ Hare Rama, Hare Rama, Rama Rama, Hare Hare.</p>
+
+
+
+<p><strong>3.13.26</strong></p>
+<p>tesam satam veda-vitana-murtir</p>
+<p>brahmavadharyatma-gunanuvadam</p>
+<p>vinadya bhuyo vibudhodayaya</p>
+<p>gajendra-lilo jalam avivesa</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tesam—of them; satam—of the great devotees; veda—all knowledge; vitana-murtih—the form of expansion; brahma—Vedic sound; avadharya—knowing it well; atma—of Himself; guna-anuvadam—transcendental glorification; vinadya—resounding; bhuyah—again; vibudha—of the transcendentally learned; udayaya—for the elevation or benefit; gajendra-lilah—playing like an elephant; jalam—the water; avivesa—entered.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Playing like an elephant, He entered into the water after roaring again in reply to the Vedic prayers by the great devotees.</p>
+<p>The Lord is the object of the Vedic prayers, and thus He understood that the devotees’ prayers were meant for Him.</p>
+<p><strong>PURPORT</strong></p>
+<p>The form of the Lord in any shape is always transcendental and full of knowledge and mercy.</p>
+<p>The Lord is the destroyer of all material contamination because His form is personified Vedic knowledge.</p>
+<p>All the Vedas worship the transcendental form of the Lord.</p>
+<p>In the Vedic mantras the devotees request the Lord to remove the glaring effulgence because it covers His real face.</p>
+<p>That is the version of the Isopanisad.</p>
+<p>The Lord has no material form, but His form is always understood in terms of the Vedas.</p>
+<p>The Vedas are said to be the breath of the Lord, and that breath was inhaled by Brahma, the original student of the Vedas.</p>
+<p>The breathing from the nostril of Brahma caused the appearance of Lord Boar, and therefore the boar incarnation of the Lord is the personified Vedas.</p>
+<p>The glorification of the incarnation by the sages on the higher planets consisted of factual Vedic hymns.</p>
+<p>Whenever there is glorification of the Lord, it is to be understood that Vedic mantras are being rightly vibrated.</p>
+<p>The Lord was therefore pleased when such Vedic mantras were chanted, and to encourage His pure devotees, He roared once more and entered the water to rescue the submerged earth.</p>
+
+
+
+<p><strong>3.13.27</strong></p>
+<p>utksipta-valah kha-carah kathorah</p>
+<p>sata vidhunvan khara-romasa-tvak</p>
+<p>khurahatabhrah sita-damstra iksa-</p>
+<p>jyotir babhase bhagavan mahidhrah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>utksipta-valah—slashing with the tail; kha-carah—in the sky; kathorah—very hard; satah—hairs on the shoulder; vidhunvan—quivering; khara—sharp; romasa-tvak—skin full of hairs; khura-ahata—struck by the hooves; abhrah—the clouds; sita-damstrah—white tusks; iksa—glance; jyotih—luminous; babhase—began to emit an effulgence; bhagavan—the Personality of Godhead; mahi-dhrah—the supporter of the world.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Before entering the water to rescue the earth, Lord Boar flew in the sky, slashing His tail, His hard hairs quivering.</p>
+<p>His very glance was luminous, and He scattered the clouds in the sky with His hooves and His glittering white tusks.</p>
+<p><strong>PURPORT</strong></p>
+<p>When the Lord is offered prayers by His devotees, His transcendental activities are described.</p>
+<p>Here are some of the transcendental features of Lord Boar.</p>
+<p>As the residents of the upper three planetary systems offered their prayers to the Lord, it is understood that His body expanded throughout the sky, beginning from the topmost planet, Brahmaloka, or Satyaloka.</p>
+<p>It is stated in the Brahma-samhita that His eyes are the sun and the moon; therefore His very glance over the sky was as illuminating as the sun or the moon.</p>
+<p>The Lord is described herein as mahidhrah, which means either a big mountai or the sustainer of the earth In other words, the Lord’s body was as big and hard as the Himalayan Mountains; otherwise how was it possible that He kept the entire earth on the support of His white tusks? The poet Jayadeva, a great devotee of the Lord, has sung of the incident in his prayers for the incarnations:</p>
+<p>vasati dasana-sikhare dharani tava lagna</p>
+<p>sasini kalanka-kaleva nimagna</p>
+<p>kesava dhrta-sukara-rupa jaya jagadisa hare</p>
+<p>All glories to Lord Kesava (Krsna), who appeared as the boar.</p>
+<p>The earth was held between His tusks, which appeared like the scars on the moon</p>
+
+
+
+<p><strong>3.13.28</strong></p>
+<p>ghranena prthvyah padavim vijighran</p>
+<p>krodapadesah svayam adhvarangah</p>
+<p>karala-damstro ’py akarala-drgbhyam</p>
+<p>udviksya vipran grnato ’visat kam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ghranena—by smelling; prthvyah—of the earth; padavim—situation; vijighran—searching after the earth; kroda-apadesah—assuming the body of a hog; svayam—personally; adhvara—transcendental; angah—body; karala—fearful; damstrah—teeth (tusks); api—in spite of; akarala—not fearful; drgbhyam—by His glance; udviksya—glancing over; vipran—all the brahmana- devotees; grnatah—who were engaged in prayers; avisat—entered; kam—the water.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>He was personally the Supreme Lord Visnu and was therefore transcendental, yet because He had the body of a hog, He searched after the earth by smell.</p>
+<p>His tusks were fearful, and He glanced over the devotee-brahmanas engaged in offering prayers.</p>
+<p>Thus He entered the water.</p>
+<p><strong>PURPORT</strong></p>
+<p>We should always remember that although the body of a hog is material, the hog form of the Lord was not materially contaminated.</p>
+<p>It is not possible for an earthly hog to assume a gigantic form spreading throughout the sky, beginning from the Satyaloka.</p>
+<p>His body is always transcendental in all circumstances; therefore, the assumption of the form of a boar is only His pastime.</p>
+<p>His body is all Vedas, or transcendental.</p>
+<p>But since He had assumed the form of a boar, He began to search out the earth by smelling, just like a hog.</p>
+<p>The Lord can perfectly play the part of any living entity.</p>
+<p>The gigantic feature of the boar was certainly very fearful for all nondevotees, but to the pure devotees of the Lord He was not at all fearful; on the contrary, He was so pleasingly glancing upon His devotees that all of them felt transcendental happiness.</p>
+
+
+
+<p><strong>3.13.29</strong></p>
+<p>sa vajra-kutanga-nipata-vega-</p>
+<p>visirna-kuksih stanayann udanvan</p>
+<p>utsrsta-dirghormi-bhujair ivartas</p>
+<p>cukrosa yajnesvara pahi meti</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—that; vajra-kuta-anga—body like a great mountain; nipata-vega—the force of diving; visirna—bifurcating; kuksih—the middle portion; stanayan—resounding like; udanvan—the ocean; utsrsta—creating; dirgha—high; urmi—waves; bhujaih—by the arms; iva artah—like a distressed person; cukrosa—prayed loudly; yajna-isvara—O master of all sacrifices; pahi—please protect; ma—unto me; iti—thus.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Diving into the water like a giant mountain, Lord Boar divided the middle of the ocean, and two high waves appeared as the arms of the ocean, which cried loudly as if praying to the Lord, O Lord of all sacrifices, please do not cut me in two! Kindly give me protection</p>
+<p><strong>PURPORT</strong></p>
+<p>Even the great ocean was perturbed by the falling of the mountainlike body of the transcendental boar, and it appeared to be frightened, as if death were imminent.</p>
+
+
+
+<p><strong>3.13.30</strong></p>
+<p>khuraih ksuraprair darayams tad apa</p>
+<p>utpara-param tri-paru rasayam</p>
+<p>dadarsa gam tatra susupsur agre</p>
+<p>yam jiva-dhanim svayam abhyadhatta</p>
+<p><strong>SYNONYMS</strong></p>
+<p>khuraih—by the hooves; ksurapraih—compared to a sharp weapon; darayan—penetrating; tat—that; apah—water; utpara-param—found the limitation of the unlimited; tri-paruh—the master of all sacrifices; rasayam—within the water; dadarsa—found; gam—the earth; tatra—there; susupsuh—lying; agre—in the beginning; yam—whom; jiva-dhanim—the resting place for all living entities; svayam—personally; abhyadhatta—uplifted.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Lord Boar penetrated the water with His hooves, which were like sharp arrows, and found the limits of the ocean, although it was unlimited.</p>
+<p>He saw the earth, the resting place for all living beings, lying as it was in the beginning of creation, and He personally lifted it.</p>
+<p><strong>PURPORT</strong></p>
+<p>The word rasayam is sometimes interpreted to mean Rasatala, the lowest planetary system, but that is not applicable in this connection, according to Visvanatha Cakravarti Thakura.</p>
+<p>The earth is seven times superior to the other planetary systems, namely Tala, Atala, Talatala, Vitala, Rasatala, Patala, etc.</p>
+<p>Therefore the earth cannot be situated in the Rasatala planetary system.</p>
+<p>It is described in the Visnu-dharma:</p>
+<p>patala-mulesvara-bhoga-samhatau</p>
+<p>vinyasya padau prthivim ca bibhratah</p>
+<p>yasyopamano na babhuva so ’cyuto</p>
+<p>mamastu mangalya-vivrddhaye harih</p>
+<p>Therefore the Lord found the earth on the bottom of the Garbhodaka Ocean, where the planets rest during the devastation at the end of Brahma’s day.</p>
+
+
+
+<p><strong>3.13.31</strong></p>
+<p>sva-damstrayoddhrtya mahim nimagnam</p>
+<p>sa utthitah samruruce rasayah</p>
+<p>tatrapi daityam gadayapatantam</p>
+<p>sunabha-sandipita-tivra-manyuh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sva-damstraya—by His own tusks; uddhrtya—raising; mahim—the earth; nimagnam—submerged; sah—He; utthitah—getting up; samruruce—appeared very splendid; rasayah—from the water; tatra—there; api—also; daityam—unto the demon; gadaya—with the club; apatantam—rushing towards Him; sunabha—the wheel of Krsna; sandipita—glowing; tivra—fierce; manyuh—anger.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Lord Boar very easily took the earth on His tusks and got it out of the water.</p>
+<p>Thus He appeared very splendid.</p>
+<p>Then, His anger glowing like the Sudarsana wheel, He immediately killed the demon (Hiranyaksa), although he tried to fight with the Lord.</p>
+<p><strong>PURPORT</strong></p>
+<p>According to Srila Jiva Gosvami, the Vedic literatures describe the incarnation of Lord Varaha (Boar) in two different devastations, namely the Caksusa devastation and the Svayambhuva devastation.</p>
+<p>This particular appearance of the boar incarnation actually took place in the Svayambhuva devastation, when all planets other than the higher ones—Jana, Mahar and Satya—merged in the water of devastation.</p>
+<p>This particular incarnation of the boar was seen by the inhabitants of the planets mentioned above.</p>
+<p>Srila Visvanatha Cakravarti suggests that the sage Maitreya amalgamated both the boar incarnations in different devastations and summarized them in his description to Vidura.</p>
+
+
+
+<p><strong>3.13.32</strong></p>
+<p>jaghana rundhanam asahya-vikramam</p>
+<p>sa lilayebham mrgarad ivambhasi</p>
+<p>tad-rakta-pankankita-ganda-tundo</p>
+<p>yatha gajendro jagatim vibhindan</p>
+<p><strong>SYNONYMS</strong></p>
+<p>jaghana—killed; rundhanam—the obstructive enemy; asahya—unbearable; vikramam—prowess; sah—He; lilaya—easily; ibham—the elephant; mrga-rat—the lion; iva—like; ambhasi—in the water; tat-rakta—of his blood; panka-ankita—smeared by the pool; ganda—cheeks; tundah—tongue; yatha—as if; gajendrah—the elephant; jagatim—earth; vibhindan—digging.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereupon Lord Boar killed the demon within the water, just as a lion kills an elephant.</p>
+<p>The cheeks and tongue of the Lord became smeared with the blood of the demon, just as an elephant becomes reddish from digging in the purple earth.</p>
+
+
+
+<p><strong>3.13.33</strong></p>
+<p>tamala-nilam sita-danta-kotya</p>
+<p>ksmam utksipantam gaja-lilayanga</p>
+<p>prajnaya baddhanjalayo ’nuvakair</p>
+<p>virinci-mukhya upatasthur isam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tamala—a blue tree named the tamala; nilam—bluish; sita—white; danta—tusks; kotya—with the curved edge; ksmam—the earth; utksipantam—while suspending; gaja-lilaya—playing like an elephant; anga—O Vidura; prajnaya—after knowing it well; baddha—folded; anjalayah—hands; anuvakaih—by Vedic hymns; virinci—Brahma; mukhyah—headed by; upatasthuh—offered prayers; isam—unto the Supreme Lord.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Then the Lord, playing like an elephant, suspended the earth on the edge of His curved white tusks.</p>
+<p>He assumed a bluish complexion like that of a tamala tree, and thus the sages, headed by Brahma, could understand Him to be the Supreme Personality of Godhead and offered respectful obeisances unto the Lord.</p>
+
+
+
+<p><strong>3.13.34</strong></p>
+<p>rsaya ucuh</p>
+<p>jitam jitam te ’jita yajna-bhavana</p>
+<p>trayim tanum svam paridhunvate namah</p>
+<p>yad-roma-gartesu nililyur addhayas</p>
+<p>tasmai namah karana-sukaraya te</p>
+<p><strong>SYNONYMS</strong></p>
+<p>rsayah ucuh—the glorified sages uttered; jitam—all glories; jitam—all victories; te—unto You; ajita—O unconquerable one; yajna-bhavana—one who is understood by performances of sacrifice; trayim—personified Vedas; tanum—such a body; svam—own; paridhunvate—shaking; namah—all obeisances; yat—whose; roma—hairs; gartesu—in the holes; nililyuh—submerged; addhayah—the oceans; tasmai—unto Him; namah—offering obeisances; karana-sukaraya—unto the hog form assumed for reasons; te—unto You.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>All the sages uttered with great respect: O unconquerable enjoyer of all sacrifices, all glories and all victories unto You! You are moving in Your form of the personified Vedas, and in the hair holes of Your body the oceans are submerged.</p>
+<p>For certain reasons (to uplift the earth) You have now assumed the form of a boar.</p>
+<p><strong>PURPORT</strong></p>
+<p>The Lord can assume any form He likes, and in all circumstances He is the cause of all causes.</p>
+<p>Since His form is transcendental, He is always the Supreme Personality of Godhead, as He is in the Causal Ocean in the form of Maha-Visnu.</p>
+<p>Innumerable universes generate from the holes of His bodily hairs, and thus His transcendental body is the Vedas personified.</p>
+<p>He is the enjoyer of all sacrifices, and He is the unconquerable Supreme Personality of Godhead.</p>
+<p>He is never to be misunderstood to be other than the Supreme Lord because of His assuming the form of a boar to lift the earth.</p>
+<p>That is the clear understanding of sages and great personalities like Brahma and other residents of the higher planetary systems.</p>
+
+
+
+<p><strong>3.13.35</strong></p>
+<p>rupam tavaitan nanu duskrtatmanam</p>
+<p>durdarsanam deva yad adhvaratmakam</p>
+<p>chandamsi yasya tvaci barhi-romasv</p>
+<p>ajyam drsi tv anghrisu catur-hotram</p>
+<p><strong>SYNONYMS</strong></p>
+<p>rupam—form; tava—Your; etat—this; nanu—but; duskrta-atmanam—of souls who are simply miscreants; durdarsanam—very difficult to see; deva—O Lord; yat—that; adhvara-atmakam—worshipable by performances of sacrifice; chandamsi—the Gayatri mantra and others; yasya—whose; tvaci—touch of the skin; barhih—sacred grass called kusa; romasu—hairs on the body; ajyam—clarified butter; drsi—in the eyes; tu—also; anghrisu—on the four legs; catuh-hotram—four kinds of fruitive activities.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O Lord, Your form is worshipable by performances of sacrifice, but souls who are simply miscreants are unable to see it.</p>
+<p>All the Vedic hymns, Gayatri and others, are in the touch of Your skin.</p>
+<p>In Your bodily hairs is the kusa grass, in Your eyes is the clarified butter, and in Your four legs are the four kinds of fruitive activities.</p>
+<p><strong>PURPORT</strong></p>
+<p>There is a class of miscreants who are known in the words of Bhagavad-gita as veda-vadi, or so-called strict followers of the Vedas.</p>
+<p>They do not believe in the incarnation of the Lord, what to speak of the Lord’s incarnation as the worshipable hog.</p>
+<p>They describe worship of the different forms or incarnations of the Lord as anthropomorphism.</p>
+<p>In the estimation of Srimad-Bhagavatam these men are miscreants, and in Bhagavad-gita (7.15) they are called not only miscreants but also fools and the lowest of mankind, and it is said that their knowledge has been plundered by illusion due to their atheistic temperament.</p>
+<p>For such condemned persons, the Lord’s incarnation as the gigantic hog is invisible.</p>
+<p>These strict followers of the Vedas who despise the eternal forms of the Lord may know from Srimad-Bhagavatam that such incarnations are personified forms of the Vedas.</p>
+<p>Lord Boar’s skin, His eyes and His bodily hair holes are all described here as different parts of the Vedas.</p>
+<p>He is therefore the personified form of the Vedic hymns, and specifically the Gayatri mantra.</p>
+
+
+
+<p><strong>3.13.36</strong></p>
+<p>srak tunda asit sruva isa nasayor</p>
+<p>idodare camasah karna-randhre</p>
+<p>prasitram asye grasane grahas tu te</p>
+<p>yac carvanam te bhagavann agni-hotram</p>
+<p><strong>SYNONYMS</strong></p>
+<p>srak—the plate for sacrifice; tunde—on the tongue; asit—there is; sruvah—another plate for sacrifice; isa—O Lord; nasayoh—of the nostrils; ida—the plate for eating; udare—in the belly; camasah—another plate for sacrifices; karna-randhre—in the holes of the ears; prasitram—the plate called the Brahma plate; asye—in the mouth; grasane—in the throat; grahah—the plates known as soma plates; tu—but; te—Your; yat—that which; carvanam—chewing; te—Your; bhagavan—O my Lord; agni-hotram—is Your eating through Your sacrificial fire.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O Lord, Your tongue is a plate of sacrifice, Your nostril is another plate of sacrifice, in Your belly is the eating plate of sacrifice, and another plate of sacrifice is the holes of Your ears.</p>
+<p>In Your mouth is the Brahma plate of sacrifice, Your throat is the plate of sacrifice known as soma, and whatever You chew is known as agni-hotra.</p>
+<p><strong>PURPORT</strong></p>
+<p>The veda-vadis say that there is nothing more than the Vedas and the performances of sacrifice mentioned in the Vedas.</p>
+<p>They have recently made a rule in their group to formally observe daily sacrifice; they simply ignite a small fire and offer something whimsically, but they do not strictly follow the sacrificial rules and regulations mentioned in the Vedas.</p>
+<p>It is understood that by regulation there are different plates of sacrifice required, such as srak, sruva, barhis, catur-hotra, ida, camasa, prasitra, graha and agni-hotra.</p>
+<p>One cannot achieve the results of sacrifice unless one observes the strict regulations.</p>
+<p>In this age there is practically no facility for performing sacrifices in strict discipline.</p>
+<p>Therefore, in this age of Kali there is a stricture regarding such sacrifices: it is explicitly directed that one should perform sankirtana-yajna and nothing more.</p>
+<p>The incarnation of the Supreme Lord is Yajnesvara, and unless one has respect for the incarnation of the Lord, he cannot perfectly perform sacrifice.</p>
+<p>In other words, taking shelter of the Lord and rendering service unto Him is the factual performance of all sacrifices, as explained herein.</p>
+<p>Different plates of sacrifice correspond to the different parts of the body of the Lord’s incarnation.</p>
+<p>In the Srimad-Bhagavatam, Eleventh Canto, it is explicitly directed that one should perform sankirtana-yajna to please the Lord’s incarnation as Sri Caitanya Mahaprabhu.</p>
+<p>This should be rigidly followed in order to achieve the result of yajna performance.</p>
+
+
+
+<p><strong>3.13.37</strong></p>
+<p>diksanujanmopasadah sirodharam</p>
+<p>tvam prayaniyodayaniya-damstrah</p>
+<p>jihva pravargyas tava sirsakam kratoh</p>
+<p>satyavasathyam citayo ’savo hi te</p>
+<p><strong>SYNONYMS</strong></p>
+<p>diksa—initiation; anujanma—spiritual birth, or repeated incarnations; upasadah—three kinds of desires (relationship, activities and ultimate goal); sirah-dharam—the neck; tvam—You; prayaniya—after the result of initiation; udayaniya—the last rites of desires; damstrah—the tusks; jihva—the tongue; pravargyah—prior activities; tava—Your; sirsakam—head; kratoh—of the sacrifice; satya—fire without sacrifice; avasathyam—fire of worship; citayah—aggregate of all desires; asavah—life breath; hi—certainly; te—Your.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Moreover, O Lord, the repetition of Your appearance is the desire for all kinds of initiation.</p>
+<p>Your neck is the place for three desires, and Your tusks are the result of initiation and the end of all desires.</p>
+<p>Your tongue is the prior activities of initiation, Your head is the fire without sacrifice as well as the fire of worship, and Your living forces are the aggregate of all desires.</p>
+
+
+
+<p><strong>3.13.38</strong></p>
+<p>somas tu retah savanany avasthitih</p>
+<p>samstha-vibhedas tava deva dhatavah</p>
+<p>satrani sarvani sarira-sandhis</p>
+<p>tvam sarva-yajna-kratur isti-bandhanah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>somah tu retah—Your semen is the sacrifice called soma; savanani—ritualistic performances of the morning; avasthitih—different statuses of bodily growth; samstha-vibhedah—seven varieties of sacrifices; tava—Your; deva—O Lord; dhatavah—ingredients of the body such as skin and flesh; satrani—sacrifices performed over twelve days; sarvani—all of them; sarira—the bodily; sandhih—joints; tvam—Your Lordship; sarva—all; yajna—asoma sacrifices; kratuh—soma sacrifices; isti—the ultimate desire; bandhanah—attachment.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O Lord, Your semen is the sacrifice called soma-yajna.</p>
+<p>Your growth is the ritualistic performances of the morning.</p>
+<p>Your skin and touch sensations are the seven elements of the agnistoma sacrifice.</p>
+<p>Your bodily joints are symbols of various other sacrifices performed in twelve days.</p>
+<p>Therefore You are the object of all sacrifices called soma and asoma, and You are bound by yajnas only.</p>
+<p><strong>PURPORT</strong></p>
+<p>There are seven kinds of routine yajnas performed by all followers of the Vedic rituals, and they are called agnistoma, atyagnistoma, uktha, sodasi, vajapeya, atiratra and aptoryama.</p>
+<p>Anyone performing such yajnas regularly is supposed to be situated with the Lord.</p>
+<p>But anyone who is in contact with the Supreme Lord by discharging devotional service is understood to have performed all different varieties of yajnas.</p>
+
+
+
+<p><strong>3.13.39</strong></p>
+<p>namo namas te ’khila-mantra-devata-</p>
+<p>dravyaya sarva-kratave kriyatmane</p>
+<p>vairagya-bhaktyatmajayanubhavita-</p>
+<p>jnanaya vidya-gurave namo namah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>namah namah—obeisances unto You; te—unto You, who are worshipable; akhila—all-inclusive; mantra—hymns; devata—the Supreme Lord; dravyaya—unto all ingredients for performing sacrifices; sarva-kratave—unto all kinds of sacrifices; kriya-atmane—unto You, the supreme form of all sacrifices; vairagya—renunciation; bhaktya—by devotional service; atma-jaya-anubhavita—perceivable by conquering the mind; jnanaya—such knowledge; vidya-gurave—the supreme spiritual master of all knowledge; namah namah—again I offer my respectful obeisances.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O Lord, You are the Supreme Personality of Godhead and are worshipable by universal prayers, Vedic hymns and sacrificial ingredients.</p>
+<p>We offer our obeisances unto You.</p>
+<p>You can be realized by the pure mind freed from all visible and invisible material contamination.</p>
+<p>We offer our respectful obeisances to You as the supreme spiritual master of knowledge in devotional service.</p>
+<p><strong>PURPORT</strong></p>
+<p>The qualification of bhakti, or devotional service to the Lord, is that the devotee should be free from all material contaminations and desires.</p>
+<p>This freedom is called vairagya, or renouncement of material desires.</p>
+<p>One who engages in devotional service to the Lord according to regulative principles is automatically freed from material desires, and in that pure state of mind one can realize the Personality of Godhead.</p>
+<p>The Personality of Godhead, being situated in everyone’s heart, instructs the devotee regarding pure devotional service so that he may ultimately achieve the association of the Lord.</p>
+<p>This is confirmed in Bhagavad-gita (10.10) as follows:</p>
+<p>tesam satata-yuktanam</p>
+<p>bhajatam priti-purvakam</p>
+<p>dadami buddhi-yogam tam</p>
+<p>yena mam upayanti te</p>
+<p>To one who constantly engages in the devotional service of the Lord with faith and love, the Lord certainly gives the intelligence to achieve Him at the ultimate end One has to conquer the mind, and one may do it by following the Vedic rituals and by performing different types of sacrifice.</p>
+<p>The ultimate end of all those performances is to attain bhakti, or the devotional service of the Lord.</p>
+<p>Without bhakti one cannot understand the Supreme Personality of Godhead.</p>
+<p>The original Personality of Godhead or His innumerable expansions of Visnu are the only objects of worship by all the Vedic rituals and sacrificial performances.</p>
+
+
+
+<p><strong>3.13.40</strong></p>
+<p>damstragra-kotya bhagavams tvaya dhrta</p>
+<p>virajate bhudhara bhuh sa-bhudhara</p>
+<p>yatha vanan nihsarato data dhrta</p>
+<p>matan-gajendrasya sa-patra-padmini</p>
+<p><strong>SYNONYMS</strong></p>
+<p>damstra-agra—the tips of the tusks; kotya—by the edges; bhagavan—O Personality of Godhead; tvaya—by You; dhrta—sustained; virajate—is so beautifully situated; bhu-dhara—O lifter of the earth; bhuh—the earth; sa-bhudhara—with mountains; yatha—as much as; vanat—from the water; nihsaratah—coming out; data—by the tusk; dhrta—captured; matam-gajendrasya—infuriated elephant; sa-patra—with leaves; padmini—the lotus flower.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O lifter of the earth, the earth with its mountains, which You have lifted with Your tusks, is situated as beautifully as a lotus flower with leaves sustained by an infuriated elephant just coming out of the water.</p>
+<p><strong>PURPORT</strong></p>
+<p>The fortune of the earth planet is praised because of its being specifically sustained by the Lord; its beauty is appreciated and compared to that of a lotus flower situated on the trunk of an elephant.</p>
+<p>As a lotus flower with leaves is very beautifully situated, so the world, with its many beautiful mountains, appeared on the tusks of the Lord Boar.</p>
+
+
+
+<p><strong>3.13.41</strong></p>
+<p>trayimayam rupam idam ca saukaram</p>
+<p>bhu-mandalenatha data dhrtena te</p>
+<p>cakasti srngodha-ghanena bhuyasa</p>
+<p>kulacalendrasya yathaiva vibhramah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>trayi-mayam—Vedas personified; rupam—form; idam—this; ca—also; saukaram—the boar; bhu-mandalena—by the earth planet; atha—now; data—by the tusk; dhrtena—sustained by; te—Your; cakasti—is glowing; srnga-udha—sustained by the peaks; ghanena—by the clouds; bhuyasa—more glorified; kula-acala-indrasya—of the great mountains; yatha—as much as; eva—certainly; vibhramah—decoration.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O Lord, as the peaks of great mountains become beautiful when decorated with clouds, Your transcendental body has become beautiful because of Your lifting the earth on the edge of Your tusks.</p>
+<p><strong>PURPORT</strong></p>
+<p>The word vibhramah is significant.</p>
+<p>Vibhramah means illusio as well as beauty When a cloud rests on the peak of a great mountain, it appears to be sustained by the mountain, and at the same time it looks very beautiful.</p>
+<p>Similarly, the Lord has no need to sustain the earth on His tusks, but when He does so the world becomes beautiful, just as the Lord becomes more beautiful because of His pure devotees on the earth.</p>
+<p>Although the Lord is the transcendental personification of the Vedic hymns, He has become more beautiful because of His appearance to sustain the earth.</p>
+
+
+
+<p><strong>3.13.42</strong></p>
+<p>samsthapayainam jagatam sa-tasthusam</p>
+<p>lokaya patnim asi mataram pita</p>
+<p>vidhema casyai namasa saha tvaya</p>
+<p>yasyam sva-tejo ’gnim ivaranav adhah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>samsthapaya enam—raise this earth; jagatam—both the moving and; sa-tasthusam—nonmoving; lokaya—for their residence; patnim—wife; asi—You are; mataram—the mother; pita—the father; vidhema—do we offer; ca—also; asyai—unto the mother; namasa—with all obeisances; saha—along with; tvaya—with You; yasyam—in whom; sva-tejah—by Your own potency; agnim—fire; iva—likened; aranau—in the arani wood; adhah—invested.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O Lord, for the residential purposes of all inhabitants, both moving and nonmoving, this earth is Your wife, and You are the supreme father.</p>
+<p>We offer our respectful obeisances unto You, along with mother earth, in whom You have invested Your own potency, just as an expert sacrificer puts fire in the arani wood.</p>
+<p><strong>PURPORT</strong></p>
+<p>The so-called law of gravitation which sustains the planets is described herein as the potency of the Lord.</p>
+<p>This potency is invested by the Lord in the way that an expert sacrificial brahmana puts fire in the arani wood by the potency of Vedic mantras.</p>
+<p>By this arrangement the world becomes habitable for both the moving and nonmoving creatures.</p>
+<p>The conditioned souls, who are residents of the material world, are put in the womb of mother earth in the same way the seed of a child is put by the father in the womb of the mother.</p>
+<p>This conception of the Lord and the earth as father and mother is explained in Bhagavad-gita (14.4).</p>
+<p>Conditioned souls are devoted to the motherland in which they take their birth, but they do not know their father.</p>
+<p>The mother is not independent in producing children.</p>
+<p>Similarly, material nature cannot produce living creatures unless in contact with the supreme father, the Supreme Personality of Godhead.</p>
+<p>Srimad-Bhagavatam teaches us to offer obeisances unto the mother along with the Father, the Supreme Lord, because it is the Father only who impregnates the mother with all energies for the sustenance and maintenance of all living beings, both moving and nonmoving.</p>
+
+
+
+<p><strong>3.13.43</strong></p>
+<p>kah sraddadhitanyatamas tava prabho</p>
+<p>rasam gataya bhuva udvibarhanam</p>
+<p>na vismayo ’sau tvayi visva-vismaye</p>
+<p>yo mayayedam sasrje ’tivismayam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kah—who else; sraddadhita—can endeavor; anyatamah—anyone besides Yourself; tava—Your; prabho—O Lord; rasam—in the water; gatayah—while lying in; bhuvah—of the earth; udvibarhanam—deliverance; na—never; vismayah—wonderful; asau—such an act; tvayi—unto You; visva—universal; vismaye—full of wonders; yah—one who; mayaya—by potencies; idam—this; sasrje—created; ativismayam—surpassing all wonders.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Who else but You, the Supreme Personality of Godhead, could deliver the earth from within the water? It is not very wonderful for You, however, because You acted most wonderfully in the creation of the universe.</p>
+<p>By Your energy You have created this wonderful cosmic manifestation.</p>
+<p><strong>PURPORT</strong></p>
+<p>When a scientist discovers something impressive to the ignorant mass of people, the common man, without inquiry, accepts such a discovery as wonderful.</p>
+<p>But the intelligent man is not struck with wonder by such discoveries.</p>
+<p>He gives all credit to the person who created the wonderful brain of the scientist.</p>
+<p>A common man is also struck with wonder by the wonderful action of material nature, and he gives all credit to the cosmic manifestation.</p>
+<p>The learned Krsna conscious person, however, knows well that behind the cosmic manifestation is the brain of Krsna, as confirmed in Bhagavad-gita (9.10): mayadhyaksena prakrtih suyate sa-caracaram.</p>
+<p>Since Krsna can direct the wonderful cosmic manifestation, it is not at all wonderful for Him to assume the gigantic form of a boar and thus deliver the earth from the mire of the water.</p>
+<p>A devotee is therefore not astonished to see the wonderful boar because he knows that the Lord is able to act far more wonderfully by His potencies, which are inconceivable to the brain of even the most erudite scientist.</p>
+
+
+
+<p><strong>3.13.44</strong></p>
+<p>vidhunvata vedamayam nijam vapur</p>
+<p>janas-tapah-satya-nivasino vayam</p>
+<p>sata-sikhoddhuta-sivambu-bindubhir</p>
+<p>vimrjyamana bhrsam isa pavitah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vidhunvata—while shaking; veda-mayam—personified Vedas; nijam—own; vapuh—body; janah—the Janaloka planetary system; tapah—the Tapoloka planetary system; satya—the Satyaloka planetary system; nivasinah—the inhabitants; vayam—we; sata—hairs on the shoulder; sikha-uddhuta—sustained by the tip of the hair; siva—auspicious; ambu—water; bindubhih—by the particles; vimrjyamanah—we are thus sprinkled by; bhrsam—highly; isa—O Supreme Lord; pavitah—purified.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O Supreme Lord, undoubtedly we are inhabitants of the most pious planets—the Jana, Tapas and Satya lokas—but still we have been purified by the drops of water sprinkled from Your shoulder hairs by the shaking of Your body.</p>
+<p><strong>PURPORT</strong></p>
+<p>Ordinarily the body of a hog is considered impure, but one should not consider that the hog incarnation assumed by the Lord is also impure.</p>
+<p>That form of the Lord is the personified Vedas and is transcendental.</p>
+<p>The inhabitants of the Jana, Tapas and Satya lokas are the most pious persons in the material world, but because those planets are situated in the material world, there are so many material impurities there also.</p>
+<p>Therefore, when the drops of water from the tips of the Lord’s shoulder hairs were sprinkled upon the bodies of the inhabitants of the higher planets, they felt purified.</p>
+<p>The Ganges water is pure because of its emanating from the toe of the Lord, and there is no difference between the water emanating from the toe and that from the tips of the hair on the shoulder of Lord Boar.</p>
+<p>They are both absolute and transcendental.</p>
+
+
+
+<p><strong>3.13.45</strong></p>
+<p>sa vai bata bhrasta-matis tavaisate</p>
+<p>yah karmanam param apara-karmanah</p>
+<p>yad-yogamaya-guna-yoga-mohitam</p>
+<p>visvam samastam bhagavan vidhehi sam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—he; vai—certainly; bata—alas; bhrasta-matih—nonsense; tava—Your; esate—desires; yah—one who; karmanam—of activities; param—limit; apara-karmanah—of one who has unlimited activities; yat—by whom; yoga—mystic power; maya—potency; guna—modes of material nature; yoga—mystic power; mohitam—bewildered; visvam—the universe; samastam—in total; bhagavan—O Supreme Personality of Godhead; vidhehi—just be pleased to bestow; sam—good fortune.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O Lord, there is no limit to Your wonderful activities.</p>
+<p>Anyone who desires to know the limit of Your activities is certainly nonsensical.</p>
+<p>Everyone in this world is conditioned by the powerful mystic potencies.</p>
+<p>Please bestow Your causeless mercy upon these conditioned souls.</p>
+<p><strong>PURPORT</strong></p>
+<p>Mental speculators who want to understand the limit of the Unlimited are certainly nonsensical.</p>
+<p>Every one of them is captivated by the external potencies of the Lord.</p>
+<p>The best thing for them is to surrender unto Him, knowing Him to be inconceivable, for thus they can receive His causeless mercy.</p>
+<p>This prayer was offered by the inhabitants of the higher planetary systems, namely the Jana, Tapas and Satya lokas, who are far more intelligent and powerful than humans.</p>
+<p>Visvam samastam is very significant here.</p>
+<p>There are the material world and the spiritual world.</p>
+<p>The sages pray: Both worlds are bewildered by Your different energies.</p>
+<p>Those who are in the spiritual world are absorbed in Your loving service, forgetting themselves and You also, and those in the material world are absorbed in material sense gratification and therefore also forget You.</p>
+<p>No one can know You, because You are unlimited.</p>
+<p>It is best not to try to know You by unnecessary mental speculation.</p>
+<p>Rather, kindly bless us so that we can worship You with causeless devotional service</p>
+
+
+
+<p><strong>3.13.46</strong></p>
+<p>maitreya uvaca</p>
+<p>ity upasthiyamano ’sau</p>
+<p>munibhir brahma-vadibhih</p>
+<p>salile sva-khurakranta</p>
+<p>upadhattavitavanim</p>
+<p><strong>SYNONYMS</strong></p>
+<p>maitreyah uvaca—the sage Maitreya said; iti—thus; upasthiyamanah—being praised by; asau—Lord Boar; munibhih—by the great sages; brahma-vadibhih—by the transcendentalists; salile—on the water; sva-khura-akrante—touched by His own hooves; upadhatta—placed; avita—the maintainer; avanim—the earth.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The sage Maitreya said: The Lord, being thus worshiped by all the great sages and transcendentalists, touched the earth with His hooves and placed it on the water.</p>
+<p><strong>PURPORT</strong></p>
+<p>The earth was placed on the water by His inconceivable potency.</p>
+<p>The Lord is all-powerful, and therefore He can sustain the huge planets either on the water or in the air, as He likes.</p>
+<p>The tiny human brain cannot conceive how these potencies of the Lord can act.</p>
+<p>Man can give some vague explanation of the laws by which such phenomena are made possible, but actually the tiny human brain is unable to conceive of the activities of the Lord, which are therefore called inconceivable.</p>
+<p>Yet the frog-philosophers still try to give some imaginary explanation.</p>
+
+
+
+<p><strong>3.13.47</strong></p>
+<p>sa ittham bhagavan urvim</p>
+<p>visvaksenah prajapatih</p>
+<p>rasaya lilayonnitam</p>
+<p>apsu nyasya yayau harih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—He; ittham—in this manner; bhagavan—the Personality of Godhead; urvim—the earth; visvaksenah—another name of Visnu; praja-patih—the Lord of the living entities; rasayah—from within the water; lilaya—very easily; unnitam—raised; apsu—on the water; nyasya—placing; yayau—returned to His own abode; harih—the Personality of Godhead.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In this manner the Personality of Godhead, Lord Visnu, the maintainer of all living entities, raised the earth from within the water, and having placed it afloat on the water, He returned to His own abode.</p>
+<p><strong>PURPORT</strong></p>
+<p>The Personality of Godhead Lord Visnu descends by His will to the material planets in His innumerable incarnations for particular purposes, and again He goes back to His own abode.</p>
+<p>When He descends He is called an avatara because avatara means one who descends Neither the Lord Himself nor His specific devotees who come to this earth are ordinary living entities like us.</p>
+
+
+
+<p><strong>3.13.48</strong></p>
+<p>ya evam etam hari-medhaso hareh</p>
+<p>katham subhadram kathaniya-mayinah</p>
+<p>srnvita bhaktya sravayeta vosatim</p>
+<p>janardano ’syasu hrdi prasidati</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—one who; evam—thus; etam—this; hari-medhasah—who destroys the material existence of the devotee; hareh—of the Personality of Godhead; katham—narration; su-bhadram—auspicious; kathaniya—worthy to narrate; mayinah—of the merciful by His internal potency; srnvita—hears; bhaktya—in devotion; sravayeta—also allows others to hear; va—either; usatim—very pleasing; janardanah—the Lord; asya—his; asu—very soon; hrdi—within the heart; prasidati—becomes very pleased.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>If one hears and describes in a devotional service attitude this auspicious narration of Lord Boar, which is worthy of description, the Lord, who is within the heart of everyone, is very pleased.</p>
+<p><strong>PURPORT</strong></p>
+<p>In His various incarnations, the Lord appears, acts and leaves behind Him a narrative history which is as transcendental as He Himself.</p>
+<p>Every one of us is fond of hearing some wonderful narration, but most stories are neither auspicious nor worth hearing because they are of the inferior quality of material nature.</p>
+<p>Every living entity is of superior quality, spirit soul, and nothing material can be auspicious for him.</p>
+<p>Intelligent persons should therefore hear personally and cause others to hear the descriptive narrations of the Lord’s activities, for that will destroy the pangs of material existence.</p>
+<p>Out of His causeless mercy only, the Lord comes to this earth and leaves behind His merciful activities so that the devotees may derive transcendental benefit.</p>
+
+
+
+<p><strong>3.13.49</strong></p>
+<p>tasmin prasanne sakalasisam prabhau</p>
+<p>kim durlabham tabhir alam lavatmabhih</p>
+<p>ananya-drstya bhajatam guhasayah</p>
+<p>svayam vidhatte sva-gatim parah param</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasmin—unto Him; prasanne—being pleased; sakala-asisam—of all benediction; prabhau—unto the Lord; kim—what is that; durlabham—very difficult to obtain; tabhih—with them; alam—away; lava-atmabhih—with insignificant gains; ananya-drstya—by nothing but devotional service; bhajatam—of those who are engaged in devotional service; guha-asayah—residing within the heart; svayam—personally; vidhatte—executes; sva-gatim—in His own abode; parah—the supreme; param—transcendental.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Nothing remains unachieved when the Supreme Personality of Godhead is pleased with someone.</p>
+<p>By transcendental achievement one understands everything else to be insignificant.</p>
+<p>One who engages in transcendental loving service is elevated to the highest perfectional stage by the Lord Himself, who is seated in everyone’s heart.</p>
+<p><strong>PURPORT</strong></p>
+<p>As stated in Bhagavad-gita (10.10), the Lord gives intelligence to the pure devotees so that they may be elevated to the highest perfectional stage.</p>
+<p>It is confirmed herein that a pure devotee, who constantly engages in the loving service of the Lord, is awarded all knowledge necessary to reach the Supreme Personality of Godhead.</p>
+<p>For such a devotee there is nothing valuable to be achieved but the Lord’s service.</p>
+<p>If one serves faithfully, there is no possibility of frustration because the Lord Himself takes charge of the devotee’s advancement.</p>
+<p>The Lord is seated in everyone’s heart, and He knows the devotee’s motive and arranges everything achievable.</p>
+<p>In other words, the pseudo devotee, who is anxious to achieve material gains, cannot attain the highest perfectional stage because the Lord is in knowledge of his motive.</p>
+<p>One merely has to become sincere in his purpose, and then the Lord is there to help in every way.</p>
+
+
+
+<p><strong>3.13.50</strong></p>
+<p>ko nama loke purusartha-saravit</p>
+<p>pura-kathanam bhagavat-katha-sudham</p>
+<p>apiya karnanjalibhir bhavapaham</p>
+<p>aho virajyeta vina naretaram</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kah—who; nama—indeed; loke—in the world; purusa-artha—goal of life; sara-vit—one who knows the essence of; pura-kathanam—of all past histories; bhagavat—regarding the Personality of Godhead; katha-sudham—the nectar of the narrations about the Personality of Godhead; apiya—by drinking; karna-anjalibhih—by aural reception; bhava-apaham—that which kills all material pangs; aho—alas; virajyeta—could refuse; vina—except; nara-itaram—other than the human being being.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Who, other than one who is not a human being, can exist in this world and not be interested in the ultimate goal of life? Who can refuse the nectar of narrations about the Personality of Godhead’s activities, which by itself can deliver one from all material pangs?</p>
+<p><strong>PURPORT</strong></p>
+<p>The narration of the activities of the Personality of Godhead is like a constant flow of nectar.</p>
+<p>No one can refuse to drink such nectar except one who is not a human being.</p>
+<p>Devotional service to the Lord is the highest goal of life for every human being, and such devotional service begins by hearing about the transcendental activities of the Personality of Godhead.</p>
+<p>Only an animal, or a man who is almost an animal in behavior, can refuse to take an interest in hearing the transcendental message of the Lord.</p>
+<p>There are many books of stories and histories in the world, but except for the histories or narrations on the topics of the Personality of Godhead, none are capable of diminishing the burden of material pangs.</p>
+<p>Therefore one who is serious about eliminating material existence must chant and hear of the transcendental activities of the Personality of Godhead.</p>
+<p>Otherwise one must be compared to the nonhumans.</p>
+
+
+</article></body></html>

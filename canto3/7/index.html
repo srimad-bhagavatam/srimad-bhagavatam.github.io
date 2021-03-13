@@ -1,154 +1,41 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>Further Inquiries by Vidura - Further Inquiries by Vidura</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">Further Inquiries by Vidura</a></li><li class="affix"><a href="3.7.2.html">3.7.2</a></li><li class="affix"><a href="3.7.3.html">3.7.3</a></li><li class="affix"><a href="3.7.4.html">3.7.4</a></li><li class="affix"><a href="3.7.5.html">3.7.5</a></li><li class="affix"><a href="3.7.6.html">3.7.6</a></li><li class="affix"><a href="3.7.7.html">3.7.7</a></li><li class="affix"><a href="3.7.8.html">3.7.8</a></li><li class="affix"><a href="3.7.9.html">3.7.9</a></li><li class="affix"><a href="3.7.10.html">3.7.10</a></li><li class="affix"><a href="3.7.11.html">3.7.11</a></li><li class="affix"><a href="3.7.12.html">3.7.12</a></li><li class="affix"><a href="3.7.13.html">3.7.13</a></li><li class="affix"><a href="3.7.14.html">3.7.14</a></li><li class="affix"><a href="3.7.15.html">3.7.15</a></li><li class="affix"><a href="3.7.16.html">3.7.16</a></li><li class="affix"><a href="3.7.17.html">3.7.17</a></li><li class="affix"><a href="3.7.18.html">3.7.18</a></li><li class="affix"><a href="3.7.19.html">3.7.19</a></li><li class="affix"><a href="3.7.20.html">3.7.20</a></li><li class="affix"><a href="3.7.21.html">3.7.21</a></li><li class="affix"><a href="3.7.22.html">3.7.22</a></li><li class="affix"><a href="3.7.23.html">3.7.23</a></li><li class="affix"><a href="3.7.24.html">3.7.24</a></li><li class="affix"><a href="3.7.25.html">3.7.25</a></li><li class="affix"><a href="3.7.26.html">3.7.26</a></li><li class="affix"><a href="3.7.27.html">3.7.27</a></li><li class="affix"><a href="3.7.28.html">3.7.28</a></li><li class="affix"><a href="3.7.29.html">3.7.29</a></li><li class="affix"><a href="3.7.30.html">3.7.30</a></li><li class="affix"><a href="3.7.31.html">3.7.31</a></li><li class="affix"><a href="3.7.32.html">3.7.32</a></li><li class="affix"><a href="3.7.33.html">3.7.33</a></li><li class="affix"><a href="3.7.34.html">3.7.34</a></li><li class="affix"><a href="3.7.35.html">3.7.35</a></li><li class="affix"><a href="3.7.36.html">3.7.36</a></li><li class="affix"><a href="3.7.37.html">3.7.37</a></li><li class="affix"><a href="3.7.38.html">3.7.38</a></li><li class="affix"><a href="3.7.39.html">3.7.39</a></li><li class="affix"><a href="3.7.40.html">3.7.40</a></li><li class="affix"><a href="3.7.41.html">3.7.41</a></li><li class="affix"><a href="3.7.42.html">3.7.42</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">Further Inquiries by Vidura</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#further-inquiries-by-vidura" id="further-inquiries-by-vidura">Further Inquiries by Vidura</a></h1>
-<h3><a class="header" href="#371" id="371">3.7.1</a></h3>
+<h1>Further Inquiries by Vidura</h1>
+<p><strong>3.7.1</strong></p>
 <p>sri-suka uvaca</p>
 <p>evam bruvanam maitreyam</p>
 <p>dvaipayana-suto budhah</p>
@@ -160,63 +47,884 @@
 <p><strong>TRANSLATION</strong></p>
 <p>Sri Sukadeva Gosvami said: O King, while Maitreya, the great sage, was thus speaking, Vidura, the learned son of Dvaipayana Vyasa, expressed a request in a pleasing manner by asking this question.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="3.7.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>3.7.2</strong></p>
+<p>vidura uvaca</p>
+<p>brahman katham bhagavatas</p>
+<p>cin-matrasyavikarinah</p>
+<p>lilaya capi yujyeran</p>
+<p>nirgunasya gunah kriyah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vidurah uvaca—Vidura said; brahman—O brahmana; katham—how; bhagavatah—of the Personality of Godhead; cit-matrasya—of the complete spiritual whole; avikarinah—of the unchangeable; lilaya—by His pastime; ca—either; api—even though it is so; yujyeran—take place; nirgunasya—who is without the modes of nature; gunah—modes of nature; kriyah—activities.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sri Vidura said: O great brahmana, since the Supreme Personality of Godhead is the complete spiritual whole and is unchangeable, how is He connected with the material modes of nature and their activities? If this is His pastime, how do the activities of the unchangeable take place and exhibit qualities without the modes of nature?</p>
+<p><strong>PURPORT</strong></p>
+<p>As described in the previous chapter, the difference between the Supersoul, the Supreme Lord, and the living entities is that the activities of the Lord in creating the cosmic manifestation are performed by the Lord through the agency of His multifarious energies, but this manifestation is bewildering to the living entities.</p>
+<p>The Lord is therefore the master of the energies, whereas the living entities are subjugated by them.</p>
+<p>By asking various questions about transcendental activities, Vidura is clearing the misconception that when the Lord either descends on the earth in His incarnation or appears Himself with all His potencies, He too is subjected to the influence of maya, just like an ordinary living entity.</p>
+<p>This is generally the calculation of less intelligent philosophers who consider the position of the Lord and that of the living entities to be on the same level.</p>
+<p>Vidura is hearing the great sage Maitreya refute these arguments.</p>
+<p>The Lord is described in this verse as cin-matra, or completely spiritual.</p>
+<p>The Personality of Godhead has unlimited potencies to create and manifest many wonderful things, both temporary and permanent.</p>
+<p>Because this material world is the creation of His external energy, it thus appears to be temporary; it is manifested at certain intervals, maintained for some time, and again dissolved and conserved in His own energy.</p>
+<p>As described in Bhagavad-gita (8.19), bhutva bhutva praliyate.</p>
+<p>But the creation of His internal potency, the spiritual world, is not a temporary manifestation like the material world, but is eternal and full of transcendental knowledge, opulence, energy, strength, beauties and glories.</p>
+<p>Such manifestations of the Lord’s potencies are eternal and are therefore called nirguna, or free from all tinges of the modes of material nature, even up to the mode of material goodness.</p>
+<p>The spiritual world is transcendental even to material goodness and thus is unchangeable.</p>
+<p>Since the Supreme Lord of such eternal and unchangeable qualities is never subjugated by anything like material influence, how can His activities and form be conceived to be under the influence of illusory maya, as is the case with the living entities? A juggler or magician displays many wonders with his acts and arts.</p>
+<p>He can become a cow by his magical tactics, and yet he is not that cow; but at the same time, the cow displayed by the magician is not different from him.</p>
+<p>Similarly, the material potency is not different from the Lord because it is an emanation from Him, but at the same time, that manifestation of potency is not the Supreme Lord.</p>
+<p>The Lord’s transcendental knowledge and potency always remain the same; they do not change, even when displayed in the material world.</p>
+<p>As stated in Bhagavad-gita, the Lord descends on the earth by His own internal potency, and therefore there is no question of His becoming materially contaminated, changed or otherwise affected by the modes of material nature.</p>
+<p>The Lord is saguna by His own internal potency, but at the same time He is nirguna, since He is not in touch with the material energy.</p>
+<p>The restrictions of the prison house are applicable to prisoners who are condemned by the king’s law, but the king is never affected by such implications, although he may visit the prison house out of his good will.</p>
+<p>In the Visnu Purana the six opulences of the Lord are stated to be nondifferent from Him.</p>
+<p>The opulences of transcendental knowledge, strength, opulence, potency, beauty and renunciation are all identical with the Personality of Godhead.</p>
+<p>When He personally displays such opulences in the material world, they have no connection with the modes of material nature.</p>
+<p>The very word cin-matratva is the guarantee that the Lord’s activities are always transcendental, even when displayed in the material world.</p>
+<p>His activities are as good as the Supreme Personality Himself, otherwise liberated devotees like Sukadeva Gosvami would not have been attracted by them.</p>
+<p>Vidura inquired how the Lord’s activities can be in the modes of material nature, as is sometimes miscalculated by persons with a poor fund of knowledge.</p>
+<p>The inebriety of the material qualities is due to the difference between the material body and the spirit soul.</p>
+<p>The conditioned soul’s activities are displayed through the medium of the modes of material nature and are therefore perverted in appearance.</p>
+<p>However, the Lord’s body and the Lord Himself are one and the same, and when the Lord’s activities are displayed, they are certainly nondifferent from the Lord in all respects.</p>
+<p>The conclusion is that persons who consider the Lord’s activities material are certainly mistaken.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="3.7.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>3.7.3</strong></p>
+<p>kridayam udyamo ’rbhasya</p>
+<p>kamas cikridisanyatah</p>
+<p>svatas-trptasya ca katham</p>
+<p>nivrttasya sadanyatah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kridayam—in the matter of playing; udyamah—enthusiasm; arbhasya—of the boys; kamah—desire; cikridisa—willingness to play; anyatah—with other boys; svatah-trptasya—for one who is self-satisfied; ca—also; katham—what for; nivrttasya—one who is detached; sada—at all times; anyatah—otherwise.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Boys are enthusiastic to play with other boys or with various diversions because they are encouraged by desire.</p>
+<p>But there is no possibility of such desire for the Lord because He is self-satisfied and detached from everything at all times.</p>
+<p><strong>PURPORT</strong></p>
+<p>Since the Supreme Personality of Godhead is one without a second, there is no possibility that anything besides Him can exist.</p>
+<p>He expands Himself by His energies in multiforms of self-expansions and separated expansions as well, just as fire expands itself by heat and light.</p>
+<p>Since there is no other existence besides the Lord Himself, the Lord’s association with anything manifests His association with Himself.</p>
+<p>In Bhagavad-gita (9.4) the Lord says:</p>
+<p>maya tatam idam sarvam</p>
+<p>jagad avyakta-murtina</p>
+<p>mat-sthani sarva-bhutani</p>
+<p>na caham tesv avasthitah</p>
+<p>The complete manifestation of the cosmic situation is an expansion of the Lord Himself in His impersonal feature.</p>
+<p>All things are situated in Him only, yet He is not in them That is the opulence of the Lord’s attachment and detachment.</p>
+<p>He is attached to everything, yet He is detached from all.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>3.7.4</strong></p>
+<p>asraksid bhagavan visvam</p>
+<p>guna-mayyatma-mayaya</p>
+<p>taya samsthapayaty etad</p>
+<p>bhuyah pratyapidhasyati</p>
+<p><strong>SYNONYMS</strong></p>
+<p>asraksit—caused to create; bhagavan—the Personality of Godhead; visvam—the universe; guna-mayya—endowed with three modes of material nature; atma—self; mayaya—by the potency; taya—by her; samsthapayati—maintains; etat—all these; bhuyah—then again; praty-apidhasyati—conversely dissolves also.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>By His self-sheltered potency of the three modes of material nature, the Lord has caused the creation of this universe.</p>
+<p>By her He maintains the creation and conversely dissolves it, again and again.</p>
+<p><strong>PURPORT</strong></p>
+<p>This cosmic universe is created by the Lord for those living entities who are carried away by the illusory thought of becoming one with Him by imitation.</p>
+<p>The three modes of material nature are for the further bewilderment of the conditioned souls.</p>
+<p>The conditioned living entity, bewildered by the illusory energy, considers himself a part of the material creation due to forgetfulness of his spiritual identity, and thus he becomes entangled in material activities life after life.</p>
+<p>This material world is not for the purpose of the Lord Himself, but is for the conditioned souls who wanted to be controllers due to misuse of their God-gifted minute independence.</p>
+<p>Thus the conditioned souls are subjected to repeated birth and death.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>3.7.5</strong></p>
+<p>desatah kalato yo ’sav</p>
+<p>avasthatah svato ’nyatah</p>
+<p>aviluptavabodhatma</p>
+<p>sa yujyetajaya katham</p>
+<p><strong>SYNONYMS</strong></p>
+<p>desatah—circumstantial; kalatah—by the influence of time; yah—one who; asau—the living entity; avasthatah—by situation; svatah—by dream; anyatah—by others; avilupta—extinct; avabodha—consciousness; atma—pure self; sah—he; yujyeta—engaged; ajaya—with nescience; katham—how is it so.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The pure soul is pure consciousness and is never out of consciousness, either due to circumstances, time, situations, dreams or other causes.</p>
+<p>How then does he become engaged in nescience?</p>
+<p><strong>PURPORT</strong></p>
+<p>The consciousness of the living being is always present and never changes under any circumstances, as above mentioned.</p>
+<p>When a living man moves from one place to another, he is conscious that he has changed his position.</p>
+<p>He is always present in the past, present and future, like electricity.</p>
+<p>One can remember incidents from his past and can conjecture about his future also on the basis of past experience.</p>
+<p>He never forgets his personal identity, even though he is placed in awkward circumstances.</p>
+<p>How then can the living entity become forgetful of his real identity as pure spirit soul and identify with matter unless influenced by something beyond himself? The conclusion is that the living entity is influenced by the avidya potency, as confirmed in both the Visnu Purana and the beginning of Srimad-Bhagavatam.</p>
+<p>The living entity is mentioned in Bhagavad-gita (7.5) as para prakrti, and in the Visnu Purana he is mentioned as the para sakti.</p>
+<p>He is part and parcel of the Supreme Lord as potency and not as the potent.</p>
+<p>The potent can exhibit many potencies, but the potency cannot equal the potent at any stage.</p>
+<p>One potency may be overcome by another potency, but to the potent, all potencies are under control.</p>
+<p>The jiva potency, or the ksetrajna-sakti of the Lord, has the tendency to be overpowered by the external potency, avidya-karma-samjna, and in this way he is placed in the awkward circumstances of material existence.</p>
+<p>The living entity cannot be forgetful of his real identity unless influenced by the avidya potency.</p>
+<p>Because the living entity is prone to the influence of the avidya potency, he can never equal the supreme potent.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>3.7.6</strong></p>
+<p>bhagavan eka evaisa</p>
+<p>sarva-ksetresv avasthitah</p>
+<p>amusya durbhagatvam va</p>
+<p>kleso va karmabhih kutah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>bhagavan—the Supreme Personality of Godhead; ekah—alone; eva esah—all these; sarva—all; ksetresu—in the living entities; avasthitah—situated; amusya—of the living entities; durbhagatvam—misfortune; va—either; klesah—miseries; va—or; karmabhih—by activities; kutah—what for.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Lord, as the Supersoul, is situated in every living being’s heart.</p>
+<p>Why then do the living entities’ activities result in misfortune and misery?</p>
+<p><strong>PURPORT</strong></p>
+<p>The next question put forward by Vidura to Maitreya is, Why are the living entities subjected to so many miseries and misfortunes in spite of the Lord’s presence in their hearts as the Supersoul The body is considered a fruitful tree, and the living entity and the Lord as Supersoul are like two birds seated in that tree.</p>
+<p>The individual soul is eating the fruit of the tree, but the Supersoul, the Lord, is witnessing the activities of the other bird.</p>
+<p>A citizen of the state may be in miseries for want of sufficient supervision by the state authority, but how can it be possible that a citizen suffers from other citizens while the chief of the state is personally present? From another point of view, it is understood that the jiva living entity is qualitatively one with the Lord, and thus his knowledge in the pure state of life cannot be covered by nescience, especially in the presence of the Supreme Lord.</p>
+<p>How then does the living entity become subjected to ignorance and covered by the influence of maya? The Lord is the father and protector of every living entity, and He is known as the bhuta-bhrt, or the maintainer of the living entities.</p>
+<p>Why then should the living entity he subjected to so many sufferings and misfortunes? It should not be so, but actually we see that it happens everywhere.</p>
+<p>This question is therefore put forward by Vidura for solution.</p>
+
+
+
+<p><strong>3.7.7</strong></p>
+<p>etasmin me mano vidvan</p>
+<p>khidyate ’jnana-sankate</p>
+<p>tan nah paranuda vibho</p>
+<p>kasmalam manasam mahat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>etasmin—in this; me—my; manah—mind; vidvan—O learned one; khidyate—is troubling; ajnana—nescience; sankate—in distress; tat—therefore; nah—my; paranuda—clear up; vibho—O great one; kasmalam—illusion; manasam—relating to the mind; mahat—great.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O great and learned one, my mind is greatly illusioned by the distress of this nescience, and I therefore request you to clear it up.</p>
+<p><strong>PURPORT</strong></p>
+<p>Such mental bewilderment as represented here by Vidura takes place for some living entities, but not for everyone, for if everyone were bewildered there would be no possibility of a solution by higher personalities.</p>
+
+
+
+<p><strong>3.7.8</strong></p>
+<p>sri-suka uvaca</p>
+<p>sa ittham coditah ksattra</p>
+<p>tattva-jijnasuna munih</p>
+<p>pratyaha bhagavac-cittah</p>
+<p>smayann iva gata-smayah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-sukah uvaca—Sri Sukadeva Gosvami said; sah—he (Maitreya Muni); ittham—in this way; coditah—being agitated; ksattra—by Vidura; tattva-jijnasuna—by one who was anxious to inquire to know the truth; munih—the great sage; pratyaha—replied; bhagavat-cittah—God conscious; smayan—wondering; iva—as if; gata-smayah—without hesitation.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sri Sukadeva Gosvami said: O King, Maitreya, being thus agitated by the inquisitive Vidura, at first seemed astonished, but then he replied to him without hesitation, since he was fully God conscious.</p>
+<p><strong>PURPORT</strong></p>
+<p>Since the great sage Maitreya was filled with God consciousness, he had no reason to be astonished at such contradictory questions by Vidura.</p>
+<p>Therefore, although as a devotee he externally expressed surprise, as if he did not know how to reply to those questions, he immediately became perfectly settled and properly replied to Vidura.</p>
+<p>Yasmin vijnate sarvam evam vijnatam bhavati.</p>
+<p>Anyone who is a devotee of the Lord knows about the Lord to some extent, and devotional service to the Lord makes him able to know everything by the grace of the Lord.</p>
+<p>Although a devotee may apparently express himself to be ignorant, he is full of knowledge in every intricate matter.</p>
+
+
+
+<p><strong>3.7.9</strong></p>
+<p>maitreya uvaca</p>
+<p>seyam bhagavato maya</p>
+<p>yan nayena virudhyate</p>
+<p>isvarasya vimuktasya</p>
+<p>karpanyam uta bandhanam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>maitreyah uvaca—Maitreya said; sa iyam—such a statement; bhagavatah—of the Personality of Godhead; maya—illusion; yat—that which; nayena—by logic; virudhyate—becomes contradictory; isvarasya—of the Supreme Personality of Godhead; vimuktasya—of the ever liberated; karpanyam—insufficiency; uta—as also, what to speak of; bandhanam—bondage.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sri Maitreya said: Certain conditioned souls put forward the theory that the Supreme Brahman, or the Personality of Godhead, is overcome by illusion, or maya, and at the same time they maintain that He is unconditioned.</p>
+<p>This is against all logic.</p>
+<p><strong>PURPORT</strong></p>
+<p>Sometimes it appears that the Supreme Personality of Godhead, who is one hundred percent spiritual, cannot be the cause of the illusory potency which covers the knowledge of the individual soul.</p>
+<p>But factually there is no doubt that the illusory, external energy is also part and parcel of the Supreme Lord.</p>
+<p>When Vyasadeva realized the Supreme Personality of Godhead, he saw the Lord along with His external potency, which covers the pure knowledge of the individual living entities.</p>
+<p>Why the external energy acts in this way may be considered as follows, as analyzed by great commentators like Visvanatha Cakravarti Thakura and Srila Jiva Gosvami.</p>
+<p>Although the material, illusory energy is distinct from the spiritual energy, it is one of the many energies of the Lord, and thus the material modes of nature (the mode of goodness, etc.) are surely qualities of the Lord.</p>
+<p>The energy and the energetic Personality of Godhead are not different, and although such energy is one with the Lord, He is never overpowered by it.</p>
+<p>Although the living entities are also parts and parcels of the Lord, they are overcome by the material energy.</p>
+<p>The inconceivable yogam aisvaram of the Lord, as mentioned in Bhagavad-gita (9.5), is misunderstood by the froggish philosophers.</p>
+<p>In order to support a theory that Narayana (the Lord Himself) becomes a daridra-narayana, a poor man, they propose that the material energy overcomes the Supreme Lord.</p>
+<p>Srila Jiva Gosvami and Srila Visvanatha Cakravarti Thakura, however, offer a very nice example in explanation.</p>
+<p>They say that although the sun is all light, the clouds, darkness and snowfall are all part and parcel of the sun.</p>
+<p>Without the sun there is no possibility of the sky’s being overcast with clouds or darkness, nor can there be snowfall on the earth.</p>
+<p>Although life is sustained by the sun, life is also disturbed by darkness and snowfall produced by the sun.</p>
+<p>But it is also a fact that the sun itself is never overcome by darkness, clouds or snowfall; the sun is far, far away from such disturbances.</p>
+<p>Only those who have a poor fund of knowledge say that the sun is covered by a cloud or by darkness.</p>
+<p>Similarly, the Supreme Brahman, or the Parabrahman, the Personality of Godhead, is always unaffected by the influence of the material energy, although it is one of His energies (parasya saktir vividhaiva sruyate).</p>
+<p>There is no reason to assert that the Supreme Brahman is overpowered by the illusory energy.</p>
+<p>The clouds, darkness and snowfall can cover only a very insignificant portion of the sun’s rays.</p>
+<p>Similarly, the modes of material nature may react upon the raylike living entities.</p>
+<p>It is the misfortune of the living entity, certainly not without reason, that the influence of the material energy acts on his pure consciousness and eternal bliss.</p>
+<p>This covering up of pure consciousness and eternal bliss is due to avidya-karma-samjna, the energy which acts on the infinitesimal living entities who misuse their minute independence.</p>
+<p>According to Visnu Purana, Bhagavad-gita and all other Vedic literatures, the living entities are generated from the tatastha energy of the Lord, and thus they are always the energy of the Lord and are not the energetic.</p>
+<p>The living entities are like the sun’s rays.</p>
+<p>Although, as explained above, there is no qualitative difference between the sun and its rays, the sun’s rays are sometimes overpowered by another energy of the sun, namely by clouds or by snowfall.</p>
+<p>Similarly, although the living entities are qualitatively one with the superior energy of the Lord, they have the tendency to be overpowered by the inferior, material energy.</p>
+<p>In the Vedic hymns it is said that the living entities are like the sparks of a fire.</p>
+<p>The sparks of fire also are fire, but the burning potency of the sparks is different from that of the original fire.</p>
+<p>When the sparks fly out of touch with the original fire, they come under the influence of a nonfiery atmosphere; thus they maintain the potency to be again one with the fire as sparks, but not as the original fire.</p>
+<p>The sparks can everlastingly remain within the original fire as its parts and parcels, but the moment the sparks become separated from the original fire, their misfortunes and miseries begin.</p>
+<p>The clear conclusion is that the Supreme Lord, who is the original fire, is never overpowered, but the infinitesimal sparks of the fire can become overpowered by the illusory effect of maya.</p>
+<p>It is a most ludicrous argument to say that the Supreme Lord is overpowered by His own material energy.</p>
+<p>The Lord is the master of the material energy, but the living entities are in the conditioned state, controlled by the material energy.</p>
+<p>That is the version of Bhagavad-gita.</p>
+<p>The froggish philosophers who put forward the argument that the Supreme Lord is overpowered by the material mode of goodness are themselves illusioned by the same material energy, although they think of themselves as liberated souls.</p>
+<p>They support their arguments by a false and laborious jugglery of words, which is a gift of the same illusory energy of the Lord.</p>
+<p>But the poor froggish philosophers, due to a false sense of knowledge, cannot understand the situation.</p>
+<p>In the Sixth Canto, Ninth Chapter, thirty-fourth verse, of the Srimad-Bhagavatam it is stated:</p>
+<p>duravabodha iva tavayam vihara-yogo yad asarano ’sarira idam anaveksitasmat-samavaya atmanaivavikriyamanena sagunam agunah srjasi pasi harasi.</p>
+<p>Thus the demigods prayed to the Supreme Lord that although His activities are very difficult to understand, they can still be understood to some extent by those who sincerely engage in the transcendental loving service of the Lord.</p>
+<p>The demigods admitted that although the Lord is apart from the material influence or creation, He nevertheless creates, maintains and annihilates the complete cosmic manifestation by the agency of the demigods.</p>
+
+
+
+<p><strong>3.7.10</strong></p>
+<p>yad arthena vinamusya</p>
+<p>pumsa atma-viparyayah</p>
+<p>pratiyata upadrastuh</p>
+<p>sva-siras chedanadikah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yat—thus; arthena—a purpose or meaning; vina—without; amusya—of such a one; pumsah—of the living entity; atma-viparyayah—upset about self-identification; pratiyate—so appear; upadrastuh—of the superficial onlooker; sva-sirah—own head; chedana-adikah—cutting off.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The living entity is in distress regarding his self-identity.</p>
+<p>He has no factual background, like a man who dreams that he sees his head cut off.</p>
+<p><strong>PURPORT</strong></p>
+<p>A teacher in school once threatened his pupil that he would cut off the pupil’s head and hang it on the wall so that the child could see how his head had been cut off.</p>
+<p>The child became frightened and stopped his mischief.</p>
+<p>Similarly, the miseries of the pure soul and the disruption of his self-identification are managed by the external energy of the Lord, which controls those mischievous living entities who want to go against the will of the Lord.</p>
+<p>Actually there is no bondage or misery for the living entity, nor does he ever lose his pure knowledge.</p>
+<p>In his pure consciousness, when he thinks a little seriously about his position, he can understand that he is eternally subordinate to the mercy of the Supreme and that his attempt to become one with the Supreme Lord is a false illusion.</p>
+<p>Life after life the living entity falsely tries to lord it over material nature and become the lord of the material world, but there is no tangible result.</p>
+<p>At last, when frustrated, he gives up his material activities and tries to become one with the Lord and speculate with much jugglery of words, but without success.</p>
+<p>These activities are performed under the dictation of the illusory energy.</p>
+<p>The experience is compared to the experience of one’s having his head cut off in a dream.</p>
+<p>The man whose head has been cut off also sees that his head has been cut off.</p>
+<p>If a person’s head is severed he loses his power to see.</p>
+<p>Therefore if a man sees that his head has been cut off, it means that he thinks like that in hallucination.</p>
+<p>Similarly a living entity is eternally subordinate to the Supreme Lord, and he has this knowledge with him, but, artificially, he thinks that he is God himself and that although he is God he has lost his knowledge due to maya.</p>
+<p>This conception has no meaning, just as there is no meaning to seeing one’s head being cut off.</p>
+<p>This is the process by which knowledge is covered.</p>
+<p>And because this artificial rebellious condition of the living entity gives him all troubles, it is to be understood that he should take to his normal life as a devotee of the Lord and be relieved from the misconception of being God.</p>
+<p>The so-called liberation of thinking oneself God is that last reaction of avidya by which the living entity is entrapped.</p>
+<p>The conclusion is that a living entity deprived of eternal transcendental service to the Lord becomes illusioned in many ways.</p>
+<p>Even in his conditional life he is the eternal servant of the Lord.</p>
+<p>His servitude under the spell of illusory maya is also a manifestation of his eternal condition of service.</p>
+<p>Because he has rebelled against the service of the Lord, he is therefore put in the service of the maya.</p>
+<p>He is still serving, but in a perverted manner.</p>
+<p>When he wants to get out of service under material bondage, he next desires to become one with the Lord.</p>
+<p>This is another illusion.</p>
+<p>The best course, therefore, is to surrender unto the Lord and thus get rid of the illusory maya for good, as confirmed in Bhagavad-gita (7.14):</p>
+<p>daivi hy esa guna-mayi</p>
+<p>mama maya duratyaya</p>
+<p>mam eva ye prapadyante</p>
+<p>mayam etam taranti te</p>
+
+
+
+<p><strong>3.7.11</strong></p>
+<p>yatha jale candramasah</p>
+<p>kampadis tat-krto gunah</p>
+<p>drsyate ’sann api drastur</p>
+<p>atmano ’natmano gunah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yatha—as; jale—in the water; candramasah—of the moon; kampa-adih—quivering, etc.; tat-krtah—done by the water; gunah—quality; drsyate—it is so seen; asan api—without existence; drastuh—of the seer; atmanah—of the self; anatmanah—of other than the self; gunah—quality.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>As the moon reflected on water appears to the seer to tremble due to being associated with the quality of the water, so the self associated with matter appears to be qualified as matter.</p>
+<p><strong>PURPORT</strong></p>
+<p>The Supreme Soul, the Personality of Godhead, is compared to the moon in the sky, and the living entities are compared to the reflection of the moon on water.</p>
+<p>The moon in the sky is fixed and does not appear to quiver like the moon on the water.</p>
+<p>Actually, like the original moon in the sky, the moon reflected on the water should also not quiver, but because of being associated with water, the reflection appears to be quivering, although in actual fact the moon is fixed.</p>
+<p>The water moves, but the moon does not move.</p>
+<p>Similarly, the living entities appear to be tainted by material qualities like illusion, lamentation and miseries, although in the pure soul such qualities are completely absent.</p>
+<p>The word pratiyate, which means apparentl and not actuall (like the experience of having one’s head cut off in a dream), is significant here.</p>
+<p>The reflection of the moon on the water is the separated rays of the moon and not the actual moon.</p>
+<p>The separated parts and parcels of the Lord entangled in the water of material existence have the quivering quality, whereas the Lord is like the actual moon in the sky, which is not at all in touch with water.</p>
+<p>The light of the sun and moon reflected on matter makes the matter bright and praiseworthy.</p>
+<p>The living symptoms are compared to the light of the sun and the moon illuminating material manifestations like trees and mountains.</p>
+<p>The reflection of the sun or moon is accepted as the real sun or moon by less intelligent men, and the pure monistic philosophy develops from these ideas.</p>
+<p>In fact, the light of the sun and the moon are actually different from the sun and moon themselves, although they are always connected.</p>
+<p>The light of the moon spread throughout the sky appears to be impersonal, but the moon planet, as it is, is personal, and the living entities on the moon planet are also personal.</p>
+<p>In the rays of the moon, different material entities appear to be comparatively more or less important.</p>
+<p>The light of the moon on the Taj Mahal appears to be more beautiful than the same light in the wilderness.</p>
+<p>Although the light of the moon is the same everywhere, due to being differently appreciated it appears different.</p>
+<p>Similarly, the light of the Lord is equally distributed everywhere, but due to being differently received, it appears to be different.</p>
+<p>One should not, therefore, accept the reflection of the moon on the water as actual and misunderstand the whole situation through monistic philosophy.</p>
+<p>The quivering quality of the moon is also variable.</p>
+<p>When the water is standing still, there is no quivering.</p>
+<p>A more settled conditioned soul quivers less, but due to material connection the quivering quality is more or less present everywhere.</p>
+
+
+
+<p><strong>3.7.12</strong></p>
+<p>sa vai nivrtti-dharmena</p>
+<p>vasudevanukampaya</p>
+<p>bhagavad-bhakti-yogena</p>
+<p>tirodhatte sanair iha</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—that; vai—also; nivrtti—detachment; dharmena—by engagement; vasudeva—the Supreme Personality of Godhead; anukampaya—by the mercy of; bhagavat—in relation with the Personality of Godhead; bhakti-yogena—by linking up; tirodhatte—diminishes; sanaih—gradually; iha—in this existence.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>But that misconception of self-identity can be diminished gradually by the mercy of the Personality of Godhead, Vasudeva, through the process of devotional service to the Lord in the mode of detachment.</p>
+<p><strong>PURPORT</strong></p>
+<p>The quivering quality of material existence, which comes from identification with matter or from thinking oneself, under the material influence of philosophical speculation, to be God, can be eradicated by devotional service to the Lord, by the mercy of the Personality of Godhead, Vasudeva.</p>
+<p>As discussed in the First Canto, because the application of devotional service to Lord Vasudeva invites pure knowledge, it quickly detaches one from the material conception of life and thus revives one’s normal condition of spiritual existence, even in this life, and frees one from the material winds which cause one to quiver.</p>
+<p>Only knowledge in devotional service can elevate one towards the path of liberation.</p>
+<p>The development of knowledge for the purpose of knowing everything, without rendering devotional service, is considered fruitless labor, and one cannot get the desired result by such labor of love.</p>
+<p>Lord Vasudeva is pleased by devotional service only, and thus His mercy is realized by association with pure devotees of the Lord.</p>
+<p>Pure devotees of the Lord are transcendental to all material desires, including the desire for the results of fruitive activities and philosophical speculation.</p>
+<p>If one wants to acquire the mercy of the Lord, he has to associate with pure devotees.</p>
+<p>Such association alone can, by degrees, release one from the quivering elements.</p>
+
+
+
+<p><strong>3.7.13</strong></p>
+<p>yadendriyoparamo ’tha</p>
+<p>drastratmani pare harau</p>
+<p>viliyante tada klesah</p>
+<p>samsuptasyeva krtsnasah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yada—when; indriya—senses; uparamah—satiated; atha—thus; drastr-atmani—unto the seer, the Supersoul; pare—in the Transcendence; harau—unto the Supreme Personality of Godhead; viliyante—become merged in; tada—at that time; klesah—miseries; samsuptasya—one who has enjoyed sound sleep; iva—like; krtsnasah—completely.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When the senses are satisfied in the seer-Supersoul, the Personality of Godhead, and merge in Him, all miseries are completely vanquished, as after a sound sleep.</p>
+<p><strong>PURPORT</strong></p>
+<p>The quivering of the living entity as described above is due to the senses.</p>
+<p>Since the entire material existence is meant for sense gratification, the senses are the medium of material activities, and they cause the quivering of the steady soul.</p>
+<p>Therefore, these senses are to be detached from all such material activities.</p>
+<p>According to the impersonalists the senses are stopped from work by merging the soul in the Supersoul Brahman.</p>
+<p>The devotees, however, do not stop the material senses from acting, but they engage their transcendental senses in the service of the Transcendence, the Supreme Personality of Godhead.</p>
+<p>In either case, the activities of the senses in the material field are to be stopped by cultivation of knowledge, and, if possible, they can be engaged in the service of the Lord.</p>
+<p>The senses are transcendental in nature, but their activities become polluted when contaminated by matter.</p>
+<p>We have to treat the senses to cure them of the material disease, not stop them from acting, as suggested by the impersonalist.</p>
+<p>In Bhagavad-gita (2.59) it is said that one ceases all material activities only when satisfied by contact with a better engagement.</p>
+<p>Consciousness is active by nature and cannot be stopped from working.</p>
+<p>Artificially stopping a mischievous child is not the real remedy.</p>
+<p>The child must be given some better engagement so that he will automatically stop causing mischief.</p>
+<p>In the same way, the mischievous activities of the senses can be stopped only by better engagement in relation with the Supreme Personality of Godhead.</p>
+<p>When the eyes are engaged in seeing the beautiful form of the Lord, the tongue engaged in tasting prasada, or remnants of foodstuff offered to the Lord, the ears are engaged in hearing His glories, the hands engaged in cleaning the temple of the Lord, the legs engaged in visiting His temples—or when all the senses are engaged in transcendental variegatedness—then only can the transcendental senses become satiated and eternally free from material engagement.</p>
+<p>The Lord, as the Supersoul residing in everyone’s heart and as the Supreme Personality of Godhead in the transcendental world far beyond the material creation, is the seer of all our activities.</p>
+<p>Our activities must be so transcendentally saturated that the Lord will be kind enough to look upon us favorably and engage us in His transcendental service; then only can the senses be satisfied completely and be no longer troubled by material attraction.</p>
+
+
+
+<p><strong>3.7.14</strong></p>
+<p>asesa-sanklesa-samam vidhatte</p>
+<p>gunanuvada-sravanam murareh</p>
+<p>kim va punas tac-caranaravinda-</p>
+<p>paraga-seva-ratir atma-labdha</p>
+<p><strong>SYNONYMS</strong></p>
+<p>asesa—unlimited; sanklesa—miserable conditions; samam—cessation; vidhatte—can perform; guna-anuvada—of the transcendental name, form, qualities, pastimes, entourage and paraphernalia, etc.; sravanam—hearing and chanting; murareh—of Murari (Sri Krsna), the Personality of Godhead; kim va—what to speak of; punah—again; tat—His; carana-aravinda—lotus feet; paraga-seva—to the service of the flavorful dust; ratih—attraction; atma-labdha—those who have gained such self-achievement.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Simply by chanting and hearing of the transcendental name, form, etc., of the Personality of Godhead, Sri Krsna, one can achieve the cessation of unlimited miserable conditions.</p>
+<p>Therefore what to speak of those who have attained attraction for serving the flavor of the dust of the Lord’s lotus feet?</p>
+<p><strong>PURPORT</strong></p>
+<p>Two different methods for controlling the material senses are recommended in the Vedic scriptural wisdom.</p>
+<p>One of them is the process of jnana, or the path of philosophical understanding of the Supreme—Brahma, Paramatma and Bhagavan.</p>
+<p>The other is that of direct engagement in the transcendental loving devotional service of the Lord.</p>
+<p>Of these two most popular methods, the path of devotional service is recommended here as the best because one on the path of devotional service does not have to wait for the attainment of the fruitive results of pious activities or for the results of knowledge.</p>
+<p>The two stages of executing devotional service are, first, the stage of practicing devotional service with our present senses under the regulations of the recognized scriptures and, second, attaining sincere attachment for serving the particles of the dust of the lotus feet of the Lord.</p>
+<p>The first stage is called sadhana-bhakti, or devotional service for the neophyte, which is rendered under the direction of a pure devotee, and the second stage is called raga-bhakti, in which the mature devotee automatically takes to the various services of the Lord out of sincere attachment.</p>
+<p>The great sage Maitreya now gives the final answer to all the questions of Vidura: devotional service to the Lord is the ultimate means to mitigate all the miserable conditions of material existence.</p>
+<p>The path of knowledge or that of mystic gymnastics may be adopted as a means for the purpose, but unless mixed with bhakti, or devotional service, they are unable to award the desired result.</p>
+<p>By practicing sadhana-bhakti one may gradually rise to the point of raga-bhakti, and by performing raga-bhakti in loving transcendental service one can even control the Supreme Powerful Lord.</p>
+
+
+
+<p><strong>3.7.15</strong></p>
+<p>vidura uvaca</p>
+<p>sanchinnah samsayo mahyam</p>
+<p>tava suktasina vibho</p>
+<p>ubhayatrapi bhagavan</p>
+<p>mano me sampradhavati</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vidurah uvaca—Vidura said; sanchinnah—cut off; samsayah—doubts; mahyam—unto me; tava—your; sukta-asina—by the weapon of convincing words; vibho—O my lord; ubhayatra api—both in God and in the living entity; bhagavan—O powerful one; manah—mind; me—my; sampradhavati—perfectly entering.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Vidura said: O powerful sage, my lord, all my doubts about the Supreme Personality of Godhead and the living entities have now been removed by your convincing words.</p>
+<p>My mind is now perfectly entering into them.</p>
+<p><strong>PURPORT</strong></p>
+<p>The science of Krsna, or the science of God and the living entities, is so subtle that even a personality like Vidura has to consult persons like the sage Maitreya.</p>
+<p>Doubts about the eternal relationship of the Lord and the living entity are created by mental speculators in different ways, but the conclusive fact is that the relationship of God and the living entity is one of the predominator and the predominated.</p>
+<p>The Lord is the eternal predominator, and the living entities are eternally predominated.</p>
+<p>Real knowledge of this relationship entails reviving the lost consciousness to this standard, and the process for such revival is devotional service to the Lord.</p>
+<p>By clearly understanding from authorities like the sage Maitreya, one can become situated in real knowledge, and the disturbed mind can thus be fixed on the progressive path.</p>
+
+
+
+<p><strong>3.7.16</strong></p>
+<p>sadhv etad vyahrtam vidvan</p>
+<p>natma-mayayanam hareh</p>
+<p>abhaty apartham nirmulam</p>
+<p>visva-mulam na yad bahih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sadhu—as good as it should be; etat—all these explanations; vyahrtam—thus spoken; vidvan—O learned one; na—not; atma—the self; maya—energy; ayanam—movement; hareh—of the Personality of Godhead; abhati—appears; apartham—without meaning; nirmulam—without basis; visva-mulam—the origin is the Supreme; na—not; yat—which; bahih—outside.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O learned sage, your explanations are very good, as they should be.</p>
+<p>Disturbances to the conditioned soul have no other basis than the movement of the external energy of the Lord.</p>
+<p><strong>PURPORT</strong></p>
+<p>A living entity’s unlawful desire to become one with the Lord in every respect is the root cause of the entire material manifestation, for otherwise the Lord has no need to create such a manifestation, even for His pastimes.</p>
+<p>The conditioned soul, under the spell of the external energy of the Lord, falsely suffers many unfortunate incidents in material life.</p>
+<p>The Lord is the predominator of the external energy, maya, whereas the living entity is predominated by the same maya under the material condition.</p>
+<p>The false attempt of the living entity to occupy the predominating post of the Lord is the cause of his material bondage, and the conditioned soul’s attempt to become one with the Lord is the last snare of maya.</p>
+
+
+
+<p><strong>3.7.17</strong></p>
+<p>yas ca mudhatamo loke</p>
+<p>yas ca buddheh param gatah</p>
+<p>tav ubhau sukham edhete</p>
+<p>klisyaty antarito janah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—one who is; ca—also; mudha-tamah—the lowest of the fools; loke—in the world; yah ca—and one who is; buddheh—of intelligence; param—transcendental; gatah—gone; tau—of them; ubhau—both; sukham—happiness; edhete—enjoy; klisyati—suffer; antaritah—situated between; janah—persons.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Both the lowest of fools and he who is transcendental to all intelligence enjoy happiness, whereas persons between them suffer the material pangs.</p>
+<p><strong>PURPORT</strong></p>
+<p>The lowest of fools do not understand material miseries; they pass their lives merrily and do not inquire into the miseries of life.</p>
+<p>Such persons are almost on the level of the animals, who, although in the eyes of superiors are always miserable in life, are unaware of material distresses.</p>
+<p>A hog’s life is degraded in its standard of happiness, which entails living in a filthy place, engaging in sex enjoyment at every opportune moment, and laboring hard in a struggle for existence, but this is unknown to the hog.</p>
+<p>Similarly, human beings who are unaware of the miseries of material existence and are happy in sex life and hard labor are the lowest of fools.</p>
+<p>Yet because they have no sense of miseries, they supposedly enjoy so-called happiness.</p>
+<p>The other class of men, those who are liberated and are situated in the transcendental position above intelligence, are really happy and are called paramahamsas.</p>
+<p>But persons who are neither like hogs and dogs nor on the level of the paramahamsas feel the material pangs, and for them inquiry about the Supreme Truth is necessary.</p>
+<p>The Vedanta-sutra states, athato brahma jijnasa: Now one should inquire about Brahman This inquiry is necessary for those who are between the paramahamsas and the fools who have forgotten the question of self-realization in the midst of life in sense gratification.</p>
+
+
+
+<p><strong>3.7.18</strong></p>
+<p>arthabhavam viniscitya</p>
+<p>pratitasyapi natmanah</p>
+<p>tam capi yusmac-carana-</p>
+<p>sevayaham paranude</p>
+<p><strong>SYNONYMS</strong></p>
+<p>artha-abhavam—without substance; viniscitya—being ascertained; pratitasya—of the apparent values; api—also; na—never; atmanah—of the self; tam—that; ca—also; api—thus; yusmat—your; carana—feet; sevaya—by service; aham—myself; paranude—shall be able to give up.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>But, my dear sir, I am obliged to you because now I can understand that this material manifestation is without substance, although it appears real.</p>
+<p>I am confident that by serving your feet it will be possible for me to give up the false idea.</p>
+<p><strong>PURPORT</strong></p>
+<p>The sufferings of the conditioned soul are superficial and have no intrinsic value, like the cutting off of one’s head in a dream.</p>
+<p>Yet although this statement is theoretically very true, it is very difficult for the common man or the neophyte on the transcendental path to realize practically.</p>
+<p>However, by serving the feet of great transcendentalists like Maitreya Muni and by constantly associating with them, one is enabled to give up the false idea that the soul suffers from material pangs.</p>
+
+
+
+<p><strong>3.7.19</strong></p>
+<p>yat-sevaya bhagavatah</p>
+<p>kuta-sthasya madhu-dvisah</p>
+<p>rati-raso bhavet tivrah</p>
+<p>padayor vyasanardanah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yat—to whom; sevaya—by service; bhagavatah—of the Personality of Godhead; kuta-sthasya—of the unchangeable; madhu-dvisah—the enemy of the Madhu asura; rati-rasah—attachment in different relationships; bhavet—develops; tivrah—highly ecstatic; padayoh—of the feet; vyasana—distresses; ardanah—vanquishing.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>By serving the feet of the spiritual master, one is enabled to develop transcendental ecstasy in the service of the Personality of Godhead, who is the unchangeable enemy of the Madhu demon and whose service vanquishes one’s material distresses.</p>
+<p><strong>PURPORT</strong></p>
+<p>The association of a bona fide spiritual master like the sage Maitreya can be of absolute help in achieving transcendental attachment for the direct service of the Lord.</p>
+<p>The Lord is the enemy of the Madhu demon, or in other words He is the enemy of the suffering of His pure devotee.</p>
+<p>The word rati-rasah is significant in this verse.</p>
+<p>Service to the Lord is rendered in different transcendental mellows (relationships): neutral, active, friendly, parental and nuptial.</p>
+<p>A living entity in the liberated position of transcendental service to the Lord becomes attracted to one of the above-mentioned mellows, and when one is engaged in transcendental loving service to the Lord, one’s service attachment in the material world is automatically vanquished.</p>
+<p>As stated in Bhagavad-gita (2.59), rasa-varjam raso ’py asya param drstva nivartate.</p>
+
+
+
+<p><strong>3.7.20</strong></p>
+<p>durapa hy alpa-tapasah</p>
+<p>seva vaikuntha-vartmasu</p>
+<p>yatropagiyate nityam</p>
+<p>deva-devo janardanah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>durapa—rarely obtainable; hi—certainly; alpa-tapasah—of one whose austerity is meager; seva—service; vaikuntha—the transcendental kingdom of God; vartmasu—on the path of; yatra—wherein; upagiyate—is glorified; nityam—always; deva—of the demigods; devah—the Lord; jana-ardanah—the controller of the living entities.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Persons whose austerity is meager can hardly obtain the service of the pure devotees who are progressing on the path back to the kingdom of Godhead, the Vaikunthas.</p>
+<p>Pure devotees engage one hundred percent in glorifying the Supreme Lord, who is the Lord of the demigods and the controller of all living entities.</p>
+<p><strong>PURPORT</strong></p>
+<p>The path of liberation, as recommended by all authorities, is to serve the mahatma transcendentalists.</p>
+<p>As far as Bhagavad-gita is concerned, the mahatmas are the pure devotees who are on the path to Vaikuntha, the kingdom of God, and who always chant and hear the glories of the Lord rather than talk of dry, profitless philosophy.</p>
+<p>This system of association has been recommended since time immemorial, but in this age of quarrel and hypocrisy it is especially recommended by Lord Sri Caitanya Mahaprabhu.</p>
+<p>Even if one has no assets of favorable austerity, if he nevertheless takes shelter of the mahatmas, who are engaged in chanting and hearing the glories of the Lord, he is sure to make progress on the path back home, back to Godhead.</p>
+
+
+
+<p><strong>3.7.21</strong></p>
+<p>srstvagre mahad-adini</p>
+<p>sa-vikarany anukramat</p>
+<p>tebhyo virajam uddhrtya</p>
+<p>tam anu pravisad vibhuh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>srstva—after creating; agre—in the beginning; mahat-adini—the total material energy; sa-vikarani—along with the sense organs; anukramat—by a gradual process of differentiation; tebhyah—out of that; virajam—the gigantic universal form; uddhrtya—manifesting; tam—unto that; anu—later; pravisat—entered; vibhuh—the Supreme.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>After creating the total material energy, the mahat-tattva, and thereby manifesting the gigantic universal form with senses and sense organs, the Supreme Lord entered within it.</p>
+<p><strong>PURPORT</strong></p>
+<p>Fully satisfied by the answers of the sage Maitreya, Vidura wanted to understand the remaining portions of the creative function of the Lord, and he took the clue from the previous topics.</p>
+
+
+
+<p><strong>3.7.22</strong></p>
+<p>yam ahur adyam purusam</p>
+<p>sahasranghry-uru-bahukam</p>
+<p>yatra visva ime lokah</p>
+<p>sa-vikasam ta asate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yam—who; ahuh—is called; adyam—original; purusam—incarnation for cosmic manifestation; sahasra—thousand; anghri—legs; uru—thighs; bahukam—hands; yatra—wherein; visvah—the universe; ime—all these; lokah—planets; sa-vikasam—with respective developments; te—all of them; asate—living.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The purusa incarnation lying on the Causal Ocean is called the original purusa in the material creations, and in His virat form, in whom all the planets and their inhabitants live, He has many thousands of legs and hands.</p>
+<p><strong>PURPORT</strong></p>
+<p>The first purusa is Karanodakasayi Visnu, the second purusa is Garbhodakasayi Visnu, and the third purusa is Ksirodakasayi Visnu, in whom is contemplated the virat-purusa, the gigantic form in which all the planets with their different developments and inhabitants are floating.</p>
+
+
+
+<p><strong>3.7.23</strong></p>
+<p>yasmin dasa-vidhah pranah</p>
+<p>sendriyarthendriyas tri-vrt</p>
+<p>tvayerito yato varnas</p>
+<p>tad-vibhutir vadasva nah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yasmin—in which; dasa-vidhah—ten kinds of; pranah—air of life; sa—with; indriya—senses; artha—interest; indriyah—of the senses; tri-vrt—three kinds of life vigor; tvaya—by you; iritah—explained; yatah—wherefrom; varnah—four specific divisions; tat-vibhutih—prowess; vadasva—please describe; nah—unto me.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O great brahmana, you have told me that the gigantic virat form and His senses, sense objects and ten kinds of life air exist with three kinds of life vigor.</p>
+<p>Now, if you will, kindly explain to me the different powers of the specific divisions.</p>
+
+
+
+<p><strong>3.7.24</strong></p>
+<p>yatra putrais ca pautrais ca</p>
+<p>naptrbhih saha gotrajaih</p>
+<p>praja vicitrakrtaya</p>
+<p>asan yabhir idam tatam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yatra—wherein; putraih—along with sons; ca—and; pautraih—along with grandsons; ca—also; naptrbhih—with grandsons from daughters; saha—along with; gotra-jaih—of the same family; prajah—generations; vicitra—of different kinds; akrtayah—so done; asan—exist; yabhih—by whom; idam—all these planets; tatam—spread.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O my lord, I think that the process manifest in the forms of sons, grandsons and family members has spread all over the universe in different varieties and species.</p>
+
+
+
+<p><strong>3.7.25</strong></p>
+<p>prajapatinam sa patis</p>
+<p>caklpe kan prajapatin</p>
+<p>sargams caivanusargams ca</p>
+<p>manun manvantaradhipan</p>
+<p><strong>SYNONYMS</strong></p>
+<p>praja-patinam—of the demigods like Brahma and others; sah—he; patih—leader; caklpe—decided; kan—whomsoever; prajapatin—fathers of the living entities; sargan—generations; ca—also; eva—certainly; anusargan—later generations; ca—and; manun—the Manus; manvantara-adhipan—and the changes of such.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O learned brahmana, please describe how the leader of all the demigods, namely Prajapati, Brahma, decided to establish the various Manus, the heads of the ages.</p>
+<p>Please describe the Manus also, and please describe the descendants of those Manus.</p>
+<p><strong>PURPORT</strong></p>
+<p>The human race, or manusya-sara, descends from the Manus, sons and grandsons of the Prajapati, Brahma.</p>
+<p>The descendants of Manu reside in all the different planets and rule all the universe.</p>
+
+
+
+<p><strong>3.7.26</strong></p>
+<p>upary adhas ca ye loka</p>
+<p>bhumer mitratmajasate</p>
+<p>tesam samstham pramanam ca</p>
+<p>bhur-lokasya ca varnaya</p>
+<p><strong>SYNONYMS</strong></p>
+<p>upari—on the head; adhah—underneath; ca—also; ye—which; lokah—planets; bhumeh—of the earth; mitra-atmaja—O son of Mitra (Maitreya Muni); asate—do exist; tesam—their; samstham—situation; pramanam ca—also their measurement; bhuh-lokasya—of the earthly planets; ca—also; varnaya—please describe.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O son of Mitra, kindly describe how the planets are situated above the earth as well as underneath it, and also please mention their measurement as well as that of the earthly planets.</p>
+<p><strong>PURPORT</strong></p>
+<p>Yasmin vijnate sarvam evam vijnatam bhavati.</p>
+<p>This Vedic hymn declares emphatically that the devotee of the Lord knows everything material and spiritual in relationship with the Lord.</p>
+<p>Devotees are not simply emotional, as is ill conceived by certain less intelligent men.</p>
+<p>Their direction is practical.</p>
+<p>They know everything that is and all the details of the Lord’s domination over the different creations.</p>
+
+
+
+<p><strong>3.7.27</strong></p>
+<p>tiryan-manusa-devanam</p>
+<p>sarisrpa-patattrinam</p>
+<p>vada nah sarga-samvyuham</p>
+<p>garbha-sveda-dvijodbhidam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tiryak—subhuman; manusa—human beings; devanam—of the superhuman beings, or demigods; sarisrpa—reptiles; patattrinam—of the birds; vada—kindly describe; nah—unto me; sarga—generation; samvyuham—specific divisions; garbha—embryonic; sveda—perspiration; dvija—twice-born; udbhidam—of the planets, etc.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Also please describe the living beings under different classifications: subhumans, humans, those born of the embryo, those born of perspiration, those who are twice-born (birds), and the plants and vegetables.</p>
+<p>Kindly describe their generations and subdivisions also.</p>
+
+
+
+<p><strong>3.7.28</strong></p>
+<p>gunavatarair visvasya</p>
+<p>sarga-sthity-apyayasrayam</p>
+<p>srjatah srinivasasya</p>
+<p>vyacaksvodara-vikramam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>guna—modes of material nature; avataraih—of the incarnations; visvasya—of the universe; sarga—creation; sthiti—maintenance; apyaya—destruction; asrayam—and ultimate rest; srjatah—of the one who creates; srinivasasya—of the Personality of Godhead; vyacaksva—kindly describe; udara—magnanimous; vikramam—specific activities.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Please also describe the incarnations of the material modes of nature—Brahma, Visnu and Mahesvara—and please describe the incarnation of the Supreme Personality of Godhead and His magnanimous activities.</p>
+<p><strong>PURPORT</strong></p>
+<p>Although Brahma, Visnu and Mahesvara, the three incarnations of the material modes of nature, are the principal deities for the creation, maintenance and destruction of the cosmic manifestation, they are not the final authority.</p>
+<p>The Supreme Personality of Godhead Lord Krsna is the ultimate goal, the cause of all causes.</p>
+<p>He is the asraya, or the final rest of everything.</p>
+
+
+
+<p><strong>3.7.29</strong></p>
+<p>varnasrama-vibhagams ca</p>
+<p>rupa-sila-svabhavatah</p>
+<p>rsinam janma-karmani</p>
+<p>vedasya ca vikarsanam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>varna-asrama—the four divisions of social statuses and orders of spiritual culture; vibhagan—respective divisions; ca—also; rupa—personal feature s; sila-svabhavatah—personal character; rsinam—of the sages; janma—birth; karmani—activities; vedasya—of the Vedas; ca—and; vikarsanam—categorical divisions.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O great sage, kindly describe the divisions and orders of human society in terms of symptoms, behavior and the characteristics of mental equilibrium and sense control.</p>
+<p>Also please describe the births of the great sages and the categorical divisions of the Vedas.</p>
+<p><strong>PURPORT</strong></p>
+<p>The four statuses and orders of human society— brahmanas, ksatriyas, vaisyas and sudras, as wall as brahmacaris, grhasthas, vanaprasthas and sannyasis—are all divisions of quality, education, culture and spiritual advancement attained by practicing control of the mind and the senses.</p>
+<p>All these divisions are based on the particular nature of each individual person, not on the principle of birth.</p>
+<p>Birth is not mentioned in this verse because birth is immaterial.</p>
+<p>Vidura is famous in history as born of a sudrani mother, yet he is more than a brahmana by qualification because he is seen here to be the disciple of a great sage, Maitreya Muni.</p>
+<p>Unless one achieves at least the brahminical qualifications, one cannot understand the Vedic hymns.</p>
+<p>Mahabharata is also a division of the Vedas, but it is meant for women, sudras and dvija-bandhus, the worthless children of the higher section.</p>
+<p>The less intelligent section of society can avail themselves of the Vedic instructions simply by studying the Mahabharata.</p>
+
+
+
+<p><strong>3.7.30</strong></p>
+<p>yajnasya ca vitanani</p>
+<p>yogasya ca pathah prabho</p>
+<p>naiskarmyasya ca sankhyasya</p>
+<p>tantram va bhagavat-smrtam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yajnasya—of sacrifices; ca—also; vitanani—expansions; yogasya—of the mystic powers; ca—also; pathah—ways; prabho—O my lord; naiskarmyasya—of knowledge; ca—and; sankhyasya—of analytical studies; tantram—the path of devotional service; va—as well as; bhagavat—in relation with the Personality of Godhead; smrtam—regulative principles.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Please also describe the expansions of different sacrifices and the paths of mystic powers, analytical study of knowledge, and devotional service, all with their respective regulations.</p>
+<p><strong>PURPORT</strong></p>
+<p>The word tantram is significant herein.</p>
+<p>Sometimes tantram is misunderstood to be the black spiritual science of materialistic persons engaged in sense gratification, but here tantram means the science of devotional service compiled by Srila Narada Muni.</p>
+<p>One can take advantage of such regulative explanations of the path of devotional service and make progressive advancement in the devotional service of the Lord.</p>
+<p>Sankhya philosophy is the basic principle of acquiring knowledge, as will be explained by the sage Maitreya.</p>
+<p>The Sankhya philosophy enunciated by Kapiladeva, the son of Devahuti, is the real source of knowledge about the Supreme Truth.</p>
+<p>Knowledge not based on the Sankhya philosophy is mental speculation and can yield no tangible profit.</p>
+
+
+
+<p><strong>3.7.31</strong></p>
+<p>pasanda-patha-vaisamyam</p>
+<p>pratiloma-nivesanam</p>
+<p>jivasya gatayo yas ca</p>
+<p>yavatir guna-karmajah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>pasanda-patha—the path of the faithless; vaisamyam—imperfection by contradiction; pratiloma—crossbreeding; nivesanam—situation; jivasya—of the living entities; gatayah—movements; yah—as they are; ca—also; yavatih—as many as; guna—modes of material nature; karma-jah—generated by different work.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Please also describe the imperfections and contradictions of the faithless atheists, the situation of crossbreeding, and the movements of the living entities in various species of life according to their particular modes of nature and work.</p>
+<p><strong>PURPORT</strong></p>
+<p>The combination of living entities in different modes of material nature is called crossbreeding.</p>
+<p>The faithless atheists do not believe in the existence of God, and thus their paths of philosophy are contradictory.</p>
+<p>Atheistic philosophies never agree with one another.</p>
+<p>Different species of life are evidence of varieties of mixtures of the modes of material nature.</p>
+
+
+
+<p><strong>3.7.32</strong></p>
+<p>dharmartha-kama-moksanam</p>
+<p>nimittany avirodhatah</p>
+<p>vartaya danda-nites ca</p>
+<p>srutasya ca vidhim prthak</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dharma—religiosity; artha—economic development; kama—sense gratification; moksanam—salvation; nimittani—causes; avirodhatah—without being contradictory; vartayah—on the principles of the means of livelihood; danda-niteh—of law and order; ca—also; srutasya—of the codes of scriptures; ca—also; vidhim—regulations; prthak—different.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>You may also describe the noncontradictory causes of religiosity, economic development, sense gratification and salvation and also the different means of livelihood and different processes of law and order as mentioned in the revealed scriptures.</p>
+
+
+
+<p><strong>3.7.33</strong></p>
+<p>sraddhasya ca vidhim brahman</p>
+<p>pitrnam sargam eva ca</p>
+<p>graha-naksatra-taranam</p>
+<p>kalavayava-samsthitim</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sraddhasya—of the periodical offerings of respects; ca—also; vidhim—regulations; brahman—O brahmana; pitrnam—of the forefathers; sargam—creation; eva—as; ca—also; graha—planetary system; naksatra—the stars; taranam—luminaries; kala—time; avayava—duration; samsthitim—situations.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Please also explain the regulations for offering respects to the forefathers, the creation of the Pitrloka, the time schedule in the planets, stars and luminaries, and their respective situations.</p>
+<p><strong>PURPORT</strong></p>
+<p>The time durations of day and night as well as months and years are different in the different planets, stars and luminaries.</p>
+<p>The higher planets like the moon and Venus have time measurements different from those of the earth.</p>
+<p>It is said that six months of this planet earth equal one day of the higher planets.</p>
+<p>In Bhagavad-gita the duration of one day in years multiplied by 1,000.</p>
+<p>And the month and year in Brahmaloka are calculated in that measure.</p>
+
+
+
+<p><strong>3.7.34</strong></p>
+<p>danasya tapaso vapi</p>
+<p>yac cesta-purtayoh phalam</p>
+<p>pravasa-sthasya yo dharmo</p>
+<p>yas ca pumsa utapadi</p>
+<p><strong>SYNONYMS</strong></p>
+<p>danasya—of charity; tapasah—of penance; vapi—lake; yat—that which; ca—and; ista—endeavor; purtayoh—of reservoirs of water; phalam—fruitive result; pravasa-sthasya—one who is away from home; yah—that which; dharmah—duty; yah ca—and which; pumsah—of man; uta—described; apadi—in danger.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Please also describe the fruitive results of charity and penance and of digging reservoirs of water.</p>
+<p>Please describe the situation of persons who are away from home and also the duty of a man in an awkward position.</p>
+<p><strong>PURPORT</strong></p>
+<p>The digging of reservoirs of water for public use is a great work of charity, and retiring from family life after fifty years of age is a great act of penance performed by the sober human being.</p>
+
+
+
+<p><strong>3.7.35</strong></p>
+<p>yena va bhagavams tusyed</p>
+<p>dharma-yonir janardanah</p>
+<p>samprasidati va yesam</p>
+<p>etad akhyahi me ’nagha</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yena—by which; va—either; bhagavan—the Personality of Godhead; tusyet—is satisfied; dharma-yonih—the father of all religion; janardanah—the controller of all living being; samprasidati—completely satisfied; va—either, or; yesam—of those; etat—all these; akhyahi—kindly describe; me—unto me; anagha—O sinless one.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O sinless one, because the Personality of Godhead, the controller of all living entities, is the father of all religion and all those who are candidates for religious activities, kindly describe how He can be completely satisfied.</p>
+<p><strong>PURPORT</strong></p>
+<p>All religious activities are meant ultimately to satisfy the Supreme Personality of Godhead.</p>
+<p>The Lord is the father of all religious principles.</p>
+<p>As stated in Bhagavad-gita (7.16), four kinds of pious men—the needy, the distressed, the enlightened and the inquisitive—approach the Lord in devotional service, and their devotion is mixed with material affection.</p>
+<p>But above them are the pure devotees, whose devotion is not tainted by any material tinges of fruitive work or speculative knowledge.</p>
+<p>Those who are only miscreants throughout their lives are compared to demons (Bg.7.15).</p>
+<p>They are bereft of all knowledge, in spite of any academic educational career they may pursue.</p>
+<p>Such miscreants are never candidates for satisfying the Lord.</p>
+
+
+
+<p><strong>3.7.36</strong></p>
+<p>anuvratanam sisyanam</p>
+<p>putranam ca dvijottama</p>
+<p>anaprstam api bruyur</p>
+<p>guravo dina-vatsalah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>anuvratanam—the followers; sisyanam—of the disciples; putranam—of the sons; ca—also; dvija-uttama—O best amongst the brahmanas; anaprstam—that which is not asked for; api—in spite of; bruyuh—please describe; guravah—the spiritual masters; dina-vatsalah—who are kind to the needy.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O best among the brahmanas, those who are spiritual masters are very kind to the needy.</p>
+<p>They are always kind to their followers, disciples and sons, and without being asked by them, the spiritual master describes all that is knowledge.</p>
+<p><strong>PURPORT</strong></p>
+<p>There are many subjects to be known from the bona fide spiritual master.</p>
+<p>The followers, disciples and sons are all on one level for the bona fide spiritual master, and he is always kind to them and always speaks to them on transcendental subjects, even though he is not asked by them.</p>
+<p>That is the nature of the bona fide spiritual master.</p>
+<p>Vidura appealed to Maitreya Muni to speak on subjects about which he might not have asked.</p>
+
+
+
+<p><strong>3.7.37</strong></p>
+<p>tattvanam bhagavams tesam</p>
+<p>katidha pratisankramah</p>
+<p>tatremam ka upasiran</p>
+<p>ka u svid anuserate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tattvanam—of the elements of nature; bhagavan—O great sage; tesam—of them; katidha—how many; pratisankramah—dissolutions; tatra—thereupon; imam—unto the Supreme Lord; ke—who are they; upasiran—being saved; ke—who are they; u—who; svit—may; anuserate—serve the Lord while He sleeps.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Please describe how many dissolutions there are for the elements of material nature and who survives after the dissolutions to serve the Lord while He is asleep.</p>
+<p><strong>PURPORT</strong></p>
+<p>Brahma-samhita (5.47–48) it is said that all the material manifestations with innumerable universes appear and disappear with the breathing of Maha-Visnu lying in yoga-nidra, or mystic sleep yah karanarnava-jale bhajati sma yoga-</p>
+<p>nidram ananta-jagad-anda-saroma-kupah</p>
+<p>adhara-saktim avalambya param sva-murtim</p>
+<p>govindam adi-purusam tam aham bhajami</p>
+<p>yasyaika-nisvasita-kalam athavalambya</p>
+<p>jivanti loma-vilaja jagad-anda-nathah</p>
+<p>visnur mahan sa iha yasya kala-viseso</p>
+<p>govindam adi-purusam tam aham bhajami</p>
+<p>Govinda, the ultimate and Supreme Personality of Godhead (Lord Krsna), lies sleeping unlimitedly on the Causal Ocean in order to create unlimited numbers of universes during that sleep.</p>
+<p>He lies on the water by His own internal potency, and I worship that original Supreme Godhead Due to His breathing, innumerable universes come into existence, and when He withdraws His breath there occurs the dissolution of all the lords of the universes.</p>
+<p>That plenary portion of the Supreme Lord is called Maha-Visnu, and He is a part of the part of Lord Krsna.</p>
+<p>I worship Govinda, the original Lord After the dissolution of the material manifestations, the Lord and His kingdom beyond the Causal Ocean do not disappear, nor do the inhabitants, the Lord’s associates.</p>
+<p>The associates of the Lord are far more numerous than the living entities who have forgotten the Lord due to material association.</p>
+<p>The impersonalist’s explanation of the word aham in the four verses of the original Bhagavatam —aham evasam evagre etc.—is refuted here.</p>
+<p>The Lord and His eternal associates remain after the dissolution.</p>
+<p>Vidura’s inquiry about such persons is a clear indication of the existence of all the paraphernalia of the Lord.</p>
+<p>This is also confirmed in the Kasi-khanda, as quoted by both Jiva Gosvami and Srila Visvanatha Cakravarti, who follow in the footsteps of Srila Sridhara Svami na cyavante hi yad-bhakta</p>
+<p>mahatyam pralayapadi</p>
+<p>ato ’cyuto ’khile loke</p>
+<p>sa ekah sarva-go ’vyayah</p>
+<p>The devotees of the Lord never annihilate their individual existences even after the dissolution of the entire cosmic manifestation.</p>
+<p>The Lord and the devotees who associate with Him are always eternal, in both the material and spiritual worlds</p>
+
+
+
+<p><strong>3.7.38</strong></p>
+<p>purusasya ca samsthanam</p>
+<p>svarupam va parasya ca</p>
+<p>jnanam ca naigamam yat tad</p>
+<p>guru-sisya-prayojanam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>purusasya—of the living entity; ca—also; samsthanam—existence; svarupam—identity; va—either, or; parasya—of the Supreme; ca—also; jnanam—knowledge; ca—also; naigamam—in the matter of the Upanisads; yat—that; tat—the same; guru—spiritual master; sisya—disciple; prayojanam—necessity.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>What are the truths regarding the living entities and the Supreme Personality of Godhead? What are their identities ? What are the specific values in the knowledge in the Vedas, and what are the necessities for the spiritual master and his disciples?</p>
+<p><strong>PURPORT</strong></p>
+<p>The living entities are constitutionally servitors of the Lord, who can accept all kinds of service from everyone.</p>
+<p>It is clearly declared (Bg.5.29) that the Lord is the supreme enjoyer of the benefits of all sacrifices and penances, the proprietor of all that is manifested and the friend of all living entities.</p>
+<p>That is His real identity.</p>
+<p>Therefore, when the living entity accepts this supreme proprietorship of the Lord and acts in that attitude, he resumes his real identity.</p>
+<p>In order to elevate the living entity to this standard of knowledge, there is the necessity of spiritual association.</p>
+<p>The bona fide spiritual master desires that his disciples know the process of rendering transcendental service to the Lord, and the disciples also know that they have to learn about the eternal relationship between God and the living entity from a self-realized soul.</p>
+<p>To disseminate transcendental knowledge one must retire from mundane activities on the strength of enlightenment in knowledge in terms of Vedic wisdom.</p>
+<p>That is the sum and substance of all the questions in this verse.</p>
+
+
+
+<p><strong>3.7.39</strong></p>
+<p>nimittani ca tasyeha</p>
+<p>proktany anagha-suribhih</p>
+<p>svato jnanam kutah pumsam</p>
+<p>bhaktir vairagyam eva va</p>
+<p><strong>SYNONYMS</strong></p>
+<p>nimittani—the source of knowledge; ca—also; tasya—of such knowledge; iha—in this world; proktani—mentioned; anagha—spotless; suribhih—by devotees; svatah—self-sufficient; jnanam—knowledge; kutah—how; pumsam—of the living entity; bhaktih—devotional service; vairagyam—detachment; eva—certainly; va—also.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Spotless devotees of the Lord have mentioned the source of such knowledge.</p>
+<p>How could one have knowledge of devotional service and detachment without the help of such devotees?</p>
+<p><strong>PURPORT</strong></p>
+<p>There are many inexperienced persons who advocate self-realization without the help of a spiritual master.</p>
+<p>They decry the necessity of the spiritual master and try themselves to take his place by propagating the theory that a spiritual master is not necessary.</p>
+<p>Srimad-Bhagavatam, however, does not approve this viewpoint.</p>
+<p>Even the great transcendental scholar Vyasadeva had need of a spiritual master, and under the instruction of his spiritual master, Narada, he prepared this sublime literature, Srimad-Bhagavatam.</p>
+<p>Even Lord Caitanya, although He is Krsna Himself, accepted a spiritual master; even Lord Krsna accepted a spiritual master, Sandipani Muni, in order to be enlightened; and all the acaryas and saints of the world had spiritual masters.</p>
+<p>In Bhagavad-gita Arjuna accepted Lord Krsna as his spiritual master, although there was no necessity of such a formal declaration.</p>
+<p>So, in all cases, there is no question about the necessity of accepting a spiritual master.</p>
+<p>The only stipulation is that the spiritual master should be bona fide; i.e., the spiritual master must be in the proper chain of disciplic succession, called the parampara system.</p>
+<p>Suris are great scholars, but they may not always be anagha, or spotless.</p>
+<p>The anagha-suri is one who is a pure devotee of the Lord.</p>
+<p>Those who are not pure devotees of the Lord, or who want to be on an equal level with Him, are not anagha-suri.</p>
+<p>Pure devotees have prepared many books of knowledge on the basis of authorized scriptures.</p>
+<p>Srila Rupa Gosvami and his assistants, under the instructions of Lord Sri Caitanya Mahaprabhu, have all written various literatures for the guidance of prospective devotees, and anyone who is very serious about raising himself to the standard of a pure devotee of the Lord must take advantage of those literatures.</p>
+
+
+
+<p><strong>3.7.40</strong></p>
+<p>etan me prcchatah prasnan</p>
+<p>hareh karma-vivitsaya</p>
+<p>bruhi me ’jnasya mitratvad</p>
+<p>ajaya nasta-caksusah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>etan—all these; me—my; prcchatah—of one who inquires; prasnan—questions; hareh—of the Supreme Lord; karma—pastimes; vivitsaya—desiring to know; bruhi—kindly describe; me—unto me; ajnasya—of one who is ignorant; mitratvat—because of friendship; ajaya—by the external energy; nasta-caksusah—those who have lost their vision.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear sage, I have put all these questions before you with a view to knowing the pastimes of Hari, the Supreme Personality of Godhead.</p>
+<p>You are the friend of all, so kindly describe them for all those who have lost their vision.</p>
+<p><strong>PURPORT</strong></p>
+<p>Vidura put forward many varieties of questions with a view to understanding the principles of transcendental loving service to the Lord.</p>
+<p>As stated in Bhagavad-gita (2.41), devotional service to the Lord is one, and the mind of the devotee is not diverted to the many branches of uncertainties.</p>
+<p>Vidura’s purpose was to be situated in that service to the Lord, wherein one merges undivertedly.</p>
+<p>He claimed the friendship of Maitreya Muni, not because he was Maitreya’s son but because Maitreya was actually the friend of all who have lost their spiritual vision due to material influence.</p>
+
+
+
+<p><strong>3.7.41</strong></p>
+<p>sarve vedas ca yajnas ca</p>
+<p>tapo danani canagha</p>
+<p>jivabhaya-pradanasya</p>
+<p>na kurviran kalam api</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sarve—all kinds of; vedah—divisions of the Vedas; ca—also; yajnah—sacrifices; ca—also; tapah—penances; danani—charities; ca—and; anagha—O spotless one; jiva—the living entity; abhaya—immunity from material pangs; pradanasya—of one who gives such assurance; na—not; kurviran—can he equalized; kalam—even partially; api—certainly.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O spotless one, your answers to all these questions will grant immunity from all material miseries.</p>
+<p>Such charity is greater than all Vedic charities, sacrifices, penances, etc.</p>
+<p><strong>PURPORT</strong></p>
+<p>The highest perfectional work of charity is to give people in general immunity from the anxieties of material existence.</p>
+<p>This can be done only by performing activities in devotional service to the Lord.</p>
+<p>Such knowledge is incomparable.</p>
+<p>Cultivation of the knowledge in the Vedas, performance of sacrifice, and distribution of munificent charities all together cannot form even a part of the immunity from the pangs of material existence that is gained from devotional service.</p>
+<p>The charity of Maitreya not only will help Vidura, but, due to its universal nature, will deliver all others in all times.</p>
+<p>Thus Maitreya is immortal.</p>
+
+
+
+<p><strong>3.7.42</strong></p>
+<p>sri-suka uvaca</p>
+<p>sa ittham aprsta-purana-kalpah</p>
+<p>kuru-pradhanena muni-pradhanah</p>
+<p>pravrddha-harso bhagavat-kathayam</p>
+<p>sancoditas tam prahasann ivaha</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-sukah uvaca—Sri Sukadeva Gosvami said; sah—he; ittham—thus; aprsta—being questioned; purana-kalpah—one who knows how to explain the supplements of the Vedas (the Puranas); kuru-pradhanena—by the chief of the Kurus; muni-pradhanah—the chief amongst the sages; pravrddha—sufficiently enriched; harsah—satisfaction; bhagavat—the Personality of Godhead; kathayam—in the topics of; sancoditah—being so infused; tam—unto Vidura; prahasan—with smiles; iva—like that; aha—replied.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sri Sukadeva Gosvami said: Thus the chief of the sages, who was always enthusiastic about describing topics regarding the Personality of Godhead, began to narrate the descriptive explanation of the Puranas, being so infused by Vidura.</p>
+<p>He was very much enlivened by speaking on the transcendental activities of the Lord.</p>
+<p><strong>PURPORT</strong></p>
+<p>Great learned sages like Maitreya Muni are always very enthusiastic about describing the transcendental activities of the Lord.</p>
+<p>Maitreya Muni, being thus invited by Vidura to speak, appeared to be smiling because he actually felt transcendental bliss.</p>
+
+
+</article></body></html>

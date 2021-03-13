@@ -1,155 +1,42 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>The Battle Between the Demigods and Vṛtrāsura - The Battle Between the Demigods and Vṛtrāsura</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">The Battle Between the Demigods and Vṛtrāsura</a></li><li class="affix"><a href="6.10.2.html">6.10.2</a></li><li class="affix"><a href="6.10.3.html">6.10.3</a></li><li class="affix"><a href="6.10.4.html">6.10.4</a></li><li class="affix"><a href="6.10.5.html">6.10.5</a></li><li class="affix"><a href="6.10.6.html">6.10.6</a></li><li class="affix"><a href="6.10.7.html">6.10.7</a></li><li class="affix"><a href="6.10.8.html">6.10.8</a></li><li class="affix"><a href="6.10.9.html">6.10.9</a></li><li class="affix"><a href="6.10.10.html">6.10.10</a></li><li class="affix"><a href="6.10.11.html">6.10.11</a></li><li class="affix"><a href="6.10.12.html">6.10.12</a></li><li class="affix"><a href="6.10.13-14.html">6.10.13-14</a></li><li class="affix"><a href="6.10.15.html">6.10.15</a></li><li class="affix"><a href="6.10.16.html">6.10.16</a></li><li class="affix"><a href="6.10.17-18.html">6.10.17-18</a></li><li class="affix"><a href="6.10.19-22.html">6.10.19-22</a></li><li class="affix"><a href="6.10.23.html">6.10.23</a></li><li class="affix"><a href="6.10.24.html">6.10.24</a></li><li class="affix"><a href="6.10.25.html">6.10.25</a></li><li class="affix"><a href="6.10.26.html">6.10.26</a></li><li class="affix"><a href="6.10.27.html">6.10.27</a></li><li class="affix"><a href="6.10.28.html">6.10.28</a></li><li class="affix"><a href="6.10.29.html">6.10.29</a></li><li class="affix"><a href="6.10.30.html">6.10.30</a></li><li class="affix"><a href="6.10.31.html">6.10.31</a></li><li class="affix"><a href="6.10.32.html">6.10.32</a></li><li class="affix"><a href="6.10.33.html">6.10.33</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">The Battle Between the Demigods and Vṛtrāsura</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#the-battle-between-the-demigods-and-vṛtrāsura" id="the-battle-between-the-demigods-and-vṛtrāsura">The Battle Between the Demigods and Vṛtrāsura</a></h1>
-<h2><a class="header" href="#summary" id="summary">Summary</a></h2>
-<h3><a class="header" href="#610" id="610">6.10</a></h3>
+<h1>The Battle Between the Demigods and Vṛtrāsura</h1>
+<h2>Summary</h2>
+<p><strong>6.10</strong></p>
 <p>As described in this chapter, after Indra obtained the body of Dadhici, a thunderbolt was prepared from Dadhici’s bones, and a fight took place between Vrtrasura and the demigods.</p>
 <p>Following the order of the Supreme Personality of Godhead, the demigods approached Dadhici Muni and begged for his body.</p>
 <p>Dadhici Muni, just to hear from the demigods about the principles of religion, jokingly refused to relinquish his body, but for higher purposes he thereafter agreed to give it up, for after death the body is usually eaten by low animals like dogs and jackals.</p>
@@ -162,7 +49,7 @@
 <p>Vrtrasura, however, seeing the demons fleeing, instructed them in the importance of fighting and dying in the battlefield.</p>
 <p>One who is victorious in battle gains material possessions, and one who dies in the battlefield attains a residence at once in the celestial heavens.</p>
 <p>In either way, the fighter benefits.</p>
-<h3><a class="header" href="#6101" id="6101">6.10.1</a></h3>
+<p><strong>6.10.1</strong></p>
 <p>sri-badarayanir uvaca</p>
 <p>indram evam samadisya</p>
 <p>bhagavan visva-bhavanah</p>
@@ -173,63 +60,530 @@
 <p><strong>TRANSLATION</strong></p>
 <p>Sri Sukadeva Gosvami said: After instructing Indra in this way, the Supreme Personality of Godhead, Hari, the cause of the cosmic manifestation, then and there disappeared from the presence of the onlooking demigods.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="6.10.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>6.10.2</strong></p>
+<p>tathabhiyacito devair</p>
+<p>rsir atharvano mahan</p>
+<p>modamana uvacedam</p>
+<p>prahasann iva bharata</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatha—in that manner; abhiyacitah—being begged; devaih—by the demigods; rsih—the great saintly person; atharvanah—Dadhici, the son of Atharva; mahan—the great personality; modamanah—being merry; uvaca—said; idam—this; prahasan—smiling; iva—somewhat; bharata—O Maharaja Pariksit.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King Pariksit, following the Lord’s instructions, the demigods approached Dadhici, the son of Atharva.</p>
+<p>He was very liberal, and when they begged him to give them his body, he at once partially agreed.</p>
+<p>However, just to hear religious instructions from them, he smiled and jokingly spoke as follows.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="6.10.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>6.10.3</strong></p>
+<p>api vrndaraka yuyam</p>
+<p>na janitha saririnam</p>
+<p>samsthayam yas tv abhidroho</p>
+<p>duhsahas cetanapahah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>api—although; vrndarakah—O demigods; yuyam—all of you; na janitha—do not know; saririnam—of those who have material bodies; samsthayam—at the time of death, or while quitting this body; yah—which; tu—then; abhidrohah—severe pain; duhsahah—unbearable; cetana—the consciousness; apahah—which takes away.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O elevated demigods, at the time of death, severe, unbearable pain takes away the consciousness of all living entities who have accepted material bodies.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>6.10.4</strong></p>
+<p>jijivisunam jivanam</p>
+<p>atma prestha ihepsitah</p>
+<p>ka utsaheta tam datum</p>
+<p>bhiksamanaya visnave</p>
+<p><strong>SYNONYMS</strong></p>
+<p>jijivisunam—aspiring to remain alive; jivanam—of all living entities; atma—the body; presthah—very dear; iha—here; ipsitah—desired; kah—who; utsaheta—can bear; tam—that body; datum—to deliver; bhiksamanaya—begging; visnave—even to Lord Visnu.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In this material world, every living entity is very much addicted to his material body.</p>
+<p>Struggling to keep his body forever, everyone tries to protect it by all means, even at the sacrifice of all his possessions.</p>
+<p>Therefore, who would be prepared to deliver his body to anyone, even if it were demanded by Lord Visnu?</p>
+<p><strong>PURPORT</strong></p>
+<p>It is said, atmanam sarvato rakset tato dharmam tato dhanam: one must protect his body by all means; then he may protect his religious principles and thereafter his possessions.</p>
+<p>This is the natural desire of all living entities.</p>
+<p>No one wants to give up his body unless it is forcibly given away.</p>
+<p>Even though the demigods said that they were demanding Dadhici’s body for their benefit in accordance with the order of Lord Visnu, Dadhici superficially refused to give them his body.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>6.10.5</strong></p>
+<p>sri-deva ucuh</p>
+<p>kim nu tad dustyajam brahman</p>
+<p>pumsam bhutanukampinam</p>
+<p>bhavad-vidhanam mahatam</p>
+<p>punya-slokedya-karmanam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-devah ucuh—the demigods said; kim—what; nu—indeed; tat—that; dustyajam—difficult to give up; brahman—O exalted brahmana; pumsam—of persons; bhuta-anukampinam—who are very sympathetic toward the suffering living entities; bhavat-vidhanam—like Your Lordship; mahatam—who are very great; punya-sloka-idya-karmanam—whose pious activities are praised by all great souls.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The demigods replied: O exalted brahmana, pious persons like you, whose activities are praiseworthy, are very kind and affectionate to people in general.</p>
+<p>What can’t such pious souls give for the benefit of others? They can give everything, including their bodies.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>6.10.6</strong></p>
+<p>nunam svartha-paro loko</p>
+<p>na veda para-sankatam</p>
+<p>yadi veda na yaceta</p>
+<p>neti naha yad isvarah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>nunam—certainly; sva-artha-parah—interested only in sense gratification in this life or the next; lokah—materialistic people in general; na—not; veda—know; para-sankatam—the pain of others; yadi—if; veda—know; na—not; yaceta—would ask; na—no; iti—thus; na aha—does not say; yat—since; isvarah—able to give charity.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Those who are too self-interested beg something from others, not knowing of others’ pain.</p>
+<p>But if the beggar knew the difficulty of the giver, he would not ask for anything.</p>
+<p>Similarly, he who is able to give charity does not know the beggar’s difficulty, for otherwise he would not refuse to give the beggar anything he might want as charity.</p>
+<p><strong>PURPORT</strong></p>
+<p>This verse describes two people—one who gives charity and one who begs for it.</p>
+<p>A beggar should not ask charity from a person who is in difficulty.</p>
+<p>Similarly, one who is able to give charity should not deny a beggar.</p>
+<p>These are the moral instructions of the sastra.</p>
+<p>Canakya Pandita says, san-nimitte varam tyago vinase niyate sati: everything within this material world will be destroyed, and therefore one should use everything for good purposes.</p>
+<p>If one is advanced in knowledge, he must always be prepared to sacrifice anything for a better cause.</p>
+<p>At the present moment the entire world is in a dangerous position under the spell of a godless civilization.</p>
+<p>The Krsna consciousness movement needs many exalted, learned persons who will sacrifice their lives to revive God consciousness throughout the world.</p>
+<p>We therefore invite all men and women advanced in knowledge to join the Krsna consciousness movement and sacrifice their lives for the great cause of reviving the God consciousness of human society.</p>
+
+
+
+<p><strong>6.10.7</strong></p>
+<p>sri-rsir uvaca</p>
+<p>dharmam vah srotu-kamena</p>
+<p>yuyam me pratyudahrtah</p>
+<p>esa vah priyam atmanam</p>
+<p>tyajantam santyajamy aham</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-rsih uvaca—the great saint Dadhici said; dharmam—the principles of religion; vah—from you; srotu-kamena—by the desire to hear; yuyam—you; me—by me; pratyudahrtah—replied to the contrary; esah—this; vah—for you; priyam—dear; atmanam—body; tyajantam—leaving me anyway, today or tomorrow; santyajami—give up; aham—I.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The great sage Dadhici said: Just to hear from you about religious principles, I refused to offer my body at your request.</p>
+<p>Now, although my body is extremely dear to me, I must give it up for your better purposes since I know that it will leave me today or tomorrow.</p>
+
+
+
+<p><strong>6.10.8</strong></p>
+<p>yo ’dhruvenatmana natha</p>
+<p>na dharmam na yasah puman</p>
+<p>iheta bhuta-dayaya</p>
+<p>sa socyah sthavarair api</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—anyone who; adhruvena—impermanent; atmana—by the body; nathah—O lords; na—not; dharmam—religious principles; na—not; yasah—fame; puman—a person; iheta—endeavors for; bhuta-dayaya—by mercy for the living beings; sah—that person; socyah—pitiable; sthavaraih—by the immobile creatures; api—even.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O demigods, one who has no compassion for humanity in its suffering and does not sacrifice his impermanent body for the higher causes of religious principles or eternal glory is certainly pitied even by the immovable beings.</p>
+<p><strong>PURPORT</strong></p>
+<p>In this regard, a very exalted example was set by Lord Sri Caitanya Mahaprabhu and the six Gosvamis of Vrndavana.</p>
+<p>Srimad-Bhagavatam (11.5.34):</p>
+<p>tyaktva sudustyaja-surepsita-rajya-laksmim</p>
+<p>dharmistha arya-vacasa yad agad aranyam</p>
+<p>maya-mrgam dayitayepsitam anvadhavad</p>
+<p>vande maha-purusa te caranaravindam</p>
+<p>We offer our respectful obeisances unto the lotus feet of the Lord upon whom one should always meditate.</p>
+<p>He left His householder life, leaving aside His eternal consort, whom even the denizens of heaven adore.</p>
+<p>He went into the forest to deliver the fallen souls, who are put into illusion by material energy To accept sannyasa means to commit civil suicide but sannyasa is compulsory, at least for every brahmana, every first-class human being.</p>
+<p>Sri Caitanya Mahaprabhu had a very young and beautiful wife and a very affectionate mother.</p>
+<p>Indeed, the affectionate dealings of His family members were so pleasing that even the demigods could not expect such happiness at home.</p>
+<p>Nevertheless, for the deliverance of all the fallen souls of the world, Sri Caitanya Mahaprabhu took sannyasa and left home when He was only twenty-four years old.</p>
+<p>He lived a very strict life as a sannyasi, refusing all bodily comforts.</p>
+<p>Similarly, His disciples the six Gosvamis were ministers who held exalted positions in society, but they also left everything to join the movement of Sri Caitanya Mahaprabhu.</p>
+<p>Srinivasa Acarya says:</p>
+<p>tyaktva turnam asesa-mandala-pati-srenim sada tucchavat</p>
+<p>bhutva dina-ganesakau karunaya kaupina-kanthasritau</p>
+<p>These Gosvamis left their very comfortable lives as ministers.</p>
+<p>Zamindars and learned scholars and joined Sri Caitanya Mahaprabhu’s movement, just to show mercy to the fallen souls of the world (dina-ganesakau karunaya).</p>
+<p>Accepting very humble lives as mendicants, wearing no more than loincloths and torn quilts (kaupina-kantha) they lived in Vrndavana and followed Sri Caitanya Mahaprabhu’s order to excavate Vrndavana’s lost glories.</p>
+<p>Similarly everyone else with a materially comfortable condition in this world should join the Krsna consciousness movement to elevate the fallen souls.</p>
+<p>The words bhuta-dayaya, maya-mrgam dayitayepsitam and dina-ganesakau karunaya all convey the same sense.</p>
+<p>These are very significant words for those interested in elevating human society to a proper understanding of life.</p>
+<p>One should join the Krsna consciousness movement, following the examples of such great personalities as Sri Caitanya Mahaprabhu, the six Gosvamis and, before them, the great sage Dadhici.</p>
+<p>Instead of wasting one’s life for temporary bodily comforts one should always be prepared to give up one’s life for better causes.</p>
+<p>After all, the body will be destroyed.</p>
+<p>Therefore one should sacrifice it for the glory of distributing religious principles throughout the world.</p>
+
+
+
+<p><strong>6.10.9</strong></p>
+<p>etavan avyayo dharmah</p>
+<p>punya-slokair upasitah</p>
+<p>yo bhuta-soka-harsabhyam</p>
+<p>atma socati hrsyati</p>
+<p><strong>SYNONYMS</strong></p>
+<p>etavan—this much; avyayah—imperishable; dharmah—religious principle; punya-slokaih—by famous persons who are celebrated as pious; upasitah—recognized; yah—which; bhuta—of the living beings; soka—by the distress; harsabhyam—and by the happiness; atma—the mind; socati—laments; hrsyati—feels happiness.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>If one is unhappy to see the distress of other living beings and happy to see their happiness, his religious principles are appreciated as imperishable by exalted persons who are considered pious and benevolent.</p>
+<p><strong>PURPORT</strong></p>
+<p>One generally follows different types of religious principles or performs various occupational duties according to the body given to him by the modes of material nature.</p>
+<p>In this verse, however, real religious principles are explained.</p>
+<p>Everyone should be unhappy to see others in distress and happy to see others happy.</p>
+<p>Atmavat sarva-bhutesu: one should feel the happiness and distress of others as his own.</p>
+<p>It is on this basis that the Buddhist religious principle of nonviolence—ahimsah parama-dharmah—is established.</p>
+<p>We feel pain when someone disturbs us, and therefore we should not inflict pain upon other living beings.</p>
+<p>Lord Buddha’s mission was to stop unnecessary animal killing, and therefore he preached that the greatest religious principle is nonviolence.</p>
+<p>One cannot continue killing animals and at the same time be a religious man.</p>
+<p>That is the greatest hypocrisy.</p>
+<p>Jesus Christ said, Do not kill but hypocrites nevertheless maintain thousands of slaughterhouses while posing as Christians.</p>
+<p>Such hypocrisy is condemned in this verse.</p>
+<p>One should be happy to see others happy, and one should be unhappy to see others unhappy.</p>
+<p>This is the principle to be followed.</p>
+<p>Unfortunately, at the present moment so-called philanthropists and humanitarians advocate the happiness of humanity at the cost of the lives of poor animals.</p>
+<p>That is not recommended herein.</p>
+<p>This verse clearly says that one should be compassionate to all living entities.</p>
+<p>Regardless of whether human animal, tree or plant, all living entities are sons of the Supreme Personality of Godhead.</p>
+<p>Lord Krsna says in Bhagavad-gita (14.4):</p>
+<p>sarva-yonisu kaunteya</p>
+<p>murtayah sambhavanti yah</p>
+<p>tasam brahma mahad yonir</p>
+<p>aham bija-pradah pita</p>
+<p>It should be understood that all species of life, O son of Kunti, are made possible by birth in this material nature, and that I am the seed-giving father The different forms of these living entities are only their external dresses.</p>
+<p>Every living being is actually a spirit soul, a part and parcel of God.</p>
+<p>Therefore one should not favor only one kind of living being.</p>
+<p>A Vaisnava sees all living entities as part and parcel of God.</p>
+<p>As the Lord says in Bhagavad-gita (5.18 and Bg.18.54):</p>
+<p>vidya-vinaya-sampanne</p>
+<p>brahmane gavi hastini</p>
+<p>suni caiva svapake ca</p>
+<p>panditah sama-darsinah</p>
+<p>The humble sage, by virtue of true knowledge, sees with equal vision a learned and gentle brahmana, a cow, an elephant, a dog and a dog-eater (outcaste)</p>
+<p>brahma-bhutah prasannatma</p>
+<p>na socati na kanksati</p>
+<p>samah sarvesu bhutesu</p>
+<p>mad-bhaktim labhate param</p>
+<p>(Bg.18.54)</p>
+<p>One who is transcendentally situated at once realizes the Supreme Brahman and becomes fully joyful.</p>
+<p>He never laments nor desires to have anything; he is equally disposed to every living entity.</p>
+<p>In that state he attains pure devotional service unto Me A Vaisnava, therefore, is truly a perfect person because he laments to see others unhappy and feels joy at seeing others happy.</p>
+<p>A Vaisnava is para-duhkha-duhkhi; he is always unhappy to see the conditioned souls in an unhappy state of materialism.</p>
+<p>Therefore a Vaisnava is always busy preaching Krsna consciousness throughout the world.</p>
+
+
+
+<p><strong>6.10.10</strong></p>
+<p>aho dainyam aho kastam</p>
+<p>parakyaih ksana-bhanguraih</p>
+<p>yan nopakuryad asvarthair</p>
+<p>martyah sva-jnati-vigrahaih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>aho—alas; dainyam—a miserable condition; aho—alas; kastam—simply tribulation; parakyaih—which after death are eatable by dogs and jackals; ksana-bhanguraih—perishable at any moment; yat—because; na—not; upakuryat—would help; a-sva-arthaih—not meant for self-interest; martyah—a living entity destined to die; sva—with his wealth; jnati—relatives and friends; vigrahaih—and his body.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>This body, which is eatable by jackals and dogs after death, does not actually do any good for me, the spirit soul.</p>
+<p>It is usable only for a short time and may perish at any moment.</p>
+<p>The body and its possessions, its riches and relatives, must all be engaged for the benefit of others, or else they will be sources of tribulation and misery.</p>
+<p><strong>PURPORT</strong></p>
+<p>Srimad-Bhagavatam (10.22.35):</p>
+<p>etavaj janma-saphalyam</p>
+<p>dehinam iha dehisu</p>
+<p>pranair arthair dhiya vaca</p>
+<p>sreya-acaranam sada</p>
+<p>It is the duty of every living being to perform welfare activities for the benefit of others with his life, wealth, intelligence and words This is the mission of life.</p>
+<p>One’s own body and the bodies of his friends and relatives, as well as one’s own riches and everything else one has, should be engaged for the benefit of others.</p>
+<p>This is the mission of Sri Caitanya Mahaprabhu.</p>
+<p>As stated in Caitanya-caritamrta (Adi9.41):</p>
+<p>bharata-bhumite haila manusya-janma yara</p>
+<p>janma sarthaka kari’ kara para-upakara</p>
+<p>One who has taken birth as a human being in the land of India (Bharata-varsa) should make his life successful and work for the benefit of all other people.</p>
+<p>The word upakuryat means para-upakara, helping others.</p>
+<p>Of course, in human society there are many institutions to help others, but because philanthropists do not know how to help others, their propensity for philanthropy is ineffectual.</p>
+<p>They do not know the ultimate goal of life (sreya acaranam), which is to please the Supreme Lord.</p>
+<p>If all philanthropic and humanitarian activities were directed toward achieving the ultimate goal of life—to please the Supreme Personality of Godhead—they would all be perfect.</p>
+<p>Humanitarian work without Krsna is nothing.</p>
+<p>Krsna must be brought to the center of all our activities; otherwise no activity will have value.</p>
+
+
+
+<p><strong>6.10.11</strong></p>
+<p>sri-badarayanir uvaca</p>
+<p>evam krta-vyavasito</p>
+<p>dadhyann atharvanas tanum</p>
+<p>pare bhagavati brahmany</p>
+<p>atmanam sannayan jahau</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-badarayanih uvaca—Sri Sukadeva Gosvami said; evam—thus; krta-vyavasitah—making certain of what to do (in giving his body to the demigods); dadhyan—Dadhici Muni; atharvanah—the son of Atharva; tanum—his body; pare—to the Supreme; bhagavati—Personality of Godhead; brahmani—the Supreme Brahman; atmanam—himself the spirit soul; sannayan—offering; jahau—gave up.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sri Sukadeva Gosvami said: Dadhici Muni, the son of Atharva, thus resolved to give his body to the service of the demigods.</p>
+<p>He placed himself, the spirit soul, at the lotus feet of the Supreme Personality of Godhead and in this way gave up his gross material body made of five elements.</p>
+<p><strong>PURPORT</strong></p>
+<p>As indicated by the words pare bhagavati brahmany atmanam sannayan, Dadhici placed himself, as spirit soul, at the lotus feet of the Supreme Personality of Godhead.</p>
+<p>Srimad-Bhagavatam (1.13.55).</p>
+<p>Dhrtarastra analytically divided his gross material body into the five different elements of which it was made—earth, water, fire, air and ether—and distributed them to the different reservoirs of these elements; in other words, he merged these five elements into the original mahat-tattva.</p>
+<p>By identifying his material conception of life, he gradually separated his spirit soul from material connections and placed himself at the lotus feet of the Supreme Personality of Godhead.</p>
+<p>The example given in this connection is that when an earthen pot is broken, the small portion of the sky within the pot is united with the large sky outside the pot.</p>
+<p>Mayavadi philosophers misunderstand this description of Srimad-Bhagavatam.</p>
+<p>Therefore Sri Ramanuja Svami, in his book Vedanta-tattva-sara, has described that this merging of the soul means that after separating himself from the material body made of eight elements—earth, water, fire, air, ether, false ego, mind and intelligence—the individual soul engages himself in devotional service to the Supreme Personality of Godhead in His eternal form (isvarah paramah krsnah sac-cid-ananda-vigrahah/ anadir adir govindah sarva-karana-karanam (Bs.5.1)).</p>
+<p>The material cause of the material elements absorbs the material body, and the spiritual soul assumes its original position.</p>
+<p>As described by Sri Caitanya Mahaprabhu, jivera ‘svarupa’ haya—krsnera ‘nitya-dasa’: (Cc.Madhya 20.108) the constitutional position of the living entity is that he is the eternal servant of Krsna.</p>
+<p>When one overcomes the material body through cultivation of spiritual knowledge and devotional service, one can revive his own position and thus engage in the service of the Lord.</p>
+
+
+
+<p><strong>6.10.12</strong></p>
+<p>yataksasu-mano-buddhis</p>
+<p>tattva-drg dhvasta-bandhanah</p>
+<p>asthitah paramam yogam</p>
+<p>na deham bubudhe gatam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yata—controlled; aksa—senses; asu—the life air; manah—the mind; buddhih—intelligence; tattva-drk—one who knows the tattvas, the material and spiritual energies; dhvasta-bandhanah—liberated from bondage; asthitah—being situated in; paramam—the supreme; yogam—absorption, trance; na—not; deham—the material body; bubudhe—perceived; gatam—left.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Dadhici Muni controlled his senses, life force, mind and intelligence and became absorbed in trance.</p>
+<p>Thus he cut all his material bonds.</p>
+<p>He could not perceive how his material body became separated from his self.</p>
+<p><strong>PURPORT</strong></p>
+<p>The Lord says in Bhagavad-gita (8.5):</p>
+<p>anta-kale ca mam eva</p>
+<p>smaran muktva kalevaram</p>
+<p>yah prayati sa mad-bhavam</p>
+<p>yati nasty atra samsayah</p>
+<p>Whoever, at the time of death, quits his body remembering Me alone, at once attains My nature.</p>
+<p>Of this there is no doubt Of course, one must practice before one is overcome by death, but the perfect yogi, namely the devotee, dies in trance, thinking of Krsna.</p>
+<p>He does not feel his material body being separated from his soul; the soul is immediately transferred to the spiritual world.</p>
+<p>Tyaktva deham punar janma naiti mam eti: (Bg.4.9) the soul does not enter the womb of a material mother again but is transferred back home, back to Godhead.</p>
+<p>This yoga, bhakti-yoga, is the highest yoga system, as explained by the Lord Himself in Bhagavad-gita (Bg.6.47):</p>
+<p>yoginam api sarvesam</p>
+<p>mad-gatenantaratmana</p>
+<p>sraddhavan bhajate yo mam</p>
+<p>sa me yuktatamo matah</p>
+<p>Of all yogis, he who always abides in Me with great faith worshiping Me in transcendental loving service, is most intimately united with Me in yoga and is the highest of all The bhakti-yogi always thinks of Krsna, and therefore at the time of death he can very easily transfer himself to Krsnaloka, without even perceiving the pains of death.</p>
+
+
+
+<p><strong>6.10.13-14</strong></p>
+<p>athendro vajram udyamya</p>
+<p>nirmitam visvakarmana</p>
+<p>muneh saktibhir utsikto</p>
+<p>bhagavat-tejasanvitah</p>
+<p>vrto deva-ganaih sarvair</p>
+<p>gajendropary asobhata</p>
+<p>stuyamano muni-ganais</p>
+<p>trailokyam harsayann iva</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atha—thereafter; indrah—the King of heaven; vajram—the thunderbolt; udyamya—firmly taking up; nirmitam—manufactured; visvakarmana—by Visvakarma; muneh—of the great sage, Dadhici; saktibhih—by the power; utsiktah—saturated; bhagavat—of the Supreme Personality of Godhead; tejasa—with spiritual power; anvitah—endowed; vrtah—encircled; deva-ganaih—by the other demigods; sarvaih—all; gajendra—of his elephant carrier; upari—upon the back; asobhata—shone; stuyamanah—being offered prayers; muni-ganaih—by the saintly persons; trai-lokyam—to the three worlds; harsayan—causing pleasure; iva—as it were.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, King Indra very firmly took up the thunderbolt manufactured by Visvakarma from the bones of Dadhici.</p>
+<p>Charged with the exalted power of Dadhici Muni and enlightened by the power of the Supreme Personality of Godhead, Indra rode on the back of his carrier, Airavata, surrounded by all the demigods, while all the great sages offered him praise.</p>
+<p>Thus he shone very beautifully, pleasing the three worlds as he rode off to kill Vrtrasura.</p>
+
+
+
+<p><strong>6.10.15</strong></p>
+<p>vrtram abhyadravac chatrum</p>
+<p>asuranika-yuthapaih</p>
+<p>paryastam ojasa rajan</p>
+<p>kruddho rudra ivantakam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vrtram—Vrtrasura; abhyadravat—attacked; satrum—the enemy; asura-anika-yuthapaih—by the commanders or captains of the soldiers of the asuras; paryastam—surrounded; ojasa—with great force; rajan—O King; kruddhah—being angry; rudrah—an incarnation of Lord Siva; iva—like; antakam—Antaka, or Yamaraja.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear King Pariksit, as Rudra, being very angry at Antaka (Yamaraja) had formerly run toward Antaka to kill him, Indra angrily and with great force attacked Vrtrasura, who was surrounded by the leaders of the demoniac armies.</p>
+
+
+
+<p><strong>6.10.16</strong></p>
+<p>tatah suranam asurai</p>
+<p>ranah parama-darunah</p>
+<p>treta-mukhe narmadayam</p>
+<p>abhavat prathame yuge</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—thereafter; suranam—of the demigods; asuraih—with the demons; ranah—a great battle; parama-darunah—very fearful; treta-mukhe—in the beginning of Treta-yuga; narmadayam—on the bank of the River Narmada; abhavat—took place; prathame—in the first; yuge—millennium.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, at the end of Satya-yuga and the beginning of Treta-yuga, a fierce battle took place between the demigods and the demons on the bank of the Narmada.</p>
+<p><strong>PURPORT</strong></p>
+<p>Herein the Narmada does not mean the Narmada River in India.</p>
+<p>The five sacred rivers in India—Ganga, Yamuna, Narmada, Kaveri and Krsna—are all celestial.</p>
+<p>Like the Ganges River, the Narmada River also flows in the higher planetary systems.</p>
+<p>The battle between the demigods and the demons took place in the higher planets.</p>
+<p>The words prathame yuge mean in the beginning of the first millennium that is to say, in the beginning of the Vaivasvata manvantara.</p>
+<p>In one day of Brahma there are fourteen Manus, who each live for seventy-one millenniums.</p>
+<p>The four yugas—Satya, Treta, Dvapara and Kali—constitute one millennium.</p>
+<p>We are presently in the manvantara of Vaivasvata Manu, who is mentioned in Bhagavad-gita (imam vivasvate yogam proktavan aham avyayam/ vivasvan manave praha (Bg.4.1)).</p>
+<p>We are now in the twenty-eighth millennium of Vaivasvata Manu, but this fight took place in the beginning of Vaivasvata Manu’s first millennium.</p>
+<p>One can historically calculate how long ago the battle took place.</p>
+<p>Since each millennium consists of 4,300,000 years and we are now in the twenty-eighth millennium, some 120,400,000 years have passed since the battle took place on the bank of the River Narmada.</p>
+
+
+
+<p><strong>6.10.17-18</strong></p>
+<p>rudrair vasubhir adityair</p>
+<p>asvibhyam pitr-vahnibhih</p>
+<p>marudbhir rbhubhih sadhyair</p>
+<p>visvedevair marut-patim</p>
+<p>drstva vajra-dharam sakram</p>
+<p>rocamanam svaya sriya</p>
+<p>namrsyann asura rajan</p>
+<p>mrdhe vrtra-purahsarah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>rudraih—by the Rudras; vasubhih—by the Vasus; adityaih—by the Adityas; asvibhyam—by the Asvini-kumaras; pitr—by the Pitas; vahnibhih—and the Vahnis; marudbhih—by the Maruts; rbhubhih—by the Rbhus; sadhyaih—by the Sadhyas; visve-devaih—by the Visvadevas; marut-patim—Indra, the heavenly King; drstva—seeing; vajra-dharam—bearing the thunderbolt; sakram—another name of Indra; rocamanam—shining; svaya—by his own; sriya—opulence; na—not; amrsyan—tolerated; asurah—all the demons; rajan—O King; mrdhe—in the fight; vrtra-purahsarah—headed by Vrtrasura.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King, when all the asuras came onto the battlefield, headed by Vrtrasura, they saw King Indra carrying the thunderbolt and surrounded by the Rudras, Vasus, Adityas, Asvini-kumaras, Pitas, Vahnis, Maruts, Rbhus, Sadhyas and Visvadevas.</p>
+<p>Surrounded by his company, Indra shone so brightly that his effulgence was intolerable to the demons.</p>
+
+
+
+<p><strong>6.10.19-22</strong></p>
+<p>namucih sambaro ’narva</p>
+<p>dvimurdha rsabho ’surah</p>
+<p>hayagrivah sankusira</p>
+<p>vipracittir ayomukhah</p>
+<p>puloma vrsaparva ca</p>
+<p>prahetir hetir utkalah</p>
+<p>daiteya danava yaksa</p>
+<p>raksamsi ca sahasrasah</p>
+<p>sumali-mali-pramukhah</p>
+<p>kartasvara-paricchadah</p>
+<p>pratisidhyendra-senagram</p>
+<p>mrtyor api durasadam</p>
+<p>abhyardayann asambhrantah</p>
+<p>simha-nadena durmadah</p>
+<p>gadabhih parighair banaih</p>
+<p>prasa-mudgara-tomaraih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>namucih—Namuci; sambarah—Sambara; anarva—Anarva; dvimurdha—Dvimurdha; rsabhah—Rsabha; asurah—Asura; hayagrivah—Hayagriva; sankusirah—Sankusira; vipracittih—Vipracitti; ayomukhah—Ayomukha; puloma—Puloma; vrsaparva—Vrsaparva; ca—also; prahetih—Praheti; hetih—Heti; utkalah—Utkala; daiteyah—the Daityas; danavah—the Danavas; yaksah—the Yaksas; raksamsi—the Raksasas; ca—and; sahasrasah—by the thousands; sumali-mali-pramukhah—others, headed by Sumali and Mali; kartasvara—of gold; paricchadah—dressed in ornaments; pratisidhya—keeping back; indra-sena-agram—the front of Indra’s army; mrtyoh—for death; api—even; durasadam—difficult to approach; abhyardayan—harassed; asambhrantah—without fear; simha-nadena—with a sound like a lion; durmadah—furious; gadabhih—with clubs; parighaih—with iron-studded bludgeons; banaih—with arrows; prasa-mudgara-tomaraih—with barbed missiles, mallets and lances.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Many hundreds and thousands of demons, demi-demons, Yaksas, Raksasas (man-eaters) and others, headed by Sumali and Mali, resisted the armies of King Indra, which even death personified cannot easily overcome.</p>
+<p>Among the demons were Namuci, Sambara, Anarva, Dvimurdha, Rsabha, Asura, Hayagriva, Sankusira, Vipracitti, Ayomukha, Puloma, Vrsaparva, Praheti, Heti and Utkala.</p>
+<p>Roaring tumultuously and fearlessly like lions, these invincible demons, all dressed in golden ornaments, gave pain to the demigods with weapons like clubs, bludgeons, arrows, barbed darts, mallets and lances.</p>
+
+
+
+<p><strong>6.10.23</strong></p>
+<p>sulaih parasvadhaih khadgaih</p>
+<p>sataghnibhir bhusundibhih</p>
+<p>sarvato ’vakiran sastrair</p>
+<p>astrais ca vibudharsabhan</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sulaih—by spears; parasvadhaih—by axes; khadgaih—by swords; sataghnibhih—by sataghnis; bhusundibhih—by bhusundis; sarvatah—all around; avakiran—scattered; sastraih—with weapons; astraih—with arrows; ca—and; vibudha-rsabhan—the chiefs of the demigods.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Armed with lances, tridents, axes, swords and other weapons like sataghnis and bhusundis, the demons attacked from different directions and scattered all the chiefs of the demigod armies.</p>
+
+
+
+<p><strong>6.10.24</strong></p>
+<p>na te ’drsyanta sanchannah</p>
+<p>sara-jalaih samantatah</p>
+<p>punkhanupunkha-patitair</p>
+<p>jyotimsiva nabho-ghanaih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—not; te—they (the demigods); adrsyanta—were seen; sanchannah—being completely covered; sara-jalaih—by networks of arrows; samantatah—all around; punkha-anupunkha—one arrow after another; patitaih—falling; jyotimsi iva—like the stars in the sky; nabhah-ghanaih—by the dense clouds.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>As the stars in the sky cannot be seen when covered by dense clouds, the demigods, being completely covered by networks of arrows falling upon them one after another, could not be seen.</p>
+
+
+
+<p><strong>6.10.25</strong></p>
+<p>na te sastrastra-varsaugha</p>
+<p>hy aseduh sura-sainikan</p>
+<p>chinnah siddha-pathe devair</p>
+<p>laghu-hastaih sahasradha</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—not; te—those; sastra-astra-varsa-oghah—showers of arrows and other weapons; hi—indeed; aseduh—reached; sura-sainikan—the armies of the demigods; chinnah—cut; siddha-pathe—in the sky; devaih—by the demigods; laghu-hastaih—quick-handed; sahasradha—into thousands of pieces.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The showers of various weapons and arrows released to kill the soldiers of the demigods did not reach them because the demigods, acting quickly, cut the weapons into thousands of pieces in the sky.</p>
+
+
+
+<p><strong>6.10.26</strong></p>
+<p>atha ksinastra-sastraugha</p>
+<p>giri-srnga-drumopalaih</p>
+<p>abhyavarsan sura-balam</p>
+<p>cicchidus tams ca purvavat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atha—thereupon; ksina—being reduced; astra—of the arrows released by mantras; sastra—and weapons; oghah—the multitudes; giri—of mountains; srnga—with the peaks; druma—with trees; upalaih—and with stones; abhyavarsan—showered; sura-balam—the soldiers of the demigods; cicchiduh—broke to pieces; tan—them; ca—and; purva-vat—as before.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>As their weapons and mantras decreased, the demons began showering mountain peaks, trees and stones upon the demigod soldiers, but the demigods were so powerful and expert that they nullified all these weapons by breaking them to pieces in the sky as before.</p>
+
+
+
+<p><strong>6.10.27</strong></p>
+<p>tan aksatan svastimato nisamya</p>
+<p>sastrastra-pugair atha vrtra-nathah</p>
+<p>drumair drsadbhir vividhadri-srngair</p>
+<p>aviksatams tatrasur indra-sainikan</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tan—them (the soldiers of the demigods); aksatan—not injured; svasti-matah—being very healthy; nisamya—seeing; sastra-astra-pugaih—by the bunches of weapons and mantras; atha—thereupon; vrtra-nathah—the soldiers led by Vrtrasura; drumaih—by the trees; drsadbhih—by the stones; vividha—various; adri—of mountain s; srngaih—by the peaks; aviksatan—not injured; tatrasuh—became afraid; indra-sainikan—the soldiers of King Indra.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When the soldiers of the demons, commanded by Vrtrasura, saw that the soldiers of King Indra were quite well, having not been injured at all by their volleys of weapons, not even by the trees, stones and mountain peaks, the demons were very much afraid.</p>
+
+
+
+<p><strong>6.10.28</strong></p>
+<p>sarve prayasa abhavan vimoghah</p>
+<p>krtah krta deva-ganesu daityaih</p>
+<p>krsnanukulesu yatha mahatsu</p>
+<p>ksudraih prayukta usati ruksa-vacah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sarve—all; prayasah—endeavors; abhavan—were; vimoghah—futile; krtah—performed; krtah—again performed; deva-ganesu—unto the demigods; daityaih—by the demons; krsna-anukulesu—who were always protected by Krsna; yatha—just as; mahatsu—unto the Vaisnavas; ksudraih—by insignificant persons; prayuktah—used; usatih—unfavorable; ruksa—rough; vacah—words.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When insignificant persons use rough words to cast false, angry accusations against saintly persons, their fruitless words do not disturb the great personalities.</p>
+<p>Similarly, all the efforts of the demons against the demigods, who were favorably situated under the protection of Krsna, were futile.</p>
+<p><strong>PURPORT</strong></p>
+<p>There is a Bengali saying that if a vulture curses a cow to die, the curse will not be effective.</p>
+<p>Similarly, accusations made by demoniac persons against devotees of Krsna cannot have any effect.</p>
+<p>The demigods are devotees of Lord Krsna, and therefore the curses of the demons were futile.</p>
+
+
+
+<p><strong>6.10.29</strong></p>
+<p>te sva-prayasam vitatham niriksya</p>
+<p>harav abhakta hata-yuddha-darpah</p>
+<p>palayanayaji-mukhe visrjya</p>
+<p>patim manas te dadhur atta-sarah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>te—they (the demons); sva-prayasam—their own endeavors; vitatham—fruitless; niriksya—seeing; harau abhaktah—the asuras, those who are not devotees of the Supreme Personality of Godhead; hata—defeated; yuddha-darpah—their pride in fighting; palayanaya—for leaving the battlefield; aji-mukhe—in the very beginning of the battle; visrjya—leaving aside; patim—their commander, Vrtrasura; manah—their minds; te—all of them; dadhuh—gave; atta-sarah—whose prowess was taken away.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The asuras, who are never devotees of Lord Krsna, the Supreme Personality of Godhead, lost their pride in fighting when they found all their endeavors futile.</p>
+<p>Leaving aside their leader even in the very beginning of the fight, they decided to flee because all their prowess had been taken away by the enemy.</p>
+
+
+
+<p><strong>6.10.30</strong></p>
+<p>vrtro ’surams tan anugan manasvi</p>
+<p>pradhavatah preksya babhasa etat</p>
+<p>palayitam preksya balam ca bhagnam</p>
+<p>bhayena tivrena vihasya virah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vrtrah—Vrtrasura, the commander of the demons; asuran—all the demons; tan—them; anugan—his followers; manasvi—the great-minded; pradhavatah—fleeing; preksya—observing; babhasa—spoke; etat—this; palayitam—fleeing; preksya—seeing; balam—army; ca—and; bhagnam—broken; bhayena—out of fear; tivrena—intense; vihasya—smiling; virah—the great hero.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Seeing his army broken and all the asuras, even those known as great heroes, fleeing the battlefield out of intense fear, Vrtrasura, who was truly a great-minded hero, smiled and spoke the following words.</p>
+
+
+
+<p><strong>6.10.31</strong></p>
+<p>kalopapannam ruciram manasvinam</p>
+<p>jagada vacam purusa-pravirah</p>
+<p>he vipracitte namuce puloman</p>
+<p>mayanarvan chambara me srnudhvam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kala-upapannam—suitable to the time and circumstances; ruciram—very beautiful; manasvinam—to the great, deep-minded personalities; jagada—spoke; vacam—words; purusa-pravirah—the hero among heroes, Vrtrasura; he—O; vipracitte—Vipracitti; namuce—O Namuci; puloman—O Puloma; maya—O Maya; anarvan—O Anarva; sambara—O Sambara; me—from me; srnudhvam—please hear.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>According to his position and the time and circumstances, Vrtrasura, the hero among heroes, spoke words that were much to be appreciated by thoughtful men.</p>
+
+
+
+<p><strong>6.10.32</strong></p>
+<p>jatasya mrtyur dhruva eva sarvatah</p>
+<p>pratikriya yasya na ceha klpta</p>
+<p>loko yasas catha tato yadi hy amum</p>
+<p>ko nama mrtyum na vrnita yuktam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>jatasya—of one who has taken birth (all living beings); mrtyuh—death; dhruvah—inevitable; eva—indeed; sarvatah—everywhere in the universe; pratikriya—counteraction; yasya—of which; na—not; ca—also; iha—in this material world; klpta—devised; lokah—promotion to higher planets; yasah—reputation and glory; ca—and; atha—then; tatah—from that; yadi—if; hi—indeed; amum—that; kah—who; nama—indeed; mrtyum—death; na—not; vrnita—would accept; yuktam—suitable.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Vrtrasura said: All living entities who have taken birth in this material world must die.</p>
+<p>Surely, no one in this world has found any means to be saved from death.</p>
+<p>Even providence has not provided a means to escape it.</p>
+<p>Under the circumstances, death being inevitable, if one can gain promotion to the higher planetary systems and be always celebrated here by dying a suitable death, what man will not accept such a glorious death?</p>
+<p><strong>PURPORT</strong></p>
+<p>If by dying one can be elevated to the higher planetary systems and be ever-famous after his death, who is so foolish that he will refuse such a glorious death? Similar advice was also given by Krsna to Arjuna My dear Arjuna the Lord said, do not desist from fighting.</p>
+<p>If you gain victory in the fight, you will enjoy a kingdom, and even if you die you will be elevated to the heavenly planets Everyone should be ready to die while performing glorious deeds.</p>
+<p>A glorious person is not meant to meet death like cats and dogs.</p>
+
+
+
+<p><strong>6.10.33</strong></p>
+<p>dvau sammatav iha mrtyu durapau</p>
+<p>yad brahma-sandharanaya jitasuh</p>
+<p>kalevaram yoga-rato vijahyad</p>
+<p>yad agranir vira-saye ’nivrttah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dvau—two; sammatau—approved (by sastra and great personalities); iha—in this world; mrtyu—deaths; durapau—extremely rare; yat—which; brahma-sandharanaya—with concentration on Brahman, Paramatma or Parabrahma, Krsna; jita-asuh—controlling the mind and senses; kalevaram—the body; yoga-ratah—being engaged in the performance of yoga; vijahyat—one may leave; yat—which; agranih—taking the lead; vira-saye—on the battlefield; anivrttah—not turning back.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>There are two ways to meet a glorious death, and both are very rare.</p>
+<p>One is to die after performing mystic yoga, especially bhakti-yoga, by which one can control the mind and living force and die absorbed in thought of the Supreme Personality of Godhead.</p>
+<p>The second is to die on the battlefield, leading the army and never showing one’s back.</p>
+<p>These two kinds of death are recommended in the sastra as glorious.</p>
+
+
+</article></body></html>

@@ -1,155 +1,42 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>Jada Bharata Instructs King Rahugana - Jada Bharata Instructs King Rahugana</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">Jada Bharata Instructs King Rahugana</a></li><li class="affix"><a href="5.11.2.html">5.11.2</a></li><li class="affix"><a href="5.11.3.html">5.11.3</a></li><li class="affix"><a href="5.11.4.html">5.11.4</a></li><li class="affix"><a href="5.11.5.html">5.11.5</a></li><li class="affix"><a href="5.11.6.html">5.11.6</a></li><li class="affix"><a href="5.11.7.html">5.11.7</a></li><li class="affix"><a href="5.11.8.html">5.11.8</a></li><li class="affix"><a href="5.11.9.html">5.11.9</a></li><li class="affix"><a href="5.11.10.html">5.11.10</a></li><li class="affix"><a href="5.11.11.html">5.11.11</a></li><li class="affix"><a href="5.11.12.html">5.11.12</a></li><li class="affix"><a href="5.11.13-14.html">5.11.13-14</a></li><li class="affix"><a href="5.11.15.html">5.11.15</a></li><li class="affix"><a href="5.11.16.html">5.11.16</a></li><li class="affix"><a href="5.11.17.html">5.11.17</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">Jada Bharata Instructs King Rahugana</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#jada-bharata-instructs-king-rahugana" id="jada-bharata-instructs-king-rahugana">Jada Bharata Instructs King Rahugana</a></h1>
-<h2><a class="header" href="#summary" id="summary">Summary</a></h2>
-<h3><a class="header" href="#511" id="511">5.11</a></h3>
+<h1>Jada Bharata Instructs King Rahugana</h1>
+<h2>Summary</h2>
+<p><strong>5.11</strong></p>
 <p>In this chapter the brahmana Jada Bharata instructs Maharaja Rahugana in detail.</p>
 <p>He tells the King: You are not very experienced, yet you pose yourself as a learned person because you are very proud of your knowledge.</p>
 <p>Actually a person who is on the transcendental platform does not care for social behavior that sacrifices spiritual advancement.</p>
@@ -176,7 +63,7 @@
 <p>If one does, the mind becomes so powerful that one immediately forgets his real position.</p>
 <p>Forgetting that he is an eternal servant of Krsna and that service to Krsna is his only business, one is doomed by material nature to serve the objects of the senses.</p>
 <p>One should kill mental concoctions by the sword of service to the Supreme Personality of Godhead and His devotee (guru-krsna-prasade paya bhakti-lata-bija</p>
-<h3><a class="header" href="#5111" id="5111">5.11.1</a></h3>
+<p><strong>5.11.1</strong></p>
 <p>brahmana uvaca</p>
 <p>akovidah kovida-vada-vadan</p>
 <p>vadasy atho nati-vidam varisthah</p>
@@ -201,63 +88,454 @@
 <p>To be released from these miserable conditions, one has to become Krsna conscious and take lessons from an exalted personality like Jada Bharata, Lord Krsna and Kapiladeva.</p>
 <p>That is the only way to solve the problems of material life.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="5.11.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>5.11.2</strong></p>
+<p>tathaiva rajann uru-garhamedha-</p>
+<p>vitana-vidyoru-vijrmbhitesu</p>
+<p>na veda-vadesu hi tattva-vadah</p>
+<p>prayena suddho nu cakasti sadhuh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatha—therefore; eva—indeed; rajan—O King; uru-garha-medha—rituals related to material household life; vitana-vidya—in knowledge that expands; uru—very greatly; vijrmbhitesu—among those interested; na—not; veda-vadesu—who speak the version of the Vedas; hi—indeed; tattva-vadah—the spiritual science; prayena—almost always; suddhah—free from all contaminated activities; nu—indeed; cakasti—appear; sadhuh—a person who is advanced in devotional service.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear King, talks of the relationship between the master and the servant, the king and the subject and so forth are simply talks about material activities.</p>
+<p>People interested in material activities, which are expounded in the Vedas, are intent on performing material sacrifices and placing faith in their material activities.</p>
+<p>For such people, spiritual advancement is definitely not manifest.</p>
+<p><strong>PURPORT</strong></p>
+<p>In this verse, two words are significant—veda-vada and tattva-vada.</p>
+<p>According to Bhagavad-gita, those who are simply attached to the Vedas and who do not understand the purpose of the Vedas or the Vedanta-sutra are called veda-vada-ratah yam imam puspitam vacam</p>
+<p>pravadanty avipascitah</p>
+<p>veda-vada-ratah partha</p>
+<p>nanyad astiti vadinah</p>
+<p>kamatmanah svarga-para</p>
+<p>janma-karma-phala-pradam</p>
+<p>kriya-visesa-bahulam</p>
+<p>bhogaisvarya-gatim prati</p>
+<p>Men of small knowledge are very much attached to the flowery words of the Vedas, which recommend various fruitive activities for elevation to heavenly planets, resultant good birth, power and so forth.</p>
+<p>Being desirous of sense gratification and opulent life, they say there is nothing more than this (Bg.2.42–43) The veda-vada followers of the Vedas are generally inclined to karma-kanda, the performance of sacrifice according to the Vedic injunctions.</p>
+<p>They are thereby promoted to higher planetary systems.</p>
+<p>They generally practice the Caturmasya system.</p>
+<p>Aksayyam ha vai caturmasya-yajinah sukrtam bhavati: one who performs the caturmasya-yajna becomes pious.</p>
+<p>By becoming pious, one may be promoted to the higher planetary systems (urdhvam gacchanti sattva-sthah).</p>
+<p>Some of the followers of the Vedas are attached to karma-kanda, the fruitive activities of the Vedas, in order to be promoted to a higher standard of life.</p>
+<p>Others argue that this is not the purpose of the Vedas.</p>
+<p>Tad yathaiveha karma jitah lokah ksiyate evam evam utra punya jitah lokah ksiyate.</p>
+<p>In this world someone may become very highly elevated by taking birth in an aristocratic family, by being well educated, beautiful or very rich.</p>
+<p>These are the gifts for pious activities enacted in the past life.</p>
+<p>However, these will be finished when the stock of pious activity is finished.</p>
+<p>If we become attached to pious activities, we may get these various worldly facilities in the next life and may take birth in the heavenly planets.</p>
+<p>But all this will eventually be finished.</p>
+<p>Ksine punye martya-lokam visanti (Bg.9.21): when the stock of pious activity is finished, one again has to come to this martya-loka.</p>
+<p>According to the Vedic injunctions, the performance of pious activity is not really the objective of the Vedas.</p>
+<p>The objective of the Vedas is explained in Bhagavad-gita.</p>
+<p>Vedais ca sarvair aham eva vedyah: (Bg.15.15) the objective of the Vedas is to understand Krsna, the Supreme Personality of Godhead.</p>
+<p>Those who are veda-vadis are not actually advanced in knowledge, and those who are followers of jnana-kanda (Brahman understanding) are also not perfect.</p>
+<p>However, when one comes to the platform of upasana and accepts the worship of the Supreme Personality of Godhead, he becomes perfect (aradhananam sarvesam visnor aradhanam param).</p>
+<p>In the Vedas the worship of different demigods and the performance of sacrifice are certainly, mentioned, but such worship is inferior because the worshipers do not know that the ultimate goal is Visnu (na te viduh svartha-gatim hi visnum (SB 7.5.31)).</p>
+<p>When one comes to the platform of visnor aradhanam, or bhakti-yoga, one has attained the perfection of life.</p>
+<p>Otherwise, as indicated in Bhagavad-gita, one is not a tattva-vadi but a veda-vadi, a blind follower of the Vedic injunctions.</p>
+<p>A veda-vadi cannot be purified from material contamination unless he becomes a tattva-vadi, that is, one who knows tattva, the Absolute Truth.</p>
+<p>Tattva is also experienced in three features—brahmeti paramatmeti bhagavan iti sabdyate.</p>
+<p>Even after coming to the platform of understanding tattva, one must worship Bhagavan, Visnu and His expansions, or one is not yet perfect.</p>
+<p>Bahunam janmanam ante jnanavan mam prapadyate: (Bg.7.19) after many births, one who is actually in knowledge surrenders unto Krsna.</p>
+<p>The conclusion is that unintelligent men with a poor fund of knowledge cannot understand Bhagavan, Brahman or Paramatma, but after studying the Vedas and attaining the understanding of the Absolute Truth, the Supreme Personality of Godhead, one is supposed to be on the platform of perfect knowledge.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="5.11.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>5.11.3</strong></p>
+<p>na tasya tattva-grahanaya saksad</p>
+<p>variyasir api vacah samasan</p>
+<p>svapne niruktya grhamedhi-saukhyam</p>
+<p>na yasya heyanumitam svayam syat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—not; tasya—of him (a student studying the Vedas); tattva-grahanaya—for accepting the real purpose of Vedic knowledge; saksat—directly; variyasih—very exalted; api—although; vacah—words of the Vedas; samasan—sufficiently became; svapne—in a dream; niruktya—by example; grha-medhi-saukhyam—happiness within this material world; na—not; yasya—of him who; heya-anumitam—concluded to be inferior; svayam—automatically; syat—become.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>A dream becomes automatically known to a person as false and immaterial, and similarly one eventually realizes that material happiness in this life or the next, on this planet or a higher planet, is insignificant.</p>
+<p>When one realizes this, the Vedas, although an excellent source, are insufficient to bring about direct knowledge of the truth.</p>
+<p><strong>PURPORT</strong></p>
+<p>In Bhagavad-gita (2.45), Krsna advised Arjuna to become transcendental to the material activities impelled by the three material modes of nature (traigunya-visaya veda nistraigunyo bhavarjuna).</p>
+<p>The purpose of Vedic study is to transcend the activities of the three modes of material nature.</p>
+<p>Of course in the material world the mode of goodness is accepted as the best, and one can be promoted to the higher planetary systems by being on the sattva-guna platform.</p>
+<p>However, that is not perfection.</p>
+<p>One must come to the conclusion that even the sattva-guna platform is also not good.</p>
+<p>One may dream that he has become a king with a good family, wife and children, but immediately at the end of that dream he comes to the conclusion that it is false.</p>
+<p>Similarly, all kinds of material happiness are undesirable for a person who wants spiritual salvation.</p>
+<p>If a person does not come to the conclusion that he has nothing to do with any kind of material happiness, he cannot come to the platform of understanding the Absolute Truth, or tattva jnana.</p>
+<p>Karmis, jnanis and yogis are after some material elevation.</p>
+<p>The karmis work hard day and night for some bodily comfort, and the jnanis simply speculate about how to get out of the entanglement of karma and merge into the Brahman effulgence.</p>
+<p>The yogis are very much addicted to the acquisition of material perfection and magical powers.</p>
+<p>All of them are trying to be materially perfect, but a devotee very easily comes to the platform of nirguna in devotional service, and consequently for the devotee the results of karma, jnana and yoga become very insignificant.</p>
+<p>Therefore only the devotee is on the platform of tattva jnana, not the others.</p>
+<p>Of course the jnani’s position is better than that of the karmi but that position is also insufficient.</p>
+<p>The jnani must actually become liberated, and after liberation he may be situated in devotional service (mad-bhaktim labhate param (Bg.18.54)).</p>
 
-        </div>
 
-        
 
-        
+<p><strong>5.11.4</strong></p>
+<p>yavan mano rajasa purusasya</p>
+<p>sattvena va tamasa vanuruddham</p>
+<p>cetobhir akutibhir atanoti</p>
+<p>nirankusam kusalam cetaram va</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yavat—as long as; manah—the mind; rajasa—by the mode of passion; purusasya—of the living entity; sattvena—by the mode of goodness; va—or; tamasa—by the mode of darkness; va—or; anuruddham—controlled; cetobhih—by the knowledge-acquiring senses; akutibhih—by the senses of action; atanoti—expands; nirankusam—independent like an elephant not controlled by a trident; kusalam—auspiciousness; ca—also; itaram—other than auspiciousness, sinful activities; va—or.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>As long as the mind of the living entity is contaminated by the three modes of material nature (goodness, passion and ignorance), his mind is exactly like an independent, uncontrolled elephant.</p>
+<p>It simply expands its jurisdiction of pious and impious activities by using the senses.</p>
+<p>The result is that the living entity remains in the material world to enjoy and suffer pleasures and pains due to material activity.</p>
+<p><strong>PURPORT</strong></p>
+<p>In Caitanya-caritamrta it is said that material pious and impious activities are both opposed to the principle of devotional service.</p>
+<p>Devotional service means mukti, freedom from material entanglement, but pious and impious activities result in entanglement within this material world.</p>
+<p>If the mind is captivated by the pious and impious activities mentioned in the Vedas, one remains eternally in darkness; one cannot attain the absolute platform.</p>
+<p>To change the consciousness from ignorance to passion or from passion to goodness does not really solve the problem.</p>
+<p>As stated in Bhagavad-gita (14.26), sa gunan samatityaitan brahma-bhuyaya kalpate.</p>
+<p>One must come to the transcendental platform; otherwise life’s mission is never fulfilled.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>5.11.5</strong></p>
+<p>sa vasanatma visayoparakto</p>
+<p>guna-pravaho vikrtah sodasatma</p>
+<p>bibhrat prthan-namabhi rupa-bhedam</p>
+<p>antar-bahistvam ca purais tanoti</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—that; vasana—endowed with many desires; atma—the mind; visaya-uparaktah—attached to material happiness, sense gratification; guna-pravahah—driven by the force of either sattva-guna, rajo-guna or tamo-guna; vikrtah—transformed by lust and so on; sodasa-atma—the chief of the sixteen material elements (the five gross elements, the ten senses and the mind); bibhrat—wandering; prthak-namabhih—with separate names; rupa-bhedam—assuming different forms; antah-bahistvam—the quality of being first-class or last-class; ca—and; puraih—with different bodily forms; tanoti—manifests.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Because the mind is absorbed in desires for pious and impious activities, it is naturally subjected to the transformations of lust and anger.</p>
+<p>In this way, it becomes attracted to material sense enjoyment.</p>
+<p>In other words, the mind is conducted by the modes of goodness, passion and ignorance.</p>
+<p>There are eleven senses and five material elements, and out of these sixteen items, the mind is the chief.</p>
+<p>Therefore the mind brings about birth in different types of bodies among demigods, human beings, animals and birds.</p>
+<p>When the mind is situated in a higher or lower position, it accepts a higher or lower material body.</p>
+<p><strong>PURPORT</strong></p>
+<p>Transmigration among the 8,400,000 species is due to the mind’s being polluted by certain material qualities.</p>
+<p>Due to the mind, the soul is subjected to pious and impious activities.</p>
+<p>The continuation of material existence is like the waves of material nature.</p>
+<p>In this regard.</p>
+<p>Srila Bhaktivinoda Thakura says, mayara vase, yaccha bhese’, khaccha habudubu, bhai: My dear brother, the spirit soul is completely under the control of maya, and you are being carried away by its waves This is also confirmed in Bhagavad-gita:</p>
+<p>prakrteh kriyamanani</p>
+<p>gunaih karmani sarvasah</p>
+<p>ahankara-vimudhatma</p>
+<p>kartaham iti manyate</p>
+<p>The bewildered spirit soul, under the influence of the three modes of material nature, thinks himself the doer of activities, which are in actuality carried out by nature (Bg.3.27) Material existence means being fully controlled by material nature.</p>
+<p>The mind is the center for accepting the dictations of material nature.</p>
+<p>In this way the living entity is carried away in different types of bodies continuously, millennium after millennium krsna bhuli’ sei jiva anadi-bahirmukha</p>
+<p>ataeva maya tare deya samsara-duhkha</p>
+<p>(Caitanya-caritamrta, Madhya 20.117)</p>
+<p>Due to the living entity’s forgetfulness of Krsna, one is bound by the laws of material nature.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>5.11.6</strong></p>
+<p>duhkham sukham vyatiriktam ca tivram</p>
+<p>kalopapannam phalam avyanakti</p>
+<p>alingya maya-racitantaratma</p>
+<p>sva-dehinam samsrti-cakra-kutah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>duhkham—unhappiness due to impious activities; sukham—happiness due to pious activities; vyatiriktam—illusion; ca—also; tivram—very severe; kala-upapannam—obtained in the course of time; phalam—the resultant action; avyanakti—creates; alingya—embracing; maya-racita—created by material nature; antah-atma—the mind; sva-dehinam—the living being himself; samsrti—of the actions and reactions of material existence; cakra-kutah—which deceives the living entity into the wheel.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The materialistic mind covering the living entity’s soul carries it to different species of life.</p>
+<p>This is called continued material existence.</p>
+<p>Due to the mind, the living entity suffers or enjoys material distress and happiness.</p>
+<p>Being thus illusioned, the mind further creates pious and impious activities and their karma, and thus the soul becomes conditioned.</p>
+<p><strong>PURPORT</strong></p>
+<p>Mental activities under the influence of material nature cause happiness and distress within the material world.</p>
+<p>Being covered by illusion, the living entity eternally continues conditioned life under different designations.</p>
+<p>Such living entities are known as nitya-baddha, eternally’ conditioned.</p>
+<p>On the whole, the mind is the cause of conditioned life; therefore the entire yogic process is meant to control the mind and the senses.</p>
+<p>If the mind is controlled, the senses are automatically controlled, and therefore the soul is saved from the reactions of pious and impious activity.</p>
+<p>If the mind is engaged at the lotus feet of Lord Krsna (sa vai manah krsna-padaravindayoh), the senses are automatically engaged in the Lord’s service.</p>
+<p>When the mind and senses are engaged in devotional service, the living entity naturally becomes Krsna conscious.</p>
+<p>As soon as one always thinks of Krsna, he becomes a perfect yogi, as confirmed in Bhagavad-gita (yoginam api sarvesam mad-gatenantaratmana (Bg.6.47)).</p>
+<p>This antaratma, the mind, is conditioned by material nature.</p>
+<p>As stated here, maya-racitantaratma sva-dehinam samsrti-cakra-kutah: the mind, being most powerful, covers the living entity and puts him in the waves of material existence.</p>
+
+
+
+<p><strong>5.11.7</strong></p>
+<p>tavan ayam vyavaharah sadavih</p>
+<p>ksetrajna-saksyo bhavati sthula-suksmah</p>
+<p>tasman mano lingam ado vadanti</p>
+<p>gunagunatvasya paravarasya</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tavan—until that time; ayam—this; vyavaharah—the artificial designations (being fat or skinny, or belonging to the demigods or human beings); sada—always; avih—manifesting; ksetra-jna—of the Living entity; saksyah—testimony; bhavati—is; sthula-suksmah—fat and skinny; tasmat—therefore; manah—the mind; lingam—the cause; adah—this; vadanti—they say; guna-agunatvasya—of being absorbed in material qualities or devoid of material qualities; para-avarasya—and of lower and higher conditions of life.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The mind makes the living entity within this material world wander through different species of life, and thus the living entity experiences mundane affairs in different forms as a human being, demigod, fat person, skinny person and so forth.</p>
+<p>Learned scholars say that bodily appearance, bondage and liberation are caused by the mind.</p>
+<p><strong>PURPORT</strong></p>
+<p>Just as the mind is the cause of bondage, it can also be the cause of liberation.</p>
+<p>The mind is described here as para-avara, para means transcendental, and avara means material.</p>
+<p>When the mind is engaged in the Lord’s service (sa vai manah krsna-padaravindayoh), it is called para, transcendental.</p>
+<p>When the mind is engaged in material sense gratification, it is called avara, or material.</p>
+<p>At the present moment, in our conditioned state, our mind is fully absorbed in material sense gratification, but it can be purified and brought to its original Krsna consciousness by the process of devotional service.</p>
+<p>We have often given the example of Ambarisa Maharaja.</p>
+<p>Sa vai manah krsna-padaravindayor vacamsi vaikuntha-gunanuvarnane.</p>
+<p>The mind must be controlled in Krsna consciousness.</p>
+<p>The tongue can be utilized to spread the message of Krsna and glorify the Lord or take prasada, the remnants of food offered to Krsna.</p>
+<p>Sevonmukhe hi jihvadau: when one utilizes the tongue in the service of the Lord, the other senses can become purified.</p>
+<p>As stated in the Narada-pancaratra, sarvopadhi-vinirmuktam tat-paratvena nirmalam: (Cc.Madhya 19.170) when the mind and senses are purified, one’s total existence is purified, and one’s designations are also purified.</p>
+<p>One no longer considers himself a human being, a demigod, cat, dog, Hindu, Muslim and so forth.</p>
+<p>When the senses and mind are purified and one is fully engaged in Krsna’s service, one can be liberated and return home, back to Godhead.</p>
+
+
+
+<p><strong>5.11.8</strong></p>
+<p>gunanuraktam vyasanaya jantoh</p>
+<p>ksemaya nairgunyam atho manah syat</p>
+<p>yatha pradipo ghrta-vartim asnan</p>
+<p>sikhah sadhuma bhajati hy anyada svam</p>
+<p>padam tatha guna-karmanubaddham</p>
+<p>vrttir manah srayate ’nyatra tattvam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>guna-anuraktam—being attached to the material modes of nature; vyasanaya—for the conditioning in material existence; jantoh—of the living entity; ksemaya—for the ultimate welfare; nairgunyam—being unaffected by the material modes of nature; atho—thus; manah—the mind; syat—becomes; yatha—as much as; pradipah—a lamp; ghrta-vartim—a wick within clarified butter; asnan—burning; sikhah—the flame; sadhumah—with smoke; bhajati—enjoys; hi—certainly; anyada—otherwise; svam—its own original; padam—position; tatha—so; guna-karma-anubaddham—bound by the modes of nature and the reactions of material activities; vrttih—various engagements; manah—the mind; srayate—takes shelter of; anyatra—otherwise; tattvam—its original condition.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When the living entity’s mind becomes absorbed in the sense gratification of the material world, it brings about his conditioned life and suffering within the material situation.</p>
+<p>However, when the mind becomes unattached to material enjoyment, it becomes the cause of liberation.</p>
+<p>When the flame in a lamp burns the wick improperly, the lamp is blackened, but when the lamp is filled with ghee and is burning properly, there is bright illumination.</p>
+<p>Similarly, when the mind is absorbed in material sense gratification, it causes suffering, and when detached from material sense gratification, it brings about the original brightness of Krsna consciousness.</p>
+<p><strong>PURPORT</strong></p>
+<p>It is therefore concluded that the mind is the cause of material existence and liberation also.</p>
+<p>Everyone is suffering in this material world because of the mind; it is therefore proper to train the mind or to cleanse the mind from material attachment and engage it fully in the Lord’s service.</p>
+<p>This is called spiritual engagement.</p>
+<p>As confirmed in Bhagavad-gita:</p>
+<p>mam ca yo ’vyabhicarena</p>
+<p>bhakti-yogena sevate</p>
+<p>sa gunan samatityaitan</p>
+<p>brahma-bhuyaya kalpate</p>
+<p>One who engages in full devotional service, who does not fall down in any circumstance, at once transcends the modes of material nature and thus comes to the level of Brahman (Bg.14.26) We should engage the mind fully in Krsna conscious activities.</p>
+<p>Then it will be the cause of our liberation, for our returning home back to Godhead.</p>
+<p>However, if we keep the mind engaged in material activities for sense gratification, it will cause continuous bondage and will make us remain in this material world in different bodies, suffering the consequences of our different actions.</p>
+
+
+
+<p><strong>5.11.9</strong></p>
+<p>ekadasasan manaso hi vrttaya</p>
+<p>akutayah panca dhiyo ’bhimanah</p>
+<p>matrani karmani puram ca tasam</p>
+<p>vadanti haikadasa vira bhumih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ekadasa—eleven; asan—there are; manasah—of the mind; hi—certainly; vrttayah—activities; akutayah—senses of action; panca—five; dhiyah—senses for gathering knowledge; abhimanah—the false ego; matrani—different sense objects; karmani—different material activities; puram ca—and the body, society, nation, family or place of nativity; tasam—of those functions; vadanti—they say; ha—oh; ekadasa—eleven; vira—O hero; bhumih—fields of activity.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>There are five working senses and five knowledge-acquiring senses.</p>
+<p>There is also the false ego.</p>
+<p>In this way, there are eleven items for the mind’s functions.</p>
+<p>O hero, the objects of the senses (such as sound and touch), the organic activities (such as evacuation) and the different types of bodies, society, friendship and personality are considered by learned scholars the fields of activity for the functions of the mind.</p>
+<p><strong>PURPORT</strong></p>
+<p>The mind is the controller of the five knowledge-acquiring senses and the five working senses.</p>
+<p>Each sense has its particular field of activity.</p>
+<p>In all cases, the mind is the controller or owner.</p>
+<p>By the false ego one thinks oneself the body and thinks in terms of my body, my house, my family, my society, my natio and so on.</p>
+<p>These false identifications are due to the expansions of the false ego.</p>
+<p>Thus one thinks that be is this or that.</p>
+<p>Thus the living entity becomes entangled in material existence.</p>
+
+
+
+<p><strong>5.11.10</strong></p>
+<p>gandhakrti-sparsa-rasa-sravamsi</p>
+<p>visarga-raty-arty-abhijalpa-silpah</p>
+<p>ekadasam svikaranam mameti</p>
+<p>sayyam aham dvadasam eka ahuh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>gandha—smell; akrti—form; sparsa—touch; rasa—taste; sravamsi—and sound; visarga—evacuating; rati—sexual intercourse; arti—movement; abhijalpa—speaking; silpah—grasping or releasing; ekadasam—eleventh; svikaranam—accepting as; mama—mine; iti—thus; sayyam—this body; aham—I; dvadasam—twelfth; eke—some; ahuh—have said.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sound, touch, form, taste and smell are the objects of the five knowledge-acquiring senses.</p>
+<p>Speech, touch, movement, evacuation and sexual intercourse are the objects of the working senses.</p>
+<p>Besides this, there is another conception by which one thinks, This is my body, this is my society, this is my family, this is my nation and so forth.</p>
+<p>This eleventh function, that of the mind, is called the false ego.</p>
+<p>According to some philosophers, this is the twelfth function, and its field of activity is the body.</p>
+<p><strong>PURPORT</strong></p>
+<p>There are different objects for the eleven items.</p>
+<p>Through the nose we can smell, by the eyes we can see, by the ears we can hear, and in this way we gather knowledge.</p>
+<p>Similarly, there are the karmendriyas, the working senses—the hands, legs, genitals, rectum, mouth and so forth.</p>
+<p>When the false ego expands, it makes one think This is my body, family, society, country etc.</p>
+
+
+
+<p><strong>5.11.11</strong></p>
+<p>dravya-svabhavasaya-karma-kalair</p>
+<p>ekadasami manaso vikarah</p>
+<p>sahasrasah satasah kotisas ca</p>
+<p>ksetrajnato na mitho na svatah syuh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dravya—by physical objects; sva-bhava—by nature as the cause of development; asaya—by culture; karma—by predestined resultant actions; kalaih—by time; ekadasa—eleven; ami—all these; manasah—of the mind; vikarah—transformations; sahasrasah—in thousands; satasah—in hundreds; kotisah ca—and in millions; ksetra-jnatah—from the original Supreme Personality of Godhead; na—not; mithah—one another; na—nor; svatah—from themselves; syuh—are.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The physical elements, nature, the original cause, culture, destiny and the time element are all material causes.</p>
+<p>Agitated by these material causes, the eleven functions transform into hundreds of functions and then into thousands and then into millions.</p>
+<p>But all these transformations do not take place automatically by mutual combination.</p>
+<p>Rather, they are under the direction of the Supreme Personality of Godhead.</p>
+<p><strong>PURPORT</strong></p>
+<p>One should not think that all the interactions of the physical elements, gross and subtle, that cause the transformation of mind and consciousness are working independently.</p>
+<p>They are under the direction of the Supreme Personality of Godhead.</p>
+<p>In Bhagavad-gita (15.15), Krsna says that the Lord is situated in everyone’s heart (sarvasya caham hrdi sannivisto mattah smrtir jnanam apohanam ca).</p>
+<p>As mentioned herein, Supersoul (ksetrajna) is directing everything.</p>
+<p>The living entity is also ksetrajna, but the supreme ksetrajna is the Supreme Personality of Godhead.</p>
+<p>He is the witness and order giver.</p>
+<p>Under His direction, everything takes place.</p>
+<p>The different inclinations of the living entity are created by his own nature or his expectations, and he is trained by the Supreme Personality of Godhead through the agency of material nature.</p>
+<p>The body, nature and the physical elements are under the direction of the Supreme Personality of Godhead.</p>
+<p>They do not function automatically.</p>
+<p>Nature is neither independent nor automatic.</p>
+<p>As confirmed in Bhagavad-gita, the Supreme Personality of Godhead is behind nature mayadhyaksena prakrtih</p>
+<p>suyate sa-caracaram</p>
+<p>hetunanena kaunteya</p>
+<p>jagad viparivartate</p>
+<p>This material nature is working under My direction, O son of Kunti, and it is producing all moving and unmoving beings.</p>
+<p>By its rule this manifestation is created and annihilated again and again (Bg.9.10)</p>
+
+
+
+<p><strong>5.11.12</strong></p>
+<p>ksetrajna eta manaso vibhutir</p>
+<p>jivasya maya-racitasya nityah</p>
+<p>avirhitah kvapi tirohitas ca</p>
+<p>suddho vicaste hy avisuddha-kartuh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ksetra-jnah—the individual soul; etah—all these; manasah—of the mind; vibhutih—different activities; jivasya—of the living entity; maya-racitasya—created by the external, material energy; nityah—from time immemorial; avirhitah—sometimes manifested; kvapi—somewhere; tirohitah ca—and not manifested; suddhah—purified; vicaste—sees this; hi—certainly; avisuddha—unpurified; kartuh—of the doer.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The individual soul bereft of Krsna consciousness has many ideas and activities created in the mind by the external energy.</p>
+<p>They have been existing from time immemorial.</p>
+<p>Sometimes they are manifest in the wakening state and in the dream state, but during deep sleep (unconsciousness) or trance, they disappear.</p>
+<p>A person who is liberated in this life (jivan-mukta) can see all these things vividly.</p>
+<p><strong>PURPORT</strong></p>
+<p>As stated in Bhagavad-gita (13.3), ksetrajnam capi mam viddhi sarva-ksetresu bharata.</p>
+<p>There are two kinds of ksetrajna, or living beings.</p>
+<p>One is the individual living being, and the other is the supreme living being.</p>
+<p>The ordinary living being knows about his body to some extent, but the Supreme, Paramatma, knows the condition of all bodies.</p>
+<p>The individual living being is localized, and the Supreme.</p>
+<p>Paramatma is all-pervading.</p>
+<p>In this sloka the word ksetrajna refers to an ordinary living being, not the supreme living being.</p>
+<p>This ordinary living being is of two kinds—nitya-baddha or nitya-mukta.</p>
+<p>One is eternally conditioned and the other eternally liberated.</p>
+<p>The eternally liberated living being; are in the Vaikuntha jagat, the spiritual world, and they never fall into the material world.</p>
+<p>Those in the material world are conditioned souls, nitya-baddha.</p>
+<p>The nitya-baddhas can become liberated by controlling the mind because the cause of conditioned life is the mind.</p>
+<p>When the mind is trained and the soul is not under the mind’s control, the soul can be liberated even in this material world.</p>
+<p>When it is liberated, one is called jivan-mukta.</p>
+<p>A jivan-mukta knows how he has become conditioned; therefore he tries to purify himself and return home, back to Godhead.</p>
+<p>The eternally conditioned soul is eternally conditioned because he is controlled by the mind.</p>
+<p>The conditioned state and liberated state are compared to the sleeping, unconscious state and the awakened state.</p>
+<p>Those who are sleeping and unconscious are eternally conditioned, but those who are awake understand that they are eternally part and parcel of the Supreme Personality of Godhead, Krsna.</p>
+<p>Therefore even in this material world, they engage in Krsna’s service.</p>
+<p>As confirmed by Srila Rupa Gosvami: iha yasya harer dasye.</p>
+<p>If one takes to Krsna’s service, he is liberated, even though he appears to be a conditioned soul within the material world.</p>
+<p>Jivan-muktah sa ucyate.</p>
+<p>In any condition, one is to be considered liberated if his only business is to serve Krsna.</p>
+
+
+
+<p><strong>5.11.13-14</strong></p>
+<p>ksetrajna atma purusah puranah</p>
+<p>saksat svayam jyotir ajah paresah</p>
+<p>narayano bhagavan vasudevah</p>
+<p>sva-mayayatmany avadhiyamanah</p>
+<p>yathanilah sthavara-jangamanam</p>
+<p>atma-svarupena nivista iset</p>
+<p>evam paro bhagavan vasudevah</p>
+<p>ksetrajna atmedam anupravistah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ksetra-jnah—the Supreme Personality of Godhead; atma—all-pervading, present everywhere; purusah—the unrestricted controller, who has unlimited power; puranah—the original; saksat—perceivable by hearing from the authorities and by direct perception; svayam—personal; jyotih—manifesting His bodily rays (the Brahman effulgence); ajah—never born; paresah—the Supreme Personality of Godhead; narayanah—the resting place of all living entities; bhagavan—the Personality of Godhead with six full opulences; vasudevah—the shelter of everything, manifested and nonmanifest; sva-mayaya—by His own potency; atmani—in His own self, or in the ordinary living entities; avadhiyamanah—existing as the controller; yatha—as much as; anilah—the air; sthavara—of nonmoving living entities; jangamanam—and of the moving living entities; atma-svarupena—by His expansion as the Supersoul; nivistah—entered; iset—controls; evam—thus; parah—transcendental; bhagavan—the Supreme Personality of Godhead; vasudevah—the shelter of everything; ksetra-jnah—known as ksetrajna; atma—the vital force; idam—this material world; anupravistah—entered within.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>There are two kinds of ksetrajna—the living entity, as explained above, and the Supreme Personality of Godhead, who is explained as follows.</p>
+<p>He is the all-pervading cause of creation.</p>
+<p>He is full in Himself and is not dependent on others.</p>
+<p>He is perceived by hearing and direct perception.</p>
+<p>He is self-effulgent and does not experience birth, death, old age or disease.</p>
+<p>He is the controller of all the demigods, beginning with Lord Brahma.</p>
+<p>He is called Narayana, and He is the shelter of living entities after the annihilation of this material world.</p>
+<p>He is full of all opulences, and He is the resting place of everything material.</p>
+<p>He is therefore known as Vasudeva, the Supreme Personality of Godhead.</p>
+<p>By His own potency, He is present within the hearts of all living entities, just as the air or vital force is within the bodies of all beings, moving and nonmoving.</p>
+<p>In this way He controls the body.</p>
+<p>In His partial feature, the Supreme Personality of Godhead enters all bodies and controls them.</p>
+<p><strong>PURPORT</strong></p>
+<p>This is confirmed in Bhagavad-gita (15.15).</p>
+<p>Sarvasya caham hrdi sannivisto mattah smrtir jnanam apohanam ca.</p>
+<p>Every living being is controlled by the supreme living being, Paramatma, who resides within everyone’s heart.</p>
+<p>He is the purusa, the purusa-avatara, who creates this material world.</p>
+<p>The first purusa-avatara is Maha-Visnu, and that Maha-Visnu is the plenary portion of the plenary portion of the Supreme Personality of Godhead, Krsna.</p>
+<p>Krsna’s first expansion is Baladeva, and His next expansions are Vasudeva, Sankarsana, Aniruddha and Pradyumna.</p>
+<p>Vasudeva is the original cause of the brahmajyoti, and the brahmajyoti is the expansion of the rays of the body of Vasudeva yasya prabha prabhavato jagad-anda-koti-</p>
+<p>kotisv asesa-vasudhadi-vibhuti-bhinnam</p>
+<p>tad brahma niskalam anantam asesa-bhutam</p>
+<p>govindam adi-purusam tam aham bhajami</p>
+<p>I worship Govinda, the primeval Lord, who is endowed with great power.</p>
+<p>The glowing effulgence of His transcendental form is the impersonal Brahman, which is absolute, complete and unlimited and which displays the varieties of countless planets, with their different opulences, in millions and millions of universes (Brahma-samhita5.40) The Supreme Personality of Godhead is thus described in Bhagavad-gita:</p>
+<p>maya tatam idam sarvam</p>
+<p>jagad avyakta-murtina</p>
+<p>mat-sthani sarva-bhutani</p>
+<p>na caham tesv avasthitah</p>
+<p>By Me, in My unmanifested form, this entire universe is pervaded.</p>
+<p>All beings are in Me, but I am not in them (Bg.9.4) This is the position of the plenary expansions of Krsna as the all-pervading Vasudeva, Sankarsana, Pradyumna and Aniruddha.</p>
+
+
+
+<p><strong>5.11.15</strong></p>
+<p>na yavad etam tanu-bhrn narendra</p>
+<p>vidhuya mayam vayunodayena</p>
+<p>vimukta-sango jita-sat-sapatno</p>
+<p>vedatma-tattvam bhramatiha tavat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—not; yavat—as long as; etam—this; tanu-bhrt—one who has accepted a material body; narendra—O King; vidhuya mayam—washing away the infection accumulated because of contamination by the material world; vayuna udayena—by awakening of transcendental knowledge due to good association and study of the Vedic literatures; vimukta-sangah—free from all material association; jita-sat-sapatnah—conquering the six enemies (the five knowledge-acquiring senses and the mind); veda—knows; atma-tattvam—spiritual truth; bhramati—he wanders; iha—in this material world; tavat—until that time.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear King Rahugana, as long as the conditioned soul accepts the material body and is not freed from the contamination of material enjoyment, and as long as he does not conquer his six enemies and come to the platform of self-realization by awakening his spiritual knowledge, he has to wander among different places and different species of life in this material world.</p>
+<p><strong>PURPORT</strong></p>
+<p>When one’s mind is absorbed in the material conception, he thinks that he belongs to a particular nation, family, country or creed.</p>
+<p>These are all called upadhis, designations, and one has to become freed from them (sarvopadhi-vinirmuktam (Cc.Madhya 19.170)).</p>
+<p>As long as one is not freed, he has to continue conditioned life in material existence.</p>
+<p>The human form of life is meant for cleansing away these misconceptions.</p>
+<p>If this is not done, one has to repeat the cycle of birth and death and thus suffer all material conditions.</p>
+
+
+
+<p><strong>5.11.16</strong></p>
+<p>na yavad etan mana atma-lingam</p>
+<p>samsara-tapavapanam janasya</p>
+<p>yac choka-mohamaya-raga-lobha-</p>
+<p>vairanubandham mamatam vidhatte</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—not; yavat—as long as; etat—this; manah—mind; atma-lingam—existing as the false designation of the soul; samsara-tapa—of the miseries of this material world; avapanam—the growing ground; janasya—of the living being; yat—which; soka—of lamentation; moha—of illusion; amaya—of disease; raga—of attachment; lobha—of greed; vaira—of enmity; anubandham—the consequence; mamatam—the sense of ownership; vidhatte—gives.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The soul’s designation, the mind, is the cause of all tribulations in the material world.</p>
+<p>As long as this fact is unknown to the conditioned living entity, he has to accept the miserable condition of the material body and wander within this universe in different positions.</p>
+<p>Because the mind is affected by disease, lamentation, illusion, attachment, greed and enmity, it creates bondage and a false sense of intimacy within this material world.</p>
+<p><strong>PURPORT</strong></p>
+<p>The mind is the cause of both material bondage and liberation.</p>
+<p>The impure mind thinks, I am this body The pure mind knows that he is not the material body; therefore the mind is considered to be the root of all material designations.</p>
+<p>Until the living entity is aloof from the association and contaminations of this material world, the mind will be absorbed in such material things as birth, death, disease, illusion, attachment, greed and enmity.</p>
+<p>In this way the living entity is conditioned, and he suffers material miseries.</p>
+
+
+
+<p><strong>5.11.17</strong></p>
+<p>bhratrvyam enam tad adabhra-viryam</p>
+<p>upeksayadhyedhitam apramattah</p>
+<p>guror hares caranopasanastro</p>
+<p>jahi vyalikam svayam atma-mosam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>bhratrvyam—the formidable enemy; enam—this mind; tat—that; adabhra-viryam—very, very powerful; upeksaya—by neglecting; adhyedhitam—unnecessarily increased in power; apramattah—one who is without illusion; guroh—of the spiritual master; hareh—of the Supreme Personality of Godhead; carana—of the lotus feet; upasana-astrah—applying the weapon of worshiping; jahi—conquer; vyalikam—false; svayam—personally; atma-mosam—which covers the constitutional position of the living entity.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>This uncontrolled mind is the greatest enemy of the living entity.</p>
+<p>If one neglects it or gives it a chance, it will grow more and more powerful and will become victorious.</p>
+<p>Although it is not factual, it is very strong.</p>
+<p>It covers the constitutional position of the soul.</p>
+<p>O King, please try to conquer this mind by the weapon of service to the lotus feet of the spiritual master and of the Supreme Personality of Godhead.</p>
+<p>Do this with great care.</p>
+<p><strong>PURPORT</strong></p>
+<p>There is one easy weapon with which the mind can be conquered—neglect.</p>
+<p>The mind is always telling us to do this or that; therefore we should be very expert in disobeying the mind’s orders.</p>
+<p>Gradually the mind should be trained to obey the orders of the soul.</p>
+<p>It is not that one should obey the orders of the mind.</p>
+<p>Srila Bhaktisiddhanta Sarasvati Thakura used to say that to control the mind one should beat it with shoes many times just after awakening and again before going to sleep.</p>
+<p>In this way one can control the mind.</p>
+<p>This is the instruction of all the sastras.</p>
+<p>If one does not do so, one is doomed to follow the dictations of the mind.</p>
+<p>Another bona fide process is to abide strictly by the orders of the spiritual master and engage in the Lord’s service.</p>
+<p>Then the mind will be automatically controlled.</p>
+<p>Sri Caitanya Mahaprabhu has instructed Srila Rupa Gosvami:</p>
+<p>brahmanda bhramite kona bhagyavan jiva</p>
+<p>guru-krsna-prasade paya bhakti-lata-bija</p>
+<p>When one receives the seed of devotional service by the mercy of the guru and Krsna, the Supreme Personality of Godhead, one’s real life begins.</p>
+<p>If one abides by the orders of the spiritual master, by the grace of Krsna he is freed from service to the mind.</p>
+
+
+</article></body></html>

@@ -1,155 +1,42 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>Ideal Family Life - Ideal Family Life</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">Ideal Family Life</a></li><li class="affix"><a href="7.14.2.html">7.14.2</a></li><li class="affix"><a href="7.14.3-4.html">7.14.3-4</a></li><li class="affix"><a href="7.14.5.html">7.14.5</a></li><li class="affix"><a href="7.14.6.html">7.14.6</a></li><li class="affix"><a href="7.14.7.html">7.14.7</a></li><li class="affix"><a href="7.14.8.html">7.14.8</a></li><li class="affix"><a href="7.14.9.html">7.14.9</a></li><li class="affix"><a href="7.14.10.html">7.14.10</a></li><li class="affix"><a href="7.14.11.html">7.14.11</a></li><li class="affix"><a href="7.14.12.html">7.14.12</a></li><li class="affix"><a href="7.14.13.html">7.14.13</a></li><li class="affix"><a href="7.14.14.html">7.14.14</a></li><li class="affix"><a href="7.14.15.html">7.14.15</a></li><li class="affix"><a href="7.14.16.html">7.14.16</a></li><li class="affix"><a href="7.14.17.html">7.14.17</a></li><li class="affix"><a href="7.14.18.html">7.14.18</a></li><li class="affix"><a href="7.14.19.html">7.14.19</a></li><li class="affix"><a href="7.14.20-23.html">7.14.20-23</a></li><li class="affix"><a href="7.14.24.html">7.14.24</a></li><li class="affix"><a href="7.14.25.html">7.14.25</a></li><li class="affix"><a href="7.14.26.html">7.14.26</a></li><li class="affix"><a href="7.14.27-28.html">7.14.27-28</a></li><li class="affix"><a href="7.14.29.html">7.14.29</a></li><li class="affix"><a href="7.14.30-33.html">7.14.30-33</a></li><li class="affix"><a href="7.14.34.html">7.14.34</a></li><li class="affix"><a href="7.14.35.html">7.14.35</a></li><li class="affix"><a href="7.14.36.html">7.14.36</a></li><li class="affix"><a href="7.14.37.html">7.14.37</a></li><li class="affix"><a href="7.14.38.html">7.14.38</a></li><li class="affix"><a href="7.14.39.html">7.14.39</a></li><li class="affix"><a href="7.14.40.html">7.14.40</a></li><li class="affix"><a href="7.14.41.html">7.14.41</a></li><li class="affix"><a href="7.14.42.html">7.14.42</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">Ideal Family Life</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#ideal-family-life" id="ideal-family-life">Ideal Family Life</a></h1>
-<h2><a class="header" href="#summary" id="summary">Summary</a></h2>
-<h3><a class="header" href="#714" id="714">7.14</a></h3>
+<h1>Ideal Family Life</h1>
+<h2>Summary</h2>
+<p><strong>7.14</strong></p>
 <p>This chapter describes the occupational duties of the householder according to the time, the country and the performer.</p>
 <p>When Yudhisthira Maharaja became very much inquisitive about the occupational duties for the householder, Narada Muni advised him that a grhastha’s first duty is to be fully dependent on Vasudeva, Krsna, and to try to satisfy Him in all respects by executing one’s prescribed devotional service.</p>
 <p>This devotional service will depend on the instructions of authorities and the association of devotees who are actually engaged in devotional service.</p>
@@ -177,7 +64,7 @@
 <p>The grhastha should not eat anything not offered to the Supreme Personality of Godhead.</p>
 <p>As it is said in the Bhagavad-gita (3.13), yajna-sistasinah santo mucyante sarva-kilbisaih: The devotees of the Lord are released from all kinds of sins because they eat food that is offered first for sacrifice The grhastha should also visit the holy places of pilgrimage mentioned in the puranas.</p>
 <p>In this way he should fully engage in worshiping the Supreme Personality of Godhead for the benefit of his family, his society, his country, and humanity at large.</p>
-<h3><a class="header" href="#7141" id="7141">7.14.1</a></h3>
+<p><strong>7.14.1</strong></p>
 <p>sri-yudhisthira uvaca</p>
 <p>grhastha etam padavim</p>
 <p>vidhina yena canjasa</p>
@@ -200,63 +87,959 @@
 <p>According to the instructions given by Rsabhadeva to His sons, we should not create a so-called comfortable situation, but must prepare to undergo austerity.</p>
 <p>This is how a human being should actually live to fulfill life’s ultimate goal.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="7.14.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>7.14.2</strong></p>
+<p>sri-narada uvaca</p>
+<p>grhesv avasthito rajan</p>
+<p>kriyah kurvan yathocitah</p>
+<p>vasudevarpanam saksad</p>
+<p>upasita maha-munin</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-naradah uvaca—Sri Narada Muni replied; grhesu—at home; avasthitah—staying (a householder generally stays home with his wife and children); rajan—O King; kriyah—activities; kurvan—performing; yathocitah—suitable (as instructed by the guru and sastra); vasudeva—unto Lord Vasudeva; arpanam—dedicating; saksat—directly; upasita—should worship; maha-munin—the great devotees.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Narada Muni replied: My dear King, those who stay at home as householders must act to earn their livelihood, and instead of trying to enjoy the results of their work themselves, they should offer these results to Krsna, Vasudeva.</p>
+<p>How to satisfy Vasudeva in this life can be perfectly understood through the association of great devotees of the Lord.</p>
+<p><strong>PURPORT</strong></p>
+<p>The format for grhastha life should be dedication to the Supreme Personality of Godhead.</p>
+<p>In Bhagavad-gita (6.1) it is said:</p>
+<p>anasritah karma-phalam</p>
+<p>karyam karma karoti yah</p>
+<p>sa sannyasi ca yogi ca</p>
+<p>na niragnir na cakriyah</p>
+<p>One who is unattached to the fruits of his work and who works as he is obligated is in the renounced order of life, and he is the true mystic, not he who lights no fire and performs no work Whether one acts as a brahmacari, grhastha, vanaprastha or sannyasi, he must act only for the satisfaction of the Supreme Personality of Godhead, Vasudeva—Krsna, the son of Vasudeva.</p>
+<p>This should be the principle for everyone’s life.</p>
+<p>Narada Muni has already described the principles of life for a brahmacari, vanaprastha and sannyasi, and now he is describing how a grhastha should live.</p>
+<p>The basic principle is to satisfy the Supreme Personality of Godhead.</p>
+<p>The science of satisfying the Supreme Lord can be learned as described here: saksad upasita maha-munin.</p>
+<p>The word maha-munin refers to great saintly persons or devotees.</p>
+<p>Saintly persons are generally known as munis, or thoughtful philosophers concerned with transcendental subject matters, and maha-munin refers to those who have not only thoroughly studied the goal of life but who are actually engaged in satisfying the Supreme Personality of Godhead, Vasudeva.</p>
+<p>These persons are known as devotees.</p>
+<p>Unless one associates with devotees, one cannot learn the science of vasudevarpana, or dedicating one’s life to Vasudeva, Krsna, the Supreme Personality of Godhead.</p>
+<p>In India the principles of this science were followed strictly.</p>
+<p>Even fifty years ago, I saw that in the villages of Bengal and the suburbs of Calcutta, people engaged in hearing Srimad-Bhagavatam daily when all their activities ended, or at least in the evening before going to bed.</p>
+<p>Everyone would hear the Bhagavatam.Bhagavata classes were held in every village, and thus people had the advantage of hearing Srimad-Bhagavatam, which describes everything about the aim of life—liberation or salvation.</p>
+<p>This will be clearly explained in the next verses.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="7.14.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>7.14.3-4</strong></p>
+<p>srnvan bhagavato ’bhiksnam</p>
+<p>avatara-kathamrtam</p>
+<p>sraddadhano yatha-kalam</p>
+<p>upasanta-janavrtah</p>
+<p>sat-sangac chanakaih sangam</p>
+<p>atma-jayatmajadisu</p>
+<p>vimuncen mucyamanesu</p>
+<p>svayam svapnavad utthitah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>srnvan—hearing; bhagavatah—of the Lord; abhiksnam—always; avatara—of the incarnations; katha—narrations; amrtam—the nectar; sraddadhanah—being very faithful in hearing about the Supreme Personality of Godhead; yatha-kalam—according to time (generally a grhastha can find time in the evening or in the afternoon); upasanta—completely relieved of material activities; jana—by persons; avrtah—being surrounded; sat-sangat—from such good association; sanakaih—gradually; sangam—association; atma—in the body; jaya—wife; atma-ja-adisu—as well as in children; vimuncet—one should get free from the attachment for such association; mucyamanesu—being severed (from him); svayam—personally; svapna-vat—like a dream; utthitah—awakened.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>A grhastha must associate again and again with saintly persons, and with great respect he must hear the nectar of the activities of the Supreme Lord and His incarnations as these activities are described in Srimad-Bhagavatam and other Puranas.</p>
+<p>Thus one should gradually become detached from affection for his wife and children, exactly like a man awakening from a dream.</p>
+<p><strong>PURPORT</strong></p>
+<p>The Krsna consciousness movement has been established to give grhasthas all over the world an opportunity to hear Srimad-Bhagavatam and Bhagavad-gita specifically.</p>
+<p>The process, as described in many ways, is one of hearing and chanting (srnvatam sva-kathah krsnah punya-sravana-kirtanah (Bhag.1.2.17)).</p>
+<p>Everyone, especially the grhasthas, who are mudha-dhi, ignorant about the goal of life, should be given opportunities to hear about Krsna.</p>
+<p>Simply by hearing, by attending lectures in the different centers of the Krsna consciousness movement, where topics of Krsna from Bhagavad-gita and Srimad-Bhagavatam are discussed, they will be purified of their sinful inclination for constant indulgence in illicit sex, meat-eating, intoxication and gambling, which have all become prominent in modern days.</p>
+<p>Thus they can be raised to the status of light.</p>
+<p>Punya-sravana-kirtanah.</p>
+<p>Simply by joining the kirtana—Hare Krsna, Hare Krsna, Krsna Krsna, Hare Hare/ Hare Rama, Hare Rama, Rama Rama, Hare Hare—and by hearing about Krsna from Bhagavad-gita, one must be purified, especially if he also takes prasada.</p>
+<p>This is all going on in the Krsna consciousness movement.</p>
+<p>Another specific description here is srnvan bhagavato ’bhiksnam avatara-kathamrtam.</p>
+<p>It is not that because one has once finished Bhagavad-gita he should not hear it again.</p>
+<p>The word abhiksnam is very important.</p>
+<p>We should hear again and again.</p>
+<p>There is no question of stopping: even if one has read these topics many times, he should go on reading again and again because bhagavat-katha, the words spoken by Krsna and spoken by Krsna’s devotees about Krsna, are amrtam, nectar.</p>
+<p>The more one drinks this amrtam, the more he advances in his eternal life.</p>
+<p>The human form of life is meant for liberation, but unfortunately, due to the influence of Kali-yuga, every day the grhasthas are working hard like asses.</p>
+<p>Early in the morning they rise and travel even a hundred miles away to earn bread.</p>
+<p>Especially in the Western countries, I have seen that people awaken at five o’clock to go to offices and factories to earn their livelihood.</p>
+<p>People in Calcutta and Bombay also do this every day.</p>
+<p>They work very hard in the office or factory, and again they spend three or four hours in transportation returning home.</p>
+<p>Then they retire at ten o’clock and again rise early in the morning to go to their offices and factories.</p>
+<p>This kind of hard labor is described in the sastras as the life of pigs and stool-eaters.</p>
+<p>Nayam deho deha-bhajam nrloke kastan kaman arhate vid-bhujam ye: Of all living entities who have accepted material bodies in this world, one who has been awarded this human form should not work hard day and night simply for sense gratification, which is available even for dogs and hogs that eat stool (Bhag.5.5.1) One must find some time for hearing Srimad-Bhagavatam and Bhagavad-gita.</p>
+<p>This is Vedic culture.</p>
+<p>One should work eight hours at the most to earn his livelihood, and either in the afternoon or in the evening a householder should associate with devotees to hear about the incarnations of Krsna and His activities and thus be gradually liberated from the clutches of maya.</p>
+<p>However, instead of finding time to hear about Krsna, the householders, after working hard in offices and factories, find time to go to a restaurant or a club where instead of hearing about Krsna and His activities they are very much pleased to hear about the political activities of demons and nondevotees and to enjoy sex, wine, women and meat and in this way waste their time.</p>
+<p>This is not grhastha life, but demoniac life.</p>
+<p>The Krsna consciousness movement, however, with its centers all over the world, gives such fallen and condemned persons an opportunity to hear about Krsna.</p>
+<p>In a dream we form a society of friendship and love, and when we awaken we see that it has ceased to exist.</p>
+<p>Similarly, one’s gross society, family and love are also a dream, and this dream will be over as soon as one dies.</p>
+<p>Therefore, whether one is dreaming in a subtle way or a gross way, these dreams are all false and temporary.</p>
+<p>One’s real business is to understand that one is soul (aham brahmasmi) and that his activities should therefore be different.</p>
+<p>Then one can be happy brahma-bhutah prasannatma</p>
+<p>na socati na kanksati</p>
+<p>samah sarvesu bhutesu</p>
+<p>mad-bhaktim labhate param</p>
+<p>One who is transcendentally situated at once realizes the Supreme Brahman and becomes fully joyful.</p>
+<p>He never laments nor desires to have anything; he is equally disposed toward all living entities.</p>
+<p>In that state he attains pure devotional service unto Me (Bg.18.54) One who is engaged in devotional service can very easily be liberated from the dream of materialistic life.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>7.14.5</strong></p>
+<p>yavad-artham upasino</p>
+<p>dehe gehe ca panditah</p>
+<p>virakto raktavat tatra</p>
+<p>nr-loke naratam nyaset</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yavat-artham—as much endeavor for one’s livelihood as necessary; upasinah—earning; dehe—in the body; gehe—in family matters; ca—also; panditah—one who is learned; viraktah—not at all attached; rakta-vat—as if very much attached; tatra—in this; nr-loke—human society; naratam—the human form of life; nyaset—one should depict.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>While working to earn his livelihood as much as necessary to maintain body and soul together, one who is actually learned should live in human society unattached to family affairs, although externally appearing very much attached.</p>
+<p><strong>PURPORT</strong></p>
+<p>This is the picture of ideal family life.</p>
+<p>When Sri Caitanya Mahaprabhu asked Ramananda Raya about the goal of life, Ramananda Raya described it in different ways, according to the recommendations of the revealed scriptures, and finally Sri Ramananda Raya explained that one may stay in his own position, whether as a brahmana, a sudra, a sannyasi or whatever, but one must try to inquire about life’s goal (athato brahma jijnasa).</p>
+<p>This is the proper utilization of the human form of life.</p>
+<p>When one misuses the gift of the human form by unnecessarily indulging in the animal propensities of eating, sleeping, mating and defending and does not try to get out of the clutches of maya, which subjects one to repeated birth, death, old age and disease, one is again punished by being forced to descend to the lower species and undergo evolution according to the laws of nature prakrteh kriyamanani gunaih karmani sarvasah (Bg.3.27).</p>
+<p>Being completely under the grip of material nature, the living entity must evolve again from the lower species to the higher species until he at last returns to human life and gets the chance to be freed from the material clutches.</p>
+<p>A wise man, however, learns from the sastras and guru that we living entities are all eternal but are put into troublesome conditions because of associating with different modes under the laws of material nature.</p>
+<p>He therefore concludes that in the human form of life he should not endeavor for unnecessary necessities, but should live a very simple life, just maintaining body and soul together.</p>
+<p>Certainly one requires some means of livelihood, and according to one’s varna and asrama this means of livelihood is prescribed in the sastras.</p>
+<p>One should be satisfied with this.</p>
+<p>Therefore, instead of hankering for more and more money, a sincere devotee of the Lord tries to invent some ways to earn his livelihood, and when he does so Krsna helps him.</p>
+<p>Earning one’s livelihood, therefore, is not a problem.</p>
+<p>The real problem is how to get free from the bondage of birth, death and old age.</p>
+<p>Attaining this freedom, and not inventing unnecessary necessities, is the basic principle of Vedic civilization.</p>
+<p>One should be satisfied with whatever means of life comes automatically.</p>
+<p>The modern materialistic civilization is just the opposite of the ideal civilization.</p>
+<p>Every day the so-called leaders of modern society invent something contributing to a cumbersome way of life that implicates people more and more in the cycle of birth, death, old age and disease.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>7.14.6</strong></p>
+<p>jnatayah pitarau putra</p>
+<p>bhratarah suhrdo ’pare</p>
+<p>yad vadanti yad icchanti</p>
+<p>canumodeta nirmamah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>jnatayah—relatives, family members; pitarau—the father and mother; putrah—children; bhratarah—brothers; suhrdah—friends; apare—and others; yat—whatever; vadanti—they suggest (in regard to one’s means of livelihood); yat—whatever; icchanti—they wish; ca—and; anumodeta—he should agree; nirmamah—but without taking them seriously.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>An intelligent man in human society should make his own program of activities very simple.</p>
+<p>If there are suggestions from his friends, children, parents, brothers or anyone else, he should externally agree, saying, Yes, that is all right but internally he should be determined not to create a cumbersome life in which the purpose of life will not be fulfilled.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>7.14.7</strong></p>
+<p>divyam bhaumam cantariksam</p>
+<p>vittam acyuta-nirmitam</p>
+<p>tat sarvam upayunjana</p>
+<p>etat kuryat svato budhah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>divyam—easily obtained because of rainfall from the sky; bhaumam—obtained from the mines and the sea; ca—and; antariksam—obtained by chance; vittam—all property; acyuta-nirmitam—created by the Supreme Personality of Godhead; tat—those things; sarvam—all; upayunjana—utilizing (for all human society or all living beings); etat—this (maintaining body and soul together); kuryat—one must do; svatah—obtained of itself, without extra endeavor; budhah—the intelligent person.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The natural products created by the Supreme Personality of Godhead should be utilized to maintain the bodies and souls of all living entities.</p>
+<p>The necessities of life are of three types: those produced from the sky (from rainfall), from the earth (from the mines, the seas or the fields), and from the atmosphere (that which is obtained suddenly and unexpectedly).</p>
+<p><strong>PURPORT</strong></p>
+<p>We living entities in different forms are all children of the Supreme Personality of Godhead, as confirmed by the Lord in Bhagavad-gita (14.4):</p>
+<p>sarva-yonisu kaunteya</p>
+<p>murtayah sambhavanti yah</p>
+<p>tasam brahma mahad-yonir</p>
+<p>aham bija-pradah pita</p>
+<p>It should be understood that all species of life, O son of Kunti, are made possible by birth in this material nature, and that I am the seed-giving father The Supreme Lord, Krsna, is the father of all living entities in different species and forms.</p>
+<p>One who is intelligent can see that all living entities in the 8,400,000 bodily forms are part of the Supreme Personality of Godhead and are His sons.</p>
+<p>Everything within the material and spiritual worlds is the property of the Supreme Lord (isavasyam idam sarvam), and therefore everything has a relationship with Him.</p>
+<p>Srila Rupa Gosvami says in this regard:</p>
+<p>prapancikataya buddhya</p>
+<p>hari-sambandhi-vastunah</p>
+<p>mumuksubhih parityago</p>
+<p>vairagyam phalgu kathyate</p>
+<p>One who rejects anything without knowledge of its relationship to Krsna is incomplete in his renunciation (Bhakti-rasamrta-sindhu1.2.256) Although Mayavadi philosophers say that the material creation is false, actually it is not false; it is factual, but the idea that everything belongs to human society is false.</p>
+<p>Everything belongs to the Supreme Personality of Godhead, for everything is created by Him.</p>
+<p>All living entities, being the Lord’s sons, His eternal parts and parcels, have the right to use their father’s property by nature’s arrangement.</p>
+<p>As stated in the Upanisads, tena tyaktena bhunjitha ma grdhah kasya svid dhanam.</p>
+<p>Everyone should be satisfied with the things allotted him by the Supreme Personality of Godhead; no one should encroach upon another’s rights or property.</p>
+<p>In Bhagavad-gita it is said:</p>
+<p>annad bhavanti bhutani</p>
+<p>parjanyad anna-sambhavah</p>
+<p>yajnad bhavati parjanyo</p>
+<p>yajnah karma-samudbhavah</p>
+<p>All living bodies subsist on food grains, which are produced from rains.</p>
+<p>Rains are produced by performance of yajna (sacrifice), and yajna is born of prescribed duties (Bg.3.14) When food grains are sufficiently produced, both animals and human beings can be nourished without difficulty for their maintenance.</p>
+<p>This is nature’s arrangement prakrteh kriyamana-ni gunaih karmani sarvasah.</p>
+<p>Everyone is acting under the influence of material nature, and only fools think they can improve upon what God has created.</p>
+<p>The householders are specifically responsible for seeing that the laws of the Supreme Personality of Godhead are maintained, without fighting between men, communities, societies or nations.</p>
+<p>Human society should properly utilize the gifts of God, especially the food grains that grow because of rain falling from the sky.</p>
+<p>As stated in Bhagavad-gita, yajnad bhavati parjanyah (Bg.3.14).</p>
+<p>So that rainfall will be regulated, humanity should perform yajnas, sacrifices.</p>
+<p>Yajnas were previously performed with offerings of oblations of ghee and food grains, but in this age, of course, this is no longer possible, for the production of ghee and food grains has diminished because of the sinful life of human society.</p>
+<p>However, people should take to Krsna consciousness and chant the Hare Krsna mantra, as recommended in the sastras (yajnaih sankirtana-prayair yajanti hi sumedhasah (SB 11.5.32)).</p>
+<p>If people throughout the world take to the Krsna consciousness movement and chant the easy sound vibration of the transcendental name and fame of the Supreme Personality of Godhead, there will be no scarcity of rainfall; consequently food grains, fruits and flowers will be properly produced, and all the necessities of life will be easily obtained.</p>
+<p>Grhasthas, or householders, should take the responsibility for organizing such natural production.</p>
+<p>It is therefore said, tasyaiva hetoh prayateta kovidah.</p>
+<p>An intelligent person should try to spread Krsna consciousness through the chanting of the holy name of the Lord, and all the necessities of life will automatically follow.</p>
+
+
+
+<p><strong>7.14.8</strong></p>
+<p>yavad bhriyeta jatharam</p>
+<p>tavat svatvam hi dehinam</p>
+<p>adhikam yo ’bhimanyeta</p>
+<p>sa steno dandam arhati</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yavat—as much as; bhriyeta—may be filled; jatharam—the stomach; tavat—that much; svatvam—proprietorship; hi—indeed; dehinam—of the living entities; adhikam—more than that; yah—anyone who; abhimanyeta—may accept; sah—he; stenah—a thief; dandam—punishment; arhati—deserves.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>One may claim proprietorship to as much wealth as required to maintain body and soul together, but one who desires proprietorship over more than that must be considered a thief, and he deserves to be punished by the laws of nature.</p>
+<p><strong>PURPORT</strong></p>
+<p>By God’s favor we sometimes get large quantities of food grains or suddenly receive some contribution or unexpected profit in business.</p>
+<p>In this way we may get more money than needed.</p>
+<p>So, how should that be spent? There is no need to accumulate money in the bank merely to increase one’s bank balance.</p>
+<p>Such a mentality is described in Bhagavad-gita (16.13) as asuric, demoniac idam adya maya labdham</p>
+<p>imam prapsye manoratham</p>
+<p>idam astidam api me</p>
+<p>bhavisyati punar dhanam</p>
+<p>The demoniac person thinks, ‘So much wealth do I have today, and I will gain more according to my schemes.</p>
+<p>So much is mine now, and it will increase in the future, more and more.’ The asura is concerned with how much wealth he has in the bank today and how it will increase tomorrow, but unrestricted accumulation of wealth is not permitted either by the sastra or, in the modern age, by the government.</p>
+<p>Actually, if one has more than one requires for his necessities, the extra money should be spent for Krsna.</p>
+<p>According to the Vedic civilization, it should all be given to the Krsna consciousness movement, as ordered by the Lord Himself in Bhagavad-gita (9.27):</p>
+<p>yat karosi yad asnasi</p>
+<p>yaj juhosi dadasi yat</p>
+<p>yat tapasyasi kaunteya</p>
+<p>tat kurusva mad-arpanam</p>
+<p>O son of Kunti, all that you do, all that you eat, all that you offer and give away, as well as all austerities that you may perform, should be done as an offering unto Me Grhasthas should spend extra money only for the Krsna consciousness movement.</p>
+<p>The grhasthas should give contributions for constructing temples of the Supreme Lord and for preaching of Srimad Bhagavad-gita, or Krsna consciousness, all over the world.</p>
+<p>Srnvan bhagavato’bhiksnam avatara-kathamrtam.</p>
+<p>In the sastras—the puranas and other Vedic literatures—there are so many narrations describing the transcendental activities of the Supreme Personality of Godhead, and everyone should hear them again and again.</p>
+<p>For example, even if we read the entire Bhagavad-gita every day, all eighteen chapters, in each reading we shall find a new explanation.</p>
+<p>That is the nature of transcendental literature.</p>
+<p>The Krsna consciousness movement therefore affords one an opportunity to spend his extra earnings for the benefit of all human society by expanding Krsna consciousness.</p>
+<p>In India especially we see hundreds and thousands of temples that were constructed by the wealthy men of society who did not want to be called thieves and be punished.</p>
+<p>This verse is very important.</p>
+<p>As stated here, one who accumulates more money than needed is a thief, and by the laws of nature he will be punished.</p>
+<p>One who acquires more money than necessary becomes desirous of enjoying material comforts more and more.</p>
+<p>Materialists are inventing so many artificial necessities, and those who have money, being allured by such artificial necessities, try to accumulate money to possess more and more.</p>
+<p>This is the idea of modern economic development.</p>
+<p>Everyone is engaged in earning money, and the money is kept in the bank, which then offers money to the public.</p>
+<p>In this cycle of activities, everyone is engaged in getting more and more money, and therefore the ideal goal of human life is being lost.</p>
+<p>Concisely, it may be said that everyone is a thief and is liable to be punished.</p>
+<p>Punishment by the laws of nature takes place in the cycle of birth and death.</p>
+<p>No one dies fully satisfied by the fulfillment of material desires, for that is not possible.</p>
+<p>Therefore at the time of one’s death one is very sorry, being unable to fulfill his desires.</p>
+<p>By the laws of nature one is then offered another body to fulfill his unsatisfied desires, and upon taking birth again, accepting another material body, one voluntarily accepts the threefold miseries of life.</p>
+
+
+
+<p><strong>7.14.9</strong></p>
+<p>mrgostra-khara-markakhu-</p>
+<p>sarisrp khaga-maksikah</p>
+<p>atmanah putravat pasyet</p>
+<p>tair esam antaram kiyat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>mrga—deer; ustra—camels; khara—asses; marka—monkeys; akhu—mice; sarisrp—snakes; khaga—birds; maksikah—flies; atmanah—of one’s self; putra-vat—like the sons; pasyet—one should see; taih—with those sons; esam—of these animals; antaram—difference; kiyat—how little.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>One should treat animals such as deer, camels, asses, monkeys, mice, snakes, birds and flies exactly like one’s own son.</p>
+<p>How little difference there actually is between children and these innocent animals.</p>
+<p><strong>PURPORT</strong></p>
+<p>One who is in Krsna consciousness understands that there is no difference between the animals and the innocent children in one’s home.</p>
+<p>Even in ordinary life, it is our practical experience that a household dog or cat is regarded on the same level as one’s children, without any envy.</p>
+<p>Like children, the unintelligent animals are also sons of the Supreme Personality of Godhead, and therefore a Krsna conscious person, even though a householder, should not discriminate between children and poor animals.</p>
+<p>Unfortunately, modern society has devised many means for killing animals in different forms of life.</p>
+<p>For example, in the agricultural fields there may be many mice, flies and other creatures that disturb production, and sometimes they are killed by pesticides.</p>
+<p>In this verse, however, such killing is forbidden.</p>
+<p>Every living entity should be nourished by the food given by the Supreme Personality of Godhead.</p>
+<p>Human society should not consider itself the only enjoyer of all the properties of God; rather, men should understand that all the other animals also have a claim to God’s property.</p>
+<p>In this verse even the snake is mentioned, indicating that a householder should not be envious even of a snake.</p>
+<p>If everyone is fully satisfied by eating food that is a gift from the Lord, why should there be envy between one living being and another? In modern days people are very much inclined toward communistic ideas of society, but we do not think that there can be any better communistic idea than that which is explained in this verse of Srimad-Bhagavatam.</p>
+<p>Even in the communistic countries the poor animals are killed without consideration, although they also should have the right to take their allotted food with which to live.</p>
+
+
+
+<p><strong>7.14.10</strong></p>
+<p>tri-vargam natikrcchrena</p>
+<p>bhajeta grha-medhy api</p>
+<p>yatha-desam yatha-kalam</p>
+<p>yavad-daivopapaditam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tri-vargam—three principles, namely religiosity, economic development and sense gratification; na—not; ati-krcchrena—by very severe endeavor; bhajeta—should execute; grha-medhi—a person interested only in family life; api—although; yatha-desam—according to the place; yatha-kalam—according to the time; yavat—as much as; daiva—by the grace of the Lord; upapaditam—obtained.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Even if one is a householder rather than a brahmacari, a sannyasi or a vanaprastha, one should not endeavor very hard for religiosity, economic development or satisfaction of the senses.</p>
+<p>Even in householder life, one should be satisfied to maintain body and soul together with whatever is available with minimum endeavor, according to place and time, by the grace of the Lord.</p>
+<p>One should not engage oneself in ugra-karma.</p>
+<p><strong>PURPORT</strong></p>
+<p>In human life there are four principles to be fulfilled—dharma, artha, kama and moksa (religion, economic development, sense gratification, and liberation).</p>
+<p>First one should be religious, observing various rules and regulations, and then one must earn some money for maintenance of his family and the satisfaction of his senses.</p>
+<p>The most important ceremony for sense gratification is marriage because sexual intercourse is one of the principal necessities of the material body.</p>
+<p>Yan maithunadi-grhamedhi-sukham hi tuccham (SB 7.9.45).</p>
+<p>Although sexual intercourse is not a very exalted requisite in life, both animals and men require some sense gratification because of material propensities.</p>
+<p>One should be satisfied with married life and not expend energy for extra sense gratification or sex life.</p>
+<p>As for economic development, the responsibility for this should be entrusted mainly to the vaisyas and grhasthas.</p>
+<p>Human society should be divided into varnas and asramas—brahmana, ksatriya, vaisya, sudra, brahmacarya, grhastha, vanaprastha and sannyasa.</p>
+<p>Economic development is necessary for grhasthas.</p>
+<p>Brahmana grhasthas should be satisfied with a life of adhyayana, adhyapana, yajana and yajana—being learned scholars, teaching others to be scholars, learning how to worship the Supreme Personality of Godhead, Visnu, and also teaching others how to worship Lord Visnu, or even the demigods.</p>
+<p>A brahmana should do this without remuneration, but he is allowed to accept charity from a person whom he teaches how to be a human being.</p>
+<p>As for the ksatriyas, they are supposed to be the kings of the land, and the land should be distributed to the vaisyas for agricultural activities, cow protection and trade.</p>
+<p>Sudras must work; sometimes they should engage in occupational duties as cloth manufacturers, weavers, blacksmiths, goldsmiths, brass-smiths, and so on, or else they should engage in hard labor to produce food grains.</p>
+<p>These are the different occupational duties by which men should earn their livelihood, and in this way human society should be simple.</p>
+<p>At the present moment, however, everyone is engaged in technological advancement, which is described in Bhagavad-gita as ugra-karma—extremely severe endeavor.</p>
+<p>This ugra-karma is the cause of agitation within the human mind.</p>
+<p>Men are engaging in many sinful activities and becoming degraded by opening slaughterhouses, breweries and cigarette factories, as well as nightclubs and other establishments for sense enjoyment.</p>
+<p>In this way they are spoiling their lives.</p>
+<p>In all of these activities, of course, householders are involved, and therefore it is advised here, with the use of the word api, that even though one is a householder, one should not engage himself in severe hardships.</p>
+<p>One’s means of livelihood should be extremely simple.</p>
+<p>As for those who are not grhasthas—the brahmacaris, vanaprasthas and sannyasis—they don’t have to do anything but strive for advancement in spiritual life.</p>
+<p>This means that three fourths of the entire population should stop sense gratification and simply be engaged in the advancement of Krsna consciousness.</p>
+<p>Only one fourth of the population should be grhastha, and that should be according to laws of restricted sense gratification.</p>
+<p>The grhasthas, vanaprasthas, brahmacaris and sannyasis should endeavor together with their total energy to become Krsna conscious.</p>
+<p>This type of civilization is called daiva-varnasrama.</p>
+<p>One of the objectives of the Krsna consciousness movement is to establish this daiva-varnasrama, but not to encourage so-called varnasrama without scientifically organized endeavor by human society.</p>
+
+
+
+<p><strong>7.14.11</strong></p>
+<p>asvaghante ’vasayibhyah</p>
+<p>kaman samvibhajed yatha</p>
+<p>apy ekam atmano daram</p>
+<p>nrnam svatva-graho yatah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>a—even up to; sva—the dog; agha—sinful animals or living entities; ante avasayibhyah—unto the candalas, the lowest of men (dog-eaters and hog-eaters); kaman—the necessities of life; samvibhajet—should divide; yatha—as much as (deserved); api—even; ekam—one; atmanah—own; daram—the wife; nrnam—of the people in general; svatva-grahah—the wife is accepted as being identical with one’s self; yatah—because of which.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Dogs, fallen persons and untouchables, including candalas (dog-eaters), should all be maintained with their proper necessities, which should be contributed by the householders.</p>
+<p>Even one’s wife at home, with whom one is most intimately attached, should be offered for the reception of guests and people in general.</p>
+<p><strong>PURPORT</strong></p>
+<p>Although in modern society the dog is accepted as part of one’s household paraphernalia, in the Vedic system of household life the dog is untouchable; as mentioned here, a dog may be maintained with proper food, but it cannot be allowed to enter one’s house, what to speak of the bedroom.</p>
+<p>Outcastes or untouchable candalas should also be provided with the necessities for life.</p>
+<p>The word used in this connection is yatha, which means as much as deserved The outcastes should not be given money with which to indulge in more than they need, for otherwise they will misuse it.</p>
+<p>At the present moment, for example, low-class men are generally paid quite amply, but instead of using their money to cultivate knowledge and advance in life, such low-class men use their extra money for wine-drinking and similar sinful activities.</p>
+<p>As mentioned in Bhagavad-gita (4.13), catur-varnyam maya srstam guna-karma-vibhagasah: there must be four divisions of human society according to the work and qualities of men.</p>
+<p>Men with the lowest qualities cannot do any work that requires higher intelligence.</p>
+<p>However, although such a division of men must exist according to their quality and work, it is suggested herewith that everyone must have the necessities of life.</p>
+<p>The communists of the present day are in favor of supplying the necessities of life to everyone, but they consider only the human beings and not the lower animals.</p>
+<p>The Bhagavatam’s principles are so broad, however, that it recommends that the necessities of life be supplied to everyone, man or animal, regardless of good or bad qualities.</p>
+<p>The idea of giving even one’s wife to the service of the public is that one’s intimate relationship with his wife, or one’s excessive attachment for his wife, by which one thinks his wife to be his better half or to be identical with himself, must gradually be given up.</p>
+<p>As formerly suggested, the idea of ownership, even of one’s family, must be abandoned.</p>
+<p>The dream of material life is the cause of bondage in the cycle of birth and death, and therefore one should give up this dream.</p>
+<p>Consequently, in the human form of life one’s attachment for his wife should be given up, as suggested herein.</p>
+
+
+
+<p><strong>7.14.12</strong></p>
+<p>jahyad yad-arthe svan pranan</p>
+<p>hanyad va pitaram gurum</p>
+<p>tasyam svatvam striyam jahyad</p>
+<p>yas tena hy ajito jitah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>jahyat—one may give up; yat-arthe—for whom; svan—one’s own; pranan—life; hanyat—one may kill; va—or; pitaram—the father; gurum—the teacher or spiritual master; tasyam—unto her; svatvam—ownership; striyam—unto the wife; jahyat—one must give up; yah—one who (the Supreme Personality of Godhead); tena—by him; hi—indeed; ajitah—cannot be conquered; jitah—conquered.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>One so seriously considers one’s wife to be his own that he sometimes kills himself for her or kills others, including even his parents or his spiritual master or teacher.</p>
+<p>Therefore if one can give up his attachment to such a wife, he conquers the Supreme Personality of Godhead, who is never conquered by anyone.</p>
+<p><strong>PURPORT</strong></p>
+<p>Every husband is too much attached to his wife.</p>
+<p>Therefore, to give up one’s connection with his wife is extremely difficult, but if one can somehow or other give it up for the service of the Supreme Personality of Godhead, then the Lord Himself, although not able to be conquered by anyone, comes very much under the control of the devotee.</p>
+<p>And if the Lord is pleased with a devotee, what is there that is unobtainable? Why should one not give up his affection for his wife and children and take shelter of the Supreme Personality of Godhead? Where is the loss of anything material? Householder life means attachment for one’s wife, whereas sannyasa means detachment from one’s wife and attachment to Krsna.</p>
+
+
+
+<p><strong>7.14.13</strong></p>
+<p>krmi-vid-bhasma-nisthantam</p>
+<p>kvedam tuccham kalevaram</p>
+<p>kva tadiya-ratir bharya</p>
+<p>kvayam atma nabhas-chadih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>krmi—insects, germs; vit—stool; bhasma—ashes; nistha—attachment; antam—at the end; kva—what is; idam—this (body); tuccham—very insignificant; kalevaram—material tabernacle; kva—what is that; tadiya-ratih—attraction for that body; bharya—wife; kva ayam—what is the value of this body; atma—the Supreme Soul; nabhah-chadih—all-pervading like the sky.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Through proper deliberation, one should give up attraction to his wife’s body because that body will ultimately be transformed into small insects, stool or ashes.</p>
+<p>What is the value of this insignificant body? How much greater is the Supreme Being, who is all-pervading like the sky?</p>
+<p><strong>PURPORT</strong></p>
+<p>Here also, the same point is stressed: one should give up attachment for his wife—or, in other words, for sex life.</p>
+<p>If one is intelligent, he can think of his wife’s body as nothing but a lump of matter that will ultimately be transformed into small insects, stool or ashes.</p>
+<p>In different societies there are different ways of dealing with the human body at the time of the funeral ceremony.</p>
+<p>In some societies the body is given to the vultures to be eaten, and therefore the body ultimately turns to vulture stool.</p>
+<p>Sometimes the body is merely abandoned, and in that case the body is consumed by small insects.</p>
+<p>In some societies the body is immediately burned after death, and thus it becomes ashes.</p>
+<p>In any case, if one intelligently considers the constitution of the body and the soul beyond it, what is the value of the body? Antavanta ime deha nityasyoktah saririnah: (Bg.2.18) the body may perish at any moment, but the soul is eternal.</p>
+<p>If one gives up attachment for the body and increases his attachment for the spirit soul, his life is successful.</p>
+<p>It is merely a matter of deliberation.</p>
+
+
+
+<p><strong>7.14.14</strong></p>
+<p>siddhair yajnavasistarthaih</p>
+<p>kalpayed vrttim atmanah</p>
+<p>sese svatvam tyajan prajnah</p>
+<p>padavim mahatam iyat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>siddhaih—things obtained by the grace of the Lord; yajna-avasista-arthaih—things obtained after a sacrifice is offered to the Lord or after the recommended panca-suna yajna is performed; kalpayet—one should consider; vrttim—the means of livelihood; atmanah—for the self; sese—at the end; svatvam—so-called proprietorship over one’s wife, children, home, business and so on; tyajan—giving up; prajnah—those who are wise; padavim—the position; mahatam—of the great personalities who are fully satisfied in spiritual consciousness; iyat—should achieve.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>An intelligent person should be satisfied with eating prasada (food offered to the Lord) or with performing the five different kinds of yajna (panca-suna).</p>
+<p>By such activities, one can give up attachment for the body and so-called proprietorship with reference to the body.</p>
+<p>When one is able to do this, he is firmly fixed in the position of a mahatma.</p>
+<p><strong>PURPORT</strong></p>
+<p>Nature already has an arrangement to feed us.</p>
+<p>By the order of the Supreme Personality of Godhead, there is an arrangement for eatables for every living entity within the 8,400,000 forms of life.</p>
+<p>Eko bahunam yo vidadhati kaman.</p>
+<p>Every living entity has to eat something, and in fact the necessities for his life have already been provided by the Supreme Personality of Godhead.</p>
+<p>The Lord has provided food for both the elephant and the ant.</p>
+<p>All living beings are living at the cost of the Supreme Lord, and therefore one who is intelligent should not work very hard for material comforts.</p>
+<p>Rather, one should save his energy for advancing in Krsna consciousness.</p>
+<p>All created things in the sky, in the air, on land and in the sea belong to the Supreme Personality of Godhead, and every living being is provided with food.</p>
+<p>Therefore one should not be very much anxious about economic development and unnecessarily waste time and energy with the risk of falling down in the cycle of birth and death.</p>
+
+
+
+<p><strong>7.14.15</strong></p>
+<p>devan rsin nr-bhutani</p>
+<p>pitrn atmanam anvaham</p>
+<p>sva-vrttyagata-vittena</p>
+<p>yajeta purusam prthak</p>
+<p><strong>SYNONYMS</strong></p>
+<p>devan—unto the demigods; rsin—unto the great sages; nr—unto human society; bhutani—unto the living entities in general; pitrn—unto the forefathers; atmanam—one’s self or the Supreme Self; anvaham—daily; sva-vrttya—by one’s means of livelihood; agata-vittena—money that automatically comes; yajeta—one should worship; purusam—the person situated in everyone’s heart; prthak—separately.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Every day, one should worship the Supreme Being who is situated in everyone’s heart, and on this basis one should separately worship the demigods, the saintly persons, ordinary human beings and living entities, one’s forefathers and one’s self.</p>
+<p>In this way one is able to worship the Supreme Being in the core of everyone’s heart.</p>
+
+
+
+<p><strong>7.14.16</strong></p>
+<p>yarhy atmano ’dhikaradyah</p>
+<p>sarvah syur yajna-sampadah</p>
+<p>vaitanikena vidhina</p>
+<p>agni-hotradina yajet</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yarhi—when; atmanah—of one’s self; adhikara-adyah—things possessed by him under full control; sarvah—everything; syuh—becomes; yajna-sampadah—paraphernalia for performing yajna, or the means for pleasing the Supreme Personality of Godhead; vaitanikena—with authorized books that direct the performance of yajna; vidhina—according to regulative principles; agni-hotra-adina—by offering sacrifices to the fire, etc.; yajet—one should worship the Supreme Personality of Godhead.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When one is enriched with wealth and knowledge which are under his full control and by means of which he can perform yajna or please the Supreme Personality of Godhead, one must perform sacrifices, offering oblations to the fire according to the directions of the sastras.</p>
+<p>In this way one should worship the Supreme Personality of Godhead.</p>
+<p><strong>PURPORT</strong></p>
+<p>If a grhastha, or householder, is sufficiently educated in Vedic knowledge and has become sufficiently rich to offer worship to please the Supreme Personality of Godhead, he must perform yajnas as directed by the authorized scriptures.</p>
+<p>Bhagavad-gita (3.9) clearly says, yajnarthat karmano ’nyatra loko ’yam karma-bandhanah: everyone may be engaged in his occupational duties, but the result of these duties should be offered for sacrifice to satisfy the Supreme Lord.</p>
+<p>If one is fortunate enough to possess transcendental knowledge as well as the money with which to perform sacrifices, one must do it according to the directions given in the sastras.</p>
+<p>Srimad-Bhagavatam (12.3.52):</p>
+<p>krte yad dhyayato visnum</p>
+<p>tretayam yajato makhaih</p>
+<p>dvapare paricaryayam</p>
+<p>kalau tad dhari-kirtanat</p>
+<p>The entire Vedic civilization aims at satisfying the Supreme Personality of Godhead.</p>
+<p>This was possible in Satya-yuga by meditation upon the Supreme Lord within the core of one’s heart and in Treta-yuga by the performance of costly yajnas.</p>
+<p>The same goal could be achieved in Dvapara-yuga by worship of the Lord in the temple, and in this age of Kali one can achieve the same goal by performing sankirtana-yajna.</p>
+<p>Therefore one who has education and wealth must use them to satisfy the Supreme Personality of Godhead by helping the sankirtana movement that has already begun—the Hare Krsna movement, or Krsna consciousness movement.</p>
+<p>All educated and wealthy persons must join this movement, since money and education are meant for service to the Supreme Personality of Godhead.</p>
+<p>If money and education are not engaged in the service of the Lord, these valuable assets must be engaged in the service of maya.</p>
+<p>The education of so-called scientists, philosophers and poets is now engaged in the service of maya, and the wealth of the rich is also engaged in maya’s service.</p>
+<p>The service of maya, however, creates a chaotic condition in the world.</p>
+<p>Therefore the wealthy man and the educated man should sacrifice their knowledge and opulence by dedicating them for the satisfaction of the Supreme Lord and joining this sankirtana movement (yajnaih sankirtana-prayair yajanti hi sumedhasah (SB 11.5.32)).</p>
+
+
+
+<p><strong>7.14.17</strong></p>
+<p>na hy agni-mukhato ’yam vai</p>
+<p>bhagavan sarva-yajna-bhuk</p>
+<p>ijyeta havisa rajan</p>
+<p>yatha vipra-mukhe hutaih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—not; hi—indeed; agni—fire; mukhatah—from the mouth or the flames; ayam—this; vai—certainly; bhagavan—Lord Sri Krsna; sarva-yajna-bhuk—the enjoyer of the results of all kinds of sacrifices; ijyeta—is worshiped; havisa—by offering of clarified butter; rajan—O King; yatha—as much as; vipra-mukhe—through the mouth of a brahmana; hutaih—by offering him first-class food.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Supreme Personality of Godhead, Sri Krsna, is the enjoyer of sacrificial offerings.</p>
+<p>Yet although His Lordship eats the oblations offered in the fire, my dear King, He is still more satisfied when nice food made of grains and ghee is offered to Him through the mouths of qualified brahmanas.</p>
+<p><strong>PURPORT</strong></p>
+<p>As stated in Bhagavad-gita (3.9), yajnarthat karmano ’nyatra loko ’yam karma-bandhanah: all fruitive activities should be performed for sacrifice, which should be directed toward pleasing Krsna.</p>
+<p>As stated elsewhere in Bhagavad-gita (5.29), bhoktaram yajna-tapasam sarva-loka-mahesvaram: He is the Supreme Lord and enjoyer of everything.</p>
+<p>However, although sacrifice may be offered to please Krsna, He is more pleased when grains and ghee, instead of being offered in the fire, are prepared as prasada and distributed, first to the brahmanas and then to others.</p>
+<p>This system pleases Krsna more than anything else.</p>
+<p>Furthermore, at the present time there is very little chance to offer sacrifices by pouring oblations of food grains and ghee into the fire.</p>
+<p>Especially in India, there is practically no ghee; for everything that should be done with ghee, people use a certain type of oil preparation.</p>
+<p>Oil, however, is never recommended for offering in a sacrificial fire.</p>
+<p>In Kali-yuga, the available quantity of food grains and ghee is gradually diminishing, and people are embarrassed that they cannot produce sufficient ghee and food grains.</p>
+<p>Under the circumstances, the sastras enjoin, yajnaih sankirtana-prayair yajanti hi sumedhasah: (SB 11.5.32) in this age, those who are intellectual offer yajna, or perform sacrifices, through the sankirtana movement.</p>
+<p>Everyone should join the sankirtana movement, offering to the fire of this movement the oblations of his knowledge and riches.</p>
+<p>In our sankirtana movement, or Hare Krsna movement, we offer sumptuous prasada to the Deity and later distribute the same prasada to the brahmanas, the Vaisnavas and then to the people in general.</p>
+<p>Krsna’s prasada is offered to the brahmanas and Vaisnavas, and the prasada of the brahmanas and Vaisnavas is offered to the general populace.</p>
+<p>This kind of sacrifice—chanting of the Hare Krsna mantra and distribution of prasada—is the most perfect and bona fide way of offering sacrifice for the pleasure of Yajna, or Visnu.</p>
+
+
+
+<p><strong>7.14.18</strong></p>
+<p>tasmad brahmana-devesu</p>
+<p>martyadisu yatharhatah</p>
+<p>tais taih kamair yajasvainam</p>
+<p>ksetra-jnam brahmanan anu</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasmat—therefore; brahmana-devesu—through the brahmanas and the demigods; martya-adisu—through ordinary human beings and other living entities; yatha-arhatah—according to your ability; taih taih—with all those; kamaih—various objects of enjoyment such as sumptuous food, flower garlands, sandalwood paste, etc.; yajasva—you should worship; enam—this; ksetra-jnam—Supreme Lord situated in the hearts of all beings; brahmanan—the brahmanas; anu—after.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Therefore, my dear King, first offer prasada unto the brahmanas and the demigods, and after sumptuously feeding them you may distribute prasada to other living entities according to your ability.</p>
+<p>In this way you will be able to worship all living entities—or, in other words, the supreme living entity within every living entity.</p>
+<p><strong>PURPORT</strong></p>
+<p>To distribute prasada to all living entities, the process is that we must first offer prasada to the brahmanas and the Vaisnavas, for the demigods are represented by the brahmanas.</p>
+<p>In this way the Supreme Personality of Godhead, who is situated in everyone’s heart, will be worshiped.</p>
+<p>This is the Vedic system of offering prasada.</p>
+<p>Whenever there is a ceremony for distribution of prasada, the prasada is offered first to the brahmanas, then to the children and old men, then to the women, and then to animals like dogs and other domestic animals.</p>
+<p>When it is said that Narayana, the Supreme Being, is situated in everyone’s heart, this does not mean that everyone has become Narayana or that a particular poor man has become Narayana.</p>
+<p>Such a conclusion is rejected herein.</p>
+
+
+
+<p><strong>7.14.19</strong></p>
+<p>kuryad apara-paksiyam</p>
+<p>masi praustha-pade dvijah</p>
+<p>sraddham pitror yatha-vittam</p>
+<p>tad-bandhunam ca vittavan</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kuryat—one should perform; apara-paksiyam—during the fortnight of the dark moon; masi—in the month of Asvina (October–November); praustha-pade—in the month of Bhadra (August–September); dvijah—twice-born; sraddham—oblations; pitroh—unto the forefathers; yatha-vittam—according to one’s means of income; tat-bandhunam ca—as well as relatives of forefathers; vitta-van—one who is sufficiently rich.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>A brahmana who is sufficiently rich must offer oblations to the forefathers during the dark-moon fortnight in the latter part of the month of Bhadra.</p>
+<p>Similarly, he should offer oblations to the relatives of the forefathers during the mahalaya ceremonies in the month of Asvina.</p>
+
+
+
+<p><strong>7.14.20-23</strong></p>
+<p>ayane visuve kuryad</p>
+<p>vyatipate dina-ksaye</p>
+<p>candradityoparage ca</p>
+<p>dvadasyam sravanesu ca</p>
+<p>trtiyayam sukla-pakse</p>
+<p>navamyam atha kartike</p>
+<p>catasrsv apy astakasu</p>
+<p>hemante sisire tatha</p>
+<p>maghe ca sita-saptamyam</p>
+<p>magha-raka-samagame</p>
+<p>rakaya canumatya ca</p>
+<p>masarksani yutany api</p>
+<p>dvadasyam anuradha syac</p>
+<p>chravanas tisra uttarah</p>
+<p>tisrsv ekadasi vasu</p>
+<p>janmarksa-srona-yoga-yuk</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ayane—on the day when the sun begins to move north, or Makara-sankranti, and on the day when the sun begins to move south, or Karkata-sankranti; visuve—on the Mesa-sankranti and on the Tula-sankranti; kuryat—one should perform; vyatipate—in the yoga named Vyatipata; dina-ksaye—on that day in which three tithis are combined; candra-aditya-uparage—at the time of the eclipse of either the moon or the sun; ca—and also; dvadasyam sravanesu—on the twelfth lunar day and in the naksatra named Sravana; ca—and; trtiyayam—on the Aksaya-trtiya day; sukla-pakse—in the bright fortnight of the month; navamyam—on the ninth lunar day; atha—also; kartike—in the month of Kartika (October–November); catasrsu—on the four; api—also; astakasu—on the Astakas; hemante—before the winter season; sisire—in the winter season; tatha—and also; maghe—in the month of Magha (January–February); ca—and; sita-saptamyam—on the seventh lunar day of the bright fortnight; magha-raka-samagame—in the conjunction of Magha-naksatra and the full-moon day; rakaya—with a day of the completely full moon; ca—and; anumatya—with a full-moon day when the moon is slightly less than completely full; ca—and; masa-rksani—the naksatras that are the sources of the names of the various months; yutani—are conjoined; api—also; dvadasyam—on the twelfth lunar day; anuradha—the naksatra named Anuradha; syat—may occur; sravanah—the naksatra named Sravana; tisrah—the three (naksatras); uttarah—the naksatras named Uttara (Uttara-phalguni, Uttarasadha and Uttara-bhadrapada); tisrsu—on three; ekadasi—the eleventh lunar day; va—or; asu—on these; janma-rksa—of one’s own janma-naksatra, or birth star; srona—of Sravana-naksatra; yoga—by a conjunction; yuk—having.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>One should perform the sraddha ceremony on the Makara-sankranti (the day when the sun begins to move north) or on the Karkata-sankranti (the day when the sun begins to move south).</p>
+<p>One should also perform this ceremony on the Mesa-sankranti day and the Tula-sankranti day, in the yoga named Vyatipata, on that day in which three lunar tithis are conjoined, during an eclipse of either the moon or the sun, on the twelfth lunar day, and in the Sravana-naksatra.</p>
+<p>One should perform this ceremony on the Aksaya-trtiya day, on the ninth lunar day of the bright fortnight of the month of Kartika, on the four astakas in the winter season and cool season, on the seventh lunar day of the bright fortnight of the month of Magha, during the conjunction of Magha-naksatra and the full-moon day, and on the days when the moon is completely full, or not quite completely full, when these days are conjoined with the naksatras from which the names of certain months are derived.</p>
+<p>One should also perform the sraddha ceremony on the twelfth lunar day when it is in conjunction with any of the naksatras named Anuradha, Sravana, Uttara-phalguni, Uttarasadha or Uttara-bhadrapada.</p>
+<p>Again, one should perform this ceremony when the eleventh lunar day is in conjunction with either Uttara-phalguni, Uttarasadha or Uttara-bhadrapada.</p>
+<p>Finally, one should perform this ceremony on days conjoined with one’s own birth star (janma-naksatra) or with Sravana-naksatra.</p>
+<p><strong>PURPORT</strong></p>
+<p>The word ayana means pat or going The six months when the sun moves toward the north are called uttarayana, or the northern path, and the six months when it moves south are called daksinayana, or the southern path.</p>
+<p>These are mentioned in Bhagavad-gita (8.24–25).</p>
+<p>The first day when the sun begins to move north and enter the zodiacal sign of Capricorn is called Makara-sankranti, and the first day when the sun begins to move south and enter the sign of Cancer is called Karkata-sankranti.</p>
+<p>On these two days of the year, one should perform the sraddha ceremony.</p>
+<p>Visuva, or Visuva-sankranti, means Mesa-sankranti, or the day on which the sun enters the sign Aries.</p>
+<p>Tula-sankranti is the day on which the sun enters the sign Libra.</p>
+<p>Both of these days occur only once within a year.</p>
+<p>The word yoga refers to a certain relationship between the sun and moon as they move in the sky.</p>
+<p>There are twenty-seven different degrees of yoga, of which the seventeenth is called Vyatipata.</p>
+<p>On the day when this occurs, one should perform the sraddha ceremony.</p>
+<p>A tithi, or lunar day, consists of the distance between the longitude of the sun and that of the moon.</p>
+<p>Sometimes a tithi is less than twenty-four hours.</p>
+<p>When it starts after sunrise on a certain day and ends before the sunrise of the following day, the previous tithi and the following tithi both touc the twenty-four-hour day between the sunrises.</p>
+<p>This is called tryaha-sparsa, or a day touched by some portion of three tithis.</p>
+<p>Srila Jiva Gosvami has given quotations from many sastras stating that the sraddha ceremony of oblations to the forefathers should not be performed on Ekadasi tithi.</p>
+<p>When the tithi of the death anniversary falls on the Ekadasi day, the sraddha ceremony should be held not on Ekadasi but on the next day, or dvadasi.</p>
+<p>In the Brahma-vaivarta Purana it is said:</p>
+<p>ye kurvanti mahipala</p>
+<p>sraddham caikadasi-dine</p>
+<p>trayas te narakam yanti</p>
+<p>data bhokta ca prerakah</p>
+<p>If one performs the sraddha ceremony of oblations to the forefathers on the Ekadasi tithi, then the performer, the forefathers for whom the sraddha is observed, and the purohita, or the family priest who encourages the ceremony, all go to hell.</p>
+
+
+
+<p><strong>7.14.24</strong></p>
+<p>ta ete sreyasah kala</p>
+<p>nrnam sreyo-vivardhanah</p>
+<p>kuryat sarvatmanaitesu</p>
+<p>sreyo ’mogham tad-ayusah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>te—therefore; ete—all these (descriptions of astronomical calculations); sreyasah—of auspiciousness; kalah—times; nrnam—for human beings; sreyah—auspiciousness; vivardhanah—increase; kuryat—one should perform; sarva-atmana—by other activities (not only the sraddha ceremony); etesu—in these (seasons); sreyah—(causing) auspiciousness; amogham—and success; tat—of a human being; ayusah—of the duration of life.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>All of these seasonal times are considered extremely auspicious for humanity.</p>
+<p>At such times, one should perform all auspicious activities, for by such activities a human being attains success in his short duration of life.</p>
+<p><strong>PURPORT</strong></p>
+<p>When one comes to the human form of life through natural evolution, one must then take the responsibility for further progress.</p>
+<p>As stated in Bhagavad-gita (9.25), yanti deva-vrata devan: one who worships the demigods can be promoted to their planets.</p>
+<p>Yanti mad-yajino ’pi mam: and if one practices devotional service to the Lord, he goes back home, back to Godhead.</p>
+<p>In the human form of life, therefore, one is meant to act auspiciously in order to return home, back to Godhead.</p>
+<p>Devotional service, however, does not depend on material conditions.</p>
+<p>Ahaituky apratihata.</p>
+<p>Of course, for those who are engaged in fruitive activities on the material platform, the times and seasons mentioned above are extremely congenial.</p>
+
+
+
+<p><strong>7.14.25</strong></p>
+<p>esu snanam japo homo</p>
+<p>vratam deva-dvijarcanam</p>
+<p>pitr-deva-nr-bhutebhyo</p>
+<p>yad dattam tad dhy anasvaram</p>
+<p><strong>SYNONYMS</strong></p>
+<p>esu—in all these (seasonal times); snanam—bathing in the Ganges, Yamuna or any other sacred places; japah—chanting; homah—performing fire sacrifices; vratam—executing vows; deva—the Supreme Lord; dvija-arcanam—worshiping the brahmanas or Vaisnavas; pitr—unto the forefathers; deva—demigods; nr—human beings in general; bhutebhyah—and all other living entities; yat—whatever; dattam—offered; tat—that; hi—indeed; anasvaram—permanently beneficial.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>During these periods of seasonal change, if one bathes in the Ganges, in the Yamuna or in another sacred place, if one chants, offers fire sacrifices or executes vows, or if one worships the Supreme Lord, the brahmanas, the forefathers, the demigods and the living entities in general, whatever he gives in charity yields a permanently beneficial result.</p>
+
+
+
+<p><strong>7.14.26</strong></p>
+<p>samskara-kalo jayaya</p>
+<p>apatyasyatmanas tatha</p>
+<p>preta-samstha mrtahas ca</p>
+<p>karmany abhyudaye nrpa</p>
+<p><strong>SYNONYMS</strong></p>
+<p>samskara-kalah—at the proper time indicated for Vedic reformatory performances; jayayah—for the wife; apatyasya—for the children; atmanah—and one’s own self; tatha—as well as; preta-samstha—funeral ceremonies; mrta-ahah—annual death ceremonies; ca—and; karmani—of fruitive activity; abhyudaye—for furtherance; nrpa—O King.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King Yudhisthira, at the time prescribed for reformatory ritualistic ceremonies for one’s self, one’s wife or one’s children, or during funeral ceremonies and annual death ceremonies, one must perform the auspicious ceremonies mentioned above in order to flourish in fruitive activities.</p>
+<p><strong>PURPORT</strong></p>
+
+
+
+<p><strong>7.14.27-28</strong></p>
+<p>atha desan pravaksyami</p>
+<p>dharmadi-sreya-avahan</p>
+<p>sa vai punyatamo desah</p>
+<p>sat-patram yatra labhyate</p>
+<p>bimbam bhagavato yatra</p>
+<p>sarvam etac caracaram</p>
+<p>yatra ha brahmana-kulam</p>
+<p>tapo-vidya-dayanvitam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atha—thereafter; desan—places; pravaksyami—I shall describe; dharma-adi—religious performances, etc.; sreya—auspiciousness; avahan—which can bring; sah—that; vai—indeed; punya-tamah—the most sacred; desah—place; sat-patram—a Vaisnava; yatra—wherein; labhyate—is available; bimbam—the Deity (in the temple); bhagavatah—of the Supreme Personality of Godhead (who is the support); yatra—where; sarvam etat—of this entire cosmic manifestation; cara-acaram—with all the moving and nonmoving living entities; yatra—wherein; ha—indeed; brahmana-kulam—association with brahmanas; tapah—austerities; vidya—education; daya—mercy; anvitam—endowed with.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Narada Muni continued: Now I shall describe the places where religious performances may be well executed.</p>
+<p>Any place where a Vaisnava is available is an excellent place for all auspicious activities.</p>
+<p>The Supreme Personality of Godhead is the support of this entire cosmic manifestation, with all its moving and nonmoving living entities, and the temple where the Deity of the Lord is installed is a most sacred place.</p>
+<p>Furthermore, places where learned brahmanas observe Vedic principles by means of austerity, education and mercy are also most auspicious and sacred.</p>
+<p><strong>PURPORT</strong></p>
+<p>In this verse it is indicated that a Vaisnava temple where the Supreme Personality of Godhead, Krsna, is worshiped, and where Vaisnavas are engaged in the service of the Lord, is the best sacred place for performing any religious ceremonies.</p>
+<p>At the present day, especially in big, big cities, people live in small apartments and are not able to establish a Deity or temple.</p>
+<p>Under the circumstances, therefore, the centers and temples being established by the expanding Krsna consciousness movement are the best sacred places for performing religious ceremonies.</p>
+<p>Although people in general are no longer interested in religious ceremonies or Deity worship, the Krsna consciousness movement gives everyone the chance to advance in spiritual life by becoming Krsna conscious.</p>
+
+
+
+<p><strong>7.14.29</strong></p>
+<p>yatra yatra harer arca</p>
+<p>sa desah sreyasam padam</p>
+<p>yatra gangadayo nadyah</p>
+<p>puranesu ca visrutah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yatra yatra—wherever; hareh—of the Supreme Personality of Godhead, Krsna; arca—the Deity is worshiped; sah—that; desah—place, country or neighborhood; sreyasam—of all auspiciousness; padam—the place; yatra—wherever; ganga-adayah—like the Ganges, Yamuna, Narmada and Kaveri; nadyah—sacred rivers; puranesu—in the puranas (supplementary Vedic literature); ca—also; visrutah—are celebrated.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Auspicious indeed are the places where there is a temple of the Supreme Personality of Godhead, Krsna, in which He is duly worshiped, and also the places where there flow the celebrated sacred rivers mentioned in the Puranas, the supplementary Vedic literatures.</p>
+<p>Anything spiritual done there is certainly very effective.</p>
+<p><strong>PURPORT</strong></p>
+<p>There are many atheists who oppose the worship of the Deity of the Supreme Personality of Godhead in the temple.</p>
+<p>In this verse, however, it is authoritatively stated that any place where the Deity is worshiped is transcendental; it does not belong to the material world.</p>
+<p>It is also said that the forest is in the mode of goodness, and therefore those who want to cultivate spiritual life are advised to go to the forest (vanam gato yad dharim asrayeta (SB 7.5.5)).</p>
+<p>But one should not go to the forest simply to live like a monkey.</p>
+<p>Monkeys and other ferocious animals also live in the forest, but a person who goes to the forest for spiritual culture must accept the lotus feet of the Supreme Personality of Godhead as shelter (vanam gato yad dharim asrayeta (SB 7.5.5)).</p>
+<p>One should not be satisfied simply to go to the forest; one must take shelter of the lotus feet of the Supreme Personality of Godhead.</p>
+<p>In this age, therefore, since it is impossible to go to the forest for spiritual culture, one is recommended to live in the temple community as a devotee, regularly worship the Deity, follow the regulative principles and thus make the place like Vaikuntha.</p>
+<p>The forest may be in goodness, the cities and villages in passion, and the brothels, hotels and restaurants in ignorance, but when one lives in the temple community he lives in Vaikuntha.</p>
+<p>Therefore it is said here, sreyasam padam: it is the best, most auspicious place.</p>
+<p>In many places throughout the world we are constructing communities to give shelter to devotees and worship the Deity in the temple.</p>
+<p>The Deity cannot be worshiped except by devotees.</p>
+<p>Temple worshipers who fail to give importance to the devotees are third class.</p>
+<p>They are kanistha-adhikaris in the lower stage of spiritual life.</p>
+<p>Srimad-Bhagavatam (11.2.47):</p>
+<p>arcayam eva haraye</p>
+<p>pujam yah sraddhayehate</p>
+<p>na tad-bhaktesu canyesu</p>
+<p>sa bhaktah prakrtah smrtah</p>
+<p>A person who is very faithfully engaged in the worship of the Deity in the temple but does not know how to behave toward devotees or people in general is called a prakrta-bhakta, or kanistha-adhikari Therefore, in the temple there must be the Deity of the Lord, and the Lord should be worshiped by the devotees.</p>
+<p>This combination of the devotees and the Deity creates a first-class transcendental place.</p>
+<p>Aside from this, if a grhastha devotee worships the salagrama-sila, or the form of the Deity at home, his home also becomes a very great place.</p>
+<p>It was therefore customary for members of the three higher classes—namely the brahmanas, ksatriyas and vaisyas—to worship the salagrama-sila, or a small Deity of Radha-Krsna or Sita-Rama in each and every home.</p>
+<p>This made everything auspicious.</p>
+<p>But now they have given up the Deity worship.</p>
+<p>Men have become modernized and are consequently indulging in all sorts of sinful activities, and therefore they are extremely unhappy.</p>
+<p>According to Vedic civilization, therefore, the holy places of pilgrimage are considered most sacred, and still there are hundreds and thousands of holy places like Jagannatha Puri, Vrndavana, Hardwar, Ramesvara, Prayaga and Mathura.</p>
+<p>India is the place for worshiping or for cultivating spiritual life.</p>
+<p>The Krsna consciousness movement invites everyone from all over the world, without discrimination as to caste or creed, to come to its centers and cultivate spiritual life perfectly.</p>
+
+
+
+<p><strong>7.14.30-33</strong></p>
+<p>saramsi puskaradini</p>
+<p>ksetrany arhasritany uta</p>
+<p>kuruksetram gaya-sirah</p>
+<p>prayagah pulahasramah</p>
+<p>naimisam phalgunam setuh</p>
+<p>prabhaso ’tha kusa-sthali</p>
+<p>varanasi madhu-puri</p>
+<p>pampa bindu-saras tatha</p>
+<p>narayanasramo nanda</p>
+<p>sita-ramasramadayah</p>
+<p>sarve kulacala rajan</p>
+<p>mahendra-malayadayah</p>
+<p>ete punyatama desa</p>
+<p>harer arcasritas ca ye</p>
+<p>etan desan niseveta</p>
+<p>sreyas-kamo hy abhiksnasah</p>
+<p>dharmo hy atrehitah pumsam</p>
+<p>sahasradhi-phalodayah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>saramsi—lakes; puskara-adini—such as Puskara; ksetrani—sacred places (like Kuruksetra, Gayaksetra and Jagannatha Puri); arha—for worshipable, saintly persons; asritani—places of shelter; uta—celebrated; kuruksetram—a particular sacred place (dharma-ksetra); gaya-sirah—the place known as Gaya, where Gayasura took shelter of the lotus feet of Lord Visnu; prayagah—Allahabad, at the confluence of the two sacred rivers Ganges and Yamuna; pulaha-asramah—the residence of Pulaha Muni; naimisam—the place known as Naimisaranya (near Lucknow); phalgunam—the place where the Phalgu River flows; setuh—Setubandha, where Lord Ramacandra constructed a bridge between India and Lanka; prabhasah—Prabhasaksetra; atha—as well as; kusa-sthali—Dvaravati, or Dvaraka; varanasi—Benares; madhu-puri—Mathura; pampa—a place where there is a lake called Pampa; bindu-sarah—the place where Bindu-sarovara is situated; tatha—there; narayana-asramah—known as Badarikasrama; nanda—the place where the Nanda River flows; sita-rama—of Lord Ramacandra and mother Sita; asrama-adayah—places of shelter like Citrakuta; sarve—all (such places); kulacalah—hilly tracts of land; rajan—O King; mahendra—known as Mahendra; malaya-adayah—and others, like Malayacala; ete—all of them; punya-tamah—extremely sacred; desah—places; hareh—of the Supreme Personality of Godhead; arca-asritah—places where the Deity of Radha-Krsna is worshiped (such as big American cities like New York, Los Angeles and San Francisco, and European cities like London and Paris, or wherever there are centers of Krsna consciousness); ca—as well as; ye—those which; etan desan—all these countries; niseveta—should worship or visit; sreyah-kamah—one who desires auspiciousness; hi—indeed; abhiksnasah—again and again; dharmah—religious activities; hi—from which; atra—in these places; ihitah—performed; pumsam—of the persons; sahasra-adhi—more than a thousand times; phala-udayah—effective.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The sacred lakes like Puskara and places where saintly persons live, like Kuruksetra, Gaya, Prayaga, Pulahasrama, Naimisaranya, the banks of the Phalgu River, Setubandha, Prabhasa, Dvaraka, Varanasi, Mathura, Pampa, Bindu-sarovara, Badarikasrama (Narayanasrama), the places where the Nanda River flows, the places where Lord Ramacandra and mother Sita took shelter, such as Citrakuta, and also the hilly tracts of land known as Mahendra and Malaya—all of these are to be considered most pious and sacred.</p>
+<p>Similarly, places outside India where there are centers of the Krsna consciousness movement and where Radha-Krsna Deities are worshiped must all be visited and worshiped by those who want to be spiritually advanced.</p>
+<p>One who intends to advance in spiritual life may visit all these places and perform ritualistic ceremonies to get results a thousand times better than the results of the same activities performed in any other place.</p>
+<p><strong>PURPORT</strong></p>
+<p>In these verses and in verse twenty-nine, stress is given to one point: harer arcasritas ca ye or harer arca.</p>
+<p>In other words, any place where the Deity of the Supreme Personality of Godhead is worshiped by devotees is most significant.</p>
+<p>The Krsna consciousness movement is giving the population of the entire world a chance to take advantage of Krsna consciousness through the ISKCON centers, where one may perform Deity worship and chant the Hare Krsna maha-mantra and in this way obtain results with effectiveness increased a thousand times.</p>
+<p>This constitutes the best welfare activity for human society.</p>
+<p>This was Sri Caitanya Mahaprabhu’s mission as it was predicted by Him in the Caitanya-bhagavata (Antya4.126):</p>
+<p>prthivite ache yata nagaradi-grama</p>
+<p>sarvatra pracara haibe mora nama</p>
+<p>Sri Caitanya Mahaprabhu wanted the Hare Krsna movement, with installed Deities, to spread to every village and town in the world, so that everyone in the world might take advantage of this movement and become all-auspicious in spiritual life.</p>
+<p>Without spiritual life, nothing is auspicious.</p>
+<p>Moghasa mogha-karmano mogha jnana vicetasah (Bg.9.12).</p>
+<p>No one can become successful in fruitive activities or speculative knowledge without being Krsna conscious.</p>
+<p>As recommended in the sastras, everyone should be very eagerly interested in taking part in the Krsna consciousness movement and understanding the value of spiritual life.</p>
+
+
+
+<p><strong>7.14.34</strong></p>
+<p>patram tv atra niruktam vai</p>
+<p>kavibhih patra-vittamaih</p>
+<p>harir evaika urvisa</p>
+<p>yan-mayam vai caracaram</p>
+<p><strong>SYNONYMS</strong></p>
+<p>patram—the true person to whom charity must be given; tu—but; atra—in the world; niruktam—decided; vai—indeed; kavibhih—by learned scholars; patra-vittamaih—who are expert in finding the actual person to whom charity must be given; harih—the Supreme Personality of Godhead; eva—indeed; ekah—only one; urvi-isa—O King of the earth; yat-mayam—in whom everything is resting; vai—from whom everything is coming; cara-acaram—all that is moving or nonmoving within this universe.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King of the earth, it has been decided by expert, learned scholars that only the Supreme Personality of Godhead, Krsna, in whom all that is moving or nonmoving within this universe is resting and from whom everything is coming, is the best person to whom everything must be given.</p>
+<p><strong>PURPORT</strong></p>
+<p>Whenever we perform some religious act in terms of dharma, artha, kama and moksa, we must perform it according to the time, place and person (kala, desa, patra).</p>
+<p>Narada Muni has already described the desa (place) and kala (time).</p>
+<p>The kala has been described in verses twenty through twenty-four, beginning with the words ayane visuve kuryad vyatipate dina-ksaye.</p>
+<p>And the places for giving charity or performing ritualistic ceremonies have been described in verses thirty through thirty-three, beginning with saramsi puskaradini ksetrany arhasritany uta.</p>
+<p>Now, to whom everything must be given is decided in this verse.</p>
+<p>Harir evaika urvisa yan-mayam vai caracaram.</p>
+<p>The Supreme Personality of Godhead, Krsna, is the root of everything, and therefore He is the best patra, or person, to whom everything must be given.</p>
+<p>In Bhagavad-gita (5.29) it is said:</p>
+<p>bhoktaram yajna-tapasam</p>
+<p>sarva-loka-mahesvaram</p>
+<p>suhrdam sarva-bhutanam</p>
+<p>jnatva mam santim rcchati</p>
+<p>If one wants to enjoy real peace and prosperity, he should give everything to Krsna, who is the real enjoyer, real friend and real proprietor.</p>
+<p>It is therefore said:</p>
+<p>yatha taror mula-nisecanena</p>
+<p>trpyanti tat-skandha-bhujopasakhah</p>
+<p>pranopaharac ca yathendriyanam</p>
+<p>tathaiva sarvarhanam acyutejya</p>
+<p>(Bhag.4.31.14)</p>
+<p>By worshiping or satisfying Acyuta, the Supreme Personality of Godhead, Krsna, one can satisfy everyone, just as one can water the branches, leaves and flowers of a tree simply by watering its root or as one satisfies all the senses of the body by giving food to the stomach.</p>
+<p>Therefore, a devotee simply offers everything to the Supreme Personality of Godhead to receive the best results of charity, religious performances, sense gratification and even liberation (dharma, artha, kama, moksa).</p>
+
+
+
+<p><strong>7.14.35</strong></p>
+<p>devarsy-arhatsu vai satsu</p>
+<p>tatra brahmatmajadisu</p>
+<p>rajan yad agra-pujayam</p>
+<p>matah patratayacyutah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>deva-rsi—among the demigods and great saintly persons, including Narada Muni; arhatsu—the most venerable and worshipable personalities; vai—indeed; satsu—the great devotees; tatra—there (at the Rajasuya-yajna); brahma-atma-jadisu—and the sons of Lord Brahma (such as Sanaka, Sanandana, Sanat and Sanatana); rajan—O King; yat—from whom; agra-pujayam—the first to be worshiped; matah—decision; patrataya—selected as the best person to preside over the Rajasuya-yajna; acyutah—Krsna.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King Yudhisthira, the demigods, many great sages and saints including even the four sons of Lord Brahma, and I myself were present at your Rajasuya sacrificial ceremony, but when there was a question of who should be the first person worshiped, everyone decided upon Lord Krsna, the Supreme Person.</p>
+<p><strong>PURPORT</strong></p>
+<p>This is a reference to the Rajasuya sacrifice performed by Maharaja Yudhisthira.</p>
+<p>In that meeting there was a great turmoil over selecting the best person to be worshiped first.</p>
+<p>Everyone decided to worship Sri Krsna.</p>
+<p>The only protest came from Sisupala, and because of his vehement opposition he was killed by the Supreme Personality of Godhead.</p>
+
+
+
+<p><strong>7.14.36</strong></p>
+<p>jiva-rasibhir akirna</p>
+<p>anda-kosanghripo mahan</p>
+<p>tan-mulatvad acyutejya</p>
+<p>sarva-jivatma-tarpanam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>jiva-rasibhih—by millions and millions of living entities; akirnah—filled up or spread over; anda-kosa—the whole universe; anghripah—like a tree; mahan—very, very great; tat-mulatvat—because of being the root of this tree; acyuta-ijya—worship of the Supreme Personality of Godhead; sarva—of all; jiva-atma—living entities; tarpanam—satisfaction.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The entire universe, which is full of living entities, is like a tree whose root is the Supreme Personality of Godhead, Acyuta (Krsna).</p>
+<p>Therefore simply by worshiping Lord Krsna one can worship all living entities.</p>
+<p><strong>PURPORT</strong></p>
+<p>In Bhagavad-gita (10.8) the Lord says:</p>
+<p>aham sarvasya prabhavo</p>
+<p>mattah sarvam pravartate</p>
+<p>iti matva bhajante mam</p>
+<p>budha bhava-samanvitah</p>
+<p>I am the source of all spiritual and material worlds.</p>
+<p>Everything emanates from Me.</p>
+<p>The wise who perfectly know this engage in My devotional service and worship Me with all their hearts People are very much anxious to give service to other living entities, especially to the poor, but although they have manufactured many ways to give such help, actually they are expert in killing the poor living entities.</p>
+<p>This sort of service or mercy is not recommended in the Vedic wisdom.</p>
+<p>As stated in a previous verse, it has been decided (niruktam) by expert saintly persons that Krsna is the root of everything and that worshiping Krsna is worshiping everyone, just as supplying water to the root of a tree means satisfying all of its branches and twigs.</p>
+<p>Another point is that this universe is full of living entities from top to bottom, on every planet (jiva-rasibhir akirnah).</p>
+<p>Modern scientists and so-called scholars think that there are no living entities on planets other than this one.</p>
+<p>Recently they have said that they have gone to the moon but did not find any living entities there.</p>
+<p>But Srimad-Bhagavatam and the other Vedic literatures do not agree with this foolish conception.</p>
+<p>There are living entities everywhere, not only one or two but jiva-rasibhih—many millions of living entities.</p>
+<p>Even on the sun there are living entities, although it is a fiery planet.</p>
+<p>The chief living entity on the sun is called Vivasvan (imam vivasvate yogam proktavan aham avyayam (Bg.4.1)).</p>
+<p>All the different planets are filled with different types of living entities according to different living conditions.</p>
+<p>To suggest that only this planet is filled with living entities and that others are vacant is foolish.</p>
+<p>This betrays a lack of real knowledge.</p>
+
+
+
+<p><strong>7.14.37</strong></p>
+<p>purany anena srstani</p>
+<p>nr-tiryag-rsi-devatah</p>
+<p>sete jivena rupena</p>
+<p>puresu puruso hy asau</p>
+<p><strong>SYNONYMS</strong></p>
+<p>purani—residential places or bodies; anena—by Him (the Supreme Personality of Godhead); srstani—among those creations; nr—man; tiryak—other than human beings (animals, birds, etc); rsi—saintly persons; devatah—and demigods; sete—lies down; jivena—with the living entities; rupena—in the form of Paramatma; puresu—within these residential places or bodies; purusah—the Supreme Lord; hi—indeed; asau—He (the Personality of Godhead).</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Supreme Personality of Godhead has created many residential places like the bodies of human beings, animals, birds, saints and demigods.</p>
+<p>In all of these innumerable bodily forms, the Lord resides with the living being as Paramatma.</p>
+<p>Thus He is known as the purusavatara.</p>
+<p><strong>PURPORT</strong></p>
+<p>In Bhagavad-gita (18.61) it is said:</p>
+<p>isvarah sarva-bhutanam</p>
+<p>hrd-dese ’rjuna tisthati</p>
+<p>bhramayan sarva-bhutani</p>
+<p>yantrarudhani mayaya</p>
+<p>The Supreme Lord is situated in everyone’s heart, O Arjuna, and is directing the wanderings of all living entities, who are seated as on a machine, made of the material energy The living entity, who is part and parcel of the Supreme Personality of Godhead, exists on the mercy of the Lord, who is always with him in any form of body.</p>
+<p>The living entity desires a particular type of material enjoyment, and thus the Lord supplies him with a body, which is like a machine.</p>
+<p>Just to keep him alive in that body, the Lord remains with him as the purusa (Ksirodakasayi Visnu).</p>
+<p>Brahma-samhita (5.35):</p>
+<p>eko ’py asau racayitum jagad-anda-kotim</p>
+<p>yac-chaktir asti jagad-anda-caya yad-antah</p>
+<p>andantara-stha-paramanu-cayantara-stham</p>
+<p>govindam adi-purusam tam aham bhajami</p>
+<p>I worship the Personality of Godhead, Govinda, who enters the existence of every universe and every atom by one of His plenary portions and thus manifests His infinite energy throughout the material creation The living entity, being part and parcel of the Lord, is known as jiva.</p>
+<p>The Supreme Lord purusa remains with the jiva to enable him to enjoy material facilities.</p>
+
+
+
+<p><strong>7.14.38</strong></p>
+<p>tesv eva bhagavan rajams</p>
+<p>taratamyena vartate</p>
+<p>tasmat patram hi puruso</p>
+<p>yavan atma yatheyate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tesu—among the different types of bodies (demigod, human, animal, bird, etc.); eva—indeed; bhagavan—the Supreme Personality of Godhead in His Paramatma feature; rajan—O King; taratamyena—comparatively, more or less; vartate—is situated; tasmat—therefore; patram—the Supreme Person; hi—indeed; purusah—Paramatma; yavan—as far as; atma—the degree of understanding; yatha—development of austerity and penance; iyate—is manifest.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King Yudhisthira, the Supersoul in every body gives intelligence to the individual soul according to his capacity for understanding.</p>
+<p>Therefore the Supersoul is the chief within the body.</p>
+<p>The Supersoul is manifested to the individual soul according to the individual’s comparative development of knowledge, austerity, penance and so on.</p>
+<p><strong>PURPORT</strong></p>
+<p>In Bhagavad-gita (15.15) it is said, mattah smrtir jnanam apohanam ca: the Supreme Personality of Godhead in His localized aspect gives intelligence to the individual soul as far as he is able to grasp it.</p>
+<p>Therefore we find the individual soul in different high and low positions.</p>
+<p>A living entity with the body of a bird or beast cannot take instructions from the Supreme Soul as adequately as an advanced human being.</p>
+<p>Thus there are gradations of bodily forms.</p>
+<p>In human society, the perfect brahmana is supposed to be the most advanced in spiritual consciousness, and further advanced than the brahmana is the Vaisnava.</p>
+<p>Therefore the best persons are the Vaisnavas and Visnu.</p>
+<p>When charity is to be given, one should take instruction from Bhagavad-gita (17.20):</p>
+<p>datavyam iti yad danam</p>
+<p>diyate ’nupakarine</p>
+<p>dese kale ca patre ca</p>
+<p>tad danam sattvikam smrtam</p>
+<p>That gift which is given out of duty, at the proper time and place, to a worthy person, and without expectation of return, is considered to be charity in the mode of goodness One should give charity to the brahmanas and Vaisnavas, for thus the Supreme Personality of Godhead will be worshiped.</p>
+<p>In this connection, Srila Madhvacarya comments:</p>
+<p>brahmadi-sthavarantesu</p>
+<p>na viseso hareh kvacit</p>
+<p>vyakti-matra-visesena</p>
+<p>taratamyam vadanti ca</p>
+<p>Beginning from Brahma down to the ant, everyone is conducted by the Supersoul (isvarah sarva-bhutanam hrd-dese ’rjuna tisthati (Bg.18.61)).</p>
+<p>But because of a particular person’s advancement in spiritual consciousness, he is considered to be important.</p>
+<p>Therefore, the brahmana Vaisnava is important, and, above all, the Supersoul, the Personality of Godhead, is the most important personality.</p>
+
+
+
+<p><strong>7.14.39</strong></p>
+<p>drstva tesam mitho nrnam</p>
+<p>avajnanatmatam nrpa</p>
+<p>tretadisu harer arca</p>
+<p>kriyayai kavibhih krta</p>
+<p><strong>SYNONYMS</strong></p>
+<p>drstva—after practically seeing; tesam—among the brahmanas and Vaisnavas; mithah—mutually; nrnam—of human society; avajnana-atmatam—the mutually disrespectful behavior; nrpa—O King; treta-adisu—beginning from Treta-yuga; hareh—of the Supreme Personality of Godhead; arca—the Deity worship (in the temple); kriyayai—for the purpose of introducing the method of worship; kavibhih—by learned persons; krta—has been done.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear King, when great sages and saintly persons saw mutually disrespectful dealings at the beginning of Treta-yuga, Deity worship in the temple was introduced with all paraphernalia.</p>
+<p><strong>PURPORT</strong></p>
+<p>Srimad-Bhagavatam (12.3.52):</p>
+<p>krte yad dhyayato visnum</p>
+<p>tretayam yajato makhaih</p>
+<p>dvapare paricaryayam</p>
+<p>kalau tad dhari-kirtanat</p>
+<p>Whatever result one obtained in Satya-yuga by meditating on Visnu, in Treta-yuga by performing sacrifices and in Dvapara-yuga by serving the Lord’s lotus feet one can also obtain in Kali-yuga simply by chanting the Hare Krsna maha-mantra In Satya-yuga, every person was spiritually advanced, and there was no envy between great personalities.</p>
+<p>Gradually, however, because of material contamination with the advance of the ages, disrespectful dealings appeared even among brahmanas and Vaisnavas.</p>
+<p>Actually, an advanced Vaisnava is to be respected more than Visnu.</p>
+<p>As stated in the Padma Purana, aradhananam sarvesam visnor aradhanam param: of all kinds of worship, worship of Lord Visnu is the best.</p>
+<p>Tasmat parataram devi tadiyanam samarcanam: and recommended more than worship of Visnu is worship of the Vaisnava.</p>
+<p>Formerly, all activities were performed in connection with Visnu, but after Satya-yuga there were symptoms of disrespectful dealings among Vaisnavas.</p>
+<p>Srila Bhaktivinoda Thakura has said that a Vaisnava is he who has helped others become Vaisnavas.</p>
+<p>An example of one who has converted many others into Vaisnavas is Narada Muni.</p>
+<p>A powerful Vaisnava who has converted others into Vaisnavas is to be worshiped, but because of material contamination, sometimes such an exalted Vaisnava is disrespected by other, minor Vaisnavas.</p>
+<p>When great saintly persons saw this contamination, they introduced worship of the Deity in the temple.</p>
+<p>This began in Treta-yuga and was especially prominent in Dvapara-yuga (dvapare paricaryayam).</p>
+<p>But in Kali-yuga, worship of the Deity is being neglected.</p>
+<p>Therefore chanting of the Hare Krsna mantra is more powerful than Deity worship.</p>
+<p>Sri Caitanya Mahaprabhu set a practical example in that He did not establish any temples or Deities, but He profusely introduced the sankirtana movement.</p>
+<p>Therefore Krsna consciousness preachers should give more stress to the sankirtana movement, especially by distributing transcendental literature more and more.</p>
+<p>This helps the sankirtana movement.</p>
+<p>Whenever there is a possibility to worship the Deity, we may establish many centers, but generally we should give more stress to the distribution of transcendental literature, for this will be more effective in converting people to Krsna consciousness.</p>
+<p>Srimad-Bhagavatam (11.2.47):</p>
+<p>arcayam eva haraye</p>
+<p>pujam yah sraddhayehate</p>
+<p>na tad-bhaktesu canyesu</p>
+<p>sa bhaktah prakrtah smrtah</p>
+<p>A person who is very faithfully engaged in the worship of the Deity in the temple but does not know how to behave toward devotees or people in general is called a prakrta-bhakta, or kanistha-adhikari A prakrta devotee, or neophyte devotee, is still on the material platform.</p>
+<p>He certainly engages in worshiping the Deity, but he cannot appreciate the activities of a pure devotee.</p>
+<p>It has actually been seen that even an authorized devotee who is engaged in the service of the Lord by preaching the mission of Krsna consciousness is sometimes criticized by neophyte devotees.</p>
+<p>Such neophytes are described by Visvanatha Cakravarti Thakura: sarva-prani-sammananasamarthanam avajna spardhadimatam tu bhagavat-pratimaiva patram ity aha.</p>
+<p>For those who cannot properly appreciate the activities of authorized devotees, Deity worship is the only way for spiritual advancement.</p>
+<p>In the Caitanya-caritamrta (Antya7.11) it is clearly said, krsna-sakti vina nahe tara pravartana: without being authorized by Krsna, one cannot preach the holy name of the Lord throughout the entire world.</p>
+<p>Nevertheless, a devotee who does so is criticized by neophyte devotees, kanistha-adhikaris, who are on the lower stages of devotional service.</p>
+<p>For them, Deity worship is strongly recommended.</p>
+
+
+
+<p><strong>7.14.40</strong></p>
+<p>tato ’rcayam harim kecit</p>
+<p>samsraddhaya saparyaya</p>
+<p>upasata upastapi</p>
+<p>narthada purusa-dvisam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—thereafter; arcayam—the Deity; harim—who is the Supreme Personality of Godhead (the form of the Lord being identical with the Lord); kecit—someone; samsraddhaya—with great faith; saparyaya—and with the required paraphernalia; upasate—worships; upasta api—although worshiping the Deity (with faith and regularity); na—not; artha-da—beneficial; purusa-dvisam—for those who are envious of Lord Visnu and His devotees.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sometimes a neophyte devotee offers all the paraphernalia for worshiping the Lord, and he factually worships the Lord as the Deity, but because he is envious of the authorized devotees of Lord Visnu, the Lord is never satisfied with his devotional service.</p>
+<p><strong>PURPORT</strong></p>
+<p>Deity worship is especially meant for purifying the neophyte devotees.</p>
+<p>Actually, however, preaching is more important.</p>
+<p>In Bhagavad-gita (18.69) it is said, na ca tasman manusyesu kascin me priya-krttamah: if one wants to be recognized by the Supreme Personality of Godhead, he must preach the glories of the Lord.</p>
+<p>One who worships the Deity must therefore be extremely respectful to preachers; otherwise simply worshiping the Deity will keep one in the lower stage of devotion.</p>
+
+
+
+<p><strong>7.14.41</strong></p>
+<p>purusesv api rajendra</p>
+<p>supatram brahmanam viduh</p>
+<p>tapasa vidyaya tustya</p>
+<p>dhatte vedam hares tanum</p>
+<p><strong>SYNONYMS</strong></p>
+<p>purusesu—among persons; api—indeed; raja-indra—O best of kings; su-patram—the best person; brahmanam—the qualified brahmana; viduh—one should know; tapasa—due to austerity; vidyaya—education; tustya—and satisfaction; dhatte—he assumes; vedam—the transcendental knowledge known as Veda; hareh—of the Supreme Personality of Godhead; tanum—body, or representation.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear King, of all persons a qualified brahmana must be accepted as the best within this material world because such a brahmana, by practicing austerity, Vedic studies and satisfaction, becomes the counterpart body of the Supreme Personality of Godhead.</p>
+<p><strong>PURPORT</strong></p>
+<p>From the Vedas we learn that the Personality of Godhead is the Supreme Person.</p>
+<p>Every living entity is an individual person, and the Supreme Personality of Godhead, Krsna, is the Supreme Person.</p>
+<p>A brahmana who is well versed in Vedic knowledge and fully conversant with transcendental matters becomes a representative of the Supreme Personality of Godhead, and therefore one should worship such a brahmana or Vaisnava.</p>
+<p>A Vaisnava is superior to a brahmana because whereas a brahmana knows that he is Brahman, not matter, a Vaisnava knows that he is not only Brahman but also an eternal servant of the Supreme Brahman.</p>
+<p>Therefore, worship of a Vaisnava is superior to worship of the Deity in the temple.</p>
+<p>Visvanatha Cakravarti Thakura says, saksad dharitvena samasta-sastraih: in all the scriptures the spiritual master, who is the best of the brahmanas, the best of the Vaisnavas, is considered to be as good as the Supreme Personality of Godhead.</p>
+<p>This does not mean, however, that the Vaisnava thinks himself God, for this is blasphemous.</p>
+<p>Although a brahmana or Vaisnava is worshiped as being as good as the Supreme Personality of Godhead, such a devotee always remains a faithful servant of the Lord and never tries to enjoy the prestige that might accrue to him from being the Supreme Lord’s representative.</p>
+
+
+
+<p><strong>7.14.42</strong></p>
+<p>nanv asya brahmana rajan</p>
+<p>krsnasya jagad-atmanah</p>
+<p>punantah pada-rajasa</p>
+<p>tri-lokim daivatam mahat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>nanu—but; asya—by Him; brahmanah—the qualified brahmanas; rajan—O King; krsnasya—by Lord Krsna, the Supreme Personality of Godhead; jagat-atmanah—who is the life and soul of the whole creation; punantah—sanctifying; pada-rajasa—by the dust of their lotus feet; tri-lokim—the three worlds; daivatam—worshipable; mahat—most exalted.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear King Yudhisthira, the brahmanas, especially those engaged in preaching the glories of the Lord throughout the entire world, are recognized and worshiped by the Supreme Personality of Godhead, who is the heart and soul of all creation.</p>
+<p>The brahmanas, by their preaching, sanctify the three worlds with the dust of their lotus feet, and thus they are worshipable even for Krsna.</p>
+<p><strong>PURPORT</strong></p>
+<p>As admitted by Lord Krsna in Bhagavad-gita (18.69), na ca tasman manusyesu kascin me priya-krttamah.</p>
+<p>The brahmanas preach the cult of Krsna consciousness all around the world, and therefore, although they worship Krsna, the Supreme Personality of Godhead, the Lord also recognizes them as worshipable.</p>
+<p>The relationship is reciprocal.</p>
+<p>The brahmanas want to worship Krsna, and similarly Krsna wants to worship the brahmanas.</p>
+<p>In conclusion, therefore, brahmanas and Vaisnavas who are engaged in preaching the glories of the Lord must be worshiped by religionists, philosophers and people in general.</p>
+<p>At the Rajasuya-yajna of Maharaja Yudhisthira, many hundreds and thousands of brahmanas were present, yet Krsna was selected to be worshiped first.</p>
+<p>Therefore, Krsna is always the Supreme Person, but by His causeless mercy He recognizes the brahmanas as dearmost to Him.</p>
+
+
+</article></body></html>

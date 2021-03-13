@@ -1,154 +1,41 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>Creation of the Kumaras and Others - Creation of the Kumaras and Others</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">Creation of the Kumaras and Others</a></li><li class="affix"><a href="3.12.2.html">3.12.2</a></li><li class="affix"><a href="3.12.3.html">3.12.3</a></li><li class="affix"><a href="3.12.4.html">3.12.4</a></li><li class="affix"><a href="3.12.5.html">3.12.5</a></li><li class="affix"><a href="3.12.6.html">3.12.6</a></li><li class="affix"><a href="3.12.7.html">3.12.7</a></li><li class="affix"><a href="3.12.8.html">3.12.8</a></li><li class="affix"><a href="3.12.9.html">3.12.9</a></li><li class="affix"><a href="3.12.10.html">3.12.10</a></li><li class="affix"><a href="3.12.11.html">3.12.11</a></li><li class="affix"><a href="3.12.12.html">3.12.12</a></li><li class="affix"><a href="3.12.13.html">3.12.13</a></li><li class="affix"><a href="3.12.14.html">3.12.14</a></li><li class="affix"><a href="3.12.15.html">3.12.15</a></li><li class="affix"><a href="3.12.16.html">3.12.16</a></li><li class="affix"><a href="3.12.17.html">3.12.17</a></li><li class="affix"><a href="3.12.18.html">3.12.18</a></li><li class="affix"><a href="3.12.19.html">3.12.19</a></li><li class="affix"><a href="3.12.20.html">3.12.20</a></li><li class="affix"><a href="3.12.21.html">3.12.21</a></li><li class="affix"><a href="3.12.22.html">3.12.22</a></li><li class="affix"><a href="3.12.23.html">3.12.23</a></li><li class="affix"><a href="3.12.24.html">3.12.24</a></li><li class="affix"><a href="3.12.25.html">3.12.25</a></li><li class="affix"><a href="3.12.26.html">3.12.26</a></li><li class="affix"><a href="3.12.27.html">3.12.27</a></li><li class="affix"><a href="3.12.28.html">3.12.28</a></li><li class="affix"><a href="3.12.29.html">3.12.29</a></li><li class="affix"><a href="3.12.30.html">3.12.30</a></li><li class="affix"><a href="3.12.31.html">3.12.31</a></li><li class="affix"><a href="3.12.32.html">3.12.32</a></li><li class="affix"><a href="3.12.33.html">3.12.33</a></li><li class="affix"><a href="3.12.34.html">3.12.34</a></li><li class="affix"><a href="3.12.35.html">3.12.35</a></li><li class="affix"><a href="3.12.36.html">3.12.36</a></li><li class="affix"><a href="3.12.37.html">3.12.37</a></li><li class="affix"><a href="3.12.38.html">3.12.38</a></li><li class="affix"><a href="3.12.39.html">3.12.39</a></li><li class="affix"><a href="3.12.40.html">3.12.40</a></li><li class="affix"><a href="3.12.41.html">3.12.41</a></li><li class="affix"><a href="3.12.42.html">3.12.42</a></li><li class="affix"><a href="3.12.43.html">3.12.43</a></li><li class="affix"><a href="3.12.44.html">3.12.44</a></li><li class="affix"><a href="3.12.45.html">3.12.45</a></li><li class="affix"><a href="3.12.46.html">3.12.46</a></li><li class="affix"><a href="3.12.47.html">3.12.47</a></li><li class="affix"><a href="3.12.48.html">3.12.48</a></li><li class="affix"><a href="3.12.49.html">3.12.49</a></li><li class="affix"><a href="3.12.50.html">3.12.50</a></li><li class="affix"><a href="3.12.51.html">3.12.51</a></li><li class="affix"><a href="3.12.52.html">3.12.52</a></li><li class="affix"><a href="3.12.53.html">3.12.53</a></li><li class="affix"><a href="3.12.54.html">3.12.54</a></li><li class="affix"><a href="3.12.55.html">3.12.55</a></li><li class="affix"><a href="3.12.56.html">3.12.56</a></li><li class="affix"><a href="3.12.57.html">3.12.57</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">Creation of the Kumaras and Others</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#creation-of-the-kumaras-and-others" id="creation-of-the-kumaras-and-others">Creation of the Kumaras and Others</a></h1>
-<h3><a class="header" href="#3121" id="3121">3.12.1</a></h3>
+<h1>Creation of the Kumaras and Others</h1>
+<p><strong>3.12.1</strong></p>
 <p>maitreya uvaca</p>
 <p>iti te varnitah ksattah</p>
 <p>kalakhyah paramatmanah</p>
@@ -160,63 +47,973 @@
 <p>Sri Maitreya said: O learned Vidura, so far I have explained to you the glories of the form of the Supreme Personality of Godhead in His feature of kala.</p>
 <p>Now you can hear from me about the creation of Brahma, the reservoir of all Vedic knowledge.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="3.12.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>3.12.2</strong></p>
+<p>sasarjagre ’ndha-tamisram</p>
+<p>atha tamisram adi-krt</p>
+<p>mahamoham ca moham ca</p>
+<p>tamas cajnana-vrttayah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sasarja—created; agre—at first; andha-tamisram—the sense of death; atha—then; tamisram—anger upon frustration; adi-krt—all these; maha-moham—ownership of enjoyable objects; ca—also; moham—illusory conception; ca—also; tamah—darkness in self-knowledge; ca—as well as; ajnana—nescience; vrttayah—engagements.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Brahma first created the nescient engagements like self-deception, the sense of death, anger after frustration, the sense of false ownership, and the illusory bodily conception, or forgetfulness of one’s real identity.</p>
+<p><strong>PURPORT</strong></p>
+<p>Before the factual creation of the living entities in different varieties of species, the conditions under which a living being in the material world has to live were created by Brahma.</p>
+<p>Unless a living entity forgets his real identity, it is impossible for him to live in the material conditions of life.</p>
+<p>Therefore the first condition of material existence is forgetfulness of one’s real identity.</p>
+<p>And by forgetting one’s real identity, one is sure to be afraid of death, although a pure living soul is deathless and birthless.</p>
+<p>This false identification with material nature is the cause of false ownership of things which are offered by the arrangement of superior control.</p>
+<p>All material resources are offered to the living entity for his peaceful living and for the discharge of the duties of self-realization in conditioned life.</p>
+<p>But due to false identification, the conditioned soul becomes entrapped by the sense of false ownership of the property of the Supreme Lord.</p>
+<p>It is evident from this verse that Brahma himself is a creation of the Supreme Lord, and the five kinds of nescience which condition the living entities in material existence are creations of Brahma.</p>
+<p>It is simply ludicrous to think the living entity to be equal with the Supreme Being when one can understand that the conditioned souls are under the influence of Brahma’s magic wand.</p>
+<p>Patanjali also accepts that there are five kinds of nescience, as mentioned herein.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="3.12.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>3.12.3</strong></p>
+<p>drstva papiyasim srstim</p>
+<p>natmanam bahv amanyata</p>
+<p>bhagavad-dhyana-putena</p>
+<p>manasanyam tato ’srjat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>drstva—by seeing; papiyasim—sinful; srstim—creation; na—did not; atmanam—unto Himself; bahu—much pleasure; amanyata—felt; bhagavat—on the Personality of Godhead; dhyana—meditation; putena—purified by that; manasa—by such a mentality; anyam—another; tatah—thereafter; asrjat—created.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Seeing such a misleading creation as a sinful task, Brahma did not feel much pleasure in his activity, and therefore he purified himself by meditation on the Personality of Godhead.</p>
+<p>Then he began another term of creation.</p>
+<p><strong>PURPORT</strong></p>
+<p>Although he created the different influences of nescience, Lord Brahma was not satisfied in performing such a thankless task, but he had to do it because most of the conditioned souls wanted it to be so.</p>
+<p>Lord Krsna says in Bhagavad-gita (15.15) that He is present in everyone’s heart and is helping everyone to either remember of forget.</p>
+<p>The question may be raised why the Lord, who is all-merciful, helps one to remember and another to forget.</p>
+<p>Actually, His mercy is not exhibited in partiality towards one and enmity towards another.</p>
+<p>The living entity, as part and parcel of the Lord, is partially independent because he partially possesses all the qualities of the Lord.</p>
+<p>Anyone who has some independence may sometimes misuse it due to ignorance.</p>
+<p>When the living entity prefers to misuse his independence and glide down towards nescience, the all-merciful Lord first of all tries to protect him from the trap, but when the living entity persists in gliding down to hell, the Lord helps him to forget his real position.</p>
+<p>The Lord helps the falling living entity glide down to the lowest point, just to give him the chance to see if he is happy by misusing his independence.</p>
+<p>Almost all the conditioned souls who are rotting in the material world are misusing their independence, and therefore five kinds of nescience are imposed upon them.</p>
+<p>As an obedient servitor of the Lord, Brahma creates all these as a matter of necessity, but he is not happy in doing so because a devotee of the Lord naturally does not like to see anyone falling down from his real position.</p>
+<p>Persons who do not care for the path of realization get full facilities from the Lord for executing their proclivities to the fullest extent, and Brahma helps in that procedure without fail.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>3.12.4</strong></p>
+<p>sanakam ca sanandam ca</p>
+<p>sanatanam athatmabhuh</p>
+<p>sanat-kumaram ca munin</p>
+<p>niskriyan urdhva-retasah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sanakam—Sanaka; ca—also; sanandam—Sananda; ca—and; sanatanam—Sanatana; atha—thereafter; atma-bhuh—Brahma, who is self-born; sanat-kumaram—Sanat-kumara; ca—also; munin—the great sages; niskriyan—free from all fruitive action; urdhva-retasah—those whose semen flows upwards.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In the beginning, Brahma created four great sages named Sanaka, Sananda, Sanatana and Sanat-kumara.</p>
+<p>All of them were unwilling to adopt materialistic activities because they were highly elevated due to their semen’s flowing upwards.</p>
+<p><strong>PURPORT</strong></p>
+<p>Although Brahma created the principles of nescience as a matter of necessity for those living entities who were destined to ignorance by the will of the Lord, he was not satisfied in performing such a thankless task.</p>
+<p>He therefore created four principles of knowledge: sankhya, or empirical philosophy for the analytical study of material conditions; yoga, or mysticism for liberation of the pure soul from material bondage; vairagya, the acceptance of complete detachment from material enjoyment in life to elevate oneself to the highest spiritual understanding; and tapas, or the various kinds of voluntary austerities performed for spiritual perfection.</p>
+<p>Brahma created the four great sages Sanaka, Sananda, Sanatana and Sanat to entrust them with these four principles of spiritual advancement, and they inaugurated their own spiritual party, or sampradaya, known as the Kumara-sampradaya, or later on as the Nimbarka-sampradaya, for the advancement of bhakti.</p>
+<p>All of these great sages became great devotees, for without devotional service to the Personality of Godhead one cannot achieve success in any activity of spiritual value.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>3.12.5</strong></p>
+<p>tan babhase svabhuh putran</p>
+<p>prajah srjata putrakah</p>
+<p>tan naicchan moksa-dharmano</p>
+<p>vasudeva-parayanah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tan—unto the Kumaras, as above mentioned; babhase—addressed; svabhuh—Brahma; putran—unto the sons; prajah—generations; srjata—to create; putrakah—O my sons; tat—that; na—not; aicchan—desired; moksa-dharmanah—pledged to the principles of liberation; vasudeva—the Personality of Godhead; parayanah—who are so devoted.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Brahma spoke to his sons after generating them My dear sons he said, now generate progeny But due to their being attached to Vasudeva, the Supreme Personality of Godhead, they aimed at liberation, and therefore they expressed their unwillingness.</p>
+<p><strong>PURPORT</strong></p>
+<p>The four sons of Brahma, the Kumaras, declined to become family men even on the request of their great father, Brahma.</p>
+<p>Those who are serious about gaining release from material bondage should not be entangled in the false relationship of family bondage.</p>
+<p>People may ask how the Kumaras could refuse the orders of Brahma, who was their father and above all the creator of the universe.</p>
+<p>The reply is that one who is vasudeva-parayana, or seriously engaged in the devotional service of the Personality of Godhead, Vasudeva, need not care for any other obligation.</p>
+<p>It is enjoined in the Bhagavatam (11.5.41):</p>
+<p>devarsi-bhutapta-nrnam pitrnam</p>
+<p>na kinkaro nayam rni ca rajan</p>
+<p>sarvatmana yah saranam saranyam</p>
+<p>gato mukundam parihrtya kartam</p>
+<p>Anyone who has completely given up all worldly relationships and has taken absolute shelter of the lotus feet of the Lord, who gives us salvation and who alone is fit to be taken shelter of, is no longer a debtor or servant of anyone, including the demigods, forefathers, sages, other living entities, relatives, and members of human society Thus there was nothing wrong in the acts of the Kumaras when they refused their great father’s request that they become family men.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>3.12.6</strong></p>
+<p>so ’vadhyatah sutair evam</p>
+<p>pratyakhyatanusasanaih</p>
+<p>krodham durvisaham jatam</p>
+<p>niyantum upacakrame</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—he (Brahma); avadhyatah—thus being disrespected; sutaih—by the sons; evam—thus; pratyakhyata—refusing to obey; anusasanaih—the order of their father; krodham—anger; durvisaham—too much to be tolerated; jatam—thus generated; niyantum—to control; upacakrame—tried his best.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>On the refusal of the sons to obey the order of their father, there was much anger generated in the mind of Brahma, which he tried to control and not express.</p>
+<p><strong>PURPORT</strong></p>
+<p>Brahma is the director in charge of the mode of passion of material nature.</p>
+<p>Therefore it was natural for him to become angry on the refusal of his sons to obey his order.</p>
+<p>Although the Kumaras were right in such acts of refusal, Brahma, being absorbed in the mode of passion, could not check his passionate anger.</p>
+<p>He did not express it, however, because he knew that his sons were far enlightened in spiritual advancement and thus he should not express his anger before them.</p>
+
+
+
+<p><strong>3.12.7</strong></p>
+<p>dhiya nigrhyamano ’pi</p>
+<p>bhruvor madhyat prajapateh</p>
+<p>sadyo ’jayata tan-manyuh</p>
+<p>kumaro nila-lohitah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dhiya—by intelligence; nigrhyamanah—being controlled; api—in spite of; bhruvoh—of the eyebrows; madhyat—from between; prajapateh—of Brahma; sadyah—at once; ajayata—generated; tat—his; manyuh—anger; kumarah—a child; nila-lohitah—mixture of blue and red.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Although he tried to curb his anger, it came out from between his eyebrows, and a child mixed blue and red was immediately generated.</p>
+<p><strong>PURPORT</strong></p>
+<p>The face of anger is the same whether exhibited due to ignorance or knowledge.</p>
+<p>Although Brahma tried to curb his anger, he could not do so, even though he is the supreme being.</p>
+<p>Such anger in its true color came from between the eyebrows of Brahma as Rudra, in a mixed color of blue (ignorance) and red (passion), because anger is the product of passion and ignorance.</p>
+
+
+
+<p><strong>3.12.8</strong></p>
+<p>sa vai ruroda devanam</p>
+<p>purvajo bhagavan bhavah</p>
+<p>namani kuru me dhatah</p>
+<p>sthanani ca jagad-guro</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—he; vai—certainly; ruroda—cried loudly; devanam purvajah—the eldest of all demigods; bhagavan—the most powerful; bhavah—Lord Siva; namani—different names; kuru—designate; me—my; dhatah—O destiny maker; sthanani—places; ca—also; jagat-guro—O teacher of the universe.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>After his birth he began to cry: O destiny maker, teacher of the universe, kindly designate my name and place.</p>
+
+
+
+<p><strong>3.12.9</strong></p>
+<p>iti tasya vacah padmo</p>
+<p>bhagavan paripalayan</p>
+<p>abhyadhad bhadraya vaca</p>
+<p>ma rodis tat karomi te</p>
+<p><strong>SYNONYMS</strong></p>
+<p>iti—thus; tasya—his; vacah—request; padmah—one who is born from the lotus flower; bhagavan—the powerful; paripalayan—accepting the request; abhyadhat—pacified; bhadraya—by gentle; vaca—words; ma—do not; rodih—cry; tat—that; karomi—I shall do it; te—as desired by you.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The all-powerful Brahma, who was born from the lotus flower, pacified the boy with gentle words, accepting his request, and said: Do not cry.</p>
+<p>I shall certainly do as you desire.</p>
+
+
+
+<p><strong>3.12.10</strong></p>
+<p>yad arodih sura-srestha</p>
+<p>sodvega iva balakah</p>
+<p>tatas tvam abhidhasyanti</p>
+<p>namna rudra iti prajah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yat—as much as; arodih—cried loudly; sura-srestha—O chief of the demigods; sa-udvegah—with great anxiety; iva—like; balakah—a boy; tatah—therefore; tvam—you; abhidhasyanti—will call; namna—by the name; rudrah—Rudra; iti—thus; prajah—people.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter Brahma said: O chief of the demigods, you shall be called by the name Rudra by all people because you have so anxiously cried.</p>
+
+
+
+<p><strong>3.12.11</strong></p>
+<p>hrd indriyany asur vyoma</p>
+<p>vayur agnir jalam mahi</p>
+<p>suryas candras tapas caiva</p>
+<p>sthanany agre krtani te</p>
+<p><strong>SYNONYMS</strong></p>
+<p>hrt—the heart; indriyani—the senses; asuh—life air; vyoma—the sky; vayuh—the air; agnih—fire; jalam—water; mahi—the earth; suryah—the sun; candrah—the moon; tapah—austerity; ca—as well as; eva—certainly; sthanani—all these places; agre—hereinbefore; krtani—already made; te—for you.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear boy, I have already selected the following places for your residence: the heart, the senses, the air of life, the sky, the air, the fire, the water, the earth, the sun, the moon and austerity.</p>
+<p><strong>PURPORT</strong></p>
+<p>The creation of Rudra from between the eyebrows of Brahma as the result of his anger, generated from the mode of passion partly touched by ignorance, is very significant.</p>
+<p>In Bhagavad-gita (3.37) the principle of Rudra is described.</p>
+<p>Krodha (anger) is the product of kama (lust), which is the result of the mode of passion.</p>
+<p>When lust and hankering are unsatisfied, the element of krodha appears, which is the formidable enemy of the conditioned soul.</p>
+<p>This most sinful and inimical passion is represented as ahankara, or the false egocentric attitude of thinking oneself to be all in all.</p>
+<p>Such an egocentric attitude on the part of the conditioned soul, who is completely under the control of material nature, is described in Bhagavad-gita as foolish.</p>
+<p>The egocentric attitude is a manifestation of the Rudra principle in the heart, wherein krodha (anger) is generated.</p>
+<p>This anger develops in the heart and is further manifested through various senses, like the eyes, hands and legs.</p>
+<p>When a man is angry he expresses such anger with red-hot eyes and sometimes makes a display of clenching his fists or kicking his legs.</p>
+<p>This exhibition of the Rudra principle is the proof of Rudra’s presence in such places.</p>
+<p>When a man is angry he breathes very rapidly, and thus Rudra is represented in the air of life, or in the activities of breathing.</p>
+<p>When the sky is overcast with dense clouds and roars in anger, and when the wind blows very fiercely, the Rudra principle is manifested, and so also when the sea water is infuriated by the wind it appears in a gloomy feature of Rudra, which is very fearful to the common man.</p>
+<p>When fire is ablaze we can also experience the presence of Rudra, and when there is an inundation over the earth we can understand that this is also the representation of Rudra.</p>
+<p>There are many earthly creatures who constantly represent the Rudra element.</p>
+<p>The snake, tiger and lion are always representations of Rudra.</p>
+<p>Sometimes, because of the extreme heat of the sun, there are cases of heatstroke, and due to the extreme coldness created by the moon there are cases of collapse.</p>
+<p>There are many sages empowered with the influence of austerity and many yogis, philosophers and renouncers who sometimes exhibit their acquired power under the influence of the Rudra principle of anger and passion.</p>
+<p>The great yogi Durvasa, under the influence of this Rudra principle, picked a quarrel with Maharaja Ambarisa, and a brahmana boy exhibited the Rudra principle by cursing the great King Pariksit.</p>
+<p>When the Rudra principle is exhibited by persons who are not engaged in the devotional service of the Supreme Personality of Godhead, the angry person falls down from the peak of his improved position.</p>
+<p>This is confirmed as follows:</p>
+<p>ye ’nye ’ravindaksa vimukta-maninas</p>
+<p>tvayy asta-bhavad avisuddha-buddhayah</p>
+<p>aruhya krcchrena param padam tatah</p>
+<p>patanty adho ’nadrta-yusmad-anghrayah</p>
+<p>(Bhag.10.2.32)</p>
+<p>The most lamentable falldown of the impersonalist is due to his false and unreasonable claim of being one with the Supreme.</p>
+
+
+
+<p><strong>3.12.12</strong></p>
+<p>manyur manur mahinaso</p>
+<p>mahan chiva rtadhvajah</p>
+<p>ugrareta bhavah kalo</p>
+<p>vamadevo dhrtavratah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>manyuh, manuh, mahinasah, mahan, sivah, rtadhvajah, ugaretah, bhavah, kalah, vamadevah, dhrtavratah—all names of Rudra.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Lord Brahma said: My dear boy Rudra, you have eleven other names: Manyu, Manu, Mahinasa, Mahan, Siva, Rtadhvaja, Ugrareta, Bhava, Kala, Vamadeva and Dhrtavrata.</p>
+
+
+
+<p><strong>3.12.13</strong></p>
+<p>dhir dhrti-rasaloma ca</p>
+<p>niyut sarpir ilambika</p>
+<p>iravati svadha diksa</p>
+<p>rudranyo rudra te striyah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dhih, dhrti, rasala, uma, niyut, sarpih, ila, ambika, iravati, svadha, diksa rudranyah—the eleven Rudranis; rudra—O Rudra; te—unto you; striyah—wives.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O Rudra, you also have eleven wives, called the Rudranis, and they are as follows: Dhi, Dhrti, Rasala, Uma, Niyut, Sarpi, Ila, Ambika, Iravati, Svadha and Diksa.</p>
+
+
+
+<p><strong>3.12.14</strong></p>
+<p>grhanaitani namani</p>
+<p>sthanani ca sa-yosanah</p>
+<p>ebhih srja praja bahvih</p>
+<p>prajanam asi yat patih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>grhana—just accept; etani—all these; namani—different names; sthanani—as well as places; ca—also; sa-yosanah—along with wives; ebhih—with them; srja—just generate; prajah—progeny; bahvih—on a large scale; prajanam—of the living entities; asi—you are; yat—since; patih—the master.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear boy, you may now accept all the names and places designated for you and your different wives, and since you are now one of the masters of the living entities, you may increase the population on a large scale.</p>
+<p><strong>PURPORT</strong></p>
+<p>Brahma, as the father of Rudra, selected the wives of his son, his living places, and his names as well.</p>
+<p>It is natural that one should accept the wife selected by one’s father, just as a son accepts the name given by the father or as he accepts the property offered by the father.</p>
+<p>That is the general course in increasing the population of the world.</p>
+<p>On the other hand, the Kumaras did not accept the offering of their father because they were elevated far beyond the business of generating a great number of sons.</p>
+<p>As the son can refuse the order of the father for higher purposes, so the father can refuse to maintain his sons in increasing population because of higher purposes.</p>
+
+
+
+<p><strong>3.12.15</strong></p>
+<p>ity adistah sva-guruna</p>
+<p>bhagavan nila-lohitah</p>
+<p>sattvakrti-svabhavena</p>
+<p>sasarjatma-samah prajah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>iti—thus; adistah—being ordered; sva-guruna—by his own spiritual master; bhagavan—the most powerful; nila-lohitah—Rudra, whose color is mixed blue and red; sattva—power; akrti—bodily features; svabhavena—and with a very furious mode of nature; sasarja—created; atma-samah—like his own prototype; prajah—generations.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The most powerful Rudra, whose bodily color was blue mixed with red, created many offspring exactly resembling him in features, strength and furious nature.</p>
+
+
+
+<p><strong>3.12.16</strong></p>
+<p>rudranam rudra-srstanam</p>
+<p>samantad grasatam jagat</p>
+<p>nisamyasankhyaso yuthan</p>
+<p>prajapatir asankata</p>
+<p><strong>SYNONYMS</strong></p>
+<p>rudranam—of the sons of Rudra; rudra-srstanam—who were generated by Rudra; samantat—being assembled together; grasatam—while devouring; jagat—the universe; nisamya—by observing their activities; asankhyasah—unlimited; yuthan—assembly; praja-patih—the father of the living entities; asankata—became afraid of.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The sons and grandsons generated by Rudra were unlimited in number, and when they assembled together they attempted to devour the entire universe.</p>
+<p>When Brahma, the father of the living entities, saw this, he became afraid of the situation.</p>
+<p><strong>PURPORT</strong></p>
+<p>The generations of Rudra, the incarnation of anger, were so dangerous to the maintenance of universal affairs that even Brahma, the father of the living entities, became afraid of them.</p>
+<p>The so-called devotees or followers of Rudra are also a menace.</p>
+<p>They are sometimes dangerous even to Rudra himself.</p>
+<p>Descendants of Rudra sometimes make plans to kill Rudra—by the grace of Rudra.</p>
+<p>That is the nature of his devotees.</p>
+
+
+
+<p><strong>3.12.17</strong></p>
+<p>alam prajabhih srstabhir</p>
+<p>idrsibhih surottama</p>
+<p>maya saha dahantibhir</p>
+<p>disas caksurbhir ulbanaih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>alam—unnecessary; prajabhih—by such living entities; srstabhih—generated; idrsibhih—of this type; sura-uttama—O best among the demigods; maya—me; saha—along with; dahantibhih—who are burning; disah—all sides; caksurbhih—by the eyes; ulbanaih—fiery flames.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Brahma told Rudra: O best among the demigods, there is no need for you to generate living entities of this nature.</p>
+<p>They have begun to devastate everything on all sides with the fiery flames from their eyes, and they have even attacked me.</p>
+
+
+
+<p><strong>3.12.18</strong></p>
+<p>tapa atistha bhadram te</p>
+<p>sarva-bhuta-sukhavaham</p>
+<p>tapasaiva yatha purvam</p>
+<p>srasta visvam idam bhavan</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tapah—penance; atistha—be situated; bhadram—auspicious; te—unto you; sarva—all; bhuta—living entities; sukha-avaham—bringing happiness; tapasa—by penance; eva—only; yatha—as much as; purvam—before; srasta—will create; visvam—the universe; idam—this; bhavan—yourself.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear son, you had better situate yourself in penance, which is auspicious for all living entities and which will bring all benediction upon you.</p>
+<p>By penance only shall you be able to create the universe as it was before.</p>
+<p><strong>PURPORT</strong></p>
+<p>In the creation, maintenance and dissolution of the cosmic manifestation, the three deities Brahma, Visnu and Mahesvara, or Siva, are respectively in charge.</p>
+<p>Rudra was advised not to destroy while the period of creation and maintenance was going on, but to situate himself in penance and wait for the time of dissolution, when his services would be called for.</p>
+
+
+
+<p><strong>3.12.19</strong></p>
+<p>tapasaiva param jyotir</p>
+<p>bhagavantam adhoksajam</p>
+<p>sarva-bhuta-guhavasam</p>
+<p>anjasa vindate puman</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tapasa—by penance; eva—only; param—the supreme; jyotih—light; bhagavantam—unto the Personality of Godhead; adhoksajam—He who is beyond the approach of the senses; sarva-bhuta-guha-avasam—residing in the heart of all living entities; anjasa—completely; vindate—can know; puman—a person.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>By penance only can one even approach the Personality of Godhead, who is within the heart of every living entity and at the same time beyond the reach of all senses.</p>
+<p><strong>PURPORT</strong></p>
+<p>Rudra was advised by Brahma to perform penance as an example to his sons and followers that penance is necessary for attaining the favor of the Supreme Personality of Godhead.</p>
+<p>In Bhagavad-gita it is said that the common mass of people follow the path shown by an authority.</p>
+<p>Thus Brahma, disgusted with the Rudra generations and afraid of being devoured by the increase of population, asked Rudra to stop producing such an unwanted generation and take to penance for attaining the favor of the Supreme Lord.</p>
+<p>We find, therefore, in pictures, that Rudra is always sitting in meditation for the attainment of the favor of the Lord.</p>
+<p>Indirectly, the sons and followers of Rudra are advised to stop the business of annihilation, following the Rudra principle while the peaceful creation of Brahma is going on.</p>
+
+
+
+<p><strong>3.12.20</strong></p>
+<p>maitreya uvaca</p>
+<p>evam atmabhuvadistah</p>
+<p>parikramya giram patim</p>
+<p>badham ity amum amantrya</p>
+<p>vivesa tapase vanam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>maitreyah uvaca—Sri Maitreya said; evam—thus; atma-bhuva—by Brahma; adistah—being so requested; parikramya—by circumambulating; giram—of the Vedas; patim—unto the master; badham—that is right; iti—thus; amum—unto Brahma; amantrya—thus addressing; vivesa—entered into; tapase—for the matter of penance; vanam—into the forest.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sri Maitreya said: Thus Rudra, having been ordered by Brahma, circumambulated his father, the master of the Vedas.</p>
+<p>Addressing him with words of assent, he entered the forest to perform austere penances.</p>
+
+
+
+<p><strong>3.12.21</strong></p>
+<p>athabhidhyayatah sargam</p>
+<p>dasa putrah prajajnire</p>
+<p>bhagavac-chakti-yuktasya</p>
+<p>loka-santana-hetavah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atha—thus; abhidhyayatah—while thinking of; sargam—creation; dasa—ten; putrah—sons; prajajnire—were begotten; bhagavat—regarding the Personality of Godhead; sakti—potency; yuktasya—empowered with; loka—the world; santana—generation; hetavah—the causes.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Brahma, who was empowered by the Supreme Personality of Godhead, thought of generating living entities and begot ten sons for the extension of the generations.</p>
+
+
+
+<p><strong>3.12.22</strong></p>
+<p>maricir atry-angirasau</p>
+<p>pulastyah pulahah kratuh</p>
+<p>bhrgur vasistho daksas ca</p>
+<p>dasamas tatra naradah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>maricih, atri, angirasau, pulastyah, pulahah, kratuh, bhrguh, vasisthah, daksah—names of sons of Brahma; ca—and; dasamah—the tenth; tatra—there; naradah—Narada.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Marici, Atri, Angira, Pulastya, Pulaha, Kratu, Bhrgu, Vasistha, Daksa, and the tenth son, Narada, were thus born.</p>
+<p><strong>PURPORT</strong></p>
+<p>The whole process of the creation, maintenance and dissolution of the cosmic manifestation is meant to give the conditioned souls a chance to go back home, back to Godhead.</p>
+<p>Brahma created Rudra to help him in his creative endeavor, but from the very beginning Rudra began to devour the whole creation, and thus he had to be stopped from such devastating activities.</p>
+<p>Brahma therefore created another set of good children, who were mostly in favor of worldly fruitive activities.</p>
+<p>He knew very well, however, that without devotional service to the Lord there is hardly any benefit for the conditioned souls, and therefore he at last created his worthy son Narada, who is the supreme spiritual master of all transcendentalists.</p>
+<p>Without devotional service to the Lord one cannot make progress in any department of activity, although the path of devotional service is always independent of anything material.</p>
+<p>Only the transcendental loving service of the Lord can deliver the real goal of life, and thus the service rendered by Sriman Narada Muni is the highest among all the sons of Brahma.</p>
+
+
+
+<p><strong>3.12.23</strong></p>
+<p>utsangan narado jajne</p>
+<p>dakso ’ngusthat svayambhuvah</p>
+<p>pranad vasisthah sanjato</p>
+<p>bhrgus tvaci karat kratuh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>utsangat—by transcendental deliberation; naradah—Mahamuni Narada; jajne—was generated; daksah—Daksa; angusthat—from the thumb; svayambhuvah—of Brahma; pranat—from the life air, or breathing; vasisthah—Vasistha; sanjatah—was born; bhrguh—the sage Bhrgu; tvaci—from the touch; karat—from the hand; kratuh—the sage Kratu.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Narada was born from the deliberation of Brahma, which is the best part of the body.</p>
+<p>Vasistha was born from his breathing, Daksa from a thumb, Bhrgu from his touch, and Kratu from his hand.</p>
+<p><strong>PURPORT</strong></p>
+<p>Narada was born from the best deliberation of Brahma because Narada was able to deliver the Supreme Lord to anyone he liked.</p>
+<p>The Supreme Personality of Godhead cannot be realized by any amount of Vedic knowledge or by any number of penances.</p>
+<p>But a pure devotee of the Lord like Narada can deliver the Supreme Lord by his good will.</p>
+<p>The very name Narada suggests that he can deliver the Supreme Lord.</p>
+<p>Nara means the Supreme Lord and da means one who can deliver That he can deliver the Supreme Lord does not mean that the Lord is like a commodity that can be delivered to any person.</p>
+<p>But Narada can deliver to anyone the transcendental loving service of the Lord as a servitor, friend, parent or lover, as one may desire out of one’s own transcendental love for the Lord.</p>
+<p>In other words, it is Narada only who can deliver the path of bhakti-yoga, the highest mystic means for attainment of the Supreme Lord.</p>
+
+
+
+<p><strong>3.12.24</strong></p>
+<p>pulaho nabhito jajne</p>
+<p>pulastyah karnayor rsih</p>
+<p>angira mukhato ’ksno ’trir</p>
+<p>maricir manaso ’bhavat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>pulahah—the sage Pulaha; nabhitah—from the navel; jajne—generated; pulastyah—the sage Pulastya; karnayoh—from the ears; rsih—the great sage; angirah—the sage Angira; mukhatah—from the mouth; aksnah—from the eyes; atrih—the sage Atri; maricih—the sage Marici; manasah—from the mind; abhavat—appeared.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Pulastya was generated from the ears, Angira from the mouth, Atri from the eyes, Marici from the mind and Pulaha from the navel of Brahma.</p>
+
+
+
+<p><strong>3.12.25</strong></p>
+<p>dharmah stanad daksinato</p>
+<p>yatra narayanah svayam</p>
+<p>adharmah prsthato yasman</p>
+<p>mrtyur loka-bhayankarah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dharmah—religion; stanat—from the breast; daksinatah—on the right side; yatra—wherein; narayanah—the Supreme Lord; svayam—personally; adharmah—irreligion; prsthatah—from the back; yasmat—from which; mrtyuh—death; loka—to the living entity; bhayam-karah—horrible.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Religion was manifested from the breast of Brahma, wherein is seated the Supreme Personality of Godhead Narayana, and irreligion appeared from his back, where horrible death takes place for the living entity.</p>
+<p><strong>PURPORT</strong></p>
+<p>That religion was manifested from the place where the Personality of Godhead is personally situated is very significant because religion means devotional service to the Personality of Godhead, as confirmed in Bhagavad-gita as well as the Bhagavatam.</p>
+<p>In Bhagavad-gita the last instruction is to give up all other engagements in the name of religion and take shelter of the Personality of Godhead.</p>
+<p>Srimad-Bhagavatam also confirms that the highest perfection of religion is that which leads to the devotional service of the Lord, unmotivated and unhampered by material impediments.</p>
+<p>Religion in its perfect form is the devotional service of the Lord, and irreligion is just the opposite.</p>
+<p>The heart is the most important part of the body, whereas the back is the most neglected part.</p>
+<p>When one is attacked by an enemy one is apt to endure attacks from the back and protect himself carefully from all attacks on the chest.</p>
+<p>All types of irreligion spring from the back of Brahma, whereas real religion, the devotional service of the Lord, is generated from the chest, the seat of Narayana.</p>
+<p>Anything which does not lead to the devotional service of the Lord is irreligion, and anything which leads to the devotional service of the Lord is called religion.</p>
+
+
+
+<p><strong>3.12.26</strong></p>
+<p>hrdi kamo bhruvah krodho</p>
+<p>lobhas cadhara-dacchadat</p>
+<p>asyad vak sindhavo medhran</p>
+<p>nirrtih payor aghasrayah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>hrdi—from the heart; kamah—lust; bhruvah—from the eyebrows; krodhah—anger; lobhah—greed; ca—also; adhara-dacchadat—from between the lips; asyat—from the mouth; vak—speaking; sindhavah—the seas; medhrat—from the penis; nirrtih—low activities; payoh—from the anus; agha-asrayah—reservoir of all vices.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Lust and desire became manifested from the heart of Brahma, anger from between his eyebrows, greed from between his lips, the power of speaking from his mouth, the ocean from his penis, and low and abominable activities from his anus, the source of all sins.</p>
+<p><strong>PURPORT</strong></p>
+<p>A conditioned soul is under the influence of mental speculation.</p>
+<p>However great one may be in the estimation of mundane education and learning, he cannot be free from the influence of psychic activities.</p>
+<p>Therefore it is very difficult to give up lust and the desires for low activities until one is in the line of devotional service to the Lord.</p>
+<p>When one is frustrated in lust and low desires, anger is generated from the mind and expressed from between the eyebrows.</p>
+<p>Ordinary men are therefore advised to concentrate the mind by focusing on the place between the eyebrows, whereas the devotees of the Lord are already practiced to place the Supreme Personality of Godhead on the seat of their minds.</p>
+<p>The theory of becoming desireless is untenable because the mind cannot be made desireless.</p>
+<p>When it is recommended that one be desireless, it is understood that one should not desire things which are destructive to spiritual values.</p>
+<p>A devotee of the Lord always has the Lord in his mind, and thus he does not need to be desireless because all his desires are in relationship with the service of the Lord.</p>
+<p>The power of speaking is called Sarasvati, or the goddess of learning, and the birthplace of the goddess of learning is the mouth of Brahma.</p>
+<p>Even if a man is endowed with the favor of the goddess of learning, it is quite possible for his heart to be full of lust and material desire and his eyebrows to display symptoms of anger.</p>
+<p>One may be very learned in the mundane estimation, but that does not mean that he is free from all low activities of lust and anger.</p>
+<p>Good qualifications can be expected only from a pure devotee, who is always engaged in the thought of the Lord, or in samadhi, with faith.</p>
+
+
+
+<p><strong>3.12.27</strong></p>
+<p>chayayah kardamo jajne</p>
+<p>devahutyah patih prabhuh</p>
+<p>manaso dehatas cedam</p>
+<p>jajne visva-krto jagat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>chayayah—by the shadow; kardamah—Kardama Muni; jajne—became manifested; devahutyah—of Devahuti; patih—husband; prabhuh—the master; manasah—from the mind; dehatah—from the body; ca—also; idam—this; jajne—developed; visva—the universe; krtah—of the creator; jagat—cosmic manifestation.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sage Kardama, husband of the great Devahuti, was manifested from the shadow of Brahma.</p>
+<p>Thus all became manifested from either the body or the mind of Brahma.</p>
+<p><strong>PURPORT</strong></p>
+<p>Although one of the three modes of material nature is always prominent, they are never represented unalloyed by one another.</p>
+<p>Even in the most prominent existence of the two lower qualities, the modes of passion and ignorance, there is sometimes a tinge of the mode of goodness.</p>
+<p>Therefore all the sons generated from the body or the mind of Brahma were in the modes of passion and ignorance, but some of them, like Kardama, were born in the mode of goodness.</p>
+<p>Narada was born in the transcendental state of Brahma.</p>
+
+
+
+<p><strong>3.12.28</strong></p>
+<p>vacam duhitaram tanvim</p>
+<p>svayambhur haratim manah</p>
+<p>akamam cakame ksattah</p>
+<p>sa-kama iti nah srutam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vacam—Vak; duhitaram—unto the daughter; tanvim—born of his body; svayambhuh—Brahma; haratim—attracting; manah—his mind; akamam—without being sexually inclined; cakame—desired; ksattah—O Vidura; sa-kamah—being sexually inclined; iti—thus; nah—we; srutam—have heard.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O Vidura, we have heard that Brahma had a daughter named Vak who was born from his body and who attracted his mind toward sex, although she was not sexually inclined towards him.</p>
+<p><strong>PURPORT</strong></p>
+<p>Balavan indriya-gramo vidvamsam api karsati (Bhag.9.19.17).</p>
+<p>It is said that the senses are so mad and strong that they can bewilder even the most sensible and learned man.</p>
+<p>Therefore it is advised that one should not indulge in living alone even with one’s mother, sister or daughter.</p>
+<p>Vidvamsam api karsati means that even the most learned also become victims of the sensuous urge.</p>
+<p>Maitreya hesitated to state this anomaly on the part of Brahma, who was sexually inclined to his own daughter, but still he mentioned it because sometimes it so happens, and the living example is Brahma himself, although he is the primeval living being and the most learned within the whole universe.</p>
+<p>If Brahma could be a victim of the sexual urge, then what of others, who are prone to so many mundane frailties? This extraordinary immortality on the part of Brahma was heard to have occurred in some particular kalpa, but it could not have happened in the kalpa in which Brahma heard directly from the Lord the four essential verses of Srimad-Bhagavatam because the Lord blessed Brahma, after giving him lessons on the Bhagavatam, that he would never be bewildered in any kalpa whatsoever.</p>
+<p>This indicates that before the hearing of Srimad-Bhagavatam he might have fallen a victim to such sensuality, but after hearing Srimad-Bhagavatam directly from the Lord, there was no possibility of such failures.</p>
+<p>One should, however, take serious note of this incident.</p>
+<p>The human being is a social animal, and his unrestricted mixing with the fair sex leads to downfall.</p>
+<p>Such social freedom of man and woman, especially among the younger section, is certainly a great stumbling block on the path of spiritual progress.</p>
+<p>Material bondage is due only to sexual bondage, and therefore unrestricted association of man and woman is surely a great impediment.</p>
+<p>Maitreya cited this example on the part of Brahma just to bring to our notice this great danger.</p>
+
+
+
+<p><strong>3.12.29</strong></p>
+<p>tam adharme krta-matim</p>
+<p>vilokya pitaram sutah</p>
+<p>marici-mukhya munayo</p>
+<p>visrambhat pratyabodhayan</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tam—unto him; adharme—in the matter of immortality; krta-matim—the mind being so given; vilokya—seeing thus; pitaram—unto the father; sutah—sons; marici-mukhyah—headed by Marici; munayah—sages; visrambhat—with due respect; pratyabodhayan—submitted as follows.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thus, finding their father so deluded in an act of immorality, the sages headed by Marici, all sons of Brahma, spoke as follows with great respect.</p>
+<p><strong>PURPORT</strong></p>
+<p>The sages like Marici were not in the wrong in submitting their protests against the acts of their great father.</p>
+<p>They knew very well that even though their father committed a mistake, there must have been some great purpose behind the show, otherwise such a great personality could not have committed such a mistake.</p>
+<p>It might be that Brahma wanted to warn his subordinates about human frailties in their dealings with women.</p>
+<p>This is always very dangerous for persons who are on the path of self-realization.</p>
+<p>Therefore, great personalities like Brahma, even when in the wrong, should not be neglected, nor could the great sages headed by Marici show any disrespect because of his extraordinary behavior.</p>
+
+
+
+<p><strong>3.12.30</strong></p>
+<p>naitat purvaih krtam tvad ye</p>
+<p>na karisyanti capare</p>
+<p>yas tvam duhitaram gaccher</p>
+<p>anigrhyangajam prabhuh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—never; etat—such a thing; purvaih—by any other Brahma, or yourself in any previous ka(la; krtam—performed; tvat—by you; ye—that which; na—nor; karisyanti—will do; ca—also; apare—anyone else; yah—that which; tvam—you; duhitaram—unto the daughter; gaccheh—would do; anigrhya—without controlling; angajam—sex desire; prabhuh—O father.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O father, this performance in which you are endeavoring to complicate yourself was never attempted by any other Brahma, nor by anyone else, nor by you in previous kalpas, nor will anyone dare to attempt it in the future.</p>
+<p>You are the supreme being in the universe, so how is it that you want to have sex with your daughter and cannot control your desire?</p>
+<p><strong>PURPORT</strong></p>
+<p>The post of Brahma is the supermost post in the universe, and it appears that there are many Brahmas and many universes besides the one in which we are situated.</p>
+<p>One who fills this post must be ideal in behavior, for Brahma sets the example for all living entities.</p>
+<p>Brahma, the living entity who is the most pious and spiritually elevated, is entrusted with a post next to that of the Personality of Godhead.</p>
+
+
+
+<p><strong>3.12.31</strong></p>
+<p>tejiyasam api hy etan</p>
+<p>na suslokyam jagad-guro</p>
+<p>yad-vrttam anutisthan vai</p>
+<p>lokah ksemaya kalpate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tejiyasam—of the most powerful; api—also; hi—certainly; etat—such an act; na—not suitable; su-slokyam—good behavior; jagat-guro—O spiritual master of the universe; yat—whose; vrttam—character; anutisthan—following; vai—certainly; lokah—the world; ksemaya—for prosperity; kalpate—becomes eligible.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Even though you are the most powerful being, this act does not suit you because your character is followed for spiritual improvement by people in general.</p>
+<p><strong>PURPORT</strong></p>
+<p>It is said that a supremely powerful living entity can do anything and everything he likes and such acts do not affect him in any way.</p>
+<p>For example, the sun, the most powerful fiery planet in the universe, can evaporate water from anywhere and still remain as powerful.</p>
+<p>The sun evaporates water from filthy places and yet is not infected with the quality of the filth.</p>
+<p>Similarly, Brahma remains unimpeachable in all conditions.</p>
+<p>But still, since he is the spiritual master of all living entities, his behavior and character should be so ideal that people will follow such sublime behavior and derive the highest spiritual benefit.</p>
+<p>Therefore, he should not have acted as he did.</p>
+
+
+
+<p><strong>3.12.32</strong></p>
+<p>tasmai namo bhagavate</p>
+<p>ya idam svena rocisa</p>
+<p>atma-stham vyanjayam asa</p>
+<p>sa dharmam patum arhati</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasmai—unto Him; namah—obeisances; bhagavate—unto the Personality of Godhead; yah—who; idam—this; svena—by His own; rocisa—effulgence; atma-stham—situated in Himself; vyanjayam asa—has manifested; sah—He; dharmam—religion; patum—for protection; arhati—may kindly do so.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Let us offer our respectful obeisances unto the Personality of Godhead, who, by His own effulgence, while situated in Himself, has manifested this cosmos.</p>
+<p>May He also protect religion for all goodness.</p>
+<p><strong>PURPORT</strong></p>
+<p>Lust for sexual intercourse is so strong that it appears herein that Brahma could not be dissuaded from his determination in spite of the appeal by his great sons like Marici.</p>
+<p>Therefore, the great sons began to pray to the Supreme Lord for the good sense of Brahma.</p>
+<p>It is only by the grace of the Supreme Lord that one can be protected from the allurement of lusty material desires.</p>
+<p>The Lord gives protection to devotees who are always engaged in His transcendental loving service, and by His causeless mercy He forgives the accidental fall of a devotee.</p>
+<p>Therefore, sages like Marici prayed for the mercy of the Lord, and their prayer was fruitful.</p>
+
+
+
+<p><strong>3.12.33</strong></p>
+<p>sa ittham grnatah putran</p>
+<p>puro drstva prajapatin</p>
+<p>prajapati-patis tanvam</p>
+<p>tatyaja vriditas tada</p>
+<p>tam diso jagrhur ghoram</p>
+<p>niharam yad vidus tamah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—he (Brahma); ittham—thus; grnatah—speaking; putran—sons; purah—before; drstva—seeing; praja-patin—all the progenitors of living entities; prajapati-patih—the father of them (Brahma); tanvam—body; tatyaja—quit; vriditah—ashamed; tada—at that time; tam—that body; disah—all directions; jagrhuh—accepted; ghoram—blamable; niharam—fog; yat—which; viduh—they know as; tamah—darkness.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The father of all Prajapatis, Brahma, thus seeing all his Prajapati sons speaking in that way, became very much ashamed and at once gave up the body he had accepted.</p>
+<p>Later that body appeared in all directions as the dangerous fog in darkness.</p>
+<p><strong>PURPORT</strong></p>
+<p>The best way to compensate for one’s sinful acts is to give up one’s body at once, and Brahma, the leader of the living entities, showed this by his personal example.</p>
+<p>Brahma has a fabulous duration of life, but he was obliged to give up his body due to his grievous sin, even though he had merely contemplated it in his mind without having actually done it.</p>
+<p>This is a lesson for the living entities, showing how sinful an act it is to indulge in unrestricted sex life.</p>
+<p>Even to think of abominable sex life is sinful, and to compensate for such acts, one has to give up his body.</p>
+<p>In other words, one’s duration of life, blessings, opulence, etc., are decreased by sinful acts, and the most dangerous type of sinful act is unrestricted sex.</p>
+<p>Ignorance is the cause of sinful life, or sinful life is the cause of gross ignorance.</p>
+<p>The feature of ignorance is darkness or fog.</p>
+<p>Darkness or fog still covers the whole universe, and the sun is the only counteracting principle.</p>
+<p>One who takes shelter of the Lord, the perpetual light, has no fear of being annihilated in the darkness of fog or ignorance.</p>
+
+
+
+<p><strong>3.12.34</strong></p>
+<p>kadacid dhyayatah srastur</p>
+<p>veda asams catur-mukhat</p>
+<p>katham sraksyamy aham lokan</p>
+<p>samavetan yatha pura</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kadacit—once upon a time; dhyayatah—while contemplating; srastuh—of Brahma; vedah—the Vedic literature; asan—became manifested; catuh-mukhat—from the four mouths; katham sraksyami—how shall I create; aham—myself; lokan—all these worlds; samavetan—assembled; yatha—as they were; pura—in the past.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Once upon a time, when Brahma was thinking of how to create the worlds as in the past millennium, the four Vedas, which contain all varieties of knowledge, became manifested from his four mouths.</p>
+<p><strong>PURPORT</strong></p>
+<p>As a fire can consume anything and everything without being contaminated, so, by the grace of the Lord, the fire of Brahma’s greatness consumed his desire for the sinful act of sex with his daughter.</p>
+<p>The Vedas are the source of all knowledge, and they were first revealed to Brahma by the mercy of the Supreme Personality of Godhead while Brahma was thinking of re-creating the material world.</p>
+<p>Brahma is powerful by dint of his devotional service unto the Lord, and the Lord is always ready to forgive His devotee if by chance he falls down from the noble path of devotional service.</p>
+<p>Srimad-Bhagavatam (11.5.42) confirms this as follows:</p>
+<p>sva-pada-mulam bhajatah priyasya</p>
+<p>tyaktvanya-bhavasya harih paresah</p>
+<p>vikarma yac cotpatitam kathan-cid</p>
+<p>dhunoti sarvam hrdi sannvistah</p>
+<p>Any person who is engaged one hundred percent in the transcendental loving service of the Lord, at His lotus feet, is very dear to the Personality of Godhead Hari, and the Lord, being situated in the heart of the devotee, excuses all kinds of sins committed by chance It was never expected that a great personality like Brahma would ever think of sex indulgence with his daughter.</p>
+<p>The example shown by Brahma only suggests that the power of material nature is so strong that it can act upon everyone, even Brahma.</p>
+<p>Brahma was saved by the mercy of the Lord with a little punishment, but by the grace of the Lord he did not lose his prestige as the great Brahma.</p>
+
+
+
+<p><strong>3.12.35</strong></p>
+<p>catur-hotram karma-tantram</p>
+<p>upaveda-nayaih saha</p>
+<p>dharmasya padas catvaras</p>
+<p>tathaivasrama-vrttayah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>catuh—four; hotram—paraphernalia for sacrifice; karma—action; tantram—expansions of such activities; upaveda—supplementary to the Vedas; nayaih—by logical conclusions; saha—along with; dharmasya—of religiosity; padah—principles; catvarah—four; tatha eva—in the same way; asrama—social orders; vrttayah—occupations.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The four kinds of paraphernalia for conducting the fire sacrifice became manifest: the performer (the chanter), the offerer, the fire, and the action performed in terms of the supplementary Vedas.</p>
+<p>Also the four principles of religiosity (truth, austerity, mercy and cleanliness) and the duties in the four social orders all became manifest.</p>
+<p><strong>PURPORT</strong></p>
+<p>Eating, sleeping, defending and mating are the four principles of material bodily demands which are common to both the animals and human society.</p>
+<p>To distinguish human society from the animals there is the performance of religious activities in terms of the social statuses and orders of life.</p>
+<p>They are all clearly mentioned in the Vedic literatures and were manifested by Brahma when the four Vedas were generated from his four mouths.</p>
+<p>Thus the duties of humankind in terms of the statuses and social orders were established to be observed by the civilized man.</p>
+<p>Those who traditionally follow these principles are called Aryans, or progressive human beings.</p>
+
+
+
+<p><strong>3.12.36</strong></p>
+<p>vidura uvaca</p>
+<p>sa vai visva-srjam iso</p>
+<p>vedadin mukhato ’srjat</p>
+<p>yad yad yenasrjad devas</p>
+<p>tan me bruhi tapo-dhana</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vidurah uvaca—Vidura said; sah—he (Brahma); vai—certainly; visva—the universe; srjam—of those who created; isah—the controller; veda-adin—the Vedas, etc.; mukhatah—from the mouth; asrjat—established; yat—that; yat—which; yena—by which; asrjat—created; devah—the god; tat—that; me—unto me; bruhi—please explain; tapah-dhana—O sage whose only wealth is penance.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Vidura said: O great sage whose only wealth is penance, kindly explain to me how and with whose help Brahma established the Vedic knowledge which emanated from his mouth.</p>
+
+
+
+<p><strong>3.12.37</strong></p>
+<p>maitreya uvaca</p>
+<p>rg-yajuh-samatharvakhyan</p>
+<p>vedan purvadibhir mukhaih</p>
+<p>sastram ijyam stuti-stomam</p>
+<p>prayascittam vyadhat kramat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>maitreyah uvaca—Maitreya said; rk-yajuh-sama-atharva—the four Vedas; akhyan—of the name; vedan—Vedic literatures; purva-adibhih—beginning with the front; mukhaih—by the mouths; sastram—Vedic hymns not pronounced before; ijyam—priestly rituals; stuti-stomam—the subject matter of the reciters; prayascittam—transcendental activities; vyadhat—established; kramat—one after another.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Maitreya said: Beginning from the front face of Brahma, gradually the four Vedas—Rk, Yajur, Sama and Atharva—became manifest.</p>
+<p>Thereafter, Vedic hymns which had not been pronounced before, priestly rituals, the subject matters of the recitation, and transcendental activities were all established, one after another.</p>
+
+
+
+<p><strong>3.12.38</strong></p>
+<p>ayur-vedam dhanur-vedam</p>
+<p>gandharvam vedam atmanah</p>
+<p>sthapatyam casrjad vedam</p>
+<p>kramat purvadibhir mukhaih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ayuh-vedam—medical science; dhanuh-vedam—military science; gandharvam—musical art; vedam—they are all Vedic knowledge; atmanah—of his own; sthapatyam—architectural; ca—also; asrjat—created; vedam—knowledge; kramat—respectively; purva-adibhih—beginning from the front face; mukhaih—by the mouths.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>He also created the medical science, military art, musical art and architectural science, all from the Vedas.</p>
+<p>They all emanated one after another, beginning from the front face.</p>
+<p><strong>PURPORT</strong></p>
+<p>The Vedas contain perfect knowledge, which includes all kinds of knowledge for the human society, not only on this particular planet but on other planets as well.</p>
+<p>It is understood that military art is also necessary knowledge for the upkeep of social order, as is the art of music.</p>
+<p>All these groups of knowledge are called the Upapurana, or supplements of the Vedas.</p>
+<p>Spiritual knowledge is the main topic of the Vedas, but to help the human being’s spiritual pursuit of knowledge, the other information, as above mentioned, forms necessary branches of the Vedic knowledge.</p>
+
+
+
+<p><strong>3.12.39</strong></p>
+<p>itihasa-puranani</p>
+<p>pancamam vedam isvarah</p>
+<p>sarvebhya eva vaktrebhyah</p>
+<p>sasrje sarva-darsanah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>itihasa—histories; puranani—the Puranas (supplementary Vedas); pancamam—the fifth; vedam—the Vedic literature; isvarah—the Lord; sarvebhyah—all together; eva—certainly; vaktrebhyah—from his mouths; sasrje—created; sarva—all around; darsanah—one who can see all time.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Then he created the fifth Veda—the Puranas and the histories—from all his mouths, since he could see all the past, present and future.</p>
+<p><strong>PURPORT</strong></p>
+<p>There are histories of particular countries and nations and of the world, but the Puranas are the histories of the universe, not only in one millennium, but in many kalpas.</p>
+<p>Brahma has knowledge of those historical facts, and therefore all the puranas are histories.</p>
+<p>As originally composed by Brahma, they are part of the Vedas and are called the fifth Veda.</p>
+
+
+
+<p><strong>3.12.40</strong></p>
+<p>sodasy-ukthau purva-vaktrat</p>
+<p>purisy-agnistutav atha</p>
+<p>aptoryamatiratrau ca</p>
+<p>vajapeyam sagosavam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sodasi-ukthau—types of sacrifice; purva-vaktrat—from the eastern mouth; purisi-agnistutau—types of sacrifice; atha—then; aptoryama-atiratrau—types of sacrifice; ca—and; vajapeyam—type of sacrifice; sa-gosavam—type of sacrifice.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>All the different varieties of fire sacrifices (sodasi, uktha, purisi, agnistoma, aptoryama, atiratra, vajapeya and gosava) became manifested from the eastern mouth of Brahma.</p>
+
+
+
+<p><strong>3.12.41</strong></p>
+<p>vidya danam tapah satyam</p>
+<p>dharmasyeti padani ca</p>
+<p>asramams ca yatha-sankhyam</p>
+<p>asrjat saha vrttibhih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vidya—education; danam—charity; tapah—penance; satyam—truth; dharmasya—of religion; iti—thus; padani—four legs; ca—also; asraman—orders of life; ca—also; yatha—as they are; sankhyam—in number; asrjat—created; saha—along with; vrttibhih—by vocations.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Education, charity, penance and truth are said to be the four legs of religion, and to learn this there are four orders of life with different classifications of castes according to vocation.</p>
+<p>Brahma created all these in systematic order.</p>
+<p><strong>PURPORT</strong></p>
+<p>The nucleus of the four social orders—brahmacarya, or student life, grhastha, or householder family life, vanaprastha, or retired life for practicing penance, and sannyasa, or renounced life for preaching the truth—is the four legs of religion.</p>
+<p>The vocational divisions are the brahmanas, or the intelligent class, the ksatriyas, or administrative class, the vaisyas, or mercantile productive class, and the sudras, or general laborer class who have no specific qualifications.</p>
+<p>All were systematically planned and created by Brahma for the regular promotion of self-realization.</p>
+<p>Student life is meant for acquiring the best education; household family life is meant for gratifying the senses, provided it is performed with a charitable disposition of mind, retirement from household life is meant for penance, for advancement in spiritual life, and renounced life is meant for preaching the Absolute Truth to the people in general.</p>
+<p>The combined actions of all members of society make the whole situation favorable for the upliftment of the mission of human life.</p>
+<p>The beginning of this social institution is based on education meant for purifying the animal propensities of the human being.</p>
+<p>The highest purificatory process is knowledge of the Supreme Personality of Godhead, the purest of the pure.</p>
+
+
+
+<p><strong>3.12.42</strong></p>
+<p>savitram prajapatyam ca</p>
+<p>brahmam catha brhat tatha</p>
+<p>varta sancaya-salina-</p>
+<p>siloncha iti vai grhe</p>
+<p><strong>SYNONYMS</strong></p>
+<p>savitram—the thread ceremony of the twice-born; prajapatyam—to execute the vow for one year; ca—and; brahmam—acceptance of the Vedas; ca—and; atha—also; brhat—complete abstinence from sex life; tatha—then; varta—vocation in terms of Vedic sanction; sancaya—professional duty; salina—livelihood without asking anyone for cooperation; sila-unchah—picking up rejected grains; iti—thus; vai—even though; grhe—in household life.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Then the thread ceremony for the twice-born was inaugurated, as were the rules to be followed for at least one year after acceptance of the Vedas, rules for observing complete abstinence from sex life, vocations in terms of Vedic injunctions, various professional duties in household life, and the method of maintaining a livelihood without anyone’s cooperation by picking up rejected grains.</p>
+<p><strong>PURPORT</strong></p>
+<p>During student life the brahmacaris were given full instructions about the importance of the human form of life.</p>
+<p>Thus the basic education was designed to encourage the student in becoming free from family encumbrances.</p>
+<p>Only students unable to accept such a vow in life were allowed to go home and marry a suitable wife.</p>
+<p>Otherwise, the student would remain a permanent brahmacari, observing complete abstinence from sex life for his whole life.</p>
+<p>It all depended on the quality of the student’s training.</p>
+<p>We had the opportunity to meet an avowed brahmacari in the personality of our spiritual master, Om Visnupada Sri Srimad Bhaktisiddhanta Gosvami Maharaja.</p>
+<p>Such a great soul is called a naisthika-brahmacari.</p>
+
+
+
+<p><strong>3.12.43</strong></p>
+<p>vaikhanasa valakhilyau-</p>
+<p>dumbarah phenapa vane</p>
+<p>nyase kuticakah purvam</p>
+<p>bahvodo hamsa-niskriyau</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vaikhanasah—the section of men who retire from active life and live on half-boiled meals; valakhilya—one who quits his former stock of grains on receipt of more; audumbarah—one who lives on what he gets from the direction towards which he starts after rising from bed; phenapah—one who lives on the fruits which automatically fall from the tree; vane—in the forest; nyase—in the order of renunciation; kuticakah—life in the family without attachment; purvam—in the beginning; bahvodah—giving up all material activities and engaging fully in transcendental service; hamsa—fully engaged in transcendental knowledge; niskriyau—stopping all kinds of activities.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The four divisions of retired life are the vaikhanasas, valakhilyas, audumbaras and phenapas.</p>
+<p>The four divisions of the renounced order of life are the kuticakas, bahvodas, hamsas and niskriyas.</p>
+<p>All these were manifested from Brahma.</p>
+<p><strong>PURPORT</strong></p>
+<p>The varnasrama-dharma, or the institution of the four divisions and orders of social and spiritual life, is not a new invention of the modern age, as proposed by the less intelligent.</p>
+<p>It is an institution established by Brahma from the beginning of the creation.</p>
+<p>This is also confirmed in the Bhagavad-gita (4.13): catur-varnyam maya srstam.</p>
+
+
+
+<p><strong>3.12.44</strong></p>
+<p>anviksiki trayi varta</p>
+<p>danda-nitis tathaiva ca</p>
+<p>evam vyahrtayas casan</p>
+<p>pranavo hy asya dahratah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>anviksiki—logic; trayi—the three goals, namely religion, economy and salvation; varta—sense gratification; danda—law and order; nitih—moral codes; tatha—as also; eva ca—respectively; evam—thus; vyahrtayah—the celebrated hymns bhuh, bhuvah and svah; ca—also; asan—came into existence; pranavah—the omkara; hi—certainly; asya—of him (Brahma); dahratah—from the heart.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The science of logical argument, the Vedic goals of life, and also law and order, moral codes, and the celebrated hymns bhuh, bhuvah and svah all became manifested from the mouths of Brahma, and the pranava omkara was manifested from his heart.</p>
+
+
+
+<p><strong>3.12.45</strong></p>
+<p>tasyosnig asil lomabhyo</p>
+<p>gayatri ca tvaco vibhoh</p>
+<p>tristum mamsat snuto ’nustub</p>
+<p>jagaty asthnah prajapateh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasya—his; usnik—one of the Vedic meters; asit—generated; lomabhyah—from the hairs on the body; gayatri—the principal Vedic hymn; ca—also; tvacah—from the skin; vibhoh—of the Lord; tristup—a particular type of poetic meter; mamsat—from the flesh; snutah—from the sinews; anustup—another type of poetic meter; jagati—another type of poetic meter; asthnah—from the bones; prajapateh—of the father of the living entities.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter the art of literary expression, usnik, was generated from the hairs on the body of the almighty Prajapati.</p>
+<p>The principal Vedic hymn, gayatri, was generated from the skin, tristup from the flesh, anustup from the veins, and jagati from the bones of the lord of the living entities.</p>
+
+
+
+<p><strong>3.12.46</strong></p>
+<p>majjayah panktir utpanna</p>
+<p>brhati pranato ’bhavat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>majjayah—from the bone marrow; panktih—a particular type of verse; utpanna—became manifested; brhati—another type of verse; pranatah—out of the life-breathing; abhavat—generated.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The art of writing verse, pankti, became manifested from the bone marrow, and that of brhati, another type of verse, was generated from the life-breath of the Lord of the living entities.</p>
+
+
+
+<p><strong>3.12.47</strong></p>
+<p>sparsas tasyabhavaj jivah</p>
+<p>svaro deha udahrta</p>
+<p>usmanam indriyany ahur</p>
+<p>antah-stha balam atmanah</p>
+<p>svarah sapta viharena</p>
+<p>bhavanti sma prajapateh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sparsah—the set of letters from ka to ma; tasya—his; abhavat—became; jivah—the soul; svarah—vowels; dehah—his body; udahrtah—are expressed; usmanam—the letters sa, sa, sa and ha; indriyani—the senses; ahuh—are called; antah-sthah—the set of letters so known (ya, ra, la and va); balam—energy; atmanah—of his self; svarah—music; sapta—seven; viharena—by the sensual activities; bhavanti sma—became manifested; prajapateh—of the lord of the living entities.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Brahma’s soul was manifested as the touch alphabets, his body as the vowels, his senses as the sibilant alphabets, his strength as the intermediate alphabets and his sensual activities as the seven notes of music.</p>
+<p><strong>PURPORT</strong></p>
+<p>In Sanskrit there are thirteen vowels and thirty-five consonants.</p>
+<p>The vowels are a, a, i, i, u, u, r, r, l, e, ai, o, au, and the consonants are ka, kha, ga, gha, etc.</p>
+<p>Amongst the consonants, the first twenty-five letters are called the sparsas.</p>
+<p>There are also four antah-sthas.</p>
+<p>Of the usmas there are three s’s, called talavya, murdhanya and dantya.</p>
+<p>The musical notes are sa, r, ga, ma, dha, and ni.</p>
+<p>All these sound vibrations are originally called sabda-brahma, or spiritual sound.</p>
+<p>It is said, therefore, that Brahma was created in the Maha-kalpa as the incarnation of spiritual sound.</p>
+<p>The Vedas are spiritual sound, and therefore there is no need of material interpretation as they are, although they are symbolically represented with letters which are known to us materially.</p>
+<p>In the ultimate issue there is nothing material because everything has its origin in the spiritual world.</p>
+<p>The material manifestation is therefore called illusion in the proper sense of the term.</p>
+<p>For those who are realized souls there is nothing but spirit.</p>
+
+
+
+<p><strong>3.12.48</strong></p>
+<p>sabda-brahmatmanas tasya</p>
+<p>vyaktavyaktatmanah parah</p>
+<p>brahmavabhati vitato</p>
+<p>nana-sakty-upabrmhitah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sabda-brahma—transcendental sound; atmanah—of the Supreme Lord; tasya—His; vyakta—manifested; avyakta-atmanah—of the unmanifested; parah—transcendental; brahma—the Absolute; avabhati—completely manifested; vitatah—distributing; nana—multifarious; sakti—energies; upabrmhitah—invested with.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Brahma is the personal representation of the Supreme Personality of Godhead as the source of transcendental sound and is therefore above the conception of manifested and unmanifested.</p>
+<p>Brahma is the complete form of the Absolute Truth and is invested with multifarious energies.</p>
+<p><strong>PURPORT</strong></p>
+<p>The post of Brahma is the highest responsible post within the universe, and it is offered to the most perfect personality of the universe.</p>
+<p>Sometimes the Supreme Personality of Godhead has to become Brahma when there is no suitable living being to occupy the post.</p>
+<p>In the material world, Brahma is the complete representation of the Supreme Personality of Godhead, and transcendental sound, pranava, comes from him.</p>
+<p>He is therefore invested with multifarious energies, from which all the demigods like Indra, Candra and Varuna are manifested.</p>
+<p>His transcendental value is not to be minimized, even though he exhibited a tendency to enjoy his own daughter.</p>
+<p>There is a purpose for the exhibition of such a tendency by Brahma, and he is not to be condemned like an ordinary living entity.</p>
+
+
+
+<p><strong>3.12.49</strong></p>
+<p>tato ’param upadaya</p>
+<p>sa sargaya mano dadhe</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—thereafter; aparam—another; upadaya—having accepted; sah—he; sargaya—in the matter of creation; manah—mind; dadhe— gave attention.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter Brahma accepted another body, in which sex life was not forbidden, and thus he engaged himself in the matter of further creation.</p>
+<p><strong>PURPORT</strong></p>
+<p>In his former body, which was transcendental, affection for sex life was forbidden, and Brahma therefore had to accept another body to allow himself to be connected with sex.</p>
+<p>He thus engaged himself in the matter of creation.</p>
+<p>His former body transformed into fog, as previously described.</p>
+
+
+
+<p><strong>3.12.50</strong></p>
+<p>rsinam bhuri-viryanam</p>
+<p>api sargam avistrtam</p>
+<p>jnatva tad dhrdaye bhuyas</p>
+<p>cintayam asa kaurava</p>
+<p><strong>SYNONYMS</strong></p>
+<p>rsinam—of the great sages; bhuri-viryanam—with great potential power; api—in spite of; sargam—the creation; avistrtam—not extended; jnatva—knowing; tat—that; hrdaye—in his heart; bhuyah—again; cintayam asa—he began to consider; kaurava—O son of the Kurus.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O son of the Kurus, when Brahma saw that in spite of the presence of sages of great potency there was no sufficient increase in population, he seriously began to consider how the population could be increased.</p>
+
+
+
+<p><strong>3.12.51</strong></p>
+<p>aho adbhutam etan me</p>
+<p>vyaprtasyapi nityada</p>
+<p>na hy edhante praja nunam</p>
+<p>daivam atra vighatakam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>aho—alas; adbhutam—it is wonderful; etat—this; me—for me; vyaprtasya—being busy; api—although; nityada—always; na—does not; hi—certainly; edhante—generate; prajah—living entities; nunam—however; daivam—destiny; atra—herein; vighatakam—against.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Brahma thought to himself: Alas, it is wonderful that in spite of my being scattered all over, there is still insufficient population throughout the universe.</p>
+<p>There is no other cause for this misfortune but destiny.</p>
+
+
+
+<p><strong>3.12.52</strong></p>
+<p>evam yukta-krtas tasya</p>
+<p>daivam caveksatas tada</p>
+<p>kasya rupam abhud dvedha</p>
+<p>yat kayam abhicaksate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>evam—thus; yukta—contemplating; krtah—while doing so; tasya—his; daivam—supernatural power; ca—also; aveksatah—observing; tada—at that time; kasya—of Brahma; rupam—form; abhut—became manifested; dvedha—twofold; yat—which is; kayam—his body; abhicaksate—is said to be.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>While he was thus absorbed in contemplation and was observing the supernatural power, two other forms were generated from his body.</p>
+<p>They are still celebrated as the body of Brahma.</p>
+<p><strong>PURPORT</strong></p>
+<p>Two bodies came out from the body of Brahma.</p>
+<p>One had a mustache, and the other had swollen breasts.</p>
+<p>No one can explain the source of their manifestation, and therefore until today they are known as the kayam, or the body of Brahma, with no indication of their relationship as his son or daughter.</p>
+
+
+
+<p><strong>3.12.53</strong></p>
+<p>tabhyam rupa-vibhagabhyam</p>
+<p>mithunam samapadyata</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tabhyam—of them; rupa—form; vibhagabhyam—thus being divided; mithunam—sex relation; samapadyata—perfectly executed.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The two newly separated bodies united together in a sexual relationship.</p>
+
+
+
+<p><strong>3.12.54</strong></p>
+<p>yas tu tatra puman so ’bhun</p>
+<p>manuh svayambhuvah svarat</p>
+<p>stri yasic chatarupakhya</p>
+<p>mahisy asya mahatmanah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—one who; tu—but; tatra—there; puman—the male; sah—he; abhut—became; manuh—the father of mankind; svayambhuvah—of the name Svayambhuva; sva-rat—fully independent; stri—the woman; ya—one who; asit—there was; satarupa—of the name Satarupa; akhya—known as; mahisi—the queen; asya—of him; mahatmanah— the great soul.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Out of them, the one who had the male form became known as the Manu named Svayambhuva, and the woman became known as Satarupa, the queen of the great soul Manu.</p>
+
+
+
+<p><strong>3.12.55</strong></p>
+<p>tada mithuna-dharmena</p>
+<p>praja hy edham babhuvire</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tada—at that time; mithuna—sex life; dharmena—according to regulative principles; prajah—generations; hi—certainly; edham—increased; babhuvire—took place.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, by sex indulgence, they gradually increased generations of population one after another.</p>
+
+
+
+<p><strong>3.12.56</strong></p>
+<p>sa capi satarupayam</p>
+<p>pancapatyany ajijanat</p>
+<p>priyavratottanapadau</p>
+<p>tisrah kanyas ca bharata</p>
+<p>akutir devahutis ca</p>
+<p>prasutir iti sattama</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—he (Manu); ca—also; api—in due course; satarupayam—unto Satarupa; panca—five; apatyani—children; ajijanat—begot; priyavrata—Priyavrata; uttanapadau—Uttanapada; tisrah—three in number; kanyah—daughters; ca—also; bharata—O son of Bharata; akutih—Akuti; devahutih—Devahuti; ca—and; prasutih—Prasuti; iti—thus; sattama—O best of all.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O son of Bharata, in due course of time he (Manu) begot in Satarupa five children—two sons, Priyavrata and Uttanapada, and three daughters, Akuti, Devahuti and Prasuti.</p>
+
+
+
+<p><strong>3.12.57</strong></p>
+<p>akutim rucaye pradat</p>
+<p>kardamaya tu madhyamam</p>
+<p>daksayadat prasutim ca</p>
+<p>yata apuritam jagat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>akutim—the daughter named Akuti; rucaye—unto the sage Ruci; pradat—handed over; kardamaya—unto the sage Kardama; tu—but; madhyamam—the middle one (Devahuti); daksaya—unto Daksa; adat—handed over; prasutim—the youngest daughter; ca—also; yatah—wherefrom; apuritam—is fulfilled; jagat—the whole world.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The father, Manu, handed over his first daughter, Akuti, to the sage Ruci, the middle daughter, Devahuti, to the sage Kardama, and the youngest, Prasuti, to Daksa.</p>
+<p>From them, all the world filled with population.</p>
+<p><strong>PURPORT</strong></p>
+<p>The history of the creation of the population of the universe is given herewith.</p>
+<p>Brahma is the original living creature in the universe, from whom were generated the Manu Svayambhuva and his wife Satarupa.</p>
+<p>From Manu, two sons and three daughters were born, and from them all the population in different planets has sprung up until now.</p>
+<p>Therefore, Brahma is known as the grandfather of everyone, and the Personality of Godhead, being the father of Brahma, is known as the great-grandfather of all living beings.</p>
+<p>This is confirmed in Bhagavad-gita (11.39) as follows:</p>
+<p>vayur yamo ’gnir varunah sasankah</p>
+<p>prajapatis tvam prapitamahas ca</p>
+<p>namo namas te ’stu sahasra-krtvah</p>
+<p>punas ca bhuyo ’pi namo namas te</p>
+<p>You are the Lord of air, the supreme justice Yama, the fire, and the Lord of rains.</p>
+<p>You are the moon, and You are the great-grandfather.</p>
+<p>Therefore I offer my respectful obeisances unto You again and again</p>
+
+
+</article></body></html>

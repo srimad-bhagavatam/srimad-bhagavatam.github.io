@@ -1,155 +1,42 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>The Glories of Lord Ananta - The Glories of Lord Ananta</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">The Glories of Lord Ananta</a></li><li class="affix"><a href="5.25.2.html">5.25.2</a></li><li class="affix"><a href="5.25.3.html">5.25.3</a></li><li class="affix"><a href="5.25.4.html">5.25.4</a></li><li class="affix"><a href="5.25.5.html">5.25.5</a></li><li class="affix"><a href="5.25.6.html">5.25.6</a></li><li class="affix"><a href="5.25.7.html">5.25.7</a></li><li class="affix"><a href="5.25.8.html">5.25.8</a></li><li class="affix"><a href="5.25.9.html">5.25.9</a></li><li class="affix"><a href="5.25.10.html">5.25.10</a></li><li class="affix"><a href="5.25.11.html">5.25.11</a></li><li class="affix"><a href="5.25.12.html">5.25.12</a></li><li class="affix"><a href="5.25.13.html">5.25.13</a></li><li class="affix"><a href="5.25.14.html">5.25.14</a></li><li class="affix"><a href="5.25.15.html">5.25.15</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">The Glories of Lord Ananta</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#the-glories-of-lord-ananta" id="the-glories-of-lord-ananta">The Glories of Lord Ananta</a></h1>
-<h2><a class="header" href="#summary" id="summary">Summary</a></h2>
-<h3><a class="header" href="#525" id="525">5.25</a></h3>
+<h1>The Glories of Lord Ananta</h1>
+<h2>Summary</h2>
+<p><strong>5.25</strong></p>
 <p>In this chapter, Sukadeva Gosvami describes Ananta, the source of Lord Siva.</p>
 <p>Lord Ananta, whose body is completely spiritual, resides at the root of the planet Patala.</p>
 <p>He always lives in the core of Lord Siva’s heart, and He helps him destroy the universe.</p>
@@ -166,7 +53,7 @@
 <p>Therefore He is called Ananta (unlimited).</p>
 <p>Being very merciful toward all living entities, He has exhibited His spiritual body.</p>
 <p>Sukadeva Gosvami describes the glories of Anantadeva to Maharaja Pariksit in this way.</p>
-<h3><a class="header" href="#5251" id="5251">5.25.1</a></h3>
+<p><strong>5.25.1</strong></p>
 <p>sri-suka uvaca</p>
 <p>tasya mula-dese trimsad-yojana-sahasrantara aste ya vai kala bhagavatas tamasi samakhyatananta iti satvatiya drastr-drsyayoh sankarsanam aham ity abhimana-laksanam yam sankarsanam ity acaksate.</p>
 <p><strong>SYNONYMS</strong></p>
@@ -191,63 +78,285 @@
 <p>The name tamasi does not indicate that He has a material body.</p>
 <p>He is always transcendental, but because He is the Supersoul of Lord Siva, who must perform tamasic activities, Sankarsana is sometimes called tamasi.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="5.25.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>5.25.2</strong></p>
+<p>yasyedam ksiti-mandalam bhagavato ’nanta-murteh sahasra-sirasa ekasminn eva sirsani dhriyamanam siddhartha iva laksyate.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yasya—of whom; idam—this; ksiti-mandalam—universe; bhagavatah—of the Supreme Personality of Godhead; ananta-murteh—in the form of Anantadeva; sahasra-sirasah—who has thousands of hoods; ekasmin—on one; eva—only; sirsani—hood; dhriyamanam—is being sustained; siddharthah iva—and like a white mustard seed; laksyate—is seen.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sukadeva Gosvami continued: This great universe, situated on one of Lord Anantadeva’s thousands of hoods, appears just like a white mustard seed.</p>
+<p>It is infinitesimal compared to the hood of Lord Ananta.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="5.25.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>5.25.3</strong></p>
+<p>yasya ha va idam kalenopasanjihirsato ’marsa-viracita-rucira-bhramad-bhruvor antarena sankarsano nama rudra ekadasa-vyuhas try-aksas tri-sikham sulam uttambhayann udatisthat.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yasya—of whom; ha va—indeed; idam—this (material world); kalena—in due course of time; upasanjihirsatah—desiring to destroy; amarsa—by anger; viracita—formed; rucira—very beautiful; bhramat—moving; bhruvoh—the two eyebrows; antarena—from between; sankarsanah nama—named Sankarsana; rudrah—an incarnation of Lord Siva; ekadasa-vyuhah—who has eleven expansions; tri-aksah—three eyes; tri-sikham—having three points; sulam—a trident; uttambhayan—raising; udatisthat—arose.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>At the time of devastation, when Lord Anantadeva desires to destroy the entire creation, He becomes slightly angry.</p>
+<p>Then from between His two eyebrows appears three-eyed Rudra, carrying a trident.</p>
+<p>This Rudra, who is known as Sankarsana, is the embodiment of the eleven Rudras, or incarnations of Lord Siva.</p>
+<p>He appears in order to devastate the entire creation.</p>
+<p><strong>PURPORT</strong></p>
+<p>In each creation, the living entities are given a chance to close their business as conditioned souls.</p>
+<p>When they misuse this opportunity and do not go back home, back to Godhead, Lord Sankarsana becomes angry.</p>
+<p>The eleven Rudras, expansions of Lord Siva, come out of Lord Sankarsana’s eyebrows due to His angry mood, and all of them together devastate the entire creation.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>5.25.4</strong></p>
+<p>yasyanghri-kamala-yugalaruna-visada-nakha-mani-sanda-mandalesv ahi-patayah saha satvatarsabhair ekanta-bhakti-yogenavanamantah sva-vadanani parisphurat-kundala-prabha-mandita-ganda-sthalany ati-manoharani pramudita-manasah khalu vilokayanti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yasya—of whom; anghri-kamala—of lotus feet; yugala—of the pair; aruna-visada—brilliant pink; nakha—of the nails; mani-sanda—like gems; mandalesu—on the round surfaces; ahi-patayah—the leaders of the snakes; saha—with; satvata-rsabhaih—the best devotees; ekanta-bhakti-yogena—with unalloyed devotional service; avanamantah—offering obeisances; sva-vadanani—their own faces; parisphurat—glittering; kundala—of the earrings; prabha—by the effulgence; mandita—decorated; ganda-sthalani—whose cheeks; ati-manoharani—very beautiful; pramudita-manasah—their minds refreshed; khalu—indeed; vilokayanti—they see.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The pink, transparent toenails on the Lord’s lotus feet are exactly like valuable gems polished to a mirror finish.</p>
+<p>When the unalloyed devotees and the leaders of the snakes offer their obeisances to Lord Sankarsana with great devotion, they become very joyful upon seeing their own beautiful faces reflected in His toenails.</p>
+<p>Their cheeks are decorated with glittering earrings, and the beauty of their faces is extremely pleasing to see.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>5.25.5</strong></p>
+<p>yasyaiva hi naga-raja-kumarya asisa asasanas carv-anga-valaya-vilasita-visada-vipula-dhavala-subhaga-rucira-bhuja-rajata-stambhesv aguru-candana-kunkuma-pankanulepenavalimpamanas tad-abhimarsanonmathita-hrdaya-makara-dhvajavesa-rucira-lalita-smitas tad-anuragamada-mudita-mada-vighurnitaruna-karunavaloka-nayana-vadanaravindam savridam kila vilokayanti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yasya—of whom; eva—certainly; hi—indeed; naga-raja-kumaryah—the unmarried princesses of the serpent kings; asisah—blessings; asasanah—hoping for; caru—beautiful; anga-valaya—on the sphere of His body; vilasita—gleaming; visada—spotless; vipula—long; dhavala—white; subhaga—indicating good fortune; rucira—beautiful; bhuja—on His arms; rajata-stambhesu—like columns of silver; aguru—of aloe; candana—of sandalwood; kunkuma—of saffron; panka—from the pulp; anulepena—with an ointment; avalimpamanah—smearing; tat-abhimarsana—by contact with His limbs; unmathita—agitated; hrdaya—in their hearts; makara-dhvaja—of Cupid; avesa—due to the entrance; rucira—very beautiful; lalita—delicate; smitah—whose smiling; tat—of Him; anuraga—of attachment; mada—by the intoxication; mudita—delighted; mada—due to intoxication with kindness; vighurnita—rolling; aruna—pink; karuna-avaloka—glancing with kindness; nayana—eyes; vadana—and face; aravindam—like lotus flowers; sa-vridam—with bashfulness; kila—indeed; vilokayanti—they see.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Lord Ananta’s arms are attractively long, beautifully decorated with bangles and completely spiritual.</p>
+<p>They are white, and so they appear like silver columns.</p>
+<p>When the beautiful princesses of the serpent kings, hoping for the Lord’s auspicious blessing, smear His arms with aguru pulp, sandalwood pulp and kunkuma, the touch of His limbs awakens lusty desires within them.</p>
+<p>Understanding their minds, the Lord looks at the princesses with a merciful smile, and they become bashful, realizing that He knows their desires.</p>
+<p>Then they smile beautifully and look upon the Lord’s lotus face, which is beautified by reddish eyes rolling slightly from intoxication and delighted by love for His devotees.</p>
+<p><strong>PURPORT</strong></p>
+<p>When males and females touch each other’s bodies, their lusty desires naturally awaken.</p>
+<p>It appears from this verse that there are similar sensations in spiritual bodies.</p>
+<p>Both Lord Ananta and the women giving Him pleasure had spiritual bodies.</p>
+<p>Thus all sensations originally exist in the spiritual body.</p>
+<p>This is confirmed in the Vedanta-sutra: janmady asya yatah (Bhag.1.1.1).</p>
+<p>Srila Visvanatha Cakravarti Thakura has commented in this connection that the word adi means adi-rasa, the original lusty feeling, which is born from the Supreme.</p>
+<p>However, spiritual lust and material lust are as completely different as gold and iron.</p>
+<p>Only one who is very highly elevated in spiritual realization can understand the lusty feelings exchanged between Radha and Krsna, or between Krsna and the damsels of Vraja.</p>
+<p>Therefore, unless one is very experienced and advanced in spiritual realization, he is forbidden to discuss the lusty feelings of Krsna and the gopis.</p>
+<p>However, if one is a sincere and pure devotee, the material lust in his heart is completely vanquished as he discusses the lusty feelings between the gopis and Krsna, and he makes quick progress in spiritual life.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>5.25.6</strong></p>
+<p>sa eva bhagavan ananto ’nanta-gunarnava adi-deva upasamhrtamarsa-rosa-vego lokanam svastaya aste.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—that; eva—certainly; bhagavan—the Supreme Personality of Godhead; anantah—Anantadeva; ananta-guna-arnavah—the reservoir of unlimited transcendental qualities; adi-devah—the original Lord, or nondifferent from the original Supreme Personality of Godhead; upasamhrta—who has restrained; amarsa—of His intolerance; rosa—and wrath; vegah—the force; lokanam—of all people on all planets; svastaye—for the welfare; aste—remains.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Lord Sankarsana is the ocean of unlimited spiritual qualities, and thus He is known as Anantadeva.</p>
+<p>He is nondifferent from the Supreme Personality of Godhead.</p>
+<p>For the welfare of all living entities within this material world, He resides in His abode, restraining His anger and intolerance.</p>
+<p><strong>PURPORT</strong></p>
+<p>Anantadeva’s main mission is to dissolve this material creation, but He checks His anger and intolerance.</p>
+<p>This material world is created to give the conditioned souls another chance to go back home, back to Godhead, but most of them do not take advantage of this facility.</p>
+<p>After the creation, they again exercise their old propensity for lording it over the material world.</p>
+<p>These activities of the conditioned souls anger Anantadeva, and He desires to destroy the entire material world.</p>
+<p>Yet, because He is the Supreme Personality of Godhead, He is kind toward us and checks His anger and intolerance.</p>
+<p>Only at certain times does He express His anger and destroy the material world.</p>
+
+
+
+<p><strong>5.25.7</strong></p>
+<p>dhyayamanah surasuroraga-siddha-gandharva-vidyadhara-muni-ganair anavarata-mada-mudita-vikrta-vihvala-locanah sulalita-mukharikamrtenapyayamanah sva-parsada-vibudha-yutha-patin aparimlana-raga-nava-tulasikamoda-madhv-asavena madyan madhukara-vrata-madhura-gita-sriyam vaijayantim svam vanamalam nila-vasa eka-kundalo hala-kakudi krta-subhaga-sundara-bhujo bhagavan mahendro varanendra iva kancanim kaksam udara-lilo bibharti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dhyayamanah—being meditated upon; sura—of demigods; asura—demons; uraga—snakes; siddha—inhabitants of Siddhaloka; gandharva—inhabitants of Gandharvaloka; vidyadhara—Vidyadharas; muni—and of great sages; ganaih—by groups; anavarata—constantly; mada-mudita—delighted by intoxication; vikrta—moving to and fro; vihvala—rolling; locanah—whose eyes; su-lalita—excellently composed; mukharika—of speech; amrtena—by the nectar; apyayamanah—pleasing; sva-parsada—His own associates; vibudha-yutha-patin—the heads of the different groups of demigods; aparimlana—never faded; raga—whose luster; nava—ever fresh; tulasika—of the tulasi blossoms; amoda—by the fragrance; madhu-asavena—and the honey; madyan—being intoxicated; madhukara-vrata—of the bees; madhura-gita—by the sweet singing; sriyam—which is made more beautiful; vaijayantim—the garland named vaijayanti; svam—His own; vanamalam—garland; nila-vasah—covered with blue garments; eka-kundalah—wearing only one earring; hala-kakudi—on the handle of a plow; krta—placed; subhaga—auspicious; sundara—beautiful; bhujah—hands; bhagavan—the Supreme Personality of Godhead; maha-indrah—the King of heaven; varana-indrah—the elephant; iva—like; kancanim—golden; kaksam—belt; udara-lilah—engaged in transcendental pastimes; bibharti—wears.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sukadeva Gosvami continued: The demigods, the demons, the Uragas (serpentine demigods), the Siddhas, the Gandharvas, the Vidyadharas and many highly elevated sages constantly offer prayers to the Lord.</p>
+<p>Because He is intoxicated, the Lord looks bewildered, and His eyes, appearing like flowers in full bloom, move to and fro.</p>
+<p>He pleases His personal associates, the heads of the demigods, by the sweet vibrations emanating from His mouth.</p>
+<p>Dressed in bluish garments and wearing a single earring, He holds a plow on His back with His two beautiful and well-constructed hands.</p>
+<p>Appearing as white as the heavenly King Indra, He wears a golden belt around His waist and a vaijayanti garland of ever-fresh tulasi blossoms around His neck.</p>
+<p>Bees intoxicated by the honeylike fragrance of the tulasi flowers hum very sweetly around the garland, which thus becomes more and more beautiful.</p>
+<p>In this way, the Lord enjoys His very magnanimous pastimes.</p>
+
+
+
+<p><strong>5.25.8</strong></p>
+<p>ya esa evam anusruto dhyayamano mumuksunam anadi-kala-karma-vasana-grathitam avidyamayam hrdaya-granthim sattva-rajas-tamomayam antar-hrdayam gata asu nirbhinatti tasyanubhavan bhagavan svayambhuvo naradah saha tumburuna sabhayam brahmanah samslokayam asa.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—who; esah—this one; evam—thus; anusrutah—being heard from a bona fide spiritual master; dhyayamanah—being meditated upon; mumuksunam—of persons desiring liberation from conditioned life; anadi—from immemorial; kala—time; karma-vasana—by the desire for fruitive activities; grathitam—tied tightly; avidya-mayam—consisting of the illusory energy; hrdaya-granthim—the knot within the heart; sattva-rajah-tamah-mayam—made of the three modes of material nature; antah-hrdayam—in the core of the heart; gatah—situated; asu—very soon; nirbhinatti—cuts; tasya—of Sankarsana; anubhavan—the glories; bhagavan—the greatly powerful; svayambhuvah—the son of Lord Brahma; naradah—the sage Narada; saha—along with; tumburuna—the stringed instrument called a Tumburu; sabhayam—in the assembly; brahmanah—of Lord Brahma; samslokayam asa—described in verses.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>If persons who are very serious about being liberated from material life hear the glories of Anantadeva from the mouth of a spiritual master in the chain of disciplic succession, and if they always meditate upon Sankarsana, the Lord enters the cores of their hearts, vanquishes all the dirty contamination of the material modes of nature, and cuts to pieces the hard knot within the heart, which has been tied tightly since time immemorial by the desire to dominate material nature through fruitive activities.</p>
+<p>Narada Muni, the son of Lord Brahma, always glorifies Anantadeva in his father’s assembly.</p>
+<p>There he sings blissful verses of his own composition, accompanied by his stringed instrument (or a celestial singer) known as Tumburu.</p>
+<p><strong>PURPORT</strong></p>
+<p>None of these descriptions of Lord Anantadeva are imaginary.</p>
+<p>They are all transcendentally blissful and full of actual knowledge.</p>
+<p>However, unless one hears them directly from a bona fide spiritual master in the line of disciplic succession, one cannot understand them.</p>
+<p>This knowledge is delivered to Narada by Lord Brahma, and the great saint Narada, along with his companion, Tumburu, distributes it all over the universe.</p>
+<p>Sometimes the Supreme Personality of Godhead is described as Uttamasloka, one who is praised by beautiful poetry.</p>
+<p>Narada composes various poems to glorify Lord Ananta, and therefore the word samslokayam asa (praised by selected poetry) is used in this verse.</p>
+<p>The Vaisnavas in the Gaudiya-sampradaya belong to the disciplic succession stemming from Lord Brahma.</p>
+<p>Lord Brahma is the spiritual master of Narada, Narada is the spiritual master of Vyasadeva, and Vyasadeva wrote the Srimad-Bhagavatam as a commentary on the Vedanta-sutra.</p>
+<p>Therefore all devotees in the Gaudiya-sampradaya accept the activities of Lord Ananta related in the Srimad-Bhagavatam as authentic, and they are thus benefited by going back home, back to Godhead.</p>
+<p>The contamination in the heart of a conditioned soul is like a huge accumulation of garbage created by the three modes of material nature, especially the modes of rajas (passion) and tamas (ignorance).</p>
+<p>This contamination becomes manifest in the form of lusty desires and greed for material possessions.</p>
+<p>As confirmed herein, unless one receives transcendental knowledge in disciplic succession, there is no question of his becoming purified of this contamination.</p>
+
+
+
+<p><strong>5.25.9</strong></p>
+<p>utpatti-sthiti-laya-hetavo ’sya kalpah</p>
+<p>sattvadyah prakrti-guna yad-iksayasan</p>
+<p>yad-rupam dhruvam akrtam yad ekam atman</p>
+<p>nanadhat katham u ha veda tasya vartma</p>
+<p><strong>SYNONYMS</strong></p>
+<p>utpatti—of creation; sthiti—maintenance; laya—and dissolution; hetavah—the original causes; asya—of this material world; kalpah—capable of acting; sattva-adyah—headed by the sattva-guna; prakrti-gunah—the modes of material nature; yat—of whom; iksaya—by the glance; asan—became; yat-rupam—the form of whom; dhruvam—unlimited; akrtam—uncreated; yat—who; ekam—one; atman—in Himself; nana—variously; adhat—has manifested; katham—how; u ha—certainly; veda—can understand; tasya—His; vartma—path.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>By His glance, the Supreme Personality of Godhead enables the modes of material nature to act as the causes of universal creation, maintenance and destruction.</p>
+<p>The Supreme Soul is unlimited and beginningless, and although He is one, He has manifested Himself in many forms.</p>
+<p>How can human society understand the ways of the Supreme?</p>
+<p><strong>PURPORT</strong></p>
+<p>From Vedic literature we learn that when the Supreme Lord glances (sa aiksata) over the material energy, the three modes of material nature become manifest and create material variety.</p>
+<p>Before He glances over the material energy, there is no possibility of the creation, maintenance and annihilation of the material world.</p>
+<p>The Lord existed before the creation, and consequently He is eternal and unchanging.</p>
+<p>Therefore how can any human being, however great a scientist or philosopher he may be, understand the ways of the Supreme Personality of Godhead? The following quotations from Caitanya-bhagavata (Adi-khanda, 1.48–52 and 1.58–69) tell of the glories of Lord Ananta:</p>
+<p>ki brahma, ki siva, ki sanakadi ‘kumara’</p>
+<p>vyasa, suka, naradadi, ‘bhakta’ nama yanra</p>
+<p>Lord Brahma, Lord Siva, the four Kumaras (Sanaka, Sanatana, Sanandana and Sanat-kumara), Vyasadeva, Sukadeva Gosvami and Narada are all pure devotees, eternal servants of the Lord</p>
+<p>sabara pujita sri-ananta-mahasaya</p>
+<p>sahasra-vadana prabhu——bhakti-rasamay</p>
+<p>Lord Sri Ananta is worshiped by all the uncontaminated devotees mentioned above.</p>
+<p>He has thousands of hoods and is the reservoir of all devotional service adideva, maha-yogi, ‘isvara’, ‘vaisnava’</p>
+<p>mahimara anta inha na janaye saba</p>
+<p>Lord Ananta is the original person and the great mystic controller.</p>
+<p>At the same time, He is a servant of God, a Vaisnava.</p>
+<p>Since there is no end to His glories, no one can understand Him fully sevana sunila, ebe suna thakurala</p>
+<p>atma-tantre yena-mate vaisena patala</p>
+<p>I have already spoken to you of His service to the Lord.</p>
+<p>Now hear how the self-sufficient Anantadeva exists in the lower planetary system of Patala sri-narada-gosani ‘tumburu’ kari’ sange</p>
+<p>se yasa gayena brahma-sthane sloka-vandhe</p>
+<p>Bearing his stringed instrument, the tumburu, on his shoulders, the great sage Narada Muni always glorifies Lord Ananta.</p>
+<p>Narada Muni has composed many transcendental verses in praise of the Lord</p>
+<p>srsti, sthiti, pralaya, sattvadi yata guna</p>
+<p>yanra drsti-pate haya, yaya punah punah</p>
+<p>Simply due to the glance of Lord Ananta, the three material modes of nature interact and produce creation, maintenance and annihilation.</p>
+<p>These modes of nature appear again and again advitiya-rupa, satya anadi mahattva</p>
+<p>tathapi ‘ananta’ haya, ke bujhe se tattva?</p>
+<p>The Lord is glorified as one without a second and as the supreme truth who has no beginning.</p>
+<p>Therefore He is called Anantadeva (unlimited).</p>
+<p>Who can understand Him?</p>
+<p>suddha-sattva-murti prabhu dharena karunaya</p>
+<p>ye-vigrahe sabara prakasa sulilaya</p>
+<p>His form is completely spiritual, and He manifests it only by His mercy.</p>
+<p>All the activities in this material world are conducted only in His form yanhara taranga sikhi’ simha mahavali</p>
+<p>nija-jana-mano ranje hana kutuhali</p>
+<p>He is very powerful and always prepared to please His personal associates and devotees ye ananta-namera sravana-sankirtane</p>
+<p>ye-te mate kene nahi bole ye-te jane</p>
+<p>asesa-janmera bandha chinde sei-ksane</p>
+<p>ataeva vaisnava na chade kabhu tane</p>
+<p>If we simply try to engage in the congregational chanting of the glories of Lord Anantadeva, the dirty things in our hearts, accumulated during many births, will immediately be washed away.</p>
+<p>Therefore a Vaisnava never loses an opportunity to glorify Anantadeva ‘sesa’ ba-i samsarera gati nahi ara</p>
+<p>anantera name sarva-jivera uddhara</p>
+<p>Lord Anantadeva is known as Sesa (the unlimited end) because He ends our passage through this material world.</p>
+<p>Simply by chanting His glories, everyone can be liberated ananta prthivi-giri samudra-sahite</p>
+<p>ye-prabhu dharena gire palana karite</p>
+<p>On His head, Anantadeva sustains the entire universe, with its millions of planets containing enormous oceans and mountains sahasra phanara eka-phane ‘bindu’ yena</p>
+<p>ananta vikrama, na janena, ‘ache’ hena</p>
+<p>He is so large and powerful that this universe rests on one of His hoods just like a drop of water.</p>
+<p>He does not know where it is sahasra-vadane krsna-yasa nirantara</p>
+<p>gaite achena adi-deva mahi-dhara</p>
+<p>While bearing the universe on one of His hoods, Anantadeva chants the glories of Krsna with each of His thousands of mouths gayena ananta, sri-yasera nahi anta</p>
+<p>jaya-bhanga nahi karu, donhe——balavanta</p>
+<p>Although He has been chanting the glories of Lord Krsna since time immemorial, He has still not come to their end adyapiha ‘sesa’-deva sahasra-sri-mukhe</p>
+<p>gayena caitanya-yasa anta nahi dekhe</p>
+<p>To this very day, Lord Ananta continues to chant the glories of Sri Caitanya Mahaprabhu, and still He finds no end to them</p>
+
+
+
+<p><strong>5.25.10</strong></p>
+<p>murtim nah puru-krpaya babhara sattvam</p>
+<p>samsuddham sad-asad idam vibhati tatra</p>
+<p>yal-lilam mrga-patir adade ’navadyam</p>
+<p>adatum svajana-manamsy udara-viryah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>murtim—different forms of the Supreme Personality of Godhead; nah—unto us; puru-krpaya—because of great mercy; babhara—exhibited; sattvam—existence; samsuddham—completely transcendental; sat-asat idam—this material manifestation of cause and effect; vibhati—shines; tatra—in whom; yat-lilam—the pastimes of whom; mrga-patih—the master of all living beings, who is exactly like a lion (the master of all other animals); adade—taught; anavadyam—without material contamination; adatum—to conquer; sva-jana-manamsi—the minds of His devotees; udara-viryah—who is most liberal and powerful.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>This manifestation of subtle and gross matter exists within the Supreme Personality of Godhead.</p>
+<p>Out of causeless mercy toward His devotees, He exhibits various forms, which are all transcendental.</p>
+<p>The Supreme Lord is most liberal, and He possesses all mystic power.</p>
+<p>To conquer the minds of His devotees and give pleasure to their hearts, He appears in different incarnations and manifests many pastimes.</p>
+<p><strong>PURPORT</strong></p>
+<p>Srila Jiva Gosvami has translated this verse as follows:</p>
+<p>The Supreme Personality of Godhead is the cause of all causes.</p>
+<p>It is by His will that gross and subtle ingredients interact.</p>
+<p>He appears in various incarnations just to please the hearts of His pure devotees.</p>
+<p>For example, the Supreme Lord appeared in the transcendental incarnation of Lord Varaha (the boar) just to please His devotees by lifting the planet earth from the Garbhodaka Ocean.</p>
+
+
+
+<p><strong>5.25.11</strong></p>
+<p>yan-nama srutam anukirtayed akasmad</p>
+<p>arto va yadi patitah pralambhanad va</p>
+<p>hanty amhah sapadi nrnam asesam anyam</p>
+<p>kam sesad bhagavata asrayen mumuksuh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yat—of whom; nama—the holy name; srutam—heard; anukirtayet—may chant or repeat; akasmat—by accident; artah—a distressed person; va—or; yadi—if; patitah—a fallen person; pralambhanat—out of joking; va—or; hanti—destroys; amhah—sinful; sapadi—that instant; nrnam—of human society; asesam—unlimited; anyam—of other; kam—what; sesat—than Lord Sesa; bhagavatah—the Supreme Personality of Godhead; asrayet—should take shelter of; mumuksuh—anyone desiring liberation.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Even if he be distressed or degraded, any person who chants the holy name of the Lord, having heard it from a bona fide spiritual master, is immediately purified.</p>
+<p>Even if he chants the Lord’s name jokingly or by chance, he and anyone who hears him are freed from all sins.</p>
+
+
+
+<p><strong>5.25.12</strong></p>
+<p>murdhany arpitam anuvat sahasra-murdhno</p>
+<p>bhu-golam sagiri-sarit-samudra-sattvam</p>
+<p>anantyad animita-vikramasya bhumnah</p>
+<p>ko viryany adhi ganayet sahasra-jihvah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>murdhani—on a hood or head; arpitam—fixed; anu-vat—just like an atom; sahasra-murdhnah—of Ananta, who has thousands of hoods; bhu-golam—this universe; sa-giri-sarit-samudra-sattvam—with many mountains, trees, oceans and living entities; anantyat—due to being unlimited; animita-vikramasya—whose power is immeasurable; bhumnah—the Supreme Lord; kah—who; viryani—potencies; adhi—indeed; ganayet—can count; sahasra-jihvah—although having thousands of tongues.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Because the Lord is unlimited, no one can estimate His power.</p>
+<p>This entire universe, filled with its many great mountains, rivers, oceans, trees and living entities, is resting just like an atom on one of His many thousands of hoods.</p>
+
+
+
+<p><strong>5.25.13</strong></p>
+<p>evam-prabhavo bhagavan ananto</p>
+<p>duranta-viryoru-gunanubhavah</p>
+<p>mule rasayah sthita atma-tantro</p>
+<p>yo lilaya ksmam sthitaye bibharti</p>
+<p><strong>SYNONYMS</strong></p>
+<p>evam-prabhavah—who is so powerful; bhagavan—the Supreme Personality of Godhead; anantah—Ananta; duranta-virya—insurmountable prowess; uru—great; guna-anubhavah—possessing transcendental qualities and glories; mule—at the base; rasayah—of the lower planetary systems; sthitah—existing; atma-tantrah—completely self-sufficient; yah—who; lilaya—easily; ksmam—the universe; sthitaye—for its maintenance; bibharti—sustains.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>There is no end to the great and glorious qualities of that powerful Lord Anantadeva.</p>
+<p>Indeed, His prowess is unlimited.</p>
+<p>Though self-sufficient, He Himself is the support of everything.</p>
+<p>He resides beneath the lower planetary systems and easily sustains the entire universe.</p>
+
+
+
+<p><strong>5.25.14</strong></p>
+<p>eta hy eveha nrbhir upagantavya gatayo yatha-karma-vinirmita yathopadesam anuvarnitah kaman kamayamanaih.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>etah—all these; hi—indeed; eva—certainly; iha—in this universe; nrbhih—by all living entities; upagantavyah—achievable; gatayah—destinations; yatha-karma—according to one’s past activities; vinirmitah—created; yatha-upadesam—as instructed; anuvarnitah—described accordingly; kaman—material enjoyment; kamayamanaih—by those who are desiring.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear King, as I heard of it from my spiritual master, I have fully described to you the creation of this material world according to the fruitive activities and desires of the conditioned souls.</p>
+<p>Those conditioned souls, who are full of material desires, achieve various situations in different planetary systems, and in this way they live within this material creation.</p>
+<p><strong>PURPORT</strong></p>
+<p>In this regard, Srila Bhaktivinoda Thakura sings, taribare na dekhi upaya My Lord, I do not know when I commenced my material life, but I can certainly experience that I have fallen in the deep ocean of nescience.</p>
+<p>Now I can also see that there is no other way to get out of it than to take shelter of Your lotus feet Similarly, Sri Caitanya Mahaprabhu offers the following prayer:</p>
+<p>ayi nanda-tanuja kinkaram</p>
+<p>patitam mam visame bhavambudhau</p>
+<p>krpaya tava pada-pankaja-</p>
+<p>sthita-dhuli-sadrsam vicintaya</p>
+<p>My dear Lord, son of Nanda Maharaja, I am Your eternal servant.</p>
+<p>Somehow or other, I have fallen into this ocean of nescience.</p>
+<p>Kindly, therefore, save me from this horrible condition of materialistic life</p>
+
+
+
+<p><strong>5.25.15</strong></p>
+<p>etavatir hi rajan pumsah pravrtti-laksanasya dharmasya vipaka-gataya uccavaca visadrsa yatha-prasnam vyacakhye kim anyat kathayama iti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>etavatih—of such a kind; hi—certainly; rajan—O King; pumsah—of the human being; pravrtti-laksanasya—symptomized by inclinations; dharmasya—of the execution of duties; vipaka-gatayah—the resultant destinations; ucca-avacah—high and low; visadrsah—different; yatha-prasnam—as you inquired; vyacakhye—I have described; kim anyat—what else; kathayama—shall I speak; iti—thus.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear King, I have thus described how people generally act according to their different desires and, as a result, get different types of bodies in higher or lower planets.</p>
+<p>You inquired of these things from me, and I have explained to you whatever I have heard from authorities.</p>
+<p>What shall I speak of now?</p>
+
+
+</article></body></html>

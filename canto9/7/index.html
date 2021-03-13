@@ -1,155 +1,42 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>The Descendants of King Mandhata - The Descendants of King Mandhata</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">The Descendants of King Mandhata</a></li><li class="affix"><a href="9.7.2.html">9.7.2</a></li><li class="affix"><a href="9.7.3.html">9.7.3</a></li><li class="affix"><a href="9.7.4.html">9.7.4</a></li><li class="affix"><a href="9.7.5-6.html">9.7.5-6</a></li><li class="affix"><a href="9.7.7.html">9.7.7</a></li><li class="affix"><a href="9.7.8.html">9.7.8</a></li><li class="affix"><a href="9.7.9.html">9.7.9</a></li><li class="affix"><a href="9.7.10.html">9.7.10</a></li><li class="affix"><a href="9.7.11.html">9.7.11</a></li><li class="affix"><a href="9.7.12.html">9.7.12</a></li><li class="affix"><a href="9.7.13.html">9.7.13</a></li><li class="affix"><a href="9.7.14.html">9.7.14</a></li><li class="affix"><a href="9.7.15.html">9.7.15</a></li><li class="affix"><a href="9.7.16.html">9.7.16</a></li><li class="affix"><a href="9.7.17.html">9.7.17</a></li><li class="affix"><a href="9.7.18.html">9.7.18</a></li><li class="affix"><a href="9.7.19.html">9.7.19</a></li><li class="affix"><a href="9.7.20.html">9.7.20</a></li><li class="affix"><a href="9.7.21.html">9.7.21</a></li><li class="affix"><a href="9.7.22.html">9.7.22</a></li><li class="affix"><a href="9.7.23.html">9.7.23</a></li><li class="affix"><a href="9.7.24.html">9.7.24</a></li><li class="affix"><a href="9.7.25-26.html">9.7.25-26</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">The Descendants of King Mandhata</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#the-descendants-of-king-mandhata" id="the-descendants-of-king-mandhata">The Descendants of King Mandhata</a></h1>
-<h2><a class="header" href="#summary" id="summary">Summary</a></h2>
-<h3><a class="header" href="#97" id="97">9.7</a></h3>
+<h1>The Descendants of King Mandhata</h1>
+<h2>Summary</h2>
+<p><strong>9.7</strong></p>
 <p>In this chapter the descendants of King Mandhata are described, and in this connection the histories of Purukutsa and Hariscandra are also given.</p>
 <p>The most prominent son of Mandhata was Ambarisa, his son was Yauvanasva, and Yauvanasva’s son was Harita.</p>
 <p>These three personalities were the best in the dynasty of Mandhata.</p>
@@ -175,7 +62,7 @@
 <p>In this sacrifice, Visvamitra was the hota priest, Jamadagni was the adhvaryu, Vasistha was the brahma, and Ayasya was the udgata.</p>
 <p>King Indra, being very satisfied by the sacrifice, gave Hariscandra a golden chariot, and Visvamitra gave him transcendental knowledge.</p>
 <p>Thus Sukadeva Gosvami describes how Hariscandra achieved perfection.</p>
-<h3><a class="header" href="#971" id="971">9.7.1</a></h3>
+<p><strong>9.7.1</strong></p>
 <p>sri-suka uvaca</p>
 <p>mandhatuh putra-pravaro</p>
 <p>yo ’mbarisah prakirtitah</p>
@@ -191,63 +78,335 @@
 <p>Ambarisa’s son was Yauvanasva, and Yauvanasva’s son was Harita.</p>
 <p>In Mandhata’s dynasty, Ambarisa, Harita and Yauvanasva were very prominent.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="9.7.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>9.7.2</strong></p>
+<p>narmada bhratrbhir datta</p>
+<p>purukutsaya yoragaih</p>
+<p>taya rasatalam nito</p>
+<p>bhujagendra-prayuktaya</p>
+<p><strong>SYNONYMS</strong></p>
+<p>narmada—by the name Narmada; bhratrbhih—by her brothers; datta—was given in charity; purukutsaya—unto Purukutsa; ya—she who; uragaih—by the serpents (sarpa-gana); taya—by her; rasatalam—to the lower region of the universe; nitah—was brought; bhujaga-indra-prayuktaya—engaged by Vasuki, the King of the serpents.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The serpent brothers of Narmada gave Narmada to Purukutsa.</p>
+<p>Being sent by Vasuki, she took Purukutsa to the lower region of the universe.</p>
+<p><strong>PURPORT</strong></p>
+<p>Before describing the descendants of Purukutsa, the son of Mandhata, Sukadeva Gosvami first describes how Purukutsa was married to Narmada, who was induced to take him to the lower region of the universe.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="9.7.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>9.7.3</strong></p>
+<p>gandharvan avadhit tatra</p>
+<p>vadhyan vai visnu-sakti-dhrk</p>
+<p>nagal labdha-varah sarpad</p>
+<p>abhayam smaratam idam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>gandharvan—the inhabitants of Gandharvaloka; avadhit—he killed; tatra—there (in the lower region of the universe); vadhyan—who deserved to be killed; vai—indeed; visnu-sakti-dhrk—being empowered by Lord Visnu; nagat—from the Nagas; labdha-varah—having received a benediction; sarpat—from the snakes; abhayam—assurances; smaratam—of those who remember; idam—this incident.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>There in Rasatala, the lower region of the universe, Purukutsa, being empowered by Lord Visnu, was able to kill all the Gandharvas who deserved to be killed.</p>
+<p>Purukutsa received the benediction from the serpents that anyone who remembers this history of his being brought by Narmada to the lower region of the universe will be assured of safety from the attack of snakes.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>9.7.4</strong></p>
+<p>trasaddasyuh paurukutso</p>
+<p>yo ’naranyasya deha-krt</p>
+<p>haryasvas tat-sutas tasmat</p>
+<p>praruno ’tha tribandhanah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>trasaddasyuh—by the name Trasaddasyu; paurukutsah—the son of Purukutsa; yah—who; anaranyasya—of Anaranya; deha-krt—the father; haryasvah—by the name Haryasva; tat-sutah—the son of Anaranya; tasmat—from him (Haryasva); prarunah—by the name Praruna; atha—then, from Praruna; tribandhanah—his son, Tribandhana.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Purukutsa was Trasaddasyu, who was the father of Anaranya.</p>
+<p>Anaranya’s son was Haryasva, the father of Praruna.</p>
+<p>Praruna was the father of Tribandhana.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>9.7.5-6</strong></p>
+<p>tasya satyavratah putras</p>
+<p>trisankur iti visrutah</p>
+<p>praptas candalatam sapad</p>
+<p>guroh kausika-tejasa</p>
+<p>sasariro gatah svargam</p>
+<p>adyapi divi drsyate</p>
+<p>patito ’vak-sira devais</p>
+<p>tenaiva stambhito balat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasya—of Tribandhana; satyavratah—by the name Satyavrata; putrah—the son; trisankuh—by the name Trisanku; iti—thus; visrutah—celebrated; praptah—had obtained; candalatam—the quality of a candala, lower than a sudra; sapat—from the curse; guroh—of his father; kausika-tejasa—by the prowess of Kausika (Visvamitra); sasarirah—while in this body; gatah—went; svargam—to the heavenly planet; adya api—until today; divi—in the sky; drsyate—can be seen; patitah—having fallen down; avak-sirah—with his head hanging downward; devaih—by the prowess of the demigods; tena—by Visvamitra; eva—indeed; stambhitah—fixed; balat—by superior power.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Tribandhana was Satyavrata, who is celebrated by the name Trisanku.</p>
+<p>Because he kidnapped the daughter of a brahmana when she was being married, his father cursed him to become a candala, lower than a sudra.</p>
+<p>Thereafter, by the influence of Visvamitra, he went to the higher planetary system, the heavenly planets, in his material body, but because of the prowess of the demigods he fell back downward.</p>
+<p>Nonetheless, by the power of Visvamitra, he did not fall all the way down; even today he can still be seen hanging in the sky, head downward.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>9.7.7</strong></p>
+<p>traisankavo hariscandro</p>
+<p>visvamitra-vasisthayoh</p>
+<p>yan-nimittam abhud yuddham</p>
+<p>paksinor bahu-varsikam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>traisankavah—the son of Trisanku; hariscandrah—by the name Hariscandra; visvamitra-vasisthayoh—between Visvamitra and Vasistha; yat-nimittam—because of Hariscandra; abhut—there was; yuddham—a great fight; paksinoh—both of whom had been converted into birds; bahu-varsikam—for many years.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Trisanku was Hariscandra.</p>
+<p>Because of Hariscandra there was a quarrel between Visvamitra and Vasistha, who for many years fought one another, having been transformed into birds.</p>
+<p><strong>PURPORT</strong></p>
+<p>Visvamitra and Vasistha were always inimical.</p>
+<p>Formerly, Visvamitra was a ksatriya, and by undergoing severe austerities he wanted to become a brahmana, but Vasistha would not agree to accept him.</p>
+<p>In this way there was always disagreement between the two.</p>
+<p>Later, however, Vasistha accepted him because of Visvamitra’s quality of forgiveness.</p>
+<p>Once Hariscandra performed a yajna for which Visvamitra was the priest, but Visvamitra, being angry at Hariscandra, took away all his possessions, claiming them as a contribution of daksina.</p>
+<p>Vasistha, however, did not like this, and therefore a fight arose between Vasistha and Visvamitra.</p>
+<p>The fighting became so severe that each of them cursed the other.</p>
+<p>One of them said, May you become a bird and the other said, May you become a duck Thus both of them became birds and continued fighting for many years because of Hariscandra.</p>
+<p>We can see that such a great mystic yogi as Saubhari became a victim of sense gratification, and such great sages as Vasistha and Visvamitra became birds.</p>
+<p>This is the material world.</p>
+<p>Abrahma-bhuvanal lokah punar avartino ’rjuna (Bg.8.16).</p>
+<p>Within this material world, or within this universe, however elevated one may be in material qualities, one must suffer the conditions of birth, death, old age and disease (janma-mrtyu jara-vyadhi).</p>
+<p>Therefore Krsna says that this material world is simply miserable (duhkhalayam asasvatam (Bg.8.15)).</p>
+<p>The Bhagavatam says, padam padam yad vipadam: at every step here there is danger.</p>
+<p>Therefore, because the Krsna consciousness movement provides the opportunity for the human being to get out of this material world simply by chanting the Hare Krsna mantra, this movement is the greatest benediction in human society.</p>
+
+
+
+<p><strong>9.7.8</strong></p>
+<p>so ’napatyo visannatma</p>
+<p>naradasyopadesatah</p>
+<p>varunam saranam yatah</p>
+<p>putro me jayatam prabho</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—that Hariscandra; anapatyah—being without a son; visanna-atma—therefore very morose; naradasya—of Narada; upadesatah—by the advice; varunam—unto Varuna; saranam yatah—took shelter; putrah—a son; me—of me; jayatam—let there be born; prabho—O my lord.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Hariscandra had no son and was therefore extremely morose.</p>
+<p>Once, therefore, following the advice of Narada, he took shelter of Varuna and said to him My lord I have no son.</p>
+
+
+
+<p><strong>9.7.9</strong></p>
+<p>yadi viro maharaja</p>
+<p>tenaiva tvam yaje iti</p>
+<p>tatheti varunenasya</p>
+<p>putro jatas tu rohitah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yadi—if; virah—there is a son; maharaja—O Maharaja Pariksit; tena eva—even by that son; tvam—unto you; yaje—I shall offer sacrifice; iti—thus; tatha—as you desire; iti—thus accepted; varunena—by Varuna; asya—of Maharaja Hariscandra; putrah—a son; jatah—was born; tu—indeed; rohitah—by the name Rohita.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King Pariksit, Hariscandra begged Varuna, My lord, if a son is born to me, with that son I shall perform a sacrifice for your satisfaction When Hariscandra said this, Varuna replied, Let it be so Because of Varuna’s benediction, Hariscandra begot a son named Rohita.</p>
+
+
+
+<p><strong>9.7.10</strong></p>
+<p>jatah suto hy anenanga</p>
+<p>mam yajasveti so ’bravit</p>
+<p>yada pasur nirdasah syad</p>
+<p>atha medhyo bhaved iti</p>
+<p><strong>SYNONYMS</strong></p>
+<p>jatah—has been born; sutah—a son; hi—indeed; anena—by this son; anga—O Hariscandra; mam—unto me; yajasva—offer sacrifice; iti—thus; sah—he, Varuna; abravit—said; yada—when; pasuh—an animal; nirdasah—has passed ten days; syat—should become; atha—then; medhyah—suitable for offering in sacrifice; bhavet—becomes; iti—thus (Hariscandra said).</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, when the child was born, Varuna approached Hariscandra and said, Now you have a son.</p>
+
+
+
+<p><strong>9.7.11</strong></p>
+<p>nirdase ca sa agatya</p>
+<p>yajasvety aha so ’bravit</p>
+<p>dantah pasor yaj jayerann</p>
+<p>atha medhyo bhaved iti</p>
+<p><strong>SYNONYMS</strong></p>
+<p>nirdase—after ten days; ca—also; sah—he, Varuna; agatya—coming there; yajasva—now sacrifice; iti—thus; aha—said; sah—he, Hariscandra; abravit—replied; dantah—the teeth; pasoh—of the animal; yat—when; jayeran—have appeared; atha—then; medhyah—fit for being sacrificed; bhavet—will become; iti—thus.</p>
+<p><strong>TRANSLATION</strong></p>
+
+
+
+<p><strong>9.7.12</strong></p>
+<p>danta jata yajasveti</p>
+<p>sa pratyahatha so ’bravit</p>
+<p>yada patanty asya danta</p>
+<p>atha medhyo bhaved iti</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dantah—the teeth; jatah—have grown; yajasva—now sacrifice; iti—thus; sah—he, Varuna; pratyaha—said; atha—thereupon; sah—he, Hariscandra; abravit—replied; yada—when; patanti—fall out; asya—his; dantah—teeth; atha—then; medhyah—fit for sacrifice; bhavet—will become; iti—thus.</p>
+<p><strong>TRANSLATION</strong></p>
+
+
+
+<p><strong>9.7.13</strong></p>
+<p>pasor nipatita danta</p>
+<p>yajasvety aha so ’bravit</p>
+<p>yada pasoh punar danta</p>
+<p>jayante ’tha pasuh sucih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>pasoh—of the animal; nipatitah—have fallen out; dantah—the teeth; yajasva—now sacrifice him; iti—thus; aha—said (Varuna); sah—he, Hariscandra; abravit—replied; yada—when; pasoh—of the animal; punah—again; dantah—the teeth; jayante—grow; atha—then; pasuh—the animal; sucih—is purified for being sacrificed.</p>
+<p><strong>TRANSLATION</strong></p>
+
+
+
+<p><strong>9.7.14</strong></p>
+<p>punar jata yajasveti</p>
+<p>sa pratyahatha so ’bravit</p>
+<p>sannahiko yada rajan</p>
+<p>rajanyo ’tha pasuh sucih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>punah—again; jatah—have grown; yajasva—now you offer the sacrifice; iti—thus; sah—he, Varuna; pratyaha—replied; atha—thereafter; sah—he, Hariscandra; abravit—said; sannahikah—able to equip himself with a shield; yada—when; rajan—O King Varuna; rajanyah—the ksatriya; atha—then; pasuh—the sacrificial animal; sucih—becomes purified.</p>
+<p><strong>TRANSLATION</strong></p>
+
+
+
+<p><strong>9.7.15</strong></p>
+<p>iti putranuragena</p>
+<p>sneha-yantrita-cetasa</p>
+<p>kalam vancayata tam tam</p>
+<p>ukto devas tam aiksata</p>
+<p><strong>SYNONYMS</strong></p>
+<p>iti—in this way; putra-anuragena—because of affection for the son; sneha-yantrita-cetasa—his mind being controlled by such affection; kalam—time; vancayata—cheating; tam—unto him; tam—that; uktah—said; devah—the demigod Varuna; tam—unto him, Hariscandra; aiksata—waited for the fulfillment of his promise.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Hariscandra was certainly very much attached to his son.</p>
+<p>Because of this affection, he asked the demigod Varuna to wait.</p>
+<p>Thus Varuna waited and waited for the time to come.</p>
+
+
+
+<p><strong>9.7.16</strong></p>
+<p>rohitas tad abhijnaya</p>
+<p>pituh karma cikirsitam</p>
+<p>prana-prepsur dhanus-panir</p>
+<p>aranyam pratyapadyata</p>
+<p><strong>SYNONYMS</strong></p>
+<p>rohitah—the son of Hariscandra; tat—this fact; abhijnaya—having thoroughly understood; pituh—of his father; karma—action; cikirsitam—which he was practically doing; prana-prepsuh—wishing to save his life; dhanuh-panih—taking his bow and arrows; aranyam—to the forest; pratyapadyata—left.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Rohita could understand that his father intended to offer him as the animal for sacrifice.</p>
+<p>Therefore, just to save himself from death, he equipped himself with bow and arrows and went to the forest.</p>
+
+
+
+<p><strong>9.7.17</strong></p>
+<p>pitaram varuna-grastam</p>
+<p>srutva jata-mahodaram</p>
+<p>rohito gramam eyaya</p>
+<p>tam indrah pratyasedhata</p>
+<p><strong>SYNONYMS</strong></p>
+<p>pitaram—about his father; varuna-grastam—having been attacked with dropsy by Varuna; srutva—after hearing; jata—had grown; maha-udaram—inflated abdomen; rohitah—his son Rohita; gramam eyaya—wanted to come back to the capital; tam—unto him (Rohita); indrah—King Indra; pratyasedhata—forbade to go there.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When Rohita heard that his father had been attacked by dropsy due to Varuna and that his abdomen had grown very large, he wanted to return to the capital, but King Indra forbade him to do so.</p>
+
+
+
+<p><strong>9.7.18</strong></p>
+<p>bhumeh paryatanam punyam</p>
+<p>tirtha-ksetra-nisevanaih</p>
+<p>rohitayadisac chakrah</p>
+<p>so ’py aranye ’vasat samam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>bhumeh—of the surface of the world; paryatanam—traveling; punyam—holy places; tirtha-ksetra—places of pilgrimage; nisevanaih—by serving or going to and coming from such places; rohitaya—unto Rohita; adisat—ordered; sakrah—King Indra; sah—he, Rohita; api—also; aranye—in the forest; avasat—lived; samam—for one year.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>King Indra advised Rohita to travel to different pilgrimage sites and holy places, for such activities are pious indeed.</p>
+<p>Following this instruction, Rohita went to the forest for one year.</p>
+
+
+
+<p><strong>9.7.19</strong></p>
+<p>evam dvitiye trtiye</p>
+<p>caturthe pancame tatha</p>
+<p>abhyetyabhyetya sthaviro</p>
+<p>vipro bhutvaha vrtra-ha</p>
+<p><strong>SYNONYMS</strong></p>
+<p>evam—in this way; dvitiye—on the second year; trtiye—on the third year; caturthe—on the fourth year; pancame—on the fifth year; tatha—as well as; abhyetya—coming before him; abhyetya—again coming before him; sthavirah—a very old man; viprah—a brahmana; bhutva—becoming so; aha—said; vrtra-ha—Indra.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In this way, at the end of the second, third, fourth and fifth years, when Rohita wanted to return to his capital, the King of heaven, Indra, approached him as an old brahmana and forbade him to return, repeating the same words as in the previous year.</p>
+
+
+
+<p><strong>9.7.20</strong></p>
+<p>sastham samvatsaram tatra</p>
+<p>caritva rohitah purim</p>
+<p>upavrajann ajigartad</p>
+<p>akrinan madhyamam sutam</p>
+<p>sunahsepham pasum pitre</p>
+<p>pradaya samavandata</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sastham—the sixth; samvatsaram—year; tatra—in the forest; caritva—wandering; rohitah—the son of Hariscandra; purim—in his capital; upavrajan—went there; ajigartat—from Ajigarta; akrinat—purchased; madhyamam—the second; sutam—son; sunahsepham—whose name was Sunahsepha; pasum—to use as the sacrificial animal; pitre—unto his father; pradaya—offering; samavandata—respectfully offered his obeisances.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, in the sixth year, after wandering in the forest, Rohita returned to the capital of his father.</p>
+<p>He purchased from Ajigarta his second son, named Sunahsepha.</p>
+<p>Then he offered Sunahsepha to his father, Hariscandra, to be used as the sacrificial animal and offered Hariscandra his respectful obeisances.</p>
+<p><strong>PURPORT</strong></p>
+<p>It appears that in those days a man could be purchased for any purpose.</p>
+<p>Hariscandra was in need of a person to sacrifice as the animal in a yajna and thus fulfill his promise to Varuna, and a man was purchased from another man for this purpose.</p>
+<p>Millions of years ago, animal sacrifice and slave trade both existed.</p>
+<p>Indeed, they have existed since time immemorial.</p>
+
+
+
+<p><strong>9.7.21</strong></p>
+<p>tatah purusa-medhena</p>
+<p>hariscandro maha-yasah</p>
+<p>muktodaro ’yajad devan</p>
+<p>varunadin mahat-kathah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—thereafter; purusa-medhena—by sacrificing a man in the yajna; hariscandrah—King Hariscandra; maha-yasah—very famous; mukta-udarah—became free from dropsy; ayajat—offered sacrifices; devan—unto the demigods; varuna-adin—headed by Varuna and others; mahat-kathah—famous in history with other exalted personalities.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, the famous King Hariscandra, one of the exalted persons in history, performed grand sacrifices by sacrificing a man and pleased all the demigods.</p>
+<p>In this way his dropsy created by Varuna was cured.</p>
+
+
+
+<p><strong>9.7.22</strong></p>
+<p>visvamitro ’bhavat tasmin</p>
+<p>hota cadhvaryur atmavan</p>
+<p>jamadagnir abhud brahma</p>
+<p>vasistho ’yasyah sama-gah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>visvamitrah—the great sage and mystic Visvamitra; abhavat—became; tasmin—in that great sacrifice; hota—the chief priest to offer oblations; ca—also; adhvaryuh—a person who recites hymns from the Yajur Veda and performs ritualistic ceremonies; atmavan—fully self-realized; jamadagnih—Jamadagni; abhut—became; brahma—acting as the chief brahmana; vasisthah—the great sage; ayasyah—another great sage; sama-gah—engaged as the reciter of the Sama Veda mantras.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In that great human sacrifice, Visvamitra was the chief priest to offer oblations, the perfectly self-realized Jamadagni had the responsibility for chanting the mantras from the Yajur Veda, Vasistha was the chief brahminical priest, and the sage Ayasya was the reciter of the hymns of the Sama Veda.</p>
+
+
+
+<p><strong>9.7.23</strong></p>
+<p>tasmai tusto dadav indrah</p>
+<p>satakaumbhamayam ratham</p>
+<p>sunahsephasya mahatmyam</p>
+<p>uparistat pracaksyate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasmai—unto him, King Hariscandra; tustah—being very pleased; dadau—delivered; indrah—the King of heaven; satakaumbha-mayam—made of gold; ratham—a chariot; sunahsephasya—about Sunahsepha; mahatmyam—glories; uparistat—in the course of describing the sons of Visvamitra; pracaksyate—will be narrated.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>King Indra, being very pleased with Hariscandra, offered him a gift of a golden chariot.</p>
+<p>Sunahsepha’s glories will be presented along with the description of the son of Visvamitra.</p>
+
+
+
+<p><strong>9.7.24</strong></p>
+<p>satyam saram dhrtim drstva</p>
+<p>sabharyasya ca bhupateh</p>
+<p>visvamitro bhrsam prito</p>
+<p>dadav avihatam gatim</p>
+<p><strong>SYNONYMS</strong></p>
+<p>satyam—truthfulness; saram—firmness; dhrtim—forbearance; drstva—by seeing; sa-bharyasya—with his wife; ca—and; bhupateh—of Maharaja Hariscandra; visvamitrah—the great sage Visvamitra; bhrsam—very much; pritah—being pleased; dadau—gave him; avihatam gatim—imperishable knowledge.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The great sage Visvamitra saw that Maharaja Hariscandra, along with his wife, was truthful, forbearing and concerned with the essence.</p>
+<p>Thus he gave them imperishable knowledge for fulfillment of the human mission.</p>
+
+
+
+<p><strong>9.7.25-26</strong></p>
+<p>manah prthivyam tam adbhis</p>
+<p>tejasapo ’nilena tat</p>
+<p>khe vayum dharayams tac ca</p>
+<p>bhutadau tam mahatmani</p>
+<p>tasmin jnana-kalam dhyatva</p>
+<p>tayajnanam vinirdahan</p>
+<p>hitva tam svena bhavena</p>
+<p>nirvana-sukha-samvida</p>
+<p>anirdesyapratarkyena</p>
+<p>tasthau vidhvasta-bandhanah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>manah—the mind (full of material desires for eating, sleeping, mating and defending); prthivyam—in the earth; tam—that; adbhih—with water; tejasa—and with fire; apah—the water; anilena—in the fire; tat—that; khe—in the sky; vayum—the air; dharayan—amalgamating; tat—that; ca—also; bhuta-adau—in the false ego, the origin of material existence; tam—that (false ego); maha-atmani—in the mahat-tattva, the total material energy; tasmin—in the total material energy; jnana-kalam—spiritual knowledge and its different branches; dhyatva—by meditating; taya—by this process; ajnanam—ignorance; vinirdahan—specifically subdued; hitva—giving up; tam—material ambition; svena—by self-realization; bhavena—in devotional service; nirvana-sukha-samvida—by transcendental bliss, putting an end to material existence; anirdesya—imperceptible; apratarkyena—inconceivable; tasthau—remained; vidhvasta—completely freed from; bandhanah—material bondage.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Maharaja Hariscandra first purified his mind, which was full of material enjoyment, by amalgamating it with the earth.</p>
+<p>Then he amalgamated the earth with water, the water with fire, the fire with the air, and the air with the sky.</p>
+<p>Thereafter, he amalgamated the sky with the total material energy, and the total material energy with spiritual knowledge.</p>
+<p>This spiritual knowledge is realization of one’s self as part of the Supreme Lord.</p>
+<p>When the self-realized spiritual soul is engaged in service to the Lord, he is eternally imperceptible and inconceivable.</p>
+<p>Thus established in spiritual knowledge, he is completely freed from material bondage.</p>
+
+
+</article></body></html>

@@ -1,155 +1,42 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>Gajendra Returns to the Spiritual World - Gajendra Returns to the Spiritual World</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">Gajendra Returns to the Spiritual World</a></li><li class="affix"><a href="8.4.2.html">8.4.2</a></li><li class="affix"><a href="8.4.3-4.html">8.4.3-4</a></li><li class="affix"><a href="8.4.5.html">8.4.5</a></li><li class="affix"><a href="8.4.6.html">8.4.6</a></li><li class="affix"><a href="8.4.7.html">8.4.7</a></li><li class="affix"><a href="8.4.8.html">8.4.8</a></li><li class="affix"><a href="8.4.9.html">8.4.9</a></li><li class="affix"><a href="8.4.10.html">8.4.10</a></li><li class="affix"><a href="8.4.11-12.html">8.4.11-12</a></li><li class="affix"><a href="8.4.13.html">8.4.13</a></li><li class="affix"><a href="8.4.14.html">8.4.14</a></li><li class="affix"><a href="8.4.15.html">8.4.15</a></li><li class="affix"><a href="8.4.16.html">8.4.16</a></li><li class="affix"><a href="8.4.17-24.html">8.4.17-24</a></li><li class="affix"><a href="8.4.25.html">8.4.25</a></li><li class="affix"><a href="8.4.26.html">8.4.26</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">Gajendra Returns to the Spiritual World</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#gajendra-returns-to-the-spiritual-world" id="gajendra-returns-to-the-spiritual-world">Gajendra Returns to the Spiritual World</a></h1>
-<h2><a class="header" href="#summary" id="summary">Summary</a></h2>
-<h3><a class="header" href="#84" id="84">8.4</a></h3>
+<h1>Gajendra Returns to the Spiritual World</h1>
+<h2>Summary</h2>
+<p><strong>8.4</strong></p>
 <p>This Fourth Chapter describes the previous birth of Gajendra and the crocodile.</p>
 <p>It tells how the crocodile became a Gandharva and how Gajendra became an associate of the Supreme Personality of Godhead.</p>
 <p>There was a king on the Gandharva planet whose name was Huhu.</p>
@@ -171,7 +58,7 @@
 <p>Sukadeva Gosvami ends this chapter by describing the good fortune of the elephant.</p>
 <p>Sukadeva Gosvami says that by hearing the narration of Gajendra’s deliverance, one can also get the opportunity to be delivered.</p>
 <p>Sukadeva Gosvami vividly describes this, and thus the chapter ends.</p>
-<h3><a class="header" href="#841" id="841">8.4.1</a></h3>
+<p><strong>8.4.1</strong></p>
 <p>sri-suka uvaca</p>
 <p>tada devarsi-gandharva</p>
 <p>brahmesana-purogamah</p>
@@ -188,63 +75,330 @@
 <p>Indradyumna, in his birth as an elephant, attained salvation and became a personal associate of the Lord in Vaikuntha, and the crocodile regained his status as a Gandharva.</p>
 <p>We find evidence in many places that the curse of a great saint or devotee is not a curse but a benediction.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="8.4.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>8.4.2</strong></p>
+<p>nedur dundubhayo divya</p>
+<p>gandharva nanrtur jaguh</p>
+<p>rsayas caranah siddhas</p>
+<p>tustuvuh purusottamam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>neduh—vibrated; dundubhayah—kettledrums; divyah—in the sky of the higher planetary system; gandharvah—residents of Gandharvaloka; nanrtuh—danced; jaguh—and sang; rsayah—all the saintly sages; caranah—the inhabitants of the Carana planet; siddhah—the inhabitants of the Siddha planet; tustuvuh—offered prayers; purusa-uttamam—to the Supreme Personality of Godhead, Purusottama, the best of males.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>There was a beating of kettledrums in the heavenly planets, the inhabitants of Gandharvaloka began to dance and sing, while great sages and the inhabitants of Caranaloka and Siddhaloka offered prayers to the Supreme Personality of Godhead, Purusottama.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="8.4.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>8.4.3-4</strong></p>
+<p>yo ’sau grahah sa vai sadyah</p>
+<p>paramascarya-rupa-dhrk</p>
+<p>mukto devala-sapena</p>
+<p>huhur gandharva-sattamah</p>
+<p>pranamya sirasadhisam</p>
+<p>uttama-slokam avyayam</p>
+<p>agayata yaso-dhama</p>
+<p>kirtanya-guna-sat-katham</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—he who; asau—that; grahah—became a crocodile; sah—he; vai—indeed; sadyah—immediately; parama—very nice; ascarya—wonderful; rupa-dhrk—possessing the form (of his original Gandharva position); muktah—was delivered; devala-sapena—by the cursing of Devala Rsi; huhuh—whose name was formerly Huhu; gandharva-sattamah—the best of Gandharvaloka; pranamya—offering his obeisances; sirasa—by the head; adhisam—unto the supreme master; uttama-slokam—who is worshiped by the choicest verses; avyayam—who is the supreme eternal; agayata—he began to chant; yasah-dhama—the glories of the Lord; kirtanya-guna-sat-katham—whose transcendental pastimes and qualities are glorious.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The best of the Gandharvas, King Huhu, having been cursed by Devala Muni, had become a crocodile.</p>
+<p>Now, having been delivered by the Supreme Personality of Godhead, he assumed a very beautiful form as a Gandharva.</p>
+<p>Understanding by whose mercy this had happened, he immediately offered his respectful obeisances with his head and began chanting prayers just suitable for the transcendental Lord, the supreme eternal, who is worshiped by the choicest verses.</p>
+<p><strong>PURPORT</strong></p>
+<p>The story of how the Gandharva had become a crocodile will be described later.</p>
+<p>The curse by which the Gandharva took this position was actually a blessing, not a curse.</p>
+<p>One should not be displeased when a saintly person curses someone, for his curse, indirectly, is a blessing.</p>
+<p>The Gandharva had the mentality of an inhabitant of the celestial planetary system, and for him to become an associate of the Supreme Lord would have taken millions of long years.</p>
+<p>However, because he was cursed by Devala Rsi, he became a crocodile and in only one life was fortunate enough to see the Supreme Personality of Godhead face to face and be promoted to the spiritual world to become one of the Lord’s associates.</p>
+<p>Similarly, Gajendra was also delivered by the Supreme Personality of Godhead when he was freed from the curse of Agastya Muni.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>8.4.5</strong></p>
+<p>so ’nukampita isena</p>
+<p>parikramya pranamya tam</p>
+<p>lokasya pasyato lokam</p>
+<p>svam agan mukta-kilbisah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—he (King Huhu); anukampitah—being favored; isena—by the Supreme Lord; parikramya—circumambulating; pranamya—offering his obeisances; tam—unto Him; lokasya—all the demigods and men; pasyatah—while seeing; lokam—to the planet; svam—his own; agat—went back; mukta—being delivered; kilbisah—from the reactions of his sin.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Having been favored by the causeless mercy of the Supreme Personality of Godhead and having regained his original form, King Huhu circumambulated the Lord and offered his obeisances.</p>
+<p>Then, in the presence of all the demigods, headed by Brahma, he returned to Gandharvaloka.</p>
+<p>He had been freed of all sinful reactions.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>8.4.6</strong></p>
+<p>gajendro bhagavat-sparsad</p>
+<p>vimukto ’jnana-bandhanat</p>
+<p>prapto bhagavato rupam</p>
+<p>pita-vasas catur-bhujah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>gajendrah—the King of the elephants, Gajendra; bhagavat-sparsat—because of being touched by the hand of the Supreme Personality of Godhead; vimuktah—was immediately freed; ajnana-bandhanat—from all kinds of ignorance, especially the bodily concept of life; praptah—achieved; bhagavatah—of the Supreme Personality of Godhead; rupam—the same bodily features; pita-vasah—wearing yellow garments; catuh-bhujah—and four-handed, with conchshell, disc, club and lotus.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Because Gajendra, King of the elephants, had been touched directly by the hands of the Supreme Personality of Godhead, he was immediately freed of all material ignorance and bondage.</p>
+<p>Thus he received the salvation of sarupya-mukti, in which he achieved the same bodily features as the Lord, being dressed in yellow garments and possessing four hands.</p>
+<p><strong>PURPORT</strong></p>
+<p>If one is favored by the Supreme Personality of Godhead by having his gross body touched by the Lord, his body turns into a spiritual body, and he can go back home, back to Godhead.</p>
+<p>Gajendra assumed a spiritual body when his body was touched by the Lord.</p>
+<p>Similarly, Dhruva Maharaja assumed his spiritual body in this way.</p>
+<p>Arcana-paddhati, daily worship of the Deity, provides an opportunity to touch the body of the Supreme Personality of Godhead, and thus it enables one to be fortunate enough to get a spiritual body and go back to Godhead.</p>
+<p>Not only by touching the body of the Supreme Lord, but simply by hearing about His pastimes, chanting His glories, touching His feet and offering worship—in other words, by serving the Lord somehow or other—one is purified of material contamination.</p>
+<p>This is the result of touching the Supreme Lord.</p>
+<p>One who is a pure devotee (anyabhilasita-sunyam (Bhakti-rasamrta-sindhu 1.1.11)), who acts according to the sastra and the words of the Supreme Personality of Godhead, certainly becomes purified.</p>
+<p>Like Gajendra, he assumes a spiritual body and returns home, back to Godhead.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>8.4.7</strong></p>
+<p>sa vai purvam abhud raja</p>
+<p>pandyo dravida-sattamah</p>
+<p>indradyumna iti khyato</p>
+<p>visnu-vrata-parayanah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—this elephant (Gajendra); vai—indeed; purvam—formerly; abhut—was; raja—a king; pandyah—of the country known as Pandya; dravida-sat-tamah—the best of those born in Dravida-desa, South India; indradyumnah—by the name Maharaja Indradyumna; iti—thus; khyatah—celebrated; visnu-vrata-parayanah—who was a first-class Vaisnava, always engaged in the service of the Lord.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>This Gajendra had formerly been a Vaisnava and the king of the country known as Pandya, which is in the province of Dravida (South India).</p>
+<p>In his previous life, he was known as Indradyumna Maharaja.</p>
+
+
+
+<p><strong>8.4.8</strong></p>
+<p>sa ekadaradhana-kala atmavan</p>
+<p>grhita-mauna-vrata isvaram harim</p>
+<p>jata-dharas tapasa apluto ’cyutam</p>
+<p>samarcayam asa kulacalasramah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—that Indradyumna Maharaja; ekada—once upon a time; aradhana-kale—at the time of worshiping the Deity; atmavan—engaged in devotional service in meditation with great attention; grhita—taken; mauna-vratah—the vow of silence (not talking with anyone); isvaram—the supreme controller; harim—the Personality of Godhead; jata-dharah—with matted locks; tapasah—always engaged in austerity; aplutah—always merged in love for the Supreme Personality of Godhead; acyutam—the infallible Lord; samarcayam asa—was worshiping; kulacala-asramah—he made his asrama in Kulacala (the Malaya Hills).</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Indradyumna Maharaja retired from family life and went to the Malaya Hills, where he had a small cottage for his asrama.</p>
+<p>He wore matted locks on his head and always engaged in austerities.</p>
+<p>Once, while observing a vow of silence, he was fully engaged in the worship of the Lord and absorbed in the ecstasy of love of Godhead.</p>
+
+
+
+<p><strong>8.4.9</strong></p>
+<p>yadrcchaya tatra maha-yasa munih</p>
+<p>samagamac chisya-ganaih parisritah</p>
+<p>tam viksya tusnim akrtarhanadikam</p>
+<p>rahasy upasinam rsis cukopa ha</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yadrcchaya—out of his own will (without being invited); tatra—there; maha-yasah—very celebrated, well-known; munih—Agastya Muni; samagamat—arrived; sisya-ganaih—by his disciples; parisritah—surrounded; tam—him; viksya—seeing; tusnim—silent; akrta-arhana-adikam—without offering a respectful reception; rahasi—in a secluded place; upasinam—sitting in meditation; rsih—the great sage; cukopa—became very angry; ha—it so happened.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>While Indradyumna Maharaja was engaged in ecstatic meditation, worshiping the Supreme Personality of Godhead, the great sage Agastya Muni arrived there, surrounded by his disciples.</p>
+<p>When the Muni saw that Maharaja Indradyumna, who was sitting in a secluded place, remained silent and did not follow the etiquette of offering him a reception, he was very angry.</p>
+
+
+
+<p><strong>8.4.10</strong></p>
+<p>tasma imam sapam adad asadhur</p>
+<p>ayam duratmakrta-buddhir adya</p>
+<p>vipravamanta visatam tamisram</p>
+<p>yatha gajah stabdha-matih sa eva</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasmai—unto Maharaja Indradyumna; imam—this; sapam—curse; adat—he gave; asadhuh—not at all gentle; ayam—this; duratma—degraded soul; akrta—without education; buddhih—his intelligence; adya—now; vipra—of a brahmana; avamanta—insulter; visatam—let him enter; tamisram—darkness; yatha—as; gajah—an elephant; stabdha-matih—possessing blunt intelligence; sah—he; eva—indeed.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Agastya Muni then spoke this curse against the King: This King Indradyumna is not at all gentle.</p>
+<p>Being low and uneducated, he has insulted a brahmana.</p>
+<p>May he therefore enter the region of darkness and receive the dull, dumb body of an elephant.</p>
+<p><strong>PURPORT</strong></p>
+<p>An elephant is very strong, it has a very big body, and it can work very hard and eat a large quantity of food, but its intelligence is not at all commensurate with its size and strength.</p>
+<p>Thus in spite of so much bodily strength, the elephant works as a menial servant for a human being.</p>
+<p>Agastya Muni thought it wise to curse the King to become an elephant because the powerful King did not receive Agastya Muni as one is obliged to receive a brahmana.</p>
+<p>Yet although Agastya Muni cursed Maharaja Indradyumna to become an elephant, the curse was indirectly a benediction, for by undergoing one life as an elephant, Indradyumna Maharaja ended the reactions for all the sins of his previous life.</p>
+<p>Immediately after the expiry of the elephant’s life, he was promoted to Vaikunthaloka to become a personal associate of the Supreme Personality of Godhead, Narayana, in a body exactly like that of the Lord.</p>
+<p>This is called sarupya-mukti.</p>
+
+
+
+<p><strong>8.4.11-12</strong></p>
+<p>sri-suka uvaca</p>
+<p>evam saptva gato ’gastyo</p>
+<p>bhagavan nrpa sanugah</p>
+<p>indradyumno ’pi rajarsir</p>
+<p>distam tad upadharayan</p>
+<p>apannah kaunjarim yonim</p>
+<p>atma-smrti-vinasinim</p>
+<p>hary-arcananubhavena</p>
+<p>yad-gajatve ’py anusmrtih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-sukah uvaca—Sri Sukadeva Gosvami said; evam—thus; saptva—after cursing; gatah—left that place; agastyah—Agastya Muni; bhagavan—so powerful; nrpa—O King; sa-anugah—with his associates; indradyumnah—King Indradyumna; api—also; rajarsih—although he was a rajarsi; distam—because of past deeds; tat—that curse; upadharayan—considering; apannah—got; kaunjarim—of an elephant; yonim—the species; atma-smrti—remembrance of one’s identity; vinasinim—which destroys; hari—the Supreme Personality of Godhead; arcana-anubhavena—because of worshiping; yat—that; gajatve—in the body of an elephant; api—although; anusmrtih—the opportunity to remember his past devotional service.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sukadeva Gosvami continued: My dear King, after Agastya Muni had thus cursed King Indradyumna, the Muni left that place along with his disciples.</p>
+<p>Since the King was a devotee, he accepted Agastya Muni’s curse as welcome because it was the desire of the Supreme Personality of Godhead.</p>
+<p>Therefore, although in his next life he got the body of an elephant, because of devotional service he remembered how to worship and offer prayers to the Lord.</p>
+<p><strong>PURPORT</strong></p>
+<p>This is the unique position of a devotee of the Supreme Personality of Godhead.</p>
+<p>Although the King was cursed, he welcomed the curse because a devotee is always aware that nothing can happen without the desire of the Supreme Lord.</p>
+<p>Although the King was not at fault, Agastya Muni cursed him, and when this happened the King considered it to be due to his past misdeeds.</p>
+<p>Tat te ’nukampam susamiksamanah (Bhag.10.14.8).</p>
+<p>This is a practical example of how a devotee thinks.</p>
+<p>He regards any reverses in life as blessings of the Supreme Personality of Godhead.</p>
+<p>Therefore, instead of being agitated by such reverses, he continues his activities of devotional service, and Krsna takes care of him and enables him to be promoted to the spiritual world, back to Godhead.</p>
+<p>If a devotee has to suffer the reactions of his past misdeeds, the Supreme Lord arranges for him to be given only a token of these reactions, and very soon he is freed from all the reactions of material contamination.</p>
+<p>One should therefore adhere to devotional service, and the Lord Himself will very soon see to one’s promotion to the spiritual world.</p>
+<p>A devotee should not be disturbed by unfortunate circumstances, but must continue his regular program, depending on the Lord for everything.</p>
+<p>The word upadharayan, considering is very significant in this verse.</p>
+<p>This word indicates that a devotee knows what is what; he understands what is happening in material, conditional life.</p>
+
+
+
+<p><strong>8.4.13</strong></p>
+<p>evam vimoksya gaja-yutha-pam abja-nabhas</p>
+<p>tenapi parsada-gatim gamitena yuktah</p>
+<p>gandharva-siddha-vibudhair upagiyamana-</p>
+<p>karmadbhutam sva-bhavanam garudasano ’gat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>evam—thus; vimoksya—delivering; gaja-yutha-pam—the King of the elephants, Gajendra; abja-nabhah—the Supreme Personality of Godhead, from whose navel sprouts a lotus flower; tena—by him (Gajendra); api—also; parsada-gatim—the position of the Lord’s associate; gamitena—who had already gotten; yuktah—accompanied; gandharva—by the denizens of Gandharvaloka; siddha—the denizens of Siddhaloka; vibudhaih—and by all great learned sages; upagiyamana—were being glorified; karma—whose transcendental activities; adbhutam—all-wonderful; sva-bhavanam—to His own abode; garuda-asanah—sitting on the back of Garuda; agat—returned.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Upon delivering the King of the elephants from the clutches of the crocodile, and from material existence, which resembles a crocodile, the Lord awarded him the status of sarupya-mukti.</p>
+<p>In the presence of the Gandharvas, the Siddhas and the other demigods, who were praising the Lord for His wonderful transcendental activities, the Lord, sitting on the back of His carrier, Garuda, returned to His all-wonderful abode and took Gajendra with Him.</p>
+<p><strong>PURPORT</strong></p>
+<p>In this verse the word vimoksya is significant.</p>
+<p>For a devotee, moksa or mukti—salvation—means getting the position of the Lord’s associate.</p>
+<p>The impersonalists are satisfied to get the liberation of merging in the Brahman effulgence, but for a devotee, mukti (liberation) means not to merge in the effulgence of the Lord, but to be directly promoted to the Vaikuntha planets and to become an associate of the Lord.</p>
+<p>Srimad-Bhagavatam (10.14.8):</p>
+<p>tat te ’nukampam susamiksamano</p>
+<p>bhunjana evatma-krtam vipakam</p>
+<p>hrd-vag-vapurbhir vidadhan namas te</p>
+<p>jiveta yo mukti-pade sa daya-bhak</p>
+<p>One who seeks Your compassion and thus tolerates all kinds of adverse conditions due to the karma of his past deeds, who engages always in Your devotional service with his mind, words and body, and who always offers obeisances unto You, is certainly a bona fide candidate for liberation A devotee who tolerates everything in this material world and patiently executes his devotional service can become mukti-pade sa daya-bhak, a bona fide candidate for liberation.</p>
+<p>The word daya-bhak refers to a hereditary right to the Lord’s mercy.</p>
+<p>A devotee must simply engage in devotional service, not caring about material situations.</p>
+<p>Then he automatically becomes a rightful candidate for promotion to Vaikunthaloka.</p>
+<p>The devotee who renders unalloyed service to the Lord gets the right to be promoted to Vaikunthaloka, just as a son inherits the property of his father.</p>
+<p>When a devotee gets liberation, he becomes free from material contamination and engages as a servant of the Lord.</p>
+<p>Srimad-Bhagavatam (2.10.6): muktir hitvanyatha rupam svarupena vyavasthitih.</p>
+<p>The word svarupa refers to sarupya-mukti—going back home, back to Godhead, and remaining the Lord’s eternal associate, having regained a spiritual body exactly resembling that of the Lord, with four hands, holding the sankha, cakra, gada and padma.</p>
+<p>The difference between the mukti of the impersonalist and that of the devotee is that the devotee is immediately appointed an eternal servant of the Lord, whereas the impersonalist, although merging in the effulgence of the brahmajyoti, is still insecure and therefore generally falls again to this material world.</p>
+<p>Aruhya krcchrena param padam tatah patanty adho ’nadrta-yusmad-anghrayah (Bhag.10.2.32).</p>
+<p>Although the impersonalist rises to the Brahman effulgence and enters into that effulgence, he has no engagement in the service of the Lord, and therefore he is again attracted to materialistic philanthropic activities.</p>
+<p>Thus he comes down to open hospitals and educational institutions, feed poor men and perform similar materialistic activities, which the impersonalist thinks are more precious than serving the Supreme Personality of Godhead.</p>
+<p>Anadrta-yusmad-anghrayah.</p>
+<p>The impersonalists do not think that the service of the Lord is more valuable than serving the poor man or starting a school or hospital.</p>
+<p>Although they say brahma satyam jagan mithya—Brahman is real, and the material world is fals—they are nonetheless very eager to serve the false material world and neglect the service of the lotus feet of the Supreme Personality of Godhead.</p>
+
+
+
+<p><strong>8.4.14</strong></p>
+<p>etan maha-raja taverito maya</p>
+<p>krsnanubhavo gaja-raja-moksanam</p>
+<p>svargyam yasasyam kali-kalmasapaham</p>
+<p>duhsvapna-nasam kuru-varya srnvatam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>etat—this; maha-raja—O King Pariksit; tava—unto you; iritah—described; maya—by me; krsna-anubhavah—the unlimited potency of Lord Krsna (by which He can deliver a devotee); gaja-raja-moksanam—delivering the King of the elephants; svargyam—giving elevation to higher planetary systems; yasasyam—increasing one’s reputation as a devotee; kali-kalmasa-apaham—diminishing the contamination of the Kali-yuga; duhsvapna-nasam—counteracting the causes of bad dreams; kuru-varya—O best among the Kurus; srnvatam—of persons who hear this narration.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear King Pariksit, I have now described the wonderful power of Krsna, as displayed when the Lord delivered the King of the elephants.</p>
+<p>O best of the Kuru dynasty, those who hear this narration become fit to be promoted to the higher planetary systems.</p>
+<p>Simply because of hearing this narration, they gain a reputation as devotees, they are unaffected by the contamination of Kali-yuga, and they never see bad dreams.</p>
+
+
+
+<p><strong>8.4.15</strong></p>
+<p>yathanukirtayanty etac</p>
+<p>chreyas-kama dvijatayah</p>
+<p>sucayah pratar utthaya</p>
+<p>duhsvapnady-upasantaye</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yatha—without deviation; anukirtayanti—they chant; etat—this narration of the deliverance of Gajendra; sreyah-kamah—persons who desire their own auspiciousness; dvi-jatayah—the twice-born (brahmanas, ksatriyas and vaisyas); sucayah—especially the brahmanas, who are always clean; pratah—in the morning; utthaya—after getting up from sleep; duhsvapna-adi—beginning with sleeping badly at night; upasantaye—to counteract all troublesome positions.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Therefore, after getting up from bed in the morning, those who desire their own welfare—especially the brahmanas, ksatriyas, vaisyas and in particular the brahmana Vaisnavas—should chant this narration as it is, without deviation, to counteract the troubles of bad dreams.</p>
+<p><strong>PURPORT</strong></p>
+<p>Every verse in the Vedic literature, especially in the Srimad-Bhagavatam and Bhagavad-gita, is a Vedic mantra.</p>
+<p>Here the words yathanukirtayanti are used to recommend that this literature be presented as it is.</p>
+<p>Unscrupulous persons, however, deviate from the actual narration and interpret the text in their own way with grammatical jugglery.</p>
+<p>Such deviations are to be avoided.</p>
+<p>This is a Vedic injunction supported by Sukadeva Gosvami, one of the mahajanas, or authorities.</p>
+<p>He says, yathanukirtayanti: one should recite the mantra as it is, without deviation, for then one will be eligible to rise to the platform of all good fortune.</p>
+<p>Sukadeva Gosvami especially recommends that those who are brahmanas (sucayah) recite all these mantras after rising from bed in the morning.</p>
+<p>Because of sinful activities, at night we have bad dreams, which are very troublesome.</p>
+<p>Indeed, Maharaja Yudhisthira was obliged to see hell because of a slight deviation from devotional service to the Lord.</p>
+<p>Therefore, duhsvapna—bad dreams—occur because of sinful activities.</p>
+<p>A devotee sometimes accepts a sinful person as his disciple, and to counteract the sinful reactions he accepts from the disciple, he has to see a bad dream.</p>
+<p>Nonetheless, the spiritual master is so kind that in spite of having bad dreams due to the sinful disciple, he accepts this troublesome business for the deliverance of the victims of Kali-yuga.</p>
+<p>After initiation, therefore, a disciple should be extremely careful not to commit again any sinful act that might cause difficulties for himself and the spiritual master.</p>
+<p>Before the Deity, before the fire, before the spiritual master and before the Vaisnavas, the honest disciple promises to refrain from all sinful activity.</p>
+<p>Therefore he must not again commit sinful acts and thus create a troublesome situation.</p>
+
+
+
+<p><strong>8.4.16</strong></p>
+<p>idam aha harih prito</p>
+<p>gajendram kuru-sattama</p>
+<p>srnvatam sarva-bhutanam</p>
+<p>sarva-bhuta-mayo vibhuh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>idam—this; aha—said; harih—the Supreme Personality of Godhead; pritah—being pleased; gajendram—unto Gajendra; kuru-sat-tama—O best of the Kuru dynasty; srnvatam—hearing; sarva-bhutanam—in the presence of everyone; sarva-bhuta-mayah—all-pervading Personality of Godhead; vibhuh—the great.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O best of the Kuru dynasty, the Supreme Personality of Godhead, the Supersoul of everyone, being thus pleased, addressed Gajendra in the presence of everyone there.</p>
+<p>He spoke the following blessings.</p>
+
+
+
+<p><strong>8.4.17-24</strong></p>
+<p>sri-bhagavan uvaca</p>
+<p>ye mam tvam ca saras cedam</p>
+<p>giri-kandara-kananam</p>
+<p>vetra-kicaka-venunam</p>
+<p>gulmani sura-padapan</p>
+<p>srnganimani dhisnyani</p>
+<p>brahmano me sivasya ca</p>
+<p>ksirodam me priyam dhama</p>
+<p>sveta-dvipam ca bhasvaram</p>
+<p>srivatsam kaustubham malam</p>
+<p>gadam kaumodakim mama</p>
+<p>sudarsanam pancajanyam</p>
+<p>suparnam patagesvaram</p>
+<p>sesam ca mat-kalam suksmam</p>
+<p>sriyam devim mad-asrayam</p>
+<p>brahmanam naradam rsim</p>
+<p>bhavam prahradam eva ca</p>
+<p>matsya-kurma-varahadyair</p>
+<p>avataraih krtani me</p>
+<p>karmany ananta-punyani</p>
+<p>suryam somam hutasanam</p>
+<p>pranavam satyam avyaktam</p>
+<p>go-vipran dharmam avyayam</p>
+<p>daksayanir dharma-patnih</p>
+<p>soma-kasyapayor api</p>
+<p>gangam sarasvatim nandam</p>
+<p>kalindim sita-varanam</p>
+<p>dhruvam brahma-rsin sapta</p>
+<p>punya-slokams ca manavan</p>
+<p>utthayapara-ratrante</p>
+<p>prayatah susamahitah</p>
+<p>smaranti mama rupani</p>
+<p>mucyante te ’mhaso ’khilat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-bhagavan uvaca—the Supreme Personality of Godhead said; ye—those who; mam—Me; tvam—you; ca—also; sarah—lake; ca—also; idam—this; giri—hill (Trikuta Mountain); kandara—caves; kananam—gardens; vetra—of cane; kicaka—hollow bamboo; venunam—and of another kind of bamboo; gulmani—clusters; sura-padapan—celestial trees; srngani—the peaks; imani—these; dhisnyani—abodes; brahmanah—of Lord Brahma; me—of Me; sivasya—of Lord Siva; ca—also; ksira-udam—the ocean of milk; me—My; priyam—very dear; dhama—place; sveta-dvipam—known as the white island; ca—also; bhasvaram—always brilliant with spiritual rays; srivatsam—the mark named Srivatsa; kaustubham—the Kaustubha gem; malam—garland; gadam—club; kaumodakim—known as Kaumodaki; mama—My; sudarsanam—Sudarsana disc; pancajanyam—conchshell named Pancajanya; suparnam—Garuda; pataga-isvaram—the king of all birds; sesam—the resting place Sesa Naga; ca—and; mat-kalam—My expanded part; suksmam—very subtle; sriyam devim—the goddess of fortune; mat-asrayam—all dependent upon Me; brahmanam—Lord Brahma; naradam rsim—the great saint Narada Muni; bhavam—Lord Siva; prahradam eva ca—as well as Prahlada; matsya—the Matsya incarnation; kurma—the Kurma incarnation; varaha—the boar incarnation; adyaih—and so on; avataraih—by different incarnations; krtani—done; me—My; karmani—activities; ananta—unlimited; punyani—auspicious, pious; suryam—the sun-god; somam—the moon-god; hutasanam—the fire-god; pranavam—the omkara mantra; satyam—the Absolute Truth; avyaktam—the total material energy; go-vipran—the cows and brahmanas; dharmam—devotional service; avyayam—never ending; daksayanih—the daughters of Daksa; dharma-patnih—bona fide wives; soma—of the moon-god; kasyapayoh—and of the great rsi Kasyapa; api—also; gangam—the River Ganges; sarasvatim—the River Sarasvati; nandam—the River Nanda; kalindim—the River Yamuna; sita-varanam—the elephant Airavata; dhruvam—Dhruva Maharaja; brahma-rsin—great rsis; sapta—seven; punya-slokan—extremely pious; ca—and; manavan—human beings; utthaya—getting up; apara-ratra-ante—at the end of the night; prayatah—being very careful; su-samahitah—with concentrated minds; smaranti—remember; mama—My; rupani—forms; mucyante—are delivered; te—such persons; amhasah—from sinful reactions; akhilat—of all kinds.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Supreme Personality of Godhead said: Freed from all sinful reactions are those who rise from bed at the end of night, early in the morning, and fully concentrate their minds with great attention upon My form; your form; this lake; this mountain; the caves; the gardens; the cane plants; the bamboo plants; the celestial trees; the residential quarters of Me, Lord Brahma and Lord Siva; the three peaks of Trikuta Mountain, made of gold, silver and iron; My very pleasing abode (the ocean of milk); the white island, Svetadvipa, which is always brilliant with spiritual rays; My mark of Srivatsa; the Kaustubha gem; My Vaijayanti garland; My club, Kaumodaki; My Sudarsana disc and Pancajanya conchshell; My bearer, Garuda, the king of the birds; My bed, Sesa Naga; My expansion of energy the goddess of fortune; Lord Brahma; Narada Muni; Lord Siva; Prahlada; My incarnations like Matsya, Kurma and Varaha; My unlimited all-auspicious activities, which yield piety to he who hears them; the sun; the moon; fire; the mantra omkara; the Absolute Truth; the total material energy; the cows and brahmanas; devotional service; the wives of Soma and Kasyapa, who are all daughters of King Daksa; the Rivers Ganges, Sarasvati, Nanda and Yamuna (Kalindi); the elephant Airavata; Dhruva Maharaja; the seven rsis; and the pious human beings.</p>
+
+
+
+<p><strong>8.4.25</strong></p>
+<p>ye mam stuvanty anenanga</p>
+<p>pratibudhya nisatyaye</p>
+<p>tesam pranatyaye caham</p>
+<p>dadami vipulam gatim</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ye—those who; mam—unto Me; stuvanti—offer prayers; anena—in this way; anga—O King; pratibudhya—getting up; nisa-atyaye—at the end of night; tesam—for them; prana-atyaye—at the time of death; ca—also; aham—I; dadami—give; vipulam—the eternal, unlimited; gatim—transferral to the spiritual world.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear devotee, unto those who rise from bed at the end of night and offer Me the prayers offered by you, I give an eternal residence in the spiritual world at the end of their lives.</p>
+
+
+
+<p><strong>8.4.26</strong></p>
+<p>sri-suka uvaca</p>
+<p>ity adisya hrsikesah</p>
+<p>pradhmaya jalajottamam</p>
+<p>harsayan vibudhanikam</p>
+<p>aruroha khagadhipam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-sukah uvaca—Sri Sukadeva Gosvami said; iti—thus; adisya—advising; hrsikesah—the Supreme Personality of Godhead, known as Hrsikesa; pradhmaya—blowing; jala-ja-uttamam—the conchshell, the best of the aquatics; harsayan—pleasing; vibudha-anikam—the host of demigods, headed by Lord Brahma and Lord Siva; aruroha—got up; khaga-adhipam—on the back of Garuda.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sri Sukadeva Gosvami continued: After giving this instruction, the Lord, who is known as Hrsikesa, bugled with His Pancajanya conchshell, in this way pleasing all the demigods, headed by Lord Brahma.</p>
+<p>Then He mounted the back of His carrier, Garuda.</p>
+
+
+</article></body></html>

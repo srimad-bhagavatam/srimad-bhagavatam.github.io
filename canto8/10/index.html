@@ -1,155 +1,42 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>The Battle Between the Demigods and the Demons - The Battle Between the Demigods and the Demons</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">The Battle Between the Demigods and the Demons</a></li><li class="affix"><a href="8.10.2.html">8.10.2</a></li><li class="affix"><a href="8.10.3.html">8.10.3</a></li><li class="affix"><a href="8.10.4.html">8.10.4</a></li><li class="affix"><a href="8.10.5.html">8.10.5</a></li><li class="affix"><a href="8.10.6.html">8.10.6</a></li><li class="affix"><a href="8.10.7.html">8.10.7</a></li><li class="affix"><a href="8.10.8.html">8.10.8</a></li><li class="affix"><a href="8.10.9.html">8.10.9</a></li><li class="affix"><a href="8.10.10-12.html">8.10.10-12</a></li><li class="affix"><a href="8.10.13-15.html">8.10.13-15</a></li><li class="affix"><a href="8.10.16-18.html">8.10.16-18</a></li><li class="affix"><a href="8.10.19-24.html">8.10.19-24</a></li><li class="affix"><a href="8.10.25.html">8.10.25</a></li><li class="affix"><a href="8.10.26.html">8.10.26</a></li><li class="affix"><a href="8.10.27.html">8.10.27</a></li><li class="affix"><a href="8.10.28.html">8.10.28</a></li><li class="affix"><a href="8.10.29.html">8.10.29</a></li><li class="affix"><a href="8.10.30-31.html">8.10.30-31</a></li><li class="affix"><a href="8.10.32-34.html">8.10.32-34</a></li><li class="affix"><a href="8.10.35.html">8.10.35</a></li><li class="affix"><a href="8.10.36.html">8.10.36</a></li><li class="affix"><a href="8.10.37.html">8.10.37</a></li><li class="affix"><a href="8.10.38.html">8.10.38</a></li><li class="affix"><a href="8.10.39.html">8.10.39</a></li><li class="affix"><a href="8.10.40.html">8.10.40</a></li><li class="affix"><a href="8.10.41.html">8.10.41</a></li><li class="affix"><a href="8.10.42.html">8.10.42</a></li><li class="affix"><a href="8.10.43.html">8.10.43</a></li><li class="affix"><a href="8.10.44.html">8.10.44</a></li><li class="affix"><a href="8.10.45.html">8.10.45</a></li><li class="affix"><a href="8.10.46.html">8.10.46</a></li><li class="affix"><a href="8.10.47.html">8.10.47</a></li><li class="affix"><a href="8.10.48.html">8.10.48</a></li><li class="affix"><a href="8.10.49.html">8.10.49</a></li><li class="affix"><a href="8.10.50.html">8.10.50</a></li><li class="affix"><a href="8.10.51.html">8.10.51</a></li><li class="affix"><a href="8.10.52.html">8.10.52</a></li><li class="affix"><a href="8.10.53.html">8.10.53</a></li><li class="affix"><a href="8.10.54.html">8.10.54</a></li><li class="affix"><a href="8.10.55.html">8.10.55</a></li><li class="affix"><a href="8.10.56.html">8.10.56</a></li><li class="affix"><a href="8.10.57.html">8.10.57</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">The Battle Between the Demigods and the Demons</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#the-battle-between-the-demigods-and-the-demons" id="the-battle-between-the-demigods-and-the-demons">The Battle Between the Demigods and the Demons</a></h1>
-<h2><a class="header" href="#summary" id="summary">Summary</a></h2>
-<h3><a class="header" href="#810" id="810">8.10</a></h3>
+<h1>The Battle Between the Demigods and the Demons</h1>
+<h2>Summary</h2>
+<p><strong>8.10</strong></p>
 <p>The summary of Chapter Ten is as follows.</p>
 <p>Because of envy, the fight between the demons and the demigods continued.</p>
 <p>When the demigods were almost defeated by demoniac maneuvers and became morose, Lord Visnu appeared among them.</p>
@@ -163,7 +50,7 @@
 <p>The demigods, finding no other recourse, surrendered again to the Supreme Personality of Godhead, Visnu, who then appeared and counteracted all the illusions presented by the jugglery of the demons.</p>
 <p>Heroes among the demons such as Kalanemi, Mali, Sumali and Malyavan fought the Supreme Personality of Godhead and were all killed by the Lord.</p>
 <p>The demigods were thus freed from all dangers.</p>
-<h3><a class="header" href="#8101" id="8101">8.10.1</a></h3>
+<p><strong>8.10.1</strong></p>
 <p>sri-suka uvaca</p>
 <p>iti danava-daiteya</p>
 <p>navindann amrtam nrpa</p>
@@ -174,63 +61,640 @@
 <p><strong>TRANSLATION</strong></p>
 <p>Sukadeva Gosvami said: O King, the demons and Daityas all engaged with full attention and effort in churning the ocean, but because they were not devotees of Vasudeva, the Supreme Personality of Godhead, Krsna, they were not able to drink the nectar.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="8.10.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>8.10.2</strong></p>
+<p>sadhayitvamrtam rajan</p>
+<p>payayitva svakan suran</p>
+<p>pasyatam sarva-bhutanam</p>
+<p>yayau garuda-vahanah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sadhayitva—after executing; amrtam—generation of the nectar; rajan—O King; payayitva—and feeding; svakan—to His own devotees; suran—to the demigods; pasyatam—in the presence of; sarva-bhutanam—all living entities; yayau—went away; garuda-vahanah—the Supreme Personality of Godhead, carried by Garuda.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King, after the Supreme Personality of Godhead had brought to completion the affairs of churning the ocean and feeding the nectar to the demigods, who are His dear devotees, He left the presence of them all and was carried by Garuda to His own abode.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="8.10.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>8.10.3</strong></p>
+<p>sapatnanam param rddhim</p>
+<p>drstva te diti-nandanah</p>
+<p>amrsyamana utpetur</p>
+<p>devan pratyudyatayudhah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sapatnanam—of their rivals, the demigods; param—the best; rddhim—opulence; drstva—observing; te—all of them; diti-nandanah—the sons of Diti, the Daityas; amrsyamanah—being intolerant; utpetuh—ran toward (just to create a disturbance); devan—the demigods; pratyudyata-ayudhah—their weapons raised.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Seeing the victory of the demigods, the demons became intolerant of their superior opulence.</p>
+<p>Thus they began to march toward the demigods with raised weapons.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>8.10.4</strong></p>
+<p>tatah sura-ganah sarve</p>
+<p>sudhaya pitayaidhitah</p>
+<p>pratisamyuyudhuh sastrair</p>
+<p>narayana-padasrayah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—thereafter; sura-ganah—the demigods; sarve—all of them; sudhaya—by the nectar; pitaya—which had been drunk; edhitah—being enlivened by such drinking; pratisamyuyudhuh—they counterattacked the demons; sastraih—by regular weapons; narayana-pada-asrayah—their real weapon being shelter at the lotus feet of Narayana.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, being enlivened because of drinking the nectar, the demigods, who are always at the shelter of the lotus feet of Narayana, used their various weapons to counterattack the demons in a fighting spirit.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>8.10.5</strong></p>
+<p>tatra daivasuro nama</p>
+<p>ranah parama-darunah</p>
+<p>rodhasy udanvato rajams</p>
+<p>tumulo roma-harsanah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatra—there (at the beach of the ocean of milk); daiva—the demigods; asurah—the demons; nama—as they are celebrated; ranah—fighting; parama—very much; darunah—fierce; rodhasi—on the beach of the sea; udanvatah—of the ocean of milk; rajan—O King; tumulah—tumultuous; roma-harsanah—hair standing on the body.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King, a fierce battle on the beach of the ocean of milk ensued between the demigods and the demons.</p>
+<p>The fighting was so terrible that simply hearing about it would make the hair on one’s body stand on end.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>8.10.6</strong></p>
+<p>tatranyonyam sapatnas te</p>
+<p>samrabdha-manaso rane</p>
+<p>samasadyasibhir banair</p>
+<p>nijaghnur vividhayudhaih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatra—thereupon; anyonyam—one another; sapatnah—all of them becoming fighters; te—they; samrabdha—very angry; manasah—within their minds; rane—in that battle; samasadya—getting the opportunity to fight between themselves; asibhih—with swords; banaih—with arrows; nijaghnuh—began to beat one another; vividha-ayudhaih—with varieties of weapons.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Both parties in that fight were extremely angry at heart, and in enmity they beat one another with swords, arrows and varieties of other weapons.</p>
+<p><strong>PURPORT</strong></p>
+<p>There are always two kinds of men in this universe, not only on this planet but also in higher planetary systems.</p>
+<p>All the kings dominating planets like the sun and moon also have enemies like Rahu.</p>
+<p>It is because of occasional attacks upon the sun and moon by Rahu that eclipses take place.</p>
+<p>The fighting between the demons and demigods is perpetual; it cannot be stopped unless intelligent persons from both sides take to Krsna consciousness.</p>
+
+
+
+<p><strong>8.10.7</strong></p>
+<p>sankha-turya-mrdanganam</p>
+<p>bheri-damarinam mahan</p>
+<p>hasty-asva-ratha-pattinam</p>
+<p>nadatam nisvano ’bhavat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sankha—of conchshells; turya—of big bugles; mrdanganam—and of drums; bheri—of bugles; damarinam—of kettledrums; mahan—great and tumultuous; hasti—of elephants; asva—of horses; ratha-pattinam—of fighters on chariots or on the ground; nadatam—all of them making sounds together; nisvanah—a tumultuous sound; abhavat—so became.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The sounds of the conchshells, bugles, drums, bheris and damaris (kettledrums), as well as the sounds made by the elephants, horses and soldiers, who were both on chariots and on foot, were tumultuous.</p>
+
+
+
+<p><strong>8.10.8</strong></p>
+<p>rathino rathibhis tatra</p>
+<p>pattibhih saha pattayah</p>
+<p>haya hayair ibhas cebhaih</p>
+<p>samasajjanta samyuge</p>
+<p><strong>SYNONYMS</strong></p>
+<p>rathinah—fighters on chariots; rathibhih—with the charioteers of the enemy; tatra—in the battlefield; pattibhih—with the infantry soldiers; saha—with; pattayah—the infantry of the enemy soldiers; hayah—the horses; hayaih—with the enemy’s soldiers; ibhah—the soldiers fighting on the backs of elephants; ca—and; ibhaih—with the enemy’s soldiers on the backs of elephants; samasajjanta—began to fight together on an equal level; samyuge—on the battlefield.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>On that battlefield, the charioteers fought with the opposing charioteers, the infantry soldiers with the opposing infantry, the soldiers on horseback with the opposing soldiers on horseback, and the soldiers on the backs of elephants with the enemy soldiers on elephants.</p>
+<p>In this way, the fighting took place between equals.</p>
+
+
+
+<p><strong>8.10.9</strong></p>
+<p>ustraih kecid ibhaih kecid</p>
+<p>apare yuyudhuh kharaih</p>
+<p>kecid gaura-mukhair rksair</p>
+<p>dvipibhir haribhir bhatah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ustraih—on the backs of camels; kecit—some persons; ibhaih—on the backs of elephants; kecit—some persons; apare—others; yuyudhuh—engaged in fighting; kharaih—on the backs of asses; kecit—some persons; gaura-mukhaih—on white-faced monkeys; rksaih—on red-faced monkeys; dvipibhih—on the backs of tigers; haribhih—on the backs of lions; bhatah—all the soldiers engaged in this way.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Some soldiers fought on the backs of camels, some on the backs of elephants, some on asses, some on white-faced and red-faced monkeys, some on tigers and some on lions.</p>
+<p>In this way, they all engaged in fighting.</p>
+
+
+
+<p><strong>8.10.10-12</strong></p>
+<p>grdhraih kankair bakair anye</p>
+<p>syena-bhasais timingilaih</p>
+<p>sarabhair mahisaih khadgair</p>
+<p>go-vrsair gavayarunaih</p>
+<p>sivabhir akhubhih kecit</p>
+<p>krkalasaih sasair naraih</p>
+<p>bastair eke krsna-sarair</p>
+<p>hamsair anye ca sukaraih</p>
+<p>anye jala-sthala-khagaih</p>
+<p>sattvair vikrta-vigrahaih</p>
+<p>senayor ubhayo rajan</p>
+<p>vivisus te ’grato ’gratah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>grdhraih—on the backs of vultures; kankaih—on the backs of eagles; bakaih—on the backs of ducks; anye—others; syena—on the backs of hawks; bhasaih—on the backs of bhasas; timingilaih—on the backs of big fish known as timingilas; sarabhaih—on the backs of sarabhas; mahisaih—on the backs of buffalo; khadgaih—on the backs of rhinoceroses; go—on the backs of cows; vrsaih—on the backs of bulls; gavaya-arunaih—on the backs of gavayas and arunas; sivabhih—on the backs of jackals; akhubhih—on the backs of big rats; kecit—some persons; krkalasaih—on the backs of big lizards; sasaih—on the backs of big rabbits; naraih—on the backs of human beings; bastaih—on the backs of goats; eke—some; krsna-saraih—on the backs of black deer; hamsaih—on the backs of swans; anye—others; ca—also; sukaraih—on the backs of boars; anye—others; jala-sthala-khagaih—animals moving on the water, on land and in the sky; sattvaih—by creatures being used as vehicles; vikrta—are deformed; vigrahaih—by such animals whose bodies; senayoh—of the two parties of soldiers; ubhayoh—of both; rajan—O King; vivisuh—entered; te—all of them; agratah agratah—going forward face to face.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King, some soldiers fought on the backs of vultures, eagles, ducks, hawks and bhasa birds.</p>
+<p>Some fought on the backs of timingilas, which can devour huge whales, some on the backs of sarabhas, and some on buffalo, rhinoceroses, cows, bulls, jungle cows and arunas.</p>
+<p>Others fought on the backs of jackals, rats, lizards, rabbits, human beings, goats, black deer, swans and boars.</p>
+<p>In this way, mounted on animals of the water, land and sky, including animals with deformed bodies, both armies faced each other and went forward.</p>
+
+
+
+<p><strong>8.10.13-15</strong></p>
+<p>citra-dhvaja-patai rajann</p>
+<p>atapatraih sitamalaih</p>
+<p>maha-dhanair vajra-dandair</p>
+<p>vyajanair barha-camaraih</p>
+<p>vatoddhutottarosnisair</p>
+<p>arcirbhir varma-bhusanaih</p>
+<p>sphuradbhir visadaih sastraih</p>
+<p>sutaram surya-rasmibhih</p>
+<p>deva-danava-viranam</p>
+<p>dhvajinyau pandu-nandana</p>
+<p>rejatur vira-malabhir</p>
+<p>yadasam iva sagarau</p>
+<p><strong>SYNONYMS</strong></p>
+<p>citra-dhvaja-pataih—with very nicely decorated flags and canopies; rajan—O King; atapatraih—with umbrellas for protection from the sunshine; sita-amalaih—most of them very clean and white; maha-dhanaih—by very valuable; vajra-dandaih—with rods made of valuable jewels and pearls; vyajanaih—with fans; barha-camaraih—with other fans made of peacock feathers; vata-uddhuta—flapping with the breeze; uttara-usnisaih—with upper and lower garments; arcirbhih—by the effulgence; varma-bhusanaih—with ornaments and shields; sphuradbhih—shining; visadaih—sharp and clean; sastraih—with weapons; sutaram—excessively; surya-rasmibhih—with the dazzling illumination of the sunshine; deva-danava-viranam—of all the heroes of the parties of both the demons and the demigods; dhvajinyau—the two parties of soldiers, each one bearing his own flag; pandu-nandana—O descendant of Maharaja Pandu; rejatuh—distinctly recognized; vira-malabhih—with garlands used by heroes; yadasam—of aquatics; iva—just like; sagarau—two oceans.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King, O descendant of Maharaja Pandu, the soldiers of both the demigods and demons were decorated by canopies, colorful flags, and umbrellas with handles made of valuable jewels and pearls.</p>
+<p>They were further decorated by fans made of peacock feathers and by other fans also.</p>
+<p>The soldiers, their upper and lower garments waving in the breeze, naturally looked very beautiful, and in the light of the glittering sunshine their shields, ornaments and sharp, clean weapons appeared dazzling.</p>
+<p>Thus the ranks of soldiers seemed like two oceans with bands of aquatics.</p>
+
+
+
+<p><strong>8.10.16-18</strong></p>
+<p>vairocano balih sankhye</p>
+<p>so ’suranam camu-patih</p>
+<p>yanam vaihayasam nama</p>
+<p>kama-gam maya-nirmitam</p>
+<p>sarva-sangramikopetam</p>
+<p>sarvascaryamayam prabho</p>
+<p>apratarkyam anirdesyam</p>
+<p>drsyamanam adarsanam</p>
+<p>asthitas tad vimanagryam</p>
+<p>sarvanikadhipair vrtah</p>
+<p>bala-vyajana-chatragryai</p>
+<p>reje candra ivodaye</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vairocanah—the son of Virocana; balih—Maharaja Bali; sankhye—in the battle; sah—he, so celebrated; asuranam—of the demons; camu-patih—commander in chief; yanam—airplane; vaihayasam—called Vaihayasa; nama—by the name; kama-gam—able to fly anywhere he desired; maya-nirmitam—made by the demon Maya; sarva—all; sangramika-upetam—equipped with all kinds of weapons required for fighting with all different types of enemies; sarva-ascarya-mayam—wonderful in every respect; prabho—O King; apratarkyam—inexplicable; anirdesyam—indescribable; drsyamanam—sometimes visible; adarsanam—sometimes not visible; asthitah—being seated on such; tat—that; vimana-agryam—excellent airplane; sarva—all; anika-adhipaih—by the commanders of soldiers; vrtah—surrounded; bala-vyajana-chatra-agryaih—protected by beautifully decorated umbrellas and the best of camaras; reje—brilliantly situated; candrah—the moon; iva—like; udaye—at the time of rising in the evening.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>For that battle the most celebrated commander in chief, Maharaja Bali, son of Virocana, was seated on a wonderful airplane named Vaihayasa.</p>
+<p>O King, this beautifully decorated airplane had been manufactured by the demon Maya and was equipped with weapons for all types of combat.</p>
+<p>It was inconceivable and indescribable.</p>
+<p>Indeed, it was sometimes visible and sometimes not.</p>
+<p>Seated in this airplane under a beautiful protective umbrella and being fanned by the best of camaras, Maharaja Bali, surrounded by his captains and commanders, appeared just like the moon rising in the evening, illuminating all directions.</p>
+
+
+
+<p><strong>8.10.19-24</strong></p>
+<p>tasyasan sarvato yanair</p>
+<p>yuthanam patayo ’surah</p>
+<p>namucih sambaro bano</p>
+<p>vipracittir ayomukhah</p>
+<p>dvimurdha kalanabho ’tha</p>
+<p>prahetir hetir ilvalah</p>
+<p>sakunir bhutasantapo</p>
+<p>vajradamstro virocanah</p>
+<p>hayagrivah sankusirah</p>
+<p>kapilo meghadundubhih</p>
+<p>tarakas cakradrk sumbho</p>
+<p>nisumbho jambha utkalah</p>
+<p>aristo ’ristanemis ca</p>
+<p>mayas ca tripuradhipah</p>
+<p>anye pauloma-kaleya</p>
+<p>nivatakavacadayah</p>
+<p>alabdha-bhagah somasya</p>
+<p>kevalam klesa-bhaginah</p>
+<p>sarva ete rana-mukhe</p>
+<p>bahuso nirjitamarah</p>
+<p>simha-nadan vimuncantah</p>
+<p>sankhan dadhmur maha-ravan</p>
+<p>drstva sapatnan utsiktan</p>
+<p>balabhit kupito bhrsam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasya—of him (Maharaja Bali); asan—situated; sarvatah—all around; yanaih—by different vehicles; yuthanam—of the soldiers; patayah—the commanders; asurah—demons; namucih—Namuci; sambarah—Sambara; banah—Bana; vipracittih—Vipracitti; ayomukhah—Ayomukha; dvimurdha—Dvimurdha; kalanabhah—Kalanabha; atha—also; prahetih—Praheti; hetih—Heti; ilvalah—Ilvala; sakunih—Sakuni; bhutasantapah—Bhutasantapa; vajra-damstrah—Vajradamstra; virocanah—Virocana; hayagrivah—Hayagriva; sankusirah—Sankusira; kapilah—Kapila; megha-dundubhih—Meghadundubhi; tarakah—Taraka; cakradrk—Cakradrk; sumbhah—Sumbha; nisumbhah—Nisumbha; jambhah—Jambha; utkalah—Utkala; aristah—Arista; aristanemih—Aristanemi; ca—and; mayah ca—and Maya; tripuradhipah—Tripuradhipa; anye—others; pauloma-kaleyah—the sons of Puloma and the Kaleyas; nivatakavaca-adayah—Nivatakavaca and other demons; alabdha-bhagah—all unable to take a share; somasya—of the nectar; kevalam—merely; klesa-bhaginah—the demons took a share of the labor; sarve—all of them; ete—the demons; rana-mukhe—in the front of the battle; bahusah—by excessive strength; nirjita-amarah—being very troublesome to the demigods; simha-nadan—vibrations like those of lions; vimuncantah—uttering; sankhan—conchshells; dadhmuh—blew; maha-ravan—making a tumultuous sound; drstva—after seeing; sapatnan—their rivals; utsiktan—ferocious; balabhit—(Lord Indra) being afraid of the strength; kupitah—having become angry; bhrsam—extremely.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Surrounding Maharaja Bali on all sides were the commanders and captains of the demons, sitting on their respective chariots.</p>
+<p>Among them were the following demons: Namuci, Sambara, Bana, Vipracitti, Ayomukha, Dvimurdha, Kalanabha, Praheti, Heti, Ilvala, Sakuni, Bhutasantapa, Vajradamstra, Virocana, Hayagriva, Sankusira, Kapila, Meghadundubhi, Taraka, Cakradrk, Sumbha, Nisumbha, Jambha, Utkala, Arista, Aristanemi, Tripuradhipa, Maya, the sons of Puloma, the Kaleyas and Nivatakavaca.</p>
+<p>All of these demons had been deprived of their share of the nectar and had shared merely in the labor of churning the ocean.</p>
+<p>Now, they fought against the demigods, and to encourage their armies, they made a tumultuous sound like the roaring of lions and blew loudly on conchshells.</p>
+<p>Balabhit, Lord Indra, upon seeing this situation of his ferocious rivals, became extremely angry.</p>
+
+
+
+<p><strong>8.10.25</strong></p>
+<p>airavatam dik-karinam</p>
+<p>arudhah susubhe sva-rat</p>
+<p>yatha sravat-prasravanam</p>
+<p>udayadrim ahar-patih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>airavatam—Airavata; dik-karinam—the great elephant who could go everywhere; arudhah—mounted on; susubhe—became very beautiful to see; sva-rat—Indra; yatha—just as; sravat—flowing; prasravanam—waves of wine; udaya-adrim—on Udayagiri; ahah-patih—the sun.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sitting on Airavata, an elephant who can go anywhere and who holds water and wine in reserve for showering, Lord Indra looked just like the sun rising from Udayagiri, where there are reservoirs of water.</p>
+<p><strong>PURPORT</strong></p>
+<p>On the top of the mountain called Udayagiri are large lakes from which water continuously pours in waterfalls.</p>
+<p>Similarly, Indra’s carrier, Airavata, holds water and wine in reserve and showers it in the direction of Lord Indra.</p>
+<p>Thus Indra, King of heaven, sitting on the back of Airavata, appeared like the brilliant sun rising above Udayagiri.</p>
+
+
+
+<p><strong>8.10.26</strong></p>
+<p>tasyasan sarvato deva</p>
+<p>nana-vaha-dhvajayudhah</p>
+<p>lokapalah saha-ganair</p>
+<p>vayv-agni-varunadayah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasya—of Lord Indra; asan—situated; sarvatah—all around; devah—all the demigods; nana-vaha—with varieties of carriers; dhvaja-ayudhah—and with flags and weapons; loka-palah—all the chiefs of various higher planetary systems; saha—with; ganaih—their associates; vayu—the demigod controlling air; agni—the demigod controlling fire; varuna—the demigod controlling water; adayah—all of them surrounding Lord Indra.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Surrounding Lord Indra, King of heaven, were the demigods, seated on various types of vehicles and decorated with flags and weapons.</p>
+<p>Present among them were Vayu, Agni, Varuna and other rulers of various planets, along with their associates.</p>
+
+
+
+<p><strong>8.10.27</strong></p>
+<p>te ’nyonyam abhisamsrtya</p>
+<p>ksipanto marmabhir mithah</p>
+<p>ahvayanto visanto ’gre</p>
+<p>yuyudhur dvandva-yodhinah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>te—all of them (the demigods and the demons); anyonyam—one another; abhisamsrtya—having come forward face to face; ksipantah—chastising one another; marmabhih mithah—with much pain to the cores of the hearts of one another; ahvayantah—addressing one another; visantah—having entered the battlefield; agre—in front; yuyudhuh—fought; dvandva-yodhinah—two combatants chose each other.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The demigods and demons came before each other and reproached one another with words piercing to the heart.</p>
+<p>Then they drew near and began fighting face to face in pairs.</p>
+
+
+
+<p><strong>8.10.28</strong></p>
+<p>yuyodha balir indrena</p>
+<p>tarakena guho ’syata</p>
+<p>varuno hetinayudhyan</p>
+<p>mitro rajan prahetina</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yuyodha—fought; balih—Maharaja Bali; indrena—with King Indra; tarakena—with Taraka; guhah—Karttikeya; asyata—engaged in fighting; varunah—the demigod Varuna; hetina—with Heti; ayudhyat—fought one another; mitrah—the demigod Mitra; rajan—O King; prahetina—with Praheti.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King, Maharaja Bali fought with Indra, Karttikeya with Taraka, Varuna with Heti, and Mitra with Praheti.</p>
+
+
+
+<p><strong>8.10.29</strong></p>
+<p>yamas tu kalanabhena</p>
+<p>visvakarma mayena vai</p>
+<p>sambaro yuyudhe tvastra</p>
+<p>savitra tu virocanah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yamah—Yamaraja; tu—indeed; kalanabhena—with Kalanabha; visvakarma—Visvakarma; mayena—with Maya; vai—indeed; sambarah—Sambara; yuyudhe—fought; tvastra—with Tvasta; savitra—with the sun-god; tu—indeed; virocanah—the demon Virocana.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Yamaraja fought with Kalanabha, Visvakarma with Maya Danava, Tvasta with Sambara, and the sun-god with Virocana.</p>
+
+
+
+<p><strong>8.10.30-31</strong></p>
+<p>aparajitena namucir</p>
+<p>asvinau vrsaparvana</p>
+<p>suryo bali-sutair devo</p>
+<p>bana-jyesthaih satena ca</p>
+<p>rahuna ca tatha somah</p>
+<p>pulomna yuyudhe ’nilah</p>
+<p>nisumbha-sumbhayor devi</p>
+<p>bhadrakali tarasvini</p>
+<p><strong>SYNONYMS</strong></p>
+<p>aparajitena—with the demigod Aparajita; namucih—the demon Namuci; asvinau—the Asvini brothers; vrsaparvana—with the demon Vrsaparva; suryah—the sun-god; bali-sutaih—with the sons of Bali; devah—the god; bana-jyesthaih—the chief of whom is Bana; satena—numbering one hundred; ca—and; rahuna—by Rahu; ca—also; tatha—as well as; somah—the moon-god; pulomna—Puloma; yuyudhe—fought; anilah—the demigod Anila, who controls air; nisumbha—the demon Nisumbha; sumbhayoh—with Sumbha; devi—the goddess Durga; bhadrakali—Bhadra Kali; tarasvini—extremely powerful.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The demigod Aparajita fought with Namuci, and the two Asvini-kumara brothers fought with Vrsaparva.</p>
+<p>The sun-god fought with the one hundred sons of Maharaja Bali, headed by Bana, and the moon-god fought with Rahu.</p>
+<p>The demigod controlling air fought with Puloma, and Sumbha and Nisumbha fought the supremely powerful material energy, Durgadevi, who is called Bhadra Kali.</p>
+
+
+
+<p><strong>8.10.32-34</strong></p>
+<p>vrsakapis tu jambhena</p>
+<p>mahisena vibhavasuh</p>
+<p>ilvalah saha vatapir</p>
+<p>brahma-putrair arindama</p>
+<p>kamadevena durmarsa</p>
+<p>utkalo matrbhih saha</p>
+<p>brhaspatis cosanasa</p>
+<p>narakena sanaiscarah</p>
+<p>maruto nivatakavacaih</p>
+<p>kaleyair vasavo ’marah</p>
+<p>visvedevas tu paulomai</p>
+<p>rudrah krodhavasaih saha</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vrsakapih—Lord Siva; tu—indeed; jambhena—with Jambha; mahisena—with Mahisasura; vibhavasuh—the fire-god; ilvalah—the demon Ilvala; saha vatapih—with his brother, Vatapi; brahma-putraih—with the sons of Brahma, such as Vasistha; arim-dama—O Maharaja Pariksit, suppressor of enemies; kamadevena—with Kamadeva; durmarsah—Durmarsa; utkalah—the demon Utkala; matrbhih saha—with the demigoddesses known as the Matrkas; brhaspatih—the demigod Brhaspati; ca—and; usanasa—with Sukracarya; narakena—with the demon known as Naraka; sanaiscarah—the demigod Sani, or Saturn; marutah—the demigods of air; nivatakavacaih—with the demon Nivatakavaca; kaleyaih—with the Kalakeyas; vasavah amarah—the Vasus fought; visvedevah—the Visvedeva demigods; tu—indeed; paulomaih—with the Paulomas; rudrah—the eleven Rudras; krodhavasaih saha—with the Krodhavasa demons.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O Maharaja Pariksit, suppressor of enemies (Arindama), Lord Siva fought with Jambha, and Vibhavasu fought with Mahisasura.</p>
+<p>Ilvala, along with his brother Vatapi, fought the sons of Lord Brahma.</p>
+<p>Durmarsa fought with Cupid, the demon Utkala with the Matrka demigoddesses, Brhaspati with Sukracarya, and Sanaiscara (Saturn) with Narakasura.</p>
+<p>The Maruts fought Nivatakavaca, the Vasus fought the Kalakeya demons, the Visvedeva demigods fought the Pauloma demons, and the Rudras fought the Krodhavasa demons, who were victims of anger.</p>
+
+
+
+<p><strong>8.10.35</strong></p>
+<p>ta evam ajav asurah surendra</p>
+<p>dvandvena samhatya ca yudhyamanah</p>
+<p>anyonyam asadya nijaghnur ojasa</p>
+<p>jigisavas tiksna-sarasi-tomaraih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>te—all of them; evam—in this way; ajau—on the battlefield; asurah—the demons; sura-indrah—and the demigods; dvandvena—two by two; samhatya—mixing together; ca—and; yudhyamanah—engaged in fighting; anyonyam—with one another; asadya—approaching; nijaghnuh—slashed with weapons and killed; ojasa—with great strength; jigisavah—everyone desiring victory; tiksna—sharp; sara—with arrows; asi—with swords; tomaraih—with lances.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>All of these demigods and demons assembled on the battlefield with a fighting spirit and attacked one another with great strength.</p>
+<p>All of them desiring victory, they fought in pairs, hitting one another severely with sharpened arrows, swords and lances.</p>
+
+
+
+<p><strong>8.10.36</strong></p>
+<p>bhusundibhis cakra-gadarsti-pattisaih</p>
+<p>sakty-ulmukaih prasa-parasvadhair api</p>
+<p>nistrimsa-bhallaih parighaih samudgaraih</p>
+<p>sabhindipalais ca siramsi cicchiduh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>bhusundibhih—with weapons called bhusundi; cakra—with discs; gada—with clubs; rsti—with the weapons called rsti; pattisaih—with the weapons called pattisa; sakti—with the sakti weapons; ulmukaih—with the weapons called ulmukas; prasa—with the prasa weapons; parasvadhaih—with the weapons called parasvadha; api—also; nistrimsa—with nistrimsas; bhallaih—with lances; parighaih—with the weapons named parighas; sa-mudgaraih—with the weapons known as mudgara; sa-bhindipalaih—with the bhindipala weapons; ca—also; siramsi—heads; cicchiduh—cut off.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>They severed one another’s heads, using weapons like bhusundis, cakras, clubs, rstis, pattisas, saktis, ulmukas, prasas, parasvadhas, nistrimsas, lances, parighas, mudgaras and bhindipalas.</p>
+
+
+
+<p><strong>8.10.37</strong></p>
+<p>gajas turangah sarathah padatayah</p>
+<p>saroha-vaha vividha vikhanditah</p>
+<p>nikrtta-bahuru-sirodharanghrayas</p>
+<p>chinna-dhvajesvasa-tanutra-bhusanah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>gajah—elephants; turangah—horses; sa-rathah—with chariots; padatayah—infantry soldiers; saroha-vahah—carriers with the riders; vividhah—varieties; vikhanditah—cut to pieces; nikrtta-bahu—cut off arms; uru—thighs; sirodhara—necks; anghrayah—legs; chinna—cut up; dhvaja—flags; isvasa—bows; tanutra—armor; bhusanah—ornaments.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The elephants, horses, chariots, charioteers, infantry soldiers and various kinds of carriers, along with their riders, were slashed to pieces.</p>
+<p>The arms, thighs, necks and legs of the soldiers were severed, and their flags, bows, armor and ornaments were torn apart.</p>
+
+
+
+<p><strong>8.10.38</strong></p>
+<p>tesam padaghata-rathanga-curnitad</p>
+<p>ayodhanad ulbana utthitas tada</p>
+<p>renur disah kham dyumanim ca chadayan</p>
+<p>nyavartatasrk-srutibhih pariplutat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tesam—of all the people engaged on the battlefield; padaghata—because of beating on the ground by the legs of the demons and demigods; ratha-anga—and by the wheels of the chariots; curnitat—which was made into pieces of dust; ayodhanat—from the battlefield; ulbanah—very forceful; utthitah—rising; tada—at that time; renuh—the dust particles; disah—all directions; kham—outer space; dyumanim—up to the sun; ca—also; chadayan—covering all of space up to that; nyavartata—dropped floating in the air; asrk—of blood; srutibhih—by particles; pariplutat—because of being widely sprinkled.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Because of the impact on the ground of the legs of the demons and demigods and the wheels of the chariots, particles of dust flew violently into the sky and made a dust cloud that covered all directions of outer space, as far as the sun.</p>
+<p>But when the particles of dust were followed by drops of blood being sprinkled all over space, the dust cloud could no longer float in the sky.</p>
+<p><strong>PURPORT</strong></p>
+<p>The cloud of dust covered the entire horizon, but when drops of blood sprayed up as far as the sun, the dust cloud could no longer float in the sky.</p>
+<p>A point to be observed here is that although the blood is stated to have reached the sun, it is not said to have reached the moon.</p>
+<p>Apparently, therefore, as stated elsewhere in Srimad-Bhagavatam, the sun, not the moon, is the planet nearest the earth.</p>
+<p>We have already discussed this point in many places.</p>
+<p>The sun is first, then the moon, then Mars, Jupiter and so on.</p>
+<p>The sun is supposed to be 93,000,000 miles above the surface of the earth, and from the Srimad-Bhagavatam we understand that the moon is 1,600,000 miles above the sun.</p>
+<p>Therefore the distance between the earth and the moon would be about 95,000,000 miles.</p>
+<p>So if a space capsule were traveling at the speed of 18,000 miles per hour, how could it reach the moon in four days? At that speed, going to the moon would take at least seven months.</p>
+<p>That a space capsule on a moon excursion has reached the moon in four days is therefore impossible.</p>
+
+
+
+<p><strong>8.10.39</strong></p>
+<p>sirobhir uddhuta-kirita-kundalaih</p>
+<p>samrambha-drgbhih paridasta-dacchadaih</p>
+<p>maha-bhujaih sabharanaih sahayudhaih</p>
+<p>sa prastrta bhuh karabhorubhir babhau</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sirobhih—by the heads; uddhuta—separated, scattered from; kirita—having their helmets; kundalaih—and earrings; samrambha-drgbhih—eyes staring in anger (although the heads were severed from their bodies); paridasta—having been bitten by the teeth; dacchadaih—the lips; maha-bhujaih—with big arms; sa-abharanaih—decorated with ornaments; saha-ayudhaih—and with weapons in their hands, although the hands were severed; sa—that battlefield; prastrta—scattered; bhuh—the warfield; karabha-urubhih—and with thighs and legs resembling the trunks of elephants; babhau—it so became.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In the course of the battle, the warfield became strewn with the severed heads of heroes, their eyes still staring and their teeth still pressed against their lips in anger.</p>
+<p>Helmets and earrings were scattered from these severed heads.</p>
+<p>Similarly, many arms, decorated with ornaments and clutching various weapons, were strewn here and there, as were many legs and thighs, which resembled the trunks of elephants.</p>
+
+
+
+<p><strong>8.10.40</strong></p>
+<p>kabandhas tatra cotpetuh</p>
+<p>patita-sva-siro-’ksibhih</p>
+<p>udyatayudha-dordandair</p>
+<p>adhavanto bhatan mrdhe</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kabandhah—trunks (bodies without heads); tatra—there (on the battlefield); ca—also; utpetuh—generated; patita—fallen; sva-sirah-aksibhih—by the eyes in one’s head; udyata—raised; ayudha—equipped with weapons; dordandaih—the arms of whom; adhavantah—rushing toward; bhatan—the soldiers; mrdhe—on the battlefield.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Many headless trunks were generated on that battlefield.</p>
+<p>With weapons in their arms, those ghostly trunks, which could see with the eyes in the fallen heads, attacked the enemy soldiers.</p>
+<p><strong>PURPORT</strong></p>
+<p>It appears that the heroes who died on the battlefield immediately became ghosts, and although their heads had been severed from their bodies, new trunks were generated, and these new trunks, seeing with the eyes in the severed heads, began to attack the enemy.</p>
+<p>In other words, many ghosts were generated to join the fight, and thus new trunks appeared on the battlefield.</p>
+
+
+
+<p><strong>8.10.41</strong></p>
+<p>balir mahendram dasabhis</p>
+<p>tribhir airavatam saraih</p>
+<p>caturbhis caturo vahan</p>
+<p>ekenaroham arcchayat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>balih—Maharaja Bali; maha-indram—the King of heaven; dasabhih—with ten; tribhih—with three; airavatam—Airavata, carrying Indra; saraih—by arrows; caturbhih—by four arrows; caturah—the four; vahan—mounted soldiers; ekena—by one; aroham—the driver of the elephants; arcchayat—attacked.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Maharaja Bali then attacked Indra with ten arrows and attacked Airavata, Indra’s carrier elephant, with three arrows.</p>
+<p>With four arrows he attacked the four horsemen guarding Airavata’s legs, and with one arrow he attacked the driver of the elephant.</p>
+<p><strong>PURPORT</strong></p>
+<p>The word vahan refers to the soldiers on horseback who protected the legs of the carrier elephants.</p>
+<p>According to the system of military arrangement, the legs of the elephant bearing the commander were also protected.</p>
+
+
+
+<p><strong>8.10.42</strong></p>
+<p>sa tan apatatah sakras</p>
+<p>tavadbhih sighra-vikramah</p>
+<p>ciccheda nisitair bhallair</p>
+<p>asampraptan hasann iva</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—he (Indra); tan—arrows; apatatah—while moving toward him and falling down; sakrah—Indra; tavadbhih—immediately; sighra-vikramah—was practiced to oppress very soon; ciccheda—cut to pieces; nisitaih—very sharp; bhallaih—with another type of arrow; asampraptan—the enemy’s arrows not being received; hasan iva—as if smiling.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Before Bali Maharaja’s arrows could reach him, Indra, King of heaven, who is expert in dealing with arrows, smiled and counteracted the arrows with arrows of another type, known as bhalla, which were extremely sharp.</p>
+
+
+
+<p><strong>8.10.43</strong></p>
+<p>tasya karmottamam viksya</p>
+<p>durmarsah saktim adade</p>
+<p>tam jvalantim maholkabham</p>
+<p>hasta-stham acchinad dharih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasya—of King Indra; karma-uttamam—the very expert service in military art; viksya—after observing; durmarsah—being in a very angry mood; saktim—the sakti weapon; adade—took up; tam—that weapon; jvalantim—blazing fire; maha-ulka-abham—appearing like a great firebrand; hasta-stham—while still in the hand of Bali; acchinat—cut to pieces; harih—Indra.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When Bali Maharaja saw the expert military activities of Indra, he could not restrain his anger.</p>
+<p>Thus he took up another weapon, known as sakti, which blazed like a great firebrand.</p>
+<p>But Indra cut that weapon to pieces while it was still in Bali’s hand.</p>
+
+
+
+<p><strong>8.10.44</strong></p>
+<p>tatah sulam tatah prasam</p>
+<p>tatas tomaram rstayah</p>
+<p>yad yac chastram samadadyat</p>
+<p>sarvam tad acchinad vibhuh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—thereafter; sulam—lance; tatah—thereafter; prasam—the prasa weapon; tatah—thereafter; tomaram—the tomara weapon; rstayah—the rsti weapons; yat yat—whatever and whichever; sastram—weapon; samadadyat—Bali Maharaja tried to use; sarvam—all of them; tat—those same weapons; acchinat—cut to pieces; vibhuh—the great Indra.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, one by one, Bali Maharaja used a lance, prasa, tomara, rstis and other weapons, but whatever weapons he took up, Indra immediately cut them to pieces.</p>
+
+
+
+<p><strong>8.10.45</strong></p>
+<p>sasarjathasurim mayam</p>
+<p>antardhana-gato ’surah</p>
+<p>tatah pradurabhuc chailah</p>
+<p>suranikopari prabho</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sasarja—released; atha—now; asurim—demoniac; mayam—illusion; antardhana—out of vision; gatah—having gone; asurah—Bali Maharaja; tatah—thereafter; pradurabhut—there appeared; sailah—a big mountain; sura-anika-upari—above the heads of the soldiers of the demigods; prabho—O my lord.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear King, Bali Maharaja then disappeared and resorted to demoniac illusions.</p>
+<p>A giant mountain, generated from illusion, then appeared above the heads of the demigod soldiers.</p>
+
+
+
+<p><strong>8.10.46</strong></p>
+<p>tato nipetus taravo</p>
+<p>dahyamana davagnina</p>
+<p>silah satanka-sikharas</p>
+<p>curnayantyo dvisad-balam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—from that great mountain; nipetuh—began to fall; taravah—large trees; dahyamanah—blazing in fire; dava-agnina—by the forest fire; silah—and stones; sa-tanka-sikharah—having edges with points as sharp as stone picks; curnayantyah—smashing; dvisat-balam—the strength of the enemies.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>From that mountain fell trees blazing in a forest fire.</p>
+<p>Chips of stone, with sharp edges like picks, also fell and smashed the heads of the demigod soldiers.</p>
+
+
+
+<p><strong>8.10.47</strong></p>
+<p>mahoragah samutpetur</p>
+<p>dandasukah savrscikah</p>
+<p>simha-vyaghra-varahas ca</p>
+<p>mardayanto maha-gajah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>maha-uragah—big serpents; samutpetuh—fell upon them; dandasukah—other poisonous animals and insects; sa-vrscikah—with scorpions; simha—lions; vyaghra—tigers; varahah ca—and forest boars; mardayantah—smashing; maha-gajah—great elephants.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Scorpions, large snakes and many other poisonous animals, as well as lions, tigers, boars and great elephants, all began falling upon the demigod soldiers, crushing everything.</p>
+
+
+
+<p><strong>8.10.48</strong></p>
+<p>yatudhanyas ca satasah</p>
+<p>sula-hasta vivasasah</p>
+<p>chindhi bhindhiti vadinyas</p>
+<p>tatha rakso-ganah prabho</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yatudhanyah—carnivorous female demons; ca—and; satasah—hundreds upon hundreds; sula-hastah—every one of them with a trident in hand; vivasasah—completely naked; chindhi—cut to pieces; bhindhi—pierce; iti—thus; vadinyah—talking; tatha—in that way; raksah-ganah—a band of Raksasas (a type of demon); prabho—O my King.</p>
+<p><strong>TRANSLATION</strong></p>
+
+
+
+<p><strong>8.10.49</strong></p>
+<p>tato maha-ghana vyomni</p>
+<p>gambhira-parusa-svanah</p>
+<p>angaran mumucur vatair</p>
+<p>ahatah stanayitnavah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—thereafter; maha-ghanah—big clouds; vyomni—in the sky; gambhira-parusa-svanah—making very deep rumbling sounds; angaran—embers; mumucuh—released; vataih—by the strong winds; ahatah—harassed; stanayitnavah—with the sound of thunder.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Fierce clouds, harassed by strong winds, then appeared in the sky.</p>
+<p>Rumbling very gravely with the sound of thunder, they began to shower live coals.</p>
+
+
+
+<p><strong>8.10.50</strong></p>
+<p>srsto daityena sumahan</p>
+<p>vahnih svasana-sarathih</p>
+<p>samvartaka ivatyugro</p>
+<p>vibudha-dhvajinim adhak</p>
+<p><strong>SYNONYMS</strong></p>
+<p>srstah—created; daityena—by the demon (Bali Maharaja); su-mahan—very great, devastating; vahnih—a fire; svasana-sarathih—being carried by the blasting wind; samvartakah—the fire named Samvartaka, which appears during the time of dissolution; iva—just like; ati—very much; ugrah—terrible; vibudha—of the demigods; dhvajinim—the soldiers; adhak—burned to ashes.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>A great devastating fire created by Bali Maharaja began burning all the soldiers of the demigods.</p>
+<p>This fire, accompanied by blasting winds, seemed as terrible as the Samvartaka fire, which appears at the time of dissolution.</p>
+
+
+
+<p><strong>8.10.51</strong></p>
+<p>tatah samudra udvelah</p>
+<p>sarvatah pratyadrsyata</p>
+<p>pracanda-vatair uddhuta-</p>
+<p>tarangavarta-bhisanah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—thereafter; samudrah—the sea; udvelah—being agitated; sarvatah—everywhere; pratyadrsyata—appeared before everyone’s vision; pracanda—fierce; vataih—by the winds; uddhuta—agitated; taranga—of the waves; avarta—whirling water; bhisanah—ferocious.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, whirlpools and sea waves, agitated by fierce blasts of wind, appeared everywhere, before everyone’s vision, in a furious flood.</p>
+
+
+
+<p><strong>8.10.52</strong></p>
+<p>evam daityair maha-mayair</p>
+<p>alaksya-gatibhi rane</p>
+<p>srjyamanasu mayasu</p>
+<p>viseduh sura-sainikah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>evam—thus; daityaih—by the demons; maha-mayaih—who were expert in creating illusions; alaksya-gatibhih—but invisible; rane—in the fight; srjyamanasu mayasu—because of the creation of such an illusory atmosphere; viseduh—became morose; sura-sainikah—the soldiers of the demigods.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>While this magical atmosphere in the fight was being created by the invisible demons, who were expert in such illusions, the soldiers of the demigods became morose.</p>
+
+
+
+<p><strong>8.10.53</strong></p>
+<p>na tat-pratividhim yatra</p>
+<p>vidur indradayo nrpa</p>
+<p>dhyatah pradurabhut tatra</p>
+<p>bhagavan visva-bhavanah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—not; tat-pratividhim—the counteraction of such an illusory atmosphere; yatra—wherein; viduh—could understand; indra-adayah—the demigods, headed by Indra; nrpa—O King; dhyatah—being meditated upon; pradurabhut—appeared there; tatra—in that place; bhagavan—the Supreme Personality of Godhead; visva-bhavanah—the creator of the universe.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King, when the demigods could find no way to counteract the activities of the demons, they wholeheartedly meditated upon the Supreme Personality of Godhead, the creator of the universe, who then immediately appeared.</p>
+
+
+
+<p><strong>8.10.54</strong></p>
+<p>tatah suparnamsa-krtanghri-pallavah</p>
+<p>pisanga-vasa nava-kanja-locanah</p>
+<p>adrsyatastayudha-bahur ullasac-</p>
+<p>chri-kaustubhanarghya-kirita-kundalah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—thereafter; suparna-amsa-krta-anghri-pallavah—the Supreme Personality of Godhead, whose lotus feet spread over the two shoulders of Garuda; pisanga-vasah—whose dress is yellow; nava-kanja-locanah—and whose eyes are just like the petals of a newly blossomed lotus; adrsyata—became visible (in the presence of the demigods); asta-ayudha—equipped with eight kinds of weapons; bahuh—arms; ullasat—brilliantly exhibiting; sri—the goddess of fortune; kaustubha—the Kaustubha gem; anarghya—of incalculable value; kirita—helmet; kundalah—having earrings.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Supreme Personality of Godhead, whose eyes resemble the petals of a newly blossomed lotus, sat on the back of Garuda, spreading His lotus feet over Garuda’s shoulders.</p>
+<p>Dressed in yellow, decorated by the Kaustubha gem and the goddess of fortune, and wearing an invaluable helmet and earrings, the Supreme Lord, holding various weapons in His eight hands, became visible to the demigods.</p>
+
+
+
+<p><strong>8.10.55</strong></p>
+<p>tasmin praviste ’sura-kuta-karmaja</p>
+<p>maya vinesur mahina mahiyasah</p>
+<p>svapno yatha hi pratibodha agate</p>
+<p>hari-smrtih sarva-vipad-vimoksanam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasmin praviste—upon the entrance of the Supreme Personality of Godhead; asura—of the demons; kuta-karma-ja—because of the illusory, magical activities; maya—the false manifestations; vinesuh—were immediately curbed; mahina—by the superior power; mahiyasah—of the Supreme Personality of Godhead, who is greater than the greatest; svapnah—dreams; yatha—as; hi—indeed; pratibodhe—when awakening; agate—has arrived; hari-smrtih—remembrance of the Supreme Personality of Godhead; sarva-vipat—of all kinds of dangerous situations; vimoksanam—immediately vanquishes.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>As the dangers of a dream cease when the dreamer awakens, the illusions created by the jugglery of the demons were vanquished by the transcendental prowess of the Supreme Personality of Godhead as soon as He entered the battlefield.</p>
+<p>Indeed, simply by remembrance of the Supreme Personality of Godhead, one becomes free from all dangers.</p>
+
+
+
+<p><strong>8.10.56</strong></p>
+<p>drstva mrdhe garuda-vaham ibhari-vaha</p>
+<p>avidhya sulam ahinod atha kalanemih</p>
+<p>tal lilaya garuda-murdhni patad grhitva</p>
+<p>tenahanan nrpa savaham arim tryadhisah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>drstva—seeing; mrdhe—on the battlefield; garuda-vaham—the Supreme Personality of Godhead, carried by Garuda; ibhari-vahah—the demon, who was carried by a big lion; avidhya—whirling around; sulam—trident; ahinot—discharged at him; atha—thus; kalanemih—the demon Kalanemi; tat—such an attack by the demon against the Supreme Lord; lilaya—very easily; garuda-murdhni—on the head of His carrier, Garuda; patat—while falling down; grhitva—after taking it immediately, without difficulty; tena—and by the same weapon; ahanat—killed; nrpa—O King; sa-vaham—with his carrier; arim—the enemy; tri-adhisah—the Supreme Personality of Godhead, the proprietor of the three worlds.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King, when the demon Kalanemi, who was carried by a lion, saw that the Supreme Personality of Godhead, carried by Garuda, was on the battlefield, the demon immediately took his trident, whirled it and discharged it at Garuda’s head.</p>
+<p>The Supreme Personality of Godhead, Hari, the master of the three worlds, immediately caught the trident, and with the very same weapon he killed the enemy Kalanemi, along with his carrier, the lion.</p>
+<p><strong>PURPORT</strong></p>
+<p>In this regard, Srila Madhvacarya says:</p>
+<p>kalanemy-adayah sarve</p>
+<p>karina nihata api</p>
+<p>sukrenojjivitah santah</p>
+<p>punas tenaiva patitah</p>
+<p>Kalanemi and all the other demons were killed by the Supreme Personality of Godhead, Hari, and when Sukracarya, their spiritual master, brought them back to life, they were again killed by the Supreme Personality of Godhead</p>
+
+
+
+<p><strong>8.10.57</strong></p>
+<p>mali sumaly atibalau yudhi petatur yac-</p>
+<p>cakrena krtta-sirasav atha malyavams tam</p>
+<p>ahatya tigma-gadayahanad andajendram</p>
+<p>tavac chiro ’cchinad arer nadato ’rinadyah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>mali sumali—two demons named Mali and Sumali; ati-balau—very powerful; yudhi—on the battlefield; petatuh—fell down; yat-cakrena—by whose disc; krtta-sirasau—their heads having been cut off; atha—thereupon; malyavan—Malyavan; tam—the Supreme Personality of Godhead; ahatya—attacking; tigma-gadaya—with a very sharp club; ahanat—attempted to attack, kill; anda-ja-indram—Garuda, the king of all the birds, who are born from eggs; tavat—at that time; sirah—the head; acchinat—cut off; areh—of the enemy; nadatah—roaring like a lion; arina—by the disc; adyah—the original Personality of Godhead.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, two very powerful demons named Mali and Sumali were killed by the Supreme Lord, who severed their heads with His disc.</p>
+<p>Then Malyavan, another demon, attacked the Lord.</p>
+<p>With his sharp club, the demon, who was roaring like a lion, attacked Garuda, the lord of the birds, who are born from eggs.</p>
+<p>But the Supreme Personality of Godhead, the original person, used His disc to cut off the head of that enemy also.</p>
+
+
+</article></body></html>

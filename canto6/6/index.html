@@ -1,155 +1,42 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>The Progeny of the Daughters of Dakṣa - The Progeny of the Daughters of Dakṣa</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">The Progeny of the Daughters of Dakṣa</a></li><li class="affix"><a href="6.6.2.html">6.6.2</a></li><li class="affix"><a href="6.6.3.html">6.6.3</a></li><li class="affix"><a href="6.6.4.html">6.6.4</a></li><li class="affix"><a href="6.6.5.html">6.6.5</a></li><li class="affix"><a href="6.6.6.html">6.6.6</a></li><li class="affix"><a href="6.6.7.html">6.6.7</a></li><li class="affix"><a href="6.6.8.html">6.6.8</a></li><li class="affix"><a href="6.6.9.html">6.6.9</a></li><li class="affix"><a href="6.6.10-11.html">6.6.10-11</a></li><li class="affix"><a href="6.6.12.html">6.6.12</a></li><li class="affix"><a href="6.6.13.html">6.6.13</a></li><li class="affix"><a href="6.6.14.html">6.6.14</a></li><li class="affix"><a href="6.6.15.html">6.6.15</a></li><li class="affix"><a href="6.6.16.html">6.6.16</a></li><li class="affix"><a href="6.6.17-18.html">6.6.17-18</a></li><li class="affix"><a href="6.6.19.html">6.6.19</a></li><li class="affix"><a href="6.6.20.html">6.6.20</a></li><li class="affix"><a href="6.6.21-22.html">6.6.21-22</a></li><li class="affix"><a href="6.6.23.html">6.6.23</a></li><li class="affix"><a href="6.6.24-26.html">6.6.24-26</a></li><li class="affix"><a href="6.6.27.html">6.6.27</a></li><li class="affix"><a href="6.6.28.html">6.6.28</a></li><li class="affix"><a href="6.6.29-31.html">6.6.29-31</a></li><li class="affix"><a href="6.6.32.html">6.6.32</a></li><li class="affix"><a href="6.6.33-36.html">6.6.33-36</a></li><li class="affix"><a href="6.6.37.html">6.6.37</a></li><li class="affix"><a href="6.6.38-39.html">6.6.38-39</a></li><li class="affix"><a href="6.6.40.html">6.6.40</a></li><li class="affix"><a href="6.6.41.html">6.6.41</a></li><li class="affix"><a href="6.6.42.html">6.6.42</a></li><li class="affix"><a href="6.6.43.html">6.6.43</a></li><li class="affix"><a href="6.6.44.html">6.6.44</a></li><li class="affix"><a href="6.6.45.html">6.6.45</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">The Progeny of the Daughters of Dakṣa</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#the-progeny-of-the-daughters-of-dakṣa" id="the-progeny-of-the-daughters-of-dakṣa">The Progeny of the Daughters of Dakṣa</a></h1>
-<h2><a class="header" href="#summary" id="summary">Summary</a></h2>
-<h3><a class="header" href="#66" id="66">6.6</a></h3>
+<h1>The Progeny of the Daughters of Dakṣa</h1>
+<h2>Summary</h2>
+<p><strong>6.6</strong></p>
 <p>As described in this chapter, Prajapati Daksa begot sixty daughters in the womb of his wife Asikni.</p>
 <p>These daughters were given in charity to various persons to increase the population.</p>
 <p>Since these offspring of Daksa were women, Narada Muni did not try to lead them toward the renounced order of life.</p>
@@ -157,7 +44,7 @@
 <p>Ten of the daughters were given in marriage to Dharmaraja, thirteen to Kasyapa Muni, and twenty-seven to the moon-god, Candra.</p>
 <p>In this way fifty daughters were distributed, and of the other ten daughters, four were given to Kasyapa and two each to Bhuta, Angira and Krsasva.</p>
 <p>One should know that it is because of the union of these sixty daughters with various exalted personalities that the entire universe was filled with various kinds of living entities, such as human beings, demigods, demons, beasts, birds and serpents.</p>
-<h3><a class="header" href="#661" id="661">6.6.1</a></h3>
+<p><strong>6.6.1</strong></p>
 <p>sri-suka uvaca</p>
 <p>tatah pracetaso ’siknyam</p>
 <p>anunitah svayambhuva</p>
@@ -177,63 +64,497 @@
 <p>Therefore a woman’s duty is to be very chaste and faithful to her husband.</p>
 <p>Then without separate endeavor she will share in all the profit the husband earns.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="6.6.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>6.6.2</strong></p>
+<p>dasa dharmaya kayadad</p>
+<p>dvi-sat tri-nava cendave</p>
+<p>bhutangirah-krsasvebhyo</p>
+<p>dve dve tarksyaya caparah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dasa—ten; dharmaya—unto King Dharma, Yamaraja; kaya—unto Kasyapa; adat—gave; dvi-sat—twice six and one (thirteen); tri-nava—thrice nine (twenty-seven); ca—also; indave—unto the moon-god; bhuta-angirah-krsasvebhyah—unto Bhuta, Angira and Krsasva; dve dve—two each; tarksyaya—again unto Kasyapa; ca—and; aparah—the balance.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>He gave ten daughters in charity to Dharmaraja (Yamaraja), thirteen to Kasyapa (first twelve and then one more), twenty-seven to the moon-god, and two each to Angira, Krsasva and Bhuta.</p>
+<p>The other four daughters were given to Kasyapa.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="6.6.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>6.6.3</strong></p>
+<p>namadheyany amusam tvam</p>
+<p>sapatyanam ca me srnu</p>
+<p>yasam prasuti-prasavair</p>
+<p>loka apuritas trayah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>namadheyani—the different names; amusam—of them; tvam—you; sa-apatyanam—with their offspring; ca—and; me—from me; srnu—please hear; yasam—of all of whom; prasuti-prasavaih—by so many children and descendants; lokah—the worlds; apuritah—populated; trayah—three (the upper, middle and lower worlds).</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Now please hear from me the names of all these daughters and their descendants, who filled all the three worlds.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>6.6.4</strong></p>
+<p>bhanur lamba kakud yamir</p>
+<p>visva sadhya marutvati</p>
+<p>vasur muhurta sankalpa</p>
+<p>dharma-patnyah sutan srnu</p>
+<p><strong>SYNONYMS</strong></p>
+<p>bhanuh—Bhanu; lamba—Lamba; kakut—Kakud; yamih—Yami; visva—Visva; sadhya—Sadhya; marutvati—Marutvati; vasuh—Vasu; muhurta—Muhurta; sankalpa—Sankalpa; dharma-patnyah—the wives of Yamaraja; sutan—their sons; srnu—now hear of.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The ten daughters given to Yamaraja were named Bhanu, Lamba, Kakud, Yami, Visva, Sadhya, Marutvati, Vasu, Muhurta and Sankalpa.</p>
+<p>Now hear the names of their sons.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>6.6.5</strong></p>
+<p>bhanos tu deva-rsabha</p>
+<p>indrasenas tato nrpa</p>
+<p>vidyota asil lambayas</p>
+<p>tatas ca stanayitnavah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>bhanoh—from the womb of Bhanu; tu—of course; deva-rsabhah—Deva-rsabha; indrasenah—Indrasena; tatah—from him (Deva-rsabha); nrpa—O King; vidyotah—Vidyota; asit—appeared; lambayah—from the womb of Lamba; tatah—from him; ca—and; stanayitnavah—all the clouds.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King, a son named Deva-rsabha was born from the womb of Bhanu, and from him came a son named Indrasena.</p>
+<p>From the womb of Lamba came a son named Vidyota, who generated all the clouds.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>6.6.6</strong></p>
+<p>kakudah sankatas tasya</p>
+<p>kikatas tanayo yatah</p>
+<p>bhuvo durgani yameyah</p>
+<p>svargo nandis tato ’bhavat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kakudah—from the womb of Kakud; sankatah—Sankata; tasya—from him; kikatah—Kikata; tanayah—son; yatah—from whom; bhuvah—of the earth; durgani—many demigods, protectors of this universe (which is called Durga); yameyah—of Yami; svargah—Svarga; nandih—Nandi; tatah—from him (Svarga); abhavat—was born.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>From the womb of Kakud came the son named Sankata, whose son was named Kikata.</p>
+<p>From Kikata came the demigods named Durga.</p>
+<p>From Yami came the son named Svarga, whose son was named Nandi.</p>
+
+
+
+<p><strong>6.6.7</strong></p>
+<p>visve-devas tu visvaya</p>
+<p>aprajams tan pracaksate</p>
+<p>sadhyo-ganas ca sadhyaya</p>
+<p>arthasiddhis tu tat-sutah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>visve-devah—the demigods named the Visvadevas; tu—but; visvayah—from Visva; aprajan—without sons; tan—them; pracaksate—it is said; sadhyah-ganah—the demigods named the Sadhyas; ca—and; sadhyayah—from the womb of Sadhya-; arthasiddhih—Arthasiddhi; tu—but; tat-sutah—the son of the Sadhyas.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The sons of Visva were the Visvadevas, who had no progeny.</p>
+<p>From the womb of Sadhya came the Sadhyas, who had a son named Arthasiddhi.</p>
+
+
+
+<p><strong>6.6.8</strong></p>
+<p>marutvams ca jayantas ca</p>
+<p>marutvatya babhuvatuh</p>
+<p>jayanto vasudevamsa</p>
+<p>upendra iti yam viduh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>marutvan—Marutvan; ca—also; jayantah—Jayanta; ca—and; marutvatyah—from Marutvati; babhuvatuh—took birth; jayantah—Jayanta; vasudeva-amsah—an expansion of Vasudeva; upendrah—Upendra; iti—thus; yam—whom; viduh—they know.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The two sons who took birth from the womb of Marutvati were Marutvan and Jayanta.</p>
+<p>Jayanta, who is an expansion of Lord Vasudeva, is known as Upendra.</p>
+
+
+
+<p><strong>6.6.9</strong></p>
+<p>mauhurtika deva-gana</p>
+<p>muhurtayas ca jajnire</p>
+<p>ye vai phalam prayacchanti</p>
+<p>bhutanam sva-sva-kalajam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>mauhurtikah—Mauhurtikas; deva-ganah—the demigods; muhurtayah—from the womb of Muhurta; ca—and; jajnire—took birth; ye—all of whom; vai—indeed; phalam—result; prayacchanti—deliver; bhutanam—of the living entities; sva-sva—their own; kala-jam—born of time.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The demigods named the Mauhurtikas took birth from the womb of Muhurta.</p>
+<p>These demigods deliver the results of actions to the living entities of their respective times.</p>
+
+
+
+<p><strong>6.6.10-11</strong></p>
+<p>sankalpayas tu sankalpah</p>
+<p>kamah sankalpajah smrtah</p>
+<p>vasavo ’stau vasoh putras</p>
+<p>tesam namani me srnu</p>
+<p>dronah prano dhruvo ’rko ’gnir</p>
+<p>doso vastur vibhavasuh</p>
+<p>dronasyabhimateh patnya</p>
+<p>harsa-soka-bhayadayah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sankalpayah—from the womb of Sankalpa; tu—but; sankalpah—Sankalpa; kamah—Kama; sankalpa-jah—the son of Sankalpa; smrtah—known; vasavah astau—the eight Vasus; vasoh—of Vasu; putrah—the sons; tesam—of them; namani—the names; me—from me; srnu—just hear; dronah—Drona; pranah—Prana; dhruvah—Dhruva; arkah—Arka; agnih—Agni; dosah—Dosa; vastuh—Vastu; vibhavasuh—Vibhavasu; dronasya—of Drona; abhimateh—from Abhimati; patnyah—the wife; harsa-soka-bhaya-adayah—the sons named Harsa, Soka, Bhaya and so on.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Sankalpa was known as Sankalpa, and from him lust was born.</p>
+<p>The sons of Vasu were known as the eight Vasus.</p>
+<p>Just hear their names from me: Drona, Prana, Dhruva, Arka, Agni, Dosa, Vastu and Vibhavasu.</p>
+<p>From Abhimati, the wife of the Vasu named Drona, were generated the sons named Harsa, Soka, Bhaya and so on.</p>
+
+
+
+<p><strong>6.6.12</strong></p>
+<p>pranasyorjasvati bharya</p>
+<p>saha ayuh purojavah</p>
+<p>dhruvasya bharya dharanir</p>
+<p>asuta vividhah purah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>pranasya—of Prana; urjasvati—Urjasvati; bharya—the wife; sahah—Saha; ayuh—Ayus; purojavah—Purojava; dhruvasya—of Dhruva; bharya—the wife; dharanih—Dharani; asuta—gave birth to; vividhah—the various; purah—cities and towns.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Urjasvati, the wife of Prana, gave birth to three sons, named Saha, Ayus and Purojava.</p>
+<p>The wife of Dhruva was known as Dharani, and from her womb various cities took birth.</p>
+
+
+
+<p><strong>6.6.13</strong></p>
+<p>arkasya vasana bharya</p>
+<p>putras tarsadayah smrtah</p>
+<p>agner bharya vasor dhara</p>
+<p>putra dravinakadayah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>arkasya—of Arka; vasana—Vasana; bharya—the wife; putrah—the sons; tarsa-adayah—named Tarsa and so on; smrtah—celebrated; agneh—of Agni; bharya—wife; vasoh—the Vasu; dhara—Dhara; putrah—the sons; dravinaka-adayah—known as Dravinaka and so on.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>From the womb of Vasana, the wife of Arka, came many sons, headed by Tarsa.</p>
+<p>Dhara, the wife of the Vasu named Agni, gave birth to many sons, headed by Dravinaka.</p>
+
+
+
+<p><strong>6.6.14</strong></p>
+<p>skandas ca krttika-putro</p>
+<p>ye visakhadayas tatah</p>
+<p>dosasya sarvari-putrah</p>
+<p>sisumaro hareh kala</p>
+<p><strong>SYNONYMS</strong></p>
+<p>skandah—Skanda; ca—also; krttika-putrah—the son of Krttika; ye—all of whom; visakha-adayah—headed by Visakha; tatah—from him (Skanda); dosasya—of Dosa; sarvari-putrah—the son of his wife Sarvari; sisumarah—Sisumara; hareh kala—an expansion of the Supreme Personality of Godhead.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>From Krttika, another wife of Agni, came the son named Skanda, Karttikeya, whose sons were headed by Visakha.</p>
+<p>From the womb of Sarvari, the wife of the Vasu named Dosa, came the son named Sisumara, who was an expansion of the Supreme Personality of Godhead.</p>
+
+
+
+<p><strong>6.6.15</strong></p>
+<p>vastor angirasi-putro</p>
+<p>visvakarmakrti-patih</p>
+<p>tato manus caksuso ’bhud</p>
+<p>visve sadhya manoh sutah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vastoh—of Vastu; angirasi—of his wife named Angirasi; putrah—the son; visvakarma—Visvakarma; akrti-patih—the husband of Akrti; tatah—from them; manuh caksusah—the Manu named Caksusa; abhut—was born; visve—the Visvadevas; sadhyah—the Sadhyas; manoh—of Manu; sutah—the sons.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>From Angirasi, the wife of the Vasu named Vastu, was born the great architect Visvakarma.</p>
+<p>Visvakarma became the husband of Akrti, from whom the Manu named Caksusa was born.</p>
+<p>The sons of Manu were known as the Visvadevas and Sadhyas.</p>
+
+
+
+<p><strong>6.6.16</strong></p>
+<p>vibhavasor asutosa</p>
+<p>vyustam rocisam atapam</p>
+<p>pancayamo ’tha bhutani</p>
+<p>yena jagrati karmasu</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vibhavasoh—of Vibhavasu; asuta—gave birth to; usa—named Usa; vyustam—Vyusta; rocisam—Rocisa; atapam—Atapa; pancayamah—Pancayama; atha—thereafter; bhutani—the living entities; yena—by whom; jagrati—are awakened; karmasu—in material activities.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Usa, the wife of Vibhavasu, gave birth to three sons—Vyusta, Rocisa and Atapa.</p>
+<p>From Atapa came Pancayama, the span of day, who awakens all living entities to material activities.</p>
+
+
+
+<p><strong>6.6.17-18</strong></p>
+<p>sarupasuta bhutasya</p>
+<p>bharya rudrams ca kotisah</p>
+<p>raivato ’jo bhavo bhimo</p>
+<p>vama ugro vrsakapih</p>
+<p>ajaikapad ahirbradhno</p>
+<p>bahurupo mahan iti</p>
+<p>rudrasya parsadas canye</p>
+<p>ghorah preta-vinayakah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sarupa—Sarupa; asuta—gave birth; bhutasya—of Bhuta; bharya—the wife; rudran—Rudras; ca—and; kotisah—ten million; raivatah—Raivata; ajah—Aja; bhavah—Bhava; bhimah—Bhima; vamah—Vama; ugrah—Ugra; vrsakapih—Vrsakapi; ajaikapat—Ajaikapat; ahirbradhnah—Ahirbradhna; bahurupah—Bahurupa; mahan—Mahan; iti—thus; rudrasya—of these Rudras; parsadah—their associates; ca—and; anye—other; ghorah—very fearful; preta—ghosts; vinayakah—and hobgoblins.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sarupa, the wife of Bhuta, gave birth to the ten million Rudras, of whom the eleven principle Rudras were Raivata, Aja, Bhava, Bhima, Vama, Ugra, Vrsakapi, Ajaikapat, Ahirbradhna, Bahurupa and Mahan.</p>
+<p>Their associates, the ghosts and goblins, who are very fearful, were born of the other wife of Bhuta.</p>
+<p><strong>PURPORT</strong></p>
+<p>Srila Visvanatha Cakravarti Thakura comments that Bhuta had two wives.</p>
+<p>One of them, Sarupa, gave birth to the eleven Rudras, and the other wife gave birth to the associates of the Rudras known as the ghosts and hobgoblins.</p>
+
+
+
+<p><strong>6.6.19</strong></p>
+<p>prajapater angirasah</p>
+<p>svadha patni pitrn atha</p>
+<p>atharvangirasam vedam</p>
+<p>putratve cakarot sati</p>
+<p><strong>SYNONYMS</strong></p>
+<p>prajapateh angirasah—of another prajapati, known as Angira; svadha—Svadha; patni—his wife; pitrn—the Pitas; atha—thereafter; atharva-angirasam—Atharvangirasa; vedam—the personified Veda; putratve—as the son; ca—and; akarot—accepted; sati—Sati.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The prajapati Angira had two wives, named Svadha and Sati.</p>
+<p>The wife named Svadha accepted all the Pitas as her sons, and Sati accepted the Atharvangirasa Veda as her son.</p>
+
+
+
+<p><strong>6.6.20</strong></p>
+<p>krsasvo ’rcisi bharyayam</p>
+<p>dhumaketum ajijanat</p>
+<p>dhisanayam vedasiro</p>
+<p>devalam vayunam manum</p>
+<p><strong>SYNONYMS</strong></p>
+<p>krsasvah—Krsasva; arcisi—Arcis; bharyayam—in his wife; dhumaketum—to Dhumaketu; ajijanat—gave birth; dhisanayam—in the wife known as Dhisana; vedasirah—Vedasira; devalam—Devala; vayunam—Vayuna; manum—Manu.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Krsasva had two wives, named Arcis and Dhisana.</p>
+<p>In the wife named Arcis he begot Dhumaketu and in Dhisana he begot four sons, named Vedasira, Devala, Vayuna and Manu.</p>
+
+
+
+<p><strong>6.6.21-22</strong></p>
+<p>tarksyasya vinata kadruh</p>
+<p>patangi yaminiti ca</p>
+<p>patangy asuta patagan</p>
+<p>yamini salabhan atha</p>
+<p>suparnasuta garudam</p>
+<p>saksad yajnesa-vahanam</p>
+<p>surya-sutam anurum ca</p>
+<p>kadrur nagan anekasah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tarksyasya—of Kasyapa, whose other name is Tarksya; vinata—Vinata; kadruh—Kadru; patangi—Patangi; yamini—Yamini; iti—thus; ca—and; patangi—Patangi; asuta—gave birth; patagan—to birds of different varieties; yamini—Yamini; salabhan—(gave birth to) locusts; atha—thereafter; suparna—the wife named Vinata; asuta—gave birth; garudam—to the celebrated bird known as Garuda; saksat—directly; yajnesa-vahanam—the carrier of the Supreme Personality of Godhead, Visnu; surya-sutam—the chariot driver of the sun-god; anurum—Anuru; ca—and; kadruh—Kadru; nagan—serpents; anekasah—in varieties.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Kasyapa, who is also named Tarksya, had four wives—Vinata (Suparna), Kadru, Patangi and Yamini.</p>
+<p>Patangi gave birth to many kinds of birds, and Yamini gave birth to locusts.</p>
+<p>Vinata (Suparna) gave birth to Garuda, the carrier of Lord Visnu, and to Anuru, or Aruna, the chariot driver of the sun-god.</p>
+<p>Kadru gave birth to different varieties of serpents.</p>
+
+
+
+<p><strong>6.6.23</strong></p>
+<p>krttikadini naksatran-</p>
+<p>indoh patnyas tu bharata</p>
+<p>daksa-sapat so ’napatyas</p>
+<p>tasu yaksma-graharditah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>krttika-adini—headed by Krttika; naksatrani—the constellations; indoh—of the moon-god; patnyah—the wives; tu—but; bharata—O Maharaja Pariksit, descendant of the dynasty of Bharata; daksa-sapat—because of being cursed by Daksa; sah—the moon-god; anapatyah—without children; tasu—in so many wives; yaksma-graha-arditah—being oppressed by a disease that brings about gradual destruction.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O Maharaja Pariksit, best of the Bharatas, the constellations named Krttika were all wives of the moon-god.</p>
+<p>However, because Prajapati Daksa had cursed him to suffer from a disease causing gradual destruction, the moon-god could not beget children in any of his wives.</p>
+
+
+
+<p><strong>6.6.24-26</strong></p>
+<p>punah prasadya tam somah</p>
+<p>kala lebhe ksaye ditah</p>
+<p>srnu namani lokanam</p>
+<p>matrnam sankarani ca</p>
+<p>atha kasyapa-patninam</p>
+<p>yat-prasutam idam jagat</p>
+<p>aditir ditir danuh kastha</p>
+<p>arista surasa ila</p>
+<p>munih krodhavasa tamra</p>
+<p>surabhih sarama timih</p>
+<p>timer yado-gana asan</p>
+<p>svapadah sarama-sutah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>punah—again; prasadya—pacifying; tam—him (Prajapati Daksa); somah—the moon-god; kalah—portions of light; lebhe—achieved; ksaye—in gradual destruction (the dark fortnight); ditah—removed; srnu—please hear; namani—all the names; lokanam—of the planets; matrnam—of the mothers; sankarani—pleasing; ca—also; atha—now; kasyapa-patninam—of the wives of Kasyapa; yat-prasutam—from whom was born; idam—this; jagat—whole universe; aditih—Aditi; ditih—Diti; danuh—Danu; kastha—Kastha; arista—Arista; surasa—Surasa; ila—Ila; munih—Muni; krodhavasa—Krodhavasa; tamra—Tamra; surabhih—Surabhi; sarama—Sarama; timih—Timi; timeh—from Timi; yadah-ganah—the aquatics; asan—appeared; svapadah—the ferocious animals like the lions and tigers; sarama-sutah—the children of Sarama.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter the King of the moon pacified Prajapati Daksa with courteous words and thus regained the portions of light he had lost during his disease.</p>
+<p>Nevertheless he could not beget children.</p>
+<p>The moon loses his shining power during the dark fortnight, and in the bright fortnight it is manifest again.</p>
+<p>O King Pariksit, now please hear from me the names of Kasyapa’s wives, from whose wombs the population of the entire universe has come.</p>
+<p>They are the mothers of almost all the population of the entire universe, and their names are very auspicious to hear.</p>
+<p>They are Aditi, Diti, Danu, Kastha, Arista, Surasa, Ila, Muni, Krodhavasa, Tamra, Surabhi, Sarama and Timi.</p>
+<p>From the womb of Timi all the aquatics took birth, and from the womb of Sarama the ferocious animals like the tigers and lions took birth.</p>
+
+
+
+<p><strong>6.6.27</strong></p>
+<p>surabher mahisa gavo</p>
+<p>ye canye dvisapha nrpa</p>
+<p>tamrayah syena-grdhradya</p>
+<p>muner apsarasam ganah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>surabheh—from the womb of Surabhi; mahisah—buffalo; gavah—cows; ye—who; ca—also; anye—others; dvi-saphah—having cloven hooves; nrpa—O King; tamrayah—from Tamra; syena—eagles; grdhra-adyah—vultures and so on; muneh—from Muni; apsarasam—of angels; ganah—the groups.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear King Pariksit, from the womb of Surabhi the buffalo, cow and other animals with cloven hooves took birth, from the womb of Tamra the eagles, vultures and other large birds of prey took birth, and from the womb of Muni the angels took birth.</p>
+
+
+
+<p><strong>6.6.28</strong></p>
+<p>dandasukadayah sarpa</p>
+<p>rajan krodhavasatmajah</p>
+<p>ilaya bhuruhah sarve</p>
+<p>yatudhanas ca saurasah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dandasuka-adayah—headed by the dandasuka snakes; sarpah—reptiles; rajan—O King; krodhavasa-atma-jah—born from Krodhavasa; ilayah—from the womb of Ila; bhuruhah—the creepers and trees; sarve—all; yatudhanah—the cannibals (Raksasas); ca—also; saurasah—from the womb of Surasa.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The sons born of Krodhavasa were the serpents known as dandasuka, as well as other serpents and the mosquitoes.</p>
+<p>All the various creepers and trees were born from the womb of Ila.</p>
+<p>The Raksasas, bad spirits, were born from the womb of Surasa.</p>
+
+
+
+<p><strong>6.6.29-31</strong></p>
+<p>aristayas tu gandharvah</p>
+<p>kasthaya dvisaphetarah</p>
+<p>suta danor eka-sastis</p>
+<p>tesam pradhanikan srnu</p>
+<p>dvimurdha sambaro ’risto</p>
+<p>hayagrivo vibhavasuh</p>
+<p>ayomukhah sankusirah</p>
+<p>svarbhanuh kapilo ’runah</p>
+<p>puloma vrsaparva ca</p>
+<p>ekacakro ’nutapanah</p>
+<p>dhumrakeso virupakso</p>
+<p>vipracittis ca durjayah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>aristayah—from the womb of Arista; tu—but; gandharvah—the Gandharvas; kasthayah—from the womb of Kastha; dvi-sapha-itarah—animals such as horses, which do not have cloven hooves; sutah—sons; danoh—from the womb of Danu; eka-sastih—sixty-one; tesam—of them; pradhanikan—the important ones; srnu—hear; dvimurdha—Dvimurdha; sambarah—Sambara; aristah—Arista; hayagrivah—Hayagriva; vibhavasuh—Vibhavasu; ayomukhah—Ayomukha; sankusirah—Sankusira; svarbhanuh—Svarbhanu; kapilah—Kapila; arunah—Aruna; puloma—Puloma; vrsaparva—Vrsaparva; ca—also; ekacakrah—Ekacakra; anutapanah—Anutapana; dhumrakesah—Dhumrakesa; virupaksah—Virupaksa; vipracittih—Vipracitti; ca—and; durjayah—Durjaya.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Gandharvas were born from the womb of Arista, and animals whose hooves are not split, such as the horse, were born from the womb of Kastha.</p>
+<p>O King, from the womb of Danu came sixty-one sons, of whom these eighteen were very important: Dvimurdha, Sambara, Arista, Hayagriva, Vibhavasu, Ayomukha, Sankusira, Svarbhanu, Kapila, Aruna, Puloma, Vrsaparva, Ekacakra, Anutapana, Dhumrakesa, Virupaksa, Vipracitti and Durjaya.</p>
+
+
+
+<p><strong>6.6.32</strong></p>
+<p>svarbhanoh suprabham kanyam</p>
+<p>uvaha namucih kila</p>
+<p>vrsaparvanas tu sarmistham</p>
+<p>yayatir nahuso bali</p>
+<p><strong>SYNONYMS</strong></p>
+<p>svarbhanoh—of Svarbhanu; suprabham—Suprabha; kanyam—the daughter; uvaha—married; namucih—Namuci; kila—indeed; vrsaparvanah—of Vrsaparva; tu—but; sarmistham—Sarmistha; yayatih—King Yayati; nahusah—the son of Nahusa; bali—very powerful.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The daughter of Svarbhanu named Suprabha was married by Namuci.</p>
+<p>The daughter of Vrsaparva named Sarmistha was given to the powerful King Yayati, the son of Nahusa.</p>
+
+
+
+<p><strong>6.6.33-36</strong></p>
+<p>vaisvanara-suta yas ca</p>
+<p>catasras caru-darsanah</p>
+<p>upadanavi hayasira</p>
+<p>puloma kalaka tatha</p>
+<p>upadanavim hiranyaksah</p>
+<p>kratur hayasiram nrpa</p>
+<p>pulomam kalakam ca dve</p>
+<p>vaisvanara-sute tu kah</p>
+<p>upayeme ’tha bhagavan</p>
+<p>kasyapo brahma-coditah</p>
+<p>paulomah kalakeyas ca</p>
+<p>danava yuddha-salinah</p>
+<p>tayoh sasti-sahasrani</p>
+<p>yajna-ghnams te pituh pita</p>
+<p>jaghana svar-gato rajann</p>
+<p>eka indra-priyankarah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vaisvanara-sutah—the daughters of Vaisvanara; yah—who; ca—and; catasrah—four; caru-darsanah—very, very beautiful; upadanavi—Upadanavi; hayasira—Hayasira; puloma—Puloma; kalaka—Kalaka; tatha—as well; upadanavim—Upadanavi; hiranyaksah—the demon Hiranyaksa; kratuh—Kratu; hayasiram—Hayasira; nrpa—O King; pulomam kalakam ca—Puloma and Kalaka; dve—the two; vaisvanara-sute—daughters of Vaisvanara; tu—but; kah—the prajapati; upayeme—married; atha—then; bhagavan—the most powerful; kasyapah—Kasyapa Muni; brahma-coditah—requested by Lord Brahma; paulomah kalakeyah ca—the Paulomas and Kalakeyas; danavah—demons; yuddha-salinah—very fond of fighting; tayoh—of them; sasti-sahasrani—sixty thousand; yajna-ghnan—who were disturbing sacrifices; te—your; pituh—of the father; pita—the father; jaghana—killed; svah-gatah—in the heavenly planets; rajan—O King; ekah—alone; indra-priyam-karah—to please King Indra.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Vaisvanara, the son of Danu, had four beautiful daughters, named Upadanavi, Hayasira, Puloma and Kalaka.</p>
+<p>Hiranyaksa married Upadanavi, and Kratu married Hayasira.</p>
+<p>Thereafter, at the request of Lord Brahma, Prajapati Kasyapa married Puloma and Kalaka, the other two daughters of Vaisvanara.</p>
+<p>From the wombs of these two wives of Kasyapa came sixty thousand sons, headed by Nivatakavaca, who are known as the Paulomas and the Kalakeyas.</p>
+<p>They were physically very strong and expert in fighting, and their aim was to disturb the sacrifices performed by the great sages.</p>
+<p>My dear King, when your grandfather Arjuna went to the heavenly planets, he alone killed all these demons, and thus King Indra became extremely affectionate toward him.</p>
+
+
+
+<p><strong>6.6.37</strong></p>
+<p>vipracittih simhikayam</p>
+<p>satam caikam ajijanat</p>
+<p>rahu-jyestham ketu-satam</p>
+<p>grahatvam ya upagatah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vipracittih—Vipracitti; simhikayam—in the womb of his wife Simhika; satam—to one hundred; ca—and; ekam—one; ajijanat—gave birth; rahu-jyestham—among whom Rahu is the oldest; ketu-satam—one hundred Ketus; grahatvam—planethood; ye—all of whom; upagatah—obtained.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In his wife Simhika, Vipracitti begot one hundred and one sons, of whom the eldest is Rahu and the others are the one hundred Ketus.</p>
+<p>All of them attained positions in the influential planets.</p>
+
+
+
+<p><strong>6.6.38-39</strong></p>
+<p>athatah sruyatam vamso</p>
+<p>yo ’diter anupurvasah</p>
+<p>yatra narayano devah</p>
+<p>svamsenavatarad vibhuh</p>
+<p>vivasvan aryama pusa</p>
+<p>tvastatha savita bhagah</p>
+<p>dhata vidhata varuno</p>
+<p>mitrah satru urukramah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atha—thereafter; atah—now; sruyatam—let it be heard; vamsah—the dynasty; yah—which; aditeh—from Aditi; anupurvasah—in chronological order; yatra—wherein; narayanah—the Supreme Personality of Godhead; devah—the Lord; sva-amsena—by His own plenary expansion; avatarat—descended; vibhuh—the Supreme; vivasvan—Vivasvan; aryama—Aryama; pusa—Pusa; tvasta—Tvasta; atha—thereafter; savita—Savita; bhagah—Bhaga; dhata—Dhata; vidhata—Vidhata; varunah—Varuna; mitrah—Mitra; satruh—Satru; urukramah—Urukrama.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Now please hear me as I describe the descendants of Aditi in chronological order.</p>
+<p>In this dynasty the Supreme Personality of Godhead Narayana descended by His plenary expansion.</p>
+<p>The names of the sons of Aditi are as follows: Vivasvan, Aryama, Pusa, Tvasta, Savita, Bhaga, Dhata, Vidhata, Varuna, Mitra, Satru and Urukrama.</p>
+
+
+
+<p><strong>6.6.40</strong></p>
+<p>vivasvatah sraddhadevam</p>
+<p>samjnasuyata vai manum</p>
+<p>mithunam ca maha-bhaga</p>
+<p>yamam devam yamim tatha</p>
+<p>saiva bhutvatha vadava</p>
+<p>nasatyau susuve bhuvi</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vivasvatah—of the sun-god; sraddhadevam—named Sraddhadeva; samjna—Samjna; asuyata—gave birth; vai—indeed; manum—to Manu; mithunam—twins; ca—and; maha-bhaga—the fortunate Samjna; yamam—to Yamaraja; devam—the demigod; yamim—to his sister named Yami; tatha—as well as; sa—she; eva—also; bhutva—becoming; atha—then; vadava—a mare; nasatyau—to the Asvini-kumaras; susuve—gave birth; bhuvi—on this earth.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Samjna, the wife of Vivasvan, the sun-god, gave birth to the Manu named Sraddhadeva, and the same fortunate wife also gave birth to the twins Yamaraja and the River Yamuna.</p>
+<p>Then Yami, while wandering on the earth in the form of a mare, gave birth to the Asvini-kumaras.</p>
+
+
+
+<p><strong>6.6.41</strong></p>
+<p>chaya sanaiscaram lebhe</p>
+<p>savarnim ca manum tatah</p>
+<p>kanyam ca tapatim ya vai</p>
+<p>vavre samvaranam patim</p>
+<p><strong>SYNONYMS</strong></p>
+<p>chaya—Chaya, another wife of the sun-god; sanaiscaram—Saturn; lebhe—begot; savarnim—Savarni; ca—and; manum—the Manu; tatah—from him (Vivasvan); kanyam—one daughter; ca—as well as; tapatim—named Tapati; ya—who; vai—indeed; vavre—married; samvaranam—Samvarana; patim—husband.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Chaya, another wife of the sun-god, begot two sons named Sanaiscara and Savarni Manu, and one daughter, Tapati, who married Samvarana.</p>
+
+
+
+<p><strong>6.6.42</strong></p>
+<p>aryamno matrka patni</p>
+<p>tayos carsanayah sutah</p>
+<p>yatra vai manusi jatir</p>
+<p>brahmana copakalpita</p>
+<p><strong>SYNONYMS</strong></p>
+<p>aryamnah—of Aryama; matrka—Matrka; patni—the wife; tayoh—by their union; carsanayah sutah—many sons who were learned scholars; yatra—wherein; vai—indeed; manusi—human; jatih—species; brahmana—by Lord Brahma; ca—and; upakalpita—was created.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>From the womb of Matrka, the wife of Aryama, were born many learned scholars.</p>
+<p>Among them Lord Brahma created the human species, which are endowed with an aptitude for self-examination.</p>
+
+
+
+<p><strong>6.6.43</strong></p>
+<p>pusanapatyah pistado</p>
+<p>bhagna-danto ’bhavat pura</p>
+<p>yo ’sau daksaya kupitam</p>
+<p>jahasa vivrta-dvijah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>pusa—Pusa; anapatyah—without children; pista-adah—who lives by eating flour; bhagna-dantah—with broken teeth; abhavat—became; pura—formerly; yah—who; asau—that; daksaya—at Daksa; kupitam—very angry; jahasa—laughed; vivrta-dvijah—uncovering his teeth.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Pusa had no sons.</p>
+<p>When Lord Siva was angry at Daksa, Pusa had laughed at Lord Siva and shown his teeth.</p>
+<p>Therefore he lost his teeth and had to live by eating only ground flour.</p>
+
+
+
+<p><strong>6.6.44</strong></p>
+<p>tvastur daityatmaja bharya</p>
+<p>racana nama kanyaka</p>
+<p>sannivesas tayor jajne</p>
+<p>visvarupas ca viryavan</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tvastuh—of Tvasta; daitya-atma-ja—the daughter of a demon; bharya—wife; racana—Racana; nama—named; kanyaka—a maiden; sannivesah—Sannivesa; tayoh—of those two; jajne—was born; visvarupah—Visvarupa; ca—and; viryavan—very powerful in bodily strength.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Racana, the daughter of the Daityas, became the wife of Prajapati Tvasta.</p>
+<p>By his semina he begot in her womb two very powerful sons named Sannivesa and Visvarupa.</p>
+
+
+
+<p><strong>6.6.45</strong></p>
+<p>tam vavrire sura-gana</p>
+<p>svasriyam dvisatam api</p>
+<p>vimatena parityakta</p>
+<p>gurunangirasena yat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tam—him (Visvarupa); vavrire—accepted as a priest; sura-ganah—the demigods; svasriyam—the son of a daughter; dvisatam—of the inimical demons; api—although; vimatena—being disrespected; parityaktah—who were given up; guruna—by their spiritual master; angirasena—Brhaspati; yat—since.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Although Visvarupa was the son of the daughter of their eternal enemies the demons, the demigods accepted him as their priest in accordance with the order of Brahma when they were abandoned by their spiritual master, Brhaspati, whom they had disrespected.</p>
+
+
+</article></body></html>

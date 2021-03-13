@@ -1,154 +1,41 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>Remembrance of Lord Krsna - Remembrance of Lord Krsna</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">Remembrance of Lord Krsna</a></li><li class="affix"><a href="3.2.2.html">3.2.2</a></li><li class="affix"><a href="3.2.3.html">3.2.3</a></li><li class="affix"><a href="3.2.4.html">3.2.4</a></li><li class="affix"><a href="3.2.5.html">3.2.5</a></li><li class="affix"><a href="3.2.6.html">3.2.6</a></li><li class="affix"><a href="3.2.7.html">3.2.7</a></li><li class="affix"><a href="3.2.8.html">3.2.8</a></li><li class="affix"><a href="3.2.9.html">3.2.9</a></li><li class="affix"><a href="3.2.10.html">3.2.10</a></li><li class="affix"><a href="3.2.11.html">3.2.11</a></li><li class="affix"><a href="3.2.12.html">3.2.12</a></li><li class="affix"><a href="3.2.13.html">3.2.13</a></li><li class="affix"><a href="3.2.14.html">3.2.14</a></li><li class="affix"><a href="3.2.15.html">3.2.15</a></li><li class="affix"><a href="3.2.16.html">3.2.16</a></li><li class="affix"><a href="3.2.17.html">3.2.17</a></li><li class="affix"><a href="3.2.18.html">3.2.18</a></li><li class="affix"><a href="3.2.19.html">3.2.19</a></li><li class="affix"><a href="3.2.20.html">3.2.20</a></li><li class="affix"><a href="3.2.21.html">3.2.21</a></li><li class="affix"><a href="3.2.22.html">3.2.22</a></li><li class="affix"><a href="3.2.23.html">3.2.23</a></li><li class="affix"><a href="3.2.24.html">3.2.24</a></li><li class="affix"><a href="3.2.25.html">3.2.25</a></li><li class="affix"><a href="3.2.26.html">3.2.26</a></li><li class="affix"><a href="3.2.27.html">3.2.27</a></li><li class="affix"><a href="3.2.28.html">3.2.28</a></li><li class="affix"><a href="3.2.29.html">3.2.29</a></li><li class="affix"><a href="3.2.30.html">3.2.30</a></li><li class="affix"><a href="3.2.31.html">3.2.31</a></li><li class="affix"><a href="3.2.32.html">3.2.32</a></li><li class="affix"><a href="3.2.33.html">3.2.33</a></li><li class="affix"><a href="3.2.34.html">3.2.34</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">Remembrance of Lord Krsna</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#remembrance-of-lord-krsna" id="remembrance-of-lord-krsna">Remembrance of Lord Krsna</a></h1>
-<h3><a class="header" href="#321" id="321">3.2.1</a></h3>
+<h1>Remembrance of Lord Krsna</h1>
+<p><strong>3.2.1</strong></p>
 <p>sri-suka uvaca</p>
 <p>iti bhagavatah prstah</p>
 <p>ksattra vartam priyasrayam</p>
@@ -159,63 +46,858 @@
 <p><strong>TRANSLATION</strong></p>
 <p>Sri Sukadeva Gosvami said: When the great devotee Uddhava was asked by Vidura to speak on the messages of the dearest (Lord Krsna), Uddhava was unable to answer immediately due to excessive anxiety at the remembrance of the Lord.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="3.2.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>3.2.2</strong></p>
+<p>yah panca-hayano matra</p>
+<p>pratar-asaya yacitah</p>
+<p>tan naicchad racayan yasya</p>
+<p>saparyam bala-lilaya</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—one who; panca—five; hayanah—years old; matra—by his mother; pratah-asaya—for breakfast; yacitah—called for; tat—that; na—not; aicchat—liked; racayan—playing; yasya—whose; saparyam—service; bala-lilaya—childhood.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>He was one who even in his childhood, at the age of five years, was so absorbed in the service of Lord Krsna that when he was called by his mother for morning breakfast, he did not wish to have it.</p>
+<p><strong>PURPORT</strong></p>
+<p>From his very birth, Uddhava was a natural devotee of Lord Krsna, or a nitya-siddha, a liberated soul.</p>
+<p>From natural instinct he used to serve Lord Krsna, even in his childhood.</p>
+<p>He used to play with dolls in the form of Krsna, he would serve the dolls by dressing, feeding and worshiping them, and thus he was constantly absorbed in the play of transcendental realization.</p>
+<p>These are the signs of an eternally liberated soul.</p>
+<p>An eternally liberated soul is a devotee of the Lord who never forgets Him.</p>
+<p>Human life is meant for reviving one’s eternal relation with the Lord, and all religious injunctions are meant for awakening this dormant instinct of the living entity.</p>
+<p>The sooner this awakening is brought about, the quicker the mission of human life is fulfilled.</p>
+<p>In a good family of devotees, the child gets the opportunity to serve the Lord in many ways.</p>
+<p>A soul who is already advanced in devotional service has the opportunity to take birth in such an enlightened family.</p>
+<p>This is confirmed in the Bhagavad-gita (6.41).</p>
+<p>Sucinam srimatam gehe yoga-bhrasto ’bhijayate: even the fallen devotee gets the opportunity to take his birth in the family of a well-situated brahmana or in a rich, well-to-do mercantile family.</p>
+<p>In both these families there is a good opportunity to revive one’s sense of God consciousness automatically because particularly in these families the worship of Lord Krsna is regularly performed and the child gets the opportunity to imitate the process of worship called arcana.</p>
+<p>The pancaratriki formula for training persons in devotional service is temple worship, whereby the neophytes get the opportunity to learn devotional service to the Lord.</p>
+<p>Maharaja Pariksit also used to play with Krsna dolls in his childhood.</p>
+<p>In India the children in good families are still given dolls of the Lord like Rama and Krsna, or sometimes the demigods, so that they may develop the aptitude of service to the Lord.</p>
+<p>By the grace of the Lord we were given the same opportunity by our parents, and the beginning of our life was based on this principle.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="3.2.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>3.2.3</strong></p>
+<p>sa katham sevaya tasya</p>
+<p>kalena jarasam gatah</p>
+<p>prsto vartam pratibruyad</p>
+<p>bhartuh padav anusmaran</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—Uddhava; katham—how; sevaya—by such service; tasya—his; kalena—in course of time; jarasam—invalidity; gatah—undergone; prstah—asked for; vartam—message; pratibruyat—just to reply; bhartuh—of the Lord; padau—His lotus feet; anusmaran—remembering.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Uddhava thus served the Lord continually from childhood, and in his old age that attitude of service never slackened.</p>
+<p>As soon as he was asked about the message of the Lord, he at once remembered all about Him.</p>
+<p><strong>PURPORT</strong></p>
+<p>Transcendental service to the Lord is not mundane.</p>
+<p>The service attitude of the devotee gradually increases and never becomes slackened.</p>
+<p>Generally, in old age a person is allowed retirement from mundane service.</p>
+<p>But in the transcendental service of the Lord there is no retirement at all; on the contrary, the service attitude increases more and more with the progress of age.</p>
+<p>In the transcendental service there is no satiation, and therefore there is no retirement.</p>
+<p>Materially, when a man becomes tired by rendering service in his physical body, he is allowed retirement, but in the transcendental service there is no feeling of fatigue because it is spiritual service and is not on the bodily plane.</p>
+<p>Service on the bodily plane dwindles as the body grows older, but the spirit is never old, and therefore on the spiritual plane the service is never tiresome.</p>
+<p>Uddhava undoubtedly became old, but that does not mean that his spirit became old.</p>
+<p>His service attitude matured on the transcendental plane, and therefore as soon as he was questioned by Vidura about Lord Krsna, he at once remembered his Lord by reference to the context and forgot himself on the physical plane.</p>
+<p>That is the sign of pure devotional service to the Lord, as will be explained later on (laksanam bhakti-yogasya, etc.) in Lord Kapila’s instructions to His mother, Devahuti.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>3.2.4</strong></p>
+<p>sa muhurtam abhut tusnim</p>
+<p>krsnanghri-sudhaya bhrsam</p>
+<p>tivrena bhakti-yogena</p>
+<p>nimagnah sadhu nirvrtah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—Uddhava; muhurtam—for a moment; abhut—became; tusnim—dead silent; krsna-anghri—the lotus feet of the Lord; sudhaya—by the nectar; bhrsam—well matured; tivrena—by very strong; bhakti-yogena—devotional service; nimagnah—absorbed in; sadhu—good; nirvrtah—fully in love.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>For a moment he remained dead silent, and his body did not move.</p>
+<p>He became absorbed in the nectar of remembering the Lord’s lotus feet in devotional ecstasy, and he appeared to be going increasingly deeper into that ecstasy.</p>
+<p><strong>PURPORT</strong></p>
+<p>On the inquiry by Vidura about Krsna, Uddhava appeared to be awakened from slumber.</p>
+<p>He appeared to regret that he had forgotten the lotus feet of the Lord.</p>
+<p>Thus he again remembered the lotus feet of the Lord and remembered all his transcendental loving service unto Him, and by so doing he felt the same ecstasy that he used to feel in the presence of the Lord.</p>
+<p>Because the Lord is absolute, there is no difference between His remembrance and His personal presence.</p>
+<p>Thus Uddhava remained completely silent for a moment, but then he appeared to be going deeper and deeper into ecstasy.</p>
+<p>Feelings of ecstasy are displayed by highly advanced devotees of the Lord.</p>
+<p>There are eight kinds of transcendental changes in the body—tears, shivering of the body, perspiration, restlessness, throbbing, choking of the throat, etc.—and all were manifested by Uddhava in the presence of Vidura.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>3.2.5</strong></p>
+<p>pulakodbhinna-sarvango</p>
+<p>muncan milad-drsa sucah</p>
+<p>purnartho laksitas tena</p>
+<p>sneha-prasara-samplutah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>pulaka-udbhinna—bodily changes of transcendental ecstasy; sarva-angah—every part of the body; muncan—smearing; milat—opening; drsa—by the eyes; sucah—tears of grief; purna-arthah—complete achievement; laksitah—thus observed; tena—by Vidura; sneha-prasara—extensive love; samplutah—thoroughly assimilated.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>It was so observed by Vidura that Uddhava had all the transcendental bodily changes due to total ecstasy, and he was trying to wipe away tears of separation from his eyes.</p>
+<p>Thus Vidura could understand that Uddhava had completely assimilated extensive love for the Lord.</p>
+<p><strong>PURPORT</strong></p>
+<p>The symptoms of the highest order of devotional life were observed by Vidura, an experienced devotee of the Lord, and he confirmed Uddhava’s perfectional stage of love of Godhead.</p>
+<p>Ecstatic bodily changes are manifested from the spiritual plane and are not artificial expressions developed by practice.</p>
+<p>There are three different stages of development in devotional service.</p>
+<p>The first stage is that of following the regulative principles prescribed in the codes of devotional service, the second stage is that of assimilation and realization of the steady condition of devotional service, and the last stage is that of ecstasy symptomized by transcendental bodily expression.</p>
+<p>The nine different modes of devotional service, such as hearing, chanting and remembering, are the beginning of the process.</p>
+<p>By regular hearing of the glories and pastimes of the Lord, the impurities in the student’s heart begin to be washed off.</p>
+<p>The more one is cleansed of impurities, the more one becomes fixed in devotional service.</p>
+<p>Gradually the activities take the forms of steadiness, firm faith, taste, realization and assimilation, one after another.</p>
+<p>These different stages of gradual development increase love of God to the highest stage, and in the highest stage there are still more symptoms, such as affection, anger and attachment, gradually rising in exceptional cases to the maha-bhava stage, which is generally not possible for the living entities.</p>
+<p>All these were manifested by Lord Sri Caitanya Mahaprabhu, the personification of love of God.</p>
+<p>In the Bhakti-rasamrta-sindhu by Srila Rupa Gosvami, the chief disciple of Lord Sri Caitanya Mahaprabhu, these transcendental symptoms displayed by pure devotees like Uddhava are systematically described.</p>
+<p>We have written a summary study of Bhakti-rasamrta-sindhu entitled The Nectar of Devotion, and one may consult this book for more detailed information on the science of devotional service.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>3.2.6</strong></p>
+<p>sanakair bhagaval-lokan</p>
+<p>nrlokam punar agatah</p>
+<p>vimrjya netre viduram</p>
+<p>prityahoddhava utsmayan</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sanakaih—gradually; bhagavat—the Lord; lokat—from the abode; nrlokam—the planet of the human beings; punah agatah—coming again; vimrjya—wiping; netre—eyes; viduram—unto Vidura; pritya—in affection; aha—said; uddhavah—Uddhava; utsmayan—by all those remembrances.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The great devotee Uddhava soon came back from the abode of the Lord to the human plane, and wiping his eyes, he awakened his reminiscence of the past and spoke to Vidura in a pleasing mood.</p>
+<p><strong>PURPORT</strong></p>
+<p>When Uddhava was fully absorbed in the transcendental ecstasy of love of God, he actually forgot all about the external world.</p>
+<p>The pure devotee lives constantly in the abode of the Supreme Lord, even in the present body, which apparently belongs to this world.</p>
+<p>The pure devotee is not exactly on the bodily plane, since he is absorbed in the transcendental thought of the Supreme.</p>
+<p>When Uddhava wanted to speak to Vidura, he came down from the abode of the Lord, Dvaraka, to the material plane of human beings.</p>
+<p>Even though a pure devotee is present on this mortal planet, he is here in relation to the Lord for engagement in transcendental loving service, and not for any material cause.</p>
+<p>A living entity can live either on the material plane or in the transcendental abode of the Lord, in accordance with his existential condition.</p>
+<p>The conditional changes of the living entity are explained in the Caitanya-caritamrta in the instructions given to Srila Rupa Gosvami by Lord Sri Caitanya: The living entities all over the universes are enjoying the effects of the respective fruitive results of their own work, life after life.</p>
+<p>Out of all of them, some may be influenced by the association of pure devotees and thus get the chance to execute devotional service by attainment of taste.</p>
+<p>This taste is the seed of devotional service, and one who is fortunate enough to have received such a seed is advised to sow it in the core of his heart.</p>
+<p>As one cultivates a seed by pouring water to fructify it, the seed of devotional service sown in the heart of the devotee may be cultured by pouring water in the form of hearing and chanting of the holy name and pastimes of the Lord.</p>
+<p>The creeper of devotional service, so nourished, gradually grows, and the devotee, acting as a gardener, goes on pouring the water of constant hearing and chanting.</p>
+<p>The creeper of devotional service gradually grows so high that it passes through the entire material universe and enters into the spiritual sky, growing still higher and higher until it reaches the planet Goloka Vrndavana.</p>
+<p>The devotee-gardener is in touch with the abode of the Lord even from the material plane by dint of performing devotional service to the Lord simply by hearing and chanting.</p>
+<p>As a creeper takes shelter of another, stronger tree, similarly the creeper of devotional service, nourished by the devotee, takes shelter of the lotus feet of the Lord and thus becomes fixed.</p>
+<p>When the creeper is fixed, then the fruit of the creeper comes into existence, and the gardener who nourished it is able to enjoy this fruit of love, and his life becomes successful That Uddhava attained this stage is evident from his dealings.</p>
+<p>He could simultaneously reach the supreme planet and still appear in this world.</p>
+
+
+
+<p><strong>3.2.7</strong></p>
+<p>uddhava uvaca</p>
+<p>krsna-dyumani nimloce</p>
+<p>girnesv ajagarena ha</p>
+<p>kim nu nah kusalam bruyam</p>
+<p>gata-srisu grhesv aham</p>
+<p><strong>SYNONYMS</strong></p>
+<p>uddhavah uvaca—Sri Uddhava said; krsna-dyumani—the Krsna sun; nimloce—having set; girnesu—being swallowed; ajagarena—by the great snake; ha—in the past; kim—what; nu—else; nah—our; kusalam—welfare; bruyam—may I say; gata—gone away; srisu grhesu—in the house; aham—I.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sri Uddhava said: My dear Vidura, the sun of the world, Lord Krsna, has set, and our house has now been swallowed by the great snake of time.</p>
+<p>What can I say to you about our welfare?</p>
+<p><strong>PURPORT</strong></p>
+<p>The disappearance of the Krsna sun may be explained as follows, according to the commentary of Srila Visvanatha Cakravarti Thakura.</p>
+<p>Vidura was struck with great sorrow when he got the hint of the annihilation of the great Yadu dynasty as well as of his own family, the Kuru dynasty.</p>
+<p>Uddhava could understand the grief of Vidura, and therefore he first of all wanted to sympathize with him by saying that after the sunset everyone is in darkness.</p>
+<p>Since the entire world was merged in the darkness of grief, neither Vidura nor Uddhava nor anyone else could be happy.</p>
+<p>Uddhava was as much aggrieved as Vidura, and there was nothing further to be said about their welfare.</p>
+<p>The comparison of Krsna to the sun is very appropriate.</p>
+<p>As soon as the sun sets, darkness automatically appears.</p>
+<p>But the darkness experienced by the common man does not affect the sun itself either at the time of sunrise or of sunset.</p>
+<p>Lord Krsna’s appearance and disappearance are exactly like that of the sun.</p>
+<p>He appears and disappears in innumerable universes, and as long as He is present in a particular universe there is all transcendental light in that universe, but the universe from which He passes away is put into darkness.</p>
+<p>His pastimes, however, are everlasting.</p>
+<p>The Lord is always present in some universe, just as the sun is present in either the eastern or the western hemisphere.</p>
+<p>The sun is always present either in India or in America, but when the sun is present in India, the American land is in darkness, and when the sun is present in America, the Indian hemisphere is in darkness.</p>
+<p>As the sun appears in the morning and gradually rises to the meridian and then again sets in one hemisphere while simultaneously rising in the other, so Lord Krsna’s disappearance in one universe and the beginning of His different pastimes in another take place simultaneously.</p>
+<p>As soon as one pastime is finished here, it is manifested in another universe.</p>
+<p>And thus His nitya-lila, or eternal pastimes, are going on without ending.</p>
+<p>As the sunrise takes place once in twenty-four hours, similarly the pastimes of Lord Krsna take place in a universe once in a daytime of Brahma, the account of which is given in the Bhagavad-gita as 4,300,000,000 solar years.</p>
+<p>But wherever the Lord is present, all His different pastimes as described in the revealed scriptures take place at regular intervals.</p>
+<p>As at sunset the snakes become powerful, thieves are encouraged, ghosts become active, the lotus becomes disfigured and the cakravaki laments, so with the disappearance of Lord Krsna, the atheists feel enlivened, and the devotees become sorry.</p>
+
+
+
+<p><strong>3.2.8</strong></p>
+<p>durbhago bata loko ’yam</p>
+<p>yadavo nitaram api</p>
+<p>ye samvasanto na vidur</p>
+<p>harim mina ivodupam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>durbhagah—unfortunate; bata—certainly; lokah—universe; ayam—this; yadavah—the Yadu dynasty; nitaram—more specifically; api—also; ye—those; samvasantah—living together; na—did not; viduh—understand; harim—the Personality of Godhead; minah—the fishes; iva udupam—like the moon.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>This universe with all its planets is most unfortunate.</p>
+<p>And even more unfortunate are the members of the Yadu dynasty because they could not identify Lord Hari as the Personality of Godhead, any more than the fish could identify the moon.</p>
+<p><strong>PURPORT</strong></p>
+<p>Uddhava lamented for the unfortunate persons of the world who could not recognize Lord Sri Krsna in spite of seeing all His transcendental godly qualities.</p>
+<p>From the very beginning of His appearance within the prison bars of King Kamsa up to His mausala-lila, although He exhibited His potencies as the Personality of Godhead in the six opulences of wealth, strength, fame, beauty, knowledge and renunciation, the foolish persons of the world could not understand that He was the Supreme Lord, Foolish persons might have thought Him an extraordinary historic figure because they had no intimate touch with the Lord, but more unfortunate were the family members of the Lord, the members of the Yadu dynasty, who were always in company with the Lord but were unable to recognize Him as the Supreme Personality of Godhead.</p>
+<p>Uddhava lamented his own fortune also because although he knew Krsna to be the Supreme Personality of Godhead, he could not properly use the opportunity to render devotional service to the Lord.</p>
+<p>He regretted everyone’s misfortune, including his own.</p>
+<p>The pure devotee of the Lord thinks himself most unfortunate.</p>
+<p>That is due to excessive love for the Lord and is one of the transcendental perceptions of viraha, the suffering of separation.</p>
+<p>It is learned from the revealed scriptures that the moon was born from the milk ocean.</p>
+<p>There is a milk ocean in the upper planets, and there Lord Visnu, who controls the heart of every living being as Paramatma (the Supersoul), resides as the Ksirodakasayi Visnu.</p>
+<p>Those who do not believe in the existence of the ocean of milk because they have experience only of the salty water in the ocean should know that the world is also called the go, which means the cow.</p>
+<p>The urine of a cow is salty, and according to Ayur-vedic medicine the cow’s urine is very effective in treating patients suffering from liver trouble.</p>
+<p>Such patients may not have any experience of the cow’s milk because milk is never given to liver patients.</p>
+<p>But the liver patient may know that the cow has milk also, although he has never tasted it.</p>
+<p>Similarly, men who have experience only of this tiny planet where the saltwater ocean exists may take information from the revealed scriptures that there is also an ocean of milk, although we have never seen it.</p>
+<p>From this ocean of milk the moon was born, but the fish in the milk ocean could not recognize that the moon was not another fish and was different from them.</p>
+<p>The fish took the moon to be one of them or maybe something illuminating, but nothing more.</p>
+<p>The unfortunate persons who do not recognize Lord Krsna are like such fish.</p>
+<p>They take Him to be one of them, although a little extraordinary in opulence, strength, etc.</p>
+<p>The Bhagavad-gita (9.11) confirms such foolish persons to be most unfortunate: avajananti mam mudha manusim tanum asritam.</p>
+
+
+
+<p><strong>3.2.9</strong></p>
+<p>ingita -jnah puru-praudha</p>
+<p>ekaramas ca satvatah</p>
+<p>satvatam rsabham sarve</p>
+<p>bhutavasam amamsata</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ingita -jnah—expert in psychic study; puru-praudhah—highly experienced; eka—one; aramah—relaxation; ca—also; satvatah—devotees, or own men; satvatam rsabham—head of the family; sarve—all; bhuta-avasam—all-pervading; amamsata—could think.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Yadus were all experienced devotees, learned and expert in psychic study.</p>
+<p>Over and above this, they were always with the Lord in all kinds of relaxations, and still they were only able to know Him as the one Supreme who dwells everywhere.</p>
+<p><strong>PURPORT</strong></p>
+<p>In the Vedas it is said that the Supreme Lord or the Paramatma cannot be understood simply by the strength of one’s erudition or power of mental speculation: nayam atma pravacanena labhyo na medhaya na bahuna srutena (Katha Upanisad1.2.23).</p>
+<p>He can be known only by one who has the mercy of the Lord.</p>
+<p>The Yadavas were all exceptionally learned and experienced, but in spite of their knowing the Lord as the one who lives in everyone’s heart, they could not understand that He is the original Personality of Godhead.</p>
+<p>This lack of knowledge was not due to their insufficient erudition; it was due to their misfortune.</p>
+<p>In Vrndavana, however, the Lord was not even known as the Paramatma because the residents of Vrndavana were pure unconventional devotees of the Lord and could think of Him only as their object of love.</p>
+<p>They did not know that He is the Personality of Godhead.</p>
+<p>The Yadus, or the residents of Dvaraka, however, could know Lord Krsna as Vasudeva, or the Supersoul living everywhere, but not as the Supreme Lord.</p>
+<p>As scholars of the Vedas, they verified the Vedic hymns: eko devah sarva-bhutadhivasah… antaryami… and vrsninam para-devata.</p>
+<p>The Yadus, therefore, accepted Lord Krsna as the Supersoul incarnated in their family, and not more than that.</p>
+
+
+
+<p><strong>3.2.10</strong></p>
+<p>devasya mayaya sprsta</p>
+<p>ye canyad asad-asritah</p>
+<p>bhramyate dhir na tad-vakyair</p>
+<p>atmany uptatmano harau</p>
+<p><strong>SYNONYMS</strong></p>
+<p>devasya—of the personality of Godhead; mayaya—by the influence of external energy; sprstah—infected; ye—all those; ca—and; anyat—others; asat—illusory; asritah—being taken to; bhramyate—bewilder; dhih—intelligence; na—not; tat—of them; vakyaih—by those words; atmani—in the Supreme Self; upta-atmanah—surrendered souls; harau—unto the Lord.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Under no circumstances can the words of persons bewildered by the illusory energy of the Lord deviate the intelligence of those who are completely surrendered souls.</p>
+<p><strong>PURPORT</strong></p>
+<p>Lord Sri Krsna is the Supreme Personality of Godhead according to all the evidences of the Vedas.</p>
+<p>He is accepted by all acaryas, including Sripada Sankaracarya.</p>
+<p>But when He was present in the world, different classes of men accepted Him differently, and therefore their calculations of the Lord were also different.</p>
+<p>Generally, persons who had faith in the revealed scriptures accepted the Lord as He is, and all of them merged into great bereavement when the Lord disappeared from the world.</p>
+<p>In the First Canto we have already discussed the lamentation of Arjuna and Yudhisthira, to whom the disappearance of Lord Krsna was almost intolerable up to the end of their lives.</p>
+<p>The Yadavas were only partially cognizant of the Lord, but they are also glorious because they had the opportunity to associate with the Lord, who acted as the head of their family, and they also rendered the Lord intimate service.</p>
+<p>The Yadavas and other devotees of the Lord are different from those who wrongly calculated Him to be an ordinary human personality.</p>
+<p>Such persons are certainly bewildered by the illusory energy.</p>
+<p>They are hellish and are envious of the Supreme Lord.</p>
+<p>The illusory energy acts very powerfully on them because in spite of their elevated mundane education, such persons are faithless and are infected by the mentality of atheism.</p>
+<p>They are always very eager to establish that Lord Krsna was an ordinary man who was killed by a hunter due to His many impious acts in plotting to kill the sons of Dhrtarastra and Jarasandha, the demoniac kings of the earth.</p>
+<p>Such persons have no faith in the statement of the Bhagavad-gita that the Lord is unaffected by the reactions of work: na mam karmani limpanti.</p>
+<p>According to the atheistic point of view, Lord Krsna’s family, the Yadu dynasty, was vanquished due to being cursed by the brahmanas for the sins committed by Krsna in killing the sons of Dhrtarastra, etc.</p>
+<p>All these blasphemies do not touch the heart of the devotees of the Lord because they know perfectly well what is what.</p>
+<p>Their intelligence regarding the Lord is never disturbed.</p>
+<p>But those who are disturbed by the statements of the asuras are also condemned.</p>
+<p>That is what Uddhava meant in this verse.</p>
+
+
+
+<p><strong>3.2.11</strong></p>
+<p>pradarsyatapta-tapasam</p>
+<p>avitrpta-drsam nrnam</p>
+<p>adayantar adhad yas tu</p>
+<p>sva-bimbam loka-locanam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>pradarsya—by exhibiting; atapta—without undergoing; tapasam—penances; avitrpta-drsam—without fulfillment of vision; nrnam—of persons; adaya—taking; antah—disappearance; adhat—performed; yah—He who; tu—but; sva-bimbam—His own form; loka-locanam—public vision.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Lord Sri Krsna, who manifested His eternal form before the vision of all on the earth, performed His disappearance by removing His form from the sight of those who were unable to see Him (as He is) due to not executing required penance.</p>
+<p><strong>PURPORT</strong></p>
+<p>In this verse the word avitrpta-drsam is most significant.</p>
+<p>The conditioned souls in the material world are all trying to satisfy their senses in various ways, but they have failed to do so because it is impossible to be satisfied by such efforts.</p>
+<p>The example of the fish on land is very appropriate.</p>
+<p>If one takes a fish from the water and puts in on the land, it cannot be made happy by any amount of offered pleasure.</p>
+<p>The spirit soul can be happy only in the association of the supreme living being, the Personality of Godhead, and nowhere else.</p>
+<p>The Lord, by His unlimited causeless mercy, has innumerable Vaikuntha planets in the brahmajyoti sphere of the spiritual world, and in that transcendental world there is an unlimited arrangement for the unlimited pleasure of the living entities.</p>
+<p>The Lord Himself comes to display His transcendental pastimes, typically represented at Vrndavana, Mathura and Dvaraka.</p>
+<p>He appears just to attract the conditioned souls back to Godhead, back home to the eternal world.</p>
+<p>But for want of sufficient piety, the onlookers are not attracted by such pastimes of the Lord.</p>
+<p>In Bhagavad-gita it is said that only those who have completely surpassed the way of sinful reaction can engage themselves in the transcendental loving service of the Lord.</p>
+<p>The entire Vedic way of ritualistic performances is to put every conditioned soul on the path of piety.</p>
+<p>By strict adherence to the prescribed principles for all orders of social life, one can attain the qualities of truthfulness, control of the mind, control of the senses, forbearance, etc., and can be elevated to the plane of rendering pure devotional service to the Lord.</p>
+<p>Only by such a transcendental vision are one’s material hankerings fully satisfied.</p>
+<p>When the Lord was present, persons who were able to satisfy their material hankerings by seeing Him in true perspective were thus able to go back with Him to His kingdom.</p>
+<p>But those persons who were unable to see the Lord as He is remained attached to material hankerings and were not able to go back home, back to Godhead.</p>
+<p>When the Lord passed beyond the vision of all, He did so in His original eternal form, as stated in this verse.</p>
+<p>The Lord left in His own body; He did not leave His body as is generally misunderstood by the conditioned souls.</p>
+<p>This statement defeats the false propaganda of the faithless nondevotees that the Lord passed away like an ordinary conditioned soul.</p>
+<p>The Lord appeared in order to release the world from the undue burden of the nonbelieving asuras, and after doing this, He disappeared from the world’s eyes.</p>
+
+
+
+<p><strong>3.2.12</strong></p>
+<p>yan martya-lilaupayikam sva-yoga-</p>
+<p>maya-balam darsayata grhitam</p>
+<p>vismapanam svasya ca saubhagarddheh</p>
+<p>param padam bhusana-bhusanangam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yat—His eternal form which; martya—mortal world; lila-upayikam—just suitable for the pastimes; sva-yoga-maya-balam—potency of the internal energy; darsayata—for manifestation; grhitam—discovered; vismapanam—wonderful; svasya—of His own; ca—and; saubhaga-rddheh—of the opulent; param—supreme; padam—ultimate stand; bhusana—ornament; bhusana-angam—of the ornaments.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Lord appeared in the mortal world by His internal potency, yoga-maya.</p>
+<p>He came in His eternal form, which is just suitable for His pastimes.</p>
+<p>These pastimes were wonderful for everyone, even for those proud of their own opulence, including the Lord Himself in His form as the Lord of Vaikuntha.</p>
+<p>Thus His (Sri Krsna’s) transcendental body is the ornament of all ornaments.</p>
+<p><strong>PURPORT</strong></p>
+<p>In conformity with the Vedic hymns (nityo nityanam cetanas cetananam), the Personality of Godhead is more excellent than all other living beings within all the universes in the material world.</p>
+<p>He is the chief of all living entities; no one can surpass Him or be equal to Him in wealth, strength, fame, beauty, knowledge or renunciation.</p>
+<p>When Lord Krsna was within this universe, He seemed to be a human being because He appeared in a manner just suitable for His pastimes in the mortal world.</p>
+<p>He did not appear in human society in His Vaikuntha feature with four hands because that would not have been suitable for His pastimes.</p>
+<p>But in spite of His appearing as a human being, no one was or is equal to Him in any respect in any of the six different opulences.</p>
+<p>Everyone is more or less proud of his opulence in this world, but when Lord Krsna was in human society, He excelled all His contemporaries within the universe.</p>
+<p>When the Lord’s pastimes are visible to the human eye, they are called prakata, and when they are not visible they are called aprakata.</p>
+<p>In fact, the Lord’s pastimes never stop, just as the sun never leaves the sky.</p>
+<p>The sun is always in its right orbit in the sky, but it is sometimes visible and sometimes invisible to our limited vision.</p>
+<p>Similarly, the pastimes of the Lord are always current in one universe or another, and when Lord Krsna disappeared from the transcendental abode of Dvaraka, it was simply a disappearance from the eyes of the people there.</p>
+<p>It should not be misunderstood that His transcendental body, which is just suitable for the pastimes in the mortal world, is in any way inferior to His different expansions in the Vaikunthalokas.</p>
+<p>His body manifested in the material world is transcendental par excellence in the sense that His pastimes in the mortal world excel His mercy displayed in the Vaikunthalokas.</p>
+<p>In the Vaikunthalokas the Lord is merciful toward the liberated or nitya-mukta living entities, but in His pastimes in the mortal world He is merciful even to the fallen souls who are nitya-baddha, or conditioned forever.</p>
+<p>The six excellent opulences which He displayed in the mortal world by the agency of His internal potency, yoga-maya, are rare even in the Vaikunthalokas.</p>
+<p>All His pastimes were manifested not by the material energy but by His spiritual energy.</p>
+<p>The excellence of His rasa-lila at Vrndavana and His householder life with sixteen thousand wives is wonderful even for Narayana in Vaikuntha and is certainly so for other living entities within this mortal world.</p>
+<p>His pastimes are wonderful even for other incarnations of the Lord, such as Sri Rama, Nrsimha and Varaha.</p>
+<p>His opulence was so superexcellent that His pastimes were adored even by the Lord of Vaikuntha, who is not different from Lord Krsna Himself.</p>
+
+
+
+<p><strong>3.2.13</strong></p>
+<p>yad dharma-sunor bata rajasuye</p>
+<p>niriksya drk-svastyayanam tri-lokah</p>
+<p>kartsnyena cadyeha gatam vidhatur</p>
+<p>arvak-srtau kausalam ity amanyata</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yat—the form which; dharma-sunoh—of Maharaja Yudhisthira; bata—certainly; rajasuye—in the arena of the rajasuya sacrifice; niriksya—by observing; drk—sight; svastyayanam—pleasing; tri-lokah—the three worlds; kartsnyena—in sum total; ca—thus; adya—today; iha—within the universe; gatam—surpassed; vidhatuh—of the creator (Brahma); arvak—recent mankind; srtau—in the material world; kausalam—dexterity; iti—thus; amanyata—contemplated.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>All the demigods from the upper, lower and middle universal planetary systems assembled at the altar of the rajasuya sacrifice performed by Maharaja Yudhisthira.</p>
+<p>After seeing the beautiful bodily features of Lord Krsna, they all contemplated that He was the ultimate dexterous creation of Brahma, the creator of human beings.</p>
+<p><strong>PURPORT</strong></p>
+<p>There was nothing comparable to the bodily features of Lord Krsna when He was present in this world.</p>
+<p>The most beautiful object in the material world may be compared to the blue lotus flower or the full moon in the sky, but even the lotus flower and the moon were defeated by the beauty of the bodily features of Lord Krsna, and this was certified by the demigods, the most beautiful living creatures in the universe.</p>
+<p>The demigods thought that Lord Krsna, like themselves, was also created by Lord Brahma, but in fact Brahma was created by Lord Krsna.</p>
+<p>It was not within the power of Brahma to create the transcendental beauty of the Supreme Lord.</p>
+<p>No one is the creator of Krsna; rather, He is the creator of everyone.</p>
+<p>As He says in Bhagavad-gita (10.8), aham sarvasya prabhavo mattah sarvam pravartate.</p>
+
+
+
+<p><strong>3.2.14</strong></p>
+<p>yasyanuraga-pluta-hasa-rasa-</p>
+<p>lilavaloka-pratilabdha-manah</p>
+<p>vraja-striyo drgbhir anupravrtta-</p>
+<p>dhiyo ’vatasthuh kila krtya-sesah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yasya—whose; anuraga—attachment; pluta—enhanced by; hasa—laughter; rasa—humors; lila—pastimes; avaloka—glancing; pratilabdha—obtained thereof; manah—anguished; vraja-striyah—damsels of Vraja; drgbhih—with the eyes; anupravrtta—following; dhiyah—by intelligence; avatasthuh—sat silently; kila—indeed; krtya-sesah—without finishing household duties.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The damsels of Vraja, after pastimes of laughter, humor and exchanges of glances, were anguished when Krsna left them.</p>
+<p>They used to follow Him with their eyes, and thus they sat down with stunned intelligence and could not finish their household duties.</p>
+<p><strong>PURPORT</strong></p>
+<p>In His boyhood at Vrndavana, Lord Krsna was notorious as a teasing friend in transcendental love to all the girls His age.</p>
+<p>His love for them was so intense that there is no comparison to that ecstasy, and the damsels of Vraja were so much attached to Him that their affection excelled that of the great demigods like Brahma and Siva.</p>
+<p>Lord Krsna finally admitted His defeat before the transcendental affection of the gopis and declared that He was unable to repay them for their unalloyed affection.</p>
+<p>Although the gopis were seemingly anguished by the Lord’s teasing behavior, when Krsna would leave them they could not tolerate the separation and used to follow Him with their eyes and minds.</p>
+<p>They were so stunned by the situation that they could not finish their household duties.</p>
+<p>No one could excel Him even in the dealing of love exchanged between boys and girls.</p>
+<p>It is said in the revealed scriptures that Lord Krsna personally never goes beyond the boundary of Vrndavana.</p>
+<p>He remains there eternally because of the transcendental love of the inhabitants.</p>
+<p>Thus even though He is not visible at present, He is not away from Vrndavana for a moment.</p>
+
+
+
+<p><strong>3.2.15</strong></p>
+<p>sva-santa-rupesv itaraih sva-rupair</p>
+<p>abhyardyamanesv anukampitatma</p>
+<p>paravareso mahad-amsa-yukto</p>
+<p>hy ajo ’pi jato bhagavan yathagnih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sva-santa-rupesu—unto the peaceful devotees of the Lord; itaraih—others, nondevotees; sva-rupaih—according to their own modes of nature; abhyardyamanesu—being harassed by; anukampita-atma—the all-compassionate Lord; para-avara—spiritual and material; isah—controller; mahat-amsa-yuktah—accompanied by the plenary portion of mahat-tattva; hi—certainly; ajah—the unborn; api—although; jatah—is born; bhagavan—the Personality of Godhead; yatha—as if; agnih—the fire.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Personality of Godhead, the all-compassionate controller of both the spiritual and material creations, is unborn, but when there is friction between His peaceful devotees and persons who are in the material modes of nature, He takes birth just like fire, accompanied by the mahat-tattva.</p>
+<p><strong>PURPORT</strong></p>
+<p>The devotees of the Lord are by nature peaceful because they have no material hankering.</p>
+<p>A liberated soul has no hankering, and therefore he has no lamentation.</p>
+<p>One who wants to possess also laments when he loses his possession.</p>
+<p>Devotees have no hankerings for material possessions and no hankerings for spiritual salvation.</p>
+<p>They are situated in the transcendental loving service of the Lord as a matter of duty, and they do not mind where they are or how they have to act.</p>
+<p>Karmis, jnanis and yogis all hanker to possess some material or spiritual assets.</p>
+<p>Karmis want material possessions, jnanis and yogis want spiritual possessions, but devotees do not want any material or spiritual assets.</p>
+<p>They want only to serve the Lord anywhere in the material or spiritual worlds that the Lord desires, and the Lord is always specifically compassionate towards such devotees.</p>
+<p>The karmis, jnanis and yogis have their particular mentalities in the modes of nature, and therefore they are called itara or nondevotees.</p>
+<p>These itaras, including even the yogis, sometimes harass the devotees of the Lord.</p>
+<p>Durvasa Muni, a great yogi, harassed Maharaja Ambarisa because the latter was a great devotee of the Lord.</p>
+<p>And the great karmi and jnani Hiranyakasipu even harassed his own Vaisnava son, Prahlada Maharaja.</p>
+<p>There are many instances of such harassment of the peaceful devotees of the Lord by the itaras.</p>
+<p>When such friction takes place, the Lord, out of His great compassion towards His pure devotees, appears in person, accompanied by His plenary portions controlling the mahat-tattva.</p>
+<p>The Lord is everywhere, in both the material and spiritual domains, and He appears for the sake of His devotees when there is friction between His devotee and the nondevotee.</p>
+<p>As electricity is generated by friction of matter anywhere and everywhere, the Lord, being all-pervading, appears because of the friction of devotees and nondevotees.</p>
+<p>When Lord Krsna appears on a mission, all His plenary portions accompany Him.</p>
+<p>When He appeared as the son of Vasudeva, there were differences of opinion about His incarnation.</p>
+<p>Some said, He is the Supreme Personality of Godhead Some said, He is an incarnation of Narayana and others said, He is the incarnation of Ksirodakasayi Visnu But actually He is the original Supreme Personality of Godhead—krsnas tu bhagavan svayam—and Narayana, the purusas and all other incarnations accompany Him to function as different parts of His pastimes.</p>
+<p>Mahad-amsa-yuktah indicates that He is accompanied by the purusas, who create the mahat-tanva.</p>
+<p>It is confirmed in the Vedic hymns, mahantam vibhum atmanam.</p>
+<p>Lord Krsna appeared, just like electricity, when there was friction between Kamsa and Vasudeva and Ugrasena.</p>
+<p>Vasudeva and Ugrasena were the Lord’s devotees, and Kamsa, a representative of the karmis and jnanis, was a nondevotee.</p>
+<p>Krsna, as He is, is compared to the sun.</p>
+<p>He first appeared from the ocean of the womb of Devaki, and gradually He satisfied the inhabitants of the places surrounding Mathura, just as the sun enlivens the lotus flower in the morning.</p>
+<p>After gradually rising to the meridian of Dvaraka, the Lord set like the sun, placing everything in darkness, as described by Uddhava.</p>
+
+
+
+<p><strong>3.2.16</strong></p>
+<p>mam khedayaty etad ajasya janma-</p>
+<p>vidambanam yad vasudeva-gehe</p>
+<p>vraje ca vaso ’ri-bhayad iva svayam</p>
+<p>purad vyavatsid yad-ananta-viryah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>mam—to me; khedayati—gives me distress; etat—this; ajasya—of the unborn; janma—birth; vidambanam—bewildering; yat—that; vasudeva-gehe—in the home of Vasudeva; vraje—in Vrndavana; ca—also; vasah—inhabitation; ari—enemy; bhayat—because of fear; iva—as if; svayam—Himself; purat—from Mathura Puri; vyavatsit—fled; yat—one who is; ananta-viryah—unlimitedly powerful.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When I think of Lord Krsna—how He was born in the prison house of Vasudeva although He is unborn, how He went away from His father’s protection to Vraja and lived there incognito out of fear of the enemy, and how, although unlimitedly powerful, He fled from Mathura in fear—all these bewildering incidents give me distress.</p>
+<p><strong>PURPORT</strong></p>
+<p>Because Lord Sri Krsna is the original person from whom everything and everyone has emanated—aham sarvasya prabhavah (Bg.10.8), janmady asya yatah (Bhag.1.1.1) (Vedanta-sutra1.1.2)—nothing can be equal to or greater than Him.</p>
+<p>The Lord is supremely perfect, and whenever He enacts His transcendental pastimes as a son, a rival or an object of enmity, He plays the part so perfectly that even pure devotees like Uddhava are bewildered.</p>
+<p>For example, Uddhava knew perfectly well that Lord Sri Krsna is eternally existent and can neither die nor disappear for good, yet he lamented for Lord Krsna.</p>
+<p>All these events are perfect arrangements to give perfection to His supreme glories.</p>
+<p>It is for enjoyment’s sake.</p>
+<p>When a father plays with his little son and the father lies down on the floor as if defeated by the son, it is just to give the little son pleasure, and nothing more.</p>
+<p>Because the Lord is all-powerful, it is possible for Him to adjust opposites such as birth and no birth, power and defeat, fear and fearlessness.</p>
+<p>A pure devotee knows very well how it is possible for the Lord to adjust opposite things, but he laments for the nondevotees who, not knowing the supreme glories of the Lord, think of Him as imaginary simply because there are so many apparently contradictory statements in the scriptures.</p>
+<p>Factually there is nothing contradictory; everything is possible when we understand the Lord as the Lord and not as one of us, with all our imperfection.</p>
+
+
+
+<p><strong>3.2.17</strong></p>
+<p>dunoti cetah smarato mamaitad</p>
+<p>yad aha padav abhivandya pitroh</p>
+<p>tatamba kamsad uru-sankitanam</p>
+<p>prasidatam no ’krta-niskrtinam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dunoti—it gives me pain; cetah—heart; smaratah—while thinking of; mama—my; etat—this; yat—as much as; aha—said; padau—feet; abhivandya—worshiping; pitroh—of the parents; tata—My dear father; amba—My dear mother; kamsat—out of Kamsa’s; uru—great; sankitanam—of those who are afraid; prasidatam—be pleased with; nah—Our; akrta—not executed; niskrtinam—duties to serve you.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Lord Krsna begged pardon from His parents for Their (Krsna’s and Balarama’s) inability to serve their feet, due to being away from home because of great fear of Kamsa.</p>
+<p>He said, O mother, O father, please excuse Us for this inability All this behavior of the Lord gives me pain at heart.</p>
+<p><strong>PURPORT</strong></p>
+<p>It appears that Lord Krsna and Baladeva were both very greatly afraid of Kamsa, and therefore They had to hide Themselves.</p>
+<p>But if Lord Krsna and Baladeva are the Supreme Personality of Godhead, how was it possible that They were afraid of Kamsa? Is there any contradiction in such statements? Vasudeva, due to his great appreciation for Krsna, wanted to give Him protection.</p>
+<p>He never thought that Krsna was the Supreme Lord and could protect Himself; he thought of Krsna as his son.</p>
+<p>Because Vasudeva was a great devotee of the Lord, he did not like to think that Krsna might be killed like his other children.</p>
+<p>Morally, Vasudeva was bound to deliver Krsna to the hands of Kamsa because he had promised to turn over all his children.</p>
+<p>But out of his great love for Krsna he broke his promise, and the Lord was very pleased with Vasudeva for his transcendental mentality.</p>
+<p>He did not want to disturb the intense affection of Vasudeva, and thus He agreed to be carried by His father to the house of Nanda and Yasoda.</p>
+<p>And just to test the intense love of Vasudeva, Lord Krsna fell down in the waters of the Yamuna while His father was crossing the river.</p>
+<p>Vasudeva became mad after his child as he tried to recover Him in the midst of the rising river.</p>
+<p>These are all glorified pastimes of the Lord, and there is no contradiction in such manifestations.</p>
+<p>Since Krsna is the Supreme Lord, He was never afraid of Kamsa, but to please His father He agreed to be so.</p>
+<p>And the most brilliant part of His supreme character was that He begged pardon from His parents for being unable to serve their feet while absent from home because of fear of Kamsa.</p>
+<p>The Lord, whose lotus feet are worshiped by demigods like Brahma and Siva, wanted to worship the feet of Vasudeva.</p>
+<p>Such instruction by the Lord to the world is quite appropriate.</p>
+<p>Even if one is the Supreme Lord, one must serve his parents.</p>
+<p>A son is indebted to his parents in so many ways, and it is the duty of the son to serve his parents, however great the son may be.</p>
+<p>Indirectly, Krsna wanted to teach the atheists who do not accept the supreme fatherhood of God, and they may learn from this action how much the Supreme Father has to be respected.</p>
+<p>Uddhava was simply struck with wonder by such glorious behavior of the Lord, and he was very sorry that he was unable to go with Him.</p>
+
+
+
+<p><strong>3.2.18</strong></p>
+<p>ko va amusyanghri-saroja-renum</p>
+<p>vismartum isita puman vijighran</p>
+<p>yo visphurad-bhru-vitapena bhumer</p>
+<p>bharam krtantena tirascakara</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kah—who else; va—either; amusya—the Lord’s; anghri—feet; saroja-renum—dust of the lotus; vismartum—to forget; isita—may be able; puman—person; vijighran—smelling; yah—one who; visphurat—expanding; bhru-vitapena—by the leaves of the eyebrows; bhumeh—of the earth; bharam—burden; krta-antena—by death-blows; tirascakara—executed.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Who, after smelling the dust of His lotus feet even once, could ever forget it? Simply by expanding the leaves of His eyebrows, Krsna has given the deathblow to those who were burdening the earth.</p>
+<p><strong>PURPORT</strong></p>
+<p>Lord Krsna cannot be accepted as one of the human beings, even though He played the role of an obedient son.</p>
+<p>His actions were so extraordinary that by the simple raising of His eyebrows He could deliver death-blows to those who were burdening the earth.</p>
+
+
+
+<p><strong>3.2.19</strong></p>
+<p>drsta bhavadbhir nanu rajasuye</p>
+<p>caidyasya krsnam dvisato ’pi siddhih</p>
+<p>yam yoginah samsprhayanti samyag</p>
+<p>yogena kas tad-viraham saheta</p>
+<p><strong>SYNONYMS</strong></p>
+<p>drsta—it has been seen; bhavadbhih—by your good self; nanu—of course; rajasuye—in the assembly of the rajasuya sacrifice performed by Maharaja Yudhisthira; caidyasya—of the King of Cedi (Sisupala); krsnam—unto Krsna; dvisatah—envying; api—in spite of; siddhih—success; yam—which; yoginah—the yogis; samsprhayanti—verily desire; samyak—fully; yogena—by performance of yoga; kah—who; tat—His; viraham—separation; saheta—can tolerate.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>You have personally seen how the King of Cedi (Sisupala) achieved success in yoga practice, although he hated Lord Krsna.</p>
+<p>Even the actual yogis aspire after such success with great interest by performance of their various practices.</p>
+<p>Who can tolerate separation from Him?</p>
+<p><strong>PURPORT</strong></p>
+<p>Lord Krsna’s causeless mercy was exhibited in the great assembly of Maharaja Yudhisthira.</p>
+<p>He was merciful even to His enemy the King of Cedi, who always tried to be an envious rival of the Lord.</p>
+<p>Because it is not possible to be a bona fide rival of the Lord, the King of Cedi was extremely malicious toward Lord Krsna.</p>
+<p>In this he was like many other asuras, such as Kamsa and Jarasandha.</p>
+<p>In the open assembly of the rajasuya sacrifice performed by Maharaja Yudhisthira, Sisupala insulted Lord Krsna, and he was finally killed by the Lord.</p>
+<p>But it was seen by everyone in the assembly that a light flashed out of the body of the King of Cedi and merged into the body of Lord Krsna.</p>
+<p>This means that Cediraja achieved the salvation of attaining oneness with the Supreme, which is a perfection most desired by the jnanis and yogis and for which they execute their different types of transcendental activities.</p>
+<p>It is a fact that persons who are trying to understand the Supreme Truth by their personal endeavors of mental speculation or mystic powers of yoga achieve the same goal as others who are personally killed by the Lord.</p>
+<p>Both achieve the salvation of merging in the brahmajyoti rays of the transcendental body of the Lord.</p>
+<p>The Lord was merciful even to His enemy, and the success of the King of Cedi was observed by everyone who was present in the assembly.</p>
+<p>Vidura was also present there, and therefore Uddhava referred the incident to his memory.</p>
+
+
+
+<p><strong>3.2.20</strong></p>
+<p>tathaiva canye nara-loka-vira</p>
+<p>ya ahave krsna-mukharavindam</p>
+<p>netraih pibanto nayanabhiramam</p>
+<p>parthastra-putah padam apur asya</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatha—as also; eva ca—and certainly; anye—others; nara-loka—human society; virah—fighters; ye—those; ahave—on the battlefield (of Kuruksetra); krsna—Lord Krsna’s; mukha-aravindam—face like a lotus flower; netraih—with the eyes; pibantah—while seeing; nayana-abhiramam—very pleasing to the eyes; partha—Arjuna; astra-putah—purified by arrows; padam—abode; apuh—achieved; asya—of Him.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Certainly others who were fighters on the Battlefield of Kuruksetra were purified by the onslaught of Arjuna’s arrows, and while seeing the lotuslike face of Krsna, so pleasing to the eyes, they achieved the abode of the Lord.</p>
+<p><strong>PURPORT</strong></p>
+<p>The Supreme Personality of Godhead, Lord Sri Krsna, appears in this world for two missionary purposes: to deliver the faithful and to annihilate the miscreants.</p>
+<p>But because the Lord is absolute, His two different kinds of actions, although apparently different, are ultimately one and the same.</p>
+<p>His annihilation of a person like Sisupala is as auspicious as His actions for the protection of the faithful.</p>
+<p>All the warriors who fought against Arjuna but who were able to see the lotuslike face of the Lord on the battlefront achieved the abode of the Lord, exactly as the devotees of the Lord do.</p>
+<p>The words pleasing to the eyes of the see are very significant.</p>
+<p>When the warriors from the other side of the battlefield saw Lord Krsna at the front, they appreciated His beauty, and their dormant instinct of love of God was awakened.</p>
+<p>Sisupala saw the Lord also, but he saw Him as his enemy, and his love was not awakened.</p>
+<p>Therefore Sisupala achieved oneness with the Lord by merging in the impersonal glare of His body, called the brahmajyoti.</p>
+<p>Others, who were in the marginal position, being neither friends nor enemies but slightly in love of Godhead by appreciating the beauty of His face, were at once promoted to the spiritual planets, the Vaikunthas.</p>
+<p>The Lord’s personal abode is called Goloka Vrndavana, and the abodes where His plenary expansions reside are called the Vaikunthas, where the Lord is present as Narayana.</p>
+<p>Love of Godhead is dormant in every living entity, and the entire process of devotional service unto the Lord is meant for awakening this dormant, eternal love of Godhead.</p>
+<p>But there are degrees of such transcendental awakening.</p>
+<p>Those whose love of God is awakened to the fullest extent go back to the Goloka Vrndavana planet in the spiritual sky, whereas persons who have just awakened to love of Godhead by accident or association are transferred to the Vaikuntha planets.</p>
+<p>Essentially there is no material difference between Goloka and Vaikuntha, but in the Vaikunthas the Lord is served in unlimited opulence, whereas in Goloka the Lord is served in natural affection.</p>
+<p>This love of God is awakened by the association of pure devotees of the Lord.</p>
+<p>Here the word parthastra-putah is significant.</p>
+<p>Those who saw the beautiful face of the Lord on the Battlefield of Kuruksetra were purified first by Arjuna when he made his onslaught with arrows.</p>
+<p>The Lord appeared for the mission of diminishing the burden of the world, and Arjuna was assisting the Lord by fighting on His behalf.</p>
+<p>Arjuna personally declined to fight, and the whole instruction of the Bhagavad-gita was given to Arjuna to engage him in the fight.</p>
+<p>As a pure devotee of the Lord, Arjuna agreed to fight in preference to his own decision, and thus Arjuna fought to assist the Lord in His mission of diminishing the burden of the world.</p>
+<p>All the activities of a pure devotee are executed on behalf of the Lord because a pure devotee of the Lord has nothing to do for his personal interest.</p>
+<p>Arjuna’s killing was as good as killing by the Lord Himself.</p>
+<p>As soon as Arjuna shot an arrow at an enemy, that enemy became purified of all material contaminations and became eligible to be transferred to the spiritual sky.</p>
+<p>Those warriors who appreciated the lotus feet of the Lord and saw His face at the front had their dormant love of God awakened, and thus they were transferred at once to Vaikunthaloka not to the impersonal state of brahmajyoti as was Sisupala.</p>
+<p>Sisupala died without appreciating the Lord, while others died with appreciation of the Lord.</p>
+<p>Both were transferred to the spiritual sky, but those who awakened to love of God were transferred to the planets of the transcendental sky.</p>
+<p>Uddhava seemingly lamented that his own position was less than that of the warriors on the Battlefield of Kuruksetra because they had attained to Vaikuntha whereas he remained to lament the disappearance of the Lord.</p>
+
+
+
+<p><strong>3.2.21</strong></p>
+<p>svayam tv asamyatisayas tryadhisah</p>
+<p>svarajya-laksmy-apta-samasta-kamah</p>
+<p>balim haradbhis cira-loka-palaih</p>
+<p>kirita-koty-edita-pada-pithah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>svayam—Himself; tu—but; asamya—unique; atisayah—greater; tri-adhisah—Lord of the three; svarajya—independent supremacy; laksmi—fortune; apta—achieved; samasta-kamah—all desires; balim—worshiping paraphernalia; haradbhih—offered by; cira-loka-palaih—by the eternal maintainers of the order of creation; kirita-koti—millions of helmets; edita-pada-pithah—feet honored by prayers.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Lord Sri Krsna is the Lord of all kinds of threes and is independently supreme by achievement of all kinds of fortune.</p>
+<p>He is worshiped by the eternal maintainers of the creation, who offer Him the paraphernalia of worship by touching their millions of helmets to His feet.</p>
+<p><strong>PURPORT</strong></p>
+<p>Lord Sri Krsna is so mild and merciful, as described in the above verses, and yet He is the Lord of all kinds of threes.</p>
+<p>He is the Supreme Lord of the three worlds, the three qualities of material nature and the three purusas (Karanodakasayi, Garbhodakasayi and Ksirodakasayi Visnu).</p>
+<p>There are innumerable universes, and in each and every universe there are different manifestations of Brahma, Visnu and Rudra.</p>
+<p>Besides that, there is the Sesa-murti who bears all the universes on His hoods.</p>
+<p>And Lord Krsna is the Lord of all of them.</p>
+<p>As the incarnation of Manu, He is the original source of all Manus in innumerable universes.</p>
+<p>Each universe has manifestations of 504,000 Manus.</p>
+<p>He is the Lord of the three principal potencies, namely cit-sakti, maya-sakti and tatastha-sakti, and He is the complete master of six kinds of fortune—wealth, strength, fame, beauty, knowledge and renunciation.</p>
+<p>There is none who can excel Him in any matter of enjoyment, and certainly there is no one greater than Him.</p>
+<p>No one is equal to or greater than Him.</p>
+<p>It is the duty of everyone, whoever and wherever one may be, to surrender completely unto Him.</p>
+<p>It is not wonderful, therefore, that all the transcendental controllers surrender to Him and make all offerings of worship.</p>
+
+
+
+<p><strong>3.2.22</strong></p>
+<p>tat tasya kainkaryam alam bhrtan no</p>
+<p>viglapayaty anga yad ugrasenam</p>
+<p>tisthan nisannam paramesthi-dhisnye</p>
+<p>nyabodhayad deva nidharayeti</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tat—therefore; tasya—His; kainkaryam—service; alam—of course; bhrtan—the servitors; nah—us; viglapayati—gives pain; anga—O Vidura; yat—as much as; ugrasenam—unto King Ugrasena; tisthan—being seated; nisannam—waiting upon Him; paramesthi-dhisnye—on the royal throne; nyabodhayat—submitted; deva—addressing my Lord; nidharaya—please know it; iti—thus.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Therefore, O Vidura, does it not pain us, His servitors, when we remember that He (Lord Krsna) used to stand before King Ugrasena, who was sitting on the royal throne, and used to submit explanations before him, saying, O My lord, please let it be known to yo?</p>
+<p><strong>PURPORT</strong></p>
+<p>Lord Krsna’s gentle behavior before His so-called superiors such as His father, grandfather and elder brother, His amiable behavior with His so-called wives, friends and contemporaries, His behavior as a child before His mother Yasoda, and His naughty dealings with His young girl friends cannot bewilder a pure devotee like Uddhava.</p>
+<p>Others, who are not devotees, are bewildered by such behavior of the Lord, who acted just like a human being.</p>
+<p>This bewilderment is explained by the Lord Himself in the Bhagavad-gita (9.11) as follows:</p>
+<p>avajananti mam mudha</p>
+<p>manusim tanum asritam</p>
+<p>param bhavam ajananto</p>
+<p>mama bhuta-mahesvaram</p>
+<p>Persons with a poor fund of knowledge belittle the Personality of Godhead, Lord Krsna, not knowing His exalted position as the Lord of everything.</p>
+<p>In Bhagavad-gita the Lord has explained His position clearly, but the demoniac atheistic student squeezes out an interpretation to suit his own purpose and misleads unfortunate followers into the same mentality.</p>
+<p>Such unfortunate persons merely pick up some slogans from the great book of knowledge, but are unable to estimate the Lord as the Supreme Personality of Godhead.</p>
+<p>Pure devotees like Uddhava, however, are never misled by such atheistic opportunists.</p>
+
+
+
+<p><strong>3.2.23</strong></p>
+<p>aho baki yam stana-kala-kutam</p>
+<p>jighamsayapayayad apy asadhvi</p>
+<p>lebhe gatim dhatry-ucitam tato ’nyam</p>
+<p>kam va dayalum saranam vrajema</p>
+<p><strong>SYNONYMS</strong></p>
+<p>aho—alas; baki—the she-demon (Putana); yam—whom; stana—of her breast; kala—deadly; kutam—poison; jighamsaya—out of envy; apayayat—nourished; api—although; asadhvi—unfaithful; lebhe—achieved; gatim—destination; dhatri-ucitam—just suitable for the nurse; tatah—beyond whom; anyam—other; kam—who else; va—certainly; dayalum—merciful; saranam—shelter; vrajema—shall I take.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Alas, how shall I take shelter of one more merciful than He who granted the position of mother to a she-demon (Putana) although she was unfaithful and she prepared deadly poison to be sucked from her breast?</p>
+<p><strong>PURPORT</strong></p>
+<p>Here is an example of the extreme mercy of the Lord, even to His enemy.</p>
+<p>It is said that a noble man accepts the good qualities of a person of doubtful character, just as one accepts nectar from a stock of poison.</p>
+<p>In His babyhood, He was administered deadly poison by Putana, a she-demon who tried to kill the wonderful baby.</p>
+<p>And because she was a demon, it was impossible for her to know that the Supreme Lord, even though playing the part of a baby, was no one less than the same Supreme Personality of Godhead.</p>
+<p>His value as the Supreme Lord did not diminish upon His becoming a baby to please His devotee Yasoda.</p>
+<p>The Lord may assume the form of a baby or a shape other than that of a human being, but it doesn’t make the slightest difference; He is always the same Supreme.</p>
+<p>A living creature, however powerful he may become by dint of severe penance, can never become equal to the Supreme Lord.</p>
+<p>Lord Krsna accepted the motherhood of Putana because she pretended to be an affectionate mother, allowing Krsna to suck her breast.</p>
+<p>The Lord accepts the least qualification of the living entity and awards him the highest reward.</p>
+<p>That is the standard of His character.</p>
+<p>Therefore, who but the Lord can be the ultimate shelter?</p>
+
+
+
+<p><strong>3.2.24</strong></p>
+<p>manye ’suran bhagavatams tryadhise</p>
+<p>samrambha-margabhinivista-cittan</p>
+<p>ye samyuge ’caksata tarksya-putram</p>
+<p>amse sunabhayudham apatantam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>manye—I think; asuran—the demons; bhagavatan—great devotees; tri-adhise—unto the Lord of the threes; samrambha—enmity; marga—by the way of; abhinivista-cittan—absorbed in thought; ye—those; samyuge—in the fight; acaksata—could see; tarksya-putram—Garuda, the carrier of the Lord; amse—on the shoulder; sunabha—the wheel; ayudham—one who carries the weapon; apatantam—coming forward.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>I consider the demons, who are inimical toward the Lord, to be more than the devotees because while fighting with the Lord, absorbed in thoughts of enmity, they are able to see the Lord carried on the shoulder of Garuda, the son of Tarksya (Kasyapa), and carrying the wheel weapon in His hand.</p>
+<p><strong>PURPORT</strong></p>
+<p>The asuras who fought against the Lord face to face got salvation due to their being killed by the Lord.</p>
+<p>This salvation of the demons is not due to their being devotees of the Lord; it is because of the Lord’s causeless mercy.</p>
+<p>Anyone who is slightly in touch with the Lord, somehow or other, is greatly benefited, even to the point of salvation, due to the excellence of the Lord.</p>
+<p>He is so kind that He awards salvation even to His enemies because they come into contact with Him and are indirectly absorbed in Him by their inimical thoughts.</p>
+<p>Actually, the demons can never be equal to the pure devotees, but Uddhava was thinking in that way because of his feelings of separation.</p>
+<p>He was thinking that at the last stage of his life he might not be able to see the Lord face to face as did the demons.</p>
+<p>The fact is that the devotees who are always engaged in the devotional service of the Lord in transcendental love are rewarded many hundreds and thousands of times more than the demons by being elevated to the spiritual planets, where they remain with the Lord in eternal, blissful existence.</p>
+<p>The demons and impersonalists are awarded the facility of merging in the brahmajyoti effulgence of the Lord, whereas the devotees are admitted into the spiritual planets.</p>
+<p>For comparison, one can just imagine the difference between floating in space and residing in one of the planets in the sky.</p>
+<p>The pleasure of the living entities on the planets is greater than that of those who have no body and who merge with the molecules of the sun’s rays.</p>
+<p>The impersonalists, therefore, are no more favored than the enemies of the Lord; rather, they are both on the same level of spiritual salvation.</p>
+
+
+
+<p><strong>3.2.25</strong></p>
+<p>vasudevasya devakyam</p>
+<p>jato bhojendra-bandhane</p>
+<p>cikirsur bhagavan asyah</p>
+<p>sam ajenabhiyacitah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vasudevasya—of the wife of Vasudeva; devakyam—in the womb of Devaki; jatah—born of; bhoja-indra—of the King of the Bhojas; bandhane—in the prison house; cikirsuh—for doing; bhagavan—the Personality of Godhead; asyah—of the earth; sam—welfare; ajena—by Brahma; abhiyacitah—being prayed for.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Personality of Godhead, Lord Sri Krsna, being prayed to by Brahma to bring welfare to the earth, was begotten by Vasudeva in the womb of his wife Devaki in the prison of the King of Bhoja.</p>
+<p><strong>PURPORT</strong></p>
+<p>Although there is no difference between the Lord’s pastimes of appearance and disappearance, the devotees of the Lord do not generally discuss the subject matter of His disappearance.</p>
+<p>Vidura inquired indirectly from Uddhava about the incident of the Lord’s disappearance by asking him to relate krsna-katha, or topics on the history of Lord Krsna.</p>
+<p>Thus Uddhava began the topics from the very beginning of His appearance as the son of Vasudeva and Devaki in the prison of Kamsa, the King of the Bhojas, at Mathura.</p>
+<p>The Lord has no business in this world, but when He is so requested by devotees like Brahma, He descends on the earth for the welfare of the entire universe.</p>
+<p>This is stated in Bhagavad-gita (4.8): paritranaya sadhunam vinasaya ca duskrtam/ dharma-samsthapanarthaya sambhavami yuge yuge.</p>
+
+
+
+<p><strong>3.2.26</strong></p>
+<p>tato nanda-vrajam itah</p>
+<p>pitra kamsad vibibhyata</p>
+<p>ekadasa samas tatra</p>
+<p>gudharcih sa-balo ’vasat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—thereafter; nanda-vrajam—cow pastures of Nanda Maharaja; itah—being brought up; pitra—by His father; kamsat—from Kamsa; vibibhyata—being afraid of; ekadasa—eleven; samah—years; tatra—therein; gudha-arcih—covered fire; sa-balah—with Baladeva; avasat—resided.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, His father, being afraid of Kamsa, brought Him to the cow pastures of Maharaja Nanda, and there He lived for eleven years like a covered flame with His elder brother, Baladeva.</p>
+<p><strong>PURPORT</strong></p>
+<p>There was no necessity of the Lord’s being dispatched to the house of Nanda Maharaja out of fear of Kamsa’s determination to kill Him as soon as He appeared.</p>
+<p>It is the business of the asuras to try to kill the Supreme Personality of Godhead or to prove by all means that there is no God or that Krsna is an ordinary human being and not God.</p>
+<p>Lord Krsna is not affected by such determination of men of Kamsa’s class, but in order to play the role of a child He agreed to be carried by His father to the cow pastures of Nanda Maharaja because Vasudeva was afraid of Kamsa.</p>
+<p>Nanda Maharaja was due to receive Him as his child, and Yasodamayi was also to enjoy the childhood pastimes of the Lord, and therefore to fulfill everyone’s desire, He was carried from Mathura to Vrndavana just after His appearance in the prison house of Kamsa.</p>
+<p>He lived there for eleven years and completed all His fascinating pastimes of childhood, boyhood and adolescence with His elder brother, Lord Baladeva, His first expansion.</p>
+<p>Vasudeva’s thought of protecting Krsna from the wrath of Kamsa is part of a transcendental relationship.</p>
+<p>The Lord enjoys more when someone takes Him as his subordinate son who needs the protection of a father than He does when someone accepts Him as the Supreme Lord.</p>
+<p>He is the father of everyone, and He protects everyone, but when His devotee takes it for granted that the Lord is to be protected by the devotee’s care, it is a transcendental joy for the Lord.</p>
+<p>Thus when Vasudeva, out of fear of Kamsa, carried Him to Vrndavana, the Lord enjoyed it; otherwise, He had no fear from Kamsa or anyone else.</p>
+
+
+
+<p><strong>3.2.27</strong></p>
+<p>parito vatsapair vatsams</p>
+<p>carayan vyaharad vibhuh</p>
+<p>yamunopavane kujad-</p>
+<p>dvija-sankulitanghripe</p>
+<p><strong>SYNONYMS</strong></p>
+<p>paritah—surrounded by; vatsapaih—cowherd boys; vatsan—calves; carayan—herding, tending; vyaharat—enjoyed by traveling; vibhuh—the Almighty; yamuna—the Yamuna River; upavane—gardens on the shore; kujat—vibrated by the voice; dvija—the twice-born birds; sankulita—densely situated; anghripe—in the trees.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In His childhood, the Almighty Lord was surrounded by cowherd boys and calves, and thus He traveled on the shore of the Yamuna River, through gardens densely covered with trees and filled with vibrations of chirping birds.</p>
+<p><strong>PURPORT</strong></p>
+<p>Nanda Maharaja was a landholder for King Kamsa, but because by caste he was a vaisya, a member of the mercantile and agricultural community, he maintained thousands of cows.</p>
+<p>It is the duty of the vaisyas to give protection to the cows, just as the ksatriyas are to give protection to the human beings.</p>
+<p>Because the Lord was a child, He was put in charge of the calves with His cowherd boy friends.</p>
+<p>These cowherd boys were great rsis and yogis in their previous births, and after many such pious births, they gained the association of the Lord and could play with Him on equal terms.</p>
+<p>Such cowherd boys never cared to know who Krsna was, but they played with Him as a most intimate and lovable friend.</p>
+<p>They were so fond of the Lord that at night they would only think of the next morning when they would be able to meet the Lord and go together to the forests for cowherding.</p>
+<p>The forests on the shore of the Yamuna are all beautiful gardens full of trees of mango, jackfruit, apples, guava, oranges, grapes, berries, palmfruit and so many other plants and fragrant flowers.</p>
+<p>And because the forest was on the bank of the Yamuna, naturally there were ducks, cranes and peacocks on the branches of the trees.</p>
+<p>All these trees and birds and beasts were pious living entities born in the transcendental abode of Vrndavana just to give pleasure to the Lord and His eternal associates, the cowherd boys.</p>
+<p>While playing like a small child with His associates, the Lord killed many demons, including Aghasura, Bakasura, Pralambasura and Gardabhasura.</p>
+<p>Although He appeared at Vrndavana just as a boy, He was actually like the covered flames of a fire.</p>
+<p>As a small particle of fire can kindle a great fire with fuel, so the Lord killed all these great demons, beginning from His babyhood in the house of Nanda Maharaja.</p>
+<p>The land of Vrndavana, the Lord’s childhood playground, still remains today, and anyone who visits these places enjoys the same transcendental bliss, although the Lord is not physically visible to our imperfect eyes.</p>
+<p>Lord Caitanya recommended this land of the Lord as identical with the Lord and therefore worshipable by the devotees.</p>
+<p>This instruction is taken up especially by the followers of Lord Caitanya known as the Gaudiya Vaisnavas.</p>
+<p>And because the land is identical with the Lord, devotees like Uddhava and Vidura visited these places five thousand years ago in order to have direct contact with the Lord, visible or not visible, Thousands of devotees of the Lord are still wandering in these sacred places of Vrndavana, and all of them are preparing themselves to go back home, back to Godhead.</p>
+
+
+
+<p><strong>3.2.28</strong></p>
+<p>kaumarim darsayams cestam</p>
+<p>preksaniyam vrajaukasam</p>
+<p>rudann iva hasan mugdha-</p>
+<p>bala-simhavalokanah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kaumarim—just suitable to childhood; darsayan—while showing; cestam—activities; preksaniyam—worthy to be seen; vraja-okasam—by the inhabitants of the land of Vrndavana; rudan—crying; iva—just like; hasan—laughing; mugdha—struck with wonder; bala-simha—lion cub; avalokanah—looking like that.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When the Lord displayed His activities just suitable for childhood, He was visible only to the residents of Vrndavana.</p>
+<p>Sometimes He would cry and sometimes laugh, just like a child, and while so doing He would appear like a lion cub.</p>
+<p><strong>PURPORT</strong></p>
+<p>If anyone wants to enjoy the childhood pastimes of the Lord, then he has to follow in the footsteps of the residents of Vraja like Nanda, Upananda and other parental inhabitants.</p>
+<p>A child may insist on having something and cry like anything to get it, disturbing the whole neighborhood, and then immediately after achieving the desired thing, he laughs.</p>
+<p>Such crying and laughing is enjoyable to the parents and elderly members of the family, so the Lord would simultaneously cry and laugh in this way and merge His devotee-parents in the humor of transcendental pleasure.</p>
+<p>These incidents are enjoyable only by the residents of Vraja like Nanda Maharaja, and not by the impersonalist worshipers of Brahman or Paramatma.</p>
+<p>Sometimes when attacked in the forest by demons, Krsna would appear struck with wonder, but He looked on them like the cub of a lion and killed them.</p>
+<p>His childhood companions would also be struck with wonder, and when they came back home they would narrate the story to their parents, and everyone would appreciate the qualities of their Krsna.</p>
+<p>Child Krsna did not belong only to His parents, Nanda and Yasoda; He was the son of all the elderly inhabitants of Vrndavana and the friend of all contemporary boys and girls.</p>
+<p>Everyone loved Krsna.</p>
+<p>He was the life and soul of everyone, including the animals, the cows and the calves.</p>
+
+
+
+<p><strong>3.2.29</strong></p>
+<p>sa eva go-dhanam laksmya</p>
+<p>niketam sita-go-vrsam</p>
+<p>carayann anugan gopan</p>
+<p>ranad-venur ariramat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—He (Lord Krsna); eva—certainly; go-dhanam—the treasure of cows; laksmyah—by opulence; niketam—reservoir; sita-go-vrsam—beautiful cows and bulls; carayan—herding; anugan—the followers; gopan—cowherd boys; ranat—blowing; venuh—flute; ariramat—enlivened.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>While herding the very beautiful bulls, the Lord, who was the reservoir of all opulence and fortune, used to blow His flute, and thus He enlivened His faithful followers, the cowherd boys.</p>
+<p><strong>PURPORT</strong></p>
+<p>As He grew to six and seven years old, the Lord was given charge of looking after the cows and bulls in the grazing grounds.</p>
+<p>He was the son of a well-to-do landholder who owned hundreds and thousands of cows, and according to Vedic economics, one is considered to be a rich man by the strength of his store of grains and cows.</p>
+<p>With only these two things, cows and grain, humanity can solve its eating problem.</p>
+<p>Human society needs only sufficient grain and sufficient cows to solve its economic problems.</p>
+<p>All other things but these two are artificial necessities created by man to kill his valuable life at the human level and waste his time in things which are not needed.</p>
+<p>Lord Krsna, as the teacher of human society, personally showed by His acts that the mercantile community, or the vaisyas, should herd cows and bulls and thus give protection to the valuable animals.</p>
+<p>According to smrti regulation, the cow is the mother and the bull the father of the human being.</p>
+<p>The cow is the mother because just as one sucks the breast of one’s mother, human society takes cow’s milk.</p>
+<p>Similarly, the bull is the father of human society because the father earns for the children just as the bull tills the ground to produce food grains.</p>
+<p>Human society will kill its spirit of life by killing the father and the mother.</p>
+<p>It is mentioned herein that the beautiful cows and bulls were of various checkered colors—red, black, green, yellow, ash, etc.</p>
+<p>And because of their colors and healthy smiling features, the atmosphere was enlivening.</p>
+<p>Over and above all, the Lord used to play His celebrated flute.</p>
+<p>The sound vibrated by His flute would give His friends such transcendental pleasure that they would forget all the talks of the brahmananda which is so praised by the impersonalists.</p>
+<p>These cowherd boys, as will be explained by Sukadeva Gosvami, were living entities who had accumulated heaps of pious acts and thus were enjoying with the Lord in person and were hearing His transcendental flute.</p>
+<p>Brahma-samhita (5.30) confirms the Lord’s blowing His transcendental flute venum kvanantam aravinda-dalayataksam</p>
+<p>barhavatamsam asitambuda-sundarangam</p>
+<p>kandarpa-koti-kaminiya-visesa-sobham</p>
+<p>govindam adi-purusam tam aham bhajami</p>
+<p>Brahmaji said, I worship Govinda, the primeval Lord, who plays on His transcendental flute.</p>
+<p>His eyes are like lotus flowers, He is decorated with peacock plumes, and His bodily color resembles a fresh black cloud although His bodily features are more beautiful than millions of cupids These are the special features of the Lord.</p>
+
+
+
+<p><strong>3.2.30</strong></p>
+<p>prayuktan bhoja-rajena</p>
+<p>mayinah kama-rupinah</p>
+<p>lilaya vyanudat tams tan</p>
+<p>balah kridanakan iva</p>
+<p><strong>SYNONYMS</strong></p>
+<p>prayuktan—engaged; bhoja-rajena—by King Kamsa; mayinah—great wizards; kama-rupinah—who could assume any form they liked; lilaya—in the course of the pastimes; vyanudat—killed; tan—them; tan—as they came there; balah—the child; kridanakan—dolls; iva—like that.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The great wizards who were able to assume any form were engaged by the King of Bhoja, Kamsa, to kill Krsna, but in the course of His pastimes the Lord killed them as easily as a child breaks dolls.</p>
+<p><strong>PURPORT</strong></p>
+<p>The atheist Kamsa wanted to kill Krsna just after His birth.</p>
+<p>He failed to do so, but later on he got information that Krsna was living in Vrndavana at the house of Nanda Maharaja.</p>
+<p>He therefore engaged many wizards who could perform wonderful acts and assume any form they liked.</p>
+<p>All of them appeared before the child-Lord in various forms, like Agha, Baka, Putana, Sakata, Trnavarta, Dhenuka and Gardabha, and they tried to kill the Lord at every opportunity.</p>
+<p>But one after another, all of them were killed by the Lord as if He were only playing with dolls.</p>
+<p>Children play with toy lions, elephants, boars and many similar dolls, which are broken by the children in the course of their playing with them.</p>
+<p>Before the Almighty Lord, any powerful living being is just like a toy lion in the hands of a playing child.</p>
+<p>No one can excel God in any capacity, and therefore no one can be equal to or greater than Him, nor can anyone attain the stage of equality with God by any kind of endeavor.</p>
+<p>Jnana, yoga and bhakti are three recognized processes of spiritual realization.</p>
+<p>The perfection of such processes can lead one to the desired goal of life in spiritual value, but that does not mean that one can attain a perfection equal to the Lord’s by such endeavors.</p>
+<p>The Lord is the Lord at every stage.</p>
+<p>When He was playing just like a child on the lap of His mother Yasodamayi or just like a cowherd boy with His transcendental friends, He continued to remain God, without the slightest diminution of His six opulences.</p>
+<p>Thus He is always unrivaled.</p>
+
+
+
+<p><strong>3.2.31</strong></p>
+<p>vipannan visa-panena</p>
+<p>nigrhya bhujagadhipam</p>
+<p>utthapyapayayad gavas</p>
+<p>tat toyam prakrti-sthitam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vipannan—perplexed in great difficulties; visa-panena—by drinking poison; nigrhya—subduing; bhujaga-adhipam—the chief of the reptiles; utthapya—after coming out; apayayat—caused to drink; gavah—the cows; tat—that; toyam—water; prakrti—natural; sthitam—situated.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The inhabitants of Vrndavana were perplexed by great difficulties because a certain portion of the Yamuna was poisoned by the chief of the reptiles (Kaliya).</p>
+<p>The Lord chastised the snake-king within the water and drove him away, and after coming out of the river, He caused the cows to drink the water and proved that the water was again in its natural state.</p>
+
+
+
+<p><strong>3.2.32</strong></p>
+<p>ayajayad go-savena</p>
+<p>gopa-rajam dvijottamaih</p>
+<p>vittasya coru-bharasya</p>
+<p>cikirsan sad-vyayam vibhuh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ayajayat—made to perform; go-savena—by worship of the cows; gopa-rajam—the king of the cowherds; dvija-uttamaih—by the learned brahmanas; vittasya—of the wealth; ca—also; uru-bharasya—great opulence; cikirsan—desiring to act; sat-vyayam—proper utilization; vibhuh—the great.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Supreme Lord, Krsna, desired to utilize the opulent financial strength of Maharaja Nanda for worship of the cows, and also He wanted to give a lesson to Indra, the King of heaven.</p>
+<p>Thus He advised His father to perform worship of go, or the pasturing land and the cows, with the help of learned brahmanas.</p>
+<p><strong>PURPORT</strong></p>
+<p>Since He is the teacher of everyone, the Lord also taught His father, Nanda Maharaja.</p>
+<p>Nanda Maharaja was a well-to-do landholder and owner of many cows, and, as was the custom, he used to perform yearly worship of Indra, the King of heaven, with great opulence.</p>
+<p>This worship of demigods by the general populace is also advised in the Vedic literature just so people can accept the superior power of the Lord.</p>
+<p>The demigods are servants of the Lord deputed to look after the management of various activities of universal affairs.</p>
+<p>Therefore it is advised in the Vedic scriptures that one should perform yajnas to appease the demigods.</p>
+<p>But one who is devoted to the Supreme Lord has no need to appease the demigods.</p>
+<p>Worship of the demigods by common people is an arrangement for acknowledging the supremacy of the Supreme Lord, but it is not necessary.</p>
+<p>Such appeasement is generally recommended for material gains only.</p>
+<p>As we have already discussed in the Second Canto of this literature, one who admits the supremacy of the Supreme Personality of Godhead does not need to worship the secondary demigods.</p>
+<p>Sometimes, being worshiped and adored by less intelligent living beings, the demigods become puffed up with power and forget the supremacy of the Lord.</p>
+<p>This happened when Lord Krsna was present in the universe, and thus the Lord wanted to give a lesson to the King of heaven, Indra.</p>
+<p>He therefore asked Maharaja Nanda to stop the sacrifice offered to Indra and to use the money properly by performing a ceremony worshiping the cows and the pasturing ground on the hill of Govardhana.</p>
+<p>By this act Lord Krsna taught human society, as He has instructed in the Bhagavad-gita also, that one should worship the Supreme Lord by all acts and by all their results.</p>
+<p>That will bring about the desired success.</p>
+<p>The vaisyas are specifically advised to give protection to the cows and their pasturing ground or agricultural land instead of squandering their hard-earned money.</p>
+<p>That will satisfy the Lord.</p>
+<p>The perfection of one’s occupational duty, whether in the sphere of duty to oneself, one’s community or one’s nation, is judged by the degree to which the Lord is satisfied.</p>
+
+
+
+<p><strong>3.2.33</strong></p>
+<p>varsatindre vrajah kopad</p>
+<p>bhagnamane ’tivihvalah</p>
+<p>gotra-lilatapatrena</p>
+<p>trato bhadranugrhnata</p>
+<p><strong>SYNONYMS</strong></p>
+<p>varsati—in pouring water; indre—by the King of heaven, Indra; vrajah—the land of cows (Vrndavana); kopat bhagnamane—having been in anger on being insulted; ati—highly; vihvalah—perturbed; gotra—the hill for the cows; lila-atapatrena—by the pastime umbrella; tratah—were protected; bhadra—O sober one; anugrhnata—by the merciful Lord.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O sober Vidura, King Indra, his honor having been insulted, poured water incessantly on Vrndavana, and thus the inhabitants of Vraja, the land of cows, were greatly distressed.</p>
+<p>But the compassionate Lord Krsna saved them from danger with His pastime umbrella, the Govardhana Hill.</p>
+
+
+
+<p><strong>3.2.34</strong></p>
+<p>sarac-chasi-karair mrstam</p>
+<p>manayan rajani-mukham</p>
+<p>gayan kala-padam reme</p>
+<p>strinam mandala-mandanah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sarat—autumn; sasi—of the moon; karaih—by the shining; mrstam—brightened; manayan—thinking so; rajani-mukham—the face of the night; gayan—singing; kala-padam—pleasing songs; reme—enjoyed; strinam—of the women; mandala-mandanah—as the central beauty of the assembly of women.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In the third season of the year, the Lord enjoyed as the central beauty of the assembly of women by attracting them with His pleasing songs in an autumn night brightened by moonshine.</p>
+<p><strong>PURPORT</strong></p>
+<p>Before leaving the land of cows, Vrndavana, the Lord pleased His young girl friends, the transcendental gopis, in His rasa-lila pastimes.</p>
+<p>Here Uddhava stopped his description of the Lord’s activities.</p>
+
+
+</article></body></html>

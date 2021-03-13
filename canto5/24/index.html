@@ -1,155 +1,42 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>The Subterranean Heavenly Planets - The Subterranean Heavenly Planets</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">The Subterranean Heavenly Planets</a></li><li class="affix"><a href="5.24.2.html">5.24.2</a></li><li class="affix"><a href="5.24.3.html">5.24.3</a></li><li class="affix"><a href="5.24.4.html">5.24.4</a></li><li class="affix"><a href="5.24.5.html">5.24.5</a></li><li class="affix"><a href="5.24.6.html">5.24.6</a></li><li class="affix"><a href="5.24.7.html">5.24.7</a></li><li class="affix"><a href="5.24.8.html">5.24.8</a></li><li class="affix"><a href="5.24.9.html">5.24.9</a></li><li class="affix"><a href="5.24.10.html">5.24.10</a></li><li class="affix"><a href="5.24.11.html">5.24.11</a></li><li class="affix"><a href="5.24.12.html">5.24.12</a></li><li class="affix"><a href="5.24.13.html">5.24.13</a></li><li class="affix"><a href="5.24.14.html">5.24.14</a></li><li class="affix"><a href="5.24.15.html">5.24.15</a></li><li class="affix"><a href="5.24.16.html">5.24.16</a></li><li class="affix"><a href="5.24.17.html">5.24.17</a></li><li class="affix"><a href="5.24.18.html">5.24.18</a></li><li class="affix"><a href="5.24.19.html">5.24.19</a></li><li class="affix"><a href="5.24.20.html">5.24.20</a></li><li class="affix"><a href="5.24.21.html">5.24.21</a></li><li class="affix"><a href="5.24.22.html">5.24.22</a></li><li class="affix"><a href="5.24.23.html">5.24.23</a></li><li class="affix"><a href="5.24.24.html">5.24.24</a></li><li class="affix"><a href="5.24.25.html">5.24.25</a></li><li class="affix"><a href="5.24.26.html">5.24.26</a></li><li class="affix"><a href="5.24.27.html">5.24.27</a></li><li class="affix"><a href="5.24.28.html">5.24.28</a></li><li class="affix"><a href="5.24.29.html">5.24.29</a></li><li class="affix"><a href="5.24.30.html">5.24.30</a></li><li class="affix"><a href="5.24.31.html">5.24.31</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">The Subterranean Heavenly Planets</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#the-subterranean-heavenly-planets" id="the-subterranean-heavenly-planets">The Subterranean Heavenly Planets</a></h1>
-<h2><a class="header" href="#summary" id="summary">Summary</a></h2>
-<h3><a class="header" href="#524" id="524">5.24</a></h3>
+<h1>The Subterranean Heavenly Planets</h1>
+<h2>Summary</h2>
+<p><strong>5.24</strong></p>
 <p>This chapter describes the planet Rahu, which is 10,000 yojanas (80,000 miles) below the sun, and it also describes Atala and the other lower planetary systems.</p>
 <p>Rahu is situated below the sun and moon.</p>
 <p>It is between these two planets and the earth.</p>
@@ -176,7 +63,7 @@
 <p>This demon is always materially happy because he is favored by Lord Siva, but he cannot achieve spiritual happiness at any time.</p>
 <p>Below Talatala is the planet Mahatala, where there are many snakes with hundreds and thousands of hoods.</p>
 <p>Below Mahatala is Rasatala, and below that is Patala, where the serpent Vasuki lives with his associates.</p>
-<h3><a class="header" href="#5241" id="5241">5.24.1</a></h3>
+<p><strong>5.24.1</strong></p>
 <p>sri-suka uvaca</p>
 <p>adhastat savitur yojanayute svarbhanur naksatravac caratity eke yo ’sav amaratvam grahatvam calabhata bhagavad-anukampaya svayam asurapasadah saimhikeyo hy atad-arhas tasya tata janma karmani coparistad vaksyamah.</p>
 <p><strong>SYNONYMS</strong></p>
@@ -186,63 +73,484 @@
 <p>The presiding deity of that planet, who is the son of Simhika, is the most abominable of all asuras, but although he is completely unfit to assume the position of a demigod or planetary deity, he has achieved that position by the grace of the Supreme Personality of Godhead.</p>
 <p>Later I shall speak further about him.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="5.24.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>5.24.2</strong></p>
+<p>yad adas taraner mandalam pratapatas tad vistarato yojanayutam acaksate dvadasa-sahasram somasya trayodasa-sahasram rahor yah parvani tad-vyavadhana-krd vairanubandhah surya-candramasav abhidhavati.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yat—which; adah—that; taraneh—of the sun; mandalam—globe; pratapatah—which is always distributing heat; tat—that; vistaratah—in terms of width; yojana—a distance of eight miles; ayutam—ten thousand; acaksate—they estimate; dvadasa-sahasram—20,000 yojanas (160,000 miles); somasya—of the moon; trayodasa—thirty; sahasram—one thousand; rahoh—of the planet Rahu; yah—which; parvani—on occasion; tat-vyavadhana-krt—who created an obstruction to the sun and moon at the time of the distribution of nectar; vaira-anubandhah—whose intentions are inimical; surya—the sun; candramasau—and the moon; abhidhavati—runs after them on the full-moon night and the dark-moon day.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The sun globe, which is a source of heat, extends for 10,000 yojanas (80,000 miles).</p>
+<p>The moon extends for 20,000 yojanas (160,000 miles), and Rahu extends for 30,000 yojanas (240,000 miles).</p>
+<p>Formerly, when nectar was being distributed, Rahu tried to create dissension between the sun and moon by interposing himself between them.</p>
+<p>Rahu is inimical toward both the sun and the moon, and therefore he always tries to cover the sunshine and moonshine on the dark-moon day and full-moon night.</p>
+<p><strong>PURPORT</strong></p>
+<p>As stated herein, the sun extends for 10,000 yojanas, and the moon extends for twice that, or 20,000 yojanas.</p>
+<p>The word dvadasa should be understood to mean twice as much as ten, or twenty.</p>
+<p>In the opinion of Vijayadhvaja, the extent of Rahu should be twice that of the moon, or text of the Bhagavatam, Vijayadhvaja cites the following quotation concerning Rahu; rahu-soma-ravinam tu mandala dvi-gunoktitam.</p>
+<p>This means that Rahu is twice as large as the moon, which is twice as large as the sun.</p>
+<p>This is the conclusion of the commentator Vijayadhvaja.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="5.24.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>5.24.3</strong></p>
+<p>tan nisamyobhayatrapi bhagavata raksanaya prayuktam sudarsanam nama bhagavatam dayitam astram tat tejasa durvisaham muhuh parivartamanam abhyavasthito muhurtam udvijamanas cakita-hrdaya arad eva nivartate tad uparagam iti vadanti lokah.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tat—that situation; nisamya—hearing; ubhayatra—around both the sun and moon; api—indeed; bhagavata—by the Supreme Personality of Godhead; raksanaya—for their protection; prayuktam—engaged; sudarsanam—the wheel of Krsna; nama—named; bhagavatam—the most confidential devotee; dayitam—the most favorite; astram—weapon; tat—that; tejasa—by its effulgence; durvisaham—unbearable heat; muhuh—repeatedly; parivartamanam—moving around the sun and moon; abhyavasthitah—situated; muhurtam—for a muhurta (forty-eight minutes); udvijamanah—whose mind was full of anxieties; cakita—frightened; hrdayah—the core of whose heart; arat—to a distant place; eva—certainly; nivartate—flees; tat—that situation; uparagam—an eclipse; iti—thus; vadanti—they say; lokah—the people.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>After hearing from the sun and moon demigods about Rahu’s attack, the Supreme Personality of Godhead, Visnu, engages His disc, known as the Sudarsana cakra, to protect them.</p>
+<p>The Sudarsana cakra is the Lord’s most beloved devotee and is favored by the Lord.</p>
+<p>The intense heat of its effulgence, meant for killing non-Vaisnavas, is unbearable to Rahu, and he therefore flees in fear of it.</p>
+<p>During the time Rahu disturbs the sun or moon, there occurs what people commonly know as an eclipse.</p>
+<p><strong>PURPORT</strong></p>
+<p>The Supreme Personality of Godhead, Visnu, is always the protector of His devotees, who are also known as demigods.</p>
+<p>The controlling demigods are most obedient to Lord Visnu, although they also want material sense enjoyment, and that is why they are called demigods, or almost godly.</p>
+<p>Although Rahu attempts to attack both the sun and the moon, they are protected by Lord Visnu.</p>
+<p>Being very afraid of Lord Visnu’s cakra, Rahu cannot stay in front of the sun or moon for more than a muhurta (forty-eight minutes).</p>
+<p>The phenomenon that occurs when Rahu blocks the light of the sun or moon is called an eclipse.</p>
+<p>The attempt of the scientists of this earth to go to the moon is as demoniac as Rahu’s attack.</p>
+<p>Of course their attempts will be failures because no one can enter the moon or sun so easily.</p>
+<p>Like the attack of Rahu, such attempts will certainly be failures.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>5.24.4</strong></p>
+<p>tato ’dhastat siddha-carana-vidyadharanam sadanani tavan matra eva.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—the planet Rahu; adhastat—below; siddha-carana—of the planets known as Siddhaloka and Caranaloka; vidyadharanam—and the planets of the Vidyadharas; sadanani—the residential places; tavat matra—only that much distance (eighty thousand miles); eva—indeed.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Below Rahu by 10,000 yojanas (80,000 miles) are the planets known as Siddhaloka, Caranaloka and Vidyadhara-loka.</p>
+<p><strong>PURPORT</strong></p>
+<p>It is said that the residents of Siddhaloka, being naturally endowed with the powers of yogis, can go from one planet to another by their natural mystic powers without using airplanes or similar machines.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>5.24.5</strong></p>
+<p>tato ’dhastad yaksa-raksah-pisaca-preta-bhuta-gananam viharajiram antariksam yavad vayuh pravati yavan megha upalabhyante.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah adhastat—beneath the planets occupied by the Siddhas, Caranas and Vidyadharas; yaksa-raksah-pisaca-preta-bhuta-gananam—of Yaksas, Raksasas, Pisacas, ghosts and so on; vihara-ajiram—the place of sense gratification; antariksam—in the sky or outer space; yavat—as far as; vayuh—the wind; pravati—blows; yavat—as far as; meghah—the clouds; upalabhyante—are seen.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Beneath Vidyadhara-loka, Caranaloka and Siddhaloka, in the sky called antariksa, are the places of enjoyment for the Yaksas, Raksasas, Pisacas, ghosts and so on.</p>
+<p>Antariksa extends as far as the wind blows and the clouds float in the sky.</p>
+<p>Above this there is no more air.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>5.24.6</strong></p>
+<p>tato ’dhastac chata-yojanantara iyam prthivi yavad dhamsa-bhasa-syena-suparnadayah patattri-pravara utpatantiti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah adhastat—beneath that; sata-yojana—of one hundred yojanas; antare—by an interval; iyam—this; prthivi—planet earth; yavat—as high as; hamsa—swans; bhasa—vultures; syena—eagles; suparna-adayah—and other birds; patattri-pravarah—the chief among birds; utpatanti—can fly; iti—thus.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Below the abodes of the Yaksas and Raksasas by a distance of 100 yojanas (800 miles) is the planet earth.</p>
+<p>Its upper limits extend as high as swans, hawks, eagles and similar large birds can fly.</p>
+
+
+
+<p><strong>5.24.7</strong></p>
+<p>upavarnitam bhumer yatha-sannivesavasthanam avaner apy adhastat sapta bhu-vivara ekaikaso yojanayutantarenayama-vistarenopaklpta atalam vitalam sutalam talatalam mahatalam rasatalam patalam iti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>upavarnitam—stated previously; bhumeh—of the planet earth; yatha-sannivesa-avasthanam—according to the arrangement of the different places; avaneh—the earth; api—certainly; adhastat—beneath; sapta—seven; bhu-vivarah—other planets; eka-ekasah—in succession, up to the outer limit of the universe; yojana-ayuta-antarena—with an interval of ten thousand yojanas (eighty thousand miles); ayama-vistarena—by width and length; upaklptah—situated; atalam—named Atala; vitalam—Vitala; sutalam—Sutala; talatalam—Talatala; mahatalam—Mahatala; rasatalam—Rasatala; patalam—Patala; iti—thus.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear King, beneath this earth are seven other planets, known as Atala, Vitala, Sutala, Talatala, Mahatala, Rasatala and Patala.</p>
+<p>I have already explained the situation of the planetary systems of earth.</p>
+<p>The width and length of the seven lower planetary systems are calculated to be exactly the same as those of earth.</p>
+
+
+
+<p><strong>5.24.8</strong></p>
+<p>etesu hi bila-svargesu svargad apy adhika-kama-bhogaisvaryananda-bhuti-vibhutibhih susamrddha-bhavanodyanakrida-viharesu daitya-danava-kadraveya nitya-pramuditanurakta-kalatrapatya-bandhu-suhrd-anucara grha-pataya isvarad apy apratihata-kama maya-vinoda nivasanti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>etesu—in these; hi—certainly; bila-svargesu—known as the heavenly subterranean worlds; svargat—than the heavenly planets; api—even; adhika—a greater quantity; kama-bhoga—enjoyment of sense gratification; aisvarya-ananda—bliss due to opulence; bhuti—influence; vibhutibhih—by those things and wealth; su-samrddha—improved; bhavana—houses; udyana—gardens; akrida-viharesu—in places for different types of sense gratification; daitya—the demons; danava—ghosts; kadraveyah—snakes; nitya—who are always; pramudita—overjoyed; anurakta—because of attachment; kalatra—to wife; apatya—children; bandhu—family relations; suhrt—friends; anucarah—followers; grha-patayah—the heads of the households; isvarat—than those more capable, like the demigods; api—even; apratihata-kamah—whose fulfillment of lusty desires is unimpeded; maya—illusory; vinodah—who feel happiness; nivasanti—live.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In these seven planetary systems, which are also known as the subterranean heavens (bila-svarga), there are very beautiful houses, gardens and places of sense enjoyment, which are even more opulent than those in the higher planets because the demons have a very high standard of sensual pleasure, wealth and influence.</p>
+<p>Most of the residents of these planets, who are known as Daityas, Danavas and Nagas, live as householders.</p>
+<p>Their wives, children, friends and society are all fully engaged in illusory, material happiness.</p>
+<p>The sense enjoyment of the demigods is sometimes disturbed, but the residents of these planets enjoy life without disturbances.</p>
+<p>Thus they are understood to be very attached to illusory happiness.</p>
+<p><strong>PURPORT</strong></p>
+<p>According to the statements of Prahlada Maharaja, material enjoyment is maya-sukha, illusory enjoyment.</p>
+<p>A Vaisnava is full of anxieties for the deliverance of all living entities from such false enjoyment.</p>
+<p>Prahlada Maharaja says, maya-sukhaya bharam udvahato vimudhan: (SB 7.9.43) these fools (vimudhas) are engaged in material happiness, which is surely temporary.</p>
+<p>Whether in the heavenly planets, the lower planets or the earthly planets, people are engrossed in temporary, material happiness, forgetting that in due course of time they have to change their bodies according to the material laws and suffer the repetition of birth, death, old age and disease.</p>
+<p>Not caring what will happen in the next birth, gross materialists are simply busy enjoying during the present short span of life.</p>
+<p>A Vaisnava is always anxious to give all such bewildered materialists the real happiness of spiritual bliss.</p>
+
+
+
+<p><strong>5.24.9</strong></p>
+<p>yesu maharaja mayena mayavina vinirmitah puro nana-mani-pravara-praveka-viracita-vicitra-bhavana-prakara-gopura-sabha-caitya-catvarayatanadibhir nagasura-mithuna-paravata-suka-sarikakirna-krtrima-bhumibhir vivaresvara-grhottamaih samalankrtas cakasati.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yesu—in those lower planetary systems; maha-raja—O my dear King; mayena—by the demon named Maya; maya-vina—possessing advanced knowledge in the construction of material comforts; vinirmitah—constructed; purah—cities; nana-mani-pravara—of valuable gems; praveka—with excellent; viracita—constructed; vicitra—wonderful; bhavana—houses; prakara—walls; gopura—gates; sabha—legislative meeting rooms; caitya—temples; catvara—schools; ayatana-adibhih—with hotels or recreation halls and so on; naga—of living entities with snakelike bodies; asura—of demons, or godless persons; mithuna—by couples; paravata—pigeons; suka—parrots; sarika—mynas; akirna—crowded; krtrima—artificial; bhumibhih—possessing areas; vivara-isvara—of the leaders of the planets; grha-uttamaih—with first-class houses; samalankrtah—decorated; cakasati—shine magnificently.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear King, in the imitation heavens known as bila-svarga there is a great demon named Maya Danava, who is an expert artist and architect.</p>
+<p>He has constructed many brilliantly decorated cities.</p>
+<p>There are many wonderful houses, walls, gates, assembly houses, temples, yards and temple compounds, as well as many hotels serving as residential quarters for foreigners.</p>
+<p>The houses for the leaders of these planets are constructed with the most valuable jewels, and they are always crowded with living entities known as Nagas and Asuras, as well as many pigeons, parrots and similar birds.</p>
+<p>All in all, these imitation heavenly cities are most beautifully situated and attractively decorated.</p>
+
+
+
+<p><strong>5.24.10</strong></p>
+<p>udyanani catitaram mana-indriyanandibhih kusuma-phala-stabaka-subhaga-kisalayavanata-rucira-vitapa-vitapinam latangalingitanam sribhih samithuna-vividha-vihangama-jalasayanam amala-jala-purnanam jhasakulollanghana-ksubhita-nira-niraja-kumuda-kuva-laya-kahlara-nilotpala-lohita-satapatradi-vanesu krta-niketananam eka-viharakula-madhura-vividha-svanadibhir indriyotsavair amara-loka-sriyam atisayitani.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>udyanani—the gardens and parks; ca—also; atitaram—greatly; manah—to the mind; indriya—and to the senses; anandibhih—which cause pleasure; kusuma—by flowers; phala—of fruits; stabaka—bunches; subhaga—very beautiful; kisalaya—new twigs; avanata—bent low; rucira—attractive; vitapa—possessing branches; vitapinam—of trees; lata-anga-alingitanam—which are embraced by the limbs of creepers; sribhih—by the beauty; sa-mithuna—in pairs; vividha—varieties; vihangama—frequented by birds; jala-asayanam—of reservoirs of water; amala-jala-purnanam—full of clear and transparent water; jhasa-kula-ullanghana—by the jumping of different fish; ksubhita—agitated; nira—in the water; niraja—of lotus flowers; kumuda—lilies; kuvalaya—flowers named kuvalaya; kahlara—kahlara flowers; nila-utpala—blue lotus flowers; lohita—red; sata-patra-adi—lotus flowers with a hundred petals and so on; vanesu—in forests; krta-niketananam—of birds that have made their nests; eka-vihara-akula—full of uninterrupted enjoyment; madhura—very sweet; vividha—varieties; svana-adibhih—by vibrations; indriya-utsavaih—invoking sense enjoyment; amara-loka-sriyam—the beauty of the residential places of the demigods; atisayitani—surpassing.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The parks and gardens in the artificial heavens surpass in beauty those of the upper heavenly planets.</p>
+<p>The trees in those gardens, embraced by creepers, bend with a heavy burden of twigs with fruits and flowers, and therefore they appear extraordinarily beautiful.</p>
+<p>That beauty could attract anyone and make his mind fully blossom in the pleasure of sense gratification.</p>
+<p>There are many lakes and reservoirs with clear, transparent water, agitated by jumping fish and decorated with many flowers such as lilies, kuvalayas, kahlaras and blue and red lotuses.</p>
+<p>Pairs of cakravakas and many other water birds nest in the lakes and always enjoy in a happy mood, making sweet, pleasing vibrations that are very satisfying and conducive to enjoyment of the senses.</p>
+
+
+
+<p><strong>5.24.11</strong></p>
+<p>yatra ha vava na bhayam aho-ratradibhih kala-vibhagair upalaksyate.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yatra—where; ha vava—certainly; na—not; bhayam—fearfulness; ahah-ratra-adibhih—because of days and nights; kala-vibhagaih—the divisions of time; upalaksyate—is experienced.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Since there is no sunshine in those subterranean planets, time is not divided into days and nights, and consequently fear produced by time does not exist.</p>
+
+
+
+<p><strong>5.24.12</strong></p>
+<p>yatra hi mahahi-pravara-siro-manayah sarvam tamah prabadhante.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yatra—where; hi—indeed; maha-ahi—of great serpents; pravara—of the best; sirah-manayah—the gems on the hoods; sarvam—all; tamah—darkness; prabadhante—drive away.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Many great serpents reside there with gems on their hoods, and the effulgence of these gems dissipates the darkness in all directions.</p>
+
+
+
+<p><strong>5.24.13</strong></p>
+<p>na va etesu vasatam divyausadhi-rasa-rasayananna-pana-snanadibhir adhayo vyadhayo vali-palita-jaradayas ca deha-vaivarnya-daurgandhya-sveda-klama-glanir iti vayo ’vasthas ca bhavanti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—not; va—either; etesu—in these planets; vasatam—of those residing; divya—wonderful; ausadhi—of herbs; rasa—the juices; rasayana—and elixirs; anna—by eating; pana—drinking; snana-adibhih—by bathing in and so on; adhayah—mental troubles; vyadhayah—diseases; vali—wrinkles; palita—grey hair; jara—old age; adayah—and so on; ca—and; deha-vaivarnya—the fading of bodily luster; daurgandhya—bad odor; sveda—perspiration; klama—fatigue; glanih—lack of energy; iti—thus; vayah avasthah—miserable conditions due to increasing age; ca—and; bhavanti—are.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Since the residents of these planets drink and bathe in juices and elixirs made from wonderful herbs, they are freed from all anxieties and physical diseases.</p>
+<p>They have no experience of grey hair, wrinkles or invalidity, their bodily lusters do not fade, their perspiration does not cause a bad smell, and they are not troubled by fatigue or by lack of energy or enthusiasm due to old age.</p>
+
+
+
+<p><strong>5.24.14</strong></p>
+<p>na hi tesam kalyananam prabhavati kutascana mrtyur vina bhagavat-tejasas cakrapadesat.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na hi—not; tesam—of them; kalyananam—who are by nature auspicious; prabhavati—able to influence; kutascana—from anywhere; mrtyuh—death; vina—except; bhagavat-tejasah—of the energy of the Supreme Personality of Godhead; cakra-apadesat—from that weapon named the Sudarsana cakra.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>They live very auspiciously and do not fear death from anything but death’s established time, which is the effulgence of the Sudarsana cakra of the Supreme Personality of Godhead.</p>
+<p><strong>PURPORT</strong></p>
+<p>This is the defect of material existence.</p>
+<p>Everything in the subterranean heavens is very nicely arranged.</p>
+<p>There are well situated residential quarters, there is a pleasing atmosphere, and there are no bodily inconveniences or mental anxieties, but nevertheless those who live there have to take another birth according to karma.</p>
+<p>Persons whose minds are dull cannot understand this defect of a materialistic civilization aiming at material comforts.</p>
+<p>One may make his living conditions very pleasing for the senses, but despite all favorable conditions, one must in due course of time meet death.</p>
+<p>The members of a demoniac civilization endeavor to make their living conditions very comfortable, but they cannot check death.</p>
+<p>The influence of the Sudarsana cakra will not allow their so-called material happiness to endure.</p>
+
+
+
+<p><strong>5.24.15</strong></p>
+<p>yasmin praviste ’sura-vadhunam prayah pumsavanani bhayad eva sravanti patanti ca.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yasmin—where; praviste—when entered; asura-vadhunam—of the wives of those demons; prayah—almost always; pumsavanani—fetuses; bhayat—because of fear; eva—certainly; sravanti—slip out; patanti—fall down; ca—and.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When the Sudarsana disc enters those provinces, the pregnant wives of the demons all have miscarriages due to fear of its effulgence.</p>
+
+
+
+<p><strong>5.24.16</strong></p>
+<p>athatale maya-putro ’suro balo nivasati yena ha va iha srstah san-navatir mayah kascanadyapi mayavino dharayanti yasya ca jrmbhamanasya mukhatas trayah stri-gana udapadyanta svairinyah kaminyah pumscalya iti ya vai bilayanam pravistam purusam rasena hatakakhyena sadhayitva sva-vilasavalokananuraga-smita-samlapopaguhanadibhih svairam kila ramayanti yasminn upayukte purusa isvaro ’ham siddho ’ham ity ayuta-maha-gaja-balam atmanam abhimanyamanah katthate madandha iva.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atha—now; atale—on the planet named Atala; maya-putrah asurah—the demon son of Maya; balah—Bala; nivasati—resides; yena—by whom; ha va—indeed; iha—in this; srstah—propagated; sat-navatih—ninety-six; mayah—varieties of illusion; kascana—some; adya api—even today; maya-vinah—those who know the art of magical feats (like manufacturing gold); dharayanti—utilize; yasya—of whom; ca—also; jrmbhamanasya—while yawning; mukhatah—from the mouth; trayah—three; stri-ganah—varieties of women; udapadyanta—were generated; svairinyah—svairini (one who only marries in her same class); kaminyah—kamini (one who, being lusty, marries men from any group); pumscalyah—pumscali (one who wants to go from one husband to another); iti—thus; yah—who; vai—certainly; bila-ayanam—the subterranean planets; pravistam—entering; purusam—a male; rasena—by a juice; hataka-akhyena—made from an intoxicating herb known as hataka; sadhayitva—making sexually fit; sva-vilasa—for their personal sense gratification; avalokana—by glances; anuraga—lustful; smita—by smiling; samlapa—by talking; upaguhana-adibhih—and by embracing; svairam—according to their own desire; kila—indeed; ramayanti—enjoy sex pleasure; yasmin—which; upayukte—when used; purusah—a man; isvarah aham—I am the most powerful person; siddhah aham—I am the greatest and most elevated person; iti—thus; ayuta—ten thousand; maha-gaja—of big elephants; balam—the strength; atmanam—himself; abhimanyamanah—being full of pride; katthate—they say; mada-andhah—blinded by false prestige; iva—like.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear King, now I shall describe to you the lower planetary systems, one by one, beginning from Atala.</p>
+<p>In Atala there is a demon, the son of Maya Danava named Bala, who created ninety-six kinds of mystic power.</p>
+<p>Some so-called yogis and svamis take advantage of this mystic power to cheat people even today.</p>
+<p>Simply by yawning, the demon Bala created three kinds of women, known as svairini, kamini and pumscali.</p>
+<p>The svairinis like to marry men from their own group, the kaminis marry men from any group, and the pumscalis change husbands one after another.</p>
+<p>If a man enters the planet of Atala, these women immediately capture him and induce him to drink an intoxicating beverage made with a drug known as hataka (cannabis indica).</p>
+<p>This intoxicant endows the man with great sexual prowess, of which the women take advantage for enjoyment.</p>
+<p>A woman will enchant him with attractive glances, intimate words, smiles of love and then embraces.</p>
+<p>In this way she induces him to enjoy sex with her to her full satisfaction.</p>
+<p>Because of his increased sexual power, the man thinks himself stronger than ten thousand elephants and considers himself most perfect.</p>
+<p>Indeed, illusioned and intoxicated by false pride, he thinks himself God, ignoring impending death.</p>
+
+
+
+<p><strong>5.24.17</strong></p>
+<p>tato ’dhastad vitale haro bhagavan hatakesvarah sva-parsada-bhuta-ganavrtah prajapati-sargopabrmhanaya bhavo bhavanya saha mithuni-bhuta aste yatah pravrtta sarit-pravara hataki nama bhavayor viryena yatra citrabhanur matarisvana samidhyamana ojasa pibati tan nisthyutam hatakakhyam suvarnam bhusanenasurendravarodhesu purusah saha purusibhir dharayanti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—the planet Atala; adhastat—beneath; vitale—on the planet; harah—Lord Siva; bhagavan—the most powerful personality; hatakesvarah—the master of gold; sva-parsada—by his own associates; bhuta-gana—who are ghostly living beings; avrtah—surrounded; prajapati-sarga—of the creation of Lord Brahma; upabrmhanaya—to increase the population; bhavah—Lord Siva; bhavanya saha—with his wife, Bhavani; mithuni-bhutah—being united in sex; aste—remains; yatah—from that planet (Vitala); pravrtta—being emanated; sarit-pravara—the great river; hataki—Hataki; nama—named; bhavayoh viryena—due to the semina and ovum of Lord Siva and Bhavani; yatra—where; citra-bhanuh—the fire-god; matarisvana—by the wind; samidhyamanah—being brightly inflamed; ojasa—with great strength; pibati—drinks; tat—that; nisthyutam—spit out with a hissing sound; hataka-akhyam—named Hataka; suvarnam—gold; bhusanena—by different types of ornaments; asura-indra—of the great asuras; avarodhesu—in the homes; purusah—the males; saha—with; purusibhih—their wives and women; dharayanti—wear.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The next planet below Atala is Vitala, wherein Lord Siva, who is known as the master of gold mines, lives with his personal associates, the ghosts and similar living entities.</p>
+<p>Lord Siva, as the progenitor, engages in sex with Bhavani, the progenitress, to produce living entities, and from the mixture of their vital fluid the river named Hataki is generated.</p>
+<p>When fire, being made to blaze by the wind, drinks of this river and then sizzles and spits it out, it produces gold called Hataka.</p>
+<p>The demons who live on that planet with their wives decorate themselves with various ornaments made from that gold, and thus they live there very happily.</p>
+<p><strong>PURPORT</strong></p>
+<p>It appears that when Bhava and Bhavani, Lord Siva and his wife, unite sexually, the emulsification of their secretions creates a chemical which when heated by fire can produce gold.</p>
+<p>It is said that the alchemists of the medieval age tried to prepare gold from base metal, and Srila Sanatana Gosvami also states that when bell metal is treated with mercury, it can produce gold.</p>
+<p>Srila Sanatana Gosvami mentions this in regard to the initiation of low-class men to turn them into brahmanas.</p>
+<p>Sanatana Gosvami said:</p>
+<p>yatha kancanatam yati</p>
+<p>kamsyam rasa-vidhanatah</p>
+<p>tatha diksa-vidhanena</p>
+<p>dvijatvam jayate nrnam</p>
+<p>As one can transform kamsa, or bell metal, into gold by treating it with mercury, one can also turn a lowborn man into a brahmana by initiating him properly into Vaisnava activities The International Society for Krishna Consciousness is trying to turn mlecchas and yavanas into real brahmanas by properly initiating them and stopping them from engaging in meat-eating, intoxication, illicit sex and gambling.</p>
+<p>One who stops these four principles of sinful activity and chants the Hare Krsna maha-mantra can certainly become a pure brahmana through the process of bona fide initiation, as suggested by Srila Sanatana Gosvami.</p>
+<p>Apart from this, if one takes a hint from this verse and learns how to mix mercury with bell metal by properly heating and melting them, one can get gold very cheaply.</p>
+<p>The alchemists of the medieval age tried to manufacture gold, but they were unsuccessful, perhaps because they did not follow the right instructions.</p>
+
+
+
+<p><strong>5.24.18</strong></p>
+<p>tato ’dhastat sutale udara-sravah punya-sloko virocanatmajo balir bhagavata mahendrasya priyam cikirsamanenaditer labdha-kayo bhutva vatu-vamana-rupena paraksipta-loka-trayo bhagavad-anukampayaiva punah pravesita indradisv avidyamanaya susamrddhaya sriyabhijustah sva-dharmenaradhayams tam eva bhagavantam aradhaniyam apagata-sadhvasa aste ’dhunapi.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah adhastat—beneath the planet known as Vitala; sutale—on the planet known as Sutala; udara-sravah—very greatly celebrated; punya-slokah—very pious and advanced in spiritual consciousness; virocana-atmajah—the son of Virocana; balih—Bali Maharaja; bhagavata—by the Supreme Personality of Godhead; maha-indrasya—of the King of heaven, Indra; priyam—the welfare; cikirsamanena—desiring to perform; aditeh—from Aditi; labdha-kayah—having obtained His body; bhutva—appearing; vatu—brahmacari; vamana-rupena—in the form of a dwarf; paraksipta—wrested away; loka-trayah—the three worlds; bhagavat-anukampaya—by the causeless mercy of the Supreme Personality of Godhead; eva—certainly; punah—again; pravesitah—caused to enter; indra-adisu—even among the demigods like the King of heaven; avidyamanaya—not existing; susamrddhaya—much enriched by such exalted opulence; sriya—by good fortune; abhijustah—being blessed; sva-dharmena—by discharging devotional service; aradhayan—worshiping; tam—Him; eva—certainly; bhagavantam—the Supreme Personality of Godhead; aradhaniyam—who is most worshipable; apagata-sadhvasah—without fear; aste—remains; adhuna api—even today.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Below the planet Vitala is another planet, known as Sutala, where the great son of Maharaja Virocana, Bali Maharaja, who is celebrated as the most pious king, resides even now.</p>
+<p>For the welfare of Indra, the King of heaven, Lord Visnu appeared in the form of a dwarf brahmacari as the son of Aditi and tricked Bali Maharaja by begging for only three paces of land but taking all the three worlds.</p>
+<p>Being very pleased with Bali Maharaja for giving all his possessions, the Lord returned his kingdom and made him richer than the opulent King Indra.</p>
+<p>Even now, Bali Maharaja engages in devotional service by worshiping the Supreme Personality of Godhead in the planet of Sutala.</p>
+<p><strong>PURPORT</strong></p>
+<p>The Supreme Personality of Godhead is described as Uttamasloka, He who is worshiped by the best of selected Sanskrit verses and His devotees such as Bali Maharaja are also worshiped by punya-sloka, verses that increase one’s piety.</p>
+<p>Bali Maharaja offered everything to the Lord—his wealth, his kingdom and even his own body (sarvatma-nivedane balih).</p>
+<p>The Lord appeared before Bali Maharaja as a brahmana beggar, and Bali Maharaja gave Him everything he had.</p>
+<p>However, Bali Maharaja did not become poor; by donating all his possessions to the Supreme Personality of Godhead, he became a successful devotee and got everything back again with the blessings of the Lord.</p>
+<p>Similarly, those who give contributions to expand the activities of the Krsna consciousness movement and to accomplish its objectives will never be losers; they will get their wealth back with the blessings of Lord Krsna.</p>
+<p>On the other side, those who collect contributions on behalf of the International Society for Krishna Consciousness should be very careful not to use even a farthing of the collection for any purpose other than the transcendental loving service of the Lord.</p>
+
+
+
+<p><strong>5.24.19</strong></p>
+<p>no evaitat saksatkaro bhumi-danasya yat tad bhagavaty asesa-jiva-nikayanam jiva-bhutatma-bhute paramatmani vasudeve tirthatame patra upapanne paraya sraddhaya paramadara-samahita-manasa sampratipaditasya saksad apavarga-dvarasya yad bila-nilayaisvaryam.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>no—not; eva—indeed; etat—this; saksatkarah—the direct result; bhumi-danasya—of contribution of land; yat—which; tat—that; bhagavati—unto the Supreme Personality of Godhead; asesa-jiva-nikayanam—of unlimited numbers of living entities; jiva-bhuta-atma-bhute—who is the life and the Supersoul; parama-atmani—the supreme regulator; vasudeve—Lord Vasudeva (Krsna); tirtha-tame—who is the best of all places of pilgrimage; patre—the most worthy recipient; upapanne—having approached; paraya—by the topmost; sraddhaya—faith; parama-adara—with great respect; samahita-manasa—with an attentive mind; sampratipaditasya—which was given; saksat—directly; apavarga-dvarasya—the gate of liberation; yat—which; bila-nilaya—of bila-svarga, the imitation heavenly planets; aisvaryam—the opulence.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear King, Bali Maharaja donated all his possessions to the Supreme Personality of Godhead, Vamanadeva, but one should certainly not conclude that he achieved his great worldly opulence in bila-svarga as a result of his charitable disposition.</p>
+<p>The Supreme Personality of Godhead, who is the source of life for all living entities, lives within everyone as the friendly Supersoul, and under His direction a living entity enjoys or suffers in the material world.</p>
+<p>Greatly appreciating the transcendental qualities of the Lord, Bali Maharaja offered everything at His lotus feet.</p>
+<p>His purpose, however, was not to gain anything material, but to become a pure devotee.</p>
+<p>For a pure devotee, the door of liberation is automatically opened.</p>
+<p>One should not think that Bali Maharaja was given so much material opulence merely because of his charity.</p>
+<p>When one becomes a pure devotee in love, he may also be blessed with a good material position by the will of the Supreme Lord.</p>
+<p>However, one should not mistakenly think that the material opulence of a devotee is the result of his devotional service.</p>
+<p>The real result of devotional service is the awakening of pure love for the Supreme Personality of Godhead, which continues under all circumstances.</p>
+
+
+
+<p><strong>5.24.20</strong></p>
+<p>yasya ha vava ksuta-patana-praskhalanadisu vivasah sakrn namabhigrnan purusah karma-bandhanam anjasa vidhunoti yasya haiva pratibadhanam mumuksavo ’nyathaivopalabhante.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yasya—of whom; ha vava—indeed; ksuta—when in hunger; patana—falling down; praskhalana-adisu—stumbling and so on; vivasah—being helpless; sakrt—once; nama abhigrnan—chanting the holy name of the Lord; purusah—a person; karma-bandhanam—the bondage of fruitive activity; anjasa—completely; vidhunoti—washes away; yasya—of which; ha—certainly; eva—in this way; pratibadhanam—the repulsion; mumuksavah—persons desiring liberation; anyatha—otherwise; eva—certainly; upalabhante—are trying to realize.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>If one who is embarrassed by hunger or who falls down or stumbles chants the holy name of the Lord even once, willingly or unwillingly, he is immediately freed from the reactions of his past deeds.</p>
+<p>Karmis entangled in material activities face many difficulties in the practice of mystic yoga and other endeavors to achieve that same freedom.</p>
+<p><strong>PURPORT</strong></p>
+<p>It is not a fact that one has to offer his material possessions to the Supreme Personality of Godhead and be liberated before he can engage in devotional service.</p>
+<p>A devotee automatically attains liberation without separate endeavors.</p>
+<p>Bali Maharaja did not get back all his material possessions merely because of his charity to the Lord.</p>
+<p>One who becomes a devotee, free from material desires and motives, regards all opportunities, both material and spiritual, as benedictions from the Lord, and in this way his service to the Lord is never hampered.</p>
+<p>Bhukti, material enjoyment, and mukti, liberation, are only by-products of devotional service.</p>
+<p>A devotee need not work separately to attain mukti.</p>
+<p>Srila Bilvamangala Thakura said, muktih svayam mukulitanjalih sevate ’sman: a pure devotee of the Lord does not have to endeavor separately for mukti, because mukti is always ready to serve him.</p>
+<p>In this regard, Caitanya-caritamrta (Antya3.177–188) describes Haridasa Thakura’s confirmation of the effect of chanting the holy name of the Lord keha bale——‘nama haite haya papa-ksaya’</p>
+<p>keha bale——‘nama haite jivera moksa haya’</p>
+<p>Some say that by chanting the holy name of the Lord one is freed from all the reactions of sinful life, and others say that by chanting the holy name of the Lord one attains liberation from material bondage haridasa kahena,——namera ei dui phala naya</p>
+<p>namera phale krsna-pade prema upajaya</p>
+<p>Haridasa Thakura, however, said that the desired result of chanting the holy name of the Lord is not that one is liberated from material bondage or freed from the reactions of sinful life.</p>
+<p>The actual result of chanting the holy name of the Lord is that one awakens his dormant Krsna consciousness, his loving service to the Lord anusangika phala namera——‘mukti’, ‘papa-nasa’</p>
+<p>tahara drstanta yaiche suryera prakasa</p>
+<p>Haridasa Thakura said that liberation and freedom from the reactions of sinful activities are only by-products of chanting the holy name of the Lord.</p>
+<p>If one chants the holy name of the Lord purely, he attains the platform of loving service to the Supreme Personality of Godhead.</p>
+<p>In this regard Haridasa Thakura gave an example comparing the power of the holy name to sunshine</p>
+<p>ei slokera artha kara panditera gan</p>
+<p>sabe kahe,——‘tumi kaha artha-vivarana’</p>
+<p>He placed a verse before all the learned scholars present, but the learned scholars asked him to state the purport of the verse haridasa kahena,——yaiche suryera udaya</p>
+<p>udaya na haite arambhe tamera haya ksaya</p>
+<p>Haridasa Thakura said that as the sun begins to rise, it dissipates the darkness of night, even before the sunshine is visible caura-preta-raksasadira bhaya haya nasa</p>
+<p>udaya haile dharma-karma-adi parakasa</p>
+<p>Before the sunrise even takes place, the light of dawn destroys the fear of the dangers of the night, such as disturbances by thieves, ghosts and Raksasas, and when the sunshine actually appears, one engages in his duties aiche namodayarambhe papa-adira ksaya</p>
+<p>udaya kaile krsna-pade haya premodaya</p>
+<p>Similarly, even before one’s chanting of the holy name is pure, one is freed from all sinful reactions, and when he chants purely he becomes a lover of Krsna ‘mukti’ tuccha-phala haya namabhasa haite</p>
+<p>ye mukti bhakta na laya, se krsna cahe dit</p>
+<p>A devotee never accepts mukti, even if Krsna offers it.</p>
+<p>Mukti, freedom from all sinful reactions, is obtained even by namabhasa, or a glimpse of the light of the holy name before its full light is perfectly visible.</p>
+<p>The namabhasa stage is between that of nama-aparadha, or chanting of the holy name with offenses, and pure chanting.</p>
+<p>There are three stages in chanting the holy name of the Lord.</p>
+<p>In the first stage, one commits ten kinds of offenses while chanting.</p>
+<p>In the next stage, namabhasa, the offenses have almost stopped, and one is coming to the platform of pure chanting.</p>
+<p>In the third stage, when one chants the Hare Krsna mantra without offenses, his dormant love for Krsna immediately awakens.</p>
+<p>This is the perfection.</p>
+
+
+
+<p><strong>5.24.21</strong></p>
+<p>tad bhaktanam atmavatam sarvesam atmany atmada atmatayaiva.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tat—that; bhaktanam—of great devotees; atma-vatam—of self-realized persons like Sanaka and Sanatana; sarvesam—of all; atmani—to the Supreme Personality of Godhead, who is the soul; atma-de—who gives Himself without hesitation; atmataya—who is the Supreme Soul, Paramatma; eva—indeed.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Supreme Personality of Godhead, who is situated in everyone’s heart as the Supersoul, sells Himself to His devotees such as Narada Muni.</p>
+<p>In other words, the Lord gives pure love to such devotees and gives Himself to those who love Him purely.</p>
+<p>Great, self-realized mystic yogis such as the four Kumaras also derive great transcendental bliss from realizing the Supersoul within themselves.</p>
+<p><strong>PURPORT</strong></p>
+<p>The Lord became Bali Maharaja’s doorkeeper not because of his giving everything to the Lord, but because of his exalted position as a lover of the Lord.</p>
+
+
+
+<p><strong>5.24.22</strong></p>
+<p>na vai bhagavan nunam amusyanujagraha yad uta punar atmanusmrti-mosanam mayamaya-bhogaisvaryam evatanuteti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—not; vai—indeed; bhagavan—the Supreme Personality of Godhead; nunam—certainly; amusya—unto Bali Maharaja; anujagraha—showed His favor; yat—because; uta—certainly; punah—again; atma-anusmrti—of remembrance of the Supreme Personality of Godhead; mosanam—which robs one; maya-maya—an attribute of Maya; bhoga-aisvaryam—the material opulence; eva—certainly; atanuta—extended; iti—thus.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Supreme Personality of Godhead did not award His mercy to Bali Maharaja by giving him material happiness and opulence, for these make one forget loving service to the Lord.</p>
+<p>The result of material opulence is that one can no longer absorb his mind in the Supreme Personality of Godhead.</p>
+<p><strong>PURPORT</strong></p>
+<p>There are two kinds of opulence.</p>
+<p>One, which results from one’s karma, is material, whereas the other is spiritual.</p>
+<p>A surrendered soul who fully depends upon the Supreme Personality of Godhead does not want material opulence for sense gratification.</p>
+<p>Therefore when a pure devotee is seen to possess exalted material opulence, it is not due to his karma.</p>
+<p>Rather, it is due to his bhakti.</p>
+<p>In other words, he is in that position because the Supreme Lord wants him to execute service to Him very easily and opulently.</p>
+<p>The special mercy of the Lord for the neophyte devotee is that he becomes materially poor.</p>
+<p>This is the Lord’s mercy because if a neophyte devotee becomes materially opulent, he forgets the service of the Lord.</p>
+<p>However, if an advanced devotee is favored by the Lord with opulence, it is not material opulence but a spiritual opportunity.</p>
+<p>Material opulence offered to the demigods causes forgetfulness of the Lord, but opulence was given to Bali Maharaja for continuing service to the Lord, which was free from any touch of maya.</p>
+
+
+
+<p><strong>5.24.23</strong></p>
+<p>yat tad bhagavatanadhigatanyopayena yacna-cchalenapahrta-sva-sariravasesita-loka-trayo varuna-pasais ca sampratimukto giri-daryam capaviddha iti hovaca.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yat—which; tat—that; bhagavata—by the Supreme Personality of Godhead; anadhigata-anya-upayena—who is not perceived by other means; yacna-chalena—by a trick of begging; apahrta—taken away; sva-sarira-avasesita—with only his own body remaining; loka-trayah—the three worlds; varuna-pasaih—by the ropes of Varuna; ca—and; sampratimuktah—completely bound; giri-daryam—in a cave in a mountain; ca—and; apaviddhah—being detained; iti—thus; ha—indeed; uvaca—said.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When the Supreme Personality of Godhead could see no other means of taking everything away from Bali Maharaja, He adopted the trick of begging from him and took away all the three worlds.</p>
+<p>Thus only his body was left, but the Lord was still not satisfied.</p>
+<p>He arrested Bali Maharaja, bound him with the ropes of Varuna and threw him in a cave in a mountain.</p>
+<p>Nevertheless, although all his property was taken and he was thrown into a cave, Bali Maharaja was such a great devotee that he spoke as follows.</p>
+
+
+
+<p><strong>5.24.24</strong></p>
+<p>nunam batayam bhagavan arthesu na nisnato yo ’sav indro yasya sacivo mantraya vrta ekantato brhaspatis tam atihaya svayam upendrenatmanam ayacatatmanas casiso no eva tad-dasyam ati-gambhira-vayasah kalasya manvantara-parivrttam kiyal loka-trayam idam.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>nunam—certainly; bata—alas; ayam—this; bhagavan—very learned; arthesu—in self-interest; na—not; nisnatah—very experienced; yah—who; asau—the King of heaven; indrah—Indra; yasya—of whom; sacivah—the prime minister; mantraya—for giving instructions; vrtah—chosen; ekantatah—alone; brhaspatih—named Brhaspati; tam—him; atihaya—ignoring; svayam—personally; upendrena—by means of Upendra (Lord Vamanadeva); atmanam—myself; ayacata—requested; atmanah—for himself; ca—and; asisah—blessings (the three worlds); no—not; eva—certainly; tat-dasyam—the loving service of the Lord; ati—very; gambhira-vayasah—having an insurmountable duration; kalasya—of time; manvantara-parivrttam—changed by the end of a life of a Manu; kiyat—what is the value of; loka-trayam—three worlds; idam—these.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Alas, how pitiable it is for Indra, the King of heaven, that although he is very learned and powerful and although he chose Brhaspati as his prime minister to instruct him, he is completely ignorant concerning spiritual advancement.</p>
+<p>Brhaspati is also unintelligent because he did not properly instruct his disciple Indra.</p>
+<p>Lord Vamanadeva was standing at Indra’s door, but King Indra, instead of begging Him for an opportunity to render transcendental loving service, engaged Him in asking me for alms to gain the three worlds for his sense gratification.</p>
+<p>Sovereignty over the three worlds is very insignificant because whatever material opulence one may possess lasts only for an age of Manu, which is but a tiny fraction of endless time.</p>
+<p><strong>PURPORT</strong></p>
+<p>Bali Maharaja was so powerful that he fought with Indra and took possession of the three worlds.</p>
+<p>Indra was certainly very advanced in knowledge, but instead of asking Vamanadeva for engagement in His service, he used the Lord to beg for material possessions that would lie finished at the end of one age of Manu.</p>
+<p>An age of Manu, which is the duration of Manu’s life, is calculated to last seventy-two yugas.</p>
+<p>One yuga consists of 4,300,000 years, and therefore the duration of Manu’s life is 309,600,000 years.</p>
+<p>The demigods possess their material opulence only until the end of the life of Manu.</p>
+<p>Time is insurmountable.</p>
+<p>The time one is allotted, even if it be millions of years, is quickly gone.</p>
+<p>The demigods own their material possessions only within the limits of time.</p>
+<p>Therefore Bali Maharaja lamented that although Indra was very learned, he did not know how to use his intelligence properly, for instead of asking Vamanadeva to allow him to engage in His service, Indra used Him to beg Bali Maharaja for material wealth.</p>
+<p>Although Indra was learned and his prime minister, Brhaspati, was also learned, neither of them begged to be able to render loving service to Lord Vamanadeva.</p>
+<p>Therefore Bali Maharaja lamented for Indra.</p>
+
+
+
+<p><strong>5.24.25</strong></p>
+<p>yasyanudasyam evasmat-pitamahah kila vavre na tu sva-pitryam yad utakutobhayam padam diyamanam bhagavatah param iti bhagavatoparate khalu sva-pitari.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yasya—of whom (the Supreme Personality of Godhead); anudasyam—the service; eva—certainly; asmat—our; pita-mahah—grandfather; kila—indeed; vavre—accepted; na—not; tu—but; sva—own; pitryam—paternal property; yat—which; uta—certainly; akutah-bhayam—fearlessness; padam—position; diyamanam—being offered; bhagavatah—than the Supreme Personality of Godhead; param—other; iti—thus; bhagavata—by the Supreme Personality of Godhead; uparate—when killed; khalu—indeed; sva-pitari—his own father.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Bali Maharaja said: My grandfather Prahlada Maharaja is the only person who understood his own self-interest.</p>
+<p>Upon the death of Prahlada’s father, Hiranyakasipu, Lord Nrsimhadeva wanted to offer Prahlada his father’s kingdom and even wanted to grant him liberation from material bondage, but Prahlada accepted neither.</p>
+<p>Liberation and material opulence, he thought, are obstacles to devotional service, and therefore such gifts from the Supreme Personality of Godhead are not His actual mercy.</p>
+<p>Consequently, instead of accepting the results of karma and jnana, Prahlada Maharaja simply begged the Lord for engagement in the service of His servant.</p>
+<p><strong>PURPORT</strong></p>
+<p>Sri Caitanya Mahaprabhu has instructed that an unalloyed devotee should consider himself a servant of the servant of the servant of the Supreme Lord (gopi-bhartuh pada-kamalayor dasa-dasanudasah).</p>
+<p>In Vaisnava philosophy, one should not even become a direct servant.</p>
+<p>Prahlada Maharaja was offered all the blessings of an opulent position in the material world and even the liberation of merging into Brahman, but he refused all this.</p>
+<p>He simply wanted to engage in the service of the servant of the servant of the Lord.</p>
+<p>Therefore Bali Maharaja said that because his grandfather Prahlada Maharaja had rejected the blessings of the Supreme Personality of Godhead in terms of material opulence and liberation from material bondage, he truly understood his self-interest.</p>
+
+
+
+<p><strong>5.24.26</strong></p>
+<p>tasya mahanubhavasyanupatham amrjita-kasayah ko vasmad-vidhah parihina-bhagavad-anugraha upajigamisatiti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasya—of Prahlada Maharaja; maha-anubhavasya—who was an exalted devotee; anupatham—the path; amrjita-kasayah—a person who is materially contaminated; kah—what; va—or; asmat-vidhah—like us; parihina-bhagavat-anugrahah—being without the favor of the Supreme Personality of Godhead; upajigamisati—desires to follow; iti—thus.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Bali Maharaja said: Persons like us, who are still attached to material enjoyment, who are contaminated by the modes of material nature and who lack the mercy of the Supreme Personality of Godhead, cannot follow the supreme path of Prahlada Maharaja, the exalted devotee of the Lord.</p>
+<p><strong>PURPORT</strong></p>
+<p>It is said that for spiritual realization one must follow great personalities like Lord Brahma, Devarsi Narada, Lord Siva and Prahlada Maharaja.</p>
+<p>The path of bhakti is not at all difficult if we follow in the footsteps of previous acaryas and authorities, but those who are too materially contaminated by the modes of material nature cannot follow them.</p>
+<p>Although Bali Maharaja was actually following the path of his grandfather, because of his great humility he thought that he was not.</p>
+<p>It is characteristic of advanced Vaisnavas following the principles of bhakti that they think themselves ordinary human beings.</p>
+<p>This is not an artificial exhibition of humility; a Vaisnava sincerely thinks this way and therefore never admits his exalted position.</p>
+
+
+
+<p><strong>5.24.27</strong></p>
+<p>tasyanucaritam uparistad vistarisyate yasya bhagavan svayam akhila-jagad-gurur narayano dvari gada-panir avatisthate nija-jananukampita-hrdayo yenangusthena pada dasa-kandharo yojanayutayutam dig-vijaya uccatitah.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasya—of Bali Maharaja; anucaritam—the narration; uparistat—later (in the Eighth Canto); vistarisyate—will be explained; yasya—of whom; bhagavan—the Supreme Personality of Godhead; svayam—personally; akhila-jagat-guruh—the master of all the three worlds; narayanah—the Supreme Lord, Narayana Himself; dvari—at the gate; gada-panih—bearing the club in His hand; avatisthate—stands; nija-jana-anukampita-hrdayah—whose heart is always filled with mercy for His devotees; yena—by whom; angusthena—by the big toe; pada—of His foot; dasa-kandharah—Ravana, who had ten heads; yojana-ayuta-ayutam—a distance of eighty thousand miles; dik-vijaye—for the purpose of gaining victory over Bali Maharaja; uccatitah—driven away.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sukadeva Gosvami continued: My dear King, how shall I glorify the character of Bali Maharaja? The Supreme Personality of Godhead, the master of the three worlds, who is most compassionate to His own devotee, stands with club in hand at Bali Maharaja’s door.</p>
+<p>When Ravana, the powerful demon, came to gain victory over Bali Maharaja, Vamanadeva kicked him a distance of eighty thousand miles with His big toe.</p>
+<p>I shall explain the character and activities of Bali Maharaja later (in the Eighth Canto of Srimad-Bhagavatam).</p>
+
+
+
+<p><strong>5.24.28</strong></p>
+<p>tato ’dhastat talatale mayo nama danavendras tri-puradhipatir bhagavata purarina tri-loki-sam cikirsuna nirdagdha-sva-pura-trayas tat-prasadal labdha-pado mayavinam acaryo mahadevena pariraksito vigata-sudarsana-bhayo mahiyate.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—the planet known as Sutala; adhastat—below; talatale—in the planet known as Talatala; mayah—Maya; nama—named; danava-indrah—the king of the Danava demons; tri-pura-adhipatih—the Lord of the three cities; bhagavata—by the most powerful; purarina—Lord Siva, who is known as Tripurari; tri-loki—of the three worlds; sam—the good fortune; cikirsuna—who was desiring; nirdagdha—burned; sva-pura-trayah—whose three cities; tat-prasadat—by Lord Siva’s mercy; labdha—obtained; padah—a kingdom; maya-vinam acaryah—who is the acarya, or master, of all the conjurers; maha-devena—by Lord Siva; pariraksitah—protected; vigata-sudarsana-bhayah—who is not afraid of the Supreme Personality of Godhead and His Sudarsana cakra; mahiyate—is worshiped.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Beneath the planet known as Sutala is another planet, called Talatala, which is ruled by the Danava demon named Maya.</p>
+<p>Maya is known as the acarya (master) of all the mayavis, who can invoke the powers of sorcery.</p>
+<p>For the benefit of the three worlds, Lord Siva, who is known as Tripurari, once set fire to the three kingdoms of Maya, but later, being pleased with him, he returned his kingdom.</p>
+<p>Since that time, Maya Danava has been protected by Lord Siva, and therefore he falsely thinks that he need not fear the Sudarsana cakra of the Supreme Personality of Godhead.</p>
+
+
+
+<p><strong>5.24.29</strong></p>
+<p>tato ’dhastan mahatale kadraveyanam sarpanam naika-sirasam krodhavaso nama ganah kuhaka-taksaka-kaliya-susenadi-pradhana maha-bhogavantah patattri-rajadhipateh purusa-vahad anavaratam udvijamanah sva-kalatrapatya-suhrt-kutumba-sangena kvacit pramatta viharanti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—the planet Talatala; adhastat—beneath; mahatale—in the planet known as Mahatala; kadraveyanam—of the descendants of Kadru; sarpanam—who are big snakes; na eka-sirasam—who have many hoods; krodha-vasah—always subject to anger; nama—named; ganah—the group; kuhaka—Kuhaka; taksaka—Taksaka; kaliya—Kaliya; susena—Susena; adi—and so on; pradhanah—who are the prominent ones; maha-bhogavantah—addicted to all kinds of material enjoyment; patattri-raja-adhipateh—from the king of all birds, Garuda; purusa-vahat—who carries the Supreme Personality of Godhead; anavaratam—constantly; udvijamanah—afraid; sva—of their own; kalatra-apatya—wives and children; suhrt—friends; kutumba—relatives; sangena—in the association; kvacit—sometimes; pramattah—infuriated; viharanti—they sport.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The planetary system below Talatala is known as Mahatala.</p>
+<p>It is the abode of many-hooded snakes, descendants of Kadru, who are always very angry.</p>
+<p>The great snakes who are prominent are Kuhaka, Taksaka, Kaliya and Susena.</p>
+<p>The snakes in Mahatala are always disturbed by fear of Garuda, the carrier of Lord Visnu, but although they are full of anxiety, some of them nevertheless sport with their wives, children, friends and relatives.</p>
+<p><strong>PURPORT</strong></p>
+<p>It is stated here that the snakes who live in the planetary system known as Mahatala are very powerful and have many hoods.</p>
+<p>They live with their wives and children and consider themselves very happy, although they are always full of anxiety because of Garuda, who comes there to destroy them.</p>
+<p>This is the way of material life.</p>
+<p>Even if one lives in the most abominable condition, he still thinks himself happy with his wife, children, friends and relatives.</p>
+
+
+
+<p><strong>5.24.30</strong></p>
+<p>tato ’dhastad rasatale daiteya danavah panayo nama nivata-kavacah kaleya hiranya-puravasina iti vibudha-pratyanika utpattya mahaujaso maha-sahasino bhagavatah sakala-lokanubhavasya harer eva tejasa pratihata-balavalepa bilesaya iva vasanti ye vai saramayendra-dutya vagbhir mantra-varnabhir indrad bibhyati.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah adhastat—below the planetary system Mahatala; rasatale—on the planet called Rasatala; daiteyah—the sons of Diti; danavah—the sons of Danu; panayah nama—named Panis; nivata-kavacah—Nivata-kavacas; kaleyah—Kaleyas; hiranya-puravasinah—Hiranya-puravasis; iti—thus; vibudha-pratyanikah—enemies of the demigods; utpattyah—from birth; maha-ojasah—very powerful; maha-sahasinah—very cruel; bhagavatah—of the Personality of Godhead; sakala-loka-anubhavasya—who is auspicious for all planetary systems; hareh—of the Supreme Personality of Godhead; eva—certainly; tejasa—by the Sudarsana cakra; pratihata—defeated; bala—strength; avalepah—and pride (because of bodily strength); bila-isayah—the snakes; iva—like; vasanti—they live; ye—who; vai—indeed; saramaya—by Sarama; indra-dutya—the messenger of Indra; vagbhih—by the words; mantra-varnabhih—in the form of a mantra; indrat—from King Indra; bibhyati—are afraid.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Beneath Mahatala is the planetary system known as Rasatala, which is the abode of the demoniac sons of Diti and Danu.</p>
+<p>They are called Panis, Nivata-kavacas, Kaleyas and Hiranya-puravasis (those living in Hiranya-pura).</p>
+<p>They are all enemies of the demigods, and they reside in holes like snakes.</p>
+<p>From birth they are extremely powerful and cruel, and although they are proud of their strength, they are always defeated by the Sudarsana cakra of the Supreme Personality of Godhead, who rules all the planetary systems.</p>
+<p>When a female messenger from Indra named Sarama chants a particular curse, the serpentine demons of Mahatala become very afraid of Indra.</p>
+<p><strong>PURPORT</strong></p>
+<p>It is said that there was a great fight between these serpentine demons and Indra, the King of heaven.</p>
+<p>When the defeated demons met the female messenger Sarama, who was chanting a mantra, they became afraid, and therefore they are living in the planet called Rasatala.</p>
+
+
+
+<p><strong>5.24.31</strong></p>
+<p>tato ’dhastat patale naga-loka-patayo vasuki-pramukhah sankha-kulika-mahasankha-sveta-dhananjaya-dhrtarastra-sankhacuda-kambalasvatara-devadattadayo maha-bhogino mahamarsa nivasanti yesam u ha vai panca-sapta-dasa-sata-sahasra-sirsanam phanasu viracita maha-manayo rocisnavah patala-vivara-timira-nikaram sva-rocisa vidhamanti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah adhastat—beneath that planet Rasatala; patale—on the planet known as Patala; naga-loka-patayah—the masters of the Nagalokas; vasuki—by Vasuki; pramukhah—headed; sankha—Sankha; kulika—Kulika; maha-sankha—Mahasankha; sveta—Sveta; dhananjaya—Dhananjaya; dhrtarastra—Dhrtarastra; sankha-cuda—Sankhacuda; kambala—Kambala; asvatara—Asvatara; deva-datta—Devadatta; adayah—and so on; maha-bhoginah—very addicted to material happiness; maha-amarsah—greatly envious by nature; nivasanti—live; yesam—of all of them; u ha—certainly; vai—indeed; panca—five; sapta—seven; dasa—ten; sata—one hundred; sahasra—one thousand; sirsanam—of those possessing hoods; phanasu—on those hoods; viracitah—fixed; maha-manayah—very valuable gems; rocisnavah—full of effulgence; patala-vivara—the caves of the Patala planetary system; timira-nikaram—the mass of darkness; sva-rocisa—by the effulgence of their hoods; vidhamanti—disperse.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Beneath Rasatala is another planetary system, known as Patala or Nagaloka, where there are many demoniac serpents, the masters of Nagaloka, such as Sankha, Kulika, Mahasankha, Sveta, Dhananjaya, Dhrtarastra, Sankhacuda, Kambala, Asvatara and Devadatta.</p>
+<p>The chief among them is Vasuki.</p>
+<p>They are all extremely angry, and they have many, many hoods—some snakes five hoods, some seven, some ten, others a hundred and others a thousand.</p>
+<p>These hoods are bedecked with valuable gems, and the light emanating from the gems illuminates the entire planetary system of bila-svarga.</p>
+
+
+</article></body></html>

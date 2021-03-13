@@ -1,155 +1,42 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>The Dynasties of the Sons of Pururava - The Dynasties of the Sons of Pururava</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">The Dynasties of the Sons of Pururava</a></li><li class="affix"><a href="9.17.1-3.html">9.17.1-3</a></li><li class="affix"><a href="9.17.4.html">9.17.4</a></li><li class="affix"><a href="9.17.5.html">9.17.5</a></li><li class="affix"><a href="9.17.6.html">9.17.6</a></li><li class="affix"><a href="9.17.7.html">9.17.7</a></li><li class="affix"><a href="9.17.8.html">9.17.8</a></li><li class="affix"><a href="9.17.9.html">9.17.9</a></li><li class="affix"><a href="9.17.10.html">9.17.10</a></li><li class="affix"><a href="9.17.11.html">9.17.11</a></li><li class="affix"><a href="9.17.12.html">9.17.12</a></li><li class="affix"><a href="9.17.13.html">9.17.13</a></li><li class="affix"><a href="9.17.14.html">9.17.14</a></li><li class="affix"><a href="9.17.15.html">9.17.15</a></li><li class="affix"><a href="9.17.16.html">9.17.16</a></li><li class="affix"><a href="9.17.17.html">9.17.17</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">The Dynasties of the Sons of Pururava</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#the-dynasties-of-the-sons-of-pururava" id="the-dynasties-of-the-sons-of-pururava">The Dynasties of the Sons of Pururava</a></h1>
-<h2><a class="header" href="#summary" id="summary">Summary</a></h2>
-<h3><a class="header" href="#917" id="917">9.17</a></h3>
+<h1>The Dynasties of the Sons of Pururava</h1>
+<h2>Summary</h2>
+<p><strong>9.17</strong></p>
 <p>Ayu, the eldest son of Pururava, had five sons.</p>
 <p>This chapter describes the dynasties of four of them, beginning with Ksatravrddha.</p>
 <p>Ayu, the son of Pururava, had five sons— Nahusa, Ksatravrddha, Raji, Rabha and Anena.</p>
@@ -172,63 +59,205 @@
 <p>From Prati came Sanjaya; from Sanjaya, Jaya; from Jaya, Krta; and from Krta, Haryabala.</p>
 <p>The son of Haryabala was Sahadeva; the son of Sahadeva, Hina; the son of Hina, Jayasena; the son of Jayasena, Sankrti; and the son of Sankrti, Jaya.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="9.17.1-3.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>9.17.4</strong></p>
+<p>kasyasya kasis tat-putro</p>
+<p>rastro dirghatamah-pita</p>
+<p>dhanvantarir dirghatamasa</p>
+<p>ayur-veda-pravartakah</p>
+<p>yajna-bhug vasudevamsah</p>
+<p>smrta-matrarti-nasanah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kasyasya—of Kasya; kasih—Kasi; tat-putrah—his son; rastrah—Rastra; dirghatamah-pita—he became the father of Dirghatama; dhanvantarih—Dhanvantari; dirghatamasah—from Dirghatama; ayuh-veda-pravartakah—the inaugurator of medical science, Ayur Veda; yajna-bhuk—the enjoyer of the results of sacrifice; vasudeva-amsah—incarnation of Lord Vasudeva; smrta-matra—if he is remembered; arti-nasanah—it immediately vanquishes all kinds of disease.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Kasya was Kasi, and his son was Rastra, the father of Dirghatama.</p>
+<p>Dirghatama had a son named Dhanvantari, who was the inaugurator of the medical science and an incarnation of Lord Vasudeva, the enjoyer of the results of sacrifices.</p>
+<p>One who remembers the name of Dhanvantari can be released from all disease.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="9.17.1-3.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>9.17.5</strong></p>
+<p>tat-putrah ketuman asya</p>
+<p>jajne bhimarathas tatah</p>
+<p>divodaso dyumams tasmat</p>
+<p>pratardana iti smrtah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tat-putrah—his son (the son of Dhanvantari); ketuman—Ketuman; asya—his; jajne—took birth; bhimarathah—a son named Bhimaratha; tatah—from him; divodasah—a son named Divodasa; dyuman—Dyuman; tasmat—from him; pratardanah—Pratardana; iti—thus; smrtah—known.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Dhanvantari was Ketuman, and his son was Bhimaratha.</p>
+<p>The son of Bhimaratha was Divodasa, and the son of Divodasa was Dyuman, also known as Pratardana.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>9.17.6</strong></p>
+<p>sa eva satrujid vatsa</p>
+<p>rtadhvaja itiritah</p>
+<p>tatha kuvalayasveti</p>
+<p>prokto ’larkadayas tatah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—that Dyuman; eva—indeed; satrujit—Satrujit; vatsah—Vatsa; rtadhvajah—Rtadhvaja; iti—like that; iritah—known; tatha—as well as; kuvalayasva—Kuvalayasva; iti—thus; proktah—well known; alarka-adayah—Alarka and other sons; tatah—from him.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Dyuman was also known as Satrujit, Vatsa, Rtadhvaja and Kuvalayasva.</p>
+<p>From him were born Alarka and other sons.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>9.17.7</strong></p>
+<p>sastim varsa-sahasrani</p>
+<p>sastim varsa-satani ca</p>
+<p>nalarkad aparo rajan</p>
+<p>bubhuje medinim yuva</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sastim—sixty; varsa-sahasrani—such thousands of years; sastim—sixty; varsa-satani—hundreds of years; ca—also; na—not; alarkat—except for Alarka; aparah—anyone else; rajan—O King Pariksit; bubhuje—enjoyed; medinim—the surface of the world; yuva—as a young man.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Alarka, the son of Dyuman, reigned over the earth for sixty-six thousand years, my dear King Pariksit.</p>
+<p>No one other than him has reigned over the earth for so long as a young man.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>9.17.8</strong></p>
+<p>alarkat santatis tasmat</p>
+<p>sunitho ’tha niketanah</p>
+<p>dharmaketuh sutas tasmat</p>
+<p>satyaketur ajayata</p>
+<p><strong>SYNONYMS</strong></p>
+<p>alarkat—from Alarka; santatih—a son known as Santati; tasmat—from him; sunithah—Sunitha; atha—from him; niketanah—a son named Niketana; dharmaketuh—Dharmaketu; sutah—a son; tasmat—and from Dharmaketu; satyaketuh—Satyaketu; ajayata—was born.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>From Alarka came a son named Santati, and his son was Sunitha.</p>
+<p>The son of Sunitha was Niketana, the son of Niketana was Dharmaketu, and the son of Dharmaketu was Satyaketu.</p>
+
+
+
+<p><strong>9.17.9</strong></p>
+<p>dhrstaketus tatas tasmat</p>
+<p>sukumarah ksitisvarah</p>
+<p>vitihotro ’sya bhargo ’to</p>
+<p>bhargabhumir abhun nrpa</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dhrstaketuh—Dhrstaketu; tatah—thereafter; tasmat—from Dhrstaketu; sukumarah—a son named Sukumara; ksiti-isvarah—the emperor of the entire world; vitihotrah—a son named Vitihotra; asya—his son; bhargah—Bharga; atah—from him; bhargabhumih—a son named Bhargabhumi; abhut—generated; nrpa—O King.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King Pariksit, from Satyaketu came a son named Dhrstaketu, and from Dhrstaketu came Sukumara, the emperor of the entire world.</p>
+<p>From Sukumara came a son named Vitihotra; from Vitihotra, Bharga; and from Bharga, Bhargabhumi.</p>
+
+
+
+<p><strong>9.17.10</strong></p>
+<p>itime kasayo bhupah</p>
+<p>ksatravrddhanvayayinah</p>
+<p>rabhasya rabhasah putro</p>
+<p>gambhiras cakriyas tatah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>iti—thus; ime—all of them; kasayah—born in the dynasty of Kasi; bhupah—kings; ksatravrddha-anvaya-ayinah—also within the dynasty of Ksatravrddha; rabhasya—from Rabha; rabhasah—Rabhasa; putrah—a son; gambhirah—Gambhira; ca—also; akriyah—Akriya; tatah—from him.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O Maharaja Pariksit, all of these kings were descendants of Kasi, and they could also be called descendants of Ksatravrddha.</p>
+<p>The son of Rabha was Rabhasa, from Rabhasa came Gambhira, and from Gambhira came a son named Akriya.</p>
+
+
+
+<p><strong>9.17.11</strong></p>
+<p>tad-gotram brahmavij jajne</p>
+<p>srnu vamsam anenasah</p>
+<p>suddhas tatah sucis tasmac</p>
+<p>citrakrd dharmasarathih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tat-gotram—the descendant of Akriya; brahmavit—Brahmavit; jajne—took birth; srnu—just hear from me; vamsam—descendants; anenasah—of Anena; suddhah—a son known as Suddha; tatah—from him; sucih—Suci; tasmat—from him; citrakrt—Citrakrt; dharma-sarathih—Dharmasarathi.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Akriya was known as Brahmavit, O King.</p>
+<p>Now hear about the descendants of Anena.</p>
+<p>From Anena came a son named Suddha, and his son was Suci.</p>
+<p>The son of Suci was Dharmasarathi, also called Citrakrt.</p>
+
+
+
+<p><strong>9.17.12</strong></p>
+<p>tatah santarajo jajne</p>
+<p>krta-krtyah sa atmavan</p>
+<p>rajeh panca-satany asan</p>
+<p>putranam amitaujasam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—from Citrakrt; santarajah—a son named Santaraja; jajne—was born; krta-krtyah—performed all kinds of ritualistic ceremonies; sah—he; atmavan—a self-realized soul; rajeh—of Raji; panca-satani—five hundred; asan—there were; putranam—sons; amita-ojasam—very, very powerful.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>From Citrakrt was born a son named Santaraja, a self-realized soul who performed all kinds of Vedic ritualistic ceremonies and therefore did not beget any progeny.</p>
+<p>The sons of Raji were five hundred, all very powerful.</p>
+
+
+
+<p><strong>9.17.13</strong></p>
+<p>devair abhyarthito daityan</p>
+<p>hatvendrayadadad divam</p>
+<p>indras tasmai punar dattva</p>
+<p>grhitva caranau rajeh</p>
+<p>atmanam arpayam asa</p>
+<p>prahradady-ari-sankitah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>devaih—by the demigods; abhyarthitah—being requested; daityan—the demons; hatva—killing; indraya—to Indra, the King of heaven; adadat—delivered; divam—the kingdom of heaven; indrah—the King of heaven; tasmai—unto him, Raji; punah—again; dattva—returning; grhitva—capturing; caranau—the feet; rajeh—of Raji; atmanam—the self; arpayam asa—surrendered; prahrada-adi—Prahlada and others; ari-sankitah—being afraid of such enemies.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>On the request of the demigods, Raji killed the demons and thus returned the kingdom of heaven to Lord Indra.</p>
+<p>But Indra, fearing such demons as Prahlada, returned the kingdom of heaven to Raji and surrendered himself at Raji’s lotus feet.</p>
+
+
+
+<p><strong>9.17.14</strong></p>
+<p>pitary uparate putra</p>
+<p>yacamanaya no daduh</p>
+<p>trivistapam mahendraya</p>
+<p>yajna-bhagan samadaduh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>pitari—when their father; uparate—passed away; putrah—the sons; yacamanaya—although requesting from them; no—not; daduh—returned; trivistapam—the heavenly kingdom; mahendraya—unto Mahendra; yajna-bhagan—the shares of ritualistic ceremonies; samadaduh—gave.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Upon Raji’s death, Indra begged Raji’s sons for the return of the heavenly planet.</p>
+<p>They did not return it, however, although they agreed to return Indra’s shares in ritualistic ceremonies.</p>
+<p><strong>PURPORT</strong></p>
+<p>Raji conquered the kingdom of heaven, and therefore when Indra, the heavenly king, begged Raji’s sons to return it, they refused.</p>
+<p>Because they had not taken the heavenly kingdom from Indra but had inherited it from their father, they considered it their paternal property.</p>
+<p>Why then should they return it to the demigods?</p>
+
+
+
+<p><strong>9.17.15</strong></p>
+<p>guruna huyamane ’gnau</p>
+<p>balabhit tanayan rajeh</p>
+<p>avadhid bhramsitan margan</p>
+<p>na kascid avasesitah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>guruna—by the spiritual master (Brhaspati); huyamane agnau—while oblations were being offered in the fire of sacrifice; balabhit—Indra; tanayan—the sons; rajeh—of Raji; avadhit—killed; bhramsitan—fallen; margat—from the moral principles; na—not; kascit—anyone; avasesitah—remained alive.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, Brhaspati, the spiritual master of the demigods, offered oblations in the fire so that the sons of Raji would fall from moral principles.</p>
+<p>When they fell, Lord Indra killed them easily because of their degradation.</p>
+<p>Not a single one of them remained alive.</p>
+
+
+
+<p><strong>9.17.16</strong></p>
+<p>kusat pratih ksatravrddhat</p>
+<p>sanjayas tat-suto jayah</p>
+<p>tatah krtah krtasyapi</p>
+<p>jajne haryabalo nrpah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kusat—from Kusa; pratih—a son named Prati; ksatravrddhat—the grandson of Ksatravrddha; sanjayah—a son named Sanjaya; tat-sutah—his son; jayah—Jaya; tatah—from him; krtah—Krta; krtasya—from Krta; api—as well as; jajne—was born; haryabalah—Haryabala; nrpah—the king.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>From Kusa, the grandson of Ksatravrddha, was born a son named Prati.</p>
+<p>The son of Prati was Sanjaya, and the son of Sanjaya was Jaya.</p>
+<p>From Jaya, Krta was born, and from Krta, King Haryabala.</p>
+
+
+
+<p><strong>9.17.17</strong></p>
+<p>sahadevas tato hino</p>
+<p>jayasenas tu tat-sutah</p>
+<p>sankrtis tasya ca jayah</p>
+<p>ksatra-dharma maha-rathah</p>
+<p>ksatravrddhanvaya bhupa</p>
+<p>ime srnv atha nahusan</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sahadevah—Sahadeva; tatah—from Sahadeva; hinah—a son named Hina; jayasenah—Jayasena; tu—also; tat-sutah—the son of Hina; sankrtih—Sankrti; tasya—of Sankrti; ca—also; jayah—a son named Jaya; ksatra-dharma—expert in the duties of a ksatriya; maha-rathah—a greatly powerful fighter; ksatravrddha-anvayah—in the dynasty of Ksatravrddha; bhupah—kings; ime—all these; srnu—hear from me; atha—now; nahusan—the descendants of Nahusa.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>From Haryabala came a son named Sahadeva, and from Sahadeva came Hina.</p>
+<p>The son of Hina was Jayasena, and the son of Jayasena was Sankrti.</p>
+<p>The son of Sankrti was the powerful and expert fighter named Jaya.</p>
+<p>These kings were the members of the Ksatravrddha dynasty.</p>
+<p>Now let me describe to you the dynasty of Nahusa.</p>
+
+
+</article></body></html>

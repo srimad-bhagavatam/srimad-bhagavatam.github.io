@@ -1,154 +1,41 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>A Description of Jambudvipa - A Description of Jambudvipa</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">A Description of Jambudvipa</a></li><li class="affix"><a href="5.16.2.html">5.16.2</a></li><li class="affix"><a href="5.16.3.html">5.16.3</a></li><li class="affix"><a href="5.16.4.html">5.16.4</a></li><li class="affix"><a href="5.16.5.html">5.16.5</a></li><li class="affix"><a href="5.16.6.html">5.16.6</a></li><li class="affix"><a href="5.16.7.html">5.16.7</a></li><li class="affix"><a href="5.16.8.html">5.16.8</a></li><li class="affix"><a href="5.16.9.html">5.16.9</a></li><li class="affix"><a href="5.16.10.html">5.16.10</a></li><li class="affix"><a href="5.16.11.html">5.16.11</a></li><li class="affix"><a href="5.16.12.html">5.16.12</a></li><li class="affix"><a href="5.16.13-14.html">5.16.13-14</a></li><li class="affix"><a href="5.16.15.html">5.16.15</a></li><li class="affix"><a href="5.16.16.html">5.16.16</a></li><li class="affix"><a href="5.16.17.html">5.16.17</a></li><li class="affix"><a href="5.16.18.html">5.16.18</a></li><li class="affix"><a href="5.16.19.html">5.16.19</a></li><li class="affix"><a href="5.16.20-21.html">5.16.20-21</a></li><li class="affix"><a href="5.16.22.html">5.16.22</a></li><li class="affix"><a href="5.16.23.html">5.16.23</a></li><li class="affix"><a href="5.16.24.html">5.16.24</a></li><li class="affix"><a href="5.16.25.html">5.16.25</a></li><li class="affix"><a href="5.16.26.html">5.16.26</a></li><li class="affix"><a href="5.16.27.html">5.16.27</a></li><li class="affix"><a href="5.16.28.html">5.16.28</a></li><li class="affix"><a href="5.16.29.html">5.16.29</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">A Description of Jambudvipa</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#a-description-of-jambudvipa" id="a-description-of-jambudvipa">A Description of Jambudvipa</a></h1>
-<h3><a class="header" href="#5161" id="5161">5.16.1</a></h3>
+<h1>A Description of Jambudvipa</h1>
+<p><strong>5.16.1</strong></p>
 <p>rajovaca</p>
 <p>uktas tvaya bhu-mandalayama-viseso yavad adityas tapati yatra casau jyotisam ganais candrama va saha drsyate.</p>
 <p><strong>SYNONYMS</strong></p>
@@ -170,63 +57,433 @@
 <p>Sukadeva Gosvami explained the location of the planets, and this indicates that the information was known long, long before Sukadeva Gosvami related it to Maharaja Pariksit.</p>
 <p>The location of the various planetary systems was not unknown to the sages who flourished in the Vedic age.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="5.16.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>5.16.2</strong></p>
+<p>tatrapi priyavrata-ratha-carana-parikhataih saptabhih sapta sindhava upaklpta yata etasyah sapta-dvipa-visesa-vikalpas tvaya bhagavan khalu sucita etad evakhilam aham manato laksanatas ca sarvam vi-jijnasami.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatra api—in that Bhu-mandala; priyavrata-ratha-carana-parikhataih—by the ditches made by the wheels of the chariot used by Priyavrata Maharaja while circumambulating Sumeru behind the sun; saptabhih—by the seven; sapta—seven; sindhavah—oceans; upaklptah—created; yatah—because of which; etasyah—of this Bhu-mandala; sapta-dvipa—of the seven islands; visesa-vikalpah—the mode of the construction; tvaya—by you; bhagavan—O great saint; khalu—indeed; sucitah—described; etat—this; eva—certainly; akhilam—whole subject; aham—I; manatah—from the point of view of measurement; laksanatah—and from symptoms; ca—also; sarvam—everything; vijijnasami—wish to know.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear Lord, the rolling wheels of Maharaja Priyavrata’s chariot created seven ditches, in which the seven oceans came into existence.</p>
+<p>Because of these seven oceans, Bhu-mandala is divided into seven islands.</p>
+<p>You have given a very general description of their measurement, names and characteristics.</p>
+<p>Now I wish to know of them in detail.</p>
+<p>Kindly fulfill my desire.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="5.16.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>5.16.3</strong></p>
+<p>bhagavato gunamaye sthula-rupa avesitam mano hy agune ’pi suksmatama atma-jyotisi pare brahmani bhagavati vasudevakhye ksamam avesitum tad u haitad guro ’rhasy anuvarnayitum iti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>bhagavatah—of the Supreme Personality of Godhead; guna-maye—into the external features, consisting of the three modes of material nature; sthula-rupe—the gross form; avesitam—entered; manah—the mind; hi—indeed; agune—transcendental; api—although; suksmatame—in His smaller form as Paramatma within the heart; atma-jyotisi—who is full of Brahman effulgence; pare—the supreme; brahmani—spiritual entity; bhagavati—the Supreme Personality of Godhead; vasudeva-akhye—known as Bhagavan Vasudeva; ksamam—suitable; avesitum—to absorb; tat—that; u ha—indeed; etat—this; guro—O my dear spiritual master; arhasi anuvarnayitum—please describe factually; iti—thus.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When the mind is fixed upon the Supreme Personality of Godhead in His external feature made of the material modes of nature—the gross universal form—it is brought to the platform of pure goodness.</p>
+<p>In that transcendental position, one can understand the Supreme Personality of Godhead, Vasudeva, who in His subtler form is self-effulgent and beyond the modes of nature.</p>
+<p>O my lord, please describe vividly how that form, which covers the entire universe, is perceived.</p>
+<p><strong>PURPORT</strong></p>
+<p>Maharaja Pariksit had already been advised by his spiritual master, Sukadeva Gosvami, to think of the universal form of the Lord, and therefore, following the advice of his spiritual master, he continuously thought of that form.</p>
+<p>The universal form is certainly material, but because everything is an expansion of the energy of the Supreme Personality of Godhead, ultimately nothing is material.</p>
+<p>Therefore Pariksit Maharaja’s mind was saturated with spiritual consciousness.</p>
+<p>Srila Rupa Gosvami has stated:</p>
+<p>prapancikataya buddhya</p>
+<p>hari-sambandhi-vastunah</p>
+<p>mumuksubhih parityago</p>
+<p>vairagyam phalgu kathyate</p>
+<p>Everything, even that which is material, is connected with the Supreme Personality of Godhead.</p>
+<p>Therefore everything should be engaged in the service of the Lord.</p>
+<p>Srila Bhaktisiddhanta Sarasvati Thakura translates this verse as follows:</p>
+<p>hari-sevaya yaha haya anukula</p>
+<p>visaya baliya tahara tyage haya bhula</p>
+<p>One should not give up anything connected with the Supreme Personality of Godhead, thinking it material or enjoyable for the material senses Even the senses, when purified, are spiritual.</p>
+<p>When Maharaja Pariksit was thinking of the universal form of the Lord, his mind was certainly situated on the transcendental platform.</p>
+<p>Therefore although he might not have had any reason to be concerned with detailed information of the universe, he was thinking of it in relationship with the Supreme Lord, and therefore such geographical knowledge was not material but transcendental.</p>
+<p>Srimad-Bhagavatam (1.5.20) Narada Muni has said, idam hi visvam bhagavan ivetarah: the entire universe is also the Supreme Personality of Godhead, although it appears different from Him.</p>
+<p>Therefore although Pariksit Maharaja had no need for geographical knowledge of this universe, that knowledge was also spiritual and transcendental because he was thinking of the entire universe as an expansion of the energy of the Lord.</p>
+<p>In our preaching work also, we deal with so much property and money and so many books bought and sold, but because these dealings all pertain to the Krsna consciousness movement, they should never be considered material.</p>
+<p>That one is absorbed in thoughts of such management does not mean that he is outside of Krsna consciousness.</p>
+<p>If one rigidly observes the regulative principle of chanting sixteen rounds of the maha-mantra every day, his dealings with the material world for the sake of spreading the Krsna consciousness movement are not different from the spiritual cultivation of Krsna consciousness.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>5.16.4</strong></p>
+<p>rsir uvaca</p>
+<p>na vai maharaja bhagavato maya-guna-vibhuteh kastham manasa vacasa vadhigantum alam vibudhayusapi purusas tasmat pradhan-yenaiva bhu-golaka-visesam nama-rupa-mana-laksanato vyakhyasyamah.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>rsih uvaca—Sri Sukadeva Gosvami continued to speak; na—not; vai—indeed; maha-raja—O great King; bhagavatah—of the Supreme Personality of Godhead; maya-guna-vibhuteh—of the transformation of the qualities of the material energy; kastham—the end; manasa—by the mind; vacasa—by words; va—either; adhigantum—to understand fully; alam—capable; vibudha-ayusa—with a duration of life like that of Brahma; api—even; purusah—a person; tasmat—therefore; pradhanyena—by a general description of the chief places; eva—certainly; bhu-golaka-visesam—the particular description of Bhuloka; nama-rupa—names and forms; mana—measurements; laksanatah—according to symptoms; vyakhyasyamah—I shall try to explain.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The great rsi Sukadeva Gosvami said: My dear King, there is no limit to the expansion of the Supreme Personality of Godhead’s material energy.</p>
+<p>This material world is a transformation of the material qualities (sattva-guna, rajo-guna and tamo-guna), yet no one could possibly explain it perfectly, even in a lifetime as long as that of Brahma No one in the material world is perfect, and an imperfect person could not describe this material universe accurately, even after continued speculation.</p>
+<p>O King, I shall nevertheless try to explain to you the principal regions, such as Bhu-goloka (Bhuloka), with their names, forms, measurements and various symptoms.</p>
+<p><strong>PURPORT</strong></p>
+<p>The material world is only one fourth of the Supreme Personality of Godhead’s creation, but it is unlimited and impossible for anyone to know or describe, even with the qualification of a life as long as that of Brahma, who lives for millions and millions of years.</p>
+<p>Modern scientists and astronomers try to explain the cosmic situation and the vastness of space, and some of them believe that all the glittering stars are different suns.</p>
+<p>From Bhagavad-gita, however, we understand that all these stars (naksatras) are like the moon, in that they reflect the sunshine.</p>
+<p>They are not independent luminaries.</p>
+<p>Bhuloka is explained to be that portion of outer space through which the heat and light of the sun extend.</p>
+<p>Therefore it is natural to conclude that this universe extends in space as far as we can see and encompasses the glittering stars.</p>
+<p>Srila Sukadeva Gosvami admitted that to give full details of this expansive material universe would be impossible, but nevertheless he wanted to give the King as much knowledge as he had received through the parampara system.</p>
+<p>We should conclude that if one cannot comprehend the material expansions of the Supreme Personality of Godhead, one certainly cannot estimate the expansiveness of the spiritual world.</p>
+<p>Brahma-samhita (5.33) confirms this:</p>
+<p>advaitam acyutam anadim ananta-rupam</p>
+<p>adyam purana-purusam nava-yauvanam ca</p>
+<p>The limits of the expansions of Govinda, the Supreme Personality of Godhead, cannot be estimated by anyone, even a person as perfect as Brahma, not to speak of tiny scientists whose senses and instruments are all imperfect and who cannot give us information of even this one universe.</p>
+<p>We should therefore be satisfied with the information obtainable from Vedic sources as spoken by authorities like Sukadeva Gosvami.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>5.16.5</strong></p>
+<p>yo vayam dvipah kuvalaya-kamala-kosabhyantara-koso niyuta-yojana-visalah samavartulo yatha puskara-patram.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—which; va—either; ayam—this; dvipah—island; kuvalaya—the Bhuloka; kamala-kosa—of the whorl of a lotus flower; abhyantara—inner; kosah—whorl; niyuta-yojana-visalah—one million yojanas (eight million miles) wide; samavartulah—equally round, or having a length and breadth of the same measurement; yatha—like; puskara-patram—a lotus leaf.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The planetary system known as Bhu-mandala resembles a lotus flower, and its seven islands resemble the whorl of that flower.</p>
+<p>The length and breadth of the island known as Jambudvipa, which is situated in the middle of the whorl, are one million yojanas (eight million miles).</p>
+<p>Jambudvipa is round like the leaf of a lotus flower.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>5.16.6</strong></p>
+<p>yasmin nava varsani nava-yojana-sahasrayamany astabhir maryada-giribhih suvibhaktani bhavanti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yasmin—in that Jambudvipa; nava—nine; varsani—divisions of land; nava-yojana-sahasra—72,000 miles in length; ayamani—measuring; astabhih—by eight; maryada—indicating the boundaries; giribhih—by mountains; suvibhaktani—nicely divided from one another; bhavanti—are.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In Jambudvipa there are nine divisions of land, each with a length of 9,000 yojanas (72,000 miles).</p>
+<p>There are eight mountains that mark the boundaries of these divisions and separate them nicely.</p>
+<p><strong>PURPORT</strong></p>
+<p>Srila Visvanatha Cakravarti Thakura gives the following quotation from the Vayu Purana, wherein the locations of the various mountains, beginning with the Himalayas, are described dhanurvat samsthite jneye dve varse daksinottare; dirghani tatra catvari caturasram ilavrtam iti daksinottare bharatottara-kuru-varse catvari kimpurusa-harivarsa-ramyaka-hiranmayani varsani nila-nisadhayos tirascinibhuya samudra-pravistayoh samlagnatvam angikrtya bhadrasva-ketumalayor api dhanur-akrtitvam; atas tayor dairghyata eva madhye sankucitatvena nava-sahasrayamatvam; ilavrtasya tu meroh sakasat catur-diksu nava-sahasrayama-tvam sambhavet vastutas tv ilavrta-bhadrasva-ketumalanam catus-trimsat-sahasrayamatvam jneyam.</p>
+
+
+
+<p><strong>5.16.7</strong></p>
+<p>esam madhye ilavrtam namabhyantara-varsam yasya nabhyam avasthitah sarvatah sauvarnah kula-giri-rajo merur dvipayama-samunnahah karnika-bhutah kuvalaya-kamalasya murdhani dva-trimsat sahasra-yojana-vitato mule sodasa-sahasram tavat antar-bhumyam pravistah.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>esam—all these divisions of Jambudvipa; madhye—among; ilavrtam nama—named Ilavrta-varsa; abhyantara-varsam—the inner division; yasya—of which; nabhyam—in the navel; avasthitah—situated; sarvatah—entirely; sauvarnah—made of gold; kula-giri-rajah—the most famous among famous mountains; meruh—Mount Meru; dvipa-ayama-samunnahah—whose height is the same measurement as the width of Jambudvipa; karnika-bhutah—existing as the pericarp; kuvalaya—of this planetary system; kamalasya—like a lotus flower; murdhani—on the top; dva-trimsat—thirty-two; sahasra—thousand; yojana—yojanas (eight miles each; vitatah—expanded; mule—at the base; sodasa-sahasram—sixteen thousand yojanas; tavat—so much; antah-bhumyam—within the earth; pravistah—entered.</p>
+<p><strong>TRANSLATION</strong></p>
+
+
+
+<p><strong>5.16.8</strong></p>
+<p>uttarottarenelavrtam nilah svetah srngavan iti trayo ramyaka-hiranmaya-kurunam varsanam maryada-girayah prag-ayata ubhayatah ksarodavadhayo dvi-sahasra-prthava ekaikasah purvasmat purvasmad uttara uttaro dasamsadhikamsena dairghya eva hrasanti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>uttara-uttarena ilavrtam—further and further north of Ilavrta-varsa; nilah—Nila; svetah—Sveta; srngavan—Srngavan; iti—thus; trayah—three mountains; ramyaka—Ramyaka; hiranmaya—Hiranmaya; kurunam—of the Kuru division; varsanam—of the varsas; maryada-girayah—the mountains marking the borders; prak-ayatah—extended on the eastern side; ubhayatah—to the east and the west; ksaroda—the ocean of salt water; avadhayah—extending to; dvi-sahasra-prthavah—which are two thousand yojanas wide; eka-ekasah—one after another; purvasmat—than the former; purvasmat—than the former; uttarah—further north; uttarah—further north; dasa-amsa-adhika-amsena—by one tenth of the former; dairghyah—in length; eva—indeed; hrasanti—become shorter.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Just north of Ilavrta-varsa—and going further northward, one after another—are three mountains named Nila, Sveta and Srngavan.</p>
+<p>These mark the borders of the three varsas named Ramyaka, Hiranmaya and Kuru and separate them from one another.</p>
+<p>The width of these mountains is 2,000 yojanas (16,000 miles).</p>
+<p>Lengthwise, they extend east and west to the beaches of the ocean of salt water.</p>
+<p>Going from south to north, the length of each mountain is one tenth that of the previous mountain, but the height of them all is the same.</p>
+<p><strong>PURPORT</strong></p>
+<p>In this regard, Madhvacarya quotes the following verses from the Brahmanda Purana:</p>
+<p>yatha bhagavate tuktam</p>
+<p>bhauvanam kosa-laksanam</p>
+<p>tasyavirodhato yojyam</p>
+<p>anya-granthantare sthitam</p>
+<p>mandode puranam caiva</p>
+<p>vyatyasam ksira-sagare</p>
+<p>rahu-soma-ravinam ca</p>
+<p>mandalad dvi-gunoktitam</p>
+<p>vinaiva sarvam unneyam</p>
+<p>yojanabhedato ’tra tu</p>
+<p>It appears from these verses that aside from the sun and moon, there is an invisible planet called Rahu.</p>
+<p>The movements of Rahu cause both solar and lunar eclipses.</p>
+<p>We suggest that the modern expeditions attempting to reach the moon are mistakenly going to Rahu.</p>
+
+
+
+<p><strong>5.16.9</strong></p>
+<p>evam daksinenelavrtam nisadho hemakuto himalaya iti prag-ayata yatha niladayo ’yuta-yojanotsedha hari-varsa-kimpurusa-bharatanam yatha-sankhyam.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>evam—thus; daksinena—by degrees to the southern side; ilavrtam—of Ilavrta-varsa; nisadhah hema-kutah himalayah—three mountains named Nisadha, Hemakuta and Himalaya; iti—thus; prak-ayatah—extended to the east; yatha—just as; nila-adayah—the mountains headed by Nila; ayuta-yojana-utsedhah—ten thousand yojanas high; hari-varsa—the division named Hari-varsa; kimpurusa—the division named Kimpurusa; bharatanam—the division named Bharata-varsa; yatha-sankhyam—according to number.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Similarly, south of Ilavrta-varsa and extending from east to west are three great mountains named (from north to south) Nisadha, Hemakuta and Himalaya.</p>
+<p>Each of them is 10,000 yojanas (80,000 miles) high.</p>
+<p>They mark the boundaries of the three varsas named Hari-varsa, Kimpurusa-varsa and Bharata-varsa (India).</p>
+
+
+
+<p><strong>5.16.10</strong></p>
+<p>tathaivelavrtam aparena purvena ca malyavad-gandhamadanav anila-nisadhayatau dvi-sahasram paprathatuh ketumala-bhadrasvayoh simanam vidadhate.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatha eva—exactly like that; ilavrtam aparena—on the western side of Ilavrta-varsa; purvena ca—and on the eastern side; malyavad-gandha-madanau—the demarcation mountains of Malyavan on the west and Gandhamadana on the east; a-nila-nisadha-ayatau—on the northern side up to the mountain known as Nila and on the southern side up to the mountain known as Nisadha; dvi-sahasram—two thousand yojanas; paprathatuh—they extend; ketumala-bhadrasvayoh—of the two varsas named Ketumala and Bhadrasva; simanam—the border; vidadhate—establish.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In the same way, west and east of Ilavrta-varsa are two great mountains named Malyavan and Gandhamadana respectively.</p>
+<p>These two mountains, which are 2,000 yojanas (16,000 miles) high, extend as far as Nila Mountain in the north and Nisadha in the south.</p>
+<p>They indicate the borders of Ilavrta-varsa and also the varsas known as Ketumala and Bhadrasva.</p>
+<p><strong>PURPORT</strong></p>
+<p>There are so many mountains, even on this planet earth.</p>
+<p>We do not think that the measurements of all of them have actually been calculated.</p>
+<p>While passing over the mountainous region from Mexico to Caracas, we actually saw so many mountains that we doubt whether their height, length and breadth have been properly measured.</p>
+<p>Therefore, as indicated in Srimad-Bhagavatam by Sukadeva Gosvami, we should not try to comprehend the greater mountainous areas of the universe merely by our calculations.</p>
+<p>Sukadeva Gosvami has already stated that such calculations would be very difficult even if one had a duration of life like that of Brahma.</p>
+<p>We should simply be satisfied with the statements of authorities like Sukadeva Gosvami and appreciate how the entire cosmic manifestation has been made possible by the external energy of the Supreme Personality of Godhead.</p>
+<p>The measurements given herein, such as 10,000 yojanas or 100,000 yojanas, should be considered correct because they have been given by Sukadeva Gosvami.</p>
+<p>Our experimental knowledge can neither verify nor disprove the statements of Srimad-Bhagavatam.</p>
+<p>We should simply hear these statements from the authorities.</p>
+<p>If we can appreciate the extensive energy of the Supreme Personality of Godhead, that will benefit us.</p>
+
+
+
+<p><strong>5.16.11</strong></p>
+<p>mandaro merumandarah suparsvah kumuda ity ayuta-yojana-vistaronnaha meros catur-disam avastambha-giraya upaklptah.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>mandarah—the mountain named Mandara; meru-mandarah—the mountain named Merumandara; suparsvah—the mountain named Suparsva; kumudah—the mountain named Kumuda; iti—thus; ayuta-yojana-vistara-unnahah—which measure ten thousand yojanas high and wide; meroh—of Sumeru; catuh-disam—the four sides; avastambha-girayah—mountains that are like the belts of Sumeru; upaklptah—situated.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>On the four sides of the great mountain known as Sumeru are four mountains—Mandara, Merumandara, Suparsva and Kumuda—which are like its belts.</p>
+<p>The length and height of these mountains are calculated to be 10,000 yojanas (80,000 miles).</p>
+
+
+
+<p><strong>5.16.12</strong></p>
+<p>catursv etesu cuta-jambu-kadamba-nyagrodhas catvarah padapa-pravarah parvata-ketava ivadhi-sahasra-yojanonnahas tavad vitapa-vitatayah sata-yojana-parinahah.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>catursu—on the four; etesu—on these mountains, beginning with Mandara; cuta-jambu-kadamba—of trees such as the mango, rose apple and kadamba; nyagrodhah—and the banyan tree; catvarah—four kinds; padapa-pravarah—the best of trees; parvata-ketavah—the flagstaffs on the mountains; iva—like; adhi—over; sahasra-yojana-unnahah—one thousand yojanas high; tavat—so much also; vitapa-vitatayah—the length of the branches; sata-yojana—one hundred yojanas; parinahah—wide.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Standing like flagstaffs on the summits of these four mountains are a mango tree, a rose apple tree, a kadamba tree and a banyan tree.</p>
+<p>Those trees are calculated to have a width of 100 yojanas (800 miles) and a height of 1,100 yojanas (8,800 miles).</p>
+<p>Their branches also spread to a radius of 1,100 yojanas.</p>
+
+
+
+<p><strong>5.16.13-14</strong></p>
+<p>hradas catvarah payo-madhv-iksurasa-mrsta-jala yad-upasparsina upadeva-gana yogaisvaryani svabhavikani bharatarsabha dharayanti; devodyanani ca bhavanti catvari nandanam caitraratham vaibhrajakam sarvatobhadram iti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>hradah—lakes; catvarah—four; payah—milk; madhu—honey; iksu-rasa—sugarcane juice; mrsta-jalah—filled with pure water; yat—of which; upasparsinah—those who use the liquids; upadeva-ganah—the demigods; yoga-aisvaryani—all the perfections of mystic yoga; svabhavikani—without being tried for; bharata-rsabha—O best of the Bharata dynasty; dharayanti—possess; deva-udyanani—celestial gardens; ca—also; bhavanti—there are; catvari—four; nandanam—of the Nandana garden; caitra-ratham—Caitraratha garden; vaibhrajakam—Vaibhrajaka garden; sarvatah-bhadram—Sarvatobhadra garden; iti—thus.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O Maharaja Pariksit, best of the Bharata dynasty, between these four mountains are four huge lakes.</p>
+<p>The water of the first tastes just like milk; the water of the second, like honey; and that of the third, like sugarcane juice.</p>
+<p>The fourth lake is filled with pure water.</p>
+<p>The celestial beings such as the Siddhas, Caranas and Gandharvas, who are also known as demigods, enjoy the facilities of those four lakes.</p>
+<p>Consequently they have the natural perfections of mystic yoga, such as the power to become smaller than the smallest or greater than the greatest.</p>
+<p>There are also four celestial gardens named Nandana, Caitraratha, Vaibhrajaka and Sarvatobhadra.</p>
+
+
+
+<p><strong>5.16.15</strong></p>
+<p>yesv amara-parivrdhah saha sura-lalana-lalama-yutha-pataya upadeva-ganair upagiyamana-mahimanah kila viharanti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yesu—in which; amara-parivrdhah—the best of the demigods; saha—with; sura-lalana—of the wives of all the demigods and semidemigods; lalama—of those women who are like ornaments; yutha-patayah—the husbands; upadeva-ganaih—by the semi-demigods (the Gandharvas); upagiyamana—being chanted; mahimanah—whose glories; kila—indeed; viharanti—they enjoy sports.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The best of the demigods, along with their wives, who are like ornaments of heavenly beauty, meet together and enjoy within those gardens, while their glories are sung by lesser demigods known as Gandharvas.</p>
+
+
+
+<p><strong>5.16.16</strong></p>
+<p>mandarotsanga ekadasa-sata-yojanottunga-devacuta-siraso giri-sikhara-sthulani phalany amrta-kalpani patanti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>mandara-utsange—on the lower slopes of Mandara Mountain; ekadasa-sata-yojana-uttunga—1,100 yojanas high; devacuta-sirasah—from the top of a mango tree named Devacuta; giri-sikhara-sthulani—which are as fat as mountain peaks; phalani—fruit; amrta-kalpani—as sweet as nectar; patanti—fall down.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>On the lower slopes of Mandara Mountain is a mango tree named Devacuta.</p>
+<p>It is 1,100 yojanas high.</p>
+<p>Mangoes as big as mountain peaks and as sweet as nectar fall from the top of this tree for the enjoyment of the denizens of heaven.</p>
+<p><strong>PURPORT</strong></p>
+<p>In the Vayu Purana there is also a reference to this tree by great learned sages:</p>
+<p>aratninam satany astav</p>
+<p>eka-sasty-adhikani ca</p>
+<p>phala-pramanam akhyatam</p>
+<p>rsibhis tattva-darsibhih</p>
+
+
+
+<p><strong>5.16.17</strong></p>
+<p>tesam visiryamananam ati-madhura-surabhi-sugandhi-bahularuna-rasodenarunoda nama nadi mandara-giri-sikharan nipatanti pur-venelavrtam upaplavayati.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tesam—of all the mangoes; visiryamananam—being broken because of falling from the top; ati-madhura—very sweet; surabhi—fragrant; sugandhi—scented with other aromas; bahula—large quantities; aruna-rasa-udena—by reddish juice; arunoda—Arunoda; nama—named; nadi—the river; mandara-giri-sikharat—from the top of Mandara Mountain; nipatanti—falling down; purvena—on the eastern side; ilavrtam—through Ilavrta-varsa; upaplavayati—flows.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When all those solid fruits fall from such a height, they break, and the sweet, fragrant juice within them flows out and becomes increasingly more fragrant as it mixes with other scents.</p>
+<p>That juice cascades from the mountain in waterfalls and becomes a river called Arunoda, which flows pleasantly through the eastern side of Ilavrta.</p>
+
+
+
+<p><strong>5.16.18</strong></p>
+<p>yad-upajosanad bhavanya anucarinam punya-jana-vadhunam avayava-sparsa-sugandha-vato dasa-yojanam samantad anuvasayati.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yat—of which; upajosanat—because of using the fragrant water; bhavanyah—of Bhavani, the wife of Lord Siva; anucarinam—of attendant maidservants; punya-jana-vadhunam—who are wives of the most pious Yaksas; avayava—of the bodily limbs; sparsa—from contact; sugandha-vatah—the wind, which becomes fragrant; dasa-yojanam—up to ten yojanas (about eighty miles); samantat—all around; anuvasayati—makes fragrant.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The pious wives of the Yaksas act as personal maidservants to assist Bhavani, the wife of Lord Siva.</p>
+<p>Because they drink the water of the River Arunoda, their bodies become fragrant, and as the air carries away that fragrance, it perfumes the entire atmosphere for eighty miles around.</p>
+
+
+
+<p><strong>5.16.19</strong></p>
+<p>evam jambu-phalanam atyucca-nipata-visirnanam anasthi-prayanam ibha-kaya-nibhanam rasena jambu nama nadi meru-mandara-sikharad ayuta-yojanad avani-tale nipatanti daksinenatmanam yavad ilavrtam upasyandayati.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>evam—similarly; jambu-phalanam—of the fruits called jambu (the rose apple); ati-ucca-nipata—because of falling from a great height; visirnanam—which are broken to pieces; anasthi-prayanam—having very small seeds; ibha-kaya-nibhanam—and which are as large as the bodies of elephants; rasena—by the juice; jambu nama nadi—a river named Jambu-nadi; meru-mandara-sikharat—from the top of Merumandara Mountain; ayuta-yojanat—ten thousand yojanas high; avani-tale—on the ground; nipatanti—falling; daksinena—on the southern side; atmanam—itself; yavat—the whole; ilavrtam—Ilavrta-varsa; upasyandayati—flows through.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Similarly, the fruits of the jambu tree, which are full of pulp and have very small seeds, fall from a great height and break to pieces.</p>
+<p>Those fruits are the size of elephants, and the juice gliding from them becomes a river named Jambu-nadi.</p>
+<p>This river falls a distance of 10,000 yojanas, from the summit of Merumandara to the southern side of Ilavrta, and floods the entire land of Ilavrta with juice.</p>
+<p><strong>PURPORT</strong></p>
+<p>We can only imagine how much juice there might be in a fruit that is the size of an elephant but has a very tiny seed.</p>
+<p>Naturally the juice from the broken jambu fruits forms waterfalls and floods the entire land of Ilavrta.</p>
+<p>That juice produces an immense quantity of gold, as will be explained in the next verses.</p>
+
+
+
+<p><strong>5.16.20-21</strong></p>
+<p>tavad ubhayor api rodhasor ya mrttika tad-rasenanuvidhyamana vayv-arka-samyoga-vipakena sadamara-lokabharanam jambu-nadam nama suvarnam bhavati; yad u ha vava vibudhadayah saha yuvatibhir mukuta-kataka-kati-sutrady-abharana-rupena khalu dharayanti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tavat—entirely; ubhayoh api—of both; rodhasoh—of the banks; ya—which; mrttika—the mud; tat-rasena—with the juice of the jambu fruits that flows in the river; anuvidhyamana—being saturated; vayu-arka-samyoga-vipakena—because of a chemical reaction with the air and sunshine; sada—always; amara-loka-abharanam—which is used for the ornaments of the demigods, the denizens of the heavenly planets; jambu-nadam nama—named Jambu-nada; suvarnam—gold; bhavati—becomes; yat—which; u ha vava—indeed; vibudha-adayah—the great demigods; saha—with; yuvatibhih—their everlastingly youthful wives; mukuta—crowns; kataka—bangles; kati-sutra—belts; adi—and so on; abharana—of all kinds of ornaments; rupena—in the form; khalu—indeed; dharayanti—they possess.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The mud on both banks of the River Jambu-nadi, being moistened by the flowing juice and then dried by the air and the sunshine, produces huge quantities of gold called Jambu-nada.</p>
+<p>The denizens of heaven use this gold for various kinds of ornaments.</p>
+<p>Therefore all the inhabitants of the heavenly planets and their youthful wives are fully decorated with golden helmets, bangles and belts, and thus they enjoy life.</p>
+<p><strong>PURPORT</strong></p>
+<p>By the arrangement of the Supreme Personality of Godhead, the rivers on some planets produce gold on their banks.</p>
+<p>The poor inhabitants of this earth, because of their incomplete knowledge, are captivated by a so-called bhagavan who can produce a small quantity of gold.</p>
+<p>However, it is understood that in a higher planetary system in this material world, the mud on the banks of the Jambu-nadi mixes with jambu juice, reacts with the sunshine in the air, and automatically produces huge quantities of gold.</p>
+<p>Thus the men and women are decorated there by various golden ornaments, and they look very nice.</p>
+<p>Unfortunately, on earth there is such a scarcity of gold that the governments of the world try to keep it in reserve and issue paper currency.</p>
+<p>Because that currency is not backed up by gold, the paper they distribute as money is worthless, but nevertheless the people on earth are very proud of material advancement.</p>
+<p>In modern times, girls and ladies have ornaments made of plastic instead of gold, and plastic utensils are used instead of golden ones, yet people are very proud of their material wealth.</p>
+<p>Therefore the people of this age are described as mandah sumanda-matayo manda-bhagya hy upadrutah (Bhag.1.1.10).</p>
+<p>In other words, they are extremely bad and slow to understand the opulence of the Supreme Personality of Godhead.</p>
+<p>They have been described as sumanda-matayah because their conceptions are so crippled that they accept a bluffer who produces a little gold to be God.</p>
+<p>Because they have no gold in their possession, they are actually poverty-stricken, and therefore they are considered unfortunate.</p>
+<p>Sometimes these unfortunate people want to be promoted to the heavenly planets to achieve fortunate positions, as described in this verse, but pure devotees of the Lord are not at all interested in such opulence.</p>
+<p>Indeed, devotees sometimes compare the color of gold to that of bright golden stool.</p>
+<p>Sri Caitanya Mahaprabhu has instructed devotees not to be allured by golden ornaments and beautifully decorated women.</p>
+<p>Na dhanam na janam na sundarim: a devotee should not be allured by gold beautiful women or the prestige of having many followers.</p>
+<p>Sri Caitanya Mahaprabhu, therefore, confidentially prayed, mama janmani janmanisvare bhavatad bhaktir ahaituki tvayi: My Lord, please bless Me with Your devotional service.</p>
+<p>I do not want anything else A devotee may pray to be delivered from this material world.</p>
+<p>That is his only aspiration ayi nanda-tanuja kinkaram</p>
+<p>patitam mam visame bhavambudhau</p>
+<p>krpaya tava pada-pankaja-</p>
+<p>sthita-dhuli-sadrsam vicintaya</p>
+<p>The humble devotee simply prays to the Lord, Kindly pick me up from the material world, which is full of varieties of material opulence, and keep me under the shelter of Your lotus feet Srila Narottama dasa Thakura prays:</p>
+<p>karuna karaha ei-bara</p>
+<p>toma vine ke ache amara</p>
+<p>O my Lord, O son of Nanda Maharaja, now You are standing before me with Your consort, the daughter of Vrsabhanu, Srimati Radharani.</p>
+<p>Kindly accept me as the dust of Your lotus feet please do not kick me away, for I have no other shelter Similarly, Prabodhananda Sarasvati indicates that the position of the demigods, who are decorated with golden helmets and other ornaments, is no better than a phantasmagoria (tri-dasa-pur akasa-puspayate).</p>
+<p>A devotee is never allured by such opulences.</p>
+<p>He simply aspires to become the dust of the lotus feet of the Lord.</p>
+
+
+
+<p><strong>5.16.22</strong></p>
+<p>yas tu maha-kadambah suparsva-nirudho yas tasya kotarebhyo vinihsrtah pancayama-parinahah panca madhu-dharah suparsva-sikharat patantyo ’parenatmanam ilavrtam anumodayanti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—which; tu—but; maha-kadambah—the tree named Mahakadamba; suparsva-nirudhah—which stands on the side of the mountain known as Suparsva; yah—which; tasya—of that; kotarebhyah—from the hollows; vinihsrtah—flowing; panca—five; ayama—vyama, a unit of measurement of about eight feet; parinahah—whose measurement; panca—five; madhu-dharah—flows of honey; suparsva-sikharat—from the top of Suparsva Mountain; patantyah—flowing down; aparena—on the western side of Sumeru Mountain; atmanam—the whole of; ilavrtam—Ilavrta-varsa; anumodayanti—make fragrant.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>On the side of Suparsva Mountain stands a big tree called Mahakadamba, which is very celebrated.</p>
+<p>From the hollows of this tree flow five rivers of honey, each about five vyamas wide.</p>
+<p>This flowing honey falls incessantly from the top of Suparsva Mountain and flows all around Ilavrta-varsa, beginning from the western side.</p>
+<p>Thus the whole land is saturated with the pleasing fragrance.</p>
+<p><strong>PURPORT</strong></p>
+<p>The distance between one hand and another when one spreads both his arms is called a vyama.</p>
+<p>This comes to about eight feet.</p>
+<p>Thus each of the rivers was about forty feet wide, making a total of about two hundred feet.</p>
+
+
+
+<p><strong>5.16.23</strong></p>
+<p>ya hy upayunjananam mukha-nirvasito vayuh samantac chata-yojanam anuvasayati.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—which (those flows of honey); hi—indeed; upayunjananam—of those who drink; mukha-nirvasitah vayuh—the air emanating from the mouths; samantat—all around; sata-yojanam—up to one hundred yojanas (eight hundred miles); anuvasayati—makes sweetly flavored.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The air carrying the scent from the mouths of those who drink that honey perfumes the land for a hundred yojanas around.</p>
+
+
+
+<p><strong>5.16.24</strong></p>
+<p>evam kumuda-nirudho yah satavalso nama vatas tasya skandhebhyo nicinah payo-dadhi-madhu-ghrta-gudannady-ambara-sayyasanabharanadayah sarva eva kama-dugha nadah kumudagrat patantas tam uttarenelavrtam upayojayanti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>evam—thus; kumuda-nirudhah—having grown on Kumuda Mountain; yah—that; sata-valsah nama—the tree named Satavalsa (because of having hundreds of trunks); vatah—a banyan tree; tasya—of it; skandhebhyah—from the thick branches; nicinah—flowing down; payah—milk; dadhi—yogurt; madhu—honey; ghrta—clarified butter; guda—molasses; anna—food grains; adi—and so on; ambara—clothing; sayya—bedding; asana—sitting places; abharana-adayah—carrying ornaments and so on; sarve—everything; eva—certainly; kama-dughah—fulfilling all desires; nadah—big rivers; kumuda-agrat—from the top of Kumuda Mountain; patantah—flowing; tam—to that; uttarena—on the northern side; ilavrtam—the land known as Ilavrta-varsa; upayojayanti—give happiness.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Similarly, on Kumuda Mountain there is a great banyan tree, which is called Satavalsa because it has a hundred main branches.</p>
+<p>From those branches come many roots, from which many rivers are flowing.</p>
+<p>These rivers flow down from the top of the mountain to the northern side of Ilavrta-varsa for the benefit of those who live there.</p>
+<p>Because of these flowing rivers, all the people have ample supplies of milk, yogurt, honey, clarified butter (ghee), molasses, food grains, clothes, bedding, sitting places and ornaments.</p>
+<p>All the objects they desire are sufficiently supplied for their prosperity, and therefore they are very happy.</p>
+<p><strong>PURPORT</strong></p>
+<p>The prosperity of humanity does not depend on a demoniac civilization that has no culture and no knowledge but has only gigantic skyscrapers and huge automobiles always rushing down the highways.</p>
+<p>The products of nature are sufficient.</p>
+<p>When there is a profuse supply of milk, yogurt, honey, food grains, ghee, molasses, dhotis, saris, bedding, sitting places and ornaments, the residents are actually opulent.</p>
+<p>When a profuse supply of water from the river inundates the land, all these things can be produced, and there will not be scarcity.</p>
+<p>This all depends, however, on the performance of sacrifice as described in the Vedic literature annad bhavanti bhutani</p>
+<p>parjanyad anna-sambhavah</p>
+<p>yajnad bhavati parjanyo</p>
+<p>yajnah karma-samudbhavah</p>
+<p>All living bodies subsist on food grains, which are produced from rains.</p>
+<p>Rains are produced by performance of yajna (sacrifice), and yajna is born of prescribed duties These are the prescriptions given in Bhagavad-gita (3.14).</p>
+<p>If people follow these principles in full Krsna consciousness, human society will be prosperous, and they will be happy both in this life and in the next.</p>
+
+
+
+<p><strong>5.16.25</strong></p>
+<p>yan upajusananam na kadacid api prajanam vali-palita-klama-sveda-daurgandhya-jaramaya-mrtyu-sitosna-vaivarnyopasargadayas tapa-visesa bhavanti yavaj jivam sukham niratisayam eva.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yan—which (all the products produced because of the flowing rivers mentioned above); upajusananam—of persons who are fully utilizing; na—not; kadacit—at any time; api—certainly; prajanam—of the citizens; vali—wrinkles; palita—grey hair; klama—fatigue; sveda—perspiration; daurgandhya—bad odors because of unclean perspiration; jara—old age; amaya—disease; mrtyu—untimely death; sita—severe cold; usna—scorching heat; vaivarnya—fading of the luster of the body; upasarga—troubles; adayah—and so on; tapa—of sufferings; visesah—varieties; bhavanti—are; yavat—as long as; jivam—life; sukham—happiness; niratisayam—unlimited; eva—only.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The residents of the material world who enjoy the products of these flowing rivers have no wrinkles on their bodies and no grey hair.</p>
+<p>They never feel fatigue, and perspiration does not give their bodies a bad odor.</p>
+<p>They are not afflicted by old age, disease or untimely death, they do not suffer from chilly cold or scorching heat, nor do their bodies lose their luster.</p>
+<p>They all live very happily, without anxieties, until death.</p>
+<p><strong>PURPORT</strong></p>
+<p>This verse hints at the perfection of human society even within this material world.</p>
+<p>The miserable conditions of this material world can be corrected by a sufficient supply of milk, yogurt, honey, ghee, molasses, food grains, ornaments, bedding, sitting places and so on.</p>
+<p>This is human civilization.</p>
+<p>Ample food grains can be produced through agricultural enterprises, and profuse supplies of milk, yogurt and ghee can be arranged through cow protection.</p>
+<p>Abundant honey can be obtained if the forests are protected.</p>
+<p>Unfortunately, in modern civilization, men are busy killing the cows that are the source of yogurt, milk and ghee, they are cutting down all the trees that supply honey, and they are opening factories to manufacture nuts, bolts, automobiles and wine instead of engaging in agriculture.</p>
+<p>How can the people be happy? They must suffer from all the misery of materialism.</p>
+<p>Their bodies become wrinkled and gradually deteriorate until they become almost like dwarves, and a bad odor emanates from their bodies because of unclean perspiration resulting from eating all kinds of nasty things.</p>
+<p>This is not human civilization.</p>
+<p>If people actually want happiness in this life and want to prepare for the best in the next life, they must adopt a Vedic civilization.</p>
+<p>In a Vedic civilization, there is a full supply of all the necessities mentioned above.</p>
+
+
+
+<p><strong>5.16.26</strong></p>
+<p><strong>SYNONYMS</strong></p>
+<p>kuranga—Kuranga; kurara—Kurara; kusumbha-vaikanka-trikuta-sisira-patanga-rucaka-nisadha-sinivasa-kapila-sankha-vaidurya-jarudhi-hamsa-rsabha-naga-kalanjara-narada—the names of mountains; adayah—and so on; vimsati-girayah—twenty mountains; meroh—of Sumeru Mountain; karnikayah—of the whorl of the lotus; iva—like; kesara-bhutah—as filaments; mula-dese—at the base; paritah—all around; upaklptah—arranged by the Supreme Personality of Godhead.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>There are other mountains beautifully arranged around the foot of Mount Meru like the filaments around the whorl of a lotus flower.</p>
+<p>Their names are Kuranga, Kurara, Kusumbha, Vaikanka, Trikuta, Sisira, Patanga, Rucaka, Nisadha, Sinivasa, Kapila, Sankha, Vaidurya, Jarudhi, Hamsa, Rsabha, Naga, Kalanjara and Narada.</p>
+
+
+
+<p><strong>5.16.27</strong></p>
+<p>jathara-devakutau merum purvenastadasa-yojana-sahasram udagayatau dvi-sahasram prthu-tungau bhavatah; evam aparena pavana-pariyatrau daksinena kailasa-karavirau prag-ayatav evam uttaratas trisrnga-makarav astabhir etaih parisrto ’gnir iva paritas cakasti kancana-girih.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>jathara-devakutau—two mountains named Jathara and Devakuta; merum—Sumeru Mountain; purvena—on the eastern side; astadasa-yojana-sahasram—eighteen thousand yojanas; udagayatau—stretching from north to south; dvi-sahasram—two thousand yojanas; prthu-tungau—in width and height; bhavatah—there are; evam—similarly; aparena—on the western side; pavana-pariyatrau—two mountains named Pavana and Pariyatra; daksinena—on the southern side; kailasa-karavirau—two mountains named Kailasa and Karavira; prak-ayatau—expanding east and west; evam—similarly; uttaratah—on the northern side; trisrnga-makarau—two mountains named Trisrnga and Makara; astabhih etaih—by these eight mountains; parisrtah—surrounded; agnih iva—like fire; paritah—all over; cakasti—brilliantly shines; kancana-girih—the golden mountain named Sumeru, or Meru.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>On the eastern side of Sumeru Mountain are two mountains named Jathara and Devakuta, which extend to the north and south for 18,000 yojanas (144,000 miles).</p>
+<p>Similarly, on the western side of Sumeru are two mountains named Pavana and Pariyatra, which also extend north and south for the same distance.</p>
+<p>On the southern side of Sumeru are two mountains named Kailasa and Karavira, which extend east and west for 18,000 yojanas, and on the northern side of Sumeru, extending for the same distance east and west, are two mountains named Trisrnga and Makara.</p>
+<p>The width and height of all these mountains is 2,000 yojanas (16,000 miles).</p>
+<p>Sumeru, a mountain of solid gold shining as brilliantly as fire, is surrounded by these eight mountains.</p>
+
+
+
+<p><strong>5.16.28</strong></p>
+<p>meror murdhani bhagavata atma-yoner madhyata upaklptam purim ayuta-yojana-sahasrim sama-caturasram satakaumbhim vadanti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>meroh—of Sumeru Mountain; murdhani—on the head; bhagavatah—of the most powerful being; atma-yoneh—of Lord Brahma; madhyatah—in the middle; upaklptam—situated; purim—the great township; ayuta-yojana—ten thousand yojanas; sahasrim—one thousand; sama-caturasram—of the same length on all sides; sata-kaumbhim—made entirely of gold; vadanti—the great learned sages say.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In the middle of the summit of Meru is the township of Lord Brahma.</p>
+<p>Each of its four sides is calculated to extend for ten million yojanas (eighty million miles).</p>
+<p>It is made entirely of gold, and therefore learned scholars and sages call it Satakaumbhi.</p>
+
+
+
+<p><strong>5.16.29</strong></p>
+<p>tam anuparito loka-palanam astanam yatha-disam yatha-rupam turiya-manena puro ’stav upaklptah.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tam—that great township named Brahmapuri; anuparitah—surrounding; loka-palanam—of the governors of the planets; astanam—eight; yatha-disam—according to the directions; yatha-rupam—in exact conformity with the township of Brahmapuri; turiya-manena—by measurement only one fourth; purah—townships; astau—eight; upaklptah—situated.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Surrounding Brahmapuri in all directions are the residences of the eight principal governors of the planetary systems, beginning with King Indra.</p>
+<p>These abodes are similar to Brahmapuri but are one fourth the size.</p>
+<p><strong>PURPORT</strong></p>
+<p>Srila Visvanatha Cakravarti Thakura confirms that the townships of Lord Brahma and the eight subordinate governors of the planetary systems, beginning with Indra, are mentioned in other Puranas merau nava-purani syur</p>
+<p>manovaty amaravati</p>
+<p>tejovati samyamani</p>
+<p>tatha krsnangana para</p>
+<p>sraddhavati gandhavati</p>
+<p>tatha canya mahodaya</p>
+<p>yasovati ca brahmendra</p>
+<p>bahyadinam yatha-kramam</p>
+<p>Brahma’s township is known as Manovati, and those of his assistants such as Indra and Agni are known as Amaravati, Tejovati, Samyamani, Krsnangana, Sraddhavati, Gandhavati, Mahodaya and Yasovati.</p>
+<p>Brahmapuri is situated in the middle, and the other eight puris surround it in all directions.</p>
+
+
+</article></body></html>

@@ -1,154 +1,41 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>The Dynasties of the Sons of Manu - The Dynasties of the Sons of Manu</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">The Dynasties of the Sons of Manu</a></li><li class="affix"><a href="9.2.2.html">9.2.2</a></li><li class="affix"><a href="9.2.3.html">9.2.3</a></li><li class="affix"><a href="9.2.4.html">9.2.4</a></li><li class="affix"><a href="9.2.5-6.html">9.2.5-6</a></li><li class="affix"><a href="9.2.7.html">9.2.7</a></li><li class="affix"><a href="9.2.8.html">9.2.8</a></li><li class="affix"><a href="9.2.9.html">9.2.9</a></li><li class="affix"><a href="9.2.10.html">9.2.10</a></li><li class="affix"><a href="9.2.11-13.html">9.2.11-13</a></li><li class="affix"><a href="9.2.14.html">9.2.14</a></li><li class="affix"><a href="9.2.15.html">9.2.15</a></li><li class="affix"><a href="9.2.16.html">9.2.16</a></li><li class="affix"><a href="9.2.17.html">9.2.17</a></li><li class="affix"><a href="9.2.18.html">9.2.18</a></li><li class="affix"><a href="9.2.19.html">9.2.19</a></li><li class="affix"><a href="9.2.20.html">9.2.20</a></li><li class="affix"><a href="9.2.21.html">9.2.21</a></li><li class="affix"><a href="9.2.22.html">9.2.22</a></li><li class="affix"><a href="9.2.23-24.html">9.2.23-24</a></li><li class="affix"><a href="9.2.25.html">9.2.25</a></li><li class="affix"><a href="9.2.26.html">9.2.26</a></li><li class="affix"><a href="9.2.27.html">9.2.27</a></li><li class="affix"><a href="9.2.28.html">9.2.28</a></li><li class="affix"><a href="9.2.29.html">9.2.29</a></li><li class="affix"><a href="9.2.30.html">9.2.30</a></li><li class="affix"><a href="9.2.31.html">9.2.31</a></li><li class="affix"><a href="9.2.32.html">9.2.32</a></li><li class="affix"><a href="9.2.33.html">9.2.33</a></li><li class="affix"><a href="9.2.34.html">9.2.34</a></li><li class="affix"><a href="9.2.35-36.html">9.2.35-36</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">The Dynasties of the Sons of Manu</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#the-dynasties-of-the-sons-of-manu" id="the-dynasties-of-the-sons-of-manu">The Dynasties of the Sons of Manu</a></h1>
-<h3><a class="header" href="#921" id="921">9.2.1</a></h3>
+<h1>The Dynasties of the Sons of Manu</h1>
+<p><strong>9.2.1</strong></p>
 <p>sri-suka uvaca</p>
 <p>evam gate ’tha sudyumne</p>
 <p>manur vaivasvatah sute</p>
@@ -159,63 +46,477 @@
 <p><strong>TRANSLATION</strong></p>
 <p>Sukadeva Gosvami said: Thereafter, when his son Sudyumna had thus gone to the forest to accept the order of vanaprastha, Vaivasvata Manu (Sraddhadeva), being desirous of getting more sons, performed severe austerities on the bank of the Yamuna for one hundred years.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="9.2.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>9.2.2</strong></p>
+<p>tato ’yajan manur devam</p>
+<p>apatyartham harim prabhum</p>
+<p>iksvaku-purvajan putran</p>
+<p>lebhe sva-sadrsan dasa</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—thereafter; ayajat—worshiped; manuh—Vaivasvata Manu; devam—unto the Supreme Personality of Godhead; apatya-artham—with a desire to get sons; harim—unto Hari, the Supreme Personality of Godhead; prabhum—the Lord; iksvaku-purva-jan—of whom the eldest was named Iksvaku; putran—sons; lebhe—got; sva-sadrsan—exactly like himself; dasa—ten.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Then, because of this desire for sons, the Manu known as Sraddhadeva worshiped the Supreme Lord, the Personality of Godhead, the Lord of the demigods.</p>
+<p>Thus he got ten sons exactly like himself.</p>
+<p>Among them all, Iksvaku was the eldest.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="9.2.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>9.2.3</strong></p>
+<p>prsadhras tu manoh putro</p>
+<p>go-palo guruna krtah</p>
+<p>palayam asa ga yatto</p>
+<p>ratryam virasana-vratah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>prsadhrah tu—among them, Prsadhra; manoh—of Manu; putrah—the son; go-palah—herding cows; guruna—by the order of his spiritual master; krtah—having been engaged; palayam asa—he protected; gah—cows; yattah—so engaged; ratryam—at night; virasana-vratah—taking the vow of virasana, standing with a sword.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Among these sons, Prsadhra, following the order of his spiritual master, was engaged as a protector of cows.</p>
+<p>He would stand all night with a sword to give the cows protection.</p>
+<p><strong>PURPORT</strong></p>
+<p>One who becomes virasana takes the vow to stand all night with a sword to give protection to the cows.</p>
+<p>Because Prsadhra was engaged in this way, it is to be understood that he had no dynasty.</p>
+<p>We can further understand from this vow accepted by Prsadhra how essential it is to protect the cows.</p>
+<p>Some son of a ksatriya would take this vow to protect the cows from ferocious animals, even at night.</p>
+<p>What then is to be said of sending cows to slaughterhouses? This is the most sinful activity in human society.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>9.2.4</strong></p>
+<p>ekada pravisad gostham</p>
+<p>sardulo nisi varsati</p>
+<p>sayana gava utthaya</p>
+<p>bhitas ta babhramur vraje</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ekada—once upon a time; pravisat—entered; gostham—the land of the cowshed; sardulah—a tiger; nisi—at night; varsati—while it was raining; sayanah—lying down; gavah—cows; utthaya—getting up; bhitah—fearing; tah—all of them; babhramuh—scattered here and there; vraje—in the land surrounding the cowshed.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Once at night, while it was raining, a tiger entered the land of the cowshed.</p>
+<p>Upon seeing the tiger, all the cows, who were lying down, got up in fear and scattered here and there on the land.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>9.2.5-6</strong></p>
+<p>ekam jagraha balavan</p>
+<p>sa cukrosa bhayatura</p>
+<p>tasyas tu kranditam srutva</p>
+<p>prsadhro ’nusasara ha</p>
+<p>khadgam adaya tarasa</p>
+<p>pralinodu-gane nisi</p>
+<p>ajanann acchinod babhroh</p>
+<p>sirah sardula-sankaya</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ekam—one of the cows; jagraha—seized; balavan—the strong tiger; sa—that cow; cukrosa—began to cry; bhaya-atura—in distress and fear; tasyah—of her; tu—but; kranditam—the screaming; srutva—hearing; prsadhrah—Prsadhra; anusasara ha—followed; khadgam—sword; adaya—taking; tarasa—very hastily; pralina-udu-gane—when the stars were covered by clouds; nisi—at night; ajanan—without knowledge; acchinot—cut off; babhroh—of the cow; sirah—the head; sardula-sankaya—mistaking it for the head of the tiger.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When the very strong tiger seized the cow, the cow screamed in distress and fear, and Prsadhra, hearing the screaming, immediately followed the sound.</p>
+<p>He took up his sword, but because the stars were covered by clouds, he mistook the cow for the tiger and mistakenly cut off the cows’ head with great force.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>9.2.7</strong></p>
+<p>vyaghro ’pi vrkna-sravano</p>
+<p>nistrimsagrahatas tatah</p>
+<p>niscakrama bhrsam bhito</p>
+<p>raktam pathi samutsrjan</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vyaghrah—the tiger; api—also; vrkna-sravanah—its ear being cut off; nistrimsa-agra-ahatah—because of being cut by the tip of the sword; tatah—thereafter; niscakrama—fled (from that place); bhrsam—very much; bhitah—being afraid; raktam—blood; pathi—on the road; samutsrjan—discharging.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Because the tiger’s ear had been cut by the edge of the sword, the tiger was very afraid, and it fled from that place, while bleeding on the street.</p>
+
+
+
+<p><strong>9.2.8</strong></p>
+<p>manyamano hatam vyaghram</p>
+<p>prsadhrah para-vira-ha</p>
+<p>adraksit sva-hatam babhrum</p>
+<p>vyustayam nisi duhkhitah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>manyamanah—thinking that; hatam—has been killed; vyaghram—the tiger; prsadhrah—Manu’s son Prsadhra; para-vira-ha—although quite able to punish the enemy; adraksit—saw; sva-hatam—had been killed by him; babhrum—the cow; vyustayam nisi—when the night had passed (in the morning); duhkhitah—became very much unhappy.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In the morning, when Prsadhra, who was quite able to subdue his enemy, saw that he had killed the cow although at night he thought he had killed the tiger, he was very unhappy.</p>
+
+
+
+<p><strong>9.2.9</strong></p>
+<p>tam sasapa kulacaryah</p>
+<p>krtagasam akamatah</p>
+<p>na ksatra-bandhuh sudras tvam</p>
+<p>karmana bhavitamuna</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tam—him (Prsadhra); sasapa—cursed; kula-acaryah—the family priest, Vasistha; krta-agasam—because of committing the great sin of killing a cow; akamatah—although he did not want to do it; na—not; ksatra-bandhuh—the family member of a ksatriya; sudrah tvam—you have behaved like a sudra; karmana—therefore by your fruitive reaction; bhavita—you shall become a sudra; amuna—because of killing the cow.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Although Prsadhra had committed the sin unknowingly, his family priest, Vasistha, cursed him, saying, &quot;In your next life you shall not be able to become a ksatriya.</p>
+<p>Instead, you shall take birth as a sudra because of killing the cow.&quot;</p>
+<p><strong>PURPORT</strong></p>
+<p>It appears that Vasistha was not free from tamo-guna, the mode of ignorance.</p>
+<p>As the family priest or spiritual master of Prsadhra, Vasistha should have taken Prsadhra’s offense very lightly, but instead Vasistha cursed him to become a sudra.</p>
+<p>It is the duty of a family priest not to curse a disciple but to give him relief through the performance of some sort of atonement.</p>
+<p>Vasistha, however, did just the opposite.</p>
+<p>Therefore Srila Visvanatha Cakravarti Thakura says that he was durmati; in other words, his intelligence was not very good.</p>
+
+
+
+<p><strong>9.2.10</strong></p>
+<p>evam saptas tu guruna</p>
+<p>pratyagrhnat krtanjalih</p>
+<p>adharayad vratam vira</p>
+<p>urdhva-reta muni-priyam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>evam—in this way; saptah—having been cursed; tu—but; guruna—by his spiritual master; pratyagrhnat—he (Prsadhra) accepted; krta-anjalih—with folded hands; adharayat—took up, assumed; vratam—the vow of brahmacarya; virah—that hero; urdhva-retah—having controlled his senses; muni-priyam—which is approved by the great sages.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When the hero Prsadhra was thus cursed by his spiritual master, he accepted the curse with folded hands.</p>
+<p>Then, having controlled his senses, he took the vow of brahmacarya, which is approved by all great sages.</p>
+
+
+
+<p><strong>9.2.11-13</strong></p>
+<p>vasudeve bhagavati</p>
+<p>sarvatmani pare ’male</p>
+<p>ekantitvam gato bhaktya</p>
+<p>sarva-bhuta-suhrt samah</p>
+<p>vimukta-sangah santatma</p>
+<p>samyatakso ’parigrahah</p>
+<p>yad-rcchayopapannena</p>
+<p>kalpayan vrttim atmanah</p>
+<p>atmany atmanam adhaya</p>
+<p>jnana-trptah samahitah</p>
+<p>vicacara mahim etam</p>
+<p>jadandha-badhirakrtih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vasudeve—unto the Supreme Personality of Godhead; bhagavati—unto the Lord; sarva-atmani—unto the Supersoul; pare—unto the Transcendence; amale—unto the Supreme person, who is without material contamination; ekantitvam—rendering devotional service without diversion; gatah—being situated in that position; bhaktya—because of pure devotion; sarva-bhuta-suhrt samah—because of being a devotee, friendly and equal to everyone; vimukta-sangah—without material contamination; santa-atma—a peaceful attitude; samyata—self-controlled; aksah—the vision of whom; aparigrahah—without accepting any charity from anyone else; yat-rcchaya—by the grace of the Lord; upapannena—by whatever was available for bodily necessities; kalpayan—in this way arranging; vrttim—the necessities of the body; atmanah—for the benefit of the soul; atmani—within the mind; atmanam—the Supreme Soul, the Personality of Godhead; adhaya—keeping always; jnana-trptah—fully satisfied in transcendental knowledge; samahitah—always in trance; vicacara—traveled all over; mahim—the earth; etam—this; jada—dumb; andha—blind; badhira—deaf; akrtih—appearing as if.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, Prsadhra gained relief from all responsibilities, became peaceful in mind, and established control over all his senses.</p>
+<p>Being unaffected by material conditions, being pleased with whatever was available by the grace of the Lord to maintain body and soul together, and being equal toward everyone, he gave full attention to the Supreme Personality of Godhead, Vasudeva, who is the transcendental Supersoul, free from material contamination.</p>
+<p>Thus Prsadhra, fully satisfied in pure knowledge, always keeping his mind on the Supreme Personality of Godhead, achieved pure devotional service to the Lord and began traveling all over the world, without affection for material activities, as if he were deaf, dumb and blind.</p>
+
+
+
+<p><strong>9.2.14</strong></p>
+<p>evam vrtto vanam gatva</p>
+<p>drstva davagnim utthitam</p>
+<p>tenopayukta-karano</p>
+<p>brahma prapa param munih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>evam vrttah—being situated in such an order of life; vanam—to the forest; gatva—after going; drstva—when he saw; dava-agnim—a forest fire; utthitam—existing there; tena—by that (fire); upayukta-karanah—engaging all the senses of the body by burning; brahma—transcendence; prapa—he achieved; param—the ultimate goal; munih—as a great saintly person.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>With this attitude, Prsadhra became a great saint, and when he entered the forest and saw a blazing forest fire, he took this opportunity to burn his body in the fire.</p>
+<p>Thus he achieved the transcendental, spiritual world.</p>
+<p><strong>PURPORT</strong></p>
+<p>The Lord says in Bhagavad-gita (4.9):</p>
+<p>janma karma ca me divyam</p>
+<p>evam yo vetti tattvatah</p>
+<p>tyaktva deham punar janma</p>
+<p>naiti mam eti so ’rjuna</p>
+<p>One who knows the transcendental nature of My appearance and activities does not, upon leaving the body, take his birth again in this material world, but attains My eternal abode, O Arjuna Prsadhra, because of his karma, was cursed to take his next birth as a sudra, but because he took to saintly life, specifically concentrating his mind always upon the Supreme Personality of Godhead, he became a pure devotee.</p>
+<p>Immediately after giving up his body in the fire, he reached the spiritual world, as mentioned in Bhagavad-gita (mam eti), as a result of his devotional situation.</p>
+<p>Devotional service performed by thinking of the Supreme Personality of Godhead is so powerful that although Prsadhra was cursed he avoided the terrible consequence of becoming a sudra and instead returned home, back to Godhead.</p>
+<p>Brahma-samhita (5.54):</p>
+<p>yas tv indra-gopam athavendram aho sva-karma-</p>
+<p>bandhanurupa-phala-bhajanam atanoti</p>
+<p>karmani nirdahati kintu ca bhakti-bhajam</p>
+<p>govindam adi-purusam tam aham bhajami</p>
+<p>Those who engage in devotional service are unaffected by the results of their material activities.</p>
+<p>Otherwise, everyone, from the smallest microbe up to the King of heaven, Indra, is subject to the laws of karma.</p>
+<p>A pure devotee, being always engaged in the service of the Lord, is exempt from these laws.</p>
+
+
+
+<p><strong>9.2.15</strong></p>
+<p>kavih kaniyan visayesu nihsprho</p>
+<p>visrjya rajyam saha bandhubhir vanam</p>
+<p>nivesya citte purusam sva-rocisam</p>
+<p>vivesa kaisora-vayah param gatah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kavih—another son, known as Kavi; kaniyan—who was the youngest; visayesu—in material enjoyments; nihsprhah—being without attachment; visrjya—after giving up; rajyam—his father’s property, the kingdom; saha bandhubhih—accompanied by friends; vanam—the forest; nivesya—keeping always; citte—within the core of the heart; purusam—the Supreme Person; sva-rocisam—self-effulgent; vivesa—entered; kaisora-vayah—a young man not fully in youth; param—the transcendental world; gatah—entered.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Being reluctant to accept material enjoyment, Manu’s youngest son, whose name was Kavi, gave up the kingdom before attaining full youth.</p>
+<p>Accompanied by his friends, he went to the forest, always thinking of the self-effulgent Supreme Personality of Godhead within the core of his heart.</p>
+<p>Thus he attained perfection.</p>
+
+
+
+<p><strong>9.2.16</strong></p>
+<p>karusan manavad asan</p>
+<p>karusah ksatra-jatayah</p>
+<p>uttara-patha-goptaro</p>
+<p>brahmanya dharma-vatsalah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>karusat—from Karusa; manavat—from the son of Manu; asan—there was; karusah—called the Karusas; ksatra-jatayah—a group of ksatriyas; uttara—northern; patha—of the direction; goptarah—kings; brahmanyah—celebrated protectors of the brahminical culture; dharma-vatsalah—extremely religious.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>From Karusa, another son of Manu, came the Karusa dynasty, a family of ksatriyas.</p>
+<p>The Karusa ksatriyas were the kings of the northern direction.</p>
+<p>They were celebrated protectors of brahminical culture and were all firmly religious.</p>
+
+
+
+<p><strong>9.2.17</strong></p>
+<p>dhrstad dharstam abhut ksatram</p>
+<p>brahma-bhuyam gatam ksitau</p>
+<p>nrgasya vamsah sumatir</p>
+<p>bhutajyotis tato vasuh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dhrstat—from Dhrsta, another son of Manu; dharstam—a caste of the name Dharsta; abhut—was produced; ksatram—belonging to the ksatriya group; brahma-bhuyam—the position of brahmanas; gatam—had achieved; ksitau—on the surface of the world; nrgasya—of Nrga, another son of Manu; vamsah—the dynasty; sumatih—of the name Sumati; bhutajyotih—of the name Bhutajyoti; tatah—thereafter; vasuh—by the name Vasu.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>From the son of Manu named Dhrsta came a ksatriya caste called Dharsta, whose members achieved the position of brahmanas in this world.</p>
+<p>Then, from the son of Manu named Nrga came Sumati.</p>
+<p>From Sumati came Bhutajyoti, and from Bhutajyoti came Vasu.</p>
+<p><strong>PURPORT</strong></p>
+<p>Here it is said, ksatram brahma-bhuyam gatam ksitau: although the Dharstas belonged to the ksatriya caste, they were able to convert themselves into brahmanas.</p>
+<p>This gives clear evidence supporting the following statement by Narada (Bhag.7.11.35):</p>
+<p>yasya yal laksanam proktam</p>
+<p>pumso varnabhivyanjakam</p>
+<p>yad anyatrapi drsyeta</p>
+<p>tat tenaiva vinirdiset</p>
+<p>If the qualities of one group are found in the men of another, those men should be recognized by their qualities, by their symptoms, not by the caste of the family in which they were born.</p>
+<p>Birth is not at all important; it is one’s qualities that are stressed in all Vedic literature.</p>
+
+
+
+<p><strong>9.2.18</strong></p>
+<p>vasoh pratikas tat-putra</p>
+<p>oghavan oghavat-pita</p>
+<p>kanya caughavati nama</p>
+<p>sudarsana uvaha tam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vasoh—of Vasu; pratikah—named Pratika; tat-putrah—his son; oghavan—named Oghavan; oghavat-pita—who was the father of Oghavan; kanya—his daughter; ca—also; oghavati—Oghavati; nama—by the name; sudarsanah—Sudarsana; uvaha—married; tam—that daughter (Oghavati).</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Vasu was Pratika, whose son was Oghavan.</p>
+<p>Oghavan’s son was also known as Oghavan, and his daughter was Oghavati.</p>
+<p>Sudarsana married that daughter.</p>
+
+
+
+<p><strong>9.2.19</strong></p>
+<p>citraseno narisyantad</p>
+<p>rksas tasya suto ’bhavat</p>
+<p>tasya midhvams tatah purna</p>
+<p>indrasenas tu tat-sutah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>citrasenah—one named Citrasena; narisyantat—from Narisyanta, another son of Manu; rksah—Rksa; tasya—of Citrasena; sutah—the son; abhavat—became; tasya—of him (Rksa); midhvan—Midhvan; tatah—from him (Midhvan); purnah—Purna; indrasenah—Indrasena; tu—but; tat-sutah—the son of him (Purna).</p>
+<p><strong>TRANSLATION</strong></p>
+<p>From Narisyanta came a son named Citrasena and from him a son named Rksa.</p>
+<p>From Rksa came Midhvan, from Midhvan came Purna, and from Purna came Indrasena.</p>
+
+
+
+<p><strong>9.2.20</strong></p>
+<p>vitihotras tv indrasenat</p>
+<p>tasya satyasrava abhut</p>
+<p>urusravah sutas tasya</p>
+<p>devadattas tato ’bhavat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vitihotrah—Vitihotra; tu—but; indrasenat—from Indrasena; tasya—of Vitihotra; satyasravah—known by the name Satyasrava; abhut—there was; urusravah—Urusrava; sutah—was the son; tasya—of him (Satyasrava); devadattah—Devadatta; tatah—from Urusrava; abhavat—there was.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>From Indrasena came Vitihotra, from Vitihotra came Satyasrava, from Satyasrava came the son named Urusrava, and from Urusrava came Devadatta.</p>
+
+
+
+<p><strong>9.2.21</strong></p>
+<p>tato ’gnivesyo bhagavan</p>
+<p>agnih svayam abhut sutah</p>
+<p>kanina iti vikhyato</p>
+<p>jatukarnyo mahan rsih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—from Devadatta; agnivesyah—a son named Agnivesya; bhagavan—the most powerful; agnih—the fire-god; svayam—personally; abhut—became; sutah—the son; kaninah—Kanina; iti—thus; vikhyatah—was celebrated; jatukarnyah—Jatukarnya; mahan rsih—the great saintly person.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>From Devadatta came a son known as Agnivesya, who was the fire-god Agni himself.</p>
+<p>This son, who was a celebrated saint, was well known as Kanina and Jatukarnya.</p>
+<p><strong>PURPORT</strong></p>
+<p>Agnivesya was also known as Kanina and Jatukarnya.</p>
+
+
+
+<p><strong>9.2.22</strong></p>
+<p>tato brahma-kulam jatam</p>
+<p>agnivesyayanam nrpa</p>
+<p>narisyantanvayah prokto</p>
+<p>dista-vamsam atah srnu</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—from Agnivesya; brahma-kulam—a dynasty of brahmanas; jatam—was generated; agnivesyayanam—known as Agnivesyayana; nrpa—O King Pariksit; narisyanta—of Narisyanta; anvayah—descendants; proktah—have been explained; dista-vamsam—the dynasty of Dista; atah—hereafter; srnu—hear.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King, from Agnivesya came a brahminical dynasty known as Agnivesyayana.</p>
+<p>Now that I have described the descendants of Narisyanta, let me describe the descendants of Dista.</p>
+<p>Please hear from me.</p>
+
+
+
+<p><strong>9.2.23-24</strong></p>
+<p>nabhago dista-putro ’nyah</p>
+<p>karmana vaisyatam gatah</p>
+<p>bhalandanah sutas tasya</p>
+<p>vatsapritir bhalandanat</p>
+<p>vatsapriteh sutah pramsus</p>
+<p>tat-sutam pramatim viduh</p>
+<p>khanitrah pramates tasmac</p>
+<p>caksuso ’tha vivimsatih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>nabhagah—by the name Nabhaga; dista-putrah—the son of Dista; anyah—another; karmana—by occupation; vaisyatam—the order of the vaisyas; gatah—achieved; bhalandanah—by the name Bhalandana; sutah—son; tasya—of him (Nabhaga); vatsapritih—by the name Vatsapriti; bhalandanat—from Bhalandana; vatsapriteh—from Vatsapriti; sutah—the son; pramsuh—was named Pramsu; tat-sutam—the son of him (Pramsu); pramatim—was named Pramati; viduh—you should understand; khanitrah—was named Khanitra; pramateh—from Pramati; tasmat—from him (Khanitra); caksusah—was named Caksusa; atha—thus (from Caksusa); vivimsatih—the son named Vivimsati.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Dista had a son by the name Nabhaga.</p>
+<p>This Nabhaga, who was different from the Nabhaga described later, became a vaisya by occupational duty.</p>
+<p>The son of Nabhaga was known as Bhalandana, the son of Bhalandana was Vatsapriti, and his son was Pramsu.</p>
+<p>Pramsu’s son was Pramati, Pramati’s son was Khanitra, Khanitra’s son was Caksusa, and his son was Vivimsati.</p>
+<p><strong>PURPORT</strong></p>
+<p>From Manu, one son became a ksatriya, another a brahmana, and another a vaisya.</p>
+<p>This confirms the statement by Narada Muni, yasya yal laksanam proktam pumso varnabhivyanjakam (Bhag.7.11.35).</p>
+<p>One should always remember that brahmanas, ksatriyas and vaisyas should never be regarded as members of a caste by birth.</p>
+<p>A brahmana may be changed into a ksatriya, and a ksatriya into a brahmana.</p>
+<p>Similarly, a brahmana or ksatriya may be changed into a vaisya, and a vaisya into a brahmana or ksatriya.</p>
+<p>This is confirmed in Bhagavad-gita (catur-varnyam maya srstam guna-karma-vibhagasah (Bg.4.13)).</p>
+<p>So one is a brahmana, ksatriya or vaisya never by birth, but by quality.</p>
+<p>There is a great need of brahmanas.</p>
+<p>Therefore, in the Krsna consciousness movement, we are trying to train some brahmanas to guide human society.</p>
+<p>Because at present there is a scarcity of brahmanas, the brain of human society is lost.</p>
+<p>Because practically everyone is a sudra, no one at the present moment can guide the members of society to the proper path by which to achieve perfection in life.</p>
+
+
+
+<p><strong>9.2.25</strong></p>
+<p>vivimsateh suto rambhah</p>
+<p>khaninetro ’sya dharmikah</p>
+<p>karandhamo maharaja</p>
+<p>tasyasid atmajo nrpa</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vivimsateh—from Vivimsati; sutah—the son; rambhah—named Rambha; khaninetrah—named Khaninetra; asya—of Rambha; dharmikah—very religious; karandhamah—named Karandhama; maharaja—O King; tasya—of him (Khaninetra); asit—was; atmajah—the son; nrpa—O King.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Vivimsati was Rambha, whose son was the great and religious King Khaninetra.</p>
+<p>O King, the son of Khaninetra was King Karandhama.</p>
+
+
+
+<p><strong>9.2.26</strong></p>
+<p>tasyaviksit suto yasya</p>
+<p>maruttas cakravarty abhut</p>
+<p>samvarto ’yajayad yam vai</p>
+<p>maha-yogy angirah-sutah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasya—of him (Karandhama); aviksit—named Aviksit; sutah—the son; yasya—of whom (Aviksit); maruttah—(the son) named Marutta; cakravarti—the emperor; abhut—became; samvartah—Samvarta; ayajayat—engaged in performing sacrifice; yam—unto whom (Marutta); vai—indeed; maha-yogi—the great mystic; angirah-sutah—the son of Angira.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>From Karandhama came a son named Aviksit, and from Aviksit a son named Marutta, who was the emperor.</p>
+<p>The great mystic Samvarta, the son of Angira, engaged Marutta in performing a sacrifice (yajna).</p>
+
+
+
+<p><strong>9.2.27</strong></p>
+<p>maruttasya yatha yajno</p>
+<p>na tathanyo ’sti kascana</p>
+<p>sarvam hiranmayam tv asid</p>
+<p>yat kincic casya sobhanam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>maruttasya—of Marutta; yatha—as; yajnah—performance of sacrifice; na—not; tatha—like that; anyah—any other; asti—there is; kascana—anything; sarvam—everything; hiran-mayam—made of gold; tu—indeed; asit—there was; yat kincit—whatever he had; ca—and; asya—of Marutta; sobhanam—extremely beautiful.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The sacrificial paraphernalia of King Marutta was extremely beautiful, for everything was made of gold.</p>
+<p>Indeed, no other sacrifice could compare to his.</p>
+
+
+
+<p><strong>9.2.28</strong></p>
+<p>amadyad indrah somena</p>
+<p>daksinabhir dvijatayah</p>
+<p>marutah parivestaro</p>
+<p>visvedevah sabha-sadah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>amadyat—became intoxicated; indrah—the King of heaven, Lord Indra; somena—by drinking the intoxicant soma-rasa; daksinabhih—by receiving sufficient contributions; dvijatayah—the brahminical group; marutah—the airs; parivestarah—offering the foodstuffs; visvedevah—universal demigods; sabha-sadah—members of the assembly.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In that sacrifice, King Indra became intoxicated by drinking a large quantity of soma-rasa.</p>
+<p>The brahmanas received ample contributions, and therefore they were satisfied.</p>
+<p>For that sacrifice, the various demigods who control the winds offered foodstuffs, and the Visvedevas were members of the assembly.</p>
+<p><strong>PURPORT</strong></p>
+<p>Because of the yajna performed by Marutta, everyone was pleased, especially the brahmanas and ksatriyas.</p>
+<p>Brahmanas are interested in receiving contributions as priests, and ksatriyas are interested in drinking.</p>
+<p>All of them, therefore, were satisfied with their different engagements.</p>
+
+
+
+<p><strong>9.2.29</strong></p>
+<p>maruttasya damah putras</p>
+<p>tasyasid rajyavardhanah</p>
+<p>sudhrtis tat-suto jajne</p>
+<p>saudhrteyo narah sutah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>maruttasya—of Marutta; damah—(was named) Dama; putrah—the son; tasya—of him (Dama); asit—there was; rajya-vardhanah—named Rajyavardhana, or one who can expand the kingdom; sudhrtih—was named Sudhrti; tat-sutah—the son of him (Rajyavardhana); jajne—was born; saudhrteyah—from Sudhrti; narah—named Nara; sutah—the son.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Marutta’s son was Dama, Dama’s son was Rajyavardhana, Rajyavardhana’s son was Sudhrti, and his son was Nara.</p>
+
+
+
+<p><strong>9.2.30</strong></p>
+<p>tat-sutah kevalas tasmad</p>
+<p>dhundhuman vegavams tatah</p>
+<p>budhas tasyabhavad yasya</p>
+<p>trnabindur mahipatih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tat-sutah—the son of him (Nara); kevalah—was named Kevala; tasmat—from him (Kevala); dhundhuman—a son was born named Dhundhuman; vegavan—named Vegavan; tatah—from him (Dhundhuman); budhah—named Budha; tasya—of him (Vegavan); abhavat—there was; yasya—of whom (Budha); trnabinduh—a son named Trnabindu; mahipatih—the king.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Nara was Kevala, and his son was Dhundhuman, whose son was Vegavan.</p>
+<p>Vegavan’s son was Budha, and Budha’s son was Trnabindu, who became the king of this earth.</p>
+
+
+
+<p><strong>9.2.31</strong></p>
+<p>tam bheje ’lambusa devi</p>
+<p>bhajaniya-gunalayam</p>
+<p>varapsara yatah putrah</p>
+<p>kanya celavilabhavat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tam—him (Trnabindu); bheje—accepted as husband; alambusa—the girl Alambusa; devi—goddess; bhajaniya—worthy of accepting; guna-alayam—the reservoir of all good qualities; vara-apsarah—the best of the Apsaras; yatah—from whom (Trnabindu); putrah—some sons; kanya—a daughter; ca—and; ilavila—named Ilavila; abhavat—was born.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The best of the Apsaras, the highly qualified girl named Alambusa, accepted the similarly qualified Trnabindu as her husband.</p>
+<p>She gave birth to a few sons and a daughter known as Ilavila.</p>
+
+
+
+<p><strong>9.2.32</strong></p>
+<p>yasyam utpadayam asa</p>
+<p>visrava dhanadam sutam</p>
+<p>pradaya vidyam paramam</p>
+<p>rsir yogesvarah pituh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yasyam—in whom (Ilavila); utpadayam asa—gave birth; visravah—Visrava; dhana-dam—Kuvera, or one who gives money; sutam—to a son; pradaya—after receiving; vidyam—absolute knowledge; paramam—supreme; rsih—the great saintly person; yoga-isvarah—master of mystic yoga; pituh—from his father.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>After the great saint Visrava, the master of mystic yoga, received absolute knowledge from his father, he begot in the womb of Ilavila the greatly celebrated son known as Kuvera, the giver of money.</p>
+
+
+
+<p><strong>9.2.33</strong></p>
+<p>visalah sunyabandhus ca</p>
+<p>dhumraketus ca tat-sutah</p>
+<p>visalo vamsa-krd raja</p>
+<p>vaisalim nirmame purim</p>
+<p><strong>SYNONYMS</strong></p>
+<p>visalah—named Visala; sunyabandhuh—named Sunyabandhu; ca—also; dhumraketuh—named Dhumraketu; ca—also; tat-sutah—the sons of Trnabindu; visalah—among the three, King Visala; vamsa-krt—made a dynasty; raja—the king; vaisalim—by the name Vaisali; nirmame—constructed; purim—a palace.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Trnabindu had three sons, named Visala, Sunyabandhu and Dhumraketu.</p>
+<p>Among these three, Visala created a dynasty and constructed a palace called Vaisali.</p>
+
+
+
+<p><strong>9.2.34</strong></p>
+<p>hemacandrah sutas tasya</p>
+<p>dhumraksas tasya catmajah</p>
+<p>tat-putrat samyamad asit</p>
+<p>krsasvah saha-devajah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>hemacandrah—was named Hemacandra; sutah—the son; tasya—of him (Visala); dhumraksah—was named Dhumraksa; tasya—of him (Hemacandra); ca—also; atmajah—the son; tat-putrat—from the son of him (Dhumraksa); samyamat—from he who was named Samyama; asit—there was; krsasvah—Krsasva; saha—along with; devajah—Devaja.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Visala was known as Hemacandra, his son was Dhumraksa, and his son was Samyama, whose sons were Devaja and Krsasva.</p>
+
+
+
+<p><strong>9.2.35-36</strong></p>
+<p>krsasvat somadatto ’bhud</p>
+<p>yo ’svamedhair idaspatim</p>
+<p>istva purusam apagryam</p>
+<p>gatim yogesvarasritam</p>
+<p>saumadattis tu sumatis</p>
+<p>tat-putro janamejayah</p>
+<p>ete vaisala-bhupalas</p>
+<p>trnabindor yasodharah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>krsasvat—from Krsasva; somadattah—a son named Somadatta; abhut—there was; yah—he who (Somadatta); asvamedhaih—by the performance of asvamedha sacrifices; idaspatim—unto Lord Visnu; istva—after worshiping; purusam—Lord Visnu; apa—achieved; agryam—the best of all; gatim—the destination; yogesvara-asritam—the place occupied by great mystic yogis; saumadattih—the son of Somadatta; tu—but; sumatih—a son named Sumati; tat-putrah—the son of him (Sumati); janamejayah—was named Janamejaya; ete—all of them; vaisala-bhupalah—the kings in the dynasty of Vaisala; trnabindoh yasah-dharah—continued the fame of King Trnabindu.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Krsasva was Somadatta, who performed asvamedha sacrifices and thus satisfied the Supreme Personality of Godhead, Visnu.</p>
+<p>By worshiping the Supreme Lord, he achieved the most exalted post, a residence on the planet to which great mystic yogis are elevated.</p>
+<p>The son of Somadatta was Sumati, whose son was Janamejaya.</p>
+<p>All these kings appearing in the dynasty of Visala properly maintained the celebrated position of King Trnabindu.</p>
+
+
+</article></body></html>

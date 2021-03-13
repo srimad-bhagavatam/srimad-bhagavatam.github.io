@@ -1,154 +1,41 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>Questions by Vidura - Questions by Vidura</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">Questions by Vidura</a></li><li class="affix"><a href="3.1.2.html">3.1.2</a></li><li class="affix"><a href="3.1.3.html">3.1.3</a></li><li class="affix"><a href="3.1.4.html">3.1.4</a></li><li class="affix"><a href="3.1.5.html">3.1.5</a></li><li class="affix"><a href="3.1.6.html">3.1.6</a></li><li class="affix"><a href="3.1.7.html">3.1.7</a></li><li class="affix"><a href="3.1.8.html">3.1.8</a></li><li class="affix"><a href="3.1.9.html">3.1.9</a></li><li class="affix"><a href="3.1.10.html">3.1.10</a></li><li class="affix"><a href="3.1.11.html">3.1.11</a></li><li class="affix"><a href="3.1.12.html">3.1.12</a></li><li class="affix"><a href="3.1.13.html">3.1.13</a></li><li class="affix"><a href="3.1.14.html">3.1.14</a></li><li class="affix"><a href="3.1.15.html">3.1.15</a></li><li class="affix"><a href="3.1.16.html">3.1.16</a></li><li class="affix"><a href="3.1.17.html">3.1.17</a></li><li class="affix"><a href="3.1.18.html">3.1.18</a></li><li class="affix"><a href="3.1.19.html">3.1.19</a></li><li class="affix"><a href="3.1.20.html">3.1.20</a></li><li class="affix"><a href="3.1.21.html">3.1.21</a></li><li class="affix"><a href="3.1.22.html">3.1.22</a></li><li class="affix"><a href="3.1.23.html">3.1.23</a></li><li class="affix"><a href="3.1.24.html">3.1.24</a></li><li class="affix"><a href="3.1.25.html">3.1.25</a></li><li class="affix"><a href="3.1.26.html">3.1.26</a></li><li class="affix"><a href="3.1.27.html">3.1.27</a></li><li class="affix"><a href="3.1.28.html">3.1.28</a></li><li class="affix"><a href="3.1.29.html">3.1.29</a></li><li class="affix"><a href="3.1.30.html">3.1.30</a></li><li class="affix"><a href="3.1.31.html">3.1.31</a></li><li class="affix"><a href="3.1.32.html">3.1.32</a></li><li class="affix"><a href="3.1.33.html">3.1.33</a></li><li class="affix"><a href="3.1.34.html">3.1.34</a></li><li class="affix"><a href="3.1.35.html">3.1.35</a></li><li class="affix"><a href="3.1.36.html">3.1.36</a></li><li class="affix"><a href="3.1.37.html">3.1.37</a></li><li class="affix"><a href="3.1.38.html">3.1.38</a></li><li class="affix"><a href="3.1.39.html">3.1.39</a></li><li class="affix"><a href="3.1.40.html">3.1.40</a></li><li class="affix"><a href="3.1.41.html">3.1.41</a></li><li class="affix"><a href="3.1.42.html">3.1.42</a></li><li class="affix"><a href="3.1.43.html">3.1.43</a></li><li class="affix"><a href="3.1.44.html">3.1.44</a></li><li class="affix"><a href="3.1.45.html">3.1.45</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">Questions by Vidura</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#questions-by-vidura" id="questions-by-vidura">Questions by Vidura</a></h1>
-<h3><a class="header" href="#311" id="311">3.1.1</a></h3>
+<h1>Questions by Vidura</h1>
+<p><strong>3.1.1</strong></p>
 <p>sri-suka uvaca</p>
 <p>evam etat pura prsto</p>
 <p>maitreyo bhagavan kila</p>
@@ -159,63 +46,1003 @@
 <p><strong>TRANSLATION</strong></p>
 <p>Sukadeva Gosvami said: After renouncing his prosperous home and entering the forest, King Vidura, the great devotee, asked this question of His Grace Maitreya Rsi.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="3.1.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>3.1.2</strong></p>
+<p>yad va ayam mantra-krd vo</p>
+<p>bhagavan akhilesvarah</p>
+<p>pauravendra-grham hitva</p>
+<p>pravivesatmasat krtam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yat—the house; vai—what else is there to say; ayam—Sri Krsna; mantra-krt—minister; vah—you people; bhagavan—the Personality of Godhead; akhila-isvarah—the Lord of everything; pauravendra—Duryodhana; grham—house; hitva—giving up; pravivesa—entered; atmasat—identify with oneself; krtam—so accepted.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>What else is there to say about the residential house of the Pandavas? Sri Krsna, the Lord of everything, acted as your minister.</p>
+<p>He used to enter that house as if it were His own, and He did not take any care of Duryodhana’s house.</p>
+<p><strong>PURPORT</strong></p>
+<p>According to the Gaudiya acintya-bhedabheda-tattva philosophy, anything which satisfies the senses of the Supreme Lord, Sri Krsna, is also Sri Krsna.</p>
+<p>For example, Sri Vrndavana-dhama is nondifferent from Sri Krsna (tad-dhama vrndavanam) because at Vrndavana the Lord enjoys the transcendental bliss of His internal potency.</p>
+<p>Similarly, the house of the Pandavas was also the source of transcendental bliss for the Lord.</p>
+<p>It is mentioned here that the Lord identified the house with His own Self.</p>
+<p>Thus the house of the Pandavas was as good as Vrndavana, and Vidura should not have given up that place of transcendental bliss.</p>
+<p>Therefore the reason for his quitting the house was not exactly family misunderstanding; rather, Vidura took the opportunity to meet Rsi Maitreya and discuss transcendental knowledge.</p>
+<p>For a saintly person like Vidura, any disturbance due to worldly affairs is insignificant.</p>
+<p>Such disturbances, however, are sometimes favorable for higher realization, and therefore Vidura took advantage of a family misunderstanding in order to meet Maitreya Rsi.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="3.1.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>3.1.3</strong></p>
+<p>rajovaca</p>
+<p>kutra ksattur bhagavata</p>
+<p>maitreyenasa sangamah</p>
+<p>kada va saha-samvada</p>
+<p>etad varnaya nah prabho</p>
+<p><strong>SYNONYMS</strong></p>
+<p>raja uvaca—the King said; kutra—wherein; ksattuh—with Vidura; bhagavata—and with His Grace; maitreyena—with Maitreya; asa—there was; sangamah—meeting; kada—when; va—also; saha—with; samvadah—discussion; etat—this; varnaya—describe; nah—unto me; prabho—O my lord.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The King asked Sukadeva Gosvami: Where and when did the meeting and discussion take place between Saint Vidura and His Grace Maitreya Muni? Kindly oblige, my lord, and describe this to us.</p>
+<p><strong>PURPORT</strong></p>
+<p>Exactly as Saunaka Rsi inquired of Suta Gosvami and Suta Gosvami replied, so Srila Sukadeva Gosvami replied to King Pariksit’s inquiries.</p>
+<p>The King was very anxious to understand the meaningful discussion that took place between the two great souls.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>3.1.4</strong></p>
+<p>na hy alparthodayas tasya</p>
+<p>vidurasyamalatmanah</p>
+<p>tasmin variyasi prasnah</p>
+<p>sadhu-vadopabrmhitah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—never; hi—certainly; alpa-artha—small (unimportant) purpose; udayah—raised; tasya—his; vidurasya—of Vidura; amala-atmanah—of the saintly man; tasmin—in that; variyasi—highly purposeful; prasnah—question; sadhu-vada—things approved by saints and sages; upabrmhitah—full with.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Saint Vidura was a great and pure devotee of the Lord, and therefore his questions to His Grace Rsi Maitreya must have been very purposeful, on the highest level, and approved by learned circles.</p>
+<p><strong>PURPORT</strong></p>
+<p>Questions and answers among different classes of men have different value.</p>
+<p>Inquiries by mercantile men in a business exchange cannot be expected to be highly purposeful in spiritual values.</p>
+<p>Questions and answers by different classes of men can be guessed by the caliber of the persons concerned.</p>
+<p>In Bhagavad-gita, the discussion was between Lord Sri Krsna and Arjuna, the Supreme Person and the supreme devotee respectively.</p>
+<p>The Lord admitted Arjuna to be His devotee and friend (Bg.4.3), and therefore any sane man can guess that the discussion was on the topic of the bhakti-yoga system.</p>
+<p>Actually the whole Bhagavad-gita is based on the principle of bhakti-yoga.</p>
+<p>There is a difference between karma and karma-yoga.</p>
+<p>Karma is regulated action for the enjoyment of the fruit by the performer, but karma-yoga is action performed by the devotee for the satisfaction of the Lord.</p>
+<p>Karma-yoga is based on bhakti, or pleasing the Lord, whereas karma is based on pleasing the senses of the performer himself.</p>
+<p>According to Srimad-Bhagavatam, one is advised to approach a bona fide spiritual master when one is actually inclined to question from an elevated level of spiritual understanding.</p>
+<p>A common man who has no interest in spiritual values has no need to approach a spiritual master just as a matter of following fashion.</p>
+<p>As a student, Maharaja Pariksit was serious about learning the science of God, and Sukadeva Gosvami was a bona fide spiritual master in the transcendental science.</p>
+<p>Both of them knew that the topics discussed by Vidura and Rsi Maitreya were elevated, and thus Maharaja Pariksit was very interested in learning from the bona fide spiritual master.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>3.1.5</strong></p>
+<p>suta uvaca</p>
+<p>sa evam rsi-varyo ’yam</p>
+<p>prsto rajna pariksita</p>
+<p>praty aha tam subahu-vit</p>
+<p>pritatma sruyatam iti</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sutah uvaca—Sri Suta Gosvami said; sah—he; evam—thus; rsi-varyah—the great rsi; ayam—Sukadeva Gosvami; prstah—being questioned; rajna—by the King; pariksita—Maharaja Pariksit; prati—to; aha—replied; tam—unto the King; su-bahu-vit—highly experienced; prita-atma—fully satisfied; sruyatam—please hear me; iti—thus.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sri Suta Gosvami said: The great sage Sukadeva Gosvami was highly experienced and was pleased with the King.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>3.1.6</strong></p>
+<p>sri-suka uvaca</p>
+<p>yada tu raja sva-sutan asadhun</p>
+<p>pusnan na dharmena vinasta-drstih</p>
+<p>bhratur yavisthasya sutan vibandhun</p>
+<p>pravesya laksa-bhavane dadaha</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-sukah uvaca—Sri Sukadeva Gosvami said; yada—when; tu—but; raja—King Dhrtarastra; sva-sutan—his own sons; asadhun—dishonest; pusnan—nourishing; na—never; dharmena—on the right path; vinasta-drstih—one who has lost his insight; bhratuh—of his brother; yavisthasya—younger; sutan—sons; vibandhun—having no guardian (father); pravesya—made to enter; laksa—lacquer; bhavane—in the house; dadaha—set on fire.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sri Sukadeva Gosvami said: King Dhrtarastra became blind under the influence of impious desires to nourish his dishonest sons, and thus he set fire to the lacquer house to burn his fatherless nephews, the Pandavas.</p>
+<p><strong>PURPORT</strong></p>
+<p>Dhrtarastra was blind from birth, but his blindness in committing impious activities to support his dishonest sons was a greater blindness than his physical lack of eyesight.</p>
+<p>The physical lack of sight does not bar one from spiritual progress.</p>
+<p>But when one is blind spiritually, even though physically fit, that blindness is dangerously detrimental to the progressive path of human life.</p>
+
+
+
+<p><strong>3.1.7</strong></p>
+<p>yada sabhayam kuru-deva-devyah</p>
+<p>kesabhimarsam suta-karma garhyam</p>
+<p>na varayam asa nrpah snusayah</p>
+<p>svasrair harantyah kuca-kunkumani</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yada—when; sabhayam—the assembly; kuru-deva-devyah—of Draupadi, the wife of godly Yudhisthira; kesa-abhimarsam—insult by grabbing her hair; suta-karma—action taken by his son; garhyam—which was abominable; na—did not; varayam asa—forbid; nrpah—the King; snusayah—of his daughter-in-law; svasraih—by her tears; harantyah—of she who was washing; kuca-kunkumani—red dust on her breast.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The King did not forbid his son Duhsasana’s abominable action of grabbing the hair of Draupadi, the wife of the godly King Yudhisthira, even though her tears washed the red dust on her breast.</p>
+
+
+
+<p><strong>3.1.8</strong></p>
+<p>dyute tv adharmena jitasya sadhoh</p>
+<p>satyavalambasya vanam gatasya</p>
+<p>na yacato ’dat samayena dayam</p>
+<p>tamo-jusano yad ajata-satroh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dyute—by means of gambling; tu—but; adharmena—by unfair tricks; jitasya—of the vanquished; sadhoh—a saintly person; satya-avalambasya—one who embraced truth as shelter; vanam—forest; gatasya—of the goer; na—never; yacatah—when asked for; adat—delivered; samayena—in due course; dayam—right share; tamah-jusanah—overwhelmed by illusion; yat—as much as; ajata-satroh—of one who had no enemy.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Yudhisthira, who was born without any enemy, was unfairly defeated in gambling.</p>
+<p>But because he had taken the vow of truthfulness, he went off to the forest.</p>
+<p>When he came back in due course and begged the return of his rightful share of the kingdom, he was refused by Dhrtarastra, who was overwhelmed by illusion.</p>
+<p><strong>PURPORT</strong></p>
+<p>Maharaja Yudhisthira was the rightful heir to his father’s kingdom.</p>
+<p>But just to favor his own sons, headed by Duryodhana, Dhrtarastra, Maharaja Yudhisthira’s uncle, adopted various unfair means to cheat his nephews of their rightful share of the kingdom.</p>
+<p>At last the Pandavas demanded only five villages, one for each of the five brothers, but that was also refused by the usurpers.</p>
+<p>This incident led to the War of Kuruksetra.</p>
+<p>The Battle of Kuruksetra, therefore, was induced by the Kurus, and not the Pandavas.</p>
+<p>As ksatriyas, the proper livelihood of the Pandavas was only to rule, and not to accept any other occupation.</p>
+<p>A brahmana, ksatriya or vaisya will not accept employment for his livelihood under any circumstances.</p>
+
+
+
+<p><strong>3.1.9</strong></p>
+<p>yada ca partha-prahitah sabhayam</p>
+<p>jagad-gurur yani jagada krsnah</p>
+<p>na tani pumsam amrtayanani</p>
+<p>rajoru mene ksata-punya-lesah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yada—when; ca—also; partha-prahitah—being advised by Arjuna; sabhayam—in the assembly; jagat-guruh—of the teacher of the world; yani—those; jagada—went; krsnah—Lord Krsna; na—never; tani—such words; pumsam—of all men of sense; amrta-ayanani—as good as nectar; raja—the King (Dhrtarastra or Duryodhana); uru—very important; mene—did consider; ksata—dwindling; punya-lesah—fragment of pious acts.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Lord Krsna was sent by Arjuna into the assembly as the spiritual master of the whole world, and although His words were heard by some (like Bhisma) as pure nectar, it was not so for the others, who were completely bereft of the last farthing of past pious works.</p>
+<p>The King (Dhrtarastra or Duryodhana) did not take the words of Lord Krsna very seriously.</p>
+<p><strong>PURPORT</strong></p>
+<p>Lord Krsna, who is the spiritual master of the entire universe, accepted the duty of a messenger, and, deputed by Arjuna, went to the assembly of King Dhrtarastra on a peace mission.</p>
+<p>Krsna is everyone’s Lord, yet because He was the transcendental friend of Arjuna, He gladly accepted the role of messenger, exactly like an ordinary friend.</p>
+<p>That is the beauty of the Lord’s behavior with His pure devotees.</p>
+<p>He reached the assembly and spoke about peace, and the message was relished by Bhisma and other great leaders because it was spoken by the Lord Himself.</p>
+<p>But due to the exhaustion of the pious results of their past deeds, Duryodhana, or his father, Dhrtarastra, did not take the message very seriously.</p>
+<p>That is the way of persons who have no credit of pious deeds.</p>
+<p>By past pious deeds, one may become the king of a country, but because the results of the pious acts of Duryodhana and company were dwindling, it became evident from their actions that they were sure to lose the kingdom to the Pandavas.</p>
+<p>The message of Godhead is always like nectar to the devotees, but it is just the opposite to the nondevotees.</p>
+<p>Sugar candy is always sweet to a healthy man, but it tastes very bitter to persons suffering from jaundice.</p>
+
+
+
+<p><strong>3.1.10</strong></p>
+<p>yadopahuto bhavanam pravisto</p>
+<p>mantraya prstah kila purvajena</p>
+<p>athaha tan mantra-drsam variyan</p>
+<p>yan mantrino vaidurikam vadanti</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yada—when; upahutah—was called by; bhavanam—the palace; pravistah—entered; mantraya—for consultation; prstah—asked by; kila—of course; purvajena—by the elder brother; atha—thus; aha—said; tat—that; mantra—advice; drsam—just suitable; variyan—excellent; yat—that which; mantrinah—the ministers of state, or expert politicians; vaidurikam—instructions by Vidura; vadanti—do they say.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When Vidura was invited by his elder brother (Dhrtarastra) for consultation, he entered the house and gave instructions which were exactly to the point.</p>
+<p>His advice is well known, and instructions by Vidura are approved by expert ministers of state.</p>
+<p><strong>PURPORT</strong></p>
+<p>Political suggestions by Vidura are known as expert, just as, in modern times, Pandita Canakya is considered the authority in good counsel in both political and moral instructions.</p>
+
+
+
+<p><strong>3.1.11</strong></p>
+<p>ajata-satroh pratiyaccha dayam</p>
+<p>titiksato durvisaham tavagah</p>
+<p>sahanujo yatra vrkodarahih</p>
+<p>svasan rusa yat tvam alam bibhesi</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ajata-satroh—of Yudhisthira, who has no enemy; pratiyaccha—return; dayam—legitimate share; titiksatah—of he who is so forbearing; durvisaham—unbearable; tava—your; agah—offense; saha—along with; anujah—younger brothers; yatra—wherein; vrkodara—Bhima; ahih—revenging snake; svasan—breathing heavily; rusa—in anger; yat—whom; tvam—you; alam—verily; bibhesi—do fear.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>(Vidura said:)</p>
+<p>You must now return the legitimate share to Yudhisthira, who has no enemies and who has been forbearing through untold sufferings due to your offenses.</p>
+<p>He is waiting with his younger brothers, among whom is the revengeful Bhima, breathing heavily like a snake.</p>
+<p>Surely you are afraid of him.</p>
+
+
+
+<p><strong>3.1.12</strong></p>
+<p>parthams tu devo bhagavan mukundo</p>
+<p>grhitavan saksiti-deva-devah</p>
+<p>aste sva-puryam yadu-deva-devo</p>
+<p>vinirjitasesa-nrdeva-devah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>parthan—the sons of Prtha (Kunti); tu—but; devah—the Lord; bhagavan—the Personality of Godhead; mukundah—Sri Krsna, who awards liberation; grhitavan—has taken up; sa—with; ksiti-deva-devah—the brahmanas and the demigods; aste—is present; sva-puryam—along with His family; yadu-deva-devah—worshiped by the royal order of the Yadu dynasty; vinirjita—who have been conquered; asesa—unlimited; nrdeva—kings; devah—Lord.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Lord Krsna, the Personality of Godhead, has accepted the sons of Prtha as His kinsmen, and all the kings of the world are with Lord Sri Krsna.</p>
+<p>He is present in His home with all His family members, the kings and princes of the Yadu dynasty, who have conquered an unlimited number of rulers, and He is their Lord.</p>
+<p><strong>PURPORT</strong></p>
+<p>Vidura gave Dhrtarastra very good counsel regarding political alliance with the sons of Prtha, the Pandavas.</p>
+<p>The first thing he said was that Lord Krsna was intimately related with them as their cousin.</p>
+<p>Because Lord Krsna is the Supreme Personality of Godhead, He is worshipable by all brahmanas and demigods, who are the controllers of the universal affairs.</p>
+<p>Besides that, Lord Krsna and His family members, the royal order of the Yadu dynasty, were the conquerors of all kings of the world.</p>
+<p>The ksatriyas used to fight the kings of various dominions and kidnap their beautiful princess-daughters, after conquering their relatives.</p>
+<p>This system was laudable because the ksatriyas and the princesses would be married only on the basis of the chivalry of the conquering ksatriya.</p>
+<p>All the young princes of the Yadu dynasty married the daughters of other kings in this way, by chivalrous force, and thus they were conquerors of all the kings of the world.</p>
+<p>Vidura wanted to impress upon his elder brother that fighting with the Pandavas was fraught with many dangers because they were supported by Lord Krsna, who had conquered, even in His childhood, demons like Kamsa and Jarasandha and demigods like Brahma and Indra.</p>
+<p>Therefore all universal power was behind the Pandavas.</p>
+
+
+
+<p><strong>3.1.13</strong></p>
+<p>sa esa dosah purusa-dvid aste</p>
+<p>grhan pravisto yam apatya-matya</p>
+<p>pusnasi krsnad vimukho gata-sris</p>
+<p>tyajasv asaivam kula-kausalaya</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—he; esah—this; dosah—offense personified; purusa-dvit—envious of Lord Krsna; aste—exists; grhan—household; pravistah—entered; yam—whom; apatya-matya—thinking to be your son; pusnasi—maintaining; krsnat—from Krsna; vimukhah—in opposition; gata-srih—devoid of everything auspicious; tyaja—give up; asu—as soon as possible; asaivam—inauspicious; kula—family; kausalaya—for the sake of.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>You are maintaining offense personified, Duryodhana, as your infallible son, but he is envious of Lord Krsna.</p>
+<p>And because you are thus maintaining a nondevotee of Krsna, you are devoid of all auspicious qualities.</p>
+<p>Relieve yourself of this ill fortune as soon as possible and do good to the whole family!</p>
+<p><strong>PURPORT</strong></p>
+<p>A good son is called apatya, one who does not allow his father to fall down.</p>
+<p>The son can protect the father’s soul when the father is dead by offering sacrifices to please the Supreme Lord, Visnu.</p>
+<p>This system is still prevalent in India.</p>
+<p>After the death of his father, a son goes to offer sacrifices at the lotus feet of Visnu at Gaya and thus delivers the father’s soul if the father is fallen.</p>
+<p>But if the son is already an enemy of Visnu, how, in such an inimical mood, can he offer sacrifice unto Lord Visnu’s lotus feet? Lord Krsna is directly the Personality of Godhead, Visnu, and Duryodhana was inimical to Him.</p>
+<p>He would therefore be unable to protect his father, Dhrtarastra, after his death.</p>
+<p>He himself was to fall down because of his faithlessness towards Visnu.</p>
+<p>How, then, could he protect his father? Vidura advised Dhrtarastra to get rid of such an unworthy son as Duryodhana as soon as possible if he was at all anxious to see to the good of his family.</p>
+<p>According to the moral instructions of Canakya Pandita, What is the use of a son who is neither a learned man nor a devotee of the Lord If a son is not a devotee of the Supreme Lord, he is just like blind eyes—a source of trouble.</p>
+<p>A physician may sometimes advise the extrication of such useless eyes from their sockets so that one can be relieved of the constant trouble.</p>
+<p>Duryodhana was exactly like blind, troubling eyes; he would be a source of great trouble to the family of Dhrtarastra, as foreseen by Vidura.</p>
+<p>Vidura therefore rightly advised his eldest brother to get rid of this source of trouble.</p>
+<p>Dhrtarastra was wrongly maintaining such personified offense under the mistaken impression that Duryodhana was a good son, able to liberate his father.</p>
+
+
+
+<p><strong>3.1.14</strong></p>
+<p>ity ucivams tatra suyodhanena</p>
+<p>pravrddha-kopa-sphuritadharena</p>
+<p>asat-krtah sat-sprhaniya-silah</p>
+<p>ksatta sakarnanuja-saubalena</p>
+<p><strong>SYNONYMS</strong></p>
+<p>iti—thus; ucivan—while speaking; tatra—there; suyodhanena—by Duryodhana; pravrddha—swollen with; kopa—anger; sphurita—flapping; adharena—lips; asat-krtah—insulted; sat—respectable; sprhaniya-silah—desirable qualities; ksatta—Vidura; sa—with; karna—Karna; anuja—younger brothers; saubalena—with Sakuni.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>While speaking thus, Vidura, whose personal character was esteemed by respectable persons, was insulted by Duryodhana, who was swollen with anger and whose lips were trembling.</p>
+<p>Duryodhana was in company with Karna, his younger brothers and his maternal uncle Sakuni.</p>
+<p><strong>PURPORT</strong></p>
+<p>It is said that giving good counsel to a foolish person causes the fool to become angry, just as feeding milk to a snake only increases its venomous poison.</p>
+<p>Saint Vidura was so honorable that his character was looked up to by all respectable persons.</p>
+<p>But Duryodhana was so foolish that he dared to insult Vidura.</p>
+<p>This was due to his bad association with Sakuni, his maternal uncle, as well as with his friend Karna, who always encouraged Duryodhana in his nefarious acts.</p>
+
+
+
+<p><strong>3.1.15</strong></p>
+<p>ka enam atropajuhava jihmam</p>
+<p>dasyah sutam yad-balinaiva pustah</p>
+<p>tasmin pratipah parakrtya aste</p>
+<p>nirvasyatam asu purac chvasanah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kah—who; enam—this; atra—here; upajuhava—called for; jihmam—crooked; dasyah—of a kept mistress; sutam—son; yat—whose; balina—by whose subsistence; eva—certainly; pustah—grown up; tasmin—unto him; pratipah—enmity; parakrtya—enemy’s interest; aste—situated; nirvasyatam—get him out; asu—immediately; purat—from the palace; svasanah—let him breathe only.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Who asked him to come here, this son of a kept mistress? He is so crooked that he spies in the interest of the enemy against those on whose support he has grown up.</p>
+<p>Toss him out of the palace immediately and leave him with only his breath.</p>
+<p><strong>PURPORT</strong></p>
+<p>When getting married, the ksatriya kings would take on several other youthful girls along with the married princess.</p>
+<p>These girl attendants of the king were known as dasis, or attendant mistresses.</p>
+<p>By intimate association with the king, the dasis would get sons.</p>
+<p>Such sons were called dasi-putras.</p>
+<p>They had no claim to a royal position, but they would get maintenance and other facilities just like princes.</p>
+<p>Vidura was the son of such a dasi, and he was thus not counted amongst the ksatriyas.</p>
+<p>King Dhrtarastra was very affectionate toward his younger dasi-putra brother, Vidura, and Vidura was a great friend and philosophical advisor to Dhrtarastra.</p>
+<p>Duryodhana knew very well that Vidura was a great soul and well-wisher, but unfortunately he used strong words to hurt his innocent uncle.</p>
+<p>Duryodhana not only attacked Vidura’s birth, but also called him an infidel because he seemed to support the cause of Yudhisthira, whom Duryodhana considered his enemy.</p>
+<p>He desired that Vidura he immediately put out of the palace and deprived of all his possessions.</p>
+<p>If possible, he would have liked him caned until he was left with nothing but his breath.</p>
+<p>He charged that Vidura was a spy of the Pandavas because he advised King Dhrtarastra in their favor.</p>
+<p>Such is the situation of palace life and the intricacies of diplomacy that even a faultless person like Vidura could be charged with something abominable and punished.</p>
+<p>Vidura was struck with wonder at such unexpected behavior from his nephew Duryodhana, and before anything actually happened, he decided to leave the palace for good.</p>
+
+
+
+<p><strong>3.1.16</strong></p>
+<p>svayam dhanur dvari nidhaya mayam</p>
+<p>bhratuh puro marmasu tadito ’pi</p>
+<p>sa ittham atyulbana-karna-banair</p>
+<p>gata-vyatho ’yad uru manayanah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>svayam—he himself; dhanuh dvari—bow on the door; nidhaya—keeping; mayam—the external nature; bhratuh—brother’s; purah—from the palace; marmasu—in the core of the heart; taditah—being afflicted; api—in spite of; sah—he (Vidura); ittham—like this; ati-ulbana—severely; karna—ear; banaih—by the arrows; gata-vyathah—without being sorry; ayat—excited; uru—great; mana-yanah—so thinking.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thus being pierced by arrows through his ears and afflicted to the core of his heart, Vidura placed his bow on the door and quit his brother’s palace.</p>
+<p>He was not sorry, for he considered the acts of the external energy to be supreme.</p>
+<p><strong>PURPORT</strong></p>
+<p>A pure devotee of the Lord is never perturbed by an awkward position created by the external energy of the Lord.</p>
+<p>In Bhagavad-gita (3.27) it is stated:</p>
+<p>prakrteh kriyamanani</p>
+<p>gunaih karmani sarvasah</p>
+<p>ahankara-vimudhatma</p>
+<p>kartaham iti manyate</p>
+<p>A conditioned soul is absorbed in material existence under the influence of different modes of external energy.</p>
+<p>Absorbed in the false ego, he thinks that he is doing everything by himself.</p>
+<p>The external energy of the Lord, the material nature, is fully under the control of the Supreme Lord, and the conditioned soul is fully under the grip of the external energy.</p>
+<p>Therefore, the conditioned soul is fully under the control of the law of the Lord.</p>
+<p>But, due to illusion only, he thinks himself independent in his activities.</p>
+<p>Duryodhana was acting under such influence of the external nature, by which he would be vanquished at the ultimate end.</p>
+<p>He could not accept the sound advice of Vidura, but on the contrary he insulted that great soul, who was the well-wisher of his whole family.</p>
+<p>Vidura could understand this because he was a pure devotee of the Lord.</p>
+<p>In spite of being very strongly insulted by Duryodhana’s words, Vidura could see that Duryodhana, under the influence of maya, the external energy, was making progress on the path toward his own ruination.</p>
+<p>He therefore considered the acts of the external energy to be supreme, yet he also saw how the internal energy of the Lord helped him in that particular situation.</p>
+<p>A devotee is always in a renounced temperament because the worldly attractions can never satisfy him.</p>
+<p>Vidura was never attracted by the royal palace of his brother.</p>
+<p>He was always ready to leave the place and devote himself completely to the transcendental loving service of the Lord.</p>
+<p>Now he got the opportunity by the grace of Duryodhana, and instead of being sorry at the strong words of insult, he thanked him from within because it gave him the chance to live alone in a holy place and fully engage in the devotional service of the Lord.</p>
+<p>The word gata-vyathah (without being sorry) is significant here because Vidura was relieved from the tribulations which trouble every man entangled in material activities.</p>
+<p>He therefore thought that there was no need to defend his brother with his bow because his brother was meant for ruination.</p>
+<p>Thus he left the palace before Duryodhana could act.</p>
+<p>Maya, the supreme energy of the Lord, acted here both internally and externally.</p>
+
+
+
+<p><strong>3.1.17</strong></p>
+<p>sa nirgatah kaurava-punya-labdho</p>
+<p>gajahvayat tirtha-padah padani</p>
+<p>anvakramat punya-cikirsayorvyam</p>
+<p>adhisthito yani sahasra-murtih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—he (Vidura); nirgatah—after having quit; kaurava—the Kuru dynasty; punya—piety; labdhah—so achieved; gaja-ahvayat—from Hastinapura; tirtha-padah—of the Supreme Lord; padani—pilgrimages; anvakramat—took shelter; punya—piety; cikirsaya—desiring so; urvyam—of high grade; adhisthitah—situated; yani—all those; sahasra—thousands; murtih—forms.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>By his piety, Vidura achieved the advantages of the pious Kauravas.</p>
+<p>After leaving Hastinapura, he took shelter of many places of pilgrimages, which are the Lord’s lotus feet.</p>
+<p>With a desire to gain a high order of pious life, he traveled to holy places where thousands of transcendental forms of the Lord are situated.</p>
+<p><strong>PURPORT</strong></p>
+<p>Vidura was undoubtedly a highly elevated and pious soul, otherwise he would not have taken his birth in the Kaurava family.</p>
+<p>To have high parentage, to possess wealth, to be highly learned and to have great personal beauty are all due to past pious acts.</p>
+<p>But such pious possessions are not sufficient for obtaining the grace of the Lord and being engaged in His transcendental loving service.</p>
+<p>Vidura considered himself less pious, and therefore he decided to travel to all the great places of pilgrimage in the world in order to achieve greater piety and advance nearer to the Lord.</p>
+<p>At that time, Lord Krsna was personally present in the world, and Vidura could have at once approached Him directly, but he did not do so because he was not sufficiently freed from sin.</p>
+<p>One cannot be one hundred percent devoted to the Lord unless and until he is completely free from all effects of sin.</p>
+<p>Vidura was conscious that by the association of the diplomatic Dhrtarastra and Duryodhana he had lost his piety and was therefore not fit to associate at once with the Lord.</p>
+<p>In Bhagavad-gita (7.28) this is confirmed in the following verse:</p>
+<p>yesam tv anta-gatam papam</p>
+<p>jananam punya-karmanam</p>
+<p>te dvandva-moha-nirmukta</p>
+<p>bhajante mam drdha-vratah</p>
+<p>Persons who are sinful asuras like Kamsa and Jarasandha cannot think of Lord Krsna as the Supreme Personality of Godhead, the Absolute Truth.</p>
+<p>Only those who are pure devotees, those who follow the regulative principles of religious life as prescribed in the scriptures, are able to engage themselves in karma-yoga and then jnana-yoga and thereafter, by pure meditation, can understand pure consciousness.</p>
+<p>When God consciousness is developed, one can take advantage of the association of pure devotees.</p>
+<p>Syan mahat-sevaya viprah punya-tirtha-nisevanat: one is able to associate with the Lord even during the existence of this life.</p>
+<p>Places of pilgrimages are meant for eradicating the sins of the pilgrims, and they are distributed all over the universe just to give facility to all concerned for attaining pure existence and God realization.</p>
+<p>One should not be satisfied, however, merely by visiting the places of pilgrimage and performing one’s prescribed duties; he should be eager to meet the great souls who are already there, engaged in the service of the Lord.</p>
+<p>In each and every place of pilgrimage, the Lord is present in His various transcendental forms.</p>
+<p>These forms are called arca-murtis, or forms of the Lord which can be easily appreciated by the common man.</p>
+<p>The Lord is transcendental to our mundane senses.</p>
+<p>He cannot be seen with our present eyes, nor can He be heard with our present ears.</p>
+<p>To the degree that we have entered into the service of the Lord or to the proportion to which our lives are freed from sins, we can perceive the Lord.</p>
+<p>But even though we are not free from sins, the Lord is kind enough to allow us the facility of seeing Him in His arca-murtis in the temple.</p>
+<p>The Lord is all-powerful, and therefore He is able to accept our service by presentation of His arca form.</p>
+<p>No one, therefore, should foolishly think the arca in the temple to be an idol.</p>
+<p>Such an arca-murti is not an idol but the Lord Himself, and to the proportion to which one is free from sins, he is able to know the significance of the arca-murti.</p>
+<p>The guidance of a pure devotee is therefore always required.</p>
+<p>In the land of Bharatavarsa there are many hundreds and thousands of places of pilgrimage distributed all over the country, and by traditional practice the common man visits such holy places during all seasons of the year.</p>
+<p>Some of the arca representations of the Lord situated in different places of pilgrimage are mentioned herewith.</p>
+<p>The Lord is present at Mathura (the birthplace of Lord Krsna) as Adi-kesava; the Lord is present at Puri (Orissa) as Lord Jagannatha (also known as Purusottama); He is present at Allahabad (Prayaga) as Bindu-madhava; at Mandara Hill He is present as Madhusudana.</p>
+<p>In the Anandaranya, He is known as Vasudeva, Padmanabha and Janardana; at Visnukanci, He is known as Visnu; and at Mayapura, He is known as Hari.</p>
+<p>There are millions and billions of such arca forms of the Lord distributed all over the universe.</p>
+<p>All these arca-murtis are summarized in the Caitanya-caritamrta in the following words:</p>
+<p>sarvatra prakasa tanra——bhakte sukha dite</p>
+<p>jagatera adharma nasi’ dharma sthapite</p>
+<p>The Lord has so distributed Himself all over the universe just to give pleasure to the devotees, to give the common man facility to eradicate his sins, and to establish religious principles in the world</p>
+
+
+
+<p><strong>3.1.18</strong></p>
+<p>puresu punyopavanadri-kunjesv</p>
+<p>apanka-toyesu sarit-sarahsu</p>
+<p>ananta-lingaih samalankrtesu</p>
+<p>cacara tirthayatanesv ananyah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>puresu—holy places like Ayodhya, Dvaraka and Mathura; punya—piety; upavana—the air; adri—hill; kunjesu—in the orchards; apanka—without sin; toyesu—in the water; sarit—river; sarahsu—lakes; ananta-lingaih—the forms of the Unlimited; samalankrtesu—being so decorated; cacara—executed; tirtha—places of pilgrimage; ayatanesu—holy lands; ananyah—alone or seeing Krsna alone.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>He began to travel alone, thinking only of Krsna, through various holy places like Ayodhya, Dvaraka and Mathura.</p>
+<p>He traveled where the air, hill, orchard, river and lake are all pure and sinless and where the forms of the Unlimited decorate the temples.</p>
+<p>Thus he performed the pilgrim’s progress.</p>
+<p><strong>PURPORT</strong></p>
+<p>These arca forms of the Lord may be considered idols by the atheists, but that does not matter for persons like Vidura or His many other servants.</p>
+<p>The forms of the Lord are mentioned here as ananta-linga.</p>
+<p>Such forms of the Lord have unlimited potency, the same as that of the Lord Himself.</p>
+<p>There is no difference between the potencies of the arca and those of the personal forms of the Lord.</p>
+<p>The example of the postbox and post office may be applied here.</p>
+<p>The little postboxes distributed all over the city have the same potency as the postal system in general.</p>
+<p>The duty of the post office is to carry letters from one place to another.</p>
+<p>If one puts letters in postboxes authorized by the general post office, the function of carrying letters is performed without a doubt.</p>
+<p>Similarly, the arca-murti can also deliver the same unlimited potency of the Lord as when He is personally present.</p>
+<p>Vidura, therefore, could see nothing but Krsna in the different arca forms, and ultimately he was able to realize Krsna alone and nothing else.</p>
+
+
+
+<p><strong>3.1.19</strong></p>
+<p>gam paryatan medhya-vivikta-vrttih</p>
+<p>sadapluto ’dhah sayano ’vadhutah</p>
+<p>alaksitah svair avadhuta-veso</p>
+<p>vratani cere hari-tosanani</p>
+<p><strong>SYNONYMS</strong></p>
+<p>gam—earth; paryatan—traversing; medhya—pure; vivikta-vrttih—independent occupation for living; sada—always; aplutah—sanctified; adhah—on the earth; sayanah—lying; avadhutah—without dressing (of the hair, etc.); alaksitah—without being seen; svaih—alone; avadhuta-vesah—dressed like a mendicant; vratani—vows; cere—performed; hari-tosanani—that pleased the Lord.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>While so traversing the earth, he simply performed duties to please the Supreme Lord Hari.</p>
+<p>His occupation was pure and independent.</p>
+<p>He was constantly sanctified by taking his bath in holy places, although he was in the dress of a mendicant and had no hair dressing nor a bed on which to lie.</p>
+<p>Thus he was always unseen by his various relatives.</p>
+<p><strong>PURPORT</strong></p>
+<p>The first and foremost duty of a pilgrim is to satisfy the Supreme Lord Hari.</p>
+<p>While traveling as a pilgrim, one should not be worried about pleasing society.</p>
+<p>There is no need to depend on social formalities or occupation or dress.</p>
+<p>One should remain always absorbed in the function of pleasing the Lord.</p>
+<p>Thus sanctified by thought and action, one is able to realize the Supreme Lord by the process of a pilgrim’s journey.</p>
+
+
+
+<p><strong>3.1.20</strong></p>
+<p>ittham vrajan bharatam eva varsam</p>
+<p>kalena yavad gatavan prabhasam</p>
+<p>tavac chasasa ksitim eka cakram</p>
+<p>ekatapatram ajitena parthah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ittham—like this; vrajan—while traveling; bharatam—India; eva—only; varsam—the tract of land; kalena—in due course of time; yavat—when; gatavan—visited; prabhasam—the Prabhasa pilgrimage site; tavat—at that time; sasasa—ruled; ksitim—the world; eka-cakram—by one military force; eka—one; atapatram—flag; ajitena—by the mercy of the unconquerable Krsna; parthah—Maharaja Yudhisthira.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thus, when he was in the land of Bharatavarsa traveling to all the places of pilgrimage, he visited Prabhasaksetra.</p>
+<p>At that time Maharaja Yudhisthira was the emperor and held the world under one military strength and one flag.</p>
+<p><strong>PURPORT</strong></p>
+<p>More than five thousand years ago, while Saint Vidura was traveling the earth as a pilgrim, India was known as Bharatavarsa, as it is known even today.</p>
+<p>The history of the world cannot give any systematic account for more than three thousand years into the past, but before that the whole world was under the flag and military strength of Maharaja Yudhisthira, who was the emperor of the world.</p>
+<p>At present there are hundreds and thousands of flags flapping in the United Nations, but during the time of Vidura there was, by the grace of Ajita, Lord Krsna, only one flag.</p>
+<p>The nations of the world are very eager to again have one state under one flag, but for this they must seek the favor of Lord Krsna, who alone can help us become one worldwide nation.</p>
+
+
+
+<p><strong>3.1.21</strong></p>
+<p>tatratha susrava suhrd-vinastim</p>
+<p>vanam yatha venuja-vahni-samsrayam</p>
+<p>samspardhaya dagdham athanusocan</p>
+<p>sarasvatim pratyag iyaya tusnim</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatra— there; atha—thereafter; susrava—heard; suhrt—kinsmen; vinastim—all dead; vanam—forest; yatha—as much as; venuja-vahni—fire due to the bamboos; samsrayam—friction with one another; samspardhaya—by violent passion; dagdham—burnt; atha—thus; anusocan—thinking; sarasvatim—the River Sarasvati; pratyak—westward; iyaya—went; tusnim—silently.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>At the place of pilgrimage at Prabhasa, it came to his knowledge that all his relatives had died due to violent passion, just as an entire forest burns due to fire produced by the friction of bamboos.</p>
+<p>After this he proceeded west, where the River Sarasvati flows.</p>
+<p><strong>PURPORT</strong></p>
+<p>Both the Kauravas and the Yadavas were relatives of Vidura, and Vidura heard of their extinction due to fratricidal war.</p>
+<p>The comparison of the friction of forest bamboos to that of passionate human societies is appropriate.</p>
+<p>The whole world is compared to a forest.</p>
+<p>At any moment there may be a flare-up of fire in the forest due to friction.</p>
+<p>No one goes to the forest to set it on fire, but due only to friction between bamboos, fire takes place and burns an entire forest.</p>
+<p>Similarly, in the greater forest of worldly transaction, the fire of war takes place because of the violent passion of the conditioned souls illusioned by the external energy.</p>
+<p>Such a worldly fire can be extinguished only by the water of the mercy cloud of saints, just as a forest fire can be extinguished only by rains falling from a cloud.</p>
+
+
+
+<p><strong>3.1.22</strong></p>
+<p>tasyam tritasyosanaso manos ca</p>
+<p>prthor athagner asitasya vayoh</p>
+<p>tirtham sudasasya gavam guhasya</p>
+<p>yac chraddhadevasya sa asiseve</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasyam—on the bank of the River Sarasvati; tritasya—the pilgrimage site named Trita; usanasah—the pilgrimage site named Usana; manoh ca—as also of the pilgrimage site named Manu; prthoh—that of Prthu; atha—thereafter; agneh—that of Agni; asitasya—that of Asita; vayoh—that of Vayu; tirtham—places of pilgrimages; sudasasya—of the name Sudasa; gavam—that of Go; guhasya—that of Guha; yat—thereupon; sraddhadevasya—of the name Sraddhadeva; sah—Vidura; asiseve—duly visited and performed the rituals.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>On the bank of the River Sarasvati there were eleven places of pilgrimage, namely, (1) Trita, (2) Usana, (3) Manu, (4) Prthu, (5) Agni, (6) Asita, (7) Vayu, (8) Sudasa, (9) Go, (10) Guha and (11) Sraddhadeva.</p>
+<p>Vidura visited all of them and duly performed rituals.</p>
+
+
+
+<p><strong>3.1.23</strong></p>
+<p>anyani ceha dvija-deva-devaih</p>
+<p>krtani nanayatanani visnoh</p>
+<p>pratyanga-mukhyankita-mandirani</p>
+<p>yad-darsanat krsnam anusmaranti</p>
+<p><strong>SYNONYMS</strong></p>
+<p>anyani—others; ca—also; iha—here; dvija-deva—by the great sages; devaih—and the demigods; krtani—established by; nana—various; ayatanani—various forms; visnoh—of the Supreme Personality of Godhead; prati—each and every; anga—part; mukhya—the chief; ankita—marked; mandirani—temple s; yat—which; darsanat—by seeing from a distance; krsnam—the original Personality of Godhead; anusmaranti—constantly remembers.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>There were also many other temples of various forms of the Supreme Personality of Godhead Visnu, established by great sages and demigods.</p>
+<p>These temples were marked with the chief emblems of the Lord, and they reminded one always of the original Personality of Godhead, Lord Krsna.</p>
+<p><strong>PURPORT</strong></p>
+<p>Human society is divided into four social orders of life and four spiritual divisions, applying to each and every individual person.</p>
+<p>This system is called varnasrama-dharma and has already been discussed in many places in this great literature.</p>
+<p>The sages, or persons who completely devoted themselves to the spiritual upliftment of the entire human society, were known as dvija-deva, the best amongst the twice-born.</p>
+<p>The denizens of superior planets, from the moon planet and upwards, were known as devas.</p>
+<p>Both the dvija-devas and the devas always establish temples of Lord Visnu in His various forms, such as Govinda, Madhusudana, Nrsimha, Madhava, Kesava, Narayana, Padmanabha, Partha-sarathi and many others.</p>
+<p>The Lord expands Himself in innumerable forms, but all of them are nondifferent from one another.</p>
+<p>Lord Visnu has four hands, and each hand holds a particular item—either a conchshell, wheel, club or lotus flower.</p>
+<p>Of these four emblems, the cakra, or wheel, is the chief.</p>
+<p>Lord Krsna, being the original Visnu form, has only one emblem, namely the wheel, and therefore He is sometimes called the Cakri.</p>
+<p>The Lord’s cakra is the symbol of the power by which the Lord controls the whole manifestation.</p>
+<p>The tops of Visnu temples are marked with the symbol of the wheel so that people may have the chance to see the symbol from a very long distance and at once remember Lord Krsna.</p>
+<p>The purpose of building very high temples is to give people a chance to see them from a distant place.</p>
+<p>This system is carried on in India whenever a new temple is constructed, and it appears that it is coming down from a time before recorded history.</p>
+<p>The foolish propaganda by atheists that temples were constructed only in later days is refuted here because Vidura visited these temples at least five thousand years ago, and the temples of Visnu were in existence long, long before Vidura visited them.</p>
+<p>The great sages and demigods never established statues of men or demigods, but they established temples of Visnu for the benefit of common men, to raise them to the platform of God consciousness.</p>
+
+
+
+<p><strong>3.1.24</strong></p>
+<p>tatas tv ativrajya surastram rddham</p>
+<p>sauvira-matsyan kurujangalams ca</p>
+<p>kalena tavad yamunam upetya</p>
+<p>tatroddhavam bhagavatam dadarsa</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—from there; tu—but; ativrajya—by passing over; surastram—the kingdom of Surat; rddham—very wealthy; sauvira—the kingdom of Sauvira; matsyan—the kingdom of Matsya; kurujangalan—the kingdom of western India up to the Delhi province; ca—also; kalena—in course of time; tavat—as soon as; yamunam—bank of the River Yamuna; upetya—reaching; tatra—there; uddhavam—Uddhava, one of the prominent Yadus; bhagavatam—the great devotee of Lord Krsna; dadarsa—happened to see.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter he passed through very wealthy provinces like Surat, Sauvira and Matsya and through western India, known as Kurujangala.</p>
+<p>At last he reached the bank of the Yamuna, where he happened to meet Uddhava, the great devotee of Lord Krsna.</p>
+<p><strong>PURPORT</strong></p>
+<p>The tract of land comprising about one hundred square miles from modern Delhi to the Mathura district in Uttar Pradesh, including a portion of the Gurgaon district in Punjab (East India), is considered to be the topmost place of pilgrimage in all of India.</p>
+<p>This land is sacred because Lord Krsna traveled through it many times.</p>
+<p>From the very beginning of His appearance, He was at Mathura in the house of His maternal uncle Kamsa, and He was reared by His foster father Maharaja Nanda at Vrndavana.</p>
+<p>There are still many devotees of the Lord lingering there in ecstasy in search of Krsna and His childhood associates, the gopis.</p>
+<p>It is not that such devotees meet Krsna face to face in that tract of land, but a devotee’s eagerly searching after Krsna is as good as his seeing Him personally.</p>
+<p>How this is so cannot be explained, but it is factually realized by those who are pure devotees of the Lord.</p>
+<p>Philosophically, one can understand that Lord Krsna and His remembrance are on the absolute plane and that the very idea of searching for Him at Vrndavana in pure God consciousness gives more pleasure to the devotee than seeing Him face to face.</p>
+<p>Brahma-samhita (5.38):</p>
+<p>premanjana-cchurita-bhakti-vilocanena</p>
+<p>santah sadaiva hrdayesu vilokayanti</p>
+<p>yam syamasundaram acintya-guna-svarupam</p>
+<p>govindam adi-purusam tam aham bhajami</p>
+<p>Those who are in ecstasy of love with the Supreme Personality of Godhead, Lord Syamasundara (Krsna), see Him always in their hearts due to love and devotional service rendered to the Lord Both Vidura and Uddhava were such elevated devotees, and therefore they both came to the bank of the Yamuna and met each other.</p>
+
+
+
+<p><strong>3.1.25</strong></p>
+<p>sa vasudevanucaram prasantam</p>
+<p>brhaspateh prak tanayam pratitam</p>
+<p>alingya gadham pranayena bhadram</p>
+<p>svanam aprcchad bhagavat-prajanam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—he, Vidura; vasudeva—Lord Krsna; anucaram—constant companion; prasantam—very sober and gentle; brhaspateh—of Brhaspati, the learned spiritual master of the demigods; prak—formerly; tanayam—son or disciple; pratitam—acknowledged; alingya—embracing; gadham—very feelingly; pranayena—in love; bhadram—auspicious; svanam—his own; aprcchat—asked; bhagavat—of the Personality of Godhead; prajanam—family.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Then, due to his great love and feeling, Vidura embraced him (Uddhava), who was a constant companion of Lord Krsna and formerly a great student of Brhaspati’s.</p>
+<p>Vidura then asked him for news of the family of Lord Krsna, the Personality of Godhead.</p>
+<p><strong>PURPORT</strong></p>
+<p>Vidura was older than Uddhava, like a father, and therefore when the two met, Uddhava bowed down before Vidura, and Vidura embraced him because Uddhava was younger, like a son.</p>
+<p>Vidura’s brother Pandu was Lord Krsna’s uncle, and Uddhava was a cousin to Lord Krsna.</p>
+<p>According to social custom, therefore, Vidura was to be respected by Uddhava on the level of his father.</p>
+<p>Uddhava was a great scholar in logic, and he was known to be a son or disciple of Brhaspati, the greatly learned priest and spiritual master of the demigods.</p>
+<p>Vidura asked Uddhava about the welfare of his relatives, although he already knew that they were no longer in the world.</p>
+<p>This inquiry appears to be very queer, but Srila Jiva Gosvami states that the news was shocking to Vidura, who therefore inquired again due to great curiosity.</p>
+<p>Thus his inquiry was psychological and not practical.</p>
+
+
+
+<p><strong>3.1.26</strong></p>
+<p>kaccit puranau purusau svanabhya-</p>
+<p>padmanuvrttyeha kilavatirnau</p>
+<p>asata urvyah kusalam vidhaya</p>
+<p>krta-ksanau kusalam sura-gehe</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kaccit—whether; puranau—the original; purusau—Personalities of Godhead (Krsna and Balarama); svanabhya—Brahma; padma-anuvrttya—by the request of the one who is born from the lotus; iha—here; kila—certainly; avatirnau—incarnated; asate—are; urvyah—in the world; kusalam—well-being; vidhaya—for doing so; krta-ksanau—the elevators of everyone’s prosperity; kusalam—all well; sura-gehe—in the house of Surasena.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>(Please tell me) whether the original Personalities of Godhead, who incarnated Themselves at the request of Brahma (who is born out of the lotus flower from the Lord) and who have increased the prosperity of the world by elevating everyone, are doing well in the house of Surasena.</p>
+<p><strong>PURPORT</strong></p>
+<p>Lord Krsna and Balarama are not two different Personalities of Godhead.</p>
+<p>God is one without a second, but He expands Himself in many forms without their being separate from one another.</p>
+<p>They are all plenary expansions.</p>
+<p>The immediate expansion of Lord Krsna is Baladeva, and Brahma, born from the lotus flower from Garbhodakasayi Visnu, is an expansion of Baladeva.</p>
+<p>This indicates that Krsna and Baladeva are not subjected to the regulations of the universe; on the contrary, the whole universe is under Their subjugation.</p>
+<p>They appeared at the request of Brahma to liberate the burden of the world, and They relieved the world by many superhuman activities so that everyone became happy and prosperous.</p>
+<p>Without the grace of the Lord, no one can become happy and prosperous.</p>
+<p>Because the happiness of the family of the Lord’s devotees depends on the happiness of the Lord, Vidura first of all inquired about the well-being of the Lord.</p>
+
+
+
+<p><strong>3.1.27</strong></p>
+<p>kaccit kurunam paramah suhrn no</p>
+<p>bhamah sa aste sukham anga saurih</p>
+<p>yo vai svasrnam pitrvad dadati</p>
+<p>varan vadanyo vara-tarpanena</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kaccit—whether; kurunam—of the Kurus; paramah—greatest; suhrt—well-wisher; nah—our; bhamah—brother-in-law; sah—he; aste—is; sukham—happy; anga—O Uddhava; saurih—Vasudeva; yah—one who; vai—certainly; svasrnam—of the sisters; pitr-vat—like a father; dadati—gives; varan—everything desirable; vadanyah—munificent; vara—wife; tarpanena—by pleasing.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>(Please tell me) whether the best friend of the Kurus, our brother-in-law Vasudeva, is doing well.</p>
+<p>He is very munificent.</p>
+<p>He is like a father to his sisters, and he is always pleasing to his wives.</p>
+<p><strong>PURPORT</strong></p>
+<p>Lord Krsna’s father, Vasudeva, had sixteen wives, and one of them, named Pauravi or Rohini, the mother of Baladeva, was the sister of Vidura.</p>
+<p>Vasudeva, therefore, was the husband of Vidura’s sister, and thus they were brothers-in-law.</p>
+<p>Vasudeva’s sister Kunti was the wife of Pandu, Vidura’s elder brother, and in that sense also, Vasudeva was brother-in-law to Vidura.</p>
+<p>Kunti was younger than Vasudeva, and it was the duty of the elder brother to treat younger sisters as daughters.</p>
+<p>Whenever anything was needed by Kunti, it was munificently delivered by Vasudeva, due to his great love for his younger sister.</p>
+<p>Vasudeva never dissatisfied his wives, and at the same time he supplied the objects desired by his sister.</p>
+<p>He had special attention for Kunti because she became a widow at an early age.</p>
+<p>While inquiring about Vasudeva’s welfare, Vidura remembered all about him and the family relationship.</p>
+
+
+
+<p><strong>3.1.28</strong></p>
+<p>kaccid varuthadhipatir yadunam</p>
+<p>pradyumna aste sukham anga virah</p>
+<p>yam rukmini bhagavato ’bhilebhe</p>
+<p>aradhya vipran smaram adi-sarge</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kaccit—whether; varutha—of the military; adhipatih—commander-in-chief; yadunam—of the Yadus; pradyumnah—the son of Krsna named Pradyumna; aste—is; sukham—happy; anga—O Uddhava; virah—the great warrior; yam—whom; rukmini—the wife of Krsna named Rukmini; bhagavatah—from the Personality of Godhead; abhilebhe—got as a prize; aradhya—pleasing; vipran—brahmanas; smaram—Cupid (Kamadeva); adi-sarge—in his previous life.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O Uddhava, please tell me how is Pradyumna, the commander-in-chief of the Yadus, who was Cupid in a former life? Rukmini bore him as her son from Lord Krsna, by the grace of brahmanas whom she pleased.</p>
+<p><strong>PURPORT</strong></p>
+<p>According to Srila Jiva Gosvami, Smara (Cupid, or Kamadeva) is one of the eternal associates of Lord Krsna.</p>
+<p>Jiva Gosvami has explained this very elaborately in his treatise Krsna-sandarbha.</p>
+
+
+
+<p><strong>3.1.29</strong></p>
+<p>kaccit sukham satvata-vrsni-bhoja-</p>
+<p>dasarhakanam adhipah sa aste</p>
+<p>yam abhyasincac chata-patra-netro</p>
+<p>nrpasanasam parihrtya durat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kaccit—whether; sukham—is all well; satvata—the Satvata race; vrsni—the Vrsni dynasty; bhoja—the Bhoja dynasty; dasarhakanam—the Dasarha race; adhipah—King Ugrasena; sah—he; aste—does exist; yam—whom; abhyasincat—installed; sata-patra-netrah—Lord Sri Krsna; nrpa-asana-asam—hope of the royal throne; parihrtya—giving up; durat—at a distant place.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O my friend, (tell me) whether Ugrasena, the King of the Satvatas, Vrsnis, Bhojas and Dasarhas, is now doing well.</p>
+<p>He went far away from his kingdom, leaving aside all hopes of his royal throne, but Lord Krsna again installed him.</p>
+
+
+
+<p><strong>3.1.30</strong></p>
+<p>kaccid dhareh saumya sutah sadrksa</p>
+<p>aste ’grani rathinam sadhu sambah</p>
+<p>asuta yam jambavati vratadhya</p>
+<p>devam guham yo ’mbikaya dhrto ’gre</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kaccit—whether; hareh—of the Personality of Godhead; saumya—O grave one; sutah—son; sadrksah—similar; aste—fares well; agranih—foremost; rathinam—of the warriors; sadhu—well behaved; sambah—Samba; asuta—gave birth; yam—whom; jambavati—Jambavati, a queen of Lord Krsna’s; vratadhya—enriched by vows; devam—the demigod; guham—of the name Karttikeya; yah—whom; ambikaya—unto the wife of Siva; dhrtah—born; agre—in the previous birth.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O gentle one, does Samba fare well? He exactly resembles the son of the Personality of Godhead.</p>
+<p>In a previous birth he was born as Karttikeya in the womb of the wife of Lord Siva, and now he has been born in the womb of Jambavati, the most enriched wife of Krsna.</p>
+<p><strong>PURPORT</strong></p>
+<p>Lord Siva, one of the three qualitative incarnations of the Personality of Godhead, is the plenary expansion of the Lord.</p>
+<p>Karttikeya, born of him, is on the level of Pradyumna, another son of Lord Krsna.</p>
+<p>When Lord Sri Krsna descends into the material world, all His plenary portions also appear with Him to exhibit different functions of the Lord.</p>
+<p>But for the pastimes at Vrndavana, all functions are performed by the Lord’s different plenary expansions.</p>
+<p>Vasudeva is a plenary expansion of Narayana.</p>
+<p>When the Lord appeared as Vasudeva before Devaki and Vasudeva, He appeared in His capacity as Narayana.</p>
+<p>Similarly, all the demigods of the heavenly kingdom appeared as associates of the Lord in the forms of Pradyumna, Samba, Uddhava, etc.</p>
+<p>It is learned here that Kamadeva appeared as Pradyumna, Karttikeya as Samba, and one of the Vasus as Uddhava.</p>
+<p>All of them served in their different capacities in order to enrich the pastimes of Krsna.</p>
+
+
+
+<p><strong>3.1.31</strong></p>
+<p>ksemam sa kaccid yuyudhana aste</p>
+<p>yah phalgunal labdha-dhanu-rahasyah</p>
+<p>lebhe ’njasadhoksaja-sevayaiva</p>
+<p>gatim tadiyam yatibhir durapam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ksemam—all good; sah—he; kaccit—whether; yuyudhanah—Satyaki; aste—is there; yah—one who; phalgunat—from Arjuna; labdha—has achieved; dhanuh-rahasyah—one who understands the intricacies of military art; lebhe—also achieved; anjasa—summarily; adhoksaja—of the Transcendence; sevaya—by service; eva—certainly; gatim—destination; tadiyam—transcendental; yatibhih—by great renouncers; durapam—very difficult to achieve.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O Uddhava, does Yuyudhana fare well? He learned the intricacies of the military art from Arjuna and attained the transcendental destination which is very difficult to reach even for great renouncers.</p>
+<p><strong>PURPORT</strong></p>
+<p>The destination of transcendence is to become the personal associate of the Personality of Godhead, who is known as adhoksaja, He who is beyond the reach of the senses.</p>
+<p>The renouncers of the world, the sannyasis, give up all worldly connections, namely, family, wife, children, friends, home, wealth—everything—to attain the transcendental bliss of Brahman happiness.</p>
+<p>But adhoksaja happiness is beyond Brahman happiness.</p>
+<p>The empiric philosophers enjoy a transcendental quality of bliss by philosophical speculation on the Supreme Truth, but beyond that pleasure is the pleasure enjoyed by Brahman in His eternal form of the Personality of Godhead.</p>
+<p>Brahman bliss is enjoyed by living entities after liberation from material bondage.</p>
+<p>But Parabrahman, the Personality of Godhead, enjoys eternally a bliss of His own potency, which is called the hladini potency.</p>
+<p>The empiric philosopher who studies Brahman by negation of the external features has not yet learned the quality of the hladini potency of Brahman.</p>
+<p>Out of many potencies of the Omnipotent, there are three features of His internal potency—namely samvit, sandhini and hladini.</p>
+<p>And in spite of their strict adherence to the principles of yama, niyama, asana, dhyana, dharana and pranayama, the great yogis and jnanis are unable to enter into the internal potency of the Lord.</p>
+<p>This internal potency is, however, easily realized by the devotees of the Lord by dint of devotional service.</p>
+<p>Yuyudhana achieved this stage of life, just as he achieved expert knowledge in military science from Arjuna.</p>
+<p>Thus his life was successful to the fullest extent from both the material and spiritual angles of vision.</p>
+<p>That is the way of devotional service to the Lord.</p>
+
+
+
+<p><strong>3.1.32</strong></p>
+<p>kaccid budhah svasty anamiva aste</p>
+<p>svaphalka-putro bhagavat-prapannah</p>
+<p>yah krsna-padankita-marga-pamsusv</p>
+<p>acestata prema-vibhinna-dhairyah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kaccit—whether; budhah—very learned; svasti—well; anamivah—faultless; aste—does exist; svaphalka-putrah—the son of Svaphalka, Akrura; bhagavat—regarding the Personality of Godhead; prapannah—surrendered; yah—one who; krsna—the Lord; pada-ankita—marked with footprints; marga—path; pamsusu—in the dust; acestata—exhibited; prema-vibhinna—lost in transcendental love; dhairyah—mental equilibrium.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Please tell me whether Akrura, the son of Svaphalka, is doing well.</p>
+<p>He is a faultless soul surrendered unto the Personality of Godhead.</p>
+<p>He once lost his mental equilibrium due to his ecstasy of transcendental love and fell down on the dust of a road which was marked with the footprints of Lord Krsna.</p>
+<p><strong>PURPORT</strong></p>
+<p>When Akrura came to Vrndavana in search of Krsna, he saw the footprints of the Lord on the dust of Nanda-grama and at once fell on them in ecstasy of transcendental love.</p>
+<p>This ecstasy is possible for a devotee who is fully absorbed in incessant thoughts of Krsna.</p>
+<p>Such a pure devotee of the Lord is naturally faultless because he is always associated with the supremely pure Personality of Godhead.</p>
+<p>Constant thought of the Lord is the antiseptic method for keeping oneself free from the infectious contamination of the material qualities.</p>
+<p>The pure devotee of the Lord is always in company with the Lord by thinking of Him.</p>
+<p>Yet, in the particular context of time and place, the transcendental emotions take a different turn, and this breaks the mental equilibrium of the devotee.</p>
+<p>Lord Caitanya displayed the typical example of transcendental ecstasy, as we can understand from the life of this incarnation of God.</p>
+
+
+
+<p><strong>3.1.33</strong></p>
+<p>kaccic chivam devaka-bhoja-putrya</p>
+<p>visnu-prajaya iva deva-matuh</p>
+<p>ya vai sva-garbhena dadhara devam</p>
+<p>trayi yatha yajna-vitanam artham</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kaccit—whether; sivam—everything well; devaka-bhoja-putryah—of the daughter of King Devaka-bhoja; visnu-prajayah—of she who gave birth to the Personality of Godhead; iva—like that of; deva-matuh—of the mother of the demigods (Aditi); ya—one who; vai—indeed; sva-garbhena—by her own womb; dadhara—conceived; devam—the Supreme Lord; trayi—the Vedas; yatha—as much as; yajna-vitanam—of spreading the sacrifice; artham—purpose.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>As the Vedas are the reservoir of sacrificial purposes, so the daughter of King Devaka-bhoja conceived the Supreme Personality of Godhead in her womb, as did the mother of the demigods.</p>
+<p>Is she (Devaki) doing well?</p>
+<p><strong>PURPORT</strong></p>
+<p>The Vedas are full of transcendental knowledge and spiritual values, and thus Devaki, the mother of Lord Krsna, conceived the Lord in her womb as the personified meaning of the Vedas.</p>
+<p>There is no difference between the Vedas and the Lord.</p>
+<p>The Vedas aim at the understanding of the Lord, and the Lord is the Vedas personified.</p>
+<p>Devaki is compared to the meaningful Vedas and the Lord to their purpose personified.</p>
+
+
+
+<p><strong>3.1.34</strong></p>
+<p>apisvid aste bhagavan sukham vo</p>
+<p>yah satvatam kama-dugho ’niruddhah</p>
+<p>yam amananti sma hi sabda-yonim</p>
+<p>mano-mayam sattva-turiya-tattvam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>api—as also; svit—whether; aste—does He; bhagavan—the Personality of Godhead; sukham—all happiness; vah—of you; yah—one who; satvatam—of the devotees; kama-dughah—source of all desires; aniruddhah—the plenary expansion Aniruddha; yam—whom; amananti—they accept; sma—from yore; hi—certainly; sabda-yonim—the cause of the Rg Veda; manah-mayam—creator of the mind; sattva—transcendental; turiya—the fourth expansion; tattvam—principle.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>May I inquire whether Aniruddha is doing well? He is the fulfiller of all the desires of the pure devotees and has been considered from yore to be the cause of the Rg Veda, the creator of the mind and the fourth Plenary expansion of Visnu.</p>
+<p><strong>PURPORT</strong></p>
+<p>Adi-caturbhuja, the original expansions from Baladeva, are Vasudeva, Sankarsana, Pradyumna and Aniruddha.</p>
+<p>All of Them are visnu-tattvas, or nondifferent Personalities of Godhead.</p>
+<p>In the incarnation of Sri Rama, all these different expansions appeared for particular pastimes.</p>
+<p>Lord Rama is the original Vasudeva, and His brothers were Sankarsana, Pradyumna and Aniruddha.</p>
+<p>Aniruddha is also the cause of Maha-Visnu, from whose breathing the Rg Veda appeared.</p>
+<p>All this is nicely explained in the Markandeya Purana.</p>
+<p>In the incarnation of Lord Krsna, Aniruddha appeared as the son of the Lord.</p>
+<p>Lord Krsna in Dvaraka is the Vasudeva expansion of the original group.</p>
+<p>The original Lord Krsna never leaves Goloka Vrndavana.</p>
+<p>All the plenary expansions are one and the same visnu-tattva, and there is no difference in Their potency.</p>
+
+
+
+<p><strong>3.1.35</strong></p>
+<p>apisvid anye ca nijatma-daivam</p>
+<p>ananya-vrttya samanuvrata ye</p>
+<p>hrdika-satyatmaja-carudesna-</p>
+<p>gadadayah svasti caranti saumya</p>
+<p><strong>SYNONYMS</strong></p>
+<p>api—as also; svit—whether; anye—others; ca—and; nija-atma—of one’s own self; daivam—Sri Krsna; ananya—absolutely; vrttya—faith; samanuvratah—followers; ye—all those who; hrdika—Hrdika; satya-atmaja—the son of Satyabhama; carudesna—Carudesna; gada—Gada; adayah—and others; svasti—all well; caranti—pass time; saumya—O sober one.</p>
+<p><strong>TRANSLATION</strong></p>
+
+
+
+<p><strong>3.1.36</strong></p>
+<p>api sva-dorbhyam vijayacyutabhyam</p>
+<p>dharmena dharmah paripati setum</p>
+<p>duryodhano ’tapyata yat-sabhayam</p>
+<p>samrajya-laksmya vijayanuvrttya</p>
+<p><strong>SYNONYMS</strong></p>
+<p>api—as also; sva-dorbhyam—own arms; vijaya—Arjuna; acyuta-bhyam—along with Sri Krsna; dharmena—on religious principles; dharmah—King Yudhisthira; paripati—maintains; setum—the respect of religion; duryodhanah—Duryodhana; atapyata—envied; yat—whose; sabhayam—royal assembly; samrajya—imperial; laksmya—opulence; vijaya-anuvrttya—by the service of Arjuna.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Also let me inquire whether Maharaja Yudhisthira is now maintaining the kingdom according to religious principles and with respect for the path of religion.</p>
+<p>Formerly Duryodhana was burning with envy because Yudhisthira was being protected by the arms of Krsna and Arjuna as if they were his own arms.</p>
+<p><strong>PURPORT</strong></p>
+<p>Maharaja Yudhisthira was the emblem of religion.</p>
+<p>When he was ruling his kingdom with the help of Lord Krsna and Arjuna, the opulence of his kingdom surpassed all imaginations of the opulence of the kingdom of heaven.</p>
+<p>His actual arms were Lord Krsna and Arjuna, and thus he surpassed everyone’s opulence.</p>
+<p>Duryodhana, being envious of this opulence, planned so many schemes to put Yudhisthira into difficulty, and at last the Battle of Kuruksetra was brought about.</p>
+<p>After the Battle of Kuruksetra, Maharaja Yudhisthira was again able to rule his legitimate kingdom, and he reinstated the principles of honor and respect for religion.</p>
+<p>That is the beauty of a kingdom ruled by a pious king like Maharaja Yudhisthira.</p>
+
+
+
+<p><strong>3.1.37</strong></p>
+<p>kim va krtaghesv agham atyamarsi</p>
+<p>bhimo ’hivad dirghatamam vyamuncat</p>
+<p>yasyanghri-patam rana-bhur na sehe</p>
+<p>margam gadayas carato vicitram</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kim—whether; va—either; krta—performed; aghesu—unto the sinners; agham—angry; ati-amarsi—unconquerable; bhimah—Bhima; ahi-vat—like a cobra; dirgha-tamam—long-cherished; vyamuncat—has released; yasya—whose; anghri-patam—putting on the steps; rana-bhuh—the field of battle; na—could not; sehe—tolerate; margam—the path; gadayah—by the clubs; caratah—playing; vicitram—wonderful.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>(Please tell me) whether the unconquerable Bhima, who is like a cobra, has released his long-cherished anger upon the sinners? The field of battle could not tolerate even the wonderful playing of his club when he stepped on the path.</p>
+<p><strong>PURPORT</strong></p>
+<p>Vidura knew the strength of Bhima.</p>
+<p>Whenever Bhima was on the battlefield, his steps on the path and the wonderful playing of his club were unbearable for the enemy.</p>
+<p>Powerful Bhima did not take steps against the sons of Dhrtarastra for a long time.</p>
+<p>Vidura’s inquiry was whether he had yet released his anger, which was like that of a suffering cobra.</p>
+<p>When a cobra releases its venom after long-cherished anger, its victim cannot survive.</p>
+
+
+
+<p><strong>3.1.38</strong></p>
+<p>kaccid yasodha ratha-yuthapanam</p>
+<p>gandiva-dhanvoparatarir aste</p>
+<p>alaksito yac-chara-kuta-gudho</p>
+<p>maya-kirato girisas tutosa</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kaccit—whether; yasah-dha—famous; ratha-yuthapanam—amongst the great chariot warriors; gandiva—Gandiva; dhanva—bow; uparata-arih—one who has vanquished the enemies; aste—doing well; alaksitah—without being identified; yat—whose; sara-kuta-gudhah—being covered by arrows; maya-kiratah—false hunter; girisah—Lord Siva; tutosa—was satisfied.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>(Please tell me) whether Arjuna, whose bow bears the name Gandiva and who is always famous amongst the chariot warriors for vanquishing his enemies, is doing well.</p>
+<p>He once satisfied Lord Siva by covering him with arrows when Siva came as an unidentified false hunter.</p>
+<p><strong>PURPORT</strong></p>
+<p>Lord Siva tested Arjuna’s strength by picking a quarrel with him over a hunted boar.</p>
+<p>He confronted Arjuna in the false dress of a hunter, and Arjuna covered him with arrows until Lord Siva was satisfied with Arjuna’s fighting.</p>
+<p>He offered Arjuna the Pasupati weapon and blessed him.</p>
+<p>Here Vidura inquired about the great warrior’s well-being.</p>
+
+
+
+<p><strong>3.1.39</strong></p>
+<p>yamav utasvit tanayau prthayah</p>
+<p>parthair vrtau paksmabhir aksiniva</p>
+<p>remata uddaya mrdhe sva-riktham</p>
+<p>parat suparnav iva vajri-vaktrat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yamau—twins (Nakula and Sahadeva); utasvit—whether; tanayau—sons; prthayah—of Prtha; parthaih—by the sons of Prtha; vrtau—protected; paksmabhih—by shields; aksini—of the eyes; iva—like; remate—playing carelessly; uddaya—snatching; mrdhe—in the fight; sva-riktham—own property; parat—from the enemy Duryodhana; suparnau—Garuda, the carrier of Lord Visnu; iva—like; vajri-vaktrat—from the mouth of Indra.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Are the twin brothers who are protected by their brothers doing well? Just as the eye is always protected by the eyelid, they are protected by the sons of Prtha, who snatched back their rightful kingdom from the hands of their enemy Duryodhana, just as Garuda snatched nectar from the mouth of Indra, the thunderbolt carrier.</p>
+<p><strong>PURPORT</strong></p>
+<p>Indra, the King of heaven, carries a thunderbolt in his hand and is very strong, yet Garuda, the carrier of Lord Visnu, was able to snatch nectar from his mouth.</p>
+<p>Similarly, Duryodhana was as strong as the King of heaven, and still the sons of Prtha, the Pandavas, were able to snatch away their kingdom from Duryodhana.</p>
+<p>Both Garuda and the Parthas are pet devotees of the Lord, and thus it was possible for them to face such strong enemies.</p>
+<p>Vidura’s inquiry was about the youngest brothers of the Pandavas, namely Nakula and Sahadeva.</p>
+<p>These twin brothers were sons of Madri, the stepmother of the other Pandavas.</p>
+<p>But although they were stepbrothers, because Kunti took charge of them after the departure of Madri with her husband Maharaja Pandu, Nakula and Sahadeva were as good as the other three Pandavas, Yudhisthira, Bhima and Arjuna.</p>
+<p>The five brothers are known in the world as regular brothers.</p>
+<p>The three elder Pandavas took care of the younger brothers, just as the eyelid takes care of the eye.</p>
+<p>Vidura was anxious to know whether, after winning back their own kingdom from the hands of Duryodhana, the younger brothers were still living happily under the care of the elder brothers.</p>
+
+
+
+<p><strong>3.1.40</strong></p>
+<p>aho prthapi dhriyate ’rbhakarthe</p>
+<p>rajarsi-varyena vinapi tena</p>
+<p>yas tv eka-viro ’dhiratho vijigye</p>
+<p>dhanur dvitiyah kakubhas catasrah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>aho—O my lord; prtha—Kunti; api—also; dhriyate—bears her life; arbhaka-arthe—for the sake of fatherless children; rajarsi—King Pandu; varyena—the best; vina api—without him; tena—him; yah—one who; tu—but; eka—alone; virah—the warrior; adhirathah—commander; vijigye—could conquer; dhanuh—the bow; dvitiyah—the second; kakubhah—directions; catasrah—four.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O my lord, is Prtha still living? She lived only for the sake of her fatherless children; otherwise it was impossible for her to live without King Pandu, who was the greatest commander and who alone conquered the four directions simply with the help of a second bow.</p>
+<p><strong>PURPORT</strong></p>
+<p>A faithful wife cannot live without her lord, the husband, and therefore all widows used to voluntarily embrace the burning fire which consumed the dead husband.</p>
+<p>This system was very common in India because all the wives were chaste and faithful to their husbands.</p>
+<p>Later on, with the advent of the age of Kali, the wives gradually began to be less adherent to their husbands, and the voluntary embrace of the fire by the widows became a thing of the past.</p>
+<p>Very recently the system was abolished, since the voluntary system had become a forcible social custom.</p>
+<p>When Maharaja Pandu died, both his wives, namely Kunti and Madri, were prepared to embrace the fire, but Madri requested Kunti to live for the sake of the younger children, the five Pandavas.</p>
+<p>This was agreed upon by Kunti at the added request of Vyasadeva.</p>
+<p>In spite of her great bereavement, Kunti decided to live, not to enjoy life in the absence of her husband, but only to give protection to the children.</p>
+<p>This incident is referred to here by Vidura because he knew all the facts about his sister-in-law Kuntidevi.</p>
+<p>It is understood that Maharaja Pandu was a great warrior and that he alone, with the help of bow and arrow, could conquer the world’s four directions.</p>
+<p>In the absence of such a husband, it was almost impossible for Kunti to live on even as a widow, but she had to do it for the sake of the five children.</p>
+
+
+
+<p><strong>3.1.41</strong></p>
+<p>saumyanusoce tam adhah-patantam</p>
+<p>bhratre paretaya vidudruhe yah</p>
+<p>niryapito yena suhrt sva-purya</p>
+<p>aham sva-putran samanuvratena</p>
+<p><strong>SYNONYMS</strong></p>
+<p>saumya—O gentle one; anusoce—just lamenting; tam—him; adhah-patantam—gliding down; bhratre—on his brother’s; paretaya—death; vidudruhe—revolted against; yah—one who; niryapitah—driven out; yena—by whom; suhrt—well-wisher; sva-puryah—from his own house; aham—myself; sva-putran—with his own sons; samanu-vratena—accepting the same line of action.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O gentle one, I simply lament for he (Dhrtarastra) who rebelled against his brother after death.</p>
+<p>By him I was driven out of my own house, although I am his sincere well-wisher, because he accepted the line of action adopted by his own sons.</p>
+<p><strong>PURPORT</strong></p>
+<p>Vidura did not ask about the welfare of his elder brother because there was no chance of his well-being, only news of his gliding down to hell.</p>
+<p>Vidura was a sincere well-wisher for Dhrtarastra, and he had a thought about him in the corner of his heart.</p>
+<p>He lamented that Dhrtarastra could rebel against the sons of his dead brother Pandu and that he could drive him (Vidura) out of his own house on the dictation of his crooked sons.</p>
+<p>In spite of these actions, Vidura never became an enemy of Dhrtarastra but continued to be his well-wisher, and at the last stage of Dhrtarastra’s life, it was Vidura only who proved to be his real friend.</p>
+<p>Such is the behavior of a Vaisnava like Vidura: he desires all good, even for his enemies.</p>
+
+
+
+<p><strong>3.1.42</strong></p>
+<p>so ’ham harer martya-vidambanena</p>
+<p>drso nrnam calayato vidhatuh</p>
+<p>nanyopalaksyah padavim prasadac</p>
+<p>carami pasyan gata-vismayo ’tra</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah aham—therefore, I; hareh—of the Personality of Godhead; martya—in this mortal world; vidambanena—without being recognized; drsah—on sight; nrnam—of the people in general; calayatah—bewildering; vidhatuh—in order to do it; na—not; anya—other; upalaksyah—seen by others; padavim—glories; prasadat—by the grace of; carami—do travel; pasyan—by seeing; gata-vismayah—without doubt; atra—in this matter.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>I am not astonished at this, having traveled over the world without being seen by others.</p>
+<p>The activities of the Personality of Godhead, which are like those of a man in this mortal world, are bewildering to others, but I know of His greatness by His grace, and thus I am happy in all respects.</p>
+<p><strong>PURPORT</strong></p>
+<p>Although he was the brother of Dhrtarastra, Vidura was completely different.</p>
+<p>By the grace of Lord Krsna, he was not foolish like his brother, and thus his brother’s association could not influence him.</p>
+<p>Dhrtarastra and his materialistic sons wanted to falsely lord it over the world by dint of their own strength.</p>
+<p>The Lord encouraged them in this, and thus they became more and more bewildered.</p>
+<p>But Vidura wanted to achieve sincere devotional service of the Lord and therefore became a soul absolutely surrendered to the Absolute Personality of Godhead.</p>
+<p>He could realize this in the progress of his pilgrim’s journey, and thus he was freed from all doubts.</p>
+<p>He was not at all sorry to be bereft of his hearth and home because he now had experience that dependence on the mercy of the Lord is a greater freedom than so-called freedom at home.</p>
+<p>A person should not be in the renounced order of life unless he is firmly convinced of being protected by the Lord.</p>
+<p>This stage of life is explained in Bhagavad-gita as abhayam sattva-samsuddhih: every living entity is factually completely dependent on the mercy of the Lord, but unless one is in the pure state of existence, he cannot be established in this position.</p>
+<p>This stage of dependence is called sattva-samsuddhih, or purification of one’s existence.</p>
+<p>The result of such purification is exhibited in fearlessness.</p>
+<p>A devotee of the Lord, who is called narayana-para, is never afraid of anything because he is always aware of the fact that the Lord protects him in all circumstances.</p>
+<p>With this conviction, Vidura traveled alone, and he was not seen or recognized by any friend or foe.</p>
+<p>Thus he enjoyed freedom of life without obligation to the many duties of the world.</p>
+<p>When Lord Sri Krsna was personally present in the mortal world in His eternal, blissful form of Syamasundara, those who were not pure devotees of the Lord could not recognize Him or know His glories.</p>
+<p>Avajananti mam mudha manusim tanum asritam (Bg.9.11): He is always bewildering to the nondevotees, but He is always seen by the devotees by dint of their pure devotional service to Him.</p>
+
+
+
+<p><strong>3.1.43</strong></p>
+<p>nunam nrpanam tri-madotpathanam</p>
+<p>mahim muhus calayatam camubhih</p>
+<p>vadhat prapannarti-jihirsayeso</p>
+<p>’py upaiksatagham bhagavan kurunam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>nunam—of course; nrpanam—of the kings; tri—three; mada-utpathanam—going astray out of false pride; mahim—earth; muhuh—constantly; calayatam—agitating; camubhih—by movement of soldiers; vadhat—from the act of killing; prapanna—surrendered; arti-jihirsaya—willing to relieve the distress of the sufferers; isah—the Lord; api—in spite of; upaiksata—waited; agham—offenses; bhagavan—the Supreme Lord; kurunam—of the Kurus.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Despite His being the Lord and being always willing to relieve the distress of sufferers, He (Krsna) refrained from killing the Kurus, although they committed all sorts of sins and although He saw other kings constantly agitating the earth by their strong military movements carried out under the dictation of three kinds of false pride.</p>
+<p><strong>PURPORT</strong></p>
+<p>As declared in Bhagavad-gita, the Lord appears in the mortal world to execute His much-needed mission of killing the miscreants and giving protection to the suffering faithful.</p>
+<p>In spite of that mission, Lord Krsna tolerated the insult to Draupadi by the Kurus and the injustices perpetrated against the Pandavas, as well as insults to Himself.</p>
+<p>The question may be raised, Why did He tolerate such injustices and insults in His presence? Why did He not chastise the Kurus immediately When Draupadi was insulted in the assembly by the Kurus by their attempt to see her naked in the presence of all, the Lord protected Draupadi by supplying an unlimited length of clothing.</p>
+<p>But He did not chastise the insulting party immediately.</p>
+<p>This silence of the Lord did not mean, however, that He excused the offenses of the Kurus.</p>
+<p>There were many other kings on earth who had become very proud of three kinds of possessions—wealth, education and followers—and they were constantly agitating the earth by movements of military strength.</p>
+<p>The Lord was just waiting to get them together on the Battlefield of Kuruksetra and kill them all at one time, just to make a short-cut in His killing mission.</p>
+<p>Godless kings or heads of state, when puffed up by advancement of material wealth, education and increase of population, always make a show of military strength and give trouble to the innocent.</p>
+<p>When Lord Krsna was personally present, there were many such kings all over the world, and He thus arranged for the Battle of Kuruksetra.</p>
+<p>In His manifestation of visva-rupa, the Lord expressed His mission of killing as follows: I have willingly descended on the earth in My capacity of inexorable Time in order to decrease the unwanted population.</p>
+<p>I shall finish all those who have assembled here except you, the Pandavas.</p>
+<p>This killing does not wait for you to take part in it.</p>
+<p>It is already arranged: all will be killed by Me.</p>
+<p>If you want to become famous as the hero of the battlefield and thus enjoy the booty of war, then, O Savyasaci, just become the immediate cause of this killing and thus take the credit.</p>
+<p>I have already killed all the great warriors—Bhisma, Drona, Jayadratha, Karna and many other great generals.</p>
+<p>Do not worry.</p>
+<p>Fight the battle and be famous as a great hero (Bg.11.32–34) The Lord always wants to see His devotee as the hero of some episode which He Himself performs.</p>
+<p>He wanted to see His devotee and friend Arjuna as the hero of the Battle of Kuruksetra, and thus He waited for all the miscreants of the world to assemble.</p>
+<p>That, and nothing else, is the explanation of His waiting.</p>
+
+
+
+<p><strong>3.1.44</strong></p>
+<p>ajasya janmotpatha-nasanaya</p>
+<p>karmany akartur grahanaya pumsam</p>
+<p>nanv anyatha ko ’rhati deha-yogam</p>
+<p>paro gunanam uta karma-tantram</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ajasya—of the unborn; janma—appearance; utpatha-nasanaya—f or the sake of annihilating the upstarts; karmani—works; akartuh—of one who has nothing to do; grahanaya—to take up; pumsam—of all persons; nanu anyatha—otherwise; kah—who; arhati—may deserve; deha-yogam—contact of the body; parah—transcendental; gunanam—of the three modes of nature; uta—what to speak of; karma-tantram—the law of action and reaction.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The appearance of the Lord is manifested for the annihilation of the upstarts.</p>
+<p>His activities are transcendental and are enacted for the understanding of all persons.</p>
+<p>Otherwise, since the Lord is transcendental to all material modes, what purpose could He serve by coming to earth?</p>
+<p><strong>PURPORT</strong></p>
+<p>Isvarah paramah krsnah sac-cid-ananda-vigrahah (Brahma-samhita 5.1): the form of the Lord is eternal, blissful, and all-satisfying.</p>
+<p>His so-called birth is therefore an appearance only, like the birth of the sun on the horizon.</p>
+<p>His birth does not, like that of the living entities, take place under the influence of material nature and the bondage of the reactions of past deeds.</p>
+<p>His works and activities are independent pastimes and are not subject to the reactions of material nature.</p>
+<p>In Bhagavad-gita (4.14) it is said:</p>
+<p>na mam karmani limpanti</p>
+<p>na me karma-phale sprha</p>
+<p>iti mam yo ’bhijanati</p>
+<p>karmabhir na sa badhyate</p>
+<p>The law of karma enacted by the Supreme Lord for the living entities cannot be applicable to Him, nor has the Lord any desire to improve Himself by activities like those of ordinary living beings.</p>
+<p>Ordinary living beings work for the improvement of their conditional lives.</p>
+<p>But the Lord is already full of all opulence, all strength, all fame, all beauty, all knowledge and all renunciation.</p>
+<p>Why should He desire improvement? No one can excel Him in any opulence, and therefore the desire for improvement is absolutely useless for Him.</p>
+<p>One should always discriminate between the activities of the Lord and those of ordinary living beings.</p>
+<p>Thus one may come to the right conclusion regarding the Lord’s transcendental position.</p>
+<p>One who can come to the conclusion of the Lord’s transcendence can become a devotee of the Lord and can at once be free from all reactions of past deeds.</p>
+<p>It is said, karmani nirdahati kintu ca bhakti-bhajam: the Lord minimizes or nullifies the reactionary influence of the devotee’s past deeds (Brahma-samhita5.54) The activities of the Lord are to be accepted and relished by all living entities.</p>
+<p>His activities are to attract the ordinary man towards the Lord.</p>
+<p>The Lord always acts in favor of the devotees, and therefore ordinary men who are fruitive actors or seekers of salvation may be attracted to the Lord when He acts as protector of the devotees.</p>
+<p>The fruitive actors can attain their goals by devotional service, and the salvationists can also attain their goal in life by devotional service to the Lord.</p>
+<p>The devotees do not want the fruitive results of their work, nor do they want any kind of salvation.</p>
+<p>They relish the glorious superhuman activities of the Lord, such as His lifting Govardhana Hill and His killing the demon Putana in infancy.</p>
+<p>His activities are enacted to attract all kinds of men—karmis, jnanis and bhaktas.</p>
+<p>Because He is transcendental to all laws of karma, there is no possibility of His accepting a form of maya as is forced on the ordinary living entities who are bound by the actions and reactions of their own deeds.</p>
+<p>The secondary purpose of His appearance is to annihilate the upstart asuras and to stop the nonsense of atheistic propaganda by less intelligent persons.</p>
+<p>By the Lord’s causeless mercy, the asuras who are killed personally by the Personality of Godhead get salvation.</p>
+<p>The meaningful appearance of the Lord is always distinct from ordinary birth.</p>
+<p>Even the pure devotees have no connection with the material body, and certainly the Lord, who appears as He is, in His sac-cid-ananda form, is not limited by a material form.</p>
+
+
+
+<p><strong>3.1.45</strong></p>
+<p>tasya prapannakhila-lokapanam</p>
+<p>avasthitanam anusasane sve</p>
+<p>arthaya jatasya yadusv ajasya</p>
+<p>vartam sakhe kirtaya tirtha-kirteh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasya—His; prapanna—surrendered; akhila-loka-panam—all rulers of the entire universe; avasthitanam—situated in; anusasane—under the control of; sve—own self; arthaya—for the interest of; jatasya—of the born; yadusu—in the family of the Yadus; ajasya—of the unborn; vartam—topics; sakhe—O my friend; kirtaya—please narrate; tirtha-kirteh—of the Lord, whose glories are chanted in the places of pilgrimage.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O my friend, please, therefore, chant the glories of the Lord, who is meant to be glorified in the places of pilgrimage.</p>
+<p>He is unborn, and yet He appears by His causeless mercy upon the surrendered rulers of all parts of the universe.</p>
+<p>Only for their interest did He appear in the family of His unalloyed devotees the Yadus.</p>
+<p><strong>PURPORT</strong></p>
+<p>There are innumerable rulers all over the universe in different varieties of planets: the sun-god in the sun planet, the moon-god in the moon planet, Indra in the heavenly planet, Vayu, Varuna, and those in the Brahmaloka planet, where Lord Brahma is living.</p>
+<p>All are obedient servants of the Lord.</p>
+<p>Whenever there is any trouble in the administration of the innumerable planets in different universes, the rulers pray for an appearance, and the Lord appears.</p>
+<p>The Bhagavatam (1.3.28) has already confirmed this in the following verse:</p>
+<p>ete camsa-kalah pumsah</p>
+<p>krsnas tu bhagavan svayam</p>
+<p>indrari-vyakulam lokam</p>
+<p>mrdayanti yuge yuge</p>
+<p>In every millennium, whenever there is any trouble for the obedient rulers, the Lord appears.</p>
+<p>He also appears for the sake of His pure unalloyed devotees.</p>
+<p>The surrendered rulers and the pure devotees are always strictly under the control of the Lord, and they are never disobedient to the desires of the Lord.</p>
+<p>The Lord is therefore always attentive to them.</p>
+<p>The purpose of pilgrimages is to remember the Lord constantly, and therefore the Lord is known as tirtha-kirti.</p>
+<p>The purpose of going to a place of pilgrimage is to get the chance to glorify the Lord.</p>
+<p>Even today, although times have changed, there are still pilgrimage sites in India.</p>
+<p>For example, in Mathura and Vrndavana, where we had a chance to stay, people are awake from early in the morning at 4 A.M up until nighttime and are constantly engaged, some way or other, in chanting the holy glories of the Lord.</p>
+<p>The beauty of such a pilgrimage site is that automatically one remembers the holy glories of the Lord.</p>
+<p>His name, fame, quality, form, pastimes and entourage are all identical to the Lord, and therefore chanting the glories of the Lord invokes the personal presence of the Lord.</p>
+<p>Any time or anywhere pure devotees meet and chant the glories of the Lord, the Lord is present without any doubt.</p>
+<p>It is said by the Lord Himself that He always stays where His pure devotees chant His glories.</p>
+
+
+</article></body></html>

@@ -1,155 +1,42 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>The Dynasty of Maharaja Nimi - The Dynasty of Maharaja Nimi</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">The Dynasty of Maharaja Nimi</a></li><li class="affix"><a href="9.13.2.html">9.13.2</a></li><li class="affix"><a href="9.13.3.html">9.13.3</a></li><li class="affix"><a href="9.13.4.html">9.13.4</a></li><li class="affix"><a href="9.13.5.html">9.13.5</a></li><li class="affix"><a href="9.13.6.html">9.13.6</a></li><li class="affix"><a href="9.13.7.html">9.13.7</a></li><li class="affix"><a href="9.13.8.html">9.13.8</a></li><li class="affix"><a href="9.13.9.html">9.13.9</a></li><li class="affix"><a href="9.13.10.html">9.13.10</a></li><li class="affix"><a href="9.13.11.html">9.13.11</a></li><li class="affix"><a href="9.13.12.html">9.13.12</a></li><li class="affix"><a href="9.13.13.html">9.13.13</a></li><li class="affix"><a href="9.13.14.html">9.13.14</a></li><li class="affix"><a href="9.13.15.html">9.13.15</a></li><li class="affix"><a href="9.13.16.html">9.13.16</a></li><li class="affix"><a href="9.13.17.html">9.13.17</a></li><li class="affix"><a href="9.13.18.html">9.13.18</a></li><li class="affix"><a href="9.13.19.html">9.13.19</a></li><li class="affix"><a href="9.13.20-21.html">9.13.20-21</a></li><li class="affix"><a href="9.13.22.html">9.13.22</a></li><li class="affix"><a href="9.13.23.html">9.13.23</a></li><li class="affix"><a href="9.13.24.html">9.13.24</a></li><li class="affix"><a href="9.13.25.html">9.13.25</a></li><li class="affix"><a href="9.13.26.html">9.13.26</a></li><li class="affix"><a href="9.13.27.html">9.13.27</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">The Dynasty of Maharaja Nimi</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#the-dynasty-of-maharaja-nimi" id="the-dynasty-of-maharaja-nimi">The Dynasty of Maharaja Nimi</a></h1>
-<h2><a class="header" href="#summary" id="summary">Summary</a></h2>
-<h3><a class="header" href="#913" id="913">9.13</a></h3>
+<h1>The Dynasty of Maharaja Nimi</h1>
+<h2>Summary</h2>
+<p><strong>9.13</strong></p>
 <p>This chapter describes the dynasty in which the great and learned scholar Janaka was born.</p>
 <p>This is the dynasty of Maharaja Nimi, who is said to have been the son of Iksvaku.</p>
 <p>When Maharaja Nimi began performing great sacrifices, he appointed Vasistha to be chief priest, but Vasistha refused, for he had already agreed to be priest in performing a yajna for Lord Indra.</p>
@@ -170,7 +57,7 @@
 <p>Kesidhvaja was a self-realized soul, and his son was Bhanuman, whose descendants were as follows: Satadyumna, Suci, Sanadvaja, Urjaketu, Aja, Purujit, Aristanemi, Srutayu, Suparsvaka, Citraratha, Ksemadhi, Samaratha, Satyaratha, Upaguru, Upagupta, Vasvananta, Yuyudha, Subhasana, Sruta, Jaya, Vijaya, Rta, Sunaka, Vitahavya, Dhrti, Bahulasva, Krti and Mahavasi.</p>
 <p>All of these sons were great self-controlled personalities.</p>
 <p>This completes the list of the entire dynasty.</p>
-<h3><a class="header" href="#9131" id="9131">9.13.1</a></h3>
+<p><strong>9.13.1</strong></p>
 <p>sri-suka uvaca</p>
 <p>nimir iksvaku-tanayo</p>
 <p>vasistham avrtartvijam</p>
@@ -182,63 +69,470 @@
 <p>Srila Sukadeva Gosvami said: After beginning sacrifices, Maharaja Nimi, the son of Iksvaku, requested the great sage Vasistha to take the post of chief priest.</p>
 <p>At that time, Vasistha replied, My dear Maharaja Nimi, I have already accepted the same post in a sacrifice begun by Lord Indra.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="9.13.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>9.13.2</strong></p>
+<p>tam nirvartyagamisyami</p>
+<p>tavan mam pratipalaya</p>
+<p>tusnim asid grha-patih</p>
+<p>so ’pindrasyakaron makham</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tam—that sacrifice; nirvartya—after finishing; agamisyami—I shall come back; tavat—until that time; mam—me (Vasistha); pratipalaya—wait for; tusnim—silent; asit—remained; grha-patih—Maharaja Nimi; sah—he, Vasistha; api—also; indrasya—of Lord Indra; akarot—executed; makham—the sacrifice.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>I shall return here after finishing the yajna for Indra.</p>
+<p>Kindly wait for me until then Maharaja Nimi remained silent, and Vasistha began to perform the sacrifice for Lord Indra.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="9.13.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>9.13.3</strong></p>
+<p>nimis calam idam vidvan</p>
+<p>satram arabhatatmavan</p>
+<p>rtvigbhir aparais tavan</p>
+<p>nagamad yavata guruh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>nimih—Maharaja Nimi; calam—flickering, subject to end at any moment; idam—this (life); vidvan—being completely aware of this fact; satram—the sacrifice; arabhata—inaugurated; atmavan—self-realized person; rtvigbhih—by priests; aparaih—other than Vasistha; tavat—for the time being; na—not; agamat—returned; yavata—so long; guruh—his spiritual master (Vasistha).</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Maharaja Nimi, being a self-realized soul, considered that this life is flickering.</p>
+<p>Therefore, instead of waiting long for Vasistha, he began performing the sacrifice with other priests.</p>
+<p><strong>PURPORT</strong></p>
+<p>Canakya Pandita says, sariram ksana-vidhvamsi kalpanta-sthayino gunah: The duration of one’s life in the material world may end at any moment, but if within this life one does something worthy, that qualification is depicted in history eternally Here is a great personality, Maharaja Nimi, who knew this fact.</p>
+<p>In the human form of life one should perform activities in such a way that at the end he goes back home, back to Godhead.</p>
+<p>This is self-realization.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>9.13.4</strong></p>
+<p>sisya-vyatikramam viksya</p>
+<p>tam nirvartyagato guruh</p>
+<p>asapat patatad deho</p>
+<p>nimeh pandita-maninah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sisya-vyatikramam—the disciple’s deviation from the order of the guru; viksya—observing; tam—the performance of yajna by Indra; nirvartya—after finishing; agatah—when he returned; guruh—Vasistha Muni; asapat—he cursed Nimi Maharaja; patatat—may it fall down; dehah—the material body; nimeh—of Maharaja Nimi; pandita-maninah—who considers himself so learned (as to disobey the order of his spiritual master).</p>
+<p><strong>TRANSLATION</strong></p>
+<p>After completing the sacrificial performance for King Indra, the spiritual master Vasistha returned and found that his disciple Maharaja Nimi had disobeyed his instructions.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>9.13.5</strong></p>
+<p>nimih pratidadau sapam</p>
+<p>gurave ’dharma-vartine</p>
+<p>tavapi patatad deho</p>
+<p>lobhad dharmam ajanatah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>nimih—Maharaja Nimi; pratidadau sapam—countercursed; gurave—unto his spiritual master, Vasistha; adharma-vartine—who was induced to irreligious principles (because he cursed his offenseless disciple); tava—of you; api—also; patatat—let it fall; dehah—the body; lobhat—because of greed; dharmam—religious principles; ajanatah—not knowing.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>For unnecessarily cursing him when he had committed no offense, Maharaja Nimi countercursed his spiritual master For the sake of getting contributions from the King of heaven he said, you have lost your religious intelligence.</p>
+<p>Therefore I pronounce this curse: your body also will fall</p>
+<p><strong>PURPORT</strong></p>
+<p>The religious principle for a brahmana is that he should not be greedy at all.</p>
+<p>In this case, however, for the sake of more lucrative remunerations from the King of heaven, Vasistha neglected Maharaja Nimi’s request on this planet, and when Nimi performed the sacrifices with other priests, Vasistha unnecessarily cursed him.</p>
+<p>When one is infected by contaminated activities, his power, material or spiritual, reduces.</p>
+<p>Although Vasistha was the spiritual master of Maharaja Nimi, because of his greed he became fallen.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>9.13.6</strong></p>
+<p>ity utsasarja svam deham</p>
+<p>nimir adhyatma-kovidah</p>
+<p>mitra-varunayor jajne</p>
+<p>urvasyam prapitamahah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>iti—thus; utsasarja—gave up; svam—his own; deham—body; nimih—Maharaja Nimi; adhyatma-kovidah—fully conversant with spiritual knowledge; mitra-varunayoh—from the semen of Mitra and Varuna (discharged from seeing the beauty of Urvasi); jajne—was born; urvasyam—through Urvasi, a prostitute of the heavenly kingdom; prapitamahah—Vasistha, who was known as the great-grandfather.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>After saying this, Maharaja Nimi, who was expert in the science of spiritual knowledge, gave up his body.</p>
+<p>Vasistha, the great-grandfather, gave up his body also, but through the semen discharged by Mitra and Varuna when they saw Urvasi, he was born again.</p>
+<p><strong>PURPORT</strong></p>
+<p>Mitra and Varuna chanced to meet Urvasi, the most beautiful prostitute of the heavenly kingdom, and they became lusty.</p>
+<p>Because they were great saints, they tried to control their lust, but they could not do so, and thus they discharged semen.</p>
+<p>This semen was kept carefully in a waterpot, and Vasistha was born from it.</p>
+
+
+
+<p><strong>9.13.7</strong></p>
+<p>gandha-vastusu tad-deham</p>
+<p>nidhaya muni-sattamah</p>
+<p>samapte satra-yage ca</p>
+<p>devan ucuh samagatan</p>
+<p><strong>SYNONYMS</strong></p>
+<p>gandha-vastusu—in things very fragrant; tat-deham—the body of Maharaja Nimi; nidhaya—having preserved; muni-sattamah—all the great sages gathered there; samapte satra-yage—at the end of the sacrifice known by the name Satra; ca—also; devan—to all the demigods; ucuh—requested or spoke; samagatan—who were assembled there.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>During the performance of the yajna, the body relinquished by Maharaja Nimi was preserved in fragrant substances, and at the end of the Satra-yaga the great saints and brahmanas made the following request to all the demigods assembled there.</p>
+
+
+
+<p><strong>9.13.8</strong></p>
+<p>rajno jivatu deho ’yam</p>
+<p>prasannah prabhavo yadi</p>
+<p>tathety ukte nimih praha</p>
+<p>ma bhun me deha-bandhanam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>rajnah—of the King; jivatu—may again be enlivened; dehah ayam—this body (now preserved); prasannah—very much pleased; prabhavah—all able to do it; yadi—if; tatha—let it be so; iti—thus; ukte—when it was replied (by the demigods); nimih—Maharaja Nimi; praha—said; ma bhut—do not do it; me—my; deha-bandhanam—imprisonment again in a material body.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>If you are satisfied with this sacrifice and if you are actually able to do so, kindly bring Maharaja Nimi back to life in this body The demigods said yes to this request by the sages, but Maharaja Nimi said, Please do not imprison me again in a material body</p>
+<p><strong>PURPORT</strong></p>
+<p>The demigods are in a position many times higher than that of human beings.</p>
+<p>Therefore, although the great saints and sages were also powerful brahmanas, they requested the demigods to revive Maharaja Nimi’s body, which had been preserved in various perfumed balms.</p>
+<p>One should not think that the demigods are powerful only in enjoying the senses; they are also powerful in such deeds as bringing life back to a dead body.</p>
+<p>There are many similar instances in the Vedic literature.</p>
+<p>For example, according to the history of Savitri and Satyavan, Satyavan died and was being taken away by Yamaraja, but on the request of his wife, Savitri, Satyavan was revived in the same body.</p>
+<p>This is an important fact about the power of the demigods.</p>
+
+
+
+<p><strong>9.13.9</strong></p>
+<p>yasya yogam na vanchanti</p>
+<p>viyoga-bhaya-katarah</p>
+<p>bhajanti caranambhojam</p>
+<p>munayo hari-medhasah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yasya—with the body; yogam—contact; na—do not; vanchanti—jnanis desire; viyoga-bhaya-katarah—being afraid of giving up the body again; bhajanti—offer transcendental loving service; carana-ambhojam—to the lotus feet of the Lord; munayah—great saintly persons; hari-medhasah—whose intelligence is always absorbed in thoughts of Hari, the Supreme Personality of Godhead.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Maharaja Nimi continued: Mayavadis generally want freedom from accepting a material body because they fear having to give it up again.</p>
+<p>But devotees whose intelligence is always filled with the service of the Lord are unafraid.</p>
+<p>Indeed, they take advantage of the body to render transcendental loving service.</p>
+<p><strong>PURPORT</strong></p>
+<p>Maharaja Nimi did not want to accept a material body, which would be a cause of bondage; because he was a devotee, he wanted a body by which he could render devotional service to the Lord.</p>
+<p>Srila Bhaktivinoda Thakura sings:</p>
+<p>janmaobi more iccha yadi tora</p>
+<p>bhakta-grhe jani janma ha-u mora</p>
+<p>kita-janma ha-u yatha tuya dasa</p>
+<p>My Lord, if You want me to take birth and accept a material body again, kindly do me this favor: allow me to take birth in the home of Your servant, Your devotee.</p>
+<p>I do not mind being born there even as an insignificant creature like an insect Sri Caitanya Mahaprabhu also said:</p>
+<p>na dhanam na janam na sundarim</p>
+<p>kavitam va jagadisa kamaye</p>
+<p>mama janmani janmanisvare</p>
+<p>bhavatad bhaktir ahaitukyi tvayi</p>
+<p>O Lord of the universe, I do not desire material wealth, materialistic followers, a beautiful wife or fruitive activities described in flowery language.</p>
+<p>All I want, life after life, is unmotivated devotional service to You (Siksastaka4) By saying life after lif (janmani janmani), the Lord referred not to an ordinary birth but a birth in which to remember the lotus feet of the Lord.</p>
+<p>Such a body is desirable.</p>
+<p>A devotee does not think like yogis and jnanis, who want to refuse a material body and become one with the impersonal Brahman effulgence.</p>
+<p>A devotee does not like this idea.</p>
+<p>On the contrary, he will accept any body, material or spiritual, for he wants to serve the Lord.</p>
+<p>This is real liberation.</p>
+<p>If one has a strong desire to serve the Lord, even if he accepts a material body, there is no cause of anxiety, since a devotee, even in a material body, is a liberated soul.</p>
+<p>This is confirmed by Srila Rupa Gosvami:</p>
+<p>iha yasya harer dasye</p>
+<p>karmana manasa gira</p>
+<p>nikhilasv apy avasthasu</p>
+<p>jivan-muktah sa ucyate</p>
+<p>A person acting in Krsna consciousness (or, in other words, in the service of Krsna) with his body, mind, intelligence and words is a liberated person even within the material world, although he may be engaged in many so-called material activities The desire to serve the Lord establishes one as liberated in any condition of life, whether in a spiritual body or a material body.</p>
+<p>In a spiritual body the devotee becomes a direct associate of the Lord, but even though a devotee may superficially appear to be in a material body, he is always liberated and is engaged in the same duties of service to the Lord as a devotee in Vaikunthaloka.</p>
+<p>There is no distinction.</p>
+<p>It is said, sadhur jivo va maro va.</p>
+<p>Whether a devotee is alive or dead, his only concern is to serve the Lord.</p>
+<p>Tyaktva deham punar janma naiti mam eti (Bg.4.9).</p>
+<p>When he gives up his body, he goes directly to become an associate of the Lord and serve Him, although he does the same thing even in a material body in the material world.</p>
+<p>For a devotee there is no pain, pleasure or material perfection.</p>
+<p>One may argue that at the time of death a devotee also suffers because of giving up his material body.</p>
+<p>But in this connection the example may be given that a cat carries a mouse in its mouth and also carries a kitten in its mouth.</p>
+<p>Both the mouse and the kitten are carried in the same mouth, but the perception of the mouse is different from that of the kitten.</p>
+<p>When a devotee gives up his body (tyaktva deham), he is ready to go back home, back to Godhead.</p>
+<p>Thus his perception is certainly different from that of a person being taken away by Yamaraja for punishment.</p>
+<p>A person whose intelligence is always concentrated upon the service of the Lord is unafraid of accepting a material body, whereas a nondevotee, having no engagement in the service of the Lord, is very much afraid of accepting a material body or giving up his present one.</p>
+<p>Therefore, we should follow the instruction of Caitanya Mahaprabhu: mama janmani janmanisvare bhavatad bhaktir ahaituki tvayi.</p>
+<p>It doesn’t matter whether we accept a material body or a spiritual body; our only ambition should be to serve the Supreme Personality of Godhead.</p>
+
+
+
+<p><strong>9.13.10</strong></p>
+<p>deham navarurutse ’ham</p>
+<p>duhkha-soka-bhayavaham</p>
+<p>sarvatrasya yato mrtyur</p>
+<p>matsyanam udake yatha</p>
+<p><strong>SYNONYMS</strong></p>
+<p>deham—a material body; na—not; avarurutse—desire to accept; aham—I; duhkha-soka-bhaya-avaham—which is the cause of all kinds of distress, lamentation and fear; sarvatra—always and everywhere within this universe; asya—of the living entities who have accepted material bodies; yatah—because; mrtyuh—death; matsyanam—of the fish; udake—living within the water; yatha—like.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>I do not wish to accept a material body, for such a body is the source of all distress, lamentation and fear, everywhere in the universe, just as it is for a fish in the water, which lives always in anxiety because of fear of death.</p>
+<p><strong>PURPORT</strong></p>
+<p>The material body, whether in the higher or lower planetary system, is destined to die.</p>
+<p>In the lower planetary system or lower species of life one may die soon, and in the higher planets or higher species one may live for a long, long time, but death is inevitable.</p>
+<p>This fact should be understood.</p>
+<p>In the human form of life one should take the opportunity to put an end to birth, death, old age and disease by performing tapasya.</p>
+<p>This is the aim of human civilization: to stop the repetition of birth and death, which is called mrtyu-samsara-vartmani.</p>
+<p>This can be done only when one is Krsna conscious, or has achieved the service of the lotus feet of the Lord.</p>
+<p>Otherwise one must rot in this material world and accept a material body subject to birth, death, old age and disease.</p>
+<p>The example given here is that water is a very nice place for a fish, but the fish is never free from anxiety about death, since big fish are always eager to eat the small fish phalguni tatra mahatam: all living entities are eaten by bigger living entities.</p>
+<p>This is the way of material nature ahastani sahastanam</p>
+<p>apadani catus-padam</p>
+<p>phalguni tatra mahatam</p>
+<p>jivo jivasya jivanam</p>
+<p>Those who are devoid of hands are prey for those who have hands; those devoid of legs are prey for the four-legged.</p>
+<p>The weak are the subsistence of the strong, and the general rule holds that one living being is food for another (Bhag.1.13.47) The Supreme Personality of Godhead has created the material world in such a way that one living entity is food for another.</p>
+<p>Thus there is a struggle for existence, but although we speak of survival of the fittest, no one can escape death without becoming a devotee of the Lord.</p>
+<p>Harim vina naiva srtim taranti: one cannot escape the cycle of birth and death without becoming a devotee.</p>
+<p>This is also confirmed in Bhagavad-gita (9.3).</p>
+<p>Aprapya mam nivartante mrtyu-samsara-vartmani.</p>
+<p>One who does not attain shelter at the lotus feet of Krsna must certainly wander up and down within the cycle of birth and death.</p>
+
+
+
+<p><strong>9.13.11</strong></p>
+<p>deva ucuh</p>
+<p>videha usyatam kamam</p>
+<p>locanesu saririnam</p>
+<p>unmesana-nimesabhyam</p>
+<p>laksito ’dhyatma-samsthitah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>devah ucuh—the demigods said; videhah—without any material body; usyatam—you live; kamam—as you like; locanesu—in the vision; saririnam—of those who have material bodies; unmesana-nimesabhyam—become manifest and unmanifest as you desire; laksitah—being seen; adhyatma-samsthitah—situated in a spiritual body.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The demigods said: Let Maharaja Nimi live without a material body.</p>
+<p>Let him live in a spiritual body as a personal associate of the Supreme Personality of Godhead, and, according to his desire, let him be manifest or unmanifest to common materially embodied people.</p>
+<p><strong>PURPORT</strong></p>
+<p>The demigods wanted Maharaja Nimi to come to life, but Maharaja Nimi did not want to accept another material body.</p>
+<p>Under the circumstances, the demigods, having been requested by the saintly persons, gave him the benediction that he would be able to stay in his spiritual body.</p>
+<p>There are two kinds of spiritual bodies, as generally understood by common men.</p>
+<p>The term spiritual bod is sometimes taken to refer to a ghostly body.</p>
+<p>An impious man who dies after sinful activities is sometimes condemned so that he cannot possess a gross material body of five material elements, but must live in a subtle body of mind, intelligence and ego.</p>
+<p>However, as explained in Bhagavad-gita, devotees can give up the material body and attain a spiritual body free from all material tinges, gross and subtle (tyaktva deham punar janma naiti mam eti so ’rjuna (Bg.4.9)).</p>
+<p>Thus the demigods gave King Nimi the benediction that he would be able to stay in a purely spiritual body, free from all gross and subtle material contamination.</p>
+<p>The Supreme Personality of Godhead can be seen or unseen according to His own transcendental desire; similarly, a devotee, being jivan-mukta, can be seen or not, as he chooses.</p>
+<p>As stated in Bhagavad-gita, naham prakasah sarvasya yogamaya-samavrtah: (Bg.7.25) the Supreme Personality of Godhead, Krsna, is not manifest to everyone and anyone.</p>
+<p>To the common man He is unseen.</p>
+<p>Atah sri-krsna-namadi na bhaved grahyam indriyaih: (BRS.1.2.234) Krsna and His name, fame, qualities and paraphernalia cannot be materially understood.</p>
+<p>Unless one is advanced in spiritual life (sevonmukhe hi jihvadau), one cannot see Krsna.</p>
+<p>Therefore the ability to see Krsna depends on Krsna’s mercy.</p>
+<p>The same privilege of being seen or unseen according to one’s own desire was given to Maharaja Nimi.</p>
+<p>Thus he lived in his original, spiritual body as an associate of the Supreme Personality of Godhead.</p>
+
+
+
+<p><strong>9.13.12</strong></p>
+<p>arajaka-bhayam nrnam</p>
+<p>manyamana maharsayah</p>
+<p>deham mamanthuh sma nimeh</p>
+<p>kumarah samajayata</p>
+<p><strong>SYNONYMS</strong></p>
+<p>arajaka-bhayam—due to fear of the danger of an unregulated government; nrnam—for the people in general; manyamanah—considering this situation; maha-rsayah—the great sages; deham—the body; mamanthuh—churned; sma—in the past; nimeh—of Maharaja Nimi; kumarah—one son; samajayata—was thus born.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, to save the people from the danger of an unregulated government, the sages churned Maharaja Nimi’s material body, from which, as a result, a son was born.</p>
+<p><strong>PURPORT</strong></p>
+<p>Arajaka-bhayam.</p>
+<p>If the government is unsteady and unregulated, there is danger of fear for the people.</p>
+<p>At the present moment this danger always exists because of government by the people.</p>
+<p>Here we can see that the great sages got a son from Nimi’s material body to guide the citizens properly, for such guidance is the duty of a ksatriya king.</p>
+<p>A ksatriya is one who saves the citizens from being injured.</p>
+<p>In the so-called people’s government there is no trained ksatriya king; as soon as someone strong accumulates votes, he becomes the minister or president, without training from the learned brahmanas expert in the sastras.</p>
+<p>Indeed, we see that in some countries the government changes from party to party, and therefore the men in charge of the government are more eager to protect their position than to see that the citizens are happy.</p>
+<p>The Vedic civilization prefers monarchy.</p>
+<p>People liked the government of Lord Ramacandra, the government of Maharaja Yudhisthira and the governments of Maharaja Pariksit, Maharaja Ambarisa and Maharaja Prahlada.</p>
+<p>There are many instances of excellent government under a monarch.</p>
+<p>Gradually the democratic government is becoming unfit for the needs of the people, and therefore some parties are trying to elect a dictator.</p>
+<p>A dictatorship is the same as a monarchy, but without a trained leader.</p>
+<p>Actually people will be happy when a trained leader, whether a monarch or a dictator, takes control of the government and rules the people according to the standard regulations of the authorized scriptures.</p>
+
+
+
+<p><strong>9.13.13</strong></p>
+<p>janmana janakah so ’bhud</p>
+<p>vaidehas tu videhajah</p>
+<p>mithilo mathanaj jato</p>
+<p>mithila yena nirmita</p>
+<p><strong>SYNONYMS</strong></p>
+<p>janmana—by birth; janakah—born uncommonly, not by the usual process; sah—he; abhut—became; vaidehah—also known as Vaideha; tu—but; videha-jah—because of being born from the body of Maharaja Nimi, who had left his material body; mithilah—he also became known as Mithila; mathanat—because of being born from the churning of his father’s body; jatah—thus born; mithila—the kingdom called Mithila; yena—by whom (Janaka); nirmita—was constructed.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Because he was born in an unusual way, the son was called Janaka, and because he was born from the dead body of his father, he was known as Vaideha.</p>
+<p>Because he was born from the churning of his father’s material body, he was known as Mithila, and because he constructed a city as King Mithila, the city was called Mithila.</p>
+
+
+
+<p><strong>9.13.14</strong></p>
+<p>tasmad udavasus tasya</p>
+<p>putro ’bhun nandivardhanah</p>
+<p>tatah suketus tasyapi</p>
+<p>devarato mahipate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasmat—from Mithila; udavasuh—a son named Udavasu; tasya—of him (Udavasu); putrah—son; abhut—was born; nandivardhanah—Nandivardhana; tatah—from him (Nandivardhana); suketuh—a son named Suketu; tasya—of him (Suketu); api—also; devaratah—a son named Devarata; mahipate—O King Pariksit.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King Pariksit, from Mithila came a son named Udavasu; from Udavasu, Nandivardhana; from Nandivardhana, Suketu; and from Suketu, Devarata.</p>
+
+
+
+<p><strong>9.13.15</strong></p>
+<p>tasmad brhadrathas tasya</p>
+<p>mahaviryah sudhrt-pita</p>
+<p>sudhrter dhrstaketur vai</p>
+<p>haryasvo ’tha marus tatah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasmat—from Devarata; brhadrathah—a son named Brhadratha; tasya—of him (Brhadratha); mahaviryah—a son named Mahavirya; sudhrt-pita—he became the father of King Sudhrti; sudhrteh—from Sudhrti; dhrstaketuh—a son named Dhrstaketu; vai—indeed; haryasvah—his son was Haryasva; atha—thereafter; maruh—Maru; tatah—thereafter.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>From Devarata came a son named Brhadratha and from Brhadratha a son named Mahavirya, who became the father of Sudhrti.</p>
+<p>The son of Sudhrti was known as Dhrstaketu, and from Dhrstaketu came Haryasva.</p>
+<p>From Haryasva came a son named Maru.</p>
+
+
+
+<p><strong>9.13.16</strong></p>
+<p>maroh pratipakas tasmaj</p>
+<p>jatah krtaratho yatah</p>
+<p>devamidhas tasya putro</p>
+<p>visruto ’tha mahadhrtih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>maroh—of Maru; pratipakah—a son named Pratipaka; tasmat—from Pratipaka; jatah—was born; krtarathah—a son named Krtaratha; yatah—and from Krtaratha; devamidhah—Devamidha; tasya—of Devamidha; putrah—a son; visrutah—Visruta; atha—from him; mahadhrtih—a son named Mahadhrti.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Maru was Pratipaka, and the son of Pratipaka was Krtaratha.</p>
+<p>From Krtaratha came Devamidha; from Devamidha, Visruta; and from Visruta, Mahadhrti.</p>
+
+
+
+<p><strong>9.13.17</strong></p>
+<p>krtiratas tatas tasman</p>
+<p>maharoma ca tat-sutah</p>
+<p>svarnaroma sutas tasya</p>
+<p>hrasvaroma vyajayata</p>
+<p><strong>SYNONYMS</strong></p>
+<p>krtiratah—Krtirata; tatah—from Mahadhrti; tasmat—from Krtirata; maharoma—a son named Maharoma; ca—also; tat-sutah—his son; svarnaroma—Svarnaroma; sutah tasya—his son; hrasvaroma—Hrasvaroma; vyajayata—were all born.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>From Mahadhrti was born a son named Krtirata, from Krtirata was born Maharoma, from Maharoma came a son named Svarnaroma, and from Svarnaroma came Hrasvaroma.</p>
+
+
+
+<p><strong>9.13.18</strong></p>
+<p>tatah siradhvajo jajne</p>
+<p>yajnartham karsato mahim</p>
+<p>sita siragrato jata</p>
+<p>tasmat siradhvajah smrtah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—from Hrasvaroma; siradhvajah—a son named Siradhvaja; jajne—was born; yajna-artham—for performing sacrifices; karsatah—while plowing the field; mahim—the earth; sita—mother Sita, the wife of Lord Ramacandra; sira-agratah—from the front portion of the plow; jata—was born; tasmat—therefore; siradhvajah—was known as Siradhvaja; smrtah—celebrated.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>From Hrasvaroma came a son named Siradhvaja (also called Janaka).</p>
+<p>When Siradhvaja was plowing a field, from the front of his plow (sira) appeared a daughter named Sitadevi, who later became the wife of Lord Ramacandra.</p>
+<p>Thus he was known as Siradhvaja.</p>
+
+
+
+<p><strong>9.13.19</strong></p>
+<p>kusadhvajas tasya putras</p>
+<p>tato dharmadhvajo nrpah</p>
+<p>dharmadhvajasya dvau putrau</p>
+<p>krtadhvaja-mitadhvajau</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kusadhvajah—Kusadhvaja; tasya—of Siradhvaja; putrah—son; tatah—from him; dharmadhvajah—Dharmadhvaja; nrpah—the king; dharmadhvajasya—from this Dharmadhvaja; dvau—two; putrau—sons; krtadhvaja-mitadhvajau—Krtadhvaja and Mitadhvaja.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Siradhvaja was Kusadhvaja, and the son of Kusadhvaja was King Dharmadhvaja, who had two sons, namely Krtadhvaja and Mitadhvaja.</p>
+
+
+
+<p><strong>9.13.20-21</strong></p>
+<p>krtadhvajat kesidhvajah</p>
+<p>khandikyas tu mitadhvajat</p>
+<p>krtadhvaja-suto rajann</p>
+<p>atma-vidya-visaradah</p>
+<p>khandikyah karma-tattva-jno</p>
+<p>bhitah kesidhvajad drutah</p>
+<p>bhanumams tasya putro ’bhuc</p>
+<p>chatadyumnas tu tat-sutah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>krtadhvajat—from Krtadhvaja; kesidhvajah—a son named Kesidhvaja; khandikyah tu—also a son named Khandikya; mitadhvajat—from Mitadhvaja; krtadhvaja-sutah—the son of Krtadhvaja; rajan—O King; atma-vidya-visaradah—expert in transcendental science; khandikyah—King Khandikya; karma-tattva-jnah—expert in Vedic ritualistic ceremonies; bhitah—fearing; kesidhvajat—because of Kesidhvaja; drutah—he fled; bhanuman—Bhanuman; tasya—of Kesidhvaja; putrah—son; abhut—there was; satadyumnah—Satadyumna; tu—but; tat-sutah—the son of Bhanuman.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O Maharaja Pariksit, the son of Krtadhvaja was Kesidhvaja, and the son of Mitadhvaja was Khandikya.</p>
+<p>The son of Krtadhvaja was expert in spiritual knowledge, and the son of Mitadhvaja was expert in Vedic ritualistic ceremonies.</p>
+<p>Khandikya fled in fear of Kesidhvaja.</p>
+<p>The son of Kesidhvaja was Bhanuman, and the son of Bhanuman was Satadyumna.</p>
+
+
+
+<p><strong>9.13.22</strong></p>
+<p>sucis tu tanayas tasmat</p>
+<p>sanadvajah suto ’bhavat</p>
+<p>urjaketuh sanadvajad</p>
+<p>ajo ’tha purujit sutah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sucih—Suci; tu—but; tanayah—a son; tasmat—from him; sanadvajah—Sanadvaja; sutah—a son; abhavat—was born; urjaketuh—Urjaketu; sanadvajat—from Sanadvaja; ajah—Aja; atha—thereafter; purujit—Purujit; sutah—a son.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Satadyumna was named Suci.</p>
+<p>From Suci, Sanadvaja was born, and from Sanadvaja came a son named Urjaketu.</p>
+<p>The son of Urjaketu was Aja, and the son of Aja was Purujit.</p>
+
+
+
+<p><strong>9.13.23</strong></p>
+<p>aristanemis tasyapi</p>
+<p>srutayus tat suparsvakah</p>
+<p>tatas citraratho yasya</p>
+<p>ksemadhir mithiladhipah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>aristanemih—Aristanemi; tasya api—of Purujit also; srutayuh—a son named Srutayu; tat—and from him; suparsvakah—Suparsvaka; tatah—from Suparsvaka; citrarathah—Citraratha; yasya—of whom (Citraratha); ksemadhih—Ksemadhi; mithila-adhipah—became the king of Mithila.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Purujit was Aristanemi, and his son was Srutayu.</p>
+<p>Srutayu begot a son named Suparsvaka, and Suparsvaka begot Citraratha.</p>
+<p>The son of Citraratha was Ksemadhi, who became the king of Mithila.</p>
+
+
+
+<p><strong>9.13.24</strong></p>
+<p>tasmat samarathas tasya</p>
+<p>sutah satyarathas tatah</p>
+<p>asid upagurus tasmad</p>
+<p>upagupto ’gni-sambhavah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasmat—from Ksemadhi; samarathah—a son named Samaratha; tasya—from Samaratha; sutah—son; satyarathah—Satyaratha; tatah—from him (Satyaratha); asit—was born; upaguruh—Upaguru; tasmat—from him; upaguptah—Upagupta; agni-sambhavah—a partial expansion of the demigod Agni.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Ksemadhi was Samaratha, and his son was Satyaratha.</p>
+<p>The son of Satyaratha was Upaguru, and the son of Upaguru was Upagupta, a partial expansion of the fire-god.</p>
+
+
+
+<p><strong>9.13.25</strong></p>
+<p>vasvananto ’tha tat-putro</p>
+<p>yuyudho yat subhasanah</p>
+<p>srutas tato jayas tasmad</p>
+<p>vijayo ’smad rtah sutah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vasvanantah—Vasvananta; atha—thereafter (the son of Upagupta); tat-putrah—his son; yuyudhah—by the name Yuyudha; yat—from Yuyudha; subhasanah—a son named Subhasana; srutah tatah—and the son of Subhasana was Sruta; jayah tasmat—the son of Sruta was Jaya; vijayah—a son named Vijaya; asmat—from Jaya; rtah—Rta; sutah—a son.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Upagupta was Vasvananta, the son of Vasvananta was Yuyudha, the son of Yuyudha was Subhasana, and the son of Subhasana was Sruta.</p>
+<p>The son of Sruta was Jaya, from whom there came Vijaya.</p>
+<p>The son of Vijaya was Rta.</p>
+
+
+
+<p><strong>9.13.26</strong></p>
+<p>sunakas tat-suto jajne</p>
+<p>vitahavyo dhrtis tatah</p>
+<p>bahulasvo dhrtes tasya</p>
+<p>krtir asya mahavasi</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sunakah—Sunaka; tat-sutah—the son of Rta; jajne—was born; vitahavyah—Vitahavya; dhrtih—Dhrti; tatah—the son of Vitahavya; bahulasvah—Bahulasva; dhrteh—from Dhrti; tasya—his son; krtih—Krti; asya—of Krti; mahavasi—there was a son named Mahavasi.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Rta was Sunaka, the son of Sunaka was Vitahavya, the son of Vitahavya was Dhrti, and the son of Dhrti was Bahulasva.</p>
+<p>The son of Bahulasva was Krti, and his son was Mahavasi.</p>
+
+
+
+<p><strong>9.13.27</strong></p>
+<p>ete vai maithila rajann</p>
+<p>atma-vidya-visaradah</p>
+<p>yogesvara-prasadena</p>
+<p>dvandvair mukta grhesv api</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ete—all of them; vai—indeed; maithilah—the descendants of Mithila; rajan—O King; atma-vidya-visaradah—expert in spiritual knowledge; yogesvara-prasadena—by the grace of Yogesvara, the Supreme Personality of Godhead, Krsna; dvandvaih muktah—they were all freed from the duality of the material world; grhesu api—even though staying at home.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sukadeva Gosvami said: My dear King Pariksit, all the kings of the dynasty of Mithila were completely in knowledge of their spiritual identity.</p>
+<p>Therefore, even though staying at home, they were liberated from the duality of material existence.</p>
+<p><strong>PURPORT</strong></p>
+<p>This material world is called dvaita, or duality.</p>
+<p>The Caitanya-caritamrta (Antya4.176) says:</p>
+<p>’dvaite ’bhadrabhadra-jnana, saba——’manodharma’</p>
+<p>’ei bhala, ei manda,’——ei saba ’bhrama’ In the world of duality—that is to say, in the material world—so-called goodness and badness are both the same.</p>
+<p>Therefore, in this world, to distinguish between good and bad, happiness and distress, is meaningless because they are both mental concoctions (manodharma).</p>
+<p>Because everything here is miserable and troublesome, to create an artificial situation and pretend it to be full of happiness is simply illusion.</p>
+<p>The liberated person, being above the influence of the three modes of material nature, is unaffected by such dualities in all circumstances.</p>
+<p>He remains Krsna conscious by tolerating so-called happiness and distress.</p>
+<p>This is also confirmed in Bhagavad-gita (2.14):</p>
+<p>matra-sparsas tu kaunteya</p>
+<p>sitosna-sukha-duhkhadah</p>
+<p>agamapayino ’nityas</p>
+<p>tams titiksasva bharata</p>
+<p>O son of Kunti, the nonpermanent appearance of happiness and distress, and their disappearance in due course, are like the appearance and disappearance of winter and summer seasons.</p>
+<p>They arise from sense perception, O scion of Bharata, and one must learn to tolerate them without being disturbed Those who are liberated, being on the transcendental platform of rendering service to the Lord, do not care about so-called happiness and distress.</p>
+<p>They know that these are like changing seasons, which are perceivable by contact with the material body.</p>
+<p>Happiness and distress come and go.</p>
+<p>Therefore a pandita, a learned man, is not concerned with them.</p>
+<p>As it is said, gatasun agatasums ca nanusocanti panditah.</p>
+<p>The body is dead from the very beginning because it is a lump of matter.</p>
+<p>It has no feelings of happiness and distress.</p>
+<p>Because the soul within the body is in the bodily concept of life, he suffers happiness and distress, but these come and go.</p>
+<p>It is understood herewith that the kings born in the dynasty of Mithila were all liberated persons, unaffected by the so-called happiness and distress of this world.</p>
+
+
+</article></body></html>

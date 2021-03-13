@@ -1,155 +1,42 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>Description of Future Manus - Description of Future Manus</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">Description of Future Manus</a></li><li class="affix"><a href="8.13.2-3.html">8.13.2-3</a></li><li class="affix"><a href="8.13.4.html">8.13.4</a></li><li class="affix"><a href="8.13.5.html">8.13.5</a></li><li class="affix"><a href="8.13.6.html">8.13.6</a></li><li class="affix"><a href="8.13.7.html">8.13.7</a></li><li class="affix"><a href="8.13.8.html">8.13.8</a></li><li class="affix"><a href="8.13.9.html">8.13.9</a></li><li class="affix"><a href="8.13.10.html">8.13.10</a></li><li class="affix"><a href="8.13.11.html">8.13.11</a></li><li class="affix"><a href="8.13.12.html">8.13.12</a></li><li class="affix"><a href="8.13.13.html">8.13.13</a></li><li class="affix"><a href="8.13.14.html">8.13.14</a></li><li class="affix"><a href="8.13.15-16.html">8.13.15-16</a></li><li class="affix"><a href="8.13.17.html">8.13.17</a></li><li class="affix"><a href="8.13.18.html">8.13.18</a></li><li class="affix"><a href="8.13.19.html">8.13.19</a></li><li class="affix"><a href="8.13.20.html">8.13.20</a></li><li class="affix"><a href="8.13.21.html">8.13.21</a></li><li class="affix"><a href="8.13.22.html">8.13.22</a></li><li class="affix"><a href="8.13.23.html">8.13.23</a></li><li class="affix"><a href="8.13.24.html">8.13.24</a></li><li class="affix"><a href="8.13.25.html">8.13.25</a></li><li class="affix"><a href="8.13.26.html">8.13.26</a></li><li class="affix"><a href="8.13.27.html">8.13.27</a></li><li class="affix"><a href="8.13.28.html">8.13.28</a></li><li class="affix"><a href="8.13.29.html">8.13.29</a></li><li class="affix"><a href="8.13.30.html">8.13.30</a></li><li class="affix"><a href="8.13.31.html">8.13.31</a></li><li class="affix"><a href="8.13.32.html">8.13.32</a></li><li class="affix"><a href="8.13.33.html">8.13.33</a></li><li class="affix"><a href="8.13.34.html">8.13.34</a></li><li class="affix"><a href="8.13.35.html">8.13.35</a></li><li class="affix"><a href="8.13.36.html">8.13.36</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">Description of Future Manus</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#description-of-future-manus" id="description-of-future-manus">Description of Future Manus</a></h1>
-<h2><a class="header" href="#summary" id="summary">Summary</a></h2>
-<h3><a class="header" href="#813" id="813">8.13</a></h3>
+<h1>Description of Future Manus</h1>
+<h2>Summary</h2>
+<p><strong>8.13</strong></p>
 <p>Of the fourteen Manus, six Manus have already been described.</p>
 <p>Now, this chapter will consecutively describe each Manu from the seventh to the fourteenth.</p>
 <p>The seventh Manu, who is the son of Vivasvan, is known as Sraddhadeva.</p>
@@ -184,7 +71,7 @@
 <p>The incarnation of this manvantara is known as Brhadbhanu.</p>
 <p>He is born of Satrayana from the womb of Vitana.</p>
 <p>The total duration of the periods ruled by these Manus is calculated to be one thousand catur-yugas, or 4,300,000 times 1,000 years.</p>
-<h3><a class="header" href="#8131" id="8131">8.13.1</a></h3>
+<p><strong>8.13.1</strong></p>
 <p>sri-suka uvaca</p>
 <p>manur vivasvatah putrah</p>
 <p>sraddhadeva iti srutah</p>
@@ -197,63 +84,457 @@
 <p>Sraddhadeva is the seventh Manu.</p>
 <p>Now please hear from me as I describe his sons.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="8.13.2-3.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>8.13.2-3</strong></p>
+<p>iksvakur nabhagas caiva</p>
+<p>dhrstah saryatir eva ca</p>
+<p>narisyanto ’tha nabhagah</p>
+<p>saptamo dista ucyate</p>
+<p>tarusas ca prsadhras ca</p>
+<p>dasamo vasuman smrtah</p>
+<p>manor vaivasvatasyaite</p>
+<p>dasa-putrah parantapa</p>
+<p><strong>SYNONYMS</strong></p>
+<p>iksvakuh—Iksvaku; nabhagah—Nabhaga; ca—also; eva—indeed; dhrstah—Dhrsta; saryatih—Saryati; eva—certainly; ca—also; narisyantah—Narisyanta; atha—as well as; nabhagah—Nabhaga; saptamah—the seventh one; distah—Dista; ucyate—is so celebrated; tarusah ca—and Tarusa; prsadhrah ca—and Prsadhra; dasamah—the tenth one; vasuman—Vasuman; smrtah—known; manoh—of Manu; vaivasvatasya—of Vaivasvata; ete—all these; dasa-putrah—ten sons; parantapa—O King.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King Pariksit, among the ten sons of Manu are Iksvaku, Nabhaga, Dhrsta, Saryati, Narisyanta and Nabhaga.</p>
+<p>The seventh son is known as Dista.</p>
+<p>Then come Tarusa and Prsadhra, and the tenth son is known as Vasuman.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="8.13.2-3.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>8.13.4</strong></p>
+<p>aditya vasavo rudra</p>
+<p>visvedeva marud-ganah</p>
+<p>asvinav rbhavo rajann</p>
+<p>indras tesam purandarah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>adityah—the Adityas; vasavah—the Vasus; rudrah—the Rudras; visvedevah—the Visvedevas; marut-ganah—and the Maruts; asvinau—the two Asvini brothers; rbhavah—the Rbhus; rajan—O King; indrah—the king of heaven; tesam—of them; purandarah—Purandara.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In this manvantara, O King, the Adityas, the Vasus, the Rudras, the Visvedevas, the Maruts, the two Asvini-kumara brothers and the Rbhus are the demigods.</p>
+<p>Their head king (Indra) is Purandara.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>8.13.5</strong></p>
+<p>kasyapo ’trir vasisthas ca</p>
+<p>visvamitro ’tha gautamah</p>
+<p>jamadagnir bharadvaja</p>
+<p>iti saptarsayah smrtah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kasyapah—Kasyapa; atrih—Atri; vasisthah—Vasistha; ca—and; visvamitrah—Visvamitra; atha—as well as; gautamah—Gautama; jamadagnih—Jamadagni; bharadvajah—Bharadvaja; iti—thus; sapta-rsayah—the seven sages; smrtah—celebrated.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Kasyapa, Atri, Vasistha, Visvamitra, Gautama, Jamadagni and Bharadvaja are known as the seven sages.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>8.13.6</strong></p>
+<p>atrapi bhagavaj-janma</p>
+<p>kasyapad aditer abhut</p>
+<p>adityanam avarajo</p>
+<p>visnur vamana-rupa-dhrk</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atra—in this Manu’s reign; api—certainly; bhagavat-janma—appearance of the Supreme Personality of Godhead; kasyapat—by Kasyapa Muni; aditeh—of mother Aditi; abhut—became possible; adityanam—of the Adityas; avara-jah—the youngest; visnuh—Lord Visnu Himself; vamana-rupa-dhrk—appearing as Lord Vamana.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In this manvantara, the Supreme Personality of Godhead appeared as the youngest of all the Adityas, known as Vamana, the dwarf.</p>
+<p>His father was Kasyapa and His mother Aditi.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>8.13.7</strong></p>
+<p>sanksepato mayoktani</p>
+<p>sapta-manvantarani te</p>
+<p>bhavisyany atha vaksyami</p>
+<p>visnoh saktyanvitani ca</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sanksepatah—in brief; maya—by me; uktani—explained; sapta—seven; manu-antarani—changes of Manu; te—unto you; bhavisyani—the future Manus; atha—also; vaksyami—I shall speak; visnoh—of Lord Visnu; saktya anvitani—empowered by the energy; ca—also.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>I have briefly explained to you the position of the seven Manus.</p>
+<p>Now I shall describe the future Manus, along with the incarnations of Lord Visnu.</p>
+
+
+
+<p><strong>8.13.8</strong></p>
+<p>vivasvatas ca dve jaye</p>
+<p>visvakarma-sute ubhe</p>
+<p>samjna chaya ca rajendra</p>
+<p>ye prag abhihite tava</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vivasvatah—of Vivasvan; ca—also; dve—two; jaye—wives; visvakarma-sute—the two daughters of Visvakarma; ubhe—both of them; samjna—Samjna; chaya—Chaya; ca—and; raja-indra—O King; ye—both of whom; prak—before; abhihite—described; tava—unto you.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King, I have previously described (in the Sixth Canto) the two daughters of Visvakarma, named Samjna and Chaya, who were the first two wives of Vivasvan.</p>
+
+
+
+<p><strong>8.13.9</strong></p>
+<p>trtiyam vadavam eke</p>
+<p>tasam samjna-sutas trayah</p>
+<p>yamo yami sraddhadevas</p>
+<p>chayayas ca sutan chrnu</p>
+<p><strong>SYNONYMS</strong></p>
+<p>trtiyam—the third wife; vadavam—Vadava; eke—some people; tasam—of all three wives; samjna-sutah trayah—three issues of Samjna; yamah—one son named Yama; yami—Yami, a daughter; sraddhadevah—Sraddhadeva, another son; chayayah—of Chaya; ca—and; sutan—the sons; srnu—just hear about.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>It is said that the sun-god had a third wife, named Vadava.</p>
+<p>Of the three wives, the wife named Samjna had three children—Yama, Yami and Sraddhadeva.</p>
+<p>Now let me describe the children of Chaya.</p>
+
+
+
+<p><strong>8.13.10</strong></p>
+<p>savarnis tapati kanya</p>
+<p>bharya samvaranasya ya</p>
+<p>sanaiscaras trtiyo ’bhud</p>
+<p>asvinau vadavatmajau</p>
+<p><strong>SYNONYMS</strong></p>
+<p>savarnih—Savarni; tapati—Tapati; kanya—the daughter; bharya—the wife; samvaranasya—of King Samvarana; ya—she who; sanaiscarah—Sanaiscara; trtiyah—the third issue; abhut—took birth; asvinau—the two Asvini-kumaras; vadava-atma-jau—the sons of the wife known as Vadava.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Chaya had a son named Savarni and a daughter named Tapati, who later became the wife of King Samvarana.</p>
+<p>Chaya’s third child is known as Sanaiscara (Saturn).</p>
+<p>Vadava gave birth to two sons, namely the Asvini brothers.</p>
+
+
+
+<p><strong>8.13.11</strong></p>
+<p>astame ’ntara ayate</p>
+<p>savarnir bhavita manuh</p>
+<p>nirmoka-virajaskadyah</p>
+<p>savarni-tanaya nrpa</p>
+<p><strong>SYNONYMS</strong></p>
+<p>astame—the eighth; antare—Manu’s period; ayate—when arrived; savarnih—Savarni; bhavita—will become; manuh—the eighth Manu; nirmoka—Nirmoka; virajaska-adyah—Virajaska and others; savarni—of Savarni; tanayah—the sons; nrpa—O King.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King, when the period of the eighth Manu arrives, Savarni will become the Manu.</p>
+<p>Nirmoka and Virajaska will be among his sons.</p>
+<p><strong>PURPORT</strong></p>
+<p>The present reign is that of Vaivasvata Manu.</p>
+<p>According to astronomical calculations, we are now in the twenty-eighth yuga of Vaivasvata Manu.</p>
+<p>Each Manu lives for seventy-one yugas, and fourteen such Manus rule in one day of Lord Brahma.</p>
+<p>We are now in the period of Vaivasvata Manu, the seventh Manu, and the eighth Manu will come into existence after many millions of years.</p>
+<p>But Sukadeva Gosvami, having heard from authorities, foretells that the eighth Manu will be Savarni and that Nirmoka and Virajaska will be among his sons.</p>
+<p>Sastra can foretell what will happen millions and millions of years in the future.</p>
+
+
+
+<p><strong>8.13.12</strong></p>
+<p>tatra devah sutapaso</p>
+<p>viraja amrtaprabhah</p>
+<p>tesam virocana-suto</p>
+<p>balir indro bhavisyati</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatra—in that period of Manu; devah—the demigods; sutapasah—the Sutapas; virajah—the Virajas; amrtaprabhah—the Amrtaprabhas; tesam—of them; virocana-sutah—the son of Virocana; balih—Maharaja Bali; indrah—the king of heaven; bhavisyati—will become.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In the period of the eighth Manu, among the demigods will be the Sutapas, the Virajas and the Amrtaprabhas.</p>
+<p>The king of the demigods, Indra, will be Bali Maharaja, the son of Virocana.</p>
+
+
+
+<p><strong>8.13.13</strong></p>
+<p>dattvemam yacamanaya</p>
+<p>visnave yah pada-trayam</p>
+<p>raddham indra-padam hitva</p>
+<p>tatah siddhim avapsyati</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dattva—giving in charity; imam—this entire universe; yacamanaya—who was begging from him; visnave—unto Lord Visnu; yah—Bali Maharaja; pada-trayam—three paces of land; raddham—achieved; indra-padam—the post of Indra; hitva—giving up; tatah—thereafter; siddhim—perfection; avapsyati—will achieve.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Bali Maharaja gave a gift of three paces of land to Lord Visnu, and because of this charity he lost all the three worlds.</p>
+<p>Later, however, when Lord Visnu is pleased because of Bali’s giving everything to Him, Bali Maharaja will achieve the perfection of life.</p>
+<p><strong>PURPORT</strong></p>
+<p>In Bhagavad-gita (7.3) it is stated, manusyanam sahasresu kascid yatati siddhaye: out of many millions of people, one may attempt to achieve success in life.</p>
+<p>This success is explained here.</p>
+<p>Raddham indra-padam hitva tatah siddhim avapsyati.</p>
+<p>Siddhi consists of achieving the favor of Lord Visnu, not the yoga-siddhis.</p>
+<p>The yoga-siddhis—anima, laghima, mahima, prapti, prakamya, isitva, vasitva and kamavasayita—are temporary.</p>
+<p>The ultimate siddhi is to achieve the favor of Lord Visnu.</p>
+
+
+
+<p><strong>8.13.14</strong></p>
+<p>yo ’sau bhagavata baddhah</p>
+<p>pritena sutale punah</p>
+<p>nivesito ’dhike svargad</p>
+<p>adhunaste sva-rad iva</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—Bali Maharaja; asau—he; bhagavata—by the Personality of Godhead; baddhah—bound; pritena—because of favor; sutale—in the kingdom of Sutala; punah—again; nivesitah—situated; adhike—more opulent; svargat—than the heavenly planets; adhuna—at the present moment; aste—is situated; sva-rat iva—equal to the position of Indra.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>With great affection, the Personality of Godhead bound Bali and then installed him in the kingdom of Sutala, which is more opulent than the heavenly planets.</p>
+<p>Maharaja Bali now resides on that planet and is more comfortably situated than Indra.</p>
+
+
+
+<p><strong>8.13.15-16</strong></p>
+<p>galavo diptiman ramo</p>
+<p>drona-putrah krpas tatha</p>
+<p>rsyasrngah pitasmakam</p>
+<p>bhagavan badarayanah</p>
+<p>ime saptarsayas tatra</p>
+<p>bhavisyanti sva-yogatah</p>
+<p>idanim asate rajan</p>
+<p>sve sva asrama-mandale</p>
+<p><strong>SYNONYMS</strong></p>
+<p>galavah—Galava; diptiman—Diptiman; ramah—Parasurama; drona-putrah—the son of Dronacarya, namely Asvatthama; krpah—Krpacarya; tatha—as well; rsyasrngah—Rsyasrnga; pita asmakam—our father; bhagavan—the incarnation of Godhead; badarayanah—Vyasadeva; ime—all of them; sapta-rsayah—the seven sages; tatra—in the eighth manvantara; bhavisyanti—will become; sva-yogatah—as a result of their service to the Lord; idanim—at the present moment; asate—they are all existing; rajan—O King; sve sve—in their own; asrama-mandale—different hermitages.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King, during the eighth manvantara, the great personalities Galava, Diptiman, Parasurama, Asvatthama, Krpacarya, Rsyasrnga and our father, Vyasadeva, the incarnation of Narayana, will be the seven sages.</p>
+<p>For the present, they are all residing in their respective asramas.</p>
+
+
+
+<p><strong>8.13.17</strong></p>
+<p>devaguhyat sarasvatyam</p>
+<p>sarvabhauma iti prabhuh</p>
+<p>sthanam purandarad dhrtva</p>
+<p>balaye dasyatisvarah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>devaguhyat—from His father, Devaguhya; sarasvatyam—in the womb of Sarasvati; sarvabhaumah—Sarvabhauma; iti—thus; prabhuh—the master; sthanam—place; purandarat—from Lord Indra; hrtva—taking away by force; balaye—unto Bali Maharaja; dasyati—will give; isvarah—the master.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In the eighth manvantara, the greatly powerful Personality of Godhead Sarvabhauma will take birth.</p>
+<p>His father will be Devaguhya, and His mother will be Sarasvati.</p>
+<p>He will take the kingdom away from Purandara (Lord Indra) and give it to Bali Maharaja.</p>
+
+
+
+<p><strong>8.13.18</strong></p>
+<p>navamo daksa-savarnir</p>
+<p>manur varuna-sambhavah</p>
+<p>bhutaketur diptaketur</p>
+<p>ity adyas tat-suta nrpa</p>
+<p><strong>SYNONYMS</strong></p>
+<p>navamah—ninth; daksa-savarnih—Daksa-savarni; manuh—the Manu; varuna-sambhavah—born as the son of Varuna; bhutaketuh—Bhutaketu; diptaketuh—Diptaketu; iti—thus; adyah—and so on; tat—his; sutah—sons; nrpa—O King.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King, the ninth Manu will be Daksa-savarni, who is born of Varuna.</p>
+<p>Among his sons will be Bhutaketu, and Diptaketu.</p>
+
+
+
+<p><strong>8.13.19</strong></p>
+<p>para-maricigarbhadya</p>
+<p>deva indro ’dbhutah smrtah</p>
+<p>dyutimat-pramukhas tatra</p>
+<p>bhavisyanty rsayas tatah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>para—the Paras; maricigarbha—the Maricigarbhas; adyah—like that; devah—the demigods; indrah—the king of heaven; adbhutah—Adbhuta; smrtah—known; dyutimat—Dyutiman; pramukhah—headed by; tatra—in that ninth period of Manu; bhavisyanti—will become; rsayah—the seven rsis; tatah—then.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In this ninth manvantara, the Paras and Maricigarbhas will be among the demigods.</p>
+<p>The king of heaven, Indra, will be named Adbhuta, and Dyutiman will be among the seven sages.</p>
+
+
+
+<p><strong>8.13.20</strong></p>
+<p>ayusmato ’mbudharayam</p>
+<p>rsabho bhagavat-kala</p>
+<p>bhavita yena samraddham</p>
+<p>tri-lokim bhoksyate ’dbhutah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ayusmatah—of the father, Ayusman; ambudharayam—in the womb of the mother, Ambudhara; rsabhah—Rsabha; bhagavat-kala—a partial incarnation of the Supreme Personality of Godhead; bhavita—will be; yena—by whom; samraddham—all-opulent; tri-lokim—the three worlds; bhoksyate—will enjoy; adbhutah—the Indra of the name Adbhuta.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Rsabhadeva, a partial incarnation of the Supreme Personality of Godhead, will take birth from his father, Ayusman, and his mother, Ambudhara.</p>
+<p>He will enable the Indra named Adbhuta to enjoy the opulence of the three worlds.</p>
+
+
+
+<p><strong>8.13.21</strong></p>
+<p>dasamo brahma-savarnir</p>
+<p>upasloka-suto manuh</p>
+<p>tat-suta bhurisenadya</p>
+<p>havismat pramukha dvijah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dasamah—the tenth Manu; brahma-savarnih—Brahma-savarni; upasloka-sutah—born of Upasloka; manuh—will be Manu; tat-sutah—his sons; bhurisena-adyah—Bhurisena and others; havismat—Havisman; pramukhah—headed by; dvijah—the seven sages.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Upasloka known as Brahma-savarni will be the tenth Manu.</p>
+<p>Bhurisena will be among his sons, and the brahmanas headed by Havisman will be the seven sages.</p>
+
+
+
+<p><strong>8.13.22</strong></p>
+<p>havisman sukrtah satyo</p>
+<p>jayo murtis tada dvijah</p>
+<p>suvasana-viruddhadya</p>
+<p>devah sambhuh suresvarah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>havisman—Havisman; sukrtah—Sukrta; satyah—Satya; jayah—Jaya; murtih—Murti; tada—at that time; dvijah—the seven sages; suvasana—the Suvasanas; viruddha—the Viruddhas; adyah—and so on; devah—the demigods; sambhuh—Sambhu; sura-isvarah—Indra, king of the demigods.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Havisman, Sukrta, Satya, Jaya, Murti and others will be the seven sages, the Suvasanas and Viruddhas will be among the demigods, and Sambhu will be their king, Indra.</p>
+
+
+
+<p><strong>8.13.23</strong></p>
+<p>visvakseno visucyam tu</p>
+<p>sambhoh sakhyam karisyati</p>
+<p>jatah svamsena bhagavan</p>
+<p>grhe visvasrjo vibhuh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>visvaksenah—Visvaksena; visucyam—in the womb of Visuci; tu—then; sambhoh—of Sambhu; sakhyam—friendship; karisyati—will create; jatah—being born; sva-amsena—by a plenary portion; bhagavan—the Supreme Personality of Godhead; grhe—in the home; visvasrjah—of Visvasrasta; vibhuh—the supremely powerful Lord.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In the home of Visvasrasta, a plenary portion of the Supreme Personality of Godhead will appear from the womb of Visuci as the incarnation known as Visvaksena.</p>
+<p>He will make friends with Sambhu.</p>
+
+
+
+<p><strong>8.13.24</strong></p>
+<p>manur vai dharma-savarnir</p>
+<p>ekadasama atmavan</p>
+<p>anagatas tat-sutas ca</p>
+<p>satyadharmadayo dasa</p>
+<p><strong>SYNONYMS</strong></p>
+<p>manuh—the Manu; vai—indeed; dharma-savarnih—Dharmasavarni; ekadasamah—eleventh; atmavan—the controller of the senses; anagatah—will come in the future; tat—his; sutah—sons; ca—and; satyadharma-adayah—Satyadharma and others; dasa—ten.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In the eleventh manvantara, the Manu will be Dharma-savarni, who will be extremely learned in spiritual knowledge.</p>
+<p>From him there will come ten sons, headed by Satyadharma.</p>
+
+
+
+<p><strong>8.13.25</strong></p>
+<p>vihangamah kamagama</p>
+<p>nirvanarucayah surah</p>
+<p>indras ca vaidhrtas tesam</p>
+<p>rsayas carunadayah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vihangamah—the Vihangamas; kamagamah—the Kamagamas; nirvanarucayah—the Nirvanarucis; surah—the demigods; indrah—the king of heaven, Indra; ca—also; vaidhrtah—Vaidhrta; tesam—of them; rsayah—the seven sages; ca—also; aruna-adayah—headed by Aruna.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Vihangamas, Kamagamas, Nirvanarucis and others will be the demigods.</p>
+<p>The king of the demigods, Indra, will be Vaidhrta, and the seven sages will be headed by Aruna.</p>
+
+
+
+<p><strong>8.13.26</strong></p>
+<p>aryakasya sutas tatra</p>
+<p>dharmasetur iti smrtah</p>
+<p>vaidhrtayam harer amsas</p>
+<p>tri-lokim dharayisyati</p>
+<p><strong>SYNONYMS</strong></p>
+<p>aryakasya—of Aryaka; sutah—the son; tatra—in that period (the eleventh manvantara); dharmasetuh—Dharmasetu; iti—thus; smrtah—celebrated; vaidhrtayam—from the mother, Vaidhrta; hareh—of the Supreme Personality of Godhead; amsah—a partial incarnation; tri-lokim—the three worlds; dharayisyati—will rule.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Aryaka known as Dharmasetu, a partial incarnation of the Supreme Personality of Godhead, will appear from the womb of Vaidhrta, the wife of Aryaka, and will rule the three worlds.</p>
+
+
+
+<p><strong>8.13.27</strong></p>
+<p>bhavita rudra-savarni</p>
+<p>rajan dvadasamo manuh</p>
+<p>devavan upadevas ca</p>
+<p>devasresthadayah sutah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>bhavita—will appear; rudra-savarnih—Rudra-savarni; rajan—O King; dvadasamah—the twelfth; manuh—Manu; devavan—Devavan; upadevah—Upadeva; ca—and; devasrestha—Devasrestha; adayah—such persons; sutah—sons of the Manu.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King, the twelfth Manu will be named Rudra-savarni.</p>
+<p>Devavan, Upadeva and Devasrestha will be among his sons.</p>
+
+
+
+<p><strong>8.13.28</strong></p>
+<p>rtadhama ca tatrendro</p>
+<p>devas ca haritadayah</p>
+<p>rsayas ca tapomurtis</p>
+<p>tapasvy agnidhrakadayah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>rtadhama—Rtadhama; ca—also; tatra—in that period; indrah—the king of heaven; devah—the demigods; ca—and; harita-adayah—headed by the Haritas; rsayah ca—and the seven sages; tapomurtih—Tapomurti; tapasvi—Tapasvi; agnidhraka—Agnidhraka; adayah—and so on.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In this manvantara, the name of Indra will be Rtadhama, and the demigods will be headed by the Haritas.</p>
+<p>Among the sages will be Tapomurti, Tapasvi and Agnidhraka.</p>
+
+
+
+<p><strong>8.13.29</strong></p>
+<p>svadhamakhyo harer amsah</p>
+<p>sadhayisyati tan-manoh</p>
+<p>antaram satyasahasah</p>
+<p>sunrtayah suto vibhuh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>svadhama-akhyah—Svadhama; hareh amsah—a partial incarnation of the Supreme Personality of Godhead; sadhayisyati—will rule; tat-manoh—of that Manu; antaram—the manvantara; satyasahasah—of Satyasaha; sunrtayah—of Sunrta; sutah—the son; vibhuh—most powerful.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>From the mother named Sunrta and the father named Satyasaha will come Svadhama, a partial incarnation of the Supreme Personality of Godhead.</p>
+<p>He will rule that manvantara.</p>
+
+
+
+<p><strong>8.13.30</strong></p>
+<p>manus trayodaso bhavyo</p>
+<p>deva-savarnir atmavan</p>
+<p>citrasena-vicitradya</p>
+<p>deva-savarni-dehajah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>manuh—the Manu; trayodasah—thirteenth; bhavyah—will become; deva-savarnih—Deva-savarni; atmavan—well advanced in spiritual knowledge; citrasena—Citrasena; vicitra-adyah—and others, like Vicitra; deva-savarni—of Deva-savarni; deha-jah—sons.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The thirteenth Manu will be named Deva-savarni, and he will be very advanced in spiritual knowledge.</p>
+<p>Among his sons will be Citrasena and Vicitra.</p>
+
+
+
+<p><strong>8.13.31</strong></p>
+<p>devah sukarma-sutrama-</p>
+<p>samjna indro divaspatih</p>
+<p>nirmoka-tattvadarsadya</p>
+<p>bhavisyanty rsayas tada</p>
+<p><strong>SYNONYMS</strong></p>
+<p>devah—the demigods; sukarma—the Sukarmas; sutrama-samjnah—and the Sutramas; indrah—the king of heaven; divaspatih—Divaspati; nirmoka—Nirmoka; tattvadarsa-adyah—and others, like Tattvadarsa; bhavisyanti—will become; rsayah—the seven sages; tada—at that time.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In the thirteenth manvantara, the Sukarmas and Sutramas will be among the demigods, Divaspati will be the king of heaven, and Nirmoka and Tattvadarsa will be among the seven sages.</p>
+
+
+
+<p><strong>8.13.32</strong></p>
+<p>devahotrasya tanaya</p>
+<p>upaharta divaspateh</p>
+<p>yogesvaro harer amso</p>
+<p>brhatyam sambhavisyati</p>
+<p><strong>SYNONYMS</strong></p>
+<p>devahotrasya—of Devahotra; tanayah—the son; upaharta—the benefactor; divaspateh—of Divaspati, the Indra at that time; yoga-isvarah—Yogesvara, the master of mystic powers; hareh amsah—a partial representation of the Supreme Personality of Godhead; brhatyam—in the womb of his mother, Brhati; sambhavisyati—will appear.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Devahotra known as Yogesvara will appear as a partial incarnation of the Supreme Personality of Godhead.</p>
+<p>His mother’s name will be Brhati.</p>
+<p>He will perform activities for the welfare of Divaspati.</p>
+
+
+
+<p><strong>8.13.33</strong></p>
+<p>manur va indra-savarnis</p>
+<p>caturdasama esyati</p>
+<p>uru-gambhira-budhadya</p>
+<p>indra-savarni-viryajah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>manuh—the Manu; va—either; indra-savarnih—Indra-savarni; caturdasamah—fourteenth; esyati—will become; uru—Uru; gambhira—Gambhira; budha-adyah—and others, such as Budha; indra-savarni—of Indra-savarni; virya-jah—born of the semen.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The name of the fourteenth Manu will be Indra-savarni.</p>
+<p>He will have sons like Uru, Gambhira and Budha.</p>
+
+
+
+<p><strong>8.13.34</strong></p>
+<p>pavitras caksusa devah</p>
+<p>sucir indro bhavisyati</p>
+<p>agnir bahuh sucih suddho</p>
+<p>magadhadyas tapasvinah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>pavitrah—the Pavitras; caksusah—the Caksusas; devah—the demigods; sucih—Suci; indrah—the king of heaven; bhavisyati—will become; agnih—Agni; bahuh—Bahu; sucih—Suci; suddhah—Suddha; magadha—Magadha; adyah—and so on; tapasvinah—the sages.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Pavitras and Caksusas will be among the demigods, and Suci will be Indra, the king of heaven.</p>
+<p>Agni, Bahu, Suci, Suddha, Magadha and others of great austerity will be the seven sages.</p>
+
+
+
+<p><strong>8.13.35</strong></p>
+<p>satrayanasya tanayo</p>
+<p>brhadbhanus tada harih</p>
+<p>vitanayam maharaja</p>
+<p>kriya-tantun vitayita</p>
+<p><strong>SYNONYMS</strong></p>
+<p>satrayanasya—of Satrayana; tanayah—the son; brhadbhanuh—Brhadbhanu; tada—at that time; harih—the Supreme Personality of Godhead; vitanayam—in the womb of Vitana; maha-raja—O King; kriya-tantun—all spiritual activities; vitayita—will perform.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King Pariksit, in the fourteenth manvantara the Supreme Personality of Godhead will appear from the womb of Vitana, and His father’s name will be Satrayana.</p>
+<p>This incarnation will be celebrated as Brhadbhanu, and He will administer spiritual activities.</p>
+
+
+
+<p><strong>8.13.36</strong></p>
+<p>rajams caturdasaitani</p>
+<p>tri-kalanugatani te</p>
+<p>proktany ebhir mitah kalpo</p>
+<p>yuga-sahasra-paryayah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>rajan—O King; caturdasa—fourteen; etani—all these; tri-kala—the three periods of time (past, present and future); anugatani—covering; te—to you; proktani—described; ebhih—by these; mitah—estimated; kalpah—one day of Brahma; yuga-sahasra—one thousand cycles of four yugas; paryayah—consisting of.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King, I have now described to you the fourteen Manus appearing in the past, present and future.</p>
+<p>The total duration of time ruled by these Manus is one thousand yuga cycles.</p>
+<p>This is called a kalpa, or one day of Lord Brahma.</p>
+
+
+</article></body></html>

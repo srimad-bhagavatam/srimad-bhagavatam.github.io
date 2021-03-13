@@ -1,155 +1,42 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>The Dynasty of Puru - The Dynasty of Puru</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">The Dynasty of Puru</a></li><li class="affix"><a href="9.20.2.html">9.20.2</a></li><li class="affix"><a href="9.20.3.html">9.20.3</a></li><li class="affix"><a href="9.20.4-5.html">9.20.4-5</a></li><li class="affix"><a href="9.20.6.html">9.20.6</a></li><li class="affix"><a href="9.20.7.html">9.20.7</a></li><li class="affix"><a href="9.20.8-9.html">9.20.8-9</a></li><li class="affix"><a href="9.20.10.html">9.20.10</a></li><li class="affix"><a href="9.20.11.html">9.20.11</a></li><li class="affix"><a href="9.20.12.html">9.20.12</a></li><li class="affix"><a href="9.20.13.html">9.20.13</a></li><li class="affix"><a href="9.20.14.html">9.20.14</a></li><li class="affix"><a href="9.20.15.html">9.20.15</a></li><li class="affix"><a href="9.20.16.html">9.20.16</a></li><li class="affix"><a href="9.20.17.html">9.20.17</a></li><li class="affix"><a href="9.20.18.html">9.20.18</a></li><li class="affix"><a href="9.20.19.html">9.20.19</a></li><li class="affix"><a href="9.20.20.html">9.20.20</a></li><li class="affix"><a href="9.20.21.html">9.20.21</a></li><li class="affix"><a href="9.20.22.html">9.20.22</a></li><li class="affix"><a href="9.20.23.html">9.20.23</a></li><li class="affix"><a href="9.20.24-26.html">9.20.24-26</a></li><li class="affix"><a href="9.20.27.html">9.20.27</a></li><li class="affix"><a href="9.20.28.html">9.20.28</a></li><li class="affix"><a href="9.20.29.html">9.20.29</a></li><li class="affix"><a href="9.20.30.html">9.20.30</a></li><li class="affix"><a href="9.20.31.html">9.20.31</a></li><li class="affix"><a href="9.20.32.html">9.20.32</a></li><li class="affix"><a href="9.20.33.html">9.20.33</a></li><li class="affix"><a href="9.20.34.html">9.20.34</a></li><li class="affix"><a href="9.20.35.html">9.20.35</a></li><li class="affix"><a href="9.20.36.html">9.20.36</a></li><li class="affix"><a href="9.20.37.html">9.20.37</a></li><li class="affix"><a href="9.20.38.html">9.20.38</a></li><li class="affix"><a href="9.20.39.html">9.20.39</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">The Dynasty of Puru</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#the-dynasty-of-puru" id="the-dynasty-of-puru">The Dynasty of Puru</a></h1>
-<h2><a class="header" href="#summary" id="summary">Summary</a></h2>
-<h3><a class="header" href="#920" id="920">9.20</a></h3>
+<h1>The Dynasty of Puru</h1>
+<h2>Summary</h2>
+<p><strong>9.20</strong></p>
 <p>This chapter describes the history of Puru and his descendant Dusmanta.</p>
 <p>The son of Puru was Janamejaya, and his son was Pracinvan.</p>
 <p>The sons and grandsons in the line of Pracinvan, one after another, were Pravira, Manusyu, Carupada, Sudyu, Bahugava, Samyati, Ahamyati and Raudrasva.</p>
@@ -170,7 +57,7 @@
 <p>After Maharaja Dusmanta’s death, Bharata, the son of Sakuntala, was enthroned.</p>
 <p>He performed many great sacrifices, in which he gave great riches in charity to the brahmanas.</p>
 <p>This chapter ends by describing the birth of Bharadvaja and how Maharaja Bharata accepted Bharadvaja as his son.</p>
-<h3><a class="header" href="#9201" id="9201">9.20.1</a></h3>
+<p><strong>9.20.1</strong></p>
 <p>sri-badarayanir uvaca</p>
 <p>puror vamsam pravaksyami</p>
 <p>yatra jato ’si bharata</p>
@@ -188,63 +75,586 @@
 <p>This is maintained everywhere in the sastra.</p>
 <p>Birth is a secondary consideration; the first consideration is one’s qualities and activities.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="9.20.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>9.20.2</strong></p>
+<p>janamejayo hy abhut puroh</p>
+<p>pracinvams tat-sutas tatah</p>
+<p>praviro ’tha manusyur vai</p>
+<p>tasmac carupado ’bhavat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>janamejayah—King Janamejaya; hi—indeed; abhut—appeared; puroh—from Puru; pracinvan—Pracinvan; tat—his (Janamejaya’s); sutah—son; tatah—from him (Pracinvan); pravirah—Pravira; atha—thereafter; manusyuh—Pravira’s son Manusyu; vai—indeed; tasmat—from him (Manusyu); carupadah—King Carupada; abhavat—appeared.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>King Janamejaya was born of this dynasty of Puru.</p>
+<p>Janamejaya’s son was Pracinvan, and his son was Pravira.</p>
+<p>Thereafter, Pravira’s son was Manusyu, and from Manusyu came the son named Carupada.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="9.20.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>9.20.3</strong></p>
+<p>tasya sudyur abhut putras</p>
+<p>tasmad bahugavas tatah</p>
+<p>samyatis tasyahamyati</p>
+<p>raudrasvas tat-sutah smrtah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasya—of him (Carupada); sudyuh—by the name Sudyu; abhut—appeared; putrah—a son; tasmat—from him (Sudyu); bahugavah—a son named Bahugava; tatah—from him; samyatih—a son named Samyati; tasya—and from him; ahamyatih—a son named Ahamyati; raudrasvah—Raudrasva; tat-sutah—his son; smrtah—well known.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Carupada was Sudyu, and the son of Sudyu was Bahugava.</p>
+<p>Bahugava’s son was Samyati.</p>
+<p>From Samyati came a son named Ahamyati, from whom Raudrasva was born.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>9.20.4-5</strong></p>
+<p>rteyus tasya kakseyuh</p>
+<p>sthandileyuh krteyukah</p>
+<p>jaleyuh sannateyus ca</p>
+<p>dharma-satya-vrateyavah</p>
+<p>dasaite ’psarasah putra</p>
+<p>vaneyus cavamah smrtah</p>
+<p>ghrtacyam indriyaniva</p>
+<p>mukhyasya jagad-atmanah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>rteyuh—Rteyu; tasya—of him (Raudrasva); kakseyuh—Kakseyu; sthandileyuh—Sthandileyu; krteyukah—Krteyuka; jaleyuh—Jaleyu; sannateyuh—Sannateyu; ca—also; dharma—Dharmeyu; satya—Satyeyu; vrateyavah—and Vrateyu; dasa—ten; ete—all of them; apsarasah—born of an Apsara; putrah—sons; vaneyuh—the son named Vaneyu; ca—and; avamah—the youngest; smrtah—known; ghrtacyam—Ghrtaci; indriyani iva—exactly like the ten senses; mukhyasya—of the living force; jagat-atmanah—the living force of the entire universe.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Raudrasva had ten sons, named Rteyu, Kakseyu, Sthandileyu, Krteyuka, Jaleyu, Sannateyu, Dharmeyu, Satyeyu, Vrateyu and Vaneyu.</p>
+<p>Of these ten sons, Vaneyu was the youngest.</p>
+<p>As the ten senses, which are products of the universal life, act under the control of life, these ten sons of Raudrasva acted under Raudrasva’s full control.</p>
+<p>All of them were born of the Apsara named Ghrtaci.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>9.20.6</strong></p>
+<p>rteyo rantinavo ’bhut</p>
+<p>trayas tasyatmaja nrpa</p>
+<p>sumatir dhruvo ’pratirathah</p>
+<p>kanvo ’pratirathatmajah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>rteyoh—from the son named Rteyu; rantinavah—the son named Rantinava; abhut—appeared; trayah—three; tasya—his (Rantinava’s); atmajah—sons; nrpa—O King; sumatih—Sumati; dhruvah—Dhruva; apratirathah—Apratiratha; kanvah—Kanva; apratiratha-atmajah—the son of Apratiratha.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Rteyu had a son named Rantinava, who had three sons, named Sumati, Dhruva and Apratiratha.</p>
+<p>Apratiratha had only one son, whose name was Kanva.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>9.20.7</strong></p>
+<p>tasya medhatithis tasmat</p>
+<p>praskannadya dvijatayah</p>
+<p>putro ’bhut sumate rebhir</p>
+<p>dusmantas tat-suto matah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasya—of him (Kanva); medhatithih—a son named Medhatithi; tasmat—from him (Medhatithi); praskanna-adyah—sons headed by Praskanna; dvijatayah—all brahmanas; putrah—a son; abhut—there was; sumateh—from Sumati; rebhih—Rebhi; dusmantah—Maharaja Dusmanta; tat-sutah—the son of Rebhi; matah—is well-known.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Kanva was Medhatithi, whose sons, all brahmanas, were headed by Praskanna.</p>
+<p>The son of Rantinava named Sumati had a son named Rebhi.</p>
+<p>Maharaja Dusmanta is well known as the son of Rebhi.</p>
+
+
+
+<p><strong>9.20.8-9</strong></p>
+<p>dusmanto mrgayam yatah</p>
+<p>kanvasrama-padam gatah</p>
+<p>tatrasinam sva-prabhaya</p>
+<p>mandayantim ramam iva</p>
+<p>vilokya sadyo mumuhe</p>
+<p>deva-mayam iva striyam</p>
+<p>babhase tam vararoham</p>
+<p>bhataih katipayair vrtah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dusmantah—Maharaja Dusmanta; mrgayam yatah—when he went hunting; kanva-asrama-padam—to the residence of Kanva; gatah—he came; tatra—there; asinam—a woman sitting; sva-prabhaya—by her own beauty; mandayantim—illuminating; ramam iva—exactly like the goddess of fortune; vilokya—by observing; sadyah—immediately; mumuhe—he became enchanted; deva-mayam iva—exactly like the illusory energy of the Lord; striyam—a beautiful woman; babhase—he addressed; tam—her (the woman); vara-aroham—who was the best of beautiful women; bhataih—by soldiers; katipayaih—a few; vrtah—surrounded.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Once when King Dusmanta went to the forest to hunt and was very much fatigued, he approached the residence of Kanva Muni.</p>
+<p>There he saw a most beautiful woman who looked exactly like the goddess of fortune and who sat there illuminating the entire asrama by her effulgence.</p>
+<p>The King was naturally attracted by her beauty, and therefore he approached her, accompanied by some of his soldiers, and spoke to her.</p>
+
+
+
+<p><strong>9.20.10</strong></p>
+<p>tad-darsana-pramuditah</p>
+<p>sannivrtta-parisramah</p>
+<p>papraccha kama-santaptah</p>
+<p>prahasan slaksnaya gira</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tat-darsana-pramuditah—being very much enlivened by seeing the beautiful woman; sannivrtta-parisramah—being relieved of the fatigue of the hunting excursion; papraccha—he inquired from her; kama-santaptah—being agitated by lusty desires; prahasan—in a joking mood; slaksnaya—very beautiful and pleasing; gira—with words.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Seeing the beautiful woman, the King was very much enlivened, and the fatigue of his hunting excursion was relieved.</p>
+<p>He was of course very much attracted because of lusty desires, and thus he inquired from her as follows, in a joking mood.</p>
+
+
+
+<p><strong>9.20.11</strong></p>
+<p>ka tvam kamala-patraksi</p>
+<p>kasyasi hrdayan-game</p>
+<p>kim svic cikirsitam tatra</p>
+<p>bhavatya nirjane vane</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ka—who; tvam—are you; kamala-patra-aksi—O beautiful woman with eyes like the petals of a lotus; kasya asi—with whom are you related; hrdayam-game—O most beautiful one, pleasing to the heart; kim svit—what kind of business; cikirsitam—is being thought of; tatra—there; bhavatyah—by you; nirjane—solitary; vane—in the forest.</p>
+<p><strong>TRANSLATION</strong></p>
+
+
+
+<p><strong>9.20.12</strong></p>
+<p>vyaktam rajanya-tanayam</p>
+<p>vedmy aham tvam sumadhyame</p>
+<p>na hi cetah pauravanam</p>
+<p>adharme ramate kvacit</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vyaktam—it appears; rajanya-tanayam—the daughter of a ksatriya; vedmi—can realize; aham—I; tvam—your good self; su-madhyame—O most beautiful; na—not; hi—indeed; cetah—the mind; pauravanam—of persons who have taken birth in the Puru dynasty; adharme—in irreligion; ramate—enjoys; kvacit—at any time.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O most beautiful one, it appears to my mind that you must be the daughter of a ksatriya.</p>
+<p>Because I belong to the Puru dynasty, my mind never endeavors to enjoy anything irreligiously.</p>
+<p><strong>PURPORT</strong></p>
+<p>Maharaja Dusmanta indirectly expressed his desire to marry Sakuntala, for she appeared to his mind to be the daughter of some ksatriya king.</p>
+
+
+
+<p><strong>9.20.13</strong></p>
+<p>sri-sakuntalovaca</p>
+<p>visvamitratmajaivaham</p>
+<p>tyakta menakaya vane</p>
+<p>vedaitad bhagavan kanvo</p>
+<p>vira kim karavama te</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-sakuntala uvaca—Sri Sakuntala replied; visvamitra-atmaja—the daughter of Visvamitra; eva—indeed; aham—I (am); tyakta—left; menakaya—by Menaka; vane—in the forest; veda—knows; etat—all these incidents; bhagavan—the most powerful saintly person; kanvah—Kanva Muni; vira—O hero; kim—what; karavama—can I do; te—for you.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sakuntala said: I am the daughter of Visvamitra.</p>
+<p>My mother, Menaka, left me in the forest.</p>
+<p>O hero, the most powerful saint Kanva Muni knows all about this.</p>
+<p>Now let me know, how may I serve you?</p>
+<p><strong>PURPORT</strong></p>
+<p>Sakuntala informed Maharaja Dusmanta that although she never saw or knew her father or mother, Kanva Muni knew everything about her, and she had heard from him that she was the daughter of Visvamitra and that her mother was Menaka, who had left her in the forest.</p>
+
+
+
+<p><strong>9.20.14</strong></p>
+<p>asyatam hy aravindaksa</p>
+<p>grhyatam arhanam ca nah</p>
+<p>bhujyatam santi nivara</p>
+<p>usyatam yadi rocate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>asyatam—please come sit here; hi—indeed; aravinda-aksa—O great hero with eyes like the petals of a lotus; grhyatam—please accept; arhanam—humble reception; ca—and; nah—our; bhujyatam—please eat; santi—what there is in stock; nivarah—nivara rice; usyatam—stay here; yadi—if; rocate—you so desire.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King with eyes like the petals of a lotus, kindly come sit down and accept whatever reception we can offer.</p>
+<p>We have a supply of nivara rice that you may kindly take.</p>
+<p>And if you so desire, stay here without hesitation.</p>
+
+
+
+<p><strong>9.20.15</strong></p>
+<p>sri-dusmanta uvaca</p>
+<p>upapannam idam subhru</p>
+<p>jatayah kusikanvaye</p>
+<p>svayam hi vrnute rajnam</p>
+<p>kanyakah sadrsam varam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-dusmantah uvaca—King Dusmanta replied; upapannam—just befitting your position; idam—this; su-bhru—O Sakuntala, with beautiful eyebrows; jatayah—because of your birth; kusika-anvaye—in the family of Visvamitra; svayam—personally; hi—indeed; vrnute—select; rajnam—of a royal family; kanyakah—daughters; sadrsam—on an equal level; varam—husbands.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>King Dusmanta replied: O Sakuntala, with beautiful eyebrows, you have taken your birth in the family of the great saint Visvamitra, and your reception is quite worthy of your family.</p>
+<p>Aside from this, the daughters of a king generally select their own husbands.</p>
+<p><strong>PURPORT</strong></p>
+<p>In her reception of Maharaja Dusmanta, Sakuntala clearly said, Your Majesty may stay here, and you may accept whatever reception I can offer Thus she indicated that she wanted Maharaja Dusmanta as her husband.</p>
+<p>As far as Maharaja Dusmanta was concerned, he desired Sakuntala as his wife from the very beginning, as soon as he saw her, so the agreement to unite as husband and wife was natural.</p>
+<p>To induce Sakuntala to accept the marriage, Maharaja Dusmanta reminded her that as the daughter of a king she could select her husband in an open assembly.</p>
+<p>In the history of Aryan civilization there have been many instances in which famous princesses have selected their husbands in open competitions.</p>
+<p>For example, it was in such a competition that Sitadevi accepted Lord Ramacandra as her husband and that Draupadi accepted Arjuna, and there are many other instances.</p>
+<p>So marriage by agreement or by selecting one’s own husband in an open competition is allowed.</p>
+<p>There are eight kinds of marriage, of which marriage by agreement is called gandharva marriage.</p>
+<p>Generally the parents select the husband or wife for their daughter or son, but gandharva marriage takes place by personal selection.</p>
+<p>Still, although marriage by personal selection or by agreement took place in the past, we find no such thing as divorce by disagreement.</p>
+<p>Of course, divorce by disagreement took place among low-class men, but marriage by agreement was found even in the very highest classes, especially in the royal ksatriya families.</p>
+<p>Maharaja Dusmanta’s acceptance of Sakuntala as his wife was sanctioned by Vedic culture.</p>
+<p>How the marriage took place is described in the next verse.</p>
+
+
+
+<p><strong>9.20.16</strong></p>
+<p>om ity ukte yatha-dharmam</p>
+<p>upayeme sakuntalam</p>
+<p>gandharva-vidhina raja</p>
+<p>desa-kala-vidhanavit</p>
+<p><strong>SYNONYMS</strong></p>
+<p>om iti ukte—by reciting the Vedic pranava, invoking the Supreme Personality of Godhead to witness the marriage; yatha-dharmam—exactly according to the principles of religion (because Narayana becomes the witness in an ordinary religious marriage also); upayeme—he married; sakuntalam—the girl Sakuntala; gandharva-vidhina—by the regulative principle of the Gandharvas, without deviation from religious principles; raja—Maharaja Dusmanta; desa-kala-vidhana-vit—completely aware of duties according to time, position and objective.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When Sakuntala responded to Maharaja Dusmanta’s proposal with silence, the agreement was complete.</p>
+<p>Then the King, who knew the laws of marriage, immediately married her by chanting the Vedic pranava (omkara), in accordance with the marriage ceremony as performed among the Gandharvas.</p>
+<p><strong>PURPORT</strong></p>
+<p>The omkara, pranava, is the Supreme Personality of Godhead represented by letters.Bhagavad-gita says that the letters a-u-m, combined together as om, represent the Supreme Lord.</p>
+<p>Religious principles are meant to invoke the blessings and mercy of the Supreme Personality of Godhead, Krsna, who says in Bhagavad-gita that He is personally present in sexual desires that are not contrary to religious principles.</p>
+<p>The word vidhina means, according to religious principles The association of men and women according to religious principles is allowed in the Vedic culture.</p>
+<p>In our Krsna consciousness movement we allow marriage on the basis of religious principles, but the sexual combination of men and women as friends is irreligious and is not allowed.</p>
+
+
+
+<p><strong>9.20.17</strong></p>
+<p>amogha-viryo rajarsir</p>
+<p>mahisyam viryam adadhe</p>
+<p>svo-bhute sva-puram yatah</p>
+<p>kalenasuta sa sutam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>amogha-viryah—a person who discharges semen without being baffled, or, in other words, who must beget a child; raja-rsih—the saintly King Dusmanta; mahisyam—into the Queen, Sakuntala (after her marriage, Sakuntala became the Queen); viryam—semen; adadhe—placed; svah-bhute—in the morning; sva-puram—to his own place; yatah—returned; kalena—in due course of time; asuta—gave birth; sa—she (Sakuntala); sutam—to a son.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>King Dusmanta, who never discharged semen without a result, placed his semen at night in the womb of his Queen, Sakuntala, and in the morning he returned to his palace.</p>
+<p>Thereafter, in due course of time, Sakuntala gave birth to a son.</p>
+
+
+
+<p><strong>9.20.18</strong></p>
+<p>kanvah kumarasya vane</p>
+<p>cakre samucitah kriyah</p>
+<p>baddhva mrgendram tarasa</p>
+<p>kridati sma sa balakah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kanvah—Kanva Muni; kumarasya—of the son born of Sakuntala; vane—in the forest; cakre—executed; samucitah—prescribed; kriyah—ritualistic ceremonies; baddhva—capturing; mrga-indram—a lion; tarasa—by force; kridati—playing; sma—in the past; sah—he; balakah—the child.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In the forest, Kanva Muni performed all the ritualistic ceremonies concerning the newborn child.</p>
+<p>Later, the boy became so powerful that he would capture a lion and play with it.</p>
+
+
+
+<p><strong>9.20.19</strong></p>
+<p>tam duratyaya-vikrantam</p>
+<p>adaya pramadottama</p>
+<p>harer amsamsa-sambhutam</p>
+<p>bhartur antikam agamat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tam—him; duratyaya-vikrantam—whose strength was insurmountable; adaya—taking with her; pramada-uttama—the best of women, Sakuntala; hareh—of God; amsa-amsa-sambhutam—a partial plenary incarnation; bhartuh antikam—unto her husband; agamat—approached.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sakuntala, the best of beautiful women, along with her son, whose strength was insurmountable and who was a partial expansion of the Supreme Godhead, approached her husband, Dusmanta.</p>
+
+
+
+<p><strong>9.20.20</strong></p>
+<p>yada na jagrhe raja</p>
+<p>bharya-putrav aninditau</p>
+<p>srnvatam sarva-bhutanam</p>
+<p>khe vag ahasaririni</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yada—when; na—not; jagrhe—accepted; raja—the King (Dusmanta); bharya-putrau—his real son and real wife; aninditau—not abominable, not accused by anyone; srnvatam—while hearing; sarva-bhutanam—all the people; khe—in the sky; vak—a sound vibration; aha—declared; asaririni—without a body.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When the King refused to accept his wife and son, who were both irreproachable, an unembodied voice spoke from the sky as an omen and was heard by everyone present.</p>
+<p><strong>PURPORT</strong></p>
+<p>Maharaja Dusmanta knew that Sakuntala and the boy were his own wife and son, but because they came from outside and were unknown to the citizens, he at first declined to accept them.</p>
+<p>Sakuntala, however, was so chaste that an omen from the sky declared the truth so that others could hear.</p>
+<p>When everyone heard from the omen that Sakuntala and her child were truly the King’s wife and son, the King gladly accepted them.</p>
+
+
+
+<p><strong>9.20.21</strong></p>
+<p>mata bhastra pituh putro</p>
+<p>yena jatah sa eva sah</p>
+<p>bharasva putram dusmanta</p>
+<p>mavamamsthah sakuntalam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>mata—the mother; bhastra—just like the skin of a bellows containing air; pituh—of the father; putrah—the son; yena—by whom; jatah—one is born; sah—the father; eva—indeed; sah—the son; bharasva—just maintain; putram—your son; dusmanta—O Maharaja Dusmanta; ma—do not; avamamsthah—insult; sakuntalam—Sakuntala.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The voice said: O Maharaja Dusmanta, a son actually belongs to his father, whereas the mother is only a container, like the skin of a bellows.</p>
+<p>According to Vedic injunctions, the father is born as the son.</p>
+<p>Therefore, maintain your own son and do not insult Sakuntala.</p>
+<p><strong>PURPORT</strong></p>
+<p>According to the Vedic injunction atma vai putra-namasi, the father becomes the son.</p>
+<p>The mother is simply like a storekeeper, because the seed of the child is placed in her womb, but it is the father who is responsible for maintaining the son.</p>
+<p>In Bhagavad-gita the Lord says that He is the seed-giving father of all living entities (aham bija-pradah pita), and therefore He is responsible for maintaining them.</p>
+<p>This is also confirmed in the Vedas.</p>
+<p>Eko bahunam yo vidadhati kaman: although God is one, He maintains all living entities with their necessities for life.</p>
+<p>The living entities in different forms are sons of the Lord, and therefore the father, the Supreme Lord, supplies them food according to their different bodies.</p>
+<p>The small ant is supplied a grain of sugar, and the elephant is supplied tons of food, but everyone is able to eat.</p>
+<p>Therefore there is no question of overpopulation.</p>
+<p>Because the father, Krsna, is fully opulent, there is no scarcity of food, and because there is no scarcity, the propaganda of overpopulation is only a myth.</p>
+<p>Actually one suffers for want of food when material nature, under the order of the father, refuses to supply him food.</p>
+<p>It is the living entity’s position that determines whether food will be supplied or not.</p>
+<p>When a diseased person is forbidden to eat, this does not mean that there is a scarcity of food; rather, the diseased person requires the treatment of not being supplied with food.</p>
+<p>In Bhagavad-gita (7.10) the Lord also says, bijam mam sama-bhutanam: I am the seed of all living entities A particular type of seed is sown within the earth, and then a particular type of tree or plant comes out.</p>
+<p>The mother resembles the earth, and when a particular type of seed is sown by the father, a particular type of body takes birth.</p>
+
+
+
+<p><strong>9.20.22</strong></p>
+<p>reto-dhah putro nayati</p>
+<p>naradeva yama-ksayat</p>
+<p>tvam casya dhata garbhasya</p>
+<p>satyam aha sakuntala</p>
+<p><strong>SYNONYMS</strong></p>
+<p>retah-dhah—a person who discharges semen; putrah—the son; nayati—saves; nara-deva—O King (Maharaja Dusmanta); yama-ksayat—from punishment by Yamaraja, or from the custody of Yamaraja; tvam—your good self; ca—and; asya—of this child; dhata—the creator; garbhasya—of the embryo; satyam—truthfully; aha—said; sakuntala—your wife, Sakuntala.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King Dusmanta, he who discharges semen is the actual father, and his son saves him from the custody of Yamaraja.</p>
+<p>You are the actual procreator of this child.</p>
+<p>Indeed, Sakuntala is speaking the truth.</p>
+<p><strong>PURPORT</strong></p>
+<p>Upon hearing the omen, Maharaja Dusmanta accepted his wife and child.</p>
+<p>According to Vedic smrti:</p>
+<p>pun-namno narakad yasmat</p>
+<p>pitaram trayate sutah</p>
+<p>tasmat putra iti proktah</p>
+<p>svayam eva svayambhuva</p>
+<p>Because a son delivers his father from punishment in the hell called put, the son is called putra.</p>
+<p>According to this principle, when there is a disagreement between the father and mother, it is the father, not the mother, who is delivered by the son.</p>
+<p>But if the wife is faithful and firmly adherent to her husband, when the father is delivered the mother is also delivered.</p>
+<p>Consequently, there is no such thing as divorce in the Vedic literature.</p>
+<p>A wife is always trained to be chaste and faithful to her husband, for this helps her achieve deliverance from any abominable material condition.</p>
+<p>This verse clearly says, putro nayati naradeva yama-ksayat: The son saves his father from the custody of Yamaraja It never says, putro nayati mataram: The son saves his mother The seed-giving father is delivered, not the storekeeper mother.</p>
+<p>Consequently, husband and wife should not separate under any condition, for if they have a child whom they raise to be a Vaisnava, he can save both the father and mother from the custody of Yamaraja and punishment in hellish life.</p>
+
+
+
+<p><strong>9.20.23</strong></p>
+<p>pitary uparate so ’pi</p>
+<p>cakravarti maha-yasah</p>
+<p>mahima giyate tasya</p>
+<p>harer amsa-bhuvo bhuvi</p>
+<p><strong>SYNONYMS</strong></p>
+<p>pitari—after his father; uparate—passed away; sah—the King’s son; api—also; cakravarti—the emperor; maha-yasah—very famous; mahima—glories; giyate—are glorified; tasya—his; hareh—of the Supreme Personality of Godhead; amsa-bhuvah—a partial representation; bhuvi—upon this earth.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sukadeva Gosvami said: When Maharaja Dusmanta passed away from this earth, his son became the emperor of the world, the proprietor of the seven islands.</p>
+<p>He is referred to as a partial representation of the Supreme Personality of Godhead in this world.</p>
+<p><strong>PURPORT</strong></p>
+<p>In Bhagavad-gita (10.41) it is said:</p>
+<p>yad yad vibhutimat sattvam</p>
+<p>srimad urjitam eva va</p>
+<p>tat tad evavagaccha tvam</p>
+<p>mama tejo ’msa-sambhavam</p>
+<p>Anyone extraordinarily powerful must be considered a partial representation of the opulence of the Supreme Godhead.</p>
+<p>Therefore when the son of Maharaja Dusmanta became the emperor of the entire world, he was celebrated in this way.</p>
+
+
+
+<p><strong>9.20.24-26</strong></p>
+<p>cakram daksina-haste ’sya</p>
+<p>padma-koso ’sya padayoh</p>
+<p>ije mahabhisekena</p>
+<p>so ’bhisikto ’dhirad vibhuh</p>
+<p>panca-pancasata medhyair</p>
+<p>gangayam anu vajibhih</p>
+<p>mamateyam purodhaya</p>
+<p>yamunam anu ca prabhuh</p>
+<p>asta-saptati-medhyasvan</p>
+<p>babandha pradadad vasu</p>
+<p>bharatasya hi dausmanter</p>
+<p>agnih saci-gune citah</p>
+<p>sahasram badvaso yasmin</p>
+<p>brahmana ga vibhejire</p>
+<p><strong>SYNONYMS</strong></p>
+<p>cakram—the mark of Krsna’s disc; daksina-haste—on the palm of the right hand; asya—of him (Bharata); padma-kosah—the mark of the whorl of a lotus; asya—of him; padayoh—on the soles of the feet; ije—worshiped the Supreme Personality of Godhead; maha-abhisekena—by a grand Vedic ritualistic ceremony; sah—he (Maharaja Bharata); abhisiktah—being promoted; adhirat—to the topmost position of a ruler; vibhuh—the master of everything; panca-pancasata—fifty-five; medhyaih—fit for sacrifices; gangayam anu—from the mouth of the Ganges to the source; vajibhih—with horses; mamateyam—the great sage Bhrgu; purodhaya—making him the great priest; yamunam—on the bank of the Yamuna; anu—in regular order; ca—also; prabhuh—the supreme master, Maharaja Bharata; asta-saptati—seventy-eight; medhya-asvan—horses fit for sacrifice; babandha—he bound; pradadat—gave in charity; vasu—riches; bharatasya—of Maharaja Bharata; hi—indeed; dausmanteh—the son of Maharaja Dusmanta; agnih—the sacrificial fire; saci-gune—on an excellent site; citah—established; sahasram—thousands; badvasah—by the number of one badva (one badva equals 13,084); yasmin—in which sacrifices; brahmanah—all the brahmanas present; gah—the cows; vibhejire—received their respective share.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Maharaja Bharata, the son of Dusmanta, had the mark of Lord Krsna’s disc on the palm of his right hand, and he had the mark of a lotus whorl on the soles of his feet.</p>
+<p>By worshiping the Supreme Personality of Godhead with a grand ritualistic ceremony, he became the emperor and master of the entire world.</p>
+<p>Then, under the priesthood of Mamateya, Bhrgu Muni, he performed fifty-five horse sacrifices on the bank of the Ganges, beginning from its mouth and ending at its source, and seventy-eight horse sacrifices on the bank of the Yamuna, beginning from the confluence at Prayaga and ending at the source.</p>
+<p>He established the sacrificial fire on an excellent site, and he distributed great wealth to the brahmanas.</p>
+<p>Indeed, he distributed so many cows that each of thousands of brahmanas had one badva (13,084) as his share.</p>
+<p><strong>PURPORT</strong></p>
+<p>As indicated here by the words dausmanter agnih saci-gune citah, Bharata, the son of Maharaja Dusmanta, arranged for many ritualistic ceremonies all over the world, especially all over India on the banks of the Ganges and Yamuna, from the mouth to the source, and all such sacrifices were performed in very distinguished places.</p>
+<p>As stated in Bhagavad-gita (3.9), yajnarthat karmano ’nyatra loko ’yam karma-bandhanah: Work done as a sacrifice for Visnu has to be performed, otherwise work binds one to this material world Everyone should engage in the performance of yajna, and the sacrificial fire should be ignited everywhere, the entire purpose being to make people happy, prosperous and progressive in spiritual life.</p>
+<p>Of course, these things were possible before the beginning of Kali-yuga because there were qualified brahmanas who could perform such yajnas.</p>
+<p>For the present, however, the Brahma-vaivarta Purana enjoins:</p>
+<p>asvamedham gavalambham</p>
+<p>sannyasam pala-paitrkam</p>
+<p>devarena sutotpattim</p>
+<p>kalau panca vivarjayet</p>
+<p>(Cc.Adi 17.164)</p>
+<p>In this age of Kali, five acts are forbidden: offering a horse in sacrifice, offering a cow in sacrifice, accepting the order of sannyasa, offering oblations of flesh to the forefathers, and begetting children in the wife of one’s brother In this age, such yajnas as the asvamedha-yajna and gomedha-yajna are impossible to perform because there are neither sufficient riches nor qualified brahmanas.</p>
+<p>This verse says, mamateyam purodhaya: Maharaja Bharata engaged the son of Mamata, Bhrgu Muni, to take charge of performing this yajna.</p>
+<p>Now, however, such brahmanas are impossible to find.</p>
+<p>Therefore the sastras recommend, yajnaih sankirtana-prayair yajanti hi sumedhasah: those who are intelligent should perform the sankirtana-yajna inaugurated by Lord Sri Caitanya Mahaprabhu krsna-varnam tvisakrsnam</p>
+<p>sangopangastra-parsadam</p>
+<p>yajnaih sankirtana-prayair</p>
+<p>yajanti hi sumedhasah</p>
+<p>In this age of Kali, people endowed with sufficient intelligence will worship the Lord, who is accompanied by His associates, by performance of sankirtana-yajna (Bhag.11.5.32) Yajna must be performed, for otherwise people will be entangled in sinful activities and will suffer immensely.</p>
+<p>Therefore the Krsna consciousness movement has taken charge of introducing the chanting of Hare Krsna all over the world.</p>
+<p>This Hare Krsna movement is also yajna, but without the difficulties involved in securing paraphernalia and qualified brahmanas.</p>
+<p>This congregational chanting can be performed anywhere and everywhere.</p>
+<p>If people somehow or other assemble together and are induced to chant Hare Krsna, Hare Krsna, Krsna Krsna, Hare Hare/ Hare Rama, Hare Rama, Rama Rama, Hare Hare, all the purposes of yajna will be fulfilled.</p>
+<p>The first purpose is that there must be sufficient rain, for without rain there cannot be any produce (annad bhavanti bhutani parjanyad anna-sambhavah).</p>
+<p>All our necessities can be produced simply by rainfall (kamam vavarsa parjanyah (SB 1.10.4)), and the earth is the original source of all necessities (sarva-kama-dugha mahi).</p>
+<p>In conclusion, therefore, in this age of Kali people all over the world should refrain from the four principles of sinful life—illicit sex, meat-eating, intoxication and gambling—and in a pure state of existence should perform the simple yajna of chanting the Hare Krsna maha-mantra.</p>
+<p>Then the earth will certainly produce all the necessities for life, and people will be happy economically, politically, socially, religiously and culturally.</p>
+<p>Everything will be in proper order.</p>
+
+
+
+<p><strong>9.20.27</strong></p>
+<p>trayas-trimsac-chatam hy asvan</p>
+<p>baddhva vismapayan nrpan</p>
+<p>dausmantir atyagan mayam</p>
+<p>devanam gurum ayayau</p>
+<p><strong>SYNONYMS</strong></p>
+<p>trayah—three; trimsat—thirty; satam—hundred; hi—indeed; asvan—horses; baddhva—arresting in the yajna; vismapayan—astonishing; nrpan—all other kings; dausmantih—the son of Maharaja Dusmanta; atyagat—surpassed; mayam—material opulences; devanam—of the demigods; gurum—the supreme spiritual master; ayayau—achieved.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Bharata, the son of Maharaja Dusmanta, bound thirty-three hundred horses for those sacrifices, and thus he astonished all other kings.</p>
+<p>He surpassed even the opulence of the demigods, for he achieved the supreme spiritual master, Hari.</p>
+<p><strong>PURPORT</strong></p>
+<p>One who achieves the lotus feet of the Supreme Personality of Godhead certainly surpasses all material wealth, even that of the demigods in the heavenly planets.</p>
+<p>Yam labdhva caparam labham manyate nadhikam tatah.</p>
+<p>The achievement of the lotus feet of the Supreme Personality of Godhead is the most exalted achievement in life.</p>
+
+
+
+<p><strong>9.20.28</strong></p>
+<p>mrgan chukla-datah krsnan</p>
+<p>hiranyena parivrtan</p>
+<p>adat karmani masnare</p>
+<p>niyutani caturdasa</p>
+<p><strong>SYNONYMS</strong></p>
+<p>mrgan—first-class elephants; sukla-datah—with very white tusks; krsnan—with black bodies; hiranyena—with gold ornaments; parivrtan—completely covered; adat—give in charity; karmani—in the sacrifice; masnare—by the name Masnara, or in the place known as Masnara; niyutani—lakhs (one lakh equals one hundred thousand); caturdasa—fourteen.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When Maharaja Bharata performed the sacrifice known as Masnara (or a sacrifice in the place known as Masnara), he gave in charity fourteen lakhs of excellent elephants with white tusks and black bodies, completely covered with golden ornaments.</p>
+
+
+
+<p><strong>9.20.29</strong></p>
+<p>bharatasya mahat karma</p>
+<p>na purve napare nrpah</p>
+<p>naivapur naiva prapsyanti</p>
+<p>bahubhyam tridivam yatha</p>
+<p><strong>SYNONYMS</strong></p>
+<p>bharatasya—of Maharaja Bharata, the son of Maharaja Dusmanta; mahat—very great, exalted; karma—activities; na—neither; purve—previously; na—nor; apare—after his time; nrpah—kings as a class; na—neither; eva—certainly; apuh—attained; na—nor; eva—certainly; prapsyanti—will get; bahubhyam—by the strength of his arms; tri-divam—the heavenly planets; yatha—as.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>As one cannot approach the heavenly planets simply by the strength of his arms (for who can touch the heavenly planets with his hands?), one cannot imitate the wonderful activities of Maharaja Bharata.</p>
+<p>No one could perform such activities in the past, nor will anyone be able to do so in the future.</p>
+
+
+
+<p><strong>9.20.30</strong></p>
+<p>kirata-hunan yavanan</p>
+<p>paundran kankan khasan chakan</p>
+<p>abrahmanya-nrpams cahan</p>
+<p>mlecchan dig-vijaye ’khilan</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kirata—the black people called Kiratas (mostly the Africans); hunan—the Huns, the tribes from the far north; yavanan—the meat-eaters; paundran—the Paundras; kankan—the Kankas; khasan—the Mongolians; sakan—the Sakas; abrahmanya—against the brahminical culture; nrpan—kings; ca—and; ahan—he killed; mlecchan—such atheists, who had no respect for Vedic civilization; dik-vijaye—while conquering all directions; akhilan—all of them.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When Maharaja Bharata was on tour, he defeated or killed all the Kiratas, Hunas, Yavanas, Paundras, Kankas, Khasas, Sakas and the kings who were opposed to the Vedic principles of brahminical culture.</p>
+
+
+
+<p><strong>9.20.31</strong></p>
+<p>jitva purasura devan</p>
+<p>ye rasaukamsi bhejire</p>
+<p>deva-striyo rasam nitah</p>
+<p>pranibhih punar aharat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>jitva—conquering; pura—formerly; asurah—the demons; devan—the demigods; ye—all who; rasa-okamsi—in the lower planetary system known as Rasatala; bhejire—took shelter; deva-striyah—the wives and daughters of the demigods; rasam—in the lower planetary system; nitah—were brought; pranibhih—with their own dear associates; punah—again; aharat—brought back to their original places.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Formerly, after conquering the demigods, all the demons had taken shelter in the lower planetary system known as Rasatala and had brought all the wives and daughters of the demigods there also.</p>
+<p>Maharaja Bharata, however, rescued all those women, along with their associates, from the clutches of the demons, and he returned them to the demigods.</p>
+
+
+
+<p><strong>9.20.32</strong></p>
+<p>sarvan kaman duduhatuh</p>
+<p>prajanam tasya rodasi</p>
+<p>samas tri-nava-sahasrir</p>
+<p>diksu cakram avartayat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sarvan kaman—all necessities or desirable things; duduhatuh—fulfilled; prajanam—of the subjects; tasya—his; rodasi—this earth and the heavenly planets; samah—years; tri-nava-sahasrih—three times nine thousand (that is, twenty-seven thousand); diksu—in all directions; cakram—soldiers or orders; avartayat—circulated.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Maharaja Bharata provided all necessities for his subjects, both on this earth and in the heavenly planets, for twenty-seven thousand years.</p>
+<p>He circulated his orders and distributed his soldiers in all directions.</p>
+
+
+
+<p><strong>9.20.33</strong></p>
+<p>sa samrad loka-palakhyam</p>
+<p>aisvaryam adhirat sriyam</p>
+<p>cakram caskhalitam pranan</p>
+<p>mrsety upararama ha</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—he (Maharaja Bharata); samrat—the emperor; loka-pala-akhyam—known as the ruler of all the lokas, or planets; aisvaryam—such opulences; adhirat—thoroughly in power; sriyam—kingdom; cakram—soldiers or orders; ca—and; askhalitam—without failure; pranan—life or sons and family; mrsa—all false; iti—thus; upararama—ceased to enjoy; ha—in the past.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>As the ruler of the entire universe, Emperor Bharata had the opulences of a great kingdom and unconquerable soldiers.</p>
+<p>His sons and family had seemed to him to be his entire life.</p>
+<p>But finally he thought of all this as an impediment to spiritual advancement, and therefore he ceased from enjoying it.</p>
+<p><strong>PURPORT</strong></p>
+<p>Maharaja Bharata had incomparable opulence in sovereignty, soldiers, sons, daughters and everything for material enjoyment, but when he realized that all such material opulences were useless for spiritual advancement, he retired from material enjoyment.</p>
+<p>The Vedic civilization enjoins that after a certain age, following in the footsteps of Maharaja Bharata, one should cease to enjoy material opulences and should take the order of vanaprastha.</p>
+
+
+
+<p><strong>9.20.34</strong></p>
+<p>tasyasan nrpa vaidarbhyah</p>
+<p>patnyas tisrah susammatah</p>
+<p>jaghnus tyaga-bhayat putran</p>
+<p>nanurupa itirite</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasya—of him (Maharaja Bharata); asan—there were; nrpa—O King (Maharaja Pariksit); vaidarbhyah—daughters of Vidarbha; patnyah—wives; tisrah—three; su-sammatah—very pleasing and suitable; jaghnuh—killed; tyaga-bhayat—fearing rejection; putran—their sons; na anurupah—not exactly like the father; iti—like this; irite—considering.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King Pariksit, Maharaja Bharata had three pleasing wives, who were daughters of the King of Vidarbha.</p>
+<p>When all three of them bore children who did not resemble the King, these wives thought that he would consider them unfaithful queens and reject them, and therefore they killed their own sons.</p>
+
+
+
+<p><strong>9.20.35</strong></p>
+<p>tasyaivam vitathe vamse</p>
+<p>tad-artham yajatah sutam</p>
+<p>marut-stomena maruto</p>
+<p>bharadvajam upadaduh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasya—his (Maharaja Bharata’s); evam—thus; vitathe—being baffled; vamse—in generating progeny; tat-artham—to get sons; yajatah—performing sacrifices; sutam—a son; marut-stomena—by performing a marut-stoma sacrifice; marutah—the demigods named the Maruts; bharadvajam—Bharadvaja; upadaduh—presented.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The King, his attempt for progeny frustrated in this way, performed a sacrifice named marut-stoma to get a son.</p>
+<p>The demigods known as the Maruts, being fully satisfied with him, then presented him a son named Bharadvaja.</p>
+
+
+
+<p><strong>9.20.36</strong></p>
+<p>antarvatnyam bhratr-patnyam</p>
+<p>maithunaya brhaspatih</p>
+<p>pravrtto varito garbham</p>
+<p>saptva viryam upasrjat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>antah-vatnyam—pregnant; bhratr-patnyam—with the brother’s wife; maithunaya—desiring sexual enjoyment; brhaspatih—the demigod named Brhaspati; pravrttah—so inclined; varitah—when forbidden to do so; garbham—the son within the abdomen; saptva—by cursing; viryam—semen; upasrjat—discharged.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When the demigod named Brhaspati was attracted by his brother’s wife, Mamata, who at that time was pregnant, he desired to have sexual relations with her.</p>
+<p>The son within her womb forbid this, but Brhaspati cursed him and forcibly discharged semen into the womb of Mamata.</p>
+<p><strong>PURPORT</strong></p>
+<p>The sex impulse is so strong in this material world that even Brhaspati, who is supposed to be the priest of the demigods and a very learned scholar, wanted to have a sexual relationship with his brother’s pregnant wife.</p>
+<p>This can happen even in the society of the higher demigods, so what to speak of human society? The sex impulse is so strong that it can agitate even a learned personality like Brhaspati.</p>
+
+
+
+<p><strong>9.20.37</strong></p>
+<p>tam tyaktu-kamam mamatam</p>
+<p>bhartus tyaga-visankitam</p>
+<p>nama-nirvacanam tasya</p>
+<p>slokam enam sura jaguh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tam—that newly born baby; tyaktu-kamam—who was trying to avoid; mamatam—unto Mamata; bhartuh tyaga-visankitam—very much afraid of being forsaken by her husband because of giving birth to an illegitimate son; nama-nirvacanam—a name-giving ceremony, or nama-karana; tasya—to the child; slokam—verse; enam—this; surah—the demigods; jaguh—enunciated.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Mamata very much feared being forsaken by her husband for giving birth to an illegitimate son, and therefore she considered giving up the child.</p>
+<p>But then the demigods solved the problem by enunciating a name for the child.</p>
+<p><strong>PURPORT</strong></p>
+<p>According to Vedic scripture, whenever a child is born there are some ceremonies known as jata-karma and nama-karana, in which learned brahmanas, immediately after the birth of the child, make a horoscope according to astrological calculations.</p>
+<p>But the child to which Mamata gave birth was begotten by Brhaspati irreligiously, for although Mamata was the wife of Utathya, Brhaspati made her pregnant by force.</p>
+<p>Therefore Brhaspati became bharta.</p>
+<p>According to Vedic culture, a wife is considered the property of her husband, and a son born by illicit sex is called dvaja.</p>
+<p>The common word still current in Hindu society for such a son is dogla, which refers to a son not begotten by the husband of his mother.</p>
+<p>In such a situation, it is difficult to give the child a name according to proper regulative principles.</p>
+<p>Mamata, therefore, was perplexed, but the demigods gave the child the appropriate name Bharadvaja, which indicated that the child born illegitimately should be maintained by both Mamata and Brhaspati.</p>
+
+
+
+<p><strong>9.20.38</strong></p>
+<p>mudhe bhara dvajam imam</p>
+<p>bhara dvajam brhaspate</p>
+<p>yatau yad uktva pitarau</p>
+<p>bharadvajas tatas tv ayam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>mudhe—O foolish woman; bhara—just maintain; dvajam—although born by an illicit connection between two; imam—this child; bhara—maintain; dvajam—although born by an illicit connection between two; brhaspate—O Brhaspati; yatau—left; yat—because; uktva—having said; pitarau—both the father and mother; bharadvajah—by the name Bharadvaja; tatah—thereafter; tu—indeed; ayam—this child.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Brhaspati said to Mamata, You foolish woman, although this child was born from the wife of one man through the semen discharged by another, you should maintain him Upon hearing this, Mamata replied, O Brhaspati, you maintain him After speaking in this way, Brhaspati and Mamata both left.</p>
+<p>Thus the child was known as Bharadvaja.</p>
+
+
+
+<p><strong>9.20.39</strong></p>
+<p>codyamana surair evam</p>
+<p>matva vitatham atmajam</p>
+<p>vyasrjan maruto ’bibhran</p>
+<p>datto ’yam vitathe ’nvaye</p>
+<p><strong>SYNONYMS</strong></p>
+<p>codyamana—although Mamata was encouraged (to maintain the child); suraih—by the demigods; evam—in this way; matva—considering; vitatham—purposeless; atmajam—her own child; vyasrjat—rejected; marutah—the demigods known as the Maruts; abibhran—maintained (the child); dattah—the same child was given; ayam—this; vitathe—was disappointed; anvaye—when the dynasty of Maharaja Bharata.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Although encouraged by the demigods to maintain the child, Mamata considered him useless because of his illicit birth, and therefore she left him.</p>
+<p>Consequently, the demigods known as the Maruts maintained the child, and when Maharaja Bharata was disappointed for want of a child, this child was given to him as his son.</p>
+<p><strong>PURPORT</strong></p>
+<p>From this verse it is understood that those who are rejected from the higher planetary system are given a chance to take birth in the most exalted families on this planet earth.</p>
+
+
+</article></body></html>

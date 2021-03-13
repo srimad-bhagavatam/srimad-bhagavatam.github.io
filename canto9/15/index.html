@@ -1,155 +1,42 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>Parasurama, the Lord’s Warrior Incarnation - Parasurama, the Lord’s Warrior Incarnation</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">Parasurama, the Lord’s Warrior Incarnation</a></li><li class="affix"><a href="9.15.2-3.html">9.15.2-3</a></li><li class="affix"><a href="9.15.4.html">9.15.4</a></li><li class="affix"><a href="9.15.5-6.html">9.15.5-6</a></li><li class="affix"><a href="9.15.7.html">9.15.7</a></li><li class="affix"><a href="9.15.8.html">9.15.8</a></li><li class="affix"><a href="9.15.9.html">9.15.9</a></li><li class="affix"><a href="9.15.10.html">9.15.10</a></li><li class="affix"><a href="9.15.11.html">9.15.11</a></li><li class="affix"><a href="9.15.12-13.html">9.15.12-13</a></li><li class="affix"><a href="9.15.14.html">9.15.14</a></li><li class="affix"><a href="9.15.15.html">9.15.15</a></li><li class="affix"><a href="9.15.16.html">9.15.16</a></li><li class="affix"><a href="9.15.17-19.html">9.15.17-19</a></li><li class="affix"><a href="9.15.20.html">9.15.20</a></li><li class="affix"><a href="9.15.21.html">9.15.21</a></li><li class="affix"><a href="9.15.22.html">9.15.22</a></li><li class="affix"><a href="9.15.23.html">9.15.23</a></li><li class="affix"><a href="9.15.24.html">9.15.24</a></li><li class="affix"><a href="9.15.25.html">9.15.25</a></li><li class="affix"><a href="9.15.26.html">9.15.26</a></li><li class="affix"><a href="9.15.27.html">9.15.27</a></li><li class="affix"><a href="9.15.28.html">9.15.28</a></li><li class="affix"><a href="9.15.29.html">9.15.29</a></li><li class="affix"><a href="9.15.30.html">9.15.30</a></li><li class="affix"><a href="9.15.31.html">9.15.31</a></li><li class="affix"><a href="9.15.32.html">9.15.32</a></li><li class="affix"><a href="9.15.33.html">9.15.33</a></li><li class="affix"><a href="9.15.34.html">9.15.34</a></li><li class="affix"><a href="9.15.35-36.html">9.15.35-36</a></li><li class="affix"><a href="9.15.37.html">9.15.37</a></li><li class="affix"><a href="9.15.38.html">9.15.38</a></li><li class="affix"><a href="9.15.39.html">9.15.39</a></li><li class="affix"><a href="9.15.40.html">9.15.40</a></li><li class="affix"><a href="9.15.41.html">9.15.41</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">Parasurama, the Lord’s Warrior Incarnation</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#parasurama-the-lords-warrior-incarnation" id="parasurama-the-lords-warrior-incarnation">Parasurama, the Lord’s Warrior Incarnation</a></h1>
-<h2><a class="header" href="#summary" id="summary">Summary</a></h2>
-<h3><a class="header" href="#915" id="915">9.15</a></h3>
+<h1>Parasurama, the Lord’s Warrior Incarnation</h1>
+<h2>Summary</h2>
+<p><strong>9.15</strong></p>
 <p>This chapter describes the history of Gadhi in the dynasty of Aila.</p>
 <p>From the womb of Urvasi came six sons, named Ayu, Srutayu, Satyayu, Raya, Jaya and Vijaya.</p>
 <p>The son of Srutayu was Vasuman, the son of Satyayu was Srutanjaya, the son of Raya was Eka, the son of Jaya was Amita, and the son of Vijaya was Bhima.</p>
@@ -163,7 +50,7 @@
 <p>Later, he annihilated the ksatriya dynasty twenty-one times.</p>
 <p>After Parasurama killed Kartaviryarjuna, Jamadagni told him that killing a king is sinful and that as a brahmana he should have tolerated the offense.</p>
 <p>Therefore Jamadagni advised Parasurama to atone for his sin by traveling to various holy places.</p>
-<h3><a class="header" href="#9151" id="9151">9.15.1</a></h3>
+<p><strong>9.15.1</strong></p>
 <p>sri-badarayanir uvaca</p>
 <p>ailasya corvasi-garbhat</p>
 <p>sad asann atmaja nrpa</p>
@@ -175,63 +62,642 @@
 <p>Sukadeva Gosvami continued: O King Pariksit, from the womb of Urvasi, six sons were generated by Pururava.</p>
 <p>Their names were Ayu, Srutayu, Satyayu, Raya, Vijaya and Jaya.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="9.15.2-3.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>9.15.2-3</strong></p>
+<p>srutayor vasuman putrah</p>
+<p>satyayos ca srutanjayah</p>
+<p>rayasya suta ekas ca</p>
+<p>jayasya tanayo ’mitah</p>
+<p>bhimas tu vijayasyatha</p>
+<p>kancano hotrakas tatah</p>
+<p>tasya jahnuh suto gangam</p>
+<p>gandusi-krtya yo ’pibat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>srutayoh—of Srutayu; vasuman—Vasuman; putrah—a son; satyayoh—of Satyayu; ca—also; srutanjayah—a son named Srutanjaya; rayasya—of Raya; sutah—a son; ekah—by the name Eka; ca—and; jayasya—of Jaya; tanayah—the son; amitah—by the name Amita; bhimah—by the name Bhima; tu—indeed; vijayasya—of Vijaya; atha—thereafter; kancanah—Kancana, the son of Bhima; hotrakah—Hotraka, the son of Kancana; tatah—then; tasya—of Hotraka; jahnuh—by the name Jahnu; sutah—a son; gangam—all the water of the Ganges; gandusi-krtya—by one sip; yah—he who (Jahnu); apibat—drank.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Srutayu was Vasuman; the son of Satyayu, Srutanjaya; the son of Raya, Eka; the son of Jaya, Amita; and the son of Vijaya, Bhima.</p>
+<p>The son of Bhima was Kancana; the son of Kancana was Hotraka; and the son of Hotraka was Jahnu, who drank all the water of the Ganges in one sip.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="9.15.2-3.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>9.15.4</strong></p>
+<p>jahnos tu purus tasyatha</p>
+<p>balakas catmajo ’jakah</p>
+<p>tatah kusah kusasyapi</p>
+<p>kusambus tanayo vasuh</p>
+<p>kusanabhas ca catvaro</p>
+<p>gadhir asit kusambujah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>jahnoh—of Jahnu; tu—indeed; puruh—a son named Puru; tasya—of Puru; atha—thereafter; balakah—a son named Balaka; ca—and; atmajah—Balaka’s son; ajakah—of the name Ajaka; tatah—thereafter; kusah—Kusa; kusasya—of Kusa; api—then; kusambuh—Kusambu; tanayah—Tanaya; vasuh—Vasu; kusanabhah—Kusanabha; ca—and; catvarah—four (sons); gadhih—Gadhi; asit—there was; kusambujah—the son of Kusambu.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Jahnu was Puru, the son of Puru was Balaka, the son of Balaka was Ajaka, and the son of Ajaka was Kusa.</p>
+<p>Kusa had four sons, named Kusambu, Tanaya, Vasu and Kusanabha.</p>
+<p>The son of Kusambu was Gadhi.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>9.15.5-6</strong></p>
+<p>tasya satyavatim kanyam</p>
+<p>rciko ’yacata dvijah</p>
+<p>varam visadrsam matva</p>
+<p>gadhir bhargavam abravit</p>
+<p>ekatah syama-karnanam</p>
+<p>hayanam candra-varcasam</p>
+<p>sahasram diyatam sulkam</p>
+<p>kanyayah kusika vayam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasya—of Gadhi; satyavatim—Satyavati; kanyam—the daughter; rcikah—the great sage Rcika; ayacata—requested; dvijah—the brahmana; varam—as her husband; visadrsam—not equal or fit; matva—thinking like that; gadhih—King Gadhi; bhargavam—unto Rcika; abravit—replied; ekatah—by one; syama-karnanam—whose ear is black; hayanam—horses; candra-varcasam—as brilliant as the moonshine; sahasram—one thousand; diyatam—please deliver; sulkam—as a dowry; kanyayah—to my daughter; kusikah—in the family of Kusa; vayam—we (are).</p>
+<p><strong>TRANSLATION</strong></p>
+<p>King Gadhi had a daughter named Satyavati, whom a brahmana sage named Rcika requested from the King to be his wife.</p>
+<p>King Gadhi, however, regarded Rcika as an unfit husband for his daughter, and therefore he told the brahmana, My dear sir, I belong to the dynasty of Kusa.</p>
+<p>Because we are aristocratic ksatriyas, you have to give some dowry for my daughter.</p>
+<p>Therefore, bring at least one thousand horses, each as brilliant as moonshine and each having one black ear, whether right or left</p>
+<p><strong>PURPORT</strong></p>
+<p>The son of King Gadhi was Visvamitra, who was said to be a brahmana and ksatriya combined.</p>
+<p>Visvamitra attained the status of a brahmarsi, as explained later.</p>
+<p>From the marriage of Satyavati with Rcika Muni would come a son with the spirit of a ksatriya.</p>
+<p>King Gadhi demanded that an uncommon request be fulfilled before the brahmana Rcika could marry his daughter.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>9.15.7</strong></p>
+<p>ity uktas tan-matam jnatva</p>
+<p>gatah sa varunantikam</p>
+<p>aniya dattva tan asvan</p>
+<p>upayeme varananam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>iti—thus; uktah—having been requested; tat-matam—his mind; jnatva—(the sage) could understand; gatah—went; sah—he; varuna-antikam—to the place of Varuna; aniya—having brought; dattva—and after delivering; tan—those; asvan—horses; upayeme—married; vara-ananam—the beautiful daughter of King Gadhi.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When King Gadhi made this demand, the great sage Rcika could understand the King’s mind.</p>
+<p>Therefore he went to the demigod Varuna and brought from him the one thousand horses that Gadhi had demanded.</p>
+<p>After delivering these horses, the sage married the King’s beautiful daughter.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>9.15.8</strong></p>
+<p>sa rsih prarthitah patnya</p>
+<p>svasrva capatya-kamyaya</p>
+<p>srapayitvobhayair mantrais</p>
+<p>carum snatum gato munih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—he (Rcika); rsih—the great saint; prarthitah—being requested; patnya—by his wife; svasrva—by his mother-in-law; ca—also; apatya-kamyaya—desiring a son; srapayitva—after cooking; ubhayaih—both; mantraih—by chanting particular mantras; carum—a preparation for offering in a sacrifice; snatum—to bathe; gatah—went out; munih—the great sage.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, Rcika Muni’s wife and mother-in-law, each desiring a son, requested the Muni to prepare an oblation.</p>
+<p>Thus Rcika Muni prepared one oblation for his wife with a brahmana mantra and another for his mother-in-law with a ksatriya mantra.</p>
+<p>Then he went out to bathe.</p>
+
+
+
+<p><strong>9.15.9</strong></p>
+<p>tavat satyavati matra</p>
+<p>sva-carum yacita sati</p>
+<p>srestham matva tayayacchan</p>
+<p>matre matur adat svayam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tavat—in the meantime; satyavati—Satyavati, the wife of Rcika; matra—by her mother; sva-carum—the oblation meant for herself (Satyavati); yacita—asked to give; sati—being; srestham—better; matva—thinking; taya—by her; ayacchat—delivered; matre—to her mother; matuh—of the mother; adat—ate; svayam—personally.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Meanwhile, because Satyavati’s mother thought that the oblation prepared for her daughter, Rcika’s wife, must be better, she asked her daughter for that oblation.</p>
+<p>Satyavati therefore gave her own oblation to her mother and ate her mother’s oblation herself.</p>
+<p><strong>PURPORT</strong></p>
+<p>A husband naturally has some affection for his wife.</p>
+<p>Therefore Satyavati’s mother thought that the oblation prepared for Satyavati by the sage Rcika must have been better than her own oblation.</p>
+<p>In Rcika’s absence, the mother took the better oblation from Satyavati and ate it.</p>
+
+
+
+<p><strong>9.15.10</strong></p>
+<p>tad viditva munih praha</p>
+<p>patnim kastam akarasih</p>
+<p>ghoro danda-dharah putro</p>
+<p>bhrata te brahma-vittamah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tat—this fact; viditva—having learned; munih—the great sage; praha—said; patnim—unto his wife; kastam—very regrettable; akarasih—you have done; ghorah—fierce; danda-dharah—a great personality who can punish others; putrah—such a son; bhrata—brother; te—your; brahma-vittamah—a learned scholar in spiritual science.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When the great sage Rcika returned home after bathing and understood what had happened in his absence, he said to his wife, Satyavati, You have done a great wrong.</p>
+<p>Your son will be a fierce ksatriya, able to punish everyone, and your brother will be a learned scholar in spiritual science</p>
+<p><strong>PURPORT</strong></p>
+<p>A brahmana is highly qualified when he can control his senses and mind, when he is a learned scholar in spiritual science and when he is tolerant and forgiving.</p>
+<p>A ksatriya, however, is highly qualified when he is fierce in giving punishment to wrongdoers.</p>
+<p>These qualities are stated in Bhagavad-gita (18.42–43).</p>
+<p>Because Satyavati, instead of eating her own oblation, had eaten that which was meant for her mother, she would give birth to a son imbued with the ksatriya spirit.</p>
+<p>This was undesirable.</p>
+<p>The son of a brahmana is generally expected to become a brahmana, but if such a son becomes fierce like a ksatriya, he is designated according to the description of the four varnas in Bhagavad-gita (catur-varnyam maya srstam guna-karma-vibhagasah (Bg.4.13)).</p>
+<p>If the son of a brahmana does not become like a brahmana, he may be called a ksatriya, vaisya or sudra, according to his qualifications.</p>
+<p>The basic principle for dividing society is not a person’s birth but his qualities and actions.</p>
+
+
+
+<p><strong>9.15.11</strong></p>
+<p>prasaditah satyavatya</p>
+<p>maivam bhur iti bhargavah</p>
+<p>atha tarhi bhavet pautro</p>
+<p>jamadagnis tato ’bhavat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>prasaditah—pacified; satyavatya—by Satyavati; ma—not; evam—thus; bhuh—let it be; iti—thus; bhargavah—the great sage; atha—if your son should not become like that; tarhi—then; bhavet—should become like that; pautrah—the grandson; jamadagnih—Jamadagni; tatah—thereafter; abhavat—was born.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Satyavati, however, pacified Rcika Muni with peaceful words and requested that her son not be like a fierce ksatriya.</p>
+<p>Rcika Muni replied, Then your grandson will be of a ksatriya spirit Thus Jamadagni was born as the son of Satyavati.</p>
+<p><strong>PURPORT</strong></p>
+<p>The great sage Rcika was very angry, but somehow or other Satyavati pacified him, and at her request he changed his mind.</p>
+<p>It is indicated here that the son of Jamadagni would be born as Parasurama.</p>
+
+
+
+<p><strong>9.15.12-13</strong></p>
+<p>sa cabhut sumahat-punya</p>
+<p>kausiki loka-pavani</p>
+<p>renoh sutam renukam vai</p>
+<p>jamadagnir uvaha yam</p>
+<p>tasyam vai bhargava-rseh</p>
+<p>suta vasumad-adayah</p>
+<p>yaviyan jajna etesam</p>
+<p>rama ity abhivisrutah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sa—she (Satyavati); ca—also; abhut—became; sumahat-punya—very great and sacred; kausiki—the river by the name Kausiki; loka-pavani—purifying the whole world; renoh—of Renu; sutam—the daughter; renukam—by the name Renuka; vai—indeed; jamadagnih—Satyavati’s son, Jamadagni; uvaha—married; yam—whom; tasyam—in the womb of Renuka; vai—indeed; bhargava-rseh—by the semen of Jamadagni; sutah—sons; vasumat-adayah—many, headed by Vasuman; yaviyan—the youngest; jajne—was born; etesam—among them; ramah—Parasurama; iti—thus; abhivisrutah—was known everywhere.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Satyavati later became the sacred river Kausiki to purify the entire world, and her son, Jamadagni, married Renuka, the daughter of Renu.</p>
+<p>By the semen of Jamadagni, many sons, headed by Vasuman, were born from the womb of Renuka.</p>
+<p>The youngest of them was named Rama, or Parasurama.</p>
+
+
+
+<p><strong>9.15.14</strong></p>
+<p>yam ahur vasudevamsam</p>
+<p>haihayanam kulantakam</p>
+<p>trih-sapta-krtvo ya imam</p>
+<p>cakre nihksatriyam mahim</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yam—whom (Parasurama); ahuh—all the learned scholars say; vasudeva-amsam—an incarnation of Vasudeva, the Supreme Personality of Godhead; haihayanam—of the Haihayas; kula-antakam—the annihilator of the dynasty; trih-sapta-krtvah—twenty-one times; yah—who (Parasurama); imam—this; cakre—made; nihksatriyam—devoid of ksatriyas; mahim—the earth.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Learned scholars accept this Parasurama as the celebrated incarnation of Vasudeva who annihilated the dynasty of Kartavirya.</p>
+<p>Parasurama killed all the ksatriyas on earth twenty-one times.</p>
+
+
+
+<p><strong>9.15.15</strong></p>
+<p>drptam ksatram bhuvo bharam</p>
+<p>abrahmanyam aninasat</p>
+<p>rajas-tamo-vrtam ahan</p>
+<p>phalguny api krte ’mhasi</p>
+<p><strong>SYNONYMS</strong></p>
+<p>drptam—very proud; ksatram—the ksatriyas, the ruling class; bhuvah—of the earth; bharam—burden; abrahmanyam—sinful, not caring for the religious principles enunciated by the brahmanas; aninasat—drove away or annihilated; rajah-tamah—by the qualities of passion and ignorance; vrtam—covered; ahan—he killed; phalguni—not very great; api—although; krte—had been committed; amhasi—an offense.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When the royal dynasty, being excessively proud because of the material modes of passion and ignorance, became irreligious and ceased to care for the laws enacted by the brahmanas, Parasurama killed them.</p>
+<p>Although their offense was not very severe, he killed them to lessen the burden of the world.</p>
+<p><strong>PURPORT</strong></p>
+<p>The ksatriyas, or the ruling class, must govern the world in accordance with the rules and regulations enacted by great brahmanas and saintly persons.</p>
+<p>As soon as the ruling class becomes irresponsible in regard to the religious principles, it becomes a burden on the earth.</p>
+<p>As stated here, rajas-tamo-vrtam, bharam abrahmanyam: when the ruling class is influenced by the lower modes of nature, namely ignorance and passion, it becomes a burden to the world and must then be annihilated by superior power.</p>
+<p>We actually see from modern history that monarchies have been abolished by various revolutions, but unfortunately the monarchies have been abolished to establish the supremacy of third-class and fourth-class men.</p>
+<p>Although monarchies overpowered by the modes of passion and ignorance have been abolished in the world, the inhabitants of the world are still unhappy, for although the qualities of the former monarchs were degraded by taints of ignorance, these monarchs have been replaced by men of the mercantile and worker classes whose qualities are even more degraded.</p>
+<p>When the government is actually guided by brahmanas, or God conscious men, then there can be real happiness for the people.</p>
+<p>Therefore in previous times, when the ruling class was degraded to the modes of passion and ignorance, the brahmanas, headed by such a ksatriya-spirited brahmana as Parasurama, killed them twenty-one consecutive times.</p>
+<p>Srimad-Bhagavatam (12.2.13), dasyu-prayesu rajasu: the ruling class (rajanya) will be no better than plunderers (dasyus) because the third-class and fourth-class men will monopolize the affairs of the government.</p>
+<p>Ignoring the religious principles and brahminical rules and regulations, they will certainly try to plunder the riches of the citizens without consideration.</p>
+<p>Srimad-Bhagavatam (12.1.40):</p>
+<p>asamskrtah kriya-hina</p>
+<p>rajasa tamasavrtah</p>
+<p>prajas te bhaksayisyanti</p>
+<p>mleccha rajanya-rupinah</p>
+<p>Being unpurified, neglecting to discharge human duties properly, and being influenced by the modes of passion (rajas) and ignorance (tamas), unclean people (mlecchas), posing as members of the government (rajanya-rupinah), will swallow the citizens (prajas te bhaksayisyanti).</p>
+<p>Srimad-Bhagavatam (12.2.7–8) says:</p>
+<p>evam prajabhir dustabhir</p>
+<p>akirne ksiti-mandale</p>
+<p>brahma-vit-ksatra-sudranam</p>
+<p>yo bali bhavita nrpah</p>
+<p>praja hi lubdhai rajanyair</p>
+<p>nirghrnair dasyu-dharmabhih</p>
+<p>acchinna-dara-dravina</p>
+<p>yasyanti giri-kananam</p>
+<p>Human society is naturally grouped into four divisions, as stated in Bhagavad-gita (catur-varnyam maya srstam guna-karma-vibhagasah (Bg.4.13)).</p>
+<p>But if this system is neglected and the qualities and divisions of society are not considered, the result will be brahma-vit-ksatra-sudranam yo bali bhavita nrpah: the so-called caste system of brahmana, ksatriya, vaisya and sudra will be meaningless.</p>
+<p>As a result, whoever somehow or other becomes powerful will be the king or president, and thus the prajas, or citizens, will be so harassed that they will give up hearth and home and will go to the forest (yasyanti giri-kananam) to escape harassment by government officials who have no mercy and are addicted to the ways of plunderers.</p>
+<p>Therefore the prajas, or the people in general, must take to the Krsna consciousness movement, the Hare Krsna movement, which is the sound incarnation of the Supreme Personality of Godhead.</p>
+<p>Kali-kale nama-rupe krsna-avatara: Krsna, the Supreme Personality of Godhead, has now appeared as an incarnation by His holy name.</p>
+<p>Therefore, when the prajas become Krsna conscious, they can then expect a good government and good society, a perfect life, and liberation from the bondage of material existence.</p>
+
+
+
+<p><strong>9.15.16</strong></p>
+<p>sri-rajovaca</p>
+<p>kim tad amho bhagavato</p>
+<p>rajanyair ajitatmabhih</p>
+<p>krtam yena kulam nastam</p>
+<p>ksatriyanam abhiksnasah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-raja uvaca—Maharaja Pariksit inquired; kim—what; tat amhah—that offense; bhagavatah—unto the Supreme Personality of Godhead; rajanyaih—by the royal family; ajita-atmabhih—who could not control their senses and thus were degraded; krtam—which had been done; yena—by which; kulam—the dynasty; nastam—was annihilated; ksatriyanam—of the royal family; abhiksnasah—again and again.</p>
+<p><strong>TRANSLATION</strong></p>
+
+
+
+<p><strong>9.15.17-19</strong></p>
+<p>sri-badarayanir uvaca</p>
+<p>haihayanam adhipatir</p>
+<p>arjunah ksatriyarsabhah</p>
+<p>dattam narayanamsamsam</p>
+<p>aradhya parikarmabhih</p>
+<p>bahun dasa-satam lebhe</p>
+<p>durdharsatvam aratisu</p>
+<p>avyahatendriyaujah sri-</p>
+<p>tejo-virya-yaso-balam</p>
+<p>yogesvaratvam aisvaryam</p>
+<p>guna yatranimadayah</p>
+<p>cacaravyahata-gatir</p>
+<p>lokesu pavano yatha</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-badarayanih uvaca—Sri Sukadeva Gosvami replied; haihayanam adhipatih—the King of the Haihayas; arjunah—by the name Kartaviryarjuna; ksatriya-rsabhah—the best of the ksatriyas; dattam—unto Dattatreya; narayana-amsa-amsam—the plenary portion of the plenary portion of Narayana; aradhya—after worshiping; parikarmabhih—by worship according to the regulative principles; bahun—arms; dasa-satam—one thousand (ten times one hundred); lebhe—achieved; durdharsatvam—the quality of being very difficult to conquer; aratisu—in the midst of enemies; avyahata—undefeatable; indriya-ojah—strength of the senses; sri—beauty; tejah—influence; virya—power; yasah—fame; balam—bodily strength; yoga-isvaratvam—controlling power gained by the practice of mystic yoga; aisvaryam—opulence; gunah—qualities; yatra—wherein; anima-adayah—eight kinds of yogic perfection (anima, laghima, etc.); cacara—he went; avyahata-gatih—whose progress was indefatigable; lokesu—all over the world or universe; pavanah—the wind; yatha—like.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sukadeva Gosvami said: The best of the ksatriyas, Kartaviryarjuna, the King of the Haihayas, received one thousand arms by worshiping Dattatreya, the plenary expansion of the Supreme Personality of Godhead, Narayana.</p>
+<p>He also became undefeatable by enemies and received unobstructed sensory power, beauty, influence, strength, fame and the mystic power by which to achieve all the perfections of yoga, such as anima and laghima.</p>
+<p>Thus having become fully opulent, he roamed all over the universe without opposition, just like the wind.</p>
+
+
+
+<p><strong>9.15.20</strong></p>
+<p>stri-ratnair avrtah kridan</p>
+<p>revambhasi madotkatah</p>
+<p>vaijayantim srajam bibhrad</p>
+<p>rurodha saritam bhujaih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>stri-ratnaih—by beautiful women; avrtah—surrounded; kridan—enjoying; reva-ambhasi—in the water of the River Reva, or Narmada; mada-utkatah—too puffed up because of opulence; vaijayantim srajam—the garland of victory; bibhrat—being decorated with; rurodha—stopped the flow; saritam—of the river; bhujaih—with his arms.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Once while enjoying in the water of the River Narmada, the puffed-up Kartaviryarjuna, surrounded by beautiful women and garlanded with a garland of victory, stopped the flow of the water with his arms.</p>
+
+
+
+<p><strong>9.15.21</strong></p>
+<p>viplavitam sva-sibiram</p>
+<p>pratisrotah-sarij-jalaih</p>
+<p>namrsyat tasya tad viryam</p>
+<p>viramani dasananah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>viplavitam—having been inundated; sva-sibiram—his own camp; pratisrotah—which was flowing in the opposite direction; sarit-jalaih—by the water of the river; na—not; amrsyat—could tolerate; tasya—of Kartaviryarjuna; tat viryam—that influence; viramani—considering himself very heroic; dasa-ananah—the ten-headed Ravana.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Because Kartaviryarjuna made the water flow in the opposite direction, the camp of Ravana, which was set up on the bank of the Narmada near the city of Mahismati, was inundated.</p>
+<p>This was unbearable to the ten-headed Ravana, who considered himself a great hero and could not tolerate Kartaviryarjuna’s power.</p>
+<p><strong>PURPORT</strong></p>
+<p>Ravana was out touring to gain victory over all other countries (dig-vijaya), and he had camped on the bank of the Narmada River near the city of Mahismati.</p>
+
+
+
+<p><strong>9.15.22</strong></p>
+<p>grhito lilaya strinam</p>
+<p>samaksam krta-kilbisah</p>
+<p>mahismatyam sanniruddho</p>
+<p>mukto yena kapir yatha</p>
+<p><strong>SYNONYMS</strong></p>
+<p>grhitah—was arrested by force; lilaya—very easily; strinam—of the women; samaksam—in the presence; krta-kilbisah—thus becoming an offender; mahismatyam—in the city known as Mahismati; sanniruddhah—was arrested; muktah—released; yena—by whom (Kartaviryarjuna); kapih yatha—exactly as done to a monkey.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When Ravana attempted to insult Kartaviryarjuna in the presence of the women and thus offended him, Kartaviryarjuna easily arrested Ravana and put him in custody in the city of Mahismati, just as one captures a monkey, and then released him neglectfully.</p>
+
+
+
+<p><strong>9.15.23</strong></p>
+<p>sa ekada tu mrgayam</p>
+<p>vicaran vijane vane</p>
+<p>yadrcchayasrama-padam</p>
+<p>jamadagner upavisat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—he, Kartaviryarjuna; ekada—once upon a time; tu—but; mrgayam—while hunting; vicaran—wandering; vijane—solitary; vane—in a forest; yadrcchaya—without any program; asrama-padam—the residential place; jamadagneh—of Jamadagni Muni; upavisat—he entered.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Once while Kartaviryarjuna was wandering unengaged in a solitary forest and hunting, he approached the residence of Jamadagni.</p>
+<p><strong>PURPORT</strong></p>
+<p>Kartaviryarjuna had no business going to the residence of Jamadagni, but because he was puffed-up by his extraordinary power, he went there and offended Parasurama.</p>
+<p>This was the prelude to his being killed by Parasurama for his offensive act.</p>
+
+
+
+<p><strong>9.15.24</strong></p>
+<p>tasmai sa naradevaya</p>
+<p>munir arhanam aharat</p>
+<p>sasainyamatya-vahaya</p>
+<p>havismatya tapo-dhanah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasmai—unto him; sah—he (Jamadagni); naradevaya—unto King Kartaviryarjuna; munih—the great sage; arhanam—paraphernalia for worship; aharat—offered; sa-sainya—with his soldiers; amatya—his ministers; vahaya—and the chariots, the elephants, the horses or the men who carried the palanquins; havismatya—because of possessing a kamadhenu, a cow that could supply everything; tapah-dhanah—the great sage, whose only power was his austerity, or who was engaged in austerity.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The sage Jamadagni, who was engaged in great austerities in the forest, received the King very well, along with the King’s soldiers, ministers and carriers.</p>
+<p>He supplied all the necessities to worship these guests, for he possessed a kamadhenu cow that was able to supply everything.</p>
+<p><strong>PURPORT</strong></p>
+<p>The Brahma-samhita informs us that the spiritual world, and especially the planet Goloka Vrndavana, where Krsna lives, is full of surabhi cows (surabhir abhipalayantam (Bs.5.29)).</p>
+<p>The surabhi cow is also called kamadhenu.</p>
+<p>Although Jamadagni possessed only one kamadhenu, he was able to get from it everything desirable.</p>
+<p>Thus he was able to receive the King, along with the King’s great number of followers, ministers, soldiers, animals and palanquin carriers.</p>
+<p>When we speak of a king, we understand that he is accompanied by many followers.</p>
+<p>Jamadagni was able to receive all the King’s followers properly and feed them sumptuously with food prepared in ghee.</p>
+<p>The King was astonished at how opulent Jamadagni was because of possessing only one cow, and therefore he became envious of the great sage.</p>
+<p>This was the beginning of his offense.</p>
+<p>Parasurama, the incarnation of the Supreme Personality of Godhead, killed Kartaviryarjuna because Kartaviryarjuna was too proud.</p>
+<p>One may possess unusual opulence in this material world, but if one becomes puffed up and acts whimsically he will be punished by the Supreme Personality of Godhead.</p>
+<p>This is the lesson to learn from this history, in which Parasurama became angry at Kartaviryarjuna and killed him and rid the entire world of ksatriyas twenty-one times.</p>
+
+
+
+<p><strong>9.15.25</strong></p>
+<p>sa vai ratnam tu tad drstva</p>
+<p>atmaisvaryatisayanam</p>
+<p>tan nadriyatagnihotryam</p>
+<p>sabhilasah sahaihayah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—he (Kartaviryarjuna); vai—indeed; ratnam—a great source of wealth; tu—indeed; tat—the kamadhenu in the possession of Jamadagni; drstva—by observing; atma-aisvarya—his own personal opulence; ati-sayanam—which was exceeding; tat—that; na—not; adriyata—appreciated very much; agnihotryam—in that cow, which was useful for executing the agnihotra sacrifice; sa-abhilasah—became desirous; sa-haihayah—with his own men, the Haihayas.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Kartaviryarjuna thought that Jamadagni was more powerful and wealthy than himself because of possessing a jewel in the form of the kamadhenu.</p>
+<p>Therefore he and his own men, the Haihayas, were not very much appreciative of Jamadagni’s reception.</p>
+<p>On the contrary, they wanted to possess that kamadhenu, which was useful for the execution of the agnihotra sacrifice.</p>
+<p><strong>PURPORT</strong></p>
+<p>Jamadagni was more powerful than Kartaviryarjuna because of performing the agnihotra-yajna with clarified butter received from the kamadhenu.</p>
+<p>Not everyone can be expected to possess such a cow.</p>
+<p>Nonetheless, an ordinary man may possess an ordinary cow, give protection to this animal, take sufficient milk from it, and engage the milk to produce butter and clarified ghee, especially for performing the agnihotra-yajna.</p>
+<p>This is possible for everyone.</p>
+<p>Thus we find that in Bhagavad-gita Lord Krsna advises go-raksya, the protection of cows.</p>
+<p>This is essential because if cows are cared for properly they will surely supply sufficient milk.</p>
+<p>We have practical experience in America that in our various ISKCON farms we are giving proper protection to the cows and receiving more than enough milk.</p>
+<p>In other farms the cows do not deliver as much milk as in our farms; because our cows know very well that we are not going to kill them, they are happy, and they give ample milk.</p>
+<p>Therefore this instruction given by Lord Krsna—go-raksya—is extremely meaningful.</p>
+<p>The whole world must learn from Krsna how to live happily without scarcity simply by producing food grains (annad bhavanti bhutani) and giving protection to the cows (go-raksya).</p>
+<p>Krsi-go-raksya-vanijyam vaisya-karma svabhavajam (Bg.18.44).</p>
+<p>Those who belong to the third level of human society, namely the mercantile people, must keep land for producing food grains and giving protection to cows.</p>
+<p>This is the injunction of Bhagavad-gita.</p>
+<p>In the matter of protecting the cows, the meat-eaters will protest, but in answer to them we may say that since Krsna gives stress to cow protection, those who are inclined to eat meat may eat the flesh of unimportant animals like hogs, dogs, goats and sheep, but they should not touch the life of the cows, for this is destructive to the spiritual advancement of human society.</p>
+
+
+
+<p><strong>9.15.26</strong></p>
+<p>havirdhanim rser darpan</p>
+<p>naran hartum acodayat</p>
+<p>te ca mahismatim ninyuh</p>
+<p>sa-vatsam krandatim balat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>havih-dhanim—the kamadhenu; rseh—of the great sage Jamadagni; darpat—because of his being puffed up with material power; naran—all his men (soldiers); hartum—to steal or take away; acodayat—encouraged; te—the men of Kartaviryarjuna; ca—also; mahismatim—to the capital of Kartaviryarjuna; ninyuh—brought; sa-vatsam—with the calf; krandatim—crying; balat—because of being taken away by force.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Being puffed up by material power, Kartaviryarjuna encouraged his men to steal Jamadagni’s kamadhenu.</p>
+<p>Thus the men forcibly took away the crying kamadhenu, along with her calf, to Mahismati, Kartaviryarjuna’s capital.</p>
+<p><strong>PURPORT</strong></p>
+<p>The word havirdhanim is significant in this verse.</p>
+<p>Havirdhanim refers to a cow required for supplying havis, or ghee, for the performance of ritualistic ceremonies in sacrifices.</p>
+<p>In human life, one should be trained to perform yajnas.</p>
+<p>As we are informed in Bhagavad-gita (3.9), yajnarthat karmano ’nyatra loko ’yam karma-bandhanah: if we do not perform yajna, we shall simply work very hard for sense gratification like dogs and hogs.</p>
+<p>This is not civilization.</p>
+<p>A human being should be trained to perform yajna.</p>
+<p>Yajnad bhavati parjanyah (Bg.3.14).</p>
+<p>If yajnas are regularly performed, there will be proper rain from the sky, and when there is regular rainfall, the land will be fertile and suitable for producing all the necessities of life.</p>
+<p>Yajna, therefore, is essential.</p>
+<p>For performing yajna, clarified butter is essential, and for clarified butter, cow protection is essential.</p>
+<p>Therefore, if we neglect the Vedic way of civilization, we shall certainly suffer.</p>
+<p>So-called scholars and philosophers do not know the secret of success in life, and therefore they suffer in the hands of prakrti, nature (prakrteh kriyamanani gunaih karmani sarvasah (Bg.3.27)).</p>
+<p>Nonetheless, although they are forced to suffer, they think they are advancing in civilization (ahankara-vimudhatma kartaham iti manyate).</p>
+<p>The Krsna consciousness movement is therefore meant to revive a mode of civilization in which everyone will be happy.</p>
+<p>This is the motive of our Krsna consciousness movement.</p>
+<p>Yajne sukhena bhavantu.</p>
+
+
+
+<p><strong>9.15.27</strong></p>
+<p>atha rajani niryate</p>
+<p>rama asrama agatah</p>
+<p>srutva tat tasya dauratmyam</p>
+<p>cukrodhahir ivahatah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atha—thereafter; rajani—when the King; niryate—had gone away; ramah—Parasurama, the youngest son of Jamadagni; asrame—in the cottage; agatah—returned; srutva—when he heard; tat—that; tasya—of Kartaviryarjuna; dauratmyam—nefarious act; cukrodha—became extremely angry; ahih—a snake; iva—like; ahatah—trampled or injured.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, Kartaviryarjuna having left with the kamadhenu, Parasurama returned to the asrama.</p>
+<p>When Parasurama, the youngest son of Jamadagni, heard about Kartaviryarjuna’s nefarious deed, he became as angry as a trampled snake.</p>
+
+
+
+<p><strong>9.15.28</strong></p>
+<p>ghoram adaya parasum</p>
+<p>satunam varma karmukam</p>
+<p>anvadhavata durmarso</p>
+<p>mrgendra iva yuthapam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ghoram—extremely fierce; adaya—taking in hand; parasum—a chopper; sa-tunam—along with a quiver; varma—a shield; karmukam—a bow; anvadhavata—followed; durmarsah—Lord Parasurama, being exceedingly angry; mrgendrah—a lion; iva—like; yuthapam—(goes to attack) an elephant.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Taking up his fierce chopper, his shield, his bow and a quiver of arrows, Lord Parasurama, exceedingly angry, chased Kartaviryarjuna just as a lion chases an elephant.</p>
+
+
+
+<p><strong>9.15.29</strong></p>
+<p>tam apatantam bhrgu-varyam ojasa</p>
+<p>dhanur-dharam bana-parasvadhayudham</p>
+<p>aineya-carmambaram arka-dhamabhir</p>
+<p>yutam jatabhir dadrse purim visan</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tam—that Lord Parasurama; apatantam—coming after him; bhrgu-varyam—the best of the Bhrgu dynasty, Lord Parasurama; ojasa—very fiercely; dhanuh-dharam—carrying a bow; bana—arrows; parasvadha—chopper; ayudham—having all these weapons; aineya-carma—blackish deerskin; ambaram—the covering of his body; arka-dhamabhih—appearing like the sunshine; yutam jatabhih—with locks of hair; dadrse—he saw; purim—into the capital; visan—entering.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>As King Kartaviryarjuna entered his capital, Mahismati Puri, he saw Lord Parasurama, the best of the Bhrgu dynasty, coming after him, holding a chopper, shield, bow and arrows.</p>
+<p>Lord Parasurama was covered with a black deerskin, and his matted locks of hair appeared like the sunshine.</p>
+
+
+
+<p><strong>9.15.30</strong></p>
+<p>acodayad dhasti-rathasva-pattibhir</p>
+<p>gadasi-banarsti-sataghni-saktibhih</p>
+<p>aksauhinih sapta-dasatibhisanas</p>
+<p>ta rama eko bhagavan asudayat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>acodayat—he sent for fighting; hasti—with elephants; ratha—with chariots; asva—with horses; pattibhih—and with infantry; gada—with clubs; asi—with swords; bana—with arrows; rsti—with the weapons called rstis; sataghni—with weapons called sataghnis; saktibhih—with weapons called saktis; aksauhinih—whole groups of aksauhinis; sapta-dasa—seventeen; ati-bhisanah—very fierce; tah—all of them; ramah—Lord Parasurama; ekah—alone; bhagavan—the Supreme Personality of Godhead; asudayat—killed.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Upon seeing Parasurama, Kartaviryarjuna immediately feared him and sent many elephants, chariots, horses and infantry soldiers equipped with clubs, swords, arrows, rstis, sataghnis, saktis, and many similar weapons to fight against him.</p>
+<p>Kartaviryarjuna sent seventeen full aksauhinis of soldiers to check Parasurama.</p>
+<p>But Lord Parasurama alone killed all of them.</p>
+<p><strong>PURPORT</strong></p>
+<p>The word aksauhini refers to a military phalanx consisting of 21,870 chariots and elephants, 109,350 infantry soldiers and 65,610 horses.</p>
+<p>An exact description is given in the Mahabharata, Adi parva, Second Chapter, as follows:</p>
+<p>eko ratho gajas caikah</p>
+<p>narah panca padatayah</p>
+<p>trayas ca turagas taj-jnaih</p>
+<p>pattir ity abhidhiyate</p>
+<p>pattim tu trigunam etam</p>
+<p>viduh senamukham budhah</p>
+<p>trini senamukhany eko</p>
+<p>gulma ity adhidhiyate</p>
+<p>trayo gulma gano nama</p>
+<p>vahini tu ganas trayah</p>
+<p>srutas tisras tu vahinyah</p>
+<p>prtaneti vicaksanaih</p>
+<p>camus tu prtanas tisras</p>
+<p>camvas tisras tv anikini</p>
+<p>anikinim dasa-gunam</p>
+<p>ahur aksauhinim budhah</p>
+<p>aksauhinyas tu sankhyata</p>
+<p>rathanam dvija-sattamah</p>
+<p>sankhya-ganita-tattvajnaih</p>
+<p>sahasrany eka-vimsati</p>
+<p>satany upari castau ca</p>
+<p>bhuyas tatha ca saptatih</p>
+<p>gajanam tu parimanam</p>
+<p>tavad evatra nirdiset</p>
+<p>jneyam sata-sahasram tu</p>
+<p>sahasrani tatha nava</p>
+<p>naranam adhi pancasac</p>
+<p>chatani trini canaghah</p>
+<p>panca-sasti-sahasrani</p>
+<p>tathasvanam satani ca</p>
+<p>dasottarani sat cahur</p>
+<p>yathavad abhisankhyaya</p>
+<p>etam aksauhinim prahuh</p>
+<p>sankhya-tattva-vido janah</p>
+<p>One chariot, one elephant, five infantry soldiers and three horses are called a patti by those who are learned in the science.</p>
+<p>The wise also know that a senamukha is three times what a patti is.</p>
+<p>Three senamukhas are known as one gulma, three gulmas are called a gana, and three ganas are called a vahini.</p>
+<p>Three vahinis have been referred to by the learned as a prtana, three prtanas equal one camu, and three camus equal one anikini.</p>
+<p>The wise refer to ten anikinis as one aksauhini.</p>
+<p>The chariots of an aksauhini have been calculated at 21,870 by those who know the science of such calculations, O best of the twice-born, and the number of elephants is the same.</p>
+<p>The number of infantry soldiers is 109,350, and the number of horses is 65,610.</p>
+<p>This is called an aksauhini</p>
+
+
+
+<p><strong>9.15.31</strong></p>
+<p>yato yato ’sau praharat-parasvadho</p>
+<p>mano-’nilaujah para-cakra-sudanah</p>
+<p>tatas tatas chinna-bhujoru-kandhara</p>
+<p>nipetur urvyam hata-suta-vahanah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yatah—wherever; yatah—wherever; asau—Lord Parasurama; praharat—slashing; parasvadhah—being expert in using his weapon, the parasu, or chopper; manah—like the mind; anila—like the wind; ojah—being forceful; para-cakra—of the enemies’ military strength; sudanah—killer; tatah—there; tatah—and there; chinna—scattered and cut off; bhuja—arms; uru—legs; kandharah—shoulders; nipetuh—fell down; urvyam—on the ground; hata—killed; suta—chariot drivers; vahanah—carrier horses and elephants.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Lord Parasurama, being expert in killing the military strength of the enemy, worked with the speed of the mind and the wind, slicing his enemies with his chopper (parasu).</p>
+<p>Wherever he went, the enemies fell, their legs, arms and shoulders being severed, their chariot drivers killed, and their carriers, the elephants and horses all annihilated.</p>
+<p><strong>PURPORT</strong></p>
+<p>In the beginning, when the army of the enemy was full of fighting soldiers, elephants and horses, Lord Parasurama proceeded into their midst at the speed of mind to kill them.</p>
+<p>When somewhat tired, he slowed down to the speed of wind and continued to kill the enemies vigorously.</p>
+<p>The speed of mind is greater than the speed of the wind.</p>
+
+
+
+<p><strong>9.15.32</strong></p>
+<p>drstva sva-sainyam rudhiraugha-kardame</p>
+<p>ranajire rama-kuthara-sayakaih</p>
+<p>vivrkna-varma-dhvaja-capa-vigraham</p>
+<p>nipatitam haihaya apatad rusa</p>
+<p><strong>SYNONYMS</strong></p>
+<p>drstva—by seeing; sva-sainyam—his own soldiers; rudhira-ogha-kardame—which had become muddy due to the flow of blood; rana-ajire—on the battlefield; rama-kuthara—by the axe of Lord Parasurama; sayakaih—and by the arrows; vivrkna—scattered; varma—the shields; dhvaja—the flags; capa—bows; vigraham—the bodies; nipatitam—fallen; haihayah—Kartaviryarjuna; apatat—forcefully came there; rusa—being very angry.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>By manipulating his axe and arrows, Lord Parasurama cut to pieces the shields, flags, bows and bodies of Kartaviryarjuna’s soldiers, who fell on the battlefield, muddying the ground with their blood.</p>
+<p>Seeing these reverses, Kartaviryarjuna, infuriated, rushed to the battlefield.</p>
+
+
+
+<p><strong>9.15.33</strong></p>
+<p>atharjunah panca-satesu bahubhir</p>
+<p>dhanuhsu banan yugapat sa sandadhe</p>
+<p>ramaya ramo ’stra-bhrtam samagranis</p>
+<p>tany eka-dhanvesubhir acchinat samam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atha—thereafter; arjunah—Kartaviryarjuna; panca-satesu—five hundred; bahubhih—with his arms; dhanuhsu—on the bows; banan—arrows; yugapat—simultaneously; sah—he; sandadhe—fixed; ramaya—just to kill Lord Parasurama; ramah—Lord Parasurama; astra-bhrtam—of all the soldiers who could use weapons; samagranih—the very best; tani—all the bows of Kartaviryarjuna; eka-dhanva—possessing one bow; isubhih—the arrows; acchinat—cut to pieces; samam—with.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Then Kartaviryarjuna, with his one thousand arms, simultaneously fixed arrows on five hundred bows to kill Lord Parasurama.</p>
+<p>But Lord Parasurama, the best of fighters, released enough arrows with only one bow to cut to pieces immediately all the arrows and bows in the hands of Kartaviryarjuna.</p>
+
+
+
+<p><strong>9.15.34</strong></p>
+<p>punah sva-hastair acalan mrdhe ’nghripan</p>
+<p>utksipya vegad abhidhavato yudhi</p>
+<p>bhujan kutharena kathora-nemina</p>
+<p>ciccheda ramah prasabham tv aher iva</p>
+<p><strong>SYNONYMS</strong></p>
+<p>punah—again; sva-hastaih—by his own hands; acalan—hills; mrdhe—in the battlefield; anghripan—trees; utksipya—after uprooting; vegat—with great force; abhidhavatah—of he who was running very forcefully; yudhi—in the battlefield; bhujan—all the arms; kutharena—by his axe; kathora-nemina—which was very sharp; ciccheda—cut to pieces; ramah—Lord Parasurama; prasabham—with great force; tu—but; aheh iva—just like the hoods of a serpent.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When his arrows were cut to pieces, Kartaviryarjuna uprooted many trees and hills with his own hands and again rushed strongly toward Lord Parasurama to kill him.</p>
+<p>But Parasurama then used his axe with great force to cut off Kartaviryarjuna’s arms, just as one might lop off the hoods of a serpent.</p>
+
+
+
+<p><strong>9.15.35-36</strong></p>
+<p>krtta-bahoh siras tasya</p>
+<p>gireh srngam ivaharat</p>
+<p>hate pitari tat-putra</p>
+<p>ayutam dudruvur bhayat</p>
+<p>agnihotrim upavartya</p>
+<p>savatsam para-vira-ha</p>
+<p>samupetyasramam pitre</p>
+<p>pariklistam samarpayat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>krtta-bahoh—of Kartaviryarjuna, whose arms were cut off; sirah—the head; tasya—of him (Kartaviryarjuna); gireh—of a mountain; srngam—the peak; iva—like; aharat—(Parasurama) cut from his body; hate pitari—when their father was killed; tat-putrah—his sons; ayutam—ten thousand; dudruvuh—fled; bhayat—out of fear; agnihotrim—the kamadhenu; upavartya—bringing near; sa-vatsam—with her calf; para-vira-ha—Parasurama, who could kill the heroes of the enemies; samupetya—after returning; asramam—to the residence of his father; pitre—unto his father; pariklistam—which had undergone extreme suffering; samarpayat—delivered.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, Parasurama cut off like a mountain peak the head of Kartaviryarjuna, who had already lost his arms.</p>
+<p>When Kartaviryarjuna’s ten thousand sons saw their father killed, they all fled in fear.</p>
+<p>Then Parasurama, having killed the enemy, released the kamadhenu, which had undergone great suffering, and brought it back with its calf to his residence, where he gave it to his father, Jamadagni.</p>
+
+
+
+<p><strong>9.15.37</strong></p>
+<p>sva-karma tat krtam ramah</p>
+<p>pitre bhratrbhya eva ca</p>
+<p>varnayam asa tac chrutva</p>
+<p>jamadagnir abhasata</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sva-karma—his own activities; tat—all those deeds; krtam—which had been performed; ramah—Parasurama; pitre—unto his father; bhratrbhyah—unto his brothers; eva ca—as well as; varnayam asa—described; tat—that; srutva—after hearing; jamadagnih—the father of Parasurama; abhasata—said as follows.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Parasurama described to his father and brothers his activities in killing Kartaviryarjuna.</p>
+<p>Upon hearing of these deeds, Jamadagni spoke to his son as follows.</p>
+
+
+
+<p><strong>9.15.38</strong></p>
+<p>rama rama mahabaho</p>
+<p>bhavan papam akarasit</p>
+<p>avadhin naradevam yat</p>
+<p>sarva-devamayam vrtha</p>
+<p><strong>SYNONYMS</strong></p>
+<p>rama rama—my dear son Parasurama; mahabaho—O great hero; bhavan—you; papam—sinful activities; akarasit—have executed; avadhit—have killed; naradevam—the king; yat—who is; sarva-deva-mayam—the embodiment of all the demigods; vrtha—unnecessarily.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O great hero, my dear son Parasurama, you have unnecessarily killed the king, who is supposed to be the embodiment of all the demigods.</p>
+<p>Thus you have committed a sin.</p>
+
+
+
+<p><strong>9.15.39</strong></p>
+<p>vayam hi brahmanas tata</p>
+<p>ksamayarhanatam gatah</p>
+<p>yaya loka-gurur devah</p>
+<p>paramesthyam agat padam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vayam—we; hi—indeed; brahmanah—are qualified brahmanas; tata—O my dear son; ksamaya—with the quality of forgiveness; arhanatam—the position of being worshiped; gatah—we have achieved; yaya—by this qualification; loka-guruh—the spiritual master of this universe; devah—Lord Brahma; paramesthyam—the supreme person within this universe; agat—achieved; padam—the position.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear son, we are all brahmanas and have become worshipable for the people in general because of our quality of forgiveness.</p>
+<p>It is because of this quality that Lord Brahma, the supreme spiritual master of this universe, has achieved his post.</p>
+
+
+
+<p><strong>9.15.40</strong></p>
+<p>ksamaya rocate laksmir</p>
+<p>brahmi sauri yatha prabha</p>
+<p>ksaminam asu bhagavams</p>
+<p>tusyate harir isvarah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ksamaya—simply by forgiving; rocate—becomes pleasing; laksmih—the goddess of fortune; brahmi—in connection with brahminical qualifications; sauri—the sun-god; yatha—as; prabha—the sunshine; ksaminam—unto the brahmanas, who are so forgiving; asu—very soon; bhagavan—the Supreme Personality of Godhead; tusyate—becomes pleased; harih—the Lord; isvarah—the supreme controller.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The duty of a brahmana is to culture the quality of forgiveness, which is illuminating like the sun.</p>
+<p>The Supreme Personality of Godhead, Hari, is pleased with those who are forgiving.</p>
+<p><strong>PURPORT</strong></p>
+<p>Different personalities become beautiful by possessing different qualities.</p>
+<p>Canakya Pandita says that the cuckoo bird, although very black, is beautiful because of its sweet voice.</p>
+<p>Similarly, a woman becomes beautiful by her chastity and faithfulness to her husband, and an ugly person becomes beautiful when he becomes a learned scholar.</p>
+<p>In the same way, brahmanas, ksatriyas, vaisyas and sudras become beautiful by their qualities.</p>
+<p>Brahmanas are beautiful when they are forgiving, ksatriyas when they are heroic and never retreat from fighting, vaisyas when they enrich cultural activities and protect cows, and sudras when they are faithful in the discharge of duties pleasing to their masters.</p>
+<p>Thus everyone becomes beautiful by his special qualities.</p>
+<p>And the special quality of the brahmana, as described here, is forgiveness.</p>
+
+
+
+<p><strong>9.15.41</strong></p>
+<p>rajno murdhabhisiktasya</p>
+<p>vadho brahma-vadhad guruh</p>
+<p>tirtha-samsevaya camho</p>
+<p>jahy angacyuta-cetanah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>rajnah—of the king; murdha-abhisiktasya—who is noted as the emperor; vadhah—the killing; brahma-vadhat—than killing a brahmana; guruh—more severe; tirtha-samsevaya—by worshiping the holy places; ca—also; amhah—the sinful act; jahi—wash out; anga—O my dear son; acyuta-cetanah—being fully Krsna conscious.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear son, killing a king who is an emperor is more severely sinful than killing a brahmana.</p>
+<p>But now, if you become Krsna conscious and worship the holy places, you can atone for this great sin.</p>
+<p><strong>PURPORT</strong></p>
+<p>One who fully surrenders to the Supreme Personality of Godhead is freed from all sins (aham tvam sarva-papebhyo moksayisyami).</p>
+<p>From the very day or moment he fully surrenders to Sri Krsna, even the most sinful person is freed.</p>
+<p>Nonetheless, as an example, Jamadagni advised his son Parasurama to worship the holy places.</p>
+<p>Because an ordinary person cannot immediately surrender to the Supreme Personality of Godhead, he is advised to go from one holy place to another to find saintly persons and thus gradually be released from sinful reactions.</p>
+
+
+</article></body></html>

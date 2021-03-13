@@ -1,155 +1,42 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>The Dynasty of Bharata - The Dynasty of Bharata</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">The Dynasty of Bharata</a></li><li class="affix"><a href="9.21.2.html">9.21.2</a></li><li class="affix"><a href="9.21.3-5.html">9.21.3-5</a></li><li class="affix"><a href="9.21.6.html">9.21.6</a></li><li class="affix"><a href="9.21.7.html">9.21.7</a></li><li class="affix"><a href="9.21.8.html">9.21.8</a></li><li class="affix"><a href="9.21.9.html">9.21.9</a></li><li class="affix"><a href="9.21.10.html">9.21.10</a></li><li class="affix"><a href="9.21.11.html">9.21.11</a></li><li class="affix"><a href="9.21.12.html">9.21.12</a></li><li class="affix"><a href="9.21.13.html">9.21.13</a></li><li class="affix"><a href="9.21.14.html">9.21.14</a></li><li class="affix"><a href="9.21.15.html">9.21.15</a></li><li class="affix"><a href="9.21.16.html">9.21.16</a></li><li class="affix"><a href="9.21.17.html">9.21.17</a></li><li class="affix"><a href="9.21.18.html">9.21.18</a></li><li class="affix"><a href="9.21.19-20.html">9.21.19-20</a></li><li class="affix"><a href="9.21.21.html">9.21.21</a></li><li class="affix"><a href="9.21.22.html">9.21.22</a></li><li class="affix"><a href="9.21.23.html">9.21.23</a></li><li class="affix"><a href="9.21.24.html">9.21.24</a></li><li class="affix"><a href="9.21.25.html">9.21.25</a></li><li class="affix"><a href="9.21.26.html">9.21.26</a></li><li class="affix"><a href="9.21.27.html">9.21.27</a></li><li class="affix"><a href="9.21.28-29.html">9.21.28-29</a></li><li class="affix"><a href="9.21.30.html">9.21.30</a></li><li class="affix"><a href="9.21.31-33.html">9.21.31-33</a></li><li class="affix"><a href="9.21.34.html">9.21.34</a></li><li class="affix"><a href="9.21.35.html">9.21.35</a></li><li class="affix"><a href="9.21.36.html">9.21.36</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">The Dynasty of Bharata</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#the-dynasty-of-bharata" id="the-dynasty-of-bharata">The Dynasty of Bharata</a></h1>
-<h2><a class="header" href="#summary" id="summary">Summary</a></h2>
-<h3><a class="header" href="#921" id="921">9.21</a></h3>
+<h1>The Dynasty of Bharata</h1>
+<h2>Summary</h2>
+<p><strong>9.21</strong></p>
 <p>This Twenty-first Chapter describes the dynasty born from Maharaja Bharata, the son of Maharaja Dusmanta, and it also describes the glories of Rantideva, Ajamidha and others.</p>
 <p>The son of Bharadvaja was Manyu, and Manyu’s sons were Brhatksatra, Jaya, Mahavirya, Nara and Garga.</p>
 <p>Of these five, Nara had a son named Sankrti, who had two sons, named Guru and Rantideva.</p>
@@ -183,7 +70,7 @@
 <p>From Ahalya, by her husband, Gautama, Satananda was born.</p>
 <p>The son of Satananda was Satyadhrti, and his son was Saradvan.</p>
 <p>Saradvan’s son was known as Krpa, and Saradvan’s daughter, known as Krpi, became the wife of Dronacarya.</p>
-<h3><a class="header" href="#9211" id="9211">9.21.1</a></h3>
+<p><strong>9.21.1</strong></p>
 <p>sri-suka uvaca</p>
 <p>vitathasya sutan manyor</p>
 <p>brhatksatro jayas tatah</p>
@@ -196,63 +83,514 @@
 <p>The son of Vitatha was Manyu, and from Manyu came five sons—Brhatksatra, Jaya, Mahavirya, Nara and Garga.</p>
 <p>Of these five, the one known as Nara had a son named Sankrti.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="9.21.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>9.21.2</strong></p>
+<p>gurus ca rantidevas ca</p>
+<p>sankrteh pandu-nandana</p>
+<p>rantidevasya mahima</p>
+<p>ihamutra ca giyate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>guruh—a son named Guru; ca—and; rantidevah ca—and a son named Rantideva; sankrteh—from Sankrti; pandu-nandana—O Maharaja Pariksit, descendant of Pandu; rantidevasya—of Rantideva; mahima—the glories; iha—in this world; amutra—and in the next world; ca—also; giyate—are glorified.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O Maharaja Pariksit, descendant of Pandu, Sankrti had two sons, named Guru and Rantideva.</p>
+<p>Rantideva is famous in both this world and the next, for he is glorified not only in human society but also in the society of the demigods.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="9.21.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>9.21.3-5</strong></p>
+<p>viyad-vittasya dadato</p>
+<p>labdham labdham bubhuksatah</p>
+<p>niskincanasya dhirasya</p>
+<p>sakutumbasya sidatah</p>
+<p>vyatiyur asta-catvarimsad</p>
+<p>ahany apibatah kila</p>
+<p>ghrta-payasa-samyavam</p>
+<p>toyam pratar upasthitam</p>
+<p>krcchra-prapta-kutumbasya</p>
+<p>ksut-trdbhyam jata-vepathoh</p>
+<p>atithir brahmanah kale</p>
+<p>bhoktu-kamasya cagamat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>viyat-vittasya—of Rantideva, who received things sent by providence, just as the cataka bird receives water from the sky; dadatah—who distributed to others; labdham—whatever he got; labdham—such gains; bubhuksatah—he enjoyed; niskincanasya—always penniless; dhirasya—yet very sober; sa-kutumbasya—even with his family members; sidatah—suffering very much; vyatiyuh—passed by; asta-catvarimsat—forty-eight; ahani—days; apibatah—without even drinking water; kila—indeed; ghrta-payasa—food prepared with ghee and milk; samyavam—varieties of food grains; toyam—water; pratah—in the morning; upasthitam—arrived by chance; krcchra-prapta—undergoing suffering; kutumbasya—whose family members; ksut-trdbhyam—by thirst and hunger; jata—became; vepathoh—trembling; atithih—a guest; brahmanah—a brahmana; kale—just at that time; bhoktu-kamasya—of Rantideva, who desired to eat something; ca—also; agamat—arrived there.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Rantideva never endeavored to earn anything.</p>
+<p>He would enjoy whatever he got by the arrangement of providence, but when guests came he would give them everything.</p>
+<p>Thus he underwent considerable suffering, along with the members of his family.</p>
+<p>Indeed, he and his family members shivered for want of food and water, yet Rantideva always remained sober.</p>
+<p>Once, after fasting for forty-eight days, in the morning Rantideva received some water and some foodstuffs made with milk and ghee, but when he and his family were about to eat, a brahmana guest arrived.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>9.21.6</strong></p>
+<p>tasmai samvyabhajat so ’nnam</p>
+<p>adrtya sraddhayanvitah</p>
+<p>harim sarvatra sampasyan</p>
+<p>sa bhuktva prayayau dvijah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasmai—unto him (the brahmana); samvyabhajat—after dividing, gave his share; sah—he (Rantideva); annam—the food; adrtya—with great respect; sraddhaya anvitah—and with faith; harim—the Supreme Lord; sarvatra—everywhere, or in the heart of every living being; sampasyan—conceiving; sah—he; bhuktva—after eating the food; prayayau—left that place; dvijah—the brahmana.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Because Rantideva perceived the presence of the Supreme Godhead everywhere, and in every living entity, he received the guest with faith and respect and gave him a share of the food.</p>
+<p>The brahmana guest ate his share and then went away.</p>
+<p><strong>PURPORT</strong></p>
+<p>Rantideva perceived the presence of the Supreme Personality of Godhead in every living being, but he never thought that because the Supreme Lord is present in every living being, every living being must be God.</p>
+<p>Nor did he distinguish between one living being and another.</p>
+<p>He perceived the presence of the Lord both in the brahmana and in the candala.</p>
+<p>This is the true vision of equality, as confirmed by the Lord Himself in Bhagavad-gita (5.18):</p>
+<p>vidya-vinaya-sampanne</p>
+<p>brahmane gavi hastini</p>
+<p>suni caiva sva-pake ca</p>
+<p>panditah sama-darsinah</p>
+<p>The humble sage, by virtue of true knowledge, sees with equal vision a learned and gentle brahmana, a cow, an elephant, a dog and a dog-eater (outcaste) A pandita, or learned person, perceives the presence of the Supreme Personality of Godhead in every living being.</p>
+<p>Therefore, although it has now become fashionable to give preference to the so-called daridra-narayana, or poor Narayana Rantideva had no reason to give preference to any one person.</p>
+<p>The idea that because Narayana is present in the heart of one who is daridra, or poor, the poor man should be called daridra-narayana is a wrong conception.</p>
+<p>By such logic, because the Lord is present within the hearts of the dogs and hogs, the dogs and hogs would also be Narayana.</p>
+<p>One should not mistakenly think that Rantideva subscribed to this view.</p>
+<p>Rather, he saw everyone as part of the Supreme Personality of Godhead (hari-sambandhi-vastunah).</p>
+<p>It is not that everyone is the Supreme Godhead.</p>
+<p>Such a theory, which is propounded by the Mayavada philosophy, is always misleading, and Rantideva would never have accepted it.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>9.21.7</strong></p>
+<p>athanyo bhoksyamanasya</p>
+<p>vibhaktasya mahipateh</p>
+<p>vibhaktam vyabhajat tasmai</p>
+<p>vrsalaya harim smaran</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atha—thereafter; anyah—another guest; bhoksyamanasya—who was just about to eat; vibhaktasya—after setting aside the share for the family; mahipateh—of the King; vibhaktam—the food allotted for the family; vyabhajat—he divided and distributed; tasmai—unto him; vrsalaya—unto a sudra; harim—the Supreme Personality of Godhead; smaran—remembering.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, having divided the remaining food with his relatives, Rantideva was just about to eat his own share when a sudra guest arrived.</p>
+<p>Seeing the sudra in relationship with the Supreme Personality of Godhead, King Rantideva gave him also a share of the food.</p>
+<p><strong>PURPORT</strong></p>
+<p>Because King Rantideva saw everyone as part of the Supreme Personality of Godhead, he never distinguished between the brahmana and the sudra, the poor and the rich.</p>
+<p>Such equal vision is called sama-darsinah (panditah sama-darsinah (Bg.5.18)).</p>
+<p>One who has actually realized that the Supreme Personality of Godhead is situated in everyone’s heart and that every living being is part of the Lord does not make any distinction between the brahmana and the sudra, the poor (daridra) and the rich (dhani).</p>
+<p>Such a person sees all living beings equally and treats them equally, without discrimination.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>9.21.8</strong></p>
+<p>yate sudre tam anyo ’gad</p>
+<p>atithih svabhir avrtah</p>
+<p>rajan me diyatam annam</p>
+<p>saganaya bubhuksate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yate—when he went away; sudre—the sudra guest; tam—unto the King; anyah—another; agat—arrived there; atithih—guest; svabhih avrtah—accompanied by dogs; rajan—O King; me—unto me; diyatam—deliver; annam—eatables; sa-ganaya—with my company of dogs; bubhuksate—hankering for food.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When the sudra went away, another guest arrived, surrounded by dogs, and said, O King, I and my company of dogs are very hungry.</p>
+
+
+
+<p><strong>9.21.9</strong></p>
+<p>sa adrtyavasistam yad</p>
+<p>bahu-mana-puraskrtam</p>
+<p>tac ca dattva namascakre</p>
+<p>svabhyah sva-pataye vibhuh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—he (King Rantideva); adrtya—after honoring them; avasistam—the food that remained after the brahmana and sudra were fed; yat—whatever there was; bahu-mana-puraskrtam—offering him much respect; tat—that; ca—also; dattva—giving away; namah-cakre—offered obeisances; svabhyah—unto the dogs; sva-pataye—unto the master of the dogs; vibhuh—the all-powerful King.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>With great respect, King Rantideva offered the balance of the food to the dogs and the master of the dogs, who had come as guests.</p>
+<p>The King offered them all respects and obeisances.</p>
+
+
+
+<p><strong>9.21.10</strong></p>
+<p>paniya-matram ucchesam</p>
+<p>tac caika-paritarpanam</p>
+<p>pasyatah pulkaso ’bhyagad</p>
+<p>apo dehy asubhaya me</p>
+<p><strong>SYNONYMS</strong></p>
+<p>paniya-matram—only the drinking water; ucchesam—what remained of the food; tat ca—that also; eka—for one; paritarpanam—satisfying; pasyatah—when the King was about to drink; pulkasah—a candala; abhyagat—came there; apah—water; dehi—please give; asubhaya—although I am a lowborn candala; me—to me.</p>
+<p><strong>TRANSLATION</strong></p>
+
+
+
+<p><strong>9.21.11</strong></p>
+<p>tasya tam karunam vacam</p>
+<p>nisamya vipula-sramam</p>
+<p>krpaya bhrsa-santapta</p>
+<p>idam ahamrtam vacah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasya—of him (the candala); tam—those; karunam—pitiable; vacam—words; nisamya—hearing; vipula—very much; sramam—fatigued; krpaya—out of compassion; bhrsa-santaptah—very much aggrieved; idam—these; aha—spoke; amrtam—very sweet; vacah—words.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Aggrieved at hearing the pitiable words of the poor fatigued candala, Maharaja Rantideva spoke the following nectarean words.</p>
+<p><strong>PURPORT</strong></p>
+<p>Maharaja Rantideva’s words were like amrta, or nectar, and therefore, aside from rendering bodily service to an aggrieved person, by his words alone the King could save the life of anyone who might hear him.</p>
+
+
+
+<p><strong>9.21.12</strong></p>
+<p>na kamaye ’ham gatim isvarat param</p>
+<p>astarddhi-yuktam apunar-bhavam va</p>
+<p>artim prapadye ’khila-deha-bhajam</p>
+<p>antah-sthito yena bhavanty aduhkhah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—not; kamaye—desire; aham—I; gatim—destination; isvarat—from the Supreme Personality of Godhead; param—great; asta-rddhi-yuktam—composed of the eight kinds of mystic perfection; apunah-bhavam—cessation of repeated birth (liberation, salvation); va—either; artim—sufferings; prapadye—I accept; akhila-deha-bhajam—of all living entities; antah-sthitah—staying among them; yena—by which; bhavanti—they become; aduhkhah—without distress.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>I do not pray to the Supreme Personality of Godhead for the eight perfections of mystic yoga, nor for salvation from repeated birth and death.</p>
+<p>I want only to stay among all the living entities and suffer all distresses on their behalf, so that they may be freed from suffering.</p>
+<p><strong>PURPORT</strong></p>
+<p>Vasudeva Datta made a similar statement to Sri Caitanya Mahaprabhu, requesting the Lord to liberate all living entities in His presence.</p>
+<p>Vasudeva Datta submitted that if they were unfit to be liberated, he himself would take all their sinful reactions and suffer personally so that the Lord might deliver them.</p>
+<p>A Vaisnava is therefore described as being para-duhkha-duhkhi, very much aggrieved by the sufferings of others.</p>
+<p>As such, a Vaisnava engages in activities for the real welfare of human society.</p>
+
+
+
+<p><strong>9.21.13</strong></p>
+<p>ksut-trt-sramo gatra-paribhramas ca</p>
+<p>dainyam klamah soka-visada-mohah</p>
+<p>sarve nivrttah krpanasya jantor</p>
+<p>jijivisor jiva-jalarpanan me</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ksut—from hunger; trt—and thirst; sramah—fatigue; gatra-paribhramah—trembling of the body; ca—also; dainyam—poverty; klamah—distress; soka—lamentation; visada—moroseness; mohah—and bewilderment; sarve—all of them; nivrttah—finished; krpanasya—of the poor; jantoh—living entity (the candala); jijivisoh—desiring to live; jiva—maintaining life; jala—water; arpanat—by delivering; me—mine.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>By offering my water to maintain the life of this poor candala, who is struggling to live, I have been freed from all hunger, thirst, fatigue, trembling of the body, moroseness, distress, lamentation and illusion.</p>
+
+
+
+<p><strong>9.21.14</strong></p>
+<p>iti prabhasya paniyam</p>
+<p>mriyamanah pipasaya</p>
+<p>pulkasayadadad dhiro</p>
+<p>nisarga-karuno nrpah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>iti—thus; prabhasya—giving his statement; paniyam—drinking water; mriyamanah—although on the verge of death; pipasaya—because of thirst; pulkasaya—unto the low-class candala; adadat—delivered; dhirah—sober; nisarga-karunah—by nature very kind; nrpah—the King.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Having spoken thus, King Rantideva, although on the verge of death because of thirst, gave his own portion of water to the candala without hesitation, for the King was naturally very kind and sober.</p>
+
+
+
+<p><strong>9.21.15</strong></p>
+<p>tasya tribhuvanadhisah</p>
+<p>phaladah phalam icchatam</p>
+<p>atmanam darsayam cakrur</p>
+<p>maya visnu-vinirmitah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasya—before him (King Rantideva); tri-bhuvana-adhisah—the controllers of the three worlds (demigods like Brahma and Siva); phaladah—who can bestow all fruitive results; phalam icchatam—of persons who desire material benefit; atmanam—their own identities; darsayam cakruh—manifested; mayah—the illusory energy; visnu—by Lord Visnu; vinirmitah—created.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Demigods like Lord Brahma and Lord Siva, who can satisfy all materially ambitious men by giving them the rewards they desire, then manifested their own identities before King Rantideva, for it was they who had presented themselves as the brahmana, sudra, candala and so on.</p>
+
+
+
+<p><strong>9.21.16</strong></p>
+<p>sa vai tebhyo namaskrtya</p>
+<p>nihsango vigata-sprhah</p>
+<p>vasudeve bhagavati</p>
+<p>bhaktya cakre manah param</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—he (King Rantideva); vai—indeed; tebhyah—unto Lord Brahma, Lord Siva and the other demigods; namah-krtya—offering obeisances; nihsangah—with no ambition to take any benefit from them; vigata-sprhah—completely free from desires for material possessions; vasudeve—unto Lord Vasudeva; bhagavati—the Supreme Lord; bhaktya—by devotional service; cakre—fixed; manah—the mind; param—as the ultimate goal of life.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>King Rantideva had no ambition to enjoy material benefits from the demigods.</p>
+<p>He offered them obeisances, but because he was factually attached to Lord Visnu, Vasudeva, the Supreme Personality of Godhead, he fixed his mind at Lord Visnu’s lotus feet.</p>
+<p><strong>PURPORT</strong></p>
+<p>Srila Narottama dasa Thakura has sung:</p>
+<p>ei bhakti parama karana</p>
+<p>If one wants to become a pure devotee of the Supreme Lord, one should not hanker to take benedictions from the demigods.</p>
+<p>As stated in Bhagavad-gita (7.20), kamais tais tair hrta jnanah prapadyante ’nya-devatah: those befooled by the illusion of the material energy worship gods other than the Supreme Personality of Godhead.</p>
+<p>Therefore, although Rantideva was personally able to see Lord Brahma and Lord Siva, he did not hanker to take material benefits from them.</p>
+<p>Rather, he fixed his mind upon Lord Vasudeva and rendered devotional service unto Him.</p>
+<p>This is the sign of a pure devotee, whose heart is not adulterated by material desires anyabhilasita-sunyam</p>
+<p>jnana-karmady-anavrtam</p>
+<p>anukulyena krsnanu-</p>
+<p>silanam bhaktir uttama</p>
+<p>(Madhya 19.167)</p>
+<p>One should render transcendental loving service to the Supreme Lord Krsna favorably and without desire for material profit or gain through fruitive activities or philosophical speculation.</p>
+<p>That is called pure devotional service</p>
+
+
+
+<p><strong>9.21.17</strong></p>
+<p>isvaralambanam cittam</p>
+<p>kurvato ’nanya-radhasah</p>
+<p>maya guna-mayi rajan</p>
+<p>svapnavat pratyaliyata</p>
+<p><strong>SYNONYMS</strong></p>
+<p>isvara-alambanam—completely taking shelter at the lotus feet of the Supreme Lord; cittam—his consciousness; kurvatah—fixing; ananya-radhasah—for Rantideva, who was undeviating and desired nothing other than to serve the Supreme Lord; maya—the illusory energy; guna-mayi—consisting of the three modes of nature; rajan—O Maharaja Pariksit; svapna-vat—like a dream; pratyaliyata—merged.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O Maharaja Pariksit, because King Rantideva was a pure devotee, always Krsna conscious and free from all material desires, the Lord’s illusory energy, maya, could not exhibit herself before him.</p>
+<p>On the contrary, for him maya entirely vanished, exactly like a dream.</p>
+<p><strong>PURPORT</strong></p>
+<p>As it is said:</p>
+<p>krsna——surya-sama; maya haya andhakara</p>
+<p>yahan krsna, tahan nahi mayara adhikara</p>
+<p>Just as there is no chance that darkness can exist in the sunshine, in a pure Krsna conscious person there can be no existence of maya.</p>
+<p>The Lord Himself says in Bhagavad-gita (7.14):</p>
+<p>daivi hy esa guna-mayi</p>
+<p>mama maya duratyaya</p>
+<p>mam eva ye prapadyante</p>
+<p>mayam etam taranti te</p>
+<p>This divine energy of Mine, consisting of the three modes of material nature, is difficult to overcome.</p>
+<p>But those who have surrendered unto Me can easily cross beyond it If one wants to be free from the influence of maya, the illusory energy, one must become Krsna conscious and always keep Krsna prominent within the core of his heart.</p>
+<p>In Bhagavad-gita (9.34) the Lord advises that one always think of Him (man-mana bhava mad-bhakto mad-yaji mam namaskuru).</p>
+<p>In this way, by always being Krsna-minded or Krsna conscious, one can surpass the influence of maya (mayam etam taranti te (Bg.7.14)).</p>
+<p>Because Rantideva was Krsna conscious, he was not under the influence of the illusory energy.</p>
+<p>The word svapnavat is significant in this connection.</p>
+<p>Because in the material world the mind is absorbed in materialistic activities, when one is asleep many contradictory activities appear in one’s dreams.</p>
+<p>When one awakens, however, these activities automatically merge into the mind.</p>
+<p>Similarly, as long as one is under the influence of the material energy he makes many plans and schemes, but when one is Krsna conscious such dreamlike plans automatically disappear.</p>
+
+
+
+<p><strong>9.21.18</strong></p>
+<p>tat-prasanganubhavena</p>
+<p>rantidevanuvartinah</p>
+<p>abhavan yoginah sarve</p>
+<p>narayana-parayanah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tat-prasanga-anubhavena—because of associating with King Rantideva (when talking with him about bhakti-yoga); rantideva-anuvartinah—the followers of King Rantideva (that is, his servants, his family members, his friends and others); abhavan—became; yoginah—first-class mystic yogis, or bhakti-yogis; sarve—all of them; narayana-parayanah—devotees of the Supreme Personality of Godhead, Narayana.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>All those who followed the principles of King Rantideva were totally favored by his mercy and became pure devotees, attached to the Supreme Personality of Godhead, Narayana.</p>
+<p>Thus they all became the best of yogis.</p>
+<p><strong>PURPORT</strong></p>
+<p>The best yogis or mystics are the devotees, as confirmed by the Lord Himself in Bhagavad-gita (6.47):</p>
+<p>yoginam api sarvesam</p>
+<p>mad-gatenantaratmana</p>
+<p>sraddhavan bhajate yo mam</p>
+<p>sa me yuktatamo matah</p>
+<p>Of all yogis, he who always abides in Me with great faith, worshiping Me in transcendental loving service, is most intimately united with Me in yoga and is the highest of all The best yogi is he who constantly thinks of the Supreme Personality of Godhead within the core of the heart.</p>
+<p>Because Rantideva was the king, the chief executive in the state, all the residents of the state became devotees of the Supreme Personality of Godhead, Narayana, by the king’s transcendental association.</p>
+<p>This is the influence of a pure devotee.</p>
+<p>If there is one pure devotee, his association can create hundreds and thousands of pure devotees.</p>
+<p>Srila Bhaktivinoda Thakura has said that a Vaisnava is meritorious in proportion to the number of devotees he has created.</p>
+<p>A Vaisnava becomes superior not simply by jugglery of words but by the number of devotees he has created for the Lord.</p>
+<p>Here the word rantidevanuvartinah indicates that Rantideva’s officers, friends, relatives and subjects all became first-class Vaisnavas by his association.</p>
+<p>In other words, Rantideva is confirmed herein to be a first-class devotee, or maha-bhagavata.</p>
+<p>Mahat-sevam dvaram ahur vimukteh: (SB 5.5.2) one should render service to such mahatmas, for then one will automatically achieve the goal of liberation.</p>
+<p>Srila Narottama dasa Thakura has also said, chadiya vaisnava-seva nistara payeche keba: one cannot be liberated by his own effort, but if one becomes subordinate to a pure Vaisnava, the door to liberation is open.</p>
+
+
+
+<p><strong>9.21.19-20</strong></p>
+<p>gargac chinis tato gargyah</p>
+<p>ksatrad brahma hy avartata</p>
+<p>duritaksayo mahaviryat</p>
+<p>tasya trayyarunih kavih</p>
+<p>puskararunir ity atra</p>
+<p>ye brahmana-gatim gatah</p>
+<p>brhatksatrasya putro ’bhud</p>
+<p>dhasti yad-dhastinapuram</p>
+<p><strong>SYNONYMS</strong></p>
+<p>gargat—from Garga (another grandson of Bharadvaja); sinih—a son named Sini; tatah—from him (Sini); gargyah—a son named Gargya; ksatrat—although he was a ksatriya; brahma—the brahmanas; hi—in deed; avartata—became possible; duritaksayah—a son named Duritaksaya; mahaviryat—from Mahavirya (another grandson of Bharadvaja); tasya—his; trayyarunih—the son named Trayyaruni; kavih—a son named Kavi; puskararunih—a son named Puskararuni; iti—thus; atra—therein; ye—all of them; brahmana-gatim—the position of brahmanas; gatah—achieved; brhatksatrasya—of the grandson of Bharadvaja named Brhatksatra; putrah—the son; abhut—became; hasti—Hasti; yat—from whom; hastinapuram—the city of Hastinapura (New Delhi) was established.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>From Garga came a son named Sini, and his son was Gargya.</p>
+<p>Although Gargya was a ksatriya, there came from him a generation of brahmanas.</p>
+<p>From Mahavirya came a son named Duritaksaya, whose sons were Trayyaruni, Kavi and Puskararuni.</p>
+<p>Although these sons of Duritaksaya took birth in a dynasty of ksatriyas, they too attained the position of brahmanas.</p>
+<p>Brhatksatra had a son named Hasti, who established the city of Hastinapura (now New Delhi).</p>
+
+
+
+<p><strong>9.21.21</strong></p>
+<p>ajamidho dvimidhas ca</p>
+<p>purumidhas ca hastinah</p>
+<p>ajamidhasya vamsyah syuh</p>
+<p>priyamedhadayo dvijah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ajamidhah—Ajamidha; dvimidhah—Dvimidha; ca—also; purumidhah—Purumidha; ca—also; hastinah—became the sons of Hasti; ajamidhasya—of Ajamidha; vamsyah—descendants; syuh—are; priyamedha-adayah—headed by Priyamedha; dvijah—brahmanas.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>From King Hasti came three sons, named Ajamidha, Dvimidha and Purumidha.</p>
+<p>The descendants of Ajamidha, headed by Priyamedha, all achieved the position of brahmanas.</p>
+<p><strong>PURPORT</strong></p>
+<p>This verse gives evidence confirming the statement of Bhagavad-gita that the orders of society—brahmana, ksatriya, vaisya and sudra—are calculated in terms of qualities and activities (guna-karma-vibhagasah).</p>
+<p>All the descendants of Ajamidha, who was a ksatriya, became brahmanas.</p>
+<p>This was certainly because of their qualities and activities.</p>
+<p>Similarly, sometimes the sons of brahmanas or ksatriyas become vaisyas (brahmana-vaisyatam gatah).</p>
+<p>When a ksatriya or brahmana adopts the occupation or duty of a vaisya (krsi-go-raksya-vanijyam (Bg.18.44)), he is certainly counted as a vaisya.</p>
+<p>On the other hand, if one is born a vaisya, by his activities he can become a brahmana.</p>
+<p>This is confirmed by Narada Muni.</p>
+<p>Yasya yal-laksanam proktam.</p>
+<p>The members of the varnas, or social orders—brahmana, ksatriya, vaisya and sudra—must be ascertained by their symptoms, not by birth.</p>
+<p>Birth is immaterial; quality is essential.</p>
+
+
+
+<p><strong>9.21.22</strong></p>
+<p>ajamidhad brhadisus</p>
+<p>tasya putro brhaddhanuh</p>
+<p>brhatkayas tatas tasya</p>
+<p>putra asij jayadrathah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ajamidhat—from Ajamidha; brhadisuh—a son named Brhadisu; tasya—his; putrah—son; brhaddhanuh—Brhaddhanu; brhatkayah—Brhatkaya; tatah—thereafter; tasya—his; putrah—son; asit—was; jayadrathah—Jayadratha.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>From Ajamidha came a son named Brhadisu, from Brhadisu came a son named Brhaddhanu, from Brhaddhanu a son named Brhatkaya, and from Brhatkaya a son named Jayadratha.</p>
+
+
+
+<p><strong>9.21.23</strong></p>
+<p>tat-suto visadas tasya</p>
+<p>syenajit samajayata</p>
+<p>rucirasvo drdhahanuh</p>
+<p>kasyo vatsas ca tat-sutah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tat-sutah—the son of Jayadratha; visadah—Visada; tasya—the son of Visada; syenajit—Syenajit; samajayata—was born; rucirasvah—Rucirasva; drdhahanuh—Drdhahanu; kasyah—Kasya; vatsah—Vatsa; ca—also; tat-sutah—sons of Syenajit.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Jayadratha was Visada, and his son was Syenajit.</p>
+<p>The sons of Syenajit were Rucirasva, Drdhahanu, Kasya and Vatsa.</p>
+
+
+
+<p><strong>9.21.24</strong></p>
+<p>rucirasva-sutah parah</p>
+<p>prthusenas tad-atmajah</p>
+<p>parasya tanayo nipas</p>
+<p>tasya putra-satam tv abhut</p>
+<p><strong>SYNONYMS</strong></p>
+<p>rucirasva-sutah—the son of Rucirasva; parah—Para; prthusenah—Prthusena; tat—his; atmajah—son; parasya—from Para; tanayah—a son; nipah—Nipa; tasya—his; putra-satam—one hundred sons; tu—indeed; abhut—generated.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Rucirasva was Para, and the sons of Para were Prthusena and Nipa.</p>
+<p>Nipa had one hundred sons.</p>
+
+
+
+<p><strong>9.21.25</strong></p>
+<p>sa krtvyam suka-kanyayam</p>
+<p>brahmadattam ajijanat</p>
+<p>yogi sa gavi bharyayam</p>
+<p>visvaksenam adhat sutam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—he (King Nipa); krtvyam—in his wife, Krtvi; suka-kanyayam—who was the daughter of Suka; brahmadattam—a son named Brahmadatta; ajijanat—begot; yogi—a mystic yogi; sah—that Brahmadatta; gavi—by the name Gau or Sarasvati; bharyayam—in the womb of his wife; visvaksenam—Visvaksena; adhat—begot; sutam—a son.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>King Nipa begot a son named Brahmadatta through the womb of his wife, Krtvi, who was the daughter of Suka.</p>
+<p>And Brahmadatta, who was a great yogi, begot a son named Visvaksena through the womb of his wife, Sarasvati.</p>
+<p><strong>PURPORT</strong></p>
+<p>The Suka mentioned here is different from the Sukadeva Gosvami who spoke Srimad-Bhagavatam.</p>
+<p>Sukadeva Gosvami, the son of Vyasadeva, is described in great detail in the Brahma-vaivarta Purana.</p>
+<p>There it is said that Vyasadeva maintained the daughter of Jabali as his wife and that after they performed penances together for many years, he placed his seed in her womb.</p>
+<p>The child remained in the womb of his mother for twelve years, and when the father asked the son to come out, the son replied that he would not come out unless he were completely liberated from the influence of maya.</p>
+<p>Vyasadeva then assured the child that he would not be influenced by maya, but the child did not believe his father, for the father was still attached to his wife and children.</p>
+<p>Vyasadeva then went to Dvaraka and informed the Personality of Godhead about his problem, and the Personality of Godhead, at Vyasadeva’s request, went to Vyasadeva’s cottage, where He assured the child in the womb that he would not be influenced by maya.</p>
+<p>Thus assured, the child came out, but he immediately went away as a parivrajakacarya.</p>
+<p>When the father, very much aggrieved, began to follow his saintly boy, Sukadeva Gosvami, the boy created a duplicate Sukadeva, who later entered family life.</p>
+<p>Therefore, the suka-kanya, or daughter of Sukadeva, mentioned in this verse is the daughter of the duplicate or imitation Sukadeva.</p>
+<p>The original Sukadeva was a lifelong brahmacari.</p>
+
+
+
+<p><strong>9.21.26</strong></p>
+<p>jaigisavyopadesena</p>
+<p>yoga-tantram cakara ha</p>
+<p>udaksenas tatas tasmad</p>
+<p>bhallato barhadisavah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>jaigisavya—of the great rsi named Jaigisavya; upadesena—by the instruction; yoga-tantram—an elaborate description of the mystic yoga system; cakara—compiled; ha—in the past; udaksenah—Udaksena; tatah—from him (Visvaksena); tasmat—from him (Udaksena); bhallatah—a son named Bhallata; barhadisavah—(all of these are known as) descendants of Brhadisu.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Following the instructions of the great sage Jaigisavya, Visvaksena compiled an elaborate description of the mystic yoga system.</p>
+<p>From Visvaksena, Udaksena was born, and from Udaksena, Bhallata.</p>
+<p>All these sons are known as descendants of Brhadisu.</p>
+
+
+
+<p><strong>9.21.27</strong></p>
+<p>yavinaro dvimidhasya</p>
+<p>krtimams tat-sutah smrtah</p>
+<p>namna satyadhrtis tasya</p>
+<p>drdhanemih suparsvakrt</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yavinarah—Yavinara; dvimidhasya—the son of Dvimidha; krtiman—Krtiman; tat-sutah—the son of Yavinara; smrtah—is well known; namna—by name; satyadhrtih—Satyadhrti; tasya—of him (Satyadhrti); drdhanemih—Drdhanemi; suparsva-krt—the father of Suparsva.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Dvimidha was Yavinara, whose son was Krtiman.</p>
+<p>The son of Krtiman was well known as Satyadhrti.</p>
+<p>From Satyadhrti came a son named Drdhanemi, who became the father of Suparsva.</p>
+
+
+
+<p><strong>9.21.28-29</strong></p>
+<p>suparsvat sumatis tasya</p>
+<p>putrah sannatimams tatah</p>
+<p>krti hiranyanabhad yo</p>
+<p>yogam prapya jagau sma sat</p>
+<p>samhitah pracyasamnam vai</p>
+<p>nipo hy udgrayudhas tatah</p>
+<p>tasya ksemyah suviro ’tha</p>
+<p>suvirasya ripunjayah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>suparsvat—from Suparsva; sumatih—a son named Sumati; tasya putrah—his son (Sumati’s son); sannatiman—Sannatiman; tatah—from him; krti—a son named Krti; hiranyanabhat—from Lord Brahma; yah—he who; yogam—mystic power; prapya—getting; jagau—taught; sma—in the past; sat—six; samhitah—descriptions; pracyasamnam—of the Pracyasama verses of the Sama Veda; vai—indeed; nipah—Nipa; hi—indeed; udgrayudhah—Udgrayudha; tatah—from him; tasya—his; ksemyah—Ksemya; suvirah—Suvira; atha—thereafter; suvirasya—of Suvira; ripunjayah—a son named Ripunjaya.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>From Suparsva came a son named Sumati, from Sumati came Sannatiman, and from Sannatiman came Krti, who achieved mystic power from Brahma and taught six samhitas of the Pracyasama verses of the Sama Veda.</p>
+<p>The son of Krti was Nipa; the son of Nipa, Udgrayudha; the son of Udgrayudha, Ksemya; the son of Ksemya, Suvira; and the son of Suvira, Ripunjaya.</p>
+
+
+
+<p><strong>9.21.30</strong></p>
+<p>tato bahuratho nama</p>
+<p>purumidho ’prajo ’bhavat</p>
+<p>nalinyam ajamidhasya</p>
+<p>nilah santis tu tat-sutah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—from him (Ripunjaya); bahurathah—Bahuratha; nama—named; purumidhah—Purumidha, the younger brother of Dvimidha; aprajah—sonless; abhavat—became; nalinyam—through Nalini; ajamidhasya—of Ajamidha; nilah—Nila; santih—Santi; tu—then; tat-sutah—the son of Nila.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>From Ripunjaya came a son named Bahuratha.</p>
+<p>Purumidha was sonless.</p>
+<p>Ajamidha had a son named Nila by his wife known as Nalini, and the son of Nila was Santi.</p>
+
+
+
+<p><strong>9.21.31-33</strong></p>
+<p>santeh susantis tat-putrah</p>
+<p>purujo ’rkas tato ’bhavat</p>
+<p>bharmyasvas tanayas tasya</p>
+<p>pancasan mudgaladayah</p>
+<p>yavinaro brhadvisvah</p>
+<p>kampillah sanjayah sutah</p>
+<p>bharmyasvah praha putra me</p>
+<p>pancanam raksanaya hi</p>
+<p>visayanam alam ime</p>
+<p>iti pancala-samjnitah</p>
+<p>mudgalad brahma-nirvrttam</p>
+<p>gotram maudgalya-samjnitam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>santeh—of Santi; susantih—Susanti; tat-putrah—his son; purujah—Puruja; arkah—Arka; tatah—from him; abhavat—generated; bharmyasvah—Bharmyasva; tanayah—son; tasya—of him; panca—five sons; asan—were; mudgala-adayah—headed by Mudgala; yavinarah—Yavinara; brhadvisvah—Brhadvisva; kampillah—Kampilla; sanjayah—Sanjaya; sutah—sons; bharmyasvah—Bharmyasva; praha—said; putrah—sons; me—my; pancanam—of five; raksanaya—for protection; hi—indeed; visayanam—of different states; alam—competent; ime—all of them; iti—thus; pancala—Pancala; samjnitah—designated; mudgalat—from Mudgala; brahma-nirvrttam—consisting of brahmanas; gotram—a dynasty; maudgalya—Maudgalya; samjnitam—so designated.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Santi was Susanti, the son of Susanti was Puruja, and the son of Puruja was Arka.</p>
+<p>From Arka came Bharmyasva, and from Bharmyasva came five sons—Mudgala, Yavinara, Brhadvisva, Kampilla and Sanjaya.</p>
+<p>Bharmyasva prayed to his sons, O my sons, please take charge of my five states, for you are quite competent to do so Thus his five sons were known as the Pancalas.</p>
+<p>From Mudgala came a dynasty of brahmanas known as Maudgalya.</p>
+
+
+
+<p><strong>9.21.34</strong></p>
+<p>mithunam mudgalad bharmyad</p>
+<p>divodasah puman abhut</p>
+<p>ahalya kanyaka yasyam</p>
+<p>satanandas tu gautamat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>mithunam—twins, one male and one female; mudgalat—from Mudgala; bharmyat—the son of Bharmyasva; divodasah—Divodasa; puman—the male one; abhut—generated; ahalya—Ahalya; kanyaka—the female; yasyam—through whom; satanandah—Satananda; tu—indeed; gautamat—generated by her husband, Gautama.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Mudgala, the son of Bharmyasva, had twin children, one male and the other female.</p>
+<p>The male child was named Divodasa, and the female child was named Ahalya.</p>
+<p>From the womb of Ahalya by the semen of her husband, Gautama, came a son named Satananda.</p>
+
+
+
+<p><strong>9.21.35</strong></p>
+<p>tasya satyadhrtih putro</p>
+<p>dhanur-veda-visaradah</p>
+<p>saradvams tat-suto yasmad</p>
+<p>urvasi-darsanat kila</p>
+<p>sara-stambe ’patad reto</p>
+<p>mithunam tad abhuc chubham</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasya—of him (Satananda); satyadhrtih—Satyadhrti; putrah—a son; dhanuh-veda-visaradah—very expert in the art of archery; saradvan—Saradvan; tat-sutah—the son of Satyadhrti; yasmat—from whom; urvasi-darsanat—simply by seeing the celestial Urvasi; kila—indeed; sara-stambe—on a clump of sara grass; apatat—fell; retah—semen; mithunam—a male and female; tat abhut—there were born; subham—all-auspicious.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Satananda was Satyadhrti, who was expert in archery, and the son of Satyadhrti was Saradvan.</p>
+<p>When Saradvan met Urvasi, he discharged semen, which fell on a clump of sara grass.</p>
+<p>From this semen were born two all-auspicious babies, one male and the other female.</p>
+
+
+
+<p><strong>9.21.36</strong></p>
+<p>tad drstva krpayagrhnac</p>
+<p>chantanur mrgayam caran</p>
+<p>krpah kumarah kanya ca</p>
+<p>drona-patny abhavat krpi</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tat—those twin male and female babies; drstva—seeing; krpaya—out of compassion; agrhnat—took; santanuh—King Santanu; mrgayam—while hunting in the forest; caran—wandering in that way; krpah—Krpa; kumarah—the male child; kanya—the female child; ca—also; drona-patni—the wife of Dronacarya; abhavat—became; krpi—named Krpi.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>While Maharaja Santanu was on a hunting excursion, he saw the male and female children lying in the forest, and out of compassion he took them home.</p>
+<p>Consequently, the male child was known as Krpa, and the female child was named Krpi.</p>
+<p>Krpi later became the wife of Dronacarya.</p>
+
+
+</article></body></html>

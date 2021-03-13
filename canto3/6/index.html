@@ -1,154 +1,41 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>Creation of the Universal Form - Creation of the Universal Form</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">Creation of the Universal Form</a></li><li class="affix"><a href="3.6.2.html">3.6.2</a></li><li class="affix"><a href="3.6.3.html">3.6.3</a></li><li class="affix"><a href="3.6.4.html">3.6.4</a></li><li class="affix"><a href="3.6.5.html">3.6.5</a></li><li class="affix"><a href="3.6.6.html">3.6.6</a></li><li class="affix"><a href="3.6.7.html">3.6.7</a></li><li class="affix"><a href="3.6.8.html">3.6.8</a></li><li class="affix"><a href="3.6.9.html">3.6.9</a></li><li class="affix"><a href="3.6.10.html">3.6.10</a></li><li class="affix"><a href="3.6.11.html">3.6.11</a></li><li class="affix"><a href="3.6.12.html">3.6.12</a></li><li class="affix"><a href="3.6.13.html">3.6.13</a></li><li class="affix"><a href="3.6.14.html">3.6.14</a></li><li class="affix"><a href="3.6.15.html">3.6.15</a></li><li class="affix"><a href="3.6.16.html">3.6.16</a></li><li class="affix"><a href="3.6.17.html">3.6.17</a></li><li class="affix"><a href="3.6.18.html">3.6.18</a></li><li class="affix"><a href="3.6.19.html">3.6.19</a></li><li class="affix"><a href="3.6.20.html">3.6.20</a></li><li class="affix"><a href="3.6.21.html">3.6.21</a></li><li class="affix"><a href="3.6.22.html">3.6.22</a></li><li class="affix"><a href="3.6.23.html">3.6.23</a></li><li class="affix"><a href="3.6.24.html">3.6.24</a></li><li class="affix"><a href="3.6.25.html">3.6.25</a></li><li class="affix"><a href="3.6.26.html">3.6.26</a></li><li class="affix"><a href="3.6.27.html">3.6.27</a></li><li class="affix"><a href="3.6.28.html">3.6.28</a></li><li class="affix"><a href="3.6.29.html">3.6.29</a></li><li class="affix"><a href="3.6.30.html">3.6.30</a></li><li class="affix"><a href="3.6.31.html">3.6.31</a></li><li class="affix"><a href="3.6.32.html">3.6.32</a></li><li class="affix"><a href="3.6.33.html">3.6.33</a></li><li class="affix"><a href="3.6.34.html">3.6.34</a></li><li class="affix"><a href="3.6.35.html">3.6.35</a></li><li class="affix"><a href="3.6.36.html">3.6.36</a></li><li class="affix"><a href="3.6.37.html">3.6.37</a></li><li class="affix"><a href="3.6.38.html">3.6.38</a></li><li class="affix"><a href="3.6.39.html">3.6.39</a></li><li class="affix"><a href="3.6.40.html">3.6.40</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">Creation of the Universal Form</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#creation-of-the-universal-form" id="creation-of-the-universal-form">Creation of the Universal Form</a></h1>
-<h3><a class="header" href="#361" id="361">3.6.1</a></h3>
+<h1>Creation of the Universal Form</h1>
+<p><strong>3.6.1</strong></p>
 <p>rsir uvaca</p>
 <p>iti tasam sva-saktinam</p>
 <p>satinam asametya sah</p>
@@ -163,63 +50,871 @@
 <p>But unless they are combined by the will of the Lord, nothing can progress.</p>
 <p>The suspended progressive work of creation can only be revived by the direction of the Lord.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="3.6.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>3.6.2</strong></p>
+<p>kala-sanjnam tada devim</p>
+<p>bibhrac-chaktim urukramah</p>
+<p>trayovimsati tattvanam</p>
+<p>ganam yugapad avisat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kala-sanjnam—known as Kali; tada—at that time; devim—the goddess; bibhrat—destructive; saktim—potency; urukramah—the supreme powerful; trayah-vimsati—twenty-three; tattvanam—of the elements; ganam—all of them; yugapat—simultaneously; avisat—entered.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Supreme Powerful Lord then simultaneously entered into the twenty-three elements with the goddess Kali, His external energy, who alone amalgamates all the different elements.</p>
+<p><strong>PURPORT</strong></p>
+<p>The ingredients of matter are counted as twenty-three: the total material energy, false ego, sound, touch, form, taste, smell, earth, water, fire, air, sky, eye, ear, nose, tongue, skin, hand, leg, evacuating organ, genitals, speech and mind.</p>
+<p>All are combined together by the influence of time and are again dissolved in the course of time.</p>
+<p>Time, therefore, is the energy of the Lord and acts in her own way by the direction of the Lord.</p>
+<p>This energy is called Kali and is represented by the dark destructive goddess generally worshiped by persons influenced by the mode of darkness or ignorance in material existence.</p>
+<p>In the Vedic hymn this process is described as mula-prakrtir avikrtir mahadadyah prakrti-vikrtayah sapta sodasakas tu vikaro na prakrtir na vikrtih purusah.</p>
+<p>The energy which acts as material nature in a combination of twenty-three ingredients is not the final source of creation.</p>
+<p>The Lord enters into the elements and applies His energy, called Kali.</p>
+<p>In all other Vedic scriptures the same principle is accepted.</p>
+<p>Brahma-samhita (5.35) it is stated:</p>
+<p>eko ’py asau racayitum jagad-anda-kotim</p>
+<p>yac-chaktir asti jagad-anda-caya yad-antah</p>
+<p>andantara-stha-paramanu-cayantara-stham</p>
+<p>govindam adi-purusam tam aham bhajami</p>
+<p>I worship the primeval Lord, Govinda, who is the original Personality of Godhead.</p>
+<p>By His partial plenary expansion (Maha-Visnu), He enters into material nature, and then into each and every universe (as Garbhodakasayi Visnu), and then (as Ksirodakasayi Visnu) into all the elements, including every atom of matter.</p>
+<p>Such manifestations of cosmic creation are innumerable, both in the universes and in the individual atoms Similarly, this is confirmed in Bhagavad-gita (10.42):</p>
+<p>athava bahunaitena</p>
+<p>kim jnatena tavarjuna</p>
+<p>vistabhyaham idam krtsnam</p>
+<p>ekamsena sthito jagat</p>
+<p>O Arjuna, there is no necessity of your knowing about My innumerable energies, which act in various ways.</p>
+<p>I enter into the material creation by My partial plenary expansion (Paramatma, or the Supersoul) in all the universes and in all the elements thereof, and thus the work of creation goes on The wonderful activities of material nature are due to Lord Krsna, and thus He is the final cause, or the ultimate cause of all causes.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="3.6.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>3.6.3</strong></p>
+<p>so ’nupravisto bhagavams</p>
+<p>cestarupena tam ganam</p>
+<p>bhinnam samyojayam asa</p>
+<p>suptam karma prabodhayan</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—that; anupravistah—thus entering later on; bhagavan—the Personality of Godhead; cesta-rupena—by His representation of attempt, Kali; tam—them; ganam—all the living entities, including the demigods; bhinnam—separately; samyojayam asa—engaged to work; suptam—sleeping; karma—work; prabodhayan—enlightening.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thus when the Personality of Godhead entered into the elements by His energy, all the living entities were enlivened into different activities, just as one is engaged in his work after awakening from sleep.</p>
+<p><strong>PURPORT</strong></p>
+<p>Every individual soul remains unconscious after the dissolution of the creation and thus enters into the Lord with His material energy.</p>
+<p>These individual living entities are conditioned souls everlastingly, but in each and every material creation they are given a chance to liberate themselves and become free souls.</p>
+<p>They are all given a chance to take advantage of the Vedic wisdom and find out what is their relationship with the Supreme Lord, how they can be liberated, and what the ultimate profit is in such liberation.</p>
+<p>By properly studying the Vedas one becomes conscious of his position and thus takes to the transcendental devotional service of the Lord and is gradually promoted to the spiritual sky.</p>
+<p>The individual souls in the material world engage in different activities according to their past unfinished desires.</p>
+<p>After the dissolution of a particular body, the individual soul forgets everything, but the all-merciful Lord, who is situated in everyone’s heart as the witness, the Supersoul, awakens him and reminds him of his past desires, and thus he begins to act accordingly in his next life.</p>
+<p>This unseen guidance is described as fate, and a sensible man can understand that this continues his material bondage in the three modes of nature.</p>
+<p>The unconscious sleeping stage of the living entity just after the partial or total dissolution of the creation is wrongly accepted as the final stage of life by some less intelligent philosophers.</p>
+<p>After the dissolution of the partial material body, a living entity remains unconscious for only a few months, and after the total dissolution of the material creation, he remains unconscious for many millions of years.</p>
+<p>But when the creation is again revived, he is awakened to his work by the Lord.</p>
+<p>The living entity is eternal, and the wakeful state of his consciousness, manifested by activities, is his natural condition of life.</p>
+<p>He cannot stop acting while awake, and thus he acts according to his diverse desires.</p>
+<p>When his desires are trained in the transcendental service of the Lord, his life becomes perfect, and he is promoted to the spiritual sky to enjoy eternal awakened life.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>3.6.4</strong></p>
+<p>prabuddha-karma daivena</p>
+<p>trayovimsatiko ganah</p>
+<p>prerito ’janayat svabhir</p>
+<p>matrabhir adhipurusam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>prabuddha—awakened; karma—activities; daivena—by the will of the Supreme; trayah-vimsatikah—by the twenty-three principal ingredients; ganah—the combination; preritah—induced by; ajanayat—manifested; svabhih—by His personal; matrabhih—plenary expansion; adhipurusam—the gigantic universal form (visva-rupa).</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When the twenty-three principal elements were set in action by the will of the Supreme, the gigantic universal form, or the visvarupa body of the Lord, came into existence.</p>
+<p><strong>PURPORT</strong></p>
+<p>The virat-rupa or visva-rupa, the gigantic universal form of the Lord, which is very much appreciated by the impersonalist, is not an eternal form of the Lord.</p>
+<p>It is manifested by the supreme will of the Lord after the ingredients of material creation.</p>
+<p>Lord Krsna exhibited this virat or visva-rupa to Arjuna just to convince the impersonalists that He is the original Personality of Godhead.</p>
+<p>Krsna exhibited the virat-rupa; it is not that Krsna was exhibited by the virat-rupa.</p>
+<p>The virat-rupa is not, therefore, an eternal form of the Lord exhibited in the spiritual sky; it is a material manifestation of the Lord.</p>
+<p>The arca-vigraha, or the worshipable Deity in the temple, is a similar manifestation of the Lord for the neophytes.</p>
+<p>But in spite of their material touch, such forms of the Lord as the virat and arca are all nondifferent from His eternal form as Lord Krsna.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>3.6.5</strong></p>
+<p>parena visata svasmin</p>
+<p>matraya visva-srg-ganah</p>
+<p>cuksobhanyonyam asadya</p>
+<p>yasmin lokas caracarah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>parena—by the Lord; visata—thus entering; svasmin—by His own self; matraya—by a plenary portion; visva-srk—the elements of universal creation; ganah—all; cuksobha—transformed; anyonyam—one another; asadya—having obtained; yasmin—in which; lokah—the planets; cara-acarah—movable and immovable.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>As the Lord, in His plenary portion, entered into the elements of the universal creation, they transformed into the gigantic form in which all the planetary systems and all movable and immovable creations rest.</p>
+<p><strong>PURPORT</strong></p>
+<p>The elements of cosmic creation are all matter and have no potency to increase in volume unless entered into by the Lord in His plenary portion.</p>
+<p>This means that matter does not increase or decrease unless it is spiritually touched.</p>
+<p>Matter is a product of spirit and increases only by the touch of spirit.</p>
+<p>The entire cosmic manifestation has not assumed its gigantic form by itself, as wrongly calculated by less intelligent persons.</p>
+<p>As long as spirit is within matter, matter can increase as needed; but without the spirit, matter stops increasing.</p>
+<p>For example, as long as there is spiritual consciousness within the material body of a living entity, the body increases to the required size, but a dead material body, which has no spiritual consciousness, stops increasing.</p>
+<p>In Bhagavad-gita (Chapter Two) importance is given to the spiritual consciousness, not the body.</p>
+<p>The entire cosmic body increased by the same process that we experience in our small bodies.</p>
+<p>One should not, however, foolishly think that the individual infinitesimal soul is the cause of the gigantic manifestation of the universal form.</p>
+<p>The universal form is called the virat-rupa because the Supreme Lord is within it in His plenary portion.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>3.6.6</strong></p>
+<p>hiranmayah sa purusah</p>
+<p>sahasra-parivatsaran</p>
+<p>anda-kosa uvasapsu</p>
+<p>sarva-sattvopabrmhitah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>hiranmayah—the Garbhodakasayi Visnu, who also assumes the virat-rupa; sah—He; purusah—incarnation of Godhead; sahasra—one thousand; parivatsaran—celestial years; anda-kose—within the global universe; uvasa—resided; apsu—on the water; sarva-sattva—all living entities lying with Him; upabrmhitah—so spread.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The gigantic virat-purusa, known as Hiranmaya, lived for one thousand celestial years on the water of the universe, and all the living entities lay with Him.</p>
+<p><strong>PURPORT</strong></p>
+<p>After the Lord entered each and every universe as the Garbhodakasayi Visnu, half of the universe was filled with water.</p>
+<p>The cosmic manifestation of the planetary systems, outer space, etc., which are visible to us, is only one half of the complete universe.</p>
+<p>Before the manifestation takes place and after the entrance of Visnu within the universe, there is a period of one thousand celestial years.</p>
+<p>All the living entities injected within the womb of the mahat-tattva are divided in all universes with the incarnation of Garbhodakasayi Visnu, and all of them lie down with the Lord until Brahma is born.</p>
+<p>Brahma is the first living being within the universe, and from him all other demigods and living creatures are born.</p>
+<p>Manu is the original father of mankind, and therefore, in Sanskrit, mankind is called manusya.</p>
+<p>Humanity in different bodily qualities is distributed throughout the various planetary systems.</p>
+
+
+
+<p><strong>3.6.7</strong></p>
+<p>sa vai visva-srjam garbho</p>
+<p>deva-karmatma-saktiman</p>
+<p>vibabhajatmanatmanam</p>
+<p>ekadha dasadha tridha</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—that; vai—certainly; visva-srjam—of the gigantic virat form; garbhah—total energy; deva—living energy; karma—activity of life; atma—self; saktiman—full with potencies; vibabhaja—divided; atmana—by Himself; atmanam—Himself; ekadha—in oneness; dasadha—in ten; tridha—and in three.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The total energy of the mahat-tattva, in the form of the gigantic virat-rupa, divided Himself by Himself into the consciousness of the living entities, the life of activity, and self-identification, which are subdivided into one, ten and three respectively.</p>
+<p><strong>PURPORT</strong></p>
+<p>Consciousness is the sign of the living entity, or the soul.</p>
+<p>The existence of the soul is manifest in the form of consciousness, called jnana-sakti.</p>
+<p>The total consciousness is that of the gigantic virat-rupa, and the same consciousness is exhibited in individual persons.</p>
+<p>The activity of consciousness is performed through the air of life, which is of ten divisions.</p>
+<p>The airs of life are called prana, apana, udana, vyana and samana and are also differently qualified as naga, kurma, krkara, devadatta and dhananjaya.</p>
+<p>The consciousness of the soul becomes polluted by the material atmosphere, and thus various activities are exhibited in the false ego of bodily identification.</p>
+<p>These various activities are described in Bhagavad-gita (2.41) as bahu-sakha hy anantas ca buddhayo ’vyavasayinam.</p>
+<p>The conditioned soul is bewildered into various activities for want of pure consciousness.</p>
+<p>In pure consciousness the activity is one.</p>
+<p>The consciousness of the individual soul becomes one with the supreme consciousness when there is complete synthesis between the two.</p>
+<p>The monist believes that there is only one consciousness, whereas the satvatas, or the devotees, believe that although there is undoubtedly one consciousness, they are one because there is agreement.</p>
+<p>The individual consciousness is advised to dovetail with the supreme consciousness, as instructed by the Lord in Bhagavad-gita (18.66): sarva-dharman parityajya mam ekam saranam vraja.</p>
+<p>The individual consciousness (Arjuna) is advised to dovetail with the supreme consciousness and thus maintain his conscious purity.</p>
+<p>It is foolish to try to stop the activities of consciousness, but they can be purified when they are dovetailed with the Supreme.</p>
+<p>This consciousness is divided into three modes of self-identification according to the proportion of purity: adhyatmika, or self-identification with the body and mind, adhibhautika, or self-identification with the material products, and adhidaivika, or self-identification as a servant of the Lord.</p>
+<p>Of the three, adhidaivika self-identification is the beginning of purity of consciousness in pursuance of the desire of the Lord.</p>
+
+
+
+<p><strong>3.6.8</strong></p>
+<p>esa hy asesa-sattvanam</p>
+<p>atmamsah paramatmanah</p>
+<p>adyo ’vataro yatrasau</p>
+<p>bhuta-gramo vibhavyate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>esah—this; hi—certainly; asesa—unlimited; sattvanam—living entities; atma—Self; amsah—part; parama-atmanah—of the Supersoul; adyah—the first; avatarah—incarnation; yatra—whereupon; asau—all those; bhuta-gramah—the aggregate creations; vibhavyate—flourish.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The gigantic universal form of the Supreme Lord is the first incarnation and plenary portion of the Supersoul.</p>
+<p>He is the Self of an unlimited number of living entities, and in Him rests the aggregate creation, which thus flourishes.</p>
+<p><strong>PURPORT</strong></p>
+<p>The Supreme Lord expands Himself in two ways, by personal plenary expansions and separated minute expansions.</p>
+<p>The personal plenary expansions are visnu-tattvas, and the separated expansions are living entities.</p>
+<p>Since the living entities are very small, they are sometimes described as the marginal energy of the Lord.</p>
+<p>But the mystic yogis consider the living entities and the Supersoul, Paramatma, to be one and the same.</p>
+<p>It is, however, a minor point of controversy; after all, everything created rests on the gigantic virat or universal form of the Lord.</p>
+
+
+
+<p><strong>3.6.9</strong></p>
+<p>sadhyatmah sadhidaivas ca</p>
+<p>sadhibhuta iti tridha</p>
+<p>virat prano dasa-vidha</p>
+<p>ekadha hrdayena ca</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sa-adhyatmah—the body and mind with all the senses; sa-adhidaivah—and the controlling demigods of the senses; ca—and; sa-adhibhutah—the present objectives; iti—thus; tridha—three; virat—gigantic; pranah—moving force; dasa-vidhah—ten kinds; ekadha—one only; hrdayena—living energy; ca—also.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The gigantic universal form is represented by three, ten and one in the sense that He is the body and the mind and the senses, He is the dynamic force for all movements by ten kinds of life energy, and He is the one heart where life energy is generated.</p>
+<p><strong>PURPORT</strong></p>
+<p>In Bhagavad-gita (7.4–5) it is stated that the eight elements earth, water, fire, air, sky, mind, intelligence and false ego are all products of the Lord’s inferior energy, whereas the living entities, who are seen to utilize the inferior energy, originally belong to the superior energy, the internal potency of the Lord.</p>
+<p>The eight inferior energies work grossly and subtly, whereas the superior energy works as the central generating force.</p>
+<p>This is experienced in the human body.</p>
+<p>The gross elements, namely, earth, etc., form the external gross body and are like a coat, whereas the subtle mind and false ego act like the inner clothing of the body.</p>
+<p>The movements of the body are first generated from the heart, and all the activities of the body are made possible by the senses, powered by the ten kinds of air within the body.</p>
+<p>The ten kinds of air are described as follows: The main air passing through the nose in breathing is called prana.</p>
+<p>The air which passes through the rectum as evacuated bodily air is called apana.</p>
+<p>The air which adjusts the foodstuff within the stomach and which sometimes sounds as belching is called samana.</p>
+<p>The air which passes through the throat and the stoppage of which constitutes suffocation is called the udana air.</p>
+<p>Aid the total air which circulates throughout the entire body is called the vyana air.</p>
+<p>Subtler than these five airs, there are others also.</p>
+<p>That which facilitates the opening of the eyes, mouth, etc., is called naga air.</p>
+<p>The air which increases appetite is called krkara air.</p>
+<p>The air which helps contraction is called kurma air.</p>
+<p>The air which helps relaxation by opening the mouth wide (in yawning) is called devadatta air, and the air which helps sustenance is called dhananjaya air.</p>
+<p>All these airs are generated from the center of the heart, which is one only.</p>
+<p>This central energy is superior energy of the Lord, who is seated within the heart with the soul of the body, who acts under the guidance of the Lord.</p>
+<p>This is explained in Bhagavad-gita (15.15) as follows:</p>
+<p>sarvasya caham hrdi sannivisto</p>
+<p>mattah smrtir jnanam apohanam ca</p>
+<p>vedais ca sarvair aham eva vedyo</p>
+<p>vedanta-krd veda-vid eva caham</p>
+<p>The complete central force is generated from the heart by the Lord, who is seated there and who helps the conditioned soul in remembering and forgetting.</p>
+<p>The conditioned state is due to the soul’s forgetfulness of his relationship of subordination to the Lord.</p>
+<p>One who wants to continue to forget the Lord is helped by the Lord to forget Him birth after birth, but one who remembers Him, by dint of association with a devotee of the Lord, is helped to remember Him more and more.</p>
+<p>Thus the conditioned soul can ultimately go back home, back to Godhead.</p>
+<p>This process of transcendental help by the Lord is described in Bhagavad-gita (10.10) as follows:</p>
+<p>tesam satata-yuktanam</p>
+<p>bhajatam priti-purvakam</p>
+<p>dadami buddhi-yogam tam</p>
+<p>yena mam upayanti te</p>
+<p>The buddhi-yoga process of self-realization with intelligence transcendental to the mind (devotional service) can alone elevate one from the conditioned state of material entanglement in the cosmic construction.</p>
+<p>The conditioned state of the living entity is like that of a person who is within the depths of a huge mechanical arrangement.</p>
+<p>The mental speculators can reach the point of buddhi-yoga after many, many lifetimes of speculation, but the intelligent person who begins from the platform of intelligence above the mind makes rapid progress in self-realization.</p>
+<p>Because the buddhi-yoga process entails no fear of deterioration or retrogression at any time, it is the guaranteed path to self-realization, as confirmed in Bhagavad-gita (2.40).</p>
+<p>The mental speculators cannot understand that the two birds (Svetasvatara Upanisad) sitting in one tree are the soul and the Supersoul.</p>
+<p>The individual soul eats the fruit of the tree, while the other bird does not eat the fruit but only observes the activities of the eating bird.</p>
+<p>Without attachment, the witnessing bird helps the fruit-eating bird perform fruitful activities.</p>
+<p>One who cannot understand this difference between the soul and the Supersoul, or God and the living entities, is certainly still in the entanglement of the cosmic machinery and thus must still await the time when he will be free from bondage.</p>
+
+
+
+<p><strong>3.6.10</strong></p>
+<p>smaran visva-srjam iso</p>
+<p>vijnapitam adhoksajah</p>
+<p>virajam atapat svena</p>
+<p>tejasaisam vivrttaye</p>
+<p><strong>SYNONYMS</strong></p>
+<p>smaran—remembering; visva-srjam—of the demigods entrusted with the task of cosmic construction; isah—the Supreme Lord; vijnapitam—as He was prayed for; adhoksajah—the Transcendence; virajam—the gigantic universal form; atapat—considered thus; svena—by His own; tejasa—energy; esam—for them; vivrttaye—for understanding.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Supreme Lord is the Supersoul of all the demigods entrusted with the task of constructing the cosmic manifestation.</p>
+<p>Being thus prayed to (by the demigods), He thought to Himself and thus manifested the gigantic form for their understanding.</p>
+<p><strong>PURPORT</strong></p>
+<p>The impersonalists are captivated by the gigantic universal form of the Supreme.</p>
+<p>They think that the control behind this gigantic manifestation is imagination.</p>
+<p>Intelligent persons, however, can estimate the value of the cause by observing the wonders of the effects.</p>
+<p>For example, the individual human body does not develop from the womb of the mother independently but because the living entity, the soul, is within the body.</p>
+<p>Without the living entity, a material body cannot automatically take shape or develop.</p>
+<p>When any material object displays development, it must be understood that there is a spiritual soul within the manifestation.</p>
+<p>The gigantic universe has developed gradually, just as the body of a child develops.</p>
+<p>The conception that the Transcendence enters within the universe is, therefore, logical.</p>
+<p>As the materialists cannot find the soul and the Supersoul within the heart, similarly, for want of sufficient knowledge, they cannot see that the Supreme Soul is the cause of the universe.</p>
+<p>The Lord is therefore described in the Vedic language as avan-manasa-gocarah, beyond the conception of words and minds.</p>
+<p>Due to a poor fund of knowledge, the mental speculators try to bring the Supreme within the purview of words and minds, but the Lord refuses to be so intelligible; the speculator has no adequate words or mind to gauge the infinity of the Lord.</p>
+<p>The Lord is called adhoksaja, or the person who is beyond perception by the blunt, limited potency of our senses.</p>
+<p>One cannot perceive the transcendental name or form of the Lord by mental speculation.</p>
+<p>The mundane Ph.D.’s are completely unable to speculate on the Supreme with their limited senses.</p>
+<p>Such attempts by the puffed up Ph.D’s are compared to the philosophy of the frog in the well.</p>
+<p>A frog in a well was informed of the gigantic Pacific Ocean, and he began to puff himself up in order to understand or measure the length and breadth of the Pacific Ocean.</p>
+<p>Ultimately the frog burst and died.</p>
+<p>The title Ph.D can also be interpreted as Plough Department, a title meant for the tillers in the paddy field.</p>
+<p>The attempt of the tillers in the paddy field to understand the cosmic manifestation and the cause behind such wonderful work can be compared to the endeavor of the frog in the well to calculate the measurement of the Pacific Ocean.</p>
+<p>The Lord can reveal Himself only to a person who is submissive and who engages in His transcendental loving service.</p>
+<p>The demigods controlling the elements and ingredients of universal affairs prayed to the Lord for guidance, and thus He manifested His gigantic form, as He did at the request of Arjuna.</p>
+
+
+
+<p><strong>3.6.11</strong></p>
+<p>atha tasyabhitaptasya</p>
+<p>katidhayatanani ha</p>
+<p>nirabhidyanta devanam</p>
+<p>tani me gadatah srnu</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atha—therefore; tasya—His; abhitaptasya—in terms of His contemplation; katidha—how many; ayatanani—embodiments; ha—there were; nirabhidyanta—by separated parts; devanam—of the demigods; tani—all those; me gadatah—described by me; srnu—just hear.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Maitreya said: You may now hear from me how the Supreme Lord separated Himself into the diverse forms of the demigods after the manifestation of the gigantic universal form.</p>
+<p><strong>PURPORT</strong></p>
+<p>The demigods are separated parts and parcels of the Supreme Lord, as are all other living entities.</p>
+<p>The only difference between the demigods and the ordinary living entities is that when the living entities are rich in pious acts of devotional service to the Lord, and when their desire to lord it over material energy has vanished, they are promoted to the posts of demigods, who are entrusted by the Lord with executing the management of the universal affairs.</p>
+
+
+
+<p><strong>3.6.12</strong></p>
+<p>tasyagnir asyam nirbhinnam</p>
+<p>loka-palo ’visat padam</p>
+<p>vaca svamsena vaktavyam</p>
+<p>yayasau pratipadyate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasya—His; agnih—fire; asyam—mouth; nirbhinnam—thus separated; loka-palah—the directors of material affairs; avisat—entered; padam—respective positions; vaca—by words; sva-amsena—by one’s own part; vaktavyam—speeches; yaya—by which; asau—they; pratipadyate—express.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Agni, or heat, separated from His mouth, and all the directors of material affairs entered into it in their respective positions.</p>
+<p>By that energy the living entity expresses himself in words.</p>
+<p><strong>PURPORT</strong></p>
+<p>The mouth of the gigantic universal form of the Lord is the source of the speaking power.</p>
+<p>The director of the fire element is the controlling deity, or the adhidaiva.</p>
+<p>The speeches delivered are adhyatma, or bodily functions, and the subject matter of the speeches is material productions, or the adhibhuta principle.</p>
+
+
+
+<p><strong>3.6.13</strong></p>
+<p>nirbhinnam talu varuno</p>
+<p>loka-palo ’visad dhareh</p>
+<p>jihvayamsena ca rasam</p>
+<p>yayasau pratipadyate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>nirbhinnam—separated; talu—palate; varunah—the deity controlling air; loka-palah—director of the planets; avisat—entered; hareh—of the Lord; jihvaya amsena—with the part of the tongue; ca—also; rasam—tastes; yaya—by which; asau—the living entity; pratipadyate—expresses.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When the palate of the gigantic form was separately manifested, Varuna, the director of air in the planetary systems, entered therein, and thus the living entity has the facility to taste everything with his tongue.</p>
+
+
+
+<p><strong>3.6.14</strong></p>
+<p>nirbhinne asvinau nase</p>
+<p>visnor avisatam padam</p>
+<p>ghranenamsena gandhasya</p>
+<p>pratipattir yato bhavet</p>
+<p><strong>SYNONYMS</strong></p>
+<p>nirbhinne—thus being separated; asvinau—the dual Asvinis; nase—of the two nostrils; visnoh—of the Lord; avisatam—entering; padam—post; ghranena amsena—by partially smelling; gandhasya—aroma; pratipattih—experience; yatah—whereupon; bhavet—becomes.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When the Lord’s two nostrils separately manifested themselves, the dual Asvini-kumaras entered them in their proper positions, and because of this the living entities can smell the aromas of everything.</p>
+
+
+
+<p><strong>3.6.15</strong></p>
+<p>nirbhinne aksini tvasta</p>
+<p>loka-palo ’visad vibhoh</p>
+<p>caksusamsena rupanam</p>
+<p>pratipattir yato bhavet</p>
+<p><strong>SYNONYMS</strong></p>
+<p>nirbhinne—thus being separated; aksini—the eyes; tvasta—the sun; loka-palah—director of light; avisat—entered; vibhoh—of the great; caksusa amsena—by the part of the eyesight; rupanam—of the forms; pratipattih—experience; yatah—by which; bhavet—becomes.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, the two eyes of the gigantic form of the Lord were separately manifested.</p>
+<p>The sun, the director of light, entered them with the partial representation of eyesight, and thus the living entities can have vision of forms.</p>
+
+
+
+<p><strong>3.6.16</strong></p>
+<p>nirbhinnany asya carmani</p>
+<p>loka-palo ’nilo ’visat</p>
+<p>pranenamsena samsparsam</p>
+<p>yenasau pratipadyate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>nirbhinnani—being separated; asya—of the gigantic form; carmani—skin; loka-palah—the director; anilah—air; avisat—entered; pranena amsena—the part of the breathing; samsparsam—touch; yena—by which; asau—the living entity; pratipadyate—can experience.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When there was a manifestation of skin separated from the gigantic form, Anila, the deity directing the wind, entered with partial touch, and thus the living entities can realize tactile knowledge.</p>
+
+
+
+<p><strong>3.6.17</strong></p>
+<p>karnav asya vinirbhinnau</p>
+<p>dhisnyam svam vivisur disah</p>
+<p>srotrenamsena sabdasya</p>
+<p>siddhim yena prapadyate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>karnau—the ears; asya—of the gigantic form; vinirbhinnau—being thus separated; dhisnyam—the controlling deity; svam—own; vivisuh—entered; disah—of the directions; srotrena amsena—with the hearing principles; sabdasya—of the sound; siddhim—perfection; yena—by which; prapadyate—is experienced.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When the ears of the gigantic form became manifested, all the controlling deities of the directions entered into them with the hearing principles, by which all the living entities hear and take advantage of sound.</p>
+<p><strong>PURPORT</strong></p>
+<p>The ear is the most important instrument in the body of the living entity.</p>
+<p>Sound is the most important medium for carrying the message of distant and unknown things.</p>
+<p>The perfection of all sound or knowledge enters through the ear and makes one’s life perfect.</p>
+<p>The entire Vedic system of knowledge is received by aural reception only, and thus sound is the most important source of knowledge.</p>
+
+
+
+<p><strong>3.6.18</strong></p>
+<p>tvacam asya vinirbhinnam</p>
+<p>vivisur dhisnyam osadhih</p>
+<p>amsena romabhih kandum</p>
+<p>yair asau pratipadyate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tvacam—skin; asya—of the gigantic form; vinirbhinnam—being separately manifested; vivisuh—entered; dhisnyam—the controlling deity; osadhih—sensations; amsena—with parts; romabhih—through the hairs on the body; kandum—itching; yaih—by which; asau—the living entity; pratipadyate—experiences.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When there was a separate manifestation of skin, the controlling deities of sensations and their different parts entered into it, and thus the living entities feel itching and happiness due to touch.</p>
+<p><strong>PURPORT</strong></p>
+<p>For sense perception there are two principal items, touch and itching, and both of them are controlled by the skin and hairs on the body.</p>
+<p>According to Sri Visvanatha Cakravarti, the controlling deity of touch is the air passing within the body, and the controlling deity of the hairs on the body is Osadhya.</p>
+<p>For the skin the object of perception is touch, and for the hairs on the body the object of perception is itching.</p>
+
+
+
+<p><strong>3.6.19</strong></p>
+<p>medhram tasya vinirbhinnam</p>
+<p>sva-dhisnyam ka upavisat</p>
+<p>retasamsena yenasav</p>
+<p>anandam pratipadyate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>medhram—genitals; tasya—of the gigantic form; vinirbhinnam—being separated; sva-dhisnyam—own position; kah—Brahma, the original living creature; upavisat—entered; retasa amsena—with the part of the semen; yena—by which; asau—the living entity; anandam—sex pleasure; pratipadyate—experiences.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When the genitals of the gigantic form separately became manifest, then Prajapati, the original living creature, entered into them with his partial semen, and thus the living entities can enjoy sex pleasure.</p>
+
+
+
+<p><strong>3.6.20</strong></p>
+<p>gudam pumso vinirbhinnam</p>
+<p>mitro lokesa avisat</p>
+<p>payunamsena yenasau</p>
+<p>visargam pratipadyate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>gudam—evacuating outlet; pumsah—of the gigantic form; vinirbhinnam—being separately manifested; mitrah—the sun-god; loka-isah—the director named Mitra; avisat—entered; payuna amsena—with the partial evacuation process; yena—by which; asau—the living entity; visargam—evacuation; pratipadyate—performs.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The evacuating channel separately became manifest, and the director named Mitra entered into it with partial organs of evacuation.</p>
+<p>Thus the living entities are able to pass stool and urine.</p>
+
+
+
+<p><strong>3.6.21</strong></p>
+<p>hastav asya vinirbhinnav</p>
+<p>indrah svar-patir avisat</p>
+<p>vartayamsena puruso</p>
+<p>yaya vrttim prapadyate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>hastau—hands; asya—of the gigantic form; vinirbhinnau—being separately manifested; indrah—the King of heaven; svah-patih—the ruler of heavenly planets; avisat—entered into it; vartaya amsena—with partial mercantile principles; purusah—the living entity; yaya—by which; vrttim—business of livelihood; prapadyate—transacts.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, when the hands of the gigantic form separately became manifested, Indra, the ruler of the heavenly planets, entered into them, and thus the living entity is able to transact business for his livelihood.</p>
+
+
+
+<p><strong>3.6.22</strong></p>
+<p>padav asya vinirbhinnau</p>
+<p>lokeso visnur avisat</p>
+<p>gatya svamsena puruso</p>
+<p>yaya prapyam prapadyate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>padau—the legs; asya—of the gigantic form; vinirbhinnau—being manifested separately; loka-isah visnuh—the demigod Visnu (not the Personality of Godhead); avisat—entered; gatya—by the power of movement; sva-amsena—with his own parts; purusah—living entity; yaya—by which; prapyam—destination; prapadyate—reaches.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter the legs of the gigantic form separately became manifest, and the demigod named Visnu (not the Personality of Godhead) entered with partial movement.</p>
+<p>This helps the living entity move to his destination.</p>
+
+
+
+<p><strong>3.6.23</strong></p>
+<p>buddhim casya vinirbhinnam</p>
+<p>vag-iso dhisnyam avisat</p>
+<p>bodhenamsena boddhavyam</p>
+<p>pratipattir yato bhavet</p>
+<p><strong>SYNONYMS</strong></p>
+<p>buddhim—intelligence; ca—also; asya—of the gigantic form; vinirbhinnam—being separately manifested; vak-isah—Brahma, lord of the Vedas; dhisnyam—the controlling power; avisat—entered in; bodhena amsena—with his part of intelligence; boddhavyam—the matter of understanding; pratipattih—understood; yatah—by which; bhavet—so becomes.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When the intelligence of the gigantic form separately became manifest, Brahma, the lord of the Vedas, entered into it with the partial power of understanding, and thus an object of understanding is experienced by the living entities.</p>
+
+
+
+<p><strong>3.6.24</strong></p>
+<p>hrdayam casya nirbhinnam</p>
+<p>candrama dhisnyam avisat</p>
+<p>manasamsena yenasau</p>
+<p>vikriyam pratipadyate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>hrdayam—heart; ca—also; asya—of the gigantic form; nirbhinnam—being manifested separately; candrama—the moon demigod; dhisnyam—with controlling power; avisat—entered into; manasa amsena—partly with mental activity; yena—by which; asau—the living entity; vikriyam—resolution; pratipadyate—transacts.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>After that, the heart of the gigantic form separately manifested itself, and into it entered the moon demigod with partial mental activity.</p>
+<p>Thus the living entity can conduct his mental speculations.</p>
+
+
+
+<p><strong>3.6.25</strong></p>
+<p>atmanam casya nirbhinnam</p>
+<p>abhimano ’visat padam</p>
+<p>karmanamsena yenasau</p>
+<p>kartavyam pratipadyate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atmanam—false ego; ca—also; asya—of the gigantic form; nirbhinnam—being separately manifested; abhimanah—false identification; avisat—entered; padam—in position; karmana—activities; amsena—by the part; yena—by which; asau—the living entity; kartavyam—objective activities; pratipadyate—takes in.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter the materialistic ego of the gigantic form separately manifested itself, and into it entered Rudra, the controller of false ego, with his own partial activities, by which the living entity transacts his objective actions.</p>
+<p><strong>PURPORT</strong></p>
+<p>The false ego of materialistic identity is controlled by the demigod Rudra, an incarnation of Lord Siva.</p>
+<p>Rudra is the incarnation of the Supreme Lord who controls the mode of ignorance within material nature.</p>
+<p>The activities of the false ego are based on the objective of the body and mind.</p>
+<p>Most persons conducted by the false ego are controlled by Lord Siva.</p>
+<p>When one reaches a finer version of ignorance, he falsely thinks of himself as the Supreme Lord.</p>
+<p>That egoistic conviction of the conditioned soul is the last snare of the illusory energy which controls the entire material world.</p>
+
+
+
+<p><strong>3.6.26</strong></p>
+<p>sattvam casya vinirbhinnam</p>
+<p>mahan dhisnyam upavisat</p>
+<p>cittenamsena yenasau</p>
+<p>vijnanam pratipadyate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sattvam—consciousness; ca—also; asya—of the gigantic form; vinirbhinnam—being separately manifested; mahan—the total energy, mahat-tattva; dhisnyam—with control; upavisat—entered into; cittena amsena—along with His part of consciousness; yena—by which; asau—the living entity; vijnanam—specific knowledge; pratipadyate—cultivates.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, when His consciousness separately manifested itself, the total energy, mahat-tattva, entered with His conscious part.</p>
+<p>Thus the living entity is able to conceive specific knowledge.</p>
+
+
+
+<p><strong>3.6.27</strong></p>
+<p>sirsno ’sya dyaur dhara padbhyam</p>
+<p>kham nabher udapadyata</p>
+<p>gunanam vrttayo yesu</p>
+<p>pratiyante suradayah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sirsnah—head; asya—of the gigantic form; dyauh—the heavenly planets; dhara—earthly planets; padbhyam—on His legs; kham—the sky; nabheh—from the abdomen; udapadyata—became manifested; gunanam—of the three modes of nature; vrttayah—reactions; yesu—in which; pratiyante—manifest; sura-adayah—the demigods and others.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, from the head of the gigantic form, the heavenly planets were manifested, and from His legs the earthly planets and from His abdomen the sky separately manifested themselves.</p>
+<p>Within them the demigods and others also were manifested in terms of the modes of material nature.</p>
+
+
+
+<p><strong>3.6.28</strong></p>
+<p>atyantikena sattvena</p>
+<p>divam devah prapedire</p>
+<p>dharam rajah-svabhavena</p>
+<p>panayo ye ca tan anu</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atyantikena—excessive; sattvena—by the mode of goodness; divam—in the higher planets; devah—the demigods; prapedire—have been situated; dharam—on the earth; rajah—the mode of passion; svabhavena—by nature; panayah—the human being; ye—all those; ca—also; tan—their; anu—subordinate.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The demigods, qualified by the superexcellent quality of the mode of goodness, are situated in the heavenly planets, whereas the human beings, because of their nature in the mode of passion, live on the earth in company with their subordinates.</p>
+<p><strong>PURPORT</strong></p>
+<p>In Bhagavad-gita (14.14–15) it is said that those who are highly developed in the mode of goodness are promoted to the higher, heavenly planetary system, and those who are overpowered by the mode of passion are situated in the middle planetary systems—the earth and similar planets.</p>
+<p>But those who are surcharged with the mode of ignorance are degraded to the lower planetary systems or to the animal kingdom.</p>
+<p>The demigods are highly developed in the mode of goodness, and thus they are situated in the heavenly planets.</p>
+<p>Below human beings are the animals, although some of them mingle with human society; cows, horses, dogs, etc., are habituated to living under the protection of human beings.</p>
+<p>The word atyantikena is very significant in this verse.</p>
+<p>By development of the mode of goodness of material nature one can become situated in the heavenly planets.</p>
+<p>But by excessive development of the modes of passion and ignorance, the human being indulges in killing the animals who are meant to be protected by mankind.</p>
+<p>Persons who indulge in unnecessary animal killing have excessively developed in the modes of passion and ignorance and have no hope of advancing to the mode of goodness; they are destined to be degraded to lower statuses of life.</p>
+<p>The planetary systems are calculated as upper and lower in terms of the classes of living entities who live there.</p>
+
+
+
+<p><strong>3.6.29</strong></p>
+<p>tartiyena svabhavena</p>
+<p>bhagavan-nabhim asritah</p>
+<p>ubhayor antaram vyoma</p>
+<p>ye rudra-parsadam ganah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tartiyena—by excessive development of the third mode of material nature, the mode of ignorance; svabhavena—by such nature; bhagavat-nabhim—the abdominal navel of the gigantic form of the Personality of Godhead; asritah—those who are so situated; ubhayoh—between the two; antaram—in between; vyoma—the sky; ye—all of whom; rudra-parsadam—associates of Rudra; ganah—population.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Living entities who are associates of Rudra develop in the third mode of material nature, or ignorance.</p>
+<p>They are situated in the sky between the earthly planets and the heavenly planets.</p>
+<p><strong>PURPORT</strong></p>
+<p>This middle portion of the sky is called Bhuvarloka, as confirmed by both Srila Visvanatha Cakravarti and Srila Jiva Gosvami.</p>
+<p>In Bhagavad-gita it is stated that those who develop in the mode of passion are situated in the middle region.</p>
+<p>Those who are situated in the mode of goodness are promoted to the regions of the demigods, those who are situated in the mode of passion are placed in human society, and those who are situated in the mode of ignorance are placed in the society of animals or ghosts.</p>
+<p>There are no contradictions in this conclusion.</p>
+<p>Numerous living entities are distributed all over the universe in different planets and are so situated in terms of their own qualities in the modes of material nature.</p>
+
+
+
+<p><strong>3.6.30</strong></p>
+<p>mukhato ’vartata brahma</p>
+<p>purusasya kurudvaha</p>
+<p>yas tunmukhatvad varnanam</p>
+<p>mukhyo ’bhud brahmano guruh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>mukhatah—from the mouth; avartata—generated; brahma—the Vedic wisdom; purusasya—of the virat-purusa, the gigantic form; kuru-udvaha—O chief of the Kuru dynasty; yah—who are; tu—due to; unmukhatvat—inclined to; varnanam—of the orders of society; mukhyah—the chief; abhut—so became; brahmanah—called the brahmanas; guruh—the recognized teacher or spiritual master.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O chief of the Kuru dynasty, the Vedic wisdom became manifested from the mouth of the virat, the gigantic form.</p>
+<p>Those who are inclined to this Vedic knowledge are called brahmanas, and they are the natural teachers and spiritual masters of all the orders of society.</p>
+<p><strong>PURPORT</strong></p>
+<p>As confirmed in Bhagavad-gita (4.13), the four orders of human society developed with the order of the body of the gigantic form.</p>
+<p>The bodily divisions are the mouth, arms, waist and legs.</p>
+<p>Those who are situated on the mouth are called brahmanas, those who are situated on the arms are called ksatriyas, those who are situated on the waist are called vaisyas, and those who are situated on the legs are called sudras.</p>
+<p>Everyone is situated in the body of the Supreme in His gigantic visva-rupa form.</p>
+<p>In terms of the four orders, therefore, no caste is to be considered degraded because of being situated on a particular part of the body.</p>
+<p>In our own bodies we do not show any actual difference in our treatment towards the hands or legs.</p>
+<p>Each and every part of the body is important, although the mouth is the most important of the bodily parts.</p>
+<p>If other parts are cut off from the body, a man can continue his life, but if the mouth is cut off, one cannot live.</p>
+<p>Therefore, this most important part of the body of the Lord is called the sitting place of the brahmanas, who are inclined to the Vedic wisdom.</p>
+<p>One who is not inclined to the Vedic wisdom but to mundane affairs cannot be called a brahmana, even if he is born of a brahmana family or father.</p>
+<p>To have a brahmana father does not qualify one as a brahmana.</p>
+<p>The main qualification of a brahmana is to be inclined to the Vedic wisdom.</p>
+<p>The Vedas are situated on the mouth of the Lord, and therefore anyone who is inclined to the Vedic wisdom is certainly situated on the mouth of the Lord, and he is a brahmana.</p>
+<p>This inclination towards Vedic wisdom is also not restricted to any particular caste or community.</p>
+<p>Anyone from any family and from any part of the world may become inclined to the Vedic wisdom, and that will qualify him as a real brahmana.</p>
+<p>A real brahmana is the natural teacher or spiritual master.</p>
+<p>Unless one has Vedic knowledge, one cannot become a spiritual master.</p>
+<p>The perfect knowledge of the Vedas is to know the Lord, the Personality of Godhead, and that is the end of Vedic knowledge, or Vedanta.</p>
+<p>One who is situated in the impersonal Brahman and has no information of the Supreme Personality of Godhead may become a brahmana, but he cannot become a spiritual master.</p>
+<p>It is said in the Padma Purana:</p>
+<p>sat-karma-nipuno vipro</p>
+<p>mantra-tantra-visaradah</p>
+<p>avaisnavo gurur na syad</p>
+<p>vaisnavah sva-paco guruh</p>
+<p>An impersonalist can become a qualified brahmana, but he cannot become a spiritual master unless and until he is promoted to the stage of a Vaisnava, or a devotee of the Personality of Godhead.</p>
+<p>Lord Caitanya, the great authority of Vedic wisdom in the modern age, stated:</p>
+<p>kiba vipra, kiba nyasi, sudra kene naya</p>
+<p>yei krsna-tattva-vetta, sei ’guru’ haya</p>
+<p>A person may be a brahmana or a sudra or a sannyasi, but if he happens to be well versed in the science of Krsna, then he is fit to become a spiritual master (Cc.Madhya 8.128) The qualification, then, of a spiritual master is not to be a qualified brahmana, but to be well versed in the science of Krsna.</p>
+<p>One who is conversant with Vedic wisdom is a brahmana.</p>
+<p>And only a brahmana who is a pure Vaisnava and knows all the intricacies of the science of Krsna can become a spiritual master.</p>
+
+
+
+<p><strong>3.6.31</strong></p>
+<p>bahubhyo ’vartata ksatram</p>
+<p>ksatriyas tad anuvratah</p>
+<p>yo jatas trayate varnan</p>
+<p>paurusah kantaka-ksatat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>bahubhyah—from the arms; avartata—generate d; ksatram—the power of protection; ksatriyah—in relation to the power of protection; tat—that; anuvratah—followers; yah—one who; jatah—so becomes; trayate—delivers; varnan—the other occupations; paurusah—representative of the Personality of Godhead; kantaka—of disturbing elements like thieves and debauchees; ksatat—from the mischief.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter the power of protection was generated from the arms of the gigantic virat form, and in relation to such power the ksatriyas also came into existence by following the ksatriya principle of protecting society from the disturbance of thieves and miscreants.</p>
+<p><strong>PURPORT</strong></p>
+<p>As the brahmanas are recognized by their particular qualification of inclination towards the transcendental knowledge of Vedic wisdom, so also the ksatriyas are recognized by the power to protect society from the disturbing elements of thieves and miscreants.</p>
+<p>The word anuvratah is significant.</p>
+<p>A person who follows the ksatriya principles by protecting society from thieves and miscreants is called a ksatriya, not the one who is simply born a ksatriya.</p>
+<p>The conception of the caste system is always based on quality and not on the qualification of birth.</p>
+<p>Birth is an extraneous consideration; it is not the main feature of the orders and divisions.</p>
+<p>In Bhagavad-gita (18.41–44) the qualifications of the brahmanas, ksatriyas, vaisyas and sudras are specifically mentioned, and it is understood that all such qualifications are needed before one can be designated as belonging to a particular group.</p>
+<p>Lord Visnu is always mentioned as the purusa in all Vedic scriptures.</p>
+<p>Sometimes the living entities are also mentioned as purusas, although they are essentially purusa-sakti (para sakti or para prakrti), the superior energy of the purusa.</p>
+<p>Illusioned by the external potency of the purusa (the Lord), the living entities falsely think of themselves as the purusa although they actually have no qualifications.</p>
+<p>The Lord has the power to protect.</p>
+<p>Of the three deities Brahma, Visnu and Mahesvara, the first has the power to create, the second has the power to protect, and the third has the power to destroy.</p>
+<p>The word purusa is significant in this verse because the ksatriyas are expected to represent the purusa Lord in giving protection to the prajas, or all those who are born in the land and water.</p>
+<p>Protection is therefore meant for both man and the animals in modern society the prajas are not protected from the hands of thieves and miscreants.</p>
+<p>The modern democratic state, which has no ksatriyas, is a government of the vaisyas and sudras, and not of brahmanas and ksatriyas as formerly.</p>
+<p>Maharaja Yudhisthira and his grandson, Maharaja Pariksit, were typical ksatriya kings, for they gave protection to all men and animals.</p>
+<p>When the personification of Kali attempted to kill a cow, Maharaja Pariksit at once prepared himself to kill the miscreant, and the personification of Kali was banished from his kingdom.</p>
+<p>That is the sign of purusa, or the representative of Lord Visnu.</p>
+<p>According to Vedic civilization, a qualified ksatriya monarch is given the respect of the Lord because he represents the Lord by giving protection to the prajas.</p>
+<p>Modern elected presidents cannot even give protection from theft cases, and therefore one has to take protection from an insurance company.</p>
+<p>The problems of modern human society are due to the lack of qualified brahmanas and ksatriyas and the overinfluence of the vaisyas and sudras by so-called general franchise.</p>
+
+
+
+<p><strong>3.6.32</strong></p>
+<p>viso ’vartanta tasyorvor</p>
+<p>loka-vrttikarir vibhoh</p>
+<p>vaisyas tad-udbhavo vartam</p>
+<p>nrnam yah samavartayat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>visah—means of living by production and distribution; avartanta—generated; tasya—His (the gigantic form’s); urvoh—from the thighs; loka-vrttikarih—means of livelihood; vibhoh—of the Lord; vaisyah—the mercantile community; tat—their; udbhavah—orientation; vartam—means of living; nrnam—of all men; yah—one who; samavartayat—executed.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The means of livelihood of all persons, namely production of grains and their distribution to the prajas, was generated from the thighs of the Lord’s gigantic form.</p>
+<p>The mercantile men who take charge of such execution are called vaisyas.</p>
+<p><strong>PURPORT</strong></p>
+<p>Human society’s means of living is clearly mentioned here as visa, or agriculture and the business of distributing agricultural products, which involves transport, banking, etc.</p>
+<p>Industry is an artificial means of livelihood, and large-scale industry especially is the source of all the problems of society.</p>
+<p>In Bhagavad-gita also the duties of the vaisyas, who are engaged in visa, are stated as cow protection, agriculture and business.</p>
+<p>We have already discussed that the human being can safely depend on the cow and agricultural land for his livelihood.</p>
+<p>The exchange of produce by banking and transportation is a branch of this type of living.</p>
+<p>The vaisyas are divided into many subsections: some of them are called ksetri, or landowners, some are called krsana, or land tillers, some of them are called tila-vanik, or grain raisers, some are called gandha-vanik, or merchants in spices, and some are called suvarna-vanik, or merchants in gold and banking.</p>
+<p>The brahmanas are the teachers and spiritual masters, the ksatriyas protect the citizens from the hands of thieves and miscreants, and the vaisyas are in charge of production and distribution.</p>
+<p>The sudras, the unintelligent class of men who cannot act independently in any of the above-mentioned activities, are meant for serving the three higher classes for their livelihood.</p>
+<p>Formerly, the brahmanas were given all the necessities of life by the ksatriyas and vaisyas because they had no time to spend making a living.</p>
+<p>The ksatriyas would collect taxes from the vaisyas and sudras, but the brahmanas were exempt from paying income tax or land revenue.</p>
+<p>That system of human society was so nice that there were no political, social and economic upheavals.</p>
+<p>The different castes, or varna classifications, are therefore essential for maintaining a peaceful human society.</p>
+
+
+
+<p><strong>3.6.33</strong></p>
+<p>padbhyam bhagavato jajne</p>
+<p>susrusa dharma-siddhaye</p>
+<p>tasyam jatah pura sudro</p>
+<p>yad-vrttya tusyate harih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>padbhyam—from the legs; bhagavatah—of the Personality of Godhead; jajne—became manifested; susrusa—service; dharma—occupational duty; siddhaye—for the matter of; tasyam—in that; jatah—being generated; pura—formerly; sudrah—the servitors; yat-vrttya—the occupation by which; tusyate—becomes satisfied; harih—the Supreme Personality of Godhead.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, service was manifested from the legs of the Personality of Godhead for the sake of perfecting the religious function.</p>
+<p>Situated on the legs are the sudras, who satisfy the Lord by service.</p>
+<p><strong>PURPORT</strong></p>
+<p>Service is the real constitutional occupation of all living entities.</p>
+<p>The living entities are meant to render service to the Lord, and they can attain religious perfection by this service attitude.</p>
+<p>One cannot attain religious perfection simply by speculating to attain theoretical knowledge.</p>
+<p>The jnani division of spiritualists go on speculating only to distinguish the soul from matter, but they have no information of the activities of the soul after being liberated by knowledge.</p>
+<p>It is said that persons who only mentally speculate to know things as they are and who do not engage in the transcendental loving service of the Lord are simply wasting their time.</p>
+<p>It is clearly said here that the principle of service was generated from the legs of the Lord for the sake of perfecting the religious process, but this transcendental service is different from the idea of service in the material world.</p>
+<p>In the material world, no one wants to be a servant; everyone wants to become the master because false mastership is the basic disease of the conditioned soul.</p>
+<p>The conditioned soul in the material world wants to lord it over others.</p>
+<p>Illusioned by the external energy of the Lord, he is forced to become a servant of the material world.</p>
+<p>That is the real position of the conditioned soul.</p>
+<p>The last snare of the illusory, external energy is the conception of becoming one with the Lord, and due to this conception the illusioned soul remains in the bondage of material energy, falsely thinking himself a liberated soul and as good as Narayana It is actually better to be a sudra than to be a brahmana and not develop the service attitude, because that attitude alone satisfies the Lord.</p>
+<p>Every living being—even if he be a brahmana by qualification—must take to the transcendental service of the Lord.</p>
+<p>Both Bhagavad-gita and the Srimad-Bhagavatam support that this service attitude is the perfection of the living entity.</p>
+<p>A brahmana, ksatriya, vaisya or sudra can perfect his occupational duties only by rendering service unto the Lord.</p>
+<p>A brahmana is supposed to know this fact due to his perfection in Vedic wisdom.</p>
+<p>The other sections are supposed to follow the direction of the brahmana Vaisnava (one who is a brahmana by qualification and a Vaisnava by action).</p>
+<p>That will make the entire society perfect in regard to the order of its social construction.</p>
+<p>A disordered society cannot satisfy either the members of the society or the Lord.</p>
+<p>Even if one is not a perfect brahmana, ksatriya, vaisya or sudra but takes to the service of the Lord, not caring for the perfection of his social position, he becomes a perfect human being simply by developing the attitude of service to the Supreme Lord.</p>
+
+
+
+<p><strong>3.6.34</strong></p>
+<p>ete varnah sva-dharmena</p>
+<p>yajanti sva-gurum harim</p>
+<p>sraddhayatma-visuddhy-artham</p>
+<p>yaj-jatah saha vrttibhih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ete—all these; varnah—orders of society; sva-dharmena—by one’s own occupational duties; yajanti—worship; sva-gurum—with the spiritual master; harim—the Supreme Personality of Godhead; sraddhaya—with faith and devotion; atma—self; visuddhi-artham—for purifying; yat—from whom; jatah—born; saha—along with; vrttibhih—occupational duty.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>All these different social divisions are born, with their occupational duties and living conditions, from the Supreme Personality of Godhead.</p>
+<p>Thus for unconditional life and self-realization one has to worship the Supreme Lord under the direction of the spiritual master.</p>
+<p><strong>PURPORT</strong></p>
+<p>Since they are born from different parts of the body of the Supreme Lord in His gigantic form, all living entities in all parts of the entire universe are supposed to he eternal servitors of the supreme body.</p>
+<p>Every part of our own body, such as the mouth, hands, thighs and legs, is meant to render service to the whole.</p>
+<p>That is their constitutional position.</p>
+<p>In subhuman life the living entities are not conscious of this constitutional position, but in the human form of life they are supposed to know this through the system of the varnas, the social orders.</p>
+<p>As above mentioned, the brahmana is the spiritual master of all the orders of society, and thus brahminical culture, culminating in the transcendental service of the Lord, is the basic principle for purifying the soul.</p>
+<p>In conditioned life the soul is under the impression that he can become the lord of the universe, and the last point of this misconception is to think oneself the Supreme.</p>
+<p>The foolish conditioned soul does not take into account that the Supreme cannot be conditioned by maya, or illusion.</p>
+<p>If the Supreme were to become conditioned by illusion, where would be His supremacy? In that case, maya, or illusion, would be the Supreme.</p>
+<p>Therefore, because the living entities are conditioned, they cannot be supreme.</p>
+<p>The actual position of the conditioned soul is explained in this verse: all the conditioned souls are impure due to contact with the material energy in three modes of nature.</p>
+<p>Therefore it is necessary that they purify themselves under the guidance of the bona fide spiritual master, who not only is a brahmana by qualification but must also be a Vaisnava.</p>
+<p>The only self-purifying process mentioned herein is to worship the Lord under the recognized method—under the guidance of the bona fide spiritual master.</p>
+<p>That is the natural way of purification, and no other method is recommended as bona fide.</p>
+<p>The other methods of purification may be helpful to come to this stage of life, but ultimately one has to come to this last point before he attains actual perfection.</p>
+<p>Bhagavad-gita (7.19) confirms this truth as follows:</p>
+<p>bahunam janmanam ante</p>
+<p>jnanavan mam prapadyate</p>
+<p>vasudevah sarvam iti</p>
+<p>sa mahatma sudurlabhah</p>
+
+
+
+<p><strong>3.6.35</strong></p>
+<p>etat ksattar bhagavato</p>
+<p>daiva-karmatma-rupinah</p>
+<p>kah sraddadhyad upakartum</p>
+<p>yogamaya-balodayam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>etat—this; ksattah—O Vidura; bhagavatah—of the Supreme Personality of Godhead; daiva-karma-atma-rupinah—of the gigantic form of transcendental work, time and nature; kah—who else; sraddadhyat—can aspire; upakartum—measure in totality; yogamaya—internal potency; bala-udayam—manifested by the strength of.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O Vidura, who can estimate or measure the transcendental time, work and potency of the gigantic form manifested by the internal potency of the Supreme Personality of Godhead?</p>
+<p><strong>PURPORT</strong></p>
+<p>The froggish philosophers may go on with their mental speculations on the subject matter of the virat, the gigantic form exhibited by the yogamaya internal potency of the Supreme Personality of Godhead, but factually no one can measure such a vast exhibition.</p>
+<p>In Bhagavad-gita (11.16), Arjuna, the recognized devotee of the Lord, says:</p>
+<p>aneka-bahudara-vaktra-netram</p>
+<p>pasyami tvam sarvato ’nanta-rupam</p>
+<p>nantam na madhyam na punas tavadim</p>
+<p>pasyami visvesvara visva-rupa</p>
+<p>O my Lord, O gigantic visva-rupa form, O master of the universe, I see innumerable hands, bodies, mouths and eyes in all directions, and they are all unlimited.</p>
+<p>I cannot find the end of this manifestation, nor do I see the middle, nor the beginning Bhagavad-gita was specifically spoken to Arjuna, and the visva-rupa was exhibited before him at his request.</p>
+<p>He was awarded the specific eyes to see this visva-rupa, yet although he was able to see the Lord’s innumerable hands and mouths, he was unable to see Him completely.</p>
+<p>Since Arjuna was unable to estimate the length and breadth of the potency of the Lord, who else would be able to do so? One may only indulge in miscalculation like the frog-philosopher.</p>
+<p>The frog-philosopher wanted to estimate the length and breadth of the Pacific Ocean by his experience of a well three cubic feet large, and thus he began to puff himself up to become as big as the Pacific Ocean, but at last he burst and died by this process.</p>
+<p>This story is applicable to the mental philosophers who, under the illusion of the Lord’s external energy, indulge in estimating the length and breadth of the Supreme Lord.</p>
+<p>The best path is to become a cool-headed, submissive devotee of the Lord, try to hear about the Lord from the bona fide spiritual master, and thus serve the Lord in transcendental loving service, as suggested in the previous verse.</p>
+
+
+
+<p><strong>3.6.36</strong></p>
+<p>tathapi kirtayamy anga</p>
+<p>yatha-mati yatha-srutam</p>
+<p>kirtim hareh svam sat-kartum</p>
+<p>giram anyabhidhasatim</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatha—therefore; api—although it is so; kirtayami—I do describe; anga—O Vidura; yatha—as much as; mati—intelligence; yatha—as much as; srutam—heard; kirtim—glories; hareh—of the Lord; svam—own; sat-kartum—just purify; giram—speeches; anyabhidha—otherwise; asatim—unchaste.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In spite of my inability, whatever I have been able to hear (from the spiritual master) and whatever I could assimilate I am now describing in glorification of the Lord by pure speech, for otherwise my power of speaking would remain unchaste.</p>
+<p><strong>PURPORT</strong></p>
+<p>The purification of the conditioned soul necessitates purification of his consciousness.</p>
+<p>By the presence of consciousness, the presence of the transcendental soul is verified, and as soon as consciousness leaves the body, the material body is not active.</p>
+<p>Consciousness is perceived, therefore, by activities.</p>
+<p>The theory put forward by empiric philosophers that consciousness can remain in an inactive state is the proof of their poor fund of knowledge.</p>
+<p>One should not become unchaste by stopping the activities of pure consciousness.</p>
+<p>If the activities of pure consciousness are stopped, certainly the conscious living force will be otherwise engaged because unless engaged the consciousness has no standing.</p>
+<p>Consciousness cannot be silent, even for a moment.</p>
+<p>When the body does not act, the consciousness acts in the form of dreams.</p>
+<p>Unconsciousness is artificial; by induced extraneous help it remains for a limited period, but when the intoxication of the drug is finished or when one is awake, the consciousness again acts earnestly.</p>
+<p>Maitreya’s statement is that in order to avoid unchaste conscious activities, he was trying to describe the unlimited glories of the Lord, although he did not have the ability to describe them perfectly.</p>
+<p>This glorification of the Lord is not a product of research, but the result of hearing submissively from the authority of the spiritual master.</p>
+<p>It is also not possible to repeat all that one has heard from his spiritual master, but one can narrate as far as possible by one’s honest endeavor.</p>
+<p>It does not matter whether the Lord’s glories are fully explained or not.</p>
+<p>One must attempt to engage one’s bodily, mental and verbal activities in the transcendental glorification of the Lord, otherwise such activities will remain unchaste and impure.</p>
+<p>The existence of the conditioned soul can be purified only by the method of engaging mind and speech in the service of the Lord.</p>
+<p>The tridandi-sannyasi of the Vaisnava school accepts three rods, representing the vow to engage in the service of the Lord with body, mind and speech, whereas the ekadandi-sannyasi takes the vow to become one with the Supreme.</p>
+<p>Since the Lord is the Absolute, there is no distinction between Him and His glories.</p>
+<p>The glories of the Lord as chanted by the Vaisnava sannyasi are as substantial as the Lord Himself, and thus while glorifying the Lord the devotee becomes one with Him in transcendental interest, although he remains eternally a transcendental servitor.</p>
+<p>This simultaneously one and different position of the devotee makes him eternally purified, and thus his life becomes a complete success.</p>
+
+
+
+<p><strong>3.6.37</strong></p>
+<p>ekanta-labham vacaso nu pumsam</p>
+<p>susloka-mauler guna-vadam ahuh</p>
+<p>srutes ca vidvadbhir upakrtayam</p>
+<p>katha-sudhayam upasamprayogam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>eka-anta—the one which has no comparison; labham—gain; vacasah—by discussions; nu pumsam—after the Supreme Person; susloka—pious; mauleh—activities; guna-vadam—glorification; ahuh—it is so said; sruteh—of the ear; ca—also; vidvadbhih—by the learned; upakrtayam—being so edited; katha-sudhayam—in the nectar of such a transcendental message; upasamprayogam—serves the real purpose, being nearer to.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The highest perfectional gain of humanity is to engage in discussions of the activities and glories of the Pious Actor.</p>
+<p>Such activities are so nicely arranged in writing by the greatly learned sages that the actual purpose of the ear is served just by being near them.</p>
+<p><strong>PURPORT</strong></p>
+<p>The impersonalists are very much afraid of hearing the activities of the Lord because they think that the happiness derived from the transcendental situation of Brahman is the ultimate goal of life; they think that anyone’s activity, even that of the Personality of Godhead, is mundane.</p>
+<p>But the idea of happiness indicated in this verse is different because it relates to the activities of the Supreme Personality, who has transcendental qualities.</p>
+<p>The word guna-vadam is significant because the qualities of the Lord and His activities and pastimes are the subject matter for the discussions of devotees.</p>
+<p>A rsi like Maitreya is certainly not interested in discussing anything pertaining to mundane qualities, yet he says that the highest perfectional stage of transcendental realization is to discuss the Lord’s activities.</p>
+<p>Srila Jiva Gosvami, therefore, concludes that topics regarding the transcendental activities of the Lord are far beyond the transcendental realization of kaivalya happiness.</p>
+<p>These transcendental activities of the Lord are so arranged in writing by the great sages that simply by hearing of those narrations one becomes perfectly self-realized, and the proper use of the ear and the tongue is also achieved.</p>
+<p>Srimad-Bhagavatam is one of such great literatures, and the highest perfectional state of life is attained simply by hearing and reciting its contents.</p>
+
+
+
+<p><strong>3.6.38</strong></p>
+<p>atmano ’vasito vatsa</p>
+<p>mahima kavinadina</p>
+<p>samvatsara-sahasrante</p>
+<p>dhiya yoga-vipakkaya</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atmanah—of the Supreme Soul; avasitah—known; vatsa—O my dear son; mahima—glories; kavina—by the poet Brahma; adina—original; samvatsara—celestial years; sahasra-ante—at the end of one thousand; dhiya—by intelligence; yoga-vipakkaya—by matured meditation.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O my son, the original poet, Brahma, after mature meditation for one thousand celestial years, could know only that the glories of the Supreme Soul are inconceivable.</p>
+<p><strong>PURPORT</strong></p>
+<p>There are some froggish philosophers who want to know the Supreme Soul by means of philosophy and mental speculation.</p>
+<p>And when the devotees, who are to some extent in knowledge of the Supreme Lord, admit that the glories of the Lord are inestimable or inconceivable, the froggish philosophers adversely criticize them.</p>
+<p>These philosophers, like the frog in the well who tried to estimate the measurement of the Pacific Ocean, like to take trouble over fruitless mental speculation instead of taking instructions from devotees like the original poet, namely, Brahma.</p>
+<p>Lord Brahma underwent a severe type of meditation for one thousand celestial years, yet he said that the glories of the Lord are inconceivable.</p>
+<p>Therefore what can the froggish philosophers hope to gain from their mental speculations? It is said in the Brahma-samhita that the mental speculator may fly through the sky of speculation with the velocity of the mind or the wind for thousands of millions of years, and still he will find it inconceivable.</p>
+<p>The devotees, however, do not waste time in such vain searching after knowledge of the Supreme, but they submissively hear the glories of the Lord from bona fide devotees.</p>
+<p>Thus they transcendentally enjoy the process of hearing and chanting.</p>
+<p>The Lord approves of the devotional activities of the devotees or mahatmas, and He says:</p>
+<p>mahatmanas tu mam partha</p>
+<p>daivim prakrtim asritah</p>
+<p>bhajanty ananya-manaso</p>
+<p>jnatva bhutadim avyayam</p>
+<p>satatam kirtayanto mam</p>
+<p>yatantas ca drdha-vratah</p>
+<p>namasyantas ca mam bhaktya</p>
+<p>nitya-yukta upasate</p>
+<p>(Bg.9.13–14)</p>
+<p>The pure devotees of the Lord take shelter of the para prakrti, the internal potency of the Lord called Laksmidevi, Sitadevi, Srimati Radharani or Srimati Rukminidevi, and thus they become actual mahatmas, or great souls.</p>
+<p>Mahatma are not fond of indulging in mental speculations, but they actually take to the devotional service of the Lord, without the slightest deviation.</p>
+<p>Devotional service is manifested by the primary process of hearing and chanting about the activities of the Lord.</p>
+<p>This transcendental method practiced by the mahatmas gives them sufficient knowledge of the Lord because if the Lord can at all be known to some extent, it is only through the means of devotional service and no other way.</p>
+<p>One may go on speculating and waste the valuable time of his human life, but that will not help anyone to enter into the precincts of the Lord.</p>
+<p>The mahatmas, however, are not concerned with knowing the Lord by mental speculation because they enjoy hearing about His glorious activities in His transcendental dealings with His devotees or with the demons.</p>
+<p>The devotees take pleasure in both and are happy in this life and the life after.</p>
+
+
+
+<p><strong>3.6.39</strong></p>
+<p>ato bhagavato maya</p>
+<p>mayinam api mohini</p>
+<p>yat svayam catma-vartmatma</p>
+<p>na veda kim utapare</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atah—therefore; bhagavatah—godly; maya—potencies; mayinam—of the jugglers; api—even; mohini—enchanting; yat—that which; svayam—personally; ca—also; atma-vartma—self-sufficient; atma—self; na—does not; veda—know; kim—what; uta—to speak of; apare—others.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The wonderful potency of the Supreme Personality of Godhead is bewildering even to the jugglers.</p>
+<p>That potential power is unknown even to the self-sufficient Lord, so it is certainly unknown to others.</p>
+<p><strong>PURPORT</strong></p>
+<p>The froggish philosophers and mundane wranglers in science and mathematical calculation may not believe in the inconceivable potency of the Supreme Personality of Godhead, but they are sometimes puzzled by the wonderful jugglery of man and nature.</p>
+<p>Such jugglers and magicians of the mundane world are actually puzzled by the jugglery of the Lord in His transcendental activities, but they try to adjust their bewilderment by saying that it is all mythology.</p>
+<p>There is, however, nothing impossible or mythological in the Supreme Omnipotent Person.</p>
+<p>The most wonderful puzzle for the mundane wranglers is that while they remain calculating the length and breadth of the unlimited potency of the Supreme Person, His faithful devotees are set free from the bondage of material encagement simply by appreciating the wonderful jugglery of the Supreme in the practical field.</p>
+<p>The devotees of the Lord see the wonderful dexterity in everything with which they come in contact in all circumstances of eating, sleeping, working, etc.</p>
+<p>A small banyan fruit contains thousands of small seeds, and each seed holds the potency of another tree, which again holds the potency of many millions of such fruits as causes and effects.</p>
+<p>So the trees and seeds engage the devotees in meditation about the activities of the Lord, while the mundane wranglers waste time in dry speculation and mental concoction, which are fruitless in both this life and the next.</p>
+<p>In spite of their pride in speculation, they can never appreciate the simple potential activities of the banyan tree.</p>
+<p>Such speculators are poor souls destined to remain in matter perpetually.</p>
+
+
+
+<p><strong>3.6.40</strong></p>
+<p>yato ’prapya nyavartanta</p>
+<p>vacas ca manasa saha</p>
+<p>aham canya ime devas</p>
+<p>tasmai bhagavate namah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yatah—from whom; aprapya—being unable to measure; nyavartanta—cease to try; vacah—words; ca—also; manasa—with the mind; saha—with; aham ca—also the ego; anye—other; ime—all these; devah—demigods; tasmai—unto Him; bhagavate—unto the Personality of Godhead; namah—offer obeisances.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Words, mind and ego, with their respective controlling demigods, have failed to achieve success in knowing the Supreme Personality of Godhead.</p>
+<p>Therefore, we simply have to offer our respectful obeisances unto Him as a matter of sanity.</p>
+<p><strong>PURPORT</strong></p>
+<p>The froggish calculator may raise the objection that if the Absolute is unknowable even by the controlling deities of speech, mind and ego, namely the Vedas, Brahma, Rudra and all the demigods headed by Brhaspati, then why should the devotees be so interested in this unknown object? The answer is that the transcendental ecstasy enjoyed by the devotees in delineating the pastimes of the Lord is certainly unknown to nondevotees and mental speculators.</p>
+<p>Unless one relishes transcendental joy, naturally one will come back from his speculations and concocted conclusions because he will see them as neither factual nor enjoyable.</p>
+<p>The devotees can at least know that the Absolute Truth is the Supreme Personality of Godhead Visnu, as the Vedic hymns confirm: om tad visnoh paramam padam sada pasyanti surayah.</p>
+<p>Bhagavad-gita (15.15) also confirms this fact: vedais ca sarvair aham eva vedyah.</p>
+<p>By culture of Vedic knowledge one must know Lord Krsna and should not falsely speculate on the word aham, or I The only method for understanding the Supreme Truth is devotional service, as stated in Bhagavad-gita (18.55): bhaktya mam abhijanati yavan yas casmi tattvatah.</p>
+<p>Only by devotional service can one know that the ultimate truth is the Personality of Godhead and that Brahman and Paramatma are only His partial features.</p>
+<p>This is confirmed in this verse by the great sage Maitreya.</p>
+<p>With devotion he offers his sincere surrender, namah, to the Supreme Personality of Godhead, bhagavate.</p>
+<p>One has to follow in the footsteps of great sages and devotees like Maitreya and Vidura, Maharaja Pariksit and Sukadeva Gosvami, and engage in the transcendental devotional service of the Lord if one would know His ultimate feature, which is above Brahman and Paramatma.</p>
+
+
+</article></body></html>

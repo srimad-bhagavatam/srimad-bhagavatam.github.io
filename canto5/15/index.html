@@ -1,155 +1,42 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>The Glories of the Descendants of King Priyavrata - The Glories of the Descendants of King Priyavrata</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">The Glories of the Descendants of King Priyavrata</a></li><li class="affix"><a href="5.15.2.html">5.15.2</a></li><li class="affix"><a href="5.15.3.html">5.15.3</a></li><li class="affix"><a href="5.15.4.html">5.15.4</a></li><li class="affix"><a href="5.15.5.html">5.15.5</a></li><li class="affix"><a href="5.15.6.html">5.15.6</a></li><li class="affix"><a href="5.15.7.html">5.15.7</a></li><li class="affix"><a href="5.15.8.html">5.15.8</a></li><li class="affix"><a href="5.15.9.html">5.15.9</a></li><li class="affix"><a href="5.15.10.html">5.15.10</a></li><li class="affix"><a href="5.15.11.html">5.15.11</a></li><li class="affix"><a href="5.15.12.html">5.15.12</a></li><li class="affix"><a href="5.15.13.html">5.15.13</a></li><li class="affix"><a href="5.15.14-15.html">5.15.14-15</a></li><li class="affix"><a href="5.15.16.html">5.15.16</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">The Glories of the Descendants of King Priyavrata</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#the-glories-of-the-descendants-of-king-priyavrata" id="the-glories-of-the-descendants-of-king-priyavrata">The Glories of the Descendants of King Priyavrata</a></h1>
-<h2><a class="header" href="#summary" id="summary">Summary</a></h2>
-<h3><a class="header" href="#515" id="515">5.15</a></h3>
+<h1>The Glories of the Descendants of King Priyavrata</h1>
+<h2>Summary</h2>
+<p><strong>5.15</strong></p>
 <p>In this chapter the descendants of Bharata Maharaja and many other kings are described.</p>
 <p>The son of Maharaja Bharata was named Sumati.</p>
 <p>He followed the path of liberation given by Rsabhadeva.</p>
@@ -169,7 +56,7 @@
 <p>The son of Bhauvana was Tvasta, and the son of Tvasta was Viraja, who glorified the whole dynasty.</p>
 <p>Viraja had one hundred sons and one daughter.</p>
 <p>Of these, the son named Satajit became very famous.</p>
-<h3><a class="header" href="#5151" id="5151">5.15.1</a></h3>
+<p><strong>5.15.1</strong></p>
 <p>sri-suka uvaca</p>
 <p>bharatasyatmajah sumatir namabhihito yam u ha vava kecit pakhandina rsabha-padavim anuvartamanam canarya aveda-samamnatam devatam sva-manisaya papiyasya kalau kalpayisyanti.</p>
 <p><strong>SYNONYMS</strong></p>
@@ -194,63 +81,265 @@
 <p>Therefore he preached in a duplicitous way, saying that there is no God.</p>
 <p>Nonetheless, he himself was an incarnation of God.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="5.15.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>5.15.2</strong></p>
+<p>tasmad vrddhasenayam devatajin-nama putro ’bhavat.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasmat—from Sumati; vrddha-senayam—in the womb of his wife, named Vrddhasena; devatajit-nama—named Devatajit; putrah—a son; abhavat—was born.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>From Sumati, a son named Devatajit was born by the womb of his wife named Vrddhasena.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="5.15.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>5.15.3</strong></p>
+<p>athasuryam tat-tanayo devadyumnas tato dhenumatyam sutah paramesthi tasya suvarcalayam pratiha upajatah.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atha—thereafter; asuryam—in the womb of his wife, named Asuri; tat-tanayah—one son of Devatajit; deva-dyumnah—named Devadyumna; tatah—from Devadyumna; dhenu-matyam—in the womb of Dhenumati, the wife of Devadyumna; sutah—one son; paramesthi—named Paramesthi; tasya—of Paramesthi; suvarcalayam—in the womb of his wife, named Suvarcala; pratihah—the son named Pratiha; upajatah—appeared.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, in the womb of Asuri, the wife of Devatajit, a son named Devadyumna was begotten.</p>
+<p>Devadyumna begot in the womb of his wife, Dhenumati, a son named Paramesthi.</p>
+<p>Paramesthi begot a son named Pratiha in the womb of his wife, Suvarcala.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>5.15.4</strong></p>
+<p>ya atma-vidyam akhyaya svayam samsuddho maha-purusam anusasmara.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—who (King Pratiha); atma-vidyam akhyaya—after instructing many people about self-realization; svayam—personally; samsuddhah—being very advanced and purified in self-realization; maha-purusam—the Supreme Personality of Godhead, Visnu; anusasmara—perfectly understood and always remembered.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>King Pratiha personally propagated the principles of self-realization.</p>
+<p>In this way, not only was he purified, but he became a great devotee of the Supreme Person, Lord Visnu, and directly realized Him.</p>
+<p><strong>PURPORT</strong></p>
+<p>The word anusasmara is very significant.</p>
+<p>God consciousness is not imaginary or concocted.</p>
+<p>The devotee who is pure and advanced realizes God as He is.</p>
+<p>Maharaja Pratiha did so, and due to his direct realization of Lord Visnu, he propagated self-realization and became a preacher.</p>
+<p>A real preacher cannot be bogus; he must first of all realize Lord Visnu as He is.</p>
+<p>As confirmed in Bhagavad-gita (4.34), upadeksyanti te jnanam jnaninas tattva-darsinah: one who has seen the truth can impart knowledge The word tattva-darsi refers to one who has perfectly realized the Supreme Personality of Godhead.</p>
+<p>Such a person can become a guru and propound Vaisnava philosophy all over the world.</p>
+<p>The paragon of bona fide preachers and guru is King Pratiha.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>5.15.5</strong></p>
+<p>pratihat suvarcalayam pratihartradayas traya asann ijya-kovidah sunavah pratihartuh stutyam aja-bhumanav ajanisatam.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>pratihat—from King Pratiha; suvarcalayam—in the womb of his wife, named Suvarcala; pratihartr-adayah trayah—the three sons Pratiharta, Prastota and Udgata; asan—came into being; ijya-kovidah—who were all very expert in the ritualistic ceremonies of the Vedas; sunavah—sons; pratihartuh—from Pratiharta; stutyam—in the womb of Stuti, his wife; aja-bhumanau—the two sons Aja and Bhuma; ajanisatam—were brought into existence.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In the womb of his wife Suvarcala, Pratiha begot three sons, named Pratiharta, Prastota and Udgata.</p>
+<p>These three sons were very expert in performing Vedic rituals.</p>
+<p>Pratiharta begot two sons, named Aja and Bhuma, in the womb of his wife, named Stuti.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>5.15.6</strong></p>
+<p>bhumna rsikulyayam udgithas tatah prastavo devakulyayam prastavan niyutsayam hrdayaja asid vibhur vibho ratyam ca prthusenas tasman nakta akutyam jajne naktad druti-putro gayo rajarsi-pravara udara-srava ajayata saksad bhagavato visnor jagad-riraksisaya grhita-sattvasya kalatmavattvadi-laksanena maha-purusatam praptah.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>bhumnah—from King Bhuma; rsi-kulyayam—in the womb of his wife, named Rsikulya; udgithah—the son named Udgitha; tatah—again from King Udgitha; prastavah—the son named Prastava; deva-kulyayam—his wife, named Devakulya; prastavat—from King Prastava; niyutsayam—in his wife, named Niyutsa; hrdaya-jah—the son; asit—was begotten; vibhuh—named Vibhu; vibhoh—from King Vibhu; ratyam—in his wife, named Rati; ca—also; prthu-senah—named Prthusena; tasmat—from him (King Prthusena); naktah—a son named Nakta; akutyam—in his wife, named Akuti; jajne—was begotten; naktat—from King Nakta; druti-putrah—a son in the womb of Druti; gayah—named King Gaya; raja-rsi-pravarah—most exalted among the saintly royal order; udara-sravah—famous as a very pious king; ajayata—was born; saksat bhagavatah—of the Supreme Personality of Godhead directly; visnoh—of Lord Visnu; jagat-rirak-sisaya—for the purpose of giving protection to the whole world; grhita—who is conceived; sattvasya—in the suddha-sattva qualities; kala-atma-vattva-adi—of being a direct incarnation of the Lord; laksanena—by symptoms; maha-purusatam—the chief quality of being the leader of the human society (exactly like the chief leader of all living beings, Lord Visnu); praptah—achieved.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In the womb of his wife, Rsikulya, King Bhuma begot a son named Udgitha.</p>
+<p>From Udgitha’s wife, Devakulya, a son named Prastava was born, and Prastava begot a son named Vibhu through his wife, Niyutsa.</p>
+<p>In the womb of his wife, Rati, Vibhu begot a son named Prthusena.</p>
+<p>Prthusena begot a son named Nakta in the womb of his wife, named Akuti.</p>
+<p>Nakta’s wife was Druti, and from her womb the great King Gaya was born.</p>
+<p>Gaya was very famous and pious; he was the best of saintly kings.</p>
+<p>Lord Visnu and His expansions, who are meant to protect the universe, are always situated in the transcendental mode of goodness, known as visuddha-sattva.</p>
+<p>Being the direct expansion of Lord Visnu, King Gaya was also situated in the visuddha-sattva.</p>
+<p>Because of this, Maharaja Gaya was fully equipped with transcendental knowledge.</p>
+<p>Therefore he was called Mahapurusa.</p>
+<p><strong>PURPORT</strong></p>
+<p>From this verse it appears that the incarnations of God are various.</p>
+<p>Some are part and parcel of the direct expansions, and some are direct expansions of Lord Visnu.</p>
+<p>A direct incarnation of the Supreme Personality of Godhead is called amsa or svamsa, whereas an incarnation from amsa is called kala.</p>
+<p>Among the kalas there are the vibhinnamsa-jivas, or living entities.</p>
+<p>These are counted among the jiva-tattvas.</p>
+<p>Those who come directly from Lord Visnu are called visnu-tattva and are sometimes designated as Mahapurusa.</p>
+<p>Another name for Krsna is Mahapurusa, and a devotee is sometimes called maha-paurusika.</p>
+
+
+
+<p><strong>5.15.7</strong></p>
+<p>sa vai sva-dharmena praja-palana-posana-prinanopalalananusasana-laksanenejyadina ca bhagavati maha-puruse paravare brahmani sarvatmanarpita-paramartha-laksanena brahmavic-carananusevayapadita-bhagavad-bhakti-yogena cabhiksnasah paribhavitati-suddha-matir uparatanatmya atmani svayam upalabhyamana-brahmatmanubhavo ’pi nirabhimana evavanim ajugupat.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—that King Gaya; vai—indeed; sva-dharmena—by his own duty; praja-palana—of protecting the subjects; posana—of maintaining them; prinana—of making them happy in all respects; upalalana—of treating them as sons; anusasana—of sometimes chastising them for their mistakes; laksanena—by the symptoms of a king; ijya-adina—by performing the ritualistic ceremonies as recommended in the Vedas; ca—also; bhagavati—unto the Supreme Personality of Godhead, Visnu; maha-puruse—the chief of all living entities; para-avare—the source of all living entities, from the highest, Lord Brahma, to the lowest, like the insignificant ants; brahmani—unto Parabrahman, the Supreme Personality of Godhead, Vasudeva; sarva-atmana—in all respects; arpita—of being surrendered; parama-artha-laksanena—with spiritual symptoms; brahma-vit—of self-realized, saintly devotees; carana-anusevaya—by the service of the lotus feet; apadita—achieved; bhagavat-bhakti-yogena—by the practice of devotional service to the Lord; ca—also; abhiksnasah—continuously; paribhavita—saturated; ati-suddha-matih—whose completely pure consciousness (full realization that the body and mind are separate from the soul); uparata-anatmye—wherein identification with material things was stopped; atmani—in his own self; svayam—personally; upalabhyamana—being realized; brahma-atma-anubhavah—perception of his own position as the Supreme Spirit; api—although; nirabhimanah—without false prestige; eva—in this way; avanim—the whole world; ajugupat—ruled strictly according to the Vedic principles.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>King Gaya gave full protection and security to the citizens so that their personal property would not be disturbed by undesirable elements.</p>
+<p>He also saw that there was sufficient food to feed all the citizens (This is called posana.) He would sometimes distribute gifts to the citizens to satisfy them (This is called prinana.) He would sometimes call meetings and satisfy the citizens with sweet words (This is called upalalana.) He would also give them good instructions on how to become first-class citizens (This is called anusasana.) Such were the characteristics of King Gaya’s royal order.</p>
+<p>Besides all this, King Gaya was a householder who strictly observed the rules and regulations of household life.</p>
+<p>He performed sacrifices and was an unalloyed pure devotee of the Supreme Personality of Godhead.</p>
+<p>He was called Mahapurusa because as a king he gave the citizens all facilities, and as a householder he executed all his duties so that at the end he became a strict devotee of the Supreme Lord.</p>
+<p>As a devotee, he was always ready to give respect to other devotees and to engage in the devotional service of the Lord.</p>
+<p>This is the bhakti-yoga process.</p>
+<p>Due to all these transcendental activities, King Gaya was always free from the bodily conception.</p>
+<p>He was full in Brahman realization, and consequently he was always jubilant.</p>
+<p>He did not experience material lamentation.</p>
+<p>Although he was perfect in all respects, he was not proud, nor was he anxious to rule the kingdom.</p>
+<p><strong>PURPORT</strong></p>
+<p>As Lord Krsna states in Bhagavad-gita, when He descends on earth, He has two types of business—to give protection to the faithful and annihilate the demons (paritranaya sadhunam vinasaya ca duskrtam (Bg.4.8)).</p>
+<p>Since the king is the representative of the Supreme Personality of Godhead, he is sometimes called nara-deva, that is, the Lord as a human being.</p>
+<p>According to the Vedic injunctions, he is worshiped as God on the material platform.</p>
+<p>As a representative of the Supreme Lord, the king had the duty to protect the citizens in a perfect way so that they would not be anxious for food and protection and so that they would be jubilant.</p>
+<p>The king would supply everything for their benefit, and because of this he would levy taxes.</p>
+<p>If the king or government otherwise levies taxes on the citizens, he becomes responsible for the sinful activities of the citizens.</p>
+<p>In Kali-yuga, monarchy is abolished because the kings themselves are subjected to the influence of Kali-yuga.</p>
+<p>It is understood from the Ramayana that when Bibhisana became friends with Lord Ramacandra, he promised that if by chance or will he broke the laws of friendship with Lord Ramacandra, he would become a brahmana or a king in Kali-yuga.</p>
+<p>In this age, as Bibhisana indicated, both brahmanas and kings are in a wretched condition.</p>
+<p>Actually there are no kings or brahmanas in this age, and due to their absence the whole world is in a chaotic condition and is always in distress.</p>
+<p>Compared to present standards, Maharaja Gaya was a true representative of Lord Visnu; therefore he was known as Mahapurusa.</p>
+
+
+
+<p><strong>5.15.8</strong></p>
+<p>tasyemam gatham pandaveya puravida upagayanti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasya—of King Gaya; imam—these; gatham—poetic verses of glorification; pandaveya—O Maharaja Pariksit; pura-vidah—those learned in the historical events of the puranas; upagayanti—sing.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear King Pariksit, those who are learned scholars in the histories of the Puranas eulogize and glorify King Gaya with the following verses.</p>
+<p><strong>PURPORT</strong></p>
+<p>The historical references to exalted kings serve as a good example for present rulers.</p>
+<p>Those who are ruling the world at the present moment should take lessons from King Gaya, King Yudhisthira and King Prthu and rule the citizens so that they will be happy presently the governments are levying taxes without improving the citizens in any cultural, religious, social or political way.</p>
+<p>According to the Vedas, this is not recommended.</p>
+
+
+
+<p><strong>5.15.9</strong></p>
+<p>gayam nrpah kah pratiyati karmabhir</p>
+<p>yajvabhimani bahuvid dharma-gopta</p>
+<p>samagata-srih sadasas-patih satam</p>
+<p>sat-sevako ’nyo bhagavat-kalam rte</p>
+<p><strong>SYNONYMS</strong></p>
+<p>gayam—King Gaya; nrpah—king; kah—who; pratiyati—is a match for; karmabhih—by his execution of ritualistic ceremonies; yajva—who performed all sacrifices; abhimani—so widely respected all over the world; bahu-vit—fully aware of the conclusion of Vedic literature; dharma-gopta—protector of the occupational duties of everyone; samagata-srih—possessing all kinds of opulence; sadasah-patih satam—the dean of the assembly of great persons; sat-sevakah—servant of the devotees; anyah—anyone else; bhagavat-kalam—the plenary incarnation of the Supreme Personality of Godhead; rte—besides.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The great King Gaya used to perform all kinds of Vedic rituals.</p>
+<p>He was highly intelligent and expert in studying all the Vedic literatures.</p>
+<p>He maintained the religious principles and possessed all kinds of opulence.</p>
+<p>He was a leader among gentlemen and a servant of the devotees.</p>
+<p>He was a totally qualified plenary expansion of the Supreme Personality of Godhead.</p>
+
+
+
+<p><strong>5.15.10</strong></p>
+<p>yam abhyasincan paraya muda satih</p>
+<p>satyasiso daksa-kanyah saridbhih</p>
+<p>yasya prajanam duduhe dharasiso</p>
+<p>nirasiso guna-vatsa-snutodhah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yam—whom; abhyasincan—bathed; paraya—with great; muda—satisfaction; satih—all chaste and devoted to their husbands; satya—true; asisah—whose blessings; daksa-kanyah—the daughters of King Daksa; saridbhih—with sanctified water; yasya—whose; prajanam—of the citizens; duduhe—fulfilled; dhara—the planet earth; asisah—of all desires; nirasisah—although personally having no desire; guna-vatsa-snuta-udhah—earth becoming like a cow whose udders flowed upon seeing Gaya’s qualities in ruling over the citizens.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>All the chaste and honest daughters of Maharaja Daksa, such as Sraddha, Maitri and Daya, whose blessings were always effective, bathed Maharaja Gaya with sanctified water.</p>
+<p>Indeed, they were very satisfied with Maharaja Gaya.</p>
+<p>The planet earth personified came as a cow, and, as though she saw her calf, she delivered milk profusely when she saw all the good qualities of Maharaja Gaya.</p>
+<p>In other words, Maharaja Gaya was able to derive all benefits from the earth and thus satisfy the desires of his citizens.</p>
+<p>However, he personally had no desire.</p>
+<p><strong>PURPORT</strong></p>
+<p>The earth over which Maharaja Gaya ruled is compared to a cow.</p>
+<p>The good qualities whereby he maintained and ruled the citizens are compared to the calf.</p>
+<p>A cow delivers milk in the presence of her calf; similarly the cow, or earth, fulfilled the desires of Maharaja Gaya, who was able to utilize all the resources of the earth to benefit his citizens.</p>
+<p>This was possible because he was bathed in sanctified water by the honest daughters of Daksa.</p>
+<p>Unless a king or ruler is blessed by authorities, he cannot rule the citizens very satisfactorily.</p>
+<p>Through the good qualities of the ruler, the citizens become very happy and well qualified.</p>
+
+
+
+<p><strong>5.15.11</strong></p>
+<p>chandamsy akamasya ca yasya kaman</p>
+<p>duduhur ajahrur atho balim nrpah</p>
+<p>pratyancita yudhi dharmena vipra</p>
+<p>yadasisam sastham amsam paretya</p>
+<p><strong>SYNONYMS</strong></p>
+<p>chandamsi—all the different parts of the Vedas; akamasya—of one who has no desire for personal sense gratification; ca—also; yasya—whose; kaman—all desirables; duduhuh—yielded; ajahruh—offered; atho—thus; balim—presentation; nrpah—all the kings; pratyancitah—being satisfied by his fighting in opposition; yudhi—in the war; dharmena—by religious principles; viprah—all the brahmanas; yada—when; asisam—of blessings; sastham amsam—one sixth; paretya—in the next life.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Although King Gaya had no personal desire for sense gratification, all his desires were fulfilled by virtue of his performance of Vedic rituals.</p>
+<p>All the kings with whom Maharaja Gaya had to fight were forced to fight on religious principles.</p>
+<p>They were very satisfied with his fighting, and they would present all kinds of gifts to him.</p>
+<p>Similarly, all the brahmanas in his kingdom were very satisfied with King Gaya’s munificent charities.</p>
+<p>Consequently the brahmanas contributed a sixth of their pious activities for King Gaya’s benefit in the next life.</p>
+<p><strong>PURPORT</strong></p>
+<p>As a ksatriya or emperor, Maharaja Gaya sometimes had to fight with subordinate kings to maintain his government, but the subordinate kings were not dissatisfied with him because they knew that he fought for religious principles.</p>
+<p>Consequently they accepted their subordination and offered all kinds of gifts to him.</p>
+<p>Similarly, the brahmanas who performed Vedic rituals were so satisfied with the King that they very readily agreed to part with a sixth of their pious activities for his benefit in the next life.</p>
+<p>Thus the brahmanas and ksatriyas were all satisfied with Maharaja Gaya because of his proper administration.</p>
+<p>In other words.</p>
+<p>Maharaja Gaya satisfied the ksatriya kings by his fighting and satisfied the brahmanas by his charities.</p>
+<p>The vaisyas were also encouraged by kind words and affectionate dealings, and due to Maharaja Gaya’s constant sacrifices, the sudras were satisfied by sumptuous food and charity.</p>
+<p>In this way Maharaja Gaya kept all the citizens very satisfied.</p>
+<p>When brahmanas and saintly persons are honored, they part with their pious activities, giving them to those who honor them and render them service.</p>
+<p>Therefore, as stated in Bhagavad-gita (4.34), tad viddhi pranipatena pariprasnena sevaya: one should try to approach a spiritual master submissively and render service unto him.</p>
+
+
+
+<p><strong>5.15.12</strong></p>
+<p>yasyadhvare bhagavan adhvaratma</p>
+<p>maghoni madyaty uru-soma-pithe</p>
+<p>sraddha-visuddhacala-bhakti-yoga-</p>
+<p>samarpitejya-phalam ajahara</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yasya—of whom (King Gaya); adhvare—in his different sacrifices; bhagavan—the Supreme Personality of Godhead; adhvara-atma—the supreme enjoyer of all sacrifices, the yajna-purusa; maghoni—when King Indra; madyati—intoxicated; uru—greatly; soma-pithe—drinking the intoxicant called soma; sraddha—by devotion; visuddha—purified; acala—and steady; bhakti-yoga—by devotional service; samarpita—offered; ijya—of worshiping; phalam—the result; ajahara—accepted personally.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In Maharaja Gaya’s sacrifices, there was a great supply of the intoxicant known as soma.</p>
+<p>King Indra used to come and become intoxicated by drinking large quantities of soma-rasa.</p>
+<p>Also, the Supreme Personality of Godhead, Lord Visnu (the yajna-purusa) also came and personally accepted all the sacrifices offered unto Him with pure and firm devotion in the sacrificial arena.</p>
+<p><strong>PURPORT</strong></p>
+<p>Maharaja Gaya was so perfect that he satisfied all the demigods, who were headed by the heavenly King Indra.</p>
+<p>Lord Visnu Himself also personally came to the sacrificial arena to accept the offerings.</p>
+<p>Although Maharaja Gaya did not want them, he received all the blessings of the demigods and the Supreme Lord Himself.</p>
+
+
+
+<p><strong>5.15.13</strong></p>
+<p>yat-prinanad barhisi deva-tiryan-</p>
+<p>manusya-virut-trnam avirincat</p>
+<p>priyeta sadyah sa ha visva-jivah</p>
+<p>pritah svayam pritim agad gayasya</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yat-prinanat—because of pleasing the Supreme Personality of Godhead; barhisi—in the sacrificial arena; deva-tiryak—the demigods and lower animals; manusya—human society; virut—the plants and trees; trnam—the grass; a-virincat—beginning from Lord Brahma; priyeta—becomes satisfied; sadyah—immediately; sah—that Supreme Personality of Godhead; ha—indeed; visva-jivah—maintains the living entities all over the universe; pritah—although naturally satisfied; svayam—personally; pritim—satisfaction; agat—he obtained; gayasya—of Maharaja Gaya.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When the Supreme Lord is pleased by a person’s actions, automatically all the demigods, human beings, animals, birds, bees, creepers, trees, grass and all other living entities, beginning with Lord Brahma, are pleased.</p>
+<p>The Supreme Personality of Godhead is the Supersoul of everyone, and He is by nature fully pleased.</p>
+<p>Nonetheless, He came to the arena of Maharaja Gaya and said, I am fully pleased</p>
+<p><strong>PURPORT</strong></p>
+<p>It is explicitly stated herein that simply by satisfying the Supreme Personality of Godhead, one satisfies the demigods and all other living entities without differentiation.</p>
+<p>If one pours water on the root of a tree, all the branches, twigs, flowers and leaves are nourished.</p>
+<p>Although the Supreme Lord is self-satisfied, He was so pleased with the behavior of Maharaja Gaya that He personally came to the sacrificial arena and said, I am fully satisfied Who can compare to Maharaja Gaya?</p>
+
+
+
+<p><strong>5.15.14-15</strong></p>
+<p>gayad gayantyam citrarathah sugatir avarodhana iti trayah putra babhuvus citrarathad urnayam samrad ajanista; tata utkalayam maricir maricer bindumatyam bindum anudapadyata tasmat saraghayam madhur namabhavan madhoh sumanasi viravratas tato bhojayam manthu-pramanthu jajnate manthoh satyayam bhauvanas tato dusanayam tvastajanista tvastur virocanayam virajo virajasya satajit-pravaram putra-satam kanya ca visucyam kila jatam.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>gayat—from Maharaja Gaya; gayantyam—in his wife, named Gayanti; citra-rathah—named Citraratha; sugatih—named Sugati; avarodhanah—named Avarodhana; iti—thus; trayah—three; putrah—sons; babhuvuh—were born; citrarathat—from Citraratha; urnayam—in the womb of Urna; samrat—named Samrat; ajanista—was born; tatah—from him; utkalayam—in his wife named Utkala; maricih—named Marici; mariceh—from Marici; bindu-matyam—in the womb of his wife Bindumati; bindum—a son named Bindu; anudapadyata—was born; tasmat—from him; saraghayam—in the womb of his wife Saragha; madhuh—Madhu; nama—named; abhavat—was born; madhoh—from Madhu; sumanasi—in the womb of his wife, Sumana; vira-vratah—a son named Viravrata; tatah—from Viravrata; bhojayam—in the womb of his wife Bhoja; manthu-pramanthu—two sons named Manthu and Pramanthu; jajnate—were born; manthoh—from Manthu; satyayam—in his wife, Satya; bhauvanah—a son named Bhauvana; tatah—from him; dusanayam—in the womb of his wife Dusana; tvasta—one son named Tvasta; ajanista—was born; tvastuh—from Tvasta; virocanayam—in his wife named Virocana; virajah—a son named Viraja; virajasya—of King Viraja; satajit-pravaram—headed by Satajit; putra-satam—one hundred sons; kanya—a daughter; ca—also; visucyam—in his wife Visuci; kila—indeed; jatam—took birth.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In the womb of Gayanti, Maharaja Gaya begot three sons, named Citraratha, Sugati and Avarodhana.</p>
+<p>In the womb of his wife Urna, Citraratha begot a son named Samrat.</p>
+<p>The wife of Samrat was Utkala, and in her womb Samrat begot a son named Marici.</p>
+<p>In the womb of his wife Bindumati, Marici begot a son named Bindu.</p>
+<p>In the womb of his wife Saragha, Bindu begot a son named Madhu.</p>
+<p>In the womb of his wife named Sumana, Madhu begot a son named Viravrata.</p>
+<p>In the womb of his wife Bhoja, Viravrata begot two sons named Manthu and Pramanthu.</p>
+<p>In the womb of his wife Satya, Manthu begot a son named Bhauvana, and in the womb of his wife Dusana, Bhauvana begot a son named Tvasta.</p>
+<p>In the womb of his wife Virocana, Tvasta begot a son named Viraja.</p>
+<p>The wife of Viraja was Visuci, and in her womb Viraja begot one hundred sons and one daughter.</p>
+<p>Of all these sons, the son named Satajit was predominant.</p>
+
+
+
+<p><strong>5.15.16</strong></p>
+<p>tatrayam slokah——</p>
+<p>praiyavratam vamsam imam</p>
+<p>virajas caramodbhavah</p>
+<p>akarod aty-alam kirtya</p>
+<p>visnuh sura-ganam yatha</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatra—in that connection; ayam slokah—there is this famous verse; praiyavratam—coming from King Priyavrata; vamsam—the dynasty; imam—this; virajah—King Viraja; carama-udbhavah—the source of one hundred sons (headed by Satajit); akarot—decorated; ati-alam—very greatly; kirtya—by his reputation; visnuh—Lord Visnu, the Supreme Personality of Godhead; sura-ganam—the demigods; yatha—just as.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>There is a famous verse about King Viraja Because of his high qualities and wide fame, King Viraja became the jewel of the dynasty of King Priyavrata, just as Lord Visnu, by His transcendental potency, decorates and blesses the demigods</p>
+<p><strong>PURPORT</strong></p>
+<p>Within a garden, a flowering tree attains a good reputation because of its fragrant flowers.</p>
+<p>Similarly, if there is a famous man in a family, he is compared to a fragrant flower in a forest.</p>
+<p>Because of him, an entire family can become famous in history.</p>
+<p>Because Lord Krsna took birth in the Yadu dynasty, the Yadu dynasty and the Yadavas have remained famous for all time.</p>
+<p>Because of King Viraja’s appearance, the family of Maharaja Priyavrata has remained famous for all time.</p>
+
+
+</article></body></html>

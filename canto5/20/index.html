@@ -1,154 +1,41 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>Studying the Structure of the Universe - Studying the Structure of the Universe</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">Studying the Structure of the Universe</a></li><li class="affix"><a href="5.20.2.html">5.20.2</a></li><li class="affix"><a href="5.20.3-4.html">5.20.3-4</a></li><li class="affix"><a href="5.20.5.html">5.20.5</a></li><li class="affix"><a href="5.20.6.html">5.20.6</a></li><li class="affix"><a href="5.20.7.html">5.20.7</a></li><li class="affix"><a href="5.20.8.html">5.20.8</a></li><li class="affix"><a href="5.20.9.html">5.20.9</a></li><li class="affix"><a href="5.20.10.html">5.20.10</a></li><li class="affix"><a href="5.20.11.html">5.20.11</a></li><li class="affix"><a href="5.20.12.html">5.20.12</a></li><li class="affix"><a href="5.20.13.html">5.20.13</a></li><li class="affix"><a href="5.20.14.html">5.20.14</a></li><li class="affix"><a href="5.20.15.html">5.20.15</a></li><li class="affix"><a href="5.20.16.html">5.20.16</a></li><li class="affix"><a href="5.20.17.html">5.20.17</a></li><li class="affix"><a href="5.20.18.html">5.20.18</a></li><li class="affix"><a href="5.20.19.html">5.20.19</a></li><li class="affix"><a href="5.20.20.html">5.20.20</a></li><li class="affix"><a href="5.20.21.html">5.20.21</a></li><li class="affix"><a href="5.20.22.html">5.20.22</a></li><li class="affix"><a href="5.20.23.html">5.20.23</a></li><li class="affix"><a href="5.20.24.html">5.20.24</a></li><li class="affix"><a href="5.20.25.html">5.20.25</a></li><li class="affix"><a href="5.20.26.html">5.20.26</a></li><li class="affix"><a href="5.20.27.html">5.20.27</a></li><li class="affix"><a href="5.20.28.html">5.20.28</a></li><li class="affix"><a href="5.20.29.html">5.20.29</a></li><li class="affix"><a href="5.20.30.html">5.20.30</a></li><li class="affix"><a href="5.20.31.html">5.20.31</a></li><li class="affix"><a href="5.20.32.html">5.20.32</a></li><li class="affix"><a href="5.20.33.html">5.20.33</a></li><li class="affix"><a href="5.20.34.html">5.20.34</a></li><li class="affix"><a href="5.20.35.html">5.20.35</a></li><li class="affix"><a href="5.20.36.html">5.20.36</a></li><li class="affix"><a href="5.20.37.html">5.20.37</a></li><li class="affix"><a href="5.20.38.html">5.20.38</a></li><li class="affix"><a href="5.20.39.html">5.20.39</a></li><li class="affix"><a href="5.20.40.html">5.20.40</a></li><li class="affix"><a href="5.20.41.html">5.20.41</a></li><li class="affix"><a href="5.20.42.html">5.20.42</a></li><li class="affix"><a href="5.20.43.html">5.20.43</a></li><li class="affix"><a href="5.20.44.html">5.20.44</a></li><li class="affix"><a href="5.20.45.html">5.20.45</a></li><li class="affix"><a href="5.20.46.html">5.20.46</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">Studying the Structure of the Universe</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#studying-the-structure-of-the-universe" id="studying-the-structure-of-the-universe">Studying the Structure of the Universe</a></h1>
-<h3><a class="header" href="#5201" id="5201">5.20.1</a></h3>
+<h1>Studying the Structure of the Universe</h1>
+<p><strong>5.20.1</strong></p>
 <p>sri-suka uvaca</p>
 <p>atah param plaksadinam pramana-laksana-samsthanato varsa-vibhaga upavarnyate.</p>
 <p><strong>SYNONYMS</strong></p>
@@ -156,63 +43,706 @@
 <p><strong>TRANSLATION</strong></p>
 <p>The great sage Sukadeva Gosvami said: Hereafter I shall describe the dimensions, characteristics and forms of the six islands beginning with the island of Plaksa.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="5.20.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>5.20.2</strong></p>
+<p>jambudvipo ’yam yavat-pramana-vistaras tavata ksarodadhina parivestito yatha merur jambv-akhyena lavanodadhir api tato dvi-guna-visalena plaksakhyena pariksipto yatha parikha bahyopavanena; plakso jambu-pramano dvipakhyakaro hiranmaya utthito yatragnir upaste sapta-jihvas tasyadhipatih priyavratatmaja idhmajihvah svam dvipam sapta-varsani vibhajya sapta-varsa-namabhya atmajebhya akalayya svayam atma-yogenopararama.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>jambu-dvipah—Jambudvipa, the island named Jambu; ayam—this; yavat-pramana-vistarah—as much as the measure of its width, namely 100,000 yojanas (one yojana equals eight miles); tavata—so much; ksara-udadhina—by the ocean of salt water; parivestitah—surrounded; yatha—just as; meruh—Sumeru Mountain; jambu-akhyena—by the island named Jambu; lavana-udadhih—the ocean of salt water; api—certainly; tatah—thereafter; dvi-guna-visalena—which is twice as wide; plaksa-akhyena—by the island named Plaksa; pariksiptah—surrounded; yatha—like; parikha—a moat; bahya—external; upavanena—by a gardenlike forest; plaksah—a plaksa tree; jambu-pramanah—having the height of the jambu tree; dvipa-akhya-karah—causing the name of the island; hiranmayah—magnificently splendorous; utthitah—rising; yatra—where; agnih—a fire; upaste—is situated; sapta-jihvah—having seven flames; tasya—of that island; adhipatih—the king or master; priyavrata-atmajah—the son of King Priyavrata; idhma-jihvah—named Idhmajihva; svam—own; dvipam—island; sapta—seven; varsani—tracts of land; vibhajya—dividing into; sapta-varsa-namabhyah—for whom the seven tracts of land were named; atmajebhyah—to his own sons; akalayya—offering; svayam—personally; atma-yogena—by the devotional service of the Lord; upararama—he retired from all material activities.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>As Sumeru Mountain is surrounded by Jambudvipa, Jambudvipa is also surrounded by an ocean of salt water.</p>
+<p>The breadth of Jambudvipa is 100,000 yojanas (800,000 miles), and the breadth of the saltwater ocean is the same.</p>
+<p>As a moat around a fort is sometimes surrounded by gardenlike forest, the saltwater ocean surrounding Jambudvipa is itself surrounded by Plaksadvipa.</p>
+<p>The breadth of Plaksadvipa is twice that of the saltwater ocean—in other words 260,000 yojanas (1,600,000 miles).</p>
+<p>On Plaksadvipa there is a tree shining like gold and as tall as the jambu tree on Jambudvipa.</p>
+<p>At its root is a fire with seven flames.</p>
+<p>It is because this tree is a plaksa tree that the island is called Plaksadvipa.</p>
+<p>Plaksadvipa was governed by Idhmajihva, one of the sons of Maharaja Priyavrata.</p>
+<p>He endowed the seven islands with the names of his seven sons, divided the islands among the sons, and then retired from active life to engage in the devotional service of the Lord.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="5.20.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>5.20.3-4</strong></p>
+<p>sivam yavasam subhadram santam ksemam amrtam abhayam iti varsani tesu girayo nadyas ca saptaivabhijnatah; manikuto vajrakuta indraseno jyotisman suparno hiranyasthivo meghamala iti setu-sailah aruna nrmnangirasi savitri suptabhata rtambhara satyambhara iti maha-nadyah; yasam jalopasparsana-vidhuta-rajas-tamaso hamsa-patangordhvayana-satyanga-samjnas catvaro varnah sahasrayuso vibudhopama-sandarsana-prajananah svarga-dvaram trayya vidyaya bhagavantam trayimayam suryam atmanam yajante.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sivam—Siva; yavasam—Yavasa; subhadram—Subhadra; santam—Santa; ksemam—Ksema; amrtam—Amrta; abhayam—Abhaya; iti—thus; varsani—the tracts of land according to the names of the seven sons; tesu—in them; girayah—mountains; nadyah ca—and rivers; sapta—seven; eva—indeed; abhijnatah—are known; mani-kutah—Manikuta; vajra-kutah—Vajrakuta; indra-senah—Indrasena; jyotisman—Jyotisman; suparnah—Suparna; hiranya-sthivah—Hiranyasthiva; megha-malah—Meghamala; iti—thus; setu-sailah—the ranges of mountains marking the borders of the varsas; aruna—Aruna; nrmna—Nrmna; angirasi—Angirasi; savitri—Savitri; supta-bhata—Suptabhata; rtambhara—Rtambhara; satyambhara—Satyambhara; iti—thus; maha-nadyah—very large rivers; yasam—of which; jala-upasparsana—simply by touching the water; vidhuta—washed off; rajah-tamasah—whose modes of passion and ignorance; hamsa—Hamsa; patanga—Patanga; urdhvayana—Urdhvayana; satyanga—Satyanga; samjnah—named; catvarah—four; varnah—castes or divisions of men; sahasra-ayusah—living for one thousand years; vibudha-upama—similar to the demigods; sandarsana—in having very beautiful forms; prajananah—and in producing children; svarga-dvaram—the gateway to the heavenly planets; trayya vidyaya—by performing ritualistic ceremonies according to Vedic principles; bhagavantam—the Supreme Personality of Godhead; trayi-mayam—established in the Vedas; suryam atmanam—the Supersoul, represented by the sun-god; yajante—they worship.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The seven islands (varsas) are named according to the names of those seven sons—Siva, Yavasa, Subhadra, Santa, Ksema, Amrta and Abhaya.</p>
+<p>In those seven tracts of land, there are seven mountains and seven rivers.</p>
+<p>The mountains are named Manikuta, Vajrakuta, Indrasena, Jyotisman, Suparna, Hiranyasthiva and Meghamala, and the rivers are named Aruna, Nrmna, Angirasi, Savitri, Suptabhata, Rtambhara and Satyambhara.</p>
+<p>One can immediately be free from material contamination by touching or bathing in those rivers, and the four castes of people who live in Plaksadvipa—the Hamsas, Patangas, Urdhvayanas and Satyangas—purify themselves in that way.</p>
+<p>The inhabitants of Plaksadvipa live for one thousand years.</p>
+<p>They are beautiful like the demigods, and they also beget children like the demigods.</p>
+<p>By completely performing the ritualistic ceremonies mentioned in the Vedas and by worshiping the Supreme Personality of Godhead as represented by the sun-god, they attain the sun, which is a heavenly planet.</p>
+<p><strong>PURPORT</strong></p>
+<p>According to general understanding, there are originally three deities—Lord Brahma, Lord Visnu and Lord Siva—and people with a poor fund of knowledge consider Lord Visnu no better than Lord Brahma or Lord Siva.</p>
+<p>This conclusion, however, is invalid.</p>
+<p>As stated in the Vedas, istapurtam bahudha jayamanam visvam bibharti bhuvanasya nabhih tad evagnis tad vayus tat suryas tad u candramah agnih sarvadaivatah.</p>
+<p>This means that the Supreme Lord, who accepts and enjoys the results of Vedic ritualistic ceremonies (technically called istapurta), who maintains the entire creation, who supplies the necessities of all living entities (eko bahunam yo vidadhati kaman) and who is the central point of all creation, is Lord Visnu.</p>
+<p>Lord Visnu expands as the demigods known as Agni, Vayu, Surya and Candra, who are simply parts and parcels of His body.</p>
+<p>Srimad Bhagavad-gita (9.23):</p>
+<p>ye ’py anya-devata-bhakta</p>
+<p>yajante sraddhayanvitah</p>
+<p>te ’pi mam eva kaunteya</p>
+<p>yajanty avidhi-purvakam</p>
+<p>Devotees who worship the demigods with firm faith worship Me also, but not according to regulative principles In other words, if one worships the demigods but does not understand the relationship between the demigods and the Supreme Personality of Godhead, his worship is irregular.</p>
+<p>Krsna also says in Bhagavad-gita (9.24), aham hi sarva-yajnanam bhokta ca prabhur eva ca: I am the only enjoyer of ritualistic ceremonies It may be argued that the demigods are as important as Lord Visnu because the names of the demigods are different names of Visnu.</p>
+<p>This, however, is not a sound conclusion, for it is contradicted in the Vedic literatures.</p>
+<p>The Vedas declare:</p>
+<p>candrama manaso jatas caksoh suryo ajayata; srotradayas ca pranas ca mukhad agnir ajayata; narayanad brahma, narayanad rudro jayate, narayanat prajapatih jayate, narayanad indro jayate, narayanad astau vasavo jayante, narayanad ekadasa rudra jayante</p>
+<p>The demigod of the moon, Candra, came from the mind of Narayana, and the sun-god came from His eyes.</p>
+<p>The controlling deities of hearing and the life air came from Narayana, and the controlling deity of fire was generated from His mouth.</p>
+<p>Prajapati, Lord Brahma, came from Narayana, Indra came from Narayana, and the eight Vasus, the eleven expansions of Lord Siva and the twelve Adityas also came from Narayana In the smrti Vedic literature it is also said:</p>
+<p>brahma sambhus tathaivarkas</p>
+<p>candramas ca satakratuh</p>
+<p>evam adyas tathaivanye</p>
+<p>yukta vaisnava-tejasa</p>
+<p>jagat-karyavasane tu</p>
+<p>viyujyante ca tejasa</p>
+<p>vitejas ca te sarve</p>
+<p>pancatvam upayanti te</p>
+<p>Brahma, Sambhu, Surya and Indra are all merely products of the power of the Supreme Personality of Godhead.</p>
+<p>This is also true of the many other demigods whose names are not mentioned here.</p>
+<p>When the cosmic manifestation is annihilated, these different expansions of Narayana’s potencies will merge into Narayana.</p>
+<p>In other words, all these demigods will die.</p>
+<p>Their living force will be withdrawn, and they will merge into Narayana Therefore it should be concluded that Lord Visnu, not Lord Brahma or Lord Siva, is the Supreme Personality of Godhead.</p>
+<p>As a government officer is sometimes accepted as the entire government although he is actually but a departmental manager, so the demigods, having achieved power of attorney from Visnu, act on His behalf, although they are not as powerful as He.</p>
+<p>All the demigods must work under the orders of Visnu.</p>
+<p>Therefore it is said, ekale isvara krsna, ara saba bhrtya.</p>
+<p>The only master is Lord Krsna, or Lord Visnu, and all others are His obedient servants, who act exactly according to His orders.</p>
+<p>The distinction between Lord Visnu and the demigods is also expressed in Bhagavad-gita (9.25).</p>
+<p>Yanti deva-vrata devan yanti mad-yajino ’pi mam: those who worship the demigods go to the planets of the demigods, whereas the worshipers of Lord Krsna and Lord Visnu go to the planets in Vaikuntha.</p>
+<p>These are the statements of the smrti.</p>
+<p>Therefore the idea that Lord Visnu is on the same level as the demigods is in contradiction to the sastras.</p>
+<p>The demigods are not supreme.</p>
+<p>The supremacy of the demigods is dependent on the mercy of Lord Narayana (Visnu, or Krsna).</p>
 
-        </div>
 
-        
 
-        
+<p><strong>5.20.5</strong></p>
+<p>pratnasya visno rupam yat</p>
+<p>satyasyartasya brahmanah</p>
+<p>amrtasya ca mrtyos ca</p>
+<p>suryam atmanam imahiti</p>
+<p><strong>SYNONYMS</strong></p>
+<p>pratnasya—of the oldest person; visnoh—Lord Visnu; rupam—the form; yat—which; satyasya—of the Absolute Truth; rtasya—of dharma; brahmanah—of the Supreme Brahman; amrtasya—of the auspicious result; ca—and; mrtyoh—of death (the inauspicious result); ca—and; suryam—the demigod Surya; atmanam—the Supersoul or origin of all souls; imahi—we approach for shelter; iti—thus.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>(This is the mantra by which the inhabitants of Plaksadvipa worship the Supreme Lord.)</p>
+<p>Let us take shelter of the sun-god, who is a reflection of Lord Visnu, the all-expanding Supreme Personality of Godhead, the oldest of all persons.</p>
+<p>Visnu is the only worshipable Lord.</p>
+<p>He is the Vedas, He is religion, and He is the origin of all auspicious and inauspicious results.</p>
+<p><strong>PURPORT</strong></p>
+<p>Lord Visnu is even the Supreme Lord of death, as confirmed in Bhagavad-gita (mrtyuh sarva-haras caham).</p>
+<p>There are two kinds of activity—auspicious and inauspicious—and both are controlled by Lord Visnu.</p>
+<p>Inauspicious activities are said to be behind Lord Visnu, whereas auspicious activities stand before Him.</p>
+<p>The auspicious and the inauspicious exist throughout the entire world, and Lord Visnu is the controller of them both.</p>
+<p>In regard to this verse, Srila Madhvacarya says:</p>
+<p>surya-somagni-varisa-</p>
+<p>vidhatrsu yatha-kramam</p>
+<p>plaksadi-dvipa-samsthasu</p>
+<p>sthitam harim upasate</p>
+<p>There are many lands, fields, mountains and oceans throughout the creation, and everywhere the Supreme Personality of Godhead is worshiped by His different names.</p>
+<p>Srila Viraraghava Acarya explains this verse of Srimad-Bhagavatam as follows.</p>
+<p>The original cause of the cosmic manifestation must be the oldest person and must therefore be beyond material transformations.</p>
+<p>He is the enjoyer of all auspicious activities and is the cause of conditional life and also liberation.</p>
+<p>The demigod Surya, who is categorized as a very powerful jiva, or living entity, is a representation of one of the parts of His body.</p>
+<p>We are naturally subordinate to powerful living entities, and therefore we can worship the various demigods as living beings who are powerful representatives of the Supreme Personality of Godhead.</p>
+<p>Although the worship of the sun-god is recommended in this mantra, He is worshiped not as the Supreme Personality of Godhead but as His powerful representative.</p>
+<p>Katha Upanisad (1.3.1) it is said:</p>
+<p>rtam pibantau sukrtasya loke</p>
+<p>guham pravistau parame parardhe</p>
+<p>chayatapau brahmavido vadanti</p>
+<p>pancagnayo ye ca tri-naciketah</p>
+<p>O Naciketa, the expansions of Lord Visnu as the tiny living entity and the Supersoul are both situated within the cave of the heart of this body.</p>
+<p>Having entered that cavity, the living entity, resting on the chief of the life airs, enjoys the results of activities, and the Supersoul, acting as witness enables him to enjoy them.</p>
+<p>Svetasvatara Upanisad (6.16) it is said:</p>
+<p>sa visvakrd visvavidatmayonih</p>
+<p>jnah kalakaro guni sarvavid yah</p>
+<p>pradhana-ksetrajna-patir gunesah</p>
+<p>samsara-moksa-sthiti-bandha-hetuh</p>
+<p>The Supreme Lord, the creator of this cosmic manifestation, knows every nook and corner of His creation.</p>
+<p>Although He is the cause of creation, there is no cause for His appearance.</p>
+<p>He is fully aware of everything.</p>
+<p>Taittiriya Upanisad (2.8) it is said:</p>
+<p>bhisasmad vatah pavate</p>
+<p>bhisodeti suryah</p>
+<p>bhisasmad agnis candras ca</p>
+<p>mrtyur dhavati pancamah</p>
+<p>It is out of fear of the Supreme Brahman that the wind is blowing, out of fear of Him that the sun regularly rises and sets, and out of fear of Him that fire acts.</p>
+<p>It is only due to fear of Him that death and Indra, the King of heaven, perform their respective duties As described in this chapter, the inhabitants of the five islands beginning with Plaksadvipa worship the sun-god, the moon-god, the fire-god, the air-god and Lord Brahma respectively.</p>
+<p>Although they engage in the worship of these five demigods, however, they actually worship Lord Visnu, the Supersoul of all living entities, as indicated in this verse by the words pratnasya visno rupam.</p>
+<p>Visnu is brahma, amrta, mrtyu—the Supreme Brahman and the origin of everything, auspicious and inauspicious.</p>
+<p>He is situated in the heart of everyone, including all the demigods.</p>
+<p>As stated in Bhagavad-gita (7.20), kamais tais tair hrta-jnanah prapadyante ’nya devatah: those whose minds are distorted by material desires surrender unto the demigods.</p>
+<p>People who are almost blind because of lusty desires are recommended to worship the demigods to have their material desires fulfilled, but actually those desires are not fulfilled by the material demigods.</p>
+<p>Whatever the demigods do is done with the sanction of Lord Visnu.</p>
+<p>People who are too lusty worship various demigods instead of worshiping Lord Visnu, the Supersoul of all living entities, but ultimately it is Lord Visnu they worship because He is the Supersoul of all demigods.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>5.20.6</strong></p>
+<p>plaksadisu pancasu purusanam ayur indriyam ojah saho balam buddhir vikrama iti ca sarvesam autpattiki siddhir avisesena vartate.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>plaksa-adisu—in the islands headed by Plaksa; pancasu—five; purusanam—of the inhabitants; ayuh—long duration of life; indriyam—soundness of the senses; ojah—bodily strength; sahah—mental strength; balam—physical strength; buddhih—intelligence; vikramah—bravery; iti—thus; ca—also; sarvesam—of all of them; autpattiki—inborn; siddhih—perfection; avisesena—without distinction; vartate—exists.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King, longevity, sensory prowess, physical and mental strength, intelligence and bravery are naturally and equally manifested in all the inhabitants of the five islands headed by Plaksadvipa.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>5.20.7</strong></p>
+<p>plaksah sva-samaneneksu-rasodenavrto yatha tatha dvipo ’pi salmalo dvi-guna-visalah samanena surodenavrtah parivrnkte.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>plaksah—the land known as Plaksadvipa; sva-samanena—equal in width; iksu-rasa—of sugarcane juice; udena—by an ocean; avrtah—surrounded; yatha—just as; tatha—similarly; dvipah—another island; api—also; salmalah—known as Salmala; dvi-guna-visalah—twice as big; samanena—equal in width; sura-udena—by an ocean of liquor; avrtah—surrounded; parivrnkte—exists.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Plaksadvipa is surrounded by an ocean of sugarcane juice, equal in breadth to the island itself.</p>
+<p>Similarly, there is then another island—Salmalidvipa—twice as broad as Plaksadvipa (400,000 yojanas, or 3,200,000 miles) and surrounded by an equally broad body of water called Surasagara, the ocean that tastes like liquor.</p>
+
+
+
+<p><strong>5.20.8</strong></p>
+<p>yatra ha vai salmali plaksayama yasyam vava kila nilayam ahur bhagavatas chandah-stutah patattri-rajasya sa dvipa-hutaye upalaksyate.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yatra—where; ha vai—certainly; salmali—a salmali tree; plaksa-ayama—as big as the plaksa tree (one hundred yojanas broad and eleven hundred yojanas high); yasyam—in which; vava kila—indeed; nilayam—rest or living place; ahuh—they say; bhagavatah—of the most powerful; chandah-stutah—who worships the Lord by Vedic prayers; patattri-rajasya—of Garuda, the carrier of Lord Visnu; sa—that tree; dvipa-hutaye—for the name of the island; upalaksyate—is distinguished.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>On Salmalidvipa there is a salmali tree, from which the island takes its name.</p>
+<p>That tree is as broad and tall as the plaksa tree—in other words 100 yojanas (800 miles) broad and 1,100 yojanas (8,800 miles) tall.</p>
+<p>Learned scholars say that this gigantic tree is the residence of Garuda, the king of all birds and carrier of Lord Visnu.</p>
+<p>In that tree, Garuda offers Lord Visnu his Vedic prayers.</p>
+
+
+
+<p><strong>5.20.9</strong></p>
+<p>tad-dvipadhipatih priyavratatmajo yajnabahuh sva-sutebhyah saptabhyas tan-namani sapta-varsani vyabhajat surocanam saumanasyam ramanakam deva-varsam paribhadram apyayanam avijnatam iti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tat-dvipa-adhipatih—the master of that island; priyavrata-atmajah—the son of Maharaja Priyavrata; yajna-bahuh—named Yajnabahu; sva-sutebhyah—unto his sons; saptabhyah—seven in number; tat-namani—having names according to their names; sapta-varsani—seven tracts of land; vyabhajat—divided; surocanam—Surocana; saumanasyam—Saumanasya; ramanakam—Ramanaka; deva-varsam—Deva-varsa; paribhadram—Paribhadra; apyayanam—Apyayana; avijnatam—Avijnata; iti—thus.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The son of Maharaja Priyavrata named Yajnabahu, the master of Salmalidvipa, divided the island into seven tracts of land, which he gave to his seven sons.</p>
+<p>The names of those divisions, which correspond to the names of the sons, are Surocana, Saumanasya, Ramanaka, Deva-varsa, Paribhadra, Apyayana and Avijnata.</p>
+
+
+
+<p><strong>5.20.10</strong></p>
+<p>tesu varsadrayo nadyas ca saptaivabhijnatah svarasah satasrngo vamadevah kundo mukundah puspa-varsah sahasra-srutir iti; anumatih sinivali sarasvati kuhu rajani nanda raketi.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tesu—in those tracts of land; varsa-adrayah—mountains; nadyah ca—as well as rivers; sapta eva—seven in number; abhijnatah—understood; svarasah—Svarasa; sata-srngah—Satasrnga; vama-devah—Vamadeva; kundah—Kunda; mukundah—Mukunda; puspa-varsah—Puspa-varsa; sahasra-srutih—Sahasra-sruti; iti—thus; anumatih—Anumati; sinivali—Sinivali; sarasvati—Sarasvati; kuhu—Kuhu; rajani—Rajani; nanda—Nanda; raka—Raka; iti—thus.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In those tracts of land there are seven mountains—Svarasa, Satasrnga, Vamadeva, Kunda, Mukunda, Puspa-varsa and Sahasra-sruti.</p>
+<p>There are also seven rivers—Anumati, Sinivali, Sarasvati, Kuhu, Rajani, Nanda and Raka.</p>
+<p>They are still existing.</p>
+
+
+
+<p><strong>5.20.11</strong></p>
+<p>tad-varsa-purusah srutadhara-viryadhara-vasundharesandhara-samjna bhagavantam vedamayam somam atmanam vedena yajante.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tat-varsa-purusah—the residents of those tracts of land; srutadhara—Srutadhara; viryadhara—Viryadhara; vasundhara—Vasundhara; isandhara—Isandhara; samjnah—known as; bhagavantam—the Supreme Personality of Godhead; veda-mayam—fully conversant with the Vedic knowledge; somam atmanam—represented by the living entity known as Soma; vedena—by following the Vedic rules and regulations; yajante—they worship.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Strictly following the cult of varnasrama-dharma, the inhabitants of those islands, who are known as Srutidharas, Viryadharas, Vasundharas and Isandharas, all worship the expansion of the Supreme Personality of Godhead named Soma, the moon-god.</p>
+
+
+
+<p><strong>5.20.12</strong></p>
+<p>sva-gobhih pitr-devebhyo</p>
+<p>vibhajan krsna-suklayoh</p>
+<p>prajanam sarvasam raja-</p>
+<p>ndhah somo na astv iti</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sva-gobhih—by expansion of his own illuminating rays; pitr-devebhyah—unto the pitas and the demigods; vibhajan—dividing; krsna-suklayoh—into the two fortnights, dark and light; prajanam—of the citizens; sarvasam—of all; raja—the king; andhah—food grains; somah—the moon-god; nah—toward us; astu—let him remain favorable; iti—thus.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>(The inhabitants of Salmalidvipa worship the demigod of the moon in the following words.)</p>
+<p>By his own rays, the moon-god has divided the month into two fortnights, known as sukla and krsna, for the distribution of food grains to the pitas and the demigods.</p>
+<p>The demigod of the moon is he who divides time, and he is the king of all the residents of the universe.</p>
+<p>We therefore pray that he may remain our king and guide, and we offer him our respectful obeisances.</p>
+
+
+
+<p><strong>5.20.13</strong></p>
+<p>evam surodad bahis tad-dvi-gunah samanenavrto ghrtodena yatha-purvah kusa-dvipo yasmin kusa-stambo deva-krtas tad-dvipakhyakaro jvalana ivaparah sva-saspa-rocisa diso virajayati.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>evam—thus; surodat—from the ocean of liquor; bahih—outside; tat-dvi-gunah—twice that; samanena—equal in width; avrtah—surrounded; ghrta-udena—an ocean of clarified butter; yatha-purvah—as previously with Salmalidvipa; kusa-dvipa—the island called Kusadvipa; yasmin—in which; kusa-stambah—kusa grass; deva-krtah—created by the supreme will of the Supreme Personality of Godhead; tat-dvipa-akhya-karah—giving the island its name; jvalanah—fire; iva—like; aparah—another; sva-saspa-rocisa—by the effulgence of the young sprouting grass; disah—all directions; virajayati—illuminates.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Outside the ocean of liquor is another island, known as Kusadvipa, which is 800,000 yojanas (6,400,000 miles) wide, twice as wide as the ocean of liquor.</p>
+<p>As Salmalidvipa is surrounded by a liquor ocean, Kusadvipa is surrounded by an ocean of liquid ghee as broad as the island itself.</p>
+<p>On Kusadvipa there are clumps of kusa grass, from which the island takes its name.</p>
+<p>This kusa grass, which was created by the demigods by the will of the Supreme Lord, appears like a second form of fire, but with very mild and pleasing flames.</p>
+<p>Its young shoots illuminate all directions.</p>
+<p><strong>PURPORT</strong></p>
+<p>From the descriptions in this verse, we can make an educated guess about the nature of the flames on the moon.</p>
+<p>Like the sun, the moon must also be full of flames because without flames there cannot be illumination.</p>
+<p>The flames on the moon, however, unlike those on the sun, must be mild and pleasing.</p>
+<p>This is our conviction.</p>
+<p>The modern theory that the moon is full of dust is not accepted in the verses of Srimad-Bhagavatam.</p>
+<p>In regard to this verse, Srila Visvanatha Cakravarti Thakura says, susaspani sukomala-sikhas tesam rocisa: the kusa grass illuminates all directions, but its flames are very mild and pleasing.</p>
+<p>This gives some idea of the flames existing on the moon.</p>
+
+
+
+<p><strong>5.20.14</strong></p>
+<p>tad-dvipa-patih praiyavrato rajan hiranyareta nama svam dvipam saptabhyah sva-putrebhyo yatha-bhagam vibhajya svayam tapa atisthata vasu-vasudana-drdharuci-nabhigupta-stutyavrata-vivikta-vamadeva-namabhyah.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tat-dvipa-patih—the master of that island; praiyavratah—the son of Maharaja Priyavrata; rajan—O King; hiranyareta—Hiranyareta; nama—named; svam—his own; dvipam—island; saptabhyah—unto seven; sva-putrebhyah—his own sons; yatha-bhagam—according to division; vibhajya—dividing; svayam—himself; tapah atisthata—engaged in austerities; vasu—unto Vasu; vasudana—Vasudana; drdharuci—Drdharuci; nabhi-gupta—Nabhigupta; stutya-vrata—Stutyavrata; vivikta—Vivikta; vama-deva—Vamadeva; namabhyah—named.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King, another son of Maharaja Priyavrata, Hiranyareta, was the king of this island.</p>
+<p>He divided it into seven parts, which he delivered to his seven sons according to the rights of inheritance.</p>
+<p>The King then retired from family life to engage in austerities.</p>
+<p>The names of those sons are Vasu, Vasudana, Drdharuci, Stutyavrata, Nabhigupta, Vivikta and Vamadeva.</p>
+
+
+
+<p><strong>5.20.15</strong></p>
+<p>tesam varsesu sima-girayo nadyas cabhijnatah sapta saptaiva cakras catuhsrngah kapilas citrakuto devanika urdhvaroma dravina iti rasakulya madhukulya mitravinda srutavinda devagarbha ghrtacyuta mantramaleti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tesam—all those sons; varsesu—in the tracts of land; sima-girayah—border mountains; nadyah ca—as well as rivers; abhijnatah—known; sapta—seven; sapta—seven; eva—certainly; cakrah—Cakra; catuh-srngah—Catuh-srnga; kapilah—Kapila; citra-kutah—Citrakuta; devanikah—Devanika; urdhva-roma—Urdhvaroma; dravinah—Dravina; iti—thus; rasa-kulya—Ramakulya; madhu-kulya—Madhukulya; mitra-vinda—Mitravinda; sruta-vinda—Srutavinda; deva-garbha—Devagarbha; ghrta-cyuta—Ghrtacyuta; mantra-mala—Mantramala; iti—thus.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In those seven islands there are seven boundary mountains, known as Cakra, Catuhsrnga, Kapila, Citrakuta, Devanika, Urdhvaroma and Dravina.</p>
+<p>There are also seven rivers, known as Ramakulya, Madhukulya, Mitravinda, Srutavinda, Devagarbha, Ghrtacyuta and Mantramala.</p>
+
+
+
+<p><strong>5.20.16</strong></p>
+<p>yasam payobhih kusadvipaukasah kusala-kovidabhiyukta-kulaka-samjna bhagavantam jataveda-sarupinam karma-kausalena yajante.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yasam—of which; payobhih—by the water; kusa-dvipa-okasah—the inhabitants of the island known as Kusadvipa; kusala—Kusala; kovida—Kovida; abhiyukta—Abhiyukta; kulaka—Kulaka; samjnah—named; bhagavantam—unto the Supreme Personality of Godhead; jataveda—the demigod of fire; sa-rupinam—manifesting the form; karma-kausalena—by expertise in ritualistic ceremonies; yajante—they worship.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The inhabitants of the island of Kusadvipa are celebrated as the Kusalas, Kovidas, Abhiyuktas and Kulakas.</p>
+<p>They are like the brahmanas, ksatriyas, vaisyas and sudras respectively.</p>
+<p>By bathing in the waters of those rivers, they all become purified.</p>
+<p>They are expert in performing ritualistic ceremonies according to the orders of the Vedic scriptures.</p>
+<p>Thus they worship the Lord in His aspect as the demigod of fire.</p>
+
+
+
+<p><strong>5.20.17</strong></p>
+<p>parasya brahmanah saksaj</p>
+<p>jata-vedo ’si havyavat</p>
+<p>devanam purusanganam</p>
+<p>yajnena purusam yajeti</p>
+<p><strong>SYNONYMS</strong></p>
+<p>parasya—of the Supreme; brahmanah—Brahman; saksat—directly; jata-vedah—O fire-god; asi—you are; havyavat—the carrier of Vedic offerings of grains and ghee; devanam—of all the demigods; purusa-anganam—who are limbs of the Supreme Person; yajnena—by performing the ritualistic sacrifices; purusam—to the Supreme person; yaja—please carry oblations; iti—thus.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>(This is the mantra by which the inhabitants of Kusadvipa worship the fire-god.)</p>
+<p>O fire-god, you are a part of the Supreme Personality of Godhead, Hari, and you carry to Him all the offerings of sacrifices.</p>
+<p>Therefore we request you to offer to the Supreme Personality of Godhead the yajnic ingredients we are offering the demigods, for the Lord is the real enjoyer.</p>
+<p><strong>PURPORT</strong></p>
+<p>The demigods are servants who assist the Supreme Personality of Godhead.</p>
+<p>If one worships the demigods, the demigods, as servants of the Supreme, carry the sacrificial offerings to the Lord, like tax collectors collecting revenue from the citizens and bringing it to the government’s treasury.</p>
+<p>The demigods cannot accept the sacrificial offerings; they simply carry the offerings to the Supreme Personality of Godhead.</p>
+<p>As stated by Srila Visvanatha Cakravarti Thakura, yasya prasadad bhagavat-prasadah:  since the guru is a representative of the Supreme Personality of Godhead, he carries to the Lord whatever is offered to him.</p>
+<p>Similarly, all the demigods, as faithful servants of the Supreme Lord, hand over to the Supreme Lord whatever is offered to them in sacrificial performances.</p>
+<p>There is no fault in worshiping the demigods with this understanding, but to think that the demigods are independent of the Supreme Personality of Godhead and equal to Him is called hrta-jnana, a loss of intelligence (kamais tais tair hrta jnanah (Bg.7.20)).</p>
+<p>One who thinks that the demigods themselves are the actual benefactors is mistaken.</p>
+
+
+
+<p><strong>5.20.18</strong></p>
+<p>tatha ghrtodad bahih krauncadvipo dvi-gunah sva-manena ksirodena parita upaklpto vrto yatha kusadvipo ghrtodena yasmin kraunco nama parvata-rajo dvipa-nama-nirvartaka aste.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatha—so also; ghrta-udat—from the ocean of clarified butter; bahih—outside; kraunca-dvipah—another island, known as Krauncadvipa; dvi-gunah—twice as big; sva-manena—as the same measurement; ksira-udena—by an ocean of milk; paritah—all around; upaklptah—surrounded; vrtah—surrounded; yatha—like; kusa-dvipah—the island known as Kusadvipa; ghrta-udena—by an ocean of clarified butter; yasmin—in which; krauncah nama—named Kraunca; parvata-rajah—a king of mountains; dvipa-nama—the name of the island; nirvartakah—bringing about; aste—exists.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Outside the ocean of clarified butter is another island, known as Krauncadvipa, which has a width of 1,600,000 yojanas (12,800,000 miles), twice the width of the ocean of clarified butter.</p>
+<p>As Kusadvipa is surrounded by an ocean of clarified butter, Krauncadvipa is surrounded by an ocean of milk as broad as the island itself.</p>
+<p>On Krauncadvipa there is a great mountain known as Kraunca, from which the island takes its name.</p>
+
+
+
+<p><strong>5.20.19</strong></p>
+<p>yo ’sau guha-praharanonmathita-nitamba-kunjo ’pi ksirodena-sicyamano bhagavata varunenabhigupto vibhayo babhuva.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—which; asau—that (mountain); guha-praharana—by the weapons of Karttikeya, the son of Lord Siva; unmathita—shaken; nitamba-kunjah—whose trees and vegetables along the slopes; api—although; ksira-udena—by the ocean of milk; asicyamanah—being always bathed; bhagavata—by the greatly powerful; varunena—the demigod known as Varuna; abhiguptah—protected; vibhayah babhuva—has become fearless.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Although the vegetables living on the slopes of Mount Kraunca were attacked and devastated by the weapons of Karttikeya, the mountain has become fearless because it is always bathed on all sides by the ocean of milk and protected by Varunadeva.</p>
+
+
+
+<p><strong>5.20.20</strong></p>
+<p>tasminn api praiyavrato ghrtaprstho namadhipatih sve dvipe varsani sapta vibhajya tesu putra-namasu sapta rikthadan varsapan nivesya svayam bhagavan bhagavatah parama-kalyana-yasasa atma-bhutasya hares caranaravindam upajagama.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasmin—in that island; api—also; praiyavratah—the son of Maharaja Priyavrata; ghrta-prsthah—Ghrtaprstha; nama—named; adhipatih—the king of that island; sve—his own; dvipe—in the island; varsani—tracts of land; sapta—seven; vibhajya—dividing; tesu—in each of them; putra-namasu—possessing the names of his sons; sapta—seven; riktha-dan—sons; varsa-pan—the masters of the varsas; nivesya—appointing; svayam—himself; bhagavan—very powerful; bhagavatah—of the Supreme Personality of Godhead; parama-kalyana-yasasah—whose glories are so auspicious; atma-bhutasya—the soul of all souls; hareh carana-aravindam—the lotus feet of the Lord; upajagama—took shelter at.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The ruler of this island was another son of Maharaja Priyavrata.</p>
+<p>His name was Ghrtaprstha, and he was a very learned scholar.</p>
+<p>He also divided his own island among his seven sons.</p>
+<p>After dividing the island into seven parts, named according to the names of his sons, Ghrtaprstha Maharaja completely retired from family life and took shelter at the lotus feet of the Lord, the soul of all souls, who has all auspicious qualities.</p>
+<p>Thus he attained perfection.</p>
+
+
+
+<p><strong>5.20.21</strong></p>
+<p>amo madhuruho meghaprsthah sudhama bhrajistho lohitarno vanaspatir iti ghrtaprstha-sutas tesam varsa-girayah sapta saptaiva nadyas cabhikhyatah suklo vardhamano bhojana upabarhino nando nandanah sarvatobhadra iti abhaya amrtaugha aryaka tirthavati rupavati pavitravati sukleti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>amah—Ama; madhu-ruhah—Madhuruha; megha-prsthah—Meghaprstha; sudhama—Sudhama; bhrajisthah—Bhrajistha; lohitarnah—Lohitarna; vanaspatih—Vanaspati; iti—thus; ghrtaprstha-sutah—the sons of Ghrtaprstha; tesam—of those sons; varsa-girayah—boundary hills of the tracts of land; sapta—seven; sapta—seven; eva—also; nadyah—rivers; ca—and; abhikhyatah—celebrated; suklah vardhamanah—Sukla and Vardhamana; bhojanah—Bhojana; upabarhinah—Upabarhina; nandah—Nanda; nandanah—Nandana; sarvatah-bhadrah—Sarvatobhadra; iti—thus; abhaya—Abhaya; amrtaugha—Amrtaugha; aryaka—Aryaka; tirthavati—Tirthavati; rupavati—Rupavati; pavitravati—Pavitravati; sukla—Sukla; iti—thus.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The sons of Maharaja Ghrtaprstha were named Ama, Madhuruha, Meghaprstha, Sudhama, Bhrajistha, Lohitarna and Vanaspati.</p>
+<p>In their island there are seven mountains, which indicate the boundaries of the seven tracts of land, and there are also seven rivers.</p>
+<p>The mountains are named Sukla, Vardhamana, Bhojana, Upabarhina, Nanda, Nandana and Sarvatobhadra.</p>
+<p>The rivers are named Abhaya, Amrtaugha, Aryaka, Tirthavati, Rupavati, Pavitravati and Sukla.</p>
+
+
+
+<p><strong>5.20.22</strong></p>
+<p>yasam ambhah pavitram amalam upayunjanah purusa-rsabha-dravina-devaka-samjna varsa-purusa apomayam devam apam purnenanjalina yajante.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yasam—of all the rivers; ambhah—the water; pavitram—very sanctified; amalam—very clean; upayunjanah—using; purusa—Purusa; rsabha—Rsabha; dravina—Dravina; devaka—Devaka; samjnah—endowed with the names; varsa-purusah—the inhabitants of those varsas; apah-mayam—Varuna, the lord of water; devam—as the worshipable deity; apam—of water; purnena—with full; anjalina—folded palms; yajante—do worship.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The inhabitants of Krauncadvipa are divided into four castes, called the Purusas, Rsabhas, Dravinas and Devakas.</p>
+<p>Using the waters of those sanctified rivers, they worship the Supreme Personality of Godhead by offering a palmful of water at the lotus feet of Varuna, the demigod who has a form of water.</p>
+<p><strong>PURPORT</strong></p>
+<p>Visvanatha Cakravarti Thakura says, apomayah asmayam: with joined palms the inhabitants of the various sections of Krauncadvipa offer the sanctified waters of the rivers to a deity made of stone or iron.</p>
+
+
+
+<p><strong>5.20.23</strong></p>
+<p>apah purusa-viryah stha</p>
+<p>punantir bhur-bhuvah-suvah</p>
+<p>ta nah punitamiva-ghnih</p>
+<p>sprsatam atmana bhuva iti</p>
+<p><strong>SYNONYMS</strong></p>
+<p>apah—O water; purusa-viryah—endowed with the energy of the Supreme Personality of Godhead; stha—you are; punantih—sanctifying; bhuh—of the planetary system known as Bhuh; bhuvah—of the Bhuvah planetary system; suvah—of the Svah planetary system; tah—that water; nah—of us; punita—purify; amiva-ghnih—who destroys sin; sprsatam—of those touching; atmana—by your constitutional position; bhuvah—the bodies; iti—thus.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>(The inhabitants of Krauncadvipa worship with this mantra.)</p>
+<p>O water of the rivers, you have obtained energy from the Supreme Personality of Godhead.</p>
+<p>Therefore you purify the three planetary systems, known as Bhuloka, Bhuvarloka and Svarloka.</p>
+<p>By your constitutional nature, you take away sins, and that is why we are touching you.</p>
+<p>Kindly continue to purify us.</p>
+<p><strong>PURPORT</strong></p>
+<p>Krsna says in Bhagavad-gita (7.4):</p>
+<p>bhumir apo ’nalo vayuh</p>
+<p>kham mano buddhir eva ca</p>
+<p>ahankara itiyam me</p>
+<p>bhinna prakrtir astadha</p>
+<p>Earth, water, fire, air, ether, mind, intelligence and false ego—all together these eight comprise My separated material energies.</p>
+<p>The energy of the Lord acts throughout the creation, just as heat and light, the energies of the sun, act within the universe and make everything work.</p>
+<p>The specific rivers mentioned in the sastras are also energies of the Supreme Personality of Godhead, and people who regularly bathe in them are purified.</p>
+<p>It can actually be seen that many people are cured of diseases simply by bathing in the Ganges.</p>
+<p>Similarly, the inhabitants of Krauncadvipa purify themselves by bathing in the rivers there.</p>
+
+
+
+<p><strong>5.20.24</strong></p>
+<p>evam purastat ksirodat parita upavesitah sakadvipo dvatrimsal-laksa-yojanayamah samanena ca dadhi-mandodena parito yasmin sako nama mahiruhah sva-ksetra-vyapadesako yasya ha maha-surabhi-gandhas tam dvipam anuvasayati.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>evam—thus; purastat—beyond; ksira-udat—from the ocean of milk; paritah—all around; upavesitah—situated; saka-dvipah—another island, known as Sakadvipa; dva-trimsat—thirty-two; laksa—100,000; yojana—yojanas; ayamah—whose measure; samanena—of equal length; ca—and; dadhi-manda-udena—by an ocean containing water resembling churned yogurt; paritah—surrounded; yasmin—in which land; sakah—saka; nama—named; mahiruhah—a fig tree; sva-ksetra-vyapadesakah—giving the island its name; yasya—of which; ha—indeed; maha-surabhi—a greatly fragrant; gandhah—aroma; tam dvipam—that island; anuvasayati—makes fragrant.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Outside the ocean of milk is another island, Sakadvipa, which has a width of 3,200,000 yojanas (25,600,000 miles).</p>
+<p>As Krauncadvipa is surrounded by its own ocean of milk, Sakadvipa is surrounded by an ocean of churned yogurt as broad as the island itself.</p>
+<p>In Sakadvipa there is a big saka tree, from which the island takes its name.</p>
+<p>This tree is very fragrant.</p>
+<p>Indeed, it lends its scent to the entire island.</p>
+
+
+
+<p><strong>5.20.25</strong></p>
+<p>tasyapi praiyavrata evadhipatir namna medhatithih so ’pi vibhajya sapta varsani putra-namani tesu svatmajan purojava-manojava-pavamana-dhumranika-citrarepha-bahurupa-visvadhara-samjnan nidhapyadhipatin svayam bhagavaty ananta a-vesita-matis tapovanam pravivesa.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasya api—of that island also; praiyavratah—a son of Maharaja Priyavrata; eva—certainly; adhipatih—the ruler; namna—by the name; medha-tithih—Medhatithi; sah api—he also; vibhajya—dividing; sapta varsani—seven divisions of the island; putra-namani—possessing the names of his sons; tesu—in them; sva-atmajan—his own sons; purojava—Purojava; manojava—Manojava; pavamana—Pavamana; dhumranika—Dhumranika; citra-repha—Citrarepha; bahu-rupa—Bahurupa; visvadhara—Visvadhara; samjnan—having as names; nidhapya—establishing as; adhipatin—the rulers; svayam—himself; bhagavati—in the Supreme Personality of Godhead; anante—in the unlimited; avesita-matih—whose mind was fully absorbed; tapah-vanam—in the forest where meditation is performed; pravivesa—he entered.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The master of this island, also one of the sons of Priyavrata, was known as Medhatithi.</p>
+<p>He also divided his island into seven sections, named according to the names of his own sons, whom he made the kings of that island.</p>
+<p>The names of those sons are Purojava, Manojava, Pavamana, Dhumranika, Citrarepha, Bahurupa and Visvadhara.</p>
+<p>After dividing the island and situating his sons as its rulers, Medhatithi personally retired, and to fix his mind completely upon the lotus feet of the Supreme Personality of Godhead, he entered a forest suitable for meditation.</p>
+
+
+
+<p><strong>5.20.26</strong></p>
+<p>etesam varsa-maryada-girayo nadyas ca sapta saptaiva isana urusrngo balabhadrah satakesarah sahasrasroto devapalo mahanasa iti anaghayurda ubhayasprstir aparajita pancapadi sahasrasrutir nijadhrtir iti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>etesam—of all these divisions; varsa-maryada—acting as the boundary limits; girayah—the big hills; nadyah ca—and the rivers also; sapta—seven; sapta—seven; eva—indeed; isanah—Isana; urusrngah—Urusrnga; bala-bhadrah—Balabhadra; sata-kesarah—Satakesara; sahasra-srotah—Sahasrasrota; deva-palah—Devapala; mahanasah—Mahanasa; iti—thus; anagha—Anagha; ayurda—Ayurda; ubhayasprstih—Ubhayasprsti; aparajita—Aparajita; pancapadi—Pancapadi; sahasra-srutih—Sahasra-sruti; nija-dhrtih—Nijadhrti; iti—thus.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>For these lands also, there are seven boundary mountains and seven rivers.</p>
+<p>The mountains are Isana, Urusrnga, Balabhadra, Satakesara, Sahasrasrota, Devapala and Mahanasa.</p>
+<p>The rivers are Anagha, Ayurda, Ubhayasprsti, Aparajita, Pancapadi, Sahasra-sruti and Nijadhrti.</p>
+
+
+
+<p><strong>5.20.27</strong></p>
+<p>tad-varsa-purusa rtavrata-satyavrata-danavratanuvrata-namano bhagavantam vayv-atmakam pranayama-vidhuta-rajas-tamasah parama-samadhina yajante.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tat-varsa-purusah—the inhabitants of those tracts of land; rta-vrata—Rtavrata; satya-vrata—Satyavrata; dana-vrata—Danavrata; anuvrata—Anuvrata; namanah—having the four names; bhagavantam—the Supreme Personality of Godhead; vayu-atmakam—represented by the demigod Vayu; pranayama—by the practice of regulating the airs within the body; vidhuta—cleansed away; rajah-tamasah—whose passion and ignorance; parama—sublime; samadhina—by trance; yajante—they worship.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The inhabitants of those islands are also divided into four castes—Rtavrata, Satyavrata, Danavrata and Anuvrata—which exactly resemble brahmana, ksatriya, vaisya and sudra.</p>
+<p>They practice pranayama and mystic yoga, and in trance they worship the Supreme Lord in the form of Vayu.</p>
+
+
+
+<p><strong>5.20.28</strong></p>
+<p>antah-pravisya bhutani</p>
+<p>yo bibharty atma-ketubhih</p>
+<p>antaryamisvarah saksat</p>
+<p>patu no yad-vase sphutam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>antah-pravisya—entering within; bhutani—all living entities; yah—who; bibharti—maintains; atma-ketubhih—by the functions of the inner airs (prana, apana, etc.); antaryami—the Supersoul within; isvarah—the Supreme person; saksat—directly; patu—please maintain; nah—us; yat-vase—under whose control; sphutam—the cosmic manifestation.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>(The inhabitants of Sakadvipa worship the Supreme Personality of Godhead in the form of Vayu in the following words.)</p>
+<p>O Supreme Person, situated as the Supersoul within the body, You direct the various actions of the different airs, such as prana, and thus You maintain all living entities.</p>
+<p>O Lord, O Supersoul of everyone, O controller of the cosmic manifestation under whom everything exists, may You protect us from all dangers.</p>
+<p><strong>PURPORT</strong></p>
+<p>Through the mystic yoga practice called pranayama, the yogi controls the airs within the body to maintain the body in a healthy condition.</p>
+<p>In this way, the yogi comes to the point of trance and tries to see the Supersoul within the core of his heart.</p>
+<p>Pranayama is the means to attain samadhi, trance, in order to fully absorb oneself in seeing the Supreme Lord as antaryami, the Supersoul within the core of the heart.</p>
+
+
+
+<p><strong>5.20.29</strong></p>
+<p>evam eva dadhi-mandodat paratah puskaradvipas tato dvi-gunayamah samantata upakalpitah samanena svadudakena samudrena bahir avrto yasmin brhat-puskaram jvalana-sikhamala-kanaka-patrayutayutam bhagavatah kamalasanasyadhyasanam parikalpitam.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>evam eva—thus; dadhi-manda-udat—the ocean of yogurt; paratah—beyond; puskara-dvipah—another island, named Puskaradvipa; tatah—than that (Sakadvipa); dvi-guna-ayamah—whose measurement is twice as great; samantatah—on all sides; upakalpitah—surrounded; samanena—equal in width; svadu-udakena—possessing sweet water; samudrena—by an ocean; bahih—outside; avrtah—surrounded; yasmin—in which; brhat—very big; puskaram—lotus flower; jvalana-sikha—like the flames of a blazing fire; amala—pure; kanaka—gold; patra—leaves; ayuta-ayutam—possessing 100,000,000; bhagavatah—greatly powerful; kamala asanasya—of Lord Brahma, whose sitting place is on the lotus flower; adhyasanam—sitting place; parikalpitam—considered.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Outside the ocean of yogurt is another island, known as Puskaradvipa, which is 6,400,000 yojanas (51,200,000 miles) wide, twice as wide as the ocean of yogurt.</p>
+<p>It is surrounded by an ocean of very tasteful water as broad as the island itself.</p>
+<p>On Puskaradvipa there is a great lotus flower with 100,000,000 pure golden petals, as effulgent as the flames of fire.</p>
+<p>That lotus flower is considered the sitting place of Lord Brahma, who is the most powerful living being and who is therefore sometimes called bhagavan.</p>
+
+
+
+<p><strong>5.20.30</strong></p>
+<p>tad-dvipa-madhye manasottara-namaika evarvacina-paracina-varsayor maryadacalo ’yuta-yojanocchrayayamo yatra tu catasrsu diksu catvari purani loka-palanam indradinam yad-uparistat surya-rathasya merum paribhramatah samvatsaratmakam cakram devanam aho-ratrabhyam paribhramati.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tat-dvipa-madhye—within that island; manasottara—Manasottara; nama—named; ekah—one; eva—indeed; arvacina—on this side; paracina—and beyond, or outside; varsayoh—of tracts of land; maryada—indicating the boundary; acalah—a great mountain; ayuta—ten thousand; yojana—eight miles; ucchraya-ayamah—whose height and width; yatra—where; tu—but; catasrsu—in the four; diksu—directions; catvari—four; purani—cities; loka-palanam—of the directors of planetary systems; indra-adinam—headed by Indra; yat—of which; uparistat—on the top; surya-rathasya—of the chariot of the sun-god; merum—Meru Mountain; paribhramatah—while circumambulating; samvatsara-atmakam—consisting of one samvatsara; cakram—wheel or orbit; devanam—of the demigods; ahah-ratrabhyam—by the day and night; paribhramati—moves around.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In the middle of that island is a great mountain named Manasottara, which forms the boundary between the inner side and the outer side of the island.</p>
+<p>Its breadth and height are 10,000 yojanas (80,000 miles).</p>
+<p>On that mountain, in the four directions, are the residential quarters of demigods such as Indra.</p>
+<p>In the chariot of the sun-god, the sun travels on the top of the mountain in an orbit called the Samvatsara, encircling Mount Meru.</p>
+<p>The sun’s path on the northern side is called Uttarayana, and its path on the southern side is called Daksinayana.</p>
+<p>One side represents a day for the demigods, and the other represents their night.</p>
+<p><strong>PURPORT</strong></p>
+<p>Brahma-samhita (5.52): yasyajnaya bhramati sambhrta-kala-cakrah.</p>
+<p>The sun orbits around Mount Sumeru, for six months on the northern side and for six months on the southern.</p>
+<p>This adds up to the duration of a day and night of the demigods in the upper planetary systems.</p>
+
+
+
+<p><strong>5.20.31</strong></p>
+<p>tad-dvipasyapy adhipatih praiyavrato vitihotro namaitasyatmajau ramanaka-dhataki-namanau varsa-pati niyujya sa svayam purvajavad-bhagavat-karma-sila evaste.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tat-dvipasya—of that island; api—also; adhipatih—the ruler; praiyavratah—a son of Maharaja Priyavrata; vitihotrah nama—named Vitihotra; etasya—of him; atma-jau—unto the two sons; ramanaka—Ramanaka; dhataki—and Dhataki; namanau—having the names; varsa-pati—the rulers of the two tracts of land; niyujya—appointing; sah svayam—himself; purvaja-vat—like his other brothers; bhagavat-karma-silah—being absorbed in activities to satisfy the Supreme Personality of Godhead; eva—indeed; aste—remains.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The ruler of this island, the son of Maharaja Priyavrata named Vitihotra, had two sons named Ramanaka and Dhataki.</p>
+<p>He granted the two sides of the island to these two sons and then personally engaged himself in activities for the sake of the Supreme Personality of Godhead like his elder brother Medhatithi.</p>
+
+
+
+<p><strong>5.20.32</strong></p>
+<p>tad-varsa-purusa bhagavantam brahma-rupinam sakarmakena karmanaradhayantidam codaharanti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tat-varsa-purusah—the inhabitants of that island; bhagavantam—the Supreme Personality of Godhead; brahma-rupinam—exhibited as Lord Brahma being seated on the lotus; sa-karmakena—for fulfillment of material desires; karmana—by performing ritualistic activities according to the Vedas; aradhayanti—worship; idam—this; ca—and; udaharanti—they chant.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>For the fulfillment of material desires, the inhabitants of this tract of land worship the Supreme Personality of Godhead as represented by Lord Brahma.</p>
+<p>They offer prayers to the Lord as follows.</p>
+
+
+
+<p><strong>5.20.33</strong></p>
+<p>yat tat karmamayam lingam</p>
+<p>brahma-lingam jano ’rcayet</p>
+<p>ekantam advayam santam</p>
+<p>tasmai bhagavate nama iti</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yat—which; tat—that; karma-mayam—obtainable by the Vedic ritualistic system; lingam—the form; brahma-lingam—which makes known the Supreme Brahman; janah—a person; arcayet—must worship; ekantam—who has full faith in the one Supreme; advayam—nondifferent; santam—peaceful; tasmai—unto him; bhagavate—the most powerful; namah—our respects; iti—thus.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Lord Brahma is known as karma-maya, the form of ritualistic ceremonies, because by performing ritualistic ceremonies one may attain his position and because the Vedic ritualistic hymns become manifest from him.</p>
+<p>He is devoted to the Supreme Personality of Godhead without deviation, and therefore in one sense he is not different from the Lord.</p>
+<p>Nevertheless, he should be worshiped not as the monists worship him, but in duality.</p>
+<p>One should always remain a servitor of the Supreme Lord, the supreme worshipable Deity.</p>
+<p>We therefore offer our respectful obeisances unto Lord Brahma, the form of manifest Vedic knowledge.</p>
+<p><strong>PURPORT</strong></p>
+<p>In this verse, the word karma-mayam (obtainable by the Vedic ritualistic syste) is significant.</p>
+<p>The Vedas say, svadharma-nisthah sata janmabhih puman virincatam eti: One who strictly follows the principles of varnasrama-dharma for at least one hundred births will be rewarded with the post of Lord Brahma It is also significant that although Lord Brahma is extremely powerful, he never thinks himself one with the Supreme Personality of Godhead; he always knows that he is an eternal servitor of the Lord.</p>
+<p>Because the Lord and the servant are identical on the spiritual platform, Brahma is herein addressed as bhagavan.Bhagavan is the Supreme Personality of Godhead, Krsna, but if a devotee serves Him with full faith, the meaning of the Vedic literature is revealed to him.</p>
+<p>Therefore Brahma is called brahma-linga, which indicates that his entire form consists of Vedic knowledge.</p>
+
+
+
+<p><strong>5.20.34</strong></p>
+<p>tatah parastal lokaloka-namacalo lokalokayor antarale parita upaksiptah.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—from that ocean of sweet drinking water; parastat—beyond; lokaloka-nama—named Lokaloka; acalah—a mountain; loka-alokayoh antarale—between the countries full of sunlight and those without sunlight; paritah—all around; upaksiptah—exists.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, beyond the ocean of sweet water and fully surrounding it, is a mountain named Lokaloka, which divides the countries that are full of sunlight from those not lit by the sun.</p>
+
+
+
+<p><strong>5.20.35</strong></p>
+<p>yavan manasottara-mervor antaram tavati bhumih kancany anyadarsa-talopama yasyam prahitah padartho na kathancit punah pratyupalabhyate tasmat sarva-sattva-parihrtasit.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yavat—as much as; manasottara-mervoh antaram—the land between Manasottara and Meru (beginning from the middle of Mount Sumeru); tavati—that much; bhumih—land; kancani—made of gold; anya—another; adarsa-tala-upama—whose surface is just like the surface of a mirror; yasyam—on which; prahitah—dropped; padarthah—a thing; na—not; kathancit—in any way; punah—again; pratyupalabhyate—is found; tasmat—therefore; sarva-sattva—by all living entities; parihrta—abandoned; asit—was.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Beyond the ocean of sweet water is a tract of land as broad as the area between the middle of Mount Sumeru and the boundary of Manasottara Mountain.</p>
+<p>In that tract of land there are many living beings.</p>
+<p>Beyond it, extending to Lokaloka Mountain, is another land, which is made of gold.</p>
+<p>Because of its golden surface, it reflects light like the surface of a mirror, and any physical article that falls on that land can never be perceived again.</p>
+<p>All living entities, therefore, have abandoned that golden land.</p>
+
+
+
+<p><strong>5.20.36</strong></p>
+<p>lokaloka iti samakhya yad anenacalena lokalokasyantarvar-tinavasthapyate.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>loka—with light (or with inhabitants); alokah—without light (or without inhabitants); iti—in this way; samakhya—designation; yat—which; anena—by this; acalena—mountain; loka—of the land inhabited by living entities; alokasya—and of the land not inhabited by living entities; antarvartina—which is in the middle; avasthapyate—is established.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Between the lands inhabited by living entities and those that are uninhabited stands the great mountain which separates the two and which is therefore celebrated as Lokaloka.</p>
+
+
+
+<p><strong>5.20.37</strong></p>
+<p>sa loka-trayante parita isvarena vihito yasmat suryadinam dhruvapavarganam jyotir-gananam gabhastayo ’rvacinams tril lokan avitanvana na kadacit paracina bhavitum utsahante tavad un-nahanayamah.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—that mountain; loka-traya-ante—at the end of the three lokas (Bhurloka, Bhuvarloka and Svarloka); paritah—all around; isvarena—by the Supreme Personality of Godhead, Krsna; vihitah—created; yasmat—from which; surya-adinam—of the sun planet; dhruva-apavarganam—up to Dhruvaloka and other, inferior luminaries; jyotih-gananam—of all the luminaries; gabhastayah—the rays; arvacinan—on this side; trin—the three; lokan—planetary systems; avitanvanah—spreading throughout; na—not; kadacit—at any time; paracinah—beyond the jurisdiction of that mountain; bhavitum—to be; utsahante—are able; tavat—that much; unnahana-ayamah—the measure of the height of the mountain.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>By the supreme will of Krsna, the mountain known as Lokaloka has been installed as the outer border of the three worlds—Bhurloka, Bhuvarloka and Svarloka—to control the rays of the sun throughout the universe.</p>
+<p>All the luminaries, from the sun up to Dhruvaloka, distribute their rays throughout the three worlds, but only within the boundary formed by this mountain.</p>
+<p>Because it is extremely high, extending even higher than Dhruvaloka, it blocks the rays of the luminaries, which therefore can never extend beyond it.</p>
+<p><strong>PURPORT</strong></p>
+<p>When we speak of loka-traya, we refer to the three primary planetary systems—Bhuh, Bhuvah and Svah—into which the universe is divided.</p>
+<p>Surrounding these planetary systems are the eight directions, namely east, west, north, south, northeast, southeast, northwest and southwest.</p>
+<p>Lokaloka Mountain has been established as the outer boundary of all the lokas to distribute the rays of the sun and other luminaries equally throughout the universe.</p>
+<p>This vivid description of how the rays of the sun are distributed throughout the different planetary systems of the universe is very scientific.</p>
+<p>Sukadeva Gosvami described these universal affairs to Maharaja Pariksit as he had heard about them from his predecessor.</p>
+<p>He explained these facts five thousand years ago, but the knowledge existed long, long before because Sukadeva Gosvami received it through disciplic succession.</p>
+<p>Because this knowledge is accepted through the disciplic succession, it is perfect.</p>
+<p>The history of modern scientific knowledge, on the contrary, does not go back more than a few hundred years.</p>
+<p>Therefore, even if modern scientists do not accept the other factual presentations of Srimad-Bhagavatam, how can they deny the perfect astronomical calculations that existed long before they could imagine such things? There is so much information to gather from Srimad-Bhagavatam.</p>
+<p>Modern scientists, however, have no information of other planetary systems and, indeed, are hardly conversant with the planet on which we are now living.</p>
+
+
+
+<p><strong>5.20.38</strong></p>
+<p>etaval loka-vinyaso mana-laksana-samsthabhir vicintitah kavibhih sa tu pancasat-koti-ganitasya bhu-golasya turiya-bhago ’yam lokalokacalah.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>etavan—this much; loka-vinyasah—the placing of the different planets; mana—with measurements; laksana—symptoms; samsthabhih—as well as with their different situations; vicintitah—established by scientific calculations; kavibhih—by learned scholars; sah—that; tu—but; pancasat-koti—500,000,000 yojanas; ganitasya—which is measured at; bhu-golasya—of the planetary system known as Bhugolaka; turiya-bhagah—one fourth; ayam—this; lokaloka-acalah—the mountain known as Lokaloka.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Learned scholars who are free from mistakes, illusions and propensities to cheat have thus described the planetary systems and their particular symptoms, measurements and locations.</p>
+<p>With great deliberation, they have established the truth that the distance between Sumeru and the mountain known as Lokaloka is one fourth of the diameter of the universe—or, in other words, 125,000,000 yojanas (1 billion miles).</p>
+<p><strong>PURPORT</strong></p>
+<p>Srila Visvanatha Cakravarti Thakura has given accurate astronomical information about the location of Lokaloka Mountain, the movements of the sun globe and the distance between the sun and the circumference of the universe.</p>
+<p>However, the technical terms used in the astronomical calculations given by the Jyotir Veda are difficult to translate into English.</p>
+<p>Therefore to satisfy the reader, we may include the exact Sanskrit statement given by Srila Visvanatha Cakravarti Thakura, which records exact calculations regarding universal affairs sa tu lokalokas tu bhu-golakasya bhu-sambandhanda-golakasyety arthah; suryasy eva bhuvo ’py anda-golakayor madhya-vartitvat kha-golam iva bhu-golam api pancasat-koti-yojana-pramanam tasya turiya-bhagah sardha-dvadasa-koti-yojana-vistarocchraya ity arthah bhus tu catus-trimsal-laksonapancasat-koti-pramana jneya; yatha meru-madhyan manasottara-madhya-paryantam sardha-sapta-pancasal-laksottara-koti-yojana-pramanam; manasottara-madhyat svadudaka-samudra-paryantam san-navati-laksa-yojana-pramanam tatah kancani-bhumih sardha-sapta-pancasal-laksottara-koti-yojana-pramana evam ekato meru-lokalokayor antaralam ekadasa-sal-laksadhika-catus-koti-parimitam anyato ’pi tathatyeto lokalokal loka-paryantam sthanam dvavimsati-laksottarasta-koti-parimitam lokalokad bahir apy ekatah etavad eva anyato ’py etavad eva yad vaksyate, yo ’ntar-vistara etena hy aloka-parimanam ca vyakhyatam yad-bahir lokalokacalad ity ekato lokalokah sardha-dvadasa-koti-yojana-parimanah anyato ’pi sa tathety evam catus-trimsal-laksonapancasat-koti-pramana bhuh sabdhi-dvipa-parvata jneya; ata evanda-golakat sarvato diksu sapta-dasa-laksa-yojanavakase vartamane sati prthivyah sesa-nagena dharanam dig-gajais ca niscali-karanam sarthakam bhaved anyatha tu vyakhyantare pancasat-koti-pramanatvad anda-golaka-lagnatve tat tat sarvam akincit-karam syat caksuse manvantare cakasmat majjanam sri-varaha-devenotthapanam ca durghatam syad ity adikam vivecaniyam.</p>
+
+
+
+<p><strong>5.20.39</strong></p>
+<p>tad-uparistac catasrsv asasvatma-yoninakhila-jagad-gurunadhinivesita ye dvirada-pataya rsabhah puskaracudo vamano ’parajita iti sakala-loka-sthiti-hetavah.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tat-uparistat—on the top of Lokaloka Mountain; catasrsu asasu—in the four directions; atma-yonina—by Lord Brahma; akhila-jagat-guruna—the spiritual master of the whole universe; adhinivesitah—established; ye—all those; dvirada-patayah—the best of elephants; rsabhah—Rsabha; puskara-cudah—Puskaracuda; vamanah—Vamana; aparajitah—Aparajita; iti—thus; sakala-loka-sthiti-hetavah—the causes of the maintenance of the different planets within the universe.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>On the top of Lokaloka Mountain are the four gaja-patis, the best of elephants, which were established in the four directions by Lord Brahma, the supreme spiritual master of the entire universe.</p>
+<p>The names of those elephants are Rsabha, Puskaracuda, Vamana and Aparajita.</p>
+<p>They are responsible for maintaining the planetary systems of the universe.</p>
+
+
+
+<p><strong>5.20.40</strong></p>
+<p>tesam sva-vibhutinam loka-palanam ca vividha-viryopabrmhanaya bhagavan parama-maha-puruso maha-vibhuti-patir antaryamy atmano visuddha-sattvam dharma-jnana-vairagyaisvaryady-asta-maha-siddhy-upalaksanam visvaksenadibhih sva-parsada-pravaraih parivarito nija-varayudhopasobhitair nija-bhuja-dandaih sandharayamanas tasmin giri-vare samantat sakala-loka-svastaya aste.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tesam—of all of them; sva-vibhutinam—who are his personal expansions and assistants; loka-palanam—who are entrusted with looking after the universal affairs; ca—and; vividha—varieties; virya-upabrmhanaya—for expanding the powers; bhagavan—the Supreme Personality of Godhead; parama-maha-purusah—the foremost master of all kinds of opulence, the Supreme Personality of Godhead; maha-vibhuti-patih—the master of all inconceivable potencies; antaryami—the Supersoul; atmanah—of Himself; visuddha-sattvam—having an existence without contamination by the material modes of nature; dharma-jnana-vairagya—of religion, pure knowledge and renunciation; aisvarya-adi—of all kinds of opulence; asta—eight; maha-siddhi—and of great mystic perfections; upalaksanam—having the characteristics; visvaksena-adibhih—by His expansion known as Visvaksena and others; sva-parsada-pravaraih—the best of personal assistants; parivaritah—surrounded; nija—His own; vara-ayudha—by different types of weapons; upasobhitaih—being decorated; nija—own; bhuja-dandaih—with stout arms; sandharayamanah—manifesting this form; tasmin—on that; giri-vare—great mountain; samantat—all around; sakala-loka-svastaye—for the benefit of all the planetary systems; aste—exists.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Supreme Personality of Godhead is the master of all transcendental opulences and the master of the spiritual sky.</p>
+<p>He is the Supreme Person, Bhagavan, the Supersoul of everyone.</p>
+<p>The demigods, led by Indra, the King of heaven, are entrusted with seeing to the affairs of the material world.</p>
+<p>To benefit all living beings in all the varied planets and to increase the power of those elephants and of the demigods, the Lord manifests Himself on top of that mountain in a spiritual body, uncontaminated by the modes of material nature.</p>
+<p>Surrounded by His personal expansions and assistants like Visvaksena, He exhibits all His perfect opulences, such as religion and knowledge, and His mystic powers such as anima, laghima and mahima.</p>
+<p>He is beautifully situated, and He is decorated by the different weapons in His four hands.</p>
+
+
+
+<p><strong>5.20.41</strong></p>
+<p>akalpam evam vesam gata esa bhagavan atma-yogamayaya viracita-vividha-loka-yatra-gopiyayety arthah.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>a-kalpam—for the duration of the time of creation; evam—thus; vesam—appearance; gatah—has accepted; esah—this; bhagavan—the Supreme Personality of Godhead; atma-yoga-mayaya—by His own spiritual potency; viracita—perfected; vividha-loka-yatra—the livelihood of the various planetary systems; gopiyaya—just to maintain; iti—thus; arthah—the purpose.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The various forms of the Supreme Personality of Godhead, such as Narayana and Visnu, are beautifully decorated with different weapons.</p>
+<p>The Lord exhibits those forms to maintain all the varied planets created by His personal potency, yogamaya.</p>
+<p><strong>PURPORT</strong></p>
+<p>In Bhagavad-gita (4.6) Lord Krsna says, sambhavamy atma-mayaya: I appear by My internal potency The word atma-maya refers to the Lord’s personal potency, yogamaya.</p>
+<p>After creating both the material world and spiritual world through yogamaya, the Supreme Personality of Godhead personally maintains them by expanding Himself in different categories as the Visnu murtis and the demigods.</p>
+<p>He maintains the material creation from beginning to end, and He personally maintains the spiritual world.</p>
+
+
+
+<p><strong>5.20.42</strong></p>
+<p>yo ’ntar-vistara etena hy aloka-parimanam ca vyakhyatam yad bahir lokalokacalat; tatah parastad yogesvara-gatim visuddham udaharanti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—that which; antah-vistarah—the distance inside Lokaloka Mountain; etena—by this; hi—indeed; aloka-parimanam—the width of the tract of land known as Aloka-varsa; ca—and; vyakhyatam—described; yat—which; bahih—outside; lokaloka-acalat—beyond Lokaloka Mountain; tatah—that; parastat—beyond; yogesvara-gatim—the path of Yogesvara (Krsna) in penetrating the coverings of the universe; visuddham—without material contamination; udaharanti—they say.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear King, outside Lokaloka Mountain is the tract of land known as Aloka-varsa, which extends for the same breadth as the area within the mountain—in other words, 125,000,000 yojanas (one billion miles).</p>
+<p>Beyond Aloka-varsa is the destination of those who aspire for liberation from the material world.</p>
+<p>It is beyond the jurisdiction of the material modes of nature, and therefore it is completely pure.</p>
+<p>Lord Krsna took Arjuna through this place to bring back the sons of the brahmana.</p>
+
+
+
+<p><strong>5.20.43</strong></p>
+<p>anda-madhya-gatah suryo</p>
+<p>dyav-abhumyor yad antaram</p>
+<p>suryanda-golayor madhye</p>
+<p>kotyah syuh panca-vimsatih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>anda-madhya-gatah—situated in the center of the universe; suryah—the sun globe; dyav-abhumyoh—the two planetary systems Bhurloka and Bhuvarloka; yat—which; antaram—in between; surya—of the sun; anda-golayoh—and the globe of the universe; madhye—in the middle; kotyah—groups of ten million; syuh—are; panca-vimsatih—twenty-five.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The sun is situated (vertically) in the middle of the universe, in the area between Bhurloka and Bhuvarloka, which is called antariksa, outer space.</p>
+<p>The distance between the sun and the circumference of the universe is twenty-five koti yojanas (two billion miles).</p>
+<p><strong>PURPORT</strong></p>
+<p>The word koti means ten million, and a yojana is eight miles.</p>
+<p>The diameter of the universe is fifty koti yojanas (four billion miles).</p>
+<p>Therefore, since the sun is in the middle of the universe, the distance between the sun and the edge of the universe is calculated to be twenty-five koti yojanas (two billion miles).</p>
+
+
+
+<p><strong>5.20.44</strong></p>
+<p>mrte ’nda esa etasmin yad abhut tato martanda iti vyapadesah; hiranyagarbha iti yad dhiranyanda-samudbhavah.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>mrte—dead; ande—in the globe; esah—this; etasmin—in this; yat—which; abhut—entered personally at the time of creation; tatah—from that; martanda—Martanda; iti—thus; vyapadesah—the designation; hiranya-garbhah—known as Hiranyagarbha; iti—thus; yat—because; hiranya-anda-samudbhavah—his material body was created from Hiranyagarbha.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The sun-god is also known as Vairaja, the total material body for all living entities.</p>
+<p>Because he entered this dull egg of the universe at the time of creation, he is also called Martanda.</p>
+<p>He is also known as Hiranyagarbha because he received his material body from Hiranyagarbha (Lord Brahma).</p>
+<p><strong>PURPORT</strong></p>
+<p>The post of Lord Brahma is meant for very highly elevated, spiritually advanced living beings.</p>
+<p>When such living beings are unavailable, Lord Visnu, the Supreme Personality of Godhead, expands Himself as Lord Brahma.</p>
+<p>This takes place very rarely.</p>
+<p>Consequently there are two kinds of Brahmas.</p>
+<p>Sometimes Brahma is an ordinary living entity, and at other times Brahma is the Supreme Personality of Godhead.</p>
+<p>The Brahma spoken of here is an ordinary living being.</p>
+<p>Whether Brahma is the Supreme Personality of Godhead or an ordinary living being, he is known as Vairaja Brahma and Hiranyagarbha Brahma.</p>
+<p>Therefore the sun-god is also accepted as Vairaja Brahma.</p>
+
+
+
+<p><strong>5.20.45</strong></p>
+<p>suryena hi vibhajyante</p>
+<p>disah kham dyaur mahi bhida</p>
+<p>svargapavargau naraka</p>
+<p>rasaukamsi ca sarvasah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>suryena—by the sun-god within the sun planet; hi—indeed; vibhajyante—are divided; disah—the directions; kham—the sky; dyauh—the heavenly planets; mahi—the earthly planets; bhida—other divisions; svarga—the heavenly planets; apavargau—and the places for liberation; narakah—the hellish planets; rasaukamsi—such as Atala; ca—also; sarvasah—all.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King, the sun-god and the sun planet divide all the directions of the universe.</p>
+<p>It is only because of the presence of the sun that we can understand what the sky, the higher planets, this world and the lower planets are.</p>
+<p>It is also only because of the sun that we can understand which places are for material enjoyment, which are for liberation, which are hellish and subterranean.</p>
+
+
+
+<p><strong>5.20.46</strong></p>
+<p>deva-tiryan-manusyanam</p>
+<p>sarisrpa-savirudham</p>
+<p>sarva-jiva-nikayanam</p>
+<p>surya atma drg-isvarah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>deva—of the demigods; tiryak—the lower animals; manusyanam—and the human beings; sarisrpa—the insects and the serpents; sa-virudham—and the plants and trees; sarva-jiva-nikayanam—of all groups of living entities; suryah—the sun-god; atma—the life and soul; drk—of the eyes; isvarah—the personality of Godhead.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>All living entities, including demigods, human beings, animals, birds, insects, reptiles, creepers and trees, depend upon the heat and light given by the sun-god from the sun planet.</p>
+<p>Furthermore, it is because of the sun’s presence that all living entities can see, and therefore he is called drg-isvara, the Personality of Godhead presiding over sight.</p>
+<p><strong>PURPORT</strong></p>
+<p>In this regard, Srila Visvanatha Cakravarti Thakura says, surya atma atmatvenopasyah.</p>
+<p>The actual life and soul of all living entities within this universe is the sun.</p>
+<p>He is therefore upasya, worshipable.</p>
+<p>We worship the sun-god by chanting the Gayatri mantra (om bhur bhuvah svah tat savitur varenyam bhargo devasya dhimahi).</p>
+<p>Surya is the life and soul of this universe, and there are innumerable universes for which a sun-god is the life and soul, just as the Supreme Personality of Godhead is the life and soul of the entire creation.</p>
+<p>We have information that Vairaja, Hiranyagarbha, entered the great, dull, material globe called the sun.</p>
+<p>This indicates that the theory held by so-called scientists that no one lives there is wrong.Bhagavad-gita also says that Krsna first instructed Bhagavad-gita to the sun-god (imam vivasvate yogam proktavan aham avyayam (Bg.4.1)).</p>
+<p>Therefore the sun is not vacant.</p>
+<p>It is inhabited by living entities, and the predominating deity is Vairaja, or Vivasvan.</p>
+<p>The difference between the sun and earth is that the sun is a fiery planet, but everyone there has a suitable body and can live there without difficulty.</p>
+
+
+</article></body></html>

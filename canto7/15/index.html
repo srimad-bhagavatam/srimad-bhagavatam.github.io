@@ -1,155 +1,42 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>Instructions for Civilized Human Beings - Instructions for Civilized Human Beings</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">Instructions for Civilized Human Beings</a></li><li class="affix"><a href="7.15.2.html">7.15.2</a></li><li class="affix"><a href="7.15.3.html">7.15.3</a></li><li class="affix"><a href="7.15.4.html">7.15.4</a></li><li class="affix"><a href="7.15.5.html">7.15.5</a></li><li class="affix"><a href="7.15.6.html">7.15.6</a></li><li class="affix"><a href="7.15.7.html">7.15.7</a></li><li class="affix"><a href="7.15.8.html">7.15.8</a></li><li class="affix"><a href="7.15.9.html">7.15.9</a></li><li class="affix"><a href="7.15.10.html">7.15.10</a></li><li class="affix"><a href="7.15.11.html">7.15.11</a></li><li class="affix"><a href="7.15.12.html">7.15.12</a></li><li class="affix"><a href="7.15.13.html">7.15.13</a></li><li class="affix"><a href="7.15.14.html">7.15.14</a></li><li class="affix"><a href="7.15.15.html">7.15.15</a></li><li class="affix"><a href="7.15.16.html">7.15.16</a></li><li class="affix"><a href="7.15.17.html">7.15.17</a></li><li class="affix"><a href="7.15.18.html">7.15.18</a></li><li class="affix"><a href="7.15.19.html">7.15.19</a></li><li class="affix"><a href="7.15.20.html">7.15.20</a></li><li class="affix"><a href="7.15.21.html">7.15.21</a></li><li class="affix"><a href="7.15.22.html">7.15.22</a></li><li class="affix"><a href="7.15.23.html">7.15.23</a></li><li class="affix"><a href="7.15.24.html">7.15.24</a></li><li class="affix"><a href="7.15.25.html">7.15.25</a></li><li class="affix"><a href="7.15.26.html">7.15.26</a></li><li class="affix"><a href="7.15.27.html">7.15.27</a></li><li class="affix"><a href="7.15.28.html">7.15.28</a></li><li class="affix"><a href="7.15.29.html">7.15.29</a></li><li class="affix"><a href="7.15.30.html">7.15.30</a></li><li class="affix"><a href="7.15.31.html">7.15.31</a></li><li class="affix"><a href="7.15.32-33.html">7.15.32-33</a></li><li class="affix"><a href="7.15.34.html">7.15.34</a></li><li class="affix"><a href="7.15.35.html">7.15.35</a></li><li class="affix"><a href="7.15.36.html">7.15.36</a></li><li class="affix"><a href="7.15.37.html">7.15.37</a></li><li class="affix"><a href="7.15.38-39.html">7.15.38-39</a></li><li class="affix"><a href="7.15.40.html">7.15.40</a></li><li class="affix"><a href="7.15.41.html">7.15.41</a></li><li class="affix"><a href="7.15.42.html">7.15.42</a></li><li class="affix"><a href="7.15.43-44.html">7.15.43-44</a></li><li class="affix"><a href="7.15.45.html">7.15.45</a></li><li class="affix"><a href="7.15.46.html">7.15.46</a></li><li class="affix"><a href="7.15.47.html">7.15.47</a></li><li class="affix"><a href="7.15.48-49.html">7.15.48-49</a></li><li class="affix"><a href="7.15.50-51.html">7.15.50-51</a></li><li class="affix"><a href="7.15.52.html">7.15.52</a></li><li class="affix"><a href="7.15.53.html">7.15.53</a></li><li class="affix"><a href="7.15.54.html">7.15.54</a></li><li class="affix"><a href="7.15.55.html">7.15.55</a></li><li class="affix"><a href="7.15.56.html">7.15.56</a></li><li class="affix"><a href="7.15.57.html">7.15.57</a></li><li class="affix"><a href="7.15.58.html">7.15.58</a></li><li class="affix"><a href="7.15.59.html">7.15.59</a></li><li class="affix"><a href="7.15.60.html">7.15.60</a></li><li class="affix"><a href="7.15.61.html">7.15.61</a></li><li class="affix"><a href="7.15.62.html">7.15.62</a></li><li class="affix"><a href="7.15.63.html">7.15.63</a></li><li class="affix"><a href="7.15.64.html">7.15.64</a></li><li class="affix"><a href="7.15.65.html">7.15.65</a></li><li class="affix"><a href="7.15.66.html">7.15.66</a></li><li class="affix"><a href="7.15.67.html">7.15.67</a></li><li class="affix"><a href="7.15.68.html">7.15.68</a></li><li class="affix"><a href="7.15.69.html">7.15.69</a></li><li class="affix"><a href="7.15.70.html">7.15.70</a></li><li class="affix"><a href="7.15.71.html">7.15.71</a></li><li class="affix"><a href="7.15.72.html">7.15.72</a></li><li class="affix"><a href="7.15.73.html">7.15.73</a></li><li class="affix"><a href="7.15.74.html">7.15.74</a></li><li class="affix"><a href="7.15.75.html">7.15.75</a></li><li class="affix"><a href="7.15.76.html">7.15.76</a></li><li class="affix"><a href="7.15.77.html">7.15.77</a></li><li class="affix"><a href="7.15.78.html">7.15.78</a></li><li class="affix"><a href="7.15.79.html">7.15.79</a></li><li class="affix"><a href="7.15.80.html">7.15.80</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">Instructions for Civilized Human Beings</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#instructions-for-civilized-human-beings" id="instructions-for-civilized-human-beings">Instructions for Civilized Human Beings</a></h1>
-<h2><a class="header" href="#summary" id="summary">Summary</a></h2>
-<h3><a class="header" href="#715" id="715">7.15</a></h3>
+<h1>Instructions for Civilized Human Beings</h1>
+<h2>Summary</h2>
+<p><strong>7.15</strong></p>
 <p>The summary of the Fifteenth Chapter is as follows.</p>
 <p>In the previous chapter, Sri Narada Muni proved the importance of the brahmana in society.</p>
 <p>Now, in this chapter, he will show the differences between different grades of brahmanas.</p>
@@ -206,7 +93,7 @@
 <p>Maharaja Yudhisthira, after hearing from Narada, become ecstatic in love of Krsna, and then Narada Muni left that place and returned to his own place.</p>
 <p>Thus Sukadeva Gosvami, having described various descendants of the daughters of Daksa, ends the Seventh Canto of Srimad-Bhagavatam.</p>
 <p>—Completed on the night of Vaisakhi Sukla Ekadasi, the tenth of May, the mercy of sri-krsna-caitanya prabhu nityananda sri-advaita gadadhara srivasadi-gaura-bhakta-vrnda.</p>
-<h3><a class="header" href="#7151" id="7151">7.15.1</a></h3>
+<p><strong>7.15.1</strong></p>
 <p>sri-narada uvaca</p>
 <p>karma-nistha dvijah kecit</p>
 <p>tapo-nistha nrpapare</p>
@@ -217,63 +104,1889 @@
 <p><strong>TRANSLATION</strong></p>
 <p>Narada Muni continued: My dear King, some brahmanas are very much attached to fruitive activities, some are attached to austerities and penances, and still others study the Vedic literature, whereas some, although very few, cultivate knowledge and practice different yogas, especially bhakti-yoga.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="7.15.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>7.15.2</strong></p>
+<p>jnana-nisthaya deyani</p>
+<p>kavyany anantyam icchata</p>
+<p>daive ca tad-abhave syad</p>
+<p>itarebhyo yatharhatah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>jnana-nisthaya—to the impersonalist or the transcendentalist desiring to merge into the Supreme; deyani—to be given in charity; kavyani—ingredients offered to the forefathers as oblations; anantyam—liberation from material bondage; icchata—by a person desiring; daive—the ingredients to be offered to the demigods; ca—also; tat-abhave—in the absence of such advanced transcendentalists; syat—it should be done; itarebhyah—to others (namely, those addicted to fruitive activities); yatha-arhatah—comparatively or with discrimination.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>A person desiring liberation for his forefathers or himself should give charity to a brahmana who adheres to impersonal monism (jnana-nistha).</p>
+<p>In the absence of such an advanced brahmana, charity may be given to a brahmana addicted to fruitive activities (karma-kanda).</p>
+<p><strong>PURPORT</strong></p>
+<p>There are two processes by which to get free from material bondage.</p>
+<p>One involves jnana-kanda and karma-kanda, and the other involves upasana-kanda.</p>
+<p>Vaisnavas never want to merge into the existence of the Supreme; rather, they want to be everlastingly servants of the Lord to render loving service unto Him.</p>
+<p>In this verse the words anantyam icchata refer to persons who desire to achieve liberation from material bondage and merge into the existence of the Lord.</p>
+<p>Devotees, however, whose objective is to associate personally with the Lord, have no desire to accept the activities of karma-kanda or jnana-kanda, for pure devotional service is above both karma-kanda and jnana-kanda.</p>
+<p>Anyabhilasita-sunyam jnana-karmady-anavrtam (Bhakti-rasamrta-sindhu 1.1.11).</p>
+<p>In pure devotional service there is not even a pinch of jnana or karma.</p>
+<p>Consequently, when Vaisnavas distribute charity, they do not need to find a brahmana performing the activities of jnana-kanda or karma-kanda.</p>
+<p>The best example in this regard is provided by Advaita Gosvami, who, after performing the sraddha ceremony for his father, offered charity to Haridasa Thakura, although it was known to everyone that Haridasa Thakura was born in a Mohammedan family, not a brahmana family, and was not interested in the activities of jnana-kanda or karma-kanda.</p>
+<p>Charity, therefore, should be given to the first-class transcendentalist, the devotee, because the sastras recommend:</p>
+<p>muktanam api siddhanam</p>
+<p>narayana-parayanah</p>
+<p>sudurlabhah prasantatma</p>
+<p>kotisv api maha-mune</p>
+<p>O great sage, among many millions who are liberated and perfect in knowledge of liberation, one may be a devotee of Lord Narayana, or Krsna.</p>
+<p>Such devotees, who are fully peaceful, are extremely rare (Bhag.6.14.5) A Vaisnava is in a higher position than a jnani, and therefore Advaita Acarya selected Haridasa Thakura to be the person to accept His charity.</p>
+<p>The Supreme Lord also says:</p>
+<p>na me ’bhaktas catur-vedi</p>
+<p>mad-bhaktah sva-pacah priyah</p>
+<p>tasmai deyam tato grahyam</p>
+<p>sa ca pujyo yatha hy aham</p>
+<p>Even though a person is a very learned scholar of the Sanskrit Vedic literatures, he is not accepted as My devotee unless he is pure in devotional service.</p>
+<p>However, even though a person is born in a family of dog-eaters, he is very dear to Me if he is a pure devotee who has no motive to enjoy fruitive activity or mental speculation.</p>
+<p>Indeed, all respect should be given to him, and whatever he offers should be accepted.</p>
+<p>Such devotees are as worshipable as I am (Hari-bhakti-vilasa10.127) Therefore, even if not born in a brahmana family, a devotee, because of his devotion to the Lord, is above all kinds of brahmanas, whether they be karma-kandis or jnana-kandis.</p>
+<p>In this regard, it may be mentioned that brahmanas in Vrndavana who are karma-kandis and jnana-kandis sometimes decline to accept invitations to our temple because our temple is known as the angareji temple, or Anglican temple But in accordance with the evidence given in the sastra and the example set by Advaita Acarya, we give prasada to devotees regardless of whether they come from India, Europe or America.</p>
+<p>It is the conclusion of the sastra that instead of feeding many jnana-kandi or karma-kandi brahmanas, it is better to feed a pure Vaisnava, regardless of where he comes from.</p>
+<p>This is also confirmed in Bhagavad-gita (9.30):</p>
+<p>api cet su-duracaro</p>
+<p>bhajate mam ananya-bhak</p>
+<p>sadhur eva sa mantavyah</p>
+<p>samyag vyavasito hi sah</p>
+<p>Even if one commits the most abominable actions, if he is engaged in devotional service he is to be considered saintly because he is properly situated Thus it doesn’t matter whether a devotee comes from a brahmana family or non-brahmana family; if he is fully devoted to Krsna, he is a sadhu.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="7.15.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>7.15.3</strong></p>
+<p>dvau daive pitr-karye trin</p>
+<p>ekaikam ubhayatra va</p>
+<p>bhojayet susamrddho ’pi</p>
+<p>sraddhe kuryan na vistaram</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dvau—two; daive—during the period when oblations are offered to the demigods; pitr-karye—in the sraddha ceremony, in which oblations are offered to the forefathers; trin—three; eka—one; ekam—one; ubhayatra—for both occasions; va—either; bhojayet—one should feed; su-samrddhah api—even though one is very rich; sraddhe—when offering oblations to the forefathers; kuryat—one should do; na—not; vistaram—very expensive arrangements.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>During the period for offering oblations to the demigods, one should invite only two brahmanas, and while offering oblations to the forefathers, one may invite three brahmanas.</p>
+<p>Or, in either case, only one brahmana will suffice.</p>
+<p>Even though one is very opulent, he should not endeavor to invite more brahmanas or make various expensive arrangements on those occasions.</p>
+<p><strong>PURPORT</strong></p>
+<p>As we have already mentioned, Srila Advaita Acarya, during the generally observed ceremony to offer oblations to the forefathers, invited only Haridasa Thakura.</p>
+<p>Thus He followed this principle: na me’bhaktas catur-vedi mad-bhaktah sva-pacah priyah.</p>
+<p>The Lord says, It is not necessary that one become very expert in Vedic knowledge before he can become My bhakta, or devotee.</p>
+<p>Even if one is born in a family of dog-eaters, he can become My devotee and be very dear to Me, in spite of having taken birth in such a family.</p>
+<p>Therefore, offerings should be given to My devotee, and whatever My devotee has offered Me should be accepted Following this principle, one should invite a first-class brahmana or Vaisnava—a realized soul—and feed him while observing the sraddha ceremony to offer oblations to one’s forefathers.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>7.15.4</strong></p>
+<p>desa-kalocita-sraddha-</p>
+<p>dravya-patrarhanani ca</p>
+<p>samyag bhavanti naitani</p>
+<p>vistarat sva-janarpanat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>desa—place; kala—time; ucita—proper; sraddha—respect; dravya—ingredients; patra—a suitable person; arhanani—paraphernalia for worship; ca—and; samyak—proper; bhavanti—are; na—not; etani—all these; vistarat—due to expansion; sva-jana-arpanat—or due to inviting relatives.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>If one arranges to feed many brahmanas or relatives during the sraddha ceremony, there will be discrepancies in the time, place, respectability and ingredients, the person to be worshiped, and the method of offering worship.</p>
+<p><strong>PURPORT</strong></p>
+<p>Narada Muni has prohibited unnecessarily gorgeous arrangements to feed relatives or brahmanas during the sraddha ceremony.</p>
+<p>Those who are materially opulent spend lavishly during this ceremony.</p>
+<p>Indians spend especially lavishly on three occasions—at the birth of a child, at marriage and while observing the sraddha ceremony—but the sastras prohibit the excessive expenditures involved in inviting many brahmanas and relatives, especially during the sraddha ceremony.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>7.15.5</strong></p>
+<p>dese kale ca samprapte</p>
+<p>muny-annam hari-daivatam</p>
+<p>sraddhaya vidhivat patre</p>
+<p>nyastam kamadhug aksayam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dese—in a proper place, namely a holy place of pilgrimage; kale—at an auspicious time; ca—also; samprapte—when available; muni-annam—foodstuffs prepared with ghee and suitable to be eaten by great saintly persons; hari-daivatam—unto the Supreme Personality of Godhead, Hari; sraddhaya—with love and affection; vidhi-vat—according to the directions of the spiritual master and the sastras; patre—unto the suitable person; nyastam—if it is so offered; kamadhuk—becomes a source of prosperity; aksayam—everlasting.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When one gets the opportunity of a suitable auspicious time and place, one should, with love, offer food prepared with ghee to the Deity of the Supreme Personality of Godhead and then offer the prasada to a suitable person—a Vaisnava or brahmana.</p>
+<p>This will be the cause of everlasting prosperity.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>7.15.6</strong></p>
+<p>devarsi-pitr-bhutebhya</p>
+<p>atmane sva-janaya ca</p>
+<p>annam samvibhajan pasyet</p>
+<p>sarvam tat purusatmakam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>deva—unto the demigods; rsi—saintly persons; pitr—forefathers; bhutebhyah—the living entities in general; atmane—relatives; sva-janaya—family members and friends; ca—and; annam—foodstuff (prasada); samvibhajan—offering; pasyet—one should see; sarvam—all; tat—them; purusa-atmakam—related to the Supreme Personality of Godhead.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>One should offer prasada to the demigods, the saintly persons, one’s forefathers, the people in general, one’s family members, one’s relatives and one’s friends, seeing them all as devotees of the Supreme Personality of Godhead.</p>
+<p><strong>PURPORT</strong></p>
+<p>As mentioned above, it is recommended that everyone distribute prasada, considering every living being a part and parcel of the Supreme Lord.</p>
+<p>Even in feeding the poor, one should distribute prasada.</p>
+<p>In Kali-yuga there is a scarcity of food almost every year, and thus philanthropists spend lavishly to feed the poor.</p>
+<p>For this they invent the term daridra-narayana-seva.</p>
+<p>This is prohibited.</p>
+<p>One should distribute sumptuous prasada, considering everyone a part of the Supreme Lord, but one should not juggle words to make a poor man Narayana.</p>
+<p>Everyone is related to the Supreme Lord, but one should not mistakenly think that because one is related to the Supreme Personality of Godhead, he has become the Supreme Personality of Godhead, Narayana.</p>
+<p>Such a Mayavada philosophy is extremely dangerous, especially for a devotee.</p>
+<p>Sri Caitanya Mahaprabhu has therefore strictly forbidden us to associate with Mayavadi philosophers.</p>
+<p>Mayavadi-bhasya sunile haya sarva-nasa: if one associates with the Mayavada philosophy, his devotional life is doomed.</p>
+
+
+
+<p><strong>7.15.7</strong></p>
+<p>na dadyad amisam sraddhe</p>
+<p>na cadyad dharma-tattvavit</p>
+<p>muny-annaih syat para pritir</p>
+<p>yatha na pasu-himsaya</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—never; dadyat—should offer; amisam—meat, fish, eggs and so on; sraddhe—in the performance of the sraddha ceremony; na—nor; ca—also; adyat—one should eat personally; dharma-tattva-vit—one who is actually learned in regard to religious activities; muni-annaih—by preparations made with ghee for saintly persons; syat—should be; para—first-class; pritih—satisfaction; yatha—for the forefathers and the Supreme Personality of Godhead; na—not; pasu-himsaya—by killing animals unnecessarily.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>A person fully aware of religious principles should never offer anything like meat, eggs or fish in the sraddha ceremony, and even if one is a ksatriya, he himself should not eat such things.</p>
+<p>When suitable food prepared with ghee is offered to saintly persons, the function is pleasing to the forefathers and the Supreme Lord, who are never pleased when animals are killed in the name of sacrifice.</p>
+
+
+
+<p><strong>7.15.8</strong></p>
+<p>naitadrsah paro dharmo</p>
+<p>nrnam sad-dharmam icchatam</p>
+<p>nyaso dandasya bhutesu</p>
+<p>mano-vak-kayajasya yah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—never; etadrsah—like this; parah—a supreme or superior; dharmah—religion; nrnam—of persons; sat-dharmam—superior religion; icchatam—being desirous of; nyasah—giving up; dandasya—causing trouble because of envy; bhutesu—unto the living entities; manah—in terms of the mind; vak—words; kaya-jasya—and body; yah—which.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Persons who want to advance in superior religion are advised to give up all envy of other living entities, whether in relationship to the body, words or mind.</p>
+<p>There is no religion superior to this.</p>
+
+
+
+<p><strong>7.15.9</strong></p>
+<p>eke karmamayan yajnan</p>
+<p>jnanino yajna-vittamah</p>
+<p>atma-samyamane ’niha</p>
+<p>juhvati jnana-dipite</p>
+<p><strong>SYNONYMS</strong></p>
+<p>eke—some; karma-mayan—resulting in a reaction (such as the killing of animals); yajnan—sacrifices; jnaninah—persons advanced in knowledge; yajna-vit-tamah—who know perfectly well the purpose of sacrifice; atma-samyamane—by self-control; anihah—who are without material desires; juhvati—execute sacrifice; jnana-dipite—enlightened in perfect knowledge.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Because of an awakening of spiritual knowledge, those who are intelligent in regard to sacrifice, who are actually aware of religious principles and who are free from material desires, control the self in the fire of spiritual knowledge, or knowledge of the Absolute Truth.</p>
+<p>They may give up the process of ritualistic ceremonies.</p>
+<p><strong>PURPORT</strong></p>
+<p>People are generally very much interested in karma-kanda ritualistic ceremonies for elevation to the higher planetary systems, but when one awakens his spiritual knowledge, he becomes uninterested in such elevation and engages himself fully in jnana-yajna to find the objective of life.</p>
+<p>The objective of life is to stop completely the miseries of birth and death and to return home, back to Godhead.</p>
+<p>When one cultivates knowledge for this purpose, he is considered to be on a higher platform than one who is engaged in karma-yajna, or fruitive activities.</p>
+
+
+
+<p><strong>7.15.10</strong></p>
+<p>dravya-yajnair yaksyamanam</p>
+<p>drstva bhutani bibhyati</p>
+<p>esa makaruno hanyad</p>
+<p>ataj-jno hy asu-trp dhruvam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dravya-yajnaih—with animals and other eatable things; yaksyamanam—the person engaged in such sacrifices; drstva—by seeing; bhutani—the living entities (animals); bibhyati—become afraid; esah—this person (the performer of sacrifice); ma—us; akarunah—who is inhumane and merciless; hanyat—will kill; a-tat-jnah—most ignorant; hi—indeed; asu-trp—who is most satisfied by killing others; dhruvam—certainly.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Upon seeing the person engaged in performing the sacrifice, animals meant to be sacrificed are extremely afraid, thinking, This merciless performer of sacrifices, being ignorant of the purpose of sacrifice and being most satisfied by killing others, will surely kill us</p>
+<p><strong>PURPORT</strong></p>
+<p>Animal sacrifice in the name of religion is current practically all over the world in every established religion.</p>
+<p>It is said that Lord Jesus Christ, when twelve years old, was shocked to see the Jews sacrificing birds and animals in the synagogues and that he therefore rejected the Jewish system of religion and started the religious system of Christianity, adhering to the Old Testament commandment Thou shalt not kill At the present day, however, not only are animals killed in the name of sacrifice, but the killing of animals has increased enormously because of the increasing number of slaughterhouses.</p>
+<p>Slaughtering animals, either for religion or for food, is most abominable and is condemned herein.</p>
+<p>Unless one is merciless, one cannot sacrifice animals, either in the name of religion or for food.</p>
+
+
+
+<p><strong>7.15.11</strong></p>
+<p>tasmad daivopapannena</p>
+<p>muny-annenapi dharmavit</p>
+<p>santusto ’har ahah kuryan</p>
+<p>nitya-naimittikih kriyah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasmat—therefore; daiva-upapannena—obtainable very easily by the grace of the Lord; muni-annena—with food (prepared in ghee and offered to the Supreme Lord); api—indeed; dharma-vit—one who is actually advanced in religious principles; santustah—very happily; ahah ahah—day after day; kuryat—one should perform; nitya-naimittikih—regular and occasional; kriyah—duties.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Therefore, day by day, one who is actually aware of religious principles and is not heinously envious of poor animals should happily perform daily sacrifices and those for certain occasions with whatever food is available easily by the grace of the Lord.</p>
+<p><strong>PURPORT</strong></p>
+<p>The word dharmavit, meaning one who knows the actual purpose of religion is very significant.</p>
+<p>As explained in Bhagavad-gita (18.66), sarva-dharman parityajya mam ekam saranam vraja (Bg.18.66): becoming Krsna conscious is the topmost stage in understanding of religious principles.</p>
+<p>One who reaches this stage performs the arcana process in devotional service.</p>
+<p>Anyone, whether a grhastha or a sannyasi, can keep small Deities of the Lord suitably packed or, if possible, installed, and thus worship the Deities of Radha-Krsna, Sita-Rama, Laksmi-Narayana, Lord Jagannatha or Sri Caitanya Mahaprabhu by offering food prepared in ghee and then offering the sanctified prasada to the forefathers, demigods and other living entities as a matter of routine daily work.</p>
+<p>All the centers of our Krsna consciousness movement have Deity worship programs very nicely going on in which food is offered to the Deity and distributed to the first-class brahmanas and Vaisnavas and even to the people in general.</p>
+<p>This performance of sacrifice brings complete satisfaction.</p>
+<p>The members of the Krsna consciousness movement engage daily in such transcendental activities.</p>
+<p>Thus in our Krsna consciousness movement there is no question at all of killing animals.</p>
+
+
+
+<p><strong>7.15.12</strong></p>
+<p>vidharmah para-dharmas ca</p>
+<p>abhasa upama chalah</p>
+<p>adharma-sakhah pancema</p>
+<p>dharma-jno ’dharmavat tyajet</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vidharmah—irreligion; para-dharmah—religious principles practiced by others; ca—and; abhasah—pretentious religious principles; upama—principles that appear religious but are not; chalah—a cheating religion; adharma-sakhah—which are different branches of irreligion; panca—five; imah—these; dharma-jnah—one who is aware of religious principles; adharma-vat—accepting them as irreligious; tyajet—should give up.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>There are five branches of irreligion, appropriately known as irreligion (vidharma), religious principles for which one is unfit (para-dharma), pretentious religion (abhasa), analogical religion (upadharma) and cheating religion (chala-dharma).</p>
+<p>One who is aware of real religious life must abandon these five as irreligious.</p>
+<p><strong>PURPORT</strong></p>
+<p>Any religious principles opposed to the principle of surrendering to the lotus feet of the Supreme Personality of Godhead, Krsna, are to be considered religious principles of irregularity or cheating, and one who is actually interested in religion must give them up.</p>
+<p>One should simply follow the instructions of Krsna and surrender unto Him.</p>
+<p>To do this, of course, one needs very good intelligence, which may be awakened after many, many births through good association with devotees and the practice of Krsna consciousness.</p>
+<p>Everything but the principle of religion recommended by Krsna—sarva-dharman parityajya mam ekam saranam vraja (Bg.18.66)—should be given up as irreligion.</p>
+
+
+
+<p><strong>7.15.13</strong></p>
+<p>dharma-badho vidharmah syat</p>
+<p>para-dharmo ’nya-coditah</p>
+<p>upadharmas tu pakhando</p>
+<p>dambho va sabda-bhic chalah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dharma-badhah—obstructs the execution of one’s own religious principles; vidharmah—against the principles of religion; syat—should be; para-dharmah—imitating religious systems for which one is unfit; anya-coditah—which is introduced by someone else; upadharmah—concocted religious principles; tu—indeed; pakhandah—by one who is against the principles of Vedas, standard scriptures; dambhah—who is falsely proud; va—or; sabda-bhit—by word jugglery; chalah—a cheating religious system.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Religious principles that obstruct one from following his own religion are called vidharma.</p>
+<p>Religious principles introduced by others are called para-dharma.</p>
+<p>A new type of religion created by one who is falsely proud and who opposes the principles of the Vedas is called upadharma.</p>
+<p>And interpretation by one’s jugglery of words is called chala-dharma.</p>
+<p><strong>PURPORT</strong></p>
+<p>To create a new type of dharma has become fashionable in this age.</p>
+<p>So-called svamis and yogis support that one may follow any type of religious system, according to one’s own choice, because all systems are ultimately the same.</p>
+<p>In Srimad-Bhagavatam, however, such fashionable ideas are called vidharma because they go against one’s own religious system.</p>
+<p>The real religious system is described by the Supreme Personality of Godhead: sarva-dharman parityajya mam ekam saranam vraja (Bg.18.66).</p>
+<p>The real religious system is that of surrender to the lotus feet of the Lord.</p>
+<p>In the Sixth Canto of Srimad-Bhagavatam, in connection with Ajamila’s deliverance, Yamaraja says, dharmam tu saksad bhagavat-pranitam: (SB 6.3.19) real religion is that which is given by the Supreme Personality of Godhead, just as real law is that which is given by the government.</p>
+<p>No one can manufacture actual law at home, nor can one manufacture actual religion.</p>
+<p>Elsewhere it is said, sa vai pumsam paro dharmo yato bhaktir adhoksaje: (SB 1.2.6) the real religious system is that which leads one to become a devotee of the Supreme Lord.</p>
+<p>Therefore, anything opposed to this religious system of progressive Krsna consciousness is called vidharma, para-dharma, upadharma or chala-dharma.</p>
+<p>Misinterpretation of Bhagavad-gita is chala-dharma.</p>
+<p>When Krsna directly says something and some rascal interprets it to mean something different, this is chala-dharma—a religious system of cheating—or sabda-bhit, a jugglery of words.</p>
+<p>One should be extremely careful to avoid these various types of cheating systems of religion.</p>
+
+
+
+<p><strong>7.15.14</strong></p>
+<p>yas tv icchaya krtah pumbhir</p>
+<p>abhaso hy asramat prthak</p>
+<p>sva-bhava-vihito dharmah</p>
+<p>kasya nestah prasantaye</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—that which; tu—indeed; icchaya—whimsically; krtah—conducted; pumbhih—by persons; abhasah—dim reflection; hi—indeed; asramat—from one’s own order of life; prthak—different; sva-bhava—according to one’s own nature; vihitah—regulated; dharmah—religious principle; kasya—in what respect; na—not; istah—capable; prasantaye—for relieving all kinds of distress.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>A pretentious religious system manufactured by one who willfully neglects the prescribed duties of his order of life is called abhasa (a dim reflection or false similarity).</p>
+<p>But if one performs the prescribed duties for his particular asrama or varna, why are they not sufficient to mitigate all material distresses?</p>
+<p><strong>PURPORT</strong></p>
+<p>It is indicated here that everyone should strictly follow the principles of varna and asrama as given in the sastra.</p>
+<p>Visnu Purana (3.8.9) it is said:</p>
+<p>varnasramacaravata</p>
+<p>purusena parah puman</p>
+<p>visnur aradhyate pantha</p>
+<p>nanyat tat-tosa-karanam</p>
+<p>One should focus upon the destination for progress, which is to become Krsna conscious.</p>
+<p>This is the aim and end of all varnas and asramas.</p>
+<p>However, if Visnu is not worshiped, the followers of the varnasrama institution manufacture some concocted God.</p>
+<p>Thus it has now become fashionable for any rascal or fool to be elected God, and there are many missionaries who have concocted their own gods, giving up their relationship with the real God.</p>
+<p>In Bhagavad-gita it is clearly said that one who worships the demigods has lost his intelligence.</p>
+<p>Nonetheless we find that even an illiterate person who has lost all intelligence is elected God, and although he has a temple, it has meat-eating sannyasis, and many polluted activities go on there.</p>
+<p>This type of religious system, which misguides its poor followers, is strictly forbidden.</p>
+<p>Such pretentious religions should be stopped altogether.</p>
+<p>The original system is that a brahmana should actually become a brahmana; he should not only take birth in a brahmana family, but must also be qualified.</p>
+<p>Also, even if one is not born in a brahmana family but has brahminical qualifications, he must be considered a brahmana.</p>
+<p>By strictly following this system, one can be happy without extra endeavor.</p>
+<p>Sva-bhava-vihito dharmah kasya nestah prasantaye.</p>
+<p>The real aim of life is to mitigate distress, and one can do this very easily by following the principles of sastra.</p>
+
+
+
+<p><strong>7.15.15</strong></p>
+<p>dharmartham api neheta</p>
+<p>yatrartham vadhano dhanam</p>
+<p>anihanihamanasya</p>
+<p>mahaher iva vrttida</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dharma-artham—in religion or economic development; api—indeed; na—not; iheta—should try to obtain; yatra-artham—just to maintain the body and soul together; va—either; adhanah—one who has no wealth; dhanam—money; aniha—the desirelessness; anihamanasya—of a person who does not endeavor even to earn his livelihood; maha-aheh—the great serpent known as the python; iva—like; vrtti-da—which obtains its livelihood without endeavor.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Even if a man is poor, he should not endeavor to improve his economic condition just to maintain his body and soul together or to become a famous religionist.</p>
+<p>Just as a great python, although lying in one place, not endeavoring for its livelihood, gets the food it needs to maintain body and soul, one who is desireless also obtains his livelihood without endeavor.</p>
+<p><strong>PURPORT</strong></p>
+<p>Human life is simply meant for developing Krsna consciousness.</p>
+<p>One need not even try to earn a livelihood to maintain body and soul together.</p>
+<p>This is illustrated here by the example of the great python, which lies in one place, never going here and there to earn a livelihood to maintain itself, and yet is maintained by the grace of the Lord.</p>
+<p>As advised by Narada Muni (Bhag.1.5.18), tasyaiva hetoh prayateta kovidah: one should simply endeavor to increase his Krsna consciousness.</p>
+<p>One should not desire to do anything else, even to earn his livelihood.</p>
+<p>There are many, many examples of this attitude.</p>
+<p>Madhavendra Puri, for instance, would never go to anyone to ask for food.</p>
+<p>Sukadeva Gosvami has also said, kasmad bhajanti kavayo dhana-durmadandhan.</p>
+<p>Why should one approach a person who is blind with wealth? Rather, one should depend on Krsna, and He will give everything.</p>
+<p>All the members of our Krsna consciousness movement, whether they be grhasthas or sannyasis, should try to spread the Krsna consciousness movement with determination, and Krsna will supply all necessities.</p>
+<p>The process of ajagara-vrtti, the means of livelihood of a python, is very much appreciated in this regard.</p>
+<p>Even though one may be very poor, he should simply try to advance in Krsna consciousness and not endeavor to earn his livelihood.</p>
+
+
+
+<p><strong>7.15.16</strong></p>
+<p>santustasya nirihasya</p>
+<p>svatmaramasya yat sukham</p>
+<p>kutas tat kama-lobhena</p>
+<p>dhavato ’rthehaya disah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>santustasya—of one who is fully satisfied in Krsna consciousness; nirihasya—who does not endeavor for his livelihood; sva—own; atma-aramasya—who is self-satisfied; yat—that; sukham—happiness; kutah—where; tat—such happiness; kama-lobhena—impelled by lust and greed; dhavatah—of one who is wandering here and there; artha-ihaya—with a desire for accumulating wealth; disah—in all directions.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>One who is content and satisfied and who links his activities with the Supreme Personality of Godhead residing in everyone’s heart enjoys transcendental happiness without endeavoring for his livelihood.</p>
+
+
+
+<p><strong>7.15.17</strong></p>
+<p>sada santusta-manasah</p>
+<p>sarvah sivamaya disah</p>
+<p>sarkara-kantakadibhyo</p>
+<p>yathopanat-padah sivam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sada—always; santusta-manasah—for a person who is self-satisfied; sarvah—everything; siva-mayah—auspicious; disah—in all directions; sarkara—from pebbles; kantaka-adibhyah—and thorns, etc.; yatha—as; upanat-padah—for a person who has suitable shoes; sivam—there is no danger (auspicious).</p>
+<p><strong>TRANSLATION</strong></p>
+<p>For a person who has suitable shoes on his feet, there is no danger even when he walks on pebbles and thorns.</p>
+<p>For him, everything is auspicious.</p>
+<p>Similarly, for one who is always self-satisfied there is no distress; indeed, he feels happiness everywhere.</p>
+
+
+
+<p><strong>7.15.18</strong></p>
+<p>santustah kena va rajan</p>
+<p>na vartetapi varina</p>
+<p>aupasthya-jaihvya-karpanyad</p>
+<p>grha-palayate janah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>santustah—a person who is always self-satisfied; kena—why; va—or; rajan—O King; na—not; varteta—should live (happily); api—even; varina—by drinking water; aupasthya—due to the genitals; jaihvya—and the tongue; karpanyat—because of a wretched or miserly condition; grha-palayate—he becomes exactly like a household dog; janah—such a person.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear King, a self-satisfied person can be happy even with only drinking water.</p>
+<p>However, one who is driven by the senses, especially by the tongue and genitals, must accept the position of a household dog to satisfy his senses.</p>
+<p><strong>PURPORT</strong></p>
+<p>According to the sastras, a brahmana, or a cultured person in Krsna consciousness, will not enter anyone’s service to maintain body and soul together, and especially not for satisfaction of the senses.</p>
+<p>A true brahmana is always satisfied.</p>
+<p>Even if he has nothing to eat, he can drink a little water and be satisfied.</p>
+<p>This is only a matter of practice.</p>
+<p>Unfortunately, however, no one is educated in how to be satisfied in self-realization.</p>
+<p>As explained above, a devotee is always satisfied because he feels the presence of the Supersoul within his heart and thinks of Him twenty-four hours a day.</p>
+<p>That is real satisfaction.</p>
+<p>A devotee is never driven by the dictations of the tongue and genitals, and thus he is never victimized by the laws of material nature.</p>
+
+
+
+<p><strong>7.15.19</strong></p>
+<p>asantustasya viprasya</p>
+<p>tejo vidya tapo yasah</p>
+<p>sravantindriya-laulyena</p>
+<p>jnanam caivavakiryate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>asantustasya—of one who is not self-satisfied; viprasya—of such a brahmana; tejah—strength; vidya—education; tapah—austerity; yasah—fame; sravanti—dwindle; indriya—of the senses; laulyena—because of greed; jnanam—knowledge; ca—and; eva—certainly; avakiryate—gradually vanishes.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Because of greed for the sake of the senses, the spiritual strength, education, austerity and reputation of a devotee or brahmana who is not self-satisfied dwindle, and his knowledge gradually vanishes.</p>
+
+
+
+<p><strong>7.15.20</strong></p>
+<p>kamasyantam hi ksut-trdbhyam</p>
+<p>krodhasyaitat phalodayat</p>
+<p>jano yati na lobhasya</p>
+<p>jitva bhuktva diso bhuvah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kamasya—of the desire for sense gratification or the urgent needs of the body; antam—end; hi—indeed; ksut-trdbhyam—by one who is very hungry or thirsty; krodhasya—of anger; etat—this; phala-udayat—by venting chastisement and its reaction; janah—a person; yati—crosses over; na—not; lobhasya—greed; jitva—conquering; bhuktva—enjoying; disah—all directions; bhuvah—of the globe.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The strong bodily desires and needs of a person disturbed by hunger and thirst are certainly satisfied when he eats.</p>
+<p>Similarly, if one becomes very angry, that anger is satisfied by chastisement and its reaction.</p>
+<p>But as for greed, even if a greedy person has conquered all the directions of the world or has enjoyed everything in the world, still he will not be satisfied.</p>
+<p><strong>PURPORT</strong></p>
+<p>In Bhagavad-gita (3.37) it is stated that lust, anger and greed are the causes of the conditioned soul’s bondage in this material world.</p>
+<p>Kama esa krodha esa rajo-guna-samudbhavah.</p>
+<p>When strong lusty desires for sense gratification are unfulfilled, one becomes angry.</p>
+<p>This anger can be satisfied when one chastises his enemy, but when there is an increase in lobha, or greed, which is the greatest enemy caused by rajo-guna, the mode of passion, how can one advance in Krsna consciousness? If one is very greedy to enhance his Krsna consciousness, this is a great boon.</p>
+<p>Tatra laulyam ekalam mulam.</p>
+<p>This is the best path available.</p>
+
+
+
+<p><strong>7.15.21</strong></p>
+<p>pandita bahavo rajan</p>
+<p>bahu-jnah samsaya-cchidah</p>
+<p>sadasas patayo ’py eke</p>
+<p>asantosat patanty adhah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>panditah—very learned scholars; bahavah—many; rajan—O King (Yudhisthira); bahu-jnah—persons with varied experience; samsaya-cchidah—expert in legal advice; sadasah patayah—persons eligible to become presidents of learned assemblies; api—even; eke—by one disqualification; asantosat—simply by dissatisfaction or greed; patanti—fall down; adhah—into hellish conditions of life.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King Yudhisthira, many persons with varied experience, many legal advisers, many learned scholars and many persons eligible to become presidents of learned assemblies fall down into hellish life because of not being satisfied with their positions.</p>
+<p><strong>PURPORT</strong></p>
+<p>For spiritual advancement, one should be materially satisfied, for if one is not materially satisfied, his greed for material development will result in the frustration of his spiritual advancement.</p>
+<p>There are two things that nullify all good qualities.</p>
+<p>One is poverty.</p>
+<p>Daridra-doso guna-rasi-nasi.</p>
+<p>If one is poverty-stricken, all his good qualities become null and void.</p>
+<p>Similarly, if one becomes too greedy, his good qualifications are lost.</p>
+<p>Therefore the adjustment is that one should not be poverty-stricken, but one must try to be fully satisfied with the bare necessities of life and not be greedy.</p>
+<p>For a devotee to be satisfied with the bare necessities is therefore the best advice for spiritual advancement.</p>
+<p>Learned authorities in devotional life consequently advise that one not endeavor to increase the number of temples and mathas.</p>
+<p>Such activities can be undertaken only by devotees experienced in propagating the Krsna consciousness movement.</p>
+<p>All the acaryas in South India, especially Sri Ramanujacarya, constructed many big temples, and in North India all the Gosvamis of Vrndavana constructed large temples.</p>
+<p>Srila Bhaktisiddhanta Sarasvati Thakura also constructed large centers, known as Gaudiya Mathas.</p>
+<p>Therefore temple construction is not bad, provided proper care is taken for the propagation of Krsna consciousness.</p>
+<p>Even if such endeavors are considered greedy, the greed is to satisfy Krsna, and therefore these are spiritual activities.</p>
+
+
+
+<p><strong>7.15.22</strong></p>
+<p>asankalpaj jayet kamam</p>
+<p>krodham kama-vivarjanat</p>
+<p>arthanartheksaya lobham</p>
+<p>bhayam tattvavamarsanat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>asankalpat—by determination; jayet—one should conquer; kamam—lusty desire; krodham—anger; kama-vivarjanat—by giving up the objective of sense desire; artha—accumulation of wealth; anartha—a cause of trouble; iksaya—by considering; lobham—greed; bhayam—fear; tattva—the truth; avamarsanat—by considering.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>By making plans with determination, one should give up lusty desires for sense gratification.</p>
+<p>Similarly, by giving up envy one should conquer anger, by discussing the disadvantages of accumulating wealth one should give up greed, and by discussing the truth one should give up fear.</p>
+<p><strong>PURPORT</strong></p>
+<p>Srila Visvanatha Cakravarti Thakura has suggested how one can conquer lusty desires for sense gratification.</p>
+<p>One cannot give up thinking of women, for thinking in this way is natural; even while walking on the street, one will see so many women.</p>
+<p>However, if one is determined not to live with a woman, even while seeing a woman he will not become lusty.</p>
+<p>If one is determined not to have sex, he can automatically conquer lusty desires.</p>
+<p>The example given in this regard is that even if one is hungry, if on a particular day he is determined to observe fasting, he can naturally conquer the disturbances of hunger and thirst.</p>
+<p>If one is determined not to be envious of anyone, he can naturally conquer anger.</p>
+<p>Similarly, one can give up the desire to accumulate wealth simply by considering how difficult it is to protect the money in one’s possession.</p>
+<p>If one keeps a large amount of cash with him, he is always anxious about keeping it properly.</p>
+<p>Thus if one discusses the disadvantages of accumulating wealth, he can naturally give up business without difficulty.</p>
+
+
+
+<p><strong>7.15.23</strong></p>
+<p>anviksikya soka-mohau</p>
+<p>dambham mahad-upasaya</p>
+<p>yogantarayan maunena</p>
+<p>himsam kamady-anihaya</p>
+<p><strong>SYNONYMS</strong></p>
+<p>anviksikya—by deliberation upon material and spiritual subject matters; soka—lamentation; mohau—and illusion; dambham—false pride; mahat—a Vaisnava; upasaya—by serving; yoga-antarayan—obstacles on the path of yoga; maunena—by silence; himsam—envy; kama-adi—for sense gratification; anihaya—without endeavor.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>By discussing spiritual knowledge one can conquer lamentation and illusion, by serving a great devotee one can become prideless, by keeping silent one can avoid obstacles on the path of mystic yoga, and simply by stopping sense gratification one can conquer envy.</p>
+<p><strong>PURPORT</strong></p>
+<p>If one’s son has died, one may certainly be affected by lamentation and illusion and cry for the dead son, but one may overcome lamentation and illusion by considering the verses of Bhagavad-gita jatasya hi dhruvo mrtyur</p>
+<p>dhruvam janma mrtasya ca</p>
+<p>As the soul transmigrates, one who has taken birth must give up the present body, and then he must certainly accept another body.</p>
+<p>This should be no cause for lamentation.</p>
+<p>Therefore Lord Krsna says, dhiras tatra na muhyati: one who is dhira, or sober, who is learned in philosophy and established in knowledge, cannot be unhappy over the transmigration of the soul.</p>
+
+
+
+<p><strong>7.15.24</strong></p>
+<p>krpaya bhutajam duhkham</p>
+<p>daivam jahyat samadhina</p>
+<p>atmajam yoga-viryena</p>
+<p>nidram sattva-nisevaya</p>
+<p><strong>SYNONYMS</strong></p>
+<p>krpaya—by being merciful to all other living entities; bhuta-jam—because of other living entities; duhkham—suffering; daivam—sufferings imposed by providence; jahyat—one should give up; samadhina—by trance or meditation; atma-jam—sufferings due to the body and mind; yoga-viryena—by practicing hatha-yoga, pranayama and so forth; nidram—sleeping; sattva-nisevaya—by developing brahminical qualifications or the mode of goodness.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>By good behavior and freedom from envy one should counteract sufferings due to other living entities, by meditation in trance one should counteract sufferings due to providence, and by practicing hatha-yoga, pranayama and so forth one should counteract sufferings due to the body and mind.</p>
+<p>Similarly, by developing the mode of goodness, especially in regard to eating, one should conquer sleep.</p>
+<p><strong>PURPORT</strong></p>
+<p>By practice, one should avoid eating in such a way that other living entities will be disturbed and suffer.</p>
+<p>Since I suffer when pinched or killed by others, I should not attempt to pinch or kill any other living entity.</p>
+<p>People do not know that because of killing innocent animals they themselves will have to suffer severe reactions from material nature.</p>
+<p>Any country where people indulge in unnecessary killing of animals will have to suffer from wars and pestilence imposed by material nature.</p>
+<p>Comparing one’s own suffering to the suffering of others, therefore, one should be kind to all living entities.</p>
+<p>One cannot avoid the sufferings inflicted by providence, and therefore when suffering comes one should fully absorb oneself in chanting the Hare Krsna mantra.</p>
+<p>One can avoid sufferings from the body and mind by practicing mystic hatha-yoga.</p>
+
+
+
+<p><strong>7.15.25</strong></p>
+<p>rajas tamas ca sattvena</p>
+<p>sattvam copasamena ca</p>
+<p>etat sarvam gurau bhaktya</p>
+<p>puruso hy anjasa jayet</p>
+<p><strong>SYNONYMS</strong></p>
+<p>rajah tamah—the modes of passion and ignorance; ca—and; sattvena—by developing the mode of goodness; sattvam—the mode of goodness; ca—also; upasamena—by giving up attachment; ca—and; etat—these; sarvam—all; gurau—unto the spiritual master; bhaktya—by rendering service in devotion; purusah—a person; hi—indeed; anjasa—easily; jayet—can conquer.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>One must conquer the modes of passion and ignorance by developing the mode of goodness, and then one must become detached from the mode of goodness by promoting oneself to the platform of suddha-sattva.</p>
+<p>All this can be automatically done if one engages in the service of the spiritual master with faith and devotion.</p>
+<p>In this way one can conquer the influence of the modes of nature.</p>
+<p><strong>PURPORT</strong></p>
+<p>Just by treating the root cause of an ailment, one can conquer all bodily pains and sufferings.</p>
+<p>Similarly, if one is devoted and faithful to the spiritual master, he can conquer the influence of sattva-guna, rajo-guna and tamo-guna very easily.</p>
+<p>Yogis and jnanis practice in many ways to conquer the senses, but the bhakta immediately attains the mercy of the Supreme Personality of Godhead through the mercy of the spiritual master.</p>
+<p>Yasya prasadad bhagavat-prasado .</p>
+<p>If the spiritual master is favorably inclined, one naturally receives the mercy of the Supreme Lord, and by the mercy of the Supreme Lord one immediately becomes transcendental, conquering all the influences of sattva-guna, rajo-guna and tamo-guna within this material world.</p>
+<p>This is confirmed in Bhagavad-gita (sa gunan samatityaitan brahma-bhuyaya kalpate (Bg.14.26)).</p>
+<p>If one is a pure devotee acting under the directions of the guru, one easily gets the mercy of the Supreme Lord and thus becomes immediately situated on the transcendental platform.</p>
+<p>This is explained in the next verse.</p>
+
+
+
+<p><strong>7.15.26</strong></p>
+<p>yasya saksad bhagavati</p>
+<p>jnana-dipa-prade gurau</p>
+<p>martyasad-dhih srutam tasya</p>
+<p>sarvam kunjara-saucavat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yasya—one who; saksat—directly; bhagavati—the Supreme Personality of Godhead; jnana-dipa-prade—who enlightens with the torch of knowledge; gurau—unto the spiritual master; martya-asat-dhih—considers the spiritual master to be like an ordinary human being and maintains such an unfavorable attitude; srutam—Vedic knowledge; tasya—for him; sarvam—everything; kunjara-sauca-vat—like the bath of an elephant in a lake.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The spiritual master should be considered to be directly the Supreme Lord because he gives transcendental knowledge for enlightenment.</p>
+<p>Consequently, for one who maintains the material conception that the spiritual master is an ordinary human being, everything is frustrated.</p>
+<p>His enlightenment and his Vedic studies and knowledge are like the bathing of an elephant.</p>
+<p><strong>PURPORT</strong></p>
+<p>It is recommended that one honor the spiritual master as being on an equal status with the Supreme Personality of Godhead.</p>
+<p>Saksad dharitvena samasta-sastraih.</p>
+<p>This is enjoined in every scripture.</p>
+<p>Acaryam mam vijaniyat.</p>
+<p>One should consider the acarya to be as good as the Supreme Personality of Godhead.</p>
+<p>In spite of all these instructions, if one considers the spiritual master an ordinary human being, one is doomed.</p>
+<p>His study of the Vedas and his austerities and penances for enlightenment are all useless, like the bathing of an elephant.</p>
+<p>An elephant bathes in a lake quite thoroughly, but as soon as it comes on the shore it takes some dust from the ground and strews it over its body.</p>
+<p>Thus there is no meaning to the elephant’s bath.</p>
+<p>One may argue by saying that since the spiritual master’s relatives and the men of his neighborhood consider him an ordinary human being, what is the fault on the part of the disciple who considers the spiritual master an ordinary human being? This will be answered in the next verse, but the injunction is that the spiritual master should never be considered an ordinary man.</p>
+<p>One should strictly adhere to the instructions of the spiritual master, for if he is pleased, certainly the Supreme Personality of Godhead is pleased.</p>
+<p>Yasya prasadad bhagavat-prasado yasyaprasadan na gatih kuto ’pi .</p>
+
+
+
+<p><strong>7.15.27</strong></p>
+<p>esa vai bhagavan saksat</p>
+<p>pradhana-purusesvarah</p>
+<p>yogesvarair vimrgyanghrir</p>
+<p>loko yam manyate naram</p>
+<p><strong>SYNONYMS</strong></p>
+<p>esah—this; vai—indeed; bhagavan—Supreme Personality of Godhead; saksat—directly; pradhana—the chief cause of the material nature; purusa—of all living entities or of the purusavatara, Lord Visnu; isvarah—the supreme controller; yoga-isvaraih—by great saintly persons, yogis; vimrgya-anghrih—Lord Krsna’s lotus feet, which are sought; lokah—people in general; yam—Him; manyate—consider; naram—a human being.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Supreme Personality of Godhead, Lord Krsna, is the master of all other living entities and of the material nature.</p>
+<p>His lotus feet are sought and worshiped by great saintly persons like Vyasa.</p>
+<p>Nonetheless, there are fools who consider Lord Krsna an ordinary human being.</p>
+<p><strong>PURPORT</strong></p>
+<p>The example of Lord Krsna’s being the Supreme Personality of Godhead is appropriate in regard to understanding the spiritual master.</p>
+<p>The spiritual master is called sevaka-bhagavan, the servitor Personality of Godhead, and Krsna is called sevya-bhagavan, the Supreme Personality of Godhead who is to be worshiped.</p>
+<p>The spiritual master is the worshiper God, whereas the Supreme Personality of Godhead, Krsna, is the worshipable God.</p>
+<p>This is the difference between the spiritual master and the Supreme Personality of Godhead.</p>
+<p>Another point: Bhagavad-gita, which constitutes the instructions of the Supreme Personality of Godhead, is presented by the spiritual master as it is, without deviation.</p>
+<p>Therefore the Absolute Truth is present in the spiritual master.</p>
+<p>As clearly stated in Text 26, jnana-dipa-prade.</p>
+<p>The Supreme Personality of Godhead gives real knowledge to the entire world, and the spiritual master, as the representative of the Supreme Godhead, carries the message throughout the world.</p>
+<p>Therefore, on the absolute platform, there is no difference between the spiritual master and the Supreme Personality of Godhead.</p>
+<p>If someone considers the Supreme Personality—Krsna or Lord Ramacandra—to be an ordinary human being, this does not mean that the Lord becomes an ordinary human being.</p>
+<p>Similarly, if the family members of the spiritual master, who is the bona fide representative of the Supreme Personality of Godhead, consider the spiritual master an ordinary human being, this does not mean that he becomes an ordinary human being.</p>
+<p>The spiritual master is as good as the Supreme Personality of Godhead, and therefore one who is very serious about spiritual advancement must regard the spiritual master in this way.</p>
+<p>Even a slight deviation from this understanding can create disaster in the disciple’s Vedic studies and austerities.</p>
+
+
+
+<p><strong>7.15.28</strong></p>
+<p>sad-varga-samyamaikantah</p>
+<p>sarva niyama-codanah</p>
+<p>tad-anta yadi no yogan</p>
+<p>avaheyuh sramavahah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sat-varga—the six elements, namely the five working senses and the mind; samyama-ekantah—the ultimate aim of subjugating; sarvah—all such activities; niyama-codanah—the regulative principles further meant for controlling the senses and mind; tat-antah—the ultimate goal of such activities; yadi—if; no—not; yogan—the positive link with the Supreme; avaheyuh—did lead to; srama-avahah—a waste of time and labor.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Ritualistic ceremonies, regulative principles, austerities and the practice of yoga are all meant to control the senses and mind, but even after one is able to control the senses and mind, if he does not come to the point of meditation upon the Supreme Lord, all such activities are simply labor in frustration.</p>
+<p><strong>PURPORT</strong></p>
+<p>One may argue that one may achieve the ultimate goal of life—realization of the Supersoul—by practicing the yoga system and ritualistic performances according to the Vedic principles, even without staunch devotion to the spiritual master.</p>
+<p>The actual fact, however, is that by practicing yoga one must come to the platform of meditating upon the Supreme Personality of Godhead.</p>
+<p>As stated in the scriptures, dhyanavasthita-tad-gatena manasa pasyanti yam yoginah: (SB 12.13.1) a person in meditation achieves the perfection of yoga practice when he can see the Supreme Personality of Godhead.</p>
+<p>By various practices, one may come to the point of controlling the senses, but simply controlling the senses does not bring one to a substantial conclusion.</p>
+<p>However, by staunch faith in the spiritual master and the Supreme Personality of Godhead, one not only controls the senses but also realizes the Supreme Lord yasya deve para bhaktir</p>
+<p>yatha deve tatha gurau</p>
+<p>tasyaite kathita hy arthah</p>
+<p>prakasante mahatmanah</p>
+<p>(SU 6.23)</p>
+<p>Only unto those great souls who have implicit faith in both the Lord and the spiritual master are all the imports of the Vedic knowledge automatically revealed (Svetasvatara Upanisad6.23)</p>
+<p>It is further stated, tusyeyam sarva-bhutatma guru-susrusaya and taranty anjo bhavarnavam.</p>
+<p>Simply by rendering service to the spiritual master, one crosses the ocean of nescience and returns home, back to Godhead.</p>
+<p>Thus he gradually sees the Supreme Lord face to face and enjoys life in association with the Lord.</p>
+<p>The ultimate goal of yoga is to come in contact with the Supreme Personality of Godhead.</p>
+<p>Unless this point is achieved, one’s so-called yoga practice is simply labor without any benefit.</p>
+
+
+
+<p><strong>7.15.29</strong></p>
+<p>yatha vartadayo hy artha</p>
+<p>yogasyartham na bibhrati</p>
+<p>anarthaya bhaveyuh sma</p>
+<p>purtam istam tathasatah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yatha—as; varta-adayah—activities like occupational or professional duties; hi—certainly; arthah—income (from such occupational duties); yogasya—of mystic power for self-realization; artham—benefit; na—not; bibhrati—help; anarthaya—without value (binding one to repeated birth and death); bhaveyuh—they are; sma—at all times; purtam istam—ritualistic Vedic ceremonies; tatha—similarly; asatah—of a materialistic nondevotee.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>As professional activities or business profits cannot help one in spiritual advancement but are a source of material entanglement, the Vedic ritualistic ceremonies cannot help anyone who is not a devotee of the Supreme Personality of Godhead.</p>
+<p><strong>PURPORT</strong></p>
+<p>If one becomes very rich through his professional activities, through trade or through agriculture, this does not mean that he is spiritually advanced.</p>
+<p>To be spiritually advanced is different from being materially rich.</p>
+<p>Although the purpose of life is to become spiritually rich, unfortunate men, misguided as they are, are always engaged in trying to become materially rich.</p>
+<p>Such material engagements, however, do not help one in the actual fulfillment of the human mission.</p>
+<p>On the contrary, material engagements lead one to be attracted to many unnecessary necessities, which are accompanied by the risk that one may be born in a degraded condition.</p>
+<p>As confirmed in Bhagavad-gita (14.18):</p>
+<p>urdhvam gacchanti sattva-stha</p>
+<p>madhye tisthanti rajasah</p>
+<p>jaghanya-guna-vrtti-stha</p>
+<p>adho gacchanti tamasah</p>
+<p>Those situated in the mode of goodness gradually go upward to the higher planets; those in the mode of passion live on the earthly planets; and those in the mode of ignorance go down to the hellish worlds Especially in this Kali-yuga, material advancement means degradation and attraction to many unwanted necessities that create a low mentality.</p>
+<p>Therefore, jaghanya-guna-vrtti-stha: since people are contaminated by the lower qualities, they will lead their next lives either as animals or in other degraded forms of life.</p>
+<p>Making a show of religion without Krsna consciousness may make one popular in the estimation of unintelligent men, but factually such a materialistic display of spiritual advancement does not help one at all; it will not prevent one from missing the goal of life.</p>
+
+
+
+<p><strong>7.15.30</strong></p>
+<p>yas citta-vijaye yattah</p>
+<p>syan nihsango ’parigrahah</p>
+<p>eko vivikta-sarano</p>
+<p>bhiksur bhaiksya-mitasanah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—one who; citta-vijaye—conquering the mind; yattah—is engaged; syat—must be; nihsangah—without contaminated association; aparigrahah—without being dependent (on the family); ekah—alone; vivikta-saranah—taking shelter of a solitary place; bhiksuh—a renounced person; bhaiksya—by begging alms just to maintain the body; mita-asanah—frugal in eating.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>One who desires to conquer the mind must leave the company of his family and live in a solitary place, free from contaminated association.</p>
+<p>To maintain the body and soul together, he should beg as much as he needs for the bare necessities of life.</p>
+<p><strong>PURPORT</strong></p>
+<p>This is the process for conquering the agitation of the mind.</p>
+<p>One is recommended to take leave of his family and live alone, maintaining body and soul together by begging alms and eating only as much as needed to keep himself alive.</p>
+<p>Without such a process, one cannot conquer lusty desires.</p>
+<p>Sannyasa means accepting a life of begging, which makes one automatically very humble and meek and free from lusty desires.</p>
+<p>In this regard, the following verse appears in the Smrti literature:</p>
+<p>dvandvahatasya garhasthyam</p>
+<p>dhyana-bhangadi-karanam</p>
+<p>laksayitva grhi spastam</p>
+<p>sannyased avicarayan</p>
+<p>In this world of duality, family life is the cause that spoils one’s spiritual life or meditation.</p>
+<p>Specifically understanding this fact, one should accept the order of sannyasa without hesitation.</p>
+
+
+
+<p><strong>7.15.31</strong></p>
+<p>dese sucau same rajan</p>
+<p>samsthapyasanam atmanah</p>
+<p>sthiram sukham samam tasminn</p>
+<p>asitarjv-anga om iti</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dese—in a place; sucau—very sacred; same—level; rajan—O King; samsthapya—placing; asanam—on the seat; atmanah—one’s self; sthiram—very steady; sukham—comfortably; samam—equipoised; tasmin—on that sitting place; asita—one should sit down; rju-angah—the body perpendicularly straight; om—The Vedic mantra pranava; iti—in this way.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear King, in a sacred and holy place of pilgrimage one should select a place in which to perform yoga.</p>
+<p>The place must be level and not too high or low.</p>
+<p>There one should sit very comfortably, being steady and equipoised, keeping his body straight, and thus begin chanting the Vedic pranava.</p>
+<p><strong>PURPORT</strong></p>
+<p>Generally the chanting of om is recommended because in the beginning one cannot understand the Personality of Godhead.</p>
+<p>Srimad-Bhagavatam (1.2.11):</p>
+<p>vadanti tat tattva-vidas</p>
+<p>tattvam yaj jnanam advayam</p>
+<p>brahmeti paramatmeti</p>
+<p>bhagavan iti sabdyate</p>
+<p>Learned transcendentalists who know the Absolute Truth call this nondual substance Brahman, Paramatma or Bhagavan Unless one is fully convinced of the Supreme Personality of Godhead, one has the tendency to become an impersonalist yogi searching for the Supreme Lord within the core of his heart (dhyanavasthita-tad-gatena manasa pasyanti yam yoginah (SB 12.13.1)).</p>
+<p>Here the chanting of omkara is recommended because in the beginning of transcendental realization, instead of chanting the Hare Krsna maha-mantra, one may chant omkara (pranava).</p>
+<p>There is no difference between the Hare Krsna maha-mantra and omkara because both of them are sound representations of the Supreme Personality of Godhead pranavah sarva-vedesu.</p>
+<p>In all Vedic literatures, the sound vibration omkara is the beginning.</p>
+<p>Om namo bhagavate vasudevaya.</p>
+<p>The difference between chanting omkara and chanting the Hare Krsna mantra is that the Hare Krsna mantra may be chanted without consideration of the place or the sitting arrangements recommended in Bhagavad-gita (6.11):</p>
+<p>sucau dese pratisthapya</p>
+<p>sthiram asanam atmanah</p>
+<p>naty-ucchritam natinicam</p>
+<p>cailajina-kusottaram</p>
+<p>To practice yoga, one should go to a secluded place and should lay kusa grass on the ground and then cover it with a deerskin and a soft cloth.</p>
+<p>The seat should neither be too high nor too low and should be situated in a sacred place The Hare Krsna mantra may be chanted by anyone, without consideration of the place or how one sits.</p>
+<p>Sri Caitanya Mahaprabhu has openly declared, niyamitah smarane na kalah.</p>
+<p>In chanting the Hare Krsna maha-mantra there are no particular injunctions regarding one’s sitting place.</p>
+<p>The injunction niyamitah smarane na kalah includes desa, kala and patra—place, time and the individual.</p>
+<p>Therefore anyone may chant the Hare Krsna mantra, without consideration of the time and place.</p>
+<p>Especially in this age, Kali-yuga, it is very difficult to find a suitable place according to the recommendations of Bhagavad-gita.</p>
+<p>The Hare Krsna maha-mantra, however, may be chanted at any place and any time, and this will bring results very quickly.</p>
+<p>Yet even while chanting the Hare Krsna mantra one may observe regulative principles.</p>
+<p>Thus while sitting and chanting one may keep his body straight, and this will help one in the chanting process; otherwise one may feel sleepy.</p>
+
+
+
+<p><strong>7.15.32-33</strong></p>
+<p>pranapanau sannirundhyat</p>
+<p>pura-kumbhaka-recakaih</p>
+<p>yavan manas tyajet kaman</p>
+<p>sva-nasagra-niriksanah</p>
+<p>yato yato nihsarati</p>
+<p>manah kama-hatam bhramat</p>
+<p>tatas tata upahrtya</p>
+<p>hrdi rundhyac chanair budhah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>prana—incoming breath; apanau—outgoing breath; sannirundhyat—should stop; pura-kumbhaka-recakaih—by inhaling, exhaling and holding, which are technically known as puraka, kumbhaka and recaka; yavat—so long; manah—the mind; tyajet—should give up; kaman—all material desires; sva—one’s own; nasa-agra—the tip of the nose; niriksanah—looking at; yatah yatah—from whatever and wherever; nihsarati—withdraws; manah—the mind; kama-hatam—being defeated by lusty desires; bhramat—wandering; tatah tatah—from here and there; upahrtya—after bringing it back; hrdi—within the core of the heart; rundhyat—should arrest (the mind); sanaih—gradually, by practice; budhah—a learned yogi.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>While continuously staring at the tip of the nose, a learned yogi practices the breathing exercises through the technical means known as puraka, kumbhaka and recaka—controlling inhalation and exhalation and then stopping them both.</p>
+<p>In this way the yogi restricts his mind from material attachments and gives up all mental desires.</p>
+<p>As soon as the mind, being defeated by lusty desires, drifts toward feelings of sense gratification, the yogi should immediately bring it back and arrest it within the core of his heart.</p>
+<p><strong>PURPORT</strong></p>
+<p>The practice of yoga is concisely explained herein.</p>
+<p>When this practice of yoga is perfect, one sees the Supersoul, the Paramatma feature of the Supreme Personality of Godhead, within the core of one’s heart.</p>
+<p>However, in Bhagavad-gita (6.47) the Supreme Lord says:</p>
+<p>yoginam api sarvesam</p>
+<p>mad-gatenantaratmana</p>
+<p>sraddhavan bhajate yo mam</p>
+<p>sa me yuktatamo matah</p>
+<p>Of all yogis, he who always abides in Me with great faith, worshiping Me in transcendental loving service, is most intimately united with Me in yoga and is the highest of all A devotee can immediately become a perfect yogi because he practices keeping Krsna constantly within the core of his heart.</p>
+<p>This is another way to practice yoga easily.</p>
+<p>The Lord says:</p>
+<p>man-mana bhava mad-bhakto</p>
+<p>mad-yaji mam namaskuru</p>
+<p>Always think of Me and become My devotee.</p>
+<p>Worship Me and offer your homage unto Me (Bg.18.65) If one practices devotional service by always keeping Krsna within the core of his heart (man-manah), he immediately becomes a first-class yogi.</p>
+<p>Furthermore, keeping Krsna within the mind is not a difficult task for the devotee.</p>
+<p>For an ordinary man in the bodily concept of life, the practice of yoga may be helpful, but one who immediately takes to devotional service can immediately become a perfect yogi without difficulty.</p>
+
+
+
+<p><strong>7.15.34</strong></p>
+<p>evam abhyasyatas cittam</p>
+<p>kalenalpiyasa yateh</p>
+<p>anisam tasya nirvanam</p>
+<p>yaty anindhana-vahnivat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>evam—in this way; abhyasyatah—of the person practicing this yoga system; cittam—the heart; kalena—in due course of time; alpiyasa—very shortly; yateh—of the person practicing yoga; anisam—without cessation; tasya—of him; nirvanam—purification from all material contamination; yati—reaches; anindhana—without flame or smoke; vahnivat—like a fire.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When the yogi regularly practices in this way, in a short time his heart becomes fixed and free from disturbance, like a fire without flames or smoke.</p>
+<p><strong>PURPORT</strong></p>
+<p>Nirvana means the cessation of all material desires.</p>
+<p>Sometimes desirelessness is understood to imply an end to the workings of the mind, but this is not possible.</p>
+<p>The living entity has senses, and if the senses stopped working, the living entity would no longer be a living entity; he would be exactly like stone or wood.</p>
+<p>This is not possible.</p>
+<p>Because he is living, he is nitya and cetana—eternally sentient.</p>
+<p>For those who are not very advanced, the practice of yoga is recommended in order to stop the mind from being agitated by material desires, but if one fixes his mind on the lotus feet of Krsna, his mind naturally becomes peaceful very soon.</p>
+<p>This peace is described in Bhagavad-gita (5.29):</p>
+<p>bhoktaram yajna-tapasam</p>
+<p>sarva-loka-mahesvaram</p>
+<p>suhrdam sarva-bhutanam</p>
+<p>jnatva mam santim rcchati</p>
+<p>If one can understand Krsna as the supreme enjoyer, the supreme proprietor of everything, and the supreme friend of everyone, one is established in peace and is free from material agitation.</p>
+<p>However, for one who cannot understand the Supreme Personality of Godhead, the practice of yoga is recommended.</p>
+
+
+
+<p><strong>7.15.35</strong></p>
+<p>kamadibhir anaviddham</p>
+<p>prasantakhila-vrtti yat</p>
+<p>cittam brahma-sukha-sprstam</p>
+<p>naivottistheta karhicit</p>
+<p><strong>SYNONYMS</strong></p>
+<p>kama-adibhih—by various lusty desires; anaviddham—unaffected; prasanta—calm and peaceful; akhila-vrtti—in every respect, or in all activities; yat—that which; cittam—consciousness; brahma-sukha-sprstam—being situated on the transcendental platform in eternal bliss; na—not; eva—indeed; uttistheta—can come out; karhicit—at any time.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When one’s consciousness is uncontaminated by material lusty desires, it becomes calm and peaceful in all activities, for one is situated in eternal blissful life.</p>
+<p>Once situated on that platform, one does not return to materialistic activities.</p>
+<p><strong>PURPORT</strong></p>
+<p>Brahma-sukha-sprstam is also described in Bhagavad-gita (18.54):</p>
+<p>brahma-bhutah prasannatma</p>
+<p>na socati na kanksati</p>
+<p>samah sarvesu bhutesu</p>
+<p>mad-bhaktim labhate param</p>
+<p>One who is transcendentally situated at once realizes the Supreme Brahman and becomes fully joyful.</p>
+<p>He never laments nor desires to have anything; he is equally disposed toward every living entity.</p>
+<p>In this situation, he begins transcendental activities, or devotional service to the Lord Generally, once elevated to the transcendental platform of brahma-sukha, transcendental bliss, one never comes down.</p>
+<p>But if one does not engage in devotional service, there is a chance of his returning to the material platform.</p>
+<p>Aruhya krcchrena param padam tatah patanty adho ’nadrta-yusmad-anghrayah: (SB 10.2.32) one may rise to the platform of brahma-sukha, transcendental bliss, but even from that platform one may fall down to the material platform if he does not engage himself in devotional service.</p>
+
+
+
+<p><strong>7.15.36</strong></p>
+<p>yah pravrajya grhat purvam</p>
+<p>tri-vargavapanat punah</p>
+<p>yadi seveta tan bhiksuh</p>
+<p>sa vai vantasy apatrapah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—one who; pravrajya—being finished for good and leaving for the forest (being situated in transcendental bliss); grhat—from home; purvam—at first; tri-varga—the three principles of religion, economic development and sense gratification; avapanat—from the field in which they are sown; punah—again; yadi—if; seveta—should accept; tan—materialistic activities; bhiksuh—a person who has accepted the sannyasa order; sah—that person; vai—indeed; vanta-asi—one who eats his own vomit; apatrapah—without shame.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>One who accepts the sannyasa order gives up the three principles of materialistic activities in which one indulges in the field of household life—namely religion, economic development and sense gratification.</p>
+<p>One who first accepts sannyasa but then returns to such materialistic activities is to be called a vantasi, or one who eats his own vomit.</p>
+<p>He is indeed a shameless person.</p>
+<p><strong>PURPORT</strong></p>
+<p>Materialistic activities are regulated by the institution of varnasrama-dharma.</p>
+<p>Without varnasrama-dharma, materialistic activities constitute animal life.</p>
+<p>Yet even in human life, while observing the principles of varna and asrama—brahmana, ksatriya, vaisya, sudra, brahmacarya, grhastha, vanaprastha and sannyasa—one must ultimately accept sannyasa, the renounced order, for only by the renounced order can one be situated in brahma-sukha, or transcendental bliss.</p>
+<p>In brahma-sukha one is no longer attracted by lusty desires.</p>
+<p>Indeed, when one is no longer disturbed, especially by lusty desires for sexual indulgence, he is fit to become a sannyasi.</p>
+<p>Otherwise, one should not accept the sannyasa order.</p>
+<p>If one accepts sannyasa at an immature stage, there is every possibility of his being attracted by women and lusty desires and thus again becoming a so-called grhastha or a victim of women.</p>
+<p>Such a person is most shameless, and he is called vantasi, or one who eats that which he has already vomited.</p>
+<p>He certainly leads a condemned life.</p>
+<p>In our Krsna consciousness movement it is advised, therefore, that the sannyasis and brahmacaris keep strictly aloof from the association of women so that there will be no chance of their falling down again as victims of lusty desires.</p>
+
+
+
+<p><strong>7.15.37</strong></p>
+<p>yaih sva-dehah smrto ’natma</p>
+<p>martyo vit-krmi-bhasmavat</p>
+<p>ta enam atmasat krtva</p>
+<p>slaghayanti hy asattamah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yaih—by sannyasis who; sva-dehah—own body; smrtah—consider; anatma—different from the soul; martyah—subjected to death; vit—becoming stool; krmi—worms; bhasma-vat—or ashes; te—such persons; enam—this body; atmasat krtva—again identifying with the self; slaghayanti—glorify as very important; hi—indeed; asat-tamah—the greatest rascals.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sannyasis who first consider that the body is subject to death, when it will be transformed into stool, worms or ashes, but who again give importance to the body and glorify it as the self, are to be considered the greatest rascals.</p>
+<p><strong>PURPORT</strong></p>
+<p>A sannyasi is one who has clearly understood, through advancement in knowledge, that Brahman—he, the person himself—is the soul, not the body.</p>
+<p>One who has this understanding may take sannyasa, for he is situated in the aham brahmasm position.</p>
+<p>Brahma-bhutah prasannatma na socati na kanksati (Bg.18.54).</p>
+<p>Such a person, who no longer laments or hankers to maintain his body and who can accept all living entities as spirit souls, can then enter the devotional service of the Lord.</p>
+<p>If one does not enter the devotional service of the Lord but artificially considers himself Brahman or Narayana, not perfectly understanding that the soul and body are different, one certainly falls down (patanty adhah).</p>
+<p>Such a person again gives importance to the body.</p>
+<p>There are many sannyasis in India who stress the importance of the body.</p>
+<p>Some of them give special importance to the body of the poor man, accepting him as daridra-narayana, as if Narayana had a material body.</p>
+<p>Many other sannyasis stress the importance of the social position of the body as a brahmana, ksatriya, vaisya or sudra.</p>
+<p>Such sannyasis are considered the greatest rascals (asattamah).</p>
+<p>They are shameless because they have not yet understood the difference between the body and the soul and instead have accepted the body of a brahmana to be a brahmana.</p>
+<p>Brahmanism (brahmanya) consists of the knowledge of Brahman.</p>
+<p>But actually the body of a brahmana is not Brahman.</p>
+<p>Similarly, the body is neither rich nor poor.</p>
+<p>If the body of a poor man were daridra-narayana, this would mean that the body of a rich man, on the contrary, must be dhani-narayana.</p>
+<p>Therefore sannyasis who do not know the meaning of Narayana, those who regard the body as Brahman or as Narayana, are described here as asattamah, the most abominable rascals.</p>
+<p>Following the bodily concept of life, such sannyasis make various programs to serve the body.</p>
+<p>They conduct farcical missions consisting of so-called religious activities meant to mislead all of human society.</p>
+<p>These sannyasis have been described herein as apatrapah and asattamah—shameless and fallen from spiritual life.</p>
+
+
+
+<p><strong>7.15.38-39</strong></p>
+<p>grhasthasya kriya-tyago</p>
+<p>vrata-tyago vatorapi</p>
+<p>tapasvino grama-seva</p>
+<p>bhiksor indriya-lolata</p>
+<p>asramapasada hy ete</p>
+<p>khalv asrama-vidambanah</p>
+<p>deva-maya-vimudhams tan</p>
+<p>upeksetanukampaya</p>
+<p><strong>SYNONYMS</strong></p>
+<p>grhasthasya—for a person situated in householder life; kriya-tyagah—to give up the duty of a householder; vrata-tyagah—to give up vows and austerity; vatoh—for a brahmacari; api—also; tapasvinah—for a vanaprastha, one who has adopted a life of austerities; grama-seva—to live in a village and serve the people therein; bhiksoh—for a sannyasi who lived by begging alms; indriya-lolata—addicted to sense enjoyment; asrama—of the spiritual orders of life; apasadah—the most abominable; hi—indeed; ete—all these; khalu—indeed; asrama-vidambanah—imitating and therefore cheating the different spiritual orders; deva-maya-vimudhan—who are bewildered by the external energy of the Supreme Lord; tan—them; upekseta—one should reject and not accept as genuine; anukampaya—or by compassion (teach them real life).</p>
+<p><strong>TRANSLATION</strong></p>
+<p>It is abominable for a person living in the grhastha-asrama to give up the regulative principles, for a brahmacari not to follow the brahmacari vows while living under the care of the guru, for a vanaprastha to live in the village and engage in so-called social activities, or for a sannyasi to be addicted to sense gratification.</p>
+<p>One who acts in this way is to be considered the lowest renegade.</p>
+<p>Such a pretender is bewildered by the external energy of the Supreme Personality of Godhead, and one should either reject him from any position, or taking compassion upon him, teach him, if possible, to resume his original position.</p>
+<p><strong>PURPORT</strong></p>
+<p>We have repeatedly stressed that human culture does not begin unless one takes to the principles of varnasrama-dharma.</p>
+<p>Although grhastha life is a concession for the enjoyment of sex, one cannot enjoy sex without following the rules and regulations of householder life.</p>
+<p>Furthermore, as already instructed, a brahmacari must live under the care of the guru: brahmacari guru-kule vasan danto guror hitam (SB 7.12.1).</p>
+<p>If a brahmacari does not live under the care of the guru, if a vanaprastha engages in ordinary activities, or if a sannyasi is greedy and eats meat, eggs and all kinds of nonsense for the satisfaction of his tongue, he is a cheater and should immediately be rejected as unimportant.</p>
+<p>Such persons should be shown compassion, and if one has sufficient strength one should teach them to stop them from following the wrong path in life.</p>
+<p>Otherwise one should reject them and pay them no attention.</p>
+
+
+
+<p><strong>7.15.40</strong></p>
+<p>atmanam ced vijaniyat</p>
+<p>param jnana-dhutasayah</p>
+<p>kim icchan kasya va hetor</p>
+<p>deham pusnati lampatah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atmanam—the soul and the Supersoul; cet—if; vijaniyat—can understand; param—who are transcendental, beyond this material world; jnana—by knowledge; dhuta-asayah—one who has cleansed his consciousness; kim—what; icchan—desiring material comforts; kasya—for whom; va—or; hetoh—for what reason; deham—the material body; pusnati—he maintains; lampatah—being unlawfully addicted to sense gratification.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The human form of body is meant for understanding the self and the Supreme Self, the Supreme Personality of Godhead, both of whom are transcendentally situated.</p>
+<p>If both of them can be understood when one is purified by advanced knowledge, for what reason and for whom does a foolish, greedy person maintain the body for sense gratification?</p>
+<p><strong>PURPORT</strong></p>
+<p>Of course, everyone in this material world is interested in maintaining the body for sense gratification, but by cultivating knowledge one should gradually understand that the body is not the self.</p>
+<p>Both the soul and the Supersoul are transcendental to the material world.</p>
+<p>This is to be understood in the human form of life, especially when one takes sannyasa.</p>
+<p>A sannyasi, one who has understood the self, should be engaged in elevating the self and associating with the Superself.</p>
+<p>Our Krsna consciousness movement is meant for elevating the living being for promotion back home, back to Godhead.</p>
+<p>Seeking such elevation is one’s duty in the human form of life.</p>
+<p>Unless one performs this duty, why should one maintain the body? Especially if a sannyasi not only maintains the body by ordinary means but does everything to maintain the body, including even eating meat and other abominable things, he must be a lampatah, a greedy person simply engaged in sense gratification.</p>
+<p>A sannyasi must specifically remove himself from the urges of the tongue, belly and genitals, which disturb one as long as one is not fully aware that the body is separate from the soul.</p>
+
+
+
+<p><strong>7.15.41</strong></p>
+<p>ahuh sariram ratham indriyani</p>
+<p>hayan abhisun mana indriyesam</p>
+<p>vartmani matra dhisanam ca sutam</p>
+<p>sattvam brhad bandhuram isa-srstam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ahuh—it is said; sariram—the body; ratham—the chariot; indriyani—the senses; hayan—the horses; abhisun—the reins; manah—the mind; indriya—of the senses; isam—the master; vartmani—the destinations; matrah—the sense objects; dhisanam—the intelligence; ca—and; sutam—the chariot driver; sattvam—consciousness; brhat—great; bandhuram—bondage; isa—by the Supreme Personality of Godhead; srstam—created.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Transcendentalists who are advanced in knowledge compare the body, which is made by the order of the Supreme Personality of Godhead, to a chariot.</p>
+<p>The senses are like the horses; the mind, the master of the senses, is like the reins; the objects of the senses are the destinations; intelligence is the chariot driver; and consciousness, which spreads throughout the body, is the cause of bondage in this material world.</p>
+<p><strong>PURPORT</strong></p>
+<p>For a bewildered person in the materialistic way of life, the body, the mind and the senses, which are engaged in sense gratification, are the cause of bondage to repeated birth, death, old age and disease.</p>
+<p>But for one who is advanced in spiritual knowledge, the same body, senses and mind are the cause of liberation.</p>
+<p>Katha Upanisad (1.3.3–4,9) as follows:</p>
+<p>atmanam rathinam viddhi</p>
+<p>sariram ratham eva ca</p>
+<p>buddhim tu sarathim viddhi</p>
+<p>manah pragraham eva ca</p>
+<p>indriyani hayan ahur</p>
+<p>visayams tesu gocaran</p>
+<p>so ’dhvanah param apnoti</p>
+<p>tad visnoh paramam padam</p>
+<p>The soul is the occupant of the chariot of the body, of which the driver is the intelligence.</p>
+<p>The mind is the determination to reach the destination, the senses are the horses, and the sense objects are also included in that activity.</p>
+<p>Thus one can reach the destination, Visnu, who is paramam padam, the supreme goal of life.</p>
+<p>In conditioned life the consciousness in the body is the cause of bondage, but the same consciousness, when transformed into Krsna consciousness, becomes the cause for one’s returning home, back to Godhead.</p>
+<p>The human body, therefore, may be used in two ways—for going to the darkest regions of ignorance or for going forward, back home, back to Godhead.</p>
+<p>To go back to Godhead, the path is mahat-seva, to accept the self-realized spiritual master.</p>
+<p>Mahat-sevam dvaram ahur vimukteh (SB 5.5.2).</p>
+<p>For liberation, one should accept the direction of authorized devotees who can actually endow one with perfect knowledge.</p>
+<p>On the other hand, tamo-dvaram yositam sangi-sangam: if one wants to go to the darkest regions of material existence, one may continue to associate with persons who are attached to women (yositam sangi-sangam).</p>
+<p>The word yosit means woman Persons who are too materialistic are attached to women.</p>
+<p>It is said, therefore, atmanam rathinam viddhi sariram ratham eva ca.</p>
+<p>The body is just like a chariot or car in which one may go anywhere.</p>
+<p>One may drive well, or else one may drive whimsically, in which case it is quite possible that he may have an accident and fall into a ditch.</p>
+<p>In other words, if one takes directions from the experienced spiritual master one can go back home, back to Godhead; otherwise, one may return to the cycle of birth and death.</p>
+<p>Therefore Krsna personally advises:</p>
+<p>asraddadhanah purusa</p>
+<p>dharmasyasya parantapa</p>
+<p>aprapya mam nivartante</p>
+<p>mrtyu-samsara-vartmani</p>
+<p>Those who are not faithful on the path of devotional service cannot attain Me, O conqueror of foes, but return to birth and death in this material world (Bg.9.3) The Supreme Personality of Godhead, Krsna, personally gives instructions on how one can return home, back to Godhead, but if one does not care to listen to His instructions, the result will be that one will never go back to Godhead, but will continue life in this miserable condition of repeated birth and death in material existence (mrtyu-samsara-vartmani).</p>
+<p>The advice of experienced transcendentalists, therefore, is that the body be fully engaged for achieving the ultimate goal of life (svartha-gatim).</p>
+<p>The real interest or goal of life is to return home, back to Godhead.</p>
+<p>To enable one to fulfill this purpose, there are so many Vedic literatures, including Vedanta-sutra, the Upanisads, Bhagavad-gita, Mahabharata and the Ramayana.</p>
+<p>One should take lessons from these Vedic literatures and learn how to practice nivrtti-marga.</p>
+<p>Then one’s life will be perfect.</p>
+<p>The body is important as long as it has consciousness.</p>
+<p>Without consciousness, the body is merely a lump of matter.</p>
+<p>Therefore, to return home, back to Godhead, one must change his consciousness from material consciousness to Krsna consciousness.</p>
+<p>One’s consciousness is the cause of material bondage, but if this consciousness is purified by bhakti-yoga, one can then understand the falsity of his upadhi, his designations as Indian, American, Hindu, Muslim, Christian and so on.</p>
+<p>Sarvopadhi-vinirmuktam tat-paratvena nirmalam (Cc.Madhya 19.170).</p>
+<p>One must forget these designations and use this consciousness only for the service of Krsna.</p>
+<p>Therefore if one takes advantage of the Krsna consciousness movement, his life is certainly successful.</p>
+
+
+
+<p><strong>7.15.42</strong></p>
+<p>aksam dasa-pranam adharma-dharmau</p>
+<p>cakre ’bhimanam rathinam ca jivam</p>
+<p>dhanur hi tasya pranavam pathanti</p>
+<p>saram tu jivam param eva laksyam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>aksam—the spokes (on the chariot wheel); dasa—ten; pranam—the ten kinds of air flowing within the body; adharma—irreligion; dharmau—religion (two sides of the wheel, up and down); cakre—in the wheel; abhimanam—false identification; rathinam—the charioteer or master of the body; ca—also; jivam—the living entity; dhanuh—the bow; hi—indeed; tasya—his; pranavam—the Vedic mantra omkara; pathanti—it is said; saram—an arrow; tu—but; jivam—the living entity; param—the Supreme Lord; eva—indeed; laksyam—the target.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The ten kinds of air acting within the body are compared to the spokes of the chariot’s wheels, and the top and bottom of the wheel itself are called religion and irreligion.</p>
+<p>The living entity in the bodily concept of life is the owner of the chariot.</p>
+<p>The Vedic mantra pranava is the bow, the pure living entity himself is the arrow, and the target is the Supreme Being.</p>
+<p><strong>PURPORT</strong></p>
+<p>Ten kinds of life air always flow within the material body.</p>
+<p>They are called prana, apana, samana, vyana, udana, naga, kurma, krkala, devadatta and dhananjaya.</p>
+<p>They are compared here to the spokes of the chariot’s wheels.</p>
+<p>The life air is the energy for all of a living being’s activities, which are sometimes religious and sometimes irreligious.</p>
+<p>Thus religion and irreligion are said to be the upper and lower portions of the chariot’s wheels.</p>
+<p>When the living entity decides to go back home, back to Godhead, his target is Lord Visnu, the Supreme Personality of Godhead.</p>
+<p>In the conditioned state of life, one does not understand that the goal of life is the Supreme Lord.</p>
+<p>Na te viduh svartha-gatim hi visnum durasaya ye bahir-artha-maninah (SB 7.5.31).</p>
+<p>The living entity tries to be happy within this material world, not understanding the target of his life.</p>
+<p>When he is purified, however, he gives up his bodily conception of life and his false identity as belonging to a certain community, a certain nation, a certain society, a certain family and so on (sarvopadhi-vinirmuktam tat-paratvena nirmalam (Cc.Madhya 19.170)).</p>
+<p>Then he takes the arrow of his purified life, and with the help of the bow—the transcendental chanting of pranava, or the Hare Krsna mantra—he throws himself toward the Supreme Personality of Godhead.</p>
+<p>Srila Visvanatha Cakravarti Thakura has commented that because the words bo and arro are used in this verse, one might argue that the Supreme Personality of Godhead and the living entity have become enemies.</p>
+<p>However, although the Supreme Personality of Godhead may become the so-called enemy of the living being, this is His chivalrous pleasure.</p>
+<p>For example, the Lord fought with Bhisma, and when Bhisma pierced the Lord’s body on the Battlefield of Kuruksetra, this was a kind of humor or relationship, of which there are twelve.</p>
+<p>When the conditioned soul tries to reach the Lord by hurling an arrow at Him, the Lord takes pleasure, and the living entity gains the profit of going back home, back to Godhead.</p>
+<p>Another example given in this regard is that Arjuna, as a result of piercing the adhara-mina, or the fish within the cakra, achieved the valuable gain of Draupadi.</p>
+<p>Similarly, if with the arrow of chanting the holy name of the Lord one pierces Lord Visnu’s lotus feet, by dint of performing this heroic activity of devotional service one receives the benefit of returning home, back to Godhead.</p>
+
+
+
+<p><strong>7.15.43-44</strong></p>
+<p>rago dvesas ca lobhas ca</p>
+<p>soka-mohau bhayam madah</p>
+<p>mano ’vamano ’suya ca</p>
+<p>maya himsa ca matsarah</p>
+<p>rajah pramadah ksun-nidra</p>
+<p>satravas tv evam adayah</p>
+<p>rajas-tamah-prakrtayah</p>
+<p>sattva-prakrtayah kvacit</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ragah—attachment; dvesah—hostility; ca—also; lobhah—greed; ca—also; soka—lamentation; mohau—illusion; bhayam—fear; madah—madness; manah—false prestige; avamanah—insult; asuya—finding fault with others; ca—also; maya—deception; himsa—envy; ca—also; matsarah—intolerance; rajah—passion; pramadah—bewilderment; ksut—hunger; nidra—sleep; satravah—enemies; tu—indeed; evam adayah—even other such conceptions of life; rajah-tamah—because of the conception of passion and ignorance; prakrtayah—causes; sattva—because of the conception of goodness; prakrtayah—causes; kvacit—sometimes.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In the conditioned stage, one’s conceptions of life are sometimes polluted by passion and ignorance, which are exhibited by attachment, hostility, greed, lamentation, illusion, fear, madness, false prestige, insults, fault-finding, deception, envy, intolerance, passion, bewilderment, hunger and sleep.</p>
+<p>All of these are enemies.</p>
+<p>Sometimes one’s conceptions are also polluted by goodness.</p>
+<p><strong>PURPORT</strong></p>
+<p>The actual aim of life is to go back home, back to Godhead, but there are many hindrances created by the three modes of material nature—sometimes by a combination of rajo-guna and tamo-guna, the modes of passion and ignorance, and sometimes by the mode of goodness.</p>
+<p>In the material world, even if one is a philanthropist, a nationalist and a good man according to materialistic estimations, these conceptions of life form a hindrance to spiritual advancement.</p>
+<p>How much more of a hindrance, then, are hostility, greed, illusion, lamentation and too much attachment to material enjoyment? To progress toward the target of Visnu, which is our real self-interest, one must become very powerful in conquering these various hindrances or enemies.</p>
+<p>In other words, one should not be attached to being a good man or a bad man in this material world.</p>
+<p>In this material world, so-called goodness and badness are the same because they consist of the three modes of material nature.</p>
+<p>One must transcend this material nature.</p>
+<p>Even the Vedic ritualistic ceremonies consist of the three modes of material nature.</p>
+<p>Therefore Krsna advised Arjuna:</p>
+<p>traigunya-visaya veda</p>
+<p>nistraigunyo bhavarjuna</p>
+<p>nirdvandvo nitya-sattva-stho</p>
+<p>niryoga-ksema atmavan</p>
+<p>The Vedas mainly deal with the subject of the three modes of material nature.</p>
+<p>Rise above these modes, O Arjuna.</p>
+<p>Be transcendental to all of them.</p>
+<p>Be free from all dualities and from all anxieties for gain and safety, and be established in the self (Bg.2.45) Elsewhere in Bhagavad-gita the Lord says, urdhvam gacchanti sattva-sthah: if one becomes a very good person—in other words, if one is in the mode of goodness—he may be elevated to the higher planetary systems.</p>
+<p>Similarly, if one is infected by rajo-guna and tamo-guna, he may remain in this world or go down to the animal kingdom.</p>
+<p>But all of these situations are hindrances on the path of spiritual salvation.</p>
+<p>Sri Caitanya Mahaprabhu therefore says:</p>
+<p>brahmanda bhramite kona bhagyavan jiva</p>
+<p>guru-krsna-prasade paya bhakti-lata-bija</p>
+<p>If one is fortunate enough to transcend all this so-called goodness and badness and come to the platform of devotional service by the mercy of Krsna and the guru, his life becomes successful.</p>
+<p>In this regard, one must be very bold so that he can conquer these enemies of Krsna consciousness.</p>
+<p>Not caring for the good and bad of this material world, one must boldly propagate Krsna consciousness.</p>
+
+
+
+<p><strong>7.15.45</strong></p>
+<p>yavan nr-kaya-ratham atma-vasopakalpam</p>
+<p>dhatte garistha-caranarcanaya nisatam</p>
+<p>jnanasim acyuta-balo dadhad asta-satruh</p>
+<p>svananda-tusta upasanta idam vijahyat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yavat—as long as; nr-kaya—this human form of body; ratham—considered to be a chariot; atma-vasa—dependent upon one’s own control; upakalpam—in which there are many other subordinate parts; dhatte—one possesses; garistha-carana—the lotus feet of the superiors (namely the spiritual master and his predecessors); arcanaya—by serving; nisatam—sharpened; jnana-asim—the sword or weapon of knowledge; acyuta-balah—by the transcendental strength of Krsna; dadhat—holding; asta-satruh—until the enemy is defeated; sva-ananda-tustah—being fully self-satisfied by transcendental bliss; upasantah—the consciousness being cleansed of all material contamination; idam—this body; vijahyat—one should give up.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>As long as one has to accept a material body, with its different parts and paraphernalia, which are not fully under one’s control, one must have the lotus feet of his superiors, namely his spiritual master and the spiritual master’s predecessors.</p>
+<p>By their mercy, one can sharpen the sword of knowledge, and with the power of the Supreme Personality of Godhead’s mercy one must then conquer the enemies mentioned above.</p>
+<p>In this way, the devotee should be able to merge into his own transcendental bliss, and then he may give up his body and resume his spiritual identity.</p>
+<p><strong>PURPORT</strong></p>
+<p>In Bhagavad-gita (4.9) the Lord says:</p>
+<p>janma karma ca me divyam</p>
+<p>evam yo vetti tattvatah</p>
+<p>tyaktva deham punar janma</p>
+<p>naiti mam eti so ’rjuna</p>
+<p>One who knows the transcendental nature of My appearance and activities does not, upon leaving the body, take his birth again in this material world, but attains My eternal abode, O Arjuna This is the highest perfection of life, and the human body is meant for this purpose.</p>
+<p>Srimad-Bhagavatam (11.20.17):</p>
+<p>nr-deham adyam sulabham sudurlabham</p>
+<p>plavam sukalpam guru-karnadharam</p>
+<p>mayanukulena nabhasvateritam</p>
+<p>puman bhavabdhim na taret sa atma-ha</p>
+<p>This human form of body is a most valuable boat, and the spiritual master is the captain, guru-karnadharam, to guide the boat in plying across the ocean of nescience.</p>
+<p>The instruction of Krsna is a favorable breeze.</p>
+<p>One must use all these facilities to cross over the ocean of nescience.</p>
+<p>Since the spiritual master is the captain, one must serve the spiritual master very sincerely so that by his mercy one will be able to get the mercy of the Supreme Lord.</p>
+<p>A significant word here is acyuta-balah.</p>
+<p>The spiritual master is certainly very merciful to his disciples, and consequently by satisfying him a devotee gets strength from the Supreme Personality of Godhead.</p>
+<p>Sri Caitanya Mahaprabhu therefore says, guru-krsna-prasade paya bhakti-lata-bija: one must first please the spiritual master, and then one automatically pleases Krsna and gets the strength with which to cross the ocean of nescience.</p>
+<p>If one seriously desires to return home, back to Godhead, one must therefore become strong enough by pleasing the spiritual master, for thus one gets the weapon with which to conquer the enemy, and one also gets the grace of Krsna.</p>
+<p>Simply getting the weapon of jnana is insufficient.</p>
+<p>One must sharpen the weapon by serving the spiritual master and adhering to his instructions.</p>
+<p>Then the candidate will get the mercy of the Supreme Personality of Godhead.</p>
+<p>In general warfare one must take help from his chariot and horses in order to conquer his enemy, and after conquering his enemies he may give up the chariot and its paraphernalia.</p>
+<p>Similarly, as long as one has a human body, one should fully use it to obtain the highest perfection of life, namely going back home, back to Godhead.</p>
+<p>The perfection of knowledge is certainly to become transcendentally situated (brahma-bhuta).</p>
+<p>As the Lord says in Bhagavad-gita (18.54):</p>
+<p>brahma-bhutah prasannatma</p>
+<p>na socati na kanksati</p>
+<p>samah sarvesu bhutesu</p>
+<p>mad-bhaktim labhate param</p>
+<p>One who is transcendentally situated at once realizes the Supreme Brahman and becomes fully joyful.</p>
+<p>He never laments nor desires to have anything; he is equally disposed toward all living entities.</p>
+<p>In that state he attains pure devotional service Simply by cultivating knowledge as the impersonalists do, one cannot get out of the clutches of maya.</p>
+<p>One must attain the platform of bhakti bhaktya mam abhijanati</p>
+<p>yavan yas casmi tattvatah</p>
+<p>tato mam tattvato jnatva</p>
+<p>visate tad-anantaram</p>
+<p>One can understand the Supreme Personality as He is only by devotional service.</p>
+<p>And when one is in full consciousness of the Supreme Lord by such devotion, he can enter into the kingdom of God (Bg.18.55) Unless one has attained the stage of devotional service and the mercy of the spiritual master and Krsna, there is a possibility that one may fall down and again accept a material body.</p>
+<p>Therefore Krsna stresses in Bhagavad-gita (4.9):</p>
+<p>janma karma ca me divyam</p>
+<p>evam yo vetti tattvatah</p>
+<p>tyaktva deham punar janma</p>
+<p>naiti mam eti so ’rjuna</p>
+<p>One who knows the transcendental nature of My appearance and activities does not, upon leaving the body, take his birth again in this material world, but attains My eternal abode, O Arjuna The word tattvatah, meaning in reality is very important.</p>
+<p>Tato mam tattvato jnatva.</p>
+<p>Unless one understands Krsna in truth by the mercy of the spiritual master, one is not free to give up his material body.</p>
+<p>As it is said, aruhya krcchrena param padam tatah patanty adho ’nadrta-yusmad-anghrayah: (SB 10.2.32) if one neglects to serve the lotus feet of Krsna, one cannot become free from the material clutches simply by knowledge.</p>
+<p>Even if one attains the stage of brahma-padam, merging in Brahman, without bhakti he is prone to fall down.</p>
+<p>One must be very careful in regard to the danger of falling down again into material bondage.</p>
+<p>The only insurance is to come to the stage of bhakti, from which one is sure not to fall.</p>
+<p>Then one is free from the activities of the material world.</p>
+<p>In summary, as stated by Sri Caitanya Mahaprabhu, one must get in touch with a bona fide spiritual master coming in the parampara of Krsna consciousness, for by his mercy and instructions one is able to get strength from Krsna.</p>
+<p>Thus one engages in devotional service and attains the ultimate goal of life, the lotus feet of Visnu.</p>
+<p>Significant in this verse are the words jnanasim acyuta-balah.</p>
+<p>Jnanasim, the sword of knowledge, is given by Krsna, and when one serves the guru and Krsna in order to hold the sword of Krsna’s instructions, Balarama gives one strength.</p>
+<p>Balarama is Nityananda.</p>
+<p>Vrajendra-nandana yei, saci-suta haila sei, balarama ha-ila nitai.</p>
+<p>This bala—Balarama—comes with Sri Caitanya Mahaprabhu, and both of Them are so merciful that in this age of Kali one may very easily take shelter of Their lotus feet.</p>
+<p>They come especially to deliver the fallen souls of this age papi tapi yata chila, hari-name uddharila.</p>
+<p>Their weapon is sankirtana, hari-nama.</p>
+<p>Thus one should accept the sword of knowledge from Krsna and be strong with the mercy of Balarama.</p>
+<p>We are therefore worshiping Krsna-Balarama in Vrndavana.</p>
+<p>Mundaka Upanisad (3.2.4) it is said:</p>
+<p>nayam atma bala-hinena labhyo</p>
+<p>na ca pramadat tapaso vapy alingat</p>
+<p>etair upayair yatate yas tu vidvams</p>
+<p>tasyaisa atma visate brahma-dhama</p>
+<p>One cannot attain the goal of life without the mercy of Balarama.</p>
+<p>Sri Narottama dasa Thakura therefore says, nitaiyera karuna habe, vraje radha-krsna pabe: when one receives the mercy of Balarama, Nityananda, one can attain the lotus feet of Radha and Krsna very easily vidya-kule hi karibe tara If one has no connection with Nitai, Balarama, then even though one is a very learned scholar or jnani or has taken birth in a very respectable family, these assets will not help him.</p>
+<p>We must therefore conquer the enemies of Krsna consciousness with the strength received from Balarama.</p>
+
+
+
+<p><strong>7.15.46</strong></p>
+<p>nocet pramattam asad-indriya-vaji-suta</p>
+<p>nitvotpatham visaya-dasyusu niksipanti</p>
+<p>te dasyavah sahaya-sutam amum tamo ’ndhe</p>
+<p>samsara-kupa uru-mrtyu-bhaye ksipanti</p>
+<p><strong>SYNONYMS</strong></p>
+<p>nocet—if we do not follow the instructions of Acyuta, Krsna, and do not take shelter of Balarama; pramattam—careless, inattentive; asat—which are always prone to material consciousness; indriya—the senses; vaji—acting as the horses; sutah—the chariot driver (intelligence); nitva—bringing; utpatham—to the roadway of material desire; visaya—the sense objects; dasyusu—in the hands of the plunderers; niksipanti—throw; te—those; dasyavah—plunderers; sa—with; haya-sutam—the horses and chariot driver; amum—all of them; tamah—dark; andhe—blind; samsara-kupe—into the well of material existence; uru—great; mrtyu-bhaye—fear of death; ksipanti—throw.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Otherwise, if one does not take shelter of Acyuta and Baladeva, then the senses, acting as the horses, and the intelligence, acting as the driver, both being prone to material contamination, inattentively bring the body, which acts as the chariot, to the path of sense gratification.</p>
+<p>When one is thus attracted again by the rogues of visaya—eating, sleeping and mating—the horses and chariot driver are thrown into the blinding dark well of material existence, and one is again put into a dangerous and extremely fearful situation of repeated birth and death.</p>
+<p><strong>PURPORT</strong></p>
+<p>Without the protection of Gaura-Nitai—Krsna and Balarama—one cannot get out of the dark well of ignorance in material existence.</p>
+<p>This is indicated here by the word nocet, which means that one will always remain in the dark well of material existence.</p>
+<p>The living entity must get strength from Nitai-Gaura, or Krsna-Balarama.</p>
+<p>Without the mercy of Nitai-Gaura, there is no way to come out of this dark well of ignorance.</p>
+<p>As stated in the Caitanya-caritamrta (Adi1.2):</p>
+<p>vande sri-krsna-caitanya-</p>
+<p>nityanandau sahoditau</p>
+<p>gaudodaye puspavantau</p>
+<p>citrau sandau tamo-nudau</p>
+<p>I offer my respectful obeisances unto Sri Krsna Caitanya and Lord Nityananda, who are like the sun and moon.</p>
+<p>They have arisen simultaneously on the horizon of Gauda to dissipate the darkness of ignorance and thus wonderfully bestow benediction upon all This material world is a dark well of ignorance.</p>
+<p>The fallen soul in this dark well must take shelter of the lotus feet of Gaura-Nitai, for thus he can easily emerge from material existence.</p>
+<p>Without Their strength, simply attempting to get out of the clutches of matter by speculative knowledge will be insufficient.</p>
+
+
+
+<p><strong>7.15.47</strong></p>
+<p>pravrttam ca nivrttam ca</p>
+<p>dvi-vidham karma vaidikam</p>
+<p>avartate pravrttena</p>
+<p>nivrttenasnute ’mrtam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>pravrttam—inclination for material enjoyment; ca—and; nivrttam—cessation of material enjoyment; ca—and; dvi-vidham—these two varieties; karma—of activities; vaidikam—recommended in the Vedas; avartate—one travels up and down through the cycle of samsara; pravrttena—by an inclination for enjoying material activities; nivrttena—but by ceasing such activities; asnute—one enjoys; amrtam—eternal life.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>According to the Vedas, there are two kinds of activities—pravrtti and nivrtti.</p>
+<p>Pravrtti activities involve raising oneself from a lower to a higher condition of materialistic life, whereas nivrtti means the cessation of material desire.</p>
+<p>Through pravrtti activities one suffers from material entanglement, but by nivrtti activities one is purified and becomes fit to enjoy eternal, blissful life.</p>
+<p><strong>PURPORT</strong></p>
+<p>As confirmed in Bhagavad-gita (16.7), pravrttim ca nivrttim ca jana na vidur asurah: the asuras, nondevotees, cannot distinguish between pravrtti and nivrtti.</p>
+<p>Whatever they like they do.</p>
+<p>Such persons think themselves independent of the strong material nature, and therefore they are irresponsible and do not care to act piously.</p>
+<p>Indeed, they do not distinguish between pious and impious activity.</p>
+<p>Bhakti, of course, does not depend on pious or impious activity.</p>
+<p>Srimad-Bhagavatam (1.2.6):</p>
+<p>sa vai pumsam paro dharmo</p>
+<p>yato bhaktir adhoksaje</p>
+<p>ahaituky apratihata</p>
+<p>yayatma suprasidati</p>
+<p>The supreme occupation (dharma) for all humanity is that by which men can attain to loving devotional service unto the transcendent Lord.</p>
+<p>Such devotional service must be unmotivated and uninterrupted in order to completely satisfy the self Nonetheless, those who act piously have a better chance to become devotees.</p>
+<p>As Krsna says in Bhagavad-gita (7.16), catur-vidha bhajante mam janah sukrtino ’rjuna: O Arjuna, four kinds of pious men render devotional service unto Me One who takes to devotional service, even with some material motive, is considered pious, and because he has come to Krsna, he will gradually come to the stage of bhakti.</p>
+<p>Then, like Dhruva Maharaja, he will refuse to accept any material benediction from the Lord (svamin krtartho ’smi varam na yace).</p>
+<p>Therefore, even if one is materially inclined, one may take to the shelter of the lotus feet of Krsna and Balarama, or Gaura and Nitai, so that he will very soon be purified of all material desires (ksipram bhavati dharmatma sasvac chantim nigacchati).</p>
+<p>As soon as one is freed from inclinations toward pious and impious activities, he becomes a perfect candidate for returning home, back to Godhead.</p>
+
+
+
+<p><strong>7.15.48-49</strong></p>
+<p>himsram dravyamayam kamyam</p>
+<p>agni-hotrady-asantidam</p>
+<p>darsas ca purnamasas ca</p>
+<p>caturmasyam pasuh sutah</p>
+<p>etad istam pravrttakhyam</p>
+<p>hutam prahutam eva ca</p>
+<p>purtam suralayarama-</p>
+<p>kupajivyadi-laksanam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>himsram—a system of killing and sacrificing animals; dravya-mayam—requiring much paraphernalia; kamyam—full of unlimited material desires; agni-hotra-adi—ritualistic ceremonies such as the agni-hotra-yajna; asanti-dam—causing anxieties; darsah—the darsa ritualistic ceremony; ca—and; purnamasah—the purnamasa ritualistic ceremony; ca—also; caturmasyam—observing four months of regulative principles; pasuh—the ceremony of sacrificing animals or pasu-yajna; sutah—the soma-yajna; etat—of all this; istam—the goal; pravrtta-akhyam—known as material attachment; hutam—Vaisvadeva, an incarnation of the Supreme Personality of Godhead; prahutam—a ceremony called Baliharana; eva—indeed; ca—also; purtam—for the benefit of the public; sura-alaya—constructing temples for demigods; arama—resting houses and gardens; kupa—digging wells; ajivya-adi—activities like distributing food and water; laksanam—symptoms.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The ritualistic ceremonies and sacrifices known as agni-hotra–yajna, darsa-yajna, purnamasa-yajna, caturmasya-yajna, pasu-yajna and soma-yajna are all symptomized by the killing of animals and the burning of many valuables, especially food grains, all for the fulfillment of material desires and the creation of anxiety.</p>
+<p>Performing such sacrifices, worshiping Vaisvadeva, and performing the ceremony of Baliharana, which all supposedly constitute the goal of life, as well as constructing temples for demigods, building resting houses and gardens, digging wells for the distribution of water, establishing booths for the distribution of food, and performing activities for public welfare—these are all symptomized by attachment to material desires.</p>
+
+
+
+<p><strong>7.15.50-51</strong></p>
+<p>dravya-suksma-vipakas ca</p>
+<p>dhumo ratrir apaksayah</p>
+<p>ayanam daksinam somo</p>
+<p>darsa osadhi-virudhah</p>
+<p>annam reta iti ksmesa</p>
+<p>pitr-yanam punar-bhavah</p>
+<p>ekaikasyenanupurvam</p>
+<p>bhutva bhutveha jayate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dravya-suksma-vipakah—the paraphernalia offered as oblations in the fire, such as food grains mixed with ghee; ca—and; dhumah—turned to smoke, or the demigod in charge of smoke; ratrih—the demigod in charge of night; apaksayah—in the dark fortnight of the moon; ayanam—the demigod in charge of the passing of the sun; daksinam—in the southern zone; somah—the moon; darsah—returning; osadhi—plant life (on the surface of the earth); virudhah—vegetation in general (the birth of lamentation); annam—food grains; retah—semen; iti—in this way; ksma-isa—O King Yudhisthira, lord of the earth; pitr-yanam—the way of taking birth from the father’s semen; punah-bhavah—again and again; eka-ekasyena—one after another; anupurvam—successively, according to the gradation; bhutva—taking birth; bhutva—again taking birth; iha—in this material world; jayate—one exists in the materialistic way of life.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear King Yudhisthira, when oblations of ghee and food grains like barley and sesame are offered in sacrifice, they turn into celestial smoke, which carries one to successively higher planetary systems like the kingdoms of Dhuma, Ratri, Krsnapaksa, Daksinam and ultimately the moon.</p>
+<p>Then, however, the performers of sacrifice descend again to earth to become herbs, creepers, vegetables and food grains.</p>
+<p>These are eaten by different living entities and turned to semen, which is injected into female bodies.</p>
+<p>Thus one takes birth again and again.</p>
+<p><strong>PURPORT</strong></p>
+<p>This is explained in Bhagavad-gita (9.21):</p>
+<p>te tam bhuktva svarga-lokam visalam</p>
+<p>ksine punye martya-lokam visanti</p>
+<p>evam trayi-dharmam anuprapanna</p>
+<p>gatagatam kama-kama labhante</p>
+<p>When those who follow the pravrtti-marga have enjoyed heavenly sense pleasure, they return to this mortal planet again.</p>
+<p>Thus, through the Vedic principles, they achieve only flickering happiness Following the pravrtti-marga, the living entity who desires to be promoted to the higher planetary systems performs sacrifices regularly, and how he goes up and comes down again is described here in Srimad-Bhagavatam, as well as in Bhagavad-gita.</p>
+<p>It is also said, traigunya-visaya vedah: The Vedas deal mainly with the three modes of material nature The Vedas, especially three Vedas, namely Sama, Yajur and Rk, vividly describe this process of ascending to the higher planets and returning.</p>
+<p>But Krsna advises Arjuna, traigunya-visaya veda nistraigunyo bhavarjuna: one has to transcend these three modes of material nature, and then one will be released from the cycle of birth and death.</p>
+<p>Otherwise, although one may be promoted to a higher planetary system such as Candraloka, one must again come down (ksine punye martya-lokam visanti (Bg.9.21)).</p>
+<p>After one’s enjoyment due to pious activities is finished, one must return to this planet in rainfall and first take birth as a plant or creeper, which is eaten by various animals, including human beings, and turned to semen.</p>
+<p>This semen is injected into the female body, and thus the living entity takes birth.</p>
+<p>Those who return to earth in this way take birth especially in higher families like those of brahmanas.</p>
+<p>It may be remarked in this connection that even the modern so-called scientists who are going to the moon are not able to stay there, but are returning to their laboratories.</p>
+<p>Therefore, whether one goes to the moon by modern mechanical arrangements or by performing pious activities, one must return to earth.</p>
+<p>That is clearly stated in this verse and explained in Bhagavad-gita.</p>
+<p>Even if one goes to the higher planetary systems (yanti deva-vrata devan (Bg.9.25)), one’s place there is not secure; one must return to martya-loka.</p>
+<p>Abrahma-bhuvanal lokah punar avartino ’rjuna: (Bg.8.16) aside from the moon, even if one goes to Brahmaloka, one must return.</p>
+<p>Yam prapya na nivartante tad dhama paramam mama: but if one goes back home, back to Godhead, he need not return to this material world.</p>
+
+
+
+<p><strong>7.15.52</strong></p>
+<p>nisekadi-smasanantaih</p>
+<p>samskaraih samskrto dvijah</p>
+<p>indriyesu kriya-yajnan</p>
+<p>jnana-dipesu juhvati</p>
+<p><strong>SYNONYMS</strong></p>
+<p>niseka-adi—the beginning of life (the purificatory process of garbhadhana, performed when the father begets a child by discharging semen into the womb of the mother); smasana-antaih—and at death, when the body is put into a crematorium and burnt to ashes; samskaraih—by such purificatory processes; samskrtah—purified; dvijah—a twice-born brahmana; indriyesu—into the senses; kriya-yajnan—activities and sacrifices (which elevate one to a higher planetary system); jnana-dipesu—by enlightenment in real knowledge; juhvati—offers.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>A twice-born brahmana (dvija) gains his life by the grace of his parents through the process of purification known as garbhadhana.</p>
+<p>There are also other processes of purification, until the end of life, when the funeral ceremony (antyesti-kriya) is performed.</p>
+<p>Thus in due course a qualified brahmana becomes uninterested in materialistic activities and sacrifices, but he offers the sensual sacrifices, in full knowledge, into the working senses, which are illuminated by the fire of knowledge.</p>
+<p><strong>PURPORT</strong></p>
+<p>Those interested in materialistic activities remain in the cycle of birth and death.</p>
+<p>Pravrtti-marga, or the inclination to stay in the material world to enjoy varieties of sense gratification, has been explained in the previous verse.</p>
+<p>Now, in this verse, it is explained that one who has perfect brahminical knowledge rejects the process of elevation to higher planets and accepts nivrtti-marga; in other words, he prepares himself to go back home, back to Godhead.</p>
+<p>Those who are not brahmanas but atheists do not know what is pravrtti-marga or nivrtti-marga; they simply want to obtain pleasure at any cost.</p>
+<p>Our Krsna consciousness movement is therefore training devotees to give up the pravrtti-marga and accept the nivrtti-marga in order to return home, back to Godhead.</p>
+<p>This is a little difficult to understand, but it is very easy if one takes to Krsna consciousness seriously and tries to understand Krsna.</p>
+<p>A Krsna conscious person can understand that performing yajna according to the karma-kanda system is a useless waste of time and that merely giving up the karma-kanda and accepting the process of speculation is also unfruitful.</p>
+<p>Therefore Narottama dasa Thakura has sung in his prema-bhakti-candrika:</p>
+<p>’amrta’ baliya yeba khaya</p>
+<p>tara janma adhah-pate yaya</p>
+<p>A life of karma-kanda or jnana-kanda is like a poison pot, and one who takes to such a life is doomed.</p>
+<p>In the karma-kanda system, one is destined to accept birth and death again and again.</p>
+<p>Similarly, with jnana-kanda one falls down again to this material world.</p>
+<p>Only worship of the Supreme Person offers one the safety of going back home, back to Godhead.</p>
+
+
+
+<p><strong>7.15.53</strong></p>
+<p>indriyani manasy urmau</p>
+<p>vaci vaikarikam manah</p>
+<p>vacam varna-samamnaye</p>
+<p>tam omkare svare nyaset</p>
+<p>omkaram bindau nade tam</p>
+<p>tam tu prane mahaty amum</p>
+<p><strong>SYNONYMS</strong></p>
+<p>indriyani—the senses (acting and knowledge-gathering); manasi—in the mind; urmau—in the waves of acceptance and rejection; vaci—in the words; vaikarikam—infected by changes; manah—the mind; vacam—the words; varna-samamnaye—in the aggregate of all alphabets; tam—that (aggregate of all alphabets); omkare—in the concise form of omkara; svare—in the vibration; nyaset—one should give up; omkaram—the concise sound vibration; bindau—in the point of omkara; nade—in the sound vibration; tam—that; tam—that (sound vibration); tu—indeed; prane—in the life air; mahati—unto the Supreme; amum—the living entity.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The mind is always agitated by waves of acceptance and rejection.</p>
+<p>Therefore all the activities of the senses should be offered into the mind, which should be offered into one’s words.</p>
+<p>Then one’s words should be offered into the aggregate of all alphabets, which should be offered into the concise form omkara.</p>
+<p>Omkara should be offered into the point bindu, bindu into the vibration of sound, and that vibration into the life air.</p>
+<p>Then the living entity, who is all that remains, should be placed in Brahman, the Supreme.</p>
+<p>This is the process of sacrifice.</p>
+<p><strong>PURPORT</strong></p>
+<p>The mind is always agitated by acceptance and rejection, which are compared to mental waves that are constantly tossing.</p>
+<p>The living entity is floating in the waves of material existence because of his forgetfulness.</p>
+<p>Srila Bhaktivinoda Thakura has therefore sung in his Gitavali: miche mayara vase, yaccha bhese’, khaccha habudubu, bhai My dear mind, under the influence of maya you are being carried away by the waves of rejection and acceptance.</p>
+<p>Simply take shelter of Krsna Jiva krsna-dasa, ei visvasa, karle ta’ ara duhkha nai: if we simply regard the lotus feet of Krsna as our ultimate shelter, we shall be saved from all these waves of maya, which are variously exhibited as mental and sensual activities and the agitation of rejection and acceptance.</p>
+<p>Krsna instructs in Bhagavad-gita (18.66):</p>
+<p>sarva-dharman parityajya</p>
+<p>mam ekam saranam vraja</p>
+<p>aham tvam sarva-papebhyo</p>
+<p>moksayisyami ma sucah</p>
+<p>Abandon all varieties of religion and just surrender unto Me.</p>
+<p>I shall deliver you from all sinful reaction.</p>
+<p>Do not fear Therefore if we simply place ourselves at the lotus feet of Krsna by taking to Krsna consciousness and keeping always in touch with Him by chanting the Hare Krsna mantra, we need not take much trouble in arranging to return to the spiritual world.</p>
+<p>By the mercy of Sri Caitanya Mahaprabhu, this is very easy harer nama harer nama</p>
+<p>harer namaiva kevalam</p>
+<p>kalau nasty eva nasty eva</p>
+<p>nasty eva gatir anyatha</p>
+<p>(Adi 17.21)</p>
+
+
+
+<p><strong>7.15.54</strong></p>
+<p>agnih suryo diva prahnah</p>
+<p>suklo rakottaram sva-rat</p>
+<p>visvo ’tha taijasah prajnas</p>
+<p>turya atma samanvayat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>agnih—fire; suryah—sun; diva—day; prahnah—the end of the day; suklah—the bright fortnight of the moon; raka—the full moon at the end of the sukla-paksa; uttaram—the period when the sun passes to the north; sva-rat—the Supreme Brahman or Lord Brahma; visvah—gross designation; atha—Brahmaloka, the ultimate in material enjoyment; taijasah—subtle designation; prajnah—the witness in the causal designation; turyah—transcendental; atma—the soul; samanvayat—as a natural consequence.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>On his path of ascent, the progressive living entity enters the different worlds of fire, the sun, the day, the end of the day, the bright fortnight, the full moon, and the passing of the sun in the north, along with their presiding demigods.</p>
+<p>When he enters Brahmaloka, he enjoys life for many millions of years, and finally his material designation comes to an end.</p>
+<p>He then comes to a subtle designation, from which he attains the causal designation, witnessing all previous states.</p>
+<p>Upon the annihilation of this causal state, he attains his pure state, in which he identifies with the Supersoul.</p>
+<p>In this way the living entity becomes transcendental.</p>
+
+
+
+<p><strong>7.15.55</strong></p>
+<p>deva-yanam idam prahur</p>
+<p>bhutva bhutvanupurvasah</p>
+<p>atma-yajy upasantatma</p>
+<p>hy atma-stho na nivartate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>deva-yanam—the process of elevation known as deva-yana; idam—on this (path); prahuh—it is said; bhutva bhutva—having repeated birth; anupurvasah—consecutively; atma-yaji—one who is eager for self-realization; upasanta-atma—completely free from all material desires; hi—indeed; atma-sthah—situated in his own self; na—not; nivartate—does return.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>This gradual process of elevation for self-realization is meant for those who are truly aware of the Absolute Truth.</p>
+<p>After repeated birth on this path, which is known as deva-yana, one attains these consecutive stages.</p>
+<p>One who is completely free from all material desires, being situated in the self, need not traverse the path of repeated birth and death.</p>
+
+
+
+<p><strong>7.15.56</strong></p>
+<p>ya ete pitr-devanam</p>
+<p>ayane veda-nirmite</p>
+<p>sastrena caksusa veda</p>
+<p>jana-stho ’pi na muhyati</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—one who; ete—on this path (as recommended above); pitr-devanam—known as pitr-yana and deva-yana; ayane—on this path; veda-nirmite—recommended in the Vedas; sastrena—by regular study of the scriptures; caksusa—by enlightened eyes; veda—is fully aware; jana-sthah—a person situated in a material body; api—even though; na—never; muhyati—is bewildered.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Even though situated in a material body, one who is fully aware of the paths known as pitr-yana and deva-yana, and who thus opens his eyes in terms of Vedic knowledge, is never bewildered in this material world.</p>
+<p><strong>PURPORT</strong></p>
+<p>Acaryavan puruso veda: one who is guided by the bona fide spiritual master knows everything as stated in the Vedas, which set forth the standard of infallible knowledge.</p>
+<p>As recommended in Bhagavad-gita, acaryopasanam: one must approach the acarya for real knowledge.</p>
+<p>Tad-vijnanartham sa gurum evabhigacchet: (MU1.2.12) one must approach the acarya, for then one will receive perfect knowledge.</p>
+<p>When guided by the spiritual master, one attains the ultimate goal of life.</p>
+
+
+
+<p><strong>7.15.57</strong></p>
+<p>adav ante jananam sad</p>
+<p>bahir antah paravaram</p>
+<p>jnanam jneyam vaco vacyam</p>
+<p>tamo jyotis tv ayam svayam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>adau—in the beginning; ante—at the end; jananam—of all living entities; sat—always existing; bahih—externally; antah—internally; para—transcendental; avaram—material; jnanam—knowledge; jneyam—the objective; vacah—expression; vacyam—the ultimate object; tamah—darkness; jyotih—light; tu—indeed; ayam—this one (the Supreme Lord); svayam—Himself.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>He who exists internally and externally, at the beginning and end of everything and of all living beings, as that which is enjoyable and as the enjoyer of everything, superior and inferior, is the Supreme Truth.</p>
+<p>He always exists as knowledge and the object of knowledge, as expression and the object of understanding, as darkness and as light.</p>
+<p>Thus He, the Supreme Lord, is everything.</p>
+<p><strong>PURPORT</strong></p>
+<p>Here the Vedic aphorism sarvam khalv idam brahma is explained.</p>
+<p>It is also explained in the catuh-sloki Bhagavatam.</p>
+<p>Aham evasam evagre.</p>
+<p>The Supreme Lord existed in the beginning, He exists after the creation and maintains everything, and after destruction everything merges in Him, as stated in Bhagavad-gita (prakrtim yanti mamikam).</p>
+<p>Thus the Supreme Lord is actually everything.</p>
+<p>In the conditioned state, we are bewildered in our understanding, but in the perfect stage of liberation we can understand that Krsna is the cause of everything isvarah paramah krsnah</p>
+<p>sac-cid-ananda-vigrahah</p>
+<p>anadir adir govindah</p>
+<p>sarva-karana-karanam</p>
+<p>Krsna, who is known as Govinda, is the supreme controller.</p>
+<p>He has an eternal, blissful, spiritual body.</p>
+<p>He is the origin of all.</p>
+<p>He has no other origin, for He is the prime cause of all causes (Brahma-samhita 5.1) This is the perfection of knowledge.</p>
+
+
+
+<p><strong>7.15.58</strong></p>
+<p>abadhito ’pi hy abhaso</p>
+<p>yatha vastutaya smrtah</p>
+<p>durghatatvad aindriyakam</p>
+<p>tadvad artha-vikalpitam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>abadhitah—rejected; api—although; hi—certainly; abhasah—a reflection; yatha—as; vastutaya—a form of reality; smrtah—accepted; durghatatvat—because of being very difficult to prove the reality; aindriyakam—knowledge derived from the senses; tadvat—similarly; artha—reality; vikalpitam—speculated or doubtful.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Although one may consider the reflection of the sun from a mirror to be false, it has its factual existence.</p>
+<p>Accordingly, to prove by speculative knowledge that there is no reality would be extremely difficult.</p>
+<p><strong>PURPORT</strong></p>
+<p>The impersonalists try to prove that the varieties in the vision of the empiric philosopher are false.</p>
+<p>The impersonalist philosophy, vivarta-vada, generally cites the acceptance of a rope to be a snake as an example of this fact.</p>
+<p>According to this example, the varieties within our vision are false, just as a rope seen to be a snake is false.</p>
+<p>The Vaisnavas say, however, that although the idea that the rope is a snake is false, the snake is not false; one has experience of a snake in reality, and therefore he knows that although the representation of the rope as a snake is false or illusory, there is a snake in reality.</p>
+<p>Similarly, this world, which is full of varieties, is not false; it is a reflection of the reality in the Vaikuntha world, the spiritual world.</p>
+<p>The reflection of the sun from a mirror is nothing but light within darkness.</p>
+<p>Thus although it is not exactly sunlight, without the sunlight the reflection would be impossible.</p>
+<p>Similarly, the varieties of this world would be impossible unless there were a real prototype in the spiritual world.</p>
+<p>The Mayavadi philosopher cannot understand this, but a real philosopher must be convinced that light is not possible at all without a background of sunlight.</p>
+<p>Thus the jugglery of words used by the Mayavadi philosopher to prove that this material world is false may amaze inexperienced children, but a man with full knowledge knows perfectly well that there cannot be any existence without Krsna.</p>
+<p>Therefore a Vaisnava insists on the platform of somehow or other accepting Krsna (tasmat kenapy upayena manah krsne nivesayet).</p>
+<p>When we raise our unmixed faith to the lotus feet of Krsna, everything is revealed.</p>
+<p>Krsna also says in Bhagavad-gita (7.1):</p>
+<p>mayy asakta-manah partha</p>
+<p>yogam yunjan mad-asrayah</p>
+<p>asamsayam samagram mam</p>
+<p>yatha jnasyasi tac chrnu</p>
+<p>Now hear, O son of Prtha (Arjuna), how by practicing yoga in full consciousness of Me, with mind attached to Me, you can know Me in full, free from doubt Simply by raising one’s staunch faith in Krsna and His instructions, one can understand reality without a doubt (asamsayam samagram mam).</p>
+<p>One can understand how Krsna’s material and spiritual energies are working and how He is present everywhere although everything is not Him.</p>
+<p>This philosophy of acintya-bhedabheda, inconceivable oneness and difference, is the perfect philosophy enunciated by the Vaisnavas.</p>
+<p>Everything is an emanation from Krsna, but it is not that everything must therefore be worshiped.</p>
+<p>Speculative knowledge cannot give us reality as it is, but will continue to be nefariously imperfect.</p>
+<p>So-called scientists try to prove that there is no God and that everything is happening because of the laws of nature, but this is imperfect knowledge because nothing can work unless directed by the Supreme Personality of Godhead.</p>
+<p>This is explained in Bhagavad-gita (9.10) by the Lord Himself:</p>
+<p>mayadhyaksena prakrtih</p>
+<p>suyate sacaracaram</p>
+<p>hetunanena kaunteya</p>
+<p>jagad viparivartate</p>
+<p>This material nature is working under My direction, O son of Kunti, and it is producing all moving and unmoving beings.</p>
+<p>By its rule this manifestation is created and annihilated again and again In this regard, Srila Madhvacarya gives this note: durghatatvad arthatvena paramesvarenaiva kalpitam.</p>
+<p>The background of everything is the Supreme Personality of Godhead, Vasudeva.</p>
+<p>Vasudevah sarvam iti sa mahatma sudurlabhah (Bg.7.19).</p>
+<p>This can be understood by a mahatma who is perfect in knowledge.</p>
+<p>Such a mahatma is rarely seen.</p>
+
+
+
+<p><strong>7.15.59</strong></p>
+<p>ksity-adinam iharthanam</p>
+<p>chaya na katamapi hi</p>
+<p>na sanghato vikaro ’pi</p>
+<p>na prthan nanvito mrsa</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ksiti-adinam—of the five elements, beginning with the earth; iha—in this world; arthanam—of those five elements; chaya—shadow; na—neither; katama—which of them; api—indeed; hi—certainly; na—nor; sanghatah—combination; vikarah—transformation; api—although; na prthak—nor separated; na anvitah—nor inherent in; mrsa—all these theories are without substance.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In this world there are five elements—namely earth, water, fire, air and ether—but the body is not a reflection of them, nor a combination or transformation of them.</p>
+<p>Because the body and its ingredients are neither distinct nor amalgamated, all such theories are insubstantial.</p>
+<p><strong>PURPORT</strong></p>
+<p>A forest is certainly a transformation of the earth, but one tree does not depend on another tree; if one is cut down, this does not mean that the others are cut down.</p>
+<p>Therefore, the forest is neither a combination nor a transformation of the trees.</p>
+<p>The best explanation is given by Krsna Himself:</p>
+<p>maya tatam idam sarvam</p>
+<p>jagad avyakta-murtina</p>
+<p>mat-sthani sarva-bhutani</p>
+<p>na caham tesv avasthitah</p>
+<p>By Me, in My unmanifested form, this entire universe is pervaded.</p>
+<p>All beings are in Me, but I am not in them (Bg.9.4) Everything is an expansion of Krsna’s energy.</p>
+<p>As it is said, parasya saktir vividhaiva sruyate: the Lord has multi-energies, which are expressed in different ways.</p>
+<p>The energies are existing, and the Supreme Personality of Godhead also exists simultaneously; because everything is His energy, He is simultaneously one with everything and different from everything.</p>
+<p>Thus our speculative theories that atma, the living force, is a combination of matter, that matter is a transformation of the soul, or that the body is part of the soul are all insubstantial.</p>
+<p>Since all the Lord’s energies are simultaneously existing, one must understand the Supreme Personality of Godhead.</p>
+<p>But although He is everything, He is not present in everything.</p>
+<p>The Lord must be worshiped in His original form as Krsna.</p>
+<p>He can also present Himself in any one of His various expanded energies.</p>
+<p>When we worship the Deity of the Lord in the temple, the Deity appears to be stone or wood.</p>
+<p>Now, because the Supreme Lord does not have a material body, He is not stone or wood, yet stone and wood are not different from Him.</p>
+<p>Thus by worshiping stone or wood we get no result, but when the stone and wood are represented in the Lord’s original form, by worshiping the Deity we get the desired result.</p>
+<p>This is supported by Sri Caitanya Mahaprabhu’s philosophy, acintya-bhedabheda, which explains how the Lord can present Himself everywhere and anywhere in a form of His energy to accept service from the devotee.</p>
+
+
+
+<p><strong>7.15.60</strong></p>
+<p>dhatavo ’vayavitvac ca</p>
+<p>tan-matravayavair vina</p>
+<p>na syur hy asaty avayaviny</p>
+<p>asann avayavo ’ntatah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dhatavah—the five elements; avayavitvat—being the cause of the bodily conception; ca—and; tat-matra—the sense objects (sound, taste, touch, etc.); avayavaih—the subtle parts; vina—without; na—not; syuh—can exist; hi—indeed; asati—unreal; avayavini—in the formation of the body; asan—not existing; avayavah—the part of the body; antatah—at the end.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Because the body is formed of the five elements, it cannot exist without the subtle sense objects.</p>
+<p>Therefore, since the body is false, the sense objects are also naturally false or temporary.</p>
+
+
+
+<p><strong>7.15.61</strong></p>
+<p>syat sadrsya-bhramas tavad</p>
+<p>vikalpe sati vastunah</p>
+<p>jagrat-svapau yatha svapne</p>
+<p>tatha vidhi-nisedhata</p>
+<p><strong>SYNONYMS</strong></p>
+<p>syat—it so becomes; sadrsya—similarity; bhramah—mistake; tavat—as long as; vikalpe—in separation; sati—the part; vastunah—from the substance; jagrat—waking; svapau—sleeping; yatha—as; svapne—in a dream; tatha—similarly; vidhi-nisedhata—the regulative principles, consisting of injunctions and prohibitions.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When a substance and its parts are separated, the acceptance of similarity between one and the other is called illusion.</p>
+<p>While dreaming, one creates a separation between the existences called wakefulness and sleep.</p>
+<p>It is in such a state of mind that the regulative principles of the scriptures, consisting of injunctions and prohibitions, are recommended.</p>
+<p><strong>PURPORT</strong></p>
+<p>In material existence there are many regulative principles and formalities.</p>
+<p>If material existence is temporary or false, this does not mean that the spiritual world, although similar, is also false.</p>
+<p>That one’s material body is false or temporary does not mean that the body of the Supreme Lord is also false or temporary.</p>
+<p>The spiritual world is real, and the material world is similar to it.</p>
+<p>For example, in the desert we sometimes find a mirage, but although the water in a mirage is false, this does not mean that there is no water in reality; water exists, but not in the desert.</p>
+<p>Similarly, nothing real is in this material world, but reality is in the spiritual world.</p>
+<p>The Lord’s form and His abode—Goloka Vrndavana in the Vaikuntha planets—are eternal realities.</p>
+<p>From Bhagavad-gita we understand that there is another prakrti, or nature, which is real.</p>
+<p>This is explained by the Lord Himself in the Eighth Chapter of Bhagavad-gita (8.19–21):</p>
+<p>bhuta-gramah sa evayam</p>
+<p>bhutva bhutva praliyate</p>
+<p>ratry-agame ’vasah partha</p>
+<p>prabhavaty ahar-agame</p>
+<p>paras tasmat tu bhavo ’nyo</p>
+<p>’vyakto ’vyaktat sanatanah</p>
+<p>yah sa sarvesu bhutesu</p>
+<p>nasyatsu na vinasyati</p>
+<p>avyakto ’ksara ity uktas</p>
+<p>tam ahuh paramam gatim</p>
+<p>yam prapya na nivartante</p>
+<p>tad dhama paramam mama</p>
+<p>Again and again the day of Brahma comes, and all living beings are active; and again the night falls, O Partha, and they are helplessly dissolved.</p>
+<p>Yet there is another nature, which is eternal and is transcendental to this manifested and unmanifested matter.</p>
+<p>It is supreme and is never annihilated.</p>
+<p>When all in this world is annihilated, that part remains as it is.</p>
+<p>That supreme abode is called unmanifested and infallible, and it is the supreme destination.</p>
+<p>When one goes there, he never comes back.</p>
+<p>That is My supreme abode The material world is a reflection of the spiritual world.</p>
+<p>The material world is temporary or false, but the spiritual world is an eternal reality.</p>
+
+
+
+<p><strong>7.15.62</strong></p>
+<p>bhavadvaitam kriyadvaitam</p>
+<p>dravyadvaitam tathatmanah</p>
+<p>vartayan svanubhutyeha</p>
+<p>trin svapnan dhunute munih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>bhava-advaitam—oneness in one’s conception of life; kriya-advaitam—oneness in activities; dravya-advaitam—oneness in different paraphernalia; tatha—as well as; atmanah—of the soul; vartayan—considering; sva—one’s own; anubhutya—according to realization; iha—in this material world; trin—the three; svapnan—living conditions (wakefulness, dreaming and sleep); dhunute—gives up; munih—the philosopher or speculator.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>After considering the oneness of existence, activity and paraphernalia and after realizing the self to be different from all actions and reactions, the mental speculator (muni), according to his own realization, gives up the three states of wakefulness, dreaming and sleep.</p>
+<p><strong>PURPORT</strong></p>
+<p>The three words bhavadvaita, kriyadvaita and dravyadvaita are explained in the following verses.</p>
+<p>However, one has to give up all the nonduality of philosophical life in the material world and come to the actual life of reality in the spiritual world in order to attain perfection.</p>
+
+
+
+<p><strong>7.15.63</strong></p>
+<p>karya-karana-vastv-aikya-</p>
+<p>darsanam pata-tantuvat</p>
+<p>avastutvad vikalpasya</p>
+<p>bhavadvaitam tad ucyate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>karya—the result or effect; karana—the cause; vastu—substance; aikya—oneness; darsanam—observation; pata—the cloth; tantu—the thread; vat—like; avastutvat—because of being ultimately unreality; vikalpasya—of differentiation; bhava-advaitam—the conception of oneness; tat ucyate—that is called.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When one understands that result and cause are one and that duality is ultimately unreal, like the idea that the threads of a cloth are different from the cloth itself, one reaches the conception of oneness called bhavadvaita.</p>
+
+
+
+<p><strong>7.15.64</strong></p>
+<p>yad brahmani pare saksat</p>
+<p>sarva-karma-samarpanam</p>
+<p>mano-vak-tanubhih partha</p>
+<p>kriyadvaitam tad ucyate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yat—that which; brahmani—in the Supreme Brahman; pare—transcendental; saksat—directly; sarva—of all; karma—activities; samarpanam—dedication; manah—by the mind; vak—the words; tanubhih—and the body; partha—O Maharaja Yudhisthira; kriya-advaitam—oneness in activities; tat ucyate—it is called.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear Yudhisthira (Partha), when all the activities one performs with his mind, words and body are dedicated directly to the service of the Supreme Personality of Godhead, one reaches oneness of activities, called kriyadvaita.</p>
+<p><strong>PURPORT</strong></p>
+<p>The Krsna consciousness movement is teaching people how to come to the stage of dedicating everything to the service of the Supreme Personality of Godhead.</p>
+<p>Krsna says in Bhagavad-gita (9.27):</p>
+<p>yat karosi yad asnasi</p>
+<p>yaj juhosi dadasi yat</p>
+<p>yat tapasyasi kaunteya</p>
+<p>tat kurusva mad-arpanam</p>
+<p>O son of Kunti, all that you do, all that you eat, all that you offer and give away, as well as all austerities that you may perform, should be done as an offering unto Me If whatever we do, whatever we eat, whatever we think and whatever we plan is for the advancement of the Krsna consciousness movement, this is oneness.</p>
+<p>There is no difference between chanting for Krsna consciousness and working for Krsna consciousness.</p>
+<p>On the transcendental platform, they are one.</p>
+<p>But we must be guided by the spiritual master about this oneness; we should not manufacture our own oneness.</p>
+
+
+
+<p><strong>7.15.65</strong></p>
+<p>atma-jaya-sutadinam</p>
+<p>anyesam sarva-dehinam</p>
+<p>yat svartha-kamayor aikyam</p>
+<p>dravyadvaitam tad ucyate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atma—of one’s self; jaya—wife; suta-adinam—and children; anyesam—of one’s relatives, etc.; sarva-dehinam—of all other living entities; yat—whatever; sva-artha-kamayoh—of one’s ultimate goal and benefit; aikyam—oneness; dravya-advaitam—oneness of interest; tat ucyate—it is called.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When the ultimate goal and interest of one’s self, one’s wife, one’s children, one’s relatives and all other embodied living beings is one, this is called dravyadvaita, or oneness of interest.</p>
+<p><strong>PURPORT</strong></p>
+<p>The actual interest of all living entities—indeed, the goal of life—is to return home, back to Godhead.</p>
+<p>This is the interest of one’s own self, one’s wife, one’s children, one’s disciples and one’s friends, relatives, countrymen and all humanity.</p>
+<p>The Krsna consciousness movement can give directions for management by which everyone can partake in Krsna conscious activities and reach the ultimate goal, which is known as svartha-gatim.</p>
+<p>This objective of everyone’s interest is Visnu, but because people do not know this (na te viduh svartha-gatim hi visnum (SB 7.5.31)), they are making various plans by which to fulfill so many concocted interests in life.</p>
+<p>The Krsna consciousness movement is trying to bring everyone to the highest interest.</p>
+<p>The process may be differently named, but if the aim is one, people should follow it to achieve the ultimate goal in life.</p>
+<p>Unfortunately, people are thinking of different interests, and blind leaders are misleading them.</p>
+<p>Everyone is trying to reach the goal of complete happiness materially; because people do not know what complete happiness is, they are materially diverted toward different interests.</p>
+
+
+
+<p><strong>7.15.66</strong></p>
+<p>yad yasya vanisiddham syad</p>
+<p>yena yatra yato nrpa</p>
+<p>sa teneheta karyani</p>
+<p>naro nanyair anapadi</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yat—whatever; yasya—of a man; va—either; anisiddham—not forbidden; syat—it is so; yena—by which means; yatra—in place and time; yatah—from which; nrpa—O King; sah—such a person; tena—by such a process; iheta—should perform; karyani—prescribed activities; narah—a person; na—not; anyaih—by other ways; anapadi—in the absence of danger.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In normal conditions, in the absence of danger, O King Yudhisthira, a man should perform his prescribed activities according to his status of life with the things, endeavors, process and living place that are not forbidden for him, and not by any other means.</p>
+<p><strong>PURPORT</strong></p>
+<p>This instruction is given for men in all statuses of life.</p>
+<p>Generally society is divided into brahmanas, ksatriyas, vaisyas, sudras, brahmacaris, vanaprasthas, sannyasis and grhasthas.</p>
+<p>Everyone must act according to his position and try to please the Supreme Personality of Godhead, for that will make one’s life successful.</p>
+<p>This was instructed in Naimisaranya:</p>
+<p>atah pumbhir dvija-srestha</p>
+<p>varnasrama-vibhagasah</p>
+<p>svanusthitasya dharmasya</p>
+<p>samsiddhir hari-tosanam</p>
+<p>O best among the twice-born, it is therefore concluded that the highest perfection one can achieve, by discharging his prescribed duties (dharma) according to caste divisions and order of life, is to please the Lord Hari (Bhag.1.2.13) Everyone should act according to his occupational duties just to please the Supreme Personality of Godhead.</p>
+<p>Then everyone will be happy.</p>
+
+
+
+<p><strong>7.15.67</strong></p>
+<p>etair anyais ca vedoktair</p>
+<p>vartamanah sva-karmabhih</p>
+<p>grhe ’py asya gatim yayad</p>
+<p>rajams tad-bhakti-bhan narah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>etaih—by these ways; anyaih—by other ways; ca—and; veda-uktaih—as directed in the Vedic literatures; vartamanah—abiding; sva-karmabhih—by one’s occupational duties; grhe api—even at home; asya—of Lord Krsna; gatim—destination; yayat—can reach; rajan—O King; tat-bhakti-bhak—who renders devotional service unto the Supreme Personality of Godhead; narah—any person.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King, one should perform his occupational duties according to these instructions, as well as other instructions given in the Vedic literature, just to remain a devotee of Lord Krsna.</p>
+<p>Thus, even while at home, one will be able to reach the destination.</p>
+<p><strong>PURPORT</strong></p>
+<p>The ultimate goal of life is Visnu, Krsna.</p>
+<p>Therefore, either by Vedic regulative principles or by materialistic activities, if one tries to reach the destination of Krsna, that is the perfection of life.</p>
+<p>Krsna should be the target; everyone should try to reach Krsna, from any position of life.</p>
+<p>Krsna accepts service from anyone.</p>
+<p>The Lord says in Bhagavad-gita (9.32):</p>
+<p>mam hi partha vyapasritya</p>
+<p>ye ’pi syuh papa-yonayah</p>
+<p>striyo vaisyas tatha sudras</p>
+<p>te ’pi yanti param gatim</p>
+<p>O son of Prtha, those who take shelter in Me, though they be of lower birth—women, vaisyas (merchants), as well as sudras (workers)—can approach the supreme destination It does not matter what one’s position is; if one aims at reaching Krsna by performing his occupational duty under the direction of the spiritual master, his life is successful.</p>
+<p>It is not that only sannyasis, vanaprasthas and brahmacaris can reach Krsna.</p>
+<p>A grhastha, a householder, can also reach Krsna, provided he becomes a pure devotee without material desires.</p>
+<p>An example of this is cited in the next verse.</p>
+
+
+
+<p><strong>7.15.68</strong></p>
+<p>yatha hi yuyam nrpa-deva dustyajad</p>
+<p>apad-ganad uttaratatmanah prabhoh</p>
+<p>yat-pada-pankeruha-sevaya bhavan</p>
+<p>aharasin nirjita-dig-gajah kratun</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yatha—as; hi—indeed; yuyam—all of you (Pandavas); nrpa-deva—O lord of the kings, human beings and demigods; dustyajat—insurmountable; apat—dangerous conditions; ganat—from all; uttarata—escaped; atmanah—own; prabhoh—of the Lord; yat-pada-pankeruha—whose lotus feet; sevaya—by serving; bhavan—yourself; aharasit—performed; nirjita—defeating; dik-gajah—the most powerful enemies, who were like elephants; kratun—ritualistic ceremonies.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King Yudhisthira, because of your service to the Supreme Lord, all of you Pandavas defeated the greatest dangers posed by numerous kings and demigods.</p>
+<p>By serving the lotus feet of Krsna, you conquered great enemies, who were like elephants, and thus you collected ingredients for sacrifice.</p>
+<p>By His grace, may you be delivered from material involvement.</p>
+<p><strong>PURPORT</strong></p>
+<p>Placing himself as an ordinary householder, Maharaja Yudhisthira inquired from Narada Muni how a grha-mudha-dhi, a person who is entangled in household life and who thus continues to remain a fool, can be delivered.</p>
+<p>Narada Muni encouraged Maharaja Yudhisthira by saying, You are already on the safe side because you, along with your entire family, have become a pure devotee of Krsna By Krsna’s grace, the Pandavas conquered in the Battle of Kuruksetra and were saved from many dangers posed not only by kings but sometimes even by the demigods.</p>
+<p>Thus they are a practical example of how to live in security and safety by the grace of Krsna.</p>
+<p>Everyone should follow the example of the Pandavas, who showed how to be saved by the grace of Krsna.</p>
+<p>Our Krsna consciousness movement is intended to teach how everyone can live peacefully in this material world and at the end of life return home, back to Godhead.</p>
+<p>In the material world there are always dangers at every step (padam padam yad vipadam na tesam).</p>
+<p>Nonetheless, if one takes shelter of Krsna without hesitation and keeps under the shelter of Krsna, he can easily cross the ocean of nescience.</p>
+<p>Samasrita ye pada-pallava-plavam mahat-padam punya-yaso murareh.</p>
+<p>To the devotee, this great ocean of nescience becomes like a puddle of water in the hoofprint of a cow.</p>
+<p>A pure devotee, without embarrassing himself by trying for elevation in so many ways, stays in the safest position as a servant of Krsna, and thus his life is eternally safe without a doubt.</p>
+
+
+
+<p><strong>7.15.69</strong></p>
+<p>aham purabhavam kascid</p>
+<p>gandharva upabarhanah</p>
+<p>namnatite maha-kalpe</p>
+<p>gandharvanam susammatah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>aham—I myself; pura—formerly; abhavam—existed as; kascit gandharvah—one of the denizens of Gandharvaloka; upabarhanah—Upabarhana; namna—by the name; atite—long, long ago; maha-kalpe—in a life of Brahma, which is known as a maha-kalpa; gandharvanam—among the Gandharvas; su-sammatah—a very respectable person.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Long, long ago, in another maha-kalpa (millennium of Brahma), I existed as the Gandharva known as Upabarhana.</p>
+<p>I was very respected by the other Gandharvas.</p>
+<p><strong>PURPORT</strong></p>
+<p>Srila Narada Muni is giving a practical example from his past life.</p>
+<p>Formerly, during the previous lifetime of Lord Brahma, Narada Muni was one of the denizens of Gandharvaloka, but unfortunately, as will be explained, he fell from his exalted position in Gandharvaloka, where the inhabitants are extremely beautiful and expert in singing, to become a sudra.</p>
+<p>Nonetheless, because of his association with devotees, he became more fortunate than he was in Gandharvaloka.</p>
+<p>Even though cursed by the prajapatis to become a sudra, in his next life he became the son of Lord Brahma.</p>
+<p>The word maha-kalpe is described by Srila Madhvacarya as atita-brahma-kalpe.</p>
+<p>Brahma dies at the end of a life of many millions of years.</p>
+<p>The day of Brahma is described in Bhagavad-gita (8.17):</p>
+<p>sahasra-yuga-paryantam</p>
+<p>ahar yad brahmano viduh</p>
+<p>ratrim yuga-sahasrantam</p>
+<p>te ’ho-ratra-vido janah</p>
+<p>By human calculation, a thousand ages taken together is the duration of Brahma’s one day.</p>
+<p>And such also is the duration of his night Bhagavan Sri Krsna can remember incidents from millions of years ago.</p>
+<p>Similarly, His pure devotee like Narada Muni can also remember incidents from a past life millions and millions of years ago.</p>
+
+
+
+<p><strong>7.15.70</strong></p>
+<p>rupa-pesala-madhurya-</p>
+<p>saugandhya-priya-darsanah</p>
+<p>strinam priyatamo nityam</p>
+<p>mattah sva-pura-lampatah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>rupa—beauty; pesala—formation of the body; madhurya—attractiveness; saugandhya—very fragrant, being decorated with various flower garlands and sandalwood pulp; priya-darsanah—very beautiful to see; strinam—of the women; priya-tamah—naturally attracted; nityam—daily; mattah—proud like a madman; sva-pura—in his own city; lampatah—very much attached to women because of lusty desires.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>I had a beautiful face and a pleasing, attractive bodily structure.</p>
+<p>Decorated with flower garlands and sandalwood pulp, I was most pleasing to the women of my city.</p>
+<p>Thus I was bewildered, always feeling lusty desires.</p>
+<p><strong>PURPORT</strong></p>
+<p>From the description of the beauty of Narada Muni when he was one of the denizens of Gandharvaloka, it appears that everyone on that planet is extremely beautiful and pleasing and always decorated with flowers and sandalwood.</p>
+<p>Upabarhana was Narada Muni’s name previously.</p>
+<p>Upabarhana was specifically expert in decorating himself to attract the attention of women, and thus he became a playboy, as described in the next verse.</p>
+<p>To be a playboy in this life is unfortunate because too much attraction to women will lead one to fall into the association of sudras, who can easily take advantage of mingling with women without restriction.</p>
+<p>In this present age of Kali, when people are mandah sumanda-matayah—very bad because of a sudra mentality—such free mingling is prominent.</p>
+<p>Among the higher classes—brahmana, ksatriya and vaisya—there is no chance for men to mingle with women freely, but in the sudra community such mingling is open.</p>
+<p>Because there is no cultural education in this age of Kali, everyone is spiritually untrained, and everyone is therefore to be considered sudra (asuddhah sudra-kalpa hi brahmanah kali-sambhavah).</p>
+<p>When all the people become sudras, certainly they are very bad (mandah sumanda-matayah).</p>
+<p>Thus they manufacture their own way of life, with the result that they gradually become unfortunate (manda-bhagyah), and furthermore they are always disturbed by various circumstances.</p>
+
+
+
+<p><strong>7.15.71</strong></p>
+<p>ekada deva-satre tu</p>
+<p>gandharvapsarasam ganah</p>
+<p>upahuta visva-srgbhir</p>
+<p>hari-gathopagayane</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ekada—once upon a time; deva-satre—in an assembly of the demigods; tu—indeed; gandharva—of the inhabitants of Gandharvaloka; apsarasam—and the inhabitants of Apsaroloka; ganah—all; upahutah—were invited; visva-srgbhih—by the great demigods known as the prajapatis; hari-gatha-upagayane—on an occasion of kirtana for glorifying the Supreme Lord.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Once there was a sankirtana festival to glorify the Supreme Lord in an assembly of the demigods, and the Gandharvas and Apsaras were invited by the prajapatis to take part in it.</p>
+<p><strong>PURPORT</strong></p>
+<p>Sankirtana means chanting of the holy name of the Lord.</p>
+<p>The Hare Krsna movement is not a new movement as people sometimes mistakenly think.</p>
+<p>The Hare Krsna movement is present in every millennium of Lord Brahma’s life, and the holy name is chanted in all the higher planetary systems, including Brahmaloka and Candraloka, not to speak of Gandharvaloka and Apsaroloka.</p>
+<p>The sankirtana movement that was started in this world five hundred years ago by Sri Caitanya Mahaprabhu is therefore not a new movement.</p>
+<p>Sometimes, because of our bad luck, this movement is stopped, but Sri Caitanya Mahaprabhu and His servants again start the movement for the benefit of the entire word or, indeed, the entire universe.</p>
+
+
+
+<p><strong>7.15.72</strong></p>
+<p>aham ca gayams tad-vidvan</p>
+<p>stribhih parivrto gatah</p>
+<p>jnatva visva-srjas tan me</p>
+<p>helanam sepur ojasa</p>
+<p>yahi tvam sudratam asu</p>
+<p>nasta-srih krta-helanah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>aham—I myself; ca—and; gayan—singing the glories of other demigods rather than those of the Lord; tat-vidvan—knowing very well the art of singing; stribhih—by women; parivrtah—being surrounded; gatah—went there; jnatva—knowing well; visva-srjah—the prajapatis, to whom the management of universal affairs was entrusted; tat—the attitude of my singing; me—my; helanam—negligence; sepuh—cursed; ojasa—with great force; yahi—become; tvam—you; sudratam—a sudra; asu—immediately; nasta—devoid of; srih—beauty; krta-helanah—because of transgressing the etiquette.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Narada Muni continued: Being invited to that festival, I also joined, and, surrounded by women, I began musically singing the glories of the demigods.</p>
+<p>Because of this, the prajapatis, the great demigods in charge of the affairs of the universe, forcefully cursed me with these words: Because you have committed an offense, may you immediately become a sudra, devoid of beauty</p>
+<p><strong>PURPORT</strong></p>
+<p>As far as kirtana is concerned, the sastras say, sravanam kirtanam visnoh: (SB 7.5.23) one should chant the glories of the Supreme Lord and the holy name of the Supreme Lord.</p>
+<p>This is clearly stated.</p>
+<p>Sravanam kirtanam visnoh: one should chant about and glorify Lord Visnu, not any demigod.</p>
+<p>Unfortunately, there are foolish persons who invent some process of kirtana on the basis of a demigod’s name.</p>
+<p>This is an offense.</p>
+<p>Kirtana means glorifying the Supreme Lord, not any demigod.</p>
+<p>Sometimes people invent kali-kirtana or siva-kirtana, and even big sannyasis in the Mayavada school say that one may chant any name and still get the same result.</p>
+<p>But here we find that millions and millions of years ago, when Narada Muni was a Gandharva, he neglected the order to glorify the Lord, and being mad in the association of women, he began to chant otherwise.</p>
+<p>Thus he was cursed to become a sudra.</p>
+<p>His first offense was that he went to join the sankirtana party in the company of lusty women, and another offense was that he considered ordinary songs, like cinema songs and other such songs, to be equal to sankirtana.</p>
+<p>For this offense he was punished with becoming a sudra.</p>
+
+
+
+<p><strong>7.15.73</strong></p>
+<p>tavad dasyam aham jajne</p>
+<p>tatrapi brahma-vadinam</p>
+<p>susrusayanusangena</p>
+<p>prapto ’ham brahma-putratam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tavat—since being cursed; dasyam—in the womb of a maidservant; aham—I; jajne—took birth; tatrapi—although (being a sudra); brahma-vadinam—unto persons well conversant with the Vedic knowledge; susrusaya—by rendering service; anusangena—simultaneously; praptah—obtained; aham—I; brahma-putratam—a birth as the son of Lord Brahma (in this life).</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Although I took birth as a sudra from the womb of a maidservant, I engaged in the service of Vaisnavas who were well-versed in Vedic knowledge.</p>
+<p>Consequently, in this life I got the opportunity to take birth as the son of Lord Brahma.</p>
+<p><strong>PURPORT</strong></p>
+<p>The Supreme Personality of Godhead says in Bhagavad-gita (9.32):</p>
+<p>mam hi partha vyapasritya</p>
+<p>ye ’pi syuh papa-yonayah</p>
+<p>striyo vaisyas tatha sudras</p>
+<p>te ’pi yanti param gatim</p>
+<p>O son of Prtha, those who take shelter in Me, though they be of lower birth—women, vaisyas (merchants), as well as sudras (workers)—can approach the supreme destination It doesn’t matter whether a person is born as a sudra, a woman or a vaisya; if he associates with devotees repeatedly or always (sadhu-sangena), he can be elevated to the highest perfection.</p>
+<p>Narada Muni is explaining this in relation to his own life.</p>
+<p>The sankirtana movement is important, for regardless of whether one is a sudra, vaisya, mleccha, yavana or whatever, if one associates with a pure devotee, follows his instructions and serves the pure devotee, his life is successful.</p>
+<p>This is bhakti.</p>
+<p>Anukulyena krsnanusilanam.</p>
+<p>Bhakti consists of serving Krsna and His devotees very favorably.</p>
+<p>Anyabhilasita-sunyam (Bhakti-rasamrta-sindhu 1.1.11).</p>
+<p>If one has no desire other than to serve Krsna and His devotee, then his life is successful.</p>
+<p>This is explained by Narada Muni through this practical example from his own life.</p>
+
+
+
+<p><strong>7.15.74</strong></p>
+<p>dharmas te grha-medhiyo</p>
+<p>varnitah papa-nasanah</p>
+<p>grhastho yena padavim</p>
+<p>anjasa nyasinam iyat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dharmah—that religious process; te—to you; grha-medhiyah—although attached to household life; varnitah—explained (by me); papa-nasanah—the destruction of sinful reactions; grhasthah—a person in household life; yena—by which; padavim—the position; anjasa—very easily; nyasinam—of those in the renounced order of life; iyat—can obtain.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The process of chanting the holy name of the Lord is so powerful that by this chanting even householders (grhasthas) can very easily gain the ultimate result achieved by persons in the renounced order.</p>
+<p>Maharaja Yudhisthira, I have now explained to you that process of religion.</p>
+<p><strong>PURPORT</strong></p>
+<p>This is a confirmation of the Krsna consciousness movement.</p>
+<p>Anyone who takes part in this movement, regardless of what he is, can gain the topmost result achieved by a perfect sannyasi, namely brahma jnana (spiritual knowledge).</p>
+<p>Even more important, he can advance in devotional service.</p>
+<p>Maharaja Yudhisthira thought that because he was a grhastha there was no hope of his being liberated, and therefore he asked Narada Muni how he could get out of material entanglement.</p>
+<p>But Narada Muni, citing a practical example from his own life, established that by associating with devotees and chanting the Hare Krsna mantra, any man in any condition of life can achieve the highest perfection without a doubt.</p>
+
+
+
+<p><strong>7.15.75</strong></p>
+<p>yuyam nr-loke bata bhuri-bhaga</p>
+<p>lokam punana munayo ’bhiyanti</p>
+<p>yesam grhan avasatiti saksad</p>
+<p>gudham param brahma manusya-lingam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yuyam—all of you Pandavas; nr-loke—in this material world; bata—indeed; bhuri-bhagah—extremely fortunate; lokam—all the planets of the universe; punanah—who can purify; munayah—great saintly persons; abhiyanti—come to visit (just like ordinary persons); yesam—of whom; grhan—the house of the Pandavas; avasati—resides; iti—thus; saksat—directly; gudham—very confidential; param—transcendental; brahma—the Parabrahman, Krsna; manusya-lingam—as if an ordinary human being.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear Maharaja Yudhisthira, you Pandavas are so very fortunate in this world that many, many great saints, who can purify all the planets of the universe, come to your house just like ordinary visitors.</p>
+<p>Furthermore, the Supreme Personality of Godhead, Krsna, is living confidentially with you in your house, just like your brother.</p>
+<p><strong>PURPORT</strong></p>
+<p>Here is a statement exalting a Vaisnava.</p>
+<p>In human society, a brahmana is the most respected person.</p>
+<p>A brahmana is one who can understand Brahman, the impersonal Brahman, but hardly ever can one understand the Supreme Personality of Godhead, who is described by Arjuna in Bhagavad-gita as param brahma.</p>
+<p>A brahmana may be extremely fortunate in having achieved brahma jnana, but the Pandavas were so exalted that the Parabrahman, the Supreme Personality of Godhead, was living in their house like an ordinary human being.</p>
+<p>The word bhuri-bhagah indicates that the Pandavas were in a still higher position than brahmacaris and brahmanas.</p>
+<p>In the following verses, Narada Muni repeatedly glorifies the position of the Pandavas.</p>
+
+
+
+<p><strong>7.15.76</strong></p>
+<p>sa va ayam brahma mahad-vimrgya-</p>
+<p>kaivalya-nirvana-sukhanubhutih</p>
+<p>priyah suhrd vah khalu matuleya</p>
+<p>atmarhaniyo vidhi-krd gurus ca</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—that Supreme Personality of Godhead; va—either; ayam—Krsna; brahma—the Supreme Brahman; mahat-vimrgya—sought by great, great saintly persons (devotees of Krsna); kaivalya-nirvana-sukha—of liberation and transcendental bliss; anubhutih—for the realization; priyah—very dear; suhrt—the well-wisher; vah—of all of you Pandavas; khalu—famous as; matuleyah—the son of your maternal uncle; atma—heart and soul; arhaniyah—the most worshipable person; vidhi-krt—giving direction; guruh—your spiritual master; ca—and.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>How wonderful it is that the Supreme Personality of Godhead, the Parabrahman, Krsna, who is sought by great, great sages for the sake of liberation and transcendental bliss, is acting as your best well-wisher, your friend, your cousin, your heart and soul, your worshipable director, and your spiritual master.</p>
+<p><strong>PURPORT</strong></p>
+<p>Krsna can become the director and spiritual master of anyone who is serious about getting the mercy of Krsna.</p>
+<p>The Lord sends the spiritual master to train a devotee, and when the devotee is advanced, the Lord acts as the spiritual master within his heart tesam satata-yuktanam</p>
+<p>bhajatam priti-purvakam</p>
+<p>dadami buddhi-yogam tam</p>
+<p>yena mam upayanti te</p>
+<p>(Bg.10.10)</p>
+<p>To those who are constantly devoted and worship Me with love, I give the understanding by which they can come to Me Krsna does not become the direct spiritual master unless one is fully trained by His representative spiritual master.</p>
+<p>Therefore, as we have already discussed, the Lord’s representative spiritual master should not be considered an ordinary human being.</p>
+<p>The representative spiritual master never gives any false knowledge to his disciple, but only perfect knowledge.</p>
+<p>Thus he is the representative of Krsna.</p>
+<p>Krsna helps as the guru, or spiritual master, from within and from without.</p>
+<p>From without He helps the devotee as His representative, and from within He talks personally with the pure devotee and gives him instructions by which he may return home, back to Godhead.</p>
+
+
+
+<p><strong>7.15.77</strong></p>
+<p>na yasya saksad bhava-padmajadibhi</p>
+<p>rupam dhiya vastutayopavarnitam</p>
+<p>maunena bhaktyopasamena pujitah</p>
+<p>prasidatam esa sa satvatam patih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—not; yasya—of whom (Lord Sri Krsna); saksat—directly; bhava—by Lord Siva; padma-ja-adibhih—Lord Brahma and others; rupam—the form; dhiya—by meditation; vastutaya—factually; upavarnitam—could be explained; maunena—by silence; bhaktya—by devotional service; upasamena—by finishing all material activities; pujitah—one who is so worshiped; prasidatam—may be pleased with us; esah—this; sah—the same Personality of Godhead; satvatam—of the devotees; patih—who is the maintainer, master and guide.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Present here now is the same Supreme Personality of Godhead whose true form cannot be understood even by such great personalities as Lord Brahma and Lord Siva.</p>
+<p>He is realized by devotees because of their unflinching surrender.</p>
+<p>May that same Personality of Godhead, who is the maintainer of His devotees and who is worshiped by silence, by devotional service and by cessation of material activities, be pleased with us.</p>
+<p><strong>PURPORT</strong></p>
+<p>Lord Krsna is not properly understood even by such exalted personalities as Lord Siva and Lord Brahma, what to speak of ordinary men, but by His causeless mercy He bestows the benediction of devotion upon His devotees, who can thus understand Krsna as He is.</p>
+<p>Bhaktya mam abhijanati yavan yas casmi tattvatah (Bg.18.55).</p>
+<p>No one within this universe can understand Krsna in truth, but if one engages in devotional service one can understand Him perfectly well.</p>
+<p>This is also confirmed by the Lord in the Seventh Chapter of Bhagavad-gita (7.1):</p>
+<p>mayy asakta-manah partha</p>
+<p>yogam yunjan mad-asrayah</p>
+<p>asamsayam samagram mam</p>
+<p>yatha jnasyasi tac chrnu</p>
+<p>Now, hear, O son of Prtha (Arjuna), how by practicing yoga in full consciousness of Me, with mind attached to Me, you can know Me in full, free from doubt Lord Krsna Himself teaches how one can understand Him perfectly well, without a doubt.</p>
+<p>Not only the Pandavas but everyone who sincerely accepts the instructions of Krsna can understand the Supreme Personality of Godhead as He is.</p>
+<p>After instructing Yudhisthira Maharaja, Narada Muni prays for the Lord’s blessings that He be pleased with everyone and that everyone become perfect in God consciousness and return home, back to Godhead.</p>
+
+
+
+<p><strong>7.15.78</strong></p>
+<p>sri-suka uvaca</p>
+<p>iti devarsina proktam</p>
+<p>nisamya bharatarsabhah</p>
+<p>pujayam asa supritah</p>
+<p>krsnam ca prema-vihvalah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-sukah uvaca—Sri Sukadeva Gosvami said; iti—thus; deva-rsina—by the great saint (Narada Muni); proktam—described; nisamya—hearing; bharata-rsabhah—the best of the descendants in Bharata Maharaja’s dynasty, namely Maharaja Yudhisthira; pujayam asa—worshiped; su-pritah—being extremely pleased; krsnam—unto Lord Krsna; ca—also; prema-vihvalah—in the ecstasy of love of Krsna.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sri Sukadeva Gosvami said: Maharaja Yudhisthira, the best member of the Bharata dynasty, thus learned everything from the descriptions of Narada Muni.</p>
+<p>After hearing these instructions, he felt great pleasure from within his heart, and in great ecstasy, love and affection, he worshiped Lord Krsna.</p>
+<p><strong>PURPORT</strong></p>
+<p>It is natural that when someone belonging to one’s family circle is understood to be very great, one becomes ecstatic in love, thinking, Oh, such a great personality is our relative When Sri Krsna, who was already known to the Pandavas, was further described by Narada Muni to be the Supreme Personality of Godhead, naturally the Pandavas were amazed, thinking, The Supreme Personality of Godhead is with us as our cousin Certainly their ecstasy was extraordinary.</p>
+
+
+
+<p><strong>7.15.79</strong></p>
+<p>krsna-parthav upamantrya</p>
+<p>pujitah prayayau munih</p>
+<p>srutva krsnam param brahma</p>
+<p>parthah parama-vismitah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>krsna—Lord Krsna; parthau—and Maharaja Yudhisthira; upamantrya—bidding farewell; pujitah—being worshiped by them; prayayau—left (that place); munih—Narada Muni; srutva—after hearing; krsnam—about Krsna; param brahma—as the Supreme Personality of Godhead; parthah—Maharaja Yudhisthira; parama-vismitah—became most amazed.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Narada Muni, being worshiped by Krsna and Maharaja Yudhisthira, bade them farewell and went away.</p>
+<p>Yudhisthira Maharaja, having heard that Krsna, his cousin, is the Supreme Personality of Godhead, was struck with wonder.</p>
+<p><strong>PURPORT</strong></p>
+<p>After hearing the conversation between Narada and Yudhisthira, if one still has any doubts about Krsna’s being the Supreme Personality of Godhead, one should immediately give them up.</p>
+<p>Asamsayam samagram.</p>
+<p>Without any doubt and without any defect, one should understand Krsna to be the Supreme Personality of Godhead and thus surrender at His lotus feet.</p>
+<p>Ordinary persons do not do this, even after hearing all the Vedas, but if one is fortunate, although it may be even after many, many births, he comes to this conclusion (bahunam janmanam ante jnanavan mam prapadyate (Bg.7.19)).</p>
+
+
+
+<p><strong>7.15.80</strong></p>
+<p>iti daksayaninam te</p>
+<p>prthag vamsah prakirtitah</p>
+<p>devasura-manusyadya</p>
+<p>loka yatra caracarah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>iti—thus; daksayaninam—of the daughters of Maharaja Daksa, like Aditi and Diti; te—to you; prthak—separately; vamsah—the dynasties; prakirtitah—described (by me); deva—the demigods; asura—demons; manusya—and human beings; adyah—and so on; lokah—all the planets within the universe; yatra—wherein; cara-acarah—moving and nonmoving living entities.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>On all the planets within this universe, the varieties of living entities, moving and nonmoving, including the demigods, demons and human beings, were all generated from the daughters of Maharaja Daksa.</p>
+<p>I have now described them and their different dynasties.</p>
+<p>Thus we may happily chant Hare Krsna, Hare Krsna, Krsna Krsna, Hare Hare/ Hare Rama, Hare Rama, Rama Rama, Hare Hare.</p>
+<p>END OF THE SEVENTH CANTO</p>
+
+
+</article></body></html>

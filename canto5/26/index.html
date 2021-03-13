@@ -1,155 +1,42 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>A Description of the Hellish Planets - A Description of the Hellish Planets</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">A Description of the Hellish Planets</a></li><li class="affix"><a href="5.26.2.html">5.26.2</a></li><li class="affix"><a href="5.26.3.html">5.26.3</a></li><li class="affix"><a href="5.26.4.html">5.26.4</a></li><li class="affix"><a href="5.26.5.html">5.26.5</a></li><li class="affix"><a href="5.26.6.html">5.26.6</a></li><li class="affix"><a href="5.26.7.html">5.26.7</a></li><li class="affix"><a href="5.26.8.html">5.26.8</a></li><li class="affix"><a href="5.26.9.html">5.26.9</a></li><li class="affix"><a href="5.26.10.html">5.26.10</a></li><li class="affix"><a href="5.26.11.html">5.26.11</a></li><li class="affix"><a href="5.26.12.html">5.26.12</a></li><li class="affix"><a href="5.26.13.html">5.26.13</a></li><li class="affix"><a href="5.26.14.html">5.26.14</a></li><li class="affix"><a href="5.26.15.html">5.26.15</a></li><li class="affix"><a href="5.26.16.html">5.26.16</a></li><li class="affix"><a href="5.26.17.html">5.26.17</a></li><li class="affix"><a href="5.26.18.html">5.26.18</a></li><li class="affix"><a href="5.26.19.html">5.26.19</a></li><li class="affix"><a href="5.26.20.html">5.26.20</a></li><li class="affix"><a href="5.26.21.html">5.26.21</a></li><li class="affix"><a href="5.26.22.html">5.26.22</a></li><li class="affix"><a href="5.26.23.html">5.26.23</a></li><li class="affix"><a href="5.26.24.html">5.26.24</a></li><li class="affix"><a href="5.26.25.html">5.26.25</a></li><li class="affix"><a href="5.26.26.html">5.26.26</a></li><li class="affix"><a href="5.26.27.html">5.26.27</a></li><li class="affix"><a href="5.26.28.html">5.26.28</a></li><li class="affix"><a href="5.26.29.html">5.26.29</a></li><li class="affix"><a href="5.26.30.html">5.26.30</a></li><li class="affix"><a href="5.26.31.html">5.26.31</a></li><li class="affix"><a href="5.26.32.html">5.26.32</a></li><li class="affix"><a href="5.26.33.html">5.26.33</a></li><li class="affix"><a href="5.26.34.html">5.26.34</a></li><li class="affix"><a href="5.26.35.html">5.26.35</a></li><li class="affix"><a href="5.26.36.html">5.26.36</a></li><li class="affix"><a href="5.26.37.html">5.26.37</a></li><li class="affix"><a href="5.26.38.html">5.26.38</a></li><li class="affix"><a href="5.26.39.html">5.26.39</a></li><li class="affix"><a href="5.26.40.html">5.26.40</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">A Description of the Hellish Planets</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#a-description-of-the-hellish-planets" id="a-description-of-the-hellish-planets">A Description of the Hellish Planets</a></h1>
-<h2><a class="header" href="#summary" id="summary">Summary</a></h2>
-<h3><a class="header" href="#526" id="526">5.26</a></h3>
+<h1>A Description of the Hellish Planets</h1>
+<h2>Summary</h2>
+<p><strong>5.26</strong></p>
 <p>The Twenty-sixth Chapter describes how a sinful man goes to different hells, where he is punished in various ways by the assistants of Yamaraja.</p>
 <p>As stated in the Bhagavad-gita (3.27):</p>
 <p>prakrteh kriyamanani</p>
@@ -204,7 +91,7 @@
 <p>After describing the hellish planets, Sukadeva Gosvami describes how pious persons are elevated to the highest planetary system, where the demigods live, and how they then come back again to this earth when the results of their pious activities are finished.</p>
 <p>Finally he describes the universal form of the Lord and glorifies the Lord’s activities.</p>
 <p>There is a supplementary note written by His Divine Grace Bhaktisiddhanta Sarasvati Gosvami Maharaja Prabhupada in his Gaudiya-bhasya.</p>
-<h3><a class="header" href="#5261" id="5261">5.26.1</a></h3>
+<p><strong>5.26.1</strong></p>
 <p>rajovaca</p>
 <p>maharsa etad vaicitryam lokasya katham iti.</p>
 <p><strong>SYNONYMS</strong></p>
@@ -216,63 +103,736 @@
 <p>This chapter describes how all sinful persons go to these hellish planets and how they are punished there by the assistants of Yamaraja.</p>
 <p>Different individuals with different bodily features enjoy or suffer various reactions according to their past deeds.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="5.26.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>5.26.2</strong></p>
+<p>rsir uvaca</p>
+<p>tri-gunatvat kartuh sraddhaya karma-gatayah prthag-vidhah sarva eva sarvasya taratamyena bhavanti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>rsih uvaca—the great saint (Sukadeva Gosvami) said; tri-gunatvat—because of the three modes of material nature; kartuh—of the worker; sraddhaya—because of the attitudes; karma-gatayah—destinations resulting from activity; prthak—different; vidhah—varieties; sarvah—all; eva—thus; sarvasya—of all of them; taratamyena—in different degrees; bhavanti—become possible.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The great sage Sukadeva Gosvami said: My dear King, in this material world there are three kinds of activities—those in the mode of goodness, the mode of passion and the mode of ignorance.</p>
+<p>Because all people are influenced by the three modes of material nature, the results of their activities are also divided into three.</p>
+<p>One who acts in the mode of goodness is religious and happy, one who acts in passion achieves mixed misery and happiness, and one who acts under the influence of ignorance is always unhappy and lives like an animal.</p>
+<p>Because of the varying degrees to which the living entities are influenced by the different modes of nature, their destinations are also of different varieties.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="5.26.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>5.26.3</strong></p>
+<p>athedanim pratisiddha-laksanasyadharmasya tathaiva kartuh sraddhaya vaisadrsyat karma-phalam visadrsam bhavati ya hy anady-avidyaya krta-kamanam tat-parinama-laksanah srtayah sahasrasah pravrttas tasam pracuryenanuvarnayisyamah.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atha—thus; idanim—now; pratisiddha—by what is forbidden; laksanasya—symptomized; adharmasya—of impious activities; tatha—so also; eva—certainly; kartuh—of the performer; sraddhayah—of faith; vaisadrsyat—by the difference; karma-phalam—the reaction of fruitive activities; visadrsam—different; bhavati—is; ya—which; hi—indeed; anadi—from time immemorial; avidyaya—by ignorance; krta—performed; kamanam—of persons possessing many lusty desires; tat-parinama-laksanah—the symptoms of the results of such impious desires; srtayah—hellish conditions of life; sahasrasah—by thousands upon thousands; pravrttah—resulted; tasam—them; pracuryena—very widely; anuvarnayisyamah—I shall explain.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Just as by executing various pious activities one achieves different positions in heavenly life, by acting impiously one achieves different positions in hellish life.</p>
+<p>Those who are activated by the material mode of ignorance engage in impious activities, and according to the extent of their ignorance, they are placed in different grades of hellish life.</p>
+<p>If one acts in the mode of ignorance because of madness, his resulting misery is the least severe.</p>
+<p>One who acts impiously but knows the distinction between pious and impious activities is placed in a hell of intermediate severity.</p>
+<p>And for one who acts impiously and ignorantly because of atheism, the resultant hellish life is the worst.</p>
+<p>Because of ignorance, every living entity has been carried by various desires into thousands of different hellish planets since time immemorial.</p>
+<p>I shall try to describe them as far as possible.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>5.26.4</strong></p>
+<p>rajovaca</p>
+<p>naraka nama bhagavan kim desa-visesa athava bahis tri-lokya ahosvid antarala iti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>raja uvaca—the King said; narakah—the hellish regions; nama—named; bhagavan—O my Lord; kim—whether; desa-visesah—a particular country; athava—or; bahih—outside; tri-lokyah—the three worlds (the universe); ahosvit—or; antarale—in the intermediate spaces within the universe; iti—thus.</p>
+<p><strong>TRANSLATION</strong></p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>5.26.5</strong></p>
+<p>rsir uvaca</p>
+<p>antarala eva tri-jagatyas tu disi daksinasyam adhastad bhumer uparistac ca jalad yasyam agnisvattadayah pitr-gana disi svanam gotranam paramena samadhina satya evasisa asasana nivasanti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>rsih uvaca—the great sage replied; antarale—in the intermediate space; eva—certainly; tri-jagatyah—of the three worlds; tu—but; disi—in the direction; daksinasyam—southern; adhastat—beneath; bhumeh—on the earth; uparistat—a little above; ca—and; jalat—the Garbhodaka Ocean; yasyam—in which; agnisvatta-adayah—headed by Agnisvatta; pitr-ganah—the persons known as pitas; disi—direction; svanam—their own; gotranam—of the families; paramena—with great; samadhina—absorption in thoughts of the Lord; satyah—in truth; eva—certainly; asisah—blessings; asasanah—desiring; nivasanti—they live.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The great sage Sukadeva Gosvami answered: All the hellish planets are situated in the intermediate space between the three worlds and the Garbhodaka Ocean.</p>
+<p>They lie on the southern side of the universe, beneath Bhu-mandala, and slightly above the water of the Garbhodaka Ocean.</p>
+<p>Pitrloka is also located in this region between the Garbhodaka Ocean and the lower planetary systems.</p>
+<p>All the residents of Pitrloka, headed by Agnisvatta, meditate in great samadhi on the Supreme Personality of Godhead and always wish their families well.</p>
+<p><strong>PURPORT</strong></p>
+<p>As previously explained, below our planetary system are seven lower planetary systems, the lowest of which is called Patalaloka.</p>
+<p>Beneath Patalaloka are other planets, known as Narakaloka, or the hellish planets.</p>
+<p>At the bottom of the universe lies the Garbhodaka Ocean.</p>
+<p>Therefore the hellish planets lie between Patalaloka and the Garbhodaka Ocean.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>5.26.6</strong></p>
+<p>yatra ha vava bhagavan pitr-rajo vaivasvatah sva-visayam prapitesu sva-purusair jantusu samparetesu yatha-karmavadyam dosam evanullanghita-bhagavac-chasanah sagano damam dharayati.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yatra—where; ha vava—indeed; bhagavan—the most powerful; pitr-rajah—Yamaraja, the king of the pitas; vaivasvatah—the son of the sun-god; sva-visayam—his own kingdom; prapitesu—when caused to reach; sva-purusaih—by his own messengers; jantusu—the human beings; samparetesu—dead; yatha-karma-avadyam—according to how much they have violated the rules and regulations of conditional life; dosam—the fault; eva—certainly; anullanghita-bhagavat-sasanah—who never oversteps the Supreme Personality of Godhead’s order; saganah—along with his followers; damam—punishment; dharayati—executes.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The King of the pitas is Yamaraja, the very powerful son of the sun-god.</p>
+<p>He resides in Pitrloka with his personal assistants and, while abiding by the rules and regulations set down by the Supreme Lord, has his agents, the Yamadutas, bring all the sinful men to him immediately upon their death.</p>
+<p>After bringing them within his jurisdiction, he properly judges them according to their specific sinful activities and sends them to one of the many hellish planets for suitable punishments.</p>
+<p><strong>PURPORT</strong></p>
+<p>Yamaraja is not a fictitious or mythological character; he has his own abode, Pitrloka, of which he is king.</p>
+<p>Agnostics may not believe in hell, but Sukadeva Gosvami affirms the existence of the Naraka planets, which lie between the Garbhodaka Ocean and Patalaloka.</p>
+<p>Yamaraja is appointed by the Supreme Personality of Godhead to see that the human beings do not violate His rules and regulations.</p>
+<p>As confirmed in Bhagavad-gita (4.17):</p>
+<p>karmano hy api boddhavyam</p>
+<p>boddhavyam ca vikarmanah</p>
+<p>akarmanas ca boddhavyam</p>
+<p>gahana karmano gatih</p>
+<p>The intricacies of action are very hard to understand.</p>
+<p>Therefore one should know properly what action is, what forbidden action is, and what inaction is One should understand the nature of karma, vikarma and akarma, and one must act accordingly.</p>
+<p>This is the law of the Supreme Personality of Godhead.</p>
+<p>The conditioned souls, who have come to this material world for sense gratification, are allowed to enjoy their senses under certain regulative principles.</p>
+<p>If they violate these regulations, they are judged and punished by Yamaraja.</p>
+<p>He brings them to the hellish planets and properly chastises them to bring them back to Krsna consciousness.</p>
+<p>By the influence of maya, however, the conditioned souls remain infatuated with the mode of ignorance.</p>
+<p>Thus in spite of repeated punishment by Yamaraja, they do not come to their senses, but continue to live within the material condition, committing sinful activities again and again.</p>
+
+
+
+<p><strong>5.26.7</strong></p>
+<p>tatra haike narakan eka-vimsatim ganayanti atha tams te rajan nama-rupa-laksanato ’nukramisyamas tamisro ’ndhatamisro rauravo maharauravah kumbhipakah kalasutram asipatravanam sukaramukham andhakupah krmibhojanah sandamsas taptasurmir vajrakantaka-salmali vaitarani puyodah pranarodho visasanam lalabhaksah sarameyadanam avicir ayahpanam iti; kinca ksarakardamo raksogana-bhojanah sulaproto dandasuko ’vata-nirodhanah paryavartanah sucimukham ity asta-vimsatir naraka vividha-yatana-bhumayah.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatra—there; ha—certainly; eke—some; narakan—the hellish planets; eka-vimsatim—twenty-one; ganayanti—count; atha—therefore; tan—them; te—unto you; rajan—O King; nama-rupa-laksanatah—according to their names, forms and symptoms; anukramisyamah—we shall outline one after another; tamisrah—Tamisra; andha-tamisrah—Andhatamisra; rauravah—Raurava; maha-rauravah—Maharaurava; kumbhi-pakah—Kumbhipaka; kala-sutram—Kalasutra; asi-patravanam—Asi-patravana; sukara-mukham—Sukaramukha; andha-kupah—Andhakupa; krmi-bhojanah—Krmibhojana; sandamsah—Sandamsa; tapta-surmih—Taptasurmi; vajra-kantaka-salmali—Vajrakantaka-salmali; vaitarani—Vaitarani; puyodah—Puyoda; prana-rodhah—Pranarodha; visasanam—Visasana; lala-bhaksah—Lalabhaksa; sarameyadanam—Sarameyadana; avicih—Avici; ayah-panam—Ayahpana; iti—thus; kinca—some more; ksara-kardamah—Ksarakardama; raksah-gana-bhojanah—Raksogana-bhojana; sula-protah—Sulaprota; danda-sukah—Dandasuka; avata-nirodhanah—Avata-nirodhana; paryavartanah—Paryavartana; suci-mukham—Sucimukha; iti—in this way; asta-vimsatih—twenty-eight; narakah—hellish planets; vividha—various; yatana-bhumayah—lands of suffering in hellish conditions.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Some authorities say that there is a total of twenty-one hellish planets, and some say twenty-eight.</p>
+<p>My dear King, I shall outline all of them according to their names, forms and symptoms.</p>
+<p>The names of the different hells are as follows: Tamisra, Andhatamisra, Raurava, Maharaurava, Kumbhipaka, Kalasutra, Asi-patravana, Sukaramukha, Andhakupa, Krmibhojana, Sandamsa, Taptasurmi, Vajrakantaka-salmali, Vaitarani, Puyoda, Pranarodha, Visasana, Lalabhaksa, Sarameyadana, Avici, Ayahpana, Ksarakardama, Raksogana-bhojana, Sulaprota, Dandasuka, Avata-nirodhana, Paryavartana and Sucimukha.</p>
+<p>All these planets are meant for punishing the living entities.</p>
+
+
+
+<p><strong>5.26.8</strong></p>
+<p>tatra yas tu para-vittapatya-kalatrany apaharati sa hi kala-pasa-baddho yama-purusair ati-bhayanakais tamisre narake balan nipatyate anasananudapana-danda-tadana-santarjanadibhir yatanabhir yatyamano jantur yatra kasmalam asadita ekadaiva murccham upayati tamisra-praye.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatra—in those hellish planets; yah—a person who; tu—but; para-vitta-apatya-kalatrani—the money, wife and children of another; apaharati—takes away; sah—that person; hi—certainly; kala-pasa-baddhah—being bound by the ropes of time or Yamaraja; yama-purusaih—by the assistants of Yamaraja; ati-bhayanakaih—who are very fearful; tamisre narake—into the hell known as Tamisra; balat—by force; nipatyate—is thrown; anasana—starvation; anudapana—without water; danda-tadana—beaten with rods; santarjana-adibhih—by scolding and so on; yatanabhih—by severe punishments; yatyamanah—being punished; jantuh—the living entity; yatra—where; kasmalam—misery; asaditah—obtained; ekada—sometimes; eva—certainly; murccham—fainting; upayati—obtains; tamisra-praye—in that condition, which is almost entirely dark.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear King, a person who appropriates another’s legitimate wife, children or money is arrested at the time of death by the fierce Yamadutas, who bind him with the rope of time and forcibly throw him into the hellish planet known as Tamisra.</p>
+<p>On this very dark planet, the sinful man is chastised by the Yamadutas, who beat and rebuke him.</p>
+<p>He is starved, and he is given no water to drink.</p>
+<p>Thus the wrathful assistants of Yamaraja cause him severe suffering, and sometimes he faints from their chastisement.</p>
+
+
+
+<p><strong>5.26.9</strong></p>
+<p>evam evandhatamisre yas tu vancayitva purusam daradin upayunkte yatra sariri nipatyamano yatana-stho vedanaya nasta-matir nasta-drstis ca bhavati yatha vanaspatir vrscyamana-mulas tasmad andhatamisram tam upadisanti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>evam—in this way; eva—certainly; andhatamisre—in the hellish planet known as Andhatamisra; yah—the person who; tu—but; vancayitva—cheating; purusam—another person; dara-adin—the wife and children; upayunkte—enjoys; yatra—where; sariri—the embodied person; nipatyamanah—being forcibly thrown; yatana-sthah—always situated in extremely miserable conditions; vedanaya—by such suffering; nasta—lost; matih—whose consciousness; nasta—lost; drstih—whose sight; ca—also; bhavati—becomes; yatha—as much as; vanaspatih—the trees; vrscyamana—being cut; mulah—whose root; tasmat—because of this; andhatamisram—Andhatamisra; tam—that; upadisanti—they call.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The destination of a person who slyly cheats another man and enjoys his wife and children is the hell known as Andhatamisra.</p>
+<p>There his condition is exactly like that of a tree being chopped at its roots.</p>
+<p>Even before reaching Andhatamisra, the sinful living being is subjected to various extreme miseries.</p>
+<p>These afflictions are so severe that he loses his intelligence and sight.</p>
+<p>It is for this reason that learned sages call this hell Andhatamisra.</p>
+
+
+
+<p><strong>5.26.10</strong></p>
+<p>yas tv iha va etad aham iti mamedam iti bhuta-drohena kevalam sva-kutumbam evanudinam prapusnati sa tad iha vihaya svayam eva tad-asubhena raurave nipatati.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—one who; tu—but; iha—in this life; va—or; etat—this body; aham—I; iti—thus; mama—mine; idam—this; iti—thus; bhuta-drohena—by envy of other living entities; kevalam—alone; sva-kutumbam—his family members; eva—only; anudinam—day to day; prapusnati—supports; sah—such a person; tat—that; iha—here; vihaya—giving up; svayam—personally; eva—certainly; tat—of that; asubhena—by the sin; raurave—in Raurava; nipatati—he falls down.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>A person who accepts his body as his self works very hard day and night for money to maintain his own body and the bodies of his wife and children.</p>
+<p>While working to maintain himself and his family, he may commit violence against other living entities.</p>
+<p>Such a person is forced to give up his body and his family at the time of death, when he suffers the reaction for his envy of other creatures by being thrown into the hell called Raurava.</p>
+<p><strong>PURPORT</strong></p>
+<p>In Srimad-Bhagavatam it is said:</p>
+<p>yasyatma-buddhih kunape tri-dhatuke</p>
+<p>sva-dhih kalatradisu bhauma-ijya-dhih</p>
+<p>yat-tirtha-buddhih salile na karhicij</p>
+<p>janesv abhijnesu sa eva go-kharah</p>
+<p>One who accepts this bodily bag of three elements (bile, mucus and air) as his self, who has an affinity for an intimate relationship with his wife and children, who considers his land worshipable, who takes bath in the waters of the holy places of pilgrimage but never takes advantage of those persons who are in actual knowledge—he is no better than an ass or a cow (Bhag.10.84.13) There are two classes of men absorbed in the material concept of life.</p>
+<p>Out of ignorance, a man in the first class thinks his body to be his self, and therefore he is certainly like an animal (sa eva go-kharah).</p>
+<p>The person in the second class, however, not only thinks his material body to be his self, but also commits all kinds of sinful activities to maintain his body.</p>
+<p>He cheats everyone to acquire money for his family and his self, and he becomes envious of others without reason.</p>
+<p>Such a person is thrown into the hell known as Raurava.</p>
+<p>If one simply considers his body to be his self, as do the animals, he is not very sinful.</p>
+<p>However, if one needlessly commits sins to maintain his body, he is put into the hell known as Raurava.</p>
+<p>This is the opinion of Srila Visvanatha Cakravarti Thakura.</p>
+<p>Although animals are certainly in the bodily concept of life, they do not commit any sins to maintain their bodies, mates or offspring.</p>
+<p>Therefore animals do not go to hell.</p>
+<p>However, when a human being acts enviously and cheats others to maintain his body, he is put into a hellish condition.</p>
+
+
+
+<p><strong>5.26.11</strong></p>
+<p>ye tv iha yathaivamuna vihimsita jantavah paratra yama-yatanam upagatam ta eva ruravo bhutva tatha tam eva vihimsanti tasmad rauravam ity ahu rurur iti sarpad ati-krura-sattvasyapadesah.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ye—those who; tu—but; iha—in this life; yatha—as much as; eva—certainly; amuna—by him; vihimsitah—who were hurt; jantavah—the living entities; paratra—in the next life; yama-yatanam upagatam—being subjected to miserable conditions by Yamaraja; te—those living entities; eva—indeed; ruravah—rurus (a kind of envious animal); bhutva—becoming; tatha—that much; tam—him; eva—certainly; vihimsanti—they hurt; tasmat—because of this; rauravam—Raurava; iti—thus; ahuh—learned scholars say; ruruh—the animal known as ruru; iti—thus; sarpat—than the snake; ati-krura—much more cruel and envious; sattvasya—of the entity; apadesah—the name.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In this life, an envious person commits violent acts against many living entities.</p>
+<p>Therefore after his death, when he is taken to hell by Yamaraja, those living entities who were hurt by him appear as animals called rurus to inflict very severe pain upon him.</p>
+<p>Learned scholars call this hell Raurava.</p>
+<p>Not generally seen in this world, the ruru is more envious than a snake.</p>
+<p><strong>PURPORT</strong></p>
+<p>According to Sridhara Svami, the ruru is also known as the bhara-srnga (ati-krurasya bhara-srngakhya-sattvasya apadesah samjna).</p>
+<p>Srila Jiva Gosvami confirms this in his Sandarbha: ruru-sabdasya svayam muninaiva tika-vidhanal lokesv aprasiddha evayam jantu-visesah.</p>
+<p>Thus although rurus are not seen in this world, their existence is confirmed in the sastras.</p>
+
+
+
+<p><strong>5.26.12</strong></p>
+<p>evam eva maharauravo yatra nipatitam purusam kravyada nama ruravas tam kravyena ghatayanti yah kevalam dehambharah.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>evam—thus; eva—certainly; maha-rauravah—the hell known as Maharaurava; yatra—where; nipatitam—being thrown; purusam—a person; kravyadah nama—named kravyada; ruravah—the ruru animals; tam—him (the condemned person); kravyena—for eating his flesh; ghatayanti—kill; yah—who; kevalam—only; dehambharah—intent upon maintaining his own body.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Punishment in the hell called Maharaurava is compulsory for a person who maintains his own body by hurting others.</p>
+<p>In this hell, ruru animals known as kravyada torment him and eat his flesh.</p>
+<p><strong>PURPORT</strong></p>
+<p>The animalistic person who lives simply in the bodily concept of life is not excused.</p>
+<p>He is put into the hell known as Maharaurava and attacked by ruru animals known as kravyadas.</p>
+
+
+
+<p><strong>5.26.13</strong></p>
+<p>yas tv iha va ugrah pasun paksino va pranata uparandhayati tam apakarunam purusadair api vigarhitam amutra yamanucarah kumbhipake tapta-taile uparandhayanti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—a person who; tu—but; iha—in this life; va—or; ugrah—very cruel; pasun—animals; paksinah—birds; va—or; pranatah—in a live condition; uparandhayati—cooks; tam—him; apakarunam—very cruel-hearted; purusa-adaih—by those who eat human flesh; api—even; vigarhitam—condemned; amutra—in the next life; yama-anucarah—the servants of Yamaraja; kumbhipake—in the hell known as Kumbhipaka; tapta-taile—in boiling oil; uparandhayanti—cook.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>For the maintenance of their bodies and the satisfaction of their tongues, cruel persons cook poor animals and birds alive.</p>
+<p>Such persons are condemned even by man-eaters.</p>
+<p>In their next lives they are carried by the Yamadutas to the hell known as Kumbhipaka, where they are cooked in boiling oil.</p>
+
+
+
+<p><strong>5.26.14</strong></p>
+<p>yas tv iha brahma-dhruk sa kalasutra-samjnake narake ayuta-yojana-parimandale tamramaye tapta-khale upary-adhastad agny-arkabhyam ati-tapyamane ’bhinivesitah ksut-pipasabhyam ca dahyamanantar-bahih-sarira aste sete cestate ’vatisthati paridhavati ca yavanti pasu-romani tavad varsa-sahasrani.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—anyone who; tu—but; iha—in this life; brahma-dhruk—the killer of a brahmana; sah—such a person; kalasutra-samjnake—named Kalasutra; narake—in the hell; ayuta-yojana-parimandale—having a circumference of eighty thousand miles; tamra-maye—made of copper; tapta—heated; khale—in a level place; upari-adhastat—above and beneath; agni—by fire; arkabhyam—and by the sun; ati-tapyamane—which is being heated; abhinivesitah—being made to enter; ksut-pipasabhyam—by hunger and thirst; ca—and; dahyamana—being burned; antah—internally; bahih—externally; sarirah—whose body; aste—remains; sete—sometimes lies; cestate—sometimes moves his limbs; avatisthati—sometimes stands; paridhavati—sometimes runs here and there; ca—also; yavanti—as many; pasu-romani—hairs on the body of an animal; tavat—that long; varsa-sahasrani—thousands of years.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The killer of a brahmana is put into the hell known as Kalasutra, which has a circumference of eighty thousand miles and which is made entirely of copper.</p>
+<p>Heated from below by fire and from above by the scorching sun, the copper surface of this planet is extremely hot.</p>
+<p>Thus the murderer of a brahmana suffers from being burned both internally and externally.</p>
+<p>Internally he is burning with hunger and thirst, and externally he is burning from the scorching heat of the sun and the fire beneath the copper surface.</p>
+<p>Therefore he sometimes lies down, sometimes sits, sometimes stands up and sometimes runs here and there.</p>
+<p>He must suffer in this way for as many thousands of years as there are hairs on the body of an animal.</p>
+
+
+
+<p><strong>5.26.15</strong></p>
+<p>yas tv iha vai nija-veda-pathad anapady apagatah pakhandam copagatas tam asi-patravanam pravesya kasaya praharanti tatra hasav itas tato dhavamana ubhayato dharais tala-vanasi-patrais chidyamana-sarvango ha hato ’smiti paramaya vedanaya murcchitah pade pade nipatati sva-dharmaha pakhandanugatam phalam bhunkte.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—anyone who; tu—but; iha—in this life; vai—indeed; nija-veda-pathat—from his own path, recommended by the Vedas; anapadi—even without an emergency; apagatah—deviated; pakhandam—a concocted, atheistic system; ca—and; upagatah—gone to; tam—him; asi-patravanam—the hell known as Asi-patravana; pravesya—making enter; kasaya—with a whip; praharanti—they beat; tatra—there; ha—certainly; asau—that; itah tatah—here and there; dhavamanah—running; ubhayatah—on both sides; dharaih—by the edges; tala-vana-asi-patraih—by the swordlike leaves of palm trees; chidyamana—being cut; sarva-angah—whose entire body; ha—alas; hatah—killed; asmi—I am; iti—thus; paramaya—with severe; vedanaya—pain; murcchitah—fainted; pade pade—at every step; nipatati—falls down; sva-dharma-ha—the killer of his own principles of religion; pakhanda-anugatam phalam—the result of accepting an atheistic path; bhunkte—he suffers.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>If a person deviates from the path of the Vedas in the absence of an emergency, the servants of Yamaraja put him into the hell called Asi-patravana, where they beat him with whips.</p>
+<p>When he runs hither and thither, fleeing from the extreme pain, on all sides he runs into palm trees with leaves like sharpened swords.</p>
+<p>Thus injured all over his body and fainting at every step, he cries out, Oh, what shall I do now! How shall I be saved This is how one suffers who deviates from the accepted religious principles.</p>
+<p><strong>PURPORT</strong></p>
+<p>There is actually only one religious principle: dharmam tu saksad bhagavat-pranitam (SB 6.3.19).</p>
+<p>The only religious principle is to follow the orders of the Supreme Personality of Godhead.</p>
+<p>Unfortunately, especially in this age of Kali, everyone is an atheist, people do not even believe in God, what to speak of following His words.</p>
+<p>The words nija-veda-patha can also mean one’s own set of religious principles Formerly there was only one veda-patha, or set of religious principles.</p>
+<p>Now there are many.</p>
+<p>It doesn’t matter which set of religious principles one follows: the only injunction is that he must follow them strictly.</p>
+<p>An atheist, or nastika, is one who does not believe in the Vedas.</p>
+<p>However, even if one takes up a different system of religion, according to this verse he must follow the religious principles he has accepted.</p>
+<p>Whether one is a Hindu, or a Mohammedan or a Christian, he should follow his own religious principles.</p>
+<p>However, if one concocts his own religious path within his mind, or if one follows no religious principles at all, he is punished in the hell known as Asi-patravana.</p>
+<p>In other words, a human being must follow some religious principles.</p>
+<p>If he does not follow any religious principles, he is no better than an animal.</p>
+<p>As Kali-yuga advances, people are becoming godless and taking up so-called secularism.</p>
+<p>They do not know the punishment awaiting them in Asi-patravana, as described in this verse.</p>
+
+
+
+<p><strong>5.26.16</strong></p>
+<p>yas tv iha vai raja raja-puruso va adandye dandam pranayati brahmane va sarira-dandam sa papiyan narake ’mutra sukaramukhe nipatati tatratibalair vinispisyamanavayavo yathaiveheksukhanda arta-svarena svanayan kvacin murcchitah kasmalam upagato yathaiveha-drsta-dosa uparuddhah.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—anyone who; tu—but; iha—in this life; vai—indeed; raja—a king; raja-purusah—a king’s man; va—or; adandye—unto one not punishable; dandam—punishment; pranayati—inflicts; brahmane—unto a brahmana; va—or; sarira-dandam—corporal punishment; sah—that person, king or government officer; papiyan—the most sinful; narake—in the hell; amutra—in the next life; sukaramukhe—named Sukaramukha; nipatati—falls down; tatra—there; ati-balaih—by very strong assistants of Yamaraja; vinispisyamana—being crushed; avayavah—the different parts of whose body; yatha—like; eva—certainly; iha—here; iksu-khandah—sugarcane; arta-svarena—with a pitiable sound; svanayan—crying; kvacit—sometimes; murcchitah—fainted; kasmalam upagatah—becoming illusioned; yatha—just like; eva—indeed; iha—here; adrsta-dosah—who is not at fault; uparuddhah—arrested for punishment.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In his next life, a sinful king or governmental representative who punishes an innocent person, or who inflicts corporal punishment upon a brahmana, is taken by the Yamadutas to the hell named Sukaramukha, where the most powerful assistants of Yamaraja crush him exactly as one crushes sugarcane to squeeze out the juice.</p>
+<p>The sinful living entity cries very pitiably and faints, just like an innocent man undergoing punishments.</p>
+<p>This is the result of punishing a faultless person.</p>
+
+
+
+<p><strong>5.26.17</strong></p>
+<p>yas tv iha vai bhutanam isvaropakalpita-vrttinam avivikta-para-vyathanam svayam purusopakalpita-vrttir vivikta-para-vyatho vyatham acarati sa paratrandhakupe tad-abhidrohena nipatati tatra hasau tair jantubhih pasu-mrga-paksi-sarisrpair masaka-yuka-matkuna-maksikadibhir ye ke cabhidrugdhas taih sarvato ’bhidruhyamanas tamasi vihata-nidra-nirvrtir alabdhavasthanah parikramati yatha kusarire jivah.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—any person who; tu—but; iha—in this life; vai—indeed; bhutanam—to some living entities; isvara—by the supreme controller; upakalpita—designed; vrttinam—whose means of livelihood; avivikta—not understanding; para-vyathanam—the pain of others; svayam—himself; purusa-upakalpita—designed by the Supreme Personality of Godhead; vrttih—whose livelihood; vivikta—understanding; para-vyathah—the painful conditions of others; vyatham acarati—but still causes pain; sah—such a person; paratra—in his next life; andhakupe—to the hell named Andhakupa; tat—to them; abhidrohena—by the sin of malice; nipatati—falls down; tatra—there; ha—indeed; asau—that person; taih jantubhih—by those respective living entities; pasu—animals; mrga—wild beasts; paksi—birds; sarisrpaih—snakes; masaka—mosquitoes; yuka—lice; matkuna—worms; maksika-adibhih—flies and so on; ye ke—whoever else; ca—and; abhidrugdhah—persecuted; taih—by them; sarvatah—everywhere; abhidruhyamanah—being injured; tamasi—in the darkness; vihata—disturbed; nidra-nirvrtih—whose resting place; alabdha—not being able to obtain; avasthanah—a resting place; parikramati—wanders; yatha—just as; ku-sarire—in a low-grade body; jivah—a living entity.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>By the arrangement of the Supreme Lord, low-grade living beings like bugs and mosquitoes suck the blood of human beings and other animals.</p>
+<p>Such insignificant creatures are unaware that their bites are painful to the human being.</p>
+<p>However, first-class human beings—brahmanas, ksatriyas and vaisyas—are developed in consciousness, and therefore they know how painful it is to be killed.</p>
+<p>A human being endowed with knowledge certainly commits sin if he kills or torments insignificant creatures, who have no discrimination.</p>
+<p>The Supreme Lord punishes such a man by putting him into the hell known as Andhakupa, where he is attacked by all the birds and beasts, reptiles, mosquitoes, lice, worms, flies, and any other creatures he tormented during his life.</p>
+<p>They attack him from all sides, robbing him of the pleasure of sleep.</p>
+<p>Unable to rest, he constantly wanders about in the darkness.</p>
+<p>Thus in Andhakupa his suffering is just like that of a creature in the lower species.</p>
+<p><strong>PURPORT</strong></p>
+<p>From this very instructive verse we learn that lower animals, created by the laws of nature to disturb the human being, are not subjected to punishment.</p>
+<p>Because the human being has developed consciousness, however, he cannot do anything against the principles of varnasrama-dharma without being condemned.</p>
+<p>Krsna states in Bhagavad-gita (4.13), catur-varnyam maya srstam guna-karma-vibhagasah: According to the three modes of material nature and the work ascribed to them, the four divisions of human society were created by Me Thus all men should be divided into four classes—brahmanas, ksatriyas, vaisyas and sudras—and they should act according to their ordained regulations.</p>
+<p>They cannot deviate from their prescribed rules and regulations.</p>
+<p>One of these states that they should never trouble any animal, even those that disturb human beings.</p>
+<p>Although a tiger is not sinful if he attacks another animal and eats its flesh, if a man with developed consciousness does so, he must be punished.</p>
+<p>In other words, a human being who does not use his developed consciousness but instead acts like an animal surely undergoes punishment in many different hells.</p>
+
+
+
+<p><strong>5.26.18</strong></p>
+<p>yas tv iha va asamvibhajyasnati yat kincanopanatam anirmita-panca-yajno vayasa-samstutah sa paratra krmibhojane narakadhame nipatati tatra sata-sahasra-yojane krmi-kunde krmi-bhutah svayam krmibhir eva bhaksyamanah krmi-bhojano yavat tad aprattaprahutado ’nirvesam atmanam yatayate.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—any person who; tu—but; iha—in this life; va—or; asam-vibhajya—without dividing; asnati—eats; yat kincana—whatever; upanatam—obtained by Krsna’s grace; anirmita—not performing; panca-yajnah—the five kinds of sacrifice; vayasa—with the crows; samstutah—who is described as equal; sah—such a person; paratra—in the next life; krmibhojane—named Krmibhojana; naraka-adhame—into the most abominable of all hells; nipatati—falls down; tatra—there; sata-sahasra-yojane—measuring 100,000 yojanas (800,000 miles); krmi-kunde—in a lake of worms; krmi-bhutah—becoming one of the worms; svayam—he himself; krmibhih—by the other worms; eva—certainly; bhaksyamanah—being eaten; krmi-bhojanah—eating worms; yavat—as long as; tat—that lake is wide; apratta-aprahuta—unshared and unoffered food; adah—one who eats; anirvesam—who has not performed atonement; atmanam—to himself; yatayate—gives pain.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>A person is considered no better than a crow if after receiving some food, he does not divide it among guests, old men and children, but simply eats it himself, or if he eats it without performing the five kinds of sacrifice.</p>
+<p>After death he is put into the most abominable hell, known as Krmibhojana.</p>
+<p>In that hell is a lake 100,000 yojanas (800,000 miles) wide and filled with worms.</p>
+<p>He becomes a worm in that lake and feeds on the other worms there, who also feed on him.</p>
+<p>Unless he atones for his actions before his death, such a sinful man remains in the hellish lake of Krmibhojana for as many years as there are yojanas in the width of the lake.</p>
+<p><strong>PURPORT</strong></p>
+<p>As stated in Bhagavad-gita (3.13):</p>
+<p>yajna-sistasinah santo</p>
+<p>mucyante sarva-kilbisaih</p>
+<p>bhunjate te tv agham papa</p>
+<p>ya pacanty atma-karanat</p>
+<p>The devotees of the Lord are released from all kinds of sins because they eat food which is first offered for sacrifice.</p>
+<p>Others, who prepare food for personal sense enjoyment, verily eat only sin All food is given to us by the Supreme Personality of Godhead.</p>
+<p>Eko bahunam yo vidadhati kaman: the Lord supplies everyone with the necessities of life.</p>
+<p>Therefore we should acknowledge His mercy by performing yajna (sacrifice).</p>
+<p>This is the duty of everyone.</p>
+<p>Indeed, the sole purpose of life is to perform yajna.</p>
+<p>According to Krsna (Bg.3.9):</p>
+<p>yajnarthat karmano ’nyatra</p>
+<p>loko ’yam karma-bandhanah</p>
+<p>tad-artham karma kaunteya</p>
+<p>mukta-sangah samacara</p>
+<p>Work done as a sacrifice for Visnu has to be performed, otherwise work binds one to this material world.</p>
+<p>Therefore, O son of Kunti, perform your prescribed duties for His satisfaction, and in that way you will always remain unattached and free from bondage If we do not perform yajna and distribute prasada to others, our lives are condemned.</p>
+<p>Only after performing yajna and distributing the prasada to all dependents—children, brahmanas and old men—should one eat.</p>
+<p>However, one who cooks only for himself or his family is condemned, along with everyone he feeds.</p>
+<p>After death he is put into the hell known as Krmibhojana.</p>
+
+
+
+<p><strong>5.26.19</strong></p>
+<p>yas tv iha vai steyena balad va hiranya-ratnadini brahmanasya vapaharaty anyasya vanapadi purusas tam amutra rajan yama-purusa ayasmayair agni-pindaih sandamsais tvaci niskusanti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—any person who; tu—but; iha—in this life; vai—indeed; steyena—by thievery; balat—by force; va—or; hiranya—gold; ratna—gems; adini—and so on; brahmanasya—of a brahmana; va—or; apaharati—steals; anyasya—of others; va—or; anapadi—not in a calamity; purusah—a person; tam—him; amutra—in the next life; rajan—O King; yama-purusah—the agents of Yamaraja; ayah-mayaih—made of iron; agni-pindaih—balls heated in fire; sandamsaih—with tongs; tvaci—on the skin; niskusanti—tear to pieces.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear King, a person who in the absence of an emergency robs a brahmana—or, indeed, anyone else—of his gems and gold is put into a hell known as Sandamsa.</p>
+<p>There his skin is torn and separated by red-hot iron balls and tongs.</p>
+<p>In this way, his entire body is cut to pieces.</p>
+
+
+
+<p><strong>5.26.20</strong></p>
+<p>yas tv iha va agamyam striyam agamyam va purusam yosid abhigacchati tav amutra kasaya tadayantas tigmaya surmya lohamayya purusam alingayanti striyam ca purusa-rupaya surmya.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—any person who; tu—but; iha—in this life; va—or; agamyam—unsuitable; striyam—a woman; agamyam—unsuitable; va—or; purusam—a man; yosit—a woman; abhigacchati—approaches for sexual intercourse; tau—both of them; amutra—in the next life; kasaya—by whips; tadayantah—beating; tigmaya—very hot; surmya—by an image; loha-mayya—made of iron; purusam—the man; alingayanti—they embrace; striyam—the woman; ca—also; purusa-rupaya—in the form of a man; surmya—by an image.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>A man or woman who indulges in sexual intercourse with an unworthy member of the opposite sex is punished after death by the assistants of Yamaraja in the hell known as Taptasurmi.</p>
+<p>There such men and women are beaten with whips.</p>
+<p>The man is forced to embrace a red-hot iron form of a woman, and the woman is forced to embrace a similar form of a man.</p>
+<p>Such is the punishment for illicit sex.</p>
+<p><strong>PURPORT</strong></p>
+<p>Generally a man should not have sexual relations with any woman other than his wife.</p>
+<p>According to Vedic principles, the wife of another man is considered one’s mother, and sexual relations are strictly forbidden with one’s mother, sister and daughter.</p>
+<p>If one indulges in illicit sexual relations with another man’s wife, that activity is considered identical with having sex with one’s mother.</p>
+<p>This act is most sinful.</p>
+<p>The same principle holds for a woman also; if she enjoys sex with a man other than her husband, the act is tantamount to having sexual relations with her father or son.</p>
+<p>Illicit sex life is always forbidden, and any man or woman who indulges in it is punished in the manner described in this verse.</p>
+
+
+
+<p><strong>5.26.21</strong></p>
+<p>yas tv iha vai sarvabhigamas tam amutra niraye vartamanam vajrakantaka-salmalim aropya niskarsanti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—anyone who; tu—but; iha—in this life; vai—indeed; sarva-abhigamah—indulges in sex life indiscriminately, with both men and animals; tam—him; amutra—in the next life; niraye—in the hell; vartamanam—existing; vajrakantaka-salmalim—a silk-cotton tree with thorns like thunderbolts; aropya—mounting him on; niskarsanti—they pull him out.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>A person who indulges in sex indiscriminately—even with animals—is taken after death to the hell known as Vajrakantaka-salmali.</p>
+<p>In this hell there is a silk-cotton tree full of thorns as strong as thunderbolts.</p>
+<p>The agents of Yamaraja hang the sinful man on that tree and pull him down forcibly so that the thorns very severely tear his body.</p>
+<p><strong>PURPORT</strong></p>
+<p>The sexual urge is so strong that sometimes a man indulges in sexual relations with a cow, or a woman indulges in sexual relations with a dog.</p>
+<p>Such men and women are put into the hell known as Vajrakantaka-salmali.</p>
+<p>The Krsna consciousness movement forbids illicit sex.</p>
+<p>From the description of these verses, we can understand what an extremely sinful act illicit sex is.</p>
+<p>Sometimes people disbelieve these descriptions of hell, but whether one believes or not, everything must be carried out by the laws of nature, which no one can avoid.</p>
+
+
+
+<p><strong>5.26.22</strong></p>
+<p>ye tv iha vai rajanya raja-purusa va apakhanda dharma-setun bhindanti te samparetya vaitaranyam nipatanti bhinna-maryadas tasyam niraya-parikha-bhutayam nadyam yado-ganair itas tato bhaksyamana atmana na viyujyamanas casubhir uhyamanah svaghena karma-pakam anusmaranto vin-mutra-puya-sonita-kesa-nakhasthi-medo-mamsa-vasa-vahinyam upatapyante.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ye—persons who; tu—but; iha—in this life; vai—indeed; rajanyah—members of the royal family, or ksatriyas; raja-purusah—government servants; va—or; apakhandah—although born in responsible families; dharma-setun—the bounds of prescribed religious principles; bhindanti—transgress; te—they; samparetya—after dying; vaitaranyam—named Vaitarani; nipatanti—fall down; bhinna-maryadah—who have broken the regulative principles; tasyam—in that; niraya-parikha-bhutayam—the moat surrounding hell; nadyam—in the river; yadah-ganaih—by ferocious aquatic animals; itah tatah—here and there; bhaksyamanah—being eaten; atmana—with the body; na—not; viyujyamanah—being separated; ca—and; asubhih—the life airs; uhyamanah—being carried; sva-aghena—by his own sinful activities; karma-pakam—the result of his impious activities; anusmarantah—remembering; vit—of stool; mutra—urine; puya—pus; sonita—blood; kesa—hair; nakha—nails; asthi—bones; medah—marrow; mamsa—flesh; vasa—fat; vahinyam—in the river; upatapyante—are afflicted with pain.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>A person who is born into a responsible family—such as a ksatriya, a member of royalty or a government servant—but who neglects to execute his prescribed duties according to religious principles, and who thus becomes degraded, falls down at the time of death into the river of hell known as Vaitarani.</p>
+<p>This river, which is a moat surrounding hell, is full of ferocious aquatic animals.</p>
+<p>When a sinful man is thrown into the River Vaitarani, the aquatic animals there immediately begin to eat him, but because of his extremely sinful life, he does not leave his body.</p>
+<p>He constantly remembers his sinful activities and suffers terribly in that river, which is full of stool, urine, pus, blood, hair, nails, bones, marrow, flesh and fat.</p>
+
+
+
+<p><strong>5.26.23</strong></p>
+<p>ye tv iha vai vrsali-patayo nasta-saucacara-niyamas tyakta-lajjah pasu-caryam caranti te capi pretya puya-vin-mutra-slesma-mala-purnarnave nipatanti tad evatibibhatsitam asnanti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ye—persons who; tu—but; iha—in this life; vai—indeed; vrsali-patayah—the husbands of the sudras; nasta—lost; sauca-acara-niyamah—whose cleanliness, good behavior and regulated life; tyakta-lajjah—without shame; pasu-caryam—the behavior of animals; caranti—they execute; te—they; ca—also; api—indeed; pretya—dying; puya—of pus; vit—stool; mutra—urine; slesma—mucus; mala—saliva; purna—full; arnave—in an ocean; nipatanti—fall; tat—that; eva—only; atibibhatsitam—extremely disgusting; asnanti—they eat.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The shameless husbands of lowborn sudra women live exactly like animals, and therefore they have no good behavior, cleanliness or regulated life.</p>
+<p>After death, such persons are thrown into the hell called Puyoda, where they are put into an ocean filled with pus, stool, urine, mucus, saliva and similar things.</p>
+<p>Sudras who could not improve themselves fall into that ocean and are forced to eat those disgusting things.</p>
+<p><strong>PURPORT</strong></p>
+<p>Srila Narottama dasa Thakura has sung, amrta baliya yeba khaya</p>
+<p>tara janma adah-pate yaya</p>
+<p>He says that persons following the paths of karma-kanda and jnana-kanda (fruitive activities and speculative thinking) are missing the opportunities for human birth and gliding down into the cycle of birth and death.</p>
+<p>Thus there is always the chance that he may be put into the Puyoda Naraka, the hell named Puyoda, where one is forced to eat stool, urine, pus, mucus, saliva and other abominable things.</p>
+<p>It is significant that this verse is spoken especially about sudras.</p>
+<p>If one is born a sudra, he must continually return to the ocean of Puyoda to eat horrible things.</p>
+<p>Thus even a born sudra is expected to become a brahmana; that is the meaning of human life.</p>
+<p>Everyone should improve himself.</p>
+<p>Krsna says in Bhagavad-gita (4.13), catur-varnyam maya srstam guna-karma-vibhagasah: According to the three modes of material nature and the work ascribed to them, four divisions of human society were created by Me Even if one is by qualification a sudra, he must try to improve his position and become a brahmana.</p>
+<p>No one should try to check a person, no matter what his present position is, from coming to the platform of a brahmana or a Vaisnava.</p>
+<p>Actually, one must come to the platform of a Vaisnava.</p>
+<p>Then he automatically becomes a brahmana.</p>
+<p>This can be done only if the Krsna consciousness movement is spread, for we are trying to elevate everyone to the platform of Vaisnava.</p>
+<p>As Krsna says in Bhagavad-gita (18.66), sarva-dharman parityajya mam ekam saranam vraja: Abandon all other duties and simply surrender unto Me One must give up the occupational duties of a sudra, ksatriya or vaisya and adopt the occupational duties of a Vaisnava, which include the activities of a brahmana.</p>
+<p>Krsna explains this in Bhagavad-gita (9.32):</p>
+<p>mam hi partha vyapasritya</p>
+<p>ye ’pi syuh papa-yonayah</p>
+<p>striyo vaisyas tatha sudras</p>
+<p>te ’pi yanti param gatim</p>
+<p>O son of Prtha, those who take shelter in Me, though they be of lower birth—women, vaisyas (merchants), as well as sudras (workers)—can approach the supreme destination Human life is specifically meant for going back home, back to Godhead.</p>
+<p>That facility should be given to everyone, whether one be a sudra, a vaisya, a woman or a ksatriya.</p>
+<p>This is the purpose of the Krsna consciousness movement.</p>
+<p>However, if one is satisfied to remain a sudra, he must suffer as described in this verse: tad evatibibhatsitam asnanti.</p>
+
+
+
+<p><strong>5.26.24</strong></p>
+<p>ye tv iha vai sva-gardabha-patayo brahmanadayo mrgaya vihara atirthe ca mrgan nighnanti tan api samparetal laksya-bhutan yama-purusa isubhir vidhyanti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ye—those who; tu—but; iha—in this life; vai—or; sva—of dogs; gardabha—and asses; patayah—maintainers; brahmana-adayah—brahmanas, ksatriyas and vaisyas; mrgaya viharah—taking pleasure in hunting animals in the forest; atirthe—other than prescribed; ca—also; mrgan—animals; nighnanti—kill; tan—them; api—indeed; samparetan—having died; laksya-bhutan—becoming the targets; yama-purusah—the assistants of Yamaraja; isubhih—by arrows; vidhyanti—pierce.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>If in this life a man of the higher classes (brahmana, ksatriya and vaisya) is very fond of taking his pet dogs, mules or asses into the forest to hunt and kill animals unnecessarily, he is placed after death into the hell known as Pranarodha.</p>
+<p>There the assistants of Yamaraja make him their targets and pierce him with arrows.</p>
+<p><strong>PURPORT</strong></p>
+<p>In the Western countries especially, aristocrats keep dogs and horses to hunt animals in the forest.</p>
+<p>Whether in the West or the East, aristocratic men in the Kali-yuga adopt the fashion of going to the forest and unnecessarily killing animals.</p>
+<p>Men of the higher classes (the brahmanas, ksatriyas and vaisyas) should cultivate knowledge of Brahman, and they should also give the sudras a chance to come to that platform.</p>
+<p>If instead they indulge in hunting, they are punished as described in this verse.</p>
+<p>Not only are they pierced with arrows by the agents of Yamaraja, but they are also put into the ocean of pus, urine and stool described in the previous verse.</p>
+
+
+
+<p><strong>5.26.25</strong></p>
+<p>ye tv iha vai dambhika dambha-yajnesu pasun visasanti tan amusmil loke vaisase narake patitan niraya-patayo yatayitva visasanti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ye—persons who; tu—but; iha—in this life; vai—indeed; dambhikah—very proud of wealth and a prestigious position; dambha-yajnesu—in a sacrifice performed to increase prestige; pasun—animals; visasanti—kill; tan—them; amusmin loke—in the next world; vaisase—Vaisasa or Visasana; narake—into the hell; patitan—fallen; niraya-patayah—assistants of Yamaraja; yatayitva—causing sufficient pain; visasanti—kill.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>A person who in this life is proud of his eminent position, and who heedlessly sacrifices animals simply for material prestige, is put into the hell called Visasana after death.</p>
+<p>There the assistants of Yamaraja kill him after giving him unlimited pain.</p>
+<p><strong>PURPORT</strong></p>
+<p>In Bhagavad-gita (6.41) Krsna says, sucinam srimatam gehe yoga-bhrasto ’bhijayate: Because of his previous connection with bhakti-yoga, a man is born into a prestigious family of brahmanas or aristocrats Having taken such a birth, one should utilize it to perfect bhakti-yoga.</p>
+<p>However, due to bad association one often forgets that his prestigious position has been given to him by the Supreme Personality of Godhead, and he misuses it by performing various kinds of so-called yajnas like kali-puja or durga-puja, in which poor animals are sacrificed.</p>
+<p>How such a person is punished is described herein.</p>
+<p>The word dambha-yajnesu in this verse is significant.</p>
+<p>If one violates the Vedic instructions while performing yajna and simply makes a show of sacrifice for the purpose of killing animals, he is punishable after death.</p>
+<p>In Calcutta there are many slaughterhouses where animal flesh is sold that has supposedly been offered in sacrifice before the goddess Kali.</p>
+<p>The sastras enjoin that one can sacrifice a small goat before the goddess Kali once a month.</p>
+<p>Nowhere is it said that one can maintain a slaughterhouse in the name of temple worship and daily kill animals unnecessarily.</p>
+<p>Those who do so receive the punishments described herein.</p>
+
+
+
+<p><strong>5.26.26</strong></p>
+<p>yas tv iha vai savarnam bharyam dvijo retah payayati kama-mohitas tam papa-krtam amutra retah-kulyayam patayitva retah sampayayanti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—any person who; tu—but; iha—in this life; vai—indeed; savarnam—of the same caste; bharyam—his wife; dvijah—a person of a higher caste (such as a brahmana, ksatriya or vaisya); retah—the semen; payayati—causes to drink; kama-mohitah—being deluded by lusty desires; tam—him; papa-krtam—performing sin; amutra—in the next life; retah-kulyayam—in a river of semen; patayitva—throwing; retah—semen; sampayayanti—force to drink.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>If a foolish member of the twice-born classes (brahmana, ksatriya and vaisya) forces his wife to drink his semen out of a lusty desire to keep her under control, he is put after death into the hell known as Lalabhaksa.</p>
+<p>There he is thrown into a flowing river of semen, which he is forced to drink.</p>
+<p><strong>PURPORT</strong></p>
+<p>The practice of forcing one’s wife to drink one’s own semen is a black art practiced by extremely lusty persons.</p>
+<p>Those who practice this very abominable activity say that if a wife is forced to drink her husband’s semen, she remains very faithful to him.</p>
+<p>Generally only low-class men engage in this black art, but if a man born in a higher class does so, after death he is put into the hell known as Lalabhaksa.</p>
+<p>There he is immersed in the river known as Sukra-nadi and forced to drink semen.</p>
+
+
+
+<p><strong>5.26.27</strong></p>
+<p>ye tv iha vai dasyavo ’gnida garada graman sarthan va vilumpanti rajano raja-bhata va tams capi hi paretya yamaduta vajra-damstrah svanah sapta-satani vimsatis ca sarabhasam khadanti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ye—persons who; tu—but; iha—in this life; vai—indeed; dasyavah—thieves and plunderers; agni-dah—who set fire; garadah—who administer poison; graman—villages; sarthan—the mercantile class of men; va—or; vilumpanti—plunder; rajanah—kings; raja-bhatah—government officials; va—or; tan—them; ca—also; api—indeed; hi—certainly; paretya—having died; yamadutah—the assistants of Yamaraja; vajra-damstrah—having mighty teeth; svanah—dogs; sapta-satani—seven hundred; vimsatih—twenty; ca—and; sarabhasam—voraciously; khadanti—devour.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In this world, some persons are professional plunderers who set fire to others’ houses or administer poison to them.</p>
+<p>Also, members of the royalty or government officials sometimes plunder mercantile men by forcing them to pay income tax and by other methods.</p>
+<p>After death such demons are put into the hell known as Sarameyadana.</p>
+<p>On that planet there are 720 dogs with teeth as strong as thunderbolts.</p>
+<p>Under the orders of the agents of Yamaraja, these dogs voraciously devour such sinful people.</p>
+<p><strong>PURPORT</strong></p>
+<p>In the Twelfth Canto of Srimad-Bhagavatam, it is said that in this age of Kali everyone will be extremely disturbed by three kinds of tribulations: scarcity of rain, famine, and heavy taxation by the government.</p>
+<p>Because human beings are becoming more and more sinful there will be a scarcity of rain, and naturally no food grains will be produced.</p>
+<p>On the plea of relieving the suffering caused by the ensuing famine, the government will impose heavy taxes, especially on the wealthy mercantile community.</p>
+<p>In this verse, the members of such a government are described as dasyu, thieves.</p>
+<p>Their main activity will be to plunder the wealth of the people.</p>
+<p>Whether a highway robber or a government thief, such a man will be punished in his next life by being thrown into the hell known as Sarameyadana, where he will suffer greatly from the bites of ferocious dogs.</p>
+
+
+
+<p><strong>5.26.28</strong></p>
+<p>yas tv iha va anrtam vadati saksye dravya-vinimaye dane va kathancit sa vai pretya narake ’vicimaty adhah-sira niravakase yojana-satocchrayad giri-murdhnah sampatyate yatra jalam iva sthalam asma-prstham avabhasate tad avicimat tilaso visiryamana-sariro na mriyamanah punar aropito nipatati.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—anyone who; tu—but; iha—in this life; va—or; anrtam—a lie; vadati—speaks; saksye—giving witness; dravya-vinimaye—in exchange for goods; dane—in giving charity; va—or; kathancit—somehow; sah—that person; vai—indeed; pretya—after dying; narake—in the hell; avicimati—named Avicimat (having no water); adhah-sirah—with his head downward; niravakase—without support; yojana-sata—of eight hundred miles; ucchrayat—having a height; giri—of a mountain; murdhnah—from the top; sampatyate—is thrown; yatra—where; jalam iva—like water; sthalam—land; asma-prstham—having a surface of stone; avabhasate—appears; tat—that; avicimat—having no water or waves; tilasah—in pieces as small as seeds; visiryamana—being broken; sarirah—the body; na mriyamanah—not dying; punah—again; aropitah—raised to the top; nipatati—falls down.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>A person who in this life bears false witness or lies while transacting business or giving charity is severely punished after death by the agents of Yamaraja.</p>
+<p>Such a sinful man is taken to the top of a mountain eight hundred miles high and thrown headfirst into the hell known as Avicimat.</p>
+<p>This hell has no shelter and is made of strong stone resembling the waves of water.</p>
+<p>There is no water there, however, and thus it is called Avicimat (waterless).</p>
+<p>Although the sinful man is repeatedly thrown from the mountain and his body broken to tiny pieces, he still does not die but continuously suffers chastisement.</p>
+
+
+
+<p><strong>5.26.29</strong></p>
+<p>yas tv iha vai vipro rajanyo vaisyo va soma-pithas tat-kalatram va suram vrata-stho ’pi va pibati pramadatas tesam nirayam nitanam urasi padakramyasye vahnina dravamanam karsnayasam nisincanti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—anyone who; tu—but; iha—in this life; vai—indeed; viprah—a learned brahmana; rajanyah—a ksatriya; vaisyah—a vaisya; va—or; soma-pithah—drink soma-rasa; tat—his; kalatram—wife; va—or; suram—liquor; vrata-sthah—being situated in a vow; api—certainly; va—or; pibati—drinks; pramadatah—out of illusion; tesam—of all of them; nirayam—to hell; nitanam—being brought; urasi—on the chest; pada—with the foot; akramya—stepping; asye—in the mouth; vahnina—by fire; dravamanam—melted; karsnayasam—iron; nisincanti—they pour into.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Any brahmana or brahmana’s wife who drinks liquor is taken by the agents of Yamaraja to the hell known as Ayahpana.</p>
+<p>This hell also awaits any ksatriya, vaisya, or person under a vow who in illusion drinks soma-rasa.</p>
+<p>In Ayahpana the agents of Yamaraja stand on their chests and pour hot melted iron into their mouths.</p>
+<p><strong>PURPORT</strong></p>
+<p>One should not be a brahmana in name only and engage in all kinds of sinful activities, especially drinking liquor.</p>
+<p>Brahmanas, ksatriyas and vaisyas must behave according to the principles of their order.</p>
+<p>If they fall down to the level of sudras, who are accustomed to drink liquor they will be punished as described herein.</p>
+
+
+
+<p><strong>5.26.30</strong></p>
+<p>atha ca yas tv iha va atma-sambhavanena svayam adhamo janma-tapo-vidyacara-varnasramavato variyaso na bahu manyeta sa mrtaka eva mrtva ksarakardame niraye ’vak-sira nipatito duranta yatana hy asnute.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atha—furthermore; ca—also; yah—anyone who; tu—but; iha—in this life; va—or; atma-sambhavanena—by false prestige; svayam—himself; adhamah—very degraded; janma—good birth; tapah—austerities; vidya—knowledge; acara—good behavior; varna-asrama-vatah—in terms of strictly following the principles of varnasrama; variyasah—of one who is more honorable; na—not; bahu—much; manyeta—respects; sah—he; mrtakah—a dead body; eva—only; mrtva—after dying; ksarakardame—named Ksarakardama; niraye—in the hell; avak-sira—with his head downward; nipatitah—thrown; durantah yatanah—severe painful conditions; hi—indeed; asnute—suffers.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>A lowborn and abominable person who in this life becomes falsely proud, thinking I am great and who thus fails to show proper respect to one more elevated than he by birth, austerity, education, behavior, caste or spiritual order, is like a dead man even in this lifetime, and after death he is thrown headfirst into the hell known as Ksarakardama.</p>
+<p>There he must great suffer great tribulation at the hands of the agents of Yamaraja.</p>
+<p><strong>PURPORT</strong></p>
+<p>One should not become falsely proud.</p>
+<p>One must be respectful toward a person more elevated than he by birth, education, behavior, caste or spiritual order.</p>
+<p>If one does not show respect to such highly elevated persons but indulges in false pride, he receives punishment in Ksarakardama.</p>
+
+
+
+<p><strong>5.26.31</strong></p>
+<p>ye tv iha vai purusah purusa-medhena yajante yas ca striyo nr-pasun khadanti tams ca te pasava iva nihata yama-sadane yatayanto rakso-ganah saunika iva svadhitinavadayasrk pibanti nrtyanti ca gayanti ca hrsyamana yatheha purusadah.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ye—persons who; tu—but; iha—in this life; vai—indeed; purusah—men; purusa-medhena—by sacrifice of a man; yajante—worship (the goddess Kali or Bhadra Kali); yah—those who; ca—and; striyah—women; nr-pasun—the men used as sacrifice; khadanti—eat; tan—them; ca—and; te—they; pasavah iva—like the animals; nihatah—being slain; yama-sadane—in the abode of Yamaraja; yatayantah—punishing; raksah-ganah—being Raksasas; saunikah—the killers; iva—like; svadhitina—by a sword; avadaya—cutting to pieces; asrk—the blood; pibanti—drink; nrtyanti—dance; ca—and; gayanti—sing; ca—also; hrsyamanah—being delighted; yatha—just like; iha—in this world; purusa-adah—the man-eaters.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>There are men and women in this world who sacrifice human beings to Bhairava or Bhadra Kali and then eat their victims’ flesh.</p>
+<p>Those who perform such sacrifices are taken after death to the abode of Yamaraja, where their victims, having taken the form of Raksasas, cut them to pieces with sharpened swords.</p>
+<p>Just as in this world the man-eaters drank their victims’ blood, dancing and singing in jubilation, their victims now enjoy drinking the blood of the sacrificers and celebrating in the same way.</p>
+
+
+
+<p><strong>5.26.32</strong></p>
+<p>ye tv iha va anagaso ’ranye grame va vaisrambhakair upasrtan upavisrambhayya jijivisun sula-sutradisupaprotan kridanakataya yatayanti te ’pi ca pretya yama-yatanasu suladisu protatmanah ksut-trdbhyam cabhihatah kanka-vatadibhis cetas tatas tigma-tundair ahanyamana atma-samalam smaranti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ye—persons who; tu—but; iha—in this life; va—or; anagasah—who are faultless; aranye—in the forest; grame—in the village; va—or; vaisrambhakaih—by means of good faith; upasrtan—brought near; upavisrambhayya—inspiring with confidence; jijivisun—who want to be protected; sula-sutra-adisu—on a lance, thread, and so on; upaprotan—fixed; kridanakataya—like a plaything; yatayanti—cause pain; te—those persons; api—certainly; ca—and; pretya—after dying; yama-yatanasu—the persecutions of Yamaraja; sula-adisu—on lances and so on; prota-atmanah—whose bodies are fixed; ksut-trdbhyam—by hunger and thirst; ca—also; abhihatah—overwhelmed; kanka-vata-adibhih—by birds such as herons and vultures; ca—and; itah tatah—here and there; tigma-tundaih—having pointed beaks; ahanyamanah—being tortured; atma-samalam—own sinful activities; smaranti—they remember.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In this life some people give shelter to animals and birds that come to them for protection in the village or forest, and after making them believe that they will be protected, such people pierce them with lances or threads and play with them like toys, giving them great pain.</p>
+<p>After death such people are brought by the assistants of Yamaraja to the hell known as Sulaprota, where their bodies are pierced with sharp, needlelike lances.</p>
+<p>They suffer from hunger and thirst, and sharp-beaked birds such as vultures and herons come at them from all sides to tear at their bodies.</p>
+<p>Tortured and suffering, they can then remember the sinful activities they committed in the past.</p>
+
+
+
+<p><strong>5.26.33</strong></p>
+<p>ye tv iha vai bhutany udvejayanti nara ulbana-svabhava yatha dandasukas te ’pi pretya narake dandasukakhye nipatanti yatra nrpa dandasukah panca-mukhah sapta-mukha upasrtya grasanti yatha bilesayan.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ye—persons who; tu—but; iha—in this life; vai—indeed; bhutani—to living entities; udvejayanti—cause unnecessary pain; narah—men; ulbana-svabhavah—angry by nature; yatha—just like; dandasukah—snakes; te—they; api—also; pretya—after dying; narake—in the hell; dandasuka-akhye—named Dandasuka; nipatanti—fall down; yatra—where; nrpa—O King; dandasukah—serpents; panca-mukhah—having five hoods; sapta-mukhah—having seven hoods; upasrtya—reaching up; grasanti—eat; yatha—just like; bilesayan—mice.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Those who in this life are like envious serpents, always angry and giving pain to other living entities, fall after death into the hell known as Dandasuka.</p>
+<p>My dear King, in this hell there are serpents with five or seven hoods.</p>
+<p>These serpents eat such sinful persons just as snakes eat mice.</p>
+
+
+
+<p><strong>5.26.34</strong></p>
+<p>ye tv iha va andhavata-kusula-guhadisu bhutani nirundhanti tathamutra tesv evopavesya sagarena vahnina dhumena nirundhanti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ye—persons who; tu—but; iha—in this life; va—or; andha-avata—a blind well; kusula—granaries; guha-adisu—and in caves; bhutani—the living entities; nirundhanti—confine; tatha—similarly; amutra—in the next life; tesu—in those same places; eva—certainly; upavesya—causing to enter; sagarena—with poisonous fumes; vahnina—with fire; dhumena—with smoke; nirundhanti—confine.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Those who in this life confine other living entities in dark wells, granaries or mountain caves are put after death into the hell known as Avata-nirodhana.</p>
+<p>There they themselves are pushed into dark wells, where poisonous fumes and smoke suffocate them and they suffer very severely.</p>
+
+
+
+<p><strong>5.26.35</strong></p>
+<p>yas tv iha va atithin abhyagatan va grha-patir asakrd upagata-manyur didhaksur iva papena caksusa niriksate tasya capi niraye papa-drster aksini vajra-tunda grdhrah kanka-kaka-vatadayah prasahyoru-balad utpatayanti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—a person who; tu—but; iha—in this life; va—or; atithin—guests; abhyagatan—visitors; va—or; grha-patih—a householder; asakrt—many times; upagata—obtaining; manyuh—anger; didhaksuh—one desiring to burn; iva—like; papena—sinful; caksusa—with eyes; niriksate—looks at; tasya—of him; ca—and; api—certainly; niraye—in hell; papa-drsteh—of he whose vision has become sinful; aksini—the eyes; vajra-tundah—those who have powerful beaks; grdhrah—vultures; kanka—herons; kaka—crows; vata-adayah—and other birds; prasahya—violently; uru-balat—with great force; utpatayanti—pluck out.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>A householder who receives guests or visitors with cruel glances, as if to burn them to ashes, is put into the hell called Paryavartana, where he is gazed at by hard-eyed vultures, herons, crows and similar birds, which suddenly swoop down and pluck out his eyes with great force.</p>
+<p><strong>PURPORT</strong></p>
+<p>According to the Vedic etiquette, even an enemy who comes to a householder’s home should be received in such a gentle way that he forgets that he has come to the home of an enemy.</p>
+<p>A guest who comes to one’s home should be received very politely.</p>
+<p>If he is unwanted, the householder should not stare at him with blinking eyes, for one who does so will be put into the hell known as Paryavartana after death, and there many ferocious birds like vultures, crows, and coknis will suddenly come upon him and pluck out his eyes.</p>
+
+
+
+<p><strong>5.26.36</strong></p>
+<p>yas tv iha va adhyabhimatir ahankrtis tiryak-preksanah sarvato ’bhivisanki artha-vyaya-nasa-cintaya parisusyamana-hrdaya-vadano nirvrtim anavagato graha ivartham abhiraksati sa capi pretya tad-utpadanotkarsana-samraksana-samala-grahah sucimukhe narake nipatati yatra ha vitta-graham papa-purusam dharmaraja-purusa vayaka iva sarvato ’ngesu sutraih parivayanti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—any person who; tu—but; iha—in this world; va—or; adhya-abhimatih—proud because of wealth; ahankrtih—egotistic; tiryak-preksanah—whose vision is crooked; sarvatah abhivisanki—always fearful of being cheated by others, even by superiors; artha-vyaya-nasa-cintaya—by the thought of expenditure and loss; parisusyamana—dried up; hrdaya-vadanah—his heart and face; nirvrtim—happiness; anavagatah—not obtaining; grahah—a ghost; iva—like; artham—wealth; abhiraksati—protects; sah—he; ca—also; api—indeed; pretya—after dying; tat—of those riches; utpadana—of the earning; utkarsana—increasing; samraksana—protecting; samala-grahah—accepting the sinful activities; sucimukhe—named Sucimukha; narake—in the hell; nipatati—falls down; yatra—where; ha—indeed; vitta-graham—as a money-grabbing ghost; papa-purusam—very sinful man; dharmaraja-purusah—the commanding men of Yamaraja; vayakah iva—like expert weavers; sarvatah—all over; angesu—on the limbs of the body; sutraih—by threads; parivayanti—stitch.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>One who in this world or this life is very proud of his wealth always thinks, I am so rich.</p>
+<p>Who can equal me His vision is twisted, and he is always afraid that someone will take his wealth.</p>
+<p>Indeed, he even suspects his superiors.</p>
+<p>His face and heart dry up at the thought of losing his wealth, and therefore he always looks like a wretched fiend.</p>
+<p>He is not in any way able to obtain actual happiness, and he does not know what it is to be free from anxiety.</p>
+<p>Because of the sinful things he does to earn money, augment his wealth and protect it, he is put into the hell called Sucimukha, where the officials of Yamaraja punish him by stitching thread through his entire body like weavers manufacturing cloth.</p>
+<p><strong>PURPORT</strong></p>
+<p>When one possesses more wealth than necessary, he certainly becomes very proud.</p>
+<p>This is the situation of men in modern civilization.</p>
+<p>According to the Vedic culture, brahmanas do not possess anything, whereas ksatriyas possess riches, but only for performing sacrifices and other noble activities as prescribed in the Vedic injunctions.</p>
+<p>A vaisya also earns money honestly through agriculture, cow protection and some trade.</p>
+<p>If a sudra gets money, however, he will spend it lavishly, without discrimination, or simply accumulate it for no purpose.</p>
+<p>Because in this age there are no qualified brahmanas, ksatriyas or vaisyas, almost everyone is a sudra (kalau sudra-sambhavah).</p>
+<p>Therefore the sudra mentality is causing great harm to modern civilization.</p>
+<p>A sudra does not know how to use money to render transcendental loving service to the Lord.</p>
+<p>Money is also called laksmi, and Laksmi is always engaged in the service of Narayana.</p>
+<p>Wherever there is money, it must be engaged in the service of Lord Narayana.</p>
+<p>Everyone should use his money to spread the great transcendental movement of Krsna consciousness.</p>
+<p>If one does not spend money for this purpose but accumulates more than necessary, he will certainly become proud of the money he illegally possesses.</p>
+<p>The money actually belongs to Krsna, who says in Bhagavad-gita (5.29), bhoktaram yajna-tapasam sarva-loka-mahesvaram: I am the true enjoyer of sacrifices and penances, and I am the owner of all the planets Therefore nothing belongs to anyone but Krsna.</p>
+<p>One who possesses more money than he needs should spend it for Krsna.</p>
+<p>Unless one does so, he will become puffed up because of his false possessions, and therefore he will be punished in the next life, as described herein.</p>
+
+
+
+<p><strong>5.26.37</strong></p>
+<p>evam-vidha naraka yamalaye santi satasah sahasrasas tesu sarvesu ca sarva evadharma-vartino ye kecid ihodita anuditas cavani-pate paryayena visanti tathaiva dharmanuvartina itaratra iha tu punar-bhave ta ubhaya-sesabhyam nivisanti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>evam-vidhah—of this sort; narakah—the many hells; yama-alaye—in the province of Yamaraja; santi—are; satasah—hundreds; sahasrasah—thousands; tesu—in those hellish planets; sarvesu—all; ca—also; sarve—all; eva—indeed; adharma-vartinah—persons not following the Vedic principles or regulative principles; ye kecit—whosoever; iha—here; uditah—mentioned; anuditah—not mentioned; ca—and; avani-pate—O King; paryayena—according to the degree of different kinds of sinful activity; visanti—they enter; tatha eva—similarly; dharma-anuvartinah—those who are pious and act according to the regulative principles or Vedic injunctions; itaratra—elsewhere; iha—on this planet; tu—but; punah-bhave—into another birth; te—all of them; ubhaya-sesabhyam—by the remainder of the results of piety or vice; nivisanti—they enter.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear King Pariksit, in the province of Yamaraja there are hundreds and thousands of hellish planets.</p>
+<p>The impious people I have mentioned—and also those I have not mentioned—must all enter these various planets according to the degree of their impiety.</p>
+<p>Those who are pious, however, enter other planetary systems, namely the planets of the demigods.</p>
+<p>Nevertheless, both the pious and impious are again brought to earth after the results of their pious or impious acts are exhausted.</p>
+<p><strong>PURPORT</strong></p>
+<p>This corresponds to the beginning of Lord Krsna’s instructions in Bhagavad-gita.</p>
+<p>Tatha dehantara-praptih: within this material world, one is simply meant to change from one body to another in different planetary systems.</p>
+<p>Urdhvam gacchanti sattva-stha: (Bg.14.18) those in the mode of goodness are elevated to the heavenly planets.</p>
+<p>Adho gacchanti tamasah: similarly, those too engrossed in ignorance enter the hellish planetary systems.</p>
+<p>Both of them, however, are subjected to the repetition of birth and death.</p>
+<p>In Bhagavad-gita it is stated that even one who is very pious returns to earth after his enjoyment in the higher planetary systems is over (ksine punye martya-lokam visanti (Bg.9.21)).</p>
+<p>Therefore, going from one planet to another does not solve the problems of life.</p>
+<p>The problems of life will only be solved when we no longer have to accept a material body.</p>
+<p>This can be possible if one simply becomes Krsna conscious.</p>
+<p>As Krsna says in Bhagavad-gita (4.9):</p>
+<p>janma karma ca me divyam</p>
+<p>evam yo vetti tattvatah</p>
+<p>tyaktva deham punar janma</p>
+<p>naiti mam eti so ’rjuna</p>
+<p>One who knows the transcendental nature of My appearance and activities does not, upon leaving the body, take his birth again in this material world, but attains My eternal abode, O Arjuna This is the perfection of life and the real solution to life’s problems.</p>
+<p>We should not be eager to go to the higher, heavenly planetary systems, nor should we act in such a way that we have to go to the hellish planets.</p>
+<p>The complete purpose of this material world will be fulfilled when we resume our spiritual identities and go back home, back to Godhead.</p>
+<p>The very simple method for doing this is prescribed by the Supreme Personality of Godhead.</p>
+<p>Sarva-dharman parityajya mam ekam saranam vraja (Bg.18.66).</p>
+<p>One should be neither pious nor impious.</p>
+<p>One should be a devotee and surrender to the lotus feet of Krsna.</p>
+<p>This surrendering process is also very easy.</p>
+<p>Even a child can perform it.</p>
+<p>Man-mana bhava mad-bhakto mad-yaji mam namaskuru (Bg.18.65).</p>
+<p>One must always simply think of Krsna by chanting Hare Krsna, Hare Krsna, Krsna Krsna, Hare Hare/ Hare Rama.</p>
+<p>Hare Rama, Rama Rama, Hare Hare.</p>
+<p>One should become Krsna’s devotee worship Him and offer obeisances to Him.</p>
+<p>Thus one should engage all the activities of his life in the service of Lord Krsna.</p>
+
+
+
+<p><strong>5.26.38</strong></p>
+<p>nivrtti-laksana-marga adav eva vyakhyatah; etavan evanda-koso yas caturdasadha puranesu vikalpita upagiyate yat tad bhagavato narayanasya saksan maha-purusasya sthavistham rupam atmamaya-gunamayam anuvarnitam adrtah pathati srnoti sravayati sa upageyam bhagavatah paramatmano ’grahyam api sraddha-bhakti-visuddha-buddhir veda.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>nivrtti-laksana-margah—the path symptomized by renunciation, or the path of liberation; adau—in the beginning (the Second and Third Cantos); eva—indeed; vyakhyatah—described; etavan—this much; eva—certainly; anda-kosah—the universe, which resembles a big egg; yah—which; caturdasa-dha—in fourteen parts; puranesu—in the puranas; vikalpitah—divided; upagiyate—is described; yat—which; tat—that; bhagavatah—of the Supreme Personality of Godhead; narayanasya—of Lord Narayana; saksat—directly; maha-purusasya—of the Supreme Person; sthavistham—the gross; rupam—form; atma-maya—of His own energy; guna—of the qualities; mayam—consisting; anuvarnitam—described; adrtah—venerating; pathati—one reads; srnoti—or hears; sravayati—or explains; sah—that person; upageyam—song; bhagavatah—of the Supreme Personality of Godhead; paramatmanah—of the Supersoul; agrahyam—difficult to understand; api—although; sraddha—by faith; bhakti—and devotion; visuddha—purified; buddhih—whose intelligence; veda—understands.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In the beginning (the Second and Third Cantos of Srimad-Bhagavatam) I have already described how one can progress on the path of liberation.</p>
+<p>In the Puranas the vast universal existence, which is like an egg divided into fourteen parts, is described.</p>
+<p>This vast form is considered the external body of the Lord, created by His energy and qualities.</p>
+<p>It is generally called the virat-rupa.</p>
+<p>If one reads the description of this external form of the Lord with great faith, or if one hears about it or explains it to others to propagate bhagavata-dharma, or Krsna consciousness, his faith and devotion in spiritual consciousness, Krsna consciousness, will gradually increase.</p>
+<p>Although developing this consciousness is very difficult, by this process one can purify himself and gradually come to an awareness of the Supreme Absolute Truth.</p>
+<p><strong>PURPORT</strong></p>
+<p>The Krsna consciousness movement is pushing forward the publication of Srimad-Bhagavatam, as explained especially for the understanding of the modern civilized man, to awaken him to his original consciousness.</p>
+<p>Without this consciousness, one melts into complete darkness.</p>
+<p>Whether one goes to the upper planetary systems or the hellish planetary systems, he simply wastes his time.</p>
+<p>Therefore one should hear of the universal position of the virat form of the Lord as described in Srimad-Bhagavatam.</p>
+<p>That will help one save himself from material conditional life and gradually elevate him to the path of liberation so that he can go back home, back to Godhead.</p>
+
+
+
+<p><strong>5.26.39</strong></p>
+<p>srutva sthulam tatha suksmam</p>
+<p>rupam bhagavato yatih</p>
+<p>sthule nirjitam atmanam</p>
+<p>sanaih suksmam dhiya nayed iti</p>
+<p><strong>SYNONYMS</strong></p>
+<p>srutva—after hearing of (from the disciplic succession); sthulam—gross; tatha—as well as; suksmam—subtle; rupam—form; bhagavatah—of the Supreme Personality of Godhead; yatih—a sannyasi or devotee; sthule—the gross form; nirjitam—conquered; atmanam—the mind; sanaih—gradually; suksmam—the subtle spiritual form of the Lord; dhiya—by intelligence; nayet—one should lead it to; iti—thus.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>One who is interested in liberation, who accepts the path of liberation and is not attracted to the path of conditional life, is called yati, or a devotee.</p>
+<p>Such a person should first control his mind by thinking of the virat-rupa, the gigantic universal form of the Lord, and then gradually think of the spiritual form of Krsna (sac-cid-ananda-vigraha (Bs.5.1)) after hearing of both forms.</p>
+<p>Thus one’s mind is fixed in samadhi.</p>
+<p>By devotional service one can then realize the spiritual form of the Lord, which is the destination of devotees.</p>
+<p>Thus his life becomes successful.</p>
+<p><strong>PURPORT</strong></p>
+<p>It is said, mahat-sevam dvaram ahur vimukteh: (SB 5.5.2) if one wants to progress on the path of liberation, he should associate with mahatmas, or liberated devotees, because in such association there is a full chance for hearing, describing and chanting about the name, form, qualities and paraphernalia of the Supreme Personality of Godhead, all of which are described in Srimad-Bhagavatam.</p>
+<p>On the path of bondage, one eternally undergoes the repetition of birth and death.</p>
+<p>One who desires liberation from such bondage should join the International Society for Krishna Consciousness and thus take advantage of the opportunity to hear Srimad-Bhagavatam from devotees and also explain it to propagate Krsna consciousness.</p>
+
+
+
+<p><strong>5.26.40</strong></p>
+<p>bhu-dvipa-varsa-sarid-adri-nabhah-samudra-</p>
+<p>patala-din-naraka-bhagana-loka-samstha</p>
+<p>gita maya tava nrpadbhutam isvarasya</p>
+<p>sthulam vapuh sakala-jiva-nikaya-dhama</p>
+<p><strong>SYNONYMS</strong></p>
+<p>bhu—of this planet earth; dvipa—and other different planetary systems; varsa—of tracts of land; sarit—rivers; adri—mountains; nabhah—the sky; samudra—oceans; patala—lower planets; dik—directions; naraka—the hellish planets; bhagana-loka—the luminaries and higher planets; samstha—the situation; gita—described; maya—by me; tava—for you; nrpa—O King; adbhutam—wonderful; isvarasya—of the Supreme Personality of Godhead; sthulam—gross; vapuh—body; sakala-jiva-nikaya—of all the masses of living entities; dhama—which is the place of repose.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear King, I have now described for you this planet earth, other planetary systems, and their lands (varsas), rivers and mountains.</p>
+<p>I have also described the sky, the oceans, the lower planetary systems, the directions, the hellish planetary systems and the stars.</p>
+<p>These constitute the virat-rupa, the gigantic material form of the Lord, on which all living entities repose.</p>
+<p>Thus I have explained the wonderful expanse of the external body of the Lord.</p>
+<p>Its translation is as follows.</p>
+<p>Learned scholars who have full knowledge of all the Vedic scriptures agree that the incarnations of the Supreme Personality of Godhead are innumerable.</p>
+<p>These incarnations are classified into two divisions, called prabhava and vaibhava.</p>
+<p>According to the scriptures, prabhava incarnations are also classified in two divisions—those which are called eternal and those which are not vividly described.</p>
+<p>In this Fifth Canto of Srimad-Bhagavatam, in Chapters Three through Six, there is a description of Rsabhadeva, but there is not an expanded description of His spiritual activities.</p>
+<p>Therefore He is considered to belong to the second group of prabhava incarnations.</p>
+<p>In Srimad-Bhagavatam, First Canto, Chapter Three, verse 13 it is said:</p>
+<p>astame merudevyam tu</p>
+<p>nabher jata urukramah</p>
+<p>darsayan vartma dhiranam</p>
+<p>sarvasrama-namaskrtam</p>
+<p>Lord Visnu appeared in the eighth incarnation as the son of Maharaja Nabhi (the son of Agnidhra) and his wife Merudevi.</p>
+<p>He showed the path of perfection, the paramahamsa stage of life, which is worshiped by all the followers of varnasrama-dharma Rsabhadeva is the Supreme Personality of Godhead, and His body is spiritual (sac-cid-ananda-vigraha (Bs.5.1)).</p>
+<p>Therefore one might ask how it might be possible that he passed stool and urine.</p>
+<p>The Gaudiya vedanta acarya Baladeva Vidyabhusana has replied to this question in his book known as Siddhanta-ratna (First Portion, texts 65–68).</p>
+<p>Imperfect men call attention to Rsabhadeva’s passing stool and urine as a subject matter for the study of nondevotees, who do not understand the spiritual position of a transcendental body.</p>
+<p>Srimad-Bhagavatam (5.6.11) the illusioned and bewildered state of the materialists of this age is fully described.</p>
+<p>Elsewhere in Fifth Canto (5.5.19) Rsabhadeva stated, idam sariram mama durvibhavyam: This body of Mine is inconceivable for materialists This is also confirmed by Lord Krsna in Bhagavad-gita (9.11):</p>
+<p>avajananti mam mudha</p>
+<p>manusim tanum asritam</p>
+<p>param bhavam ajananto</p>
+<p>mama bhuta-mahesvaram</p>
+<p>Fools deride Me when I descend in the human form.</p>
+<p>They do not know My transcendental nature and My supreme dominion over all that be The human form of the Supreme Personality of Godhead is extremely difficult to understand, and, in fact, for a common man it is inconceivable.</p>
+<p>Therefore Rsabhadeva has directly explained that His own body belongs to the spiritual platform.</p>
+<p>This being so.</p>
+<p>Rsabhadeva did not actually pass stool and urine.</p>
+<p>Even though He superficially seemed to pass stool and urine, that was also transcendental and cannot be imitated by any common man.</p>
+<p>It is also stated in Srimad-Bhagavatam that the stool and urine of Rsabhadeva were full of transcendental fragrance.</p>
+<p>One may imitate Rsabhadeva, but he cannot imitate Him by passing stool that is fragrant.</p>
+<p>The activities of Rsabhadeva, therefore, do not support the claims of a certain class of men known as arhat, who sometimes advertise that they are followers of Rsabhadeva.</p>
+<p>How can they be followers of Rsabhadeva while they act against the Vedic principles? Sukadeva Gosvami has related that after hearing about the characteristics of Lord Rsabhadeva, the King of Konka, Venka and Kutaka initiated a system of religious principles known as arhat.</p>
+<p>These principles were not in accord with Vedic principles, and therefore they are called pasanda-dharma.</p>
+<p>The members of the arhat community considered Rsabhadeva’s activities material.</p>
+<p>However, Rsabhadeva is an incarnation of the Supreme Personality of Godhead.</p>
+<p>Therefore He is on the transcendental platform, and no one can compare to Him.</p>
+<p>Rsabhadeva personally exhibited the activities of the Supreme Personality of Godhead.</p>
+<p>Srimad-Bhagavatam (5.6.8), davanalas tad vanam alelihanah saha tena dadaha: at the conclusion of Rsabhadeva’s pastimes, an entire forest and the Lord’s body were burned to ashes in a great forest fire.</p>
+<p>In the same way, Rsabhadeva burned people’s ignorance to ashes.</p>
+<p>He exhibited the characteristics of a paramahamsa in His instructions to His sons.</p>
+<p>The principles of the arhat community, however, do not correspond to the teachings of Rsabhadeva.</p>
+<p>Srila Baladeva Vidyabhusana remarks that in the Eighth Canto of Srimad-Bhagavatam there is another description of Rsabhadeva, but that Rsabhadeva is different from the one described in this canto.</p>
+<p>END OF THE FIFTH CANTO</p>
+
+
+</article></body></html>

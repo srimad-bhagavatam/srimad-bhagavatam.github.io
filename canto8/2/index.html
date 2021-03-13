@@ -1,154 +1,41 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>The Elephant Gajendra’s Crisis - The Elephant Gajendra’s Crisis</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">The Elephant Gajendra’s Crisis</a></li><li class="affix"><a href="8.2.2-3.html">8.2.2-3</a></li><li class="affix"><a href="8.2.4.html">8.2.4</a></li><li class="affix"><a href="8.2.5.html">8.2.5</a></li><li class="affix"><a href="8.2.6.html">8.2.6</a></li><li class="affix"><a href="8.2.7.html">8.2.7</a></li><li class="affix"><a href="8.2.8.html">8.2.8</a></li><li class="affix"><a href="8.2.9-13.html">8.2.9-13</a></li><li class="affix"><a href="8.2.14-19.html">8.2.14-19</a></li><li class="affix"><a href="8.2.20.html">8.2.20</a></li><li class="affix"><a href="8.2.21.html">8.2.21</a></li><li class="affix"><a href="8.2.22.html">8.2.22</a></li><li class="affix"><a href="8.2.23-24.html">8.2.23-24</a></li><li class="affix"><a href="8.2.25.html">8.2.25</a></li><li class="affix"><a href="8.2.26.html">8.2.26</a></li><li class="affix"><a href="8.2.27.html">8.2.27</a></li><li class="affix"><a href="8.2.28.html">8.2.28</a></li><li class="affix"><a href="8.2.29.html">8.2.29</a></li><li class="affix"><a href="8.2.30.html">8.2.30</a></li><li class="affix"><a href="8.2.31.html">8.2.31</a></li><li class="affix"><a href="8.2.32.html">8.2.32</a></li><li class="affix"><a href="8.2.33.html">8.2.33</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">The Elephant Gajendra’s Crisis</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#the-elephant-gajendras-crisis" id="the-elephant-gajendras-crisis">The Elephant Gajendra’s Crisis</a></h1>
-<h3><a class="header" href="#821" id="821">8.2.1</a></h3>
+<h1>The Elephant Gajendra’s Crisis</h1>
+<p><strong>8.2.1</strong></p>
 <p>sri-suka uvaca</p>
 <p>asid girivaro rajams</p>
 <p>trikuta iti visrutah</p>
@@ -161,63 +48,480 @@
 <p>It is ten thousand yojanas (eighty thousand miles) high.</p>
 <p>Being surrounded by the ocean of milk, it is very beautifully situated.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="8.2.2-3.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>8.2.2-3</strong></p>
+<p>tavata vistrtah paryak</p>
+<p>tribhih srngaih payo-nidhim</p>
+<p>disah kham rocayann aste</p>
+<p>raupyayasa-hiranmayaih</p>
+<p>anyais ca kakubhah sarva</p>
+<p>ratna-dhatu-vicitritaih</p>
+<p>nana-druma-lata-gulmair</p>
+<p>nirghosair nirjharambhasam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tavata—in that way; vistrtah—length and breadth (eighty thousand miles); paryak—all around; tribhih—with three; srngaih—peaks; payah-nidhim—situated on an island in the ocean of milk; disah—all directions; kham—the sky; rocayan—pleasing; aste—standing; raupya—made of silver; ayasa—iron; hiranmayaih—and gold; anyaih—with other peaks; ca—also; kakubhah—directions; sarvah—all; ratna—with jewels; dhatu—and minerals; vicitritaih—decorated very nicely; nana—with various; druma-lata—trees and creepers; gulmaih—and shrubs; nirghosaih—with the sounds of; nirjhara—waterfalls; ambhasam—of water.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The length and breadth of the mountain are of the same measurement (eighty thousand miles).</p>
+<p>Its three principal peaks, which are made of iron, silver and gold, beautify all directions and the sky.</p>
+<p>The mountain also has other peaks, which are full of jewels and minerals and are decorated with nice trees, creepers and shrubs.</p>
+<p>The sounds of the waterfalls on the mountain create a pleasing vibration.</p>
+<p>In this way the mountain stands, increasing the beauty of all directions.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="8.2.2-3.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>8.2.4</strong></p>
+<p>sa cavanijyamananghrih</p>
+<p>samantat paya-urmibhih</p>
+<p>karoti syamalam bhumim</p>
+<p>harin-marakatasmabhih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—that mountain; ca—also; avanijyamana-anghrih—whose foot is always washed; samantat—all around; payah-urmibhih—by waves of milk; karoti—makes; syamalam—dark green; bhumim—ground; harit—green; marakata—with emerald; asmabhih—stones.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The ground at the foot of the mountain is always washed by waves of milk that produce emeralds all around in the eight directions (north, south, east, west and the directions midway between them).</p>
+<p><strong>PURPORT</strong></p>
+<p>From Srimad-Bhagavatam we understand that there are various oceans.</p>
+<p>Somewhere there is an ocean filled with milk, somewhere an ocean of liquor, an ocean of ghee, an ocean of oil, and an ocean of sweet water.</p>
+<p>Thus there are different varieties of oceans within this universe.</p>
+<p>The modern scientists, who have only limited experience, cannot defy these statements; they cannot give us full information about any planet, even the planet on which we live.</p>
+<p>From this verse, however, we can understand that if the valleys of some mountains are washed with milk, this produces emeralds.</p>
+<p>No one has the ability to imitate the activities of material nature as conducted by the Supreme Personality of Godhead.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>8.2.5</strong></p>
+<p>siddha-carana-gandharvair</p>
+<p>vidyadhara-mahoragaih</p>
+<p>kinnarair apsarobhis ca</p>
+<p>kridadbhir justa-kandarah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>siddha—by the inhabitants of Siddhaloka; carana—the inhabitants of Caranaloka; gandharvaih—the inhabitants of Gandharvaloka; vidyadhara—the inhabitants of Vidyadhara-loka; maha-uragaih—the inhabitants of the serpent loka; kinnaraih—the Kinnaras; apsarobhih—the Apsaras; ca—and; kridadbhih—who were engaged in sporting; justa—enjoyed; kandarah—the caves.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The inhabitants of the higher planets—the Siddhas, Caranas, Gandharvas, Vidyadharas, serpents, Kinnaras and Apsaras—go to that mountain to sport.</p>
+<p>Thus all the caves of the mountain are full of these denizens of the heavenly planets.</p>
+<p><strong>PURPORT</strong></p>
+<p>As ordinary men may play in the salty ocean, the inhabitants of the higher planetary systems go to the ocean of milk.</p>
+<p>They float in the ocean of milk and also enjoy various sports within the caves of Trikuta Mountain.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>8.2.6</strong></p>
+<p>yatra sangita-sannadair</p>
+<p>nadad-guham amarsaya</p>
+<p>abhigarjanti harayah</p>
+<p>slaghinah para-sankaya</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yatra—in that mountain (Trikuta); sangita—of singing; sannadaih—with the vibrations; nadat—resounding; guham—the caves; amarsaya—because of unbearable anger or envy; abhigarjanti—roar; harayah—the lions; slaghinah—being very proud of their strength; para-sankaya—because of suspecting another lion.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Because of the resounding vibrations of the denizens of heaven singing in the caves, the lions there, being very proud of their strength, roar with unbearable envy, thinking that another lion is roaring in that way.</p>
+<p><strong>PURPORT</strong></p>
+<p>In the higher planetary systems, there are not only different types of human beings, but also animals like lions and elephants.</p>
+<p>There are trees, and the land is made of emeralds.</p>
+<p>Such is the creation of the Supreme Personality of Godhead.</p>
+<p>Srila Bhaktivinoda Thakura has sung in this regard, kesava! tuya jagata vicitra: My Lord Kesava, Your creation is colorful and full of varieties Geologists, botanists and other so-called scientists speculate about other planetary systems, but being unable to estimate the varieties on other planets, they falsely imagine that all planets but this one are vacant, uninhabited, and full of dust.</p>
+<p>Although they cannot even estimate the varieties existing throughout the universe, they are very proud of their knowledge, and they are accepted as learned by persons of a similar caliber.</p>
+<p>Srimad-Bhagavatam (2.3.19), sva-vid-varahostra-kharaih samstutah purusah pasuh: materialistic leaders are praised by dogs, hogs, camels and asses, and they themselves are also big animals.</p>
+<p>One should not be satisfied with the knowledge imparted by a big animal.</p>
+<p>Rather, one must take knowledge from a perfect person like Sukadeva Gosvami.</p>
+<p>Mahajano yena gatah sa panthah: our duty is to follow the instructions of the mahajanas.</p>
+<p>There are twelve mahajanas, and Sukadeva Gosvami is one of them svayambhur naradah sambhuh</p>
+<p>kumarah kapilo manuh</p>
+<p>prahlado janako bhismo</p>
+<p>balir vaiyasakir vayam</p>
+<p>(Bhag.6.3.20)</p>
+<p>Vaiyasaki is Sukadeva Gosvami.</p>
+<p>Whatever he says we consider to be factual.</p>
+<p>That is perfect knowledge.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>8.2.7</strong></p>
+<p>nanaranya-pasu-vrata-</p>
+<p>sankula-drony-alankrtah</p>
+<p>citra-druma-surodyana-</p>
+<p>kalakantha-vihangamah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>nana—with varieties of; aranya-pasu—jungle animals; vrata—with a multitude; sankula—filled; droni—with valleys; alankrtah—very beautifully decorated; citra—with varieties of; druma—trees; sura-udyana—in gardens maintained by the demigods; kalakantha—sweetly chirping; vihangamah—birds.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The valleys beneath Trikuta Mountain are beautifully decorated by many varieties of jungle animals, and in the trees, which are maintained in gardens by the demigods, varieties of birds chirp with sweet voices.</p>
+
+
+
+<p><strong>8.2.8</strong></p>
+<p>sarit-sarobhir acchodaih</p>
+<p>pulinair mani-valukaih</p>
+<p>deva-stri-majjanamoda-</p>
+<p>saurabhambv-anilair yutah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sarit—with rivers; sarobhih—and lakes; acchodaih—filled with crystal-clear water; pulinaih—beaches; mani—with small gems; valukaih—resembling grains of sand; deva-stri—of the damsels of the demigods; majjana—by bathing (in that water); amoda—bodily fragrance; saurabha—very fragrant; ambu—with the water; anilaih—and the air; yutah—enriched (the atmosphere of Trikuta Mountain).</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Trikuta Mountain has many lakes and rivers, with beaches covered by small gems resembling grains of sand.</p>
+<p>The water is as clear as crystal, and when the demigod damsels bathe in it, their bodies lend fragrance to the water and the breeze, thus enriching the atmosphere.</p>
+<p><strong>PURPORT</strong></p>
+<p>Even in the material world, there are many grades of living entities.</p>
+<p>The human beings on earth generally cover themselves with external fragrances to stop their bad bodily odors, but here we find that because of the bodily fragrance of the demigod damsels, the rivers, the lakes, the breeze and the entire atmosphere of Trikuta Mountain also become fragrant.</p>
+<p>Since the bodies of the damsels in the upper planetary systems are so beautiful, we can just imagine how beautifully formed are the bodies of the Vaikuntha damsels or the damsels in Vrndavana, the gopis.</p>
+
+
+
+<p><strong>8.2.9-13</strong></p>
+<p>tasya dronyam bhagavato</p>
+<p>varunasya mahatmanah</p>
+<p>udyanam rtuman nama</p>
+<p>akridam sura-yositam</p>
+<p>sarvato ’lankrtam divyair</p>
+<p>nitya-puspa-phala-drumaih</p>
+<p>mandaraih parijatais ca</p>
+<p>patalasoka-campakaih</p>
+<p>cutaih piyalaih panasair</p>
+<p>amrair amratakair api</p>
+<p>kramukair narikelais ca</p>
+<p>kharjurair bijapurakaih</p>
+<p>madhukaih sala-talais ca</p>
+<p>tamalair asanarjunaih</p>
+<p>aristodumbara-plaksair</p>
+<p>vataih kimsuka-candanaih</p>
+<p>picumardaih kovidaraih</p>
+<p>saralaih sura-darubhih</p>
+<p>drakseksu-rambha-jambubhir</p>
+<p>badary-aksabhayamalaih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasya—of that mountain (Trikuta); dronyam—in a valley; bhagavatah—of the great personality; varunasya—the demigod Varuna; maha-atmanah—who is a great devotee of the Lord; udyanam—a garden; rtumat—Rtumat; nama—of the name; akridam—a place of sporting pastimes; sura-yositam—of the damsels of the demigods; sarvatah—everywhere; alankrtam—beautifully decorated; divyaih—pertaining to the demigods; nitya—always; puspa—of flowers; phala—and fruits; drumaih—by trees; mandaraih—mandara; parijataih—parijata; ca—also; patala—patala; asoka—asoka; campakaih—campaka; cutaih—cuta fruits; piyalaih—piyala fruits; panasaih—panasa fruits; amraih—mangoes; amratakaih—sour fruits called amrataka; api—also; kramukaih—kramuka fruits; narikelaih—coconut trees; ca—and; kharjuraih—date trees; bijapurakaih—pomegranates; madhukaih—madhuka fruits; sala-talaih—palm fruits; ca—and; tamalaih—tamala trees; asana—asana trees; arjunaih—arjuna trees; arista—arista fruits; udumbara—big udumbara trees; plaksaih—plaksa trees; vataih—banyan trees; kimsuka—red flowers with no scent; candanaih—sandalwood trees; picumardaih—picumarda flowers; kovidaraih—kovidara fruits; saralaih—sarala trees; sura-darubhih—sura-daru trees; draksa—grapes; iksuh—sugarcane; rambha—bananas; jambubhih—jambu fruits; badari—badari fruits; aksa—aksa fruits; abhaya—abhaya fruits; amalaih—amalaki, a sour fruit.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In a valley of Trikuta Mountain there was a garden called Rtumat.</p>
+<p>This garden belonged to the great devotee Varuna and was a sporting place for the damsels of the demigods.</p>
+<p>Flowers and fruits grew there in all seasons.</p>
+<p>Among them were mandaras, parijatas, patalas, asokas, campakas, cutas, piyalas, panasas, mangoes, amratakas, kramukas, coconut trees, date trees and pomegranates.</p>
+<p>There were madhukas, palm trees, tamalas, asanas, arjunas, aristas, udumbaras, plaksas, banyan trees, kimsukas and sandalwood trees.</p>
+<p>There were also picumardas, kovidaras, saralas, sura-darus, grapes, sugarcane, bananas, jambu, badaris, aksas, abhayas and amalakis.</p>
+
+
+
+<p><strong>8.2.14-19</strong></p>
+<p>bilvaih kapitthair jambirair</p>
+<p>vrto bhallatakadibhih</p>
+<p>tasmin sarah suvipulam</p>
+<p>lasat-kancana-pankajam</p>
+<p>kumudotpala-kahlara-</p>
+<p>satapatra-sriyorjitam</p>
+<p>matta-sat-pada-nirghustam</p>
+<p>sakuntais ca kala-svanaih</p>
+<p>hamsa-karandavakirnam</p>
+<p>cakrahvaih sarasair api</p>
+<p>jalakukkuta-koyasti-</p>
+<p>datyuha-kula-kujitam</p>
+<p>matsya-kacchapa-sancara-</p>
+<p>calat-padma-rajah-payah</p>
+<p>kadamba-vetasa-nala-</p>
+<p>nipa-vanjulakair vrtam</p>
+<p>kundaih kurubakasokaih</p>
+<p>sirisaih kutajengudaih</p>
+<p>kubjakaih svarna-yuthibhir</p>
+<p>naga-punnaga-jatibhih</p>
+<p>mallika-satapatrais ca</p>
+<p>madhavi-jalakadibhih</p>
+<p>sobhitam tira-jais canyair</p>
+<p>nityartubhir alam drumaih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>bilvaih—bilva trees; kapitthaih—kapittha trees; jambiraih—jambira trees; vrtah—surrounded by; bhallataka-adibhih—bhallataka and other trees; tasmin—in that garden; sarah—a lake; su-vipulam—which was very large; lasat—shining; kancana—golden; panka-jam—filled with lotus flowers; kumuda—of kumuda flowers; utpala—utpala flowers; kahlara—kahlara flowers; satapatra—and satapatra flowers; sriya—with the beauty; urjitam—excellent; matta—intoxicated; sat-pada—bees; nirghustam—hummed; sakuntaih—with the chirping of birds; ca—and; kala-svanaih—whose songs were very melodious; hamsa—swans; karandava—karandavas; akirnam—crowded with; cakrahvaih—cakravakas; sarasaih—cranes; api—as well as; jalakukkuta—water chickens; koyasti—koyastis; datyuha—datyuhas; kula—flocks of; kujitam—murmured; matsya—of the fish; kacchapa—and tortoises; sancara—because of the movements; calat—agitating; padma—of the lotuses; rajah—by the pollen; payah—the water (was decorated); kadamba—kadambas; vetasa—vetasas; nala—nalas; nipa—nipas; vanjulakaih—vanjulakas; vrtam—surrounded by; kundaih—kundas; kurubaka—kurubakas; asokaih—asokas; sirisaih—sirisas; kutaja—kutajas; ingudaih—ingudas; kubjakaih—kubjakas; svarna-yuthibhih—svarna-yuthis; naga—nagas; punnaga—punnagas; jatibhih—jatis; mallika—mallikas; satapatraih—satapatras; ca—also; madhavi—madhavis; jalakadibhih—jalakas; sobhitam—adorned; tirajaih—growing on the banks; ca—and; anyaih—others; nitya-rtubhih—in all seasons; alam—abundantly; drumaih—with trees (bearing flowers and fruits).</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In that garden there was a very large lake filled with shining golden lotus flowers and the flowers known as kumuda, kahlara, utpala and satapatra, which added excellent beauty to the mountain.</p>
+<p>There were also bilva, kapittha, jambira and bhallataka trees.</p>
+<p>Intoxicated bumblebees drank honey and hummed with the chirping of the birds, whose songs were very melodious.</p>
+<p>The lake was crowded with swans, karandavas, cakravakas, cranes, and flocks of water chickens, datyuhas, koyastis and other murmuring birds.</p>
+<p>Because of the agitating movements of the fish and tortoises, the water was decorated with pollen that had fallen from the lotus flowers.</p>
+<p>The lake was surrounded by kadamba flowers, vetasa flowers, nalas, nipas, vanjulakas, kundas, kurubakas, asokas, sirisas, kutajas, ingudas, kubjakas, svarna-yuthis, nagas, punnagas, jatis, mallikas, satapatras, jalakas and madhavi-latas.</p>
+<p>The banks were also abundantly adorned with varieties of trees that yielded flowers and fruits in all seasons.</p>
+<p>Thus the entire mountain stood gloriously decorated.</p>
+<p><strong>PURPORT</strong></p>
+<p>Judging from the exhaustive description of the lakes and rivers on Trikuta Mountain, on earth there is no comparison to their super-excellence.</p>
+<p>On other planets, however, there are many such wonders.</p>
+<p>For instance, we understand that there are two million different types of trees, and not all of them are exhibited on earth.</p>
+<p>Srimad-Bhagavatam presents the total knowledge of the affairs of the universe.</p>
+<p>It not only describes this universe, but also takes into account the spiritual world beyond the universe.</p>
+<p>No one can challenge the Srimad-Bhagavatam’s descriptions of the material and spiritual worlds.</p>
+<p>The attempts to go from the earth to the moon have failed, but the people of earth can understand what exists on other planets.</p>
+<p>There is no need of imagination; one may take actual knowledge from Srimad-Bhagavatam and be satisfied.</p>
+
+
+
+<p><strong>8.2.20</strong></p>
+<p>tatraikada tad-giri-kananasrayah</p>
+<p>karenubhir varana-yutha-pas caran</p>
+<p>sakantakam kicaka-venu-vetravad</p>
+<p>visala-gulmam prarujan vanaspatin</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatra—therein; ekada—once upon a time; tat-giri—of that mountain (Trikuta); kanana-asrayah—who lives in the forest; karenubhih—accompanied by female elephants; varana-yutha-pah—the leader of the elephants; caran—while wandering (toward the lake); sa-kantakam—a place full of thorns; kicaka-venu-vetra-vat—with plants and creepers of different names; visala-gulmam—many thickets; prarujan—breaking; vanah-patin—trees and plants.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The leader of the elephants who lived in the forest of the mountain Trikuta once wandered toward the lake with his female elephants.</p>
+<p>He broke many plants, creepers, thickets and trees, not caring for their piercing thorns.</p>
+
+
+
+<p><strong>8.2.21</strong></p>
+<p>yad-gandha-matrad dharayo gajendra</p>
+<p>vyaghradayo vyala-mrgah sakhadgah</p>
+<p>mahoragas capi bhayad dravanti</p>
+<p>sagaura-krsnah sarabhas camaryah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yat-gandha-matrat—simply by the scent of that elephant; harayah—lions; gaja-indrah—other elephants; vyaghra-adayah—ferocious animals like tigers; vyala-mrgah—other ferocious animals; sakhadgah—rhinoceroses; maha-uragah—big, big serpents; ca—also; api—indeed; bhayat—because of fear; dravanti—running away; sa—with; gaura-krsnah—some of them white, some of them black; sarabhah—sarabhas; camaryah—also camaris.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Simply by catching scent of that elephant, all the other elephants, the tigers and the other ferocious animals, such as lions, rhinoceroses, great serpents and black and white sarabhas, fled in fear.</p>
+<p>The camari deer also fled.</p>
+
+
+
+<p><strong>8.2.22</strong></p>
+<p>vrka varaha mahisarksa-salya</p>
+<p>gopuccha-salavrka-markatas ca</p>
+<p>anyatra ksudra harinah sasadayas</p>
+<p>caranty abhita yad-anugrahena</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vrkah—foxes; varahah—boars; mahisa—buffalos; rksa—bears; salyah—porcupines; gopuccha—a type of deer; salavrka—wolves; markatah—monkeys; ca—and; anyatra—elsewhere; ksudrah—small animals; harinah—deer; sasa-adayah—rabbits and others; caranti—roaming (in the forest); abhitah—without fear; yat-anugrahena—by the mercy of that elephant.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>By the mercy of this elephant, animals like the foxes, wolves, buffalos, bears, boars, gopucchas, porcupines, monkeys, rabbits, the other deer and many other small animals loitered elsewhere in the forest.</p>
+<p>They were not afraid of him.</p>
+<p><strong>PURPORT</strong></p>
+<p>All the animals were practically controlled by this elephant, yet although they could move without fear, because of respect they did not stand before him.</p>
+
+
+
+<p><strong>8.2.23-24</strong></p>
+<p>sa gharma-taptah karibhih karenubhir</p>
+<p>vrto madacyut-karabhair anudrutah</p>
+<p>girim garimna paritah prakampayan</p>
+<p>nisevyamano ’likulair madasanaih</p>
+<p>saro ’nilam pankaja-renu-rusitam</p>
+<p>jighran viduran mada-vihvaleksanah</p>
+<p>vrtah sva-yuthena trsarditena tat</p>
+<p>sarovarabhyasam athagamad drutam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—he (the leader of the elephants); gharma-taptah—perspiring; karibhih—by other elephants; karenubhih—as well as female elephants; vrtah—surrounded; mada-cyut—liquor dripping from his mouth; karabhaih—by small elephants; anudrutah—was followed; girim—that mountain; garimna—by the weight of the body; paritah—all around; prakampayan—causing to tremble; nisevyamanah—being served; alikulaih—by the bumblebees; mada-asanaih—who drank honey; sarah—from the lake; anilam—the breeze; pankaja-renu-rusitam—carrying the dust from the lotus flowers; jighran—smelling; vidurat—from a distance; mada-vihvala—being intoxicated; iksanah—whose vision; vrtah—surrounded; sva-yuthena—by his own associates; trsarditena—who were afflicted by thirst; tat—that; sarovara-abhyasam—to the bank of the lake; atha—thus; agamat—went; drutam—very soon.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Surrounded by the herd’s other elephants, including females, and followed by the young ones, Gajapati, the leader of the elephants, made Trikuta Mountain tremble all around because of the weight of his body.</p>
+<p>He was perspiring, liquor dripped from his mouth, and his vision was overwhelmed by intoxication.</p>
+<p>He was being served by bumblebees who drank honey, and from a distance he could smell the dust of the lotus flowers, which was carried from the lake by the breeze.</p>
+<p>Thus surrounded by his associates, who were afflicted by thirst, he soon arrived at the bank of the lake.</p>
+
+
+
+<p><strong>8.2.25</strong></p>
+<p>vigahya tasminn amrtambu nirmalam</p>
+<p>hemaravindotpala-renu-rusitam</p>
+<p>papau nikamam nija-puskaroddhrtam</p>
+<p>atmanam adbhih snapayan gata-klamah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vigahya—entering; tasmin—into the lake; amrta-ambu—water as pure as nectar; nirmalam—crystal clear; hema—very cold; aravinda-utpala—from the lilies and lotuses; renu—with the dust; rusitam—which was mixed; papau—he drank; nikamam—until fully satisfied; nija—own; puskara-uddhrtam—drawing with his trunk; atmanam—himself; adbhih—with water; snapayan—bathing thoroughly; gata-klamah—was relieved of all fatigue.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The King of the elephants entered the lake, bathed thoroughly and was relieved of his fatigue.</p>
+<p>Then, with the aid of his trunk, he drank the cold, clear, nectarean water, which was mixed with the dust of lotus flowers and water lilies, until he was fully satisfied.</p>
+
+
+
+<p><strong>8.2.26</strong></p>
+<p>sa puskarenoddhrta-sikarambubhir</p>
+<p>nipayayan samsnapayan yatha grhi</p>
+<p>ghrni karenuh karabhams ca durmado</p>
+<p>nacasta krcchram krpano ’ja-mayaya</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—he (the leader of the elephants); puskarena—with his trunk; uddhrta—by drawing out; sikara-ambubhih—and sprinkling the water; nipayayan—causing them to drink; samsnapayan—and bathing them; yatha—as; grhi—a householder; ghrni—always kind (to the members of his family); karenuh—to his wives, the female elephants; karabhan—to the children; ca—as well as; durmadah—who is too attached to the members of his family; na—not; acasta—considered; krcchram—hardship; krpanah—being without spiritual knowledge; aja-mayaya—because of the influence of the external, illusory energy of the Supreme Personality of Godhead.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Like a human being who lacks spiritual knowledge and is too attached to the members of his family, the elephant, being illusioned by the external energy of Krsna, had his wives and children bathe and drink the water.</p>
+<p>Indeed, he raised water from the lake with his trunk and sprayed it over them.</p>
+<p>He did not mind the hard labor involved in this endeavor.</p>
+
+
+
+<p><strong>8.2.27</strong></p>
+<p>tam tatra kascin nrpa daiva-codito</p>
+<p>graho baliyams carane rusagrahit</p>
+<p>yadrcchayaivam vyasanam gato gajo</p>
+<p>yatha-balam so ’tibalo vicakrame</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tam—him (Gajendra); tatra—there (in the water); kascit—someone; nrpa—O King; daiva-coditah—inspired by providence; grahah—crocodile; baliyan—very powerful; carane—his foot; rusa—angrily; agrahit—captured; yadrcchaya—occurring due to providence; evam—such; vyasanam—a dangerous position; gatah—having obtained; gajah—the elephant; yatha-balam—according to his strength; sah—he; ati-balah—with great endeavor; vicakrame—tried to get out.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>By the arrangement of providence, O King, a strong crocodile was angry at the elephant and attacked the elephant’s leg in the water.</p>
+<p>The elephant was certainly strong, and he tried his best to get free from this danger sent by providence.</p>
+
+
+
+<p><strong>8.2.28</strong></p>
+<p>tathaturam yutha-patim karenavo</p>
+<p>vikrsyamanam tarasa baliyasa</p>
+<p>vicukrusur dina-dhiyo ’pare gajah</p>
+<p>parsni-grahas tarayitum na casakan</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatha—then; aturam—that grave condition; yutha-patim—the leader of the elephants; karenavah—his wives; vikrsyamanam—being attacked; tarasa—by the strength; baliyasa—by the strength (of the crocodile); vicukrusuh—began to cry; dina-dhiyah—who were less intelligent; apare—the other; gajah—elephants; parsni-grahah—grasping him from behind; tarayitum—to free; na—not; ca—also; asakan—were able.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, seeing Gajendra in that grave condition, his wives felt very, very sorry and began to cry.</p>
+<p>The other elephants wanted to help Gajendra, but because of the crocodile’s great strength, they could not rescue him by grasping him from behind.</p>
+
+
+
+<p><strong>8.2.29</strong></p>
+<p>niyudhyator evam ibhendra-nakrayor</p>
+<p>vikarsator antarato bahir mithah</p>
+<p>samah sahasram vyagaman mahi-pate</p>
+<p>sapranayos citram amamsatamarah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>niyudhyatoh—fighting; evam—in this way; ibha-indra—of the elephant; nakrayoh—and the crocodile; vikarsatoh—pulling; antaratah—in the water; bahih—outside the water; mithah—one another; samah—years; sahasram—one thousand; vyagaman—passed; mahi-pate—O King; sa-pranayoh—both alive; citram—wonderful; amamsata—considered; amarah—the demigods.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King, the elephant and the crocodile fought in this way, pulling one another in and out of the water, for one thousand years.</p>
+<p>Upon seeing the fight, the demigods were very surprised.</p>
+
+
+
+<p><strong>8.2.30</strong></p>
+<p>tato gajendrasya mano-balaujasam</p>
+<p>kalena dirghena mahan abhud vyayah</p>
+<p>vikrsyamanasya jale ’vasidato</p>
+<p>viparyayo ’bhut sakalam jalaukasah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—thereafter; gaja-indrasya—of the King of the elephants; manah—of the strength of enthusiasm; bala—the physical strength; ojasam—and the strength of the senses; kalena—because of years of fighting; dirghena—prolonged; mahan—great; abhut—became; vyayah—the expenditure; vikrsyamanasya—who was being pulled (by the crocodile); jale—into the water (a foreign place); avasidatah—reduced (mental, physical and sensory strength); viparyayah—the opposite; abhut—became; sakalam—all of them; jala-okasah—the crocodile, whose home is the water.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, because of being pulled into the water and fighting for many long years, the elephant became diminished in his mental, physical and sensual strength.</p>
+<p>The crocodile, on the contrary, being an animal of the water, increased in enthusiasm, physical strength and sensual power.</p>
+<p><strong>PURPORT</strong></p>
+<p>In the fighting between the elephant and the crocodile, the difference was that although the elephant was extremely powerful, he was in a foreign place, in the water.</p>
+<p>During one thousand years of fighting, he could not get any food, and under the circumstances his bodily strength diminished, and because his bodily strength diminished, his mind also became weak and his senses less powerful.</p>
+<p>The crocodile, however, being an animal of the water, had no difficulties.</p>
+<p>He was getting food and was therefore getting mental strength and sensual encouragement.</p>
+<p>Thus while the elephant became reduced in strength, the crocodile became more and more powerful.</p>
+<p>Now, from this we may take the lesson that in our fight with maya we should not be in a position in which our strength, enthusiasm and senses will be unable to fight vigorously.</p>
+<p>Our Krsna consciousness movement has actually declared war against the illusory energy, in which all the living entities are rotting in a false understanding of civilization.</p>
+<p>The soldiers in this Krsna consciousness movement must always possess physical strength, enthusiasm and sensual power.</p>
+<p>To keep themselves fit, they must therefore place themselves in a normal condition of life.</p>
+<p>What constitutes a normal condition will not be the same for everyone, and therefore there are divisions of varnasrama—brahmana, ksatriya, vaisya, sudra, brahmacarya, grhastha, vanaprastha and sannyasa.</p>
+<p>Especially in this age, Kali-yuga, it is advised that no one take sannyasa asvamedham gavalambham</p>
+<p>sannyasam pala-paitrkam</p>
+<p>devarena sutotpattim</p>
+<p>kalau panca vivarjayet</p>
+<p>(Cc.Adi 17.164)</p>
+<p>(Brahma-vaivarta Purana)</p>
+<p>From this we can understand that in this age the sannyasa-asrama is forbidden because people are not strong.</p>
+<p>Sri Caitanya Mahaprabhu showed us an example in taking sannyasa at the age of twenty-four years, but even Sarvabhauma Bhattacarya advised Sri Caitanya Mahaprabhu to be extremely careful because He had taken sannyasa at an early age.</p>
+<p>For preaching we give young boys sannyasa, but actually it is being experienced that they are not fit for sannyasa.</p>
+<p>There is no harm, however, if one thinks that he is unfit for sannyasa; if he is very much agitated sexually, he should go to the asrama where sex is allowed, namely the grhastha-asrama.</p>
+<p>That one has been found to be very weak in one place does not mean that he should stop fighting the crocodile of maya.</p>
+<p>One should take shelter of the lotus feet of Krsna, as we shall see Gajendra do, and at the same time one can be a grhastha if he is satisfied with sexual indulgence.</p>
+<p>There is no need to give up the fight.</p>
+<p>Sri Caitanya Mahaprabhu therefore recommended, sthane sthitah sruti-gatam tanu-van-manobhih.</p>
+<p>One may stay in whichever asrama is suitable for him; it is not essential that one take sannyasa.</p>
+<p>If one is sexually agitated, he can enter the grhastha-asrama.</p>
+<p>But one must continue fighting.</p>
+<p>For one who is not in a transcendental position, to take sannyasa artificially is not a very great credit.</p>
+<p>If sannyasa is not suitable, one may enter the grhastha-asrama and fight maya with great strength.</p>
+<p>But one should not give up the fighting and go away.</p>
+
+
+
+<p><strong>8.2.31</strong></p>
+<p>ittham gajendrah sa yadapa sankatam</p>
+<p>pranasya dehi vivaso yadrcchaya</p>
+<p>aparayann atma-vimoksane ciram</p>
+<p>dadhyav imam buddhim athabhyapadyata</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ittham—in this way; gaja-indrah—the King of the elephants; sah—he; yada—when; apa—obtained; sankatam—such a dangerous position; pranasya—of life; dehi—who is embodied; vivasah—circumstantially helpless; yadrcchaya—by the will of providence; aparayan—being unable; atma-vimoksane—to save himself; ciram—for a long time; dadhyau—began to think seriously; imam—this; buddhim—decision; atha—thereupon; abhyapadyata—reached.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When the King of the elephants saw that he was under the clutches of the crocodile by the will of providence and, being embodied and circumstantially helpless, could not save himself from danger, he was extremely afraid of being killed.</p>
+<p>He consequently thought for a long time and finally reached the following decision.</p>
+<p><strong>PURPORT</strong></p>
+<p>Everyone in the material world is engaged in a struggle for existence.</p>
+<p>Everyone tries to save himself from danger, but when one is unable to save himself, if he is pious, he then takes shelter of the lotus feet of the Supreme Personality of Godhead.</p>
+<p>This is confirmed in Bhagavad-gita (7.16):</p>
+<p>catur-vidha bhajante mam</p>
+<p>janah sukrtino ’rjuna</p>
+<p>arto jijnasur artharthi</p>
+<p>jnani ca bharatarsabha</p>
+<p>Four kinds of pious men—namely, one who is in danger, one who is in need of money, one who is searching for knowledge and one who is inquisitive—begin to take shelter of the Supreme Personality of Godhead in order to be saved or to advance.</p>
+<p>The King of the elephants, in his condition of danger, decided to seek shelter of the lotus feet of the Lord.</p>
+<p>After considerable thought, he intelligently arrived at this correct decision.</p>
+<p>Such a decision is not reached by a sinful man.</p>
+<p>Therefore in Bhagavad-gita it is said that those who are pious (sukrti) can decide that in a dangerous or awkward condition one should seek shelter of the lotus feet of Krsna.</p>
+
+
+
+<p><strong>8.2.32</strong></p>
+<p>na mam ime jnataya aturam gajah</p>
+<p>kutah karinyah prabhavanti mocitum</p>
+<p>grahena pasena vidhatur avrto</p>
+<p>’py aham ca tam yami param parayanam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—not; mam—me; ime—all these; jnatayah—friends and relatives (the other elephants); aturam—in my distress; gajah—the elephant; kutah—how; karinyah—my wives; prabhavanti—are able; mocitum—to deliver (from this dangerous position); grahena—by the crocodile; pasena—by the network of ropes; vidhatuh—of providence; avrtah—captured; api—although (I am in such a position); aham—I; ca—also; tam—that (Supreme Personality of Godhead); yami—take shelter of; param—who is transcendental; parayanam—and who is the shelter of even the exalted demigods like Brahma and Siva.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The other elephants, who are my friends and relatives, could not rescue me from this danger.</p>
+<p>What then to speak of my wives? They cannot do anything.</p>
+<p>It is by the will of providence that I have been attacked by this crocodile, and therefore I shall seek shelter of the Supreme Personality of Godhead, who is always the shelter of everyone, even of great personalities.</p>
+<p><strong>PURPORT</strong></p>
+<p>This material world is described as padam padam yad vipadam, which means that at every step there is danger.</p>
+<p>A fool wrongly thinks that he is happy in this material world, but in fact he is not, for one who thinks that way is only illusioned.</p>
+<p>At every step, at every moment, there is danger.</p>
+<p>In modern civilization one thinks that if he has a nice home and a nice car his life is perfect.</p>
+<p>In the Western countries, especially in America, it is very nice to possess a good car, but as soon as one is on the road, there is danger because at any moment an accident may take place and one will be killed.</p>
+<p>The record actually shows that so many people die in such accidents.</p>
+<p>Therefore if we actually think that this material world is a very happy place, this is our ignorance.</p>
+<p>Real knowledge is that this material world is full of danger.</p>
+<p>We may struggle for existence as far as our intelligence allows and may try to take care of ourselves, but unless the Supreme Personality of Godhead, Krsna, ultimately saves us from danger, our attempts will be useless.</p>
+<p>Therefore Prahlada Maharaja says:</p>
+<p>balasya neha saranam pitarau nrsimha</p>
+<p>nartasya cagadam udanvati majjato nauh</p>
+<p>taptasya tat-pratividhir ya ihanjasestas</p>
+<p>tavad vibho tanu-bhrtam tvad-upeksitanam</p>
+<p>(Bhag.7.9.19)</p>
+<p>We may invent so many ways to be happy or to counteract the dangers of this material world, but unless our attempts are sanctioned by the Supreme Personality of Godhead, they will never make us happy.</p>
+<p>Those who try to be happy without taking shelter of the Supreme Personality of Godhead are mudhas, rascals.</p>
+<p>Na mam duskrtino mudhah prapadyante naradhamah (Bg.7.15).</p>
+<p>Those who are the lowest of men refuse to take to Krsna consciousness because they think that they will be able to protect themselves without Krsna’s care.</p>
+<p>This is their mistake.</p>
+<p>The decision of the King of the elephants, Gajendra, was correct.</p>
+<p>In such a dangerous position, he sought shelter of the Supreme Personality of Godhead.</p>
+
+
+
+<p><strong>8.2.33</strong></p>
+<p>yah kascaneso balino ’ntakoragat</p>
+<p>pracanda-vegad abhidhavato bhrsam</p>
+<p>bhitam prapannam paripati yad-bhayan</p>
+<p>mrtyuh pradhavaty aranam tam imahi</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yah—He who (the Supreme Personality of Godhead); kascana—someone; isah—the supreme controller; balinah—very powerful; antaka-uragat—from the great serpent of time, which brings death; pracanda-vegat—whose force is fearful; abhidhavatah—who is chasing; bhrsam—endlessly (every hour and every minute); bhitam—one who is afraid of death; prapannam—who is surrendered (to the Supreme Personality of Godhead); paripati—He protects; yat-bhayat—from fear of the Lord; mrtyuh—death itself; pradhavati—runs away; aranam—the actual shelter of everyone; tam—unto Him; imahi—I surrender or take shelter.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Supreme Personality of Godhead is certainly not known to everyone, but He is very powerful and influential.</p>
+<p>Therefore, although the serpent of eternal time, which is fearful in force, endlessly chases everyone, ready to swallow him, if one who fears this serpent seeks shelter of the Lord, the Lord gives him protection, for even death runs away in fear of the Lord.</p>
+<p>I therefore surrender unto Him, the great and powerful supreme authority who is the actual shelter of everyone.</p>
+<p><strong>PURPORT</strong></p>
+<p>One who is intelligent understands that there is a great and supreme authority above everything.</p>
+<p>That great authority appears in different incarnations to save the innocent from disturbances.</p>
+<p>As confirmed in Bhagavad-gita, paritranaya sadhunam vinasaya ca duskrtam: (Bg.4.8) the Lord appears in His various incarnations for two purposes—to annihilate the duskrti, the sinful, and to protect His devotees.</p>
+<p>The King of the elephants decided to surrender unto Him.</p>
+<p>This is intelligent.</p>
+<p>One must know that great Supreme Personality of Godhead and surrender unto Him.</p>
+<p>The Lord comes personally to instruct us how to be happy, and only fools and rascals do not see by intelligence this supreme authority, the Supreme Person.</p>
+<p>In the sruti-mantra it is said:</p>
+<p>bhisasmad vatah pavate</p>
+<p>bhisodeti suryah</p>
+<p>bhisasmad agnis candras ca</p>
+<p>mrtyur dhavati pancamah</p>
+<p>(Taittiriya Upanisad2.8)</p>
+<p>It is out of fear of the Supreme Personality of Godhead that the wind is blowing, that the sun is distributing heat and light, and that death is chasing everyone.</p>
+<p>Thus there is a supreme controller, as confirmed in Bhagavad-gita (9.10): mayadhyaksena prakrtih suyate sacaracaram.</p>
+<p>This material manifestation is working so well because of the supreme controller.</p>
+<p>Any intelligent person, therefore, can understand that there is a supreme controller.</p>
+<p>Furthermore, the supreme controller Himself appears as Lord Krsna, as Lord Caitanya Mahaprabhu and as Lord Ramacandra to give us instructions and to show us by example how to surrender unto the Supreme Personality of Godhead.</p>
+<p>Yet those who are duskrti, the lowest of men, do not surrender (na mam duskrtino mudhah prapadyante naradhamah (Bg.7.15)).</p>
+<p>In Bhagavad-gita the Lord clearly says, mrtyuh sarva-haras caham: I am all-devouring death Thus mrtyu, or death, is the representative who takes everything away from the living entity who has accepted a material body.</p>
+<p>No one can say, I do not fear death This is a false proposition.</p>
+<p>Everyone fears death.</p>
+<p>However, one who seeks shelter of the Supreme Personality of Godhead can be saved from death.</p>
+<p>One may argue, Does the devotee not die The answer is that a devotee certainly must give up his body, for the body is material.</p>
+<p>The difference is, however, that for one who surrenders to Krsna fully and who is protected by Krsna, the present body is his last; he will not again receive a material body to be subjected to death.</p>
+<p>This is assured in Bhagavad-gita (4.9).</p>
+<p>Tyaktva deham punar janma naiti mam eti so’rjuna: a devotee, after giving up his body, does not accept a material body, but returns home, back to Godhead.</p>
+<p>We are always in danger because at any moment death can take place.</p>
+<p>It is not that only Gajendra, the King of the elephants, was afraid of death.</p>
+<p>Everyone should fear death because everyone is caught by the crocodile of eternal time and may die at any moment.</p>
+<p>The best course, therefore, is to seek shelter of Krsna, the Supreme Personality of Godhead, and be saved from the struggle for existence in this material world, in which one repeatedly takes birth and dies.</p>
+<p>To reach this understanding is the ultimate goal of life.</p>
+
+
+</article></body></html>

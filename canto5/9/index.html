@@ -1,155 +1,42 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>The Supreme Character of Jada Bharata - The Supreme Character of Jada Bharata</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">The Supreme Character of Jada Bharata</a></li><li class="affix"><a href="5.9.1-2.html">5.9.1-2</a></li><li class="affix"><a href="5.9.3.html">5.9.3</a></li><li class="affix"><a href="5.9.4.html">5.9.4</a></li><li class="affix"><a href="5.9.5.html">5.9.5</a></li><li class="affix"><a href="5.9.6.html">5.9.6</a></li><li class="affix"><a href="5.9.7.html">5.9.7</a></li><li class="affix"><a href="5.9.8.html">5.9.8</a></li><li class="affix"><a href="5.9.9-10.html">5.9.9-10</a></li><li class="affix"><a href="5.9.11.html">5.9.11</a></li><li class="affix"><a href="5.9.12.html">5.9.12</a></li><li class="affix"><a href="5.9.13.html">5.9.13</a></li><li class="affix"><a href="5.9.14.html">5.9.14</a></li><li class="affix"><a href="5.9.15.html">5.9.15</a></li><li class="affix"><a href="5.9.16.html">5.9.16</a></li><li class="affix"><a href="5.9.17.html">5.9.17</a></li><li class="affix"><a href="5.9.18.html">5.9.18</a></li><li class="affix"><a href="5.9.19.html">5.9.19</a></li><li class="affix"><a href="5.9.20.html">5.9.20</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">The Supreme Character of Jada Bharata</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#the-supreme-character-of-jada-bharata" id="the-supreme-character-of-jada-bharata">The Supreme Character of Jada Bharata</a></h1>
-<h2><a class="header" href="#summary" id="summary">Summary</a></h2>
-<h3><a class="header" href="#59" id="59">5.9</a></h3>
+<h1>The Supreme Character of Jada Bharata</h1>
+<h2>Summary</h2>
+<p><strong>5.9</strong></p>
 <p>In this chapter Bharata Maharaja’s attainment of the body of a brahmana is described.</p>
 <p>In this body he remained like one dull, deaf and dumb, so much so that when he was brought before the goddess Kali to be killed as a sacrifice, he never protested but remained silent.</p>
 <p>After having given up the body of a deer, he took birth in the womb of the youngest wife of a brahmana.</p>
@@ -171,63 +58,365 @@
 <p>Thus a pure devotee of the Supreme Personality of Godhead can remain silent despite the mistreatment of nondevotees.</p>
 <p>Rogues and dacoits who misbehave toward a devotee are punished at last by the arrangement of the Supreme Personality of Godhead.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="5.9.1-2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>5.9.3</strong></p>
+<p>tatrapi svajana-sangac ca bhrsam udvijamano bhagavatah karma-bandha-vidhvamsana-sravana-smarana-guna-vivarana-caranaravinda-yugalam manasa vidadhad atmanah pratighatam asankamano bhagavad-anugrahenanusmrta-sva-purva-janmavalir atmanam unmatta-jadandha-badhira-svarupena darsayam asa lokasya.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatra api—in that brahmana birth also; sva-jana-sangat—from association with relatives and friends; ca—and; bhrsam—greatly; udvijamanah—being always afraid that he would fall down again; bhagavatah—of the Supreme Personality of Godhead; karma-bandha—the bondage of the reactions of fruitive activities; vidhvamsana—which vanquishes; sravana—hearing; smarana—remembering; guna-vivarana—hearing descriptions of the qualities of the Lord; carana-aravinda—lotus feet; yugalam—the two; manasa—with the mind; vidadhat—always thinking of; atmanah—of his soul; pratighatam—obstruction on the path of devotional service; asankamanah—always fearing; bhagavat-anugrahena—by the special mercy of the Supreme Personality of Godhead; anusmrta—remembered; sva-purva—his own previous; janma-avalih—string of births; atmanam—himself; unmatta—mad; jada—dull; andha—blind; badhira—and deaf; svarupena—with these features; darsayam asa—he exhibited; lokasya—to people in general.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Due to his being especially gifted with the Lord’s mercy, Bharata Maharaja could remember the incidents of his past life.</p>
+<p>Although he received the body of a brahmana, he was still very much afraid of his relatives and friends who were not devotees.</p>
+<p>He was always very cautious of such association because he feared that he would again fall down.</p>
+<p>Consequently he manifested himself before the public eye as a madman—dull, blind and deaf—so that others would not try to talk to him.</p>
+<p>In this way he saved himself from bad association.</p>
+<p>Within he was always thinking of the lotus feet of the Lord and chanting the Lord’s glories, which save one from the bondage of fruitive action.</p>
+<p>In this way he saved himself from the onslaught of nondevotee associates.</p>
+<p><strong>PURPORT</strong></p>
+<p>Every living entity is bound by different activities due to association with the modes of nature.</p>
+<p>As stated in Bhagavad-gita, karanam guna-sango ’sya sad-asad-yoni-janmasu: This is due to his association with that material nature.</p>
+<p>Thus he meets with good and evil among various species (Bg.13.22) We get different types of bodies among 8,400,000 species according to our karma.</p>
+<p>Karmana daiva-netrena: we work under the influence of material nature contaminated by the three modes, and thus we get a certain type of body according to superior order.</p>
+<p>This is called karma-bandha.</p>
+<p>To get out of this karma-bandha, one must engage himself in devotional service.</p>
+<p>Then one will not be affected by the modes of material nature mam ca yo ’vyabhicarena</p>
+<p>bhakti-yogena sevate</p>
+<p>sa gunan samatityaitan</p>
+<p>brahma-bhuyaya kalpate</p>
+<p>One who engages in full devotional service, who does not fall down in any circumstance, at once transcends the modes of material nature and thus comes to the level of Brahman (Bg.14.26) To remain immune from the material qualities, one must engage himself in devotional service—sravanam kirtanam visnoh (SB 7.5.23).</p>
+<p>That is the perfection of life.</p>
+<p>When Maharaja Bharata took birth as a brahmana, he was not very interested in the duties of a brahmana, but within he remained a pure Vaisnava, always thinking of the lotus feet of the Lord.</p>
+<p>As advised in Bhagavad-gita: man-mana bhava mad-bhakto mad-yaji mam namaskuru (Bg.18.65).</p>
+<p>This is the only process by which one can be saved from the danger of repeated birth and death.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="5.9.1-2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>5.9.4</strong></p>
+<p>tasyapi ha va atmajasya viprah putra-snehanubaddha-mana asamavartanat samskaran yathopadesam vidadhana upanitasya ca punah saucacamanadin karma-niyaman anabhipretan api samasiksayad anusistena hi bhavyam pituh putreneti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasya—of him; api ha va—certainly; atma-jasya—of his son; viprah—the brahmana father of Jada Bharata (mad, crazy Bharata); putra-sneha-anubaddha-manah—who was obliged by affection for his son; a-sama-avartanat—until the end of the brahmacarya-asrama; samskaran—the purificatory processes; yatha-upadesam—as prescribed in the sastras; vidadhanah—performing; upanitasya—of one who has a sacred thread; ca—also; punah—again; sauca-acamana-adin—practice of cleanliness, washing of the mouth, legs and hands, etc.; karma-niyaman—the regulative principles of fruitive activities; anabhipretan api—although not wanted by Jada Bharata; samasiksayat—taught; anusistena—taught to follow the regulative principles; hi—indeed; bhavyam—should be; pituh—from the father; putrena—the son; iti—thus.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The brahmana father’s mind was always filled with affection for his son, Jada Bharata (Bharata Maharaja).</p>
+<p>Therefore he was always attached to Jada Bharata.</p>
+<p>Because Jada Bharata was unfit to enter the grhastha-asrama, he simply executed the purificatory process up to the end of the brahmacarya-asrama.</p>
+<p>Although Jada Bharata was unwilling to accept his father’s instructions, the brahmana nonetheless instructed him in how to keep clean and how to wash, thinking that the son should be taught by the father.</p>
+<p><strong>PURPORT</strong></p>
+<p>Jada Bharata was Bharata Maharaja in the body of a brahmana, and he outwardly conducted himself as if he were dull, deaf, dumb and blind.</p>
+<p>Actually he was quite alert within.</p>
+<p>He knew perfectly well of the results of fruitive activity and the results of devotional service.</p>
+<p>In the body of a brahmana, Maharaja Bharata was completely absorbed in devotional service within; therefore it was not at all necessary for him to execute the regulative principles of fruitive activity.</p>
+<p>As confirmed in Srimad-Bhagavatam: svanusthitasya dharmasya samsiddhir hari-tosanam (Bhag.1.2.13).</p>
+<p>One has to satisfy Hari, the Supreme Personality of Godhead.</p>
+<p>That is the perfection of the regulative principles of fruitive activity.</p>
+<p>Besides that, it is stated in Srimad-Bhagavatam:</p>
+<p>dharmah svanusthitah pumsam</p>
+<p>visvaksena-kathasu yah</p>
+<p>notpadayed yadi ratim</p>
+<p>srama eva hi kevalam</p>
+<p>Duties (dharma) executed by men, regardless of occupation, are only so much useless labor if they do not provoke attraction for the message of the Supreme Lord (Bhag.1.2.8) These karma-kanda activities are required as long as one has not developed Krsna consciousness.</p>
+<p>If one is developed in Krsna consciousness, there is no need to execute the prior regulative principles of karma-kanda.</p>
+<p>Srila Madhavendra Puri said, O regulative principles of karma-kanda, please excuse me.</p>
+<p>I cannot follow all these regulative principles, for I am fully engaged in devotional service He expressed the desire to sit somewhere beneath a tree and continue chanting the Hare Krsna maha-mantra.</p>
+<p>Consequently he did not execute all the regulative principles.</p>
+<p>Similarly, Haridasa Thakura was born in a Mohammedan family.</p>
+<p>From the very beginning of his life he was never trained in the karma-kanda system, but because he was always chanting the holy name of the Lord, Sri Caitanya Mahaprabhu accepted him as namacarya, the authority in chanting the holy name.</p>
+<p>As Jada Bharata, Bharata Maharaja was always engaged in devotional service within his mind.</p>
+<p>Since he had executed the regulative principles continuously for three lives, he was not interested in continuing to execute them, although his brahmana father wanted him to do so.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>5.9.5</strong></p>
+<p>sa capi tad u ha pitr-sannidhav evasadhricinam iva sma karoti chandamsy adhyapayisyan saha vyahrtibhih sapranava-siras tripadim savitrim graisma-vasantikan masan adhiyanam apy asamaveta-rupam grahayam asa.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—he (Jada Bharata); ca—also; api—indeed; tat u ha—that which was instructed by his father; pitr-sannidhau—in the presence of his father; eva—even; asadhricinam iva—not correct, as if he could not understand anything; sma karoti—used to perform; chandamsi adhyapayisyan—desiring to teach him Vedic mantras during the months beginning with Sravana or during the period of Caturmasya; saha—along with; vyahrtibhih—the utterance of the names of the heavenly planets (bhuh, bhuvah, svah); sa-pranava-sirah—headed by omkara; tri-padim—three-footed; savitrim—the Gayatri mantra; graisma-vasantikan—for four months, beginning with Caitra, on the fifteenth of May; masan—the months; adhiyanam api—although fully studying; asamaveta-rupam—in an incomplete form; grahayam asa—he made him learn.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Jada Bharata behaved before his father like a fool, despite his father’s adequately instructing him in Vedic knowledge.</p>
+<p>He behaved in that way so that his father would know that he was unfit for instruction and would abandon the attempt to instruct him further.</p>
+<p>He would behave in a completely opposite way.</p>
+<p>Although instructed to wash his hands after evacuating, he would wash them before.</p>
+<p>Nonetheless, his father wanted to give him Vedic instructions during the spring and summer.</p>
+<p>He tried to teach him the Gayatri mantra along with omkara and vyahrti, but after four months, his father still was not successful in instructing him.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>5.9.6</strong></p>
+<p>evam sva-tanuja atmany anuragavesita-cittah saucadhyayana-vrata-niyama-gurv-anala-susrusanady-aupakurvanaka-karmany anabhiyuktany api samanusistena bhavyam ity asad-agrahah putram anusasya svayam tavad anadhigata-manorathah kalenapramattena svayam grha eva pramatta upasamhrtah.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>evam—thus; sva—own; tanu-je—in his son, Jada Bharata; atmani—whom he considered to be himself; anuraga-avesita-cittah—the brahmana who was absorbed in love for his son; sauca—cleanliness; adhyayana—study of Vedic literature; vrata—accepting all the vows; niyama—regulative principles; guru—of the spiritual master; anala—of the fire; susrusana-adi—the service, etc.; aupakurvanaka—of the brahmacarya-asrama; karmani—all the activities; anabhiyuktani api—although not liked by his son; samanusistena—fully instructed; bhavyam—should be; iti—thus; asat-agrahah—having unsuitable obstinacy; putram—his son; anusasya—instructing; svayam—himself; tavat—in that way; anadhigata-manorathah—not having fulfilled his desires; kalena—by the influence of time; apramattena—which is not forgetful; svayam—he himself; grhe—to his home; eva—certainly; pramattah—being madly attached; upasamhrtah—died.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The brahmana father of Jada Bharata considered his son his heart and soul, and therefore he was very much attached to him.</p>
+<p>He thought it wise to educate his son properly, and being absorbed in this unsuccessful endeavor, he tried to teach his son the rules and regulations of brahmacarya—including the execution of the Vedic vows, cleanliness, study of the Vedas, the regulative methods, service to the spiritual master and the method of offering a fire sacrifice.</p>
+<p>He tried his best to teach his son in this way, but all his endeavors failed.</p>
+<p>In his heart he hoped that his son would be a learned scholar, but all his attempts were unsuccessful.</p>
+<p>Like everyone, this brahmana was attached to his home, and he had forgotten that someday he would die.</p>
+<p>Death, however, was not forgetful.</p>
+<p>At the proper time, death appeared and took him away.</p>
+<p><strong>PURPORT</strong></p>
+<p>Those too attached to family life, who forget that death comes in the future to take them away, become attached and unable to finish their duty as human beings.</p>
+<p>The duty of human life is to solve all the problems of life, but instead people remain attached to family affairs and duties.</p>
+<p>Although they forget death, death will not forget them.</p>
+<p>Suddenly they will be kicked off the platform of a peaceful family life.</p>
+<p>One may forget that he has to die, but death never forgets.</p>
+<p>Death comes always at the right time.</p>
+<p>The brahmana father of Jada Bharata wanted to teach his son the process of brahmacarya, but he was unsuccessful due to his son’s unwillingness to undergo the process of Vedic advancement.</p>
+<p>Jada Bharata was simply concerned with returning home, back to Godhead, by executing devotional service through sravanam kirtanam visnoh (SB 7.5.23).</p>
+<p>He did not care for the Vedic instructions of his father.</p>
+<p>When one is fully interested in the service of the Lord, he does not need to follow all the regulative principles enunciated in the Vedas.</p>
+<p>Of course, for an ordinary man, the Vedic principles are imperative.</p>
+<p>No one can avoid them.</p>
+<p>But when one has attained the perfection of devotional service, it is not very important to follow the Vedic principles.</p>
+<p>Lord Krsna advised Arjuna to ascend to the platform of nistraigunya, the transcendental position above the Vedic principles traigunya-visaya veda</p>
+<p>nistraigunyo bhavarjuna</p>
+<p>nirdvandvo nitya-sattva-stho</p>
+<p>niryoga-ksema atmavan</p>
+<p>The Vedas mainly deal with the subject of the three modes of material nature.</p>
+<p>Rise above these modes, O Arjuna.</p>
+<p>Be transcendental to all of them.</p>
+<p>Be free from all dualities and from all anxieties for gain and safety, and be established in the Self (Bg.2.45)</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>5.9.7</strong></p>
+<p>atha yaviyasi dvija-sati sva-garbha-jatam mithunam sapatnya upanyasya svayam anusamsthaya patilokam agat.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atha—thereafter; yaviyasi—the youngest; dvija-sati—wife of the brahmana; sva-garbha-jatam—born of her womb; mithunam—the twins; sapatnyai—unto the co-wife; upanyasya—entrusting; svayam—personally; anusamsthaya—by following her husband; pati-lokam—the planet named Patiloka; agat—went to.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, the brahmana’s younger wife, after entrusting her twin children—the boy and girl—to the elder wife, departed for Patiloka, voluntarily dying with her husband.</p>
+
+
+
+<p><strong>5.9.8</strong></p>
+<p>pitary uparate bhratara enam atat-prabhava-vidas trayyam vidyayam eva paryavasita-matayo na para-vidyayam jada-matir iti bhratur anusasana-nirbandhan nyavrtsanta.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>pitari uparate—after the death of the father; bhratarah—the stepbrothers; enam—unto this Bharata (Jada Bharata); a-tat-prabhava-vidah—without understanding his exalted position; trayyam—of the three Vedas; vidyayam—in the matter of material ritualistic knowledge; eva—indeed; paryavasita—settled; matayah—whose minds; na—not; para-vidyayam—in the transcendental knowledge of spiritual life (devotional service); jada-matih—most dull intelligence; iti—thus; bhratuh—their brother (Jada Bharata); anusasana-nirbandhat—from the endeavor to teach; nyavrtsanta—stopped.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>After the father died, the nine stepbrothers of Jada Bharata, who considered Jada Bharata dull and brainless, abandoned the father’s attempt to give Jada Bharata a complete education.</p>
+<p>The stepbrothers of Jada Bharata were learned in the three Vedas—the Rg Veda, Sama Veda and Yajur Veda—which very much encourage fruitive activity.</p>
+<p>The nine brothers were not at all spiritually enlightened in devotional service to the Lord.</p>
+<p>Consequently they could not understand the highly exalted position of Jada Bharata.</p>
+
+
+
+<p><strong>5.9.9-10</strong></p>
+<p>sa ca prakrtair dvipada-pasubhir unmatta-jada-badhira-mukety abhibhasyamano yada tad-anurupani prabhasate karmani ca karyamanah parecchaya karoti vistito vetanato va yacnaya yadrcchaya vopasaditam alpam bahu mrstam kadannam vabhyavaharati param nendriya-priti-nimittam nitya-nivrtta-nimitta-sva-siddha-visuddhanubhavananda-svatma-labhadhigamah sukha-duhkhayor dvandva-nimittayor asambhavita-dehabhimanah sitosna-vata-varsesu vrsa ivanavrtangah pinah samhananangah sthandila-samvesananunmardanamajjana-rajasa mahamanir ivanabhivyakta-brahma-varcasah kupatavrta-katir upavitenoru-masina dvijatir iti brahma-bandhur iti samjnayataj-jnajanavamato vicacara.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah ca—he also; prakrtaih—by common persons who have no access to spiritual knowledge; dvi-pada-pasubhih—who are nothing but animals with two legs; unmatta—mad; jada—dull; badhira—deaf; muka—dumb; iti—thus; abhibhasyamanah—being addressed; yada—when; tat-anurupani—words suitable to reply to theirs; prabhasate—he used to speak; karmani—activities; ca—also; karyamanah—being caused to execute; para-icchaya—by the order of others; karoti—he used to act; vistitah—by force; vetanatah—or by some wages; va—either; yacnaya—by begging; yadrcchaya—by its own accord; va—or; upasaditam—gotten; alpam—a very small quantity; bahu—a large quantity; mrstam—very palatable; kat-annam—stale, tasteless foods; va—or; abhyavaharati—he used to eat; param—only; na—not; indriya-priti-nimittam—for the satisfaction of the senses; nitya—eternally; nivrtta—stopped; nimitta—fruitive activity; sva-siddha—by self-accomplished; visuddha—transcendental; anubhava-ananda—blissful perception; sva-atma-labha-adhigamah—who has achieved knowledge of the self; sukha-duhkhayoh—in happiness and distress; dvandva-nimittayoh—in the causes of duality; asambhavita-deha-abhimanah—not identified with the body; sita—in the winter; usna—in the summer; vata—in the wind; varsesu—in the rainfall; vrsah—a bull; iva—like; anavrta-angah—uncovered body; pinah—very strong; samhanana-angah—whose limbs were firm; sthandila-samvesana—from lying down on the ground; anunmardana—without any massage; amajjana—without bathing; rajasa—by dirt; maha-manih—highly valuable gem; iva—like; anabhivyakta—unmanifested; brahma-varcasah—spiritual splendor; ku-pata-avrta—covered by a dirty cloth; katih—whose loins; upavitena—with a sacred thread; uru-masina—which was highly blackish due to dirt; dvi-jatih—born in a brahmana family; iti—thus (saying out of contempt); brahma-bandhuh—a friend of a brahmana; iti—thus; samjnaya—by such names; a-tat-jna-jana—by persons not knowing his real position; avamatah—being disrespected; vicacara—he wandered.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Degraded men are actually no better than animals.</p>
+<p>The only difference is that animals have four legs and such men have only two.</p>
+<p>These two-legged, animalistic men used to call Jada Bharata mad, dull, deaf and dumb.</p>
+<p>They mistreated him, and Jada Bharata behaved for them like a madman who was deaf, blind or dull.</p>
+<p>He did not protest or try to convince them that he was not so.</p>
+<p>If others wanted him to do something, he acted according to their desires.</p>
+<p>Whatever food he could acquire by begging or by wages, and whatever came of its own accord—be it a small quantity, palatable, stale or tasteless—he would accept and eat.</p>
+<p>He never ate anything for sense gratification because he was already liberated from the bodily conception, which induces one to accept palatable or unpalatable food.</p>
+<p>He was full in the transcendental consciousness of devotional service, and therefore he was unaffected by the dualities arising from the bodily conception.</p>
+<p>Actually his body was as strong as a bull’s, and his limbs were very muscular.</p>
+<p>He didn’t care for winter or summer, wind or rain, and he never covered his body at any time.</p>
+<p>He lay on the ground, and never smeared oil on his body or took a bath.</p>
+<p>Because his body was dirty, his spiritual effulgence and knowledge were covered, just as the splendor of a valuable gem is covered by dirt.</p>
+<p>He only wore a dirty loincloth and his sacred thread, which was blackish.</p>
+<p>Understanding that he was born in a brahmana family, people would call him a brahma-bandhu and other names.</p>
+<p>Being thus insulted and neglected by materialistic people, he wandered here and there.</p>
+<p><strong>PURPORT</strong></p>
+<p>Srila Narottama dasa Thakura has sung: deha-smrti nahi yara, samsara-bandhana kahan tara.</p>
+<p>One who has no desire to maintain the body or who is not anxious to keep the body in order and who is satisfied in any condition must be either mad or liberated.</p>
+<p>Actually Bharata Maharaja in his birth as Jada Bharata was completely liberated from material dualities.</p>
+<p>He was a paramahamsa and therefore did not care for bodily comfort.</p>
+
+
+
+<p><strong>5.9.11</strong></p>
+<p>yada tu parata aharam karma-vetanata ihamanah sva-bhratrbhir api kedara-karmani nirupitas tad api karoti kintu na samam visamam nyunam adhikam iti veda kana-pinyaka-phali-karana-kulmasa-sthalipurisadiny apy amrtavad abhyavaharati.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yada—when; tu—but; paratah—from others; aharam—food; karma-vetanatah—in exchange for wages from working; ihamanah—looking for; sva-bhratrbhih api—even by his own stepbrothers; kedara-karmani—in working in the field and adjusting the agricultural work; nirupitah—engaged; tat api—at that time also; karoti—he used to do; kintu—but; na—not; samam—level; visamam—uneven; nyunam—deficient; adhikam—more raised; iti—thus; veda—he knew; kana—broken rice; pinyaka—oil cakes; phali-karana—the chaff of rice; kulmasa—worm-eaten grains; sthali-purisa-adini—burned rice stuck to the pot and so on; api—even; amrta-vat—like nectar; abhyavaharati—used to eat.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Jada Bharata used to work only for food.</p>
+<p>His stepbrothers took advantage of this and engaged him in agricultural field work in exchange for some food, but actually he did not know how to work very well in the field.</p>
+<p>He did not know where to spread dirt or where to make the ground level or uneven.</p>
+<p>His brothers used to give him broken rice, oil cakes, the chaff of rice, worm-eaten grains and burned grains that had stuck to the pot, but he gladly accepted all this as if it were nectar.</p>
+<p>He did not hold any grudges and ate all this very gladly.</p>
+<p><strong>PURPORT</strong></p>
+<p>The platform of paramahamsa is described in Bhagavad-gita (2.15): sama-duhkha-sukham dhiram so ’mrtatvaya kalpate.</p>
+<p>When one is callous to all duality, the happiness and distress of this material world, one is fit for amrtatva, eternal life.</p>
+<p>Bharata Maharaja was determined to finish his business in this material world, and he did not at all care for the world of duality.</p>
+<p>He was complete in Krsna consciousness and was oblivious to good and evil, happiness and distress.</p>
+<p>As stated in Caitanya-caritamrta (Antya4.176):</p>
+<p>‘dvaite’ bhadrabhadra-jnana, saba-‘manodharma’</p>
+<p>‘ei bhala, ei manda’,——saba ‘bhrama’ In the material world, conceptions of good and bad are all mental speculations.</p>
+<p>Therefore, saying, ‘This is good and this is bad,’ is all a mistake One has to understand that in the material world of duality, to think that this is good or that this is bad is simply a mental concoction.</p>
+<p>However, one should not imitate this consciousness; one should actually be situated on the spiritual platform of neutrality.</p>
+
+
+
+<p><strong>5.9.12</strong></p>
+<p>atha kadacit kascid vrsala-patir bhadra-kalyai purusa-pasum alabhatapatya-kamah.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atha—thereafter; kadacit—at some time; kascit—some; vrsala-patih—the leader of sudras engaged in plundering the property of others; bhadra-kalyai—unto the goddess known as Bhadra Kali; purusa-pasum—an animal in the shape of a man; alabhata—started to sacrifice; apatya-kamah—desiring a son.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>At this time, being desirous of obtaining a son, a leader of dacoits who came from a sudra family wanted to worship the goddess Bhadra Kali by offering her in sacrifice a dull man, who is considered no better than an animal.</p>
+<p><strong>PURPORT</strong></p>
+<p>Low-class men such as sudras worship demigods like goddess Kali, or Bhadra Kali, for the fulfillment of material desires.</p>
+<p>To this end, they sometimes kill a human being before the deity.</p>
+<p>They generally choose a person who is not very intelligent—in other words, an animal in the shape of a man.</p>
+
+
+
+<p><strong>5.9.13</strong></p>
+<p>tasya ha daiva-muktasya pasoh padavim tad-anucarah paridhavanto nisi nisitha-samaye tamasavrtayam anadhigata-pasava akasmikena vidhina kedaran virasanena mrga-varahadibhyah samraksamanam angirah-pravara-sutam apasyan.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasya—of the leader of the dacoits; ha—certainly; daiva-muktasya—by chance having escaped; pasoh—of the human animal; padavim—the path; tat-anucarah—his followers or assistants; paridhavantah—searching here and there to find; nisi—at night; nisitha-samaye—at midnight; tamasa avrtayam—being covered by darkness; anadhigata-pasavah—not catching the man-animal; akasmikena vidhina—by the unexpected law of providence; kedaran—the fields; vira-asanena—by a seat on a raised place; mrga-varaha-adibhyah—from the deer, wild pigs and so on; samraksamanam—protecting; angirah-pravara-sutam—the son of the brahmana descending from the Angira family; apasyan—they found.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The leader of the dacoits captured a man-animal for sacrifice, but he escaped, and the leader ordered his followers to find him.</p>
+<p>They ran in different directions but could not find him.</p>
+<p>Wandering here and there in the middle of the night, covered by dense darkness, they came to a paddy field where they saw the exalted son of the Angira family (Jada Bharata), who was sitting in an elevated place guarding the field against the attacks of deer and wild pigs.</p>
+
+
+
+<p><strong>5.9.14</strong></p>
+<p>atha ta enam anavadya-laksanam avamrsya bhartr-karma-nispattim manyamana baddhva rasanaya candika-grham upaninyur muda vikasita-vadanah.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atha—thereafter; te—they (the servants of the leader of the dacoits); enam—this (Jada Bharata); anavadya-laksanam—as bearing the characteristics of a dull animal because of a fat body like a bull’s and because of being deaf and dumb; avamrsya—recognizing; bhartr-karma-nispattim—the accomplishment of their master’s work; manyamanah—understanding; baddhva—binding tightly; rasanaya—with ropes; candika-grham—to the temple of goddess Kali; upaninyuh—brought; muda—with great happiness; vikasita-vadanah—with bright faces.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The followers and servants of the dacoit chief considered Jada Bharata to possess qualities quite suitable for a man-animal, and they decided that he was a perfect choice for sacrifice.</p>
+<p>Their faces bright with happiness, they bound him with ropes and brought him to the temple of the goddess Kali.</p>
+<p><strong>PURPORT</strong></p>
+<p>In some parts of India, animalistic men are still sacrificed before the goddess Kali.</p>
+<p>However, such a sacrifice is only performed by sudras and dacoits.</p>
+<p>Their business is to plunder the wealthy, and to become successful they offer an animalistic man before the goddess Kali.</p>
+<p>It should be noted that they never sacrifice an intelligent man before the goddess.</p>
+<p>In the body of a brahmana, Bharata Maharaja appeared deaf and dumb, yet he was the most intelligent man in the world.</p>
+<p>Nonetheless, being completely surrendered unto the Supreme Personality of Godhead, he remained in that condition and did not protest being brought before the deity for slaughter.</p>
+<p>As we have learned from the previous verses, he was very strong and could have very easily avoided being bound with ropes, but he did not do anything.</p>
+<p>He simply depended on the Supreme Personality of Godhead for his protection.</p>
+<p>Srila Bhaktivinoda Thakura describes surrender unto the Supreme Lord in this way:</p>
+<p>marabi rakhabi——yo iccha tohara</p>
+<p>nitya-dasa-prati tuya adhikara</p>
+<p>My Lord, I am now surrendered unto You.</p>
+<p>I am Your eternal servant, and if You like You can kill me, or, if You like, You can protect me.</p>
+<p>In any case, I am fully surrendered unto You</p>
+
+
+
+<p><strong>5.9.15</strong></p>
+<p>atha panayas tam sva-vidhinabhisicyahatena vasasacchadya bhusanalepa-srak-tilakadibhir upaskrtam bhuktavantam dhupa-dipa-malya-laja-kisalayankura-phalopaharopetaya vaisasa-samsthaya mahata gita-stuti-mrdanga-panava-ghosena ca purusa-pasum bhadra-kalyah purata upavesayam asuh.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atha—thereafter; panayah—all the followers of the dacoit; tam—him (Jada Bharata); sva-vidhina—according to their own ritualistic principles; abhisicya—bathing; ahatena—with new; vasasa—garments; acchadya—covering; bhusana—ornaments; alepa—smearing the body with sandalwood pulp; srak—a flower garland; tilaka-adibhih—with markings on the body and so on; upaskrtam—completely decorated; bhuktavantam—having eaten; dhupa—with incense; dipa—lamps; malya—garlands; laja—parched grain; kisalaya-ankura—twigs and sprouts; phala—fruits; upahara—other paraphernalia; upetaya—fully equipped; vaisasa-samsthaya—with complete arrangements for sacrifice; mahata—great; gita-stuti—of songs and prayers; mrdanga—of the drums; panava—of the bugles; ghosena—by vibration; ca—also; purusa-pasum—the man-animal; bhadra-kalyah—of the goddess Kali; puratah—just in front; upavesayam asuh—made him sit down.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>After this, all the thieves, according to their imaginative ritual for killing animalistic men, bathed Jada Bharata, dressed him in new clothes, decorated him with ornaments befitting an animal, smeared his body with scented oils and decorated him with tilaka, sandalwood pulp and garlands.</p>
+<p>They fed him sumptuously and then brought him before the goddess Kali, offering her incense, lamps, garlands, parched grain, newly grown twigs, sprouts, fruits and flowers.</p>
+<p>In this way they worshiped the deity before killing the man-animal, and they vibrated songs and prayers and played drums and bugles.</p>
+<p>Jada Bharata was then made to sit down before the deity.</p>
+<p><strong>PURPORT</strong></p>
+<p>In this verse the word sva-vidhina (according to their own ritualistic principles) is very significant.</p>
+<p>According to the Vedic sastras, everything must be done according to regulative principles, but here it is stated that the thieves and rogues devised their own process for killing an animalistic man.</p>
+<p>The tamasic sastras give instructions for the sacrifice of an animal like a goat or buffalo before the goddess Kali, but there is no mention of killing a man, however dull he may be.</p>
+<p>This process was manufactured by the dacoits themselves; therefore the word sva-vidhina is used.</p>
+<p>Even at this time there are many sacrifices being conducted without reference to the Vedic scriptures.</p>
+<p>For instance, in Calcutta recently a slaughterhouse was being advertised as a temple of the goddess Kali.</p>
+<p>Meat-eaters foolishly purchase meat from such shops, thinking it different from ordinary meat and taking it to be the prasada of goddess Kali.</p>
+<p>The sacrifice of a goat or a similar animal before the goddess Kali is mentioned in sastras just to keep people from eating slaughterhouse meat and becoming responsible for the killing of animals.</p>
+<p>The conditioned soul has a natural tendency toward sex and meat-eating; consequently the sastras grant them some concessions.</p>
+<p>Actually the sastras aim at putting an end to these abominable activities, but they impart some regulative principles so that gradually meat-eaters and sex hunters will be rectified.</p>
+
+
+
+<p><strong>5.9.16</strong></p>
+<p>atha vrsala-raja-panih purusa-pasor asrg-asavena devim bhadra-kalim yaksyamanas tad-abhimantritam asim ati-karala-nisitam upadade.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atha—thereafter; vrsala-raja-panih—the so-called priest of the leader of the dacoits (one of the thieves); purusa-pasoh—of the animalistic man for being sacrificed (Bharata Maharaja); asrk-asavena—with the liquor of blood; devim—to the deity; bhadra-kalim—the goddess Kali; yaksyamanah—desiring to offer; tat-abhimantritam—consecrated by the mantra of Bhadra Kali; asim—the sword; ati-karala—very fearful; nisitam—finely sharpened; upadade—he took up.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>At this time, one of the thieves, acting as the chief priest, was ready to offer the blood of Jada Bharata, whom they imagined to be an animal-man, to the goddess Kali to drink as a liquor.</p>
+<p>He therefore took up a very fearsome sword, which was very sharp and, consecrating it by the mantra of Bhadra Kali, raised it to kill Jada Bharata.</p>
+
+
+
+<p><strong>5.9.17</strong></p>
+<p>iti tesam vrsalanam rajas-tamah-prakrtinam dhana-mada-raja-utsikta-manasam bhagavat-kala-vira-kulam kadarthi-krtyotpathena svairam viharatam himsa-viharanam karmati-darunam yad brahma-bhutasya saksad brahmarsi-sutasya nirvairasya sarva-bhuta-suhrdah sunayam apy ananumatam alambhanam tad upalabhya brahma-tejasati-durvisahena dandahyamanena vapusa sahasoccacata saiva devi bhadra-kali.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>iti—thus; tesam—of them; vrsalanam—the sudras, by whom all religious principles are destroyed; rajah—in passion; tamah—in ignorance; prakrtinam—having natures; dhana-mada—in the form of infatuation by material wealth; rajah—by passion; utsikta—puffed up; manasam—whose minds; bhagavat-kala—an expansion of the plenary expansion of the Supreme Personality of Godhead; vira-kulam—the group of elevated personalities (the brahmanas); kat-arthi-krtya—disrespecting; utpathena—by a wrong path; svairam—independently; viharatam—who are proceeding; himsa-viharanam—whose business is to commit violence against others; karma—the activity; ati-darunam—very fearful; yat—that which; brahma-bhutasya—of a self-realized person born in a brahmana family; saksat—directly; brahma-rsi-sutasya—of the son born of a brahmana exalted in spiritual consciousness; nirvairasya—who had no enemies; sarva-bhuta-suhrdah—a well-wisher to all others; sunayam—at the last moment; api—even though; ananumatam—not being sanctioned by law; alambhanam—against the desire of the Lord; tat—that; upalabhya—perceiving; brahma-tejasa—with the effulgence of spiritual bliss; ati-durvisahena—being too bright and unbearable; dandahyamanena—burning; vapusa—with a physical body; sahasa—suddenly; uccacata—fractured (the deity); sa—she; eva—indeed; devi—the goddess; bhadra-kali—Bhadra Kali.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>All the rogues and thieves who had made arrangements for the worship of goddess Kali were low minded and bound to the modes of passion and ignorance.</p>
+<p>They were overpowered by the desire to become very rich; therefore they had the audacity to disobey the injunctions of the Vedas, so much so that they were prepared to kill Jada Bharata, a self-realized soul born in a brahmana family.</p>
+<p>Due to their envy, these dacoits brought him before the goddess Kali for sacrifice.</p>
+<p>Such people are always addicted to envious activities, and therefore they dared to try to kill Jada Bharata.</p>
+<p>Jada Bharata was the best friend of all living entities.</p>
+<p>He was no one’s enemy, and he was always absorbed in meditation on the Supreme Personality of Godhead.</p>
+<p>He was born of a good brahmana father, and killing him was forbidden, even though he might have been an enemy or aggressive person.</p>
+<p>In any case, there was no reason to kill Jada Bharata, and the goddess Kali could not bear this.</p>
+<p>She could immediately understand that these sinful dacoits were about to kill a great devotee of the Lord.</p>
+<p>Suddenly the deity’s body burst asunder, and the goddess Kali personally emerged from it in a body burning with an intense and intolerable effulgence.</p>
+<p><strong>PURPORT</strong></p>
+<p>According to the Vedic injunctions, only an aggressor can be killed.</p>
+<p>If a person comes with an intent to kill, one can immediately take action and kill in self-defense.</p>
+<p>It is also stated that one can be killed if he comes to set fire to the home or to pollute or kidnap one’s wife.</p>
+<p>Lord Ramacandra killed the entire family of Ravana because Ravana kidnapped His wife, Sitadevi.</p>
+<p>However, killing is not sanctioned in the sastras for other purposes.</p>
+<p>The killing of animals in sacrifice to the demigods, who are expansions of the Supreme Personality of Godhead, is sanctioned for those who eat meat.</p>
+<p>This is a kind of restriction for meat-eating.</p>
+<p>In other words, the slaughter of animals is also restricted by certain rules and regulations in the Vedas.</p>
+<p>Considering these points, there was no reason to kill Jada Bharata, who was born in a respectable, highly exalted brahmana family.</p>
+<p>He was a God-realized soul and a well-wisher to all living entities.</p>
+<p>The Vedas did not at all sanction the killing of Jada Bharata by rogues and thieves.</p>
+<p>Consequently the goddess Bhadra Kali emerged from the deity to give protection to the Lord’s devotee.</p>
+<p>Srila Visvanatha Cakravarti Thakura explains that due to the Brahman effulgence of such a devotee as Jada Bharata, the deity was fractured.</p>
+<p>Only thieves and rogues in the modes of passion and ignorance and maddened by material opulence offer a man in sacrifice before the goddess Kali.</p>
+<p>This is not sanctioned by the Vedic instructions.</p>
+<p>Presently there are many hundreds and thousands of slaughterhouses throughout the world that are maintained by a puffed-up population mad for material opulence.</p>
+<p>Such activities are never supported by the Bhagavata school.</p>
+
+
+
+<p><strong>5.9.18</strong></p>
+<p>bhrsam amarsa-rosavesa-rabhasa-vilasita-bhru-kuti-vitapa-kutila-damstraruneksanatopati-bhayanaka-vadana hantu-kamevedam mahatta-hasam ati-samrambhena vimuncanti tata utpatya papiyasam dustanam tenaivasina vivrkna-sirsnam galat sravantam asrg-asavam atyusnam saha ganena nipiyati-pana-mada-vihvaloccaistaram sva-parsadaih saha jagau nanarta ca vijahara ca sirah-kanduka-lilaya.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>bhrsam—very highly; amarsa—in intolerance of the offenses; rosa—in anger; avesa—of her absorption; rabhasa-vilasita—expanded by the force; bhru-kuti—of her eyebrows; vitapa—the branches; kutila—curved; damstra—teeth; aruna-iksana—of reddish eyes; atopa—by the agitation; ati—very much; bhayanaka—fearful; vadana—having a face; hantu-kama—desirous to destroy; iva—as if; idam—this universe; maha-atta-hasam—a greatly fearful laugh; ati—great; samrambhena—because of anger; vimuncanti—releasing; tatah—from that altar; utpatya—coming forth; papiyasam—of all the sinful; dustanam—great offenders; tena eva asina—by that same chopper; vivrkna—separated; sirsnam—whose heads; galat—from the neck; sravantam—oozing out; asrk-asavam—the blood, compared to an intoxicating beverage; ati-usnam—very hot; saha—with; ganena—her associates; nipiya—drinking; ati-pana—from drinking so much; mada—by intoxication; vihvala—overwhelmed; uccaih-taram—very loudly; sva-parsadaih—her own associates; saha—with; jagau—sang; nanarta—danced; ca—also; vijahara—played; ca—also; sirah-kanduka—using the heads as balls; lilaya—by sports.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Intolerant of the offenses committed, the infuriated goddess Kali flashed her eyes and displayed her fierce, curved teeth.</p>
+<p>Her reddish eyes glowed, and she displayed her fearsome features.</p>
+<p>She assumed a frightening body, as if she were prepared to destroy the entire creation.</p>
+<p>Leaping violently from the altar, she immediately decapitated all the rogues and thieves with the very sword with which they had intended to kill Jada Bharata.</p>
+<p>She then began to drink the hot blood that flowed from the necks of the beheaded rogues and thieves, as if this blood were liquor.</p>
+<p>Indeed, she drank this intoxicant with her associates, who were witches and female demons.</p>
+<p>Becoming intoxicated with this blood, they all began to sing very loudly and dance as though prepared to annihilate the entire universe.</p>
+<p>At the same time, they began to play with the heads of the rogues and thieves, tossing them about as if they were balls.</p>
+<p><strong>PURPORT</strong></p>
+<p>It is evident from this verse that the devotees of goddess Kali are not at all favored by her.</p>
+<p>It is goddess Kali’s work to kill and punish the demons.</p>
+<p>Goddess Kali (Durga) engages in decapitating many demons, dacoits and other unwanted elements in society.</p>
+<p>Neglecting Krsna consciousness, foolish people try to satisfy the goddess by offering her many abominable things, but ultimately when there is a little discrepancy in this worship, the goddess punishes the worshiper by taking his life.</p>
+<p>Demoniac people worship goddess Kali to obtain some material benefit, but they are not excused of the sins performed in the name of worship.</p>
+<p>To sacrifice a man or animal before the deity is specifically forbidden.</p>
+
+
+
+<p><strong>5.9.19</strong></p>
+<p>evam eva khalu mahad-abhicarati-kramah kartsnyenatmane phalati.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>evam eva—in this way; khalu—indeed; mahat—to great personalities; abhicara—in the form of envy; ati-kramah—the limit of offense; kartsnyena—always; atmane—unto oneself; phalati—gives the result.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When an envious person commits an offense before a great personality, he is always punished in the way mentioned above.</p>
+
+
+
+<p><strong>5.9.20</strong></p>
+<p>na va etad visnudatta mahad-adbhutam yad asambhramah sva-siras-chedana apatite ’pi vimukta-dehady-atma-bhava-sudrdha-hrdaya-granthinam sarva-sattva-suhrd-atmanam nirvairanam saksad bhagavatanimisari-varayudhenapramattena tais tair bhavaih pariraksyamananam tat-pada-mulam akutascid-bhayam upasrtanam bhagavata-paramahamsanam.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—not; va—or; etat—this; visnu-datta—O Maharaja Pariksit, who was protected by Lord Visnu; mahat—a great; adbhutam—wonder; yat—which; asambhramah—lack of perplexity; sva-sirah-chedane—when the chopping off of the head; apatite—was about to happen; api—even though; vimukta—completely liberated from; deha-adi-atma-bhava—the false bodily concept of life; su-drdha—very strong and tight; hrdaya-granthinam—of those whose knots within the heart; sarva-sattva-suhrt-atmanam—of persons who in their hearts always wish well to all living entities; nirvairanam—who do not find anyone as their enemy; saksat—directly; bhagavata—by the Supreme Personality of Godhead; animisa—invincible time; ari-vara—and the best of weapons, the Sudarsana cakra; ayudhena—by Him who possesses the weapons; apramattena—not agitated at any time; taih taih—by those respective; bhavaih—moods of the Supreme Personality of Godhead; pariraksyamananam—of persons who are protected; tat-pada-mulam—at the lotus feet of the Supreme Personality of Godhead; akutascit—from nowhere; bhayam—fear; upasrtanam—of those who have taken complete shelter; bhagavata—of devotees of the Lord; parama-hamsanam—of the most liberated persons.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sukadeva Gosvami then said to Maharaja Pariksit: O Visnudatta, those who already know that the soul is separate from the body, who are liberated from the invincible knot in the heart, who are always engaged in welfare activities for all living entities and who never contemplate harming anyone are always protected by the Supreme Personality of Godhead, who carries His disc (the Sudarsana cakra) and acts as supreme time to kill the demons and protect His devotees.</p>
+<p>The devotees always take shelter at the lotus feet of the Lord.</p>
+<p>Therefore at all times, even if threatened by decapitation, they remain unagitated.</p>
+<p>For them, this is not at all wonderful.</p>
+<p><strong>PURPORT</strong></p>
+<p>These are some of the great qualities of a pure devotee of the Supreme Personality of Godhead.</p>
+<p>First, a devotee is firmly convinced of his spiritual identity.</p>
+<p>He never identifies with the body; he is firmly convinced that the spirit soul is different from the body.</p>
+<p>Consequently he fears nothing.</p>
+<p>Even though his life may be threatened, he is not at all afraid.</p>
+<p>He does not even treat an enemy like an enemy.</p>
+<p>Such are the qualifications of devotees.</p>
+<p>Devotees are always fully dependent on the Supreme Personality of Godhead, and the Lord is always eager to give them all protection in all circumstances.</p>
+
+
+</article></body></html>

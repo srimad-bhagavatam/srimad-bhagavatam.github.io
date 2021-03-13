@@ -1,155 +1,42 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>King Citraketu’s Lamentation - King Citraketu’s Lamentation</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">King Citraketu’s Lamentation</a></li><li class="affix"><a href="6.14.2.html">6.14.2</a></li><li class="affix"><a href="6.14.3.html">6.14.3</a></li><li class="affix"><a href="6.14.4.html">6.14.4</a></li><li class="affix"><a href="6.14.5.html">6.14.5</a></li><li class="affix"><a href="6.14.6.html">6.14.6</a></li><li class="affix"><a href="6.14.7.html">6.14.7</a></li><li class="affix"><a href="6.14.8.html">6.14.8</a></li><li class="affix"><a href="6.14.9.html">6.14.9</a></li><li class="affix"><a href="6.14.10.html">6.14.10</a></li><li class="affix"><a href="6.14.11.html">6.14.11</a></li><li class="affix"><a href="6.14.12.html">6.14.12</a></li><li class="affix"><a href="6.14.13.html">6.14.13</a></li><li class="affix"><a href="6.14.14.html">6.14.14</a></li><li class="affix"><a href="6.14.15.html">6.14.15</a></li><li class="affix"><a href="6.14.16.html">6.14.16</a></li><li class="affix"><a href="6.14.17.html">6.14.17</a></li><li class="affix"><a href="6.14.18.html">6.14.18</a></li><li class="affix"><a href="6.14.19.html">6.14.19</a></li><li class="affix"><a href="6.14.20.html">6.14.20</a></li><li class="affix"><a href="6.14.21.html">6.14.21</a></li><li class="affix"><a href="6.14.22.html">6.14.22</a></li><li class="affix"><a href="6.14.23.html">6.14.23</a></li><li class="affix"><a href="6.14.24.html">6.14.24</a></li><li class="affix"><a href="6.14.25.html">6.14.25</a></li><li class="affix"><a href="6.14.26.html">6.14.26</a></li><li class="affix"><a href="6.14.27.html">6.14.27</a></li><li class="affix"><a href="6.14.28.html">6.14.28</a></li><li class="affix"><a href="6.14.29.html">6.14.29</a></li><li class="affix"><a href="6.14.30.html">6.14.30</a></li><li class="affix"><a href="6.14.31.html">6.14.31</a></li><li class="affix"><a href="6.14.32.html">6.14.32</a></li><li class="affix"><a href="6.14.33.html">6.14.33</a></li><li class="affix"><a href="6.14.34.html">6.14.34</a></li><li class="affix"><a href="6.14.35.html">6.14.35</a></li><li class="affix"><a href="6.14.36.html">6.14.36</a></li><li class="affix"><a href="6.14.37.html">6.14.37</a></li><li class="affix"><a href="6.14.38.html">6.14.38</a></li><li class="affix"><a href="6.14.39.html">6.14.39</a></li><li class="affix"><a href="6.14.40.html">6.14.40</a></li><li class="affix"><a href="6.14.41.html">6.14.41</a></li><li class="affix"><a href="6.14.42.html">6.14.42</a></li><li class="affix"><a href="6.14.43.html">6.14.43</a></li><li class="affix"><a href="6.14.44.html">6.14.44</a></li><li class="affix"><a href="6.14.45.html">6.14.45</a></li><li class="affix"><a href="6.14.46.html">6.14.46</a></li><li class="affix"><a href="6.14.47.html">6.14.47</a></li><li class="affix"><a href="6.14.48.html">6.14.48</a></li><li class="affix"><a href="6.14.49.html">6.14.49</a></li><li class="affix"><a href="6.14.50-51.html">6.14.50-51</a></li><li class="affix"><a href="6.14.52.html">6.14.52</a></li><li class="affix"><a href="6.14.53.html">6.14.53</a></li><li class="affix"><a href="6.14.54.html">6.14.54</a></li><li class="affix"><a href="6.14.55.html">6.14.55</a></li><li class="affix"><a href="6.14.56.html">6.14.56</a></li><li class="affix"><a href="6.14.57.html">6.14.57</a></li><li class="affix"><a href="6.14.58.html">6.14.58</a></li><li class="affix"><a href="6.14.59.html">6.14.59</a></li><li class="affix"><a href="6.14.60.html">6.14.60</a></li><li class="affix"><a href="6.14.61.html">6.14.61</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">King Citraketu’s Lamentation</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#king-citraketus-lamentation" id="king-citraketus-lamentation">King Citraketu’s Lamentation</a></h1>
-<h2><a class="header" href="#summary" id="summary">Summary</a></h2>
-<h3><a class="header" href="#614" id="614">6.14</a></h3>
+<h1>King Citraketu’s Lamentation</h1>
+<h2>Summary</h2>
+<p><strong>6.14</strong></p>
 <p>In this Fourteenth Chapter, Pariksit Maharaja asks his spiritual master, Sukadeva Gosvami, how such a demon as Vrtrasura could become an exalted devotee.</p>
 <p>In this connection the previous life of Vrtrasura is discussed.</p>
 <p>This involves the story of Citraketu and how he was victimized by lamentation because of the death of his son.</p>
@@ -165,7 +52,7 @@
 <p>The co-wives of Krtadyuti, however, were envious, and later they administered poison to the child.</p>
 <p>Citraketu was overwhelmed by shock at his son’s death.</p>
 <p>Then Narada Muni and Angira went to see him.</p>
-<h3><a class="header" href="#6141" id="6141">6.14.1</a></h3>
+<p><strong>6.14.1</strong></p>
 <p>sri-pariksid uvaca</p>
 <p>rajas-tamah-svabhavasya</p>
 <p>brahman vrtrasya papmanah</p>
@@ -186,63 +73,978 @@
 <p>bhajante mam drdha-vratah</p>
 <p>Persons who have acted piously in previous lives and in this life, whose sinful actions are completely eradicated and who are freed from the duality of delusion, engage themselves in My service with determination Since Vrtrasura was among the demons, Maharaja Pariksit wondered how it was possible for him to have become such an exalted devotee.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="6.14.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>6.14.2</strong></p>
+<p>devanam suddha-sattvanam</p>
+<p>rsinam camalatmanam</p>
+<p>bhaktir mukunda-carane</p>
+<p>na prayenopajayate</p>
+<p><strong>SYNONYMS</strong></p>
+<p>devanam—of the demigods; suddha-sattvanam—whose minds are purified; rsinam—of great saintly persons; ca—and; amala-atmanam—who have purified their existence; bhaktih—devotional service; mukunda-carane—to the lotus feet of Mukunda, the Lord, who can give liberation; na—not; prayena—almost always; upajayate—develops.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Demigods situated in the mode of goodness and great saints cleansed of the dirt of material enjoyment hardly ever render pure devotional service at the lotus feet of Mukunda.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="6.14.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>6.14.3</strong></p>
+<p>rajobhih sama-sankhyatah</p>
+<p>parthivair iha jantavah</p>
+<p>tesam ye kecanehante</p>
+<p>sreyo vai manujadayah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>rajobhih—with the atoms; sama-sankhyatah—having the same numerical strength; parthivaih—of the earth; iha—in this world; jantavah—the living entities; tesam—of them; ye—those who; kecana—some; ihante—act; sreyah—for religious principles; vai—indeed; manuja-adayah—the human beings and so on.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In this material world there are as many living entities as atoms.</p>
+<p>Among these living entities, a very few are human beings, and among them, few are interested in following religious principles.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>6.14.4</strong></p>
+<p>prayo mumuksavas tesam</p>
+<p>kecanaiva dvijottama</p>
+<p>mumuksunam sahasresu</p>
+<p>kascin mucyeta sidhyati</p>
+<p><strong>SYNONYMS</strong></p>
+<p>prayah—almost always; mumuksavah—persons interested in liberation; tesam—of them; kecana—some; eva—indeed; dvija-uttama—O best of the brahmanas; mumuksunam—of those who desire to be liberated; sahasresu—in many thousands; kascit—someone; mucyeta—may be actually liberated; sidhyati—someone is perfect.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O best of the brahmanas, Sukadeva Gosvami, out of many persons who follow religious principles, only a few desire liberation from the material world.</p>
+<p>Among many thousands who desire liberation, one may actually achieve liberation, giving up material attachment to society, friendship, love, country, home, wife and children.</p>
+<p>And among many thousands of such liberated persons, one who can understand the true meaning of liberation is very rare.</p>
+<p><strong>PURPORT</strong></p>
+<p>There are four classes of men, namely karmis, jnanis, yogis and bhaktas.</p>
+<p>This statement pertains especially to karmis and jnanis.</p>
+<p>A karmi tries to he happy within this material world by changing from one body to another.</p>
+<p>His objective is bodily comfort, either in this planet or in another.</p>
+<p>When such a person becomes a jnani, however, be aspires for liberation from material bondage.</p>
+<p>Among many such persons who aspire for liberation, one may actually be liberated during his life.</p>
+<p>Such a person gives up his attachment for society, friendship, love, country, family, wife and children.</p>
+<p>Among many such persons, who are in the vanaprastha stage, one may understand the value of becoming a sannyasi, completely accepting the renounced order of life.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>6.14.5</strong></p>
+<p>muktanam api siddhanam</p>
+<p>narayana-parayanah</p>
+<p>sudurlabhah prasantatma</p>
+<p>kotisv api maha-mune</p>
+<p><strong>SYNONYMS</strong></p>
+<p>muktanam—of those who are liberated during this life (who are unattached to the bodily comforts of society, friendship and love); api—even; siddhanam—who are perfect (because they understand the insignificance of bodily comforts); narayana-parayanah—a person who has concluded that Narayana is the Supreme; su-durlabhah—very rarely found; prasanta—fully pacified; atma—whose mind; kotisu—out of millions and trillions; api—even; maha-mune—O great sage.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O great sage, among many millions who are liberated and perfect in knowledge of liberation, one may be a devotee of Lord Narayana, or Krsna.</p>
+<p>Such devotees, who are fully peaceful, are extremely rare.</p>
+<p><strong>PURPORT</strong></p>
+<p>Srila Visvanatha Cakravarti Thakura gives the following purport to this verse.</p>
+<p>Simply desiring mukti, or liberation, is insufficient; one must become factually liberated.</p>
+<p>When one understands the futility of the materialistic way of life, one becomes advanced in knowledge, and therefore he situates himself in the vanaprastha order, unattached to family, wife and children.</p>
+<p>One should then further progress to the platform of sannyasa, the actual renounced order, never to fall again and be afflicted by materialistic life.</p>
+<p>Even though one desires to be liberated, this does not mean he is liberated.</p>
+<p>Only rarely is someone liberated.</p>
+<p>Indeed, although many men take sannyasa to become liberated, because of their imperfections they again become attached to women, material activities, social welfare work and so on.</p>
+<p>Jnanis, yogis and karmis devoid of devotional service are called offenders.</p>
+<p>Sri Caitanya Mahaprabhu says, mayavadi krsne aparadhi: one who thinks that everything is maya instead of thinking that everything is Krsna is called an aparadhi, or offender.</p>
+<p>Although the Mayavadis, impersonalists, are offenders at the lotus feet of Krsna, they may nonetheless be counted among the siddhas, those who have realized the self.</p>
+<p>They may be considered nearer to spiritual perfection because at least they have realized what spiritual life is.</p>
+<p>If such a person becomes narayana-parayana, a devotee of Lord Narayana, he is better than a jivan-mukta, one who is liberated or perfect.</p>
+<p>This requires higher intelligence.</p>
+<p>There are two kinds of jnanis.</p>
+<p>One is inclined to devotional service and the other to impersonal realization.</p>
+<p>Impersonalists generally undergo great endeavor for no tangible benefit, and therefore it is said that they are husking paddy that has no grain (sthula-tusavaghatinah).</p>
+<p>The other class of jnanis, whose jnana is mixed with bhakti, are also of two kinds—those who are devoted to the so-called false form of the Supreme Personality of Godhead and those who understand the Supreme Personality of Godhead as sac-cid-ananda-vigraha (Bs.5.1), the actual spiritual form.</p>
+<p>The Mayavadi devotees worship Narayana or Visnu with the idea that Visnu has accepted a form of maya and that the ultimate truth is actually impersonal.</p>
+<p>The pure devotee, however, never thinks that Visnu has accepted a body of maya; instead, he knows perfectly well that the original Absolute Truth is the Supreme Person.</p>
+<p>Such a devotee is actually situated in knowledge.</p>
+<p>He never merges in the Brahman effulgence.</p>
+<p>Srimad-Bhagavatam (10.2.32):</p>
+<p>ye ’nye ’ravindaksa vimukta-maninas</p>
+<p>tvayy asta-bhavad avisuddha-buddhayah</p>
+<p>aruhya krcchrena param padam tatah</p>
+<p>patanty adho ’nadrta-yusmad-anghrayah</p>
+<p>O Lord, the intelligence of those who think themselves liberated but who have no devotion is impure.</p>
+<p>Even though they rise to the highest point of liberation by dint of severe penances and austerities, they are sure to fall down again into material existence, for they do not take shelter at Your lotus feet Evidence of this same point is also given in Bhagavad-gita (9.11), wherein the Lord says:</p>
+<p>avajananti mam mudha</p>
+<p>manusim tanum asritam</p>
+<p>param bhavam ajananto</p>
+<p>mama bhuta-mahesvaram</p>
+<p>(Bg.9.11)</p>
+<p>Fools deride Me when I descend in the human form.</p>
+<p>They do not know My transcendental nature and My supreme dominion over all that be When rascals (mudhas) see that Krsna acts exactly like a human being, they deride the transcendental form of the Lord because they do not know the param bhavam, His transcendental form and activities.</p>
+<p>Such persons are further described in Bhagavad-gita (9.12) as follows:</p>
+<p>moghasa mogha-karmano</p>
+<p>mogha-jnana vicetasah</p>
+<p>raksasim asurim caiva</p>
+<p>prakrtim mohinim sritah</p>
+<p>Those who are thus bewildered are attracted by demoniac and atheistic views.</p>
+<p>In that deluded condition, their hopes for liberation, their fruitive activities and their culture of knowledge are all defeated Such persons do not know that Krsna’s body is not material.</p>
+<p>There is no distinction between Krsna’s body and His soul, but because less intelligent men see Krsna as a human being, they deride Him.</p>
+<p>They cannot imagine how a person like Krsna could be the origin of everything (govindam adi-purusam tam aham bhajami ).</p>
+<p>Such persons are described as moghasah, baffled in their hopes.</p>
+<p>Whatever they desire for the future will be baffled.</p>
+<p>Even if they apparently engage in devotional service, they are described as moghasah because they ultimately desire to merge into the Brahman effulgence.</p>
+<p>Those who aspire to be elevated to the heavenly planets by devotional service will also be frustrated, because this is not the result of devotional service.</p>
+<p>However, they are also given a chance to engage in devotional service and be purified.</p>
+<p>Srimad-Bhagavatam (1.2.17):</p>
+<p>srnvatam sva-kathah krsnah</p>
+<p>punya-sravana-kirtanah</p>
+<p>hrdy antah-stho hy abhadrani</p>
+<p>vidhunoti suhrt satam</p>
+<p>Sri Krsna, the Personality of Godhead, who is the Paramatma (Supersoul) in everyone’s heart and the benefactor of the truthful devotee, cleanses desire for material enjoyment from the heart of the devotee who relishes His messages, which are in themselves virtuous when properly heard and chanted Unless the dirt within the core of one’s heart is cleansed away, one cannot become a pure devotee.</p>
+<p>Therefore the word sudurlabhah (very rarely foun) is used in this verse.</p>
+<p>Not only among hundreds and thousands, but among millions of perfectly liberated souls, a pure devotee is hardly ever found.</p>
+<p>Therefore the words kotisv api are used herein.</p>
+<p>Srila Madhvacarya gives the following quotations from the Tantra Bhagavata:</p>
+<p>nava-kotyas tu devanam</p>
+<p>rsayah sapta-kotayah</p>
+<p>narayanayanah sarve</p>
+<p>ye kecit tat-parayanah</p>
+<p>There are ninety million demigods and seventy million sages, who are all called narayanayana, devotees of Lord Narayana.</p>
+<p>Among them, only a few are called narayana-parayana</p>
+<p>narayanayana deva</p>
+<p>rsy-adyas tat-parayanah</p>
+<p>brahmadyah kecanaiva syuh</p>
+<p>siddho yogya-sukham labhan</p>
+<p>The difference between the siddhas and narayana-parayanas is that direct devotees are called narayana-parayanas whereas those who perform various types of mystic yoga are called siddhas.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>6.14.6</strong></p>
+<p>vrtras tu sa katham papah</p>
+<p>sarva-lokopatapanah</p>
+<p>ittham drdha-matih krsna</p>
+<p>asit sangrama ulbane</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vrtrah—Vrtrasura; tu—but; sah—he; katham—how; papah—although sinful (getting the body of a demon); sarva-loka—of all the three worlds; upatapanah—the cause of suffering; ittham—such; drdha-matih—firmly fixed intelligence; krsne—in Krsna; asit—there was; sangrame ulbane—in the great blazing fire of battle.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Vrtrasura was situated in the blazing fire of battle and was an infamous, sinful demon, always engaged in giving troubles and anxieties to others.</p>
+<p>How could such a demon become so greatly Krsna conscious?</p>
+<p><strong>PURPORT</strong></p>
+<p>It has been described that a narayana-parayana, a pure devotee, is rarely found even among millions and millions of persons.</p>
+<p>Therefore Pariksit Maharaja was surprised that Vrtrasura, whose purpose was to give trouble and anxiety to others, was one of these devotees, even on a battlefield.</p>
+<p>What was the reason for Vrtrasura’s advancement?</p>
+
+
+
+<p><strong>6.14.7</strong></p>
+<p>atra nah samsayo bhuyan</p>
+<p>chrotum kautuhalam prabho</p>
+<p>yah paurusena samare</p>
+<p>sahasraksam atosayat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atra—in this connection; nah—our; samsayah—doubt; bhuyan—great; srotum—to hear; kautuhalam—eagerness; prabho—O my lord; yah—he who; paurusena—by bravery and strength; samare—in battle; sahasra-aksam—Lord Indra, who has one thousand eyes; atosayat—pleased.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear lord, Sukadeva Gosvami, although Vrtrasura was a sinful demon, he showed the prowess of a most exalted ksatriya and satisfied Lord Indra in battle.</p>
+<p>How could such a demon be a great devotee of Lord Krsna? These contradictions have caused me great doubt, and they have made me eager to hear of this from you.</p>
+
+
+
+<p><strong>6.14.8</strong></p>
+<p>sri-suta uvaca</p>
+<p>pariksito ’tha samprasnam</p>
+<p>bhagavan badarayanih</p>
+<p>nisamya sraddadhanasya</p>
+<p>pratinandya vaco ’bravit</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-sutah uvaca—Sri Suta Gosvami said; pariksitah—of Maharaja Pariksit; atha—thus; samprasnam—the perfect question; bhagavan—the most powerful; badarayanih—Sukadeva Gosvami, the son of Vyasadeva; nisamya—hearing; sraddadhanasya—of his disciple, who was so faithful in understanding the truth; pratinandya—congratulating; vacah—words; abravit—spoke.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sri Suta Gosvami said: After hearing Maharaja Pariksit’s very intelligent question, Sukadeva Gosvami, the most powerful sage, began answering his disciple with great affection.</p>
+
+
+
+<p><strong>6.14.9</strong></p>
+<p>sri-suka uvaca</p>
+<p>srnusvavahito rajann</p>
+<p>itihasam imam yatha</p>
+<p>srutam dvaipayana-mukhan</p>
+<p>naradad devalad api</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-sukah uvaca—Sri Sukadeva Gosvami said; srnusva—please hear; avahitah—with great attention; rajan—O King; itihasam—history; imam—this; yatha—just as; srutam—heard; dvaipayana—of Vyasadeva; mukhat—from the mouth; naradat—from Narada; devalat—from Devala Rsi; api—also.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sri Sukadeva Gosvami said: O King, I shall speak to you the same history I have heard from the mouths of Vyasadeva, Narada and Devala.</p>
+<p>Please listen with attention.</p>
+
+
+
+<p><strong>6.14.10</strong></p>
+<p>asid raja sarvabhaumah</p>
+<p>surasenesu vai nrpa</p>
+<p>citraketur iti khyato</p>
+<p>yasyasit kamadhun mahi</p>
+<p><strong>SYNONYMS</strong></p>
+<p>asit—there was; raja—one king; sarva-bhaumah—an emperor of the entire surface of the globe; surasenesu—in the country known as Surasena; vai—indeed; nrpa—O King; citraketuh—Citraketu; iti—thus; khyatah—celebrated; yasya—of whom; asit—was; kama-dhuk—supplying all the necessities; mahi—the earth.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King Pariksit, in the province of Surasena there was a king named Citraketu, who ruled the entire earth.</p>
+<p>During his reign, the earth produced all the necessities for life.</p>
+<p><strong>PURPORT</strong></p>
+<p>Here the most significant statement is that the earth completely produced all the necessities of life during the time of King Citraketu.</p>
+<p>As stated in the Isopanisad (Mantra1):</p>
+<p>isavasyam idam sarvam</p>
+<p>yat kinca jagatyam jagat</p>
+<p>tena tyaktena bhunjitha</p>
+<p>ma grdhah kasya svid dhanam</p>
+<p>Everything animate or inanimate that is within the universe is controlled and owned by the Lord.</p>
+<p>One should therefore accept only those things necessary for himself, which are set aside as his quota, and one should not accept other things, knowing well to whom they belong Krsna, the supreme controller, has created the material world, which is completely perfect and free from scarcity.</p>
+<p>The Lord supplies the necessities of all living entities.</p>
+<p>These necessities come from the earth, and thus the earth is the source of supply.</p>
+<p>When there is a good ruler, that source produces the necessities of life abundantly.</p>
+<p>However, when there is not such a good ruler, there will be scarcity.</p>
+<p>This is the significance of the word kamadhuk.</p>
+<p>Srimad-Bhagavatam (1.10.4) it is said, kamam vavarsa parjanyah sarva-kama-dugha mahi: During the reign of Maharaja Yudhisthira, the clouds showered all the water that people needed, and the earth produced all the necessities of men in profusion We have experience that in some seasons the rains produce abundance and in other seasons there is scarcity.</p>
+<p>We have no control over the earth’s productiveness, for it is naturally under the full control of the Supreme Personality of Godhead.</p>
+<p>By His order, the Lord can make the earth produce sufficiently or insufficiently.</p>
+<p>If a pious king rules the earth according to the sastric injunctions, there will naturally be regular rainfall and sufficient produce to provide for all men.</p>
+<p>There will be no question of exploitation, for everyone will have enough.</p>
+<p>Black-marketeering and other corrupt dealings will then automatically stop.</p>
+<p>Simply ruling the land cannot solve man’s problems unless the leader has spiritual capabilities.</p>
+<p>He must be like Maharaja Yudhisthira, Pariksit Maharaja or Ramacandra.</p>
+<p>Then all the inhabitants of the land will be extremely happy.</p>
+
+
+
+<p><strong>6.14.11</strong></p>
+<p>tasya bharya-sahasranam</p>
+<p>sahasrani dasabhavan</p>
+<p>santanikas capi nrpo</p>
+<p>na lebhe tasu santatim</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasya—of him (King Citraketu); bharya—of wives; sahasranam—of thousands; sahasrani—thousands; dasa—ten; abhavan—there were; santanikah—quite capable of begetting sons; ca—and; api—although; nrpah—the King; na—not; lebhe—obtained; tasu—in them; santatim—a son.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>This Citraketu had ten million wives, but although he was capable of producing children, he did not receive a child from any of them.</p>
+<p>By chance, all the wives were barren.</p>
+
+
+
+<p><strong>6.14.12</strong></p>
+<p>rupaudarya-vayo-janma-</p>
+<p>vidyaisvarya-sriyadibhih</p>
+<p>sampannasya gunaih sarvais</p>
+<p>cinta bandhya-pater abhut</p>
+<p><strong>SYNONYMS</strong></p>
+<p>rupa—with beauty; audarya—magnanimity; vayah—youth; janma—aristocratic birth; vidya—education; aisvarya—opulence; sriya-adibhih—wealth and so on; sampannasya—endowed; gunaih—with good qualities; sarvaih—all; cinta—anxiety; bandhya-pateh—of Citraketu, the husband of so many sterile wives; abhut—there was.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Citraketu, the husband of these millions of wives, was endowed with a beautiful form, magnanimity and youth.</p>
+<p>He was born in a high family, he had a complete education, and he was wealthy and opulent.</p>
+<p>Nevertheless, in spite of being endowed with all these assets, he was full of anxiety because he did not have a son.</p>
+<p><strong>PURPORT</strong></p>
+<p>It appears that the King first married one wife, but she could not bear a child.</p>
+<p>Then he married a second, a third, a fourth and so on, but none of the wives could bear children.</p>
+<p>In spite of the material assets of janmaisvarya-sruta-sri—birth in an aristocratic family with full opulence, wealth, education and beauty—he was very much aggrieved because in spite of having so many wives, he had no son.</p>
+<p>Certainly his grief was natural.</p>
+<p>Grhastha life does not mean having a wife and no children.</p>
+<p>Canakya Pandita says, putra-hinam grham sunyam: if a family man has no son, his home is no better than a desert.</p>
+<p>The King was certainly most unhappy that he could not get a son, and this is why he had married so many times.</p>
+<p>Ksatriyas especially are allowed to marry more than one wife, and this King did so.</p>
+<p>Nonetheless, he had no issue.</p>
+
+
+
+<p><strong>6.14.13</strong></p>
+<p>na tasya sampadah sarva</p>
+<p>mahisyo vama-locanah</p>
+<p>sarvabhaumasya bhus ceyam</p>
+<p>abhavan priti-hetavah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—not; tasya—of him (Citraketu); sampadah—the great opulences; sarvah—all; mahisyah—the queens; vama-locanah—having very attractive eyes; sarva-bhaumasya—of the emperor; bhuh—land; ca—also; iyam—this; abhavan—were; priti-hetavah—sources of pleasure.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>His queens all had beautiful faces and attractive eyes, yet neither his opulences, his hundreds and thousands of queens, nor the lands of which he was the supreme proprietor were sources of happiness for him.</p>
+
+
+
+<p><strong>6.14.14</strong></p>
+<p>tasyaikada tu bhavanam</p>
+<p>angira bhagavan rsih</p>
+<p>lokan anucarann etan</p>
+<p>upagacchad yadrcchaya</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasya—of him; ekada—once upon a time; tu—but; bhavanam—to the palace; angirah—Angira; bhagavan—very powerful; rsih—sage; lokan—planets; anucaran—traveling around; etan—these; upagacchat—came; yadrcchaya—suddenly.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Once upon a time, when the powerful sage named Angira was traveling all over the universe without engagement, by his sweet will he came to the palace of King Citraketu.</p>
+
+
+
+<p><strong>6.14.15</strong></p>
+<p>tam pujayitva vidhivat</p>
+<p>pratyutthanarhanadibhih</p>
+<p>krtatithyam upasidat</p>
+<p>sukhasinam samahitah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tam—him; pujayitva—after worshiping; vidhi-vat—according to the rules and regulations for receiving exalted guests; pratyutthana—by standing from the throne; arhana-adibhih—offering worship and so on; krta-atithyam—who was given hospitality; upasidat—sat down near; sukha-asinam—who was seated very comfortably; samahitah—controlling his mind and senses.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Citraketu immediately stood up from his throne and offered him worship.</p>
+<p>He offered drinking water and eatables and in this way performed his duty as a host to a great guest.</p>
+<p>When the rsi was seated very comfortably, the King, restraining his mind and senses, sat on the ground at the side of the rsi’s feet.</p>
+
+
+
+<p><strong>6.14.16</strong></p>
+<p>maharsis tam upasinam</p>
+<p>prasrayavanatam ksitau</p>
+<p>pratipujya maharaja</p>
+<p>samabhasyedam abravit</p>
+<p><strong>SYNONYMS</strong></p>
+<p>maha-rsih—the great sage; tam—unto him (the King); upasinam—sitting near; prasraya-avanatam—bowing in humility; ksitau—on the ground; pratipujya—congratulating; maharaja—O King Pariksit; samabhasya—addressing; idam—this; abravit—said.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King Pariksit, when Citraketu, bent low in humility, was seated at the lotus feet of the great sage, the sage congratulated him for his humility and hospitality.</p>
+<p>The sage addressed him in the following words.</p>
+
+
+
+<p><strong>6.14.17</strong></p>
+<p>angira uvaca</p>
+<p>api te ’namayam svasti</p>
+<p>prakrtinam tathatmanah</p>
+<p>yatha prakrtibhir guptah</p>
+<p>puman raja ca saptabhih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>angirah uvaca—the great sage Angira said; api—whether; te—of you; anamayam—health; svasti—auspiciousness; prakrtinam—of your royal elements (associates and paraphernalia); tatha—as well as; atmanah—of your own body, mind and soul; yatha—like; prakrtibhih—by the elements of material nature; guptah—protected; puman—the living being; raja—the king; ca—also; saptabhih—by seven.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The great sage Angira said: My dear King, I hope that your body and mind and your royal associates and paraphernalia are well.</p>
+<p>When the seven properties of material nature (the total material energy, the ego and the five objects of sense gratification) are in proper order, the living entity within the material elements is happy.</p>
+<p>Without these seven elements one cannot exist.</p>
+<p>Similarly, a king is always protected by seven elements—his instructor (svami or guru), his ministers, his kingdom, his fort, his treasury, his royal order and his friends.</p>
+<p><strong>PURPORT</strong></p>
+<p>As it is quoted by Sridhara Svami in his Bhagavatam commentary:</p>
+<p>svamy-amatyau janapada</p>
+<p>durga-dravina-sancayah</p>
+<p>dando mitram ca tasyaitah</p>
+<p>sapta-prakrtayo matah</p>
+<p>A king is not alone.</p>
+<p>He first has his spiritual master, the supreme guide.</p>
+<p>Then come his ministers, his kingdom, his fortifications, his treasury, his system of law and order, and his friends or allies.</p>
+<p>If these seven are properly maintained, the king is happy.</p>
+<p>Similarly, as explained in Bhagavad-gita (dehino ’smin yatha dehe (Bg.2.13)), the living entity, the soul, is within the material covering of the mahat-tattva, ego and panca-tanmatra, the five objects of sense gratification.</p>
+<p>When these seven are in proper order, the living entity is in a mood of pleasure.</p>
+<p>Generally when the associates of the king are quiet and obedient, the king can be happy.</p>
+<p>Therefore the great sage Angira Rsi inquired about the King’s personal health and the good fortune of his seven associates.</p>
+<p>When we inquire from a friend whether everything is well, we are concerned not only with his personal self but also with his family, his source of income, and his assistants or servants.</p>
+<p>All of them must be well, and then a person can be happy.</p>
+
+
+
+<p><strong>6.14.18</strong></p>
+<p>atmanam prakrtisv addha</p>
+<p>nidhaya sreya apnuyat</p>
+<p>rajna tatha prakrtayo</p>
+<p>naradevahitadhayah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atmanam—himself; prakrtisu—under these seven royal elements; addha—directly; nidhaya—placing; sreyah—ultimate happiness; apnuyat—may obtain; rajna—by the king; tatha—so also; prakrtayah—the dependent royal elements; nara-deva—O King; ahita-adhayah—offering wealth and other items.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King, O lord of humanity, when a king directly depends upon his associates and follows their instructions, he is happy.</p>
+<p>Similarly, when his associates offer their gifts and activities to the king and follow his orders, they are also happy.</p>
+<p><strong>PURPORT</strong></p>
+<p>The actual happiness of a king and his dependents is described in this verse.</p>
+<p>A king should not simply give orders to his dependents because he is supreme; sometimes he must follow their instructions.</p>
+<p>Similarly, the dependents should depend on the king.</p>
+<p>This mutual dependence will make everyone happy.</p>
+
+
+
+<p><strong>6.14.19</strong></p>
+<p>api darah prajamatya</p>
+<p>bhrtyah srenyo ’tha mantrinah</p>
+<p>paura janapada bhupa</p>
+<p>atmaja vasa-vartinah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>api—whether; darah—wives; praja—citizens; amatyah—and secretaries; bhrtyah—servants; srenyah—merchants; atha—as well as; mantrinah—ministers; paurah—inmates of the palace; janapadah—the provincial governors; bhupah—landholders; atma-jah—sons; vasa-vartinah—under your full control.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King, are your wives, citizens, secretaries and servants and the merchants who sell spices and oil under your control? Are you also in full control of ministers, the inhabitants of your palace, your provincial governors, your sons and your other dependents?</p>
+<p><strong>PURPORT</strong></p>
+<p>The master or king and his subordinates should be interdependent.</p>
+<p>Through cooperation, both of them can be happy.</p>
+
+
+
+<p><strong>6.14.20</strong></p>
+<p>yasyatmanuvasas cet syat</p>
+<p>sarve tad-vasaga ime</p>
+<p>lokah sapala yacchanti</p>
+<p>sarve balim atandritah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yasya—of whom; atma—mind; anuvasah—under control; cet—if; syat—may be; sarve—all; tat-vasa-gah—under the control of him; ime—these; lokah—the worlds; sa-palah—with their governors; yacchanti—offer; sarve—all; balim—contribution; atandritah—becoming free from laziness.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>If the king’s mind is fully controlled, all his family members and governmental officers are subordinate to him.</p>
+<p>His provincial governors present taxes on time, without resistance, and what to speak of lesser servants?</p>
+<p><strong>PURPORT</strong></p>
+<p>Angira Rsi asked the King whether his mind was also under control.</p>
+<p>This is most essential for happiness.</p>
+
+
+
+<p><strong>6.14.21</strong></p>
+<p>atmanah priyate natma</p>
+<p>paratah svata eva va</p>
+<p>laksaye ’labdha-kamam tvam</p>
+<p>cintaya sabalam mukham</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atmanah—of you; priyate—is pleased; na—not; atma—the mind; paratah—due to other causes; svatah—due to yourself; eva—indeed; va—or; laksaye—I can see; alabdha-kamam—not achieving your desired goals; tvam—you; cintaya—by anxiety; sabalam—pale; mukham—face.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King Citraketu, I can observe that your mind is not pleased.</p>
+<p>You seem not to have achieved your desired goal.</p>
+<p>Is this because of you yourself, or has it been caused by others? Your pale face reflects your deep anxiety.</p>
+
+
+
+<p><strong>6.14.22</strong></p>
+<p>evam vikalpito rajan</p>
+<p>vidusa muninapi sah</p>
+<p>prasrayavanato ’bhyaha</p>
+<p>praja-kamas tato munim</p>
+<p><strong>SYNONYMS</strong></p>
+<p>evam—thus; vikalpitah—questioned; rajan—O King Pariksit; vidusa—greatly learned; munina—by the philosopher; api—although; sah—he (King Citraketu); prasraya-avanatah—being bent low due to humility; abhyaha—replied; praja-kamah—desiring offspring; tatah—thereafter; munim—to the great sage.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sukadeva Gosvami said: O King Pariksit, although the great sage Angira knew everything, he inquired from the King in this way.</p>
+<p>Thus King Citraketu, desiring a son, bent low in great humility and spoke to the great sage as follows.</p>
+<p><strong>PURPORT</strong></p>
+<p>Since the face is the index to the mind, a saintly person can study the condition of one’s mind by seeing his face.</p>
+<p>When Angira Rsi remarked about the King’s discolored face, King Citraketu explained the cause of his anxiety as follows.</p>
+
+
+
+<p><strong>6.14.23</strong></p>
+<p>citraketur uvaca</p>
+<p>bhagavan kim na viditam</p>
+<p>tapo-jnana-samadhibhih</p>
+<p>yoginam dhvasta-papanam</p>
+<p>bahir antah saririsu</p>
+<p><strong>SYNONYMS</strong></p>
+<p>citraketuh uvaca—King Citraketu replied; bhagavan—O most powerful sage; kim—what; na—not; viditam—is understood; tapah—by austerity; jnana—knowledge; samadhibhih—and by samadhi (trance, transcendental meditation); yoginam—by the great yogis or devotees; dhvasta-papanam—who are fully freed from all sinful reactions; bahih—externally; antah—internally; saririsu—in conditioned souls, who have material bodies.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>King Citraketu said: O great lord Angira, because of austerity, knowledge and transcendental samadhi, you are freed from all the reactions of sinful life.</p>
+<p>Therefore, as a perfect yogi, you can understand everything external and internal regarding embodied, conditioned souls like us.</p>
+
+
+
+<p><strong>6.14.24</strong></p>
+<p>tathapi prcchato bruyam</p>
+<p>brahmann atmani cintitam</p>
+<p>bhavato vidusas capi</p>
+<p>coditas tvad-anujnaya</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tathapi—still; prcchatah—asking; bruyam—let me speak; brahman—O great brahmana; atmani—in the mind; cintitam—anxiety; bhavatah—to you; vidusah—who know everything; ca—and; api—although; coditah—being inspired; tvat—your; anujnaya—by the order.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O great soul, you are aware of everything, yet you are asking me why I am full of anxiety.</p>
+<p>Therefore, in response to your order, let me disclose the cause.</p>
+
+
+
+<p><strong>6.14.25</strong></p>
+<p>loka-palair api prarthyah</p>
+<p>samrajyaisvarya-sampadah</p>
+<p>na nandayanty aprajam mam</p>
+<p>ksut-trt-kamam ivapare</p>
+<p><strong>SYNONYMS</strong></p>
+<p>loka-palaih—by great demigods; api—even; prarthyah—desirable; samrajya—a great empire; aisvarya—material opulence; sampadah—possessions; na nandayanti—do not give pleasure; aprajam—because of having no son; mam—unto me; ksut—hunger; trt—thirst; kamam—desiring to satisfy; iva—like; apare—other enjoyable sense objects.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>As a person aggrieved by hunger and thirst is not pleased by the external gratification of flower garlands or sandalwood pulp, I am not pleased with my empire, opulence or possessions, which are desirable even for great demigods, because I have no son.</p>
+
+
+
+<p><strong>6.14.26</strong></p>
+<p>tatah pahi maha-bhaga</p>
+<p>purvaih saha gatam tamah</p>
+<p>yatha tarema dusparam</p>
+<p>prajaya tad vidhehi nah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—therefore, because of this; pahi—kindly save; maha-bhaga—O great sage; purvaih saha—along with my forefathers; gatam—gone; tamah—to darkness; yatha—so that; tarema—we can cross; dusparam—very difficult to cross; prajaya—by getting a son; tat—that; vidhehi—kindly do; nah—for us.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Therefore, O great sage, please save me and my forefathers, who are descending to the darkness of hell because I have no progeny.</p>
+<p>Kindly do something so that I may have a son to deliver us from hellish conditions.</p>
+<p><strong>PURPORT</strong></p>
+<p>According to Vedic civilization, one gets married simply to have a son, who is needed to offer oblations to his forefathers.</p>
+<p>King Citraketu responsibly desired to beget a child so that he and his forefathers might be delivered from the darkest regions.</p>
+<p>He was concerned with how to get pinda, oblations, in the next life, not only for himself but also for his forefathers.</p>
+<p>Therefore he requested Angira Rsi to favor him by doing something that could help him get a son.</p>
+
+
+
+<p><strong>6.14.27</strong></p>
+<p>sri-suka uvaca</p>
+<p>ity arthitah sa bhagavan</p>
+<p>krpalur brahmanah sutah</p>
+<p>srapayitva carum tvastram</p>
+<p>tvastaram ayajad vibhuh</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-sukah uvaca—Sri Sukadeva Gosvami said; iti—thus; arthitah—being requested; sah—he (Angira Rsi); bhagavan—the most powerful; krpaluh—being very merciful; brahmanah—of Lord Brahma; sutah—a son (born of Lord Brahma’s mind); srapayitva—after causing to cook; carum—a specific oblation of sweetrice; tvastram—meant for the demigod known as Tvasta; tvastaram—Tvasta; ayajat—he worshiped; vibhuh—the great sage.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In response to the request of Maharaja Citraketu, Angira Rsi, who was born of Lord Brahma’s mind, was very merciful toward him.</p>
+<p>Because the sage was a greatly powerful personality, he performed a sacrifice by offering oblations of sweetrice to Tvasta.</p>
+
+
+
+<p><strong>6.14.28</strong></p>
+<p>jyestha srestha ca ya rajno</p>
+<p>mahisinam ca bharata</p>
+<p>namna krtadyutis tasyai</p>
+<p>yajnocchistam adad dvijah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>jyestha—the senior; srestha—the most perfect; ca—and; ya—she who; rajnah—of the King; mahisinam—among all the queens; ca—also; bharata—O Maharaja Pariksit, the best of the Bharatas; namna—by name; krtadyutih—Krtadyuti; tasyai—unto her; yajna—of the sacrifice; ucchistam—the remnants of food; adat—delivered; dvijah—the great sage (Angira).</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O Pariksit Maharaja, best of the Bharatas, the remnants of the food offered in the yajna were given by the great sage Angira to the first and most perfect among Citraketu’s millions of queens, whose name was Krtadyuti.</p>
+
+
+
+<p><strong>6.14.29</strong></p>
+<p>athaha nrpatim rajan</p>
+<p>bhavitaikas tavatmajah</p>
+<p>harsa-soka-pradas tubhyam</p>
+<p>iti brahma-suto yayau</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atha—thereafter; aha—said; nrpatim—unto the King; rajan—O King Citraketu; bhavita—there will be; ekah—one; tava—your; atmajah—son; harsa-soka—jubilation and lamentation; pradah—who will give; tubhyam—unto you; iti—thus; brahma-sutah—Angira Rsi, the son of Lord Brahma; yayau—left.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, the great sage told the King, O great King, now you will have a son who will be the cause of both jubilation and lamentation The sage then left, without waiting for Citraketu’s response.</p>
+<p><strong>PURPORT</strong></p>
+<p>The word harsa means jubilation and soka means lamentation The King was overwhelmed with joy when he understood that he would have a son.</p>
+<p>Because of his great jubilation, he could not actually understand the statement of the sage Angira.</p>
+<p>He accepted it to mean that there would certainly be jubilation because of the birth of his future son, but that he would be the King’s only son and, being very proud of his great wealth and empire, would not be very obedient to his father.</p>
+<p>Thus the King was satisfied, thinking, Let there be a son.</p>
+<p>It does not matter if he is not very obedient In Bengal there is a proverb that instead of having no maternal uncle, it is better to have a maternal uncle who is blind.</p>
+<p>The King accepted this philosophy, thinking that a disobedient son would be better than no son at all.</p>
+<p>The great sage Canakya Pandita says:</p>
+<p>ko ’rthah putrena jatena</p>
+<p>yo na vidvan na dharmikah</p>
+<p>kanena caksusa kim va</p>
+<p>caksuh pidaiva kevalam</p>
+<p>What is the use of a son who is neither a learned scholar nor a devotee? Such a son is like a blind, diseased eye, which always causes suffering Nevertheless, the material world is so polluted that one wants to have a son even though he is useless.</p>
+<p>This attitude was represented in the history of King Citraketu.</p>
+
+
+
+<p><strong>6.14.30</strong></p>
+<p>sapi tat-prasanad eva</p>
+<p>citraketor adharayat</p>
+<p>garbham krtadyutir devi</p>
+<p>krttikagner ivatmajam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sa—she; api—even; tat-prasanat—by eating the remnants of food from the great sacrifice; eva—indeed; citraketoh—from King Citraketu; adharayat—bore; garbham—pregnancy; krtadyutih—Queen Krtadyuti; devi—the goddess; krttika—Krttika; agneh—from Agni; iva—as; atma-jam—a son.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>As Krttikadevi, after receiving the semen of Lord Siva from Agni, conceived a child named Skanda (Karttikeya), Krtadyuti, having received semen from Citraketu, became pregnant after eating remnants of food from the yajna performed by Angira.</p>
+
+
+
+<p><strong>6.14.31</strong></p>
+<p>tasya anudinam garbhah</p>
+<p>sukla-paksa ivodupah</p>
+<p>vavrdhe surasenesa-</p>
+<p>tejasa sanakair nrpa</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasyah—her; anudinam—day after day; garbhah—embryo; sukla-pakse—during the fortnight of the waxing moon; iva—like; udupah—the moon; vavrdhe—gradually developed; surasena-isa—of the King of Surasena; tejasa—by the semen; sanakaih—little by little; nrpa—O King Pariksit.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>After receiving semen from Maharaja Citraketu, the King of Surasena, Queen Krtadyuti gradually developed in her pregnancy, O King Pariksit, just as the moon develops during the bright fortnight.</p>
+
+
+
+<p><strong>6.14.32</strong></p>
+<p>atha kala upavrtte</p>
+<p>kumarah samajayata</p>
+<p>janayan surasenanam</p>
+<p>srnvatam paramam mudam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atha—thereafter; kale upavrtte—in due course of time; kumarah—the son; samajayata—took birth; janayan—creating; surasenanam—of the inhabitants of Surasena; srnvatam—hearing; paramam—the highest; mudam—delight.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, in due course of time, a son was born to the King.</p>
+<p>Hearing news of this, all the inhabitants of the state of Surasena were extremely pleased.</p>
+
+
+
+<p><strong>6.14.33</strong></p>
+<p>hrsto raja kumarasya</p>
+<p>snatah sucir alankrtah</p>
+<p>vacayitvasiso vipraih</p>
+<p>karayam asa jatakam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>hrstah—very happy; raja—the King; kumarasya—of his newly born son; snatah—having bathed; sucih—being purified; alankrtah—being decorated with ornaments; vacayitva—having caused to be spoken; asisah—words of benediction; vipraih—by learned brahmanas; karayam asa—caused to be performed; jatakam—the birth ceremony.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>King Citraketu was especially pleased.</p>
+<p>After purifying himself by bathing and by decorating himself with ornaments, he engaged learned brahmanas in offering benedictions to the child and performing the birth ceremony.</p>
+
+
+
+<p><strong>6.14.34</strong></p>
+<p>tebhyo hiranyam rajatam</p>
+<p>vasamsy abharanani ca</p>
+<p>graman hayan gajan pradad</p>
+<p>dhenunam arbudani sat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tebhyah—unto them (the learned brahmanas); hiranyam—gold; rajatam—silver; vasamsi—garments; abharanani—ornaments; ca—also; graman—villages; hayan—horses; gajan—elephants; pradat—gave in charity; dhenunam—of cows; arbudani—groups of one hundred million; sat—six.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Unto the brahmanas who took part in the ritualistic ceremony the King gave charity of gold, silver, garments, ornaments, villages, horses and elephants, as well as sixty crores of cows (six hundred million cows).</p>
+
+
+
+<p><strong>6.14.35</strong></p>
+<p>vavarsa kaman anyesam</p>
+<p>parjanya iva dehinam</p>
+<p>dhanyam yasasyam ayusyam</p>
+<p>kumarasya maha-manah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vavarsa—showered, gave in charity; kaman—all desirable things; anyesam—of others; parjanyah—a cloud; iva—like; dehinam—of all living entities; dhanyam—with the desire for an increase of opulence; yasasyam—an increase of reputation; ayusyam—and an increase of the duration of life; kumarasya—of the newly born child; maha-manah—the beneficent King Citraketu.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>As a cloud indiscriminately pours water on the earth, the beneficent King Citraketu, to increase the reputation, opulence and longevity of his son, distributed like rainfall all desirable things to everyone.</p>
+
+
+
+<p><strong>6.14.36</strong></p>
+<p>krcchra-labdhe ’tha rajarses</p>
+<p>tanaye ’nudinam pituh</p>
+<p>yatha nihsvasya krcchrapte</p>
+<p>dhane sneho ’nvavardhata</p>
+<p><strong>SYNONYMS</strong></p>
+<p>krcchra—with great difficulty; labdhe—gained; atha—thereafter; raja-rseh—of the pious King Citraketu; tanaye—for the son; anudinam—day after day; pituh—of the father; yatha—exactly as; nihsvasya—of a poor man; krcchra-apte—gained after great difficulty; dhane—for riches; snehah—affection; anvavardhata—increased.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When a poor man gets some money after great difficulty, his affection for the money increases daily.</p>
+<p>Similarly, when King Citraketu, after great difficulty, received a son, his affection for the son increased day after day.</p>
+
+
+
+<p><strong>6.14.37</strong></p>
+<p>matus tv atitaram putre</p>
+<p>sneho moha-samudbhavah</p>
+<p>krtadyuteh sapatninam</p>
+<p>praja-kama-jvaro ’bhavat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>matuh—of the mother; tu—also; atitaram—excessively; putre—for the son; snehah—affection; moha—out of ignorance; samudbhavah—produced; krtadyuteh—of Krtadyuti; sapatninam—of the co-wives; praja-kama—of a desire to have sons; jvarah—a fever; abhavat—there was.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The mother’s attraction and attention to the son, like that of the child’s father, excessively increased.</p>
+<p>The other wives, seeing Krtadyuti’s son, were very much agitated, as if by high fevers, with a desire to have sons.</p>
+
+
+
+<p><strong>6.14.38</strong></p>
+<p>citraketor atipritir</p>
+<p>yatha dare prajavati</p>
+<p>na tathanyesu sanjajne</p>
+<p>balam lalayato ’nvaham</p>
+<p><strong>SYNONYMS</strong></p>
+<p>citraketoh—of King Citraketu; atipritih—excessive attraction; yatha—just as; dare—unto the wife; praja-vati—who begot a son; na—not; tatha—like that; anyesu—unto the others; sanjajne—arose; balam—the son; lalayatah—taking care of; anvaham—constantly.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>As King Citraketu fostered his son very carefully, his affection for Queen Krtadyuti increased, but gradually he lost affection for the other wives, who had no sons.</p>
+
+
+
+<p><strong>6.14.39</strong></p>
+<p>tah paryatapyann atmanam</p>
+<p>garhayantyo ’bhyasuyaya</p>
+<p>anapatyena duhkhena</p>
+<p>rajnas canadarena ca</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tah—they (the queens who did not have sons); paryatapyan—lamented; atmanam—themselves; garhayantyah—condemning; abhyasuyaya—out of envy; anapatyena—due to being without sons; duhkhena—by unhappiness; rajnah—of the King; ca—also; anadarena—due to negligence; ca—also.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The other queens were extremely unhappy due to their being sonless.</p>
+<p>Because of the King’s negligence toward them, they condemned themselves in envy and lamented.</p>
+
+
+
+<p><strong>6.14.40</strong></p>
+<p>dhig aprajam striyam papam</p>
+<p>patyus cagrha-sammatam</p>
+<p>suprajabhih sapatnibhir</p>
+<p>dasim iva tiraskrtam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dhik—all condemnation; aprajam—without a son; striyam—upon a woman; papam—full of sinful activities; patyuh—by the husband; ca—also; a-grha-sammatam—who is not honored at home; su-prajabhih—who have sons; sapatnibhih—by co-wives; dasim—a maidservant; iva—exactly like; tiraskrtam—dishonored.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>A wife who has no sons is neglected at home by her husband and dishonored by her co-wives exactly like a maidservant.</p>
+<p>Certainly such a woman is condemned in every respect because of her sinful life.</p>
+<p><strong>PURPORT</strong></p>
+<p>As stated by Canakya Pandita:</p>
+<p>mata yasya grhe nasti</p>
+<p>bharya capriya-vadini</p>
+<p>aranyam tena gantavyam</p>
+<p>yatharanyam tatha grham</p>
+<p>A person who has no mother at home and whose wife does not speak sweetly should go to the forest.</p>
+<p>For such a person, living at home and living in the forest are equal Similarly, for a woman who has no son, who is not cared for by her husband and whose co-wives neglect her, treating her like a maidservant, to go to the forest is better than to remain at home.</p>
+
+
+
+<p><strong>6.14.41</strong></p>
+<p>dasinam ko nu santapah</p>
+<p>svaminah paricaryaya</p>
+<p>abhiksnam labdha-mananam</p>
+<p>dasya dasiva durbhagah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dasinam—of the maidservants; kah—what; nu—indeed; santapah—lamentation; svaminah—unto the husband; paricaryaya—by rendering service; abhiksnam—constantly; labdha-mananam—honored; dasyah—of the maidservant; dasi iva—like a maidservant; durbhagah—most unfortunate.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Even maidservants who are constantly engaged in rendering service to the husband are honored by the husband, and thus they have nothing for which to lament.</p>
+<p>Our position, however, is that we are maidservants of the maidservant.</p>
+<p>Therefore we are most unfortunate.</p>
+
+
+
+<p><strong>6.14.42</strong></p>
+<p>evam sandahyamananam</p>
+<p>sapatnyah putra-sampada</p>
+<p>rajno ’sammata-vrttinam</p>
+<p>vidveso balavan abhut</p>
+<p><strong>SYNONYMS</strong></p>
+<p>evam—thus; sandahyamananam—of the queens, who were constantly burning in lamentation; sapatnyah—of the co-wife Krtadyuti; putra-sampada—due to the opulence of a son; rajnah—by the King; asammata-vrttinam—not being very much favored; vidvesah—envy; balavan—very strong; abhut—became.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sri Sukadeva Gosvami continued: Being neglected by their husband and seeing Krtadyuti’s opulence in possessing a son, Krtadyuti’s co-wives always burned in envy, which became extremely strong.</p>
+
+
+
+<p><strong>6.14.43</strong></p>
+<p>vidvesa-nasta-matayah</p>
+<p>striyo daruna-cetasah</p>
+<p>garam daduh kumaraya</p>
+<p>durmarsa nrpatim prati</p>
+<p><strong>SYNONYMS</strong></p>
+<p>vidvesa-nasta-matayah—whose intelligence was lost in envy; striyah—the women; daruna-cetasah—being very hardhearted; garam—poison; daduh—administered; kumaraya—unto the boy; durmarsah—being intolerant; nrpatim—the King; prati—upon.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>As their envy increased, they lost their intelligence.</p>
+<p>Being extremely hardhearted and unable to tolerate the King’s neglect, they finally administered poison to the son.</p>
+
+
+
+<p><strong>6.14.44</strong></p>
+<p>krtadyutir ajananti</p>
+<p>sapatninam agham mahat</p>
+<p>supta eveti sancintya</p>
+<p>niriksya vyacarad grhe</p>
+<p><strong>SYNONYMS</strong></p>
+<p>krtadyutih—Queen Krtadyuti; ajananti—being unaware of; sapatninam—of her co-wives; agham—sinful act; mahat—very great; suptah—sleeping; eva—indeed; iti—thus; sancintya—thinking; niriksya—looking at; vyacarat—was walking; grhe—at home.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Unaware of the poison administered by her co-wives, Queen Krtadyuti walked within the house, thinking that her son was sleeping deeply.</p>
+<p>She did not understand that he was dead.</p>
+
+
+
+<p><strong>6.14.45</strong></p>
+<p>sayanam suciram balam</p>
+<p>upadharya manisini</p>
+<p>putram anaya me bhadre</p>
+<p>iti dhatrim acodayat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sayanam—lying down; su-ciram—for a long time; balam—the son; upadharya—thinking; manisini—very intelligent; putram—the son; anaya—bring; me—unto me; bhadre—O gentle friend; iti—thus; dhatrim—unto the nurse; acodayat—gave the order.</p>
+<p><strong>TRANSLATION</strong></p>
+
+
+
+<p><strong>6.14.46</strong></p>
+<p>sa sayanam upavrajya</p>
+<p>drstva cottara-locanam</p>
+<p>pranendriyatmabhis tyaktam</p>
+<p>hatasmity apatad bhuvi</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sa—she (the maidservant); sayanam—lying down; upavrajya—going to; drstva—seeing; ca—also; uttara-locanam—his eyes turned upward (as are those of a dead body); prana-indriya-atmabhih—by the life force, senses and mind; tyaktam—abandoned; hata asmi—now I am doomed; iti—thus; apatat—fell down; bhuvi—on the ground.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When the maidservant approached the child, who was lying down, she saw that his eyes were turned upward.</p>
+<p>There were no signs of life, all his senses having stopped, and she could understand that the child was dead.</p>
+<p>Seeing this, she immediately cried, Now I am doomed and fell to the ground.</p>
+
+
+
+<p><strong>6.14.47</strong></p>
+<p>tasyas tadakarnya bhrsaturam svaram</p>
+<p>ghnantyah karabhyam ura uccakair api</p>
+<p>pravisya rajni tvarayatmajantikam</p>
+<p>dadarsa balam sahasa mrtam sutam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tasyah—of her (the maidservant); tada—at that time; akarnya—hearing; bhrsa-aturam—highly regretful and agitated; svaram—voice; ghnantyah—striking; karabhyam—with the hands; urah—the chest; uccakaih—loudly; api—also; pravisya—entering; rajni—the Queen; tvaraya—hastily; atmaja-antikam—near her son; dadarsa—she saw; balam—the child; sahasa—suddenly; mrtam—dead; sutam—son.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In great agitation, the maidservant struck her breast with both hands and cried loudly in regretful words.</p>
+<p>Hearing her loud voice, the Queen immediately came, and when she approached her son, she saw that he was suddenly dead.</p>
+
+
+
+<p><strong>6.14.48</strong></p>
+<p>papata bhumau parivrddhaya suca</p>
+<p>mumoha vibhrasta-siroruhambara</p>
+<p><strong>SYNONYMS</strong></p>
+<p>papata—fell down; bhumau—on the ground; parivrddhaya—highly increased; suca—out of lamentation; mumoha—she became unconscious; vibhrasta—scattered; siroruha—hair; ambara—and dress.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In great lamentation, her hair and dress in disarray, the Queen fell to the ground unconscious.</p>
+
+
+
+<p><strong>6.14.49</strong></p>
+<p>tato nrpantahpura-vartino jana</p>
+<p>naras ca naryas ca nisamya rodanam</p>
+<p>agatya tulya-vyasanah suduhkhitas</p>
+<p>tas ca vyalikam ruruduh krtagasah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—thereafter; nrpa—O King; antahpura-vartinah—the inhabitants of the palace; janah—all the people; narah—the men; ca—and; naryah—the women; ca—also; nisamya—hearing; rodanam—loud crying; agatya—coming; tulya-vyasanah—being equally aggrieved; su-duhkhitah—very greatly lamenting; tah—they; ca—and; vyalikam—pretentiously; ruruduh—cried; krta-agasah—who had committed the offense (by giving the poison).</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O King Pariksit, hearing the loud crying, all the inhabitants of the palace came, both men and women.</p>
+<p>Being equally aggrieved, they also began to cry.</p>
+<p>The queens who had administered the poison also cried pretentiously, knowing full well their offense.</p>
+
+
+
+<p><strong>6.14.50-51</strong></p>
+<p>srutva mrtam putram alaksitantakam</p>
+<p>vinasta-drstih prapatan skhalan pathi</p>
+<p>snehanubandhaidhitaya suca bhrsam</p>
+<p>vimurcchito ’nuprakrtir dvijair vrtah</p>
+<p>papata balasya sa pada-mule</p>
+<p>mrtasya visrasta-siroruhambarah</p>
+<p>dirgham svasan baspa-kaloparodhato</p>
+<p>niruddha-kantho na sasaka bhasitum</p>
+<p><strong>SYNONYMS</strong></p>
+<p>srutva—hearing; mrtam—dead; putram—the son; alaksita-antakam—the cause of death being unknown; vinasta-drstih—unable to see properly; prapatan—constantly falling down; skhalan—slipping; pathi—on the road; sneha-anubandha—because of affection; edhitaya—increasing; suca—by lamentation; bhrsam—greatly; vimurcchitah—becoming unconscious; anuprakrtih—followed by ministers and other officers; dvijaih—by learned brahmanas; vrtah—surrounded; papata—fell down; balasya—of the boy; sah—he (the King); pada-mule—at the feet; mrtasya—of the dead body; visrasta—scattered; siroruha—hair; ambarah—and dress; dirgham—long; svasan—breathing; baspa-kala-uparodhatah—due to crying with tearful eyes; niruddha-kanthah—having a choked voice; na—not; sasaka—was able; bhasitum—to speak.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When King Citraketu heard of his son’s death from unknown causes, he became almost blind.</p>
+<p>Because of his great affection for his son, his lamentation grew like a blazing fire, and as he went to see the dead child, he kept slipping and falling on the ground.</p>
+<p>Surrounded by his ministers and other officers and the learned brahmanas present, the King approached and fell unconscious at the child’s feet, his hair and dress scattered.</p>
+<p>When the King, breathing heavily, regained consciousness, his eyes were tearful, and he could not speak.</p>
+
+
+
+<p><strong>6.14.52</strong></p>
+<p>patim niriksyoru-sucarpitam tada</p>
+<p>mrtam ca balam sutam eka-santatim</p>
+<p>janasya rajni prakrtes ca hrd-rujam</p>
+<p>sati dadhana vilalapa citradha</p>
+<p><strong>SYNONYMS</strong></p>
+<p>patim—the husband; niriksya—by seeing; uru—greatly; suca—with lamentation; arpitam—pained; tada—at that time; mrtam—dead; ca—and; balam—the child; sutam—the son; eka-santatim—the only son in the family; janasya—of all the other people gathered there; rajni—the Queen; prakrteh ca—as well as of the officers and ministers; hrt-rujam—the pains within the core of the heart; sati dadhana—increasing; vilalapa—lamented; citradha—in varieties of ways.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When the Queen saw her husband, King Citraketu, merged in great lamentation and saw the dead child, who was the only son in the family, she lamented in various ways.</p>
+<p>This increased the pain in the cores of the hearts of all the inhabitants of the palace, the ministers and all the brahmanas.</p>
+
+
+
+<p><strong>6.14.53</strong></p>
+<p>stana-dvayam kunkuma-panka-manditam</p>
+<p>nisincati sanjana-baspa-bindubhih</p>
+<p>vikirya kesan vigalat-srajah sutam</p>
+<p>susoca citram kurariva susvaram</p>
+<p><strong>SYNONYMS</strong></p>
+<p>stana-dvayam—her two breasts; kunkuma—with kunkuma powder (which is generally sprayed on the breasts of women); panka—ointment; manditam—decorated; nisincati—moistening; sa-anjana—mixed with the eye ointment; baspa—of tears; bindubhih—by drops; vikirya—scattering; kesan—hair; vigalat—was falling down; srajah—on which the flower garland; sutam—for her son; susoca—lamented; citram—variegated; kurari iva—like a kurari bird; su-svaram—in a very sweet voice.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The garland of flowers decorating the Queen’s head fell, and her hair scattered.</p>
+<p>Falling tears melted the collyrium on her eyes and moistened her breasts, which were covered with kunkuma powder.</p>
+<p>As she lamented the loss of her son, her loud crying resembled the sweet sound of a kurari bird.</p>
+
+
+
+<p><strong>6.14.54</strong></p>
+<p>aho vidhatas tvam ativa baliso</p>
+<p>yas tv atma-srsty-apratirupam ihase</p>
+<p>pare nu jivaty aparasya ya mrtir</p>
+<p>viparyayas cet tvam asi dhruvah parah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>aho—alas (in great lamentation); vidhatah—O Providence; tvam—You; ativa—very much; balisah—inexperienced; yah—who; tu—indeed; atma-srsti—of Your own creation; apratirupam—just the opposite; ihase—You are performing and desiring; pare—while the father or the elder; nu—indeed; jivati—is living; aparasya—of one who was born later; ya—which; mrtih—death; viparyayah—contradictory; cet—if; tvam—You; asi—are; dhruvah—indeed; parah—an enemy.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Alas, O Providence, O Creator, You are certainly inexperienced in creation, for during the lifetime of a father You have caused the death of his son, thus acting in opposition to Your creative laws.</p>
+<p>If You are determined to contradict these laws, You are certainly the enemy of living entities and are never merciful.</p>
+<p><strong>PURPORT</strong></p>
+<p>This is the way a conditioned soul condemns the supreme creator when he meets reverses.</p>
+<p>Sometimes he accuses the Supreme Personality of Godhead of being crooked because some people are happy and some are not.</p>
+<p>Here the Queen blames supreme providence for her son’s death.</p>
+<p>Following the creative laws, a father should die first and then his son.</p>
+<p>If the creative laws are changed according to the whims of providence, then providence certainly should not be considered merciful, but must be considered inimical to the created being.</p>
+<p>Actually it is not the creator, but the conditioned soul who is inexperienced.</p>
+<p>He does not know how the subtle laws of fruitive activity work, and without knowledge of these laws of nature, he ignorantly criticizes the Supreme Personality of Godhead.</p>
+
+
+
+<p><strong>6.14.55</strong></p>
+<p>na hi kramas ced iha mrtyu-janmanoh</p>
+<p>saririnam astu tad atma-karmabhih</p>
+<p>yah sneha-paso nija-sarga-vrddhaye</p>
+<p>svayam krtas te tam imam vivrscasi</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—not; hi—indeed; kramah—chronological order; cet—if; iha—in this material world; mrtyu—of death; janmanoh—and of birth; saririnam—of the conditioned souls, who have accepted material bodies; astu—let it be; tat—that; atma-karmabhih—by the results of one’s karma (fruitive activities); yah—that which; sneha-pasah—bondage of affection; nija-sarga—Your own creation; vrddhaye—to increase; svayam—personally; krtah—made; te—by You; tam—that; imam—this; vivrscasi—you are cutting.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My Lord, You may say that there is no law that a father must die in the lifetime of his son and that a son must be born in the lifetime of his father, since everyone lives and dies according to his own fruitive activity.</p>
+<p>However, if fruitive activity is so strong that birth and death depend upon it, there is no need of a controller, or God.</p>
+<p>Again, if You say that a controller is needed because the material energy does not have the power to act, one may answer that if the bonds of affection You have created are disturbed by fruitive action, no one will raise children with affection; instead, everyone will cruelly neglect his children.</p>
+<p>Since You have cut the bonds of affection that compel a parent to raise his child, You appear inexperienced and unintelligent.</p>
+<p><strong>PURPORT</strong></p>
+<p>As stated in the Brahma-samhita, karmani nirdahati kintu ca bhakti-bhajam: (Bs.5.54) one who has taken to Krsna consciousness, devotional service, is not affected by the results of karma.</p>
+<p>In this verse, karma has been stressed on the basis of karma-mimamsa philosophy, which says that one must act according to his karma and that a supreme controller must give the results of karma.</p>
+<p>The subtle laws of karma, which are controlled by the Supreme, cannot be understood by ordinary conditioned souls.</p>
+<p>Therefore Krsna says that one who can understand Him and how He is acting, controlling everything by subtle laws, immediately becomes freed by His grace.</p>
+<p>That is the statement of Brahma-samhita (karmani nirdahati kintu ca bhakti-bhajam (Bs.5.54)).</p>
+<p>One should take to devotional service without reservations and surrender everything to the supreme will of the Lord.</p>
+<p>That will make one happy in this life and the next.</p>
+
+
+
+<p><strong>6.14.56</strong></p>
+<p>tvam tata narhasi ca mam krpanam anatham</p>
+<p>tyaktum vicaksva pitaram tava soka-taptam</p>
+<p>anjas tarema bhavatapraja-dustaram yad</p>
+<p>dhvantam na yahy akarunena yamena duram</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tvam—you; tata—my dear son; na—not; arhasi—ought; ca—and; mam—me; krpanam—very poor; anatham—without a protector; tyaktum—to give up; vicaksva—look; pitaram—at the father; tava—your; soka-taptam—affected by so much lamentation; anjah—easily; tarema—we can cross; bhavata—by you; apraja-dustaram—very difficult to cross for one without a son; yat—which; dhvantam—the kingdom of darkness; na yahi—do not go away; akarunena—merciless; yamena—with Yamaraja; duram—any further.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear son, I am helpless and very much aggrieved.</p>
+<p>You should not give up my company.</p>
+<p>Just look at your lamenting father.</p>
+<p>We are helpless because without a son we shall have to suffer the distress of going to the darkest hellish regions.</p>
+<p>You are the only hope by which we can get out of these dark regions.</p>
+<p>Therefore I request you not to go any further with the merciless Yama.</p>
+<p><strong>PURPORT</strong></p>
+<p>According to the Vedic injunctions, one must accept a wife just to beget a son who can deliver one from the clutches of Yamaraja.</p>
+<p>Unless one has a son to offer oblations to the pitas, or forefathers, one must suffer in Yamaraja’s kingdom.</p>
+<p>King Citraketu was very much aggrieved thinking that because his son was going away with Yamaraja he himself would again suffer.</p>
+<p>The subtle laws exist for the karmis; if one becomes a devotee, he has no more obligations to the laws of karma.</p>
+
+
+
+<p><strong>6.14.57</strong></p>
+<p>uttistha tata ta ime sisavo vayasyas</p>
+<p>tvam ahvayanti nrpa-nandana samvihartum</p>
+<p>suptas ciram hy asanaya ca bhavan parito</p>
+<p>bhunksva stanam piba suco hara nah svakanam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>uttistha—kindly get up; tata—my dear son; te—they; ime—all these; sisavah—children; vayasyah—playmates; tvam—you; ahvayanti—are calling; nrpa-nandana—O son of the King; samvihartum—to play with; suptah—you have slept; ciram—for a long time; hi—indeed; asanaya—by hunger; ca—also; bhavan—you; paritah—overcome; bhunksva—please eat; stanam—at the breast (of your mother); piba—drink; sucah—lamentation; hara—just dissipate; nah—of us; svakanam—your relatives.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear son, you have slept a long time.</p>
+<p>Now please get up.</p>
+<p>Your playmates are calling you to play.</p>
+<p>Since you must be very hungry, please get up and suck my breast and dissipate our lamentation.</p>
+
+
+
+<p><strong>6.14.58</strong></p>
+<p>naham tanuja dadrse hata-mangala te</p>
+<p>mugdha-smitam mudita-viksanam ananabjam</p>
+<p>kim va gato ’sy apunar-anvayam anya-lokam</p>
+<p>nito ’ghrnena na srnomi kala giras te</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—not; aham—I; tanu-ja—my dear son (born of my body); dadrse—saw; hata-mangala—because of my being the most unfortunate; te—your; mugdha-smitam—with charming smiling; mudita-viksanam—with closed eyes; anana-abjam—lotus face; kim va—whether; gatah—gone away; asi—you are; a-punah-anvayam—from which one does not return; anya-lokam—to another planet, or the planet of Yamaraja; nitah—having been taken away; aghrnena—by the cruel Yamaraja; na—not; srnomi—I can hear; kalah—very pleasing; girah—utterances; te—your.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear son, I am certainly most unfortunate, for I can no longer see your mild smiling.</p>
+<p>You have closed your eyes forever.</p>
+<p>I therefore conclude that you have been taken from this planet to another, from which you will not return.</p>
+<p>My dear son, I can no longer hear your pleasing voice.</p>
+
+
+
+<p><strong>6.14.59</strong></p>
+<p>sri-suka uvaca</p>
+<p>vilapantya mrtam putram</p>
+<p>iti citra-vilapanaih</p>
+<p>citraketur bhrsam tapto</p>
+<p>mukta-kantho ruroda ha</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-sukah uvaca—Sri Sukadeva Gosvami said; vilapantya—with the woman who was lamenting; mrtam—dead; putram—for the son; iti—thus; citra-vilapanaih—with various lamentations; citraketuh—King Citraketu; bhrsam—very much; taptah—aggrieved; mukta-kanthah—loudly; ruroda—cried; ha—indeed.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sri Sukadeva Gosvami continued: Accompanied by his wife, who was thus lamenting for her dead son, King Citraketu began crying loudly with an open mouth, being greatly aggrieved.</p>
+
+
+
+<p><strong>6.14.60</strong></p>
+<p>tayor vilapatoh sarve</p>
+<p>dampatyos tad-anuvratah</p>
+<p>ruruduh sma nara naryah</p>
+<p>sarvam asid acetanam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tayoh—while the two of them; vilapatoh—were lamenting; sarve—all; dam-patyoh—the King, along with his wife; tat-anuvratah—their followers; ruruduh—cried loudly; sma—indeed; narah—the male members; naryah—the female members; sarvam—the whole kingdom; asit—became; acetanam—almost unconscious.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>As the King and Queen lamented, all their male and female followers joined them in crying.</p>
+<p>Because of the sudden accident, all the citizens of the kingdom were almost unconscious.</p>
+
+
+
+<p><strong>6.14.61</strong></p>
+<p>evam kasmalam apannam</p>
+<p>nasta-samjnam anayakam</p>
+<p>jnatvangira nama rsir</p>
+<p>ajagama sanaradah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>evam—thus; kasmalam—misery; apannam—having gotten; nasta—lost; samjnam—consciousness; anayakam—without help; jnatva—knowing; angirah—Angira; nama—named; rsih—the saintly person; ajagama—came; sa-naradah—with Narada Muni.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>When the great sage Angira understood that the King was almost dead in an ocean of lamentation, he went there with Narada Rsi.</p>
+
+
+</article></body></html>

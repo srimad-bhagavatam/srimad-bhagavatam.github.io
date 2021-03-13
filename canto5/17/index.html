@@ -1,154 +1,41 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>The Descent of the River Ganges - The Descent of the River Ganges</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">The Descent of the River Ganges</a></li><li class="affix"><a href="5.17.2.html">5.17.2</a></li><li class="affix"><a href="5.17.3.html">5.17.3</a></li><li class="affix"><a href="5.17.4.html">5.17.4</a></li><li class="affix"><a href="5.17.5.html">5.17.5</a></li><li class="affix"><a href="5.17.6.html">5.17.6</a></li><li class="affix"><a href="5.17.7.html">5.17.7</a></li><li class="affix"><a href="5.17.8.html">5.17.8</a></li><li class="affix"><a href="5.17.9.html">5.17.9</a></li><li class="affix"><a href="5.17.10.html">5.17.10</a></li><li class="affix"><a href="5.17.11.html">5.17.11</a></li><li class="affix"><a href="5.17.12.html">5.17.12</a></li><li class="affix"><a href="5.17.13.html">5.17.13</a></li><li class="affix"><a href="5.17.14.html">5.17.14</a></li><li class="affix"><a href="5.17.15.html">5.17.15</a></li><li class="affix"><a href="5.17.16.html">5.17.16</a></li><li class="affix"><a href="5.17.17.html">5.17.17</a></li><li class="affix"><a href="5.17.18.html">5.17.18</a></li><li class="affix"><a href="5.17.19.html">5.17.19</a></li><li class="affix"><a href="5.17.20.html">5.17.20</a></li><li class="affix"><a href="5.17.21.html">5.17.21</a></li><li class="affix"><a href="5.17.22-23.html">5.17.22-23</a></li><li class="affix"><a href="5.17.24.html">5.17.24</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">The Descent of the River Ganges</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#the-descent-of-the-river-ganges" id="the-descent-of-the-river-ganges">The Descent of the River Ganges</a></h1>
-<h3><a class="header" href="#5171" id="5171">5.17.1</a></h3>
+<h1>The Descent of the River Ganges</h1>
+<p><strong>5.17.1</strong></p>
 <p>sri-suka uvaca</p>
 <p>tatra bhagavatah saksad yajna-lingasya visnor vikramato vama-padangustha-nakha-nirbhinnordhvanda-kataha-vivarenantah-pravista ya bahya-jala-dhara tac-carana-pankajavanejanaruna-kinjalkoparanjitakhila-jagad-agha-malapahopasparsanamala saksad bhagavat-padity anupalaksita-vaco ’bhidhiyamanati-mahata kalena yuga-sahasropalaksanena divo murdhany avatatara yat tad visnu-padam ahuh.</p>
 <p><strong>SYNONYMS</strong></p>
@@ -178,63 +65,529 @@
 <p>ujjahara trivikramah</p>
 <p>Standing on His right foot and extending His left to the edge of the universe, Lord Vamana became known as Trivikrama, the incarnation who performed three heroic deeds.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="5.17.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>5.17.2</strong></p>
+<p>yatra ha vava vira-vrata auttanapadih parama-bhagavato ’smat-kula-devata-caranaravindodakam iti yam anusavanam utkrsyamana-bhagavad-bhakti-yogena drdham klidyamanantar-hrdaya autkanthya-vivasamilita-locana-yugala-kudmala-vigalitamala-baspa-kalayabhivyajyamana-roma-pulaka-kulako ’dhunapi paramadarena sirasa bibharti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yatra ha vava—in Dhruvaloka; vira-vratah—firmly determined; auttanapadih—the famous son of Maharaja Uttanapada; parama-bhagavatah—the most exalted devotee; asmat—our; kula-devata—of the family Deity; carana-aravinda—of the lotus feet; udakam—in the water; iti—thus; yam—which; anusavanam—constantly; utkrsyamana—being increased; bhagavat-bhakti-yogena—by devotional service unto the Lord; drdham—greatly; klidyamana-antah-hrdayah—being softened within the core of his heart; autkanthya—by great anxiety; vivasa—spontaneously; amilita—slightly open; locana—of eyes; yugala—pair; kudmala—from the flowerlike; vigalita—emanating; amala—uncontaminated; baspa-kalaya—with tears; abhivyajyamana—being manifested; roma-pulaka-kulakah—whose symptoms of ecstasy on the body; adhuna api—even now; parama-adarena—with great reverence; sirasa—by the head; bibharti—he bears.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Dhruva Maharaja, the famous son of Maharaja Uttanapada, is known as the most exalted devotee of the Supreme Lord because of his firm determination in executing devotional service.</p>
+<p>Knowing that the sacred Ganges water washes the lotus feet of Lord Visnu, Dhruva Maharaja, situated on his own planet, to this very day accepts that water on his head with great devotion.</p>
+<p>Because he constantly thinks of Krsna very devoutly within the core of his heart, he is overcome with ecstatic anxiety.</p>
+<p>Tears flow from his half-open eyes, and eruptions appear on his entire body.</p>
+<p><strong>PURPORT</strong></p>
+<p>When a person is firmly fixed in devotional service to the Supreme Personality of Godhead, he is described as vira-vrata, fully determined.</p>
+<p>Such a devotee increases his ecstasy in devotional service more and more.</p>
+<p>Thus as soon as he remembers Lord Visnu, his eyes fill with tears.</p>
+<p>This is a symptom of a maha-bhagavata.</p>
+<p>Dhruva Maharaja maintained himself in that devotional ecstasy, and Sri Caitanya Mahaprabhu also gave us a practical example of transcendental ecstasy when He lived at Jagannatha Puri.</p>
+<p>His pastimes there are fully narrated in Caitanya-caritamrta.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="5.17.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>5.17.3</strong></p>
+<p>tatah sapta rsayas tat prabhavabhijna yam nanu tapasa atyantiki siddhir etavati bhagavati sarvatmani vasudeve ’nuparata-bhakti-yoga-labhenaivopeksitanyarthatma-gatayo muktim ivagatam mumuksava iva sabahu-manam adyapi jata-jutair udvahanti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—thereafter; sapta rsayah—the seven great sages (beginning with Marici); tat prabhava-abhijnah—who knew very well the influence of the Ganges River; yam—this Ganges water; nanu—indeed; tapasah—of our austerities; atyantiki—the ultimate; siddhih—perfection; etavati—this much; bhagavati—the Supreme Personality of Godhead; sarva-atmani—in the all-pervading; vasudeve—Krsna; anuparata—continuous; bhakti-yoga—of the mystic process of devotional service; labhena—simply by achieving this platform; eva—certainly; upeksita—neglected; anya—other; artha-atma-gatayah—all other means of perfection (namely religion, economic development, sense gratification and liberation); muktim—liberation from material bondage; iva—like; agatam—obtained; mumuksavah—persons desiring liberation; iva—like; sa-bahu-manam—with great honor; adya api—even now; jata-jutaih—with matted locks of hair; udvahanti—they carry.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The seven great sages (Marici, Vasistha, Atri and so on) reside on planets beneath Dhruvaloka.</p>
+<p>Well aware of the influence of the water of the Ganges, to this day they keep Ganges water on the tufts of hair on their heads.</p>
+<p>They have concluded that this is the ultimate wealth, the perfection of all austerities, and the best means of prosecuting transcendental life.</p>
+<p>Having obtained uninterrupted devotional service to the Supreme Personality of Godhead, they neglect all other beneficial processes like religion, economic development, sense gratification and even merging into the Supreme.</p>
+<p>Just as jnanis think that merging into the existence of the Lord is the highest truth, these seven exalted personalities accept devotional service as the perfection of life.</p>
+<p><strong>PURPORT</strong></p>
+<p>Transcendentalists are divided into two primary groups: the nirvisesa-vadis, or impersonalists, and the bhaktas, or devotees.</p>
+<p>The impersonalists do not accept spiritual varieties of life.</p>
+<p>They want to merge into the existence of the Supreme Lord in His Brahman feature (the brahmajyoti).</p>
+<p>The devotees, however, desire to take part in the transcendental activities of the Supreme Lord.</p>
+<p>In the upper planetary system, the topmost planet is Dhruvaloka, and beneath Dhruvaloka are the seven planets occupied by the great sages, beginning with Marici, Vasistha and Atri.</p>
+<p>All these sages regard devotional service as the highest perfection of life.</p>
+<p>Therefore they all carry the holy water of the Ganges on their heads.</p>
+<p>This verse proves that for one who has achieved the platform of pure devotional service, nothing else is important, even so-called liberation (kaivalya).</p>
+<p>Srila Sridhara Svami states that only by achieving pure devotional service of the Lord can one give up all other engagements as insignificant.</p>
+<p>Prabodhananda Sarasvati confirms his statement as follows:</p>
+<p>kaivalyam narakayate tri-dasa-pur akasa-puspayate</p>
+<p>durdantendriya-kala-sarpa-patali protkhata-damstrayate</p>
+<p>visvam purna-sukhayate vidhi-mahendradis ca kitayate</p>
+<p>yat karunya-kataksa-vaibhavavatam tam gauram eva stumah</p>
+<p>Sri Caitanya Mahaprabhu has perfectly enunciated and broadcast the process of bhakti-yoga.</p>
+<p>Consequently, for one who has taken shelter at the lotus feet of Sri Caitanya Mahaprabhu, the highest perfection of the Mayavadis, kaivalya, or becoming one with the Supreme, is considered hellish, to say nothing of the karmis’ aspiration to be promoted to the heavenly planets.</p>
+<p>Devotees consider such goals to be worthless phantasmagoria.</p>
+<p>There are also yogis, who try to control their senses, but they can never succeed without coming to the stage of devotional service.</p>
+<p>The senses are compared to poisonous snakes, but the senses of a bhakta engaged in the service of the Lord are like snakes with their poisonous fangs removed.</p>
+<p>The yogi tries to suppress his senses, but even great mystics like Visvamitra fail in the attempt.</p>
+<p>Visvamitra was conquered by his senses when he was captivated by Menaka during his meditation.</p>
+<p>She later gave birth to Sakuntala.</p>
+<p>The wisest persons in the world, therefore, are the bhakti-yogis, as Lord Krsna confirms in Bhagavad-gita (6.47):</p>
+<p>yoginam api sarvesam</p>
+<p>mad-gatenantaratmana</p>
+<p>sraddhavan bhajate yo mam</p>
+<p>sa me yuktatamo matah</p>
+<p>Of all yogis, he who always abides in Me with great faith, worshiping Me in transcendental loving service, is most intimately united with Me in yoga and is the highest of all</p>
 
-        </div>
 
-        
 
-        
+<p><strong>5.17.4</strong></p>
+<p>tato ’neka-sahasra-koti-vimananika-sankula-deva-yanenavatar-antindu mandalam avarya brahma-sadane nipatati.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—after purifying the seven planets of the seven great sages; aneka—many; sahasra—thousands; koti—of millions; vimana-anika—with contingents of airplanes; sankula—congested; deva-yanena—by the spaceways of the demigods; avataranti—descending; indu-mandalam—the moon planet; avarya—inundated; brahma-sadane—to the abode of Lord Brahma atop Sumeru-parvata; nipatati—falls down.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>After purifying the seven planets near Dhruvaloka (the polestar), the Ganges water is carried through the spaceways of the demigods in billions of celestial airplanes.</p>
+<p>Then it inundates the moon (Candraloka) and finally reaches Lord Brahma’s abode atop Mount Meru.</p>
+<p><strong>PURPORT</strong></p>
+<p>We should always remember that the Ganges River comes from the Causal Ocean, beyond the covering of the universe.</p>
+<p>After the water of the Causal Ocean leaks through the hole created by Lord Vamanadeva, it flows down to Dhruvaloka (the polestar) and then to the seven planets beneath Dhruvaloka.</p>
+<p>Then it is carried to the moon by innumerable celestial airplanes, and then it falls to the top of Mount Meru, which is known as Sumeru-parvata.</p>
+<p>In this way, the water of the Ganges finally reaches the lower planets and the peaks of the Himalayas, and from there it flows through Hardwar and throughout the plains of India, purifying the entire land.</p>
+<p>How the Ganges water reaches the various planets from the top of the universe is explained herein.</p>
+<p>Celestial airplanes carry the water from the planets of the sages to other planets.</p>
+<p>So-called advanced scientists of the modern age are trying to go to the higher planets, but at the same time they are experiencing a power shortage on earth.</p>
+<p>If they were actually capable scientists, they could personally go by airplane to other planets, but this they are unable to do.</p>
+<p>Having now given up their moon excursions, they are attempting to go to other planets, but without success.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>5.17.5</strong></p>
+<p>tatra caturdha bhidyamana caturbhir namabhis catur-disam abhispandanti nada-nadi-patim evabhinivisati sitalakananda caksur bhadreti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatra—there (on top of Mount Meru); caturdha—into four branches; bhidyamana—being divided; caturbhih—with four; namabhih—names; catuh-disam—the four directions (east, west, north and south); abhispandanti—profusely flowing; nada-nadi-patim—the reservoir of all great rivers (the ocean); eva—certainly; abhinivisati—enters; sita-alakananda—Sita and Alakananda; caksuh—Caksu; bhadra—Bhadra; iti—known by these names.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>On top of Mount Meru, the Ganges divides into four branches, each of which gushes in a different direction (east, west, north and south).</p>
+<p>These branches, known by the names Sita, Alakananda, Caksu and Bhadra, flow down to the ocean.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>5.17.6</strong></p>
+<p>sita tu brahma-sadanat kesaracaladi-giri-sikharebhyo ’dho ’dhah prasravanti gandhamadana-murdhasu patitvantarena bhadrasva-varsam pracyam disi ksara-samudram abhipravisati.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sita—the branch known as Sita; tu—certainly; brahma-sadanat—from Brahmapuri; kesaracala-adi—of Kesaracala and of other great mountains; giri—hills; sikharebhyah—from the tops; adhah adhah—downward; prasravanti—flowing; gandhamadana—of Gandhamadana Mountain; murdhasu—on the top; patitva—falling down; antarena—within; bhadrasva-varsam—the province known as Bhadrasva; pracyam—in the western; disi—direction; ksara-samudram—the ocean of salt water; abhipravisati—enters.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The branch of the Ganges known as the Sita flows through Brahmapuri atop Mount Meru, and from there it runs down to the nearby peaks of the Kesaracala Mountains, which stand almost as high as Mount Meru itself.</p>
+<p>These mountains are like a bunch of filaments around Mount Meru.</p>
+<p>From the Kesaracala Mountains, the Ganges falls to the peak of Gandhamadana Mountain and then flows into the land of Bhadrasva-varsa.</p>
+<p>Finally it reaches the ocean of salt water in the west.</p>
+
+
+
+<p><strong>5.17.7</strong></p>
+<p>evam malyavac-chikharan nispatanti tato ’nuparata-vega ketumalam abhi caksuh praticyam disi sarit-patim pravisati.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>evam—in this way; malyavat-sikharat—from the top of Malyavan Mountain; nispatanti—falling down; tatah—thereafter; anuparata-vega—whose force is uninterrupted; ketumalam abhi—into the land known as Ketumala-varsa; caksuh—the branch known as Caksu; praticyam—in the West; disi—direction; sarit-patim—the ocean; pravisati—enters into.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The branch of the Ganges known as Caksu falls onto the summit of Malyavan Mountain and from there cascades onto the land of Ketumala-varsa.</p>
+<p>The Ganges flows incessantly through Ketumala-varsa and in this way also reaches the ocean of salt water in the West.</p>
+
+
+
+<p><strong>5.17.8</strong></p>
+<p>bhadra cottarato meru-siraso nipatita giri-sikharad giri-sikharam atihaya srngavatah srngad avasyandamana uttarams tu kurun abhita udicyam disi jaladhim abhipravisati.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>bhadra—the branch known as Bhadra; ca—also; uttaratah—to the northern side; meru-sirasah—from the top of Mount Meru; nipatita—having fallen; giri-sikharat—from the peak of Kumuda Mountain; giri-sikharam—to the peak of Nila Mountain; atihaya—passing over as if not touching; srngavatah—of the mountain known as Srngavan; srngat—from the peak; avasyandamana—flowing; uttaran—the northern; tu—but; kurun—the land known as Kuru; abhitah—on all sides; udicyam—in the northern; disi—direction; jaladhim—the ocean of salt water; abhipravisati—enters into.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The branch of the Ganges known as Bhadra flows from the northern side of Mount Meru.</p>
+<p>Its waters fall onto the peaks of Kumuda Mountain, Mount Nila, Sveta Mountain and Srngavan Mountain in succession.</p>
+<p>Then it runs down into the province of Kuru and, after crossing through that land, flows into the saltwater ocean in the north.</p>
+
+
+
+<p><strong>5.17.9</strong></p>
+<p>tathaivalakananda daksinena brahma-sadanad bahuni giri-kutany atikramya hemakutad dhaimakutany ati-rabhasatara-ramhasa luthayanti bharatam abhivarsam daksinasyam disi jaladhim abhipravisati yasyam snanartham cagacchatah pumsah pade pade ’svamedha-rajasuyadinam phalam na durlabham iti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatha eva—similarly; alakananda—the branch known as Alakananda; daksinena—by the southern side; brahma-sadanat—from the city known as Brahmapuri; bahuni—many; giri-kutani—the tops of mountains; atikramya—crossing over; hemakutat—from Hemakuta Mountain; haimakutani—and Himakuta; ati-rabhasatara—more fiercely; ramhasa—with great force; luthayanti—plundering; bharatam abhivarsam—on all sides of Bharata-varsa; daksinasyam—in the southern; disi—direction; jaladhim—the ocean of salt water; abhipravisati—enters into; yasyam—in which; snana-artham—for bathing; ca—and; agacchatah—of one who is coming; pumsah—a person; pade pade—at every step; asvamedha-rajasuya-adinam—of great sacrifices like the Asvamedha yajna and Rajasuya yajna; phalam—the result; na—not; durlabham—very difficult to obtain; iti—thus.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Similarly, the branch of the Ganges known as Alakananda flows from the southern side of Brahmapuri (Brahma-sadana).</p>
+<p>Passing over the tops of mountains in various lands, it falls down with fierce force upon the peaks of the mountains Hemakuta and Himakuta.</p>
+<p>After inundating the tops of those mountains, the Ganges falls down onto the tract of land known as Bharata-varsa, which she also inundates.</p>
+<p>Then the Ganges flows into the ocean of salt water in the south.</p>
+<p>Persons who come to bathe in this river are fortunate.</p>
+<p>It is not very difficult for them to achieve with every step the results of performing great sacrifices like the Rajasuya and Asvamedha yajnas.</p>
+<p><strong>PURPORT</strong></p>
+<p>The place where the Ganges flows into the salt water of the Bay of Bengal is still known as Ganga-sagara, or the meeting place of the Ganges and the Bay of Bengal.</p>
+<p>On Makara-sankranti, in the month of January–February, thousands of people still go there to bathe, hoping to be liberated.</p>
+<p>That they can actually be liberated in this way is confirmed herein.</p>
+<p>For those who bathe in the Ganges at any time, the results of great sacrifices like the Asvamedha and Rajasuya yajnas are not at all difficult to achieve.</p>
+<p>Most people in India are still inclined to bathe in the Ganges, and there are many places where they can do so.</p>
+<p>At Prayaga (Allahabad), many thousands of people gather during the month of January to bathe in the confluence of the Ganges and Yamuna.</p>
+<p>Afterward, many of them go to the confluence of the Bay of Bengal and the Ganges to take bath there.</p>
+<p>Thus it is a special facility for all the people of India that they can bathe in the water of the Ganges at so many places of pilgrimage.</p>
+
+
+
+<p><strong>5.17.10</strong></p>
+<p>anye ca nada nadyas ca varse varse santi bahuso merv-adi-giri-duhitarah satasah.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>anye—many others; ca—also; nadah—rivers; nadyah—small rivers; ca—and; varse varse—in each tract of land; santi—are; bahusah—of many varieties; meru-adi-giri-duhitarah—daughters of the mountains beginning with Meru; satasah—in the hundreds.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Many other rivers, both big and small, flow from the top of Mount Meru.</p>
+<p>These rivers are like daughters of the mountain, and they flow to the various tracts of land in hundreds of branches.</p>
+
+
+
+<p><strong>5.17.11</strong></p>
+<p>tatrapi bharatam eva varsam karma-ksetram anyany asta varsani svarginam punya-sesopabhoga-sthanani bhaumani svarga-padani vyapadisanti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatra api—out of all of them; bharatam—known as Bharata-varsa; eva—certainly; varsam—the tract of land; karma-ksetram—the field of activities; anyani—the others; asta varsani—eight tracts of land; svarginam—of the living entities elevated to the heavenly planets by extraordinary pious activities; punya—of the results of pious activities; sesa—of the remainder; upabhoga-sthanani—the places for material enjoyment; bhaumani svarga-padani—as the heavenly places on earth; vyapadisanti—they designate.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Among the nine varsas, the tract of land known as Bharata-varsa is understood to be the field of fruitive activities.</p>
+<p>Learned scholars and saintly persons declare the other eight varsas to be meant for very highly elevated pious persons.</p>
+<p>After returning from the heavenly planets, they enjoy the remaining results of their pious activities in these eight earthly varsas.</p>
+<p><strong>PURPORT</strong></p>
+<p>The heavenly places of enjoyment are divided into three groups: the celestial heavenly planets, the heavenly places on earth, and the bila heavenly places, which are found in the lower regions.</p>
+<p>Among these three classes of heavenly places (bhauma-svarga-pada-ni), the heavenly places on earth are the eight varsas other than Bharata-varsa.</p>
+<p>In Bhagavad-gita (9.21) Krsna says, ksine punye martya-lokam visanti: when the persons living in the heavenly planets exhaust the results of their pious activities, they return to this earth.</p>
+<p>In this way, they are elevated to the heavenly planets, and then they again fall to the earthly planets.</p>
+<p>This process is known as brahmanda bhramana, wandering up and down throughout the universes.</p>
+<p>Those who are intelligent—in other words, those who have not lost their intelligence—do not involve themselves in this process of wandering up and down.</p>
+<p>They take to the devotional service of the Lord so that they can ultimately penetrate the covering of this universe and enter the spiritual kingdom.</p>
+<p>Then they are situated on one of the planets known as Vaikunthaloka or, still higher.</p>
+<p>Krsnaloka (Goloka Vrndavana).</p>
+<p>A devotee is never caught in the process of being promoted to the heavenly planets and again coming down.</p>
+<p>Therefore Sri Caitanya Mahaprabhu says:</p>
+<p>ei rupe brahmanda bhramite kona bhagyavan jiva</p>
+<p>guru-krsna-prasade paya bhakti-lata-bija</p>
+<p>(Cc.Madhya 19.151)</p>
+<p>Among all the living entities wandering throughout the universe, one who is most fortunate comes in contact with a representative of the Supreme Personality of Godhead and thus gets the opportunity to execute devotional service.</p>
+<p>Those who are sincerely seeking the favor of Krsna come in contact with a guru, a bona fide representative of Krsna.</p>
+<p>The Mayavadis indulging in mental speculation and the karmis desiring the results of their actions cannot become gurus.</p>
+<p>A guru must be a direct representative of Krsna who distributes the instructions of Krsna without any change.</p>
+<p>Thus only the most fortunate persons come in contact with the guru.</p>
+<p>As confirmed in the Vedic literatures, tad-vijnanartham sa gurum evabhigacchet: (MU1.2.12) one has to search out a guru to understand the affairs of the spiritual world.</p>
+<p>Srimad-Bhagavatam also confirms this point.</p>
+<p>Tasmad gurum prapadyeta jijnasuh sreya uttamam: (SB 11.3.21) one who is very interested in understanding the activities in the spiritual world must search out a guru—a bona fide representative of Krsna.</p>
+<p>From all angles of vision, therefore, the word guru is especially meant for the bona fide representative of Krsna and no one else.</p>
+<p>Padma Purana states, avaisnavo gurur na syat: one who is not a Vaisnava, or who is not a representative of Krsna, cannot be a guru.</p>
+<p>Even the most qualified brahmana cannot become a guru if he is not a representative of Krsna.</p>
+<p>Brahmanas are supposed to acquire six kinds of auspicious qualifications: they become very learned scholars (pathana) and very qualified teachers (pathana); they become expert in worshiping the Lord or the demigods (yajana), and they teach others how to execute this worship (yajana); they qualify themselves as bona fide persons to receive alms from others (pratigraha), and they distribute the wealth in charity (dana).</p>
+<p>Yet even a brahmana possessing these qualifications cannot become a guru unless he is the representative of Krsna (gurur na syat).</p>
+<p>Vaisnavah sva-paco guruh: but a Vaisnava, a bona fide representative of the Supreme Personality of Godhead, Visnu, can become a guru, even if he is sva-paca, a member of a family of dog-eaters.</p>
+<p>Of the three divisions of heavenly planets (svarga-loka), bhauma-svarga is sometimes accepted as the tract of land in Bharata-varsa known as Kashmir.</p>
+<p>In this region there are certainly good facilities for material sense enjoyment, but this is not the business of a pure transcendentalist.</p>
+<p>Rupa Gosvami describes the engagement of a pure transcendentalist as follows:</p>
+<p>anyabhilasita-sunyam</p>
+<p>jnana-karmady-anavrtam</p>
+<p>anukulyena krsnanu-</p>
+<p>silanam bhaktir uttama</p>
+<p>(Madhya 19.167)</p>
+<p>One should render transcendental loving service to the Supreme Lord Krsna favorably and without desire for material profit or gain through fruitive activities or philosophical speculation.</p>
+<p>That is called pure devotional service Those who fully engage in devotional service to Krsna just to please Him are not interested in the three divisions of heavenly places, namely, divya-svarga, bhauma-svarga and bila-svarga.</p>
+
+
+
+<p><strong>5.17.12</strong></p>
+<p>esu purusanam ayuta-purusayur-varsanam deva-kalpanam nagayuta-prananam vajra-samhanana-bala-vayo-moda-pramudita-maha-saurata-mithuna-vyavayapavarga-varsa-dhrtaika-garbha-kalatranam tatra tu treta-yuga-samah kalo vartate.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>esu—in these (eight) varsas, or tracts of land; purusanam—of all the men; ayuta—ten thousand; purusa—by the measure of men; ayuh-varsanam—of those whose years of life; deva-kalpanam—who are like the demigods; naga-ayuta-prananam—having the strength of ten thousand elephants; vajra-samhanana—by bodies as solid as thunderbolts; bala—by bodily strength; vayah—by youth; moda—by abundant sense enjoyment; pramudita—being excited; maha-saurata—a great deal of sexual; mithuna—combinations of man and woman; vyavaya-apavarga—at the end of their period of sexual enjoyment; varsa—in the last year; dhrta-eka-garbha—who conceive one child; kalatranam—of those who have wives; tatra—there; tu—but; treta-yuga-samah—exactly like the Treta-yuga (when there is no tribulation); kalah—time; vartate—exists.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In these eight varsas, or tracts of land, human beings live ten thousand years according to earthly calculations.</p>
+<p>All the inhabitants are almost like demigods.</p>
+<p>They have the bodily strength of ten thousand elephants.</p>
+<p>Indeed, their bodies are as sturdy as thunderbolts.</p>
+<p>The youthful duration of their lives is very pleasing, and both men and women enjoy sexual union with great pleasure for a long time.</p>
+<p>After years of sensual pleasure—when a balance of one year of life remains—the wife conceives a child.</p>
+<p>Thus the standard of pleasure for the residents of these heavenly regions is exactly like that of the human beings who lived during Treta-yuga.</p>
+<p><strong>PURPORT</strong></p>
+<p>There are four yugas: Satya-yuga, Treta-yuga, Dvapara-yuga and Kali-yuga.</p>
+<p>During the first yuga, Satya-yuga, people were very pious.</p>
+<p>Everyone practiced the mystic yoga system for spiritual understanding and realization of God.</p>
+<p>Because everyone was always absorbed in samadhi, no one was interested in material sense enjoyment.</p>
+<p>During Treta-yuga, people enjoyed sense pleasure without tribulations.</p>
+<p>Material miseries began in Dvapara-yuga, but they were not very stringent.</p>
+<p>Stringent material miseries really began from the advent of Kali-yuga.</p>
+<p>Another point in this verse is that in all eight of these heavenly varsas, although men and women enjoy sex pleasure, there is no pregnancy.</p>
+<p>Pregnancy takes place only in lower-grade life.</p>
+<p>For example, animals like dogs and hogs become pregnant twice a year, and each time they beget at least half a dozen offspring.</p>
+<p>Even lower species of life such as snakes give birth to hundreds of young at one time.</p>
+<p>This verse informs us that in grades of life higher than ours, pregnancy occurs once in a lifetime.</p>
+<p>People still have sex life, but there is no pregnancy.</p>
+<p>In the spiritual world, people are not very attracted to sex life, due to their exalted devotional attitude.</p>
+<p>Practically speaking, there is no sex life in the spiritual world, but even if sometimes it does occur, there is no pregnancy at all.</p>
+<p>On the planet earth, however, human beings do become pregnant, although the tendency is to avoid having children.</p>
+<p>In this sinful age of Kali, people have even taken to the process of killing the child in the womb.</p>
+<p>This is the most degraded practice; it can only perpetuate the miserable material conditions of those who perform it.</p>
+
+
+
+<p><strong>5.17.13</strong></p>
+<p>yatra ha deva-patayah svaih svair gana-nayakair vihita-maharhanah sarvartu-kusuma-stabaka-phala-kisalaya-sriyanamyamana-vitapa-lata-vitapibhir upasumbhamana-rucira-kananasramayatana-varsa-giri-dronisu tatha camala-jalasayesu vikaca-vividha-nava-vanaruhamoda-mudita-raja-hamsa-jala-kukkuta-karandava-sarasa-cakravakadibhir madhukara-nikarakrtibhir upakujitesu jala-kridadibhir vicitra-vinodaih sulalita-sura-sundarinam kama-kalila-vilasa-hasa-lilavalokakrsta-mano-drstayah svairam viharanti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yatra ha—in those eight tracts of land; deva-patayah—the lords of the demigods, such as Lord Indra; svaih svaih—by their own respective; gana-nayakaih—leaders of the servants; vihita—furnished with; maha-arhanah—valuable gifts, such as sandalwood pulp and garlands; sarva-rtu—in all seasons; kusuma-stabaka—of bunches of flowers; phala—of fruits; kisalaya-sriya—by the opulences of shoots; anamyamana—being bent down; vitapa—whose branches; lata—and creepers; vitapibhih—by many trees; upasumbhamana—being fully decorated; rucira—beautiful; kanana—gardens; asrama-ayatana—and many hermitages; varsa-giri-dronisu—the valleys between the mountains designating the borders of the tracts of land; tatha—as well as; ca—also; amala-jala-asayesu—in lakes with clear water; vikaca—just fructified; vividha—varieties; nava-vanaruha-amoda—by the fragrance of lotus flowers; mudita—enthused; raja-hamsa—great swans; jala-kukkuta—water fowl; karandava—aquatic birds called karandavas; sarasa—cranes; cakravaka-adibhih—by birds known as cakravakas and so on; madhukara-nikara-akrtibhih—by the bumblebees; upakujitesu—which were made to resound; jala-krida-adibhih—such as water sports; vicitra—various; vinodaih—by pastimes; su-lalita—attractive; sura-sundarinam—of the women of the demigods; kama—from lust; kalila—born; vilasa—pastimes; hasa—smiling; lila-avaloka—by playful glances; akrsta-manah—whose minds are attracted; drstayah—and whose vision is attracted; svairam—very freely; viharanti—engage in sportive enjoyment.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In each of those tracts of land, there are many gardens filled with flowers and fruits according to the season, and there are beautifully decorated hermitages as well.</p>
+<p>Between the great mountains demarcating the borders of those lands lie enormous lakes of clear water filled with newly grown lotus flowers.</p>
+<p>Aquatic birds such as swans, ducks, water chickens, and cranes become greatly excited by the fragrance of lotus flowers, and the charming sound of bumblebees fills the air.</p>
+<p>The inhabitants of those lands are important leaders among the demigods.</p>
+<p>Always attended by their respective servants, they enjoy life in gardens alongside the lakes.</p>
+<p>In this pleasing situation, the wives of the demigods smile playfully at their husbands and look upon them with lusty desires.</p>
+<p>All the demigods and their wives are constantly supplied with sandalwood pulp and flower garlands by their servants.</p>
+<p>In this way, all the residents of the eight heavenly varsas enjoy, attracted by the activities of the opposite sex.</p>
+<p><strong>PURPORT</strong></p>
+<p>Here is a description of the lower heavenly planets.</p>
+<p>The inhabitants of those planets enjoy life in a pleasing atmosphere of clear lakes filled with newly grown lotus flowers and gardens filled with fruits, flowers, various kinds of birds and humming bees.</p>
+<p>In that atmosphere they enjoy life with their very beautiful wives, who are always sexually stimulated.</p>
+<p>Nonetheless, they are all devotees of the Supreme Personality of Godhead, as will be explained in subsequent verses.</p>
+<p>The inhabitants of this earth also desire such heavenly enjoyment, but when they somehow or other achieve imitation pleasures like sex and intoxication, they completely forget the service of the Supreme Lord.</p>
+<p>In the heavenly planets, however, although the residents enjoy superior sense gratification, they never forget their positions as eternal servants of the Supreme Being.</p>
+
+
+
+<p><strong>5.17.14</strong></p>
+<p>navasv api varsesu bhagavan narayano maha-purusah purusanam tad-anugrahayatma-tattva-vyuhenatmanadyapi sannidhiyate.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>navasu—in the nine; api—certainly; varsesu—tracts of land known as varsas; bhagavan—the Supreme Personality of Godhead; narayanah—Lord Visnu; maha-purusah—the Supreme Person; purusanam—unto His various devotees; tat-anugrahaya—to show His mercy; atma-tattva-vyuhena—by expansions of Himself in the quadruple forms Vasudeva, Sankarsana, Pradyumna and Aniruddha; atmana—personally; adya api—until now; sannidhiyate—is near the devotees for accepting their services.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>To show mercy to His devotees in each of these nine tracts of land, the Supreme Personality of Godhead known as Narayana expands Himself in His quadruple principles of Vasudeva, Sankarsana, Pradyumna and Aniruddha.</p>
+<p>In this way He remains near His devotees to accept their service.</p>
+<p><strong>PURPORT</strong></p>
+<p>In this connection, Visvanatha Cakravarti Thakura informs us that the demigods worship the Supreme Lord in His various Deity forms (arca-vigraha) because except in the spiritual world, the Supreme Personality of Godhead cannot be directly worshiped in person.</p>
+<p>In the material world, the Lord is always worshiped as the arca-vigraha, or Deity in the temple.</p>
+<p>There is no difference between the arca-vigraha and the original person, and therefore those who are engaged in worshiping the Deity in the temple in full opulence, even on this planet, should be understood to be directly in touch with the Supreme Personality of Godhead without a doubt.</p>
+<p>As enjoined in the sastras, arcye visnau sila-dhir gurusu nara-matih: No one should treat the Deity in the temple as stone or metal nor should one think that the spiritual master is an ordinary human being One should strictly follow this sastric injunction and worship the Deity, the Supreme Personality of Godhead, without offenses.</p>
+<p>The spiritual master is the direct representative of the Lord, and no one should consider him an ordinary human being.</p>
+<p>By avoiding offenses against the Deity and the spiritual master, one can advance in spiritual life, or Krsna consciousness.</p>
+<p>In this regard, the following quotation appears in the Laghu-bhagavatamrta:</p>
+<p>padme tu parama-vyomnah</p>
+<p>purvadye dik-catustaye</p>
+<p>vasudevadayo vyuhas</p>
+<p>catvarah kathitah kramat</p>
+<p>tatha pada-vibhutau ca</p>
+<p>nivasanti kramadi me</p>
+<p>jalavrti-stha-vaikuntha-</p>
+<p>sthita vedavati-pure</p>
+<p>satyordhve vaisnave loke</p>
+<p>nityakhye dvaraka-pure</p>
+<p>suddhodad uttare sveta-</p>
+<p>dvipe cairavati-pure</p>
+<p>ksirambudhi-sthitante</p>
+<p>kroda-paryanka-dhamani</p>
+<p>satvatiye kvacit tantre</p>
+<p>nava vyuhah prakirtitah</p>
+<p>catvaro vasudevadya</p>
+<p>narayana-nrsimhakau</p>
+<p>hayagrivo maha-krodo</p>
+<p>brahma ceti navoditah</p>
+<p>tatra brahma tu vijneyah</p>
+<p>purvokta-vidhaya harih</p>
+<p>In the Padma Purana it is said that in the spiritual world the Lord personally expands in all directions and is worshiped as Vasudeva, Sankarsana, Pradyumna and Aniruddha.</p>
+<p>The same God is represented by the Deity in this material world, which is only one quarter of His creation.</p>
+<p>Vasudeva, Sankarsana, Pradyumna and Aniruddha are also present in the four directions of this material world.</p>
+<p>There is a Vaikunthaloka covered with water in this material world, and on that planet is a place called Vedavati, where Vasudeva is located.</p>
+<p>Another planet known as Visnuloka is situated above Satyaloka, and there Sankarsana is present.</p>
+<p>Similarly, in Dvaraka-puri, Pradyumna is the predominator.</p>
+<p>On the island known as Svetadvipa, there is an ocean of milk, and in the midst of that ocean is a place called Airavati-pura, where Aniruddha lies on Ananta.</p>
+<p>In some of the satvata-tantras, there is a description of the nine varsas and the predominating Deity worshiped in each: (1) Vasudeva, (2) Sankarsana, (3) Pradyumna, (4) Aniruddha, (5) Narayana, (6) Nrsimha, (7) Hayagriva, (8) Mahavaraha, and (9) Brahma The Lord Brahma mentioned in this connection is the Supreme Personality of Godhead.</p>
+<p>When there is no fit human being to empower as Lord Brahma, the Lord Himself takes the position of Lord Brahma.</p>
+<p>Tatra brahma tu vijneyah purvokta-vidhaya harih.</p>
+<p>That Brahma mentioned here is Hari Himself.</p>
+
+
+
+<p><strong>5.17.15</strong></p>
+<p>ilavrte tu bhagavan bhava eka eva puman na hy anyas tatraparo nirvisati bhavanyah sapa-nimitta-jno yat-praveksyatah stri-bhavas tat pascad vaksyami.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ilavrte—in the tract of land known as Ilavrta-varsa; tu—but; bhagavan—the most powerful; bhavah—Lord Siva; eka—only; eva—certainly; puman—male person; na—not; hi—certainly; anyah—any other; tatra—there; aparah—besides; nirvisati—enters; bhavanyah sapa-nimitta-jnah—who knows the cause of the curse by Bhavani, the wife of Lord Siva; yat-praveksyatah—of one who forcibly enters that tract of land; stri-bhavah—transformation into a female; tat—that; pascat—later; vaksyami—I shall explain.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sukadeva Gosvami said: In the tract of land known as Ilavrta-varsa, the only male person is Lord Siva, the most powerful demigod.</p>
+<p>Goddess Durga, the wife of Lord Siva, does not like any man to enter that land.</p>
+<p>If any foolish man dares to do so, she immediately turns him into a woman.</p>
+<p>I shall explain this later (in the Ninth Canto of Srimad-Bhagavatam).</p>
+
+
+
+<p><strong>5.17.16</strong></p>
+<p>bhavani-nathaih stri-ganarbuda-sahasrair avarudhyamano bhagavatas catur-murter maha-purusasya turiyam tamasim murtim prakrtim atmanah sankarsana-samjnam atma-samadhi-rupena sannidhapyaitad abhigrnan bhava upadhavati.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>bhavani-nathaih—by the company of Bhavani; stri-gana—of females; arbuda-sahasraih—by ten billion; avarudhyamanah—always being served; bhagavatah catuh-murteh—the Supreme Personality of Godhead, who is expanded in four; maha-purusasya—of the Supreme Person; turiyam—the fourth expansion; tamasim—related to the mode of ignorance; murtim—the form; prakrtim—as the source; atmanah—of himself (Lord Siva); sankarsana-samjnam—known as Sankarsana; atma-samadhi-rupena—by meditating upon Him in trance; sannidhapya—bringing Him near; etat—this; abhigrnan—clearly chanting; bhavah—Lord Siva; upadhavati—worships.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>In Ilavrta-varsa, Lord Siva is always encircled by ten billion maidservants of goddess Durga, who minister to him.</p>
+<p>The quadruple expansion of the Supreme Lord is composed of Vasudeva, Pradyumna, Aniruddha and Sankarsana.</p>
+<p>Sankarsana, the fourth expansion, is certainly transcendental, but because his activities of destruction in the material world are in the mode of ignorance, He is known as tamasi, the Lord’s form in the mode of ignorance.</p>
+<p>Lord Siva knows that Sankarsana is the original cause of his own existence, and thus he always meditates upon Him in trance by chanting the following mantra.</p>
+<p><strong>PURPORT</strong></p>
+<p>Sometimes we see a picture of Lord Siva engaged in meditation.</p>
+<p>This verse explains that Lord Siva is always meditating upon Lord Sankarsana in trance.</p>
+<p>Lord Siva is in charge of the destruction of the material world.</p>
+<p>Lord Brahma creates the material world, Lord Visnu maintains it, and Lord Siva destroys it.</p>
+<p>Because destruction is in the mode of ignorance, Lord Siva and his worshipable Deity, Sankarsana, are technically called tamasi.</p>
+<p>Lord Siva is the incarnation of tamo-guna.</p>
+<p>Since both Lord Siva and Sankarsana are always enlightened and situated in the transcendental position, they have nothing to do with the modes of material nature—goodness, passion and ignorance—but because their activities involve them with the mode of ignorance, they are sometimes called tamasi.</p>
+
+
+
+<p><strong>5.17.17</strong></p>
+<p>sri-bhagavan uvaca</p>
+<p>om namo bhagavate maha-purusaya sarva-guna-sankhyanayanantayavyaktaya nama iti.</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-bhagavan uvaca—the most powerful Lord Siva says; om namo bhagavate—O Supreme Personality of Godhead, I offer my respectful obeisances unto You; maha-purusaya—who are the Supreme person; sarva-guna-sankhyanaya—the reservoir of all transcendental qualities; anantaya—the unlimited; avyaktaya—not manifested within the material world; namah—my respectful obeisances; iti—thus.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The most powerful Lord Siva says: O Supreme Personality of Godhead, I offer my respectful obeisances unto You in Your expansion as Lord Sankarsana.</p>
+<p>You are the reservoir of all transcendental qualities.</p>
+<p>Although You are unlimited, You remain unmanifest to the nondevotees.</p>
+
+
+
+<p><strong>5.17.18</strong></p>
+<p>bhaje bhajanyarana-pada-pankajam</p>
+<p>bhagasya krtsnasya param parayanam</p>
+<p>bhaktesv alam bhavita-bhuta-bhavanam</p>
+<p>bhavapaham tva bhava-bhavam isvaram</p>
+<p><strong>SYNONYMS</strong></p>
+<p>bhaje—I worship; bhajanya—O worshipable Lord; arana-pada-pankajam—whose lotus feet protect His devotees from all fearful situations; bhagasya—of opulences; krtsnasya—of all different varieties (wealth, fame, strength, knowledge, beauty and renunciation); param—the best; parayanam—the ultimate shelter; bhaktesu—to the devotees; alam—beyond value; bhavita-bhuta-bhavanam—who manifests His different forms for the satisfaction of His devotees; bhava-apaham—who stops the devotees’ repetition of birth and death; tva—unto You; bhava-bhavam—who is the origin of the material creation; isvaram—the Supreme Personality of Godhead.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O my Lord, You are the only worshipable person, for You are the Supreme Personality of Godhead, the reservoir of all opulences.</p>
+<p>Your secure lotus feet are the only source of protection for all Your devotees, whom You satisfy by manifesting Yourself in various forms.</p>
+<p>O my Lord, You deliver Your devotees from the clutches of material existence.</p>
+<p>Nondevotees, however, remain entangled in material existence by Your will.</p>
+<p>Kindly accept me as Your eternal servant.</p>
+
+
+
+<p><strong>5.17.19</strong></p>
+<p>na yasya maya-guna-citta-vrttibhir</p>
+<p>niriksato hy anv api drstir ajyate</p>
+<p>ise yatha no ’jita-manyu-ramhasam</p>
+<p>kas tam na manyeta jigisur atmanah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—never; yasya—whose; maya—of the illusory energy; guna—in the qualities; citta—of the heart; vrttibhih—by the activities (thinking feeling and willing); niriksatah—of Him who is glancing; hi—certainly; anu—slightly; api—even; drstih—vision; ajyate—is affected; ise—for the purpose of regulating; yatha—as; nah—of us; ajita—who have not conquered; manyu—of anger; ramhasam—the force; kah—who; tam—unto Him (the Supreme Lord); na—not; manyeta—would worship; jigisuh—aspiring to conquer; atmanah—the senses.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>We cannot control the force of our anger.</p>
+<p>Therefore when we look at material things, we cannot avoid feeling attraction or repulsion for them.</p>
+<p>But the Supreme Lord is never affected in this way.</p>
+<p>Although He glances over the material world for the purpose of creating, maintaining and destroying it, He is not affected, even to the slightest degree.</p>
+<p>Therefore, one who desires to conquer the force of the senses must take shelter of the lotus feet of the Lord.</p>
+<p>Then he will be victorious.</p>
+<p><strong>PURPORT</strong></p>
+<p>The Supreme Personality of Godhead is always equipped with inconceivable potencies.</p>
+<p>Although creation takes place by His glancing over the material energy, He is not affected by the modes of material nature.</p>
+<p>Because of His eternally transcendental position, when the Supreme Personality of Godhead appears in this material world, the modes of material nature cannot affect Him.</p>
+<p>Therefore the Supreme Lord is called Transcendence, and anyone who wants to be secure from the influence of the modes of material nature must take shelter of Him.</p>
+
+
+
+<p><strong>5.17.20</strong></p>
+<p>asad-drso yah pratibhati mayaya</p>
+<p>ksibeva madhv-asava-tamra-locanah</p>
+<p>na naga-vadhvo ’rhana isire hriya</p>
+<p>yat-padayoh sparsana-dharsitendriyah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>asat-drsah—for a person with polluted vision; yah—who; pratibhati—appears; mayaya—the influence of maya; ksibah—one who is inebriated or angry; iva—like; madhu—by honey; asava—and liquor; tamra-locanah—having eyes reddish like copper; na—not; naga-vadhvah—the wives of the serpent demon; arhane—in worshiping; isire—were unable to proceed; hriya—because of bashfulness; yat-padayoh—of whose lotus feet; sparsana—by the touching; dharsita—agitated; indriyah—whose senses.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>For persons with impure vision, the Supreme Lord’s eyes appear like those of someone who indiscriminately drinks intoxicating beverages.</p>
+<p>Thus bewildered, such unintelligent persons become angry at the Supreme Lord, and due to their angry mood the Lord Himself appears angry and very fearful.</p>
+<p>However, this is an illusion.</p>
+<p>When the wives of the serpent demon were agitated by the touch of the Lord’s lotus feet, due to shyness they could proceed no further in their worship of Him.</p>
+<p>Yet the Lord remained unagitated by their touch, for He is equipoised in all circumstances.</p>
+<p>Therefore who will not worship the Supreme Personality of Godhead ?</p>
+<p><strong>PURPORT</strong></p>
+<p>Anyone who remains unagitated, even in the presence of cause for agitation, is called dhira, or equipoised.</p>
+<p>The Supreme Personality of Godhead, being always in a transcendental position, is never agitated by anything.</p>
+<p>Therefore someone who wants to become dhira must take shelter of the lotus feet of the Lord.</p>
+<p>In Bhagavad-gita (2.13) Krsna says, dhiras tatra na muhyati: a person who is equipoised in all circumstances is never bewildered.</p>
+<p>Prahlada Maharaja is a perfect example of a dhira.</p>
+<p>When the fierce form of Nrsimhadeva appeared in order to kill Hiranyakasipu, Prahlada was unagitated.</p>
+<p>He remained calm and quiet, whereas others, including even Lord Brahma, were frightened by the features of the Lord.</p>
+
+
+
+<p><strong>5.17.21</strong></p>
+<p>yam ahur asya sthiti-janma-samyamam</p>
+<p>tribhir vihinam yam anantam rsayah</p>
+<p>na veda siddhartham iva kvacit sthitam</p>
+<p>bhu-mandalam murdha-sahasra-dhamasu</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yam—whom; ahuh—they said; asya—of the material world; sthiti—the maintenance; janma—creation; samyamam—annihilation; tribhih—these three; vihinam—without; yam—which; anantam—unlimited; rsayah—all the great sages; na—not; veda—feels; siddha-artham—a mustard seed; iva—like; kvacit—where; sthitam—situated; bhu-mandalam—the universe; murdha-sahasra-dhamasu—on the hundreds and thousands of hoods of the Lord.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Lord Siva continued: All the great sages accept the Lord as the source of creation, maintenance and destruction, although He actually has nothing to do with these activities.</p>
+<p>Therefore the Lord is called unlimited.</p>
+<p>Although the Lord in His incarnation as Sesa holds all the universes on His hoods, each universe feels no heavier than a mustard seed to Him.</p>
+<p>Therefore, what person desiring perfection will not worship the Lord?</p>
+<p><strong>PURPORT</strong></p>
+<p>The incarnation of the Supreme Personality of Godhead known as Sesa or Ananta has unlimited strength, fame, wealth, knowledge, beauty and renunciation.</p>
+<p>As described in this verse, Ananta’s strength is so great that the innumerable universes rest on His hoods.</p>
+<p>He has the bodily features of a snake with thousands of hoods, and since His strength is unlimited, all the universes resting on His hoods feel no heavier than mustard seeds.</p>
+<p>We can just imagine how insignificant a mustard seed is on the hood of a serpent.</p>
+<p>In this connection, the reader is referred to Sri Caitanya-caritamrta, Adi-lila, Chapter Five, verses 117–125.</p>
+<p>There it is stated that Lord Visnu’s incarnation as the serpentine Ananta Sesa Naga supports all the universes on His hoods.</p>
+<p>By our calculation, a universe may be very, very heavy, but because the Lord is ananta (unlimited), He feels the weight to be no heavier than a mustard seed.</p>
+
+
+
+<p><strong>5.17.22-23</strong></p>
+<p>yasyadya asid guna-vigraho mahan</p>
+<p>vijnana-dhisnyo bhagavan ajah kila</p>
+<p>yat-sambhavo ’ham tri-vrta sva-tejasa</p>
+<p>vaikarikam tamasam aindriyam srje</p>
+<p>ete vayam yasya vase mahatmanah</p>
+<p>sthitah sakunta iva sutra-yantritah</p>
+<p>mahan aham vaikrta-tamasendriyah</p>
+<p>srjama sarve yad-anugrahad idam</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yasya—from whom; adyah—the beginning; asit—there was; guna-vigrahah—the incarnation of the material qualities; mahan—the total material energy; vijnana—of full knowledge; dhisnyah—the reservoir; bhagavan—the most powerful; ajah—Lord Brahma; kila—certainly; yat—from whom; sambhavah—born; aham—I; tri-vrta—having three varieties according to the three modes of nature; sva-tejasa—by my material strength; vaikarikam—all the demigods; tamasam—material elements; aindriyam—the senses; srje—I create; ete—all of these; vayam—we; yasya—of whom; vase—under the control; maha-atmanah—great personalities; sthitah—situated; sakuntah—vultures; iva—like; sutra-yantritah—bound by rope; mahan—the mahat-tattva; aham—I; vaikrta—the demigods; tamasa—the five material elements; indriyah—senses; srjamah—we create; sarve—all of us; yat—of whom; anugrahat—by the mercy; idam—this material world.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>From that Supreme Personality of Godhead appears Lord Brahma, whose body is made from the total material energy, the reservoir of intelligence predominated by the passionate mode of material nature.</p>
+<p>From Lord Brahma, I myself am born as a representation of false ego known as Rudra.</p>
+<p>By my own power I create all the other demigods, the five elements and the senses.</p>
+<p>Therefore, I worship the Supreme Personality of Godhead, who is greater than any of us and under whose control are situated all the demigods, material elements and senses, and even Lord Brahma and I myself, like birds bound by a rope.</p>
+<p>Only by the Lord’s grace can we create, maintain and annihilate the material world.</p>
+<p>Therefore I offer my respectful obeisances unto the Supreme Being.</p>
+<p><strong>PURPORT</strong></p>
+<p>A summary of creation is given in this verse.</p>
+<p>From Sankarsana, Maha-Visnu expands, and from Maha-Visnu, Garbhodakasayi Visnu expands.</p>
+<p>Lord Brahma, who was born of Garbhodakasayi Visnu, fathers Lord Siva, from whom all the other demigods gradually evolve.</p>
+<p>Lord Brahma, Lord Siva and Lord Visnu are incarnations of the different material qualities.</p>
+<p>Lord Visnu is actually above all material qualities, but He accepts control of sattva-guna (the mode of goodness) to maintain the universe.</p>
+<p>Lord Brahma is born from the mahat-tattva.</p>
+<p>Brahma creates the entire universe, Lord Visnu maintains it, and Lord Siva annihilates it.</p>
+<p>The Supreme Personality of Godhead controls all the most important demigods—especially Lord Brahma and Lord Siva—exactly as the owner of a bird controls it by binding it with a rope.</p>
+<p>Sometimes vultures are controlled in this way.</p>
+
+
+
+<p><strong>5.17.24</strong></p>
+<p>yan-nirmitam karhy api karma-parvanim</p>
+<p>mayam jano ’yam guna-sarga-mohitah</p>
+<p>na veda nistarana-yogam anjasa</p>
+<p>tasmai namas te vilayodayatmane</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yat—by whom; nirmitam—created; karhi api—at any time; karma-parvanim—which ties the knots of fruitive activity; mayam—the illusory energy; janah—a person; ayam—this; guna-sarga-mohitah—bewildered by the three modes of material nature; na—not; veda—knows; nistarana-yogam—the process of getting out of material entanglement; anjasa—soon; tasmai—unto Him (the Supreme); namah—respectful obeisances; te—unto You; vilaya-udaya-atmane—in whom everything is annihilated and from whom everything is again manifested.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The illusory energy of the Supreme Personality of Godhead binds all of us conditioned souls to this material world.</p>
+<p>Therefore, without being favored by Him, persons like us cannot understand how to get out of that illusory energy.</p>
+<p>Let me offer my respectful obeisances unto the Lord, who is the cause of creation and annihilation.</p>
+<p><strong>PURPORT</strong></p>
+<p>Krsna clearly states in Bhagavad-gita (7.14):</p>
+<p>daivi hy esa guna-mayi</p>
+<p>mama maya duratyaya</p>
+<p>mam eva ye prapadyante</p>
+<p>mayam etam taranti te</p>
+<p>This divine energy of Mine, consisting of the three modes of material nature, is difficult to overcome.</p>
+<p>But those who have surrendered unto Me can easily cross beyond it All conditioned souls working within the illusory energy of the Lord consider the body to be the self, and thus they continuously wander throughout the universe, taking birth in different species of life and creating more and more problems.</p>
+<p>Sometimes they become disgusted with the problems and seek out a process by which they can get out of this entanglement.</p>
+<p>Unfortunately, such so-called research workers are unaware of the Supreme Personality of Godhead and His illusory energy, and thus all of them work only in darkness never finding a way out.</p>
+<p>So-called scientists and advanced research scholars are ludicrously trying to find the cause of life.</p>
+<p>They take no notice of the fact that life is already being produced.</p>
+<p>What will be their credit if they find out the chemical composition of life? All their chemicals are nothing but different transformations of the five elements—earth, water, fire, air and ether.</p>
+<p>As stated in Bhagavad-gita (2.20), the living entity is never created (na jayate mriyate va kadacin).</p>
+<p>There are five gross material elements and three minor material elements (mind, intelligence and ego), and there are eternal living entities.</p>
+<p>The living entity desires a certain type of body, and by the order of the Supreme Personality of Godhead, that body is created from material nature, which is nothing but a kind of machine handled by the Supreme Lord.</p>
+<p>The Lord gives the living entity a particular type of mechanical body, and the living entity must work with it according to the law of fruitive activities.</p>
+<p>Fruitive activities are described in this verse: karma-pamanim mayam.</p>
+<p>The living entity is seated on a machine (the body), and according to the order of the Supreme Lord, he operates the machine.</p>
+<p>This is the secret of transmigration of the soul from one body to another.</p>
+<p>The living entity thus becomes entangled in fruitive activities in this material world.</p>
+<p>As confirmed in Bhagavad-gita (15.7), manah sasthanindriyani prakrti-sthani karsati: the living entity is struggling very hard against the six senses, which include the mind.</p>
+<p>In all the activities of creation and annihilation, the living entity is entangled in fruitive activities, which are executed by the illusory energy, maya.</p>
+<p>He is exactly like a computer handled by the Supreme Personality of Godhead.</p>
+<p>The so-called scientists say that nature acts independently, but they cannot explain what nature is.</p>
+<p>Nature is nothing but a machine operated by the Supreme Personality of Godhead.</p>
+<p>When one understands the operator, his problems of life are solved.</p>
+<p>As Krsna says in Bhagavad-gita (7.19):</p>
+<p>bahunam janmanam ante</p>
+<p>jnanavan mam prapadyate</p>
+<p>vasudevah sarvam iti</p>
+<p>sa mahatma sudurlabhah</p>
+<p>After many births and deaths, he who is actually in knowledge surrenders unto Me, knowing Me to be the cause of all causes and all that is.</p>
+<p>Such a great soul is very rare A sane man, therefore, surrenders to the Supreme Personality of Godhead and thus gets out of the clutches of the illusory energy, maya.</p>
+
+
+</article></body></html>

@@ -1,155 +1,42 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>The Demigods and Demons Declare a Truce - The Demigods and Demons Declare a Truce</title>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,">
 
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+<style>
+@media (prefers-color-scheme: dark){
+body {color:#fff;background:#000}
+a:link {color:#9cf}
+a:hover, a:visited:hover {color:#cef}
+a:visited {color:#c9f}
+}
 
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+@media print{
+body{
+max-width:none
+}
+}
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+body{
+margin:1em auto;
+max-width:40em;
+padding:0 .62em;
+font:1.4em/1.72 sans-serif;
+line-height:1.4;
+}
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+h1,h2,strong{
+line-height:1.2;
+}
 
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
+</style>
+</head><body><article>
 
-        
-    </head>
-    <body class="rust">
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
-            var path_to_root = "";
-            var default_theme = "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            document.body.className = theme;
-            document.querySelector('html').className = theme + ' js';
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="affix"><a href="../../index.html">Home</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li><li class="affix"><a href="index.html" class="active">The Demigods and Demons Declare a Truce</a></li><li class="affix"><a href="8.6.2.html">8.6.2</a></li><li class="affix"><a href="8.6.3-7.html">8.6.3-7</a></li><li class="affix"><a href="8.6.8.html">8.6.8</a></li><li class="affix"><a href="8.6.9.html">8.6.9</a></li><li class="affix"><a href="8.6.10.html">8.6.10</a></li><li class="affix"><a href="8.6.11.html">8.6.11</a></li><li class="affix"><a href="8.6.12.html">8.6.12</a></li><li class="affix"><a href="8.6.13.html">8.6.13</a></li><li class="affix"><a href="8.6.14.html">8.6.14</a></li><li class="affix"><a href="8.6.15.html">8.6.15</a></li><li class="affix"><a href="8.6.16.html">8.6.16</a></li><li class="affix"><a href="8.6.17.html">8.6.17</a></li><li class="affix"><a href="8.6.18.html">8.6.18</a></li><li class="affix"><a href="8.6.19.html">8.6.19</a></li><li class="affix"><a href="8.6.20.html">8.6.20</a></li><li class="affix"><a href="8.6.21.html">8.6.21</a></li><li class="affix"><a href="8.6.22-23.html">8.6.22-23</a></li><li class="affix"><a href="8.6.24.html">8.6.24</a></li><li class="affix"><a href="8.6.25.html">8.6.25</a></li><li class="affix"><a href="8.6.26.html">8.6.26</a></li><li class="affix"><a href="8.6.27.html">8.6.27</a></li><li class="affix"><a href="8.6.28.html">8.6.28</a></li><li class="affix"><a href="8.6.29.html">8.6.29</a></li><li class="affix"><a href="8.6.30.html">8.6.30</a></li><li class="affix"><a href="8.6.31.html">8.6.31</a></li><li class="affix"><a href="8.6.32.html">8.6.32</a></li><li class="affix"><a href="8.6.33.html">8.6.33</a></li><li class="affix"><a href="8.6.34.html">8.6.34</a></li><li class="affix"><a href="8.6.35.html">8.6.35</a></li><li class="affix"><a href="8.6.36.html">8.6.36</a></li><li class="affix"><a href="8.6.37.html">8.6.37</a></li><li class="affix"><a href="8.6.38.html">8.6.38</a></li><li class="affix"><a href="8.6.39.html">8.6.39</a></li><li class="affix"><a href="../index.html">Table of Contents</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar" class="menu-bar">
-                    <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
-                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                                <i class="fa fa-paint-brush"></i>
-                            </button>
-                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                                <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                            </ul>
-                            
-                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            
-                        </div>
-
-                        <h1 class="menu-title">The Demigods and Demons Declare a Truce</h1>
-
-                        <div class="right-buttons">
-                            <a href="print.html" title="Print this book" aria-label="Print this book">
-                                <i id="print-button" class="fa fa-print"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#the-demigods-and-demons-declare-a-truce" id="the-demigods-and-demons-declare-a-truce">The Demigods and Demons Declare a Truce</a></h1>
-<h2><a class="header" href="#summary" id="summary">Summary</a></h2>
-<h3><a class="header" href="#86" id="86">8.6</a></h3>
+<h1>The Demigods and Demons Declare a Truce</h1>
+<h2>Summary</h2>
+<p><strong>8.6</strong></p>
 <p>This chapter describes how the Lord appeared before the demigods when they offered Him their prayers.</p>
 <p>Following the advice of the Supreme Personality of Godhead, the demigods executed a truce with the demons for the purpose of churning nectar from the sea.</p>
 <p>Because of the prayers offered by the demigods in the previous chapter, Lord Ksirodakasayi Visnu was pleased with the demigods, and thus He appeared before them.</p>
@@ -185,7 +72,7 @@
 <p>The Lord then lifted the mountain with one of His hands and placed it on the back of Garuda.</p>
 <p>The Lord sat on the mountain and was carried to the spot of the churning by Garuda, who placed the mountain in the middle of the sea.</p>
 <p>Then the Lord asked Garuda to leave that place because as long as Garuda was present, Vasuki could not come there.</p>
-<h3><a class="header" href="#861" id="861">8.6.1</a></h3>
+<p><strong>8.6.1</strong></p>
 <p>sri-suka uvaca</p>
 <p>evam stutah sura-ganair</p>
 <p>bhagavan harir isvarah</p>
@@ -197,63 +84,683 @@
 <p>Sri Sukadeva Gosvami said: O King Pariksit, the Supreme Personality of Godhead, Hari, being thus worshiped with prayers by the demigods and Lord Brahma, appeared before them.</p>
 <p>His bodily effulgence resembled the simultaneous rising of thousands of suns.</p>
 
-                    </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-                            <a rel="prev" href="../index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        
 
-                        
-                            <a rel="next" href="8.6.2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
+<p><strong>8.6.2</strong></p>
+<p>tenaiva sahasa sarve</p>
+<p>devah pratihateksanah</p>
+<p>napasyan kham disah ksaunim</p>
+<p>atmanam ca kuto vibhum</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tena eva—because of this; sahasa—all of a sudden; sarve—all; devah—the demigods; pratihata-iksanah—their vision being blocked; na—not; apasyan—could see; kham—the sky; disah—the directions; ksaunim—land; atmanam ca—also themselves; kutah—and where is the question of seeing; vibhum—the Supreme Lord.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The vision of all the demigods was blocked by the Lord’s effulgence.</p>
+<p>Thus they could see neither the sky, the directions, the land, nor even themselves, what to speak of seeing the Lord, who was present before them.</p>
 
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-                    <a href="../index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                
 
-                
-                    <a href="8.6.2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
+<p><strong>8.6.3-7</strong></p>
+<p>virinco bhagavan drstva</p>
+<p>saha sarvena tam tanum</p>
+<p>svaccham marakata-syamam</p>
+<p>kanja-garbharuneksanam</p>
+<p>tapta-hemavadatena</p>
+<p>lasat-kauseya-vasasa</p>
+<p>prasanna-caru-sarvangim</p>
+<p>sumukhim sundara-bhruvam</p>
+<p>maha-mani-kiritena</p>
+<p>keyurabhyam ca bhusitam</p>
+<p>karnabharana-nirbhata-</p>
+<p>kapola-sri-mukhambujam</p>
+<p>kancikalapa-valaya-</p>
+<p>hara-nupura-sobhitam</p>
+<p>kaustubhabharanam laksmim</p>
+<p>bibhratim vana-malinim</p>
+<p>sudarsanadibhih svastrair</p>
+<p>murtimadbhir upasitam</p>
+<p>tustava deva-pravarah</p>
+<p>sasarvah purusam param</p>
+<p>sarvamara-ganaih sakam</p>
+<p>sarvangair avanim gataih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>virincah—Lord Brahma; bhagavan—who is also addressed as bhagavan because of his powerful position; drstva—by seeing; saha—with; sarvena—Lord Siva; tam—unto the Supreme Lord; tanum—His transcendental form; svaccham—without material contamination; marakata-syamam—with a bodily luster like the light of a blue gem; kanja-garbha-aruna-iksanam—with pinkish eyes like the womb of a lotus flower; tapta-hema-avadatena—with a luster like that of molten gold; lasat—shining; kauseya-vasasa—dressed in yellow silk garments; prasanna-caru-sarva-angim—all the parts of whose body were graceful and very beautiful; su-mukhim—with a smiling face; sundara-bhruvam—whose eyebrows were very beautifully situated; maha-mani-kiritena—with a helmet bedecked with valuable jewels; keyurabhyam ca bhusitam—decorated with all kinds of ornaments; karna-abharana-nirbhata—illuminated by the rays of the jewels on His ears; kapola—with cheeks; sri-mukha-ambujam—whose beautiful lotuslike face; kanci-kalapa-valaya—ornaments like the belt on the waist and bangles on the hands; hara-nupura—with a necklace on the chest and ankle bells on the legs; sobhitam—all beautifully set; kaustubha-abharanam—whose chest was decorated with the Kaustubha gem; laksmim—the goddess of fortune; bibhratim—moving; vana-malinim—with flower garlands; sudarsana-adibhih—bearing the Sudarsana cakra and others; sva-astraih—with His weapons; murtimadbhih—in His original form; upasitam—being worshiped; tustava—satisfied; deva-pravarah—the chief of the demigods; sa-sarvah—with Lord Siva; purusam param—the Supreme Personality; sarva-amara-ganaih—accompanied by all the demigods; sakam—with; sarva-angaih—with all the parts of the body; avanim—on the ground; gataih—prostrated.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Lord Brahma, along with Lord Siva, saw the crystal-clear personal beauty of the Supreme Personality of Godhead, whose blackish body resembles a marakata gem, whose eyes are reddish like the depths of a lotus, who is dressed with garments that are yellow like molten gold, and whose entire body is attractively decorated.</p>
+<p>They saw His beautiful, smiling, lotuslike face, crowned by a helmet bedecked with valuable jewels.</p>
+<p>The Lord has attractive eyebrows, and His cheeks are adorned with earrings.</p>
+<p>Lord Brahma and Lord Siva saw the belt on the Lord’s waist, the bangles on Mis arms, the necklace on His chest, and the ankle bells on His legs.</p>
+<p>The Lord is bedecked with flower garlands, His neck is decorated with the Kaustubha gem, and He carries with Him the goddess of fortune and His personal weapons, like His disc and club.</p>
+<p>When Lord Brahma, along with Lord Siva and the other demigods, thus saw the form of the Lord, they all immediately fell to the ground, offering their obeisances.</p>
 
-        </div>
 
-        
 
-        
+<p><strong>8.6.8</strong></p>
+<p>sri-brahmovaca</p>
+<p>ajata-janma-sthiti-samyamaya-</p>
+<p>gunaya nirvana-sukharnavaya</p>
+<p>anor animne ’pariganya-dhamne</p>
+<p>mahanubhavaya namo namas te</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-brahma uvaca—Lord Brahma said; ajata-janma-sthiti-samyamaya—unto the Supreme Personality of Godhead, who is never born but whose appearance in different incarnations never ceases; agunaya—never affected by the material modes of nature (sattva-guna, rajo-guna and tamo-guna); nirvana-sukha-arnavaya—unto the ocean of eternal bliss, beyond material existence; anoh animne—smaller than the atom; apariganya-dhamne—whose bodily features are never to be conceived by material speculation; maha-anubhavaya—whose existence is inconceivable; namah—offering our obeisances; namah—again offering our obeisances; te—unto You.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Lord Brahma said: Although You are never born, Your appearance and disappearance as an incarnation never cease.</p>
+<p>You are always free from the material qualities, and You are the shelter of transcendental bliss resembling an ocean.</p>
+<p>Eternally existing in Your transcendental form, You are the supreme subtle of the most extremely subtle.</p>
+<p>We therefore offer our respectful obeisances unto You, the Supreme, whose existence is inconceivable.</p>
+<p><strong>PURPORT</strong></p>
+<p>The Lord says in Bhagavad-gita (4.6):</p>
+<p>ajo ’pi sann avyayatma</p>
+<p>bhutanam isvaro ’pi san</p>
+<p>prakrtim svam adhisthaya</p>
+<p>sambhavamy atma-mayaya</p>
+<p>Although I am unborn and My transcendental body never deteriorates, and although I am the Lord of all sentient beings, I still appear in every millennium in My original transcendental form In the following verse in Bhagavad-gita (4.7), the Lord says:</p>
+<p>yada yada hi dharmasya</p>
+<p>glanir bhavati bharata</p>
+<p>abhyutthanam adharmasya</p>
+<p>tadatmanam srjamy aham</p>
+<p>Whenever and wherever there is a decline in religious practice, O descendant of Bharata, and a predominant rise of irreligion—at that time descend Myself Thus although the Supreme Lord is unborn, there is no cessation to His appearance in different forms as incarnations like Lord Krsna and Lord Rama.</p>
+<p>Since His incarnations are eternal, the various activities performed by these incarnations are also eternal.</p>
+<p>The Supreme Personality of Godhead does not appear because He is forced to do so by karma like ordinary living entities who are forced to accept a certain type of body.</p>
+<p>It is to be understood that the Lord’s body and activities are all transcendental, being free from the contamination of the material modes of nature.</p>
+<p>These pastimes are transcendental bliss to the Lord.</p>
+<p>The word apariganya-dhamne is very significant.</p>
+<p>There is no limit to the Lord’s appearance in different incarnations.</p>
+<p>All of these incarnations are eternal, blissful and full of knowledge.</p>
 
-        
 
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+<p><strong>8.6.9</strong></p>
+<p>rupam tavaitat purusarsabhejyam</p>
+<p>sreyo ’rthibhir vaidika-tantrikena</p>
+<p>yogena dhatah saha nas tri-lokan</p>
+<p>pasyamy amusminn u ha visva-murtau</p>
+<p><strong>SYNONYMS</strong></p>
+<p>rupam—form; tava—Your; etat—this; purusa-rsabha—O best of all personalities; ijyam—worshipable; sreyah—ultimate auspiciousness; arthibhih—by persons who desire; vaidika—under the direction of Vedic instructions; tantrikena—realized by followers of Tantras, like Narada-pancaratra; yogena—by practice of mystic yoga; dhatah—O supreme director; saha—with; nah—us (the demigods); tri-lokan—controlling the three worlds; pasyami—we see directly; amusmin—in You; u—oh; ha—completely manifested; visva-murtau—in You, who have the universal form.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O best of persons, O supreme director, those who actually aspire for supreme good fortune worship this form of Your Lordship according to the Vedic Tantras.</p>
+<p>My Lord, we can see all the three worlds in You.</p>
+<p><strong>PURPORT</strong></p>
+<p>The Vedic mantras say: yasmin vijnate sarvam evam vijnatam bhavati.</p>
+<p>When the devotee sees the Supreme Personality of Godhead by his meditation, or when he sees the Lord personally, face to face, he becomes aware of everything within this universe.</p>
+<p>Indeed, nothing is unknown to him.</p>
+<p>Everything within this material world is fully manifested to a devotee who has seen the Supreme Personality of Godhead.</p>
+<p>Bhagavad-gita (4.34) therefore advises:</p>
+<p>tad viddhi pranipatena</p>
+<p>pariprasnena sevaya</p>
+<p>upadeksyanti te jnanam</p>
+<p>jnaninas tattva-darsinah</p>
+<p>Just try to learn the truth by approaching a spiritual master.</p>
+<p>Inquire from him submissively and render service unto him.</p>
+<p>The self-realized soul can impart knowledge unto you because he has seen the truth Lord Brahma is one of these self-realized authorities (svayambhur naradah sambhuh kumarah kapilo manuh (SB 6.3.20)).</p>
+<p>One must therefore accept the disciplic succession from Lord Brahma, and then one can understand the Supreme Personality of Godhead in fullness.</p>
+<p>Here the word visva-murtau indicates that everything exists in the form of the Supreme Personality of Godhead.</p>
+<p>One who is able to worship Him can see everything in Him and see Him in everything.</p>
 
-        <!-- Custom JS scripts -->
-        
 
-        
 
-    </body>
-</html>
+<p><strong>8.6.10</strong></p>
+<p>tvayy agra asit tvayi madhya asit</p>
+<p>tvayy anta asid idam atma-tantre</p>
+<p>tvam adir anto jagato ’sya madhyam</p>
+<p>ghatasya mrtsneva parah parasmat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tvayi—unto You, the Supreme Personality of Godhead; agre—in the beginning; asit—there was; tvayi—unto You; madhye—in the middle; asit—there was; tvayi—unto You; ante—in the end; asit—there was; idam—all of this cosmic manifestation; atma-tantre—fully under Your control; tvam—Your Lordship; adih—beginning; antah—end; jagatah—of the cosmic manifestation; asya—of this; madhyam—middle; ghatasya—of an earthen pot; mrtsna iva—like the earth; parah—transcendental; parasmat—because of being the chief.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear Lord, who are always fully independent, this entire cosmic manifestation arises from You, rests upon You and ends in You.</p>
+<p>Your Lordship is the beginning, sustenance and end of everything, like the earth, which is the cause of an earthen pot, which supports the pot, and to which the pot, when broken, finally returns.</p>
+
+
+
+<p><strong>8.6.11</strong></p>
+<p>tvam mayayatmasrayaya svayedam</p>
+<p>nirmaya visvam tad-anupravistah</p>
+<p>pasyanti yukta manasa manisino</p>
+<p>guna-vyavaye ’py agunam vipascitah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tvam—Your Lordship; mayaya—by Your eternal energy; atma-asrayaya—whose existence is under Your shelter; svaya—emanated from Yourself; idam—this; nirmaya—for the sake of creating; visvam—the entire universe; tat—into it; anupravistah—You enter; pasyanti—they see; yuktah—persons in touch with You; manasa—by an elevated mind; manisinah—people with advanced consciousness; guna—of material qualities; vyavaye—in the transformation; api—although; agunam—still untouched by the material qualities; vipascitah—those who are fully aware of the truth of sastra.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O Supreme, You are independent in Your self and do not take help from others.</p>
+<p>Through Your own potency, You create this cosmic manifestation and enter into it.</p>
+<p>Those who are advanced in Krsna consciousness, who are fully in knowledge of the authoritative sastra, and who, through the practice of bhakti-yoga, are cleansed of all material contamination, can see with clear minds that although You exist within the transformations of the material qualities, Your presence is untouched by these qualities.</p>
+<p><strong>PURPORT</strong></p>
+<p>The Lord says in Bhagavad-gita (9.10):</p>
+<p>mayadhyaksena prakrtih</p>
+<p>suyate sacaracaram</p>
+<p>hetunanena kaunteya</p>
+<p>jagad viparivartate</p>
+<p>This material nature, working under My direction, O son of Kunti, is producing all moving and unmoving beings.</p>
+<p>By its rule this manifestation is created and annihilated again and again The material energy creates, maintains and devastates the entire cosmic manifestation because of directions given by the Supreme Personality of Godhead, who enters this universe as Garbhodakasayi Visnu but is untouched by the material qualities.</p>
+<p>In Bhagavad-gita the Lord refers to maya, the external energy, which creates this material world, as mama maya, My energy because this energy works under the full control of the Lord.</p>
+<p>These facts can be realized only by those who are well versed in Vedic knowledge and advanced in Krsna consciousness.</p>
+
+
+
+<p><strong>8.6.12</strong></p>
+<p>yathagnim edhasy amrtam ca gosu</p>
+<p>bhuvy annam ambudyamane ca vrttim</p>
+<p>yogair manusya adhiyanti hi tvam</p>
+<p>gunesu buddhya kavayo vadanti</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yatha—as; agnim—fire; edhasi—in wood; amrtam—milk, which is like nectar; ca—and; gosu—from cows; bhuvi—on the ground; annam—food grains; ambu—water; udyamane—in enterprise; ca—also; vrttim—livelihood; yogaih—by practice of bhakti-yoga; manusyah—human beings; adhiyanti—achieve; hi—indeed; tvam—You; gunesu—in the material modes of nature; buddhya—by intelligence; kavayah—great personalities; vadanti—say.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>As one can derive fire from wood, milk from the milk bag of the cow, food grains and water from the land, and prosperity in one’s livelihood from industrial enterprises, so, by the practice of bhakti-yoga, even within this material world, one can achieve Your favor or intelligently approach You.</p>
+<p>Those who are pious all affirm this.</p>
+<p><strong>PURPORT</strong></p>
+<p>Although the Supreme Personality of Godhead is nirguna, not to be found within this material world, the entire material world is pervaded by Him, as stated in Bhagavad-gita (maya tatam idam sarvam).</p>
+<p>The material world is nothing but an expansion of the Lord’s material energy, and the entire cosmic manifestation rests upon Him (mat-sthani sarva-bhutani).</p>
+<p>Nonetheless, the Supreme Lord cannot be found here (na caham tesv avasthitah).</p>
+<p>A devotee, however, can see the Supreme Personality of Godhead through the practice of bhakti-yoga.</p>
+<p>One ordinarily does not begin to practice bhakti-yoga unless he has practiced it in previous births.</p>
+<p>Moreover, one can begin bhakti-yoga only by the mercy of the spiritual master and Krsna.</p>
+<p>Guru-krsna-prasade paya bhakti-lata-bija.</p>
+<p>The seed of devotional service is obtainable by the mercy of guru, the spiritual master, and Krsna, the Supreme Personality of Godhead.</p>
+<p>Only by the practice of bhakti-yoga can one achieve the favor of the Supreme Personality of Godhead and see Him face to face (premanjana-cchurita-bhakti-vilocanena santah sadaiva hrdayesu vilokayanti (Bs.5.38)).</p>
+<p>One cannot see the Lord by other methods, such as karma, jnana or yoga.</p>
+<p>Under the direction of the spiritual master, one must cultivate bhakti-yoga (sravanam kirtanam visnoh smaranam pada-sevanam (SB 7.5.23)).</p>
+<p>Then, even within this material world, although the Lord is not visible, a devotee can see Him.</p>
+<p>This is confirmed in Bhagavad-gita (bhaktya mam abhijanati yavan yas casmi tattvatah (Bg.18.55)) and in Srimad-Bhagavatam (bhaktyaham ekaya grahyah).</p>
+<p>Thus by devotional service one can achieve the favor of the Supreme Personality of Godhead, although He is not visible or understandable to materialistic persons.</p>
+<p>In this verse, the cultivation of bhakti-yoga is compared to many material activities.</p>
+<p>By friction one can get fire from wood, by digging the earth one can get food grains and water, and by agitating the milk bag of the cow one can get nectarean milk.</p>
+<p>Milk is compared to nectar, which one can drink to become immortal.</p>
+<p>Of course, simply drinking milk will not make one immortal, but it can increase the duration of one’s life.</p>
+<p>In modern civilization, men do not think milk to be important, and therefore they do not live very long.</p>
+<p>Although in this age men can live up to one hundred years, their duration of life is reduced because they do not drink large quantities of milk.</p>
+<p>This is a sign of Kali-yuga.</p>
+<p>In Kali-yuga, instead of drinking milk, people prefer to slaughter an animal and eat its flesh.</p>
+<p>The Supreme Personality of Godhead, in His instructions of Bhagavad-gita, advises go-raksya, which means cow protection.</p>
+<p>The cow should be protected, milk should be drawn from the cows, and this milk should be prepared in various ways.</p>
+<p>One should take ample milk, and thus one can prolong one’s life, develop his brain, execute devotional service, and ultimately attain the favor of the Supreme Personality of Godhead.</p>
+<p>As it is essential to get food grains and water by digging the earth, it is also essential to give protection to the cows and take nectarean milk from their milk bags.</p>
+<p>The people of this age are inclined toward industrial enterprises for comfortable living, but they refuse to endeavor to execute devotional service, by which they can achieve the ultimate goal of life by returning home, back to Godhead.</p>
+<p>Unfortunately, as it is said, na te viduh svartha-gatim hi visnum durasaya ye bahir-artha-maninah (SB 7.5.31).</p>
+<p>People without spiritual education do not know that the ultimate goal of life is to go back home, back to Godhead.</p>
+<p>Forgetting this aim of life, they are working very hard in disappointment and frustration (moghasa mogha-karmano mogha jnana vicetasah (Bg.9.12)).</p>
+<p>The so-called vaisyas—the industrialists or businessmen—are involved in big, big industrial enterprises, but they are not interested in food grains and milk.</p>
+<p>However, as indicated here, by digging for water, even in the desert, we can produce food grains; when we produce food grains and vegetables, we can give protection to the cows; while giving protection to the cows, we can draw from them abundant quantities of milk; and by getting enough milk and combining it with food grains and vegetables, we can prepare hundreds of nectarean foods.</p>
+<p>We can happily eat this food and thus avoid industrial enterprises and joblessness.</p>
+<p>Agriculture and cow protection are the way to become sinless and thus be attracted to devotional service.</p>
+<p>Those who are sinful cannot be attracted by devotional service.</p>
+<p>As stated in Bhagavad-gita (7.28):</p>
+<p>yesam tv anta-gatam papam</p>
+<p>jananam punya-karmanam</p>
+<p>te dvandva-moha-nirmukta</p>
+<p>bhajante mam drdha-vratah</p>
+<p>Persons who have acted piously in previous lives and in this life, whose sinful actions are completely eradicated and who are freed from the duality of delusion, engage themselves in My service with determination The majority of people in this age of Kali are sinful, short-living, unfortunate and disturbed (mandah sumanda-matayo manda-bhagya hy upadrutah (SB 1.1.10)).</p>
+<p>For them, Caitanya Mahaprabhu has advised:</p>
+<p>harer nama harer nama</p>
+<p>harer namaiva kevalam</p>
+<p>kalau nasty eva nasty eva</p>
+<p>nasty eva gatir anyatha</p>
+<p>(Adi 17.21)</p>
+<p>In this age of quarrel and hypocrisy the only means of deliverance is chanting the holy name of the Lord.</p>
+<p>There is no other way.</p>
+<p>There is no other way.</p>
+<p>There is no other way</p>
+
+
+
+<p><strong>8.6.13</strong></p>
+<p>tam tvam vayam natha samujjihanam</p>
+<p>saroja-nabhaticirepsitartham</p>
+<p>drstva gata nirvrtam adya sarve</p>
+<p>gaja davarta iva gangam ambhah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tam—O Lord; tvam—Your Lordship; vayam—all of us; natha—O master; samujjihanam—now appearing before us with all glories; saroja-nabha—O Lord, whose navel resembles a lotus flower, or from whose navel grows a lotus flower; ati-cira—for an extremely long time; ipsita—desiring; artham—for the ultimate goal of life; drstva—seeing; gatah—in our vision; nirvrtam—transcendental happiness; adya—today; sarve—all of us; gajah—elephants; dava-artah—being afflicted in a forest fire; iva—like; gangam ambhah—with water from the Ganges.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Elephants afflicted by a forest fire become very happy when they get water from the Ganges.</p>
+<p>Similarly, O my Lord, from whose navel grows a lotus flower, since You have now appeared before us, we have become transcendentally happy.</p>
+<p>By seeing Your Lordship, whom we have desired to see for a very long time, we have achieved our ultimate goal in life.</p>
+<p><strong>PURPORT</strong></p>
+<p>The devotees of the Lord are always very eager to see the Supreme Lord face to face, but they do not demand that the Lord come before them, for a pure devotee considers such a demand to be contrary to devotional service.</p>
+<p>Sri Caitanya Mahaprabhu teaches this lesson in His Siksastaka.</p>
+<p>Adarsanan marma-hatam karotu va.</p>
+<p>The devotee is always eager to see the Lord face to face, but if he is brokenhearted because he cannot see the Lord, even life after life, he will never command the Lord to appear.</p>
+<p>This is a sign of pure devotion.</p>
+<p>Therefore in this verse we find the word ati-cira-ipsita-artham, meaning that the devotee aspires for a long, long time to see the Lord.</p>
+<p>If the Lord, by His own pleasure, appears before the devotee, the devotee feels extremely happy, as Dhruva Maharaja felt when he personally saw the Supreme Personality of Godhead.</p>
+<p>When Dhruva Maharaja saw the Lord, he had no desire to ask the Lord for any benediction.</p>
+<p>Indeed, simply by seeing the Lord, Dhruva Maharaja felt so satisfied that he did not want to ask the Lord for any benediction (svamin krtartho ’smi varam na yace).</p>
+<p>A pure devotee, whether able or unable to see the Lord, always engages in the Lord’s devotional service, always hoping that at some time the Lord may be pleased to appear before him so that he can see the Lord face to face.</p>
+
+
+
+<p><strong>8.6.14</strong></p>
+<p>sa tvam vidhatsvakhila-loka-pala</p>
+<p>vayam yad arthas tava pada-mulam</p>
+<p>samagatas te bahir-antar-atman</p>
+<p>kim vanya-vijnapyam asesa-saksinah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sah—that; tvam—Your Lordship; vidhatsva—kindly do the needful; akhila-loka-palah—the demigods, directors of different departments of this universe; vayam—all of us; yat—that which; arthah—purpose; tava—at Your Lordship’s; pada-mulam—lotus feet; samagatah—we have arrived; te—unto You; bahih-antah-atman—O Supersoul of everyone, O constant internal and external witness; kim—what; va—either; anya-vijnapyam—we have to inform You; asesa-saksinah—the witness and knower of everything.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My Lord, we, the various demigods, the directors of this universe, have come to Your lotus feet.</p>
+<p>Please fulfill the purpose for which we have come.</p>
+<p>You are the witness of everything, from within and without.</p>
+<p>Nothing is unknown to You, and therefore it is unnecessary to inform You again of anything.</p>
+<p><strong>PURPORT</strong></p>
+<p>As stated in Bhagavad-gita (13.3), ksetra jnam capi mam viddhi sarva-ksetresu bharata.</p>
+<p>The individual souls are proprietors of their individual bodies, but the Supreme Personality of Godhead is the proprietor of all bodies.</p>
+<p>Since He is the witness of everyone’s body, nothing is unknown to Him.</p>
+<p>He knows what we need.</p>
+<p>Our duty, therefore, is to execute devotional service sincerely, under the direction of the spiritual master.</p>
+<p>Krsna, by His grace, will supply whatever we need in executing our devotional service.</p>
+<p>In the Krsna consciousness movement, we simply have to execute the order of Krsna and guru.</p>
+<p>Then all necessities will be supplied by Krsna, even if we do not ask for them.</p>
+
+
+
+<p><strong>8.6.15</strong></p>
+<p>aham giritras ca suradayo ye</p>
+<p>daksadayo ’gner iva ketavas te</p>
+<p>kim va vidamesa prthag-vibhata</p>
+<p>vidhatsva sam no dvija-deva-mantram</p>
+<p><strong>SYNONYMS</strong></p>
+<p>aham—I (Lord Brahma); giritrah—Lord Siva; ca—also; sura-adayah—all the demigods; ye—as we are; daksa-adayah—headed by Maharaja Daksa; agneh—of fire; iva—like; ketavah—sparks; te—of You; kim—what; va—either; vidama—can we understand; isa—O my Lord; prthak-vibhatah—independently of You; vidhatsva—kindly bestow upon us; sam—good fortune; nah—our; dvija-deva-mantram—the means of deliverance suitable for the brahmanas and demigods.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>I (Lord Brahma), Lord Siva and all the demigods, accompanied by the prajapatis like Daksa, are nothing but sparks illuminated by You, who are the original fire.</p>
+<p>Since we are particles of You, what can we understand about our welfare? O Supreme Lord, please give us the means of deliverance that is suitable for the brahmanas and demigods.</p>
+<p><strong>PURPORT</strong></p>
+<p>In this verse, the word dvija-deva-mantram is very important.</p>
+<p>The word mantra means that which delivers one from the material world Only the dvijas (the brahmanas) and the devas (the demigods) can be delivered from material existence by the instructions of the Supreme Personality of Godhead.</p>
+<p>Whatever is spoken by the Supreme Personality of Godhead is a mantra and is suitable for delivering the conditioned souls from mental speculation.</p>
+<p>The conditioned souls are engaged in a struggle for existence (manah sasthanindriyani prakrti-sthani karsati (Bg.15.7)).</p>
+<p>Deliverance from this struggle constitutes the highest benefit, but unless one gets a mantra from the Supreme Personality of Godhead, deliverance is impossible.</p>
+<p>The beginning mantra is the Gayatri mantra.</p>
+<p>Therefore, after purification, when one is qualified to become a brahmana (dvija), he is offered the Gayatri mantra.</p>
+<p>Simply by chanting the Gayatri mantra, one can be delivered.</p>
+<p>This mantra, however, is suitable only for the brahmanas and demigods.</p>
+<p>In Kali-yuga, we are all in a very difficult position, in which we need a suitable mantra that can deliver us from the dangers of this age.</p>
+<p>Therefore the Supreme Personality of Godhead, in His incarnation as Lord Caitanya, gives us the Hare Krsna mantra harer nama harer nama</p>
+<p>harer namaiva kevalam</p>
+<p>kalau nasty eva nasty eva</p>
+<p>nasty eva gatir anyatha</p>
+<p>(Adi 17.21)</p>
+<p>In this age of quarrel and hypocrisy the only means of deliverance is chanting the holy name of the Lord.</p>
+<p>There is no other way.</p>
+<p>There is no other way.</p>
+<p>There is no other way In His Siksastaka, Lord Caitanya says, param vijayate sri-krsna-sankirtanam: All glories to the chanting of sri-krsna-sankirtana The maha-mantra—Hare Krsna, Hare Krsna, Krsna Krsna, Hare Hare/ Hare Rama, Hare Rama, Rama Rama, Hare Hare—is directly chanted by the Lord Himself, who gives us this mantra for deliverance.</p>
+<p>We cannot invent any means to be delivered from the dangers of material existence.</p>
+<p>Here, even the demigods, such as Lord Brahma and Lord Siva, and the prajapatis, such as Daksa, are said to be like illuminating sparks in the presence of the Supreme Lord, who is compared to a great fire.</p>
+<p>Sparks are beautiful as long as they are in the fire.</p>
+<p>Similarly, we have to remain in the association of the Supreme Personality of Godhead and always engage in devotional service, for then we shall always be brilliant and illuminating.</p>
+<p>As soon as we fall from the service of the Lord, our brilliance and illumination will immediately be extinguished, or at least stopped for some time.</p>
+<p>When we living entities, who are like sparks of the original fire, the Supreme Lord, fall into a material condition, we must take the mantra from the Supreme Personality of Godhead as it is offered by Sri Caitanya Mahaprabhu.</p>
+<p>By chanting this Hare Krsna mantra, we shall be delivered from all the difficulties of this material world.</p>
+
+
+
+<p><strong>8.6.16</strong></p>
+<p>sri-suka uvaca</p>
+<p>evam virincadibhir iditas tad</p>
+<p>vijnaya tesam hrdayam yathaiva</p>
+<p>jagada jimuta-gabhiraya gira</p>
+<p>baddhanjalin samvrta-sarva-karakan</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-sukah uvaca—Sri Sukadeva Gosvami said; evam—thus; virinca-adibhih—by all the demigods, headed by Lord Brahma; iditah—being worshiped; tat vijnaya—understanding the expectation; tesam—of all of them; hrdayam—the core of the heart; yatha—as; eva—indeed; jagada—replied; jimuta-gabhiraya—like the sound of clouds; gira—by words; baddha-anjalin—unto the demigods, who stood with folded hands; samvrta—restrained; sarva—all; karakan—senses.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sukadeva Gosvami continued: When the Lord was thus offered prayers by the demigods, headed by Lord Brahma, He understood the purpose for which they had approached Him.</p>
+<p>Therefore, in a deep voice that resembled the rumbling of clouds, the Lord replied to the demigods, who all stood there attentively with folded hands.</p>
+
+
+
+<p><strong>8.6.17</strong></p>
+<p>eka evesvaras tasmin</p>
+<p>sura-karye suresvarah</p>
+<p>vihartu-kamas tan aha</p>
+<p>samudronmathanadibhih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ekah—alone; eva—indeed; isvarah—the Supreme Personality of Godhead; tasmin—in that; sura-karye—the activities of the demigods; sura-isvarah—the Lord of the demigods, the Supreme Personality of Godhead; vihartu—to enjoy pastimes; kamah—desiring; tan—unto the demigods; aha—said; samudra-unmathana-adibhih—by activities of churning the ocean.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Although the Supreme Personality of Godhead, the master of the demigods, was capable of performing the activities of the demigods by Himself, He wanted to enjoy pastimes in churning the ocean.</p>
+<p>Therefore He spoke as follows.</p>
+
+
+
+<p><strong>8.6.18</strong></p>
+<p>sri-bhagavan uvaca</p>
+<p>hanta brahmann aho sambho</p>
+<p>he deva mama bhasitam</p>
+<p>srnutavahitah sarve</p>
+<p>sreyo vah syad yatha surah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-bhagavan uvaca—the Supreme Personality of Godhead said; hanta—addressing them; brahman aho—O Lord Brahma; sambho—O Lord Siva; he—O; devah—demigods; mama—My; bhasitam—statement; srnuta—hear; avahitah—with great attention; sarve—all of you; sreyah—good fortune; vah—for all of you; syat—shall be; yatha—as; surah—for the demigods.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Supreme Personality of Godhead said: O Lord Brahma, Lord Siva and other demigods, please hear Me with great attention, for what I say will bring good fortune for all of you.</p>
+
+
+
+<p><strong>8.6.19</strong></p>
+<p>yata danava-daiteyais</p>
+<p>tavat sandhir vidhiyatam</p>
+<p>kalenanugrhitais tair</p>
+<p>yavad vo bhava atmanah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yata—just execute; danava—with the demons; daiteyaih—and the asuras; tavat—so long; sandhih—a truce; vidhiyatam—execute; kalena—by a favorable time (or kavyena—by Sukracarya); anugrhitaih—receiving benedictions; taih—with them; yavat—as long as; vah—of you; bhavah—good fortune; atmanah—of yourselves.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>As long as you are not flourishing, you should make a truce with the demons and asuras, who are now being favored by time.</p>
+<p><strong>PURPORT</strong></p>
+<p>One word in this verse has two readings—kalena and kavyena.</p>
+<p>Kalena means favored by time and kavyena means favored by Sukracarya Sukracarya being the spiritual master of the Daityas.</p>
+<p>The demons and Daityas were favored in both ways, and therefore the demigods were advised by the Supreme Lord to execute a truce for the time being, until time favored them.</p>
+
+
+
+<p><strong>8.6.20</strong></p>
+<p>arayo ’pi hi sandheyah</p>
+<p>sati karyartha-gaurave</p>
+<p>ahi-musikavad deva</p>
+<p>hy arthasya padavim gataih</p>
+<p><strong>SYNONYMS</strong></p>
+<p>arayah—enemies; api—although; hi—indeed; sandheyah—eligible for a truce; sati—being so; karya-artha-gaurave—in the matter of an important duty; ahi—snake; musika—mouse; vat—like; devah—O demigods; hi—indeed; arthasya—of interest; padavim—position; gataih—so being.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O demigods, fulfilling one’s own interests is so important that one may even have to make a truce with one’s enemies.</p>
+<p>For the sake of one’s self-interest, one has to act according to the logic of the snake and the mouse.</p>
+<p><strong>PURPORT</strong></p>
+<p>A snake and a mouse were once caught in a basket.</p>
+<p>Now, since the mouse is food for the snake, this was a good opportunity for the snake.</p>
+<p>However, since both of them were caught in the basket, even if the snake ate the mouse, the snake would not be able to get out.</p>
+<p>Therefore, the snake thought it wise to make a truce with the mouse and ask the mouse to make a hole in the basket so that both of them could get out.</p>
+<p>The snake’s intention was that after the mouse made the hole, the snake would eat the mouse and escape from the basket through the hole.</p>
+<p>This is called the logic of the snake and the mouse.</p>
+
+
+
+<p><strong>8.6.21</strong></p>
+<p>amrtotpadane yatnah</p>
+<p>kriyatam avilambitam</p>
+<p>yasya pitasya vai jantur</p>
+<p>mrtyu-grasto ’maro bhavet</p>
+<p><strong>SYNONYMS</strong></p>
+<p>amrta-utpadane—in generating nectar; yatnah—endeavor; kriyatam—do; avilambitam—without delay; yasya—of which nectar; pitasya—anyone who drinks; vai—indeed; jantuh—living entity; mrtyu-grastah—although in imminent danger of death; amarah—immortal; bhavet—can become.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Immediately endeavor to produce nectar, which a person who is about to die may drink to become immortal.</p>
+
+
+
+<p><strong>8.6.22-23</strong></p>
+<p>ksiptva ksirodadhau sarva</p>
+<p>virut-trna-latausadhih</p>
+<p>manthanam mandaram krtva</p>
+<p>netram krtva tu vasukim</p>
+<p>sahayena maya deva</p>
+<p>nirmanthadhvam atandritah</p>
+<p>klesa-bhajo bhavisyanti</p>
+<p>daitya yuyam phala-grahah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>ksiptva—putting; ksira-udadhau—in the ocean of milk; sarvah—all kinds of; virut—creepers; trna—grass; lata—vegetables; ausadhih—and drugs; manthanam—the churning rod; mandaram—Mandara Mountain; krtva—making; netram—the churning rope; krtva—making; tu—but; vasukim—the snake Vasuki; sahayena—with a helper; maya—by Me; devah—all the demigods; nirmanthadhvam—go on churning; atandritah—very carefully, without diversion; klesa-bhajah—sharetakers of sufferings; bhavisyanti—will be; daityah—the demons; yuyam—but all of you; phala-grahah—gainers of the actual result.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O demigods, cast into the ocean of milk all kinds of vegetables, grass, creepers and drugs.</p>
+<p>Then, with My help, making Mandara Mountain the churning rod and Vasuki the rope for churning, churn the ocean of milk with undiverted attention.</p>
+<p>Thus the demons will be engaged in labor, but you, the demigods, will gain the actual result, the nectar produced from the ocean.</p>
+<p><strong>PURPORT</strong></p>
+<p>It appears that when different kinds of drugs, creepers, grass and vegetables are put into this milk and the milk is churned, as milk is churned for butter, the active principles of the vegetables and drugs mix with the milk, and the result is nectar.</p>
+
+
+
+<p><strong>8.6.24</strong></p>
+<p>yuyam tad anumodadhvam</p>
+<p>yad icchanty asurah surah</p>
+<p>na samrambhena sidhyanti</p>
+<p>sarvarthah santvaya yatha</p>
+<p><strong>SYNONYMS</strong></p>
+<p>yuyam—all of you; tat—that; anumodadhvam—should accept; yat—whatever; icchanti—they desire; asurah—the demons; surah—O demigods; na—not; samrambhena—by being agitated in anger; sidhyanti—are very successful; sarva-arthah—all desired ends; santvaya—by peaceful execution; yatha—as.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>My dear demigods, with patience and peace everything can be done, but if one is agitated by anger, the goal is not achieved.</p>
+<p>Therefore, whatever the demons ask, agree to their proposal.</p>
+
+
+
+<p><strong>8.6.25</strong></p>
+<p>na bhetavyam kalakutad</p>
+<p>visaj jaladhi-sambhavat</p>
+<p>lobhah karyo na vo jatu</p>
+<p>rosah kamas tu vastusu</p>
+<p><strong>SYNONYMS</strong></p>
+<p>na—not; bhetavyam—should be afraid; kalakutat—of kalakuta; visat—from the poison; jaladhi—from the ocean of milk; sambhavat—which will appear; lobhah—greed; karyah—execution; na—not; vah—unto you; jatu—at any time; rosah—anger; kamah—lust; tu—and; vastusu—in the products.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>A poison known as kalakuta will be generated from the ocean of milk, but you should not fear it.</p>
+<p>And when various products are churned from the ocean, you should not be greedy for them or anxious to obtain them, nor should you be angry.</p>
+<p><strong>PURPORT</strong></p>
+<p>It appears that by the churning process many things would be generated from the ocean of milk, including poison, valuable gems, nectar and many beautiful women.</p>
+<p>The demigods were advised, however, not to be greedy for the gems or beautiful women, but to wait patiently for the nectar.</p>
+<p>The real purpose was to get the nectar.</p>
+
+
+
+<p><strong>8.6.26</strong></p>
+<p>sri-suka uvaca</p>
+<p>iti devan samadisya</p>
+<p>bhagavan purusottamah</p>
+<p>tesam antardadhe rajan</p>
+<p>svacchanda-gatir isvarah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>sri-sukah uvaca—Sri Sukadeva Gosvami said; iti—thus; devan—all the demigods; samadisya—advising; bhagavan—the Supreme Personality of Godhead; purusa-uttamah—the best of all persons; tesam—from them; antardadhe—disappeared; rajan—O King; svacchanda—free; gatih—whose movements; isvarah—the Personality of Godhead.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Sukadeva Gosvami continued: O King Pariksit, after advising the demigods in this way, the independent Supreme Personality of Godhead, the best of all living entities, disappeared from their presence.</p>
+
+
+
+<p><strong>8.6.27</strong></p>
+<p>atha tasmai bhagavate</p>
+<p>namaskrtya pitamahah</p>
+<p>bhavas ca jagmatuh svam svam</p>
+<p>dhamopeyur balim surah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>atha—after this; tasmai—unto Him; bhagavate—unto the Supreme Personality of Godhead; namaskrtya—offering obeisances; pita-mahah—Lord Brahma; bhavah ca—as well as Lord Siva; jagmatuh—returned; svam svam—to their own; dhama—abodes; upeyuh—approached; balim—King Bali; surah—all the other demigods.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Then Lord Brahma and Lord Siva, after offering their respectful obeisances to the Lord, returned to their abodes.</p>
+<p>All the demigods then approached Maharaja Bali.</p>
+
+
+
+<p><strong>8.6.28</strong></p>
+<p>drstvarin apy asamyattan</p>
+<p>jata-ksobhan sva-nayakan</p>
+<p>nyasedhad daitya-rat slokyah</p>
+<p>sandhi-vigraha-kalavit</p>
+<p><strong>SYNONYMS</strong></p>
+<p>drstva—observing; arin—the enemies; api—although; asamyattan—without any endeavor to fight; jata-ksobhan—who became agitated; sva-nayakan—his own captains and commanders; nyasedhat—prevented; daitya-rat—the Emperor of the Daityas, Maharaja Bali; slokyah—very respectable and prominent; sandhi—for making negotiations; vigraha—as well as for fighting; kala—the time; vit—completely aware of.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Maharaja Bali, a most celebrated king of the demons, knew very well when to make peace and when to fight.</p>
+<p>Thus although his commanders and captains were agitated and were about to kill the demigods, Maharaja Bali, seeing that the demigods were coming to him without a militant attitude, forbade his commanders to kill them.</p>
+<p><strong>PURPORT</strong></p>
+<p>Vedic etiquette enjoins: grhe satrum api praptam visvastam akutobhayam.</p>
+<p>When enemies come to their opponent’s place, they should be received in such a way that they will forget that there is animosity between the two parties.</p>
+<p>Bali Maharaja was well conversant with the arts of peacemaking and fighting.</p>
+<p>Thus he received the demigods very well, although his commanders and captains were agitated.</p>
+<p>This kind of treatment was prevalent even during the fight between the Pandavas and the Kurus.</p>
+<p>During the day, the Pandavas and Kurus would fight with the utmost strength, and when the day was over they would go to each other’s camps as friends and be received as such.</p>
+<p>During such friendly meetings, one enemy would offer anything the other enemy wanted.</p>
+<p>That was the system.</p>
+
+
+
+<p><strong>8.6.29</strong></p>
+<p>te vairocanim asinam</p>
+<p>guptam casura-yutha-paih</p>
+<p>sriya paramaya justam</p>
+<p>jitasesam upagaman</p>
+<p><strong>SYNONYMS</strong></p>
+<p>te—all the demigods; vairocanim—unto Baliraja, the son of Virocana; asinam—sitting down; guptam—well protected; ca—and; asura-yutha-paih—by the commanders of the asuras; sriya—by opulence; paramaya—supreme; justam—blessed; jita-asesam—who became the proprietor of all the worlds; upagaman—approached.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The demigods approached Bali Maharaja, the son of Virocana, and sat down near him.</p>
+<p>Bali Maharaja was protected by the commanders of the demons and was most opulent, having conquered all the universes.</p>
+
+
+
+<p><strong>8.6.30</strong></p>
+<p>mahendrah slaksnaya vaca</p>
+<p>santvayitva maha-matih</p>
+<p>abhyabhasata tat sarvam</p>
+<p>siksitam purusottamat</p>
+<p><strong>SYNONYMS</strong></p>
+<p>maha-indrah—the King of heaven, Indra; slaksnaya—very mild; vaca—by words; santvayitva—pleasing Bali Maharaja very much; maha-matih—the most intelligent person; abhyabhasata—addressed; tat—that; sarvam—everything; siksitam—that was learned; purusa-uttamat—from Lord Visnu.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>After pleasing Bali Maharaja with mild words, Lord Indra, the King of the demigods, who was most intelligent, very politely submitted all the proposals he had learned from the Supreme Personality of Godhead, Lord Visnu.</p>
+
+
+
+<p><strong>8.6.31</strong></p>
+<p>tat tv arocata daityasya</p>
+<p>tatranye ye ’suradhipah</p>
+<p>sambaro ’ristanemis ca</p>
+<p>ye ca tripura-vasinah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tat—all those words; tu—but; arocata—were very pleasing; daityasya—to Bali Maharaja; tatra—as well as; anye—others; ye—who were; asura-adhipah—the chiefs of the asuras; sambarah—Sambara; aristanemih—Aristanemi; ca—also; ye—others who; ca—and; tripura-vasinah—all the residents of Tripura.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The proposals submitted by King Indra were immediately accepted by Bali Maharaja and his assistants, headed by Sambara and Aristanemi, and by all the other residents of Tripura.</p>
+<p><strong>PURPORT</strong></p>
+<p>It appears from this verse that politics, diplomacy, the propensity to cheat, and everything that we find in this world in individual and social negotiations between two parties are also present in the upper planetary systems.</p>
+<p>The demigods went to Bali Maharaja with the proposal to manufacture nectar, and the Daityas, the demons, immediately accepted it, thinking that since the demigods were already weak, when the nectar was produced the demons would take it from them and use it for their own purposes.</p>
+<p>The demigods, of course, had similar intentions.</p>
+<p>The only difference is that the Supreme Personality of Godhead, Lord Visnu, was on the side of the demigods because the demigods were His devotees, whereas the demons did not care about Lord Visnu.</p>
+<p>All over the universe there are two parties—the Visnu party, or God-conscious party, and the godless party.</p>
+<p>The godless party is never happy or victorious, but the God-conscious party is always happy and victorious.</p>
+
+
+
+<p><strong>8.6.32</strong></p>
+<p>tato devasurah krtva</p>
+<p>samvidam krta-sauhrdah</p>
+<p>udyamam paramam cakrur</p>
+<p>amrtarthe parantapa</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—thereafter; deva-asurah—both the demons and the demigods; krtva—executing; samvidam—indicating; krta-sauhrdah—an armistice between them; udyamam—enterprise; paramam—supreme; cakruh—they did; amrta-arthe—for the sake of nectar; parantapa—O Maharaja Pariksit, chastiser of enemies.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>O Maharaja Pariksit, chastiser of enemies, the demigods and the demons thereafter made an armistice between them.</p>
+<p>Then, with great enterprise, they arranged to produce nectar, as proposed by Lord Indra.</p>
+<p><strong>PURPORT</strong></p>
+<p>The word samvidam is significant in this verse.</p>
+<p>The demigods and demons both agreed to stop fighting, at least for the time being, and endeavored to produce nectar.</p>
+<p>Srila Visvanatha Cakravarti Thakura notes in this connection:</p>
+<p>samvid yuddhe pratijnayam</p>
+<p>acare namni tosane</p>
+<p>sambhasane kriyakare</p>
+<p>sanketa-jnanayor api</p>
+<p>The word samvit is variously used to mean in fighting in promising for satisfying in addressing by practical action indication and knowledge</p>
+
+
+
+<p><strong>8.6.33</strong></p>
+<p>tatas te mandara-girim</p>
+<p>ojasotpatya durmadah</p>
+<p>nadanta udadhim ninyuh</p>
+<p>saktah parigha-bahavah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tatah—thereafter; te—all the demigods and demons; mandara-girim—Mandara Mountain; ojasa—with great strength; utpatya—extracting; durmadah—very powerful and competent; nadanta—cried very loudly; udadhim—toward the ocean; ninyuh—brought; saktah—very strong; parigha-bahavah—having long, strong arms.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, with great strength, the demons and demigods, who were all very powerful and who had long, stout arms, uprooted Mandara Mountain.</p>
+<p>Crying very loudly, they brought it toward the ocean of milk.</p>
+
+
+
+<p><strong>8.6.34</strong></p>
+<p>dura-bharodvaha-srantah</p>
+<p>sakra-vairocanadayah</p>
+<p>aparayantas tam vodhum</p>
+<p>vivasa vijahuh pathi</p>
+<p><strong>SYNONYMS</strong></p>
+<p>dura—for a great distance; bhara-udvaha—by carrying the great load; srantah—being fatigued; sakra—King Indra; vairocana-adayah—and Maharaja Bali (the son of Virocana) and others; aparayantah—being unable; tam—the mountain; vodhum—to bear; vivasah—being unable; vijahuh—gave up; pathi—on the way.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Because of conveying the great mountain for a long distance, King Indra, Maharaja Bali and the other demigods and demons became fatigued.</p>
+<p>Being unable to carry the mountain, they left it on the way.</p>
+
+
+
+<p><strong>8.6.35</strong></p>
+<p>nipatan sa giris tatra</p>
+<p>bahun amara-danavan</p>
+<p>curnayam asa mahata</p>
+<p>bharena kanakacalah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>nipatan—falling down; sah—that; girih—mountain; tatra—there; bahun—many; amara-danavan—demigods and demons; curnayam asa—were smashed; mahata—by great; bharena—weight; kanaka-acalah—the golden mountain known as Mandara.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The mountain known as Mandara, which was extremely heavy, being made of gold, fell and smashed many demigods and demons.</p>
+<p><strong>PURPORT</strong></p>
+<p>By constitution, gold is heavier than stone.</p>
+<p>Since Mandara Mountain was made of gold and was therefore heavier than stone, the demigods and demons could not properly carry it to the ocean of milk.</p>
+
+
+
+<p><strong>8.6.36</strong></p>
+<p>tams tatha bhagna-manaso</p>
+<p>bhagna-bahuru-kandharan</p>
+<p>vijnaya bhagavams tatra</p>
+<p>babhuva garuda-dhvajah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>tan—all the demigods and demons; tatha—thereafter; bhagna-manasah—being brokenhearted; bhagna-bahu—with broken arms; uru—thighs; kandharan—and shoulders; vijnaya—knowing; bhagavan—the Supreme Personality of Godhead, Visnu; tatra—there; babhuva—appeared; garuda-dhvajah—being carried on Garuda.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The demigods and demons were frustrated and disheartened, and their arms, thighs and shoulders were broken.</p>
+<p>Therefore the Supreme Personality of Godhead, who knows everything, appeared there on the back of His carrier, Garuda.</p>
+
+
+
+<p><strong>8.6.37</strong></p>
+<p>giri-pata-vinispistan</p>
+<p>vilokyamara-danavan</p>
+<p>iksaya jivayam asa</p>
+<p>nirjaran nirvranan yatha</p>
+<p><strong>SYNONYMS</strong></p>
+<p>giri-pata—because of the falling of Mandara Mountain; vinispistan—crushed; vilokya—observing; amara—the demigods; danavan—and the demons; iksaya—simply by His glance; jivayam asa—brought back to life; nirjaran—without aggrievement; nirvranan—without bruises; yatha—as.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Observing that most of the demons and the demigods had been crushed by the falling of the mountain, the Lord glanced over them and brought them back to life.</p>
+<p>Thus they became free from grief, and they even had no bruises on their bodies.</p>
+
+
+
+<p><strong>8.6.38</strong></p>
+<p>girim caropya garude</p>
+<p>hastenaikena lilaya</p>
+<p>aruhya prayayav abdhim</p>
+<p>surasura-ganair vrtah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>girim—the mountain; ca—also; aropya—placing; garude—on the back of Garuda; hastena—by the hand; ekena—one; lilaya—very easily as His pastime; aruhya—getting on; prayayau—He went; abdhim—to the ocean of milk; sura-asura-ganaih—by the demigods and asuras; vrtah—surrounded.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>The Lord very easily lifted the mountain with one hand and placed it on the back of Garuda.</p>
+<p>Then, He too got on the back of Garuda and went to the ocean of milk, surrounded by the demigods and demons.</p>
+<p><strong>PURPORT</strong></p>
+<p>Here is proof of the omnipotence of the Supreme Personality of Godhead, who is above everyone.</p>
+<p>There are two classes of living entities—the demons and the demigods—and the Supreme Personality of Godhead is above them both.</p>
+<p>The demons believe in the chanc theory of creation, whereas the demigods believe in creation by the hand of the Supreme Personality of Godhead.</p>
+<p>The omnipotence of the Supreme Lord is proved here, for simply with one hand He lifted Mandara Mountain, the demigods and the demons, placed them on the back of Garuda and brought them to the ocean of milk.</p>
+<p>Now, the demigods, the devotees, would immediately accept this incident, knowing that the Lord can lift anything, however heavy it might be.</p>
+<p>But although demons were also carried along with the demigods, demons, upon hearing of this incident, would say that it is mythological.</p>
+<p>But if God is all-powerful, why would it be difficult for Him to lift a mountain? Since He is floating innumerable planets with many hundreds and thousands of Mandara Mountains, why can’t He lift one of them with His hand? This is not mythology, but the difference between the believers and the faithless is that the devotees accept the incidents mentioned in the Vedic literatures to be true, whereas the demons simply argue and label all these historical incidents mythology.</p>
+<p>Demons would prefer to explain that everything happening in the cosmic manifestation takes place by chance, but demigods, or devotees, never consider anything to be chance.</p>
+<p>Rather, they know that everything is an arrangement of the Supreme Personality of Godhead.</p>
+<p>That is the difference between the demigods and the demons.</p>
+
+
+
+<p><strong>8.6.39</strong></p>
+<p>avaropya girim skandhat</p>
+<p>suparnah patatam varah</p>
+<p>yayau jalanta utsrjya</p>
+<p>harina sa visarjitah</p>
+<p><strong>SYNONYMS</strong></p>
+<p>avaropya—unloading; girim—the mountain; skandhat—from his shoulder; suparnah—Garuda; patatam—of all the birds; varah—the biggest or most powerful; yayau—went; jala-ante—where the water is; utsrjya—placing; harina—by the Supreme Personality of Godhead; sah—he (Garuda); visarjitah—discharged from that place.</p>
+<p><strong>TRANSLATION</strong></p>
+<p>Thereafter, Garuda, the chief of birds, unloaded Mandara Mountain from his shoulder and brought it near the water.</p>
+<p>Then he was asked by the Lord to leave that place, and he left.</p>
+<p><strong>PURPORT</strong></p>
+<p>Garuda was asked by the Lord to leave that place because the snake Vasuki, who was to be used as the rope for churning, could not go there in the presence of Garuda.</p>
+<p>Garuda, the carrier of Lord Visnu, is not a vegetarian.</p>
+<p>He eats big snakes.</p>
+<p>Vasuki, being a great snake, would be natural food for Garuda, the chief of birds.</p>
+<p>Lord Visnu therefore asked Garuda to leave so that Vasuki could be brought to churn the ocean with Mandara Mountain, which was to be used as the churning rod.</p>
+<p>These are the wonderful arrangements of the Supreme Personality of Godhead.</p>
+<p>Nothing takes place by accident.</p>
+<p>Carrying Mandara Mountain on the back of a bird and putting it in its right position might be difficult for anyone, whether demigod or demon, but for the Supreme Personality of Godhead everything is possible, as shown by this pastime.</p>
+<p>The Lord had no difficulty lifting the mountain with one hand, and Garuda, His carrier, carried all the demons and demigods together by the grace of the Supreme Lord.</p>
+<p>The Lord is known as Yogesvara, the master of all mystic power, because of His omnipotence.</p>
+<p>If He likes, He can make anything lighter than cotton or heavier than the universe.</p>
+<p>Those who do not believe in the activities of the Lord cannot explain how things happen.</p>
+<p>Using words like accident they take shelter of ideas that are unbelievable.</p>
+<p>Nothing is accidental.</p>
+<p>Everything is done by the Supreme Personality of Godhead, as the Lord Himself confirms in Bhagavad-gita (9.10).</p>
+<p>Mayadhyaksena prakrtih suyate sacaracaram.</p>
+<p>Whatever actions and reactions occur within the cosmic manifestation all take place under the superintendence of the Supreme Personality of Godhead.</p>
+<p>However, because the demons do not understand the potency of the Lord, when wonderful things are done, the demons think that they are accidental.</p>
+
+
+</article></body></html>
