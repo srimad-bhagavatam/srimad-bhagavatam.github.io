@@ -1,4 +1,4 @@
-$#HARDKOREBOB on {#!++} created with: __vim,bash,sed,awk,for,xargs,cat,find,__$
+$#HARDKOREBOB on {#!++} created with: __vim,bash,sed,awk,for,xargs,cat,find,lynx__$
 
 # Śrīmad-Bhāgavatam
 
