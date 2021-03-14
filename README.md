@@ -1,4 +1,5 @@
-$created using __bash,sed,awk,for,cat,find,__$#byHARDKOREBOB
+$#HARDKOREBOB on {#!++} created with: __vim,bash,sed,awk,for,xargs,cat,find,__$
+
 # Śrīmad-Bhāgavatam
 
 *Śrīmad-Bhāgavatam (Bhāgavata Purāṇa)* begins with the definition of the ultimate source. It is a bona fide commentary on the *Vedanta-sutra* by the same author, Srila Vyasadeva, and gradually it develops into nine cantos up to the highest state of God realization.
